@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>事件图可视化</title>
+  <link rel="stylesheet" href="../lib/vis-9.1.2/vis-network.css" />
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin: 0; }
+    #mynetwork { width: 100vw; height: 100vh; border-top: 1px solid #eee; }
+    .legend { position: fixed; top: 10px; left: 10px; background: rgba(255,255,255,.9); padding: 8px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 12px; }
+    .legend-item { display: flex; align-items: center; gap: 6px; margin: 4px 0; }
+    .shape-circle { width: 12px; height: 12px; background: #E3F2FD; border: 2px solid #1E88E5; border-radius: 50%; }
+    .shape-triangle { width: 0; height: 0; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 14px solid #FB8C00; }
+  </style>
+  <script src="../lib/vis-9.1.2/vis-network.min.js"></script>
+  <script>
+    const nodes = [{"id": "entity::GhostWriter", "label": "GhostWriter\n[黑客组织]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "entity::2017年", "label": "2017年\n[时间]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "entity::立陶宛", "label": "立陶宛\n[国家]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "entity::拉脱维亚", "label": "拉脱维亚\n[国家]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "entity::波兰", "label": "波兰\n[国家]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "entity::记者", "label": "记者\n[职业]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "entity::观众", "label": "观众\n[人群]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "entity::虚假信息", "label": "虚假信息\n[信息类型]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "entity::北约", "label": "北约\n[国际组织]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "entity::波兰政府", "label": "波兰政府\n[政府机构]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "entity::电子邮件账户", "label": "电子邮件账户\n[网络账户]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "entity::敏感信息", "label": "敏感信息\n[信息类型]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "entity::社交媒体账户", "label": "社交媒体账户\n[网络账户]", "shape": "circle", "color": {"background": "#E3F2FD", "border": "#1E88E5"}}, {"id": "event::开始活动::0", "label": "开始活动\n<活跃>", "shape": "triangle", "color": {"background": "#FFECB3", "border": "#FB8C00"}}, {"id": "event::伪装行为::1", "label": "伪装行为\n<冒充>", "shape": "triangle", "color": {"background": "#FFECB3", "border": "#FB8C00"}}, {"id": "event::信息传播::2", "label": "信息传播\n<传播>", "shape": "triangle", "color": {"background": "#FFECB3", "border": "#FB8C00"}}, {"id": "event::警告行为::3", "label": "警告行为\n<警告>", "shape": "triangle", "color": {"background": "#FFECB3", "border": "#FB8C00"}}, {"id": "event::监视行为::4", "label": "监视行为\n<关注>", "shape": "triangle", "color": {"background": "#FFECB3", "border": "#FB8C00"}}, {"id": "event::网络攻击::5", "label": "网络攻击\n<侵入>", "shape": "triangle", "color": {"background": "#FFECB3", "border": "#FB8C00"}}, {"id": "event::信息获取::6", "label": "信息获取\n<收集>", "shape": "triangle", "color": {"background": "#FFECB3", "border": "#FB8C00"}}, {"id": "event::账户控制::7", "label": "账户控制\n<控制>", "shape": "triangle", "color": {"background": "#FFECB3", "border": "#FB8C00"}}, {"id": "event::信息传播::8", "label": "信息传播\n<传播>", "shape": "triangle", "color": {"background": "#FFECB3", "border": "#FB8C00"}}];
+    const edges = [{"from": "entity::GhostWriter", "to": "event::开始活动::0", "label": "活动主体"}, {"from": "entity::2017年", "to": "event::开始活动::0", "label": "开始时间"}, {"from": "entity::GhostWriter", "to": "event::伪装行为::1", "label": "伪装者"}, {"from": "entity::记者", "to": "event::伪装行为::1", "label": "被伪装对象"}, {"from": "entity::立陶宛", "to": "event::伪装行为::1", "label": "伪装地点1"}, {"from": "entity::拉脱维亚", "to": "event::伪装行为::1", "label": "伪装地点2"}, {"from": "entity::波兰", "to": "event::伪装行为::1", "label": "伪装地点3"}, {"from": "entity::GhostWriter", "to": "event::信息传播::2", "label": "传播者"}, {"from": "entity::虚假信息", "to": "event::信息传播::2", "label": "传播内容"}, {"from": "entity::观众", "to": "event::信息传播::2", "label": "传播对象"}, {"from": "entity::北约", "to": "event::信息传播::2", "label": "相关组织"}, {"from": "entity::波兰政府", "to": "event::警告行为::3", "label": "警告者"}, {"from": "entity::GhostWriter", "to": "event::警告行为::3", "label": "被警告对象"}, {"from": "entity::GhostWriter", "to": "event::监视行为::4", "label": "监视者"}, {"from": "entity::波兰", "to": "event::监视行为::4", "label": "被监视对象"}, {"from": "entity::GhostWriter", "to": "event::网络攻击::5", "label": "攻击者"}, {"from": "entity::电子邮件账户", "to": "event::网络攻击::5", "label": "攻击目标"}, {"from": "entity::GhostWriter", "to": "event::信息获取::6", "label": "获取者"}, {"from": "entity::敏感信息", "to": "event::信息获取::6", "label": "获取内容"}, {"from": "entity::GhostWriter", "to": "event::账户控制::7", "label": "控制者"}, {"from": "entity::社交媒体账户", "to": "event::账户控制::7", "label": "被控制对象"}, {"from": "entity::GhostWriter", "to": "event::信息传播::8", "label": "传播者"}, {"from": "entity::虚假信息", "to": "event::信息传播::8", "label": "传播内容"}, {"from": "entity::社交媒体账户", "to": "event::信息传播::8", "label": "传播媒介"}, {"from": "entity::GhostWriter", "to": "entity::立陶宛", "label": "攻击"}, {"from": "entity::GhostWriter", "to": "entity::拉脱维亚", "label": "攻击"}, {"from": "entity::GhostWriter", "to": "entity::波兰", "label": "攻击"}, {"from": "entity::GhostWriter", "to": "entity::记者", "label": "针对"}, {"from": "entity::GhostWriter", "to": "entity::波兰政府", "label": "针对"}, {"from": "entity::GhostWriter", "to": "entity::敏感信息", "label": "窃取"}, {"from": "entity::GhostWriter", "to": "entity::电子邮件账户", "label": "入侵"}, {"from": "entity::GhostWriter", "to": "entity::社交媒体账户", "label": "入侵"}, {"from": "entity::GhostWriter", "to": "entity::虚假信息", "label": "传播"}, {"from": "entity::虚假信息", "to": "entity::观众", "label": "影响"}, {"from": "entity::波兰", "to": "entity::北约", "label": "属于"}, {"from": "entity::立陶宛", "to": "entity::北约", "label": "属于"}, {"from": "entity::拉脱维亚", "to": "entity::北约", "label": "属于"}, {"from": "entity::GhostWriter", "to": "entity::2017年", "label": "开始于"}, {"from": "event::伪装行为::1", "to": "event::信息传播::2", "label": "同时", "arrows": "to"}, {"from": "event::伪装行为::1", "to": "event::开始活动::0", "label": "先于", "arrows": "to"}, {"from": "event::警告行为::3", "to": "event::监视行为::4", "label": "同时", "arrows": "to"}, {"from": "event::监视行为::4", "to": "event::网络攻击::5", "label": "先于", "arrows": "to"}, {"from": "event::监视行为::4", "to": "event::信息获取::6", "label": "先于", "arrows": "to"}, {"from": "event::监视行为::4", "to": "event::账户控制::7", "label": "先于", "arrows": "to"}, {"from": "event::监视行为::4", "to": "event::信息传播::2", "label": "先于", "arrows": "to"}, {"from": "event::网络攻击::5", "to": "event::信息获取::6", "label": "先于", "arrows": "to"}, {"from": "event::账户控制::7", "to": "event::信息传播::2", "label": "先于", "arrows": "to"}, {"from": "event::开始活动::0", "to": "event::警告行为::3", "label": "先于", "arrows": "to"}, {"from": "event::伪装行为::1", "to": "event::警告行为::3", "label": "先于", "arrows": "to"}, {"from": "event::信息传播::2", "to": "event::警告行为::3", "label": "先于", "arrows": "to"}, {"from": "event::开始活动::0", "to": "event::监视行为::4", "label": "先于", "arrows": "to"}, {"from": "event::伪装行为::1", "to": "event::监视行为::4", "label": "先于", "arrows": "to"}, {"from": "event::信息传播::2", "to": "event::监视行为::4", "label": "先于", "arrows": "to"}];
+    window.addEventListener('DOMContentLoaded', () => {
+      const container = document.getElementById('mynetwork');
+      const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
+      const options = {
+        layout: {
+          improvedLayout: true
+        },
+        physics: {
+          enabled: true,
+          solver: 'forceAtlas2Based',
+          stabilization: { iterations: 150 }
+        },
+        interaction: { hover: true, tooltipDelay: 150 }
+      };
+      new vis.Network(container, data, options);
+    });
+  </script>
+  </head>
+<body>
+  <div class="legend">
+    <div class="legend-item"><span class="shape-circle"></span> 实体（名词）</div>
+    <div class="legend-item"><span class="shape-triangle"></span> 事件（动词）</div>
+  </div>
+  <div id="mynetwork"></div>
+</body>
+</html>
