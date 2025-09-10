@@ -32,19 +32,14 @@
 
 ### 基本用法（推荐）
 ```python
-from eventExtract import DynamicEventGraphBuilder
-
-# 初始化构建器
-builder = DynamicEventGraphBuilder(api_key="your_api_key")
+from graph_visualizer import visualize_event_graph
 
 # 构建事件图
 text = "你的文本内容..."
-event_graph = builder.build_event_graph(text)
-
-# 可视化
-G = build_networkx_graph(event_graph)
-visualize_matplotlib(G, save_path="event_graph.png")
-visualize_pyvis(G, output_html="event_graph.html")
+API_KEY = "API key"
+# 方式4：一键可视化输出 HTML
+html_path = visualize_event_graph(text, API_KEY)
+print(f"可视化已生成：{html_path}")
 ```
 
 ### 高级用法
