@@ -1,6 +1,10 @@
 # 事件图构建系统
 
-这是一个用于从文本中构建动态事件图的系统，已拆分为三个独立的模块。
+这是一个用于从文本中构建事件图的系统，已拆分为三个独立的模块。
+
+- 数据：https://github.com/limanling/temporal-graph-schema/tree/main/data
+- 数据分类（ontology）：https://github.com/NextCenturyCorporation/kairos-pub/tree/master/data-format/ontology
+- resin事件提取工具：https://github.com/RESIN-KAIROS/RESIN-pipeline-public/tree/api
 
 ## 文件结构
 

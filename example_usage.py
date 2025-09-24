@@ -6,6 +6,9 @@ from llm_service import LLMService
 from prompt_templates import PromptTemplates
 from evaluation import SchemaEvaluator
 import numpy as np
+from utils import Logger, split_corpus
+
+logger = Logger()
 
 
 def extract_text_and_event_graph(json_data: Dict) -> Dict:
@@ -14,11 +17,11 @@ def extract_text_and_event_graph(json_data: Dict) -> Dict:
     """
     result = {
         "original_texts": [],  # 原文本集合
-        "event_graph": {       # 事件图信息
-            "clusters": []     # 事件集群（每个cluster包含steps）
+        "event_graph": {  # 事件图信息
+            "clusters": []  # 事件集群（每个cluster包含steps）
         }
     }
-    
+
     # 提取原文本（来自provenanceData中的sentence或text）
     schemas = json_data.get("schemas", [])
     for schema in schemas:
@@ -29,7 +32,7 @@ def extract_text_and_event_graph(json_data: Dict) -> Dict:
                 result["original_texts"].append(item["sentence"])
             elif "text" in item:
                 result["original_texts"].append(item["text"])
-    
+
     # 提取事件图（来自steps，包含事件类型、名称、参与者等）
     for schema in schemas:
         cluster_info = {
@@ -42,12 +45,12 @@ def extract_text_and_event_graph(json_data: Dict) -> Dict:
             event_step = {
                 "event_id": step.get("@id"),
                 "event_type": step.get("@type"),  # 事件类型（如Movement.Transportation.Unspecified）
-                "event_name": step.get("name"),   # 事件名称
+                "event_name": step.get("name"),  # 事件名称
                 "participants": step.get("participants", [])  # 事件参与者
             }
             cluster_info["steps"].append(event_step)
         result["event_graph"]["clusters"].append(cluster_info)
-    
+
     # 去重原文本（避免重复）
     result["original_texts"] = list(set(result["original_texts"]))
     return result
@@ -65,11 +68,11 @@ def load_ground_truth(file_path: str) -> List[Dict]:
                 json_data = json.loads(line)
                 # 使用extract_text_and_event_graph提取数据
                 extracted = extract_text_and_event_graph(json_data)
-                
+
                 # 将提取的数据转换为评估所需的格式
                 # 合并所有原文本
                 full_text = " ".join(extracted["original_texts"])
-                
+
                 # 提取实体信息（从participants中）
                 entities = []
                 for cluster in extracted["event_graph"]["clusters"]:
@@ -77,12 +80,14 @@ def load_ground_truth(file_path: str) -> List[Dict]:
                         for participant in step["participants"]:
                             entity_info = {
                                 "实体文本": participant.get("name", ""),
-                                "类型": participant.get("entityTypes", "").split(".")[-1] if participant.get("entityTypes") else "PER"
+                                "类型": (participant.get("entityTypes", "").split(".")[-1] if participant.get(
+                                    "entityTypes") else "PER").split("/")[-1]
                             }
                             if entity_info["实体文本"] and entity_info["类型"]:
                                 entities.append(entity_info)
-                
+
                 # 提取事件信息
+                import re
                 events = []
                 for cluster in extracted["event_graph"]["clusters"]:
                     for step in cluster["steps"]:
@@ -91,23 +96,118 @@ def load_ground_truth(file_path: str) -> List[Dict]:
                         trigger_word = ""
                         if event_name:
                             # 移除<arg1>, <arg2>等占位符，保留动词
-                            import re
                             trigger_word = re.sub(r'<arg\d+>', '', event_name).strip()
-                        
+
                         event_info = {
                             "触发词": trigger_word,
                             "事件类型": step.get("event_type", "").split(".")[-1] if step.get("event_type") else ""
                         }
                         if event_info["触发词"] and event_info["事件类型"]:
                             events.append(event_info)
-                
+
+                # 依据原始KAIROS结构补齐 relations / temporal_relations / coreferences
+                schemas = json_data.get("schemas", [])
+                relations: List[Dict] = []
+                temporal_relations: List[Dict] = []
+                coreferences: List[Dict] = []
+
+                for schema in schemas:
+                    # 1) 构建实体ID->显示名映射，用于关系主体/客体映射
+                    entity_id_to_name: Dict[str, str] = {}
+                    entity_id_to_rawname: Dict[str, str] = {}
+                    for ent in schema.get("entities", []) or []:
+                        ent_id = ent.get("@id")
+                        ent_name = ent.get("name", "")
+                        entity_id_to_rawname[ent_id] = ent_name
+                        # 去掉前缀类型（如 PER_ / ORG_ / GPE_）
+                        if "_" in ent_name:
+                            try:
+                                ent_name_clean = ent_name.split("_", 1)[1]
+                            except Exception:
+                                ent_name_clean = ent_name
+                        else:
+                            ent_name_clean = ent_name
+                        if ent_id:
+                            entity_id_to_name[ent_id] = ent_name_clean
+
+                    # 2) relations: 来源 schemas[].entityRelations
+                    for rel_item in schema.get("entityRelations", []) or []:
+                        subj_id = rel_item.get("relationSubject")
+                        rel_obj = rel_item.get("relations", {}) or {}
+                        pred = rel_obj.get("relationPredicate", "")
+                        obj_id = rel_obj.get("relationObject")
+                        # 关系类型取最后一个'.'后的片段（如 Physical.LocatedNear -> LocatedNear）
+                        rel_type = pred.split(".")[-1] if pred else ""
+                        e1_name = entity_id_to_name.get(subj_id, entity_id_to_rawname.get(subj_id, ""))
+                        e2_name = entity_id_to_name.get(obj_id, entity_id_to_rawname.get(obj_id, ""))
+                        if e1_name and e2_name and rel_type:
+                            relations.append({
+                                "实体1": e1_name,
+                                "关系类型": rel_type,
+                                "实体2": e2_name
+                            })
+
+                    # 3) temporal_relations: 来源 schemas[].order（before/after是事件@id）
+                    step_id_to_type: Dict[str, str] = {}
+                    for st in schema.get("steps", []) or []:
+                        st_id = st.get("@id")
+                        st_type = st.get("@type", "")
+                        st_type_tail = st_type.split(".")[-1] if st_type else ""
+                        if st_id:
+                            step_id_to_type[st_id] = st_type_tail
+                    for ord_item in schema.get("order", []) or []:
+                        before_id = ord_item.get("before")
+                        after_id = ord_item.get("after")
+                        before_type = step_id_to_type.get(before_id, "")
+                        after_type = step_id_to_type.get(after_id, "")
+                        if before_type and after_type:
+                            temporal_relations.append({
+                                "事件类型1": before_type,
+                                "时间关系": "先于",
+                                "事件类型2": after_type
+                            })
+
+                    # 4) coreferences: 通过 participants 中的 reference 将同一参考ID的实体聚合
+                    # participants[].values[].entity -> 实体@id； participants.reference 作为共指键
+                    # 注：有的participants可能无reference或无values，需鲁棒处理
+                    entity_id_to_reference: Dict[str, str] = {}
+                    for st in schema.get("steps", []) or []:
+                        for p in st.get("participants", []) or []:
+                            ref = p.get("reference")
+                            values = p.get("values", []) or []
+                            if not ref or not values:
+                                continue
+                            for val in values:
+                                ent_id = val.get("entity")
+                                if ent_id:
+                                    entity_id_to_reference[ent_id] = ref
+                    # 反向聚合：reference -> [names]
+                    ref_to_names: Dict[str, List[str]] = {}
+                    for ent_id, ref in entity_id_to_reference.items():
+                        name = entity_id_to_name.get(ent_id, entity_id_to_rawname.get(ent_id, ""))
+                        if not name:
+                            continue
+                        ref_to_names.setdefault(ref, []).append(name)
+                    # 生成共指簇（长度>=2）
+                    for ref, mentions in ref_to_names.items():
+                        uniq_mentions = list(dict.fromkeys(mentions))
+                        if len(uniq_mentions) < 2:
+                            continue
+                        # 选择一个较“规范”的名称作为统一实体：优先最长的一个
+                        canonical = max(uniq_mentions, key=lambda s: len(s)) if uniq_mentions else ""
+                        if canonical:
+                            coreferences.append({
+                                "统一实体": canonical,
+                                "指代表述": uniq_mentions
+                            })
+
                 all_data.append({
                     "text": full_text,
                     "entities": entities,
                     "events": events,
-                    "relations": [],  # 暂时为空，需要根据实际数据结构补充
-                    "temporal_relations": [],  # 暂时为空，需要根据实际数据结构补充
-                    "coreferences": []  # 暂时为空，需要根据实际数据结构补充
+                    "relations": relations,
+                    "temporal_relations": temporal_relations,
+                    "coreferences": coreferences
                 })
             except json.JSONDecodeError as e:
                 print(f"解析JSON行时出错: {e}")
@@ -120,9 +220,16 @@ def normalize_entity(entity: str, coref_map: Dict[str, str]) -> str:
     return coref_map.get(entity, entity)
 
 
-def calculate_entity_f1(predicted: List[Dict], ground_truth: List[Dict], coref_map: Dict[str, str], 
-                       evaluator: SchemaEvaluator) -> Tuple[float, float, float]:
-    """计算实体识别的F1值（使用词相似度匹配）"""
+def calculate_entity_f1(predicted: List[Dict], ground_truth: List[Dict], coref_map: Dict[str, str],
+                        evaluator: SchemaEvaluator, logger_=None) -> Tuple[float, float, float]:
+    """
+
+    计算实体识别的F1值（使用词相似度匹配）
+
+    数据样例：
+    predicted = [{'实体文本': 'The 1970s', '类型': '时代'}, {'实体文本': 'Vietnam War', '类型': '战争'}, {'实体文本': 'equal rights', '类型': '权利'}, {'实体文本': 'traditional values', '类型': '价值观'}]
+    ground_truth = [{'实体文本': 'Vietnam', '类型': 'kairos:Primitives/Entities/GPE'}]
+    """
     # 应用共指消解
     normalized_predicted = []
     for ent in predicted:
@@ -130,14 +237,14 @@ def calculate_entity_f1(predicted: List[Dict], ground_truth: List[Dict], coref_m
         ent_type = ent.get("类型", "")
         if text and ent_type:
             normalized_predicted.append({"实体文本": text, "类型": ent_type})
-    
+
     # 使用新的评估器
-    result = evaluator.evaluate_entities(normalized_predicted, ground_truth)
-    return (result["precision"], result["recall"], result["f1"])
+    result = evaluator.evaluate_entities(normalized_predicted, ground_truth, logger_)
+    return result["precision"], result["recall"], result["f1"]
 
 
-def calculate_relation_f1(predicted: List[Dict], ground_truth: List[Dict], coref_map: Dict[str, str], 
-                         evaluator: SchemaEvaluator) -> Tuple[float, float, float]:
+def calculate_relation_f1(predicted: List[Dict], ground_truth: List[Dict], coref_map: Dict[str, str],
+                          evaluator: SchemaEvaluator) -> Tuple[float, float, float]:
     """计算实体关系的F1值（使用词相似度匹配）"""
     # 应用共指消解
     normalized_predicted = []
@@ -147,26 +254,26 @@ def calculate_relation_f1(predicted: List[Dict], ground_truth: List[Dict], coref
         rel_type = rel.get("关系类型", "")
         if e1 and e2 and rel_type:
             normalized_predicted.append({"实体1": e1, "实体2": e2, "关系类型": rel_type})
-    
+
     # 使用新的评估器
     result = evaluator.evaluate_relations(normalized_predicted, ground_truth)
     return (result["precision"], result["recall"], result["f1"])
 
 
-def calculate_event_f1(predicted: List[Dict], ground_truth: List[Dict], coref_map: Dict[str, str], 
-                      evaluator: SchemaEvaluator) -> Tuple[float, float, float]:
+def calculate_event_f1(predicted: List[Dict], ground_truth: List[Dict], coref_map: Dict[str, str],
+                       evaluator: SchemaEvaluator) -> Tuple[float, float, float]:
     """计算事件识别的F1值（使用词相似度匹配）"""
     # 使用新的评估器
     result = evaluator.evaluate_events(predicted, ground_truth)
     return (result["precision"], result["recall"], result["f1"])
 
 
-def calculate_temporal_f1(predicted: List[Dict], ground_truth: List[Dict], 
-                         evaluator: SchemaEvaluator) -> Tuple[float, float, float]:
+def calculate_temporal_f1(predicted: List[Dict], ground_truth: List[Dict],
+                          evaluator: SchemaEvaluator) -> Tuple[float, float, float]:
     """计算时间关系的F1值（使用词相似度匹配）"""
     # 使用新的评估器
     result = evaluator.evaluate_temporal_relations(predicted, ground_truth)
-    return (result["precision"], result["recall"], result["f1"])
+    return result["precision"], result["recall"], result["f1"]
 
 
 def evaluate_file(llm_service: LLMService, templates: Dict, file_path: str, evaluator: SchemaEvaluator) -> List[Dict]:
@@ -174,16 +281,22 @@ def evaluate_file(llm_service: LLMService, templates: Dict, file_path: str, eval
     print(f"处理文件: {file_path}")
     all_ground_truth = load_ground_truth(file_path)
     all_results = []
-    
+
     for i, ground_truth in enumerate(all_ground_truth):
-        print(f"  处理第 {i+1} 条数据")
+        print(f"  处理第 {i + 1} 条数据")
         text = ground_truth["text"]
         if not text:
-            print(f"  第 {i+1} 条数据文本为空，跳过")
+            print(f"  第 {i + 1} 条数据文本为空，跳过")
             continue
-            
+
         # 1. 实体识别
-        entities_pred = llm_service.extract_entities(text, templates["ner"]) or []
+        corpus_list = split_corpus(text)
+        entities_pred = []
+        for text_i in corpus_list:
+            if len(text_i) <= 4:
+                continue
+            entities_pred_i = llm_service.extract_entities(text_i, templates["ner"]) or []
+            entities_pred.extend(entities_pred_i)
 
         # 2. 事件识别
         events_pred = llm_service.extract_events(text, entities_pred, templates["event_extraction"]) or []
@@ -207,7 +320,12 @@ def evaluate_file(llm_service: LLMService, templates: Dict, file_path: str, eval
         temporal_pred = llm_service.extract_temporal_relations(text, events_pred, templates["temporal_relation"]) or []
 
         # 计算各项F1值（使用新的评估器）
-        ent_p, ent_r, ent_f1 = calculate_entity_f1(entities_pred, ground_truth["entities"], coref_map, evaluator)
+        ent_p, ent_r, ent_f1 = calculate_entity_f1(entities_pred, ground_truth["entities"], coref_map, evaluator, logger)
+        if ent_f1 < 0.4:
+            logger.printLog(f"  实体识别F1: {ent_f1:.2f}，对应文本：{text}")
+            logger.printLog(f"  识别结果：{entities_pred}")
+            logger.printLog(f"  ground truth: {ground_truth['entities']}")
+
         rel_p, rel_r, rel_f1 = calculate_relation_f1(relations_pred, ground_truth["relations"], coref_map, evaluator)
         evt_p, evt_r, evt_f1 = calculate_event_f1(events_pred, ground_truth["events"], coref_map, evaluator)
         tmp_p, tmp_r, tmp_f1 = calculate_temporal_f1(temporal_pred, ground_truth["temporal_relations"], evaluator)
@@ -218,13 +336,13 @@ def evaluate_file(llm_service: LLMService, templates: Dict, file_path: str, eval
             "event": (evt_p, evt_r, evt_f1),
             "temporal": (tmp_p, tmp_r, tmp_f1)
         })
-        print("*"*80)
+        print("*" * 80)
         print(f"  实体识别F1: {ent_f1:.2f}")
         print(f"  实体关系抽取F1: {rel_f1:.2f}")
         print(f"  事件识别F1: {evt_f1:.2f}")
         print(f"  时间关系抽取F1: {tmp_f1:.2f}")
-        print("*"*80)
-    
+        print("*" * 80)
+
     return all_results
 
 
