@@ -16,6 +16,13 @@ def get_log_location() -> str:
     return os.path.join(get_root_location(), 'logs')
 
 
+def get_result_location() -> str:
+    """
+    获取结果文件保存路径
+    """
+    return os.path.join(get_root_location(), 'results')
+
+
 def get_log_file_with_timestamp(filename: str):
     """
     获取带时间戳的日志文件名

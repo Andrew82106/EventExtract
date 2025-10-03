@@ -1,3 +1,4 @@
 /logs
 /dataset/ProcessDataFromRaw
 /dataset/LDC_schema_corpus_ce_split
+/dataset/processedData
