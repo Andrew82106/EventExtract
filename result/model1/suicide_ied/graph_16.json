@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_16_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五早上，奎塔的哈扎尔干吉市场发生爆炸，造成至少20人死亡（包括8名哈扎拉人、1名FC官员和2名儿童），至少48人受伤（包括3名安全人员），据信目标是哈扎拉社区成员。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸发生后不久，妇女和儿童开始静坐抗议，要求政府实施有效的安全计划，确保哈扎拉社区的保护。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六，哈扎拉社区成员在奎塔的西部旁路继续进行第二天的静坐，要求更好的安全措施。",
+      "source_text": "text_16"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_3",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_37_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1981年至2006年间，全球发生了1200起自杀式袭击，造成14,599人死亡",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2003年10月4日，巴勒斯坦律师Hanadi Jaradat在海法Maxim餐厅发动自杀式袭击，造成20人死亡",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2006年11月23日，最年长的巴勒斯坦自杀式炸弹袭击者Fatma Omar An-Anajar在加沙引爆了自己",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2007年9月，美国军队在叙利亚边境附近的Singar突袭伊拉克叛乱营地，发现700多名外国战斗人员的传记",
+      "source_text": "text_37"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_37_node_1",
+      "target": "text_37_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_37_node_2",
+      "target": "text_37_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_37_node_3",
+      "target": "text_37_node_4",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列游客从特拉维夫飞抵保加利亚布尔加斯。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "游客在当地时间周三17:00后不久登上巴士。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "针对以色列游客的自杀式袭击发生，巴士起火。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致至少8人死亡（后来修正为7人，包括疑似自杀式袭击者）。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "目击者Gal Malka向以色列军方电台描述了袭击发生时的情景。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列法医团队连夜抵达，帮助辨认尸体。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_7",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "载有以色列高级军官和创伤外科医生的Hercules飞机降落在保加利亚，协助转移伤者。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "以色列总理内塔尼亚胡等人指责伊朗参与了此次袭击。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊朗国家电视台在其网站上称这些指控是\"荒谬的\"和\"耸人听闻的\"。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊朗国家电视台表示，以色列的指控是为了诋毁伊朗及其盟友如叙利亚。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚总理鲍里索夫表示，疑似自杀式袭击者携带的密歇根州驾照是伪造的。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_12",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "鲍里索夫表示，他们与FBI和CIA合作确认数据库中没有袭击者信息。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_13",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "鲍里索夫要求公布袭击前安全摄像头拍摄到的嫌疑人照片。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列国防部长巴拉克称这次袭击是全球恐怖主义浪潮的一部分。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴拉克指责这次袭击由真主党成员领导，并由伊朗赞助。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "美国总统奥巴马在与内塔尼亚胡的电话中谴责了这次袭击。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "奥巴马表示美国将提供必要协助，查明并将袭击者绳之以法。",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_2",
+      "target": "text_5_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_16",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_8",
+      "target": "text_5_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_9",
+      "target": "text_5_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_11",
+      "target": "text_5_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_12",
+      "target": "text_5_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_14",
+      "target": "text_5_node_15",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_16",
+      "target": "text_5_node_17",
+      "relation": "before"
+    }
+  ]
+}

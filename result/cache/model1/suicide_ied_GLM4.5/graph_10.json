@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_10_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周一莫斯科时间14:40左右，一列从Tekhnologichesky Institut站开往Sennaya Ploshchad站的地铁车厢内发生不明装置爆炸。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯调查委员会将爆炸定性为恐怖袭击，但同时也在调查其他可能性。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "根据国家反恐委员会提供的最新数据，爆炸造成11人死亡。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "日本首相安倍晋三谴责周一发生在圣彼得堡的疑似恐怖袭击，并强调与俄罗斯团结一致。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "周二，安倍晋三在首相办公室表示不能容忍恐怖行为，并强调俄罗斯和日本人民站在一起。",
+      "source_text": "text_10"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_4",
+      "target": "text_10_node_5",
+      "relation": "before"
+    }
+  ]
+}

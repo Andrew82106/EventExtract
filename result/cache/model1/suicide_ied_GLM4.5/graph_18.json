@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_18_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "城市政府官员在拉合尔市Ferozepur Road开展针对非法建筑和商贩侵占的整治活动",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_2",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "一大批警察被指派为该活动提供安全保障",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周一下午，一名自杀式炸弹袭击者针对警察发动了爆炸袭击",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸造成至少26人死亡，58人受伤",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦塔利班宣称对此次袭击负责，并公布了他们所称的袭击者的照片",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_6",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "塔利班警告称，将在旁遮普省发动更多自杀式任务",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "省部长Khawaja Imran Nazir向当地新闻媒体表示，警察是此次袭击的主要目标",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Khawaja Imran Nazir表示，至少有9名遇难者是警察",
+      "source_text": "text_18"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_3",
+      "target": "text_18_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_3",
+      "target": "text_18_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_3",
+      "target": "text_18_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_5",
+      "target": "text_18_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_7",
+      "target": "text_18_node_8",
+      "relation": "before"
+    }
+  ]
+}

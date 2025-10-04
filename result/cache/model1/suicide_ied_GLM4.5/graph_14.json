@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_14_node_1",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014-2017年期间，巴格达迪领导伊斯兰国并自称为所有穆斯林的哈里发，控制伊拉克和叙利亚大片地区",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "在美国领导的攻击下，伊斯兰国的控制瓦解",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "3月，伊斯兰国在叙利亚失去最后一块重要领土，开始诉诸游击战",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周末，美国特种部队在叙利亚西北部进行突袭，杀死巴格达迪",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊斯兰国通过在线发布的录音带确认巴格达迪和发言人阿布·哈桑·穆哈吉尔的死亡",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_6",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣布任命阿布·易卜拉欣·哈希米·库拉伊希为巴格达迪的继任者",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_7",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊斯兰国发言人在录音带中警告美国要小心报复",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴格达迪死后，伊斯兰国发布了几十个对伊拉克、叙利亚、阿富汗和其他地方袭击负责的声明",
+      "source_text": "text_14"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_14_node_1",
+      "target": "text_14_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_14_node_2",
+      "target": "text_14_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_14_node_3",
+      "target": "text_14_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_14_node_4",
+      "target": "text_14_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_14_node_4",
+      "target": "text_14_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_14_node_5",
+      "target": "text_14_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_14_node_6",
+      "target": "text_14_node_7",
+      "relation": "before"
+    }
+  ]
+}

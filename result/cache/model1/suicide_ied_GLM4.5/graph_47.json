@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "id": "text_47_node_1",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "Merrill Markoe参与创作喜剧节目'Late Night with David Letterman'",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "Merrill Markoe写作并出版了10本书",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Merrill Markoe在日记中记录了大量生活细节",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "三年前Merrill Markoe发现了她的旧日记",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "Merrill Markoe基于发现的日记创作了图形回忆录'We Saw Scenery'",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_6",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "Merrill Markoe创作了一幅自画像",
+      "source_text": "text_47"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_47_node_3",
+      "target": "text_47_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_4",
+      "target": "text_47_node_5",
+      "relation": "before"
+    }
+  ]
+}

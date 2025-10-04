@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "id": "text_17_node_1",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班多次威胁要针对三个世俗政党（ANP、PPP和MQM），因其支持军事行动和反恐战争",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "过去一个月内，ANP领导人和候选人已遭受六次类似袭击",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "4月16日晚上，一名自杀式炸弹袭击者在白沙瓦的ANP选举集会上引爆自己",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "炸弹袭击发生在ANP领导人车辆附近，使用了约6公斤装有滚珠轴承的炸药",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成至少15人死亡，包括四名警察和一名记者，另有50人受伤",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_6",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "ANP高级领导人兼前联邦铁路部长Ghulam Ahmed Bilour在袭击中受伤",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "塔利班声称对袭击负责，表示目标是Haroon Bilour而非Ghulam Ahmed Bilour",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_8",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "死者包括前联邦部长的司机、多名警察和一名记者",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救援队和ANP工人赶到现场，将死者和伤者转移到医院",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "ANP领导人表示，Ghulam Ahmed Bilour明显受到惊吓，裤子上沾有血迹",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "白沙瓦副专员表示，一些伤者情况严重，正在监控局势",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "ANP负责人声称，某些势力想要从选举中消除自由力量",
+      "source_text": "text_17"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_9",
+      "target": "text_17_node_11",
+      "relation": "before"
+    }
+  ]
+}

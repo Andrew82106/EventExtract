@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_23_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈马斯两名领导人Sheik Ahmed Yassin和Dr. Abdel Aziz Rantisi在加沙被暗杀",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两名自杀式炸弹袭击者在贝尔谢巴引爆了两辆相距100码的公共汽车",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成至少16人死亡，包括一名4岁儿童，100多人受伤",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "哈马斯声称对袭击负责，称这是报复其领导人被暗杀",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_5",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "以色列总理沙龙与安全内阁会晤后承诺继续全力打击恐怖主义",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "沙龙表示爆炸不会影响他单方面从加沙撤军的计划",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_7",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "一些政治家呼吁加速建设隔离屏障，忽略最高法院关于考虑巴勒斯坦人利益的决定",
+      "source_text": "text_23"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_23_node_1",
+      "target": "text_23_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_23_node_2",
+      "target": "text_23_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_23_node_2",
+      "target": "text_23_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_23_node_4",
+      "target": "text_23_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_23_node_5",
+      "target": "text_23_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_23_node_6",
+      "target": "text_23_node_7",
+      "relation": "before"
+    }
+  ]
+}

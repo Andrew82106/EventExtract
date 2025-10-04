@@ -1,0 +1,148 @@
+{
+  "model1": {
+    "suicide_ied": {
+      "graph_path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model1/suicide_ied/merged_graph_suicide_ied.json",
+      "attack_type": "suicide_ied",
+      "metrics": {
+        "topic_overlap": {
+          "precision": 0.7,
+          "recall": 0.1891891891891892,
+          "f1": 0.2978723404255319,
+          "generated_types": [
+            "Life.Unspecified",
+            "Conflict.Demonstrate.Unspecified",
+            "Cognitive.Inspection.SensoryObserve",
+            "Conflict.Defeat.Unspecified",
+            "Conflict.Attack.Unspecified",
+            "Cognitive.TeachingTrainingLearning.Unspecified",
+            "Cognitive.IdentifyCategorize.Unspecified",
+            "Contact.Unspecified",
+            "Movement.Transportation.Unspecified",
+            "Conflict.Attack.DetonateExplode"
+          ],
+          "ground_truth_types": [
+            "Contact.RequestCommand.Meet",
+            "Personnel.EndPosition.Unspecified",
+            "ArtifactExistence.ManufactureAssemble.Unspecified",
+            "Disaster.Crash.Unspecified",
+            "Justice.ChargeIndict.Unspecified",
+            "Contact.Contact.Broadcast",
+            "Justice.ArrestJailDetain.Unspecified",
+            "Cognitive.IdentifyCategorize.Unspecified",
+            "Justice.Convict.Unspecified",
+            "Contact.RequestCommand.Broadcast",
+            "Conflict.Defeat.Unspecified",
+            "Transaction.ExchangeBuySell.Unspecified",
+            "Contact.ThreatenCoerce.Unspecified",
+            "Conflict.Attack.Unspecified",
+            "Personnel.StartPosition.Unspecified",
+            "Contact.Contact.Unspecified",
+            "Medical.Intervention.Unspecified",
+            "Control.ImpedeInterfereWith.Unspecified",
+            "Conflict.Demonstrate.Unspecified",
+            "Cognitive.Inspection.SensoryObserve",
+            "Life.Die.Unspecified",
+            "ArtifactExistence.DamageDestroyDisableDismantle.Destroy",
+            "Movement.Transportation.PreventPassage",
+            "Justice.TrialHearing.Unspecified",
+            "Contact.Contact.Correspondence",
+            "Contact.RequestCommand.Unspecified",
+            "Life.Injure.Unspecified",
+            "Justice.Acquit.Unspecified",
+            "GenericCrime.GenericCrime.GenericCrime",
+            "ArtifactExistence.DamageDestroyDisableDismantle.Damage",
+            "Justice.ReleaseParole.Unspecified",
+            "Justice.Sentence.Unspecified",
+            "Justice.InvestigateCrime.Unspecified",
+            "Contact.Contact.Meet",
+            "Movement.Transportation.Evacuation",
+            "Movement.Transportation.Unspecified",
+            "Conflict.Attack.DetonateExplode"
+          ],
+          "matched_types": [
+            "Conflict.Demonstrate.Unspecified",
+            "Cognitive.Inspection.SensoryObserve",
+            "Conflict.Defeat.Unspecified",
+            "Movement.Transportation.Unspecified",
+            "Conflict.Attack.Unspecified",
+            "Cognitive.IdentifyCategorize.Unspecified",
+            "Conflict.Attack.DetonateExplode"
+          ]
+        },
+        "sequence_2_matching": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "generated_sequences": [
+            [
+              "Conflict.Demonstrate.Unspecified",
+              "Conflict.Attack.Unspecified"
+            ],
+            [
+              "Cognitive.Inspection.SensoryObserve",
+              "Cognitive.Inspection.SensoryObserve"
+            ],
+            [
+              "Conflict.Attack.Unspecified",
+              "Conflict.Attack.Unspecified"
+            ],
+            [
+              "Conflict.Attack.DetonateExplode",
+              "Conflict.Attack.Unspecified"
+            ],
+            [
+              "Conflict.Attack.Unspecified",
+              "Conflict.Defeat.Unspecified"
+            ]
+          ],
+          "ground_truth_sequences": [],
+          "matched_sequences": []
+        },
+        "sequence_3_matching": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "generated_sequences": [
+            [
+              "Conflict.Attack.DetonateExplode",
+              "Conflict.Attack.Unspecified",
+              "Conflict.Attack.Unspecified"
+            ],
+            [
+              "Conflict.Attack.Unspecified",
+              "Conflict.Attack.Unspecified",
+              "Conflict.Defeat.Unspecified"
+            ],
+            [
+              "Conflict.Demonstrate.Unspecified",
+              "Conflict.Attack.Unspecified",
+              "Conflict.Attack.Unspecified"
+            ],
+            [
+              "Conflict.Attack.DetonateExplode",
+              "Conflict.Attack.Unspecified",
+              "Conflict.Defeat.Unspecified"
+            ],
+            [
+              "Cognitive.Inspection.SensoryObserve",
+              "Cognitive.Inspection.SensoryObserve",
+              "Cognitive.Inspection.SensoryObserve"
+            ],
+            [
+              "Conflict.Demonstrate.Unspecified",
+              "Conflict.Attack.Unspecified",
+              "Conflict.Defeat.Unspecified"
+            ],
+            [
+              "Conflict.Attack.Unspecified",
+              "Conflict.Attack.Unspecified",
+              "Conflict.Attack.Unspecified"
+            ]
+          ],
+          "ground_truth_sequences": [],
+          "matched_sequences": []
+        }
+      }
+    }
+  }
+}

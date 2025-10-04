@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "id": "text_13_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "2002年黎巴嫩对自杀恐怖主义有较高支持率",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "2007年约六成巴勒斯坦人对哈马斯持积极看法",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "奥萨马·本·拉登去世前在穆斯林公众中被广泛拒绝，但约三分之一的巴勒斯坦人对他持积极看法",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "过去四年埃及对自杀袭击的支持逐渐增加",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "两年前埃及人对哈马斯的看法平衡为正面（52%支持，44%不支持）",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "去年约六成约旦人对哈马斯持积极看法",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "当前哈马斯在巴勒斯坦的支持率下降至约四成",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "当前在哈马斯控制的加沙，只有34%的人对该组织持积极评价",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "当前在法塔赫控制的约旦河西岸，巴勒斯坦人对哈马斯的看法几乎平分秋色",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "当前哈马斯不如更世俗的法塔赫受欢迎",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "当前约旦人对哈马斯的看法基本平分秋色（47%支持，50%不支持）",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "当前埃及人对哈马斯的看法略微负面（51%不支持，45%支持）",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "当前黎巴嫩对自杀恐怖主义的支持率下降到35%",
+      "source_text": "text_13"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_2",
+      "target": "text_13_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_3",
+      "target": "text_13_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_4",
+      "target": "text_13_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_5",
+      "target": "text_13_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_6",
+      "target": "text_13_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_6",
+      "target": "text_13_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_6",
+      "target": "text_13_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_6",
+      "target": "text_13_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_6",
+      "target": "text_13_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_6",
+      "target": "text_13_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_6",
+      "target": "text_13_node_13",
+      "relation": "before"
+    }
+  ]
+}

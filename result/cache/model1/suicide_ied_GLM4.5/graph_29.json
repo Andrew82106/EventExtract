@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "id": "text_29_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "上个月，俄罗斯最大的机场发生了致命的自杀式爆炸袭击",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生在莫斯科的多莫杰多沃机场，造成36人死亡，包括英国、德国和乌克兰的旅客",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "车臣伊斯兰武装分子Doku Umarov声称对这次袭击负责",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Umarov和他领导的反叛武装希望在俄罗斯的高加索地区建立一个由伊斯兰教法统治的独立酋长国",
+      "source_text": "text_29"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_29_node_1",
+      "target": "text_29_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_29_node_1",
+      "target": "text_29_node_3",
+      "relation": "before"
+    }
+  ]
+}

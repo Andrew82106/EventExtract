@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_39_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在卡拉奇Orangi镇地区的MQM会员营地遭到爆炸袭击，导致包括三名省级议员在内的29人受伤。",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "TTP的分支组织Jamaatul Ahrar通过其发言人Ehsanullah Ehsan在微博网站上声称对这次爆炸袭击负责。",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Ehsanullah Ehsan在推文中解释说，对MQM的袭击是他们针对ANP、MQM、PPP和PMLN行动的一部分。",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_4",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "Ehsanullah Ehsan进一步表示，对这些政党的袭击将继续进行。",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "MQM领导人Altaf Hussain致电受伤的议员和工人，表示这些懦弱的袭击不能阻止该党成员。",
+      "source_text": "text_39"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_39_node_1",
+      "target": "text_39_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_39_node_1",
+      "target": "text_39_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_39_node_2",
+      "target": "text_39_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_39_node_3",
+      "target": "text_39_node_4",
+      "relation": "before"
+    }
+  ]
+}
