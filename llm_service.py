@@ -33,7 +33,8 @@ class LLMService:
         """
         try:
             response = self.client.chat.completions.create(
-                model="glm-4-flash-250414",  # 最好的模型是glm-4.5，免费的是glm-4-flash-250414
+                # model="glm-4-flash-250414",  # 最好的模型是glm-4.5，免费的是glm-4-flash-250414
+                model="glm-4.5",  # 最好的模型是glm-4.5，免费的是glm-4-flash-250414
                 # model="glm-4.5",  # 最好的模型是glm-4.5，免费的是glm-4-flash-250414
                 messages=[{"role": "user", "content": prompt}],
                 temperature=temperature,

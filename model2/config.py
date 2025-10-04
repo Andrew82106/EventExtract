@@ -29,7 +29,12 @@ def get_graphs_path(attack_type):
 
 
 # 采样配置
-MAX_TEXT_SAMPLES = 25
+MAX_TEXT_SAMPLES = 50
+
+# 缓存配置
+CACHE_ROOT = os.path.join(RESULT_ROOT, 'cache')
+SAMPLING_CACHE_PATH = os.path.join(CACHE_ROOT, 'text_relevance_cache.json')
+USE_SAMPLING_CACHE = True  # 是否启用智能采样缓存
 
 # 攻击类型列表
 ATTACK_TYPES = [

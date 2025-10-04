@@ -7,6 +7,7 @@ import os
 import sys
 import shutil
 import argparse
+import time
 
 # 添加父目录到路径
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -27,6 +28,10 @@ def main(attack_type=None, api_key=None):
         attack_type (str): 攻击类型，如果为None则使用默认的suicide_ied
         api_key (str): API密钥，如果为None则使用配置文件中的密钥
     """
+    # 记录总开始时间
+    total_start_time = time.time()
+    time_records = {}
+    
     # 初始化日志
     logger = Logger()
     logger.printLog("=" * 80)
@@ -43,6 +48,7 @@ def main(attack_type=None, api_key=None):
     logger.printLog(f"步骤1: 选择攻击类型 - {attack_type}")
     
     # 2. 初始化服务
+    step_start = time.time()
     logger.printLog("步骤2: 初始化服务...")
     
     # 使用传入的API密钥或配置文件中的密钥
@@ -53,10 +59,13 @@ def main(attack_type=None, api_key=None):
     
     llm_service = LLMService(api_key=current_api_key)
     data_loader = DataLoader(llm_service=llm_service)  # 传递LLM服务，用于智能采样
+    time_records['初始化服务'] = time.time() - step_start
     
     # 3. 加载文本数据
+    step_start = time.time()
     logger.printLog(f"步骤3: 加载攻击类型 {attack_type} 的文本数据...")
     texts = data_loader.load_texts_for_attack_type(attack_type)
+    time_records['加载文本数据'] = time.time() - step_start
     
     if not texts:
         logger.printLog("错误: 未找到任何文本数据")
@@ -73,6 +82,7 @@ def main(attack_type=None, api_key=None):
     logger.printLog(f"结果将保存到: {graphs_path}")
     
     # 5. 为每个文本构建事件图（使用基于意义段的迭代方法）
+    step_start = time.time()
     logger.printLog("步骤5: 开始为每个文本构建事件图（基于意义段的迭代方法）...")
     
     event_ontology = data_loader.get_event_types_description()
@@ -106,6 +116,7 @@ def main(attack_type=None, api_key=None):
             logger.printLog(traceback.format_exc())
     
     logger.printLog(f"\n成功构建 {len(graphs)} 个事件图")
+    time_records['构建事件图'] = time.time() - step_start
     
     # 打印验证报告
     logger.printLog("\n" + "="*80)
@@ -118,6 +129,7 @@ def main(attack_type=None, api_key=None):
     graph_builder.print_low_confidence_report()
     
     # 6. 融合所有图
+    step_start = time.time()
     logger.printLog("\n步骤6: 融合所有事件图为骨架图...")
     
     if not graphs:
@@ -130,6 +142,10 @@ def main(attack_type=None, api_key=None):
     # 保存融合后的图
     merged_graph_path = os.path.join(graphs_path, f"merged_graph_{attack_type}.json")
     graph_merger.save_merged_graph(merged_graph, merged_graph_path)
+    time_records['融合图'] = time.time() - step_start
+    
+    # 计算总时间
+    total_time = time.time() - total_start_time
     
     # 7. 完成
     logger.printLog("\n" + "=" * 80)
@@ -140,6 +156,10 @@ def main(attack_type=None, api_key=None):
     logger.printLog(f"- 融合图节点数: {merged_graph.number_of_nodes()}")
     logger.printLog(f"- 融合图边数: {merged_graph.number_of_edges()}")
     logger.printLog(f"- 结果保存路径: {graphs_path}")
+    logger.printLog("\n时间统计:")
+    for step_name, step_time in time_records.items():
+        logger.printLog(f"  - {step_name}: {step_time:.2f}秒 ({step_time/total_time*100:.1f}%)")
+    logger.printLog(f"  总耗时: {total_time:.2f}秒 ({total_time/60:.2f}分钟)")
     logger.printLog("=" * 80)
 
 

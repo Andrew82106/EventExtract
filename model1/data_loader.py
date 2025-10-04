@@ -6,8 +6,10 @@
 import os
 import time
 import random
+import json
+import hashlib
 import pandas as pd
-from config import EXTRACTED_TEXTS_PATH, ONTOLOGY_PATH, MAX_TEXT_SAMPLES
+from config import EXTRACTED_TEXTS_PATH, ONTOLOGY_PATH, MAX_TEXT_SAMPLES, SAMPLING_CACHE_PATH, USE_SAMPLING_CACHE, CACHE_ROOT
 
 
 class DataLoader:
@@ -23,7 +25,11 @@ class DataLoader:
         self.ontology_df = None
         self.event_types = []
         self.llm_service = llm_service
+        self.relevance_cache = {}
+        self.cache_hits = 0
+        self.cache_misses = 0
         self._load_ontology()
+        self._load_cache()
     
     def get_event_types(self):
         """
@@ -73,19 +79,72 @@ class DataLoader:
             descriptions.append(desc)
         return "\n".join(descriptions)
     
-    def _judge_text_relevance(self, text_content, attack_type):
+    def _load_cache(self):
+        """加载缓存文件"""
+        if not USE_SAMPLING_CACHE:
+            return
+        
+        try:
+            if os.path.exists(SAMPLING_CACHE_PATH):
+                with open(SAMPLING_CACHE_PATH, 'r', encoding='utf-8') as f:
+                    self.relevance_cache = json.load(f)
+                print(f"成功加载缓存，包含 {len(self.relevance_cache)} 条记录")
+            else:
+                self.relevance_cache = {}
+                print("缓存文件不存在，将创建新缓存")
+        except Exception as e:
+            print(f"加载缓存失败: {str(e)}")
+            self.relevance_cache = {}
+    
+    def _save_cache(self):
+        """保存缓存文件"""
+        if not USE_SAMPLING_CACHE:
+            return
+        
+        try:
+            os.makedirs(CACHE_ROOT, exist_ok=True)
+            with open(SAMPLING_CACHE_PATH, 'w', encoding='utf-8') as f:
+                json.dump(self.relevance_cache, f, ensure_ascii=False, indent=2)
+            print(f"缓存已保存，包含 {len(self.relevance_cache)} 条记录")
+            print(f"  缓存命中: {self.cache_hits} 次")
+            print(f"  缓存未命中: {self.cache_misses} 次")
+            if self.cache_hits + self.cache_misses > 0:
+                hit_rate = self.cache_hits / (self.cache_hits + self.cache_misses) * 100
+                print(f"  缓存命中率: {hit_rate:.2f}%")
+        except Exception as e:
+            print(f"保存缓存失败: {str(e)}")
+    
+    def _get_cache_key(self, file_path, attack_type):
+        """生成缓存键"""
+        # 使用文件路径和攻击类型生成唯一的缓存键
+        key_string = f"{file_path}:{attack_type}"
+        return hashlib.md5(key_string.encode()).hexdigest()
+    
+    def _judge_text_relevance(self, text_content, attack_type, file_path=None):
         """
-        使用LLM判断文本是否讲述了与攻击类型相关的事件故事
+        使用LLM判断文本是否讲述了与攻击类型相关的事件故事（支持缓存）
         
         Args:
             text_content (str): 文本内容
             attack_type (str): 攻击类型名称
+            file_path (str): 文件路径，用于生成缓存键（可选）
             
         Returns:
             tuple: (is_relevant, confidence) 是否相关和置信度
         """
         if not self.llm_service:
             return False, 0.0
+        
+        # 检查缓存
+        if USE_SAMPLING_CACHE and file_path:
+            cache_key = self._get_cache_key(file_path, attack_type)
+            if cache_key in self.relevance_cache:
+                self.cache_hits += 1
+                cached_result = self.relevance_cache[cache_key]
+                return cached_result['is_relevant'], cached_result['confidence']
+        
+        # 缓存未命中，调用LLM
+        self.cache_misses += 1
         
         from prompts import JUDGE_TEXT_RELEVANCE_PROMPT
         
@@ -102,6 +161,17 @@ class DataLoader:
             if isinstance(result, dict) and 'is_relevant' in result:
                 is_relevant = result.get('is_relevant', False)
                 confidence = result.get('confidence', 0.5)
+                
+                # 保存到缓存
+                if USE_SAMPLING_CACHE and file_path:
+                    cache_key = self._get_cache_key(file_path, attack_type)
+                    self.relevance_cache[cache_key] = {
+                        'is_relevant': is_relevant,
+                        'confidence': confidence,
+                        'file_path': file_path,
+                        'attack_type': attack_type
+                    }
+                
                 return is_relevant, confidence
             else:
                 print(f"  ! 判断失败，返回格式不正确")
@@ -168,8 +238,8 @@ class DataLoader:
                             
                             total_checked += 1
                             
-                            # 使用LLM判断文本是否相关
-                            is_relevant, confidence = self._judge_text_relevance(content, attack_type)
+                            # 使用LLM判断文本是否相关（使用缓存）
+                            is_relevant, confidence = self._judge_text_relevance(content, attack_type, file_path)
                             
                             if is_relevant:
                                 selected_texts.append({
@@ -225,6 +295,9 @@ class DataLoader:
                         })
             except Exception as e:
                 print(f"读取文件失败 {file_path}: {str(e)}")
+        
+        # 保存缓存
+        self._save_cache()
         
         print(f"成功加载 {len(texts)} 个文本")
         return texts
