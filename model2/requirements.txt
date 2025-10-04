@@ -1,0 +1,14 @@
+# Model2 依赖包
+# 基于意义段的迭代构图算法
+
+# 核心依赖
+networkx==3.1
+pandas==2.0.3
+openpyxl==3.1.2
+
+# LLM API
+zhipuai==2.0.1
+
+# 工具库
+numpy==1.24.3
+
