@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "text_20_node_1",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Andre Fried和Idit在1970年代末从匈牙利移民到以色列",
+      "support_text": "Andre Fried和Idit在1970年代末从匈牙利移民到以色列",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_2",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Andre Fried是一位在Netanya拥有两家诊所的成功牙医",
+      "support_text": "Andre Fried是一位在Netanya拥有两家诊所的成功牙医",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_3",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "每年他们都会在Passover节期间庆祝节日，今年他们计划与Andre的母亲、Idit的母亲以及他们的两个孩子一起庆祝",
+      "support_text": "每年他们都会在Passover节期间庆祝节日，今年他们计划与Andre的母亲、Idit的母亲以及他们的两个孩子一起庆祝",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel餐厅内发动自杀式炸弹袭击，导致30人死亡，140人受伤",
+      "support_text": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel餐厅内发动自杀式炸弹袭击，导致30人死亡，140人受伤",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_5",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Andre Fried、Idit、Andre的继父George Yakobovitch和母亲Anna在袭击中丧生",
+      "support_text": "Andre Fried、Idit、Andre的继父George Yakobovitch和母亲Anna在袭击中丧生",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_6",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Idit的孩子们到医院寻找他们的父母，Laniado医院的员工对他们的遭遇感到悲痛",
+      "support_text": "Idit的孩子们到医院寻找他们的父母，Laniado医院的员工对他们的遭遇感到悲痛",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_7",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Andre Fried被安葬在Netanya，他留下了妻子Idit、母亲、21岁的女儿Shirli和16岁的儿子Tom",
+      "support_text": "Andre Fried被安葬在Netanya，他留下了妻子Idit、母亲、21岁的女儿Shirli和16岁的儿子Tom",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel餐厅内发动自杀式炸弹袭击，导致30人死亡，140人受伤",
+      "support_text": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel餐厅内发动自杀式炸弹袭击，导致30人死亡，140人受伤",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "The bomber was a member of Hamas and was on Israel's wanted list.",
+      "support_text": "The bomber was identified as a member of the Hamas Iz a Din al-Kassam Brigades, from the West Bank city of Tulkarem, which is just 10 kilometers (six miles) east of Netanya. He was on the list of wanted terrorists Israel had requested be arrested.",
+      "source_text": "text_20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_2",
+      "relation": "before",
+      "support_text": "Andre Fried和Idit在1970年代末从匈牙利移民到以色列"
+    },
+    {
+      "source": "text_20_node_2",
+      "target": "text_20_node_3",
+      "relation": "before",
+      "support_text": "Andre Fried是一位在Netanya拥有两家诊所的成功牙医"
+    },
+    {
+      "source": "text_20_node_3",
+      "target": "text_20_node_4",
+      "relation": "before",
+      "support_text": "每年他们都会在Passover节期间庆祝节日，今年他们计划与Andre的母亲、Idit的母亲以及他们的两个孩子一起庆祝"
+    },
+    {
+      "source": "text_20_node_4",
+      "target": "text_20_node_5",
+      "relation": "before",
+      "support_text": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel餐厅内发动自杀式炸弹袭击，导致30人死亡，140人受伤"
+    },
+    {
+      "source": "text_20_node_4",
+      "target": "text_20_node_8",
+      "relation": "before",
+      "support_text": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel餐厅内发动自杀式炸弹袭击，导致30人死亡，140人受伤"
+    },
+    {
+      "source": "text_20_node_4",
+      "target": "text_20_node_9",
+      "relation": "causes",
+      "support_text": "The bomber was a member of Hamas and was on Israel's wanted list."
+    },
+    {
+      "source": "text_20_node_5",
+      "target": "text_20_node_6",
+      "relation": "before",
+      "support_text": "Andre Fried、Idit、Andre的继父George Yakobovitch和母亲Anna在袭击中丧生"
+    },
+    {
+      "source": "text_20_node_6",
+      "target": "text_20_node_7",
+      "relation": "before",
+      "support_text": "Idit的孩子们到医院寻找他们的父母，Laniado医院的员工对他们的遭遇感到悲痛"
+    }
+  ]
+}

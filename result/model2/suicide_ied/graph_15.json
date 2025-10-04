@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "id": "text_15_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "A British broadcaster obtained security camera footage showing a suspect in the Manchester Arena bombing wearing a backpack believed to have been used in the attack.",
+      "support_text": "A British broadcaster has obtained security camera footage that it says police believe shows the suspect in the Manchester Arena bombing wearing a backpack that was used in the attack.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "A woman was arrested in connection with the Manchester Arena bombing during property searches in the Blackley area of Manchester.",
+      "support_text": "Police in Manchester say a woman has been arrested in connection with the arena bombing that killed 22 people.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "British police arrested a seventh person in connection with the Manchester Arena bombing after searches in Nuneaton, south of Manchester.",
+      "support_text": "British police have arrested a seventh person in connection with the Manchester Arena bombing. The man was held Wednesday after police carried out searches in the English town of Nuneaton, which is about 161 kilometres (100 miles) south of Manchester.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A U.S. congressman suggested the bomb used in the Manchester Arena attack indicates foreign training and suggested a network of ISIS-inspired terrorists might be involved.",
+      "support_text": "A U.S. congressman says the bomb used in the deadly Manchester Arena attack in England suggests a 'level of sophistication' that might indicate its maker had foreign training.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_5",
+      "event_type": "Update",
+      "event_subtype": "Information",
+      "event_sub_subtype": "Incomplete",
+      "description": "Ariana Grande's management team provides an update, though the content is incomplete.",
+      "support_text": "Ariana Grande's management team says s...",
+      "source_text": "text_15"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_15_node_1",
+      "target": "text_15_node_2",
+      "relation": "before",
+      "support_text": "A British broadcaster has obtained security camera footage that it says police believe shows the suspect in the Manchester Arena bombing wearing a backpack that was used in the attack."
+    },
+    {
+      "source": "text_15_node_2",
+      "target": "text_15_node_3",
+      "relation": "before",
+      "support_text": "Police in Manchester say a woman has been arrested in connection with the arena bombing that killed 22 people."
+    },
+    {
+      "source": "text_15_node_3",
+      "target": "text_15_node_4",
+      "relation": "before",
+      "support_text": "British police have arrested a seventh person in connection with the Manchester Arena bombing. The man was held Wednesday after police carried out searches in the English town of Nuneaton, which is about 161 kilometres (100 miles) south of Manchester."
+    }
+  ]
+}

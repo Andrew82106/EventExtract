@@ -137,7 +137,8 @@ def generate_visualization(file_path, output_dir=None):
     )
 
     # 文件名
-    base = os.path.splitext(os.path.basename(file_path))[0]
+    model_type = "model1" if "model1" in file_path else ("model2" if "model2" in file_path else "model3")
+    base = str(os.path.splitext(os.path.basename(file_path))[0]) + "_" + model_type
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     html_name = f"{base}_{timestamp}.html"
     html_path = os.path.join(output_dir, html_name)
@@ -375,7 +376,9 @@ def generate_visualization_from_ground_truth(gt_file_path, attack_type, schema_n
 
 
 if __name__ == '__main__':
-    generate_visualization_from_ground_truth(
+    """generate_visualization_from_ground_truth(
         gt_file_path=os.path.join(PROJECT_ROOT, 'dataset', 'processedData', 'extracted_data', 'event_graphs_train.json'),
         attack_type='suicide_ied'
-    )
+    )"""
+    generate_visualization("/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model1/suicide_ied/merged_graph_suicide_ied.json")
+    generate_visualization("/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model2/suicide_ied/merged_graph_suicide_ied.json")

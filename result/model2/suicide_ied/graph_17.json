@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "text_17_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Ansar al-Forqan terrorist group claims responsibility for a suicide blast in Chabahar.",
+      "support_text": "Ansar al-Forqan terrorist group has reportedly claimed responsibility for the Thursday morning suicide blast in Iran's Southeastern city of Chabahar which killed at least 2 people and wounded several others.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A bomb blast occurs near a police station in Chabahar, killing at least 2 people and wounding several others.",
+      "support_text": "A bomb blast was heard some minutes ago near a police station on a street in Chabahar city and security forces and aid groups were immediately deployed in the region.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Security forces and aid groups are deployed to the scene of the bomb blast.",
+      "support_text": "Security forces and aid groups were immediately deployed in the region.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Local sources report that at least 2 law enforcement police have been killed in the attack.",
+      "support_text": "Local sources also said that at least 2 law enforcement police have been killed in the terrorist attack.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The suicide bomber intended to reach the Law Enforcement command center but was forced to stop and detonate the bomb.",
+      "support_text": "The suicide bomber meant to open his path into the Law Enforcement command center, but was forced to stop where he blew up himself and the car.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Caretaker of Chabahar city's Governor-General Office confirms deaths and injuries, stating conditions are under control.",
+      "support_text": "Caretaker of Chabahar city's Governor-General Office Bameri confirmed the death and injury of a number of people in the bomb blast, stressing that conditions are under control now.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "A number of wounded people, including women, children, and local business owners, are transferred to Imam Ali (AS) hospital.",
+      "support_text": "A number of women, children and local business owners are among the wounded people who were transferred to Imam Ali (AS) hospital.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Chabahar medical officials report that 27 wounded people have been admitted to hospitals, including a pregnant woman and a 16-year-old adolescent.",
+      "support_text": "But the latest reports by Chabahar medical officials said that 27 wounded people have so far been admitted to the city's hospitals, among them a pregnant woman and a 16-year-old adolescent.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Commander of the Islamic Revolution Guards Corps (IRGC) Ground Force visits the blast site.",
+      "support_text": "Commander of the Islamic Revolution Guards Corps (IRGC) Ground Force Brigadier General Mohammad Pakpour visited the blast site on Thursday.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The chief commander of Chabahar's Law Enforcement Police dismisses media claims that he was killed in the attack.",
+      "support_text": "The chief commander of Chabahar's Law Enforcement Police dismissed media claims that he was killed in the terrorist attack.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "In June 2017, the IRGC Ground Force killed the ringleader of Ansar al-Forqan in clashes in the heights of Qasr-e Qand region.",
+      "support_text": "In June 2017, the IRGC Ground Force killed the ringleader of Ansar al-Forqan terrorist group, Jalil Qanbar Zehi, in clashes in the heights of Qasr-e Qand region, Southeastern Iran.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRGC's public relations office announced the destruction of a Takfiri terrorist team in Qasr-e Qand, after receiving a tip-off about their presence.",
+      "support_text": "IRGC's public relations office announced in a statement at the time that the IRGC Ground Force destroyed a Takfiri terrorist team in Qasr-e Qand in the Southeastern province of Sistan and Balouchestan.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Several terrorists were killed and wounded in clashes with the IRGC forces in Qasr-e Qand region, including the ringleader of Ansar al-Forqan.",
+      "support_text": "Several terrorists were killed and wounded in clashes with the IRGC forces in Qasr-e Qand region, including the ringleader of Ansar al-Forqan, it added.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The IRGC's public relations office announced the destruction of a Takfiri terrorist group in Qasr-e Qand after receiving a tip-off about their presence.",
+      "support_text": "The statement said that after being tipped off about the presence of a Takfiri terrorist group in Qasr-e Qand region, several units of IRGC ground troops were dispatched to the scene and attacked the terrorists.",
+      "source_text": "text_17"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_2",
+      "relation": "before",
+      "support_text": "Ansar al-Forqan terrorist group has reportedly claimed responsibility for the Thursday morning suicide blast in Iran's Southeastern city of Chabahar which killed at least 2 people and wounded several others."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_3",
+      "relation": "before",
+      "support_text": "A bomb blast was heard some minutes ago near a police station on a street in Chabahar city and security forces and aid groups were immediately deployed in the region."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_4",
+      "relation": "before",
+      "support_text": "Local sources also said that at least 2 law enforcement police have been killed in the terrorist attack."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_5",
+      "relation": "before",
+      "support_text": "The suicide bomber meant to open his path into the Law Enforcement command center, but was forced to stop where he blew up himself and the car."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_6",
+      "relation": "before",
+      "support_text": "Caretaker of Chabahar city's Governor-General Office Bameri confirmed the death and injury of a number of people in the bomb blast, stressing that conditions are under control now."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_7",
+      "relation": "before",
+      "support_text": "A number of women, children and local business owners are among the wounded people who were transferred to Imam Ali (AS) hospital."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_8",
+      "relation": "before",
+      "support_text": "But the latest reports by Chabahar medical officials said that 27 wounded people have so far been admitted to the city's hospitals, among them a pregnant woman and a 16-year-old adolescent."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_9",
+      "relation": "before",
+      "support_text": "Commander of the Islamic Revolution Guards Corps (IRGC) Ground Force Brigadier General Mohammad Pakpour visited the blast site on Thursday."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_10",
+      "relation": "before",
+      "support_text": "The chief commander of Chabahar's Law Enforcement Police dismissed media claims that he was killed in the terrorist attack."
+    },
+    {
+      "source": "text_17_node_11",
+      "target": "text_17_node_12",
+      "relation": "before",
+      "support_text": "IRGC's public relations office announced in a statement at the time that the IRGC Ground Force destroyed a Takfiri terrorist team in Qasr-e Qand in the Southeastern province of Sistan and Balouchestan."
+    },
+    {
+      "source": "text_17_node_13",
+      "target": "text_17_node_14",
+      "relation": "causes",
+      "support_text": "The IRGC's public relations office announced the destruction of a Takfiri terrorist group in Qasr-e Qand after receiving a tip-off about their presence."
+    }
+  ]
+}

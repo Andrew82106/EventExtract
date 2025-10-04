@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Taliban vehicle bomb explodes near a housing compound used by international organisations in Kabul, killing at least 16 people and wounding 119.",
+      "support_text": "KABUL: A Taliban vehicle bomb late on Monday close to a housing compound used by international organisations in the Afghan capital Kabul killed at least 16 people and wounded 119, officials said as emergency workers began cleanup operations.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Emergency workers begin cleanup operations after the blast.",
+      "support_text": "Wounded men receive treatment in a hospital after a large explosion in Kabul, Afghanistan, on Monday. (AP photo)",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Around 400 foreign nationals are evacuated from the heavily protected site near Green Village.",
+      "support_text": "He said around 400 foreign nationals were evacuated from the heavily protected site, located off a major road in an area of houses and shops.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Armed attackers planning to follow up the blast are killed by security forces.",
+      "support_text": "He said the blast was caused by a tractor packed with explosives close to Green Village, a residential compound in eastern Kabul used by foreign staff of international groups including aid organizations. He said around 400 foreign nationals were evacuated from the heavily protected site, located off a major road in an area of houses and shops. Armed attackers, who planned to follow up the blast, were killed by security forces, he said.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Zalmay Khalilzad outlines details of a draft accord with the Taliban in a television interview, which occurs just as the blast happens.",
+      "support_text": "The blast, which shook buildings several kilometres away, came just as Zalmay Khalilzad, the special US envoy for peace in Afghanistan was outlining details of a draft accord with the insurgent movement in a television interview.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Major Taliban attacks on two northern cities over the weekend add to questions around the peace deal reached between US and Taliban negotiators in Doha.",
+      "support_text": "Following major Taliban attacks on two northern cities over the weekend, the bombing in a heavily populated area of the capital added to questions around the peace deal reached between US and Taliban negotiators in the Qatari capital Doha.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "Taliban spokesman Zabihullah Mujahid claims the attack destroyed offices of 'invaders' and denies civilian losses.",
+      "support_text": "Taliban spokesman Zabihullah Mujahid said the attack had destroyed rooms and offices of 'invaders'. 'Enemy claims of civilian losses are false as no civilians were allowed close to the site of the attack,' he said in a tweet.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "Khalilzad announces a deal for the withdrawal of almost 5,000 US troops and closure of five bases in exchange for Taliban guarantees against militant attacks on the US and its allies.",
+      "support_text": "Khalilzad, a veteran Afghan-born diplomat who has been leading US negotiations, said almost 5,000 US troops would be pulled out and five bases closed in exchange for Taliban guarantees that Afghanistan would not be used as a base for militant attacks on the United States and its allies.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Monday's attacks and previous assaults on northern cities underscore doubts about the peace deal leading to an end to violence.",
+      "support_text": "But the deal did not include a formal ceasefire and Monday's attacks, as well as major assaults on the northern cities of Kunduz and Pul-e Khumri, underlined doubts about whether it would lead to an end to violence.",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "KABUL: A Taliban vehicle bomb late on Monday close to a housing compound used by international organisations in the Afghan capital Kabul killed at least 16 people and wounded 119, officials said as emergency workers began cleanup operations."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "He said around 400 foreign nationals were evacuated from the heavily protected site, located off a major road in an area of houses and shops."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "He said the blast was caused by a tractor packed with explosives close to Green Village, a residential compound in eastern Kabul used by foreign staff of international groups including aid organizations. He said around 400 foreign nationals were evacuated from the heavily protected site, located off a major road in an area of houses and shops. Armed attackers, who planned to follow up the blast, were killed by security forces, he said."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "The blast, which shook buildings several kilometres away, came just as Zalmay Khalilzad, the special US envoy for peace in Afghanistan was outlining details of a draft accord with the insurgent movement in a television interview."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_7",
+      "relation": "before",
+      "support_text": "Taliban spokesman Zabihullah Mujahid said the attack had destroyed rooms and offices of 'invaders'. 'Enemy claims of civilian losses are false as no civilians were allowed close to the site of the attack,' he said in a tweet."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_8",
+      "relation": "before",
+      "support_text": "Khalilzad, a veteran Afghan-born diplomat who has been leading US negotiations, said almost 5,000 US troops would be pulled out and five bases closed in exchange for Taliban guarantees that Afghanistan would not be used as a base for militant attacks on the United States and its allies."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_9",
+      "relation": "before",
+      "support_text": "But the deal did not include a formal ceasefire and Monday's attacks, as well as major assaults on the northern cities of Kunduz and Pul-e Khumri, underlined doubts about whether it would lead to an end to violence."
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_node_1",
+      "relation": "before",
+      "support_text": "Following major Taliban attacks on two northern cities over the weekend, the bombing in a heavily populated area of the capital added to questions around the peace deal reached between US and Taliban negotiators in the Qatari capital Doha."
+    }
+  ]
+}

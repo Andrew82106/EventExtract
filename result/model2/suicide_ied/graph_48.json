@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "text_48_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Great brand recognition and memorability from advertising, marketing, and your web site landing pages.",
+      "support_text": "Great brand recognition and memorability from advertising, marketing, and your web site landing pages.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "This domain is likely to hold and increase its value over time.",
+      "support_text": "This domain is likely to hold and increase its value over time.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "Poor domain names lose traffic and new customer conversions to better domain named companies.",
+      "support_text": "Poor domain names lose traffic and new customer conversions to better domain named companies.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_4",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "Such a name offers your company a clear competitive advantage online and off.",
+      "support_text": "Such a name offers your company a clear competitive advantage online and off.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "This is a killer domain that may be commonly used around the world.",
+      "support_text": "This is a killer domain that may be commonly used around the world.",
+      "source_text": "text_48"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_2",
+      "relation": "before",
+      "support_text": "Great brand recognition and memorability from advertising, marketing, and your web site landing pages. This domain is likely to hold and increase its value over time."
+    },
+    {
+      "source": "text_48_node_2",
+      "target": "text_48_node_3",
+      "relation": "before",
+      "support_text": "This domain is likely to hold and increase its value over time. Poor domain names lose traffic and new customer conversions to better domain named companies."
+    },
+    {
+      "source": "text_48_node_3",
+      "target": "text_48_node_4",
+      "relation": "before",
+      "support_text": "Poor domain names lose traffic and new customer conversions to better domain named companies. Such a name offers your company a clear competitive advantage online and off."
+    },
+    {
+      "source": "text_48_node_4",
+      "target": "text_48_node_5",
+      "relation": "before",
+      "support_text": "Such a name offers your company a clear competitive advantage online and off. This is a killer domain that may be commonly used around the world."
+    }
+  ]
+}

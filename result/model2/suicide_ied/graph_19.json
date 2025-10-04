@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "text_19_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "The terrorist bombing which targeted the airport on Monday left 35 dead and 130 with injures of varying severity.",
+      "support_text": "The terrorist bombing which targeted the airport on Monday left 35 dead and 130 with injures of varying severity.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Syria strongly condemns the terrorist bombing that took place in Domodedovo Airport near Moscow.",
+      "support_text": "Syria strongly condemns the terrorist bombing that took place in Domodedovo Airport near Moscow.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "Syria affirms its full support to Russia in confronting and combating terrorism.",
+      "support_text": "Syria affirms to the government and people of the friendly Russian Federation Syria's full support in confronting and combating terrorism, expressing the deepest regret over the loss of innocent lives.",
+      "source_text": "text_19"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_19_node_1",
+      "target": "text_19_node_2",
+      "relation": "before",
+      "support_text": "The terrorist bombing which targeted the airport on Monday left 35 dead and 130 with injures of varying severity."
+    },
+    {
+      "source": "text_19_node_2",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "Syria strongly condemns the terrorist bombing that took place in Domodedovo Airport near Moscow."
+    }
+  ]
+}

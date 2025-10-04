@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_39_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一辆装满炸弹的车辆对国家安全局（NDS）大楼发动自杀式袭击",
+      "support_text": "一辆装满炸弹的车辆对国家安全局（NDS）大楼发动自杀式袭击",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生后发生了枪战",
+      "support_text": "袭击发生后发生了枪战",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "15名国家安全局官员在袭击中丧生，约160人受伤",
+      "support_text": "15名国家安全局官员在袭击中丧生，约160人受伤",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_4",
+      "event_type": "Statement",
+      "event_subtype": "Condemnation",
+      "event_sub_subtype": "TerroristAttack",
+      "description": "谴责此次恐怖袭击",
+      "support_text": "We condemn this heinous attack in the strongest terms, which constitutes another terrorist act targeting peace and stability of Afghanistan",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_5",
+      "event_type": "Statement",
+      "event_subtype": "Condolence",
+      "event_sub_subtype": "Victims",
+      "description": "对遇难者表示哀悼",
+      "support_text": "wish God’s mercy upon those who lost their lives",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_6",
+      "event_type": "Statement",
+      "event_subtype": "Condolence",
+      "event_sub_subtype": "Injured",
+      "description": "对伤者表示慰问",
+      "support_text": "hope for a speedy recovery to the wounded",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_7",
+      "event_type": "Statement",
+      "event_subtype": "Condolence",
+      "event_sub_subtype": "GovernmentPeople",
+      "description": "对阿富汗政府及人民表示哀悼和慰问",
+      "support_text": "convey our condolences to the families of the deceased, to the Government and brotherly people of Afghanistan",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_8",
+      "event_type": "Statement",
+      "event_subtype": "Support",
+      "event_sub_subtype": "AntiTerrorism",
+      "description": "土耳其重申支持阿富汗政府打击恐怖主义的努力",
+      "support_text": "We once again reassure that Turkey will continue its support to the Government of Afghanistan in its fight against terrorism",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_9",
+      "event_type": "Statement",
+      "event_subtype": "Support",
+      "event_sub_subtype": "PeaceStability",
+      "description": "土耳其重申支持阿富汗实现和平与稳定的努力",
+      "support_text": "and in its efforts for bringing peace and stability to Afghanistan",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_10",
+      "event_type": "Statement",
+      "event_subtype": "Solidarity",
+      "event_sub_subtype": "People",
+      "description": "土耳其表达与阿富汗人民的团结",
+      "support_text": "and its solidarity with the brotherly Afghan people",
+      "source_text": "text_39"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_39_node_1",
+      "target": "text_39_node_2",
+      "relation": "before",
+      "support_text": "一辆装满炸弹的车辆对国家安全局（NDS）大楼发动自杀式袭击，袭击发生后发生了枪战"
+    },
+    {
+      "source": "text_39_node_2",
+      "target": "text_39_node_3",
+      "relation": "before",
+      "support_text": "袭击发生后发生了枪战，15名国家安全局官员在袭击中丧生，约160人受伤"
+    },
+    {
+      "source": "text_39_node_2",
+      "target": "text_39_node_4",
+      "relation": "after",
+      "support_text": "袭击发生后发生了枪战，谴责此次恐怖袭击"
+    },
+    {
+      "source": "text_39_node_3",
+      "target": "text_39_node_5",
+      "relation": "after",
+      "support_text": "15名国家安全局官员在袭击中丧生，约160人受伤，对遇难者表示哀悼"
+    },
+    {
+      "source": "text_39_node_3",
+      "target": "text_39_node_6",
+      "relation": "after",
+      "support_text": "15名国家安全局官员在袭击中丧生，约160人受伤，对伤者表示慰问"
+    },
+    {
+      "source": "text_39_node_4",
+      "target": "text_39_node_7",
+      "relation": "after",
+      "support_text": "谴责此次恐怖袭击，对阿富汗政府及人民表示哀悼和慰问"
+    },
+    {
+      "source": "text_39_node_8",
+      "target": "text_39_node_9",
+      "relation": "and",
+      "support_text": "We once again reassure that Turkey will continue its support to the Government of Afghanistan in its fight against terrorism and in its efforts for bringing peace and stability to Afghanistan"
+    },
+    {
+      "source": "text_39_node_9",
+      "target": "text_39_node_10",
+      "relation": "and",
+      "support_text": "We once again reassure that Turkey will continue its support to the Government of Afghanistan in its fight against terrorism and in its efforts for bringing peace and stability to Afghanistan, and its solidarity with the brotherly Afghan people"
+    }
+  ]
+}

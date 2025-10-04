@@ -17,20 +17,29 @@ from utils import Logger
 
 
 class GraphEvaluator:
-    """事件骨架图评测器"""
+    """事件骨架图评测器（支持分层评测）"""
     
-    def __init__(self, ground_truth_path, result_root_path):
+    def __init__(self, ground_truth_path, result_root_path, enable_layered_eval=True):
         """
         初始化评测器
         
         Args:
             ground_truth_path: ground truth数据路径
             result_root_path: 结果根目录路径
+            enable_layered_eval: 是否启用分层评测（默认True）
         """
         self.ground_truth_path = ground_truth_path
         self.result_root_path = result_root_path
         self.logger = Logger()
         self.ground_truth_data = {}
+        self.enable_layered_eval = enable_layered_eval
+        
+        # 分层阈值配置（与algorithm.md一致）
+        self.layer_config = {
+            'core': {'min_weight': 0.5, 'name': '核心层'},
+            'important': {'min_weight': 0.2, 'max_weight': 0.5, 'name': '重要层'},
+            'supplementary': {'min_weight': 0.02, 'max_weight': 0.2, 'name': '补充层'}
+        }
         
         # 加载ground truth数据
         self._load_ground_truth()
@@ -163,6 +172,69 @@ class GraphEvaluator:
             self.logger.printLog(f"加载图失败 {graph_path}: {str(e)}")
             return None
     
+    def _filter_graph_by_weight(self, graph_data, min_weight=None, max_weight=None):
+        """
+        根据权重过滤图，生成特定层次的子图
+        
+        Args:
+            graph_data: 原始图数据
+            min_weight: 最小权重阈值（包含）
+            max_weight: 最大权重阈值（不包含）
+            
+        Returns:
+            dict: 过滤后的图数据
+        """
+        if not graph_data or 'nodes' not in graph_data or 'edges' not in graph_data:
+            return graph_data
+        
+        # 过滤节点
+        filtered_nodes = []
+        valid_node_ids = set()
+        
+        for node in graph_data['nodes']:
+            node_weight = node.get('weight', 0)
+            
+            # 检查是否在权重范围内
+            if min_weight is not None and node_weight < min_weight:
+                continue
+            if max_weight is not None and node_weight >= max_weight:
+                continue
+            
+            filtered_nodes.append(node)
+            valid_node_ids.add(node.get('id'))
+        
+        # 过滤边（只保留两端节点都在有效节点集合中的边）
+        filtered_edges = []
+        for edge in graph_data['edges']:
+            edge_weight = edge.get('weight', 0)
+            source = edge.get('source')
+            target = edge.get('target')
+            
+            # 检查边的权重和节点有效性
+            if source not in valid_node_ids or target not in valid_node_ids:
+                continue
+            
+            if min_weight is not None and edge_weight < min_weight:
+                continue
+            if max_weight is not None and edge_weight >= max_weight:
+                continue
+            
+            filtered_edges.append(edge)
+        
+        # 构建过滤后的图数据
+        filtered_graph = {
+            'nodes': filtered_nodes,
+            'edges': filtered_edges
+        }
+        
+        # 保留统计信息（如果有）
+        if 'statistics' in graph_data:
+            filtered_graph['statistics'] = graph_data['statistics'].copy()
+            filtered_graph['statistics']['filtered_nodes'] = len(filtered_nodes)
+            filtered_graph['statistics']['filtered_edges'] = len(filtered_edges)
+        
+        return filtered_graph
+    
     def _extract_event_types_from_graph(self, graph_data):
         """
         从生成的图中提取事件类型集合
@@ -285,28 +357,19 @@ class GraphEvaluator:
         
         return precision, recall, f1
     
-    def evaluate_merged_graph(self, merged_graph_path, attack_type):
+    def _evaluate_single_layer(self, graph_data, attack_type, layer_name=""):
         """
-        评测单个融合图
+        评测单个图层
         
         Args:
-            merged_graph_path: 融合图文件路径
+            graph_data: 图数据
             attack_type: 攻击类型
+            layer_name: 层名称（用于日志）
             
         Returns:
-            dict: 评测结果
+            dict: 评测指标
         """
-        result = {
-            'graph_path': merged_graph_path,
-            'attack_type': attack_type,
-            'metrics': {}
-        }
-        
-        # 加载生成的图
-        graph_data = self._load_generated_graph(merged_graph_path)
-        if not graph_data:
-            result['error'] = '无法加载图数据'
-            return result
+        metrics = {}
         
         # 指标1：主题重合F1值
         gt_event_types = self._extract_event_types_from_gt(attack_type)
@@ -314,7 +377,7 @@ class GraphEvaluator:
         
         topic_precision, topic_recall, topic_f1 = self.calculate_f1(gen_event_types, gt_event_types)
         
-        result['metrics']['topic_overlap'] = {
+        metrics['topic_overlap'] = {
             'precision': topic_precision,
             'recall': topic_recall,
             'f1': topic_f1,
@@ -329,7 +392,7 @@ class GraphEvaluator:
         
         seq2_precision, seq2_recall, seq2_f1 = self.calculate_f1(gen_seq2, gt_seq2)
         
-        result['metrics']['sequence_2_matching'] = {
+        metrics['sequence_2_matching'] = {
             'precision': seq2_precision,
             'recall': seq2_recall,
             'f1': seq2_f1,
@@ -344,7 +407,7 @@ class GraphEvaluator:
         
         seq3_precision, seq3_recall, seq3_f1 = self.calculate_f1(gen_seq3, gt_seq3)
         
-        result['metrics']['sequence_3_matching'] = {
+        metrics['sequence_3_matching'] = {
             'precision': seq3_precision,
             'recall': seq3_recall,
             'f1': seq3_f1,
@@ -352,6 +415,86 @@ class GraphEvaluator:
             'ground_truth_sequences': [list(s) for s in gt_seq3],
             'matched_sequences': [list(s) for s in (gen_seq3 & gt_seq3)]
         }
+        
+        return metrics
+    
+    def evaluate_merged_graph(self, merged_graph_path, attack_type):
+        """
+        评测单个融合图（支持分层评测）
+        
+        Args:
+            merged_graph_path: 融合图文件路径
+            attack_type: 攻击类型
+            
+        Returns:
+            dict: 评测结果（包含完整图和各层次的指标）
+        """
+        result = {
+            'graph_path': merged_graph_path,
+            'attack_type': attack_type
+        }
+        
+        # 加载生成的图
+        graph_data = self._load_generated_graph(merged_graph_path)
+        if not graph_data:
+            result['error'] = '无法加载图数据'
+            return result
+        
+        # 评测完整图
+        self.logger.printLog(f"  评测完整图...")
+        result['full_graph'] = {
+            'node_count': len(graph_data.get('nodes', [])),
+            'edge_count': len(graph_data.get('edges', [])),
+            'metrics': self._evaluate_single_layer(graph_data, attack_type, "完整图")
+        }
+        
+        # 分层评测（如果启用）
+        if self.enable_layered_eval:
+            result['layered_evaluation'] = {}
+            
+            # 核心层评测
+            self.logger.printLog(f"  评测核心层 (weight > 0.5)...")
+            core_graph = self._filter_graph_by_weight(
+                graph_data, 
+                min_weight=self.layer_config['core']['min_weight']
+            )
+            result['layered_evaluation']['core'] = {
+                'layer_name': self.layer_config['core']['name'],
+                'weight_threshold': f"> {self.layer_config['core']['min_weight']}",
+                'node_count': len(core_graph.get('nodes', [])),
+                'edge_count': len(core_graph.get('edges', [])),
+                'metrics': self._evaluate_single_layer(core_graph, attack_type, "核心层")
+            }
+            
+            # 重要层评测
+            self.logger.printLog(f"  评测重要层 (0.2 < weight <= 0.5)...")
+            important_graph = self._filter_graph_by_weight(
+                graph_data,
+                min_weight=self.layer_config['important']['min_weight'],
+                max_weight=self.layer_config['important']['max_weight']
+            )
+            result['layered_evaluation']['important'] = {
+                'layer_name': self.layer_config['important']['name'],
+                'weight_threshold': f"{self.layer_config['important']['min_weight']} - {self.layer_config['important']['max_weight']}",
+                'node_count': len(important_graph.get('nodes', [])),
+                'edge_count': len(important_graph.get('edges', [])),
+                'metrics': self._evaluate_single_layer(important_graph, attack_type, "重要层")
+            }
+            
+            # 补充层评测
+            self.logger.printLog(f"  评测补充层 (0.02 < weight <= 0.2)...")
+            supplementary_graph = self._filter_graph_by_weight(
+                graph_data,
+                min_weight=self.layer_config['supplementary']['min_weight'],
+                max_weight=self.layer_config['supplementary']['max_weight']
+            )
+            result['layered_evaluation']['supplementary'] = {
+                'layer_name': self.layer_config['supplementary']['name'],
+                'weight_threshold': f"{self.layer_config['supplementary']['min_weight']} - {self.layer_config['supplementary']['max_weight']}",
+                'node_count': len(supplementary_graph.get('nodes', [])),
+                'edge_count': len(supplementary_graph.get('edges', [])),
+                'metrics': self._evaluate_single_layer(supplementary_graph, attack_type, "补充层")
+            }
         
         return result
     

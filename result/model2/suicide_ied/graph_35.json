@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "text_35_node_1",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sindh Rangers conducted targeted operations in different parts of the city and arrested 17 suspects accused of extorting money and committing robberies.",
+      "support_text": "The Sindh Rangers arrested 17 suspects, including those accused of extorting money and committing robberies, during targeted operations in different parts of the city on Sunday.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rangers arrested two suspects, Khadim Hussain (alias Magsi) and Abdul Hameed, in the Malir area for their involvement in extortion cases.",
+      "support_text": "The paramilitary force said the suspects were identified as Khadim Hussain, alias Magsi, and Abdul Hameed.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rangers carried out raids in multiple areas including Korangi, Sacchal, Frere, Kalri, Nabi Bux, Mithadar, Kharadar, Garden, Baghdadi, and Mehmoodabad, apprehending 14 accused individuals involved in various criminal offenses.",
+      "support_text": "The paramilitary force also carried out raids in the Korangi, Sacchal. Frere, Kalri, Nabi Bux, Mithadar, Kharadar, Garden, Baghdadi and Mehmoodabad areas where they apprehended 14 accused who were identified as Muhammad Tauqeer Saeed, Muhammad Umair, Syed Amaan, Faizan, Siraaj, Sanaullah, Muhammad Hussain, Muhammad Jibran, Muhammad Sohail, Rashid, Sajid, Daniyal, Ghulam Sarwar and Muhammad Irfan.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Raja Muzammil was arrested during a raid in the Mehmoodabad area for his alleged involvement in drug peddling.",
+      "support_text": "A suspect, Raja Muzammil, was arrested by the Rangers when they carried out a raid in the Mehmoodabad area. The suspect was allegedly involved in drug peddling in the area.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_5",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Arms, looted items, and narcotics were recovered from the arrested suspects and handed over to the police for legal proceedings.",
+      "support_text": "The paramilitary force also claimed to have recovered arms, looted items and narcotics from the possession of the arrested suspects who were later handed over to the police for the initiation of legal proceedings.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "A day earlier, Sindh Rangers had conducted targeted raids in the Saudabad, Awami Colony and Korangi Industrial Area localities, from where they had arrested nine suspects.",
+      "support_text": "A day earlier, the Sindh Rangers had conducted targeted raids in the Saudabad, Awami Colony and Korangi Industrial Area localities, from where they had arrested nine suspects.",
+      "source_text": "text_35"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_35_node_1",
+      "target": "text_35_node_2",
+      "relation": "before",
+      "support_text": "The Sindh Rangers arrested 17 suspects, including those accused of extorting money and committing robberies, during targeted operations in different parts of the city on Sunday."
+    },
+    {
+      "source": "text_35_node_2",
+      "target": "text_35_node_3",
+      "relation": "before",
+      "support_text": "The paramilitary force said the suspects were identified as Khadim Hussain, alias Magsi, and Abdul Hameed."
+    },
+    {
+      "source": "text_35_node_3",
+      "target": "text_35_node_4",
+      "relation": "before",
+      "support_text": "The paramilitary force also carried out raids in the Korangi, Sacchal. Frere, Kalri, Nabi Bux, Mithadar, Kharadar, Garden, Baghdadi and Mehmoodabad areas where they apprehended 14 accused who were identified as Muhammad Tauqeer Saeed, Muhammad Umair, Syed Amaan, Faizan, Siraaj, Sanaullah, Muhammad Hussain, Muhammad Jibran, Muhammad Sohail, Rashid, Sajid, Daniyal, Ghulam Sarwar and Muhammad Irfan."
+    },
+    {
+      "source": "text_35_node_4",
+      "target": "text_35_node_5",
+      "relation": "before",
+      "support_text": "A suspect, Raja Muzammil, was arrested by the Rangers when they carried out a raid in the Mehmoodabad area. The suspect was allegedly involved in drug peddling in the area."
+    },
+    {
+      "source": "text_35_node_5",
+      "target": "text_35_node_6",
+      "relation": "before",
+      "support_text": "The paramilitary force also claimed to have recovered arms, looted items and narcotics from the possession of the arrested suspects who were later handed over to the police for the initiation of legal proceedings."
+    },
+    {
+      "source": "text_35_node_6",
+      "target": "text_35_node_1",
+      "relation": "before",
+      "support_text": "A day earlier, the Sindh Rangers had conducted targeted raids in the Saudabad, Awami Colony and Korangi Industrial Area localities, from where they had arrested nine suspects."
+    }
+  ]
+}

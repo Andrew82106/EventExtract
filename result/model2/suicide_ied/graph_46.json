@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_46_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A suicide bomber attempted to target a Secret Service Unit in central Kabul near the Afghan presidential palace.",
+      "support_text": "A suicide bomber apparently tried to target a Secret Service Unit in central Kabul, near the Afghan presidential palace.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Prime Minister Narendra Modi condemned a terror attack in Kabul on Tuesday.",
+      "support_text": "Prime Minister Narendra Modi on Tuesday condemned a terror attack in the Afghanistan capital that left at least 28 people dead and hundreds injured.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "The attack left at least 28 people dead and hundreds injured, many of whom were civilians.",
+      "support_text": "The attack left at least 28 people dead and hundreds injured, many of whom were civilians.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Heavy gunfire by suspected Taliban militants followed the explosion.",
+      "support_text": "The deafening explosion was followed by heavy gunfire by suspected Taliban militants.",
+      "source_text": "text_46"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_46_node_1",
+      "target": "text_46_node_3",
+      "relation": "before",
+      "support_text": "A suicide bomber apparently tried to target a Secret Service Unit in central Kabul, near the Afghan presidential palace."
+    },
+    {
+      "source": "text_46_node_2",
+      "target": "text_46_node_3",
+      "relation": "before",
+      "support_text": "Prime Minister Narendra Modi on Tuesday condemned a terror attack in the Afghanistan capital that left at least 28 people dead and hundreds injured."
+    },
+    {
+      "source": "text_46_node_3",
+      "target": "text_46_node_4",
+      "relation": "before",
+      "support_text": "The attack left at least 28 people dead and hundreds injured, many of whom were civilians."
+    }
+  ]
+}

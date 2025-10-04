@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "text_49_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在Netanya一家酒店，一名巴勒斯坦自杀炸弹袭击者在传统的逾越节晚宴上引爆了身上的炸弹，造成20人死亡，170人受伤。",
+      "support_text": "在Netanya一家酒店，一名巴勒斯坦自杀炸弹袭击者在传统的逾越节晚宴上引爆了身上的炸弹，造成20人死亡，170人受伤。",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "这次袭击是九个月来对以色列平民的最严重单次袭击，发生在犹太教最神圣的夜晚之一——逾越节晚宴。",
+      "support_text": "这次袭击是九个月来对以色列平民的最严重单次袭击，发生在犹太教最神圣的夜晚之一——逾越节晚宴。",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列政府在两周内保持克制，但在美国调解员安东尼·辛西的介入下，这一克制即将结束。",
+      "support_text": "以色列政府在两周内保持克制，但在美国调解员安东尼·辛西的介入下，这一克制即将结束。",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列政府发言人吉迪恩·梅尔表示，以色列政府将决定如何回应，以保护其人民。",
+      "support_text": "以色列政府发言人吉迪恩·梅尔表示，以色列政府将决定如何回应，以保护其人民。",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列官员和军事官员发出信号，如果安东尼·辛西不能很快实现停火，沙龙政府将采取新的军事选项，全面入侵巴勒斯坦领土。",
+      "support_text": "以色列官员和军事官员发出信号，如果安东尼·辛西不能很快实现停火，沙龙政府将采取新的军事选项，全面入侵巴勒斯坦领土。",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈马斯，负责Netanya袭击的激进伊斯兰组织，敦促在贝鲁特举行的阿拉伯领导人不要缓和他们的立场。",
+      "support_text": "哈马斯，负责Netanya袭击的激进伊斯兰组织，敦促在贝鲁特举行的阿拉伯领导人不要缓和他们的立场。",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "在袭击发生的情况下，阿拉伯国家似乎准备支持沙特阿拉伯的提议，该提议提出如果以色列能与巴勒斯坦和叙利亚达成土地换和平的协议，阿拉伯国家将给予以色列普遍的承认。",
+      "support_text": "在袭击发生的情况下，阿拉伯国家似乎准备支持沙特阿拉伯的提议，该提议提出如果以色列能与巴勒斯坦和叙利亚达成土地换和平的协议，阿拉伯国家将给予以色列普遍的承认。",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "沙特王储阿卜杜拉·本·阿卜杜勒-阿齐兹表示，如果以色列政府停止其暴力破坏手段，并同意真正的和平，阿拉伯国家将毫不犹豫地接受以色列与该地区其他国家和平共存。",
+      "support_text": "沙特王储阿卜杜拉·本·阿卜杜勒-阿齐兹表示，如果以色列政府停止其暴力破坏手段，并同意真正的和平，阿拉伯国家将毫不犹豫地接受以色列与该地区其他国家和平共存。",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "然而，希望团结支持这些言辞的统一只是一个幻想。首先，一系列关键领导人缺席，然后叙利亚反对任何看起来像是妥协巴勒斯坦对以色列武装抵抗的东西。",
+      "support_text": "然而，希望团结支持这些言辞的统一只是一个幻想。首先，一系列关键领导人缺席，然后叙利亚反对任何看起来像是妥协巴勒斯坦对以色列武装抵抗的东西。",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "最后，当亚西尔·阿拉法特计划从拉马拉通过卫星发表支持沙特计划的讲话被黎巴嫩官员阻止时，巴勒斯坦代表团未能支持该计划。",
+      "support_text": "最后，当亚西尔·阿拉法特计划从拉马拉通过卫星发表支持沙特计划的讲话被黎巴嫩官员阻止时，巴勒斯坦代表团未能支持该计划。",
+      "source_text": "text_49"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_49_node_1",
+      "target": "text_49_node_2",
+      "relation": "before",
+      "support_text": "在Netanya一家酒店，一名巴勒斯坦自杀炸弹袭击者在传统的逾越节晚宴上引爆了身上的炸弹，造成20人死亡，170人受伤。"
+    },
+    {
+      "source": "text_49_node_2",
+      "target": "text_49_node_3",
+      "relation": "before",
+      "support_text": "这次袭击是九个月来对以色列平民的最严重单次袭击，发生在犹太教最神圣的夜晚之一——逾越节晚宴。"
+    },
+    {
+      "source": "text_49_node_3",
+      "target": "text_49_node_4",
+      "relation": "before",
+      "support_text": "以色列政府在两周内保持克制，但在美国调解员安东尼·辛西的介入下，这一克制即将结束。"
+    },
+    {
+      "source": "text_49_node_4",
+      "target": "text_49_node_5",
+      "relation": "before",
+      "support_text": "以色列政府发言人吉迪恩·梅尔表示，以色列政府将决定如何回应，以保护其人民。"
+    },
+    {
+      "source": "text_49_node_5",
+      "target": "text_49_node_6",
+      "relation": "before",
+      "support_text": "以色列官员和军事官员发出信号，如果安东尼·辛西不能很快实现停火，沙龙政府将采取新的军事选项，全面入侵巴勒斯坦领土。"
+    },
+    {
+      "source": "text_49_node_6",
+      "target": "text_49_node_7",
+      "relation": "before",
+      "support_text": "哈马斯，负责Netanya袭击的激进伊斯兰组织，敦促在贝鲁特举行的阿拉伯领导人不要缓和他们的立场。"
+    },
+    {
+      "source": "text_49_node_7",
+      "target": "text_49_node_8",
+      "relation": "before",
+      "support_text": "在袭击发生的情况下，阿拉伯国家似乎准备支持沙特阿拉伯的提议，该提议提出如果以色列能与巴勒斯坦和叙利亚达成土地换和平的协议，阿拉伯国家将给予以色列普遍的承认。"
+    },
+    {
+      "source": "text_49_node_8",
+      "target": "text_49_node_9",
+      "relation": "before",
+      "support_text": "沙特王储阿卜杜拉·本·阿卜杜勒-阿齐兹表示，如果以色列政府停止其暴力破坏手段，并同意真正的和平，阿拉伯国家将毫不犹豫地接受以色列与该地区其他国家和平共存。"
+    },
+    {
+      "source": "text_49_node_9",
+      "target": "text_49_node_10",
+      "relation": "before",
+      "support_text": "然而，希望团结支持这些言辞的统一只是一个幻想。首先，一系列关键领导人缺席，然后叙利亚反对任何看起来像是妥协巴勒斯坦对以色列武装抵抗的东西。"
+    },
+    {
+      "source": "text_49_node_10",
+      "target": "text_49_node_10",
+      "relation": "before",
+      "support_text": "最后，当亚西尔·阿拉法特计划从拉马拉通过卫星发表支持沙特计划的讲话被黎巴嫩官员阻止时，巴勒斯坦代表团未能支持该计划。"
+    }
+  ]
+}

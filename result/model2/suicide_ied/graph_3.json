@@ -1,0 +1,114 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "22人在曼彻斯特体育馆的Ariana Grande演唱会上被恐怖袭击杀害，其中一名自杀式炸弹袭击者袭击了离场的观众。",
+      "support_text": "22人在曼彻斯特体育馆的Ariana Grande演唱会上被恐怖袭击杀害，其中一名自杀式炸弹袭击者袭击了离场的观众。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "曼彻斯特市长Andy Burnham表示，城市的精神将战胜这种邪恶的恐怖袭击，并慰问受害者家属。",
+      "support_text": "曼彻斯特市长Andy Burnham表示，城市的精神将战胜这种邪恶的恐怖袭击，并慰问受害者家属。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "市长赞扬了当地居民为逃离曼彻斯特体育馆和疏散地区的人们提供避难所的行为。",
+      "support_text": "市长赞扬了当地居民为逃离曼彻斯特体育馆和疏散地区的人们提供避难所的行为。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国首相Theresa May在唐宁街发表声明，对此次袭击表示谴责。",
+      "support_text": "英国首相Theresa May在唐宁街发表声明，对此次袭击表示谴责。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_5",
+      "event_type": "Service",
+      "event_subtype": "Subscription",
+      "event_sub_subtype": "News",
+      "description": "提供新闻订阅服务，包括每日头条和突发新闻更新",
+      "support_text": "ES News email The latest headlines in your inbox twice a day Monday - Friday plus breaking news updates Enter your email address Continue Please enter an email address Email address is invalid Fill out this field Email address is invalid You already have an account. Please log in Register with your social account or click here to log in I would like to receive lunchtime headlines Monday - Friday plus breaking news alerts, by email Update newsletter preferences",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_6",
+      "event_type": "Statement",
+      "event_subtype": "Mayor",
+      "event_sub_subtype": "Message",
+      "description": "市长表示这是对那些试图分裂我们的人的“最好的信息”，也将是曼彻斯特占主导地位的精神。",
+      "support_text": "市长表示，这是对那些试图分裂我们的人的“最好的信息”，也将是曼彻斯特占主导地位的精神。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_7",
+      "event_type": "Statement",
+      "event_subtype": "Mayor",
+      "event_sub_subtype": "Resilience",
+      "description": "市长说：“我们今天在哀悼，但我们很坚强。在我们的伟大城市中，尽可能保持一切照常。”",
+      "support_text": "市长说：“我们今天在哀悼，但我们很坚强。在我们的伟大城市中，尽可能保持一切照常。”",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_8",
+      "event_type": "Movement",
+      "event_subtype": "",
+      "event_sub_subtype": "Photos",
+      "description": "曼彻斯特竞技场爆炸后的情况 - 图片展示",
+      "support_text": "意义段内容中的图片展示了曼彻斯特竞技场爆炸后的情况。",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_2",
+      "relation": "before",
+      "support_text": "22人在曼彻斯特体育馆的Ariana Grande演唱会上被恐怖袭击杀害，其中一名自杀式炸弹袭击者袭击了离场的观众。曼彻斯特市长Andy Burnham表示，城市的精神将战胜这种邪恶的恐怖袭击，并慰问受害者家属。"
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_6",
+      "relation": "causes",
+      "support_text": "22人在曼彻斯特体育馆的Ariana Grande演唱会上被恐怖袭击杀害，其中一名自杀式炸弹袭击者袭击了离场的观众。市长表示，这是对那些试图分裂我们的人的“最好的信息”，也将是曼彻斯特占主导地位的精神。"
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_8",
+      "relation": "results_in",
+      "support_text": "爆炸事件导致曼彻斯特竞技场爆炸后的情况通过图片展示。"
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_3",
+      "relation": "before",
+      "support_text": "曼彻斯特市长Andy Burnham表示，城市的精神将战胜这种邪恶的恐怖袭击，并慰问受害者家属。市长赞扬了当地居民为逃离曼彻斯特体育馆和疏散地区的人们提供避难所的行为。"
+    },
+    {
+      "source": "text_3_node_3",
+      "target": "text_3_node_4",
+      "relation": "before",
+      "support_text": "市长赞扬了当地居民为逃离曼彻斯特体育馆和疏散地区的人们提供避难所的行为。英国首相Theresa May在唐宁街发表声明，对此次袭击表示谴责。"
+    },
+    {
+      "source": "text_3_node_6",
+      "target": "text_3_node_7",
+      "relation": "follows",
+      "support_text": "市长表示，这是对那些试图分裂我们的人的“最好的信息”，也将是曼彻斯特占主导地位的精神。市长说：“我们今天在哀悼，但我们很坚强。在我们的伟大城市中，尽可能保持一切照常。”"
+    }
+  ]
+}

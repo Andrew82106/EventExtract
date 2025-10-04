@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "text_47_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Al-Shabaab claims responsibility for a truck bomb explosion outside a government compound in Mogadishu.",
+      "support_text": "Al-Shabaab claims responsibility for the blasts, Reuters reported.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A suicide truck bomb explodes, killing at least 65 people and injuring many near the Ministry of Higher Education in Mogadishu.",
+      "support_text": "A suicide truck bomb has exploded outside a compound housing government buildings in Mogadishu, killing at least 65 people and maiming scores in one of the most devastating attacks claimed by al-Shabaab insurgents since they withdrew most of their forces from the Somali capital.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rescue workers struggle to free people trapped in debris while injured individuals seek medical attention at nearby hospitals.",
+      "support_text": "Buildings were destroyed and rescue workers struggled to free people trapped in the debris while the walking wounded made their way to the battered city's hospitals.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_4",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Somali government reports a death toll of 15 with over 20 injured, confirming the casualties are mostly students and parents waiting for exam results.",
+      "support_text": "The Somali government put the death toll at 15 with more than 20 injured from the suicide bombing.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Shabaab, linked to al-Qaida, claims responsibility for the attack, indicating their intent to derail Somali progress.",
+      "support_text": "Al-Shabaab, which is linked to al-Qaida, claimed responsibility for the blasts, Reuters reported.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Lieutenant Colonel Paddy Ankunda, a spokesman for the African Union peacekeeping force Amisom, confirms the explosion was caused by a suicide vehicle bomb and describes ongoing rescue efforts.",
+      "support_text": "Lieutenant Colonel Paddy Ankunda, a spokesman for the African Union peacekeeping force Amisom, said the explosion had been caused by a suicide vehicle bomb, but that he had no definite figures yet on casualties.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ankunda states this is the most significant attack since al-Shabaab's withdrawal from Mogadishu and emphasizes the need for increased vigilance.",
+      "support_text": "This is the biggest attack since al-Shabaab was defeated, said Ankunda. This was expected because we knew they would go more into this kind of attack, including suicide attacks, he said.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "A Somali resident in Nairobi describes the intensity of the blast, noting shattered windows from the explosion's force.",
+      "support_text": "A Somali living in Nairobi, who spoke on condition of anonymity, described what he had heard about the blast. My house is in K6, which is 1km from the bombing, and all the glass windows are shattered so that tells you how strong the blast was, he said.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Students had gathered inside the compound to take exams.",
+      "support_text": "News reports said students had gathered inside the compound to take exams.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ambulance co-ordinator Ali Muse reported 65 dead bodies and 50 injured people, with some still lying there and most having burns.",
+      "support_text": "'We have carried 65 dead bodies and 50 injured people,' the ambulance co-ordinator Ali Muse told Reuters. 'Some are still lying there. Most of the people have burns.'",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Police are trying to evacuate more students trapped inside the damaged buildings.",
+      "support_text": "Police were trying to evacuate more students trapped inside the damaged buildings.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Burns",
+      "description": "Scores of people with burns were walking to a nearby hospital.",
+      "support_text": "Scores of people with burns were walking to a nearby hospital.",
+      "source_text": "text_47"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_47_node_1",
+      "target": "text_47_node_2",
+      "relation": "before",
+      "support_text": "Al-Shabaab claims responsibility for the blasts, Reuters reported."
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_3",
+      "relation": "before",
+      "support_text": "Buildings were destroyed and rescue workers struggled to free people trapped in the debris while the walking wounded made their way to the battered city's hospitals."
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_4",
+      "relation": "before",
+      "support_text": "The Somali government put the death toll at 15 with more than 20 injured from the suicide bombing."
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_5",
+      "relation": "before",
+      "support_text": "Al-Shabaab, which is linked to al-Qaida, claimed responsibility for the blasts, Reuters reported."
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_6",
+      "relation": "before",
+      "support_text": "Lieutenant Colonel Paddy Ankunda, a spokesman for the African Union peacekeeping force Amisom, said the explosion had been caused by a suicide vehicle bomb, but that he had no definite figures yet on casualties."
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_8",
+      "relation": "before",
+      "support_text": "A Somali living in Nairobi, who spoke on condition of anonymity, described what he had heard about the blast. My house is in K6, which is 1km from the bombing, and all the glass windows are shattered so that tells you how strong the blast was, he said."
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_10",
+      "relation": "after",
+      "support_text": "The explosion led to the situation reported by Ali Muse."
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_11",
+      "relation": "before",
+      "support_text": "Police were trying to evacuate more students trapped inside the damaged buildings."
+    },
+    {
+      "source": "text_47_node_6",
+      "target": "text_47_node_7",
+      "relation": "before",
+      "support_text": "This is the biggest attack since al-Shabaab was defeated, said Ankunda. This was expected because we knew they would go more into this kind of attack, including suicide attacks, he said."
+    },
+    {
+      "source": "text_47_node_9",
+      "target": "text_47_node_2",
+      "relation": "before",
+      "support_text": "Students had gathered inside the compound to take exams before the explosion."
+    },
+    {
+      "source": "text_47_node_12",
+      "target": "text_47_node_3",
+      "relation": "before",
+      "support_text": "Scores of people with burns were walking to a nearby hospital."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "text_34_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年11月13日上午8:40，在印度尼西亚北苏门答腊省棉兰市，发生了一起针对市警察局总部的自杀式炸弹袭击，袭击者当场死亡，六人受伤。",
+      "support_text": "A suicide bombing was conducted in Medan, North Sumatra, Indonesia on 13 November 2019, targeting the city's metropolitan police (Polrestabes) headquarters. No person other than the attacker was killed in the attack, though six others were injured.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者Rabbial Muslim Nasution被认定为24岁棉兰市居民，隶属于与伊斯兰国有关联的Jamaah Ansharut Daulah组织。",
+      "support_text": "Though his body was blown up, the perpetrator was identified from fingerprints as a 24-year old resident of the city, Rabbial Muslim Nasution, who had recently been an online motorcycle driver.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "印尼警方在袭击后展开调查，发现Nasution在袭击前六个月行为发生显著变化，并怀疑其受到某名正在被警方追捕的教士的灌输。",
+      "support_text": "Initial investigations explored Nasution's connections with the Islamic State-affiliated Jamaah Ansharut Daulah (JAD), and several of his family members were questioned by police.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_4",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方进一步调查后确认Jamaah Ansharut Daulah组织负责此次袭击，并在全国范围内展开多轮突击行动，逮捕了74名恐怖嫌疑人。",
+      "support_text": "Following further investigations, the Indonesian Police (Polri) stated that the JAD was behind the attack. Following the attack, Polri launched several raids in parts of the country, and a week after the attack reported that 74 terror suspects had been apprehended - more than half of which were arrested outside North Sumatra.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "在Deli Serdang地区，警方在一次伏击行动中击毙两名涉嫌组装炸弹的人员。",
+      "support_text": "The Densus 88 shot dead two alleged bomb assemblers following an ambush in Deli Serdang Regency.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "部分嫌疑人曾参加卡拉奥地区训练营，警方查获了包括改装枪支、气枪、传统刀具和弓箭在内的多种武器。",
+      "support_text": "Some of the suspects were known to have been attending training camps in Karo Regency, and weapons including improvised firearms, airsoft guns, traditional blades, and bows were confiscated.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_7",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "印度尼西亚总统佐科·维多多下令调查并逮捕袭击的肇事者。",
+      "support_text": "President of Indonesia Joko Widodo ordered for the perpetrators of the attack to be investigated and apprehended.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "人民协商会议副发言人Zulkifli Hasan表示，印尼警方对此次袭击感到措手不及，此前也曾遭遇安全部长Wiranto的袭击。",
+      "support_text": "Deputy Speaker of the People's Consultative Assembly Zulkifli Hasan commented that Polri had been caught off guard by the attack, as with the attack on security minister Wiranto.",
+      "source_text": "text_34"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_2",
+      "relation": "before",
+      "support_text": "Though his body was blown up, the perpetrator was identified from fingerprints as a 24-year old resident of the city, Rabbial Muslim Nasution, who had recently been an online motorcycle driver."
+    },
+    {
+      "source": "text_34_node_2",
+      "target": "text_34_node_3",
+      "relation": "before",
+      "support_text": "Initial investigations explored Nasution's connections with the Islamic State-affiliated Jamaah Ansharut Daulah (JAD), and several of his family members were questioned by police."
+    },
+    {
+      "source": "text_34_node_3",
+      "target": "text_34_node_4",
+      "relation": "before",
+      "support_text": "Following further investigations, the Indonesian Police (Polri) stated that the JAD was behind the attack. Following the attack, Polri launched several raids in parts of the country, and a week after the attack reported that 74 terror suspects had been apprehended - more than half of which were arrested outside North Sumatra."
+    },
+    {
+      "source": "text_34_node_4",
+      "target": "text_34_node_5",
+      "relation": "before",
+      "support_text": "The Densus 88 shot dead two alleged bomb assemblers following an ambush in Deli Serdang Regency."
+    },
+    {
+      "source": "text_34_node_4",
+      "target": "text_34_node_6",
+      "relation": "before",
+      "support_text": "Some of the suspects were known to have been attending training camps in Karo Regency, and weapons including improvised firearms, airsoft guns, traditional blades, and bows were confiscated."
+    },
+    {
+      "source": "text_34_node_4",
+      "target": "text_34_node_7",
+      "relation": "before",
+      "support_text": "President of Indonesia Joko Widodo ordered for the perpetrators of the attack to be investigated and apprehended."
+    },
+    {
+      "source": "text_34_node_4",
+      "target": "text_34_node_8",
+      "relation": "before",
+      "support_text": "Deputy Speaker of the People's Consultative Assembly Zulkifli Hasan commented that Polri had been caught off guard by the attack, as with the attack on security minister Wiranto."
+    }
+  ]
+}

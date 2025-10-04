@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "id": "text_30_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在复活节星期日，斯里兰卡发生了大规模的协调袭击。",
+      "support_text": "On Easter Sunday, massive, coordinated attacks rocked Sri Lanka.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "三座教堂和三家豪华酒店在科伦坡、尼甘布和拜蒂克洛亚遭到近乎同时发生的爆炸袭击；后来，科伦坡的一座低成本旅馆和一栋住宅区也发生了两起爆炸。",
+      "support_text": "Near-simultaneous explosions ripped through three churches and three luxury hotels across the cities of Colombo, Negombo, and Batticaloa; later, two further explosions hit a low-budget inn and a residential complex in Colombo.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "截至目前，死亡人数接近300人，另有约500人受伤。",
+      "support_text": "To date, the death toll stands at nearly 300 people, with around 500 more reported injured.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "根据美联社的报道，教堂和酒店袭击是由七名自杀式炸弹袭击者共同执行的。",
+      "support_text": "According to the AP, the church and hotel attacks were collectively executed by seven suicide bombers.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "虽然没有组织声称对袭击负责，但一名斯里兰卡官员指责了伊斯兰教激进组织国家Thuweeth Jama’ath。",
+      "support_text": "No group has yet claimed responsibility, though a Sri Lankan official blamed the National Thowheeth Jama’ath, a radical Islamist organization, for the casualties.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹爆炸后，斯里兰卡当局封锁了主要社交媒体平台，以遏制虚假信息的传播。",
+      "support_text": "After the bombs went off, authorities in the country blocked major social networks—a bid to stanch misinformation in a country where online falsehoods have been known to exacerbate intercommunal tensions.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Facebook、WhatsApp、Instagram、YouTube、Snapchat和Viber等平台都停止了服务。",
+      "support_text": "Facebook, WhatsApp, and Instagram went dark; so did YouTube, Snapchat, and Viber.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "社交媒体平台的关闭在外国报道中备受关注，因为一些媒体指出，这些平台不再被视为重要的“应急响应机构”。",
+      "support_text": "The shutdown featured prominently in foreign reporting on the attacks: as several outlets pointed out, platforms that were seen, a few years ago, as important “emergency response institutions” are no longer trusted with that function.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "全球之声的执行董事Ivan Sigal告诉《纽约时报》，斯里兰卡的断网是对这些平台的“毁灭性控诉”。",
+      "support_text": "Ivan Sigal, executive director of Global Voices, told The New York Times that the Sri Lanka blackout was a “damning indictment” of the platforms;",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "其他观察者认为，国家支持的互联网关闭设定了一个危险的先例。",
+      "support_text": "Other observers, however, maintain that state-backed internet shutdowns set a dangerous precedent.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "社交媒体封锁创造信息真空，容易被其他势力利用，加剧恐惧和恐慌。",
+      "support_text": "Alp Toker, executive director of NetBlocks, added, to the AP: “When social media is shut down, it creates a vacuum of information that’s readily exploited by other parties. It can add to the sense of fear and can cause panic.”",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sanjana Hattotuwa指出，社交媒体封锁虽然有助于控制谣言的传播，但也妨碍了记者的努力。",
+      "support_text": "Sanjana Hattotuwa told The Washington Post that “while a ban on social media helps to contain the spread of rumors, it also hampers efforts by journalists to push back on them.”",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "主要平台在处理垃圾信息方面的失败，特别是在快节奏的新闻事件中。",
+      "support_text": "It is undeniable that major platforms have failed to get to grips with junk information, particularly during fast-moving news events.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "不应忽视国家自上而下的审查风险。",
+      "support_text": "Nonetheless, we shouldn’t let our (justified) anger at Facebook et al blind us to the risks of top-down censorship in countries.",
+      "source_text": "text_30"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_30_node_1",
+      "target": "text_30_node_2",
+      "relation": "before",
+      "support_text": "On Easter Sunday, massive, coordinated attacks rocked Sri Lanka. Near-simultaneous explosions ripped through three churches and three luxury hotels across the cities of Colombo, Negombo, and Batticaloa; later, two further explosions hit a low-budget inn and a residential complex in Colombo."
+    },
+    {
+      "source": "text_30_node_2",
+      "target": "text_30_node_3",
+      "relation": "before",
+      "support_text": "Near-simultaneous explosions ripped through three churches and three luxury hotels across the cities of Colombo, Negombo, and Batticaloa; later, two further explosions hit a low-budget inn and a residential complex in Colombo. To date, the death toll stands at nearly 300 people, with around 500 more reported injured."
+    },
+    {
+      "source": "text_30_node_3",
+      "target": "text_30_node_4",
+      "relation": "before",
+      "support_text": "To date, the death toll stands at nearly 300 people, with around 500 more reported injured. According to the AP, the church and hotel attacks were collectively executed by seven suicide bombers."
+    },
+    {
+      "source": "text_30_node_4",
+      "target": "text_30_node_5",
+      "relation": "before",
+      "support_text": "According to the AP, the church and hotel attacks were collectively executed by seven suicide bombers. No group has yet claimed responsibility, though a Sri Lankan official blamed the National Thowheeth Jama’ath, a radical Islamist organization, for the casualties."
+    },
+    {
+      "source": "text_30_node_5",
+      "target": "text_30_node_6",
+      "relation": "before",
+      "support_text": "No group has yet claimed responsibility, though a Sri Lankan official blamed the National Thowheeth Jama’ath, a radical Islamist organization, for the casualties. After the bombs went off, authorities in the country blocked major social networks—a bid to stanch misinformation in a country where online falsehoods have been known to exacerbate intercommunal tensions."
+    },
+    {
+      "source": "text_30_node_6",
+      "target": "text_30_node_7",
+      "relation": "before",
+      "support_text": "After the bombs went off, authorities in the country blocked major social networks—a bid to stanch misinformation in a country where online falsehoods have been known to exacerbate intercommunal tensions. Facebook, WhatsApp, and Instagram went dark; so did YouTube, Snapchat, and Viber."
+    },
+    {
+      "source": "text_30_node_6",
+      "target": "text_30_node_11",
+      "relation": "causes",
+      "support_text": "社交媒体封锁创造信息真空，容易被其他势力利用，加剧恐惧和恐慌。"
+    },
+    {
+      "source": "text_30_node_6",
+      "target": "text_30_node_12",
+      "relation": "causes",
+      "support_text": "社交媒体封锁虽然有助于控制谣言的传播，但也妨碍了记者的努力。"
+    },
+    {
+      "source": "text_30_node_7",
+      "target": "text_30_node_8",
+      "relation": "before",
+      "support_text": "Facebook, WhatsApp, and Instagram went dark; so did YouTube, Snapchat, and Viber. The shutdown featured prominently in foreign reporting on the attacks: as several outlets pointed out, platforms that were seen, a few years ago, as important “emergency response institutions” are no longer trusted with that function."
+    },
+    {
+      "source": "text_30_node_8",
+      "target": "text_30_node_9",
+      "relation": "before",
+      "support_text": "The shutdown featured prominently in foreign reporting on the attacks: as several outlets pointed out, platforms that were seen, a few years ago, as important “emergency response institutions” are no longer trusted with that function. Ivan Sigal, executive director of Global Voices, told The New York Times that the Sri Lanka blackout was a “damning indictment” of the platforms;"
+    },
+    {
+      "source": "text_30_node_9",
+      "target": "text_30_node_10",
+      "relation": "before",
+      "support_text": "Ivan Sigal, executive director of Global Voices, told The New York Times that the Sri Lanka blackout was a “damning indictment” of the platforms; Other observers, however, maintain that state-backed internet shutdowns set a dangerous precedent."
+    },
+    {
+      "source": "text_30_node_13",
+      "target": "text_30_node_6",
+      "relation": "causes",
+      "support_text": "主要平台在处理垃圾信息方面的失败导致社交媒体封锁，特别是在快节奏的新闻事件中。"
+    },
+    {
+      "source": "text_30_node_14",
+      "target": "text_30_node_10",
+      "relation": "causes",
+      "support_text": "对主要平台在处理垃圾信息方面的失败的认识导致了对国家自上而下的审查风险的担忧。"
+    }
+  ]
+}

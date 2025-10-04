@@ -134,3 +134,93 @@ python evaluator.py
 3. 评测过程会在控制台输出详细的评测信息
 4. 评测结果会同时保存到日志文件和JSON文件中
 
+## 重新合并功能 (新增)
+
+### 功能说明
+
+`remerge_and_evaluate.py` 是一个新增的工具，可以在现有的模型生成结果基础上，直接重新合并生成总图并评测，**无需重新运行模型**。
+
+### 使用场景
+
+1. **修改合并算法后重新评测**: 修改了 mergeGraph 模块中的合并算法后，无需重新运行模型，直接重新合并即可
+2. **调整合并参数**: 想尝试不同的合并参数（如阈值）时，快速生成新的融合图
+3. **节省成本**: 避免重复调用LLM API，节省时间和成本
+
+### 使用方法
+
+#### 1. 重新合并所有模型并评测
+```bash
+cd evaluate
+bash run_remerge.sh
+```
+
+或使用Python:
+```bash
+python remerge_and_evaluate.py
+```
+
+#### 2. 重新合并指定模型
+```bash
+# 重新合并model1的所有攻击类型
+bash run_remerge.sh model1
+
+# 重新合并model2的所有攻击类型
+bash run_remerge.sh model2
+```
+
+#### 3. 重新合并指定模型和攻击类型
+```bash
+# 只重新合并model1的suicide_ied
+bash run_remerge.sh model1 suicide_ied
+```
+
+#### 4. 只重新合并，不评测
+```bash
+# 只重新合并，不进行评测（用于快速查看合并效果）
+bash run_remerge.sh --no-eval
+```
+
+或使用Python:
+```bash
+python remerge_and_evaluate.py --no_evaluate
+```
+
+### 命令行参数
+
+```bash
+python remerge_and_evaluate.py [选项]
+
+选项:
+  --model MODEL              模型名称 (如 model1, model2)
+  --attack_type TYPE         攻击类型 (如 suicide_ied)
+  --result_root PATH         结果根目录路径 (默认: ../result)
+  --ground_truth PATH        Ground truth数据路径
+  --no_evaluate              只重新合并，不进行评测
+```
+
+### 工作原理
+
+1. 扫描 `result/{model_name}/{attack_type}/` 目录
+2. 加载所有以 `graph_` 开头的单个图文件（排除 `merged_graph_` 文件）
+3. 使用 mergeGraph 模块重新合并这些图
+4. 保存新的融合图（覆盖原有的 `merged_graph_*.json` 文件）
+5. （可选）运行评测并保存结果
+
+### 示例工作流
+
+```bash
+# 1. 运行模型生成单个图（只需运行一次）
+cd model1
+python main.py --attack_type suicide_ied
+
+# 2. 查看结果，发现合并效果不满意
+
+# 3. 修改 mergeGraph 中的合并算法或参数
+
+# 4. 重新合并并评测（无需重新运行模型）
+cd ../evaluate
+bash run_remerge.sh model1 suicide_ied
+
+# 5. 查看新的评测结果
+```
+

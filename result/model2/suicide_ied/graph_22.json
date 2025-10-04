@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_22_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Multiple explosions and gunshots were heard near the session court in Charsadda.",
+      "support_text": "Multiple explosions and gunshots have been heard near session court in Tangi Tehsil in Charsadda today (Tuesday).",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_2",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "One lawyer was killed and fifteen injured persons were moved to Tehsil Tangi Hospital.",
+      "support_text": "One lawyer has been killed and fifteen injured persons have been moved to Tehsil Tangi Hospital.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "An explosion took place at the main gate of the court as terrorists failed to enter due to strict security.",
+      "support_text": "An explosion took place at the main gate as terrorists failed to enter the court premises due to strict security.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Lawyers scaled walls to save their lives during the blast.",
+      "support_text": "Lawyers in large number were present inside the bar room at the time of the blast. Eyewitnesses say that some lawyers scaled walls to save their lives.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Three suicide attackers tried to enter the court. One was killed at the gate while two others were neutralized inside the court.",
+      "support_text": "DIG Mardan said that three suicide attackers tried to enter the court. One was killed at the gate while two others were neutralized inside the court.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_6",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Broadcast",
+      "description": "Emergency was declared at all hospitals in Charsadda and Peshawar.",
+      "support_text": "Speaking to Dunya News, Khyber Pakhtunkhwa Health Minister Shahram Tarkai said that emergency has been declared at all the hospitals in Charsadda and Peshawar.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_7",
+      "event_type": "Story",
+      "event_subtype": "Developing",
+      "event_sub_subtype": "Unspecified",
+      "description": "This is a developing story.",
+      "support_text": "This is a developing story...",
+      "source_text": "text_22"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_2",
+      "relation": "before",
+      "support_text": "Multiple explosions and gunshots have been heard near session court in Tangi Tehsil in Charsadda today (Tuesday). One lawyer has been killed and fifteen injured persons have been moved to Tehsil Tangi Hospital."
+    },
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_3",
+      "relation": "before",
+      "support_text": "Multiple explosions and gunshots have been heard near session court in Tangi Tehsil in Charsadda today (Tuesday). An explosion took place at the main gate as terrorists failed to enter the court premises due to strict security."
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_6",
+      "relation": "before",
+      "support_text": "One lawyer has been killed and fifteen injured persons have been moved to Tehsil Tangi Hospital. Speaking to Dunya News, Khyber Pakhtunkhwa Health Minister Shahram Tarkai said that emergency has been declared at all the hospitals in Charsadda and Peshawar."
+    },
+    {
+      "source": "text_22_node_3",
+      "target": "text_22_node_4",
+      "relation": "before",
+      "support_text": "An explosion took place at the main gate as terrorists failed to enter the court premises due to strict security. Lawyers in large number were present inside the bar room at the time of the blast. Eyewitnesses say that some lawyers scaled walls to save their lives."
+    },
+    {
+      "source": "text_22_node_5",
+      "target": "text_22_node_3",
+      "relation": "before",
+      "support_text": "DIG Mardan said that three suicide attackers tried to enter the court. One was killed at the gate while two others were neutralized inside the court. An explosion took place at the main gate as terrorists failed to enter the court premises due to strict security."
+    },
+    {
+      "source": "text_22_node_7",
+      "target": "text_22_node_1",
+      "relation": "start",
+      "support_text": "This is a developing story. Multiple explosions and gunshots were heard near the session court in Charsadda."
+    }
+  ]
+}

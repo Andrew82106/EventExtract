@@ -16,7 +16,7 @@ from utils import Logger
 from config import ZHIPU_API_KEY, ATTACK_TYPES, get_graphs_path
 from data_loader import DataLoader
 from graph_builder import GraphBuilder
-from graph_merger import GraphMerger
+from mergeGraph import GraphMerger
 
 
 def main(attack_type=None, api_key=None):

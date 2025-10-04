@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "id": "text_24_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式炸弹袭击者在喀布尔的婚礼接待会上炸死63人，重伤182人",
+      "support_text": "A suicide bomber killed 63 people and wounded 182 in an attack on a wedding reception in the Afghan capital on Saturday night.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击中妇女和儿童也是受害者",
+      "support_text": "Women and children were among the casualties, interior ministry spokesman Nasrat Rahimi said on Sunday.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "婚礼厅内尸体散落，桌椅翻倒",
+      "support_text": "Pictures posted on social media showed bodies strewn amid overturned table and chairs at the wedding hall.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦强烈谴责喀布尔一场婚礼上的炸弹袭击",
+      "support_text": "Pakistan on Sunday has strongly denounced the heinous bomb attack targeting civilians during a marriage function in Kabul.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "巴基斯坦外交部发言人表示对无辜受害者的家人表示哀悼，并祈祷逝者得到宽恕和受伤者早日康复",
+      "support_text": "As per details, Foreign Office Spokesperson Dr Muhammad Faisal in a statement said we express our heartfelt condolences to the families of innocent victims and pray for the maghfirah of the deceased and for early recovery of many others who were seriously injured in the attack.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "由于阿富汗经济逐渐复苏，婚礼厅成为大生意，家庭在庆祝活动上花费更多",
+      "support_text": "Wedding halls have become a big business in Kabul as the Afghan economy slowly picks up and families spend more on celebrations.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_8",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "11月，喀布尔一家婚礼厅发生爆炸，至少40人死亡",
+      "support_text": "At least 40 people were killed in an explosion at a wedding hall in Kabul in November.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_5",
+      "event_type": "Statement",
+      "event_subtype": "Denounce",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦谴责一切形式的恐怖主义",
+      "support_text": "The spokesman said Pakistan condemns terrorism in all its forms and manifestations which is a common threat for the entire region and must be defeated together.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_9",
+      "event_type": "Attack",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者袭击了男宾接待区，官员表示。",
+      "support_text": "The bomber struck the men’s reception area, officials said.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_10",
+      "event_type": "Statement",
+      "event_subtype": "Report",
+      "event_sub_subtype": "Witness",
+      "description": "爆炸后，一位在场的服务员赛义德·阿加·沙赫说，大家都跑了",
+      "support_text": "“Everybody was running,” a waiter at the hall, Sayed Agha Shah, said after the blast.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们的几名服务员被杀和受伤了",
+      "support_text": "Several of our waiters were killed and wounded",
+      "source_text": "text_24"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_2",
+      "relation": "before",
+      "support_text": "Women and children were among the casualties, interior ministry spokesman Nasrat Rahimi said on Sunday."
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_3",
+      "relation": "before",
+      "support_text": "Pictures posted on social media showed bodies strewn amid overturned table and chairs at the wedding hall."
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_6",
+      "relation": "before",
+      "support_text": "As per details, Foreign Office Spokesperson Dr Muhammad Faisal in a statement said we express our heartfelt condolences to the families of innocent victims and pray for the maghfirah of the deceased and for early recovery of many others who were seriously injured in the attack."
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_9",
+      "relation": "cause",
+      "support_text": "The bomber struck the men’s reception area, officials said."
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_10",
+      "relation": "after",
+      "support_text": "爆炸后，一位在场的服务员赛义德·阿加·沙赫说，大家都跑了"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_11",
+      "relation": "cause",
+      "support_text": "Several of our waiters were killed and wounded"
+    },
+    {
+      "source": "text_24_node_7",
+      "target": "text_24_node_8",
+      "relation": "before",
+      "support_text": "At least 40 people were killed in an explosion at a wedding hall in Kabul in November."
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_4",
+      "relation": "cause",
+      "support_text": "The spokesman said Pakistan condemns terrorism in all its forms and manifestations which is a common threat for the entire region and must be defeated together."
+    }
+  ]
+}

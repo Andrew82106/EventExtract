@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "text_12_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两辆汽车炸弹在伦敦被发现未能引爆",
+      "support_text": "A Jeep containing gas cylinders was driven into Glasgow Airport a day after two car bombs were found in London.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一辆装有气瓶的吉普车冲进格拉斯哥机场大门并起火",
+      "support_text": "A Jeep containing gas cylinders was driven into Glasgow Airport a day after two car bombs were found in London.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "格拉斯哥机场事件后，英国保持最高级别的反恐警戒状态",
+      "support_text": "The UK moved to its highest level of terror alert after the Jeep Cherokee crashed into the main doors of Glasgow Airport's main terminal and burst into flames on Saturday afternoon.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "五人被拘留，警方认为仍在追捕一名嫌疑人",
+      "support_text": "Five people are being held, but police are thought to be hunting a suspect.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名嫌疑人（一名26岁男子和一名27岁女子）在切斯特的M6公路附近被捕，随后被带到伦敦帕丁顿绿色警察局接受审讯",
+      "support_text": "Two of those held by police are a 26-year-old man and 27-year-old woman who were arrested on the M6 near Sandbach, Cheshire, on Saturday night. Both have been taken to Paddington Green police station in London for questioning.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "利物浦的一名26岁男子被捕，仍在默西塞德警察局拘留",
+      "support_text": "Another 26-year-old man arrested in Liverpool on Sunday remains in custody at a Merseyside police station.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "格拉斯哥机场的一名嫌疑人严重烧伤，处于危重状态，在 paisley 的皇家亚历山德拉医院接受治疗，并受到武装警察的看守",
+      "support_text": "One of the two suspects held at Glasgow Airport on Saturday suffered severe burns and remains in a critical condition, and under armed police guard, at Royal Alexandra Hospital, in Paisley.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_8",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在多个地点进行搜查，包括利物浦、纽卡斯尔-under-莱姆和休斯顿附近的村庄",
+      "support_text": "Police searching two addresses in the Liverpool area. And Staffordshire Police said its officers had been searching an address in Newcastle-under-Lyme with the West Midlands Counter Terrorism Unit and Met personnel.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "副助理警察局长彼得·克拉克表示，他对揭开袭击者的方法和网络充满信心",
+      "support_text": "Deputy Assistant Commissioner Peter Clarke said he was 'absolutely confident' of uncovering details of the attackers' methods and network.",
+      "source_text": "text_12"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_12_node_1",
+      "target": "text_12_node_2",
+      "relation": "before",
+      "support_text": "A Jeep containing gas cylinders was driven into Glasgow Airport a day after two car bombs were found in London."
+    },
+    {
+      "source": "text_12_node_2",
+      "target": "text_12_node_3",
+      "relation": "before",
+      "support_text": "The UK moved to its highest level of terror alert after the Jeep Cherokee crashed into the main doors of Glasgow Airport's main terminal and burst into flames on Saturday afternoon."
+    },
+    {
+      "source": "text_12_node_3",
+      "target": "text_12_node_4",
+      "relation": "before",
+      "support_text": "Five people are being held, but police are thought to be hunting a suspect."
+    },
+    {
+      "source": "text_12_node_4",
+      "target": "text_12_node_5",
+      "relation": "before",
+      "support_text": "Two of those held by police are a 26-year-old man and 27-year-old woman who were arrested on the M6 near Sandbach, Cheshire, on Saturday night. Both have been taken to Paddington Green police station in London for questioning."
+    },
+    {
+      "source": "text_12_node_4",
+      "target": "text_12_node_6",
+      "relation": "before",
+      "support_text": "Another 26-year-old man arrested in Liverpool on Sunday remains in custody at a Merseyside police station."
+    },
+    {
+      "source": "text_12_node_4",
+      "target": "text_12_node_7",
+      "relation": "before",
+      "support_text": "One of the two suspects held at Glasgow Airport on Saturday suffered severe burns and remains in a critical condition, and under armed police guard, at Royal Alexandra Hospital, in Paisley."
+    },
+    {
+      "source": "text_12_node_4",
+      "target": "text_12_node_8",
+      "relation": "before",
+      "support_text": "Police searching two addresses in the Liverpool area. And Staffordshire Police said its officers had been searching an address in Newcastle-under-Lyme with the West Midlands Counter Terrorism Unit and Met personnel."
+    },
+    {
+      "source": "text_12_node_4",
+      "target": "text_12_node_9",
+      "relation": "before",
+      "support_text": "Deputy Assistant Commissioner Peter Clarke said he was 'absolutely confident' of uncovering details of the attackers' methods and network."
+    }
+  ]
+}

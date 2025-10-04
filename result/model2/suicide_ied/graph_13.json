@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "text_13_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ofir Rahum was shot and killed by Palestinian gunmen in Ramallah.",
+      "support_text": "Jan 17, 2001 - Ofir Rahum, 16, of Ashkelon, traveled to Jerusalem to meet a young woman with whom he had conducted a relationship over the Internet. She then drove him toward Ramallah. At a prearranged location, another vehicle drove up and three Palestinian gunmen inside shot Rahum more than 15 times.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shalhevet Pass was killed by sniper fire in Hebron.",
+      "support_text": "Mar 26, 2001 - Shalhevet Pass, age 10 months, was killed by sniper fire at the entrance to the Avraham Avinu neighborhood in Hebron",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Eliran Rosenberg-Zayat and Naftali Lanzkron were killed in a suicide bombing at the Mifgash Hashalom gas station near Kalkilya.",
+      "support_text": "Mar 28, 2001 - Eliran Rosenberg-Zayat, 15, of Givat Shmuel and Naftali Lanzkron, 13, of Petah Tikva were killed in a suicide bombing at the Mifgash Hashalom (''peace stop'') gas station several hundred meters from an IDF roadblock near the entrance to Kalkilya, east of Kfar Saba.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Yossi Ish-Ran and Kobi Mandell were stoned to death in a cave near Tekoa.",
+      "support_text": "May 9, 2001 - Yossi Ish-Ran, 14, and Kobi Mandell, 14, both of Tekoa, were found stoned to death in a cave about 200 meters from the small community south of Jerusalem where they lived.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Marina Berkovizki and nine others were killed in a suicide bombing at a disco near Tel Aviv's Dolphinarium.",
+      "support_text": "June 1, 2001 - Marina Berkovizki, 17, Anya Kazachkov, 16, of Holon; Katherine Kastaniyada-Talkir, 15, of Ramat Gan; Aleksei Lupalu, 16, of the Ukraine; Mariana Medvedenko, 16, of Tel Aviv; Irina Nepomneschi, 16, of Bat Yam;Yulia Nelimov, 16, of Tel Aviv; Raisa Nimrovsky, 15, of Netanya; Liana Sakiyan, 16, of Tel Aviv; Maria Tagilchev, 14, of Netanya; and Irena Usdachi, 18, of Holon were killed when a suicide bomber blew himself outside a disco near Tel Aviv's Dolphinarium along the seafront promenade just before midnight on Friday.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Yehuda Shoham died from injuries incurred in a fatal stoning near Shilo.",
+      "support_text": "June 11, 2001 - Yehuda Shoham, aged 5 months, of Shilo, died of injuries incurred in a fatal stoning on June 5. He was critically injured by a rock thrown at the family's car near Shilo in Samaria.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ronen Landau was shot and killed while returning home from Jerusalem.",
+      "support_text": "July 26, 2001 - Ronen Landau, 17, of Givat Ze'ev, was shot and killed by Palestinian terrorists while returning home from Jerusalem with his father.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Michal Raziel, Malka Roth, Ra'aya Schijveschuurder, Avraham Yitzhak Schijveschuurder, Hemda Schijveschuurder, Tamara Shimashvili, and Yocheved Shoshan were killed in a suicide bombing at the Sbarro pizzeria in Jerusalem.",
+      "support_text": "Aug 9, 2001 -Michal Raziel, 16, of Jerusalem; Malka Roth, 15, of Jerusalem Ra'aya Schijveschuurder, 14, of Neria; Avraham Yitzhak Schijveschuurder, 4, of Neria; Hemda Schijveschuurder, 2, of Neria; Tamara Shimashvili, 8, of Jerusalem; and Yocheved Shoshan, 10, of Jerusalem were killed in a suicide bombing at the Sbarro pizzeria on the corner of King George Street and Jaffa Road in the center of Jerusalem.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Aliza Malka was killed in a drive-by shooting at Kibbutz Merav.",
+      "support_text": "Aug 9, 2001 - Aliza Malka, 17, a boarding student at Kibbutz Merav, was killed by terrorists in a drive-by shooting at the entrance to the kibbutz in the Gilboa region",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shoshana Ben Ishai and Menashe Regev were killed in a shooting at a bus stop in northern Jerusalem.",
+      "support_text": "Nov 4, 2001 - Shoshana Ben Ishai, 16, of Betar Illit and Menashe (Meni) Regev, 14, of Jerusalem were killed when a Palestinian terrorist opened fire with a sub-machine gun shortly before 16:00 at a No. 25 Egged bus at the French Hill junction in northern Jerusalem...",
+      "source_text": "text_13"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_2",
+      "relation": "before",
+      "support_text": "Jan 17, 2001 - Ofir Rahum, 16, of Ashkelon, traveled to Jerusalem to meet a young woman with whom he had conducted a relationship over the Internet. She then drove him toward Ramallah. At a prearranged location, another vehicle drove up and three Palestinian gunmen inside shot Rahum more than 15 times."
+    },
+    {
+      "source": "text_13_node_2",
+      "target": "text_13_node_3",
+      "relation": "before",
+      "support_text": "Mar 26, 2001 - Shalhevet Pass, age 10 months, was killed by sniper fire at the entrance to the Avraham Avinu neighborhood in Hebron"
+    },
+    {
+      "source": "text_13_node_3",
+      "target": "text_13_node_4",
+      "relation": "before",
+      "support_text": "Mar 28, 2001 - Eliran Rosenberg-Zayat, 15, of Givat Shmuel and Naftali Lanzkron, 13, of Petah Tikva were killed in a suicide bombing at the Mifgash Hashalom (''peace stop'') gas station several hundred meters from an IDF roadblock near the entrance to Kalkilya, east of Kfar Saba."
+    },
+    {
+      "source": "text_13_node_4",
+      "target": "text_13_node_5",
+      "relation": "before",
+      "support_text": "May 9, 2001 - Yossi Ish-Ran, 14, and Kobi Mandell, 14, both of Tekoa, were found stoned to death in a cave about 200 meters from the small community south of Jerusalem where they lived."
+    },
+    {
+      "source": "text_13_node_5",
+      "target": "text_13_node_6",
+      "relation": "before",
+      "support_text": "June 1, 2001 - Marina Berkovizki, 17, Anya Kazachkov, 16, of Holon; Katherine Kastaniyada-Talkir, 15, of Ramat Gan; Aleksei Lupalu, 16, of the Ukraine; Mariana Medvedenko, 16, of Tel Aviv; Irina Nepomneschi, 16, of Bat Yam;Yulia Nelimov, 16, of Tel Aviv; Raisa Nimrovsky, 15, of Netanya; Liana Sakiyan, 16, of Tel Aviv; Maria Tagilchev, 14, of Netanya; and Irena Usdachi, 18, of Holon were killed when a suicide bomber blew himself outside a disco near Tel Aviv's Dolphinarium along the seafront promenade just before midnight on Friday."
+    },
+    {
+      "source": "text_13_node_6",
+      "target": "text_13_node_7",
+      "relation": "before",
+      "support_text": "June 11, 2001 - Yehuda Shoham, aged 5 months, of Shilo, died of injuries incurred in a fatal stoning on June 5. He was critically injured by a rock thrown at the family's car near Shilo in Samaria."
+    },
+    {
+      "source": "text_13_node_7",
+      "target": "text_13_node_8",
+      "relation": "before",
+      "support_text": "July 26, 2001 - Ronen Landau, 17, of Givat Ze'ev, was shot and killed by Palestinian terrorists while returning home from Jerusalem with his father."
+    },
+    {
+      "source": "text_13_node_8",
+      "target": "text_13_node_9",
+      "relation": "before",
+      "support_text": "Aug 9, 2001 -Michal Raziel, 16, of Jerusalem; Malka Roth, 15, of Jerusalem Ra'aya Schijveschuurder, 14, of Neria; Avraham Yitzhak Schijveschuurder, 4, of Neria; Hemda Schijveschuurder, 2, of Neria; Tamara Shimashvili, 8, of Jerusalem; and Yocheved Shoshan, 10, of Jerusalem were killed in a suicide bombing at the Sbarro pizzeria on the corner of King George Street and Jaffa Road in the center of Jerusalem."
+    },
+    {
+      "source": "text_13_node_9",
+      "target": "text_13_node_10",
+      "relation": "before",
+      "support_text": "Aug 9, 2001 - Aliza Malka, 17, a boarding student at Kibbutz Merav, was killed by terrorists in a drive-by shooting at the entrance to the kibbutz in the Gilboa region"
+    }
+  ]
+}

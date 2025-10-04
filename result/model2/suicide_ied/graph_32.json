@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_32_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ahmed Osman Saleh stepped off a minibus in Tirana and caught his last glimpse of daylight for three days.",
+      "support_text": "Ahmed Osman Saleh stepped off a minibus here in the Albanian capital in July 1998 and caught what would be his last glimpse of daylight for three days.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Albanian security agents slipped a white cloth bag over Mr. Saleh's head, bound his limbs with plastic shackles and tossed him into the rear of a hatchback vehicle.",
+      "support_text": "As he paid the driver, Albanian security agents slipped a white cloth bag over Mr. Saleh's head, bound his limbs with plastic shackles and tossed him into the rear of a hatchback vehicle.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "U.S. Central Intelligence Agency agents supervised the operation from a nearby car.",
+      "support_text": "Supervising the operation from a nearby car were agents from the U.S. Central Intelligence Agency.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mr. Saleh's Albanian captors sped over rutted roads to an abandoned location.",
+      "support_text": "Mr. Saleh's Albanian captors sped over rutted roads to an abandoned...",
+      "source_text": "text_32"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_32_node_1",
+      "target": "text_32_node_2",
+      "relation": "before",
+      "support_text": "As he paid the driver, Albanian security agents slipped a white cloth bag over Mr. Saleh's head, bound his limbs with plastic shackles and tossed him into the rear of a hatchback vehicle."
+    },
+    {
+      "source": "text_32_node_2",
+      "target": "text_32_node_3",
+      "relation": "before",
+      "support_text": "Supervising the operation from a nearby car were agents from the U.S. Central Intelligence Agency."
+    },
+    {
+      "source": "text_32_node_3",
+      "target": "text_32_node_4",
+      "relation": "before",
+      "support_text": "Mr. Saleh's Albanian captors sped over rutted roads to an abandoned..."
+    }
+  ]
+}

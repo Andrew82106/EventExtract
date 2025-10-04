@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "id": "text_40_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Taliban struck two Ahmadi mosques in Lahore, proving they are a present force in the city.",
+      "support_text": "Taliban struck two Ahmadi mosques in Lahore, proving they are a present force in the city.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A suicide attack on the Sufi shrine Data Ganj Bakhsh, the largest and most revered in Pakistan, killed 42 people and wounded 175.",
+      "support_text": "A suicide attack on the Sufi shrine Data Ganj Bakhsh, the largest and most revered in Pakistan, killed 42 people, wounding 175.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_3",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Sufi community organized meetings in all mosques of the country to curb the fundamentalist Islam of the Taliban.",
+      "support_text": "The Sufi community of Pakistan had in recent months organized a series of meetings in the mosques of the country to encourage all Muslims to stop the spread of the fundamentalist creed of the Taliban.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "Raza Rumi called for greater government involvement and a major crackdown on all terrorist outfits operating in the country, especially in Punjab.",
+      "support_text": "Raza Rumi, a Pakistani expert on Sufism, posted the following comment on his website: 'This is a barbaric attack and should serve as a wake up call. Data Saheb's shrine is not just another crowded place - it represents millennia of tolerant Sufi Islam which is directly under attack by the puritans. Last year, there were threats and the government had closed the place for a day or two. This time the worst of nightmares has come true'. Rumi also calls for greater government involvement, 'How much longer will we be mere spectators and see our great city blown to bits - culturally and physically. This is time for hard, concrete action and a major crackdown on all terrorist outfits that are operating in the country especially in Punjab with impunity'.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_5",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "Dr. Peter Jacob condemned the attack and called on the government to take appropriate measures to stop the violence against moderate people.",
+      "support_text": "This is the reaction of Dr.Peter Jacob, national secretary of Justice and Peace in Lahore given to AsiaNews in the immediate aftermath of the suicide attack on the Sufi shrine Data Ganj Bakhsh, the largest and most revered in Pakistan, which killed 42 people, wounding 175. 'Lahore - Jacob continues - is led by the Islamic party Pakistan Muslim League-Nawaz (PML-N), and is the strongest in opposition. We think the government should take appropriate measures to stop the violence happening now to all moderate people, be they Muslims, Ahmadis, Sufis. The program of the Taliban is clear, we want that the government act immediately to combat it'.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Moderate Islam in Punjab has been struck by the Taliban.",
+      "support_text": "by Fareed Khan Justice and Peace: moderate Islam has been struck. The Government of Punjab (the party of Nawaz Sharif) weak in the fight against the Taliban.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_7",
+      "event_type": "GovernmentAction",
+      "event_subtype": "Weakness",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Government of Punjab is weak in the fight against the Taliban.",
+      "support_text": "The Government of Punjab (the party of Nawaz Sharif) weak in the fight against the Taliban.",
+      "source_text": "text_40"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_2",
+      "relation": "before",
+      "support_text": "Almost a month ago the Taliban have struck two Ahmadi mosques in Lahore, proving they are a present force in the city. But all this has not led to increased security."
+    },
+    {
+      "source": "text_40_node_2",
+      "target": "text_40_node_3",
+      "relation": "before",
+      "support_text": "The Sufi community of Pakistan had in recent months organized a series of meetings in the mosques of the country to encourage all Muslims to stop the spread of the fundamentalist creed of the Taliban."
+    },
+    {
+      "source": "text_40_node_3",
+      "target": "text_40_node_4",
+      "relation": "before",
+      "support_text": "Raza Rumi, a Pakistani expert on Sufism, posted the following comment on his website: 'This is a barbaric attack and should serve as a wake up call. Data Saheb's shrine is not just another crowded place - it represents millennia of tolerant Sufi Islam which is directly under attack by the puritans. Last year, there were threats and the government had closed the place for a day or two. This time the worst of nightmares has come true'. Rumi also calls for greater government involvement, 'How much longer will we be mere spectators and see our great city blown to bits - culturally and physically. This is time for hard, concrete action and a major crackdown on all terrorist outfits that are operating in the country especially in Punjab with impunity'."
+    },
+    {
+      "source": "text_40_node_4",
+      "target": "text_40_node_5",
+      "relation": "before",
+      "support_text": "This is the reaction of Dr.Peter Jacob, national secretary of Justice and Peace in Lahore given to AsiaNews in the immediate aftermath of the suicide attack on the Sufi shrine Data Ganj Bakhsh, the largest and most revered in Pakistan, which killed 42 people, wounding 175. 'Lahore - Jacob continues - is led by the Islamic party Pakistan Muslim League-Nawaz (PML-N), and is the strongest in opposition. We think the government should take appropriate measures to stop the violence happening now to all moderate people, be they Muslims, Ahmadis, Sufis. The program of the Taliban is clear, we want that the government act immediately to combat it'."
+    },
+    {
+      "source": "text_40_node_6",
+      "target": "text_40_node_7",
+      "relation": "causes",
+      "support_text": "The strike on moderate Islam in Punjab has caused the government's weakness in fighting the Taliban."
+    }
+  ]
+}

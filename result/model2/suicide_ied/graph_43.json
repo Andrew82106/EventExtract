@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "id": "text_43_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Melbourne's Sri Lankan community gathered in Federation Square and St Paul's Cathedral in grief and disbelief over the terror attacks.",
+      "support_text": "Members of Melbourne's large Sri Lankan community came together in grief and disbelief on Monday as they tried to comprehend the horror of the terror attacks that have claimed at least 290 lives.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "About 120 people held posters and lit candles, praying for Sri Lanka and raising their voice against terrorism.",
+      "support_text": "Holding posters saying 'Raise your voice against terrorism', 'Pray for Sri Lanka' and 'United we stand', about 120 people gathered in Federation Square and then on the steps of St Paul's Cathedral to light candles and pray.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_3",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "Prime Minister Scott Morrison later confirmed that two Australians had been killed in the blasts.",
+      "support_text": "Hours later, Prime Minister Scott Morrison would confirm that two Australians had been killed in the blasts.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_4",
+      "event_type": "Description",
+      "event_subtype": "Scene",
+      "event_sub_subtype": "Unspecified",
+      "description": "Members of Melbourne's Sri Lankan community outside St Paul's Cathedral.",
+      "support_text": "Members of Melbourne's Sri Lankan community outside St Paul's Cathedral. Credit:Eddie Jim",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_5",
+      "event_type": "Description",
+      "event_subtype": "Identity",
+      "event_sub_subtype": "Unspecified",
+      "description": "They were later identified as mother Manik Suriaaratchi and her 10-year-old daughter Alexendria, who moved back to Sri Lanka several years ago.",
+      "support_text": "They were later identified as mother Manik Suriaaratchi and her 10-year-old daughter Alexendria, who moved back to Sri Lanka several years ago.",
+      "source_text": "text_43"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_2",
+      "relation": "before",
+      "support_text": "Members of Melbourne's large Sri Lankan community came together in grief and disbelief on Monday as they tried to comprehend the horror of the terror attacks that have claimed at least 290 lives."
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_4",
+      "relation": "before",
+      "support_text": "Members of Melbourne's Sri Lankan community came together in grief and disbelief on Monday as they tried to comprehend the horror of the terror attacks that have claimed at least 290 lives."
+    },
+    {
+      "source": "text_43_node_2",
+      "target": "text_43_node_3",
+      "relation": "before",
+      "support_text": "Holding posters saying 'Raise your voice against terrorism', 'Pray for Sri Lanka' and 'United we stand', about 120 people gathered in Federation Square and then on the steps of St Paul's Cathedral to light candles and pray."
+    }
+  ]
+}

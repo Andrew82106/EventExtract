@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_18_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Taliban suicide bomber detonated a massive car bomb outside a National Directorate for Security (NDS) camp in Ghazni city at 05:30 a.m. local time.",
+      "support_text": "At 05:30 a.m. local time, a Taliban suicide bomber detonated a massive car bomb roughly at 05:30 a.m. local time outside a National Directorate for Security (NDS) camp in a southern area of Ghazni city, enabling the second group of militants to engage with security force members before trying to enter the station, a security source told Xinhua.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The explosion killed at least seven people and wounded 25 others, who were admitted to the provincial hospital in Ghazni city.",
+      "support_text": "At least seven people were killed and 25 others wounded in a Taliban car bomb blast and an ensuing gun shooting outside an intelligence agency military camp in Afghanistan's eastern Ghazni province on Monday, a provincial source said. \"Seven killed and 25 wounded people were admitted to the provincial hospital in provincial capital Ghazni city after a terrorist attack Monday morning,\" Baz Mohammad Hemat, head of provincial public health department, told Xinhua.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "A second group of militants engaged with security force members before trying to enter the station after the explosion.",
+      "support_text": "The incident occurred when a Taliban suicide bomber detonated a massive car bomb roughly at 05:30 a.m. local time outside a National Directorate for Security (NDS) camp in a southern area of Ghazni city, enabling the second group of militants to engage with security force members before trying to enter the station, a security source told Xinhua.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sporadic clashes between attackers and security forces continued as of 08:00 a.m. local time in the area.",
+      "support_text": "Sporadic clashes between attackers and security forces are still continuing as of 08:00 a.m. local time in the area.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Security forces cordoned off the area for precautionary measures.",
+      "support_text": "Security forces have cordoned off the area for precautionary measures.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Thick gray smoke was seen rising above the site.",
+      "support_text": "Thick gray smoke was seen rising above the site.",
+      "source_text": "text_18"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_2",
+      "relation": "before",
+      "support_text": "The incident occurred when a Taliban suicide bomber detonated a massive car bomb roughly at 05:30 a.m. local time outside a National Directorate for Security (NDS) camp in a southern area of Ghazni city, enabling the second group of militants to engage with security force members before trying to enter the station, a security source told Xinhua."
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_node_3",
+      "relation": "before",
+      "support_text": "The incident occurred when a Taliban suicide bomber detonated a massive car bomb roughly at 05:30 a.m. local time outside a National Directorate for Security (NDS) camp in a southern area of Ghazni city, enabling the second group of militants to engage with security force members before trying to enter the station, a security source told Xinhua."
+    },
+    {
+      "source": "text_18_node_3",
+      "target": "text_18_node_4",
+      "relation": "before",
+      "support_text": "Sporadic clashes between attackers and security forces are still continuing as of 08:00 a.m. local time in the area."
+    },
+    {
+      "source": "text_18_node_4",
+      "target": "text_18_node_5",
+      "relation": "before",
+      "support_text": "Security forces have cordoned off the area for precautionary measures."
+    },
+    {
+      "source": "text_18_node_5",
+      "target": "text_18_node_6",
+      "relation": "before",
+      "support_text": "Thick gray smoke was seen rising above the site."
+    }
+  ]
+}

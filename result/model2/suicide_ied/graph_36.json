@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "text_36_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰国在叙利亚南部省Sweida发动了一系列袭击和爆炸，造成至少215人死亡，180人受伤。",
+      "support_text": "At least 215 people were killed and 180 others injured Wednesday in a spate of attacks and bombings carried out by the Islamic State (IS) in Syrian's southern province of Sweida, according to the Health Department of Sweida.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Sweida市发生了一系列由伊斯兰国执行的爆炸，两名炸弹人员在爆炸时被击毙。",
+      "support_text": "Earlier in the day, a series of explosions, which were carried out by IS, rocked several parts of the city of Sweida. State media outlets said the two bombers were killed while being hunted down at the time of early explosions.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国在黎明后对Sweida省东北部乡村的城镇发动了袭击，当地民众手持武器进行抵抗。",
+      "support_text": "The suicide bombings came in tandem with attacks by the IS militants on towns in the northeastern countryside of Sweida after dawn Wednesday. People carried arms to confront the IS attacks in the countryside of Sweida amid reports that the army, with help of locals, succeeded in pushing back IS from some of their areas they entered.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "在Sweida省的战斗中，军队在当地民众的帮助下成功将伊斯兰国赶出部分他们占领的地区。",
+      "support_text": "While the countryside of Sweida has witnessed battles between rebels, including IS, and the Syrian army, the city of Sweida has remained largely calm during Syria's seven-year-long war as it is inhabited by people of the Druze minority, who are loyal to Syrian President Bashar al-Assad's rule.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国的袭击和轰炸转移了叙利亚军队的注意力，减轻了附近Daraa省伊斯兰国控制地区所承受的压力。",
+      "support_text": "The IS attacks and bombings in Sweida have come to divert the attention of the Syrian army and release the pressure on the IS-held areas in the nearby western countryside of Daraa province near the Israeli-occupied Golan Heights.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚军队在Daraa省西部乡村的Yarmouk盆地持续打击伊斯兰国位置，并在Sweida省东北部与伊斯兰国作战。",
+      "support_text": "The Syrian army has been relentlessly striking IS positions in the areas of Yarmouk basin in the western countryside of Daraa near the Israeli-occupied Golan Heights. The army has also been fighting against IS in the northeastern countryside of Sweida, as part of the Battle of the South, which includes battles against the rebels and IS in the countryside of Daraa, Sweida, and Quneitra.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "在俄罗斯的帮助和调解下，军队已经占据了Daraa省的90%。",
+      "support_text": "With the mediation and help of Russia, the army has already captured 90 percent of Daraa through battles and reconciliations as well as evacuation of rebels.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "靠近戈兰高度的Quneitra附近的叛乱分子同意离开他们的地区，前往叙利亚北部的叛乱控制地区。",
+      "support_text": "The rebels in Quneitra near the Golan Heights have also accepted to leave their areas toward rebel-held places in northern Syria.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "在Sweida省东部乡村的一些偏远地区仍在伊斯兰国的控制之下。",
+      "support_text": "In the eastern countryside of Sweida, some areas in the remote eastern countryside are under IS control.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "周三袭击后，Sweida的一些部落领袖表示，数百名年轻人准备参与击败他们在Sweida省乡村攻占的地区中的伊斯兰国。",
+      "support_text": "After Wednesday's attack, some tribal leaders in Sweida said hundreds of young men are ready to take part in defeating IS in the areas they stormed in the countryside of Sweida.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sweida市在叙利亚战争中保持相对平静，因为其居民为Druze少数族群，他们对叙利亚总统巴沙尔·阿萨德的统治忠诚。",
+      "support_text": "While the countryside of Sweida has witnessed battles between rebels, including IS, and the Syrian army, the city of Sweida has remained largely calm during Syria's seven-year-long war as it is inhabited by people of the Druze minority, who are loyal to Syrian President Bashar al-Assad's rule.",
+      "source_text": "text_36"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_node_2",
+      "relation": "before",
+      "support_text": "Earlier in the day, a series of explosions, which were carried out by IS, rocked several parts of the city of Sweida. State media outlets said the two bombers were killed while being hunted down at the time of early explosions."
+    },
+    {
+      "source": "text_36_node_2",
+      "target": "text_36_node_3",
+      "relation": "before",
+      "support_text": "The suicide bombings came in tandem with attacks by the IS militants on towns in the northeastern countryside of Sweida after dawn Wednesday."
+    },
+    {
+      "source": "text_36_node_3",
+      "target": "text_36_node_4",
+      "relation": "before",
+      "support_text": "People carried arms to confront the IS attacks in the countryside of Sweida amid reports that the army, with help of locals, succeeded in pushing back IS from some of their areas they entered."
+    },
+    {
+      "source": "text_36_node_4",
+      "target": "text_36_node_5",
+      "relation": "before",
+      "support_text": "While the countryside of Sweida has witnessed battles between rebels, including IS, and the Syrian army, the city of Sweida has remained largely calm during Syria's seven-year-long war as it is inhabited by people of the Druze minority, who are loyal to Syrian President Bashar al-Assad's rule."
+    },
+    {
+      "source": "text_36_node_4",
+      "target": "text_36_node_11",
+      "relation": "corresponds_to",
+      "support_text": "The city of Sweida has remained largely calm during Syria's seven-year-long war as it is inhabited by people of the Druze minority, who are loyal to Syrian President Bashar al-Assad's rule."
+    },
+    {
+      "source": "text_36_node_5",
+      "target": "text_36_node_6",
+      "relation": "before",
+      "support_text": "The IS attacks and bombings in Sweida have come to divert the attention of the Syrian army and release the pressure on the IS-held areas in the nearby western countryside of Daraa province near the Israeli-occupied Golan Heights."
+    },
+    {
+      "source": "text_36_node_6",
+      "target": "text_36_node_7",
+      "relation": "before",
+      "support_text": "The Syrian army has been relentlessly striking IS positions in the areas of Yarmouk basin in the western countryside of Daraa near the Israeli-occupied Golan Heights. The army has also been fighting against IS in the northeastern countryside of Sweida, as part of the Battle of the South, which includes battles against the rebels and IS in the countryside of Daraa, Sweida, and Quneitra."
+    },
+    {
+      "source": "text_36_node_7",
+      "target": "text_36_node_8",
+      "relation": "before",
+      "support_text": "With the mediation and help of Russia, the army has already captured 90 percent of Daraa through battles and reconciliations as well as evacuation of rebels."
+    },
+    {
+      "source": "text_36_node_8",
+      "target": "text_36_node_9",
+      "relation": "before",
+      "support_text": "The rebels in Quneitra near the Golan Heights have also accepted to leave their areas toward rebel-held places in northern Syria."
+    },
+    {
+      "source": "text_36_node_9",
+      "target": "text_36_node_10",
+      "relation": "before",
+      "support_text": "In the eastern countryside of Sweida, some areas in the remote eastern countryside are under IS control."
+    }
+  ]
+}

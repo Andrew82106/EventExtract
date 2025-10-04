@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在斯里兰卡复活节星期日发生的致命袭击，针对教堂、酒店和其他地点，是针对上个月在新西兰两个清真寺发生的屠杀的报复。",
+      "support_text": "在斯里兰卡复活节星期日发生的致命袭击，针对教堂、酒店和其他地点，是针对上个月在新西兰两个清真寺发生的屠杀的报复。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯里兰卡国防部长表示，政府有信息表明，这些爆炸（已造成至少321人死亡）是对上个月在基督城发生的枪击事件的回应。",
+      "support_text": "斯里兰卡国防部长表示，政府有信息表明，这些爆炸（已造成至少321人死亡）是对上个月在基督城发生的枪击事件的回应。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ruwan Wijewardene没有透露支持其说法的证据，并指责安全机构未能阻止这九次爆炸。",
+      "support_text": "Ruwan Wijewardene没有透露支持其说法的证据，并指责安全机构未能阻止这九次爆炸。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "在议会表示，情报单位已经意识到这次袭击，并且一些负责人被告知即将发生的袭击。",
+      "support_text": "在议会表示，情报单位已经意识到这次袭击，并且一些负责人被告知即将发生的袭击。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "然而，这些信息仅在少数官员之间流传。",
+      "support_text": "然而，这些信息仅在少数官员之间流传。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_6",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "周二举行了三分钟全国默哀，以纪念爆炸事件，同时为一些受害者举行了大规模葬礼。",
+      "support_text": "周二举行了三分钟全国默哀，以纪念爆炸事件，同时为一些受害者举行了大规模葬礼。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "国际情报机构警告说，一个当地激进组织正在准备袭击，但这些警告直到袭击发生后才传达到总理办公室。",
+      "support_text": "国际情报机构警告说，一个当地激进组织正在准备袭击，但这些警告直到袭击发生后才传达到总理办公室。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_8",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯里兰卡的基督教改革教会呼吁英国信徒为这个国家祈祷。",
+      "support_text": "斯里兰卡的基督教改革教会呼吁英国信徒为这个国家祈祷。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "表达了对袭击可能如何影响该国经济的担忧，他说：“很多游客正在来；他们喜欢斯里兰卡，这是一个非常美丽的国家。由于这件事，也许一段时间内一切都会有点瘫痪。”",
+      "support_text": "表达了对袭击可能如何影响该国经济的担忧，他说：“很多游客正在来；他们喜欢斯里兰卡，这是一个非常美丽的国家。由于这件事，也许一段时间内一切都会有点瘫痪。”",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "斯里兰卡国防部长表示，政府有信息表明，这些爆炸（已造成至少321人死亡）是对上个月在基督城发生的枪击事件的回应。"
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "Ruwan Wijewardene没有透露支持其说法的证据，并指责安全机构未能阻止这九次爆炸。"
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "在议会表示，情报单位已经意识到这次袭击，并且一些负责人被告知即将发生的袭击。"
+    },
+    {
+      "source": "text_2_node_4",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "然而，这些信息仅在少数官员之间流传。"
+    },
+    {
+      "source": "text_2_node_5",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "周二举行了三分钟全国默哀，以纪念爆炸事件，同时为一些受害者举行了大规模葬礼。"
+    },
+    {
+      "source": "text_2_node_6",
+      "target": "text_2_node_7",
+      "relation": "before",
+      "support_text": "国际情报机构警告说，一个当地激进组织正在准备袭击，但这些警告直到袭击发生后才传达到总理办公室。"
+    },
+    {
+      "source": "text_2_node_7",
+      "target": "text_2_node_8",
+      "relation": "before",
+      "support_text": "斯里兰卡的基督教改革教会呼吁英国信徒为这个国家祈祷。"
+    },
+    {
+      "source": "text_2_node_8",
+      "target": "text_2_node_9",
+      "relation": "before",
+      "support_text": "表达了对袭击可能如何影响该国经济的担忧，他说：“很多游客正在来；他们喜欢斯里兰卡，这是一个非常美丽的国家。由于这件事，也许一段时间内一切都会有点瘫痪。”"
+    }
+  ]
+}

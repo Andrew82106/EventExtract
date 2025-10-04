@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "text_6_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "三个自杀式炸弹袭击者在尼日利亚东北部引爆了爆炸物，造成30人死亡，39人受伤。",
+      "support_text": "Lagos, Nigeria (CNN) Three suicide bombers, two girls and a boy, killed 30 people and injured 39 others when they detonated explosives in Nigeria's northeast, emergency response officials said on Monday.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名炸弹袭击者在Konduga小镇的影院外引爆了爆炸物，当时那里聚集了许多观看足球比赛的球迷。",
+      "support_text": "One of the bombers, detonated his explosive outside a cinema hall where soccer fans had gathered to watch a match on Sunday night in Konduga, a remote town in Borno State.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两名年龄不明的女孩在距离影院几公里处自爆，导致另外六人死亡，17人受伤。",
+      "support_text": "A few kilometers from the hall, the girls, whose ages are unknown, blew themselves up and killed another six people and injured 17 others.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_4",
+      "event_type": "Information",
+      "event_subtype": "Report",
+      "event_sub_subtype": "Death Toll",
+      "description": "至少24人死亡，信息来源为Bello Dambatta，州紧急救援行动负责人。",
+      "support_text": "At least 24 people died according to Bello Dambatta, head of the rescue team of State emergency operations.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_5",
+      "event_type": "Information",
+      "event_subtype": "Report",
+      "event_sub_subtype": "Location",
+      "description": "袭击者位于同一区域的不同位置，大部分遇难者来自观景中心。",
+      "support_text": "They positioned themselves in different spots in the same area. Most of the people who died were from the viewing center.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_6",
+      "event_type": "Information",
+      "event_subtype": "Report",
+      "event_sub_subtype": "Casualties",
+      "description": "袭击导致至少24人死亡，21人受伤，信息来源为Bello Dambatta。",
+      "support_text": "At least 24 people died when he blew himself up and 21 people were injured, Dambatta told CNN.",
+      "source_text": "text_6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_2",
+      "relation": "before",
+      "support_text": "One of the bombers, detonated his explosive outside a cinema hall where soccer fans had gathered to watch a match on Sunday night in Konduga, a remote town in Borno State."
+    },
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_5",
+      "relation": "context",
+      "support_text": "袭击者位于同一区域的不同位置，大部分遇难者来自观景中心。"
+    },
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_6",
+      "relation": "context",
+      "support_text": "袭击导致至少24人死亡，21人受伤，信息来源为Bello Dambatta。"
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_3",
+      "relation": "before",
+      "support_text": "A few kilometers from the hall, the girls, whose ages are unknown, blew themselves up and killed another six people and injured 17 others."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "text_23_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "五名以色列人在 Burgas 发生的恐怖袭击中丧生",
+      "support_text": "五名以色列人在 Burgas 发生的恐怖袭击中丧生",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "五角大楼表示袭击中有与真主党相关的独特标记",
+      "support_text": "五角大楼表示袭击中有与真主党相关的独特标记",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "五角大楼发言人表示美国不能明确指出袭击的幕后黑手",
+      "support_text": "五角大楼发言人表示美国不能明确指出袭击的幕后黑手",
+      "source_text": "text_23"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_23_node_1",
+      "target": "text_23_node_2",
+      "relation": "before",
+      "support_text": "五名以色列人在 Burgas 发生的恐怖袭击中丧生"
+    },
+    {
+      "source": "text_23_node_2",
+      "target": "text_23_node_3",
+      "relation": "before",
+      "support_text": "五角大楼表示袭击中有与真主党相关的独特标记"
+    }
+  ]
+}

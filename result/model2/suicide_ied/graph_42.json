@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "text_42_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "阿富汗塔利班在赫拉特省发动路边炸弹袭击，杀死一名省警察局长和两名其他人。",
+      "support_text": "JALALABAD: Afghanistan’s Taliban insurgents killed a provincial police chief and two others in a roadside bomb attack, the local governor said on Friday, in the latest violence hindering a US-brokered peace process.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "塔利班发言人扎比胡拉·穆贾希德通过推特宣称对此次袭击负责。",
+      "support_text": "Taliban spokesman Zabihullah Mujahid said on Twitter the militants claimed responsibility for the attack.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国通过其在喀布尔的大使馆谴责了此次袭击。",
+      "support_text": "The United States, which ousted the Taliban from power in 2001 and wants to withdraw its forces and broker peace talks with the Afghan government, condemned the attack via its Embassy in Kabul.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "自2月底签署与华盛顿的协议以来，塔利班发起了数千次袭击，对阿富汗安全部队造成了重大伤亡。",
+      "support_text": "Since signing the deal with Washington in late February that paves the way for a US troop withdrawal, the emboldened Taliban have mounted thousands of attacks and inflicted heavy casualties on Afghan security forces who now have less American support.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "炸弹袭击发生在周四晚上的东南部省份库什特，省警察局长Sayed Ahmad Babazai、他的秘书和另一名警官被杀，还有一人受伤。",
+      "support_text": "The blast took place late on Thursday in the southeastern province of Khost, killing police chief Sayed Ahmad Babazai, his secretary and another officer, as well as wounding another person, said governor Halim Fidai in a statement.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_6",
+      "event_type": "Publication",
+      "event_subtype": "Article",
+      "event_sub_subtype": "Newspaper",
+      "description": "发表在《晨报》，2020年5月9日。",
+      "support_text": "Published in Dawn, May 9th, 2020",
+      "source_text": "text_42"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_42_node_1",
+      "target": "text_42_node_2",
+      "relation": "before",
+      "support_text": "Taliban spokesman Zabihullah Mujahid said on Twitter the militants claimed responsibility for the attack."
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_3",
+      "relation": "before",
+      "support_text": "The United States, which ousted the Taliban from power in 2001 and wants to withdraw its forces and broker peace talks with the Afghan government, condemned the attack via its Embassy in Kabul."
+    },
+    {
+      "source": "text_42_node_3",
+      "target": "text_42_node_4",
+      "relation": "before",
+      "support_text": "Since signing the deal with Washington in late February that paves the way for a US troop withdrawal, the emboldened Taliban have mounted thousands of attacks and inflicted heavy casualties on Afghan security forces who now have less American support."
+    },
+    {
+      "source": "text_42_node_5",
+      "target": "text_42_node_1",
+      "relation": "similar",
+      "support_text": "The blast in Khost is similar to the roadside bomb attack in Herat."
+    }
+  ]
+}

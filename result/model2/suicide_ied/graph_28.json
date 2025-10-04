@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_28_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Awami National Party (ANP) leader Haroon Bilour and 19 others were martyred in a suicide blast in Peshawar.",
+      "support_text": "The provincial police on Wednesday constituted a high-level team to probe the suicide blast that martyred Awami National Party (ANP) leader Haroon Bilour and 19 others in Peshawar.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "The provincial police constituted a high-level team to probe the suicide blast.",
+      "support_text": "The provincial police on Wednesday constituted a high-level team to probe the suicide blast that martyred Awami National Party (ANP) leader Haroon Bilour and 19 others in Peshawar.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "The seven-member team was directed to submit a detailed report within seven days.",
+      "support_text": "The seven-member team, constituted by K-P IG Mohammad Tahir under the Counter Terrorism Department (CTD), has been directed to submit a detailed report of the attack within seven days.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "Increased security was ordered in the district by K-P IG Mohammad Tahir.",
+      "support_text": "Tahir has also ordered increased security in the district.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Law enforcement agencies conducted raids across the city to arrest those involved in the attack, however, the police has yet to announce an arrest.",
+      "support_text": "Law enforcement agencies conducted raids across the city to arrest those involved in the suicide attack, however, the police has yet to announce an arrest.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nine units of police and nine units of the Quick Reaction Force (QRF) were deployed at entry and exit points of the city.",
+      "support_text": "Nine units of police and nine units of the Quick Reaction Force (QRF) have been deployed at all entry and exit points of the city, said a statement released by the provincial police.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Chief of Army Staff (COAS) General Qamar Javed Bajwa condemned the assassination and expressed grief with the Bilour family and ANP.",
+      "support_text": "Chief of Army Staff (COAS) General Qamar Javed Bajwa condemned the assassination of ANP leader Haroon and others martyred in the suicide bomb attack targeting the political gathering in Peshawar's Yakatoot area.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The interim Prime Minister Nasirul Mulk also strongly condemned the suicide attack.",
+      "support_text": "Interim Prime Minister Nasirul Mulk also strongly condemned the suicide attack in Peshawar.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_9",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "The United States embassy in Islamabad sent condolences to the victims of the attack.",
+      "support_text": "Taking to social media, the United States embassy in Islamabad sent condolences to the victims.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Candidate",
+      "description": "Bilour is the ANP’s candidate for provincial assembly seat PK-78.",
+      "support_text": "Bilour was the ANP’s candidate for provincial assembly seat PK-78.",
+      "source_text": "text_28"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_28_node_1",
+      "target": "text_28_node_2",
+      "relation": "before",
+      "support_text": "The provincial police on Wednesday constituted a high-level team to probe the suicide blast that martyred Awami National Party (ANP) leader Haroon Bilour and 19 others in Peshawar."
+    },
+    {
+      "source": "text_28_node_1",
+      "target": "text_28_node_7",
+      "relation": "before",
+      "support_text": "Chief of Army Staff (COAS) General Qamar Javed Bajwa condemned the assassination of ANP leader Haroon and others martyred in the suicide bomb attack targeting the political gathering in Peshawar's Yakatoot area."
+    },
+    {
+      "source": "text_28_node_1",
+      "target": "text_28_node_8",
+      "relation": "before",
+      "support_text": "Interim Prime Minister Nasirul Mulk also strongly condemned the suicide attack in Peshawar."
+    },
+    {
+      "source": "text_28_node_1",
+      "target": "text_28_node_9",
+      "relation": "before",
+      "support_text": "Taking to social media, the United States embassy in Islamabad sent condolences to the victims."
+    },
+    {
+      "source": "text_28_node_2",
+      "target": "text_28_node_3",
+      "relation": "before",
+      "support_text": "The seven-member team, constituted by K-P IG Mohammad Tahir under the Counter Terrorism Department (CTD), has been directed to submit a detailed report of the attack within seven days."
+    },
+    {
+      "source": "text_28_node_2",
+      "target": "text_28_node_4",
+      "relation": "before",
+      "support_text": "Tahir has also ordered increased security in the district."
+    },
+    {
+      "source": "text_28_node_2",
+      "target": "text_28_node_5",
+      "relation": "before",
+      "support_text": "Law enforcement agencies conducted raids across the city to arrest those involved in the suicide attack, however, the police has yet to announce an arrest."
+    },
+    {
+      "source": "text_28_node_2",
+      "target": "text_28_node_6",
+      "relation": "before",
+      "support_text": "Nine units of police and nine units of the Quick Reaction Force (QRF) have been deployed at all entry and exit points of the city, said a statement released by the provincial police."
+    }
+  ]
+}

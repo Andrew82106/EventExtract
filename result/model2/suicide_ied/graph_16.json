@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "text_16_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Bulgaria bombing of a bus filled with Israeli tourists on Wednesday, killing five Israelis.",
+      "support_text": "THE BOMBING of a bus in Bulgaria filled with Israeli tourists on Wednesday underlines the grim fact that Iran is waging a war of terrorism.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Bulgaria bombing was the ninth plot pinned on Iran this year and the third this month, with similar attacks in Kenya and Cyprus foiled.",
+      "support_text": "The Bulgaria bombing, in which five Israelis were killed, was the ninth plot pinned on Iran this year and the third this month: Similar attacks in Kenya and Cyprus were foiled.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "In February, an Israeli diplomat’s wife was injured in a car bombing in New Delhi, and other attacks failed in Georgia and Thailand.",
+      "support_text": "In February, an Israeli diplomat’s wife was injured in a car bombing in New Delhi, and other attacks failed in Georgia and Thailand.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Last October, the Justice Department charged two Iranians in a plot to kill the Saudi ambassador in Washington by bombing a Georgetown restaurant.",
+      "support_text": "Last October, the Justice Department charged two Iranians in a plot to kill the Saudi ambassador in Washington by bombing a Georgetown restaurant.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Iranian officials have hinted that they are seeking revenge for the assassinations of scientists working on the country’s nuclear program and for cyberattacks by Israel and the United States.",
+      "support_text": "Iranian officials have hinted that they are seeking revenge for the assassinations of scientists working on the country’s nuclear program and for cyberattacks by Israel and the United States.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Three rounds of negotiations this year between Tehran and a six-nation coalition have been nonstarters.",
+      "support_text": "Three rounds of negotiations this year between Tehran and a six-nation coalition have been “nonstarters,” as Secretary of State Hillary Rodham Clinton acknowledged this week.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Obama administration appears interested in keeping diplomacy going to deter or delay Israel from launching an attack on the Iranian nuclear facilities.",
+      "support_text": "The Obama administration nevertheless appears interested in keeping diplomacy going, if only to deter or delay Israel from launching an attack on the Iranian nuclear facilities.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "India’s ambassador to the United Nations condemned the assassinations of senior Syrian officials but has yet to hold Iran accountable for the February bombing near the prime minister’s residence.",
+      "support_text": "India’s ambassador to the United Nations condemned the assassinations of senior Syrian officials in Damascus this week, but New Delhi has yet to hold Iran accountable for the February bombing, which took place blocks from the prime minister’s residence.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_9",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Security Council should review the evidence of involvement by the Revolutionary Guard and Hezbollah in this year’s attacks and punish both groups as well as the Iranian government with sanctions.",
+      "support_text": "The Security Council should review the abundant evidence of involvement by the Revolutionary Guard and Hezbollah in this year’s attacks and punish both those groups as well as the Iranian government with sanctions.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_10",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "UN",
+      "description": "联合国安理会表示，任何恐怖主义行为都是犯罪且不可接受的，无论其动机如何。",
+      "support_text": "But as a statement by the U.N. Security Council on Thursday said, “any acts of terrorism are criminal and unjustifiable, regardless of their motivation.”",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Civilian",
+      "description": "布加勒斯特爆炸的受害者是无辜的平民，包括一名孕妇。",
+      "support_text": "The victims of the Bulgarian bombing were not warriors or scientists building illicit weapons of mass destruction but innocent civilians, including a pregnant woman.",
+      "source_text": "text_16"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_2",
+      "relation": "before",
+      "support_text": "The Bulgaria bombing, in which five Israelis were killed, was the ninth plot pinned on Iran this year and the third this month: Similar attacks in Kenya and Cyprus were foiled."
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_3",
+      "relation": "before",
+      "support_text": "In February, an Israeli diplomat’s wife was injured in a car bombing in New Delhi, and other attacks failed in Georgia and Thailand."
+    },
+    {
+      "source": "text_16_node_3",
+      "target": "text_16_node_4",
+      "relation": "before",
+      "support_text": "Last October, the Justice Department charged two Iranians in a plot to kill the Saudi ambassador in Washington by bombing a Georgetown restaurant."
+    },
+    {
+      "source": "text_16_node_4",
+      "target": "text_16_node_5",
+      "relation": "before",
+      "support_text": "Iranian officials have hinted that they are seeking revenge for the assassinations of scientists working on the country’s nuclear program and for cyberattacks by Israel and the United States."
+    },
+    {
+      "source": "text_16_node_5",
+      "target": "text_16_node_6",
+      "relation": "before",
+      "support_text": "Three rounds of negotiations this year between Tehran and a six-nation coalition have been “nonstarters,” as Secretary of State Hillary Rodham Clinton acknowledged this week."
+    },
+    {
+      "source": "text_16_node_6",
+      "target": "text_16_node_7",
+      "relation": "before",
+      "support_text": "The Obama administration nevertheless appears interested in keeping diplomacy going, if only to deter or delay Israel from launching an attack on the Iranian nuclear facilities."
+    },
+    {
+      "source": "text_16_node_7",
+      "target": "text_16_node_8",
+      "relation": "before",
+      "support_text": "India’s ambassador to the United Nations condemned the assassinations of senior Syrian officials in Damascus this week, but New Delhi has yet to hold Iran accountable for the February bombing, which took place blocks from the prime minister’s residence."
+    },
+    {
+      "source": "text_16_node_8",
+      "target": "text_16_node_9",
+      "relation": "before",
+      "support_text": "The Security Council should review the abundant evidence of involvement by the Revolutionary Guard and Hezbollah in this year’s attacks and punish both those groups as well as the Iranian government with sanctions."
+    },
+    {
+      "source": "text_16_node_10",
+      "target": "text_16_node_11",
+      "relation": "justifies",
+      "support_text": "联合国安理会表示，任何恐怖主义行为都是犯罪且不可接受的，无论其动机如何。布加勒斯特爆炸的受害者是无辜的平民，包括一名孕妇。"
+    }
+  ]
+}
