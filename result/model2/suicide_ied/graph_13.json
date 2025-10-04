@@ -5,8 +5,8 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "Ofir Rahum was shot and killed by Palestinian gunmen in Ramallah.",
-      "support_text": "Jan 17, 2001 - Ofir Rahum, 16, of Ashkelon, traveled to Jerusalem to meet a young woman with whom he had conducted a relationship over the Internet. She then drove him toward Ramallah. At a prearranged location, another vehicle drove up and three Palestinian gunmen inside shot Rahum more than 15 times.",
+      "description": "阿富汗政府在周三谴责塔利班是最近喀布尔、南加尔哈尔和拉格曼省袭击的主要肇事者，并呼吁国际社会对重新崛起的团体施加压力，以减少暴力并帮助为和平进程铺平道路。",
+      "support_text": "The Afghan government on Wednesday branded the Taliban as the main perpetrator behind the recent attacks in Kabul, Nangarhar and Laghman province and urged the international community to put pressure on the resurgent group to agree to reduce violence and help pave the way for the peace process.",
       "source_text": "text_13"
     },
     {
@@ -14,17 +14,17 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "Shalhevet Pass was killed by sniper fire in Hebron.",
-      "support_text": "Mar 26, 2001 - Shalhevet Pass, age 10 months, was killed by sniper fire at the entrance to the Avraham Avinu neighborhood in Hebron",
+      "description": "阿富汗总统阿什拉夫·加尼的发言人赛迪克·赛迪琪表示，塔利班的否认并不能使该组织对袭击无咎，并声称如果该组织继续敌对并拒绝减少暴力，阿富汗将没有和平。",
+      "support_text": "Sediq Sediqqi, a spokesman for Afghan President Ashraf Ghani, said that the Taliban’s disavowal of attacks does not make the group innocent of them, and he stated that there will be no peace in Afghanistan if the group continues the hostility and refuses to reduce violence.",
       "source_text": "text_13"
     },
     {
       "id": "text_13_node_3",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "Eliran Rosenberg-Zayat and Naftali Lanzkron were killed in a suicide bombing at the Mifgash Hashalom gas station near Kalkilya.",
-      "support_text": "Mar 28, 2001 - Eliran Rosenberg-Zayat, 15, of Givat Shmuel and Naftali Lanzkron, 13, of Petah Tikva were killed in a suicide bombing at the Mifgash Hashalom (''peace stop'') gas station several hundred meters from an IDF roadblock near the entrance to Kalkilya, east of Kfar Saba.",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "阿富汗第一副总统阿姆鲁拉·萨利赫表示，有明确的“证据”表明塔利班策划了喀布尔、南加尔哈尔和拉格曼省的最近袭击。",
+      "support_text": "Meanwhile, Afghanistan’s first vice president Amrullah Saleh has said that there is clear \"evidence\" that the Taliban plotted the recent attacks in Kabul, Nangarhar and Laghman provinces.",
       "source_text": "text_13"
     },
     {
@@ -32,17 +32,17 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "Yossi Ish-Ran and Kobi Mandell were stoned to death in a cave near Tekoa.",
-      "support_text": "May 9, 2001 - Yossi Ish-Ran, 14, and Kobi Mandell, 14, both of Tekoa, were found stoned to death in a cave about 200 meters from the small community south of Jerusalem where they lived.",
+      "description": "阿富汗代理内政部长马苏德·安德拉比表示，这表明哈卡尼网络和达伊什组织之间有密切合作，并且袭击是战争罪，这表明塔利班没有履行他们签署的协议的承诺。",
+      "support_text": "“This indicates close cooperation between the Haqqani network and the Daesh group, and also the attack is a war crime. This shows that the Taliban do not have any commitment to the agreement they signed,” said Massoud Andarabi, the Afghan acting minister of interior.",
       "source_text": "text_13"
     },
     {
       "id": "text_13_node_5",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "Marina Berkovizki and nine others were killed in a suicide bombing at a disco near Tel Aviv's Dolphinarium.",
-      "support_text": "June 1, 2001 - Marina Berkovizki, 17, Anya Kazachkov, 16, of Holon; Katherine Kastaniyada-Talkir, 15, of Ramat Gan; Aleksei Lupalu, 16, of the Ukraine; Mariana Medvedenko, 16, of Tel Aviv; Irina Nepomneschi, 16, of Bat Yam;Yulia Nelimov, 16, of Tel Aviv; Raisa Nimrovsky, 15, of Netanya; Liana Sakiyan, 16, of Tel Aviv; Maria Tagilchev, 14, of Netanya; and Irena Usdachi, 18, of Holon were killed when a suicide bomber blew himself outside a disco near Tel Aviv's Dolphinarium along the seafront promenade just before midnight on Friday.",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "前塔利班指挥官赛义德·阿卡巴尔·阿加表示，阿什拉夫·加尼已经告诉塔利班（阿富汗政府）将进行行动，他应该对他的（方面）进行批评，双方都应该承担责任。",
+      "support_text": "“Now that Ashraf Ghani has told the Taliban that (the Afghan govt) will conduct operations, he should be critical of his own (side), both sides should take responsibility,” said Sayed Akbar Agha, a former Taliban commander.",
       "source_text": "text_13"
     },
     {
@@ -50,17 +50,17 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "Yehuda Shoham died from injuries incurred in a fatal stoning near Shilo.",
-      "support_text": "June 11, 2001 - Yehuda Shoham, aged 5 months, of Shilo, died of injuries incurred in a fatal stoning on June 5. He was critically injured by a rock thrown at the family's car near Shilo in Samaria.",
+      "description": "军事分析师阿卜杜勒·巴希尔·萨兰吉表示，自美国和塔利班开始谈判以来，袭击显著增加，特别是在和平协议签署后。",
+      "support_text": "“The attacks have significantly increased from the day the US and the Taliban started their negotiations, particularly after the signing of the peace deal. All sides need to work hard to end this situation and reach peace,” said Abdul Baseer Salangi, a military analyst.",
       "source_text": "text_13"
     },
     {
       "id": "text_13_node_7",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
       "event_sub_subtype": "Unspecified",
-      "description": "Ronen Landau was shot and killed while returning home from Jerusalem.",
-      "support_text": "July 26, 2001 - Ronen Landau, 17, of Givat Ze'ev, was shot and killed by Palestinian terrorists while returning home from Jerusalem with his father.",
+      "description": "前军事军官阿萨杜拉·纳迪姆表示，所有军事行动和战争都必须根据战时情况和战争的地理性质来规划。",
+      "support_text": "“All military operations and the war must be planned in line with the wartime situation and the geographical nature of the war,” said Assadullah Nadeem, a former military officer.",
       "source_text": "text_13"
     },
     {
@@ -68,8 +68,8 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "Michal Raziel, Malka Roth, Ra'aya Schijveschuurder, Avraham Yitzhak Schijveschuurder, Hemda Schijveschuurder, Tamara Shimashvili, and Yocheved Shoshan were killed in a suicide bombing at the Sbarro pizzeria in Jerusalem.",
-      "support_text": "Aug 9, 2001 -Michal Raziel, 16, of Jerusalem; Malka Roth, 15, of Jerusalem Ra'aya Schijveschuurder, 14, of Neria; Avraham Yitzhak Schijveschuurder, 4, of Neria; Hemda Schijveschuurder, 2, of Neria; Tamara Shimashvili, 8, of Jerusalem; and Yocheved Shoshan, 10, of Jerusalem were killed in a suicide bombing at the Sbarro pizzeria on the corner of King George Street and Jaffa Road in the center of Jerusalem.",
+      "description": "在最近几周，塔利班在阿富汗34个省中的15个省发起了袭击，袭击已造成超过1000名阿富汗军人和平民死亡和受伤。",
+      "support_text": "Over the recent weeks, the Taliban launched attacks in 15 provinces of Afghanistan out of the total 34. The attacks have left over 1,000 Afghan military and civilians dead and wounded.",
       "source_text": "text_13"
     },
     {
@@ -77,17 +77,35 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "Aliza Malka was killed in a drive-by shooting at Kibbutz Merav.",
-      "support_text": "Aug 9, 2001 - Aliza Malka, 17, a boarding student at Kibbutz Merav, was killed by terrorists in a drive-by shooting at the entrance to the kibbutz in the Gilboa region",
+      "description": "尽管人们预计在斋月期间暴力水平会下降，但自斋月开始以来，袭击现在已急剧增加。",
+      "support_text": "Despite expectations that the violence level would decline in the holy month of Ramadan, now there is a sharp surge in the attacks since the start of the holy month.",
       "source_text": "text_13"
     },
     {
       "id": "text_13_node_10",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "Shoshana Ben Ishai and Menashe Regev were killed in a shooting at a bus stop in northern Jerusalem.",
-      "support_text": "Nov 4, 2001 - Shoshana Ben Ishai, 16, of Betar Illit and Menashe (Meni) Regev, 14, of Jerusalem were killed when a Palestinian terrorist opened fire with a sub-machine gun shortly before 16:00 at a No. 25 Egged bus at the French Hill junction in northern Jerusalem...",
+      "description": "塔利班双重庆祝一些人接受他们的谎言并指责虚构的IS-K",
+      "support_text": "塔利班双重庆祝一些人接受他们的谎言并指责虚构的IS-K",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_11",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "一些人接受他们的谎言",
+      "support_text": "一些人接受他们的谎言",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "一些人指责虚构的IS-K",
+      "support_text": "一些人指责虚构的IS-K",
       "source_text": "text_13"
     }
   ],
@@ -96,55 +114,55 @@
       "source": "text_13_node_1",
       "target": "text_13_node_2",
       "relation": "before",
-      "support_text": "Jan 17, 2001 - Ofir Rahum, 16, of Ashkelon, traveled to Jerusalem to meet a young woman with whom he had conducted a relationship over the Internet. She then drove him toward Ramallah. At a prearranged location, another vehicle drove up and three Palestinian gunmen inside shot Rahum more than 15 times."
+      "support_text": "The Afghan government on Wednesday branded the Taliban as the main perpetrator behind the recent attacks in Kabul, Nangarhar and Laghman province and urged the international community to put pressure on the resurgent group to agree to reduce violence and help pave the way for the peace process."
     },
     {
       "source": "text_13_node_2",
       "target": "text_13_node_3",
       "relation": "before",
-      "support_text": "Mar 26, 2001 - Shalhevet Pass, age 10 months, was killed by sniper fire at the entrance to the Avraham Avinu neighborhood in Hebron"
+      "support_text": "Sediq Sediqqi, a spokesman for Afghan President Ashraf Ghani, said that the Taliban’s disavowal of attacks does not make the group innocent of them, and he stated that there will be no peace in Afghanistan if the group continues the hostility and refuses to reduce violence."
     },
     {
       "source": "text_13_node_3",
       "target": "text_13_node_4",
       "relation": "before",
-      "support_text": "Mar 28, 2001 - Eliran Rosenberg-Zayat, 15, of Givat Shmuel and Naftali Lanzkron, 13, of Petah Tikva were killed in a suicide bombing at the Mifgash Hashalom (''peace stop'') gas station several hundred meters from an IDF roadblock near the entrance to Kalkilya, east of Kfar Saba."
+      "support_text": "Meanwhile, Afghanistan’s first vice president Amrullah Saleh has said that there is clear \"evidence\" that the Taliban plotted the recent attacks in Kabul, Nangarhar and Laghman provinces."
     },
     {
       "source": "text_13_node_4",
       "target": "text_13_node_5",
       "relation": "before",
-      "support_text": "May 9, 2001 - Yossi Ish-Ran, 14, and Kobi Mandell, 14, both of Tekoa, were found stoned to death in a cave about 200 meters from the small community south of Jerusalem where they lived."
+      "support_text": "“This indicates close cooperation between the Haqqani network and the Daesh group, and also the attack is a war crime. This shows that the Taliban do not have any commitment to the agreement they signed,” said Massoud Andarabi, the Afghan acting minister of interior."
     },
     {
       "source": "text_13_node_5",
       "target": "text_13_node_6",
       "relation": "before",
-      "support_text": "June 1, 2001 - Marina Berkovizki, 17, Anya Kazachkov, 16, of Holon; Katherine Kastaniyada-Talkir, 15, of Ramat Gan; Aleksei Lupalu, 16, of the Ukraine; Mariana Medvedenko, 16, of Tel Aviv; Irina Nepomneschi, 16, of Bat Yam;Yulia Nelimov, 16, of Tel Aviv; Raisa Nimrovsky, 15, of Netanya; Liana Sakiyan, 16, of Tel Aviv; Maria Tagilchev, 14, of Netanya; and Irena Usdachi, 18, of Holon were killed when a suicide bomber blew himself outside a disco near Tel Aviv's Dolphinarium along the seafront promenade just before midnight on Friday."
+      "support_text": "“Now that Ashraf Ghani has told the Taliban that (the Afghan govt) will conduct operations, he should be critical of his own (side), both sides should take responsibility,” said Sayed Akbar Agha, a former Taliban commander."
     },
     {
       "source": "text_13_node_6",
       "target": "text_13_node_7",
       "relation": "before",
-      "support_text": "June 11, 2001 - Yehuda Shoham, aged 5 months, of Shilo, died of injuries incurred in a fatal stoning on June 5. He was critically injured by a rock thrown at the family's car near Shilo in Samaria."
+      "support_text": "“The attacks have significantly increased from the day the US and the Taliban started their negotiations, particularly after the signing of the peace deal. All sides need to work hard to end this situation and reach peace,” said Abdul Baseer Salangi, a military analyst."
     },
     {
       "source": "text_13_node_7",
       "target": "text_13_node_8",
       "relation": "before",
-      "support_text": "July 26, 2001 - Ronen Landau, 17, of Givat Ze'ev, was shot and killed by Palestinian terrorists while returning home from Jerusalem with his father."
+      "support_text": "“All military operations and the war must be planned in line with the wartime situation and the geographical nature of the war,” said Assadullah Nadeem, a former military officer."
     },
     {
       "source": "text_13_node_8",
       "target": "text_13_node_9",
       "relation": "before",
-      "support_text": "Aug 9, 2001 -Michal Raziel, 16, of Jerusalem; Malka Roth, 15, of Jerusalem Ra'aya Schijveschuurder, 14, of Neria; Avraham Yitzhak Schijveschuurder, 4, of Neria; Hemda Schijveschuurder, 2, of Neria; Tamara Shimashvili, 8, of Jerusalem; and Yocheved Shoshan, 10, of Jerusalem were killed in a suicide bombing at the Sbarro pizzeria on the corner of King George Street and Jaffa Road in the center of Jerusalem."
+      "support_text": "Over the recent weeks, the Taliban launched attacks in 15 provinces of Afghanistan out of the total 34. The attacks have left over 1,000 Afghan military and civilians dead and wounded."
     },
     {
       "source": "text_13_node_9",
-      "target": "text_13_node_10",
+      "target": "text_13_node_1",
       "relation": "before",
-      "support_text": "Aug 9, 2001 - Aliza Malka, 17, a boarding student at Kibbutz Merav, was killed by terrorists in a drive-by shooting at the entrance to the kibbutz in the Gilboa region"
+      "support_text": "Despite expectations that the violence level would decline in the holy month of Ramadan, now there is a sharp surge in the attacks since the start of the holy month."
     }
   ]
 }

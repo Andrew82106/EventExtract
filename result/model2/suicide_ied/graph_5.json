@@ -5,71 +5,80 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "An unidentified suicide bomber detonated himself on a bus carrying Israel vacationers in the Bulgarian seaside resort on July 19, killing six people including Mustafa Kyosov.",
-      "support_text": "An unidentified suicide bomber detonated himself on a bus carrying Israel vacationers in the Bulgarian seaside resort on July 19, killing six people including Mustafa Kyosov.",
+      "description": "Kafeel Ahmed和伊拉克医生Bilal Talal Samad Abdullah在格拉斯哥机场驾驶装满丙烷气罐的Jeep撞击航站楼并引发火灾",
+      "support_text": "Kafeel Ahmed was an engineer with a PhD Glasgow attack Kafeel Ahmed was one of two men held at the airport after a Jeep struck the terminal and burst into flames.",
       "source_text": "text_5"
     },
     {
       "id": "text_5_node_2",
-      "event_type": "Contact",
-      "event_subtype": "",
-      "event_sub_subtype": "Unspecified",
-      "description": "Jewish organizations offered financial help to the family of the non-Jewish Bulgarian bus driver killed in the terror attack.",
-      "support_text": "Jewish organizations on Tuesday offered financial help to the family of a non-Jewish Bulgarian bus driver killed in a terror attack that targeted Israeli tourists in Burgas last month.",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Kafeel Ahmed在被捕时全身90%烧伤，Bilal Talal Samad Abdullah被指控策划爆炸",
+      "support_text": "The 27-year-old, from Bangalore, India, had suffered burns to 90% of his body when he was arrested. The second man in the vehicle - Iraqi doctor Bilal Talal Samad Abdullah - has since been charged with conspiracy to cause explosions.",
       "source_text": "text_5"
     },
     {
       "id": "text_5_node_3",
-      "event_type": "Contact",
-      "event_subtype": "",
+      "event_type": "Life",
+      "event_subtype": "Die",
       "event_sub_subtype": "Unspecified",
-      "description": "The Jewish Agency for Israel (JAFI) announced that Mustafa Kyosov's family would receive a $1,500 grant from the Fund for the Victims of Terror.",
-      "support_text": "The Jewish Agency for Israel (JAFI) announced at a ceremony in the Bulgarian capital of Sofia that it will include the family of Mustafa Kyosov among recipients of aid from the Fund for the Victims of Terror.",
+      "description": "Kafeel Ahmed在格拉斯哥皇家医院死亡，机场事件发生在6月30日",
+      "support_text": "The man died in Glasgow Royal Infirmary on Thursday evening. He had been transferred to the specialist burns unit there from the Royal Alexandra Hospital, in Paisley.",
       "source_text": "text_5"
     },
     {
       "id": "text_5_node_4",
-      "event_type": "Contact",
-      "event_subtype": "",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
       "event_sub_subtype": "Unspecified",
-      "description": "Moshe Sharet, a JAFI emissary in Bulgaria, spoke at the ceremony in Sofia and said the grant was to ease the family's financial struggles and show solidarity with their loss.",
-      "support_text": "Speaking at the central synagogue in Sofia, Moshe Sharet, a JAFI emissary in Bulgaria, said the $1,500 grant was given to Kyosovs to \"ease their financial struggles and show the solidarity of the Jewish people with their loss.\"",
+      "description": "Ahmed的兄弟Dr Sabeel Ahmed被指控未披露可能帮助警方逮捕恐怖分子的信息",
+      "support_text": "Ahmed's brother Dr Sabeel Ahmed, who was arrested near Liverpool's Lime Street station on 30 June, has also been charged under the Terrorism Act.",
       "source_text": "text_5"
     },
     {
       "id": "text_5_node_5",
-      "event_type": "Contact",
-      "event_subtype": "",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
       "event_sub_subtype": "Unspecified",
-      "description": "Strategic Affairs Minister Moshe Ya'alon spoke at the ceremony, commenting on the victims and the nature of terrorism.",
-      "support_text": "Strategic Affairs Minister Moshe Ya'alon also spoke at the ceremony on Tuesday, commenting that \"dozens were injured simply because they were Jews and Israelis.\"",
+      "description": "另一名医生也被指控与格拉斯哥袭击和伦敦两次失败的汽车炸弹有关",
+      "support_text": "Another doctor has also been charged in connection with the Glasgow attack and the two earlier failed car bombings in London.",
       "source_text": "text_5"
     },
     {
       "id": "text_5_node_6",
-      "event_type": "Transaction",
-      "event_subtype": "Donation",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "The terror victims fund created by the Jewish Federations of North America and operated by JAFI has given over NIS 100 million to families of victims and survivors of attacks in Israel and around the world.",
-      "support_text": "The terror victims fund created by the Jewish Federations of North America and operated by JAFI has given over NIS 100 million to families of victims and survivors of attacks in Israel and around the world.",
+      "description": "他正在被武装警卫看守。",
+      "support_text": "他正在被武装警卫看守。",
       "source_text": "text_5"
     },
     {
       "id": "text_5_node_7",
-      "event_type": "Transaction",
-      "event_subtype": "Donation",
-      "event_sub_subtype": "Unspecified",
-      "description": "The grant given to the Kyosovs was made possible through a special donation by the Jewish United Fund/Jewish Federation of Metropolitan Chicago.",
-      "support_text": "The grant given to the Kyosovs was made possible through a special donation by the Jewish United Fund/Jewish Federation of Metropolitan Chicago.",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Images of Ahmed being detained at Glasgow Airport have been shown around the world",
+      "support_text": "Images of Ahmed being detained at Glasgow Airport have been shown around the world",
       "source_text": "text_5"
     },
     {
       "id": "text_5_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "乘客使用相机和手机记录事件",
+      "support_text": "乘客使用相机和手机记录事件",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_9",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "",
-      "description": "Terrorists attack innocent Jews and Israelis without distinguishing bloodlines or persons, and kill anyone who stands in their way.",
-      "support_text": "Terrorism does not distinguish between blood and blood, and from person to person. Killers try to reach any place in the world to attack innocent Jews and Israelis, and would not hesitate to kill anyone who stood in their way when they implement their actions.",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名非执勤警察试图拯救恐怖分子",
+      "support_text": "一名非执勤警察试图拯救恐怖分子",
       "source_text": "text_5"
     }
   ],
@@ -78,43 +87,31 @@
       "source": "text_5_node_1",
       "target": "text_5_node_2",
       "relation": "before",
-      "support_text": "An unidentified suicide bomber detonated himself on a bus carrying Israel vacationers in the Bulgarian seaside resort on July 19, killing six people including Mustafa Kyosov."
+      "support_text": "Kafeel Ahmed was an engineer with a PhD Glasgow attack Kafeel Ahmed was one of two men held at the airport after a Jeep struck the terminal and burst into flames."
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_4",
+      "relation": "before",
+      "support_text": "Kafeel Ahmed was one of two men held at the airport after a Jeep struck the terminal and burst into flames."
     },
     {
       "source": "text_5_node_2",
       "target": "text_5_node_3",
       "relation": "before",
-      "support_text": "Jewish organizations on Tuesday offered financial help to the family of a non-Jewish Bulgarian bus driver killed in a terror attack that targeted Israeli tourists in Burgas last month."
-    },
-    {
-      "source": "text_5_node_3",
-      "target": "text_5_node_4",
-      "relation": "before",
-      "support_text": "The Jewish Agency for Israel (JAFI) announced at a ceremony in the Bulgarian capital of Sofia that it will include the family of Mustafa Kyosov among recipients of aid from the Fund for the Victims of Terror."
+      "support_text": "The 27-year-old, from Bangalore, India, had suffered burns to 90% of his body when he was arrested."
     },
     {
       "source": "text_5_node_3",
       "target": "text_5_node_5",
       "relation": "before",
-      "support_text": "The Jewish Agency for Israel (JAFI) announced at a ceremony in the Bulgarian capital of Sofia that it will include the family of Mustafa Kyosov among recipients of aid from the Fund for the Victims of Terror."
+      "support_text": "The man died in Glasgow Royal Infirmary on Thursday evening."
     },
     {
-      "source": "text_5_node_4",
-      "target": "text_5_node_5",
+      "source": "text_5_node_3",
+      "target": "text_5_node_6",
       "relation": "before",
-      "support_text": "Speaking at the central synagogue in Sofia, Moshe Sharet, a JAFI emissary in Bulgaria, said the $1,500 grant was given to Kyosovs to \"ease their financial struggles and show the solidarity of the Jewish people with their loss.\""
-    },
-    {
-      "source": "text_5_node_6",
-      "target": "text_5_node_7",
-      "relation": "before",
-      "support_text": "The terror victims fund created by the Jewish Federations of North America and operated by JAFI has given over NIS 100 million to families of victims and survivors of attacks in Israel and around the world."
-    },
-    {
-      "source": "text_5_node_8",
-      "target": "text_5_node_1",
-      "relation": "instance_of",
-      "support_text": "The event described in node_1 is an instance of the general terrorist attack described in node_8."
+      "support_text": "他正在被武装警卫看守。"
     }
   ]
 }

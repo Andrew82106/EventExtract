@@ -5,89 +5,125 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "在圣彼得堡地铁的Tekhnologichesky Institut站发生爆炸，造成11人死亡，数十人受伤。",
-      "support_text": "A bomb with about 2.2 pounds of explosives detonated in a subway car at the Tekhnologichesky Institut station, killing 11 people and injuring dozens, according to the Interfax news agency.",
+      "description": "双教堂自杀式炸弹袭击导致17人死亡，77人受伤。",
+      "support_text": "双教堂自杀式炸弹袭击导致17人死亡，77人受伤。",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_2",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "在Vosstaniya Square站发现并成功拆除一个带有碎片的爆炸装置。",
-      "support_text": "A second explosive device rigged with shrapnel was found and defused at the Vosstaniya Square station.",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "5000名基督徒在拉合尔举行抗议， blocking 道路并高呼反政府口号。",
+      "support_text": "5000名基督徒在拉合尔举行抗议， blocking 道路并高呼反政府口号。",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_3",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
-      "event_sub_subtype": "Unspecified",
-      "description": "当局正在寻找两名嫌疑人。",
-      "support_text": "Authorities are searching for two suspects, according to Interfax.",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "抗议者在您汉阿巴德地区对过往车辆投掷石头，打碎窗户。",
+      "support_text": "抗议者在您汉阿巴德地区对过往车辆投掷石头，打碎窗户。",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_4",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "安全专家指出，由于地铁站入口众多且乘客量大，地铁已成为恐怖分子袭击的目标。",
-      "support_text": "Subways have increasingly become the target of terror bombings because of the number of entrances and the volume of passengers, according to security experts.",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "抗议者向平民投掷石头和空瓶子，并对他们进行折磨。",
+      "support_text": "抗议者向平民投掷石头和空瓶子，并对他们进行折磨。",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_5",
-      "event_type": "Cognitive",
-      "event_subtype": "TeachingTrainingLearning",
-      "event_sub_subtype": "Unspecified",
-      "description": "安全专家John Poncy表示，如今恐怖主义威胁不再来自al-Qaeda，而是来自在自家客厅中进行极端主义训练的个人。",
-      "support_text": "“The scariest part is that it’s no longer instructions from al-Qaeda. Nowadays, it’s the guy who’s practicing radical terrorism in his living room,” John Poncy, a security expert who is CEO of The Densus Group and a former Army soldier, told USA TODAY.",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "警察到达现场，用警棍驱散抗议者，以控制局势。",
+      "support_text": "警察到达现场，用警棍驱散抗议者，以控制局势。",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_6",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "全球风险管理专家Anthony Roman指出，俄罗斯的交通安全标准低于美国，在索契奥运会期间安全措施被认为远低于美国标准。",
-      "support_text": "Anthony Roman, a global risk-management expert and president of Roman & Assoc. in Lynbrook, N.Y., told USA TODAY that his staffers, formerly military or Justice Department investigators, found Russian transportation security below par for the Sochi Olympics.",
+      "description": "在古杰拉瓦拉，抗议者 blocking Bypass Chowk 并举行集会。",
+      "support_text": "在古杰拉瓦拉，抗议者 blocking Bypass Chowk 并举行集会。",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_7",
-      "event_type": "Cognitive",
-      "event_subtype": "TeachingTrainingLearning",
-      "event_sub_subtype": "Unspecified",
-      "description": "纽约市展示了如何通过多层安保措施（包括制服警察、便衣警察、爆炸嗅探犬、电子和视频监控以及在高价值目标区域的显著巡逻）来保护地铁系统。",
-      "support_text": "But Roman said New York City illustrates how multi-layer security can be organized with uniformed police, plain-clothes officers, bomb-sniffing dogs, electronic and video surveillance— and significant patrols at high-value targets such as Penn Station and Grand Central Station.",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "愤怒的民众在Chanda Qilla Bypass聚集，打碎几辆车的窗户。",
+      "support_text": "愤怒的民众在Chanda Qilla Bypass聚集，打碎几辆车的窗户。",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_8",
       "event_type": "Justice",
-      "event_subtype": "",
-      "event_sub_subtype": "Meet",
-      "description": "法国内政部长Matthias Fekl在巴黎公共交通工具中重新部署了安保力量，以应对极高的恐怖主义威胁。",
-      "support_text": "France’s interior minister, Matthias Fekl, redeployed security Monday in public transport around Paris.",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "古杰拉瓦拉拘留了15名破坏公共财产的抗议者。",
+      "support_text": "古杰拉瓦拉拘留了15名破坏公共财产的抗议者。",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_9",
-      "event_type": "Justice",
-      "event_subtype": "",
-      "event_sub_subtype": "Unspecified",
-      "description": "美国华盛顿都会区交通管理局正在接收定期的安全措施。",
-      "support_text": "In the U.S., the Washington Metropolitan Area Transit Administration is receiving periodic ...",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "您汉阿巴德邻区的袭击引发了暴民暴力，两名疑似激进分子被杀，基督徒打砸汽车和巴士站。",
+      "support_text": "您汉阿巴德邻区的袭击引发了暴民暴力，两名疑似激进分子被杀，基督徒打砸汽车和巴士站。",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_10",
-      "event_type": "Cognitive",
-      "event_subtype": "TeachingTrainingLearning",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "全国各地的教堂将举行特别祈祷，基督教团体和公民社会成员将举行蜡烛悼念活动。",
+      "support_text": "全国各地的教堂将举行特别祈祷，基督教团体和公民社会成员将举行蜡烛悼念活动。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "欧洲多年来一直在防御地铁爆炸，包括布鲁塞尔机场和地铁站的自杀式袭击，巴黎的自杀式炸弹袭击和枪手，以及伦敦地铁的自杀式炸弹袭击。",
-      "support_text": "欧洲多年来一直在防御地铁爆炸，包括布鲁塞尔机场和地铁站的自杀式袭击，巴黎的自杀式炸弹袭击和枪手，以及伦敦地铁的自杀式炸弹袭击。",
+      "description": "电视频道报道了Ferozpur路上的混乱场面",
+      "support_text": "电视频道报道了Ferozpur路上的混乱场面",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "抗议活动变得暴力",
+      "support_text": "抗议活动变得暴力",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "地铁巴士服务被暂停",
+      "support_text": "地铁巴士服务被暂停",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "附近的商店被强行关闭",
+      "support_text": "附近的商店被强行关闭",
       "source_text": "text_10"
     }
   ],
@@ -96,43 +132,55 @@
       "source": "text_10_node_1",
       "target": "text_10_node_2",
       "relation": "before",
-      "support_text": "A bomb with about 2.2 pounds of explosives detonated in a subway car at the Tekhnologichesky Institut station, killing 11 people and injuring dozens, according to the Interfax news agency. A second explosive device rigged with shrapnel was found and defused at the Vosstaniya Square station."
+      "support_text": "双教堂自杀式炸弹袭击导致17人死亡，77人受伤。"
     },
     {
       "source": "text_10_node_2",
       "target": "text_10_node_3",
       "relation": "before",
-      "support_text": "A second explosive device rigged with shrapnel was found and defused at the Vosstaniya Square station. Authorities are searching for two suspects, according to Interfax."
+      "support_text": "5000名基督徒在拉合尔举行抗议， blocking 道路并高呼反政府口号。"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_4",
+      "relation": "before",
+      "support_text": "抗议者在您汉阿巴德地区对过往车辆投掷石头，打碎窗户。"
     },
     {
       "source": "text_10_node_4",
-      "target": "text_10_node_10",
+      "target": "text_10_node_5",
       "relation": "before",
-      "support_text": "安全专家指出，由于地铁站入口众多且乘客量大，地铁已成为恐怖分子袭击的目标。欧洲多年来一直在防御地铁爆炸，包括布鲁塞尔机场和地铁站的自杀式袭击，巴黎的自杀式炸弹袭击和枪手，以及伦敦地铁的自杀式炸弹袭击。"
+      "support_text": "抗议者向平民投掷石头和空瓶子，并对他们进行折磨。"
     },
     {
       "source": "text_10_node_5",
       "target": "text_10_node_6",
       "relation": "before",
-      "support_text": "“The scariest part is that it’s no longer instructions from al-Qaeda. Nowadays, it’s the guy who’s practicing radical terrorism in his living room,” John Poncy, a security expert who is CEO of The Densus Group and a former Army soldier, told USA TODAY. Anthony Roman, a global risk-management expert and president of Roman & Assoc. in Lynbrook, N.Y., told USA TODAY that his staffers, formerly military or Justice Department investigators, found Russian transportation security below par for the Sochi Olympics."
+      "support_text": "警察到达现场，用警棍驱散抗议者，以控制局势。"
     },
     {
       "source": "text_10_node_6",
       "target": "text_10_node_7",
       "relation": "before",
-      "support_text": "Anthony Roman, a global risk-management expert and president of Roman & Assoc. in Lynbrook, N.Y., told USA TODAY that his staffers, formerly military or Justice Department investigators, found Russian transportation security below par for the Sochi Olympics. But Roman said New York City illustrates how multi-layer security can be organized with uniformed police, plain-clothes officers, bomb-sniffing dogs, electronic and video surveillance— and significant patrols at high-value targets such as Penn Station and Grand Central Station."
+      "support_text": "在古杰拉瓦拉，抗议者 blocking Bypass Chowk 并举行集会。"
     },
     {
       "source": "text_10_node_7",
       "target": "text_10_node_8",
       "relation": "before",
-      "support_text": "But Roman said New York City illustrates how multi-layer security can be organized with uniformed police, plain-clothes officers, bomb-sniffing dogs, electronic and video surveillance— and significant patrols at high-value targets such as Penn Station and Grand Central Station. France’s interior minister, Matthias Fekl, redeployed security Monday in public transport around Paris."
+      "support_text": "愤怒的民众在Chanda Qilla Bypass聚集，打碎几辆车的窗户。"
     },
     {
       "source": "text_10_node_8",
       "target": "text_10_node_9",
       "relation": "before",
-      "support_text": "France’s interior minister, Matthias Fekl, redeployed security Monday in public transport around Paris. In the U.S., the Washington Metropolitan Area Transit Administration is receiving periodic ..."
+      "support_text": "古杰拉瓦拉拘留了15名破坏公共财产的抗议者。"
+    },
+    {
+      "source": "text_10_node_9",
+      "target": "text_10_node_10",
+      "relation": "before",
+      "support_text": "您汉阿巴德邻区的袭击引发了暴民暴力，两名疑似激进分子被杀，基督徒打砸汽车和巴士站。"
     }
   ]
 }

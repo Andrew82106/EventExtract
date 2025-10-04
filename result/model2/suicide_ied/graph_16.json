@@ -5,98 +5,107 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "Bulgaria bombing of a bus filled with Israeli tourists on Wednesday, killing five Israelis.",
-      "support_text": "THE BOMBING of a bus in Bulgaria filled with Israeli tourists on Wednesday underlines the grim fact that Iran is waging a war of terrorism.",
+      "description": "在巴基斯坦拉合尔市的一个儿童公园发生了一起爆炸袭击，造成至少70人死亡，250多人受伤，大部分受害者是妇女和儿童。",
+      "support_text": "Thousands lined up to donate blood at hospitals in Pakistan's second largest city Lahore after a bombing at a popular children's park in the Iqbal Town neighborhood. At least 70 people were killed and over 250 injured at Gulshan-i-Iqbal Park. Most of the victims of the bombing are women and children.",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
       "event_sub_subtype": "Unspecified",
-      "description": "The Bulgaria bombing was the ninth plot pinned on Iran this year and the third this month, with similar attacks in Kenya and Cyprus foiled.",
-      "support_text": "The Bulgaria bombing, in which five Israelis were killed, was the ninth plot pinned on Iran this year and the third this month: Similar attacks in Kenya and Cyprus were foiled.",
+      "description": "当地出租车服务Careem提供免费交通服务，方便人们前往医院献血。",
+      "support_text": "Careem, a local on-demand taxi service, are offering free transport to the hospital for anyone willing to donate blood.",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "In February, an Israeli diplomat’s wife was injured in a car bombing in New Delhi, and other attacks failed in Georgia and Thailand.",
-      "support_text": "In February, an Israeli diplomat’s wife was injured in a car bombing in New Delhi, and other attacks failed in Georgia and Thailand.",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "七小时后，活动家Jibran Nasir在推特上表示，拉合尔医院的献血者仍然很多，这让人看到了希望。",
+      "support_text": "Seven hours after the bombing, Pakistani activist Jibran Nasir, who has over 70,000 Facebook followers and ran as an independent candidate in Pakistan's 2013 elections, tweeted: 3:00am Lahore Hospitals still crowded with blood donors. This is what makes us Pakistan. This is what gives us hope, keeps us going #YouLost",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_4",
-      "event_type": "Justice",
-      "event_subtype": "ChargeIndict",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
       "event_sub_subtype": "Unspecified",
-      "description": "Last October, the Justice Department charged two Iranians in a plot to kill the Saudi ambassador in Washington by bombing a Georgetown restaurant.",
-      "support_text": "Last October, the Justice Department charged two Iranians in a plot to kill the Saudi ambassador in Washington by bombing a Georgetown restaurant.",
+      "description": "拉比亚·梅胡德汇编了一份关于巴基斯坦宗教迫害和针对少数群体的暴力的最全面的报告",
+      "support_text": "拉比亚·梅胡德汇编了一份关于巴基斯坦宗教迫害和针对少数群体的暴力的最全面的报告",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_5",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "Unspecified",
-      "description": "Iranian officials have hinted that they are seeking revenge for the assassinations of scientists working on the country’s nuclear program and for cyberattacks by Israel and the United States.",
-      "support_text": "Iranian officials have hinted that they are seeking revenge for the assassinations of scientists working on the country’s nuclear program and for cyberattacks by Israel and the United States.",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Anthony Permal在Facebook上发布帖子",
+      "support_text": "Anthony Permal在Facebook上发布帖子",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_6",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
       "event_sub_subtype": "Unspecified",
-      "description": "Three rounds of negotiations this year between Tehran and a six-nation coalition have been nonstarters.",
-      "support_text": "Three rounds of negotiations this year between Tehran and a six-nation coalition have been “nonstarters,” as Secretary of State Hillary Rodham Clinton acknowledged this week.",
+      "description": "他们希望我们憎恨",
+      "support_text": "他们希望我们憎恨",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_7",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
       "event_sub_subtype": "Unspecified",
-      "description": "The Obama administration appears interested in keeping diplomacy going to deter or delay Israel from launching an attack on the Iranian nuclear facilities.",
-      "support_text": "The Obama administration nevertheless appears interested in keeping diplomacy going, if only to deter or delay Israel from launching an attack on the Iranian nuclear facilities.",
+      "description": "拉霍尔的男男女女在医院外排队",
+      "support_text": "拉霍尔的男男女女在医院外排队",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_8",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Life",
+      "event_subtype": "Injure",
       "event_sub_subtype": "Unspecified",
-      "description": "India’s ambassador to the United Nations condemned the assassinations of senior Syrian officials but has yet to hold Iran accountable for the February bombing near the prime minister’s residence.",
-      "support_text": "India’s ambassador to the United Nations condemned the assassinations of senior Syrian officials in Damascus this week, but New Delhi has yet to hold Iran accountable for the February bombing, which took place blocks from the prime minister’s residence.",
+      "description": "穆斯林血液将流入基督教徒的身体",
+      "support_text": "穆斯林血液将流入基督教徒的身体",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_9",
-      "event_type": "Justice",
-      "event_subtype": "ChargeIndict",
-      "event_sub_subtype": "Unspecified",
-      "description": "The Security Council should review the evidence of involvement by the Revolutionary Guard and Hezbollah in this year’s attacks and punish both groups as well as the Iranian government with sanctions.",
-      "support_text": "The Security Council should review the abundant evidence of involvement by the Revolutionary Guard and Hezbollah in this year’s attacks and punish both those groups as well as the Iranian government with sanctions.",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "在伤害我们时，你们让我们团结起来",
+      "support_text": "在伤害我们时，你们让我们团结起来",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_10",
-      "event_type": "Justice",
-      "event_subtype": "",
-      "event_sub_subtype": "UN",
-      "description": "联合国安理会表示，任何恐怖主义行为都是犯罪且不可接受的，无论其动机如何。",
-      "support_text": "But as a statement by the U.N. Security Council on Thursday said, “any acts of terrorism are criminal and unjustifiable, regardless of their motivation.”",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "活动家们开始在线协调工作",
+      "support_text": "活动家们开始在线协调工作",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_11",
-      "event_type": "Conflict",
-      "event_subtype": "",
-      "event_sub_subtype": "Civilian",
-      "description": "布加勒斯特爆炸的受害者是无辜的平民，包括一名孕妇。",
-      "support_text": "The victims of the Bulgarian bombing were not warriors or scientists building illicit weapons of mass destruction but innocent civilians, including a pregnant woman.",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "你填写这个谷歌表单",
+      "support_text": "你填写这个谷歌表单",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_12",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "活动家将专注于为那些无法负担的亲人提供食物、药物、轮椅/助行器或葬礼服务",
+      "support_text": "活动家将专注于为那些无法负担的亲人提供食物、药物、轮椅/助行器或葬礼服务",
       "source_text": "text_16"
     }
   ],
@@ -105,55 +114,13 @@
       "source": "text_16_node_1",
       "target": "text_16_node_2",
       "relation": "before",
-      "support_text": "The Bulgaria bombing, in which five Israelis were killed, was the ninth plot pinned on Iran this year and the third this month: Similar attacks in Kenya and Cyprus were foiled."
+      "support_text": "Following the attack, scores of citizens began coordinating efforts to donate blood and provide support to the families of the victims."
     },
     {
-      "source": "text_16_node_2",
+      "source": "text_16_node_1",
       "target": "text_16_node_3",
       "relation": "before",
-      "support_text": "In February, an Israeli diplomat’s wife was injured in a car bombing in New Delhi, and other attacks failed in Georgia and Thailand."
-    },
-    {
-      "source": "text_16_node_3",
-      "target": "text_16_node_4",
-      "relation": "before",
-      "support_text": "Last October, the Justice Department charged two Iranians in a plot to kill the Saudi ambassador in Washington by bombing a Georgetown restaurant."
-    },
-    {
-      "source": "text_16_node_4",
-      "target": "text_16_node_5",
-      "relation": "before",
-      "support_text": "Iranian officials have hinted that they are seeking revenge for the assassinations of scientists working on the country’s nuclear program and for cyberattacks by Israel and the United States."
-    },
-    {
-      "source": "text_16_node_5",
-      "target": "text_16_node_6",
-      "relation": "before",
-      "support_text": "Three rounds of negotiations this year between Tehran and a six-nation coalition have been “nonstarters,” as Secretary of State Hillary Rodham Clinton acknowledged this week."
-    },
-    {
-      "source": "text_16_node_6",
-      "target": "text_16_node_7",
-      "relation": "before",
-      "support_text": "The Obama administration nevertheless appears interested in keeping diplomacy going, if only to deter or delay Israel from launching an attack on the Iranian nuclear facilities."
-    },
-    {
-      "source": "text_16_node_7",
-      "target": "text_16_node_8",
-      "relation": "before",
-      "support_text": "India’s ambassador to the United Nations condemned the assassinations of senior Syrian officials in Damascus this week, but New Delhi has yet to hold Iran accountable for the February bombing, which took place blocks from the prime minister’s residence."
-    },
-    {
-      "source": "text_16_node_8",
-      "target": "text_16_node_9",
-      "relation": "before",
-      "support_text": "The Security Council should review the abundant evidence of involvement by the Revolutionary Guard and Hezbollah in this year’s attacks and punish both those groups as well as the Iranian government with sanctions."
-    },
-    {
-      "source": "text_16_node_10",
-      "target": "text_16_node_11",
-      "relation": "justifies",
-      "support_text": "联合国安理会表示，任何恐怖主义行为都是犯罪且不可接受的，无论其动机如何。布加勒斯特爆炸的受害者是无辜的平民，包括一名孕妇。"
+      "support_text": "Seven hours after the bombing, Pakistani activist Jibran Nasir, who has over 70,000 Facebook followers and ran as an independent candidate in Pakistan's 2013 elections, tweeted: 3:00am Lahore Hospitals still crowded with blood donors. This is what makes us Pakistan. This is what gives us hope, keeps us going #YouLost"
     }
   ]
 }

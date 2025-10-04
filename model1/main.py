@@ -52,7 +52,7 @@ def main(attack_type=None, api_key=None):
         return
     
     llm_service = LLMService(api_key=current_api_key)
-    data_loader = DataLoader()
+    data_loader = DataLoader(llm_service=llm_service)  # 传递LLM服务，用于智能采样
     
     # 3. 加载文本数据
     logger.printLog(f"步骤3: 加载攻击类型 {attack_type} 的文本数据...")

@@ -2,47 +2,29 @@
   "nodes": [
     {
       "id": "text_15_node_1",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "A British broadcaster obtained security camera footage showing a suspect in the Manchester Arena bombing wearing a backpack believed to have been used in the attack.",
-      "support_text": "A British broadcaster has obtained security camera footage that it says police believe shows the suspect in the Manchester Arena bombing wearing a backpack that was used in the attack.",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "他转身朝我们走来，手里拿着藏在夹克里的枪。",
+      "support_text": "He turned around and started coming towards us. He was holding his gun inside his jacket.",
       "source_text": "text_15"
     },
     {
       "id": "text_15_node_2",
-      "event_type": "Justice",
-      "event_subtype": "ArrestJailDetain",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
       "event_sub_subtype": "Unspecified",
-      "description": "A woman was arrested in connection with the Manchester Arena bombing during property searches in the Blackley area of Manchester.",
-      "support_text": "Police in Manchester say a woman has been arrested in connection with the arena bombing that killed 22 people.",
+      "description": "他环顾四周，焦急地看是否有人会阻止他，然后走下自动扶梯。",
+      "support_text": "He looked around anxiously to see if anyone was going to stop him and then went down the escalator.",
       "source_text": "text_15"
     },
     {
       "id": "text_15_node_3",
-      "event_type": "Justice",
-      "event_subtype": "ArrestJailDetain",
-      "event_sub_subtype": "Unspecified",
-      "description": "British police arrested a seventh person in connection with the Manchester Arena bombing after searches in Nuneaton, south of Manchester.",
-      "support_text": "British police have arrested a seventh person in connection with the Manchester Arena bombing. The man was held Wednesday after police carried out searches in the English town of Nuneaton, which is about 161 kilometres (100 miles) south of Manchester.",
-      "source_text": "text_15"
-    },
-    {
-      "id": "text_15_node_4",
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "A U.S. congressman suggested the bomb used in the Manchester Arena attack indicates foreign training and suggested a network of ISIS-inspired terrorists might be involved.",
-      "support_text": "A U.S. congressman says the bomb used in the deadly Manchester Arena attack in England suggests a 'level of sophistication' that might indicate its maker had foreign training.",
-      "source_text": "text_15"
-    },
-    {
-      "id": "text_15_node_5",
-      "event_type": "Update",
-      "event_subtype": "Information",
-      "event_sub_subtype": "Incomplete",
-      "description": "Ariana Grande's management team provides an update, though the content is incomplete.",
-      "support_text": "Ariana Grande's management team says s...",
+      "description": "我们听到更多的枪声和另一声爆炸，然后一切结束了。",
+      "support_text": "We heard some more gunfire and then another explosion, and then it was over.",
       "source_text": "text_15"
     }
   ],
@@ -51,19 +33,13 @@
       "source": "text_15_node_1",
       "target": "text_15_node_2",
       "relation": "before",
-      "support_text": "A British broadcaster has obtained security camera footage that it says police believe shows the suspect in the Manchester Arena bombing wearing a backpack that was used in the attack."
+      "support_text": "He turned around and started coming towards us. He was holding his gun inside his jacket. He looked around anxiously to see if anyone was going to stop him and then went down the escalator."
     },
     {
       "source": "text_15_node_2",
       "target": "text_15_node_3",
       "relation": "before",
-      "support_text": "Police in Manchester say a woman has been arrested in connection with the arena bombing that killed 22 people."
-    },
-    {
-      "source": "text_15_node_3",
-      "target": "text_15_node_4",
-      "relation": "before",
-      "support_text": "British police have arrested a seventh person in connection with the Manchester Arena bombing. The man was held Wednesday after police carried out searches in the English town of Nuneaton, which is about 161 kilometres (100 miles) south of Manchester."
+      "support_text": "He looked around anxiously to see if anyone was going to stop him and then went down the escalator. We heard some more gunfire and then another explosion, and then it was over."
     }
   ]
 }

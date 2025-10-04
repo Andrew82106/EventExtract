@@ -5,26 +5,53 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "The terrorist bombing which targeted the airport on Monday left 35 dead and 130 with injures of varying severity.",
-      "support_text": "The terrorist bombing which targeted the airport on Monday left 35 dead and 130 with injures of varying severity.",
+      "description": "第一颗自杀炸弹在圣安东尼教堂爆炸，发生在周日早晨8:45",
+      "support_text": "The clock hands on the steeple of St. Anthony’s Shrine were stuck at 8:45 a.m., the exact moment when the first suicide bomber’s explosion ripped through the wooden pews as Easter Sunday worshipers were praying.",
       "source_text": "text_19"
     },
     {
       "id": "text_19_node_2",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "Syria strongly condemns the terrorist bombing that took place in Domodedovo Airport near Moscow.",
-      "support_text": "Syria strongly condemns the terrorist bombing that took place in Domodedovo Airport near Moscow.",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "几分钟后来，第二颗自杀炸弹在香格里拉酒店的Table One餐厅爆炸",
+      "support_text": "Minutes later a second suicide blast shattered the Sunday brunch tranquillity at the Shangri-La Hotel’s Table One Restaurant, a favorite of foreign tourists.",
       "source_text": "text_19"
     },
     {
       "id": "text_19_node_3",
-      "event_type": "Contact",
-      "event_subtype": "RequestCommand",
-      "event_sub_subtype": "Meet",
-      "description": "Syria affirms its full support to Russia in confronting and combating terrorism.",
-      "support_text": "Syria affirms to the government and people of the friendly Russian Federation Syria's full support in confronting and combating terrorism, expressing the deepest regret over the loss of innocent lives.",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在几个小时内，自杀炸弹袭击了斯里兰卡的三个基督教教堂和三个高档酒店",
+      "support_text": "Within a few hours on Sunday, suicide bombings hit three Christian churches and three upscale hotels in the Indian Ocean island nation of Sri Lanka, still recovering from a quarter-century civil war in which the suicide bomb was pioneered.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成的死亡人数上升到290人，约500人受伤",
+      "support_text": "The death toll in the attacks rose to 290, with about 500 people wounded, a police spokesman, Ruwan Gunasekera, said, although he would not give a breakdown of where the fatalities occurred.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名嫌疑人自爆，导致三名警官死亡，他们在藏身处被捕",
+      "support_text": "Seven of them were seized at a hide-out after one suspect blew himself up, killing three officers.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "财政部长将袭击称为有组织的企图制造谋杀、混乱和无政府状态",
+      "support_text": "财政部长将袭击称为有组织的企图制造谋杀、混乱和无政府状态",
       "source_text": "text_19"
     }
   ],
@@ -33,13 +60,25 @@
       "source": "text_19_node_1",
       "target": "text_19_node_2",
       "relation": "before",
-      "support_text": "The terrorist bombing which targeted the airport on Monday left 35 dead and 130 with injures of varying severity."
+      "support_text": "Minutes later a second suicide blast shattered the Sunday brunch tranquillity at the Shangri-La Hotel’s Table One Restaurant, a favorite of foreign tourists."
     },
     {
       "source": "text_19_node_2",
       "target": "text_19_node_3",
       "relation": "before",
-      "support_text": "Syria strongly condemns the terrorist bombing that took place in Domodedovo Airport near Moscow."
+      "support_text": "Within a few hours on Sunday, suicide bombings hit three Christian churches and three upscale hotels in the Indian Ocean island nation of Sri Lanka, still recovering from a quarter-century civil war in which the suicide bomb was pioneered."
+    },
+    {
+      "source": "text_19_node_3",
+      "target": "text_19_node_4",
+      "relation": "before",
+      "support_text": "The death toll in the attacks rose to 290, with about 500 people wounded, a police spokesman, Ruwan Gunasekera, said, although he would not give a breakdown of where the fatalities occurred."
+    },
+    {
+      "source": "text_19_node_4",
+      "target": "text_19_node_6",
+      "relation": "before",
+      "support_text": "Seven of them were seized at a hide-out after one suspect blew himself up, killing three officers."
     }
   ]
 }

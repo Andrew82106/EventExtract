@@ -4,9 +4,9 @@
       "id": "text_8_node_1",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "Abu Bakr al-Baghdadi is reported to have died following a US military raid in north-west Syria.",
-      "support_text": "Abu Bakr al-Baghdadi, the leader of the Islamic State, is reported to have died following a US military raid in north-west Syria.",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2001年5月18日，哈沙隆购物中心发生自杀式炸弹袭击，造成六人死亡。",
+      "support_text": "The 2001 HaSharon Mall suicide bombing was a suicide bombing which occurred on May 18, 2001 in the HaSharon Mall in Netanya, Israel. Six people were killed in the attack.",
       "source_text": "text_8"
     },
     {
@@ -14,65 +14,50 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "Baghdadi is thought to have killed himself with a suicide vest as US special operations forces descended.",
-      "support_text": "Baghdadi, whose real name is Ibrahim Awwad Ibrahim Ali Muhammad al-Badri al-Samarrai, is thought to have killed himself with a suicide vest as US special operations forces descended, according to media citing multiple government sources.",
+      "description": "袭击发生时，一名巴勒斯坦自杀式炸弹袭击者在哈沙隆购物中心入口被保安阻止，随后引爆爆炸装置，造成七人死亡，包括袭击者本人，并伤及超过50人。",
+      "support_text": "On Friday, May 18, 2001 at 11:30 am, a Palestinian suicide bomber wearing a long blue jacket hiding explosives attached to his body approached the popular HaSharon Mall in the center of Netanya. He was approached by the mall's security guard, who prevented him from entering the mall; the bomber immediately detonated his explosives at the entrance to the mall, killing seven people including himself and injuring more than 50.",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_3",
-      "event_type": "Life",
-      "event_subtype": "",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "He was with two wives, who are also thought to have blown themselves up, and children which are believed to still be alive.",
-      "support_text": "He was with two wives, who are also thought to have blown themselves up, and children which are believed to still be alive.",
+      "description": "袭击后，以色列战斗机袭击了西岸巴勒斯坦安全部队总部，造成12人死亡。",
+      "support_text": "Following the attack Israeli fighter jets attacked Palestinian security forces headquarters in the West Bank, killing 12.",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_4",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "The raid, which began after midnight, targeted a compound in Barisha village in Idlib province near the Turkish border.",
-      "support_text": "The raid, which began after midnight, targeted a compound in Barisha village in Idlib province near the Turkish border.",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴勒斯坦伊斯兰圣战组织哈马斯声称对袭击负责",
+      "support_text": "巴勒斯坦伊斯兰圣战组织哈马斯声称对袭击负责",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_5",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "A video which is thought to have captured the raid shows helicopters and heavy clashes.",
-      "support_text": "In a video which is thought to have captured the raid, helicopters and heavy clashes can be heard.",
-      "source_text": "text_8"
-    },
-    {
-      "id": "text_8_node_6",
-      "event_type": "Life",
-      "event_subtype": "",
-      "event_sub_subtype": "SurvivalStatus",
-      "description": "He was with two wives, who are also thought to have blown themselves up, and children which are believed to still be alive.",
-      "support_text": "He was with two wives, who are also thought to have blown themselves up, and children which are believed to still be alive.",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "这次袭击标志着自1967年以来以色列战机首次在西岸和加沙对巴勒斯坦人发动攻击",
+      "support_text": "这次袭击标志着自1967年以来以色列战机首次在西岸和加沙对巴勒斯坦人发动攻击",
       "source_text": "text_8"
     }
   ],
   "edges": [
     {
+      "source": "text_8_node_1",
+      "target": "text_8_node_2",
+      "relation": "before",
+      "support_text": "On Friday, May 18, 2001 at 11:30 am, a Palestinian suicide bomber wearing a long blue jacket hiding explosives attached to his body approached the popular HaSharon Mall in the center of Netanya. He was approached by the mall's security guard, who prevented him from entering the mall; the bomber immediately detonated his explosives at the entrance to the mall, killing seven people including himself and injuring more than 50."
+    },
+    {
       "source": "text_8_node_2",
-      "target": "text_8_node_1",
+      "target": "text_8_node_3",
       "relation": "before",
-      "support_text": "Baghdadi, whose real name is Ibrahim Awwad Ibrahim Ali Muhammad al-Badri al-Samarrai, is thought to have killed himself with a suicide vest as US special operations forces descended, according to media citing multiple government sources."
-    },
-    {
-      "source": "text_8_node_4",
-      "target": "text_8_node_1",
-      "relation": "before",
-      "support_text": "The raid, which began after midnight, targeted a compound in Barisha village in Idlib province near the Turkish border."
-    },
-    {
-      "source": "text_8_node_5",
-      "target": "text_8_node_4",
-      "relation": "before",
-      "support_text": "In a video which is thought to have captured the raid, helicopters and heavy clashes can be heard."
+      "support_text": "Following the attack Israeli fighter jets attacked Palestinian security forces headquarters in the West Bank, killing 12."
     }
   ]
 }

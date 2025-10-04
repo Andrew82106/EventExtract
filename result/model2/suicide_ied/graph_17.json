@@ -5,44 +5,44 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "Ansar al-Forqan terrorist group claims responsibility for a suicide blast in Chabahar.",
-      "support_text": "Ansar al-Forqan terrorist group has reportedly claimed responsibility for the Thursday morning suicide blast in Iran's Southeastern city of Chabahar which killed at least 2 people and wounded several others.",
+      "description": "在复活节星期日发生的袭击导致至少250人死亡，伊斯兰国声称负责，但参与程度尚不明确。",
+      "support_text": "His comments came days after attacks on Easter Sunday that killed at least 250. The Islamic State claimed responsibility Tuesday, though the degree of its involvement is as yet unclear.",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "A bomb blast occurs near a police station in Chabahar, killing at least 2 people and wounding several others.",
-      "support_text": "A bomb blast was heard some minutes ago near a police station on a street in Chabahar city and security forces and aid groups were immediately deployed in the region.",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯里兰卡总理Wickremesinghe表示，前往叙利亚或参与外国武装起义在斯里兰卡不是犯罪，但斯里兰卡没有法律可以逮捕加入外国恐怖组织的人。",
+      "support_text": "“We knew they went to Syria. . . . But on our country to go abroad and return or to take part in a foreign armed uprising is not an offense here,” Wickremesinghe said.",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
       "event_sub_subtype": "Unspecified",
-      "description": "Security forces and aid groups are deployed to the scene of the bomb blast.",
-      "support_text": "Security forces and aid groups were immediately deployed in the region.",
+      "description": "斯里兰卡的反恐立法被批评，包括1978年的《反恐法》，允许无证逮捕和长达18个月的未经审判拘留。",
+      "support_text": "AD Sri Lanka does have strong anti-terrorism legislation — its Prevention of Terrorism Act of 1978 has in fact been criticized by Amnesty International and Human Rights Watch. The law allows for “arrests for unspecified ‘unlawful activities’ without warrant, and permits detention for up to 18 months without the authorities producing the suspect before a court pretrial,” as Human Rights Watch put it in a 2018 report.",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_4",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
       "event_sub_subtype": "Unspecified",
-      "description": "Local sources report that at least 2 law enforcement police have been killed in the attack.",
-      "support_text": "Local sources also said that at least 2 law enforcement police have been killed in the terrorist attack.",
+      "description": "斯里兰卡正在起草新的《反恐法》，旨在更符合人权和应对当前威胁，但仍在讨论阶段。",
+      "support_text": "AD “They have been working on replacement legislation called the Counter-Terrorism Act, which is designed to be a) more rights-friendly and b) more responsive to current forms of threat, but the law remains in drafting stage, after numerous rounds of deliberations in government and parliament,” Sri Lanka analyst Alan Keenan of the International Crisis Group wrote in an email.",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_5",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "The suicide bomber intended to reach the Law Enforcement command center but was forced to stop and detonate the bomb.",
-      "support_text": "The suicide bomber meant to open his path into the Law Enforcement command center, but was forced to stop where he blew up himself and the car.",
+      "description": "2011年，斯里兰卡政府将加入泰米尔猛虎组织定为犯罪行为，即使在斯里兰卡境外。",
+      "support_text": "AD In 2011, the government made it a crime to be a Tamil Tiger even outside of Sri Lanka. “These regulations contain a broad range of offences including a provision that says ‘no person shall within or outside Sri Lanka...be a member of the LTTE,’\" Gunatilleke wrote.",
       "source_text": "text_17"
     },
     {
@@ -50,80 +50,53 @@
       "event_type": "Conflict",
       "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "The Caretaker of Chabahar city's Governor-General Office confirms deaths and injuries, stating conditions are under control.",
-      "support_text": "Caretaker of Chabahar city's Governor-General Office Bameri confirmed the death and injury of a number of people in the bomb blast, stressing that conditions are under control now.",
+      "description": "许多国家在2014年伊斯兰国宣布建立哈里发国后修改了相关立法，例如澳大利亚通过了《反恐法修正案（外国战斗人员）》。",
+      "support_text": "AD Nevertheless, the preexisting anti-terrorism law in Sri Lanka was obviously written in, and for, a different time. It’s hardly unique in that. Many countries amended their relevant legislation after 2014, the year that the Islamic State declared itself a caliphate. In 2014, Australia passed its Counter-Terrorism Legislation Amendment (Foreign Fighters) Bill, which made new offenses of “advocating...",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_7",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
       "event_sub_subtype": "Unspecified",
-      "description": "A number of wounded people, including women, children, and local business owners, are transferred to Imam Ali (AS) hospital.",
-      "support_text": "A number of women, children and local business owners are among the wounded people who were transferred to Imam Ali (AS) hospital.",
+      "description": "法律使我们能够采取行动",
+      "support_text": "法律使我们能够采取行动",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_8",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "Chabahar medical officials report that 27 wounded people have been admitted to hospitals, including a pregnant woman and a 16-year-old adolescent.",
-      "support_text": "But the latest reports by Chabahar medical officials said that 27 wounded people have so far been admitted to the city's hospitals, among them a pregnant woman and a 16-year-old adolescent.",
+      "description": "恐怖组织对国家进行了战争",
+      "support_text": "恐怖组织对国家进行了战争",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_9",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
       "event_sub_subtype": "Unspecified",
-      "description": "Commander of the Islamic Revolution Guards Corps (IRGC) Ground Force visits the blast site.",
-      "support_text": "Commander of the Islamic Revolution Guards Corps (IRGC) Ground Force Brigadier General Mohammad Pakpour visited the blast site on Thursday.",
+      "description": "一些人争论总理在政治和法律上都做出了案例",
+      "support_text": "一些人争论总理在政治和法律上都做出了案例",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_10",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
       "event_sub_subtype": "Unspecified",
-      "description": "The chief commander of Chabahar's Law Enforcement Police dismisses media claims that he was killed in the attack.",
-      "support_text": "The chief commander of Chabahar's Law Enforcement Police dismissed media claims that he was killed in the terrorist attack.",
+      "description": "总理正在做一个政治案例和法律案例",
+      "support_text": "总理正在做一个政治案例和法律案例",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_11",
-      "event_type": "Conflict",
-      "event_subtype": "Defeat",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
       "event_sub_subtype": "Unspecified",
-      "description": "In June 2017, the IRGC Ground Force killed the ringleader of Ansar al-Forqan in clashes in the heights of Qasr-e Qand region.",
-      "support_text": "In June 2017, the IRGC Ground Force killed the ringleader of Ansar al-Forqan terrorist group, Jalil Qanbar Zehi, in clashes in the heights of Qasr-e Qand region, Southeastern Iran.",
-      "source_text": "text_17"
-    },
-    {
-      "id": "text_17_node_12",
-      "event_type": "Conflict",
-      "event_subtype": "Defeat",
-      "event_sub_subtype": "Unspecified",
-      "description": "IRGC's public relations office announced the destruction of a Takfiri terrorist team in Qasr-e Qand, after receiving a tip-off about their presence.",
-      "support_text": "IRGC's public relations office announced in a statement at the time that the IRGC Ground Force destroyed a Takfiri terrorist team in Qasr-e Qand in the Southeastern province of Sistan and Balouchestan.",
-      "source_text": "text_17"
-    },
-    {
-      "id": "text_17_node_13",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "Several terrorists were killed and wounded in clashes with the IRGC forces in Qasr-e Qand region, including the ringleader of Ansar al-Forqan.",
-      "support_text": "Several terrorists were killed and wounded in clashes with the IRGC forces in Qasr-e Qand region, including the ringleader of Ansar al-Forqan, it added.",
-      "source_text": "text_17"
-    },
-    {
-      "id": "text_17_node_14",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "The IRGC's public relations office announced the destruction of a Takfiri terrorist group in Qasr-e Qand after receiving a tip-off about their presence.",
-      "support_text": "The statement said that after being tipped off about the presence of a Takfiri terrorist group in Qasr-e Qand region, several units of IRGC ground troops were dispatched to the scene and attacked the terrorists.",
+      "description": "Gunatilleke写下了这句话",
+      "support_text": "AD In 2011, the government made it a crime to be a Tamil Tiger even outside of Sri Lanka. “These regulations contain a broad range of offences including a provision that says ‘no person shall within or outside Sri Lanka...be a member of the LTTE,’\" Gunatilleke wrote.",
       "source_text": "text_17"
     }
   ],
@@ -132,67 +105,37 @@
       "source": "text_17_node_1",
       "target": "text_17_node_2",
       "relation": "before",
-      "support_text": "Ansar al-Forqan terrorist group has reportedly claimed responsibility for the Thursday morning suicide blast in Iran's Southeastern city of Chabahar which killed at least 2 people and wounded several others."
+      "support_text": "His comments came days after attacks on Easter Sunday that killed at least 250. The Islamic State claimed responsibility Tuesday, though the degree of its involvement is as yet unclear."
     },
     {
       "source": "text_17_node_2",
       "target": "text_17_node_3",
       "relation": "before",
-      "support_text": "A bomb blast was heard some minutes ago near a police station on a street in Chabahar city and security forces and aid groups were immediately deployed in the region."
+      "support_text": "“We knew they went to Syria. . . . But on our country to go abroad and return or to take part in a foreign armed uprising is not an offense here,” Wickremesinghe said."
     },
     {
-      "source": "text_17_node_2",
+      "source": "text_17_node_3",
       "target": "text_17_node_4",
       "relation": "before",
-      "support_text": "Local sources also said that at least 2 law enforcement police have been killed in the terrorist attack."
+      "support_text": "AD Sri Lanka does have strong anti-terrorism legislation — its Prevention of Terrorism Act of 1978 has in fact been criticized by Amnesty International and Human Rights Watch. The law allows for “arrests for unspecified ‘unlawful activities’ without warrant, and permits detention for up to 18 months without the authorities producing the suspect before a court pretrial,” as Human Rights Watch put it in a 2018 report."
     },
     {
-      "source": "text_17_node_2",
+      "source": "text_17_node_4",
       "target": "text_17_node_5",
       "relation": "before",
-      "support_text": "The suicide bomber meant to open his path into the Law Enforcement command center, but was forced to stop where he blew up himself and the car."
+      "support_text": "AD “They have been working on replacement legislation called the Counter-Terrorism Act, which is designed to be a) more rights-friendly and b) more responsive to current forms of threat, but the law remains in drafting stage, after numerous rounds of deliberations in government and parliament,” Sri Lanka analyst Alan Keenan of the International Crisis Group wrote in an email."
     },
     {
-      "source": "text_17_node_2",
+      "source": "text_17_node_5",
       "target": "text_17_node_6",
       "relation": "before",
-      "support_text": "Caretaker of Chabahar city's Governor-General Office Bameri confirmed the death and injury of a number of people in the bomb blast, stressing that conditions are under control now."
+      "support_text": "AD In 2011, the government made it a crime to be a Tamil Tiger even outside of Sri Lanka. “These regulations contain a broad range of offences including a provision that says ‘no person shall within or outside Sri Lanka...be a member of the LTTE,’\" Gunatilleke wrote."
     },
     {
-      "source": "text_17_node_2",
-      "target": "text_17_node_7",
-      "relation": "before",
-      "support_text": "A number of women, children and local business owners are among the wounded people who were transferred to Imam Ali (AS) hospital."
-    },
-    {
-      "source": "text_17_node_2",
-      "target": "text_17_node_8",
-      "relation": "before",
-      "support_text": "But the latest reports by Chabahar medical officials said that 27 wounded people have so far been admitted to the city's hospitals, among them a pregnant woman and a 16-year-old adolescent."
-    },
-    {
-      "source": "text_17_node_2",
-      "target": "text_17_node_9",
-      "relation": "before",
-      "support_text": "Commander of the Islamic Revolution Guards Corps (IRGC) Ground Force Brigadier General Mohammad Pakpour visited the blast site on Thursday."
-    },
-    {
-      "source": "text_17_node_2",
+      "source": "text_17_node_9",
       "target": "text_17_node_10",
       "relation": "before",
-      "support_text": "The chief commander of Chabahar's Law Enforcement Police dismissed media claims that he was killed in the terrorist attack."
-    },
-    {
-      "source": "text_17_node_11",
-      "target": "text_17_node_12",
-      "relation": "before",
-      "support_text": "IRGC's public relations office announced in a statement at the time that the IRGC Ground Force destroyed a Takfiri terrorist team in Qasr-e Qand in the Southeastern province of Sistan and Balouchestan."
-    },
-    {
-      "source": "text_17_node_13",
-      "target": "text_17_node_14",
-      "relation": "causes",
-      "support_text": "The IRGC's public relations office announced the destruction of a Takfiri terrorist group in Qasr-e Qand after receiving a tip-off about their presence."
+      "support_text": "一些人争论总理在政治和法律上都做出了案例"
     }
   ]
 }

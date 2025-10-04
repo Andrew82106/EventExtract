@@ -3,145 +3,91 @@
     {
       "id": "text_9_node_1",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "以色列宣布关闭边境，至少持续到周日，并警告巴勒斯坦人不得进入以色列。",
-      "support_text": "Israel said the closure would remain in effect at least until Sunday The Israeli army said it had received warnings of attacks and that Palestinians from the West Bank and Gaza Strip would not be allowed to enter Israel.",
+      "description": "Caretaker Balochistan Chief Minister Alauddin Marri condemned the attack on the convoy of Balochistan Awami Party (BAP) leader Siraj Raisani.",
+      "support_text": "Caretaker Balochistan Chief Minister Alauddin Marri on Friday condemned the “cowardly” attack on the convoy of Balochistan Awami Party (BAP) leader Siraj Raisani which claimed the lives of 128 people and injured nearly 130.",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_2",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "Unspecified",
-      "description": "以色列军队表示，他们收到了袭击警告，并关闭了加沙的地中海沿岸，以及西岸和约旦、加沙和埃及之间的过境通道。",
-      "support_text": "Israel fears that Palestinian militants will carry out attacks on the anniversary of last year's Passover suicide bombing in the Israeli seaside resort of Netanya, in which 29 people were killed.",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "At least 128 people, including Siraj Raisani, were martyred and nearly 130 others injured in the suicide attack in the Dringrah area of Mastung district.",
+      "support_text": "At least 128 people, including Siraj Raisani, were martyred and nearly 130 others injured in the suicide attack in the Dringrah area of Mastung district on Friday in the third such attack on election candidates in the run-up to the nationwide polls.",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "以色列担心巴勒斯坦民兵会在去年逾越节自杀式袭击周年纪念时发动袭击，该袭击导致29人在以色列海滨度假胜地内坦亚死亡。",
-      "support_text": "Gaza's Mediterranean shores would be closed to fishermen, and crossings between the West Bank and Jordan, and between Gaza and Egypt, would also be closed, the army said.",
+      "description": "The chief minister has ordered the interior secretary, inspector general of police and law enforcement agencies to ramp up security arrangements in the province.",
+      "support_text": "The chief minister has ordered the interior secretary, inspector general of police and law enforcement agencies to ramp up security arrangements in the province.",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_4",
-      "event_type": "Justice",
-      "event_subtype": "Sentence",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "在逾越节期间，数百名警察和志愿者在以色列加强安全措施。",
-      "support_text": "Hundreds of police and volunteers are stepping up security in Israel during the week-long Passover holiday, the Israeli Ha'aretz newspaper reports.",
+      "description": "The attack is part of a conspiracy to disrupt the electoral process and peaceful atmosphere.",
+      "support_text": "“The attack is part of a conspiracy to disrupt the electoral process and peaceful atmosphere,” Marri said.",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_5",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
       "event_sub_subtype": "Unspecified",
-      "description": "以色列安全部队在周二晚上在耶路撒冷设立路障，接到袭击警告后。",
-      "support_text": "Israeli security forces also set up roadblocks on Tuesday night around Jerusalem, after receiving warnings of imminent attacks, Israeli Army Radio said.",
+      "description": "The chief minister also directed the Mastung deputy commissioner and other officers to ensure the injured receive proper treatment at hospitals.",
+      "support_text": "The chief minister also directed the Mastung deputy commissioner and other officers to ensure the injured receive proper treatment at hospitals.",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_6",
-      "event_type": "Justice",
-      "event_subtype": "Sentence",
-      "event_sub_subtype": "Unspecified",
-      "description": "以色列军事法院判处四名巴勒斯坦人无期徒刑，因为他们帮助去年逾越节袭击中的自杀式炸弹袭击者。",
-      "support_text": "On Monday, an Israeli military court sentenced four Palestinians to life imprisonment over last year's Passover attack, in which Odeh blew himself up in Netanya's Park Hotel as a group of mainly elderly people attended a festival meal.",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "The chief minister met a delegation of the Balochistan Lecturers and Professors Association at the CM House.",
+      "support_text": "On Thursday, the chief minister met a delegation of the Balochistan Lecturers and Professors Association at the CM House.",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_7",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "在纳布卢斯，一名以色列军官和一名巴勒斯坦民兵在枪战中死亡。",
-      "support_text": "In Nablus on the West Bank, an Israeli officer and a Palestinian militant were killed in a shoot-out.",
+      "description": "The delegation shared grievances and demands, including higher education allowance, with the interim CM.",
+      "support_text": "The delegation shared grievances and demands, including higher education allowance, with the interim CM.",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_8",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "在加沙地带，一名巴勒斯坦枪手在卡尼过境点投掷手榴弹并开枪，杀死两名以色列工人后死亡。",
-      "support_text": "In the Gaza Strip, a Palestinian gunman hurled hand grenades and sprayed automatic weapons fire at the Karni crossing point, killing two Israeli workers before being shot dead, the army said.",
+      "description": "The provincial government is keen to address the teachers’ issues but since joining the government, the province has been struck by the worst kind of financial crisis.",
+      "support_text": "The provincial government is keen to address the teachers’ issues but since we joined the government the province has been struck by the worst kind of financial crisis.",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_9",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "以色列部队在加沙的拉法镇杀死了一名巴勒斯坦民兵。",
-      "support_text": "Another Palestinian militant was killed by Israeli troops in the Gaza town of Rafah.",
+      "description": "The chief minister directed the education secretary to address the BPLA’s issues and proceed with the summary of higher education allowance.",
+      "support_text": "The chief minister directed the education secretary to address the BPLA’s issues and proceed with the summary of higher education allowance.",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_10",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
       "event_sub_subtype": "Unspecified",
-      "description": "这次爆炸案是由巴勒斯坦民兵阿卜杜勒·巴塞特·奥德执行的单次最致命袭击，自2000年9月巴勒斯坦起义（intifada）开始以来。",
-      "support_text": "The bombing - by Palestinian militant Abdel Basset Odeh - was single deadliest attack since the Palestinian uprising, or intifada, began in September 2000.",
-      "source_text": "text_9"
-    },
-    {
-      "id": "text_9_node_11",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "周二在西岸和加沙有三人以色列人和四人巴勒斯坦人死亡，暴力仍在继续。",
-      "support_text": "Meanwhile, three Israelis and four Palestinians were killed in the West Bank and Gaza, as violence continued on Tuesday.",
-      "source_text": "text_9"
-    },
-    {
-      "id": "text_9_node_12",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "去年逾越节爆炸案主要袭击了就餐者，导致29人死亡。",
-      "support_text": "在以色列海滨度假胜地内坦亚，去年逾越节自杀式袭击导致29人遇难，袭击者Odeh在Park Hotel引爆自己，当时主要就餐者是老年人。",
-      "source_text": "text_9"
-    },
-    {
-      "id": "text_9_node_13",
-      "event_type": "Justice",
-      "event_subtype": "Sentence",
-      "event_sub_subtype": "Unspecified",
-      "description": "报纸表示，将特别关注保护购物中心、户外市场、公交车站和海滩，以及犹太教堂。",
-      "support_text": "以色列Ha'aretz报纸报道，将加强保护购物中心、户外市场、公交车站和海滩，以及犹太教堂的安全措施。",
-      "source_text": "text_9"
-    },
-    {
-      "id": "text_9_node_14",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "Unspecified",
-      "description": "巴勒斯坦安全消息人士被美联社引用表示，他们被告知封锁将从周三凌晨3点（格林尼治标准时间午夜）开始生效。",
-      "support_text": "Palestinian security sources were quoted by the Associated Press news agency as saying that they had been informed that the closure would take effect from Wednesday at 0300 local time (0000 GMT).",
-      "source_text": "text_9"
-    },
-    {
-      "id": "text_9_node_15",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "Unspecified",
-      "description": "以色列陆军发言人表示，封锁将至少持续到周日。",
-      "support_text": "An Israeli army spokesman said the closures would remain in effect at least until Sunday.",
-      "source_text": "text_9"
-    },
-    {
-      "id": "text_9_node_16",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "Unspecified",
-      "description": "上个月犹太节期普珥节期间，以色列采取了类似的措施。",
-      "support_text": "Similar measures were taken by the Israelis last month during the Jewish festival of Purim.",
+      "description": "组织了一次角落会议以推广他的竞选资格",
+      "support_text": "组织了一次角落会议以推广他的竞选资格",
       "source_text": "text_9"
     }
   ],
@@ -150,85 +96,49 @@
       "source": "text_9_node_1",
       "target": "text_9_node_2",
       "relation": "before",
-      "support_text": "Israel said the closure would remain in effect at least until Sunday The Israeli army said it had received warnings of attacks and that Palestinians from the West Bank and Gaza Strip would not be allowed to enter Israel."
-    },
-    {
-      "source": "text_9_node_1",
-      "target": "text_9_node_16",
-      "relation": "before",
-      "support_text": "Similar measures were taken by the Israelis last month during the Jewish festival of Purim."
+      "support_text": "Caretaker Balochistan Chief Minister Alauddin Marri on Friday condemned the “cowardly” attack on the convoy of Balochistan Awami Party (BAP) leader Siraj Raisani which claimed the lives of 128 people and injured nearly 130."
     },
     {
       "source": "text_9_node_2",
       "target": "text_9_node_3",
       "relation": "before",
-      "support_text": "Israel fears that Palestinian militants will carry out attacks on the anniversary of last year's Passover suicide bombing in the Israeli seaside resort of Netanya, in which 29 people were killed."
+      "support_text": "At least 128 people, including Siraj Raisani, were martyred and nearly 130 others injured in the suicide attack in the Dringrah area of Mastung district on Friday in the third such attack on election candidates in the run-up to the nationwide polls."
     },
     {
       "source": "text_9_node_3",
       "target": "text_9_node_4",
       "relation": "before",
-      "support_text": "Hundreds of police and volunteers are stepping up security in Israel during the week-long Passover holiday, the Israeli Ha'aretz newspaper reports."
+      "support_text": "The chief minister has ordered the interior secretary, inspector general of police and law enforcement agencies to ramp up security arrangements in the province."
     },
     {
       "source": "text_9_node_4",
       "target": "text_9_node_5",
       "relation": "before",
-      "support_text": "Israeli security forces also set up roadblocks on Tuesday night around Jerusalem, after receiving warnings of imminent attacks, Israeli Army Radio said."
+      "support_text": "“The attack is part of a conspiracy to disrupt the electoral process and peaceful atmosphere,” Marri said."
     },
     {
       "source": "text_9_node_5",
       "target": "text_9_node_6",
       "relation": "before",
-      "support_text": "On Monday, an Israeli military court sentenced four Palestinians to life imprisonment over last year's Passover attack, in which Odeh blew himself up in Netanya's Park Hotel as a group of mainly elderly people attended a festival meal."
+      "support_text": "The chief minister also directed the Mastung deputy commissioner and other officers to ensure the injured receive proper treatment at hospitals."
     },
     {
       "source": "text_9_node_6",
       "target": "text_9_node_7",
       "relation": "before",
-      "support_text": "In Nablus on the West Bank, an Israeli officer and a Palestinian militant were killed in a shoot-out."
+      "support_text": "On Thursday, the chief minister met a delegation of the Balochistan Lecturers and Professors Association at the CM House."
     },
     {
       "source": "text_9_node_7",
       "target": "text_9_node_8",
       "relation": "before",
-      "support_text": "In the Gaza Strip, a Palestinian gunman hurled hand grenades and sprayed automatic weapons fire at the Karni crossing point, killing two Israeli workers before being shot dead, the army said."
+      "support_text": "The delegation shared grievances and demands, including higher education allowance, with the interim CM."
     },
     {
       "source": "text_9_node_8",
       "target": "text_9_node_9",
       "relation": "before",
-      "support_text": "Another Palestinian militant was killed by Israeli troops in the Gaza town of Rafah."
-    },
-    {
-      "source": "text_9_node_9",
-      "target": "text_9_node_10",
-      "relation": "before",
-      "support_text": "The bombing - by Palestinian militant Abdel Basset Odeh - was single deadliest attack since the Palestinian uprising, or intifada, began in September 2000."
-    },
-    {
-      "source": "text_9_node_10",
-      "target": "text_9_node_11",
-      "relation": "before",
-      "support_text": "Meanwhile, three Israelis and four Palestinians were killed in the West Bank and Gaza, as violence continued on Tuesday."
-    },
-    {
-      "source": "text_9_node_12",
-      "target": "text_9_node_13",
-      "relation": "consequence",
-      "support_text": "由于去年逾越节爆炸案的严重性，以色列加强了对关键地点的安全保护。"
-    },
-    {
-      "source": "text_9_node_14",
-      "target": "text_9_node_1",
-      "relation": "before",
-      "support_text": "Palestinian security sources were quoted by the Associated Press news agency as saying that they had been informed that the closure would take effect from Wednesday at 0300 local time (0000 GMT). An Israeli army spokesman said the closures would remain in effect at least until Sunday."
-    },
-    {
-      "source": "text_9_node_15",
-      "target": "text_9_node_1",
-      "relation": "after",
-      "support_text": "An Israeli army spokesman said the closures would remain in effect at least until Sunday."
+      "support_text": "The provincial government is keen to address the teachers’ issues but since we joined the government the province has been struck by the worst kind of financial crisis."
     }
   ]
 }

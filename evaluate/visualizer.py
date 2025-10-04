@@ -380,5 +380,7 @@ if __name__ == '__main__':
         gt_file_path=os.path.join(PROJECT_ROOT, 'dataset', 'processedData', 'extracted_data', 'event_graphs_train.json'),
         attack_type='suicide_ied'
     )"""
-    generate_visualization("/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model1/suicide_ied/merged_graph_suicide_ied.json")
-    generate_visualization("/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model2/suicide_ied/merged_graph_suicide_ied.json")
+    for i in range(1, 7):
+        generate_visualization(f"/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model2/suicide_ied/graph_{i}.json")
+    
+    # generate_visualization(f"/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model2/suicide_ied/merged_graph_suicide_ied.json")

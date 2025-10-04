@@ -65,6 +65,37 @@ class EventTypeValidator:
             if sub_subtype:
                 self.valid_sub_subtypes_by_subtype[type_subtype_key].add(sub_subtype)
     
+    def _normalize_event_type_string(self, type_string):
+        """
+        规范化事件类型字符串：去除多余层级和重复部分
+        
+        Args:
+            type_string (str): 原始类型字符串，可能包含多个点号分隔的层级
+            
+        Returns:
+            list: 规范化后的最多3个层级 [type, subtype, sub_subtype]
+        """
+        if not type_string:
+            return ['', '', '']
+        
+        # 按点号分割
+        parts = [p.strip() for p in type_string.split('.') if p.strip()]
+        
+        # 去除重复的连续部分（如 Unspecified.Unspecified.Unspecified -> Unspecified）
+        cleaned_parts = []
+        for part in parts:
+            if not cleaned_parts or part != cleaned_parts[-1]:
+                cleaned_parts.append(part)
+        
+        # 只保留前3个部分
+        result = cleaned_parts[:3]
+        
+        # 补齐到3个元素
+        while len(result) < 3:
+            result.append('')
+        
+        return result
+    
     def validate_node(self, node, auto_fix=True):
         """
         验证单个节点的事件类型
@@ -87,6 +118,34 @@ class EventTypeValidator:
         
         issues = []
         fixed_node = node.copy()
+        
+        # 预处理：清洗多层级的类型字符串
+        # 例如：Conflict.Attack.Unspecified.Unspecified.Unspecified -> [Conflict, Attack, Unspecified]
+        if '.' in event_type:
+            normalized = self._normalize_event_type_string(event_type)
+            event_type = normalized[0]
+            if not event_subtype and len(normalized) > 1:
+                event_subtype = normalized[1]
+            if not event_sub_subtype and len(normalized) > 2:
+                event_sub_subtype = normalized[2]
+            issues.append(f"规范化多层级类型字符串")
+        
+        if '.' in event_subtype:
+            normalized = self._normalize_event_type_string(event_subtype)
+            event_subtype = normalized[0]
+            if not event_sub_subtype and len(normalized) > 1:
+                event_sub_subtype = normalized[1]
+            issues.append(f"规范化子类型字符串")
+        
+        if '.' in event_sub_subtype:
+            normalized = self._normalize_event_type_string(event_sub_subtype)
+            event_sub_subtype = normalized[0]
+            issues.append(f"规范化子子类型字符串")
+        
+        # 更新fixed_node
+        fixed_node['event_type'] = event_type
+        fixed_node['event_subtype'] = event_subtype
+        fixed_node['event_sub_subtype'] = event_sub_subtype
         
         # 检查三层组合是否存在于本体中
         combination = (event_type, event_subtype, event_sub_subtype)
@@ -159,6 +218,21 @@ class EventTypeValidator:
             fixed_node.get('event_sub_subtype', '')
         )
         is_valid = fixed_combination in self.valid_combinations
+        
+        # 如果修复后的组合仍然无效，尝试用三个层级去找最相似的完整组合
+        if not is_valid and auto_fix:
+            best_combo = self._find_best_combination(
+                fixed_node.get('event_type', ''),
+                fixed_node.get('event_subtype', ''),
+                fixed_node.get('event_sub_subtype', '')
+            )
+            if best_combo:
+                issues.append(f"使用最相似的完整组合: {best_combo[0]}.{best_combo[1]}.{best_combo[2]}")
+                fixed_node['event_type'] = best_combo[0]
+                fixed_node['event_subtype'] = best_combo[1]
+                fixed_node['event_sub_subtype'] = best_combo[2]
+                is_valid = True
+                self.validation_stats['auto_fixed_nodes'] += 1
         
         return is_valid, fixed_node, issues
     
@@ -264,6 +338,52 @@ class EventTypeValidator:
         
         # 使用配置的相似度阈值
         return best_match if best_ratio >= self.similarity_threshold else None
+    
+    def _find_best_combination(self, event_type, event_subtype, event_sub_subtype):
+        """
+        根据三个层级找到本体中最相似的完整组合
+        
+        Args:
+            event_type (str): 事件类型
+            event_subtype (str): 事件子类型
+            event_sub_subtype (str): 事件子子类型
+            
+        Returns:
+            tuple: 最佳匹配的组合 (type, subtype, sub_subtype)，如果找不到返回None
+        """
+        if not event_type:
+            return None
+        
+        # 构建目标字符串用于匹配
+        target_str = f"{event_type}.{event_subtype}.{event_sub_subtype}".lower()
+        
+        best_combo = None
+        best_score = 0.0
+        
+        for combo in self.valid_combinations:
+            # 计算组合的相似度
+            combo_str = f"{combo[0]}.{combo[1]}.{combo[2]}".lower()
+            
+            # 使用序列匹配器计算整体相似度
+            overall_ratio = SequenceMatcher(None, target_str, combo_str).ratio()
+            
+            # 分别计算各层级的相似度，给予不同权重
+            type_ratio = SequenceMatcher(None, event_type.lower(), combo[0].lower()).ratio() if event_type and combo[0] else 0
+            subtype_ratio = SequenceMatcher(None, event_subtype.lower(), combo[1].lower()).ratio() if event_subtype and combo[1] else 0
+            sub_subtype_ratio = SequenceMatcher(None, event_sub_subtype.lower(), combo[2].lower()).ratio() if event_sub_subtype and combo[2] else 0
+            
+            # 加权平均：类型权重最高，然后是子类型，最后是子子类型
+            weighted_score = (type_ratio * 0.5 + subtype_ratio * 0.3 + sub_subtype_ratio * 0.2)
+            
+            # 综合得分：加权平均 + 整体相似度
+            final_score = (weighted_score * 0.7 + overall_ratio * 0.3)
+            
+            if final_score > best_score:
+                best_score = final_score
+                best_combo = combo
+        
+        # 使用较低的阈值（0.4），因为这是最后的回退策略
+        return best_combo if best_score >= 0.4 else None
     
     def get_validation_summary(self):
         """

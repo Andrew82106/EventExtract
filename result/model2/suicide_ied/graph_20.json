@@ -2,65 +2,65 @@
   "nodes": [
     {
       "id": "text_20_node_1",
-      "event_type": "Life",
-      "event_subtype": "",
-      "event_sub_subtype": "Unspecified",
-      "description": "Andre Fried和Idit在1970年代末从匈牙利移民到以色列",
-      "support_text": "Andre Fried和Idit在1970年代末从匈牙利移民到以色列",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "At least 41 Syrian children aged under 12 have been killed in a double bombing by a lone assailant at a school in the government-controlled city of Homs.",
+      "support_text": "At least 41 Syrian children aged under 12 have been killed in a double bombing by a lone assailant at a school in the government-controlled city of Homs, a monitor said.",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_2",
       "event_type": "Life",
-      "event_subtype": "",
+      "event_subtype": "Die",
       "event_sub_subtype": "Unspecified",
-      "description": "Andre Fried是一位在Netanya拥有两家诊所的成功牙医",
-      "support_text": "Andre Fried是一位在Netanya拥有两家诊所的成功牙医",
+      "description": "They were among 48 people who died in the attacks in the Akrameh neighbourhood.",
+      "support_text": "They were among 48 people who died in the attacks in the Akrameh neighbourhood, the Syrian Observatory for Human Rights said, updating an earlier toll.",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_3",
-      "event_type": "Life",
-      "event_subtype": "",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
       "event_sub_subtype": "Unspecified",
-      "description": "每年他们都会在Passover节期间庆祝节日，今年他们计划与Andre的母亲、Idit的母亲以及他们的两个孩子一起庆祝",
-      "support_text": "每年他们都会在Passover节期间庆祝节日，今年他们计划与Andre的母亲、Idit的母亲以及他们的两个孩子一起庆祝",
+      "description": "Several children are still missing, and the toll may rise further still.",
+      "support_text": "Several children are still missing, and the toll may rise further still,\" Observatory director Rami Abdel Rahman said.",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_4",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel餐厅内发动自杀式炸弹袭击，导致30人死亡，140人受伤",
-      "support_text": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel餐厅内发动自杀式炸弹袭击，导致30人死亡，140人受伤",
+      "event_sub_subtype": "Unspecified",
+      "description": "The adults killed were four civilians and three members of the security forces.",
+      "support_text": "The adults killed were four civilians and three members of the security forces.",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_5",
-      "event_type": "Life",
-      "event_subtype": "",
-      "event_sub_subtype": "Unspecified",
-      "description": "Andre Fried、Idit、Andre的继父George Yakobovitch和母亲Anna在袭击中丧生",
-      "support_text": "Andre Fried、Idit、Andre的继父George Yakobovitch和母亲Anna在袭击中丧生",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "One attacker carried out both bombings by planting a bomb at one location and then blowing himself up at another spot nearby.",
+      "support_text": "One attacker carried out both bombings. 'He planted a bomb at one location at the school, and then blew himself up at another spot nearby,' Abdel Rahman said.",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_6",
-      "event_type": "Life",
-      "event_subtype": "",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "Idit的孩子们到医院寻找他们的父母，Laniado医院的员工对他们的遭遇感到悲痛",
-      "support_text": "Idit的孩子们到医院寻找他们的父母，Laniado医院的员工对他们的遭遇感到悲痛",
+      "description": "Pro-regime Facebook pages posted pictures of the aftermath, including a pile of schoolbags abandoned on a pavement.",
+      "support_text": "Pro-regime Facebook pages posted pictures of the aftermath, including one of a pile of schoolbags abandoned on a pavement.",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_7",
-      "event_type": "Life",
-      "event_subtype": "",
-      "event_sub_subtype": "Unspecified",
-      "description": "Andre Fried被安葬在Netanya，他留下了妻子Idit、母亲、21岁的女儿Shirli和16岁的儿子Tom",
-      "support_text": "Andre Fried被安葬在Netanya，他留下了妻子Idit、母亲、21岁的女儿Shirli和16岁的儿子Tom",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "One page posted a video showing panicked residents rushing to evacuate children wearing blue and pink uniforms.",
+      "support_text": "One page, named the Homs Youth Club, posted a video apparently shot at the scene, showing panicked residents rushing to evacuate children wearing blue and pink uniforms.",
       "source_text": "text_20"
     },
     {
@@ -68,17 +68,116 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel餐厅内发动自杀式炸弹袭击，导致30人死亡，140人受伤",
-      "support_text": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel餐厅内发动自杀式炸弹袭击，导致30人死亡，140人受伤",
+      "description": "Al Qaeda's branch in Syria, Al-Nusra Front, said it was behind a similar twin bombing in the central city that killed at least 12 people in May.",
+      "support_text": "Al Qaeda's branch in Syria, Al-Nusra Front, said it was behind a similar twin bombing in the central city that killed at least 12 people in May.",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_9",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "",
-      "description": "The bomber was a member of Hamas and was on Israel's wanted list.",
-      "support_text": "The bomber was identified as a member of the Hamas Iz a Din al-Kassam Brigades, from the West Bank city of Tulkarem, which is just 10 kilometers (six miles) east of Netanya. He was on the list of wanted terrorists Israel had requested be arrested.",
+      "event_sub_subtype": "Unspecified",
+      "description": "Homs governor Talal al-Barazi gave a toll of 31 killed and 74 wounded in Wednesday's attacks.",
+      "support_text": "Homs governor Talal al-Barazi gave a toll of 31 killed and 74 wounded in Wednesday's attacks.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "The children were between six and nine years old.",
+      "support_text": "The children were between six and nine years old, he added.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "The toll is among the highest suffered by children in suicide attacks in Syria since the conflict erupted more than three years ago.",
+      "support_text": "The toll is among the highest suffered by children in suicide attacks in Syria since the conflict erupted more than three years ago.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "In August 2013, a chemical attack on rebel-held areas in the outskirts of Damascus killed dozens of children.",
+      "support_text": "In August 2013, a chemical attack on rebel-held areas in the outskirts of Damascus killed dozens of children.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The year before 49 children were killed in the Houla 'massacre' in Homs province.",
+      "support_text": "The year before 49 children were killed in the Houla 'massacre' in Homs province.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Akrameh neighbourhood of Homs is home to a majority of Alawites.",
+      "support_text": "The Akrameh neighbourhood of Homs is home to a majority of Alawites.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "The district has been targeted before, including on June 19, when at least six people were killed in a car bombing.",
+      "support_text": "The district has been targeted before, including on June 19, when at least six people were killed in a car bombing.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Homs was once dubbed 'the capital of the revolution' against Assad.",
+      "support_text": "Homs was once dubbed 'the capital of the revolution' against Assad.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Most of the city, except the battered Waar district, has returned to regime control after two years of bombardment and siege.",
+      "support_text": "Most of the city, except the battered Waar district, has returned to regime control after two years of bombardment and siege.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_18",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "业余录像展示了孩子们",
+      "support_text": "业余录像展示了孩子们",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "孩子们在喊叫",
+      "support_text": "孩子们在喊叫",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "没有人立即声称对袭击负责",
+      "support_text": "没有人立即声称对袭击负责",
       "source_text": "text_20"
     }
   ],
@@ -87,49 +186,103 @@
       "source": "text_20_node_1",
       "target": "text_20_node_2",
       "relation": "before",
-      "support_text": "Andre Fried和Idit在1970年代末从匈牙利移民到以色列"
+      "support_text": "At least 41 Syrian children aged under 12 have been killed in a double bombing by a lone assailant at a school in the government-controlled city of Homs, a monitor said."
     },
     {
       "source": "text_20_node_2",
       "target": "text_20_node_3",
       "relation": "before",
-      "support_text": "Andre Fried是一位在Netanya拥有两家诊所的成功牙医"
+      "support_text": "They were among 48 people who died in the attacks in the Akrameh neighbourhood, the Syrian Observatory for Human Rights said, updating an earlier toll."
     },
     {
       "source": "text_20_node_3",
       "target": "text_20_node_4",
       "relation": "before",
-      "support_text": "每年他们都会在Passover节期间庆祝节日，今年他们计划与Andre的母亲、Idit的母亲以及他们的两个孩子一起庆祝"
+      "support_text": "Several children are still missing, and the toll may rise further still,\" Observatory director Rami Abdel Rahman said."
     },
     {
       "source": "text_20_node_4",
       "target": "text_20_node_5",
       "relation": "before",
-      "support_text": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel餐厅内发动自杀式炸弹袭击，导致30人死亡，140人受伤"
-    },
-    {
-      "source": "text_20_node_4",
-      "target": "text_20_node_8",
-      "relation": "before",
-      "support_text": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel餐厅内发动自杀式炸弹袭击，导致30人死亡，140人受伤"
-    },
-    {
-      "source": "text_20_node_4",
-      "target": "text_20_node_9",
-      "relation": "causes",
-      "support_text": "The bomber was a member of Hamas and was on Israel's wanted list."
+      "support_text": "The adults killed were four civilians and three members of the security forces."
     },
     {
       "source": "text_20_node_5",
       "target": "text_20_node_6",
       "relation": "before",
-      "support_text": "Andre Fried、Idit、Andre的继父George Yakobovitch和母亲Anna在袭击中丧生"
+      "support_text": "One attacker carried out both bombings. 'He planted a bomb at one location at the school, and then blew himself up at another spot nearby,' Abdel Rahman said."
     },
     {
       "source": "text_20_node_6",
       "target": "text_20_node_7",
       "relation": "before",
-      "support_text": "Idit的孩子们到医院寻找他们的父母，Laniado医院的员工对他们的遭遇感到悲痛"
+      "support_text": "Pro-regime Facebook pages posted pictures of the aftermath, including one of a pile of schoolbags abandoned on a pavement."
+    },
+    {
+      "source": "text_20_node_7",
+      "target": "text_20_node_8",
+      "relation": "before",
+      "support_text": "One page, named the Homs Youth Club, posted a video apparently shot at the scene, showing panicked residents rushing to evacuate children wearing blue and pink uniforms."
+    },
+    {
+      "source": "text_20_node_8",
+      "target": "text_20_node_9",
+      "relation": "before",
+      "support_text": "Al Qaeda's branch in Syria, Al-Nusra Front, said it was behind a similar twin bombing in the central city that killed at least 12 people in May."
+    },
+    {
+      "source": "text_20_node_9",
+      "target": "text_20_node_10",
+      "relation": "before",
+      "support_text": "Homs governor Talal al-Barazi gave a toll of 31 killed and 74 wounded in Wednesday's attacks."
+    },
+    {
+      "source": "text_20_node_10",
+      "target": "text_20_node_11",
+      "relation": "before",
+      "support_text": "The children were between six and nine years old, he added."
+    },
+    {
+      "source": "text_20_node_11",
+      "target": "text_20_node_12",
+      "relation": "before",
+      "support_text": "The toll is among the highest suffered by children in suicide attacks in Syria since the conflict erupted more than three years ago."
+    },
+    {
+      "source": "text_20_node_12",
+      "target": "text_20_node_13",
+      "relation": "before",
+      "support_text": "In August 2013, a chemical attack on rebel-held areas in the outskirts of Damascus killed dozens of children."
+    },
+    {
+      "source": "text_20_node_13",
+      "target": "text_20_node_14",
+      "relation": "before",
+      "support_text": "The year before 49 children were killed in the Houla 'massacre' in Homs province."
+    },
+    {
+      "source": "text_20_node_14",
+      "target": "text_20_node_15",
+      "relation": "before",
+      "support_text": "The Akrameh neighbourhood of Homs is home to a majority of Alawites."
+    },
+    {
+      "source": "text_20_node_15",
+      "target": "text_20_node_16",
+      "relation": "before",
+      "support_text": "The district has been targeted before, including on June 19, when at least six people were killed in a car bombing."
+    },
+    {
+      "source": "text_20_node_16",
+      "target": "text_20_node_17",
+      "relation": "before",
+      "support_text": "Homs was once dubbed 'the capital of the revolution' against Assad."
+    },
+    {
+      "source": "text_20_node_17",
+      "target": "text_20_node_1",
+      "relation": "before",
+      "support_text": "Most of the city, except the battered Waar district, has returned to regime control after two years of bombardment and siege."
     }
   ]
 }

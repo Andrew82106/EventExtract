@@ -3,127 +3,82 @@
     {
       "id": "text_1_node_1",
       "event_type": "Conflict",
-      "event_subtype": "",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "土耳其在1990年巴库反亚美尼亚骚乱后开始向阿塞拜疆提供军事支持，尽管苏联领导层对此表示批评。",
-      "support_text": "土耳其在1990年巴库反亚美尼亚骚乱后开始向阿塞拜疆提供军事支持，尽管苏联领导层对此表示批评。",
+      "description": "一名持AK-47的袭击者在伊斯坦布尔机场国际到达区行走，导致人们四散逃离。",
+      "support_text": "In the video, which has not yet been independently verified, a man can be seen walking through the terminal building armed with an AK-47 as people flee in all directions.",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
       "event_sub_subtype": "Unspecified",
-      "description": "1992年初，土耳其无视苏联的警告，秘密组织两次空运向阿塞拜疆运送武器，支持其与纳戈尔诺-卡拉巴赫的战争。",
-      "support_text": "1992年初，土耳其无视苏联的警告，秘密组织两次空运向阿塞拜疆运送武器，支持其与纳戈尔诺-卡拉巴赫的战争。",
+      "description": "一名警察向袭击者开枪，袭击者倒地并掉落自动武器。",
+      "support_text": "As he rounds a corner, a police officer opens fire, causing the attacker to fall and drop his automatic weapon.",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_3",
-      "event_type": "Personnel",
-      "event_subtype": "ChangePosition",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
       "event_sub_subtype": "Unspecified",
-      "description": "1992年起，约150名土耳其高级军官，包括10名将军，参与阿塞拜疆的军事行动。",
-      "support_text": "1992年起，约150名土耳其高级军官，包括10名将军，参与阿塞拜疆的军事行动。",
+      "description": "警察接近受伤的袭击者后突然转身逃跑。",
+      "support_text": "The police officer can be seen approaching the wounded terrorist before abruptly turning and running away.",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_4",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "Unspecified",
-      "description": "土耳其的“灰狼”组织在阿塞拜疆拥有合法地位，约1.5万名成员参与军队、警察和准军事单位。",
-      "support_text": "土耳其的“灰狼”组织在阿塞拜疆拥有合法地位，约1.5万名成员参与军队、警察和准军事单位。",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击者引爆自杀式炸弹背心，引发巨大爆炸。",
+      "support_text": "Moments later, the man appears to detonate his suicide vest, resulting in a large explosion.",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_5",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "1992年和1993年，土耳其计划至少两次入侵亚美尼亚领土。",
-      "support_text": "1992年和1993年，土耳其计划至少两次入侵亚美尼亚领土。",
+      "description": "袭击者使用出租车进入机场，目标是国际到达区，该区域易于进入且无需通过安检。",
+      "support_text": "The gunmen arrived in a taxi and targeted the Ataturk airport’s international arrivals area, which is easily accessible without passing through security checks.",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_6",
-      "event_type": "Publication",
-      "event_subtype": "Release",
-      "event_sub_subtype": "Academic",
-      "description": "发布了一本关于亚美尼亚与阿塞拜疆在纳戈尔诺-卡拉巴赫战争中雇佣兵和外国恐怖分子作用的研究书籍。",
-      "support_text": "介绍了一本关于亚美尼亚与阿塞拜疆在纳戈尔诺-卡拉巴赫战争中雇佣兵和外国恐怖分子作用的研究书籍。",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "机场内的一起爆炸导致36人死亡，包括三名自杀式炸弹袭击者。",
+      "support_text": "Turkish officials say the attack by three suspected Isis terrorists killed at least 41 people and wounded 239 others.",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_7",
-      "event_type": "Personnel",
-      "event_subtype": "",
-      "event_sub_subtype": "Author",
-      "description": "介绍了书籍的作者Dr. Hayk Demoyan，他是亚美尼亚种族灭绝博物馆-学院的院长。",
-      "support_text": "The author is a well-known scholar, Dr. Hayk Demoyan, the director of the Armenian Genocide Museum-Institute in Yerevan.",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "机场内的一名目击者拍摄到公众在爆炸前处于混乱状态，随后所有人向一个方向奔跑。",
+      "support_text": "A separate video, taken by a CCTV camera behind an information desk in the arrivals hall, showed members of the public apparently in a state of confusion before they all start running in one direction.",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_8",
-      "event_type": "Contact",
-      "event_subtype": "",
-      "event_sub_subtype": "Scientific",
-      "description": "描述了该主题的研究背景，即尽管有多个社论和报纸文章，但很少从科学角度研究。",
-      "support_text": "The issue has been the subject of several op-ed pieces and newspaper articles, but rarely have any efforts been put together to examine the topic from a scientific perspective.",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生在摄像机后，导致机场国际到达区出现破坏和伤亡。",
+      "support_text": "Seconds afterwards there is an explosion, just off camera.",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_9",
-      "event_type": "Publication",
-      "event_subtype": "Release",
-      "event_sub_subtype": "Academic",
-      "description": "Mercenaries是一本关于研究1990年代初纳戈尔诺-卡拉巴赫战争的重要书籍，书中包含的事实有助于解释恐怖结构的形成和发展。",
-      "support_text": "Mercenaries is a must-read for those who wish to study the history of the Karabagh war of the early 1990’s. The book includes well-grounded facts that go far in explaining how terrorist structures emerged and developed in the Caucasus region.",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_10",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "",
-      "description": "纳戈尔诺-卡拉巴赫的亚美尼亚人为了自决和自卫而进行的斗争。",
-      "support_text": "As the author notes, “the struggle of Karabagh Armenians for self-determination and self-preservation [was] a fight not only against regular Azeri troops…but also against…foreign mercenaries and extremists recruited by the Azerbaijani authorities.”",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_11",
-      "event_type": "Publication",
-      "event_subtype": "Release",
-      "event_sub_subtype": "Academic",
-      "description": "介绍了书籍的第一部分，探讨了土耳其对阿塞拜疆的政治、外交和军事支持。",
-      "support_text": "Part 1 examines Turkey’s political, diplomatic, and military support to Azerbaijan.",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_12",
-      "event_type": "Conflict",
-      "event_subtype": "",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
       "event_sub_subtype": "Unspecified",
-      "description": "苏联领导层对土耳其提供军事支持表示批评。",
-      "support_text": "The Soviet leadership was quite critical about that, and the TASS agency reported on Jan. 24, 1990 that Turkey should “refrain from sending military equipment” to the landlocked Azerbaijani exclave of Nakhichevan.",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_13",
-      "event_type": "Publication",
-      "event_subtype": "Report",
-      "event_sub_subtype": "News",
-      "description": "塔斯社报道了土耳其对阿塞拜疆的军事支持。",
-      "support_text": "the TASS agency reported on Jan. 24, 1990 that Turkey should “refrain from sending military equipment” to the landlocked Azerbaijani exclave of Nakhichevan.",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_14",
-      "event_type": "Policy",
-      "event_subtype": "Cautious",
-      "event_sub_subtype": "NATO_alliance",
-      "description": "土耳其提供苏联制武器的原因是为了避免激怒其北约盟友。",
-      "support_text": "As a matter of cautious policy, Turkey provided the Azeris mainly with Soviet-made arms and weapons systems that they possessed in large amounts—in an effort not to anger its NATO allies.",
+      "description": "政府官员表示死亡人数可能上升到近50人",
+      "support_text": "政府官员表示死亡人数可能上升到近50人",
       "source_text": "text_1"
     }
   ],
@@ -132,61 +87,31 @@
       "source": "text_1_node_1",
       "target": "text_1_node_2",
       "relation": "before",
-      "support_text": "土耳其在1990年巴库反亚美尼亚骚乱后开始向阿塞拜疆提供军事支持，尽管苏联领导层对此表示批评。1992年初，土耳其无视苏联的警告，秘密组织两次空运向阿塞拜疆运送武器，支持其与纳戈尔诺-卡拉巴赫的战争。"
-    },
-    {
-      "source": "text_1_node_1",
-      "target": "text_1_node_14",
-      "relation": "reason_for",
-      "support_text": "土耳其在1990年巴库反亚美尼亚骚乱后开始向阿塞拜疆提供军事支持，尽管苏联领导层对此表示批评。作为一项谨慎的政策，土耳其提供苏联制武器的原因是为了避免激怒其北约盟友。"
+      "support_text": "As he rounds a corner, a police officer opens fire, causing the attacker to fall and drop his automatic weapon."
     },
     {
       "source": "text_1_node_2",
       "target": "text_1_node_3",
       "relation": "before",
-      "support_text": "1992年初，土耳其无视苏联的警告，秘密组织两次空运向阿塞拜疆运送武器，支持其与纳戈尔诺-卡拉巴赫的战争。1992年起，约150名土耳其高级军官，包括10名将军，参与阿塞拜疆的军事行动。"
-    },
-    {
-      "source": "text_1_node_2",
-      "target": "text_1_node_10",
-      "relation": "related_to",
-      "support_text": "1992年初，土耳其无视苏联的警告，秘密组织两次空运向阿塞拜疆运送武器，支持其与纳戈尔诺-卡拉巴赫的战争。As the author notes, “the struggle of Karabagh Armenians for self-determination and self-preservation [was] a fight not only against regular Azeri troops…but also against…foreign mercenaries and extremists recruited by the Azerbaijani authorities.”"
+      "support_text": "The police officer can be seen approaching the wounded terrorist before abruptly turning and running away."
     },
     {
       "source": "text_1_node_3",
       "target": "text_1_node_4",
       "relation": "before",
-      "support_text": "1992年起，约150名土耳其高级军官，包括10名将军，参与阿塞拜疆的军事行动。土耳其的“灰狼”组织在阿塞拜疆拥有合法地位，约1.5万名成员参与军队、警察和准军事单位。"
+      "support_text": "Moments later, the man appears to detonate his suicide vest, resulting in a large explosion."
     },
     {
-      "source": "text_1_node_4",
-      "target": "text_1_node_5",
+      "source": "text_1_node_5",
+      "target": "text_1_node_6",
       "relation": "before",
-      "support_text": "土耳其的“灰狼”组织在阿塞拜疆拥有合法地位，约1.5万名成员参与军队、警察和准军事单位。1992年和1993年，土耳其计划至少两次入侵亚美尼亚领土。"
-    },
-    {
-      "source": "text_1_node_6",
-      "target": "text_1_node_9",
-      "relation": "related_to",
-      "support_text": "发布了一本关于亚美尼亚与阿塞拜疆在纳戈尔诺-卡拉巴赫战争中雇佣兵和外国恐怖分子作用的研究书籍。Mercenaries是一本关于研究1990年代初纳戈尔诺-卡拉巴赫战争的重要书籍，书中包含的事实有助于解释恐怖结构的形成和发展。"
+      "support_text": "Turkish officials say the attack by three suspected Isis terrorists killed at least 41 people and wounded 239 others."
     },
     {
       "source": "text_1_node_7",
       "target": "text_1_node_8",
-      "relation": "related_to",
-      "support_text": "介绍了书籍的作者Dr. Hayk Demoyan，他是亚美尼亚种族灭绝博物馆-学院的院长。描述了该主题的研究背景，即尽管有多个社论和报纸文章，但很少从科学角度研究。"
-    },
-    {
-      "source": "text_1_node_9",
-      "target": "text_1_node_11",
       "relation": "before",
-      "support_text": "Mercenaries是一本关于研究1990年代初纳戈尔诺-卡拉巴赫战争的重要书籍，书中包含的事实有助于解释恐怖结构的形成和发展。介绍了书籍的第一部分，探讨了土耳其对阿塞拜疆的政治、外交和军事支持。"
-    },
-    {
-      "source": "text_1_node_12",
-      "target": "text_1_node_13",
-      "relation": "related_to",
-      "support_text": "苏联领导层对土耳其提供军事支持表示批评，塔斯社报道了这一情况。"
+      "support_text": "Seconds afterwards there is an explosion, just off camera."
     }
   ]
 }

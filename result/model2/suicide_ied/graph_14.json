@@ -3,46 +3,64 @@
     {
       "id": "text_14_node_1",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "Unspecified",
-      "description": "曼彻斯特炸弹袭击者在学校时属于一个阿拉伯语‘小团体’，该团体指责一位老师对自杀炸弹犯的批评存在伊斯兰恐惧症。",
-      "support_text": "The Manchester bomber was in an Arabic-speaking “clique” at school which accused a teacher of Islamophobia for criticising a suicide bomber in class, The Times has learnt.",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Three to four armed men attacked the DIG police office with weapons and explosives.",
+      "support_text": "“Three to four men carrying arms and explosives attacked the DIG police office. One suicide bomber blew himself up at the gate,” Lango said.",
       "source_text": "text_14"
     },
     {
       "id": "text_14_node_2",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "在2009年至2011年就读于Burnage Academy for Boys期间，阿比迪被认为是一个易怒的年轻人，与同学不太合群。",
-      "support_text": "Salman Abedi, 22, who grew up on council estates in south Manchester, was viewed in his school days as an angry young man who did not quite fit in.",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "One suicide bomber detonated himself at the gate of the DIG office.",
+      "support_text": "“Three to four men carrying arms and explosives attacked the DIG police office. One suicide bomber blew himself up at the gate,” Lango said.",
       "source_text": "text_14"
     },
     {
       "id": "text_14_node_3",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "一群男孩对一位老师提出的问题表示不满，该老师询问他们如何看待一个会绑炸弹炸死人的家伙。",
-      "support_text": "During his time at Burnage Academy for Boys between 2009 and 2011, Abedi is believed to have been among a group of boys who took issue with a teacher who had “asked what they thought of someone who would strap on a bomb and blow people up,” a source said.",
+      "description": "An exchange of fire occurred between the attackers and security agencies.",
+      "support_text": "Two attackers, he said, were killed after an exchange of fire with security agencies.",
       "source_text": "text_14"
     },
     {
       "id": "text_14_node_4",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "这群男孩向宗教教育老师投诉，称老师的提问存在伊斯兰恐惧症。",
-      "support_text": "“A group went to complain to their RE teacher saying it was Islamophobic.”",
+      "description": "Two attackers were killed during the exchange of fire with security agencies.",
+      "support_text": "Two attackers, he said, were killed after an exchange of fire with security agencies.",
       "source_text": "text_14"
     },
     {
       "id": "text_14_node_5",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "阿贝迪被认为是个傻男孩。",
-      "support_text": "He [Abedi] was a silly boy",
+      "description": "The DIG office was cleared by security agencies.",
+      "support_text": "The DIG office was cleared, he said.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Nine police officers were killed in the terrorist attack, and another 21 were injured.",
+      "support_text": "LORALAI: The death toll from a bomb and gun attack at the office of senior police official in Loralai rose to 9 with another 21 people succumbing to injuries, a provincial minister said.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "DIG and 15 other police officers were safely rescued from the attack site.",
+      "support_text": "Meanwhile, DIG and 15 other police officers were safely rescued from the attack site.",
       "source_text": "text_14"
     }
   ],
@@ -51,19 +69,37 @@
       "source": "text_14_node_1",
       "target": "text_14_node_2",
       "relation": "before",
-      "support_text": "The Manchester bomber was in an Arabic-speaking “clique” at school which accused a teacher of Islamophobia for criticising a suicide bomber in class, The Times has learnt."
+      "support_text": "“Three to four men carrying arms and explosives attacked the DIG police office. One suicide bomber blew himself up at the gate,” Lango said."
+    },
+    {
+      "source": "text_14_node_1",
+      "target": "text_14_node_6",
+      "relation": "before",
+      "support_text": "LORALAI: The death toll from a bomb and gun attack at the office of senior police official in Loralai rose to 9 with another 21 people succumbing to injuries, a provincial minister said."
     },
     {
       "source": "text_14_node_2",
       "target": "text_14_node_3",
       "relation": "before",
-      "support_text": "Salman Abedi, 22, who grew up on council estates in south Manchester, was viewed in his school days as an angry young man who did not quite fit in."
+      "support_text": "“Three to four men carrying arms and explosives attacked the DIG police office. One suicide bomber blew himself up at the gate,” Lango said."
     },
     {
       "source": "text_14_node_3",
       "target": "text_14_node_4",
       "relation": "before",
-      "support_text": "During his time at Burnage Academy for Boys between 2009 and 2011, Abedi is believed to have been among a group of boys who took issue with a teacher who had “asked what they thought of someone who would strap on a bomb and blow people up,” a source said."
+      "support_text": "Two attackers, he said, were killed after an exchange of fire with security agencies."
+    },
+    {
+      "source": "text_14_node_4",
+      "target": "text_14_node_5",
+      "relation": "before",
+      "support_text": "The DIG office was cleared, he said."
+    },
+    {
+      "source": "text_14_node_5",
+      "target": "text_14_node_7",
+      "relation": "before",
+      "support_text": "Meanwhile, DIG and 15 other police officers were safely rescued from the attack site."
     }
   ]
 }

@@ -2,74 +2,74 @@
   "nodes": [
     {
       "id": "text_12_node_1",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "两辆汽车炸弹在伦敦被发现未能引爆",
-      "support_text": "A Jeep containing gas cylinders was driven into Glasgow Airport a day after two car bombs were found in London.",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Zarqawi's father died in 1984, leading him to drop out of school and engage in a life of drinking, drug abuse, and violence.",
+      "support_text": "Zarqawi's father, a local tribal leader and retired army officer, died in 1984, leaving his mother a small pension to raise six daughters and four sons. Devastated by the death of his father, the seventeen-year-old adolescent dropped out of school and descended into a life of drinking, drug abuse, and violence on the streets of Zarqa.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "一辆装有气瓶的吉普车冲进格拉斯哥机场大门并起火",
-      "support_text": "A Jeep containing gas cylinders was driven into Glasgow Airport a day after two car bombs were found in London.",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Zarqawi was jailed for drug possession and sexual assault, which exposed him to radical Salafist preachers in a Palestinian refugee camp in Zarqa.",
+      "support_text": "He soon ran afoul of the authorities and was jailed for drug possession and sexual assault. Ironically, it was probably his criminal activities that first drew him into the city's abject and lawless Palestinian refugee camp, where he was exposed to radical Salafist preachers.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
       "event_sub_subtype": "Unspecified",
-      "description": "格拉斯哥机场事件后，英国保持最高级别的反恐警戒状态",
-      "support_text": "The UK moved to its highest level of terror alert after the Jeep Cherokee crashed into the main doors of Glasgow Airport's main terminal and burst into flames on Saturday afternoon.",
+      "description": "Zarqawi married one of his maternal cousins and acquired a clerical job in the local municipality before leaving for Afghanistan in 1989.",
+      "support_text": "After acquiring a clerical job in the local municipality, he married one of his maternal cousins. In 1989, however, Zarqawi abruptly left his family to go to Afghanistan.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_4",
-      "event_type": "Justice",
-      "event_subtype": "ArrestJailDetain",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "五人被拘留，警方认为仍在追捕一名嫌疑人",
-      "support_text": "Five people are being held, but police are thought to be hunting a suspect.",
+      "description": "Zarqawi went to Afghanistan hoping to witness the establishment of the world's first Sunni Islamist state but found the Mujahideen front fragmented.",
+      "support_text": "By this time, Soviet troops had already pulled out of the country  evidently he was expecting to join a triumphant march on Kabul and witness the establishment of the world's first Sunni Islamist state. Instead, he saw the Mujahideen front fragment along tribal and ethnic lines, unable to deliver the coup de grace to the 'godless' Soviet-installed regime in Kabul for three years.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_5",
-      "event_type": "Justice",
-      "event_subtype": "ArrestJailDetain",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
       "event_sub_subtype": "Unspecified",
-      "description": "两名嫌疑人（一名26岁男子和一名27岁女子）在切斯特的M6公路附近被捕，随后被带到伦敦帕丁顿绿色警察局接受审讯",
-      "support_text": "Two of those held by police are a 26-year-old man and 27-year-old woman who were arrested on the M6 near Sandbach, Cheshire, on Saturday night. Both have been taken to Paddington Green police station in London for questioning.",
+      "description": "From 1991, Zarqawi spent most of his time in Peshawar, Pakistan, where he came under the influence of Muhammad al-Ma...",
+      "support_text": "From 1991, he was spending most of his time in Peshawar, Pakistan  once a way station for Arab volunteers going to Afghanistan, now teeming with disillusioned Arab fighters debating what to do next. It is here that Zarqawi came under the influence of Muhammad al-Ma...",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_6",
-      "event_type": "Justice",
-      "event_subtype": "ArrestJailDetain",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "利物浦的一名26岁男子被捕，仍在默西塞德警察局拘留",
-      "support_text": "Another 26-year-old man arrested in Liverpool on Sunday remains in custody at a Merseyside police station.",
+      "description": "阿布·穆萨布·扎卡维从默默无闻中脱颖而出",
+      "support_text": "阿布·穆萨布·扎卡维从默默无闻中脱颖而出",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_7",
-      "event_type": "Justice",
-      "event_subtype": "ArrestJailDetain",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "格拉斯哥机场的一名嫌疑人严重烧伤，处于危重状态，在 paisley 的皇家亚历山德拉医院接受治疗，并受到武装警察的看守",
-      "support_text": "One of the two suspects held at Glasgow Airport on Saturday suffered severe burns and remains in a critical condition, and under armed police guard, at Royal Alexandra Hospital, in Paisley.",
+      "description": "阿布·穆萨布·扎卡维取代了奥萨马·本·拉登成为首要公敌",
+      "support_text": "阿布·穆萨布·扎卡维取代了奥萨马·本·拉登成为首要公敌",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_8",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
       "event_sub_subtype": "Unspecified",
-      "description": "警方在多个地点进行搜查，包括利物浦、纽卡斯尔-under-莱姆和休斯顿附近的村庄",
-      "support_text": "Police searching two addresses in the Liverpool area. And Staffordshire Police said its officers had been searching an address in Newcastle-under-Lyme with the West Midlands Counter Terrorism Unit and Met personnel.",
+      "description": "扎卡维凭借其网络技能崛起",
+      "support_text": "扎卡维凭借其网络技能崛起",
       "source_text": "text_12"
     },
     {
@@ -77,8 +77,44 @@
       "event_type": "Cognitive",
       "event_subtype": "Research",
       "event_sub_subtype": "Unspecified",
-      "description": "副助理警察局长彼得·克拉克表示，他对揭开袭击者的方法和网络充满信心",
-      "support_text": "Deputy Assistant Commissioner Peter Clarke said he was 'absolutely confident' of uncovering details of the attackers' methods and network.",
+      "description": "扎卡维制定了看似有效的恐怖主义战略的轮廓",
+      "support_text": "扎卡维制定了看似有效的恐怖主义战略的轮廓",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "看似有效的恐怖主义战略破坏了伊拉克战后政治过渡",
+      "support_text": "看似有效的恐怖主义战略破坏了伊拉克战后政治过渡",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_11",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Zarqawi出生为Ahmad Fadil Nazal al-Khalaylah",
+      "support_text": "Zarqawi出生为Ahmad Fadil Nazal al-Khalaylah",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Zarqawi参与了某些战斗",
+      "support_text": "扎尔卡维参与了某些战斗",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "他主要作为一家激进伊斯兰主义杂志的记者工作",
+      "support_text": "他主要作为一家激进伊斯兰主义杂志的记者工作",
       "source_text": "text_12"
     }
   ],
@@ -87,49 +123,37 @@
       "source": "text_12_node_1",
       "target": "text_12_node_2",
       "relation": "before",
-      "support_text": "A Jeep containing gas cylinders was driven into Glasgow Airport a day after two car bombs were found in London."
+      "support_text": "Zarqawi's father, a local tribal leader and retired army officer, died in 1984, leaving his mother a small pension to raise six daughters and four sons. Devastated by the death of his father, the seventeen-year-old adolescent dropped out of school and descended into a life of drinking, drug abuse, and violence on the streets of Zarqa."
     },
     {
       "source": "text_12_node_2",
       "target": "text_12_node_3",
       "relation": "before",
-      "support_text": "The UK moved to its highest level of terror alert after the Jeep Cherokee crashed into the main doors of Glasgow Airport's main terminal and burst into flames on Saturday afternoon."
+      "support_text": "He soon ran afoul of the authorities and was jailed for drug possession and sexual assault. Ironically, it was probably his criminal activities that first drew him into the city's abject and lawless Palestinian refugee camp, where he was exposed to radical Salafist preachers."
     },
     {
       "source": "text_12_node_3",
       "target": "text_12_node_4",
       "relation": "before",
-      "support_text": "Five people are being held, but police are thought to be hunting a suspect."
+      "support_text": "After acquiring a clerical job in the local municipality, he married one of his maternal cousins. In 1989, however, Zarqawi abruptly left his family to go to Afghanistan."
     },
     {
       "source": "text_12_node_4",
       "target": "text_12_node_5",
       "relation": "before",
-      "support_text": "Two of those held by police are a 26-year-old man and 27-year-old woman who were arrested on the M6 near Sandbach, Cheshire, on Saturday night. Both have been taken to Paddington Green police station in London for questioning."
+      "support_text": "By this time, Soviet troops had already pulled out of the country  evidently he was expecting to join a triumphant march on Kabul and witness the establishment of the world's first Sunni Islamist state. Instead, he saw the Mujahideen front fragment along tribal and ethnic lines, unable to deliver the coup de grace to the 'godless' Soviet-installed regime in Kabul for three years."
     },
     {
-      "source": "text_12_node_4",
-      "target": "text_12_node_6",
+      "source": "text_12_node_9",
+      "target": "text_12_node_10",
       "relation": "before",
-      "support_text": "Another 26-year-old man arrested in Liverpool on Sunday remains in custody at a Merseyside police station."
+      "support_text": "扎卡维制定了看似有效的恐怖主义战略的轮廓，随后该战略破坏了伊拉克战后政治过渡"
     },
     {
-      "source": "text_12_node_4",
-      "target": "text_12_node_7",
+      "source": "text_12_node_13",
+      "target": "text_12_node_5",
       "relation": "before",
-      "support_text": "One of the two suspects held at Glasgow Airport on Saturday suffered severe burns and remains in a critical condition, and under armed police guard, at Royal Alexandra Hospital, in Paisley."
-    },
-    {
-      "source": "text_12_node_4",
-      "target": "text_12_node_8",
-      "relation": "before",
-      "support_text": "Police searching two addresses in the Liverpool area. And Staffordshire Police said its officers had been searching an address in Newcastle-under-Lyme with the West Midlands Counter Terrorism Unit and Met personnel."
-    },
-    {
-      "source": "text_12_node_4",
-      "target": "text_12_node_9",
-      "relation": "before",
-      "support_text": "Deputy Assistant Commissioner Peter Clarke said he was 'absolutely confident' of uncovering details of the attackers' methods and network."
+      "support_text": "他主要作为一家激进伊斯兰主义杂志的记者工作，之后前往白沙瓦"
     }
   ]
 }

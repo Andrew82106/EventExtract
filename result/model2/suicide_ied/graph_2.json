@@ -5,53 +5,53 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "在斯里兰卡复活节星期日发生的致命袭击，针对教堂、酒店和其他地点，是针对上个月在新西兰两个清真寺发生的屠杀的报复。",
-      "support_text": "在斯里兰卡复活节星期日发生的致命袭击，针对教堂、酒店和其他地点，是针对上个月在新西兰两个清真寺发生的屠杀的报复。",
+      "description": "在Quetta的Hazarganji地区的水果蔬菜市场发生了一次可怕的爆炸，造成至少20人死亡，其中包括两名儿童、一名Frontier Corps官员和八名Hazarra社区成员，另有48人受伤。",
+      "support_text": "Following the horrific explosion at fruit and vegetable market in Quetta’s Hazarganji area which left at least 20 people including two children, a Frontier Corps official and eight members of the Hazara community dead injured 48 others, Hazara community staged a protest demonstration at the city’s Western Bypass against the killings.",
       "source_text": "text_2"
     },
     {
       "id": "text_2_node_2",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "斯里兰卡国防部长表示，政府有信息表明，这些爆炸（已造成至少321人死亡）是对上个月在基督城发生的枪击事件的回应。",
-      "support_text": "斯里兰卡国防部长表示，政府有信息表明，这些爆炸（已造成至少321人死亡）是对上个月在基督城发生的枪击事件的回应。",
+      "description": "Hazarra社区在Quetta的Western Bypass举行了抗议示威，抗议杀害事件，并认为Hazarra社区受到针对但未得到有效安全保护。",
+      "support_text": "Hazara community staged a protest demonstration at the city’s Western Bypass against the killings. The protesters was of the view that the Hazara community was being targeted but they weren’t provided effective security.",
       "source_text": "text_2"
     },
     {
       "id": "text_2_node_3",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_subtype": "Defeat",
       "event_sub_subtype": "Unspecified",
-      "description": "Ruwan Wijewardene没有透露支持其说法的证据，并指责安全机构未能阻止这九次爆炸。",
-      "support_text": "Ruwan Wijewardene没有透露支持其说法的证据，并指责安全机构未能阻止这九次爆炸。",
+      "description": "省内政部长Zia Lango到达现场，但与Hazarra社区的对话再次失败。",
+      "support_text": "Provincial Home Minister Zia Lango reached the site but the dialogues with the Hazara community failed once again.",
       "source_text": "text_2"
     },
     {
       "id": "text_2_node_4",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "在议会表示，情报单位已经意识到这次袭击，并且一些负责人被告知即将发生的袭击。",
-      "support_text": "在议会表示，情报单位已经意识到这次袭击，并且一些负责人被告知即将发生的袭击。",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生在拥挤的水果市场，靠近一辆车，损坏了相邻的商店，医院报告称伤者情况严重，所有Quetta医院都实施了紧急状态，并请求人们献血。",
+      "support_text": "Earlier today, at least 20 people were killed and 48 wounded by a powerful suicide blast at a crowded fruit market in Quetta city, officials said. Body parts littered the scene and injured people screamed for help as black smoke cloaked the market after the explosion.",
       "source_text": "text_2"
     },
     {
       "id": "text_2_node_5",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "然而，这些信息仅在少数官员之间流传。",
-      "support_text": "然而，这些信息仅在少数官员之间流传。",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "警方确认炸弹藏在土豆袋中，调查小组从目标区域收集证据，安全部队在地区进行搜索行动。",
+      "support_text": "The police confirmed that the bomb was hidden inside sacks of potatoes. The investigation teams collected evidences from the targeted area and security forces conducted search operation in locality.",
       "source_text": "text_2"
     },
     {
       "id": "text_2_node_6",
-      "event_type": "Disaster",
-      "event_subtype": "FireExplosion",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "周二举行了三分钟全国默哀，以纪念爆炸事件，同时为一些受害者举行了大规模葬礼。",
-      "support_text": "周二举行了三分钟全国默哀，以纪念爆炸事件，同时为一些受害者举行了大规模葬礼。",
+      "description": "总理Imran Khan谴责了这起事件，并召集团队报告，指示提供最佳医疗设施给伤者。",
+      "support_text": "Prime Minister Imran Khan condemned the incident and summoned report from the concerned authorities. He further directed to provide best medical facilities to the wounded.",
       "source_text": "text_2"
     },
     {
@@ -59,26 +59,17 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "国际情报机构警告说，一个当地激进组织正在准备袭击，但这些警告直到袭击发生后才传达到总理办公室。",
-      "support_text": "国际情报机构警告说，一个当地激进组织正在准备袭击，但这些警告直到袭击发生后才传达到总理办公室。",
+      "description": "Balochistan首席部长Jam Kamal表示，袭击是为了破坏和平气氛，并与受害者表示同情，称那些负责这起残暴活动的人无人道且不应受到怜悯。",
+      "support_text": "Balochistan Chief Minister Jam Kamal said the attack was conducted to sabotage the peaceful atmosphere. While expressing solidarity with the victims, the chief minister said those who are responsible for this heinous activity are inhumane and deserve no mercy.",
       "source_text": "text_2"
     },
     {
       "id": "text_2_node_8",
-      "event_type": "Contact",
-      "event_subtype": "",
-      "event_sub_subtype": "Unspecified",
-      "description": "斯里兰卡的基督教改革教会呼吁英国信徒为这个国家祈祷。",
-      "support_text": "斯里兰卡的基督教改革教会呼吁英国信徒为这个国家祈祷。",
-      "source_text": "text_2"
-    },
-    {
-      "id": "text_2_node_9",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "表达了对袭击可能如何影响该国经济的担忧，他说：“很多游客正在来；他们喜欢斯里兰卡，这是一个非常美丽的国家。由于这件事，也许一段时间内一切都会有点瘫痪。”",
-      "support_text": "表达了对袭击可能如何影响该国经济的担忧，他说：“很多游客正在来；他们喜欢斯里兰卡，这是一个非常美丽的国家。由于这件事，也许一段时间内一切都会有点瘫痪。”",
+      "description": "安全部队和拆弹小组封锁了区域",
+      "support_text": "安全部队和拆弹小组封锁了区域",
       "source_text": "text_2"
     }
   ],
@@ -87,49 +78,37 @@
       "source": "text_2_node_1",
       "target": "text_2_node_2",
       "relation": "before",
-      "support_text": "斯里兰卡国防部长表示，政府有信息表明，这些爆炸（已造成至少321人死亡）是对上个月在基督城发生的枪击事件的回应。"
+      "support_text": "Following the horrific explosion at fruit and vegetable market in Quetta’s Hazarganji area which left at least 20 people including two children, a Frontier Corps official and eight members of the Hazara community dead injured 48 others, Hazara community staged a protest demonstration at the city’s Western Bypass against the killings."
     },
     {
       "source": "text_2_node_2",
       "target": "text_2_node_3",
       "relation": "before",
-      "support_text": "Ruwan Wijewardene没有透露支持其说法的证据，并指责安全机构未能阻止这九次爆炸。"
+      "support_text": "Hazara community staged a protest demonstration at the city’s Western Bypass against the killings. The protesters was of the view that the Hazara community was being targeted but they weren’t provided effective security."
     },
     {
       "source": "text_2_node_3",
       "target": "text_2_node_4",
       "relation": "before",
-      "support_text": "在议会表示，情报单位已经意识到这次袭击，并且一些负责人被告知即将发生的袭击。"
+      "support_text": "Provincial Home Minister Zia Lango reached the site but the dialogues with the Hazara community failed once again."
     },
     {
       "source": "text_2_node_4",
       "target": "text_2_node_5",
       "relation": "before",
-      "support_text": "然而，这些信息仅在少数官员之间流传。"
+      "support_text": "Earlier today, at least 20 people were killed and 48 wounded by a powerful suicide blast at a crowded fruit market in Quetta city, officials said. Body parts littered the scene and injured people screamed for help as black smoke cloaked the market after the explosion."
     },
     {
       "source": "text_2_node_5",
       "target": "text_2_node_6",
       "relation": "before",
-      "support_text": "周二举行了三分钟全国默哀，以纪念爆炸事件，同时为一些受害者举行了大规模葬礼。"
+      "support_text": "The police confirmed that the bomb was hidden inside sacks of potatoes. The investigation teams collected evidences from the targeted area and security forces conducted search operation in locality."
     },
     {
       "source": "text_2_node_6",
       "target": "text_2_node_7",
       "relation": "before",
-      "support_text": "国际情报机构警告说，一个当地激进组织正在准备袭击，但这些警告直到袭击发生后才传达到总理办公室。"
-    },
-    {
-      "source": "text_2_node_7",
-      "target": "text_2_node_8",
-      "relation": "before",
-      "support_text": "斯里兰卡的基督教改革教会呼吁英国信徒为这个国家祈祷。"
-    },
-    {
-      "source": "text_2_node_8",
-      "target": "text_2_node_9",
-      "relation": "before",
-      "support_text": "表达了对袭击可能如何影响该国经济的担忧，他说：“很多游客正在来；他们喜欢斯里兰卡，这是一个非常美丽的国家。由于这件事，也许一段时间内一切都会有点瘫痪。”"
+      "support_text": "Prime Minister Imran Khan condemned the incident and summoned report from the concerned authorities. He further directed to provide best medical facilities to the wounded."
     }
   ]
 }

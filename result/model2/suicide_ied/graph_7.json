@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_7_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "至少九人在Balochistan的Loralai DIG办公室遭到不明身份人士袭击，包括八名警察死亡，22人受伤。",
+      "support_text": "At least nine people, including eight policemen were killed and 22 people injured after unidentified men attacked the DIG office in Balochistan’s Loralai on Tuesday.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击者在办公室开枪并投掷了一枚手榴弹，发生在DIG面试求职者时。",
+      "support_text": "The men opened fire on the office and threw a hand grenade inside, said the police.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生时，Loralai DIG和SSP及其他执法人员在场，但未受伤。",
+      "support_text": "The Loralai DIG and SSP and other law enforcer were present in the office during the attack, however, they remained unharmed.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "超过800人从办公室获救。",
+      "support_text": "More than 800 people were rescued from the office.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "袭击发生在下午12:30左右，当时有超过800名求职者在场。",
+      "support_text": "Police said the attack happened at around 12:30 in the afternoon. Balochistan Home and Tribal Affairs Minister Mir Ziaullah Langau said more than 800 candidates were present inside the complex when the attack took place.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方正在监控该地区的入口和出口，并正在搜寻嫌疑人。",
+      "support_text": "The police are monitoring the entry and exit points of the district, while the search for the suspects is under way.",
+      "source_text": "text_7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_2",
+      "relation": "before",
+      "support_text": "The men opened fire on the office and threw a hand grenade inside, said the police."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_4",
+      "relation": "before",
+      "support_text": "More than 800 people were rescued from the office."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_5",
+      "relation": "before",
+      "support_text": "Police said the attack happened at around 12:30 in the afternoon. Balochistan Home and Tribal Affairs Minister Mir Ziaullah Langau said more than 800 candidates were present inside the complex when the attack took place."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "The police are monitoring the entry and exit points of the district, while the search for the suspects is under way."
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_3",
+      "relation": "before",
+      "support_text": "The Loralai DIG and SSP and other law enforcer were present in the office during the attack, however, they remained unharmed."
+    }
+  ]
+}

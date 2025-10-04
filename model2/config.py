@@ -29,7 +29,7 @@ def get_graphs_path(attack_type):
 
 
 # 采样配置
-MAX_TEXT_SAMPLES = 50
+MAX_TEXT_SAMPLES = 25
 
 # 攻击类型列表
 ATTACK_TYPES = [
