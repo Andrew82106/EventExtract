@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "text_18_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "枪手在礼拜后袭击了拉合尔的两处艾哈迈迪派礼拜场所。",
+      "support_text": "Gunmen attacked worshippers from a minority sect in two worship places of Lahore on Friday, taking hostages and killing over 80 people, officials said.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击者向人群开枪并投掷了疑似手榴弹。",
+      "support_text": "The gunmen opened fire shortly after prayers and threw what could have been grenades at two Ahmadi worship places in residential neighbourhoods.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "在Model Town，两名持枪者冲入礼拜场所并扫射人群。",
+      "support_text": "The prayer leader was giving a sermon when we heard firing and blasts. Everybody stood up and then two gunmen barged into the mosque and sprayed bullets.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名袭击者在Model Town向一辆电视车开火。",
+      "support_text": "One attacker had been arrested and another killed. One fired at a television van before the area was made safe.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在Garhi Shahu，三名袭击者在警察试图进入时引爆了自杀式炸弹背心。",
+      "support_text": "Three attackers blew themselves up with suicide vests packed with explosives when police tried to enter the building.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两起袭击最终造成超过80人死亡，约95人受伤。",
+      "support_text": "More than 80 people had been killed in the twin attacks in Garhi Shahu and Model Town while about 95 others were injured.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "当局继续搜寻仍在逃的两名袭击者。",
+      "support_text": "Police are still searching the area as two attackers were still at large.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "警方在Model Town发现了一个装有炸药的自杀式炸弹背心。",
+      "support_text": "Police in Model Town confirmed one gunmen had been arrested and another killed. The death toll at Garhi Shahu was higher, Bhutta said, because three attackers blew themselves up with suicide vests packed with explosives when police tried to enter the building.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "旁遮普省首席部长发表声明，誓言要打击极端主义。",
+      "support_text": "Punjab Chief Minister Shahbaz Sharif said the incidents would generate greater resolve to combat extremism.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦将实现其命运",
+      "support_text": "巴基斯坦将实现其命运",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们将摆脱最坏的极端主义和原教旨主义",
+      "support_text": "我们将摆脱最坏的极端主义和原教旨主义",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "他告诉了新闻会议",
+      "support_text": "他告诉了新闻会议",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "整个国家将战斗这个邪恶",
+      "support_text": "整个国家将战斗这个邪恶",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉纳·萨纳乌拉说被捕的袭击者是一个少年普什图人",
+      "support_text": "拉纳·萨纳乌拉说被捕的袭击者是一个少年普什图人",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "他说这表明与瓦齐里斯坦部落地区的联系",
+      "support_text": "他说这表明与瓦齐里斯坦部落地区的联系",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "他强烈暗示了与塔利班的联系",
+      "support_text": "他强烈暗示了与塔利班的联系",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_17",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "股市投资者对最新暴力事件不予理会",
+      "support_text": "股市投资者对最新暴力事件不予理会",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_18",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "投资者在较低水平积累股票",
+      "support_text": "投资者在较低水平积累股票",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_19",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "外国购买行为提升了当地信心",
+      "support_text": "外国购买行为提升了当地信心",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_20",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡拉奇证券交易所基准100股指数上涨",
+      "support_text": "卡拉奇证券交易所基准100股指数上涨",
+      "source_text": "text_18"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_2",
+      "relation": "before",
+      "support_text": "Gunmen attacked worshippers from a minority sect in two worship places of Lahore on Friday, taking hostages and killing over 80 people, officials said."
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_node_3",
+      "relation": "before",
+      "support_text": "The gunmen opened fire shortly after prayers and threw what could have been grenades at two Ahmadi worship places in residential neighbourhoods."
+    },
+    {
+      "source": "text_18_node_3",
+      "target": "text_18_node_4",
+      "relation": "before",
+      "support_text": "The prayer leader was giving a sermon when we heard firing and blasts. Everybody stood up and then two gunmen barged into the mosque and sprayed bullets."
+    },
+    {
+      "source": "text_18_node_4",
+      "target": "text_18_node_5",
+      "relation": "before",
+      "support_text": "One attacker had been arrested and another killed. One fired at a television van before the area was made safe."
+    },
+    {
+      "source": "text_18_node_4",
+      "target": "text_18_node_7",
+      "relation": "before",
+      "support_text": "One fired at a television van before the area was made safe."
+    },
+    {
+      "source": "text_18_node_5",
+      "target": "text_18_node_6",
+      "relation": "before",
+      "support_text": "Three attackers blew themselves up with suicide vests packed with explosives when police tried to enter the building."
+    },
+    {
+      "source": "text_18_node_6",
+      "target": "text_18_node_7",
+      "relation": "before",
+      "support_text": "More than 80 people had been killed in the twin attacks in Garhi Shahu and Model Town while about 95 others were injured. Police are still searching the area as two attackers were still at large."
+    },
+    {
+      "source": "text_18_node_7",
+      "target": "text_18_node_8",
+      "relation": "before",
+      "support_text": "Police in Model Town confirmed one gunmen had been arrested and another killed. The death toll at Garhi Shahu was higher, Bhutta said, because three attackers blew themselves up with suicide vests packed with explosives when police tried to enter the building."
+    },
+    {
+      "source": "text_18_node_8",
+      "target": "text_18_node_9",
+      "relation": "before",
+      "support_text": "Punjab Chief Minister Shahbaz Sharif said the incidents would generate greater resolve to combat extremism."
+    }
+  ]
+}

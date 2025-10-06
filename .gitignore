@@ -4,3 +4,9 @@
 /dataset/processedData
 /algorithm.md
 /visualize
+/result/layered_evaluation
+/result/unified_evaluation
+/result/model1
+/result/model2
+/result/cache/failed_text.json
+/result/cache/sampling_result.json

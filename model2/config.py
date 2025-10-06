@@ -29,12 +29,21 @@ def get_graphs_path(attack_type):
 
 
 # 采样配置
-MAX_TEXT_SAMPLES = 50
+MAX_TEXT_SAMPLES = 150
 
 # 缓存配置
 CACHE_ROOT = os.path.join(RESULT_ROOT, 'cache')
 SAMPLING_CACHE_PATH = os.path.join(CACHE_ROOT, 'text_relevance_cache.json')
-USE_SAMPLING_CACHE = True  # 是否启用智能采样缓存
+SAMPLING_RESULTS_CACHE = os.path.join(CACHE_ROOT, 'sampling_results.json')  # 采样结果缓存
+USE_SAMPLING_CACHE = False  # 是否启用智能采样缓存（设为False将重新进行智能选取）
+
+# 断点续传配置
+ENABLE_RESUME = False  # 是否启用断点续传（跳过已处理的文本）
+FAILED_TEXTS_LOG = os.path.join(CACHE_ROOT, 'failed_texts.json')  # 失败文本记录
+
+# LLM重试配置
+MAX_RETRIES = 3  # LLM调用失败时的最大重试次数
+RETRY_DELAY = 2  # 重试延迟（秒）
 
 # 攻击类型列表
 ATTACK_TYPES = [

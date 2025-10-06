@@ -4,114 +4,11 @@
       "id": "text_1_node_1",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "一名持AK-47的袭击者在伊斯坦布尔机场国际到达区行走，导致人们四散逃离。",
-      "support_text": "In the video, which has not yet been independently verified, a man can be seen walking through the terminal building armed with an AK-47 as people flee in all directions.",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_2",
-      "event_type": "Justice",
-      "event_subtype": "ChargeIndict",
-      "event_sub_subtype": "Unspecified",
-      "description": "一名警察向袭击者开枪，袭击者倒地并掉落自动武器。",
-      "support_text": "As he rounds a corner, a police officer opens fire, causing the attacker to fall and drop his automatic weapon.",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Defeat",
-      "event_sub_subtype": "Unspecified",
-      "description": "警察接近受伤的袭击者后突然转身逃跑。",
-      "support_text": "The police officer can be seen approaching the wounded terrorist before abruptly turning and running away.",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_4",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "袭击者引爆自杀式炸弹背心，引发巨大爆炸。",
-      "support_text": "Moments later, the man appears to detonate his suicide vest, resulting in a large explosion.",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_5",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "袭击者使用出租车进入机场，目标是国际到达区，该区域易于进入且无需通过安检。",
-      "support_text": "The gunmen arrived in a taxi and targeted the Ataturk airport’s international arrivals area, which is easily accessible without passing through security checks.",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_6",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "机场内的一起爆炸导致36人死亡，包括三名自杀式炸弹袭击者。",
-      "support_text": "Turkish officials say the attack by three suspected Isis terrorists killed at least 41 people and wounded 239 others.",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_7",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "机场内的一名目击者拍摄到公众在爆炸前处于混乱状态，随后所有人向一个方向奔跑。",
-      "support_text": "A separate video, taken by a CCTV camera behind an information desk in the arrivals hall, showed members of the public apparently in a state of confusion before they all start running in one direction.",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_8",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "爆炸发生在摄像机后，导致机场国际到达区出现破坏和伤亡。",
-      "support_text": "Seconds afterwards there is an explosion, just off camera.",
-      "source_text": "text_1"
-    },
-    {
-      "id": "text_1_node_9",
-      "event_type": "Disaster",
-      "event_subtype": "FireExplosion",
-      "event_sub_subtype": "Unspecified",
-      "description": "政府官员表示死亡人数可能上升到近50人",
-      "support_text": "政府官员表示死亡人数可能上升到近50人",
+      "description": "2015年7月12日，阿富汗库赫斯特省发生自杀式爆炸事件，造成至少33人死亡（含12名儿童），10人受伤",
+      "support_text": "The Khost suicide bombing occurred on 12 July 2015 in Khost Province when a suicide bombing killed at least 33 people, including 12 children and another 10 people were wounded.",
       "source_text": "text_1"
     }
   ],
-  "edges": [
-    {
-      "source": "text_1_node_1",
-      "target": "text_1_node_2",
-      "relation": "before",
-      "support_text": "As he rounds a corner, a police officer opens fire, causing the attacker to fall and drop his automatic weapon."
-    },
-    {
-      "source": "text_1_node_2",
-      "target": "text_1_node_3",
-      "relation": "before",
-      "support_text": "The police officer can be seen approaching the wounded terrorist before abruptly turning and running away."
-    },
-    {
-      "source": "text_1_node_3",
-      "target": "text_1_node_4",
-      "relation": "before",
-      "support_text": "Moments later, the man appears to detonate his suicide vest, resulting in a large explosion."
-    },
-    {
-      "source": "text_1_node_5",
-      "target": "text_1_node_6",
-      "relation": "before",
-      "support_text": "Turkish officials say the attack by three suspected Isis terrorists killed at least 41 people and wounded 239 others."
-    },
-    {
-      "source": "text_1_node_7",
-      "target": "text_1_node_8",
-      "relation": "before",
-      "support_text": "Seconds afterwards there is an explosion, just off camera."
-    }
-  ]
+  "edges": []
 }

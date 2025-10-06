@@ -5,55 +5,95 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "博尔诺州Muna Garage IDP营地发生多起自杀式爆炸袭击，造成8人死亡，20人受伤",
+      "description": "2015年1月10日，贾卜勒穆申咖啡馆发生两次自杀式爆炸，致9人死亡、30余人受伤",
       "source_text": "text_7"
     },
     {
       "id": "text_7_node_2",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "NEMA发言人Abdulkadir Ibrahim详细说明三个爆炸地点的情况：Muna Kumbori造成2人死亡，Muna Dagalti造成1人死亡，Muna Bulaya只有袭击者本人死亡",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "同日，60岁父亲 Issa Khaddour 搏斗阻止第二个自杀式袭击者",
       "source_text": "text_7"
     },
     {
       "id": "text_7_node_3",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "博尔诺州警察局长Damian Chukwu确认袭击事件，但表示共7人死亡，包括3名疑似自杀式炸弹袭击者和4名无辜尼日利亚人",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "同日，伤者被转移至 Zgharta 医院，避免 Sunni 暴民攻击 Alawite 伤者",
       "source_text": "text_7"
     },
     {
       "id": "text_7_node_4",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "NEMA媒体负责人Sani Datti补充说明爆炸导致20名IDP受伤，袭击者从Muna Garage营地北侧闯入",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年1月12日，9名遇难者举行葬礼",
       "source_text": "text_7"
     },
     {
       "id": "text_7_node_5",
-      "event_type": "Control",
-      "event_subtype": "ImpedeInterfereWith",
+      "event_type": "Contact",
+      "event_subtype": "",
       "event_sub_subtype": "Unspecified",
-      "description": "高原州特别工作组在Riyom地方政府区第9区检查站拦截了213辆载有武装保安的车辆",
+      "description": "Nusra Front 宣称对袭击负责，系近一年首起针对平民社区的自杀袭击",
       "source_text": "text_7"
     },
     {
       "id": "text_7_node_6",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "特别工作组指挥官Maj.-Gen. Rogers Ibe Nicholas解释这些保安成员来自多个州，目的是未经授权在NYSC训练营进行训练",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击背景为安保行动暂时缓和了贾卜勒穆申地区 Sunni 与 Alawite 冲突",
       "source_text": "text_7"
     },
     {
       "id": "text_7_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nusra 宣称动机为报复叙利亚政府攻击 Sunnis 及 Alawite 炸毁清真寺",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "黎巴嫩内政部长称袭击者为ISIS",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_9",
       "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "基督教协会尼日利亚高原州分会主席Rev. Soja Bewarang赞扬特别工作组及时拦截这些可疑人员",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年1月11日，美国强烈谴责袭击",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_10",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "同日，Nusra分支威胁对贾卜勒穆申和 Hezbollah 发动袭击",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_11",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "",
+      "description": "2015年4月10日，涉事男子被黎巴嫩安全部队击毙",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2015年11月12日，另一咖啡馆同步自杀袭击计划因嫌疑人被捕未遂",
       "source_text": "text_7"
     }
   ],
@@ -70,17 +110,57 @@
     },
     {
       "source": "text_7_node_1",
-      "target": "text_7_node_4",
+      "target": "text_7_node_5",
       "relation": "before"
     },
     {
-      "source": "text_7_node_5",
+      "source": "text_7_node_1",
       "target": "text_7_node_6",
       "relation": "before"
     },
     {
-      "source": "text_7_node_5",
+      "source": "text_7_node_1",
       "target": "text_7_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_9",
+      "target": "text_7_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_10",
+      "target": "text_7_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_11",
+      "target": "text_7_node_12",
       "relation": "before"
     }
   ]

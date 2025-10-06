@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_6_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "国家安全情报官员提供了信息",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察、军队和特别任务部队基于情报在Kalmunai的Samanthurai地区发起联合行动",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "部队封锁该区域并进行搜查行动",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在Kalmunai的Saindamaruthu，安全人员与不明身份团体发生枪战，行动中有爆炸报告",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Ampara警察局、特别任务部队和斯里兰卡陆军人员搜查了Sammanthurai的Sennal Gramam的一所房子",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "在房子内发现了类似自杀式炸弹袭击者穿着的衣物、屏幕、炸药、金属球、面包车、无人机相机、笔记本电脑和大量爆炸物",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方逮捕了七名男子并缴获爆炸物和其他物品",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "晚上9点30分左右，Kalmunai、Sammanthurai和Chavalakade警察区域实施宵禁",
+      "source_text": "text_6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_3",
+      "target": "text_6_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_6",
+      "target": "text_6_node_7",
+      "relation": "before"
+    }
+  ]
+}

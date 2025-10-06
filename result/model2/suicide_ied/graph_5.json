@@ -4,114 +4,42 @@
       "id": "text_5_node_1",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "Kafeel Ahmed和伊拉克医生Bilal Talal Samad Abdullah在格拉斯哥机场驾驶装满丙烷气罐的Jeep撞击航站楼并引发火灾",
-      "support_text": "Kafeel Ahmed was an engineer with a PhD Glasgow attack Kafeel Ahmed was one of two men held at the airport after a Jeep struck the terminal and burst into flames.",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kekirawa Madatugama的NTJ清真寺被当地穆斯林和主清真寺信徒拆除",
+      "support_text": "A mosque used by the National Thawheed Jama'at (NTJ) at Madatugama in Kekirawa was yesterday demolished by the area Muslims and devotees of the main mosque.",
       "source_text": "text_5"
     },
     {
       "id": "text_5_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "Kafeel Ahmed在被捕时全身90%烧伤，Bilal Talal Samad Abdullah被指控策划爆炸",
-      "support_text": "The 27-year-old, from Bangalore, India, had suffered burns to 90% of his body when he was arrested. The second man in the vehicle - Iraqi doctor Bilal Talal Samad Abdullah - has since been charged with conspiracy to cause explosions.",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "主清真寺信托人M.H.M. Akbar Khan解释该寺由外国组织资助建造",
+      "support_text": "the mosque used by NTJ was built with the funds of an organization based in a foreign country.",
       "source_text": "text_5"
     },
     {
       "id": "text_5_node_3",
-      "event_type": "Life",
-      "event_subtype": "Die",
-      "event_sub_subtype": "Unspecified",
-      "description": "Kafeel Ahmed在格拉斯哥皇家医院死亡，机场事件发生在6月30日",
-      "support_text": "The man died in Glasgow Royal Infirmary on Thursday evening. He had been transferred to the specialist burns unit there from the Royal Alexandra Hospital, in Paisley.",
-      "source_text": "text_5"
-    },
-    {
-      "id": "text_5_node_4",
-      "event_type": "Justice",
-      "event_subtype": "ChargeIndict",
-      "event_sub_subtype": "Unspecified",
-      "description": "Ahmed的兄弟Dr Sabeel Ahmed被指控未披露可能帮助警方逮捕恐怖分子的信息",
-      "support_text": "Ahmed's brother Dr Sabeel Ahmed, who was arrested near Liverpool's Lime Street station on 30 June, has also been charged under the Terrorism Act.",
-      "source_text": "text_5"
-    },
-    {
-      "id": "text_5_node_5",
-      "event_type": "Justice",
-      "event_subtype": "ChargeIndict",
-      "event_sub_subtype": "Unspecified",
-      "description": "另一名医生也被指控与格拉斯哥袭击和伦敦两次失败的汽车炸弹有关",
-      "support_text": "Another doctor has also been charged in connection with the Glasgow attack and the two earlier failed car bombings in London.",
-      "source_text": "text_5"
-    },
-    {
-      "id": "text_5_node_6",
       "event_type": "Control",
       "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "他正在被武装警卫看守。",
-      "support_text": "他正在被武装警卫看守。",
-      "source_text": "text_5"
-    },
-    {
-      "id": "text_5_node_7",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "Images of Ahmed being detained at Glasgow Airport have been shown around the world",
-      "support_text": "Images of Ahmed being detained at Glasgow Airport have been shown around the world",
-      "source_text": "text_5"
-    },
-    {
-      "id": "text_5_node_8",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "乘客使用相机和手机记录事件",
-      "support_text": "乘客使用相机和手机记录事件",
-      "source_text": "text_5"
-    },
-    {
-      "id": "text_5_node_9",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "Unspecified",
-      "description": "一名非执勤警察试图拯救恐怖分子",
-      "support_text": "一名非执勤警察试图拯救恐怖分子",
+      "description": "信托人表示因国家当前形势决定拆除，认为无需两座清真寺",
+      "support_text": "they had decided to demolish the mosque considering the current situation in the country and said there was no need of two mosques.",
       "source_text": "text_5"
     }
   ],
   "edges": [
     {
-      "source": "text_5_node_1",
-      "target": "text_5_node_2",
-      "relation": "before",
-      "support_text": "Kafeel Ahmed was an engineer with a PhD Glasgow attack Kafeel Ahmed was one of two men held at the airport after a Jeep struck the terminal and burst into flames."
-    },
-    {
-      "source": "text_5_node_1",
-      "target": "text_5_node_4",
-      "relation": "before",
-      "support_text": "Kafeel Ahmed was one of two men held at the airport after a Jeep struck the terminal and burst into flames."
-    },
-    {
       "source": "text_5_node_2",
       "target": "text_5_node_3",
       "relation": "before",
-      "support_text": "The 27-year-old, from Bangalore, India, had suffered burns to 90% of his body when he was arrested."
+      "support_text": "Trustee of the main mosque M.H.M. Akbar Khan said the mosque used by NTJ was built with the funds of an organization based in a foreign country."
     },
     {
       "source": "text_5_node_3",
-      "target": "text_5_node_5",
+      "target": "text_5_node_1",
       "relation": "before",
-      "support_text": "The man died in Glasgow Royal Infirmary on Thursday evening."
-    },
-    {
-      "source": "text_5_node_3",
-      "target": "text_5_node_6",
-      "relation": "before",
-      "support_text": "他正在被武装警卫看守。"
+      "support_text": "Trustee of the main mosque M.H.M. Akbar Khan said they had decided to demolish the mosque considering the current situation in the country."
     }
   ]
 }

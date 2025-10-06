@@ -2,62 +2,173 @@
   "nodes": [
     {
       "id": "text_47_node_1",
-      "event_type": "Personnel",
-      "event_subtype": "StartPosition",
-      "event_sub_subtype": "Unspecified",
-      "description": "Merrill Markoe参与创作喜剧节目'Late Night with David Letterman'",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式爆炸袭击伊斯兰堡五星级酒店Marriott，造成至少50人死亡、200人受伤",
       "source_text": "text_47"
     },
     {
       "id": "text_47_node_2",
       "event_type": "ArtifactExistence",
-      "event_subtype": "ManufactureAssemble",
-      "event_sub_subtype": "Unspecified",
-      "description": "Merrill Markoe写作并出版了10本书",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸导致酒店四层建筑被毁，车辆损毁严重，消防队紧急灭火",
       "source_text": "text_47"
     },
     {
       "id": "text_47_node_3",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "Merrill Markoe在日记中记录了大量生活细节",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "目击者称卡车在酒店正门附近爆炸，爆炸声传至数公里外",
       "source_text": "text_47"
     },
     {
       "id": "text_47_node_4",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "三年前Merrill Markoe发现了她的旧日记",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Injure",
+      "description": "德国外交部确认6名德国公民轻微受伤",
       "source_text": "text_47"
     },
     {
       "id": "text_47_node_5",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "ManufactureAssemble",
-      "event_sub_subtype": "Unspecified",
-      "description": "Merrill Markoe基于发现的日记创作了图形回忆录'We Saw Scenery'",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Die",
+      "description": "法新社报道一名美国公民在袭击中遇难",
       "source_text": "text_47"
     },
     {
       "id": "text_47_node_6",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "ManufactureAssemble",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
       "event_sub_subtype": "Unspecified",
-      "description": "Merrill Markoe创作了一幅自画像",
+      "description": "德国外交部发言人表示初步信息未显示德国公民在死亡名单中",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_7",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Injure",
+      "description": "英国外交部报告4名英国公民受伤",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_8",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "丹麦确认一名外交官在袭击中受伤",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_9",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "欧盟重申与巴基斯坦共同应对恐怖主义",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_10",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "美国谴责袭击并宣布支持巴基斯坦政府",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_11",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "英国外交大臣称袭击强化反极端主义决心",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "官方初步统计称死亡人数可能进一步上升",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "安全官员披露袭击使用半吨级炸药的卡车",
       "source_text": "text_47"
     }
   ],
   "edges": [
     {
-      "source": "text_47_node_3",
+      "source": "text_47_node_1",
+      "target": "text_47_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_1",
+      "target": "text_47_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_1",
+      "target": "text_47_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_2",
       "target": "text_47_node_4",
       "relation": "before"
     },
     {
-      "source": "text_47_node_4",
+      "source": "text_47_node_2",
       "target": "text_47_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_4",
+      "target": "text_47_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_5",
+      "target": "text_47_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_7",
+      "target": "text_47_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_12",
+      "target": "text_47_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_12",
+      "target": "text_47_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_12",
+      "target": "text_47_node_11",
       "relation": "before"
     }
   ]

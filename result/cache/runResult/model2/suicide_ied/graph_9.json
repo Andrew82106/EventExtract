@@ -1,0 +1,279 @@
+{
+  "nodes": [
+    {
+      "id": "text_9_node_1",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "塔利班一周前宣布开始名为'奥马里行动'的春季攻势",
+      "support_text": "The Taliban has stepped up attacks since announcing the start of its spring offensive dubbed 'Operation Omari' a week ago.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周二上午约9点，自杀式炸弹袭击者在政府秘密情报部门大院附近引爆了装有爆炸物的车辆",
+      "support_text": "The streets were bustling during morning rush when a suicide bomber detonated a vehicle laden with explosives near the compound of a government secret service unit whose role is to protect VIPs, Kabul police chief Abdul Rahman Rahimi said.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子冲入大楼，与安全部队展开持续两个多小时的枪战",
+      "support_text": "Militants then rushed into the building, sparking a gunfight with security forces that lasted more than two hours, local broadcaster TOLOnews reported.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部发言人表示至少一名袭击者在枪战中被击毙",
+      "support_text": "Interior Ministry spokesman Sediq Sediqqi said at least one of the attackers was killed in a gun battle, the Associated Press reported.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成至少28人死亡，300多人受伤",
+      "support_text": "At least 28 people were killed and more than 300 wounded, Rahimi said.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "塔利班发言人扎比胡拉·穆贾希德声称对这次袭击负责",
+      "support_text": "Taliban spokesman Zabihullah Mujahid claimed responsibility for the assault.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿富汗总统阿什拉夫·加尼谴责这次袭击",
+      "support_text": "President Ashraf Ghani condemned the attack, which started about 9 a.m. local time.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴尔赫省代理总督鼓励居民发动大规模起义反对塔利班",
+      "support_text": "Atta Mohammad Noor, the acting governor of northern Balkh province, encouraged residents to launch a massive public uprising against the Taliban, Pajhwok news service reported.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国阿富汗问题特别代表表示这次袭击'可能构成战争罪'",
+      "support_text": "The United Nations special representative for Afghanistan said the attack 'may amount to war crimes.'",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国驻喀布尔大使馆谴责这一'无意义的暴力行为'",
+      "support_text": "The U.S. Embassy in Kabul condemned the 'senseless act of violence' that it said underscores the brutality of the Taliban.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "北约驻阿富汗'坚决支持'任务指挥官也谴责了这次袭击",
+      "support_text": "Gen. John Nicholson, the commander of NATO's Resolute Support mission in Afghanistan, also condemned the attack, saying it 'shows the insurgents are unable to meet Afghan forces on the battlefield and must resort to these terrorist attacks.'",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "喀布尔警察局长阿卜杜勒·拉赫曼·拉希米报道了这一事件",
+      "support_text": "Kabul police chief Abdul Rahman Rahimi reported the incident.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "当地广播公司TOLOnews报道了这一事件",
+      "support_text": "Local broadcaster TOLOnews reported the incident.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_3",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rahimi补充说大多数受害者是平民，包括妇女和儿童，许多伤者情况危急",
+      "support_text": "He added that most of the victims were civilians, including women and children, and that many of the wounded were in critical condition.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美联社报道了上述事件",
+      "support_text": "the Associated Press reported the entire content above.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_5",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "塔利班警告在新战斗季节会发生袭击",
+      "support_text": "Taliban warned of attacks in new fighting season",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班加强了袭击",
+      "support_text": "The Taliban stepped up attacks",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班创始人毛拉·穆罕默德·奥马尔死亡",
+      "support_text": "Taliban founder Mullah Mohammad Omar died",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖组织直到去年才承认他的死亡",
+      "support_text": "The terror group acknowledged his death only last year",
+      "source_text": "text_9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_2",
+      "relation": "before",
+      "support_text": "The Taliban has stepped up attacks since announcing the start of its spring offensive dubbed 'Operation Omari' a week ago."
+    },
+    {
+      "source": "text_9_node_2",
+      "target": "text_9_node_3",
+      "relation": "before",
+      "support_text": "Militants then rushed into the building, sparking a gunfight with security forces that lasted more than two hours, local broadcaster TOLOnews reported."
+    },
+    {
+      "source": "text_9_node_2",
+      "target": "text_9_node_5",
+      "relation": "before",
+      "support_text": "At least 28 people were killed and more than 300 wounded, Rahimi said."
+    },
+    {
+      "source": "text_9_node_2",
+      "target": "text_9_node_6",
+      "relation": "before",
+      "support_text": "Taliban spokesman Zabihullah Mujahid claimed responsibility for the assault."
+    },
+    {
+      "source": "text_9_node_2",
+      "target": "text_9_node_7",
+      "relation": "before",
+      "support_text": "President Ashraf Ghani condemned the attack, which started about 9 a.m. local time."
+    },
+    {
+      "source": "text_9_node_2",
+      "target": "text_9_node_8",
+      "relation": "before",
+      "support_text": "Atta Mohammad Noor, the acting governor of northern Balkh province, encouraged residents to launch a massive public uprising against the Taliban, Pajhwok news service reported."
+    },
+    {
+      "source": "text_9_node_2",
+      "target": "text_9_node_9",
+      "relation": "before",
+      "support_text": "The United Nations special representative for Afghanistan said the attack 'may amount to war crimes.'"
+    },
+    {
+      "source": "text_9_node_2",
+      "target": "text_9_node_10",
+      "relation": "before",
+      "support_text": "The U.S. Embassy in Kabul condemned the 'senseless act of violence' that it said underscores the brutality of the Taliban."
+    },
+    {
+      "source": "text_9_node_2",
+      "target": "text_9_node_11",
+      "relation": "before",
+      "support_text": "Gen. John Nicholson, the commander of NATO's Resolute Support mission in Afghanistan, also condemned the attack, saying it 'shows the insurgents are unable to meet Afghan forces on the battlefield and must resort to these terrorist attacks.'"
+    },
+    {
+      "source": "text_9_node_3",
+      "target": "text_9_node_4",
+      "relation": "before",
+      "support_text": "Interior Ministry spokesman Sediq Sediqqi said at least one of the attackers was killed in a gun battle, the Associated Press reported."
+    },
+    {
+      "source": "text_9_node_4",
+      "target": "text_9_new_node_4",
+      "relation": "before",
+      "support_text": "Temporal order based on verb event analysis."
+    },
+    {
+      "source": "text_9_node_5",
+      "target": "text_9_new_node_3",
+      "relation": "before",
+      "support_text": "Temporal order based on verb event analysis."
+    },
+    {
+      "source": "text_9_new_node_1",
+      "target": "text_9_new_node_2",
+      "relation": "before",
+      "support_text": "Temporal order based on verb event analysis."
+    },
+    {
+      "source": "text_9_new_node_3",
+      "target": "text_9_node_4",
+      "relation": "before",
+      "support_text": "Temporal order based on verb event analysis."
+    },
+    {
+      "source": "text_9_new_node_5",
+      "target": "text_9_new_node_8",
+      "relation": "before",
+      "support_text": "Temporal order based on verb event analysis: Taliban warning (5) before terror group acknowledged death (7)"
+    },
+    {
+      "source": "text_9_new_node_6",
+      "target": "text_9_new_node_5",
+      "relation": "before",
+      "support_text": "Temporal order based on verb event analysis: Taliban stepped up attacks (4) before warning of attacks (5)"
+    },
+    {
+      "source": "text_9_new_node_7",
+      "target": "text_9_new_node_6",
+      "relation": "before",
+      "support_text": "Temporal order based on verb event analysis: Omar's death (1) before Taliban stepped up attacks (4)"
+    }
+  ]
+}

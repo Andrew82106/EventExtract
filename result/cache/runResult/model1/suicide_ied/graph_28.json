@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "text_28_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "说话者对'他'的行为进行了经验性观察",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "说话者无法确认关于'他'最后几秒的其他信息",
+      "source_text": "text_28"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_28_node_1",
+      "target": "text_28_node_2",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    {
+      "id": "text_6_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "一辆超载的卡车周六一早接近了摩加迪沙的一个安全检查站。",
+      "support_text": "an overloaded truck covered with a tarpaulin approached a security checkpoint outside Mogadishu early Saturday.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "士兵因卡车可疑而命令司机停车并下车。",
+      "support_text": "The truck, covered in dust, aroused the suspicions of soldiers who ordered the driver to park and get out.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Correspondence",
+      "description": "司机打电话给一位知名人士，后者说服士兵让卡车进入市区。",
+      "support_text": "The driver, a man who soldiers said behaved in a friendly manner, made a phone call to someone in the capital. The driver passed the phone to the soldiers to speak to a well-known man who vouched for the truck and persuaded soldiers to allow it into the city, said the Somali intelligence official.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡车随后加速冲过另一个检查站，期间士兵开火。",
+      "support_text": "Once through the checkpoint, the truck began to speed along the sandy, potholed road and raced through another checkpoint where soldiers opened fire and flattened one of its tires.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "卡车炸弹爆炸，造成300多人死亡。",
+      "support_text": "The most powerful bomb blast ever witnessed in Somalia's capital has killed more than 300 people, with hundreds more injured.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_6",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸还导致近400人受伤，许多人失踪。",
+      "support_text": "Another nearly 400 were wounded. Scores remain missing.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "索马里政府将袭击归咎于青年党极端组织。",
+      "support_text": "Somalia’s government has blamed Saturday’s attack on the al-Shabab extremist group, which often targets Mogadishu but has not commented.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "青年党极端组织尚未对此次袭击发表评论。",
+      "support_text": "Somalia’s government has blamed Saturday’s attack on the al-Shabab extremist group, which often targets Mogadishu but has not commented.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "周三，数千人走上街头抗议这次致命袭击。",
+      "support_text": "As thousands of people took to the streets of Somalia’s capital Wednesday in a show of defiance after the country’s deadliest attack",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "安全部队在试图驱散抗议者时开火，导致至少三人受伤。",
+      "support_text": "At least three people, including a pregnant woman, were injured after security forces opened fire while trying to disperse protesters marching toward the attack site, said police Capt. Mohammed Hussein.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_11",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员们宣布已有两人被捕。",
+      "support_text": "They said two people have been arrested.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "官员们分享了关于周六卡车炸弹袭击如何实施的详细说明。",
+      "support_text": "官员们分享了关于周六卡车炸弹袭击如何实施的详细说明。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "人群戴着红色头巾。",
+      "support_text": "人群戴着红色头巾。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "市长塔比特·阿卜迪发表讲话，号召解放城市。",
+      "support_text": "市长塔比特·阿卜迪发表讲话，号召解放城市。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "（我们）必须解放这座城市。",
+      "support_text": "“we must liberate this city which is awash with graves.”",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "警察局长穆罕默德·侯赛因陈述了该事件。",
+      "support_text": "警察局长穆罕默德·侯赛因陈述了该事件。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_investigate",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "一名索马里情报官员正在调查爆炸事件。",
+      "support_text": "said the Somali intelligence official.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_call_residents",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "受惊的居民称这次爆炸为最强大的（爆炸）。",
+      "support_text": "受惊的居民称这次爆炸为最强大的（爆炸）",
+      "source_text": "text_6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_2",
+      "relation": "before",
+      "support_text": "an overloaded truck...approached a security checkpoint...The truck...aroused the suspicions of soldiers who ordered the driver to park and get out."
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_3",
+      "relation": "before",
+      "support_text": "...who ordered the driver to park and get out. The driver, a man who soldiers said behaved in a friendly manner, made a phone call..."
+    },
+    {
+      "source": "text_6_node_3",
+      "target": "text_6_node_4",
+      "relation": "before",
+      "support_text": "...persuaded soldiers to allow it into the city...Once through the checkpoint, the truck began to speed..."
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_node_5",
+      "relation": "before",
+      "support_text": "...raced through another checkpoint where soldiers opened fire and flattened one of its tires. A huge explosion from a truck bomb killed almost 200 people in Somalia's capital..."
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_6",
+      "relation": "before",
+      "support_text": "The most powerful bomb blast ever witnessed in Somalia's capital has killed more than 300 people...Another nearly 400 were wounded. Scores remain missing."
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_7",
+      "relation": "before",
+      "support_text": "Somalia’s government has blamed Saturday’s attack on the al-Shabab extremist group..."
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_8",
+      "relation": "before",
+      "support_text": "...blamed Saturday’s attack on the al-Shabab extremist group, which often targets Mogadishu but has not commented."
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_9",
+      "relation": "before",
+      "support_text": "As thousands of people took to the streets of Somalia’s capital Wednesday in a show of defiance after the country’s deadliest attack..."
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_11",
+      "relation": "before",
+      "support_text": "...officials shared a detailed account of how Saturday’s truck bombing...was carried out. They said two people have been arrested."
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_new_node_1",
+      "relation": "before",
+      "support_text": "官员们分享了关于周六卡车炸弹袭击如何实施的详细说明。"
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_new_node_investigate",
+      "relation": "before",
+      "support_text": "爆炸发生后，情报官员开始调查。"
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_new_node_call_residents",
+      "relation": "before",
+      "support_text": "卡车炸弹爆炸，造成300多人死亡。受惊的居民称这次爆炸为最强大的（爆炸）。"
+    },
+    {
+      "source": "text_6_node_9",
+      "target": "text_6_node_10",
+      "relation": "before",
+      "support_text": "...protesters marching toward the attack site...At least three people...were injured after security forces opened fire while trying to disperse protesters..."
+    },
+    {
+      "source": "text_6_node_9",
+      "target": "text_6_new_node_4",
+      "relation": "before",
+      "support_text": "人群响应了...团结号召...（我们）必须解放这座城市。"
+    },
+    {
+      "source": "text_6_node_10",
+      "target": "text_6_new_node_5",
+      "relation": "before",
+      "support_text": "At least three people...were injured after security forces opened fire...said police Capt. Mohammed Hussein."
+    },
+    {
+      "source": "text_6_new_node_3",
+      "target": "text_6_node_9",
+      "relation": "before",
+      "support_text": "市长塔比特·阿卜迪发表讲话...人群响应了...团结号召。"
+    },
+    {
+      "source": "text_6_new_node_investigate",
+      "target": "text_6_node_7",
+      "relation": "before",
+      "support_text": "调查为政府归咎青年党提供了信息。"
+    }
+  ]
+}

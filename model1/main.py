@@ -14,10 +14,11 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from llm_service import LLMService
 from utils import Logger
-from config import ZHIPU_API_KEY, ATTACK_TYPES, get_graphs_path
+from config import ZHIPU_API_KEY, ATTACK_TYPES, get_graphs_path, MAX_RETRIES, RETRY_DELAY, ENABLE_RESUME, FAILED_TEXTS_LOG, CACHE_ROOT
 from data_loader import DataLoader
 from graph_builder import GraphBuilder
 from mergeGraph import GraphMerger
+import json
 
 
 def main(attack_type=None, api_key=None):
@@ -57,9 +58,10 @@ def main(attack_type=None, api_key=None):
         logger.printLog("错误: 请在config.py中配置ZHIPU_API_KEY或通过命令行参数传入")
         return
     
-    llm_service = LLMService(api_key=current_api_key)
+    llm_service = LLMService(api_key=current_api_key, max_retries=MAX_RETRIES, retry_delay=RETRY_DELAY)
     data_loader = DataLoader(llm_service=llm_service)  # 传递LLM服务，用于智能采样
     time_records['初始化服务'] = time.time() - step_start
+    logger.printLog(f"  LLM重试配置: 最大重试{MAX_RETRIES}次, 延迟{RETRY_DELAY}秒")
     
     # 3. 加载文本数据
     step_start = time.time()
@@ -73,12 +75,39 @@ def main(attack_type=None, api_key=None):
     
     logger.printLog(f"共加载 {len(texts)} 个文本文件")
     
-    # 4. 清空并创建结果目录
+    # 4. 准备结果目录和断点续传
     logger.printLog("步骤4: 准备结果目录...")
     graphs_path = get_graphs_path(attack_type)
-    if os.path.exists(graphs_path):
-        shutil.rmtree(graphs_path)
+    
+    # 检查已处理的文本
+    processed_texts = set()
+    failed_texts_data = {}
+    
+    if ENABLE_RESUME and os.path.exists(graphs_path):
+        logger.printLog(f"  启用断点续传模式")
+        # 扫描已有的图文件
+        for filename in os.listdir(graphs_path):
+            if filename.startswith('graph_') and filename.endswith('.json'):
+                processed_texts.add(filename)
+        logger.printLog(f"  发现 {len(processed_texts)} 个已处理的图文件")
+        
+        # 加载失败记录
+        if os.path.exists(FAILED_TEXTS_LOG):
+            try:
+                with open(FAILED_TEXTS_LOG, 'r', encoding='utf-8') as f:
+                    failed_texts_data = json.load(f)
+                attack_failed = failed_texts_data.get(attack_type, [])
+                logger.printLog(f"  发现 {len(attack_failed)} 个之前失败的文本记录")
+            except:
+                pass
+    else:
+        if os.path.exists(graphs_path):
+            shutil.rmtree(graphs_path)
+        os.makedirs(graphs_path, exist_ok=True)
+        logger.printLog(f"  清空旧结果，重新开始")
+    
     os.makedirs(graphs_path, exist_ok=True)
+    os.makedirs(CACHE_ROOT, exist_ok=True)
     logger.printLog(f"结果将保存到: {graphs_path}")
     
     # 5. 为每个文本构建事件图
@@ -90,7 +119,26 @@ def main(attack_type=None, api_key=None):
     graph_builder = GraphBuilder(llm_service, event_ontology, event_types)
     
     graphs = []
+    failed_texts = []
+    skipped_count = 0
+    
     for i, text_data in enumerate(texts, 1):
+        graph_filename = f"graph_{i}.json"
+        graph_path = os.path.join(graphs_path, graph_filename)
+        
+        # 检查是否已处理
+        if ENABLE_RESUME and graph_filename in processed_texts:
+            skipped_count += 1
+            logger.printLog(f"\n跳过文本 {i}/{len(texts)} (已处理): {os.path.basename(text_data['path'])}")
+            # 加载已有的图
+            try:
+                graph = graph_builder.load_graph_from_json(graph_path)
+                if graph and graph.number_of_nodes() > 0:
+                    graphs.append(graph)
+            except:
+                logger.printLog(f"  ! 加载已有图失败，将重新处理")
+            continue
+        
         logger.printLog(f"\n处理文本 {i}/{len(texts)}: {os.path.basename(text_data['path'])}")
         
         try:
@@ -104,16 +152,42 @@ def main(attack_type=None, api_key=None):
                 graphs.append(graph)
                 
                 # 保存单个图
-                graph_path = os.path.join(graphs_path, f"graph_{i}.json")
                 graph_builder.save_graph_to_json(graph, graph_path)
-                logger.printLog(f"  - 图已保存: {graph_path}")
+                logger.printLog(f"  ✓ 图已保存: {graph_path}")
             else:
                 logger.printLog(f"  - 跳过: 未生成有效的图")
+                # 记录失败
+                failed_texts.append({
+                    'index': i,
+                    'path': text_data['path'],
+                    'reason': '未生成有效的图'
+                })
                 
         except Exception as e:
-            logger.printLog(f"  - 错误: {str(e)}")
+            logger.printLog(f"  ✗ 错误: {str(e)}")
+            # 记录失败
+            failed_texts.append({
+                'index': i,
+                'path': text_data['path'],
+                'reason': str(e)
+            })
             import traceback
             logger.printLog(traceback.format_exc())
+    
+    # 保存失败记录
+    if failed_texts:
+        if not failed_texts_data:
+            failed_texts_data = {}
+        failed_texts_data[attack_type] = failed_texts
+        try:
+            with open(FAILED_TEXTS_LOG, 'w', encoding='utf-8') as f:
+                json.dump(failed_texts_data, f, ensure_ascii=False, indent=2)
+            logger.printLog(f"\n失败文本记录已保存到: {FAILED_TEXTS_LOG}")
+        except Exception as e:
+            logger.printLog(f"\n保存失败记录出错: {str(e)}")
+    
+    if skipped_count > 0:
+        logger.printLog(f"\n断点续传: 跳过了 {skipped_count} 个已处理的文本")
     
     logger.printLog(f"\n成功构建 {len(graphs)} 个事件图")
     time_records['构建事件图'] = time.time() - step_start
@@ -147,6 +221,10 @@ def main(attack_type=None, api_key=None):
     logger.printLog("\n" + "=" * 80)
     logger.printLog("算法执行完成!")
     logger.printLog(f"- 处理文本数: {len(texts)}")
+    if skipped_count > 0:
+        logger.printLog(f"  其中跳过（已处理）: {skipped_count}")
+    if failed_texts:
+        logger.printLog(f"  其中失败: {len(failed_texts)}")
     logger.printLog(f"- 成功构建图数: {len(graphs)}")
     logger.printLog(f"- 融合图节点数: {merged_graph.number_of_nodes()}")
     logger.printLog(f"- 融合图边数: {merged_graph.number_of_edges()}")
@@ -155,6 +233,10 @@ def main(attack_type=None, api_key=None):
     for step_name, step_time in time_records.items():
         logger.printLog(f"  - {step_name}: {step_time:.2f}秒 ({step_time/total_time*100:.1f}%)")
     logger.printLog(f"  总耗时: {total_time:.2f}秒 ({total_time/60:.2f}分钟)")
+    
+    # 打印LLM调用统计
+    llm_service.print_call_statistics()
+    
     logger.printLog("=" * 80)
 
 

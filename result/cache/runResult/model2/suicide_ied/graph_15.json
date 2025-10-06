@@ -1,0 +1,219 @@
+{
+  "nodes": [
+    {
+      "id": "text_15_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦俾路支省开始疫苗接种活动，袭击发生时为第三天",
+      "support_text": "The attack came on the third day of a vaccination campaign in the province of Baluchistan, of which Quetta is the capital.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察在奎达市脊髓灰质炎疫苗接种中心外驻守，保护接种工作人员",
+      "support_text": "He said the officers were there to guard polio workers, who are often targeted by Islamist militants in Pakistan.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名自杀式炸弹袭击者走向警察",
+      "support_text": "The bomber, who was also killed, walked up to police officers and detonated what Mr. Shah said amounted to more than 20 pounds of explosives.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "炸弹袭击者引爆了超过20磅的炸药",
+      "support_text": "The bomber, who was also killed, walked up to police officers and detonated what Mr. Shah said amounted to more than 20 pounds of explosives.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致至少16人死亡，包括13名警察、2名平民和1名准军事警察",
+      "support_text": "At least 16 people were killed on Wednesday in a suicide bombing outside a polio vaccination center in the southwestern Pakistani city of Quetta, officials and witnesses said. Thirteen of the victims were police officers, said Syed Imtiaz Shah, a senior official with the Quetta police.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_6",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击还导致10名警察和9名平民受伤",
+      "support_text": "Two civilians and a paramilitary police officer were also killed, and 10 police officers and nine civilians were wounded.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹袭击者本人也在袭击中死亡",
+      "support_text": "The bomber, who was also killed, walked up to police officers and detonated what Mr. Shah said amounted to more than 20 pounds of explosives.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦塔利班发言人穆罕默德·库拉萨尼代表该组织声称对此次袭击负责",
+      "support_text": "A spokesman for the Pakistani Taliban, Muhammad Khurrasani, claimed responsibility for the attack on the militants' behalf.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员和目击者报告了导致至少16人死亡的自杀式炸弹袭击事件",
+      "support_text": "At least 16 people were killed on Wednesday in a suicide bombing outside a polio vaccination center in the southwestern Pakistani city of Quetta, officials and witnesses said.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Syed Imtiaz Shah说十三名受害者是警察",
+      "support_text": "Thirteen of the victims were police officers, said Syed Imtiaz Shah, a senior official with the Quetta police.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Syed Imtiaz Shah说警察在那里是为了保护脊髓灰质炎工作者",
+      "support_text": "He said the officers were there to guard polio workers, who are often targeted by Islamist militants in Pakistan.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦的伊斯兰武装分子针对脊髓灰质炎工作者",
+      "support_text": "He said the officers were there to guard polio workers, who are often targeted by Islamist militants in Pakistan.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shah先生说爆炸物相当于超过20磅",
+      "support_text": "The bomber, who was also killed, walked up to police officers and detonated what Mr. Shah said amounted to more than 20 pounds of explosives.",
+      "source_text": "text_15"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_15_node_1",
+      "target": "text_15_node_2",
+      "relation": "before",
+      "support_text": "The attack came on the third day of a vaccination campaign in the province of Baluchistan, of which Quetta is the capital. He said the officers were there to guard polio workers..."
+    },
+    {
+      "source": "text_15_node_2",
+      "target": "text_15_node_3",
+      "relation": "before",
+      "support_text": "He said the officers were there to guard polio workers... The bomber, who was also killed, walked up to police officers..."
+    },
+    {
+      "source": "text_15_node_3",
+      "target": "text_15_node_4",
+      "relation": "before",
+      "support_text": "The bomber, who was also killed, walked up to police officers and detonated what Mr. Shah said amounted to more than 20 pounds of explosives."
+    },
+    {
+      "source": "text_15_node_4",
+      "target": "text_15_node_5",
+      "relation": "before",
+      "support_text": "The bomber, who was also killed, walked up to police officers and detonated what Mr. Shah said amounted to more than 20 pounds of explosives. At least 16 people were killed on Wednesday in a suicide bombing..."
+    },
+    {
+      "source": "text_15_node_4",
+      "target": "text_15_node_6",
+      "relation": "before",
+      "support_text": "The bomber, who was also killed, walked up to police officers and detonated what Mr. Shah said amounted to more than 20 pounds of explosives. Two civilians and a paramilitary police officer were also killed, and 10 police officers and nine civilians were wounded."
+    },
+    {
+      "source": "text_15_node_4",
+      "target": "text_15_node_7",
+      "relation": "before",
+      "support_text": "The bomber, who was also killed, walked up to police officers and detonated what Mr. Shah said amounted to more than 20 pounds of explosives."
+    },
+    {
+      "source": "text_15_node_4",
+      "target": "text_15_new_node_5",
+      "relation": "before",
+      "support_text": "The bomber, who was also killed, walked up to police officers and detonated what Mr. Shah said amounted to more than 20 pounds of explosives."
+    },
+    {
+      "source": "text_15_node_5",
+      "target": "text_15_node_8",
+      "relation": "before",
+      "support_text": "At least 16 people were killed on Wednesday in a suicide bombing... A spokesman for the Pakistani Taliban, Muhammad Khurrasani, claimed responsibility for the attack on the militants' behalf."
+    },
+    {
+      "source": "text_15_node_5",
+      "target": "text_15_new_node_1",
+      "relation": "before",
+      "support_text": "At least 16 people were killed on Wednesday in a suicide bombing outside a polio vaccination center in the southwestern Pakistani city of Quetta, officials and witnesses said."
+    },
+    {
+      "source": "text_15_new_node_1",
+      "target": "text_15_node_8",
+      "relation": "before",
+      "support_text": "At least 16 people were killed on Wednesday in a suicide bombing outside a polio vaccination center in the southwestern Pakistani city of Quetta, officials and witnesses said. A spokesman for the Pakistani Taliban, Muhammad Khurrasani, claimed responsibility for the attack on the militants' behalf."
+    },
+    {
+      "source": "text_15_new_node_2",
+      "target": "text_15_new_node_3",
+      "relation": "before",
+      "support_text": "Thirteen of the victims were police officers, said Syed Imtiaz Shah, a senior official with the Quetta police. He said the officers were there to guard polio workers..."
+    },
+    {
+      "source": "text_15_new_node_2",
+      "target": "text_15_node_5",
+      "relation": "before",
+      "support_text": "At least 16 people were killed on Wednesday in a suicide bombing outside a polio vaccination center in the southwestern Pakistani city of Quetta, officials and witnesses said. Thirteen of the victims were police officers, said Syed Imtiaz Shah, a senior official with the Quetta police."
+    },
+    {
+      "source": "text_15_new_node_3",
+      "target": "text_15_new_node_4",
+      "relation": "before",
+      "support_text": "He said the officers were there to guard polio workers, who are often targeted by Islamist militants in Pakistan."
+    },
+    {
+      "source": "text_15_new_node_3",
+      "target": "text_15_node_2",
+      "relation": "before",
+      "support_text": "He said the officers were there to guard polio workers, who are often targeted by Islamist militants in Pakistan."
+    },
+    {
+      "source": "text_15_new_node_4",
+      "target": "text_15_node_2",
+      "relation": "before",
+      "support_text": "He said the officers were there to guard polio workers, who are often targeted by Islamist militants in Pakistan."
+    },
+    {
+      "source": "text_15_new_node_5",
+      "target": "text_15_node_5",
+      "relation": "before",
+      "support_text": "The bomber, who was also killed, walked up to police officers and detonated what Mr. Shah said amounted to more than 20 pounds of explosives. At least 16 people were killed on Wednesday in a suicide bombing..."
+    }
+  ]
+}

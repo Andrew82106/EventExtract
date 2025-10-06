@@ -1,0 +1,300 @@
+{
+  "nodes": [
+    {
+      "id": "text_13_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克部队在美国领导的联盟支持下，在西部安巴尔省击退伊斯兰国。",
+      "support_text": "Iraqi forces backed by airstrikes from a U.S.-led coalition have driven Islamic State back in the western Anbar province recently and are preparing for an offensive to retake the northern city of Mosul.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克部队准备发动攻势，夺回北部城市摩苏尔。",
+      "support_text": "Iraqi forces backed by airstrikes from a U.S.-led coalition have driven Islamic State back in the western Anbar province recently and are preparing for an offensive to retake the northern city of Mosul.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周四，伊斯兰国自杀式炸弹袭击者在巴格达一座清真寺杀害15人。",
+      "support_text": "But the militants are still able to strike outside territory they control, often targeting members of Iraq's Shi'ite majority, most recently on Thursday when two Islamic State suicide bombers killed 15 people at a mosque in the capital.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周日黎明，伊斯兰国自杀式炸弹袭击者和枪手袭击阿布格里布的伊拉克安全部队。",
+      "support_text": "At dawn on Sunday, suicide bombers and gunmen attacked Iraqi security forces in Abu Ghraib, seizing positions in a grain silo and a cemetery, and killing at least 17 members of the security forces, officials said.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者占领阿布格里布的粮仓和墓地，造成至少17名安全部队成员死亡。",
+      "support_text": "At dawn on Sunday, suicide bombers and gunmen attacked Iraqi security forces in Abu Ghraib, seizing positions in a grain silo and a cemetery, and killing at least 17 members of the security forces, officials said.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全官员指责伊斯兰国发动阿布格里布袭击，支持该组织的新闻机构确认了这一'广泛攻击'。",
+      "support_text": "Security officials blamed Islamic State, and a news agency that supports the group said it had launched a \"wide attack\" in Abu Ghraib, 25 km (15 miles) from the center of Baghdad and next to the international airport.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿马克新闻机构发布视频，显示伊斯兰国武装分子发动阿布格里布袭击。",
+      "support_text": "Footage circulated online by the Amaq news agency appeared to show Islamic State fighters crouching behind dirt berms and launching the attack with automatic rifles, machine guns and rocket-propelled grenades.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周日，伊斯兰国在巴格达萨德尔城发动双重自杀式爆炸袭击，造成70人死亡。",
+      "support_text": "A twin suicide bombing claimed by Islamic State killed 70 people in a Shi'ite district of Baghdad on Sunday in the deadliest attack inside the capital this year, as militants launched an assault on its western outskirts.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式炸弹袭击者骑着摩托车，在萨德尔城拥挤的手机市场引爆自己。",
+      "support_text": "Police sources said the suicide bombers were riding motorcycles and blew themselves up in a crowded mobile phone market in Sadr City, wounding more than 100 people in addition to the dead.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊斯兰国在网上发表声明，声称对萨德尔城爆炸负责。",
+      "support_text": "In a statement circulated online, Islamic State said it was responsible for the blasts:",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊拉克总理阿巴迪表示，这些袭击是对伊斯兰国最近失败的回应。",
+      "support_text": "Prime Minister Haider al-Abadi said the attacks were in response to Islamic State's recent defeats:",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "到周日晚上，安全部队基本重新控制阿布格里布局势，但仍有冲突。",
+      "support_text": "Security forces had mostly regained control by Sunday evening but officials said there were still clashes.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全分析师表示，阿布格里布袭击表明宣布伊斯兰国在伊拉克失去主动权还为时过早。",
+      "support_text": "Baghdad-based security analyst Jasim al-Bahadli said the assault suggested it was premature to declare that Islamic State was losing the initiative in Iraq.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "路透社目击者看到地上有血泊、拖鞋、鞋子和手机",
+      "support_text": "A Reuters witness saw pools of blood on the ground with slippers, shoes and mobile phones.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸现场被封锁",
+      "support_text": "The site of the blasts was sealed off.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方消息来源报道了自杀式炸弹袭击者的事件",
+      "support_text": "Police sources said the suicide bombers were riding motorcycles and blew themselves up in a crowded mobile phone market in Sadr City, wounding more than 100 people in addition to the dead.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "他们的剑将不会停止砍头",
+      "support_text": "Our swords will not cease to cut off the heads",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "砍掉异教徒的头",
+      "support_text": "cut off the heads of the rejectionist polytheists",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_6",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊斯兰国说他们的剑将不会停止砍掉异教徒的头",
+      "support_text": "Our swords will not cease to cut off the heads of the rejectionist polytheists, wherever they are",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_control",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子控制某些领土",
+      "support_text": "But the militants are still able to strike outside territory they control",
+      "source_text": "text_13"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_2",
+      "relation": "before",
+      "support_text": "Iraqi forces backed by airstrikes from a U.S.-led coalition have driven Islamic State back in the western Anbar province recently and are preparing for an offensive to retake the northern city of Mosul."
+    },
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_3",
+      "relation": "before",
+      "support_text": "But the militants are still able to strike outside territory they control, often targeting members of Iraq's Shi'ite majority, most recently on Thursday when two Islamic State suicide bombers killed 15 people at a mosque in the capital."
+    },
+    {
+      "source": "text_13_node_3",
+      "target": "text_13_node_4",
+      "relation": "before",
+      "support_text": "most recently on Thursday when two Islamic State suicide bombers killed 15 people at a mosque in the capital. At dawn on Sunday, suicide bombers and gunmen attacked Iraqi security forces in Abu Ghraib..."
+    },
+    {
+      "source": "text_13_node_3",
+      "target": "text_13_node_8",
+      "relation": "before",
+      "support_text": "most recently on Thursday when two Islamic State suicide bombers killed 15 people at a mosque in the capital. ... A twin suicide bombing claimed by Islamic State killed 70 people in a Shi'ite district of Baghdad on Sunday..."
+    },
+    {
+      "source": "text_13_node_4",
+      "target": "text_13_node_5",
+      "relation": "before",
+      "support_text": "At dawn on Sunday, suicide bombers and gunmen attacked Iraqi security forces in Abu Ghraib, seizing positions in a grain silo and a cemetery, and killing at least 17 members of the security forces, officials said."
+    },
+    {
+      "source": "text_13_node_4",
+      "target": "text_13_node_6",
+      "relation": "before",
+      "support_text": "At dawn on Sunday, suicide bombers and gunmen attacked Iraqi security forces in Abu Ghraib... Security officials blamed Islamic State, and a news agency that supports the group said it had launched a \"wide attack\" in Abu Ghraib..."
+    },
+    {
+      "source": "text_13_node_4",
+      "target": "text_13_node_7",
+      "relation": "before",
+      "support_text": "At dawn on Sunday, suicide bombers and gunmen attacked Iraqi security forces in Abu Ghraib... Footage circulated online by the Amaq news agency appeared to show Islamic State fighters crouching behind dirt berms and launching the attack..."
+    },
+    {
+      "source": "text_13_node_4",
+      "target": "text_13_node_12",
+      "relation": "before",
+      "support_text": "At dawn on Sunday, suicide bombers and gunmen attacked Iraqi security forces in Abu Ghraib... Security forces had mostly regained control by Sunday evening but officials said there were still clashes."
+    },
+    {
+      "source": "text_13_node_4",
+      "target": "text_13_node_13",
+      "relation": "before",
+      "support_text": "At dawn on Sunday, suicide bombers and gunmen attacked Iraqi security forces in Abu Ghraib... Baghdad-based security analyst Jasim al-Bahadli said the assault suggested it was premature to declare that Islamic State was losing the initiative in Iraq."
+    },
+    {
+      "source": "text_13_node_8",
+      "target": "text_13_node_9",
+      "relation": "before",
+      "support_text": "A twin suicide bombing claimed by Islamic State killed 70 people in a Shi'ite district of Baghdad on Sunday... Police sources said the suicide bombers were riding motorcycles and blew themselves up in a crowded mobile phone market in Sadr City..."
+    },
+    {
+      "source": "text_13_node_8",
+      "target": "text_13_node_10",
+      "relation": "before",
+      "support_text": "A twin suicide bombing claimed by Islamic State killed 70 people in a Shi'ite district of Baghdad on Sunday... In a statement circulated online, Islamic State said it was responsible for the blasts..."
+    },
+    {
+      "source": "text_13_node_8",
+      "target": "text_13_node_11",
+      "relation": "before",
+      "support_text": "A twin suicide bombing claimed by Islamic State killed 70 people in a Shi'ite district of Baghdad on Sunday... Prime Minister Haider al-Abadi said the attacks were in response to Islamic State's recent defeats..."
+    },
+    {
+      "source": "text_13_node_9",
+      "target": "text_13_new_node_1",
+      "relation": "before",
+      "support_text": "爆炸发生后，路透社目击者看到现场情况"
+    },
+    {
+      "source": "text_13_node_10",
+      "target": "text_13_new_node_6",
+      "relation": "before",
+      "support_text": "伊斯兰国先声称对爆炸负责，然后发表威胁声明"
+    },
+    {
+      "source": "text_13_new_node_1",
+      "target": "text_13_new_node_2",
+      "relation": "before",
+      "support_text": "目击者看到现场后，爆炸现场被封锁"
+    },
+    {
+      "source": "text_13_new_node_2",
+      "target": "text_13_new_node_3",
+      "relation": "before",
+      "support_text": "现场被封锁后，警方消息来源报道了事件详情"
+    },
+    {
+      "source": "text_13_new_node_4",
+      "target": "text_13_new_node_5",
+      "relation": "before",
+      "support_text": "剑不会停止砍掉异教徒的头"
+    },
+    {
+      "source": "text_13_new_node_6",
+      "target": "text_13_new_node_4",
+      "relation": "before",
+      "support_text": "声明中提到剑不会停止砍头"
+    },
+    {
+      "source": "text_13_new_node_control",
+      "target": "text_13_node_3",
+      "relation": "before",
+      "support_text": "武装分子控制领土，然后在这些领土之外发动袭击，针对伊拉克什叶派多数派成员"
+    }
+  ]
+}

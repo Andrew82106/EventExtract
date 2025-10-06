@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "text_22_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周一下午莫斯科多莫迪多沃机场发生炸弹爆炸，造成35人死亡、160余人重伤",
+      "support_text": "after a bomb exploded Monday afternoon, killing 35 and sending more than 160 badly injured",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认一名44岁保加利亚籍奥地利的自杀袭击者尼科莱伊·伊凡诺夫·伊凡诺夫死亡，其遗体由俄罗斯紧急事务部识别",
+      "support_text": "Nikolay Ivanov Ivanov was traveling from Vienna with Lauda Air; his body was identified by the Russian Ministry of Emergencies",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "保加利亚外交部向尼科莱伊·伊凡诺夫的家属通报消息",
+      "support_text": "The Bulgarian Ministry of Foreign Affairs has informed his family",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "莫斯科医院接收至少180名伤员，部分伤员处于危急状况",
+      "support_text": "Some 180 persons have been wounded in the Domodedovo attack, some of them are in critical condition",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认两名英国公民在袭击中遇难，另有其他非俄罗斯公民伤员被收治",
+      "support_text": "At least two British nationals were among those killed, with a number of other non-Russian citizens among those accepted in Moscow hospitals",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚总统和总理向俄罗斯民众及受害者表示哀悼，谴责袭击行为",
+      "support_text": "Bulgarian President Georgi Parvanov and PM Boyko Borisov were among the world leaders who expressed their condolences to the Russian people and those affected by the attack",
+      "source_text": "text_22"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_2",
+      "relation": "before",
+      "support_text": "after a bomb exploded Monday afternoon"
+    },
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_4",
+      "relation": "before",
+      "support_text": "sending more than 160 badly injured"
+    },
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_5",
+      "relation": "before",
+      "support_text": "killing 35"
+    },
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_6",
+      "relation": "before",
+      "support_text": "the attack"
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_3",
+      "relation": "before",
+      "support_text": "his body was identified by the Russian Ministry of Emergencies"
+    },
+    {
+      "source": "text_22_node_4",
+      "target": "text_22_node_5",
+      "relation": "before",
+      "support_text": "Some 180 persons have been wounded"
+    }
+  ]
+}

@@ -2,54 +2,62 @@
   "nodes": [
     {
       "id": "text_15_node_1",
-      "event_type": "Justice",
-      "event_subtype": "TrialHearing",
-      "event_sub_subtype": "Unspecified",
-      "description": "阿根廷司法系统已经采取了一些行动或做出了一些决定",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击者靠近警察并引爆超过20磅的爆炸物，袭击者当场死亡",
       "source_text": "text_15"
     },
     {
       "id": "text_15_node_2",
-      "event_type": "Control",
-      "event_subtype": "ImpedeInterfereWith",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "有人提议或决定忽略阿根廷司法系统所做的一切",
+      "description": "至少16人在巴基斯坦奎达市一家脊髓灰质炎疫苗接种中心外死于自杀式炸弹袭击",
       "source_text": "text_15"
     },
     {
       "id": "text_15_node_3",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "ManufactureAssemble",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "有人提议或决定用一个委员会来取代阿根廷司法系统",
+      "description": "巴基斯坦塔利班发言人Muhammad Khurrasani代表该组织宣称对此次袭击负责",
       "source_text": "text_15"
     },
     {
       "id": "text_15_node_4",
-      "event_type": "Control",
-      "event_subtype": "ImpedeInterfereWith",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
       "event_sub_subtype": "Unspecified",
-      "description": "该委员会被设定为最多只能向相关方发布没有明确截止日期的'建议'",
+      "description": "奎达警察高级官员Syed Imtiaz Shah确认13名受害者为警察，他们原本负责保护脊髓灰质炎工作者",
       "source_text": "text_15"
     },
     {
       "id": "text_15_node_5",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
       "event_sub_subtype": "Unspecified",
-      "description": "这种做法被认为是对'获得正义'这一共同目标的逆转",
+      "description": "袭击导致两名平民和一名准军事警察死亡，另有10名警察和9名平民受伤",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "此次袭击发生在巴卢奇斯坦省脊髓灰质炎疫苗接种活动第三天，该省首府为奎达市",
       "source_text": "text_15"
     }
   ],
   "edges": [
     {
       "source": "text_15_node_1",
-      "target": "text_15_node_2",
+      "target": "text_15_node_3",
       "relation": "before"
     },
     {
       "source": "text_15_node_2",
-      "target": "text_15_node_3",
+      "target": "text_15_node_1",
       "relation": "before"
     },
     {
@@ -60,6 +68,11 @@
     {
       "source": "text_15_node_4",
       "target": "text_15_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_15_node_5",
+      "target": "text_15_node_6",
       "relation": "before"
     }
   ]

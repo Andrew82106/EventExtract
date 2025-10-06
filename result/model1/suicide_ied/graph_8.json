@@ -2,90 +2,90 @@
   "nodes": [
     {
       "id": "text_8_node_1",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "美军进行跨部门努力追捕巴格达迪，并最近取得重大进展",
+      "description": "JuA claimed suicide attackers targeted Charsadda court, killing 5 civilians and injuring 15",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_2",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "周五，特朗普总统被简报了计划的各个方面和执行风险",
+      "description": "3 suicide bombers伪装成petitioners approached court, hurling 6 grenades and 9mm pistols",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_3",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Correspondence",
-      "description": "行动前，美国联系俄罗斯和土耳其，以避免可能的冲突",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "First bomber killed by police when throwing grenade at court gate",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_4",
-      "event_type": "Contact",
-      "event_subtype": "RequestCommand",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
       "event_sub_subtype": "Unspecified",
-      "description": "获得特朗普批准后，麦肯齐下令在周六上午9点开始任务",
+      "description": "Second bomber killed upon entering court compound",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_5",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "美军特种部队通过直升机空降袭击巴格达迪在叙利亚西北部的院落",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Third bomber detonated explosives after being intercepted",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_6",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "空中掩护部队（包括武装直升机、无人机和战斗机）支持和保护地面士兵",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "4 judges and 40 lawyers present at court during attack",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_7",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "当美军到达院落时，附近敌军武装分子开始向参与袭击的飞机开火",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "Remains of bombers and explosives found on roadside by eyewitnesses",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_8",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "这些武装分子被两次空袭击毙",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "10 ambulances dispatched from Peshawar to assist casualties",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_9",
-      "event_type": "Contact",
-      "event_subtype": "RequestCommand",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "特种部队包围院落，并多次呼吁其 occupants 和平出来",
+      "description": "Lady Reading Hospital placed on high alert for incoming patients",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_10",
       "event_type": "Contact",
       "event_subtype": "Contact",
-      "event_sub_subtype": "Meet",
-      "description": "周三，国防部长等官员在国会山就袭击举行机密简报",
+      "event_sub_subtype": "Broadcast",
+      "description": "PTI Chairman Imran Khan commended police response preventing higher casualties",
       "source_text": "text_8"
     },
     {
       "id": "text_8_node_11",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "五角大楼发布袭击照片和视频，麦肯齐向记者提供任务时间线",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "Security forces confirmed killing all 3 attackers during Tuesday's operation",
       "source_text": "text_8"
     }
   ],
@@ -101,6 +101,21 @@
       "relation": "before"
     },
     {
+      "source": "text_8_node_2",
+      "target": "text_8_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_node_6",
+      "relation": "before"
+    },
+    {
       "source": "text_8_node_3",
       "target": "text_8_node_4",
       "relation": "before"
@@ -108,11 +123,6 @@
     {
       "source": "text_8_node_4",
       "target": "text_8_node_5",
-      "relation": "before"
-    },
-    {
-      "source": "text_8_node_5",
-      "target": "text_8_node_6",
       "relation": "before"
     },
     {
@@ -126,18 +136,23 @@
       "relation": "before"
     },
     {
-      "source": "text_8_node_5",
-      "target": "text_8_node_10",
-      "relation": "before"
-    },
-    {
       "source": "text_8_node_7",
       "target": "text_8_node_8",
       "relation": "before"
     },
     {
-      "source": "text_8_node_10",
-      "target": "text_8_node_11",
+      "source": "text_8_node_7",
+      "target": "text_8_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_8",
+      "target": "text_8_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_11",
+      "target": "text_8_node_10",
       "relation": "before"
     }
   ]

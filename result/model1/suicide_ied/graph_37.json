@@ -3,33 +3,33 @@
     {
       "id": "text_37_node_1",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "1981年至2006年间，全球发生了1200起自杀式袭击，造成14,599人死亡",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "利比亚政权崩溃导致社会动荡",
       "source_text": "text_37"
     },
     {
       "id": "text_37_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "2003年10月4日，巴勒斯坦律师Hanadi Jaradat在海法Maxim餐厅发动自杀式袭击，造成20人死亡",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Salman Abedi在英利双重文化背景下成长",
       "source_text": "text_37"
     },
     {
       "id": "text_37_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "2006年11月23日，最年长的巴勒斯坦自杀式炸弹袭击者Fatma Omar An-Anajar在加沙引爆了自己",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Salman向父母谎称前往麦加朝圣实则策划袭击",
       "source_text": "text_37"
     },
     {
       "id": "text_37_node_4",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "2007年9月，美国军队在叙利亚边境附近的Singar突袭伊拉克叛乱营地，发现700多名外国战斗人员的传记",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Salman Abedi在曼彻斯特音乐会外实施自杀式爆炸",
       "source_text": "text_37"
     }
   ],

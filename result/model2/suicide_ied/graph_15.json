@@ -5,26 +5,53 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "他转身朝我们走来，手里拿着藏在夹克里的枪。",
-      "support_text": "He turned around and started coming towards us. He was holding his gun inside his jacket.",
+      "description": "2013年7月18日，保加利亚布尔加斯发生公交车爆炸事件，造成5名以色列游客和1名保加利亚司机死亡",
+      "support_text": "July 18 bus bombing that killed five Israeli tourists and a Bulgarian bus driver",
       "source_text": "text_15"
     },
     {
       "id": "text_15_node_2",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
       "event_sub_subtype": "Unspecified",
-      "description": "他环顾四周，焦急地看是否有人会阻止他，然后走下自动扶梯。",
-      "support_text": "He looked around anxiously to see if anyone was going to stop him and then went down the escalator.",
+      "description": "爆炸后，瑞典前关塔那摩囚犯Mehdi Ghezali被列为恐怖袭击嫌疑人",
+      "support_text": "Swedish ex Guantanamo detainee Mehdi Ghezali may have been the suicide bomber who killed six people in July's terror attack in the Bulgarian city of Burgas",
       "source_text": "text_15"
     },
     {
       "id": "text_15_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "我们听到更多的枪声和另一声爆炸，然后一切结束了。",
-      "support_text": "We heard some more gunfire and then another explosion, and then it was over.",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚内政部和瑞典当局公开否认将Ghezali与恐怖袭击关联的指控",
+      "support_text": "When I learned that they are linking this man to my people, I called my brothers in Great Britain to ask who the man in question is",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚《24 Chasa》日报披露极端组织头目Omar Bakri确认Ghezali为袭击者，并透露其别名和阿富汗经历",
+      "support_text": "24 Chasa daily has gained access to an interview of radical Salafite militant leader Omar Bakri, who has allegedly recognized the suspect",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "基地组织因布尔加斯爆炸事件将Ghezali列为殉教者",
+      "support_text": "Because of the Burgas bombing, the brothers from al-Qaeda declared him a martyr",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织Al-Muhajiroun最初计划赔偿保加利亚穆斯林受害者，后因宗教警告决定取消",
+      "support_text": "Muslims are warned not to hang around near Jews if they don't want to get heard",
       "source_text": "text_15"
     }
   ],
@@ -33,13 +60,25 @@
       "source": "text_15_node_1",
       "target": "text_15_node_2",
       "relation": "before",
-      "support_text": "He turned around and started coming towards us. He was holding his gun inside his jacket. He looked around anxiously to see if anyone was going to stop him and then went down the escalator."
+      "support_text": "Ghezali emerged as a suspect soon after the July 18 bus bombing"
     },
     {
       "source": "text_15_node_2",
       "target": "text_15_node_3",
       "relation": "before",
-      "support_text": "He looked around anxiously to see if anyone was going to stop him and then went down the escalator. We heard some more gunfire and then another explosion, and then it was over."
+      "support_text": "When I learned that they are linking this man to my people"
+    },
+    {
+      "source": "text_15_node_4",
+      "target": "text_15_node_5",
+      "relation": "before",
+      "support_text": "Bakri has reportedly said. He had another alias. This man was indeed a student of mine"
+    },
+    {
+      "source": "text_15_node_5",
+      "target": "text_15_node_6",
+      "relation": "before",
+      "support_text": "However, the organization decided not to do so"
     }
   ]
 }

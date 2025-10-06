@@ -1,0 +1,387 @@
+{
+  "nodes": [
+    {
+      "id": "text_16_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列因“土地日”和伊拉克战争而处于高度戒备状态。",
+      "support_text": "以色列因“土地日”和伊拉克战争而处于高度戒备状态。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式炸弹袭击者接近拥挤的伦敦咖啡馆。",
+      "support_text": "一名自杀式炸弹袭击者接近拥挤的伦敦咖啡馆。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名以色列士兵从咖啡馆走出，与炸弹袭击者迎面相遇。",
+      "support_text": "一名以色列士兵从咖啡馆走出，与炸弹袭击者迎面相遇。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "炸弹袭击者在咖啡馆入口外引爆炸弹。",
+      "support_text": "炸弹袭击者在咖啡馆入口外引爆炸弹。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸震碎了窗户，掀翻了桌椅，并导致弹片横飞。",
+      "support_text": "爆炸震碎了窗户，掀翻了桌椅，并导致弹片横飞。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰圣战组织声称对此次袭击负责。",
+      "support_text": "伊斯兰圣战组织声称对此次袭击负责。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列和巴勒斯坦权力机构均谴责了此次爆炸事件。",
+      "support_text": "以色列和巴勒斯坦权力机构均谴责了此次爆炸事件。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "当地居民聚集在医院，安慰伤者家属。",
+      "support_text": "当地居民聚集在医院，安慰伤者家属。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一辆公交车在北部城市海法被引爆。",
+      "support_text": "一辆公交车在北部城市海法被引爆。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者描述了爆炸及其造成的破坏。",
+      "support_text": "目击者描述了爆炸及其造成的破坏。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_11",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "玻璃碎片和血肉掉进了婴儿车里。",
+      "support_text": "玻璃碎片和血肉掉进了婴儿车里。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "佐哈尔·巴特·沙龙复述了事件的经过。",
+      "support_text": "佐哈尔·巴特·沙龙复述了事件的经过。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "炸弹客可能因为惊慌而采取了行动。",
+      "support_text": "炸弹客可能因为惊慌而采取了行动。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸的威力会被密闭空间放大。",
+      "support_text": "（假设）爆炸的威力会被密闭空间放大。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "被放大的爆炸威力可能导致更多伤亡。",
+      "support_text": "（假设）被放大的爆炸威力可能导致更多伤亡。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "以色列媒体援引了警方的消息来源。",
+      "support_text": "以色列媒体援引了警方的消息来源。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "大卫·贝克将爆炸事件称为“巴勒斯坦恐怖主义残酷性的野蛮提醒”。",
+      "support_text": "大卫·贝克将爆炸事件称为“巴勒斯坦恐怖主义残酷性的野蛮提醒”。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mahmoud Abbas将承受压力去制止此类袭击。",
+      "support_text": "Mahmoud Abbas将承受压力去制止此类袭击。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_19",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰武装组织试图利用阿拉伯世界的愤怒情绪。",
+      "support_text": "伊斯兰武装组织正试图利用阿拉伯世界的愤怒情绪。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_20",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "一个企业获得了某些类型的商业许可证。",
+      "support_text": "（企业）获得某些类型的商业许可证。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_21",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列政府没收了阿拉伯人的土地。",
+      "support_text": "以色列政府没收了阿拉伯人的土地。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_22",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "六名巴勒斯坦人在抗议中被杀害。",
+      "support_text": "六名巴勒斯坦人在抗议中被杀害。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_23",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "去年5月19日的自杀式爆炸事件凸显了该城市在攻击面前的脆弱性。",
+      "support_text": "去年5月19日的自杀式爆炸事件凸显了该城市在攻击面前的脆弱性。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_24",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击的猛烈程度促使沙龙采取行动。",
+      "support_text": "袭击的猛烈程度促使沙龙采取行动。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "沙龙下令对约旦河西岸进行全面的军事接管。",
+      "support_text": "沙龙下令对约旦河西岸进行全面的军事接管。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_26",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "军事行动的目的是搜捕巴勒斯坦武装分子。",
+      "support_text": "军事行动的目的是搜捕巴勒斯坦武装分子。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_27",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "军事接管之后，约旦河西岸主要城市中心发生了数周的激烈城市战斗。",
+      "support_text": "军事接管之后，约旦河西岸主要城市中心发生了数周的激烈城市战斗。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_28",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "在随后的几个月里，以色列军队从大部分城市外围撤回。",
+      "support_text": "在随后的几个月里，以色列军队从大部分城市外围撤回。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_29",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列人继续发动周期性突袭。",
+      "support_text": "以色列人继续发动周期性突袭。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_30",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列人发动周期性突袭。",
+      "support_text": "以色列人发动周期性突袭。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_31",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "严格的军事宵禁和旅行限制扰乱了数万名巴勒斯坦人的生活。",
+      "support_text": "严格的军事宵禁和旅行限制扰乱了数万名巴勒斯坦人的生活。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_32",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "这种扰乱阻止了许多巴勒斯坦人去上班、上学或看医生。",
+      "support_text": "这种扰乱阻止了许多巴勒斯坦人去上班、上学或看医生。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_33",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "许多巴勒斯坦人被阻止去上班。",
+      "support_text": "许多巴勒斯坦人被阻止去上班。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_34",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "许多巴勒斯坦人被阻止去上学。",
+      "support_text": "许多巴勒斯坦人被阻止去上学。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_35",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "许多巴勒斯坦人被阻止去看医生。",
+      "support_text": "许多巴勒斯坦人被阻止去看医生。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_36",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "急救人员到达了现场。",
+      "support_text": "急救人员到达了现场。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_37",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "西德尼·布约向他人讲述了事件经过和自己的感受。",
+      "support_text": "西德尼·布约向他人讲述了事件经过和自己的感受。",
+      "source_text": "text_16"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_2",
+      "relation": "before",
+      "support_text": "以色列因“土地日”和伊拉克战争而处于高度戒备状态。"
+    },
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_19",
+      "relation": "before",
+      "support_text": "以色列因“土地日”和伊拉克战争而处于高度戒备状态。"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_3",
+      "relation": "before",
+      "support_text": "一名自杀式炸弹袭击者接近拥挤的伦敦咖啡馆。"
+    },
+    {
+      "source": "text_16_node_3",
+      "target": "text_16_node_4",
+      "relation": "before",
+      "support_text": "一名以色列士兵从咖啡馆走出，与炸弹袭击者迎面相遇。"
+    },
+    {
+      "source": "text_16_node_4",
+      "target": "text_16_node_5",
+      "relation": "before",
+      "support_text": "炸弹袭击者在咖啡馆入口外引爆炸弹。"
+    },
+    {
+      "source": "text_16_node_5",
+      "target": "text_16_node_6",
+      "relation": "before",
+      "support_text": "爆炸震碎了窗户，掀翻了桌椅，并导致弹片横飞。"
+    },
+    {
+      "source": "text_16_node_5",
+      "target": "text_16_node_7",
+      "relation": "before",
+      "support_text": "爆炸震碎了窗户，掀翻了桌椅，并导致弹片横飞。"
+    },
+    {
+      "source": "text_16_node_6",
+      "target": "text_16_node_7",
+      "relation": "before",
+      "support_text": "伊斯兰圣战组织声称对此次袭击负责。"
+    }
+  ]
+}

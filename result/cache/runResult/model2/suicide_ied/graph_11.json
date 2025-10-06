@@ -1,0 +1,426 @@
+{
+  "nodes": [
+    {
+      "id": "text_11_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "特朗普总统在9月份将与塔利班的和平谈判描述为\"死亡\"。",
+      "support_text": "President Trump had described the peace talks as \"dead\" in September.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "特朗普在今年感恩节出人意料地访问了巴格拉姆空军基地。",
+      "support_text": "Trump visited Bagram air base in a surprise visit on Thanksgiving this year, his first trip to the country.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "美国首席谈判代表扎尔迈·哈利勒扎德周六在卡塔尔多哈恢复了与塔利班的讨论。",
+      "support_text": "The chief U.S. negotiator, Zalmay Khalilzad, resumed discussions with the Taliban Saturday in Doha, Qatar -- the first time since President Trump called off talks after inviting the Taliban to Camp David and then rescinding the offer.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周三上午，塔利班对巴格拉姆一个正在建设中的医疗设施发动自杀式汽车炸弹袭击。",
+      "support_text": "A suicide bomber struck an under construction medical facility at Bagram, the largest U.S. military base in northern Afghanistan, Wednesday morning, with the Taliban claiming responsibility for the attack, Afghan and U.S. officials said.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击涉及两枚汽车炸弹，随后袭击者与当地安全部队发生枪战。",
+      "support_text": "Two car bombs were involved in the attack, which was followed by a gun battle between the attackers and local security forces, killing two people and injuring over 70, according to the Afghan interior ministry.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸造成2人死亡，70多人受伤，并摧毁了附近的一些平民房屋。",
+      "support_text": "Two car bombs were involved in the attack, which was followed by a gun battle between the attackers and local security forces, killing two people and injuring over 70, according to the Afghan interior ministry. A number of nearby civilian houses were destroyed in the bombing, according to a local member of parliament for Parwan Province where Bagram base is located.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_7",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "五名格鲁吉亚军事人员在恐怖袭击中受轻伤。",
+      "support_text": "Five military servicemen from the Georgian contingent \"received minor injuries due to the terrorist attack,\" according to a statement from the Georgian Ministry of Defense.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班战士在试图突破巴格拉姆机场失败后，将自己封锁在医疗设施大楼内。",
+      "support_text": "\"The fighters barricaded themselves inside the medical facility building they attacked early Wednesday morning.\"",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "当晚，联军部队在与阿富汗安全部队协调后，进行空袭，将封锁在医疗设施内的塔利班战士杀死。",
+      "support_text": "\"Taliban fighters who remained after an unsuccessful attempt to breach Bagram airfield were killed in a series of airstrikes this evening,\" a Resolute Support spokesman said.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国国务卿迈克·庞皮欧周三以\"最强烈的措辞\"谴责这次袭击。",
+      "support_text": "Secretary of State Mike Pompeo condemned the attack \"in the strongest possible terms\" Wednesday.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当被问及美国是否已重启与塔利班的和平谈判时，特朗普回答\"是\"。",
+      "support_text": "When asked if the U.S. had restarted peace talks with the Taliban, he replied with \"yes,\" but did not offer more details.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班声称对巴格拉姆军事基地的自杀式汽车炸弹袭击负责",
+      "support_text": "with the Taliban claiming responsibility for the attack, Afghan and U.S. officials said.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "官方报道没有美国或联军人员伤亡",
+      "support_text": "No U.S. or coalition casualties were reported, according to authorities/media.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿富汗和美国官员报道了袭击事件及其后续情况",
+      "support_text": "Afghan and U.S. officials said",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "帕尔万省的一名当地议员报道一些附近的民用房屋在轰炸中被摧毁",
+      "support_text": "A number of nearby civilian houses were destroyed in the bombing, according to a local member of parliament for Parwan Province where Bagram base is located.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "联军部队与阿富汗安全部队协调，通知了当地居民",
+      "support_text": "联军部队与阿富汗安全部队协调，通知了当地居民",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "联军部队与阿富汗安全部队协调，封锁了该区域",
+      "support_text": "联军部队与阿富汗安全部队协调，封锁了该区域",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "联军部队与阿富汗安全部队确保当地居民的安全",
+      "support_text": "联军部队与阿富汗安全部队确保当地居民的安全",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "坚定支持发言人发表了关于塔利班战斗人员被杀的声明",
+      "support_text": "坚定支持发言人发表了关于塔利班战斗人员被杀的声明",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "发言人发表了关于联军部队行动的声明",
+      "support_text": "发言人发表了关于联军部队行动的声明",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "谈判在卡塔尔多哈破裂",
+      "support_text": "talks broke down in Doha, Qatar",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国最近宣布已重新开启与塔利班的谈判",
+      "support_text": "The U.S. recently announced that it had reopened negotiations with the Taliban after talks broke down in Doha, Qatar",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "特朗普总统取消了谈判",
+      "support_text": "President Trump called off talks",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_13",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "特朗普总统邀请塔利班前往戴维营",
+      "support_text": "President Trump invited the Taliban to Camp David",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "特朗普总统撤销了邀请",
+      "support_text": "President Trump rescinded the offer",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "减少暴力将导致阿富汗内部谈判和停火",
+      "support_text": "a reduction of violence would lead to intra-Afghan negotiations and a cease-fire",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "一位国务院官员告诉ABC新闻",
+      "support_text": "a State Department official told ABC News",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "特朗普没有提供更多细节",
+      "support_text": "When asked if the U.S. had restarted peace talks with the Taliban, he replied with \"yes,\" but did not offer more details.",
+      "source_text": "text_11"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_11_node_1",
+      "target": "text_11_node_3",
+      "relation": "before",
+      "support_text": "The U.S. recently announced that it had reopened negotiations with the Taliban after talks broke down in Doha, Qatar. President Trump had described the peace talks as \"dead\" in September. The chief U.S. negotiator, Zalmay Khalilzad, resumed discussions with the Taliban Saturday in Doha, Qatar"
+    },
+    {
+      "source": "text_11_node_3",
+      "target": "text_11_node_4",
+      "relation": "before",
+      "support_text": "The chief U.S. negotiator, Zalmay Khalilzad, resumed discussions with the Taliban Saturday in Doha, Qatar -- the first time since President Trump called off talks after inviting the Taliban to Camp David and then rescinding the offer."
+    },
+    {
+      "source": "text_11_node_3",
+      "target": "text_11_node_11",
+      "relation": "before",
+      "support_text": "The chief U.S. negotiator, Zalmay Khalilzad, resumed discussions with the Taliban Saturday in Doha, Qatar. When asked if the U.S. had restarted peace talks with the Taliban, he replied with \"yes,\""
+    },
+    {
+      "source": "text_11_node_4",
+      "target": "text_11_node_5",
+      "relation": "before",
+      "support_text": "A suicide bomber struck an under construction medical facility at Bagram, the largest U.S. military base in northern Afghanistan, Wednesday morning. Two car bombs were involved in the attack, which was followed by a gun battle between the attackers and local security forces"
+    },
+    {
+      "source": "text_11_node_4",
+      "target": "text_11_node_7",
+      "relation": "before",
+      "support_text": "A suicide bomber struck an under construction medical facility at Bagram. Five military servicemen from the Georgian contingent \"received minor injuries due to the terrorist attack\""
+    },
+    {
+      "source": "text_11_node_4",
+      "target": "text_11_node_10",
+      "relation": "before",
+      "support_text": "A suicide bomber struck an under construction medical facility at Bagram, the largest U.S. military base in northern Afghanistan, Wednesday morning. Secretary of State Mike Pompeo condemned the attack \"in the strongest possible terms\" Wednesday."
+    },
+    {
+      "source": "text_11_node_4",
+      "target": "text_11_new_node_1",
+      "relation": "before",
+      "support_text": "袭击发生后，塔利班声称对袭击负责。"
+    },
+    {
+      "source": "text_11_node_5",
+      "target": "text_11_node_6",
+      "relation": "before",
+      "support_text": "Two car bombs were involved in the attack, which was followed by a gun battle between the attackers and local security forces, killing two people and injuring over 70"
+    },
+    {
+      "source": "text_11_node_6",
+      "target": "text_11_node_8",
+      "relation": "before",
+      "support_text": "killing two people and injuring over 70, according to the Afghan interior ministry. \"The fighters barricaded themselves inside the medical facility building they attacked early Wednesday morning.\""
+    },
+    {
+      "source": "text_11_node_6",
+      "target": "text_11_new_node_4",
+      "relation": "before",
+      "support_text": "A number of nearby civilian houses were destroyed in the bombing, according to a local member of parliament for Parwan Province where Bagram base is located."
+    },
+    {
+      "source": "text_11_node_8",
+      "target": "text_11_node_9",
+      "relation": "before",
+      "support_text": "\"The fighters barricaded themselves inside the medical facility building they attacked early Wednesday morning.\" \"Taliban fighters who remained after an unsuccessful attempt to breach Bagram airfield were killed in a series of airstrikes this evening,\""
+    },
+    {
+      "source": "text_11_node_8",
+      "target": "text_11_new_node_7",
+      "relation": "before",
+      "support_text": "塔利班战士封锁自己后，联军部队确保当地居民的安全"
+    },
+    {
+      "source": "text_11_node_9",
+      "target": "text_11_new_node_3",
+      "relation": "before",
+      "support_text": "袭击事件结束后，阿富汗和美国官员进行了报道"
+    },
+    {
+      "source": "text_11_node_9",
+      "target": "text_11_new_node_8",
+      "relation": "before",
+      "support_text": "空袭后，坚定支持发言人发表了关于塔利班战斗人员被杀的声明"
+    },
+    {
+      "source": "text_11_node_9",
+      "target": "text_11_new_node_9",
+      "relation": "before",
+      "support_text": "空袭后，发言人发表了关于联军部队行动的声明"
+    },
+    {
+      "source": "text_11_node_11",
+      "target": "text_11_new_node_17",
+      "relation": "before",
+      "support_text": "When asked if the U.S. had restarted peace talks with the Taliban, he replied with \"yes,\" but did not offer more details."
+    },
+    {
+      "source": "text_11_new_node_1",
+      "target": "text_11_new_node_2",
+      "relation": "before",
+      "support_text": "塔利班声称负责后，官方报道了伤亡情况。"
+    },
+    {
+      "source": "text_11_new_node_5",
+      "target": "text_11_new_node_6",
+      "relation": "before",
+      "support_text": "联军部队先通知当地居民，然后封锁区域"
+    },
+    {
+      "source": "text_11_new_node_6",
+      "target": "text_11_node_8",
+      "relation": "before",
+      "support_text": "联军部队封锁区域后，塔利班战士将自己封锁在医疗设施大楼内"
+    },
+    {
+      "source": "text_11_new_node_7",
+      "target": "text_11_node_9",
+      "relation": "before",
+      "support_text": "联军部队确保当地居民安全后，进行空袭"
+    },
+    {
+      "source": "text_11_new_node_10",
+      "target": "text_11_new_node_11",
+      "relation": "before",
+      "support_text": "The U.S. recently announced that it had reopened negotiations with the Taliban after talks broke down in Doha, Qatar"
+    },
+    {
+      "source": "text_11_new_node_10",
+      "target": "text_11_node_1",
+      "relation": "before",
+      "support_text": "talks broke down in Doha, Qatar. President Trump had described the peace talks as \"dead\" in September."
+    },
+    {
+      "source": "text_11_new_node_11",
+      "target": "text_11_node_3",
+      "relation": "before",
+      "support_text": "The U.S. recently announced that it had reopened negotiations with the Taliban. The chief U.S. negotiator, Zalmay Khalilzad, resumed discussions with the Taliban Saturday in Doha, Qatar"
+    },
+    {
+      "source": "text_11_new_node_12",
+      "target": "text_11_node_3",
+      "relation": "before",
+      "support_text": "特朗普总统取消谈判后，美国首席谈判代表恢复了与塔利班的讨论"
+    },
+    {
+      "source": "text_11_new_node_12",
+      "target": "text_11_new_node_16",
+      "relation": "before",
+      "support_text": "特朗普总统取消谈判后，一位国务院官员告诉ABC新闻"
+    },
+    {
+      "source": "text_11_new_node_13",
+      "target": "text_11_new_node_14",
+      "relation": "before",
+      "support_text": "特朗普总统先邀请塔利班前往戴维营，然后撤销了邀请"
+    },
+    {
+      "source": "text_11_new_node_14",
+      "target": "text_11_new_node_12",
+      "relation": "before",
+      "support_text": "特朗普总统撤销邀请后，取消了谈判"
+    },
+    {
+      "source": "text_11_new_node_16",
+      "target": "text_11_new_node_15",
+      "relation": "before",
+      "support_text": "国务院官员告诉ABC新闻后，提到减少暴力将导致阿富汗内部谈判和停火"
+    }
+  ]
+}

@@ -2,74 +2,18 @@
   "nodes": [
     {
       "id": "text_30_node_1",
-      "event_type": "Personnel",
-      "event_subtype": "ChangePosition",
-      "event_sub_subtype": "Promotion",
-      "description": "General Santander警察学员学校举行军官晋升仪式",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "首名炸弹袭击者在萨德尔城Mredi市场自我爆炸",
       "source_text": "text_30"
     },
     {
       "id": "text_30_node_2",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "一辆汽车进入学校大院并在检查站被警卫拦下",
-      "source_text": "text_30"
-    },
-    {
-      "id": "text_30_node_3",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "司机加速撞墙，汽车在当地时间上午9:30发生爆炸",
-      "source_text": "text_30"
-    },
-    {
-      "id": "text_30_node_4",
-      "event_type": "Life",
-      "event_subtype": "Die",
-      "event_sub_subtype": "Unspecified",
-      "description": "爆炸造成至少9人死亡，54人受伤，包括一名巴拿马人和一名厄瓜多尔人",
-      "source_text": "text_30"
-    },
-    {
-      "id": "text_30_node_5",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "Unspecified",
-      "description": "学员亲属聚集在学校大门前等待信息",
-      "source_text": "text_30"
-    },
-    {
-      "id": "text_30_node_6",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "哥伦比亚总统杜克称这是一次'袭击'并表示将立即返回首都",
-      "source_text": "text_30"
-    },
-    {
-      "id": "text_30_node_7",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "波哥大市长佩尼亚洛萨谴责这一'恐怖行为'",
-      "source_text": "text_30"
-    },
-    {
-      "id": "text_30_node_8",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "哥伦比亚广播电台RCN发布爆炸现场画面",
-      "source_text": "text_30"
-    },
-    {
-      "id": "text_30_node_9",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "Farc政党领袖Alape谴责袭击并称其为'对冲突政治出路的挑衅'",
+      "event_sub_subtype": "",
+      "description": "人群及救援人员到场时，第二名炸弹袭击者实施爆炸",
       "source_text": "text_30"
     }
   ],
@@ -77,41 +21,6 @@
     {
       "source": "text_30_node_1",
       "target": "text_30_node_2",
-      "relation": "before"
-    },
-    {
-      "source": "text_30_node_2",
-      "target": "text_30_node_3",
-      "relation": "before"
-    },
-    {
-      "source": "text_30_node_3",
-      "target": "text_30_node_4",
-      "relation": "before"
-    },
-    {
-      "source": "text_30_node_3",
-      "target": "text_30_node_5",
-      "relation": "before"
-    },
-    {
-      "source": "text_30_node_3",
-      "target": "text_30_node_6",
-      "relation": "before"
-    },
-    {
-      "source": "text_30_node_3",
-      "target": "text_30_node_7",
-      "relation": "before"
-    },
-    {
-      "source": "text_30_node_3",
-      "target": "text_30_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_30_node_3",
-      "target": "text_30_node_9",
       "relation": "before"
     }
   ]

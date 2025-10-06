@@ -1,0 +1,258 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "7月18日保加利亚布尔加斯机场发生恐怖袭击，导致5名以色列游客和1名保加利亚巴士司机死亡",
+      "support_text": "The July 18 terrorist attack in Bulgaria's Burgas, also known as the Burgas Bus Bombing, killed 5 Israeli tourists and a Bulgarian bus driver at the Sarafovo Airport.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部长Tsvetan Tsvetanov初步认为袭击是由一名从国外来的自杀式炸弹袭击者执行",
+      "support_text": "The initial lead, purported by Interior Minister, Tsvetan Tsvetanov, was that it has been executed by a suicide bomber, who arrived from abroad.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "观察员和恐怖主义专家认为袭击者被用作不知情的\"骡子\"，以色列媒体支持这一观点",
+      "support_text": "According to observers and terror experts, this lead is looking less and less reliable and the most sustainable hypothesis is that the perpetrator has been used as a mule. Israeli media largely back the above, writing that the young man with light complexion and blue eyes had been blown remotely, while standing between two coaches with Israeli tourists.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Correspondence",
+      "description": "保加利亚当局向以色列发送对目击者的提问，这些目击者因被镇静无法立即提供证词",
+      "support_text": "Speaking Sunday for the Bulgarian National Radio, BNR, Iliev informed that the Bulgarian authorities have sent to Israel their questions to some witnesses of the blast, who could not offer viable testimony right after the incident because they have been sedated and/or on other medications.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_5",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列当局对幸存者进行询问，其证词将被送回保加利亚附在案卷中",
+      "support_text": "After being questioned by the authorities in Israel, the testimony of the survivors will be sent back to Bulgaria to be attached to the case.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查员Georgi Iliev宣布调查证明布尔加斯恐怖袭击的肇事者是自杀式炸弹袭击者",
+      "support_text": "The probe has decisively proven that the alleged perpetrator of the terrorist act in Bulgaria's Burgas was a suicide bomber. The declaration, contradicting a number of reports and leads that that the perpetrator has been deluded, used as a mule, and has acted under the influence of illegal drugs, was made Sunday by investigator, Georgi Iliev, from the National Investigative Services.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Iliev表示袭击者是一名明知牺牲自己生命以造成他人死亡的外国公民",
+      "support_text": "\"This has been a suicide bomber, a man who knowingly sacrificed his own live in order to cause the death of many others. He is a foreign citizen who has chosen Bulgaria for this act,\" the investigator adamantly stated.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Iliev解释解决此类恐怖袭击案件可能需要数年时间",
+      "support_text": "When asked why weeks after the bombing the public still does not know the identity of the man and who is behind the attack, Iliev noted that there are many examples across the globe showing it could take years to solve such cases over the hurdles before the investigation.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "从袭击现场回收的男子遗骸被用来创建一张显示他可能外貌的图像",
+      "support_text": "Remains of the man recovered from the scene of the fatal attack were used to create an image showing his possible appearance as part of an appeal for public assistance in identifying him.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "国际刑警组织向190个成员国发布黑色通知并发布重建图像，寻求公众帮助识别袭击者",
+      "support_text": "At the request of Bulgarian police, INTERPOL issued a Black Notice – used to seek information about unidentified corpses – to each of its 190 member countries in all four official languages (Arabic, English, French and Spanish) and is now also publishing this reconstructed image to engage the public's help in identifying the man.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_1",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "肇事者被某人欺骗",
+      "support_text": "The perpetrator was deceived by someone",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_2",
+      "event_type": "Life",
+      "event_subtype": "Consume",
+      "event_sub_subtype": "Unspecified",
+      "description": "肇事者在非法药物影响下行动",
+      "support_text": "The perpetrator acted under the influence of illegal drugs",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹被放置在他的背包里",
+      "support_text": "The bomb was placed in his backpack",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "他将爆炸物放在一辆公交车上",
+      "support_text": "He put the explosive on a bus",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Iliev在周日为保加利亚国家电台发表讲话",
+      "support_text": "Speaking Sunday for the Bulgarian National Radio, BNR, Iliev informed that the Bulgarian authorities have sent to Israel their questions to some witnesses of the blast, who could not offer viable testimony right after the incident because they have been sedated and/or on other medications.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_6",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bulgarian police requested INTERPOL's assistance",
+      "support_text": "At the request of Bulgarian police, INTERPOL issued a Black Notice – used to seek information about unidentified corpses – to each of its 190 member countries",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_2",
+      "relation": "before",
+      "support_text": "The July 18 terrorist attack in Bulgaria's Burgas, also known as the Burgas Bus Bombing, killed 5 Israeli tourists and a Bulgarian bus driver at the Sarafovo Airport. The initial lead, purported by Interior Minister, Tsvetan Tsvetanov, was that it has been executed by a suicide bomber, who arrived from abroad."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_3",
+      "relation": "before",
+      "support_text": "The July 18 terrorist attack in Bulgaria's Burgas, also known as the Burgas Bus Bombing, killed 5 Israeli tourists and a Bulgarian bus driver at the Sarafovo Airport. According to observers and terror experts, this lead is looking less and less reliable and the most sustainable hypothesis is that the perpetrator has been used as a mule."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_4",
+      "relation": "before",
+      "support_text": "The July 18 terrorist attack in Bulgaria's Burgas, also known as the Burgas Bus Bombing, killed 5 Israeli tourists and a Bulgarian bus driver at the Sarafovo Airport. Speaking Sunday for the Bulgarian National Radio, BNR, Iliev informed that the Bulgarian authorities have sent to Israel their questions to some witnesses of the blast, who could not offer viable testimony right after the incident because they have been sedated and/or on other medications."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_9",
+      "relation": "before",
+      "support_text": "The July 18 terrorist attack in Bulgaria's Burgas, also known as the Burgas Bus Bombing, killed 5 Israeli tourists and a Bulgarian bus driver at the Sarafovo Airport. Remains of the man recovered from the scene of the fatal attack were used to create an image showing his possible appearance as part of an appeal for public assistance in identifying him."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_new_node_1",
+      "relation": "before",
+      "support_text": "A terrorist committed a terrorist act in Bulgaria's Burgas. The perpetrator was deceived by someone."
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_6",
+      "relation": "before",
+      "support_text": "The initial lead, purported by Interior Minister, Tsvetan Tsvetanov, was that it has been executed by a suicide bomber, who arrived from abroad. The declaration, contradicting a number of reports and leads that that the perpetrator has been deluded, used as a mule, and has acted under the influence of illegal drugs, was made Sunday by investigator, Georgi Iliev, from the National Investigative Services."
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_3",
+      "relation": "before",
+      "support_text": "The initial lead, purported by Interior Minister, Tsvetan Tsvetanov, was that it has been executed by a suicide bomber, who arrived from abroad. According to observers and terror experts, this lead is looking less and less reliable and the most sustainable hypothesis is that the perpetrator has been used as a mule."
+    },
+    {
+      "source": "text_3_node_3",
+      "target": "text_3_node_6",
+      "relation": "before",
+      "support_text": "According to observers and terror experts, this lead is looking less and less reliable and the most sustainable hypothesis is that the perpetrator has been used as a mule. The declaration, contradicting a number of reports and leads that that the perpetrator has been deluded, used as a mule, and has acted under the influence of illegal drugs, was made Sunday by investigator, Georgi Iliev, from the National Investigative Services."
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_node_5",
+      "relation": "before",
+      "support_text": "Speaking Sunday for the Bulgarian National Radio, BNR, Iliev informed that the Bulgarian authorities have sent to Israel their questions to some witnesses of the blast, who could not offer viable testimony right after the incident because they have been sedated and/or on other medications. After being questioned by the authorities in Israel, the testimony of the survivors will be sent back to Bulgaria to be attached to the case."
+    },
+    {
+      "source": "text_3_node_6",
+      "target": "text_3_node_7",
+      "relation": "before",
+      "support_text": "The probe has decisively proven that the alleged perpetrator of the terrorist act in Bulgaria's Burgas was a suicide bomber. The declaration, contradicting a number of reports and leads that that the perpetrator has been deluded, used as a mule, and has acted under the influence of illegal drugs, was made Sunday by investigator, Georgi Iliev, from the National Investigative Services. \"This has been a suicide bomber, a man who knowingly sacrificed his own live in order to cause the death of many others. He is a foreign citizen who has chosen Bulgaria for this act,\" the investigator adamantly stated."
+    },
+    {
+      "source": "text_3_node_7",
+      "target": "text_3_node_8",
+      "relation": "before",
+      "support_text": "\"This has been a suicide bomber, a man who knowingly sacrificed his own live in order to cause the death of many others. He is a foreign citizen who has chosen Bulgaria for this act,\" the investigator adamantly stated. When asked why weeks after the bombing the public still does not know the identity of the man and who is behind the attack, Iliev noted that there are many examples across the globe showing it could take years to solve such cases over the hurdles before the investigation."
+    },
+    {
+      "source": "text_3_node_9",
+      "target": "text_3_node_10",
+      "relation": "before",
+      "support_text": "Remains of the man recovered from the scene of the fatal attack were used to create an image showing his possible appearance as part of an appeal for public assistance in identifying him. At the request of Bulgarian police, INTERPOL issued a Black Notice – used to seek information about unidentified corpses – to each of its 190 member countries in all four official languages (Arabic, English, French and Spanish) and is now also publishing this reconstructed image to engage the public's help in identifying the man."
+    },
+    {
+      "source": "text_3_new_node_1",
+      "target": "text_3_new_node_2",
+      "relation": "before",
+      "support_text": "The perpetrator was deceived by someone. The perpetrator acted under the influence of illegal drugs."
+    },
+    {
+      "source": "text_3_new_node_2",
+      "target": "text_3_node_6",
+      "relation": "before",
+      "support_text": "The perpetrator acted under the influence of illegal drugs. The declaration contradicted a number of reports and leads about the perpetrator."
+    },
+    {
+      "source": "text_3_new_node_3",
+      "target": "text_3_new_node_4",
+      "relation": "before",
+      "support_text": "The bomb was placed in his backpack before he put the explosive on a bus"
+    },
+    {
+      "source": "text_3_new_node_4",
+      "target": "text_3_node_1",
+      "relation": "before",
+      "support_text": "He put the explosive on a bus before the terrorist attack occurred"
+    },
+    {
+      "source": "text_3_new_node_5",
+      "target": "text_3_node_4",
+      "relation": "before",
+      "support_text": "Iliev在周日为保加利亚国家电台发表讲话，然后通知听众关于保加利亚当局已向以色列发送问题的事实"
+    },
+    {
+      "source": "text_3_new_node_6",
+      "target": "text_3_node_10",
+      "relation": "before",
+      "support_text": "At the request of Bulgarian police, INTERPOL issued a Black Notice"
+    }
+  ]
+}

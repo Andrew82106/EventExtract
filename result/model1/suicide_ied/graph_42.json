@@ -2,58 +2,66 @@
   "nodes": [
     {
       "id": "text_42_node_1",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "斯洛伐克财政部将2012年经济增长预测从1.7%下调至1.1%。",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式炸弹袭击者在游乐园附近引爆了炸弹",
       "source_text": "text_42"
     },
     {
       "id": "text_42_node_2",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "财政部指出预测调整考虑了欧元区负面发展，特别是意大利和法国紧缩措施不足。",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉合尔公园自杀袭击的死亡人数达到74人，又有两人因伤死亡",
       "source_text": "text_42"
     },
     {
       "id": "text_42_node_3",
-      "event_type": "Contact",
-      "event_subtype": "RequestCommand",
-      "event_sub_subtype": "Broadcast",
-      "description": "财政部计划在2013年将公共财政赤字减少至GDP的2.9%。",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "17岁和18岁的受害者分别在两家医院去世",
       "source_text": "text_42"
     },
     {
       "id": "text_42_node_4",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "财政部预测2013年经济增长将达到2.7%，导致失业率稳定。",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班的一个分支宣称对袭击负责",
       "source_text": "text_42"
     },
     {
       "id": "text_42_node_5",
-      "event_type": "Contact",
-      "event_subtype": "RequestCommand",
-      "event_sub_subtype": "Broadcast",
-      "description": "财政部计划在2014年将公共赤字减少至2.3%。",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生在拉合尔的一个繁忙公园，至少有29名儿童在袭击中丧生",
       "source_text": "text_42"
     },
     {
       "id": "text_42_node_6",
-      "event_type": "Contact",
-      "event_subtype": "RequestCommand",
-      "event_sub_subtype": "Broadcast",
-      "description": "财政部计划在2015年将公共赤字减少至1.5%。",
+      "event_type": "Disaster",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "这是自2014年佩沙瓦尔军事学院屠杀以来巴基斯坦最致命的袭击",
       "source_text": "text_42"
     },
     {
       "id": "text_42_node_7",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "财政部预测财政措施将在2013年、2014年和2015年分别使GDP增长减少0.7、0.5和0.8个百分点。",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Meet",
+      "description": "陆军参谋长下令在旁遮普省发起大规模反恐行动",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_8",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "自袭击以来，从费萨拉巴德、杰卢姆、南卡纳、拉合尔、谢克普拉和其他地区逮捕了数百名嫌疑人",
       "source_text": "text_42"
     }
   ],
@@ -74,28 +82,23 @@
       "relation": "before"
     },
     {
-      "source": "text_42_node_3",
+      "source": "text_42_node_2",
       "target": "text_42_node_5",
       "relation": "before"
     },
     {
-      "source": "text_42_node_3",
-      "target": "text_42_node_7",
-      "relation": "before"
-    },
-    {
-      "source": "text_42_node_5",
+      "source": "text_42_node_2",
       "target": "text_42_node_6",
-      "relation": "before"
-    },
-    {
-      "source": "text_42_node_5",
-      "target": "text_42_node_7",
       "relation": "before"
     },
     {
       "source": "text_42_node_6",
       "target": "text_42_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_7",
+      "target": "text_42_node_8",
       "relation": "before"
     }
   ]

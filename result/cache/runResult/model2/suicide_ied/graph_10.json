@@ -1,0 +1,336 @@
+{
+  "nodes": [
+    {
+      "id": "text_10_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "几个月前，叙利亚边境城镇苏鲁克发生袭击，造成33人死亡。",
+      "support_text": "Months earlier, another attack left 33 dead in Suruc, a town on the Syrian border.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "10月，两名自杀式炸弹袭击者在首都安卡拉的一次和平集会上杀害了102人。",
+      "support_text": "In October, a pair of suicide bombers killed 102 people during a peace rally in the capital, Ankara.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1月12日，一名ISIS成员在伊斯坦布尔历史区引爆爆炸装置，造成10人死亡，15人受伤。",
+      "support_text": "The attack, in which a 28 year Saudi man identified by police as an ISIS member detonated an explosive device inside a crowd of German tourists, killing 10 people and wounding 15",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "当地店主报告听到震耳欲聋的爆炸声，并看到人们逃离该地区。",
+      "support_text": "Near the scene of the explosion, which had been cordoned off by Turkish police, local shopkeepers reported hearing a thunderous blast and seeing people fleeing the area.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_5",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "德国政府警告其在土耳其的公民避免人群和主要地标。",
+      "support_text": "as Germany's government warned its citizens there to avoid crowds and key landmarks",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_6",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "一些旅行社开始为前往土耳其的旅客提供免费取消服务。",
+      "support_text": "and some tour agencies began to offer Turkey-bound travelers free cancellations.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "土耳其总理Ahmet Davutoglu致电德国总理Angela Merkel表示慰问。",
+      "support_text": "Turkey's Prime Minister Ahmet Davutoglu called Germany's Chancellor Angela Merkel to express his condolences.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认自杀式炸弹袭击者是名为Nabil Fadli的ISIS成员。",
+      "support_text": "In a statement, he noted that the suicide bomber, named by police as Nabil Fadli, was an ISIS member.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员确认炸弹袭击者从邻国叙利亚进入土耳其。",
+      "support_text": "Other officials confirmed that the bomber had entered Turkey from neighboring Syria",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS尚未声称对这次袭击负责。",
+      "support_text": "but ISIS has not yet taken responsibility for the attack.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯坦布尔的致命ISIS炸弹袭击威胁要对土耳其的旅游经济造成重大打击",
+      "support_text": "A deadly ISIS bombing in Istanbul threatened to deal Turkey's tourist economy a major blow",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹袭击将给土耳其旅游经济造成重大打击",
+      "support_text": "A deadly ISIS bombing in Istanbul threatened to deal Turkey's tourist economy a major blow",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其警察封锁了爆炸现场",
+      "support_text": "Near the scene of the explosion, which had been cordoned off by Turkish police, local shopkeepers reported hearing a thunderous blast and seeing people fleeing the area.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "一位店主认为他们的窗户会破裂",
+      "support_text": "一位店主认为他们的窗户会破裂",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "一位店主告诉TIME杂志",
+      "support_text": "一位店主告诉TIME杂志",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "一位店主描述爆炸的强度",
+      "support_text": "一位店主描述爆炸的强度",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "超过500万德国人去年访问了土耳其",
+      "support_text": "超过500万德国人去年访问了土耳其",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "一系列暴力事件冲击了土耳其",
+      "support_text": "一系列暴力事件冲击了土耳其",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其安全部队与叛乱的库尔德工人党之间发生致命冲突",
+      "support_text": "土耳其安全部队与叛乱的库尔德工人党之间发生致命冲突",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其官员和旅游经营者一直担心ISIS会针对旅游区发动袭击",
+      "support_text": "土耳其官员和旅游经营者一直担心ISIS会针对旅游区发动袭击",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS枪手在苏塞镇的一个海滩上杀害了38名主要来自英国的游客",
+      "support_text": "ISIS gunmen killed 38 tourists, mainly from the United Kingdom, on a beach in the town of Sousse",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "突尼斯经历了游客数量的大幅下降",
+      "support_text": "Tunisia saw a huge drop in tourists",
+      "source_text": "text_10"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_2",
+      "relation": "before",
+      "support_text": "Months earlier, another attack left 33 dead in Suruc, a town on the Syrian border. In October, a pair of suicide bombers killed 102 people during a peace rally in the capital, Ankara."
+    },
+    {
+      "source": "text_10_node_2",
+      "target": "text_10_node_3",
+      "relation": "before",
+      "support_text": "In October, a pair of suicide bombers killed 102 people during a peace rally in the capital, Ankara. This image made from footage on a tourist's camera shows an explosion at Sultanahmet Square near the historical Roman obelisk in Istanbul, Turkey, Jan. 12, 2016."
+    },
+    {
+      "source": "text_10_node_2",
+      "target": "text_10_new_node_8",
+      "relation": "before",
+      "support_text": "一系列暴力事件冲击了土耳其"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_4",
+      "relation": "before",
+      "support_text": "The attack, in which a 28 year Saudi man identified by police as an ISIS member detonated an explosive device inside a crowd of German tourists, killing 10 people and wounding 15. Near the scene of the explosion, which had been cordoned off by Turkish police, local shopkeepers reported hearing a thunderous blast and seeing people fleeing the area."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_5",
+      "relation": "before",
+      "support_text": "A deadly ISIS bombing in Istanbul threatened to deal Turkey's tourist economy a major blow, as Germany's government warned its citizens there to avoid crowds and key landmarks"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_6",
+      "relation": "before",
+      "support_text": "A deadly ISIS bombing in Istanbul threatened to deal Turkey's tourist economy a major blow, as Germany's government warned its citizens there to avoid crowds and key landmarks and some tour agencies began to offer Turkey-bound travelers free cancellations."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_7",
+      "relation": "before",
+      "support_text": "The attack, in which a 28 year Saudi man identified by police as an ISIS member detonated an explosive device inside a crowd of German tourists, killing 10 people and wounding 15. Turkey's Prime Minister Ahmet Davutoglu called Germany's Chancellor Angela Merkel to express his condolences."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_8",
+      "relation": "before",
+      "support_text": "The attack, in which a 28 year Saudi man identified by police as an ISIS member detonated an explosive device inside a crowd of German tourists, killing 10 people and wounding 15. In a statement, he noted that the suicide bomber, named by police as Nabil Fadli, was an ISIS member."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_9",
+      "relation": "before",
+      "support_text": "The attack, in which a 28 year Saudi man identified by police as an ISIS member detonated an explosive device inside a crowd of German tourists, killing 10 people and wounding 15. Other officials confirmed that the bomber had entered Turkey from neighboring Syria"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_10",
+      "relation": "before",
+      "support_text": "The attack, in which a 28 year Saudi man identified by police as an ISIS member detonated an explosive device inside a crowd of German tourists, killing 10 people and wounding 15. but ISIS has not yet taken responsibility for the attack."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_new_node_1",
+      "relation": "before",
+      "support_text": "A deadly ISIS bombing in Istanbul threatened to deal Turkey's tourist economy a major blow"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_new_node_3",
+      "relation": "before",
+      "support_text": "The attack, in which a 28 year Saudi man identified by police as an ISIS member detonated an explosive device inside a crowd of German tourists, killing 10 people and wounding 15. Near the scene of the explosion, which had been cordoned off by Turkish police, local shopkeepers reported hearing a thunderous blast and seeing people fleeing the area."
+    },
+    {
+      "source": "text_10_node_4",
+      "target": "text_10_new_node_4",
+      "relation": "before",
+      "support_text": "一位店主认为他们的窗户会破裂"
+    },
+    {
+      "source": "text_10_new_node_1",
+      "target": "text_10_new_node_2",
+      "relation": "before",
+      "support_text": "A deadly ISIS bombing in Istanbul threatened to deal Turkey's tourist economy a major blow"
+    },
+    {
+      "source": "text_10_new_node_2",
+      "target": "text_10_node_5",
+      "relation": "before",
+      "support_text": "A deadly ISIS bombing in Istanbul threatened to deal Turkey's tourist economy a major blow, as Germany's government warned its citizens there to avoid crowds and key landmarks"
+    },
+    {
+      "source": "text_10_new_node_2",
+      "target": "text_10_node_6",
+      "relation": "before",
+      "support_text": "A deadly ISIS bombing in Istanbul threatened to deal Turkey's tourist economy a major blow, as Germany's government warned its citizens there to avoid crowds and key landmarks and some tour agencies began to offer Turkey-bound travelers free cancellations."
+    },
+    {
+      "source": "text_10_new_node_3",
+      "target": "text_10_node_4",
+      "relation": "before",
+      "support_text": "Near the scene of the explosion, which had been cordoned off by Turkish police, local shopkeepers reported hearing a thunderous blast and seeing people fleeing the area."
+    },
+    {
+      "source": "text_10_new_node_4",
+      "target": "text_10_new_node_5",
+      "relation": "before",
+      "support_text": "一位店主告诉TIME杂志"
+    },
+    {
+      "source": "text_10_new_node_5",
+      "target": "text_10_new_node_6",
+      "relation": "before",
+      "support_text": "一位店主描述爆炸的强度"
+    },
+    {
+      "source": "text_10_new_node_8",
+      "target": "text_10_node_3",
+      "relation": "before",
+      "support_text": "一系列暴力事件冲击了土耳其"
+    },
+    {
+      "source": "text_10_new_node_10",
+      "target": "text_10_node_1",
+      "relation": "before",
+      "support_text": "土耳其官员和旅游经营者的担心发生在袭击事件之前"
+    },
+    {
+      "source": "text_10_new_node_11",
+      "target": "text_10_new_node_12",
+      "relation": "before",
+      "support_text": "ISIS枪手在苏塞镇的一个海滩上杀害了38名主要来自英国的游客，导致突尼斯经历了游客数量的大幅下降"
+    }
+  ]
+}

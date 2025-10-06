@@ -2,122 +2,50 @@
   "nodes": [
     {
       "id": "text_3_node_1",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "ManufactureAssemble",
-      "event_sub_subtype": "Unspecified",
-      "description": "Laffey作为Allen M. Sumner级驱逐舰由Bath Iron Works建造。",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2012年7月18日，保加利亚布尔加斯机场发生恐怖袭击，造成5名以色列游客和1名保加利亚司机死亡",
       "source_text": "text_3"
     },
     {
       "id": "text_3_node_2",
-      "event_type": "Personnel",
-      "event_subtype": "StartPosition",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "1944年2月8日，Laffey正式服役。",
+      "description": "保加利亚警方生成并发布计算机生成的恐怖袭击嫌疑人图像，由INTERPOL协助国际识别",
       "source_text": "text_3"
     },
     {
       "id": "text_3_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "1944年6月6日，Laffey支持诺曼底登陆行动。",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "保加利亚警方向INTERPOL发布黑色通缉令，寻求国际协助识别无名尸体",
       "source_text": "text_3"
     },
     {
       "id": "text_3_node_4",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "1944年夏末，Laffey转移到太平洋战区参加对日本的进攻。",
+      "description": "保加利亚国家调查员Iliev宣布调查结果，确认袭击者为自杀式炸弹袭击者，且为外国公民",
       "source_text": "text_3"
     },
     {
       "id": "text_3_node_5",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "DamageDestroyDisableDismantle",
-      "event_sub_subtype": "Damage",
-      "description": "1945年4月16日，Laffey在冲绳附近遭到22架日本飞机攻击，但幸存下来并获得'不沉之船'的绰号。",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "保加利亚当局向以色列发送问题给目击者，但目击者因药物影响无法提供有效证词，需以色列进一步调查后提交",
       "source_text": "text_3"
     },
     {
       "id": "text_3_node_6",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "Unspecified",
-      "description": "1946年，Laffey作为支援船参加了比基尼环礁的原子弹试验。",
-      "source_text": "text_3"
-    },
-    {
-      "id": "text_3_node_7",
-      "event_type": "Personnel",
-      "event_subtype": "EndPosition",
-      "event_sub_subtype": "Unspecified",
-      "description": "1947年6月30日，Laffey退役并放入预备舰队。",
-      "source_text": "text_3"
-    },
-    {
-      "id": "text_3_node_8",
-      "event_type": "Personnel",
-      "event_subtype": "StartPosition",
-      "event_sub_subtype": "Unspecified",
-      "description": "1951年，Laffey重新服役。",
-      "source_text": "text_3"
-    },
-    {
-      "id": "text_3_node_9",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "2009年8月19日，USS Laffey被移动到Detyens Shipyard进行干船坞维修。",
-      "source_text": "text_3"
-    },
-    {
-      "id": "text_3_node_10",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "ManufactureAssemble",
-      "event_sub_subtype": "Unspecified",
-      "description": "在接下来的四个月里，Laffey的整个水下船体被更换，许多结构梁也被修复或更换。",
-      "source_text": "text_3"
-    },
-    {
-      "id": "text_3_node_11",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "维修后，USS Laffey在South Carolina Ports Authority's Veterans Terminal短暂停留。",
-      "source_text": "text_3"
-    },
-    {
-      "id": "text_3_node_12",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "6月底，USS Laffey被移动到Shipyard Creek的前Macalloy遗址的临时停泊处。",
-      "source_text": "text_3"
-    },
-    {
-      "id": "text_3_node_13",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "ManufactureAssemble",
-      "event_sub_subtype": "Unspecified",
-      "description": "在临时停泊处，维护人员继续修复Laffey的水上区域，特别是修复雨水侵入的泄漏。",
-      "source_text": "text_3"
-    },
-    {
-      "id": "text_3_node_14",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "ManufactureAssemble",
-      "event_sub_subtype": "Unspecified",
-      "description": "修复完成后，Laffey的所有外表面将被涂上新的油漆。",
-      "source_text": "text_3"
-    },
-    {
-      "id": "text_3_node_15",
       "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "正在确定在Patriots Point为Laffey提供新家的最佳位置。",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查员Iliev指出调查进展缓慢，可能需多年解决，并呼吁公众协助识别嫌疑人",
       "source_text": "text_3"
     }
   ],
@@ -128,8 +56,13 @@
       "relation": "before"
     },
     {
-      "source": "text_3_node_2",
+      "source": "text_3_node_1",
       "target": "text_3_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_4",
       "relation": "before"
     },
     {
@@ -145,51 +78,6 @@
     {
       "source": "text_3_node_5",
       "target": "text_3_node_6",
-      "relation": "before"
-    },
-    {
-      "source": "text_3_node_6",
-      "target": "text_3_node_7",
-      "relation": "before"
-    },
-    {
-      "source": "text_3_node_7",
-      "target": "text_3_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_3_node_8",
-      "target": "text_3_node_9",
-      "relation": "before"
-    },
-    {
-      "source": "text_3_node_9",
-      "target": "text_3_node_10",
-      "relation": "before"
-    },
-    {
-      "source": "text_3_node_10",
-      "target": "text_3_node_11",
-      "relation": "before"
-    },
-    {
-      "source": "text_3_node_11",
-      "target": "text_3_node_12",
-      "relation": "before"
-    },
-    {
-      "source": "text_3_node_12",
-      "target": "text_3_node_13",
-      "relation": "before"
-    },
-    {
-      "source": "text_3_node_13",
-      "target": "text_3_node_14",
-      "relation": "before"
-    },
-    {
-      "source": "text_3_node_14",
-      "target": "text_3_node_15",
       "relation": "before"
     }
   ]

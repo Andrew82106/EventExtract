@@ -2,125 +2,377 @@
   "nodes": [
     {
       "id": "text_16_node_1",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "在巴基斯坦拉合尔市的一个儿童公园发生了一起爆炸袭击，造成至少70人死亡，250多人受伤，大部分受害者是妇女和儿童。",
-      "support_text": "Thousands lined up to donate blood at hospitals in Pakistan's second largest city Lahore after a bombing at a popular children's park in the Iqbal Town neighborhood. At least 70 people were killed and over 250 injured at Gulshan-i-Iqbal Park. Most of the victims of the bombing are women and children.",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "索马里和非洲联盟部队重新控制被袭击的联合国化合物",
+      "support_text": "Somali and African Union forces have regained control of a UN compound in the Somali capital, Mogadishu, after it was attacked by gunmen...",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_2",
-      "event_type": "Medical",
-      "event_subtype": "Intervention",
-      "event_sub_subtype": "Unspecified",
-      "description": "当地出租车服务Careem提供免费交通服务，方便人们前往医院献血。",
-      "support_text": "Careem, a local on-demand taxi service, are offering free transport to the hospital for anyone willing to donate blood.",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击始于周三上午11:30（08:30 GMT）的爆炸",
+      "support_text": "A plume of thick black smoke was seen billowing into the sky after the initial explosion was heard at approximately 11:30am local time...",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_3",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "七小时后，活动家Jibran Nasir在推特上表示，拉合尔医院的献血者仍然很多，这让人看到了希望。",
-      "support_text": "Seven hours after the bombing, Pakistani activist Jibran Nasir, who has over 70,000 Facebook followers and ran as an independent candidate in Pakistan's 2013 elections, tweeted: 3:00am Lahore Hospitals still crowded with blood donors. This is what makes us Pakistan. This is what gives us hope, keeps us going #YouLost",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "交火持续一个半小时，包括武装分子进入化合物",
+      "support_text": "The gun battle lasted an hour-and-a-half that followed an explosion at the site killing at least four foreign security staff...",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_4",
       "event_type": "Cognitive",
-      "event_subtype": "Research",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "拉比亚·梅胡德汇编了一份关于巴基斯坦宗教迫害和针对少数群体的暴力的最全面的报告",
-      "support_text": "拉比亚·梅胡德汇编了一份关于巴基斯坦宗教迫害和针对少数群体的暴力的最全面的报告",
+      "description": "索马里政府确认伤亡：4名外国安保、4名索马里守卫、7名激进分子",
+      "support_text": "So far we have confirmed four UNDP foreign staff who were responsible for security, four Somali guards and seven militants.",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_5",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "Anthony Permal在Facebook上发布帖子",
-      "support_text": "Anthony Permal在Facebook上发布帖子",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "al-Shabab宣称对袭击负责",
+      "support_text": "The al-Shabab armed group claimed responsibility for the attack.",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_6",
-      "event_type": "Cognitive",
-      "event_subtype": "TeachingTrainingLearning",
-      "event_sub_subtype": "Unspecified",
-      "description": "他们希望我们憎恨",
-      "support_text": "他们希望我们憎恨",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "联合国秘书长表示震惊，并持续更新信息",
+      "support_text": "The Secretary-General is aware of the attack against the United Nations in Somalia, and he is shocked by it...",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_7",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
       "event_sub_subtype": "Unspecified",
-      "description": "拉霍尔的男男女女在医院外排队",
-      "support_text": "拉霍尔的男男女女在医院外排队",
+      "description": "联合国官员透露袭击发生在机场化合物外（含住宅和办公区）",
+      "support_text": "the attack was against a building just outside the secure airport compound where all the UN agencies were based.",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_8",
-      "event_type": "Life",
-      "event_subtype": "Injure",
-      "event_sub_subtype": "Unspecified",
-      "description": "穆斯林血液将流入基督教徒的身体",
-      "support_text": "穆斯林血液将流入基督教徒的身体",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "UN员工躲进掩体，多数人员安全",
+      "support_text": "UN staff took shelter in a bunker at the compound, UN staff told Al Jazeera.",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_9",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "DemonstrateWithViolence",
-      "description": "在伤害我们时，你们让我们团结起来",
-      "support_text": "在伤害我们时，你们让我们团结起来",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nicholas Kay确认袭击为复杂攻击，始于爆炸和武装分子入侵",
+      "support_text": "a complex attack had taken place at the compound, but that 'the vast majority of UN staff' were safe.",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_10",
-      "event_type": "Cognitive",
-      "event_subtype": "TeachingTrainingLearning",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
       "event_sub_subtype": "Unspecified",
-      "description": "活动家们开始在线协调工作",
-      "support_text": "活动家们开始在线协调工作",
+      "description": "政府电台报道自杀式炸弹袭击在化合物入口处发生",
+      "support_text": "the attack had started after a suicide bomber blew himself up at one of the gates of the complex.",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_11",
-      "event_type": "Transaction",
-      "event_subtype": "ExchangeBuySell",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
       "event_sub_subtype": "Unspecified",
-      "description": "你填写这个谷歌表单",
-      "support_text": "你填写这个谷歌表单",
+      "description": "摩加迪沙近期安全形势回顾：多次袭击但相对平静",
+      "support_text": "UN Secretary-General Ban Ki-moon visited Mogadishu last December and announced that the UN would re-open its offices in the seaside capital.",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_12",
-      "event_type": "Transaction",
-      "event_subtype": "Donation",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "联合国重新开放办公室，加速从内罗毕转移人员",
+      "support_text": "The UN began the process of moving its personnel from nearby Nairobi, Kenya, back to Mogadishu...",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
       "event_sub_subtype": "Unspecified",
-      "description": "活动家将专注于为那些无法负担的亲人提供食物、药物、轮椅/助行器或葬礼服务",
-      "support_text": "活动家将专注于为那些无法负担的亲人提供食物、药物、轮椅/助行器或葬礼服务",
+      "description": "非盟部队与政府军击退al-Shabab",
+      "support_text": "The 17,000-strong AU force, fighting alongside Somali government troops, has forced al-Shabab from a series of key towns.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "索马里总理谴责袭击，强调联合国的重要性",
+      "support_text": "Abdi Farah Shirdon, the Somali prime minister, condemned the 'senseless and despicable' attack on Wednesday...",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸后发生交火",
+      "support_text": "爆炸后发生交火",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "索马里政府向记者声明",
+      "support_text": "索马里政府向记者声明",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "联合国工作人员向半岛电视台报道",
+      "support_text": "联合国工作人员向半岛电视台报道",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国驻索马里 compound 内部遭受袭击事件",
+      "support_text": "袭击事件发生在联合国驻索马里 compound 内部",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_19",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子尝试攻击联合国工作人员",
+      "support_text": "袭击者试图攻击联合国工作人员",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子袭击联合国工作人员",
+      "support_text": "袭击者袭击联合国工作人员",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Shabab战士控制海滨首都",
+      "support_text": "Al-Shabab fighters once controlled the seaside capital.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "海滨首都放弃固定位置",
+      "support_text": "The seaside capital abandoned fixed positions.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "国际使团跟进联合国行动",
+      "support_text": "International embassies followed the UN's actions.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_24",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周三的袭击突显了脆弱的安全局势",
+      "support_text": "Wednesday’s attack highlighted the fragile security situation",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "联合国和使馆审查安全计划",
+      "support_text": "UN and embassies reviewed safety plans",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国和使馆决定是否足够防御",
+      "support_text": "UN and embassies decided if defences were sufficient",
       "source_text": "text_16"
     }
   ],
   "edges": [
     {
-      "source": "text_16_node_1",
-      "target": "text_16_node_2",
-      "relation": "before",
-      "support_text": "Following the attack, scores of citizens began coordinating efforts to donate blood and provide support to the families of the victims."
-    },
-    {
-      "source": "text_16_node_1",
+      "source": "text_16_node_2",
       "target": "text_16_node_3",
       "relation": "before",
-      "support_text": "Seven hours after the bombing, Pakistani activist Jibran Nasir, who has over 70,000 Facebook followers and ran as an independent candidate in Pakistan's 2013 elections, tweeted: 3:00am Lahore Hospitals still crowded with blood donors. This is what makes us Pakistan. This is what gives us hope, keeps us going #YouLost"
+      "support_text": "The gun battle lasted an hour-and-a-half that followed an explosion at the site killing at least four foreign security staff..."
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_4",
+      "relation": "before",
+      "support_text": "Somali government said on Wednesday. 'So far we have confirmed four UNDP foreign staff who were responsible for security..."
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_14",
+      "relation": "before",
+      "support_text": "爆炸后发生交火"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_18",
+      "relation": "before",
+      "support_text": "袭击事件发生在联合国驻索马里 compound 内部（依据语义描述与node_2爆炸事件时序关联）"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_24",
+      "relation": "before",
+      "support_text": "袭击发生在周三上午11:30（08:30 GMT）的爆炸（node_2）为node_24的触发事件"
+    },
+    {
+      "source": "text_16_node_3",
+      "target": "text_16_node_8",
+      "relation": "before",
+      "support_text": "UN staff took shelter in a bunker at the compound, UN staff told Al Jazeera."
+    },
+    {
+      "source": "text_16_node_4",
+      "target": "text_16_node_5",
+      "relation": "before",
+      "support_text": "The al-Shabab armed group claimed responsibility for the attack."
+    },
+    {
+      "source": "text_16_node_6",
+      "target": "text_16_node_15",
+      "relation": "before",
+      "support_text": "Abdi Farah Shirdon, the Somali prime minister, condemned the 'senseless and despicable' attack on Wednesday..."
+    },
+    {
+      "source": "text_16_node_8",
+      "target": "text_16_node_9",
+      "relation": "before",
+      "support_text": "Nicholas Kay, the UN secretary-general’s special representative to Somalia, confirmed to Al Jazeera that 'a complex attack' had taken place at the compound..."
+    },
+    {
+      "source": "text_16_node_9",
+      "target": "text_16_node_6",
+      "relation": "before",
+      "support_text": "UN Secretary-General Ban Ki-moon... was 'shocked' at the news of the attack..."
+    },
+    {
+      "source": "text_16_node_10",
+      "target": "text_16_node_3",
+      "relation": "before",
+      "support_text": "the attack had started after a suicide bomber blew himself up at one of the gates of the complex."
+    },
+    {
+      "source": "text_16_node_10",
+      "target": "text_16_node_2",
+      "relation": "before",
+      "support_text": "自杀式爆炸事件（node_10）早于初始爆炸事件（node_2）的时序描述存在矛盾，需补充交叉时序关系"
+    },
+    {
+      "source": "text_16_node_12",
+      "target": "text_16_node_11",
+      "relation": "before",
+      "support_text": "UN Secretary-General Ban Ki-moon visited Mogadishu last December and announced that the UN would re-open its offices in the seaside capital."
+    },
+    {
+      "source": "text_16_node_13",
+      "target": "text_16_node_12",
+      "relation": "before",
+      "support_text": "The UN began the process of moving its personnel from nearby Nairobi, Kenya, back to Mogadishu..."
+    },
+    {
+      "source": "text_16_node_14",
+      "target": "text_16_node_16",
+      "relation": "before",
+      "support_text": "索马里政府向记者声明"
+    },
+    {
+      "source": "text_16_node_17",
+      "target": "text_16_node_6",
+      "relation": "before",
+      "support_text": "联合国工作人员向半岛电视台报道后，秘书长表示震惊"
+    },
+    {
+      "source": "text_16_node_18",
+      "target": "text_16_node_19",
+      "relation": "before",
+      "support_text": "武装分子尝试攻击（temporal_order 4需衔接node_3交火事件）"
+    },
+    {
+      "source": "text_16_node_19",
+      "target": "text_16_node_20",
+      "relation": "before",
+      "support_text": "武装分子实际实施袭击（temporal_order 5需衔接node_3交火事件）"
+    },
+    {
+      "source": "text_16_node_21",
+      "target": "text_16_node_13",
+      "relation": "before",
+      "support_text": "Al-Shabab控制海滨首都早于非盟部队击退事件"
+    },
+    {
+      "source": "text_16_node_22",
+      "target": "text_16_node_1",
+      "relation": "before",
+      "support_text": "海滨首都放弃位置早于联合国化合物被重新控制"
+    },
+    {
+      "source": "text_16_node_23",
+      "target": "text_16_node_6",
+      "relation": "after",
+      "support_text": "国际使团跟进发生在秘书长震惊事件之后"
+    },
+    {
+      "source": "text_16_node_24",
+      "target": "text_16_node_25",
+      "relation": "before",
+      "support_text": "袭击突显脆弱局势后（node_24）触发安全计划审查（node_25）"
+    },
+    {
+      "source": "text_16_node_25",
+      "target": "text_16_node_26",
+      "relation": "before",
+      "support_text": "安全计划审查（node_25）为防御评估（node_26）的前提"
     }
   ]
 }

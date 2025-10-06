@@ -3,184 +3,298 @@
     {
       "id": "text_10_node_1",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "双教堂自杀式炸弹袭击导致17人死亡，77人受伤。",
-      "support_text": "双教堂自杀式炸弹袭击导致17人死亡，77人受伤。",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年，Jundullah组织在伊朗东南部清真寺发动自杀式爆炸，致28人死亡，包括革命卫队成员，伊朗称其得到美国支持",
+      "support_text": "In 2010, two suicide bombers killed at least 28 people, including some of Iran's elite Revolutionary Guards, at a mosque in southeast Iran; an attack Iranian leaders said was backed by the United States.",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "5000名基督徒在拉合尔举行抗议， blocking 道路并高呼反政府口号。",
-      "support_text": "5000名基督徒在拉合尔举行抗议， blocking 道路并高呼反政府口号。",
+      "description": "2010年，伊朗安全部门截获从阿联酋出发的极端分子",
+      "support_text": "In 2010, our security services intercepted & captured extremists en route from UAE.",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_3",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "DemonstrateWithViolence",
-      "description": "抗议者在您汉阿巴德地区对过往车辆投掷石头，打碎窗户。",
-      "support_text": "抗议者在您汉阿巴德地区对过往车辆投掷石头，打碎窗户。",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年，Jaish al-Adl在Sistan and Baluchestan省发动袭击，造成10名边防警卫死亡",
+      "support_text": "In 2017 that killed 10 border guards.",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_4",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "DemonstrateWithViolence",
-      "description": "抗议者向平民投掷石头和空瓶子，并对他们进行折磨。",
-      "support_text": "抗议者向平民投掷石头和空瓶子，并对他们进行折磨。",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年6月，伊朗革命卫队击毙Ansar al-Furqan组织领导人",
+      "support_text": "In June, Iran's Revolutionary Guards said they had killed the group's suspected leader, Molavi Jalil Qanbar-Zehi, in a mountainous area of Sistan and Baluchestan.",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_5",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "DemonstrateWithViolence",
-      "description": "警察到达现场，用警棍驱散抗议者，以控制局势。",
-      "support_text": "警察到达现场，用警棍驱散抗议者，以控制局势。",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年10月，Jaish al-Adl绑架12名伊朗边防警卫，其中5人获释",
+      "support_text": "In October, the separatist Jaish al-Adl group kidnapped 12 Iranian border guards in the remote province, five of whom have since been released.",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_6",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_subtype": "Defeat",
       "event_sub_subtype": "Unspecified",
-      "description": "在古杰拉瓦拉，抗议者 blocking Bypass Chowk 并举行集会。",
-      "support_text": "在古杰拉瓦拉，抗议者 blocking Bypass Chowk 并举行集会。",
+      "description": "2018年12月6日，伊朗Chabahar警察局外发生自杀式爆炸，致3人死亡、48人受伤",
+      "support_text": "A suicide bomber has set off an explosion outside a police station in the Iranian southern port city of Chabahar, killing at least three people and wounding 48, state TV has reported. 'This morning a bomb inside a car exploded near a police station in Chabahar. Three people were killed and some others were injured,' Rahmdel Bameri, acting governor of Chabahar told state television, which reported the figure of 48 hurt.",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_7",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "DemonstrateWithViolence",
-      "description": "愤怒的民众在Chanda Qilla Bypass聚集，打碎几辆车的窗户。",
-      "support_text": "愤怒的民众在Chanda Qilla Bypass聚集，打碎几辆车的窗户。",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年12月6日，Ansar al-Furqan宣称对Chabahar爆炸负责",
+      "support_text": " SITE Intelligence Group reported that Sunni militant group Ansar al-Furqan had claimed responsibility for the attack.",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_8",
-      "event_type": "Justice",
-      "event_subtype": "ArrestJailDetain",
+      "event_type": "Life",
+      "event_subtype": "Die",
       "event_sub_subtype": "Unspecified",
-      "description": "古杰拉瓦拉拘留了15名破坏公共财产的抗议者。",
-      "support_text": "古杰拉瓦拉拘留了15名破坏公共财产的抗议者。",
+      "description": "2018年12月6日，Chabahar副省长报告两名警察死亡",
+      "support_text": "Mohammad Hadi Marashi, deputy governor for security affairs, told state TV that two police officers were killed in the attack.",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_9",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "DemonstrateWithViolence",
-      "description": "您汉阿巴德邻区的袭击引发了暴民暴力，两名疑似激进分子被杀，基督徒打砸汽车和巴士站。",
-      "support_text": "您汉阿巴德邻区的袭击引发了暴民暴力，两名疑似激进分子被杀，基督徒打砸汽车和巴士站。",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年12月6日，官员称执行爆炸的恐怖分子已被击毙",
+      "support_text": "An official said that 'the terrorist who carried out the attack was killed'.",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_10",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Meet",
-      "description": "全国各地的教堂将举行特别祈祷，基督教团体和公民社会成员将举行蜡烛悼念活动。",
-      "support_text": "全国各地的教堂将举行特别祈祷，基督教团体和公民社会成员将举行蜡烛悼念活动。",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年12月6日，Tasnim News Agency报道爆炸导致4人死亡、4人受伤，并称妇女和儿童受伤",
+      "support_text": "Four people were reportedly killed and 4 injured in a terrorist attack on Police headquarters in #Iran's southeastern city of #Chabahar: Acting Governor of #Sistan and #Baluchestan Province pic.twitter.com/sDY3ZUb31f — Tasnim News Agency (@Tasnimnews_EN) December 6, 2018",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_11",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
       "event_sub_subtype": "Unspecified",
-      "description": "电视频道报道了Ferozpur路上的混乱场面",
-      "support_text": "电视频道报道了Ferozpur路上的混乱场面",
+      "description": "2018年12月6日，伊朗外交部谴责恐怖袭击，表示将追责",
+      "support_text": "Foreign Minister Mohammad Javad Zarif tweeted. 'Foreign-backed terrorists kill & wound innocents in Chabahar. As we've made clear in the past, such crimes won’t go unpunished'.",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_12",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "DemonstrateWithViolence",
-      "description": "抗议活动变得暴力",
-      "support_text": "抗议活动变得暴力",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年12月6日，印度外交部强烈谴责袭击，承诺投资Chabahar港口项目",
+      "support_text": "India has said it is ready to invest up to...",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_13",
-      "event_type": "Control",
-      "event_subtype": "ImpedeInterfereWith",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
       "event_sub_subtype": "Unspecified",
-      "description": "地铁巴士服务被暂停",
-      "support_text": "地铁巴士服务被暂停",
+      "description": "2018年12月6日，美国给予伊朗Chabahar港口项目制裁例外",
+      "support_text": "The Indian foreign ministry strongly condemned the 'despicable terrorist attack'. 'The perpetrators behind this dastardly attack should be brought to justice expeditiously. There can be no justification for any act of terror’",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "2018年12月6日，Chabahar副省长Rahmdel Bameri向国家电视台报告爆炸事件伤亡情况",
+      "support_text": "Rahmdel Bameri, acting governor of Chabahar told state television, which reported the figure of 48 hurt.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "2018年12月6日，Reuters news agency报道Chabahar爆炸事件",
+      "support_text": "Reuters news agency reported the terrorist attack in Chabahar on December 6, 2018.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_16",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "附近的商店被强行关闭",
-      "support_text": "附近的商店被强行关闭",
+      "description": "该组织承认对伊朗南部炼油管道爆炸负责",
+      "support_text": "该组织承认对伊朗南部炼油管道爆炸负责",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "SITE Intelligence Group 报道了Ansar al-Furqan对袭击负责",
+      "support_text": "SITE Intelligence Group reported that Sunni militant group Ansar al-Furqan had claimed responsibility for the attack.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "逊尼派分离主义组织Jundullah声称汽车炸弹袭击",
+      "support_text": "逊尼派分离主义组织Jundullah声称汽车炸弹袭击",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "逊尼派分离主义组织Jundullah声称过去多次爆炸事件",
+      "support_text": "逊尼派分离主义组织Jundullah声称过去多次爆炸事件",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "德黑兰指控沙特阿拉伯和美国资助相关组织",
+      "support_text": "德黑兰指控沙特阿拉伯和美国资助相关组织",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "德黑兰指控沙特和美国资助相关组织",
+      "support_text": "德黑兰指控沙特和美国资助相关组织",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_22",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "利雅得和华盛顿否认相关指控",
+      "support_text": "利雅得和华盛顿否认相关指控",
       "source_text": "text_10"
     }
   ],
   "edges": [
     {
       "source": "text_10_node_1",
-      "target": "text_10_node_2",
+      "target": "text_10_node_6",
       "relation": "before",
-      "support_text": "双教堂自杀式炸弹袭击导致17人死亡，77人受伤。"
+      "support_text": "Such crimes won’t go unpunished"
     },
     {
-      "source": "text_10_node_2",
-      "target": "text_10_node_3",
+      "source": "text_10_node_1",
+      "target": "text_10_node_18",
       "relation": "before",
-      "support_text": "5000名基督徒在拉合尔举行抗议， blocking 道路并高呼反政府口号。"
-    },
-    {
-      "source": "text_10_node_3",
-      "target": "text_10_node_4",
-      "relation": "before",
-      "support_text": "抗议者在您汉阿巴德地区对过往车辆投掷石头，打碎窗户。"
+      "support_text": "Jundullah在2010年发动袭击（node_1）早于其声称事件（node_18）"
     },
     {
       "source": "text_10_node_4",
-      "target": "text_10_node_5",
-      "relation": "before",
-      "support_text": "抗议者向平民投掷石头和空瓶子，并对他们进行折磨。"
-    },
-    {
-      "source": "text_10_node_5",
       "target": "text_10_node_6",
       "relation": "before",
-      "support_text": "警察到达现场，用警棍驱散抗议者，以控制局势。"
+      "support_text": "In June, Iran's Revolutionary Guards said they had killed the group's suspected leader, Molavi Jalil Qanbar-Zehi, in a mountainous area of Sistan and Baluchestan."
     },
     {
       "source": "text_10_node_6",
       "target": "text_10_node_7",
       "relation": "before",
-      "support_text": "在古杰拉瓦拉，抗议者 blocking Bypass Chowk 并举行集会。"
+      "support_text": " SITE Intelligence Group reported that Sunni militant group Ansar al-Furqan had claimed responsibility for the attack."
     },
     {
-      "source": "text_10_node_7",
+      "source": "text_10_node_6",
       "target": "text_10_node_8",
       "relation": "before",
-      "support_text": "愤怒的民众在Chanda Qilla Bypass聚集，打碎几辆车的窗户。"
+      "support_text": "Mohammad Hadi Marashi, deputy governor for security affairs, told state TV that two police officers were killed in the attack."
     },
     {
-      "source": "text_10_node_8",
+      "source": "text_10_node_6",
       "target": "text_10_node_9",
       "relation": "before",
-      "support_text": "古杰拉瓦拉拘留了15名破坏公共财产的抗议者。"
+      "support_text": "An official said that 'the terrorist who carried out the attack was killed'."
     },
     {
-      "source": "text_10_node_9",
+      "source": "text_10_node_6",
       "target": "text_10_node_10",
       "relation": "before",
-      "support_text": "您汉阿巴德邻区的袭击引发了暴民暴力，两名疑似激进分子被杀，基督徒打砸汽车和巴士站。"
+      "support_text": "Four people were reportedly killed and 4 injured in a terrorist attack on Police headquarters in #Iran's southeastern city of #Chabahar: Acting Governor of #Sistan and #Baluchestan Province pic.twitter.com/sDY3ZUb31f — Tasnim News Agency (@Tasnimnews_EN) December 6, 2018"
+    },
+    {
+      "source": "text_10_node_6",
+      "target": "text_10_node_11",
+      "relation": "before",
+      "support_text": "Foreign Minister Mohammad Javad Zarif tweeted. 'Foreign-backed terrorists kill & wound innocents in Chabahar. As we've made clear in the past, such crimes won’t go unpunished'."
+    },
+    {
+      "source": "text_10_node_6",
+      "target": "text_10_node_12",
+      "relation": "before",
+      "support_text": "India has said it is ready to invest up to..."
+    },
+    {
+      "source": "text_10_node_6",
+      "target": "text_10_node_13",
+      "relation": "before",
+      "support_text": "The Indian foreign ministry strongly condemned the 'despicable terrorist attack'. 'The perpetrators behind this dastardly attack should be brought to justice expeditiously. There can be no justification for any act of terror’"
+    },
+    {
+      "source": "text_10_node_6",
+      "target": "text_10_node_14",
+      "relation": "before",
+      "support_text": "同一场爆炸事件中，副省长首先向电视台通报信息"
+    },
+    {
+      "source": "text_10_node_6",
+      "target": "text_10_node_15",
+      "relation": "before",
+      "support_text": "路透社报道了Chabahar爆炸事件（语义描述中事件发生时间为2018年12月6日）"
+    },
+    {
+      "source": "text_10_node_18",
+      "target": "text_10_node_19",
+      "relation": "before",
+      "support_text": "首次声称早于后续多次爆炸指控"
+    },
+    {
+      "source": "text_10_node_19",
+      "target": "text_10_node_20",
+      "relation": "before",
+      "support_text": "爆炸事件指控早于资助指控"
+    },
+    {
+      "source": "text_10_node_20",
+      "target": "text_10_node_21",
+      "relation": "before",
+      "support_text": "指控早于否认"
+    },
+    {
+      "source": "text_10_node_21",
+      "target": "text_10_node_22",
+      "relation": "before",
+      "support_text": "指控与否认构成因果链"
     }
   ]
 }

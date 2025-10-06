@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "text_17_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式袭击者驾驶装有爆炸物的汽车在被警察拦截后，于恰巴哈尔警察总部附近引爆了炸弹。",
+      "support_text": "Four policemen were killed and 42 other people were wounded in a suicide car bomb attack on a police headquarters in Iran’s southeast on Thursday. The attack occurred in Iran’s southern port city of Chabahar, state television Press TV reported, quoting security and local officials. Rahmdel Bameri, governor of Sistan-Baluchestan province, said a bomb-filled vehicle was used to target the police station by the suicide attacker. “Police stopped the explosive-laden car and started firing at the driver … who then set off the explosion near the police headquarters in Chabahar,” said Bameri.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成4名警察死亡，另有42人受伤。",
+      "support_text": "Four policemen were killed and 42 other people were wounded in a suicide car bomb attack on a police headquarters in Iran’s southeast on Thursday.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "有报道称袭击现场还发生了枪击事件。",
+      "support_text": "State media also reported shooting in the area, home to a Sunni Muslim minority in the largely Shia country, which has long been plagued by violence from both drug smugglers and separatists.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "网上流传出袭击后现场浓烟滚滚的图片。",
+      "support_text": "Images posted online showed thick smoke rising from the sky in the area where the attack took place.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "逊尼派武装组织“安萨尔·弗尔坎”宣称对此次袭击负责。",
+      "support_text": "The SITE Intelligence Group reported that Sunni armed group Ansar al-Furqan claimed responsibility for the attack.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗外交部长扎里夫指责有外国势力支持恐怖分子实施了此次袭击。",
+      "support_text": "Iran’s Foreign Minister Javad Zarif accused a foreign power of involvement without naming a specific country.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度外交部发表声明，强烈谴责此次“卑劣的恐怖袭击”。",
+      "support_text": "The Indian foreign ministry condemned Thursday’s “despicable terrorist attack”.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "国家电视台报道了袭击事件",
+      "support_text": "State television Press TV reported, quoting security and local officials.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "德黑兰指责沙特阿拉伯和美国资助武装团体",
+      "support_text": "德黑兰指责沙特阿拉伯和美国资助武装团体",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "利雅得和华盛顿否认指控",
+      "support_text": "利雅得和华盛顿否认指控",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_11",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗安全部门捕获极端分子",
+      "support_text": "伊朗安全部门捕获极端分子",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_12",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗将把恐怖分子及其头目绳之以法",
+      "support_text": "伊朗将把恐怖分子及其头目绳之以法",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装团体在锡斯坦-巴尔赫斯坦省对伊朗安全部队发动了多次袭击",
+      "support_text": "武装团体在锡斯坦-巴尔赫斯坦省对伊朗安全部队发动了多次袭击",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗在边境地区加强了安全措施",
+      "support_text": "伊朗在边境地区加强了安全措施",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "枪手在伊朗西南部的阿赫瓦兹军事阅兵式上开枪",
+      "support_text": "枪手在伊朗西南部的阿赫瓦兹军事阅兵式上开枪",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "另一场协调袭击的目标是德黑兰议会和霍梅尼陵墓",
+      "support_text": "另一场协调袭击的目标是德黑兰议会和霍梅尼陵墓",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_17",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "幕后黑手应被迅速绳之以法",
+      "support_text": "幕后黑手应被迅速绳之以法",
+      "source_text": "text_17"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_2",
+      "relation": "before",
+      "support_text": "Four policemen were killed and 42 other people were wounded in a suicide car bomb attack on a police headquarters in Iran’s southeast on Thursday."
+    },
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_3",
+      "relation": "before",
+      "support_text": "State media also reported shooting in the area, home to a Sunni Muslim minority in the largely Shia country, which has long been plagued by violence from both drug smugglers and separatists."
+    },
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_4",
+      "relation": "before",
+      "support_text": "Images posted online showed thick smoke rising from the sky in the area where the attack took place."
+    },
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_5",
+      "relation": "before",
+      "support_text": "The SITE Intelligence Group reported that Sunni armed group Ansar al-Furqan claimed responsibility for the attack."
+    },
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_6",
+      "relation": "before",
+      "support_text": "Iran’s Foreign Minister Javad Zarif accused a foreign power of involvement without naming a specific country."
+    },
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_7",
+      "relation": "before",
+      "support_text": "The Indian foreign ministry condemned Thursday’s “despicable terrorist attack”."
+    }
+  ]
+}

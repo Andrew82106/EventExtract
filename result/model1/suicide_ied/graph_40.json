@@ -2,58 +2,58 @@
   "nodes": [
     {
       "id": "text_40_node_1",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "卡车炸弹在摩加迪沙K5路口的Safari酒店外爆炸，造成建筑物倒塌和车辆起火",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Furuk Na'imi和Nusrat Na'imi于2002年3月27日从伊朗移民到以色列",
       "source_text": "text_40"
     },
     {
       "id": "text_40_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "两小时后，麦地那区发生第二次爆炸",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Furuk和Nusrat Na'imi被朋友邀请在Netanya的Park Hotel庆祝Passover晚宴",
       "source_text": "text_40"
     },
     {
       "id": "text_40_node_3",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Evacuation",
-      "description": "索马里武装部队从爆炸现场疏散受伤人员",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在Passover晚宴期间，一名恐怖分子在酒店餐厅引爆了爆炸装置",
       "source_text": "text_40"
     },
     {
       "id": "text_40_node_4",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "救援人员在Safari酒店废墟下寻找幸存者",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸立即导致22人死亡，140人受伤，其中8人在随后死亡",
       "source_text": "text_40"
     },
     {
       "id": "text_40_node_5",
-      "event_type": "Contact",
-      "event_subtype": "RequestCommand",
-      "event_sub_subtype": "Broadcast",
-      "description": "索马里总统宣布三天哀悼并呼吁民众为伤者献血",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Furuk Na'imi在爆炸中丧生，Nusrat Na'imi受伤",
       "source_text": "text_40"
     },
     {
       "id": "text_40_node_6",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "愤怒的抗议者在摩加迪沙街头举行抗议",
+      "description": "爆炸的恐怖分子被识别为来自Tulkarem的Hamas Iz a Din al-Kassam Brigades成员，并在以色列的通缉名单上",
       "source_text": "text_40"
     },
     {
       "id": "text_40_node_7",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
+      "event_type": "Life",
+      "event_subtype": "Die",
       "event_sub_subtype": "Unspecified",
-      "description": "索马里政府将袭击归咎于青年党极端组织，称之为'国家灾难'",
+      "description": "Furuk Na'imi被安葬在Netanya，她留下了丈夫和两个孩子",
       "source_text": "text_40"
     }
   ],
@@ -64,52 +64,27 @@
       "relation": "before"
     },
     {
-      "source": "text_40_node_1",
-      "target": "text_40_node_3",
-      "relation": "before"
-    },
-    {
-      "source": "text_40_node_1",
-      "target": "text_40_node_4",
-      "relation": "before"
-    },
-    {
-      "source": "text_40_node_1",
-      "target": "text_40_node_5",
-      "relation": "before"
-    },
-    {
-      "source": "text_40_node_1",
-      "target": "text_40_node_6",
-      "relation": "before"
-    },
-    {
-      "source": "text_40_node_1",
-      "target": "text_40_node_7",
-      "relation": "before"
-    },
-    {
       "source": "text_40_node_2",
       "target": "text_40_node_3",
       "relation": "before"
     },
     {
-      "source": "text_40_node_2",
+      "source": "text_40_node_3",
       "target": "text_40_node_4",
       "relation": "before"
     },
     {
-      "source": "text_40_node_2",
+      "source": "text_40_node_4",
       "target": "text_40_node_5",
       "relation": "before"
     },
     {
-      "source": "text_40_node_2",
+      "source": "text_40_node_5",
       "target": "text_40_node_6",
       "relation": "before"
     },
     {
-      "source": "text_40_node_2",
+      "source": "text_40_node_6",
       "target": "text_40_node_7",
       "relation": "before"
     }

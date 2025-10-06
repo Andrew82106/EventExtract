@@ -4,104 +4,88 @@
       "id": "text_27_node_1",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "1992年2月，以色列暗杀了真主党秘书长阿巴斯·穆萨维",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Security officials in Somalia say a key member of the cell that launched a devastating attack on Mogadishu has told them that al-Shabaab was responsible for the blast.",
       "source_text": "text_27"
     },
     {
       "id": "text_27_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "1992年3月17日下午2:42，自杀式炸弹袭击者驾驶装有炸药的皮卡车撞向以色列大使馆并引爆",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "The death toll from the bombing, which involved a truck packed with explosives, reached 320 late on Monday morning.",
       "source_text": "text_27"
     },
     {
       "id": "text_27_node_3",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "DamageDestroyDisableDismantle",
-      "event_sub_subtype": "Destroy",
-      "description": "袭击导致29人死亡，242人受伤，大使馆、天主教堂和附近学校建筑被摧毁",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Shabaab, which is an al-Qaida affiliate, vowed earlier this year to increase its attacks after both the Trump administration and Somalia’s recently elected president announced new military efforts against the group.",
       "source_text": "text_27"
     },
     {
       "id": "text_27_node_4",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "伊斯兰圣战组织声称对此次袭击负责",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The man, who was detained by Somali security forces as he tried to bring a second vehicle packed with explosives into the city on Saturday, has given details of the plot to interrogators.",
       "source_text": "text_27"
     },
     {
       "id": "text_27_node_5",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "伊斯兰圣战组织公布了爆炸前对大使馆进行监视的录像",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "Analysts said the Somali security services had been under “very great pressure” in recent months, and had been seriously weakened by internal factional fighting.",
       "source_text": "text_27"
     },
     {
       "id": "text_27_node_6",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "以色列派遣调查人员前往阿根廷寻找线索",
+      "description": "The official said the truck bomb was allowed to enter the city after a local tribal leader and businessman vouched for it.",
       "source_text": "text_27"
     },
     {
       "id": "text_27_node_7",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "调查人员发现袭击者是在阿根廷、巴拉圭和巴西三国交界地区策划的袭击",
+      "description": "The bombing provoked international condemnation.",
       "source_text": "text_27"
     },
     {
       "id": "text_27_node_8",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
       "event_sub_subtype": "Unspecified",
-      "description": "美国国家安全局截获的讯息揭示了伊朗对即将发生的袭击的了解，以及真主党行动人员伊马德·穆格尼耶的共谋",
+      "description": "The scale of the attack is still becoming clear, as more victims continue to be dug from the rubble spread over an area hundreds of metres wide in the centre of the city.",
       "source_text": "text_27"
     },
     {
       "id": "text_27_node_9",
-      "event_type": "Justice",
-      "event_subtype": "ChargeIndict",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "阿根廷正式指控穆格尼耶参与爆炸袭击",
+      "description": "Though details are still emerging, it is thought the truck bomb was aimed at one of the ministries in the area but was detonated prematurely by its driver when it was stopped by security officials while stuck in a traffic jam.",
       "source_text": "text_27"
     },
     {
       "id": "text_27_node_10",
-      "event_type": "Justice",
-      "event_subtype": "ArrestJailDetain",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "1998年5月，前伊朗驻阿根廷大使馆文化参赞莫森·拉巴尼在德国被拘留，阿根廷政府驱逐了七名伊朗外交官",
+      "description": "The explosion then ignited a fuel tanker parked nearby.",
       "source_text": "text_27"
     },
     {
       "id": "text_27_node_11",
       "event_type": "Justice",
-      "event_subtype": "Acquit",
+      "event_subtype": "",
       "event_sub_subtype": "Unspecified",
-      "description": "没有嫌疑人被起诉",
-      "source_text": "text_27"
-    },
-    {
-      "id": "text_27_node_12",
-      "event_type": "Justice",
-      "event_subtype": "ArrestJailDetain",
-      "event_sub_subtype": "Unspecified",
-      "description": "1999年，阿根廷政府对伊马德·穆格尼耶发出逮捕令，与此袭击和1994年AMIA爆炸案有关",
-      "source_text": "text_27"
-    },
-    {
-      "id": "text_27_node_13",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "怀疑以色列大使馆袭击和AMIA爆炸案两起袭击有关联",
+      "description": "Abdikadir Abdirahman, the director of Amin ambulances, said 320 people died in the blast and appealed for overseas assistance.",
       "source_text": "text_27"
     }
   ],
@@ -117,38 +101,28 @@
       "relation": "before"
     },
     {
-      "source": "text_27_node_2",
+      "source": "text_27_node_3",
       "target": "text_27_node_4",
       "relation": "before"
     },
     {
-      "source": "text_27_node_2",
+      "source": "text_27_node_4",
       "target": "text_27_node_5",
       "relation": "before"
     },
     {
-      "source": "text_27_node_2",
+      "source": "text_27_node_5",
       "target": "text_27_node_6",
-      "relation": "before"
-    },
-    {
-      "source": "text_27_node_2",
-      "target": "text_27_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_27_node_2",
-      "target": "text_27_node_12",
-      "relation": "before"
-    },
-    {
-      "source": "text_27_node_2",
-      "target": "text_27_node_13",
       "relation": "before"
     },
     {
       "source": "text_27_node_6",
       "target": "text_27_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_27_node_7",
+      "target": "text_27_node_8",
       "relation": "before"
     },
     {

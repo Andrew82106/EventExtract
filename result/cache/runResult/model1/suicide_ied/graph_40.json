@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "text_40_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "卡车炸弹在摩加迪沙K5路口的Safari酒店外爆炸，造成建筑物倒塌和车辆起火",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两小时后，麦地那区发生第二次爆炸",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "索马里武装部队从爆炸现场疏散受伤人员",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "救援人员在Safari酒店废墟下寻找幸存者",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_5",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "索马里总统宣布三天哀悼并呼吁民众为伤者献血",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "愤怒的抗议者在摩加迪沙街头举行抗议",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "索马里政府将袭击归咎于青年党极端组织，称之为'国家灾难'",
+      "source_text": "text_40"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_40_node_2",
+      "target": "text_40_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_40_node_2",
+      "target": "text_40_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_40_node_2",
+      "target": "text_40_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_40_node_2",
+      "target": "text_40_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_40_node_2",
+      "target": "text_40_node_7",
+      "relation": "before"
+    }
+  ]
+}

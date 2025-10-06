@@ -4,64 +4,80 @@
       "id": "text_19_node_1",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "1982年6月，以色列以78,000名战斗部队入侵黎巴嫩。",
+      "event_sub_subtype": "",
+      "description": "俾路支省发生针对哈扎拉社区的自杀式爆炸，造成20人死亡",
       "source_text": "text_19"
     },
     {
       "id": "text_19_node_2",
-      "event_type": "Personnel",
-      "event_subtype": "StartPosition",
-      "event_sub_subtype": "Unspecified",
-      "description": "1982年7月，真主党成立。",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "哈扎拉社区在奎达持续四天抗议，要求调查爆炸案并保护社区安全",
       "source_text": "text_19"
     },
     {
       "id": "text_19_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "2001年9月11日，发生由穆斯林自杀式恐怖分子实施的袭击。",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "俾路支省首席部长贾姆·卡马尔·阿拉尼和内政部长谢赫拉亚尔·阿夫里迪承诺解决安全问题",
       "source_text": "text_19"
     },
     {
       "id": "text_19_node_4",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "GrantAllowPassage",
-      "description": "最近，以色列单方面放弃西岸和加沙地带的领土，并修建安全围栏。",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "抗议者在奎达西部 bypass 公路旁搭建营地，妇女儿童参与静坐并焚烧木材御寒",
       "source_text": "text_19"
     },
     {
       "id": "text_19_node_5",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "针对以色列的袭击下降90%。",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "抗议者要求总理伊姆兰·汗亲临慰问并采取实际行动保障社区安全",
       "source_text": "text_19"
     },
     {
       "id": "text_19_node_6",
-      "event_type": "Justice",
-      "event_subtype": "ArrestJailDetain",
-      "event_sub_subtype": "Unspecified",
-      "description": "随着以色列从加沙撤出并表示将从西岸更多地区撤出，巴勒斯坦人开始交出哈马斯成员。",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "PTI 党派领袖阿夫里迪和布克赫里抵达奎达审查安全局势",
       "source_text": "text_19"
     },
     {
       "id": "text_19_node_7",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "随着以色列逆转某些压力，自杀式袭击减少。",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "阿夫里迪在内政部长的慰问活动中承诺联邦政府将终结针对哈扎拉的犯罪行为",
       "source_text": "text_19"
     },
     {
       "id": "text_19_node_8",
       "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "",
+      "description": "阿夫里迪警告恐怖分子企图通过制造分裂将巴基斯坦列入金融行动特别工作组黑名单",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_9",
+      "event_type": "Contact",
       "event_subtype": "Contact",
-      "event_sub_subtype": "Meet",
-      "description": "2005年11月8日，Robert Pape和Martin Kramer在华盛顿研究所特别政策论坛上就自杀式恐怖主义的起源和应对措施进行辩论。",
+      "event_sub_subtype": "",
+      "description": "安全会议召开讨论改善哈扎拉社区安全措施并结束抗议活动",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "首席部长秘书处发布声明称已开始调查爆炸案并取得进展",
       "source_text": "text_19"
     }
   ],
@@ -87,18 +103,28 @@
       "relation": "before"
     },
     {
-      "source": "text_19_node_4",
+      "source": "text_19_node_5",
       "target": "text_19_node_6",
       "relation": "before"
     },
     {
-      "source": "text_19_node_4",
+      "source": "text_19_node_6",
       "target": "text_19_node_7",
       "relation": "before"
     },
     {
       "source": "text_19_node_7",
       "target": "text_19_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_8",
+      "target": "text_19_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_9",
+      "target": "text_19_node_10",
       "relation": "before"
     }
   ]

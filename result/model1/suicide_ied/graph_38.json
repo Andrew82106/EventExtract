@@ -2,155 +2,75 @@
   "nodes": [
     {
       "id": "text_38_node_1",
-      "event_type": "Control",
-      "event_subtype": "ImpedeInterfereWith",
-      "event_sub_subtype": "Unspecified",
-      "description": "巴基斯坦的内部安全状况在过去两年以惊人的速度恶化",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2002年3月27日，Netanya Park酒店发生自杀式袭击，29人死亡，触发以色列Operation Defensive Shield军事行动",
       "source_text": "text_38"
     },
     {
       "id": "text_38_node_2",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "伊斯兰堡万豪酒店在过去曾被炸过两次",
+      "event_sub_subtype": "",
+      "description": "2002年5月19日下午，Netanya主要蔬果市场入口发生自杀式爆炸，3死56-59伤，PFLP宣称对此负责",
       "source_text": "text_38"
     },
     {
       "id": "text_38_node_3",
-      "event_type": "Contact",
-      "event_subtype": "RequestCommand",
-      "event_sub_subtype": "Broadcast",
-      "description": "基地组织在9/11袭击七周年发布视频，呼吁巴基斯坦的武装分子加强战斗",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "爆炸后以色列军方在Tulkarm和Ramallah开展短期西岸军事行动",
       "source_text": "text_38"
     },
     {
       "id": "text_38_node_4",
-      "event_type": "Personnel",
-      "event_subtype": "StartPosition",
-      "event_sub_subtype": "Unspecified",
-      "description": "六个月前，民选政府上台",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "以色列证实袭击由PFLP领导人Ahmed Saadat从约旦河西岸的耶路撒冷监狱遥控指挥",
       "source_text": "text_38"
     },
     {
       "id": "text_38_node_5",
-      "event_type": "Personnel",
-      "event_subtype": "EndPosition",
-      "event_sub_subtype": "Unspecified",
-      "description": "一个月前，政府迫使前总统佩尔韦兹·穆沙拉夫辞职",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "揭露袭击者司机Adel Adnan Mahmoud Jumaa和女性协助者Da'a Jiusi的参与",
       "source_text": "text_38"
     },
     {
       "id": "text_38_node_6",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "巴基斯坦军队在巴焦尔地区对基地组织和塔利班武装分子进行重大攻势",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "以色列安全部门承认在爆炸前20分钟收到预警但未能阻止",
       "source_text": "text_38"
     },
     {
       "id": "text_38_node_7",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "美国军方加强了对巴基斯坦边境武装分子的袭击，激怒了许多巴基斯坦人",
-      "source_text": "text_38"
-    },
-    {
-      "id": "text_38_node_8",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "武装分子发动炸弹袭击，主要是针对西北部的安全部队，以报复对他们的打击",
-      "source_text": "text_38"
-    },
-    {
-      "id": "text_38_node_9",
-      "event_type": "Contact",
-      "event_subtype": "RequestCommand",
-      "event_sub_subtype": "Broadcast",
-      "description": "周六袭击发生几小时前，新总统扎尔达里在议会发表首次演讲，呼吁根除恐怖主义",
-      "source_text": "text_38"
-    },
-    {
-      "id": "text_38_node_10",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "周六，自杀式卡车炸弹袭击者在伊斯兰堡万豪酒店发动袭击，造成至少43人死亡，近250人受伤",
-      "source_text": "text_38"
-    },
-    {
-      "id": "text_38_node_11",
-      "event_type": "Disaster",
-      "event_subtype": "FireExplosion",
-      "event_sub_subtype": "Unspecified",
-      "description": "袭击发生时，酒店起火，警方表示仍有人员被困",
-      "source_text": "text_38"
-    },
-    {
-      "id": "text_38_node_12",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "周日，扎尔达里向全国发表电视讲话，称这次爆炸是懦夫行为",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "",
+      "description": "针对Arab Bank等三银行的民事诉讼指控其向Hamas转移资金",
       "source_text": "text_38"
     }
   ],
   "edges": [
     {
       "source": "text_38_node_1",
-      "target": "text_38_node_2",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_1",
       "target": "text_38_node_3",
       "relation": "before"
     },
     {
-      "source": "text_38_node_1",
+      "source": "text_38_node_2",
+      "target": "text_38_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_38_node_3",
       "target": "text_38_node_4",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_1",
-      "target": "text_38_node_5",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_1",
-      "target": "text_38_node_6",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_1",
-      "target": "text_38_node_7",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_1",
-      "target": "text_38_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_1",
-      "target": "text_38_node_9",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_1",
-      "target": "text_38_node_10",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_1",
-      "target": "text_38_node_11",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_1",
-      "target": "text_38_node_12",
       "relation": "before"
     },
     {
@@ -160,32 +80,12 @@
     },
     {
       "source": "text_38_node_5",
-      "target": "text_38_node_6",
+      "target": "text_38_node_7",
       "relation": "before"
     },
     {
       "source": "text_38_node_6",
-      "target": "text_38_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_7",
-      "target": "text_38_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_9",
-      "target": "text_38_node_10",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_10",
-      "target": "text_38_node_11",
-      "relation": "before"
-    },
-    {
-      "source": "text_38_node_10",
-      "target": "text_38_node_12",
+      "target": "text_38_node_2",
       "relation": "before"
     }
   ]

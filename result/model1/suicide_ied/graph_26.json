@@ -2,18 +2,18 @@
   "nodes": [
     {
       "id": "text_26_node_1",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Meet",
-      "description": "6月13日达成美国斡旋的停火协议",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "7月ISIL宣称对喀布尔什叶派聚会的连环爆炸负责，造成85人死亡、400余人受伤，这是2001年后喀布尔最致命袭击",
       "source_text": "text_26"
     },
     {
       "id": "text_26_node_2",
-      "event_type": "Control",
-      "event_subtype": "ImpedeInterfereWith",
-      "event_sub_subtype": "Unspecified",
-      "description": "停火协议在一个月内未能生效",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "今年早些时候阿舒拉节期间，北部阿富汗针对什叶派信徒的爆炸袭击导致14人死亡",
       "source_text": "text_26"
     },
     {
@@ -21,15 +21,95 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "巴勒斯坦自杀式炸弹袭击者在以色列北部城镇比尼亚米纳的火车站附近引爆自己，造成多名士兵伤亡",
+      "description": "自杀式袭击者在喀布尔巴基尔-乌卢姆清真寺内引爆炸弹，至少27人死亡、多人受伤",
       "source_text": "text_26"
     },
     {
       "id": "text_26_node_4",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "喀布尔警察局长确认死亡人数为27人，并指出死亡人数可能上升",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "联合国声明至少32人死亡、50余人受伤，称其为暴行",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_6",
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "以色列坦克炮击约旦河西岸城市杰宁和图勒凯尔姆附近的巴勒斯坦警察阵地作为回应",
+      "description": "袭击者混入两层楼清真寺一楼人群引爆炸弹",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者描述爆炸后清真寺满目疮痍，其腰部受伤后爬出",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗总统谴责袭击为‘野蛮行为’",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "警方使用多辆警车将伤者送往医院",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "什叶派社区正举行结束哀悼的40天纪念仪式Arbaeen",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "ISIL通过 Amaq网站宣称对此次爆炸负责",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "塔利班否认参与此次袭击",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_13",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "喀布尔什叶派占人口约15%，宗教场所曾被塔利班禁止",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "批评者指出政府需加强宗教场所保护措施",
       "source_text": "text_26"
     }
   ],
@@ -46,7 +126,57 @@
     },
     {
       "source": "text_26_node_3",
+      "target": "text_26_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_26_node_3",
+      "target": "text_26_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_26_node_3",
+      "target": "text_26_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_26_node_3",
+      "target": "text_26_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_26_node_4",
+      "target": "text_26_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_26_node_5",
+      "target": "text_26_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_26_node_6",
+      "target": "text_26_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_26_node_7",
       "target": "text_26_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_26_node_10",
+      "target": "text_26_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_26_node_11",
+      "target": "text_26_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_26_node_13",
+      "target": "text_26_node_10",
       "relation": "before"
     }
   ]

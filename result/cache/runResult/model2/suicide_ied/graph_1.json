@@ -1,0 +1,207 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1982年11月18日，尼尔·罗伯茨在旺加努伊计算机中心外放置炸药，试图摧毁这个监控社会的象征，结果在爆炸中丧生。",
+      "support_text": "November 18 marked 33 years since the young Auckland chef-turned-punk walked up to what media had dubbed \"New Zealand's Big Brother\" just after midnight, and placed explosives at its doorsteps in the hope of destroying the symbol of surveillance society in 1982. When Neil Roberts blew up part of the Wanganui Computer Centre, killing himself instantly, a policeman told media: \"they'll be finding bits of him for days\".",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "在爆炸前，罗伯茨在厕所外涂鸦了'我们保持了一种近乎愚蠢的沉默'的文字，以及无政府主义象征和'无政府主义、和平、思考'的字样。",
+      "support_text": "Earlier, Roberts spraypainted the words \"we have maintained a silence closely resembling stupidity\" on the toilet block, accompanied by the anarchy-is-order symbol (\"A\" circled by an \"O\") and the words \"anarchy, peace, thinking\".",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "罗伯茨在爆炸前在一张纸板上潦草地写下了最后的话，告诉朋友们继续战斗。",
+      "support_text": "His final words, scribbled haphazardly on a piece of cardboard outside a public toilet, told friends to keep fighting. \"Heres [sic] one anarchist down. Hopefully there's a lot more waking up. One day we'll win - one day.\"",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "事件发生后，媒体和政治人物试图将罗伯茨描绘成一个被误导的怪人。",
+      "support_text": "The aftermath of the event was full of media and politicians seeking to paint Roberts as a misguided misfit.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "一家惠灵顿报纸以'欢快的朋克与死亡之约'为标题报道了此事。",
+      "support_text": "\"Cheerful Punk's Date with Death\" was splashed on a Wellington paper, and police stirred up hype about a potential anarchist terror group.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方炒作可能存在无政府主义恐怖组织。",
+      "support_text": "\"Cheerful Punk's Date with Death\" was splashed on a Wellington paper, and police stirred up hype about a potential anarchist terror group.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "新西兰国家广播电台报道了爆炸的威力，称警方最初无法确定被炸死者的性别，罗伯茨的尸体碎片散落在65米范围内。",
+      "support_text": "A bulletin on Radio New Zealand at the time said: \"the force of the blast was such that police were initially unable to determine the sex of the person killed\" and Roberts' body parts were scattered 65 metres.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "最近，警方在没有法庭命令的情况下获取了记者尼基·哈格的银行信息，准备搜查他的房子。",
+      "support_text": "Recently it was revealed police obtained bank information from Westpac bank about journalist Nicky Hager without any court order while preparing to raid his house.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "政府通信安全局被揭露在监视太平洋邻国。",
+      "support_text": "This comes off the back of revelations the GCSB are spying on Pacific neighbours and an era where emails, texts and Facebook messages are stored in US data banks.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_10",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "在当前时代，电子邮件、短信和Facebook消息存储在美国的数据银行中。",
+      "support_text": "This comes off the back of revelations the GCSB are spying on Pacific neighbours and an era where emails, texts and Facebook messages are stored in US data banks.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "下个月，惠灵顿市议会将开始试用带有传感器的摄像头，这些摄像头可以检测尖叫声、涂鸦的油漆气味以及可能发生斗殴的群体。",
+      "support_text": "Next month, Wellington City Council will start trialling cameras with sensors that can detect screaming, paint fumes from graffiti and and sense groups that may end up fighting.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府认为，在恐怖威胁增加的时代，为了国家安全，监控个人是合理的。",
+      "support_text": "All this surveillance is meant to be for our own good. In an age where terror threats are increasing, it makes sense, the government argues, to be monitoring individuals for the security of a nation, but at what cost?",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖主义行为发生在海外",
+      "support_text": "a terrorist act happened overseas",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "The aftermath of the event was full of media and politicians seeking to paint Roberts as a misguided misfit."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "\"Cheerful Punk's Date with Death\" was splashed on a Wellington paper..."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_6",
+      "relation": "before",
+      "support_text": "...police stirred up hype about a potential anarchist terror group."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_7",
+      "relation": "before",
+      "support_text": "A bulletin on Radio New Zealand at the time said..."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_8",
+      "relation": "before",
+      "support_text": "Recently it was revealed police obtained bank information from Westpac bank about journalist Nicky Hager without any court order while preparing to raid his house."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_9",
+      "relation": "before",
+      "support_text": "This comes off the back of revelations the GCSB are spying on Pacific neighbours..."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_10",
+      "relation": "before",
+      "support_text": "...an era where emails, texts and Facebook messages are stored in US data banks."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_11",
+      "relation": "before",
+      "support_text": "Next month, Wellington City Council will start trialling cameras with sensors..."
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_1",
+      "relation": "before",
+      "support_text": "Earlier, Roberts spraypainted the words \"we have maintained a silence closely resembling stupidity\" on the toilet block..."
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_node_1",
+      "relation": "before",
+      "support_text": "His final words, scribbled haphazardly on a piece of cardboard outside a public toilet, told friends to keep fighting."
+    },
+    {
+      "source": "text_1_node_8",
+      "target": "text_1_node_12",
+      "relation": "before",
+      "support_text": "All this surveillance is meant to be for our own good."
+    },
+    {
+      "source": "text_1_node_9",
+      "target": "text_1_node_12",
+      "relation": "before",
+      "support_text": "All this surveillance is meant to be for our own good."
+    },
+    {
+      "source": "text_1_node_10",
+      "target": "text_1_node_12",
+      "relation": "before",
+      "support_text": "All this surveillance is meant to be for our own good."
+    },
+    {
+      "source": "text_1_node_11",
+      "target": "text_1_node_12",
+      "relation": "before",
+      "support_text": "All this surveillance is meant to be for our own good."
+    }
+  ]
+}

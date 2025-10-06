@@ -4,96 +4,24 @@
       "id": "text_45_node_1",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "无人机计划最初是针对基地组织领导人的间歇性致命攻击",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在Bannu和Mastung发生了针对前联邦部长Akram Khan Durrani的汽车炸弹袭击，Siraj Raisani在此次袭击中牺牲。",
       "source_text": "text_45"
     },
     {
       "id": "text_45_node_2",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "该计划逐渐演变成主要针对低级别战斗人员的活动",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Khyber Pakthunkwa省督Iqbal Zafar Jhagra强烈谴责了这两起爆炸事件，并对遇难者表示哀悼。",
       "source_text": "text_45"
     },
     {
       "id": "text_45_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "在奥巴马政府下，无人机袭击数量大幅增加",
-      "source_text": "text_45"
-    },
-    {
-      "id": "text_45_node_4",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "去年CIA进行了创纪录的118次无人机袭击，每次花费超过100万美元",
-      "source_text": "text_45"
-    },
-    {
-      "id": "text_45_node_5",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "据独立估计，去年无人机袭击在巴基斯坦杀死了至少581名武装分子",
-      "source_text": "text_45"
-    },
-    {
-      "id": "text_45_node_6",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "被杀者中只有2人出现在美国通缉恐怖分子名单上",
-      "source_text": "text_45"
-    },
-    {
-      "id": "text_45_node_7",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "即使更宽松的统计显示CIA杀死了多达13名高价值目标，表明无人机计划只是偶尔击中高级 operatives",
-      "source_text": "text_45"
-    },
-    {
-      "id": "text_45_node_8",
-      "event_type": "Contact",
-      "event_subtype": "RequestCommand",
-      "event_sub_subtype": "Unspecified",
-      "description": "巴基斯坦高级官员近期要求奥巴马政府对目标暗杀计划施加新的限制",
-      "source_text": "text_45"
-    },
-    {
-      "id": "text_45_node_9",
       "event_type": "Contact",
       "event_subtype": "Contact",
       "event_sub_subtype": "Meet",
-      "description": "巴基斯坦官员表示CIA越来越多地杀死普通士兵，并已在与扎尔达里总统的讨论中提出此事",
-      "source_text": "text_45"
-    },
-    {
-      "id": "text_45_node_10",
-      "event_type": "Contact",
-      "event_subtype": "RequestCommand",
-      "event_sub_subtype": "Unspecified",
-      "description": "巴基斯坦敦促美国寻找更好的目标，更谨慎地进行，少一点鲁莽",
-      "source_text": "text_45"
-    },
-    {
-      "id": "text_45_node_11",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "美国官员表示这些袭击正在打击重要的基地组织 operatives，对保持美国安全至关重要",
-      "source_text": "text_45"
-    },
-    {
-      "id": "text_45_node_12",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "美国官员解释该计划演变是因为情报能力提高，能够识别不仅是高级恐怖分子，还有计划袭击美国本土和在阿富汗美军的基地组织士兵",
+      "description": "Iqbal Zafar Jhagra向遇难者家属表达同情，并祈祷伤者早日康复。",
       "source_text": "text_45"
     }
   ],
@@ -106,51 +34,6 @@
     {
       "source": "text_45_node_2",
       "target": "text_45_node_3",
-      "relation": "before"
-    },
-    {
-      "source": "text_45_node_3",
-      "target": "text_45_node_4",
-      "relation": "before"
-    },
-    {
-      "source": "text_45_node_4",
-      "target": "text_45_node_5",
-      "relation": "before"
-    },
-    {
-      "source": "text_45_node_5",
-      "target": "text_45_node_6",
-      "relation": "before"
-    },
-    {
-      "source": "text_45_node_6",
-      "target": "text_45_node_7",
-      "relation": "before"
-    },
-    {
-      "source": "text_45_node_7",
-      "target": "text_45_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_45_node_8",
-      "target": "text_45_node_10",
-      "relation": "before"
-    },
-    {
-      "source": "text_45_node_9",
-      "target": "text_45_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_45_node_10",
-      "target": "text_45_node_11",
-      "relation": "before"
-    },
-    {
-      "source": "text_45_node_11",
-      "target": "text_45_node_12",
       "relation": "before"
     }
   ]

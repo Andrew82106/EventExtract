@@ -26,11 +26,20 @@ class LayeredMergerEvaluator:
         初始化评测器
         
         Args:
-            graphs_dir (str): 图文件夹路径（包含多个graph_X.json文件）
+            graphs_dir (str or list): 图文件夹路径（包含多个graph_X.json文件）
+                                      可以是单个字符串路径，也可以是多个路径组成的列表
             ground_truth_path (str): ground truth数据路径
             output_dir (str): 输出目录路径
         """
-        self.graphs_dir = graphs_dir
+        # 标准化 graphs_dir 为列表格式
+        if isinstance(graphs_dir, str):
+            self.graphs_dir_list = [graphs_dir]
+        elif isinstance(graphs_dir, list):
+            self.graphs_dir_list = graphs_dir
+        else:
+            raise ValueError("graphs_dir 必须是字符串或字符串列表")
+        
+        self.graphs_dir = graphs_dir  # 保留原始输入，用于兼容性
         self.ground_truth_path = ground_truth_path
         self.output_dir = output_dir
         self.logger = Logger()
@@ -41,7 +50,7 @@ class LayeredMergerEvaluator:
         # 加载数据
         self.graphs = []
         self.ground_truth = None
-        self.attack_type = self._extract_attack_type_from_path(graphs_dir)
+        self.attack_type = self._extract_attack_type_from_path(self.graphs_dir_list[0])
         
         self._load_graphs()
         self._load_ground_truth()
@@ -53,14 +62,26 @@ class LayeredMergerEvaluator:
         return parts[-1] if parts else 'unknown'
     
     def _load_graphs(self):
-        """加载所有图文件"""
-        self.logger.printLog(f"从 {self.graphs_dir} 加载图文件...")
+        """加载所有图文件（支持从多个目录加载）"""
+        if len(self.graphs_dir_list) == 1:
+            self.logger.printLog(f"从 {self.graphs_dir_list[0]} 加载图文件...")
+        else:
+            self.logger.printLog(f"从 {len(self.graphs_dir_list)} 个目录加载图文件...")
+            for dir_path in self.graphs_dir_list:
+                self.logger.printLog(f"  - {dir_path}")
         
         graph_files = []
-        for filename in os.listdir(self.graphs_dir):
-            if filename.startswith('graph_') and filename.endswith('.json') and 'merged' not in filename:
-                file_path = os.path.join(self.graphs_dir, filename)
-                graph_files.append(file_path)
+        
+        # 遍历所有目录
+        for graphs_dir in self.graphs_dir_list:
+            if not os.path.exists(graphs_dir):
+                self.logger.printLog(f"警告: 目录不存在: {graphs_dir}")
+                continue
+                
+            for filename in os.listdir(graphs_dir):
+                if filename.startswith('graph_') and filename.endswith('.json') and 'merged' not in filename:
+                    file_path = os.path.join(graphs_dir, filename)
+                    graph_files.append(file_path)
         
         # 按文件名排序
         graph_files.sort()
@@ -545,7 +566,21 @@ class LayeredMergerEvaluator:
     def _save_results(self, results):
         """保存评测结果"""
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        model_type = "model1" if "model1" in self.graphs_dir else ("model2" if "model2" in self.graphs_dir else "model3")
+        
+        # 检查所有目录，确定模型类型
+        model_type = "unknown"
+        all_dirs_str = " ".join(self.graphs_dir_list)
+        if "model1" in all_dirs_str:
+            model_type = "model1"
+        elif "model2" in all_dirs_str:
+            model_type = "model2"
+        elif "model3" in all_dirs_str:
+            model_type = "model3"
+        
+        # 如果是多个目录，添加 "combined" 标记
+        if len(self.graphs_dir_list) > 1:
+            model_type = f"{model_type}_combined"
+        
         output_file = os.path.join(
             self.output_dir,
             f"layered_evaluation_{self.attack_type}_{model_type}_{timestamp}.json"
@@ -560,8 +595,13 @@ class LayeredMergerEvaluator:
 def main():
     """主函数"""
     # 硬编码配置
-    GRAPHS_DIR = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model1/suicide_ied"
-    GROUND_TRUTH_PATH = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_data/event_graphs_train.json"
+    GRAPHS_DIR = [
+        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model2/suicide_ied",
+        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/suicide_ied"
+    ]
+    # GRAPHS_DIR = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/suicide_ied"
+    # GROUND_TRUTH_PATH = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_data/event_graphs_train.json"
+    GROUND_TRUTH_PATH = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_data/event_graphs_test.json"
     OUTPUT_DIR = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/layered_evaluation"
     
     # 创建评测器

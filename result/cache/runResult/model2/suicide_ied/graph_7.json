@@ -1,0 +1,294 @@
+{
+  "nodes": [
+    {
+      "id": "text_7_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2015年1月10日，两名自杀式炸弹袭击者在黎巴嫩黎波里Jabal Mohsen区的一家拥挤的咖啡馆引爆自己，造成9人死亡，30多人受伤。",
+      "support_text": "On 10 January 2015, nine people were killed and more than 30 wounded when two suicide bombers blew themselves up in a crowded café in Jabal Mohsen, Tripoli, Lebanon.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "第一次爆炸后，第二名自杀式炸弹袭击者接近Abu Imran咖啡馆，但在他引爆自己之前，60岁的七个孩子的父亲'Abu Ali' Issa Khaddour冲上去制服了炸弹袭击者，防止了更多死亡。",
+      "support_text": "After the first explosion, the second suicide bomber approached the Abu Imran café. Before he could blow himself up, 60-year-old father of seven \"Abu Ali\" Issa Khaddour rushed and tackled the bomber, and prevented many deaths.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "伤者被送往Zgharta的医院，因为Jabal Mohsen的居民担心如果将他们送到黎波里的医院，逊尼派伊斯兰暴徒会杀死阿拉维派伤者。",
+      "support_text": "The wounded were taken to the hospital in Zgharta, as Jabal Mohsen residents were afraid that Sunni Islamist mobs would kill Alawite wounded if taken to a hospital in Tripoli.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "与基地组织有关的恐怖组织努斯拉阵线(Nusra Front)声称对这次袭击负责，这次袭击针对的是阿拉维派成员。",
+      "support_text": "The al-Qaeda affiliated terrorist group Nusra Front took responsibility for the attacks, which targeted members of the Alawite sect.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年1月11日，黎巴嫩内政部长Nohad Machnouk表示，这次袭击是由伊拉克和黎凡特伊斯兰国(ISIS)实施的。",
+      "support_text": "The interior minister of Lebanon, Nohad Machnouk, said on January 11 that the attack was carried out by the Islamic State of Iraq and the Levant.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_6",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年1月11日，努斯拉阵线的卡拉蒙分支威胁要对Jabal Mohsen和真主党发动更多袭击。",
+      "support_text": "On January 11, the Qalamoun branch of the Nusra Front threatened to conduct more attacks against Jabal Mohsen and Hezbollah.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年1月12日，死者被安葬。",
+      "support_text": "The dead were buried on January 12.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_8",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年4月10日，参与爆炸案的一名男子被黎巴嫩安全部队击毙。",
+      "support_text": "On 10 April 2015, one of the men implicated in the bombings was killed by Lebanese security forces.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_9",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年11月12日，原本计划在另一家Jabal Mohsen咖啡馆同时发生的自杀式爆炸袭击，但所谓的炸弹袭击者被拘留。",
+      "support_text": "A suicide bombing was also supposed to have taken place in another Jabal Mohsen café simultaneously with the 2015 Beirut bombings on November 12, but the supposed bomber was detained.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "阿拉维派伤者被送往的黎波里的医院",
+      "support_text": "阿拉维派伤者被送往的黎波里的医院",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚政府在叙利亚内战中袭击逊尼派",
+      "support_text": "叙利亚政府在叙利亚内战中袭击逊尼派",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "逊尼派清真寺遭到爆炸袭击",
+      "support_text": "逊尼派清真寺遭到爆炸袭击",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人将逊尼派清真寺爆炸事件归咎于阿拉维派",
+      "support_text": "有人将逊尼派清真寺爆炸事件归咎于阿拉维派",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全扫荡暂时平息了的黎波里逊尼派与阿拉维派之间的冲突",
+      "support_text": "安全扫荡暂时平息了的黎波里逊尼派与阿拉维派之间的冲突",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "努斯拉阵线声称袭击是为了报复叙利亚政府对逊尼派的袭击以及逊尼派清真寺的爆炸事件",
+      "support_text": "努斯拉阵线声称袭击是为了报复叙利亚政府对逊尼派的袭击以及逊尼派清真寺的爆炸事件",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国强烈谴责了这次袭击",
+      "support_text": "美国强烈谴责了这次袭击",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "努斯拉阵线的卡拉蒙分支将针对Jabal Mohsen和真主党进行更多袭击",
+      "support_text": "努斯拉阵线的卡拉蒙分支将针对Jabal Mohsen和真主党进行更多袭击",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2015年11月12日发生贝鲁特爆炸事件",
+      "support_text": "2015年11月12日发生贝鲁特爆炸事件",
+      "source_text": "text_7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_2",
+      "relation": "before",
+      "support_text": "After the first explosion, the second suicide bomber approached the Abu Imran café."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_3",
+      "relation": "before",
+      "support_text": "On 10 January 2015, nine people were killed and more than 30 wounded when two suicide bombers blew themselves up in a crowded café in Jabal Mohsen, Tripoli, Lebanon. The wounded were taken to the hospital in Zgharta, as Jabal Mohsen residents were afraid that Sunni Islamist mobs would kill Alawite wounded if taken to a hospital in Tripoli."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_4",
+      "relation": "before",
+      "support_text": "On 10 January 2015, nine people were killed and more than 30 wounded when two suicide bombers blew themselves up in a crowded café in Jabal Mohsen, Tripoli, Lebanon. The al-Qaeda affiliated terrorist group Nusra Front took responsibility for the attacks, which targeted members of the Alawite sect."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_5",
+      "relation": "before",
+      "support_text": "On 10 January 2015, nine people were killed and more than 30 wounded when two suicide bombers blew themselves up in a crowded café in Jabal Mohsen, Tripoli, Lebanon. The interior minister of Lebanon, Nohad Machnouk, said on January 11 that the attack was carried out by the Islamic State of Iraq and the Levant."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "On 10 January 2015, nine people were killed and more than 30 wounded when two suicide bombers blew themselves up in a crowded café in Jabal Mohsen, Tripoli, Lebanon. On January 11, the Qalamoun branch of the Nusra Front threatened to conduct more attacks against Jabal Mohsen and Hezbollah."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_7",
+      "relation": "before",
+      "support_text": "On 10 January 2015, nine people were killed and more than 30 wounded when two suicide bombers blew themselves up in a crowded café in Jabal Mohsen, Tripoli, Lebanon. The dead were buried on January 12."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_8",
+      "relation": "before",
+      "support_text": "On 10 January 2015, nine people were killed and more than 30 wounded when two suicide bombers blew themselves up in a crowded café in Jabal Mohsen, Tripoli, Lebanon. On 10 April 2015, one of the men implicated in the bombings was killed by Lebanese security forces."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_9",
+      "relation": "before",
+      "support_text": "On 10 January 2015, nine people were killed and more than 30 wounded when two suicide bombers blew themselves up in a crowded café in Jabal Mohsen, Tripoli, Lebanon. A suicide bombing was also supposed to have taken place in another Jabal Mohsen café simultaneously with the 2015 Beirut bombings on November 12, but the supposed bomber was detained."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_new_node_9",
+      "relation": "before",
+      "support_text": "2015年1月10日的爆炸事件发生在2015年11月12日的贝鲁特爆炸事件之前。"
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_3",
+      "relation": "before",
+      "support_text": "Before he could blow himself up, 60-year-old father of seven \"Abu Ali\" Issa Khaddour rushed and tackled the bomber, and prevented many deaths. The wounded were taken to the hospital in Zgharta, as Jabal Mohsen residents were afraid that Sunni Islamist mobs would kill Alawite wounded if taken to a hospital in Tripoli."
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_new_node_1",
+      "relation": "before",
+      "support_text": "根据temporal_order，伤者被送往Zgharta的医院后，阿拉维派伤者被送往的黎波里的医院"
+    },
+    {
+      "source": "text_7_node_5",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "The interior minister of Lebanon, Nohad Machnouk, said on January 11 that the attack was carried out by the Islamic State of Iraq and the Levant. On January 11, the Qalamoun branch of the Nusra Front threatened to conduct more attacks against Jabal Mohsen and Hezbollah."
+    },
+    {
+      "source": "text_7_node_5",
+      "target": "text_7_node_7",
+      "relation": "before",
+      "support_text": "The interior minister of Lebanon, Nohad Machnouk, said on January 11 that the attack was carried out by the Islamic State of Iraq and the Levant. The dead were buried on January 12."
+    },
+    {
+      "source": "text_7_node_7",
+      "target": "text_7_node_8",
+      "relation": "before",
+      "support_text": "The dead were buried on January 12. On 10 April 2015, one of the men implicated in the bombings was killed by Lebanese security forces."
+    },
+    {
+      "source": "text_7_node_8",
+      "target": "text_7_node_9",
+      "relation": "before",
+      "support_text": "On 10 April 2015, one of the men implicated in the bombings was killed by Lebanese security forces. A suicide bombing was also supposed to have taken place in another Jabal Mohsen café simultaneously with the 2015 Beirut bombings on November 12, but the supposed bomber was detained."
+    },
+    {
+      "source": "text_7_new_node_2",
+      "target": "text_7_new_node_3",
+      "relation": "before",
+      "support_text": "根据temporal_order，叙利亚政府袭击逊尼派发生在逊尼派清真寺爆炸之前"
+    },
+    {
+      "source": "text_7_new_node_3",
+      "target": "text_7_new_node_4",
+      "relation": "before",
+      "support_text": "根据temporal_order，逊尼派清真寺爆炸发生在将爆炸事件归咎于阿拉维派之前"
+    },
+    {
+      "source": "text_7_new_node_4",
+      "target": "text_7_new_node_5",
+      "relation": "before",
+      "support_text": "根据temporal_order，将爆炸事件归咎于阿拉维派发生在安全扫荡平息冲突之前"
+    },
+    {
+      "source": "text_7_new_node_5",
+      "target": "text_7_new_node_6",
+      "relation": "before",
+      "support_text": "根据temporal_order，安全扫荡平息冲突发生在努斯拉阵线声称袭击是为了报复之前"
+    },
+    {
+      "source": "text_7_new_node_7",
+      "target": "text_7_new_node_8",
+      "relation": "before",
+      "support_text": "根据temporal_order，美国谴责袭击发生在努斯拉阵线进行更多袭击之前"
+    },
+    {
+      "source": "text_7_new_node_9",
+      "target": "text_7_node_9",
+      "relation": "before",
+      "support_text": "2015年11月12日，原本计划在另一家Jabal Mohsen咖啡馆同时发生的自杀式爆炸袭击，但所谓的炸弹袭击者被拘留。"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "text_19_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五，奎达发生了一起造成20人死亡的自杀式爆炸袭击。",
+      "support_text": "The community had been protesting for the last four days against the bombing, which had claimed 20 lives in Quetta on Friday.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈扎拉社区为抗议爆炸案开始了为期四天的静坐。",
+      "support_text": "Members of the Shia Hazara community, protesting against the Hazarganji suicide bombing, ended their sit-in late on Monday night after receiving assurances from Balochistan Chief Minister Jam Kamal Alyani and State Minister for Interior, Sheharyar Afridi.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "抗议者拒绝了地方政府和省级部长要求结束静坐的请求。",
+      "support_text": "The protesters had earlier refused to call off the sit-in despite repeated requests by the district administration and appeals of provincial ministers, including Balochistan Home Minister Mir Ziaullah Langove, health minister Naseebullah Marri and others.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "周一，联邦部长谢赫里亚尔·阿夫里迪抵达奎达评估安全局势。",
+      "support_text": "PTI leaders Sheharyar Afridi and Zulfiqar Bukhari arrived in Quetta on Monday.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "阿夫里迪部长访问了伊玛目巴拉赫并向遇难者家属表示哀悼。",
+      "support_text": "Afridi had visited the Imam Bargah located in Hazara town to condole with the bereaved family members.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_6",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "联邦部长与俾路支省首席部长会面，讨论如何结束抗议。",
+      "support_text": "Afridi and Bukhari also called on the Balochistan chief minister and other political leaders to discuss the means to improve security and end the ongoing protest by Hazara community.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "首席部长阿利亚尼发誓要将恐怖袭击的肇事者绳之以法",
+      "support_text": "首席部长阿利亚尼发誓要将恐怖袭击的肇事者绳之以法",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府应该为我们提供实际保护",
+      "support_text": "政府应该为我们提供实际保护",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人想要在巴基斯坦人之间制造差异",
+      "support_text": "有人想要在巴基斯坦人之间制造差异",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人想要在巴基斯坦内部制造冲突",
+      "support_text": "有人想要在巴基斯坦内部制造冲突",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦的敌人想要将这个国家列入[金融行动特别工作组]的黑名单",
+      "support_text": "巴基斯坦的敌人想要将这个国家列入[金融行动特别工作组]的黑名单",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦的敌人想要在经济等各个层面给予打击，使巴基斯坦分裂",
+      "support_text": "巴基斯坦的敌人想要在经济等各个层面给予打击，使巴基斯坦分裂",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "给予巴基斯坦打击，使其分裂",
+      "support_text": "给予巴基斯坦打击，使其分裂",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "部长被简要介绍了关于致命自杀式爆炸事件的调查。",
+      "support_text": "部长被简要介绍了关于致命自杀式爆炸事件的调查。",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "首席部长秘书处发布了一份新闻稿。",
+      "support_text": "首席部长秘书处发布了一份新闻稿。",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "宗派暴力针对哈扎拉人",
+      "support_text": "宗派暴力针对哈扎拉人",
+      "source_text": "text_19"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_19_node_1",
+      "target": "text_19_node_2",
+      "relation": "before",
+      "support_text": "Members of the Shia Hazara community, protesting against the Hazarganji suicide bombing, ended their sit-in late on Monday night after receiving assurances from Balochistan Chief Minister Jam Kamal Alyani and State Minister for Interior, Sheharyar Afridi."
+    },
+    {
+      "source": "text_19_node_2",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "The protesters had earlier refused to call off the sit-in despite repeated requests by the district administration and appeals of provincial ministers, including Balochistan Home Minister Mir Ziaullah Langove, health minister Naseebullah Marri and others."
+    },
+    {
+      "source": "text_19_node_4",
+      "target": "text_19_node_5",
+      "relation": "before",
+      "support_text": "Afridi had visited the Imam Bargah located in Hazara town to condole with the bereaved family members."
+    },
+    {
+      "source": "text_19_node_5",
+      "target": "text_19_node_6",
+      "relation": "before",
+      "support_text": "Afridi and Bukhari also called on the Balochistan chief minister and other political leaders to discuss the means to improve security and end the ongoing protest by Hazara community."
+    }
+  ]
+}

@@ -2,26 +2,74 @@
   "nodes": [
     {
       "id": "text_36_node_1",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "ManufactureAssemble",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
       "event_sub_subtype": "Unspecified",
-      "description": "1903年，这本书由Kegan Paul, Trench, Trubner出版社出版。",
+      "description": "2001年7月16日，巴勒斯坦伊斯兰圣战组织宣称对以色列比内马亚火车站自杀爆炸事件负责",
       "source_text": "text_36"
     },
     {
       "id": "text_36_node_2",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "2006年3月30日，Google从密歇根大学图书馆对这本书进行数字化扫描。",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "PreventPassage",
+      "description": "20岁袭击者Nidal Shaduf从约旦进入以色列，试图进入比内马亚火车站未果",
       "source_text": "text_36"
     },
     {
       "id": "text_36_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "因以色列重兵把守，袭击者改在士兵公交站引爆炸弹",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_4",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸时间为19:35，造成2名以军士兵死亡，11人受伤",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_5",
       "event_type": "Movement",
       "event_subtype": "Transportation",
+      "event_sub_subtype": "PreventPassage",
+      "description": "以色列全面暂停特拉维夫至海法铁路运输",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方展开大规模搜捕但未找到袭击车辆",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "2008年10月21日，用户tpb将Google数字化的这本书上传到Internet Archive。",
+      "description": "以军发动军事反击，袭击巴勒斯坦安全设施及 Force 17 组织",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "以军直升机轰炸伯利恒一处法塔赫成员住宅，导致4人死亡",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美、以方均谴责此次袭击",
       "source_text": "text_36"
     }
   ],
@@ -32,13 +80,38 @@
       "relation": "before"
     },
     {
-      "source": "text_36_node_1",
+      "source": "text_36_node_2",
       "target": "text_36_node_3",
       "relation": "before"
     },
     {
-      "source": "text_36_node_2",
-      "target": "text_36_node_3",
+      "source": "text_36_node_3",
+      "target": "text_36_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_36_node_4",
+      "target": "text_36_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_36_node_5",
+      "target": "text_36_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_36_node_6",
+      "target": "text_36_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_36_node_7",
+      "target": "text_36_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_36_node_8",
+      "target": "text_36_node_9",
       "relation": "before"
     }
   ]

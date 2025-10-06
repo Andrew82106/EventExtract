@@ -2,18 +2,66 @@
   "nodes": [
     {
       "id": "text_28_node_1",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "说话者对'他'的行为进行了经验性观察",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A suicide attack in south-eastern Iran has killed at least 27 members of the Revolutionary Guards and wounded 13 others.",
       "source_text": "text_28"
     },
     {
       "id": "text_28_node_2",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "说话者无法确认关于'他'最后几秒的其他信息",
+      "description": "The bomber targeted a bus transporting personnel in Sistan-Baluchestan province near the border with Pakistan.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "The Sunni Muslim militant group, Jaish al-Adl, has claimed responsibility for the bombing.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Revolutionary Guards blamed 'takfiri terrorists and mercenaries of the intelligence services of hegemonic powers' for the attack.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "Iran's foreign minister linked the bombing to a US-led conference on the Middle East taking place in Warsaw, Poland.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jaish al-Adl had previously been blamed for an attack on a paramilitary base in Nik Shahr that left one Revolutionary Guard dead and five others wounded.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "Jaish al-Adl had also claimed responsibility for two bombings that wounded three police officers in Zahedan at the end of January.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jaish al-Adl had kidnapped at least 10 security personnel in October.",
       "source_text": "text_28"
     }
   ],
@@ -21,6 +69,36 @@
     {
       "source": "text_28_node_1",
       "target": "text_28_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_28_node_2",
+      "target": "text_28_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_28_node_3",
+      "target": "text_28_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_28_node_4",
+      "target": "text_28_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_28_node_5",
+      "target": "text_28_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_28_node_6",
+      "target": "text_28_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_28_node_7",
+      "target": "text_28_node_8",
       "relation": "before"
     }
   ]

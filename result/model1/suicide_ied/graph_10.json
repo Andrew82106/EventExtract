@@ -5,39 +5,87 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "周一莫斯科时间14:40左右，一列从Tekhnologichesky Institut站开往Sennaya Ploshchad站的地铁车厢内发生不明装置爆炸。",
+      "description": "一名沙特ISIS成员在伊斯坦布尔炸死10名德国游客，伤15人，威胁土耳其旅游业",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_2",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "俄罗斯调查委员会将爆炸定性为恐怖袭击，但同时也在调查其他可能性。",
+      "description": "德国政府警告公民避免在土耳其的人群和关键地标处聚集",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_3",
-      "event_type": "Life",
-      "event_subtype": "Die",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
       "event_sub_subtype": "Unspecified",
-      "description": "根据国家反恐委员会提供的最新数据，爆炸造成11人死亡。",
+      "description": "一些旅游机构开始为前往土耳其的旅客提供免费取消服务",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_4",
       "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "日本首相安倍晋三谴责周一发生在圣彼得堡的疑似恐怖袭击，并强调与俄罗斯团结一致。",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其总理阿赫迈特·达武托格鲁致电德国总理安格拉·默克尔，表达哀悼",
       "source_text": "text_10"
     },
     {
       "id": "text_10_node_5",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "周二，安倍晋三在首相办公室表示不能容忍恐怖行为，并强调俄罗斯和日本人民站在一起。",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀炸弹袭击者被警方命名为Nabil Fadli，是一名ISIS成员",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "袭击发生在伊斯坦布尔历史区的苏丹阿赫迈特广场，靠近埃及 obelisk和蓝色清真寺",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸威力巨大，被附近居民描述为雷鸣般的巨响",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "所有遇难者均为外国游客，其中至少八名是德国公民",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击是土耳其近年来一系列暴力事件中最新的一次，包括安卡拉和平集会自杀炸弹袭击和叙利亚边境城镇Suruc的袭击",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "此次袭击似乎是ISIS首次故意针对土耳其的旅游区",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "突尼斯去年游客数量大幅下降，因为ISIS枪手在苏塞斯海滩杀死38名游客，主要是英国游客",
       "source_text": "text_10"
     }
   ],
@@ -49,17 +97,42 @@
     },
     {
       "source": "text_10_node_1",
-      "target": "text_10_node_3",
+      "target": "text_10_node_5",
       "relation": "before"
     },
     {
       "source": "text_10_node_1",
-      "target": "text_10_node_4",
+      "target": "text_10_node_6",
       "relation": "before"
     },
     {
-      "source": "text_10_node_4",
-      "target": "text_10_node_5",
+      "source": "text_10_node_1",
+      "target": "text_10_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_2",
+      "target": "text_10_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_11",
+      "target": "text_10_node_1",
       "relation": "before"
     }
   ]

@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_26_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "6月13日达成美国斡旋的停火协议",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "停火协议在一个月内未能生效",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴勒斯坦自杀式炸弹袭击者在以色列北部城镇比尼亚米纳的火车站附近引爆自己，造成多名士兵伤亡",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列坦克炮击约旦河西岸城市杰宁和图勒凯尔姆附近的巴勒斯坦警察阵地作为回应",
+      "source_text": "text_26"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_26_node_1",
+      "target": "text_26_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_26_node_2",
+      "target": "text_26_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_26_node_3",
+      "target": "text_26_node_4",
+      "relation": "before"
+    }
+  ]
+}

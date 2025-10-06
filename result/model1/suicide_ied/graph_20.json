@@ -2,42 +2,42 @@
   "nodes": [
     {
       "id": "text_20_node_1",
-      "event_type": "Contact",
-      "event_subtype": "ThreatenCoerce",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "Nawabzada Siraj Raisani在访问Mastung前收到来自不明人士的威胁，但他忽略了这些威胁。",
+      "description": "去年6月，伊斯兰国（ISIS）袭击伊朗议会和霍梅尼陵墓，造成至少18人死亡、50人受伤。",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "在Mastung的一个颁奖仪式后，不明人士向他的防弹车辆投掷手榴弹，两枚手榴弹在车辆附近爆炸。",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "一年来，Ansar al-Furqan组织炸毁伊朗南部库泽斯坦省的石油管道。",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_3",
-      "event_type": "Life",
-      "event_subtype": "Injure",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
       "event_sub_subtype": "Unspecified",
-      "description": "爆炸导致他的儿子Hakmal Raisani、安保人员和其他人受伤。",
+      "description": "上个月，美国恢复对伊朗制裁，此前制裁已于伊核协议后解除。",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_4",
-      "event_type": "Life",
-      "event_subtype": "Die",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "他的儿子Hakmal Raisani在奎塔的CMH医院因伤势过重去世。",
+      "description": "上个月，阿拉伯分离主义者和ISIS在伊朗阿瓦兹军事游行中发动枪击，造成数十人伤亡。",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_5",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "在儿子去世后，Nawabzada Siraj Raisani在住所举行新闻发布会，接受慰问。",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "当前事件：汽车炸弹袭击伊朗东南部查巴哈拉警察总部，导致至少2人死亡、多人受伤。",
       "source_text": "text_20"
     },
     {
@@ -45,31 +45,39 @@
       "event_type": "Contact",
       "event_subtype": "Contact",
       "event_sub_subtype": "Broadcast",
-      "description": "他在新闻发布会上表示，尽管因支持巴基斯坦而受到惩罚（儿子被杀），他仍将继续高举巴基斯坦的旗帜，并'欢迎'这种惩罚。",
+      "description": "伊朗国家电视台中断常规节目，实时报道查巴哈拉袭击事件。",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_7",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "他表示目前不会指责任何人，会看袭击者是否声称负责，并希望调查人员能够找到凶手。",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "省级官员Rahmdel Bameri披露，袭击者驾驶装满炸药的车辆接近总部后被警方拦截，随后引爆炸弹。",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_8",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "他表示自己属于一个部落，不会寻求任何人的帮助，相信非暴力，在收到证据前不会指责任何人。",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "袭击现场视频显示，查巴哈拉城市上空升起大量烟雾。",
       "source_text": "text_20"
     },
     {
       "id": "text_20_node_9",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "他澄清说，他、他的家人和部落与Tehrik Nifaz-i-Amn Balochistan组织威胁为谋杀复仇的声明无关。",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗媒体初步将袭击归咎于Ansar al-Furqan组织。",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "查巴哈拉位于伊朗东南部海岸，毗邻巴基斯坦边境。",
       "source_text": "text_20"
     }
   ],
@@ -112,6 +120,11 @@
     {
       "source": "text_20_node_8",
       "target": "text_20_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_9",
+      "target": "text_20_node_10",
       "relation": "before"
     }
   ]

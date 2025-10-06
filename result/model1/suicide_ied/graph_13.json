@@ -2,106 +2,66 @@
   "nodes": [
     {
       "id": "text_13_node_1",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "2002年黎巴嫩对自杀恐怖主义有较高支持率",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰国在巴格达一个什叶派区发动自杀式炸弹袭击，造成70人死亡，这是今年该市最致命的袭击。",
       "source_text": "text_13"
     },
     {
       "id": "text_13_node_2",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "2007年约六成巴勒斯坦人对哈马斯持积极看法",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在巴格达的萨德城，两起自杀式爆炸袭击导致24人死亡，60多人受伤，袭击者骑摩托车在拥挤的手机市场引爆。",
       "source_text": "text_13"
     },
     {
       "id": "text_13_node_3",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "奥萨马·本·拉登去世前在穆斯林公众中被广泛拒绝，但约三分之一的巴勒斯坦人对他持积极看法",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "伊斯兰国宣称对爆炸负责，并威胁继续袭击什叶派穆斯林。",
       "source_text": "text_13"
     },
     {
       "id": "text_13_node_4",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "过去四年埃及对自杀袭击的支持逐渐增加",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克军队在美国领导的联盟支持下，最近在西部安巴尔省将伊斯兰国击退，并准备进攻北部的摩苏尔市。",
       "source_text": "text_13"
     },
     {
       "id": "text_13_node_5",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "两年前埃及人对哈马斯的看法平衡为正面（52%支持，44%不支持）",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰国在周四袭击了首都的一座清真寺，造成15人死亡。",
       "source_text": "text_13"
     },
     {
       "id": "text_13_node_6",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "去年约六成约旦人对哈马斯持积极看法",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "总理哈迪尔·阿卜达伊在Facebook页面上表示，这些袭击是对伊斯兰国近期失败的回应。",
       "source_text": "text_13"
     },
     {
       "id": "text_13_node_7",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "当前哈马斯在巴勒斯坦的支持率下降至约四成",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周日黎明时分，自杀式炸弹袭击者和枪手袭击了巴格达阿布格拉布的伊拉克安全部队，造成至少17名安全部队成员死亡。",
       "source_text": "text_13"
     },
     {
       "id": "text_13_node_8",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "当前在哈马斯控制的加沙，只有34%的人对该组织持积极评价",
-      "source_text": "text_13"
-    },
-    {
-      "id": "text_13_node_9",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "当前在法塔赫控制的约旦河西岸，巴勒斯坦人对哈马斯的看法几乎平分秋色",
-      "source_text": "text_13"
-    },
-    {
-      "id": "text_13_node_10",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "当前哈马斯不如更世俗的法塔赫受欢迎",
-      "source_text": "text_13"
-    },
-    {
-      "id": "text_13_node_11",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "当前约旦人对哈马斯的看法基本平分秋色（47%支持，50%不支持）",
-      "source_text": "text_13"
-    },
-    {
-      "id": "text_13_node_12",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "当前埃及人对哈马斯的看法略微负面（51%不支持，45%支持）",
-      "source_text": "text_13"
-    },
-    {
-      "id": "text_13_node_13",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "当前黎巴嫩对自杀恐怖主义的支持率下降到35%",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Correspondence",
+      "description": "安全官员将袭击归咎于伊斯兰国，并称该组织在阿布格拉布发动了“大规模攻击”。",
       "source_text": "text_13"
     }
   ],
@@ -137,33 +97,8 @@
       "relation": "before"
     },
     {
-      "source": "text_13_node_6",
+      "source": "text_13_node_7",
       "target": "text_13_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_13_node_6",
-      "target": "text_13_node_9",
-      "relation": "before"
-    },
-    {
-      "source": "text_13_node_6",
-      "target": "text_13_node_10",
-      "relation": "before"
-    },
-    {
-      "source": "text_13_node_6",
-      "target": "text_13_node_11",
-      "relation": "before"
-    },
-    {
-      "source": "text_13_node_6",
-      "target": "text_13_node_12",
-      "relation": "before"
-    },
-    {
-      "source": "text_13_node_6",
-      "target": "text_13_node_13",
       "relation": "before"
     }
   ]

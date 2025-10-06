@@ -2,98 +2,90 @@
   "nodes": [
     {
       "id": "text_24_node_1",
-      "event_type": "Personnel",
-      "event_subtype": "StartPosition",
-      "event_sub_subtype": "Unspecified",
-      "description": "2006年3月，一名印度籍医生通过英国医学杂志的广告被招聘到澳大利亚工作。",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "卡车携带1800kg高爆炸药撞击法国军事基地，导致298名士兵死亡",
       "source_text": "text_24"
     },
     {
       "id": "text_24_node_2",
-      "event_type": "Personnel",
-      "event_subtype": "StartPosition",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "去年，该医生在黄金海岸医院担任初级医生。",
+      "description": "伊斯兰抵抗组织（Hamas、伊斯兰抵抗运动）将自杀式炸弹作为新战略，将冲突升级为独立战争",
       "source_text": "text_24"
     },
     {
       "id": "text_24_node_3",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "最近，英国发生伦敦和格拉斯哥机场的汽车炸弹袭击事件。",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "冲突已造成600名巴勒斯坦人死亡、2万名受伤",
       "source_text": "text_24"
     },
     {
       "id": "text_24_node_4",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
       "event_sub_subtype": "Unspecified",
-      "description": "昨晚，一名27岁的印度籍男子在布里斯班国际机场试图使用单程票离开澳大利亚。",
+      "description": "自杀式炸弹在军事上具有成本效益，单次袭击可造成大规模伤亡",
       "source_text": "text_24"
     },
     {
       "id": "text_24_node_5",
-      "event_type": "Justice",
-      "event_subtype": "ArrestJailDetain",
-      "event_sub_subtype": "Unspecified",
-      "description": "昨晚11点，该男子由反恐小组在英国当局建议下被捕。",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "自杀式炸弹袭击对敌方心理造成重大影响，强化抵抗者的信念",
       "source_text": "text_24"
     },
     {
       "id": "text_24_node_6",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
       "event_sub_subtype": "Unspecified",
-      "description": "逮捕后，该男子开始协助警方进行调查。",
+      "description": "伊斯兰教义中穆罕默德确立了抵抗的权利，赋予其神圣性",
       "source_text": "text_24"
     },
     {
       "id": "text_24_node_7",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
       "event_sub_subtype": "Unspecified",
-      "description": "逮捕后，警方在昆士兰州东南部执行多项搜查令，包括在黄金海岸医院。",
+      "description": "jihad（圣战）和martyrdom（殉道）在伊斯兰教中被视为崇高目标",
       "source_text": "text_24"
     },
     {
       "id": "text_24_node_8",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
-      "event_sub_subtype": "Unspecified",
-      "description": "逮捕后，警方查获了一些电子邮件。",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "伊斯兰历史记载了信徒通过伪装战斗以争取殉道资格的案例",
       "source_text": "text_24"
     },
     {
       "id": "text_24_node_9",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
-      "event_sub_subtype": "Unspecified",
-      "description": "逮捕后，第二名医生（非澳大利亚公民）开始接受询问。",
-      "source_text": "text_24"
-    },
-    {
-      "id": "text_24_node_10",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "逮捕后，据确认被捕男子正试图登上飞往马来西亚的航班，计划转机前往印度。",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "自杀式炸弹袭击者的精神状态由信仰驱动，追求自我牺牲",
       "source_text": "text_24"
     }
   ],
   "edges": [
     {
       "source": "text_24_node_1",
-      "target": "text_24_node_2",
-      "relation": "before"
-    },
-    {
-      "source": "text_24_node_2",
       "target": "text_24_node_3",
       "relation": "before"
     },
     {
-      "source": "text_24_node_3",
+      "source": "text_24_node_2",
+      "target": "text_24_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_2",
       "target": "text_24_node_4",
       "relation": "before"
     },
@@ -104,27 +96,27 @@
     },
     {
       "source": "text_24_node_5",
-      "target": "text_24_node_6",
+      "target": "text_24_node_3",
       "relation": "before"
     },
     {
-      "source": "text_24_node_5",
-      "target": "text_24_node_7",
+      "source": "text_24_node_6",
+      "target": "text_24_node_2",
       "relation": "before"
     },
     {
-      "source": "text_24_node_5",
-      "target": "text_24_node_8",
+      "source": "text_24_node_7",
+      "target": "text_24_node_2",
       "relation": "before"
     },
     {
-      "source": "text_24_node_5",
-      "target": "text_24_node_9",
+      "source": "text_24_node_8",
+      "target": "text_24_node_2",
       "relation": "before"
     },
     {
-      "source": "text_24_node_5",
-      "target": "text_24_node_10",
+      "source": "text_24_node_9",
+      "target": "text_24_node_2",
       "relation": "before"
     }
   ]

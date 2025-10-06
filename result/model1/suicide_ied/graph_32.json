@@ -3,81 +3,97 @@
     {
       "id": "text_32_node_1",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_subtype": "",
       "event_sub_subtype": "Unspecified",
-      "description": "基督徒在拉合尔的古尔山-伊克巴尔公园庆祝复活节星期日",
+      "description": "联合国报告7月阿富汗平民伤亡创2017年以来新高",
       "source_text": "text_32"
     },
     {
       "id": "text_32_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "自杀式炸弹袭击者在距离儿童游乐区几米远的地方引爆了自己",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "美国特使与塔利班谈判取得进展",
       "source_text": "text_32"
     },
     {
       "id": "text_32_node_3",
-      "event_type": "Life",
-      "event_subtype": "Die",
-      "event_sub_subtype": "Unspecified",
-      "description": "爆炸造成至少70人死亡（主要是妇女和儿童）和300多人受伤",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "",
+      "description": "塔利班威胁民众避免参与9月28日总统选举",
       "source_text": "text_32"
     },
     {
       "id": "text_32_node_4",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "救援人员将伤者送往医院，电视画面显示儿童和妇女站在血泊中哭喊",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "塔利班自杀式炸弹袭击喀布尔警察总部",
       "source_text": "text_32"
     },
     {
       "id": "text_32_node_5",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "巴基斯坦塔利班派别Jamaat-ul-Ahrar声称对袭击负责，并表示目标是基督徒",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "Damage",
+      "event_sub_subtype": "",
+      "description": "袭击造成14人死亡145人受伤，92名平民受伤",
       "source_text": "text_32"
     },
     {
       "id": "text_32_node_6",
-      "event_type": "Contact",
-      "event_subtype": "ThreatenCoerce",
-      "event_sub_subtype": "Broadcast",
-      "description": "该组织发言人Ehsanullah Ehsan向政府发出挑战，表示他们已进入拉合尔",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "袭击发生时喀布尔居民正筹备斋月活动",
       "source_text": "text_32"
     },
     {
       "id": "text_32_node_7",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
-      "event_sub_subtype": "Unspecified",
-      "description": "周一，当局表示将对袭击背后的幕后黑手展开搜捕",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "Destroy",
+      "event_sub_subtype": "",
+      "description": "爆炸导致大量建筑损毁和街道堵塞",
       "source_text": "text_32"
     },
     {
       "id": "text_32_node_8",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "死者尸体运往医院太平间，由于太平间人满为患，许多尸体被保存在医院病房",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "目击者描述爆炸瞬间街道玻璃飞溅和人群疏散",
       "source_text": "text_32"
     },
     {
       "id": "text_32_node_9",
       "event_type": "Contact",
-      "event_subtype": "RequestCommand",
-      "event_sub_subtype": "Broadcast",
-      "description": "军事发言人Asim Bajwa表示必须将杀害无辜平民的凶手绳之以法",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "阿富汗总统府谴责袭击意图破坏选举",
       "source_text": "text_32"
     },
     {
       "id": "text_32_node_10",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "目击者描述爆炸发生时的恐怖场景，包括火焰很高和尸体在空中飞舞",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "塔利班宣称控制阿富汗半数领土且持续发动袭击",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "美塔双方在卡塔尔重启和平谈判",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "阿富汗安全部队称有能力抵御塔利班威胁",
       "source_text": "text_32"
     }
   ],
@@ -93,18 +109,8 @@
       "relation": "before"
     },
     {
-      "source": "text_32_node_2",
-      "target": "text_32_node_10",
-      "relation": "before"
-    },
-    {
       "source": "text_32_node_3",
       "target": "text_32_node_4",
-      "relation": "before"
-    },
-    {
-      "source": "text_32_node_3",
-      "target": "text_32_node_8",
       "relation": "before"
     },
     {
@@ -113,18 +119,38 @@
       "relation": "before"
     },
     {
-      "source": "text_32_node_5",
+      "source": "text_32_node_4",
       "target": "text_32_node_6",
       "relation": "before"
     },
     {
-      "source": "text_32_node_6",
+      "source": "text_32_node_4",
       "target": "text_32_node_7",
       "relation": "before"
     },
     {
-      "source": "text_32_node_7",
+      "source": "text_32_node_4",
+      "target": "text_32_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_32_node_4",
       "target": "text_32_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_32_node_4",
+      "target": "text_32_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_32_node_10",
+      "target": "text_32_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_32_node_11",
+      "target": "text_32_node_12",
       "relation": "before"
     }
   ]

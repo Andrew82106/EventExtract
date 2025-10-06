@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_33_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "巴勒斯坦自杀式炸弹袭击者Nidal Shaduf从杰宁附近渗透到以色列的Binyamina",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式炸弹袭击者原本计划在Binyamina火车站内引爆，但因安全措施严格无法进入",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式炸弹袭击者改为在火车站附近的士兵公交车站等待人群聚集",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "晚上7:35，自杀式炸弹袭击者在士兵公交车站引爆自己",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名以色列国防军士兵被炸死，十一人受伤",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "PreventPassage",
+      "description": "以色列安全部队立即冻结了特拉维夫和海法之间的所有火车交通",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_7",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列警方设置大网试图捕获放下炸弹袭击者的车辆，但未成功",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_8",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "几名在以色列非法滞留的巴勒斯坦人在该地区被抓获并被拘留",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列国防军以坦克火力袭击巴勒斯坦权力机构的安全设施和Force 17阵地",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列直升机袭击伯利恒一栋属于法塔赫武装分子的房屋，造成四人死亡",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国和巴勒斯坦权力机构谴责这次袭击",
+      "source_text": "text_33"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_33_node_2",
+      "target": "text_33_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_33_node_3",
+      "target": "text_33_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_33_node_4",
+      "target": "text_33_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_33_node_4",
+      "target": "text_33_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_33_node_4",
+      "target": "text_33_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_33_node_4",
+      "target": "text_33_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_33_node_4",
+      "target": "text_33_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_33_node_4",
+      "target": "text_33_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_33_node_4",
+      "target": "text_33_node_11",
+      "relation": "before"
+    }
+  ]
+}

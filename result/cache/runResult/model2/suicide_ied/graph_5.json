@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年巴基斯坦西北部城市白沙瓦的一所学校遭到武装分子袭击，造成150多人死亡，其中大多数是儿童。",
+      "support_text": "Violence has dropped significantly since the country´s deadliest-ever militant attack, an assault on a school in the northwestern city of Peshawar in 2014 that killed more than 150 people, most of them children.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年袭击事件后，巴基斯坦军方加强了对与阿富汗接壤的部落地区武装分子的行动。",
+      "support_text": "Pakistan´s military intensified operations against militants in the tribal areas along the border with Afghanistan in the wake of that attack, leading to dramatic security improvements.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "过去两年，巴基斯坦国民Hafeez Nawaz在阿富汗与支持阿富汗政府的国际联军进行圣战。",
+      "support_text": "Nawaz´s family \"confirmed their son had been in Afghanistan for the last two years to wage jihad against the international coalition\" backing the Afghan government, senior counterterrorism official Aitzaz Goraya said.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "上周在巴基斯坦西南部的Mastung地区发生自杀式炸弹袭击，针对当地政治家Siraj Raisani的集会。",
+      "support_text": "Last week´s blast targeted a rally by local politician Siraj Raisani, in an attack claimed by Islamic State.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成至少149人死亡，包括Siraj Raisani。",
+      "support_text": "Last week´s attack killed at least 149 people",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局通过现场发现的手部DNA测试确认袭击者为Hafeez Nawaz。",
+      "support_text": "A DNA test on the attacker´s hand, found at the scene of the blast, identified the bomber as Pakistani national Hafeez Nawaz",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nawaz的家人确认他过去两年一直在阿富汗进行圣战。",
+      "support_text": "Nawaz´s family \"confirmed their son had been in Afghanistan for the last two years to wage jihad against the international coalition\" backing the Afghan government",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_8",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局表示袭击者一定有同伙，警方正在追捕他的同伙。",
+      "support_text": "The bomber must have worked with others to execute the attack in southwestern Mastung district and police were hunting his accomplices, Goraya added.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "在7月25日全国选举前，针对竞选活动的袭击已造成至少156人死亡，包括另一名当地政治家。",
+      "support_text": "Attacks at election campaign events have killed at least 156 people, including one other local politician, ahead of next week´s elections.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "当局在奎达省首府告诉记者袭击者身份信息",
+      "support_text": "authorities told reporters in provincial capital Quetta",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "高级反恐官员Aitzaz Goraya说Nawaz的家人确认了...",
+      "support_text": "senior counterterrorism official Aitzaz Goraya said",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "戈拉亚补充说明了关于炸弹袭击者和警察行动的信息",
+      "support_text": "The bomber must have worked with others to execute the attack in southwestern Mastung district and police were hunting his accomplices, Goraya added.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣称对这次袭击负责",
+      "support_text": "Last week´s blast targeted a rally by local politician Siraj Raisani, in an attack claimed by Islamic State.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "暴力事件显著减少",
+      "support_text": "Violence has dropped significantly since the country´s deadliest-ever militant attack, an assault on a school in the northwestern city of Peshawar in 2014 that killed more than 150 people, most of them children.",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "Violence has dropped significantly since the country´s deadliest-ever militant attack, an assault on a school in the northwestern city of Peshawar in 2014 that killed more than 150 people, most of them children. Pakistan´s military intensified operations against militants in the tribal areas along the border with Afghanistan in the wake of that attack, leading to dramatic security improvements."
+    },
+    {
+      "source": "text_5_node_2",
+      "target": "text_5_new_node_5",
+      "relation": "before",
+      "support_text": "Pakistan´s military intensified operations against militants in the tribal areas along the border with Afghanistan in the wake of that attack, leading to dramatic security improvements. Violence has dropped significantly since the country´s deadliest-ever militant attack..."
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_4",
+      "relation": "before",
+      "support_text": "Nawaz´s family \"confirmed their son had been in Afghanistan for the last two years to wage jihad against the international coalition\" backing the Afghan government, senior counterterrorism official Aitzaz Goraya said. The bomber must have worked with others to execute the attack in southwestern Mastung district and police were hunting his accomplices, Goraya added."
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_node_5",
+      "relation": "before",
+      "support_text": "Last week´s blast targeted a rally by local politician Siraj Raisani, in an attack claimed by Islamic State. Raisani was among those killed. Last week´s attack killed at least 149 people"
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_node_6",
+      "relation": "before",
+      "support_text": "Last week´s blast targeted a rally by local politician Siraj Raisani, in an attack claimed by Islamic State. A DNA test on the attacker´s hand, found at the scene of the blast, identified the bomber as Pakistani national Hafeez Nawaz"
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_node_8",
+      "relation": "before",
+      "support_text": "Last week´s blast targeted a rally by local politician Siraj Raisani, in an attack claimed by Islamic State. The bomber must have worked with others to execute the attack in southwestern Mastung district and police were hunting his accomplices, Goraya added."
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_node_9",
+      "relation": "before",
+      "support_text": "Last week´s attack killed at least 149 people and was the latest in a series of deadly blasts at various election campaign events ahead of national polls on July 25. Attacks at election campaign events have killed at least 156 people, including one other local politician, ahead of next week´s elections."
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_new_node_4",
+      "relation": "before",
+      "support_text": "Last week´s blast targeted a rally by local politician Siraj Raisani, in an attack claimed by Islamic State."
+    },
+    {
+      "source": "text_5_node_5",
+      "target": "text_5_node_9",
+      "relation": "before",
+      "support_text": "Last week´s attack killed at least 149 people and was the latest in a series of deadly blasts at various election campaign events ahead of national polls on July 25. Attacks at election campaign events have killed at least 156 people, including one other local politician, ahead of next week´s elections."
+    },
+    {
+      "source": "text_5_node_6",
+      "target": "text_5_node_7",
+      "relation": "before",
+      "support_text": "A DNA test on the attacker´s hand, found at the scene of the blast, identified the bomber as Pakistani national Hafeez Nawaz, authorities told reporters in provincial capital Quetta. Nawaz´s family \"confirmed their son had been in Afghanistan for the last two years to wage jihad against the international coalition\" backing the Afghan government"
+    },
+    {
+      "source": "text_5_node_6",
+      "target": "text_5_new_node_1",
+      "relation": "before",
+      "support_text": "A DNA test on the attacker´s hand, found at the scene of the blast, identified the bomber as Pakistani national Hafeez Nawaz, authorities told reporters in provincial capital Quetta."
+    },
+    {
+      "source": "text_5_node_8",
+      "target": "text_5_new_node_3",
+      "relation": "before",
+      "support_text": "The bomber must have worked with others to execute the attack in southwestern Mastung district and police were hunting his accomplices, Goraya added."
+    },
+    {
+      "source": "text_5_new_node_1",
+      "target": "text_5_new_node_2",
+      "relation": "before",
+      "support_text": "Sequence of reporting events"
+    },
+    {
+      "source": "text_5_new_node_2",
+      "target": "text_5_node_7",
+      "relation": "before",
+      "support_text": "Nawaz´s family \"confirmed their son had been in Afghanistan for the last two years to wage jihad against the international coalition\" backing the Afghan government, senior counterterrorism official Aitzaz Goraya said."
+    }
+  ]
+}

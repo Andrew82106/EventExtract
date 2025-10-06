@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "text_14_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名身穿自杀式背心的袭击者在阿富汗喀布尔的最高法院外针对搭载下班司法人员的巴士引爆炸弹，造成至少22名平民死亡，41人受伤。",
+      "support_text": "At least 22 people were killed and 41 wounded in a suicide blast at the Supreme Court of Afghanistan in Kabul. The attacker, who was wearing a suicide vest, targeted a bus carrying judicial personnel who were leaving work for the day. All of the casualties were civilians.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣称对此次袭击负责。",
+      "support_text": "Islamic State claimed responsibility.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击后，最高法院被封锁，因为担心武装分子可能会冲进大楼。",
+      "support_text": "The Supreme Court was locked down after the attack out of fear that gunmen might storm the building.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在另一起事件中，另一起爆炸杀死了法拉省Khak-e-Safed区的阿富汗区长Abdul Khaliq Noorzai。",
+      "support_text": "In a separate incident, another bombing killed Abdul Khaliq Noorzai, the Afghan district governor of Khak-e-Safed in Farah Province.",
+      "source_text": "text_14"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_14_node_1",
+      "target": "text_14_node_2",
+      "relation": "before",
+      "support_text": "At least 22 people were killed and 41 wounded in a suicide blast at the Supreme Court of Afghanistan in Kabul. Islamic State claimed responsibility."
+    },
+    {
+      "source": "text_14_node_1",
+      "target": "text_14_node_3",
+      "relation": "before",
+      "support_text": "The Supreme Court was locked down after the attack out of fear that gunmen might storm the building."
+    }
+  ]
+}

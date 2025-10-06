@@ -5,31 +5,87 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "上个月，俄罗斯最大的机场发生了致命的自杀式爆炸袭击",
+      "description": "1998年10月19日，Be'er sheva中央车站发生炸弹袭击，64人受伤",
       "source_text": "text_29"
     },
     {
       "id": "text_29_node_2",
-      "event_type": "Life",
-      "event_subtype": "Die",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "袭击发生在莫斯科的多莫杰多沃机场，造成36人死亡，包括英国、德国和乌克兰的旅客",
+      "description": "2004年3月，哈马斯领导人Ahmed Yassin被以色列暗杀",
       "source_text": "text_29"
     },
     {
       "id": "text_29_node_3",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "车臣伊斯兰武装分子Doku Umarov声称对这次袭击负责",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年4月，Ahmed Yassin继任者Abdel Aziz al-Rantissi被以色列暗杀",
       "source_text": "text_29"
     },
     {
       "id": "text_29_node_4",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2004年8月31日，Beersheba公交车连环爆炸事件发生",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2004年8月31日14:50，首枚炸弹在6路公交车上爆炸",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2004年8月31日14:52，第二枚炸弹在12路公交车上爆炸",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "哈马斯宣称对爆炸负责，并在Hebron分发报复性传单",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "哈马斯发布视频展示自杀袭击者Nassem Jabari和Ahmad Qawasme",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "以色列外交部确认遇难者均为Beersheba居民，含3½岁幼童",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Correspondence",
+      "description": "以色列政府指控叙利亚及大马士革恐怖指挥所参与事件",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "Umarov和他领导的反叛武装希望在俄罗斯的高加索地区建立一个由伊斯兰教法统治的独立酋长国",
+      "description": "袭击后约2万名哈马斯支持者在加沙地带上街庆祝",
       "source_text": "text_29"
     }
   ],
@@ -40,8 +96,48 @@
       "relation": "before"
     },
     {
-      "source": "text_29_node_1",
+      "source": "text_29_node_2",
       "target": "text_29_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_29_node_3",
+      "target": "text_29_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_29_node_4",
+      "target": "text_29_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_29_node_5",
+      "target": "text_29_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_29_node_6",
+      "target": "text_29_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_29_node_7",
+      "target": "text_29_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_29_node_8",
+      "target": "text_29_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_29_node_9",
+      "target": "text_29_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_29_node_10",
+      "target": "text_29_node_11",
       "relation": "before"
     }
   ]

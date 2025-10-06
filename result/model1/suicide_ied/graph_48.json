@@ -2,82 +2,58 @@
   "nodes": [
     {
       "id": "text_48_node_1",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "安全摄像头录像显示两名机场行李处理人员和航空公司员工有可疑活动",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "",
+      "description": "扎卡维首次宣称对袭击负责，引发美国官员关注",
       "source_text": "text_48"
     },
     {
       "id": "text_48_node_2",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "载有74名乘客的159号航班从摩加迪沙起飞，飞往吉布提",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "美国官员分析其宣称内容，指出提及联合国和意大利设施等袭击",
       "source_text": "text_48"
     },
     {
       "id": "text_48_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "飞机起飞约15分钟后，机上发生炸弹爆炸，在机身侧面撕开一个洞",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "揭示扎卡维与基地组织关联，系2002年从阿富汗逃往伊拉克",
       "source_text": "text_48"
     },
     {
       "id": "text_48_node_4",
-      "event_type": "Life",
-      "event_subtype": "Die",
-      "event_sub_subtype": "Unspecified",
-      "description": "机舱减压导致阿卜杜拉希·阿卜迪萨拉姆·博尔莱被吸出飞机身亡，另有两人受伤",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "",
+      "description": "扎卡维威胁暗杀伊拉克美军指挥官阿比扎德和行政长官布雷默",
       "source_text": "text_48"
     },
     {
       "id": "text_48_node_5",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "爆炸迫使飞行员紧急降落",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "扎卡维贬低什叶派为异教徒，指责其与联军合作占领伊拉克",
       "source_text": "text_48"
     },
     {
       "id": "text_48_node_6",
-      "event_type": "Justice",
-      "event_subtype": "ArrestJailDetain",
-      "event_sub_subtype": "Unspecified",
-      "description": "索马里当局拘留了至少五人进行问询",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "美国官员指出其通过历史引用和学者言论争取逊尼派支持",
       "source_text": "text_48"
     },
     {
       "id": "text_48_node_7",
       "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "索马里航空部长确认逮捕并表示爆炸是由炸弹引起，而非机械故障",
-      "source_text": "text_48"
-    },
-    {
-      "id": "text_48_node_8",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "索马里情报机构官员表示被拘留者中有机场工作人员和航空公司员工，可能还会有更多逮捕",
-      "source_text": "text_48"
-    },
-    {
-      "id": "text_48_node_9",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "索马里情报机构官员透露至少有五人被拘留，其中两人被怀疑协助了嫌疑炸弹袭击者",
-      "source_text": "text_48"
-    },
-    {
-      "id": "text_48_node_10",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "索马里前国家情报局长表示袭击的性质和证据表明这是一次有预谋的炸弹袭击",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "CIA无法确认扎卡维是否与萨达姆旧政权合作 destabilize Iraq",
       "source_text": "text_48"
     }
   ],
@@ -98,7 +74,7 @@
       "relation": "before"
     },
     {
-      "source": "text_48_node_3",
+      "source": "text_48_node_4",
       "target": "text_48_node_5",
       "relation": "before"
     },
@@ -110,21 +86,6 @@
     {
       "source": "text_48_node_6",
       "target": "text_48_node_7",
-      "relation": "before"
-    },
-    {
-      "source": "text_48_node_7",
-      "target": "text_48_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_48_node_8",
-      "target": "text_48_node_9",
-      "relation": "before"
-    },
-    {
-      "source": "text_48_node_9",
-      "target": "text_48_node_10",
       "relation": "before"
     }
   ]

@@ -68,37 +68,66 @@ class GraphBuilder:
             networkx.DiGraph: 事件图，如果失败返回None
         """
         # 第一步：将文本拆分为意义段
-        print(f"  - 步骤1: 拆分意义段...")
+        print(f"  【步骤1/4】拆分意义段")
+        print(f"    - 正在调用LLM进行意义段分割...")
+        step_start = __import__('time').time()
         segments = self._segment_text(text)
+        step_elapsed = __import__('time').time() - step_start
         if not segments:
-            print(f"  - 拆分意义段失败")
+            print(f"    ✗ 拆分意义段失败 (耗时: {step_elapsed:.2f}秒)")
             return None
         
-        print(f"  - 拆分得到 {len(segments)} 个意义段")
+        print(f"    ✓ 拆分得到 {len(segments)} 个意义段 (耗时: {step_elapsed:.2f}秒)")
+        # 显示前3个意义段预览
+        for i, seg in enumerate(segments[:3], 1):
+            core = seg.get('core_meaning', '')[:60]
+            print(f"      [{i}] {core}...")
         
         # 第二步：从整个文本提取事件流程
-        print(f"  - 步骤2: 提取事件流程...")
+        print(f"  【步骤2/4】提取事件流程")
+        print(f"    - 正在调用LLM提取事件流程...")
+        step_start = __import__('time').time()
         event_flow = self._extract_event_flow(text)
+        step_elapsed = __import__('time').time() - step_start
         if not event_flow:
-            print(f"  - 提取事件流程失败")
+            print(f"    ✗ 提取事件流程失败 (耗时: {step_elapsed:.2f}秒)")
             return None
         
-        print(f"  - 提取到 {len(event_flow.get('events', []))} 个事件")
+        events = event_flow.get('events', [])
+        print(f"    ✓ 提取到 {len(events)} 个事件 (耗时: {step_elapsed:.2f}秒)")
+        # 显示前3个事件预览
+        for i, evt in enumerate(events[:3], 1):
+            desc = evt.get('description', '')[:60]
+            print(f"      [{i}] {desc}...")
         
         # 第三步：标准化事件类型并构建初始图（带支撑文本）
-        print(f"  - 步骤3: 标准化事件类型并构建初始图...")
+        print(f"  【步骤3/4】标准化事件类型并构建初始图")
+        print(f"    - 开始层次化分类和图构建...")
+        step_start = __import__('time').time()
         graph_data = self._standardize_and_build_graph_with_support(text, event_flow)
+        step_elapsed = __import__('time').time() - step_start
         if not graph_data:
-            print(f"  - 构建初始图失败")
+            print(f"    ✗ 构建初始图失败 (耗时: {step_elapsed:.2f}秒)")
             return None
         
-        print(f"  - 初始图: {len(graph_data.get('nodes', []))} 个节点, {len(graph_data.get('edges', []))} 条边")
+        nodes_count = len(graph_data.get('nodes', []))
+        edges_count = len(graph_data.get('edges', []))
+        print(f"    ✓ 初始图构建完成 (耗时: {step_elapsed:.2f}秒)")
+        print(f"      - 节点数: {nodes_count}")
+        print(f"      - 边数: {edges_count}")
         
         # 第四步：迭代检查意义段覆盖情况并修改图
-        print(f"  - 步骤4: 迭代验证意义段覆盖...")
+        print(f"  【步骤4/4】迭代验证意义段覆盖")
+        print(f"    - 开始检查 {len(segments)} 个意义段...")
+        step_start = __import__('time').time()
         graph_data = self._iterative_segment_verification(segments, graph_data, text)
+        step_elapsed = __import__('time').time() - step_start
         
-        print(f"  - 验证后图: {len(graph_data.get('nodes', []))} 个节点, {len(graph_data.get('edges', []))} 条边")
+        final_nodes = len(graph_data.get('nodes', []))
+        final_edges = len(graph_data.get('edges', []))
+        print(f"    ✓ 迭代验证完成 (耗时: {step_elapsed:.2f}秒)")
+        print(f"      - 最终节点数: {final_nodes} (增加 {final_nodes - nodes_count})")
+        print(f"      - 最终边数: {final_edges} (增加 {final_edges - edges_count})")
         
         # 转换为networkx图
         graph = self._convert_to_networkx(graph_data, text_id)
@@ -223,7 +252,7 @@ class GraphBuilder:
     
     def _classify_event_hierarchical(self, event_description):
         """
-        层次化分类：分三步对事件进行分类
+        层次化分类：分三步对事件进行分类（使用低级模型）
         
         Args:
             event_description (str): 事件描述
@@ -234,7 +263,7 @@ class GraphBuilder:
         if not self.event_types:
             return None
         
-        # 第一步：选择顶层类型（Type）
+        # 第一步：选择顶层类型（Type）- 使用低级模型
         available_types = sorted(list(self.top_types))
         # 构建带定义的类型描述
         types_with_definitions = self._get_types_with_definitions(available_types)
@@ -242,23 +271,20 @@ class GraphBuilder:
             event_description=event_description,
             available_types=types_with_definitions
         )
-        result1 = self.llm_service.call_api(prompt1)
+        result1 = self.llm_service.call_api(prompt1, use_advanced_model=False)  # 使用低级模型
         
         if not isinstance(result1, dict) or 'selected_type' not in result1:
-            print(f"      ! 第一步分类失败")
             return None
         
         selected_type = result1.get('selected_type', '').strip()
         confidence1 = result1.get('confidence', 0.5)
         
         if selected_type not in self.top_types:
-            print(f"      ! 选择的类型 '{selected_type}' 不在本体中")
             return None
         
-        # 第二步：选择子类型（Subtype）
+        # 第二步：选择子类型（Subtype）- 使用低级模型
         available_subtypes = sorted(list(self.subtypes_by_type.get(selected_type, set())))
         if not available_subtypes:
-            print(f"      ! 类型 '{selected_type}' 没有子类型")
             return None
         
         # 构建带定义的子类型描述
@@ -268,24 +294,21 @@ class GraphBuilder:
             selected_type=selected_type,
             available_subtypes=subtypes_with_definitions
         )
-        result2 = self.llm_service.call_api(prompt2)
+        result2 = self.llm_service.call_api(prompt2, use_advanced_model=False)  # 使用低级模型
         
         if not isinstance(result2, dict) or 'selected_subtype' not in result2:
-            print(f"      ! 第二步分类失败")
             return None
         
         selected_subtype = result2.get('selected_subtype', '').strip()
         confidence2 = result2.get('confidence', 0.5)
         
         if selected_subtype not in available_subtypes:
-            print(f"      ! 选择的子类型 '{selected_subtype}' 不在本体中")
             return None
         
-        # 第三步：选择子子类型（Sub_subtype）
+        # 第三步：选择子子类型（Sub_subtype）- 使用低级模型
         key = (selected_type, selected_subtype)
         available_sub_subtypes = sorted(list(self.sub_subtypes_by_type_subtype.get(key, set())))
         if not available_sub_subtypes:
-            print(f"      ! 组合 '{selected_type}.{selected_subtype}' 没有子子类型")
             return None
         
         # 构建带定义的子子类型描述
@@ -298,17 +321,15 @@ class GraphBuilder:
             selected_subtype=selected_subtype,
             available_sub_subtypes=sub_subtypes_with_definitions
         )
-        result3 = self.llm_service.call_api(prompt3)
+        result3 = self.llm_service.call_api(prompt3, use_advanced_model=False)  # 使用低级模型
         
         if not isinstance(result3, dict) or 'selected_sub_subtype' not in result3:
-            print(f"      ! 第三步分类失败")
             return None
         
         selected_sub_subtype = result3.get('selected_sub_subtype', '').strip()
         confidence3 = result3.get('confidence', 0.5)
         
         if selected_sub_subtype not in available_sub_subtypes:
-            print(f"      ! 选择的子子类型 '{selected_sub_subtype}' 不在本体中")
             return None
         
         # 综合置信度：取三步的平均值
@@ -323,7 +344,7 @@ class GraphBuilder:
     
     def _segment_text(self, text):
         """
-        使用LLM将文本拆分为意义段
+        使用LLM将文本拆分为意义段（使用高级模型）
         
         Args:
             text (str): 输入文本
@@ -332,11 +353,11 @@ class GraphBuilder:
             list: 意义段列表
         """
         # 如果文本太长，截取前3000字符
-        if len(text) > 3000:
-            text = text[:3000] + "..."
+        # if len(text) > 3000:
+        #     text = text[:3000] + "..."
         
         prompt = SEGMENT_TEXT_PROMPT.format(text=text)
-        result = self.llm_service.call_api(prompt)
+        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
         
         if isinstance(result, dict) and 'segments' in result:
             return result['segments']
@@ -344,7 +365,7 @@ class GraphBuilder:
     
     def _extract_event_flow(self, text):
         """
-        使用LLM提取事件流程
+        使用LLM提取事件流程（使用高级模型）
         
         Args:
             text (str): 输入文本
@@ -353,11 +374,11 @@ class GraphBuilder:
             dict: 事件流程数据
         """
         # 如果文本太长，截取前3000字符
-        if len(text) > 3000:
-            text = text[:3000] + "..."
+        # if len(text) > 3000:
+        #     text = text[:3000] + "..."
         
         prompt = EXTRACT_EVENT_FLOW_PROMPT.format(text=text)
-        result = self.llm_service.call_api(prompt)
+        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
         
         if isinstance(result, dict) and 'events' in result:
             return result
@@ -374,9 +395,9 @@ class GraphBuilder:
         Returns:
             dict: 图数据（包含nodes和edges）
         """
-        # 如果文本太长，截取前3000字符
-        if len(original_text) > 3000:
-            original_text = original_text[:3000] + "..."
+        # 如果文本太长，截取前4000字符
+        if len(original_text) > 4000:
+            original_text = original_text[:4000] + "..."
         
         # 步骤1: 对每个事件进行层次化分类
         events = event_flow.get('events', [])
@@ -384,30 +405,37 @@ class GraphBuilder:
         
         print(f"    - 开始层次化分类 {len(events)} 个事件...")
         
-        for event in events:
+        for idx, event in enumerate(events, 1):
             event_desc = event.get('description', '')
+            print(f"      [{idx}/{len(events)}] 分类事件: {event_desc[:50]}...")
             
             # 三步层次化分类
             classified = self._classify_event_hierarchical(event_desc)
             
             if classified:
+                classification = f"{classified['type']}.{classified['subtype']}.{classified['sub_subtype']}"
+                confidence = classified['confidence']
+                print(f"          → {classification} (置信度: {confidence:.2f})")
+                
                 classified_events.append({
                     'event_id': event.get('event_id'),
                     'description': event_desc,
                     'event_type': classified['type'],
                     'event_subtype': classified['subtype'],
                     'event_sub_subtype': classified['sub_subtype'],
-                    'confidence': classified['confidence']
+                    'confidence': confidence
                 })
                 
                 # 记录低置信度分类
-                if classified['confidence'] < 0.6:
+                if confidence < 0.6:
                     self.low_confidence_classifications.append({
                         'description': event_desc,
-                        'classification': f"{classified['type']}.{classified['subtype']}.{classified['sub_subtype']}",
-                        'confidence': classified['confidence']
+                        'classification': classification,
+                        'confidence': confidence
                     })
-                    print(f"      ! 低置信度分类 ({classified['confidence']:.2f}): {event_desc[:50]}...")
+                    print(f"          ⚠ 低置信度分类!")
+            else:
+                print(f"          ✗ 分类失败")
         
         if not classified_events:
             print(f"    - 层次化分类失败，没有成功分类的事件")
@@ -415,12 +443,12 @@ class GraphBuilder:
         
         print(f"    - 成功分类 {len(classified_events)} 个事件")
         
-        # 步骤2: 构建图结构
+        # 步骤2: 构建图结构（使用低级模型）
         prompt = BUILD_GRAPH_WITH_CLASSIFIED_EVENTS_PROMPT.format(
             original_text=original_text,
             classified_events=json.dumps(classified_events, ensure_ascii=False, indent=2)
         )
-        result = self.llm_service.call_api(prompt)
+        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
         
         if not isinstance(result, dict) or 'nodes' not in result or 'edges' not in result:
             return None
@@ -482,7 +510,7 @@ class GraphBuilder:
             segment_content = segment.get('content', '')
             segment_core_meaning = segment.get('core_meaning', '')
             
-            print(f"    - 检查意义段 {i}/{len(segments)}")
+            print(f"    [{i}/{len(segments)}] 检查意义段: {segment_core_meaning[:50]}...")
             
             # 步骤8.1：判断文本段是否对事件有推进作用
             is_relevant = self._check_segment_relevance(
@@ -492,8 +520,10 @@ class GraphBuilder:
             )
             
             if not is_relevant:
-                print(f"      * 跳过: 无推进作用")
+                print(f"          → 跳过 (无推进作用)")
                 continue
+            
+            print(f"          → 有推进作用，检查覆盖情况...")
             
             # 步骤8.2：基于动词的覆盖检查
             coverage_result = self._check_segment_coverage(
@@ -503,22 +533,33 @@ class GraphBuilder:
             )
             
             if not coverage_result:
-                print(f"      * 跳过: 检查失败")
+                print(f"          → 覆盖检查失败")
                 continue
             
             suggestions = coverage_result.get('suggestions', [])
             
             if not suggestions:
-                print(f"      * 所有动词事件已覆盖")
+                print(f"          → 所有动词事件已覆盖 ✓")
             else:
-                print(f"      * 收到 {len(suggestions)} 个修改建议")
+                print(f"          → 收到 {len(suggestions)} 个修改建议")
+                # 显示修改建议详情
+                for sug_idx, sug in enumerate(suggestions[:3], 1):
+                    action = sug.get('action', '')
+                    if action == 'add_node':
+                        node_id = sug.get('details', {}).get('id', '')
+                        print(f"              • 建议{sug_idx}: 添加节点 {node_id}")
+                    elif action == 'add_edge':
+                        src = sug.get('details', {}).get('source', '')
+                        tgt = sug.get('details', {}).get('target', '')
+                        print(f"              • 建议{sug_idx}: 添加边 {src}→{tgt}")
+                
                 # 步骤8.3和8.4：验证修改意见并应用到图结构
                 success, graph_data = self._validate_and_apply_modifications(graph_data, suggestions)
                 if success:
                     modifications_made += 1
-                    print(f"      * 修改成功")
+                    print(f"          → 修改应用成功 ✓")
                 else:
-                    print(f"      * 修改失败或被拒绝")
+                    print(f"          → 修改被拒绝或失败 ✗")
         
         print(f"  - 共应用了 {modifications_made} 次修改")
         return graph_data
@@ -545,7 +586,7 @@ class GraphBuilder:
             segment_core_meaning=segment_core_meaning
         )
         
-        result = self.llm_service.call_api(prompt)
+        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
         
         if isinstance(result, dict) and 'is_relevant' in result:
             return result['is_relevant']
@@ -564,28 +605,21 @@ class GraphBuilder:
             dict: 检查结果
         """
         # 步骤1：提取意义段中的关键动词
-        print(f"        * 步骤1: 提取动词...")
         verbs_result = self._extract_verbs_from_segment(segment_content)
         
         if not verbs_result or 'verbs' not in verbs_result:
-            print(f"        ! 动词提取失败")
             return None
         
         # 过滤出表示事件的动词
         event_verbs = [v for v in verbs_result['verbs'] if v.get('is_event', False)]
         
         if not event_verbs:
-            print(f"        * 未提取到事件动词，跳过")
             return {'is_covered': True, 'suggestions': [], 'explanation': '无事件动词'}
-        
-        print(f"        * 提取到 {len(event_verbs)} 个事件动词")
-        
+        print(f"    - 快速预检查 {len(event_verbs)} 个动词是否已经在图中覆盖")
         # 步骤2：快速预检查哪些动词已经在图中覆盖
-        print(f"        * 步骤2: 快速检查覆盖情况...")
         quick_check = self._quick_check_verb_coverage(event_verbs, graph_data)
         
         if not quick_check:
-            print(f"        ! 快速检查失败")
             return None
         
         # 找出未覆盖的动词
@@ -595,17 +629,15 @@ class GraphBuilder:
         ]
         
         covered_count = len(event_verbs) - len(uncovered_verbs)
-        print(f"        * 已覆盖: {covered_count}/{len(event_verbs)}, 需分类: {len(uncovered_verbs)}")
-        
+        print(f"    - 快速预检查完成，已覆盖 {covered_count} 个动词，未覆盖 {len(uncovered_verbs)} 个动词")
         if not uncovered_verbs:
             # 所有动词都已覆盖
             return {'is_covered': True, 'suggestions': [], 'explanation': '所有动词事件已覆盖'}
         
         # 步骤3：只对未覆盖的动词进行分类
-        print(f"        * 步骤3: 对未覆盖的动词分类...")
-        
         # 从原始event_verbs中找到未覆盖的动词对象
         uncovered_verb_names = [v['verb'] for v in uncovered_verbs]
+        print(f"    - 对 {len(uncovered_verb_names)} 个未覆盖的动词进行分类")
         verbs_to_classify = [
             v for v in event_verbs 
             if v.get('verb', '') in uncovered_verb_names
@@ -614,24 +646,19 @@ class GraphBuilder:
         classified_verbs = self._classify_verb_events(verbs_to_classify)
         
         if not classified_verbs:
-            print(f"        ! 动词分类失败")
             return None
         
-        print(f"        * 成功分类 {len(classified_verbs)} 个动词事件")
-        
         # 步骤4：检查分类后的动词事件并生成修改建议
-        print(f"        * 步骤4: 生成修改建议...")
         coverage_result = self._check_verb_coverage(classified_verbs, graph_data)
         
         if not coverage_result:
-            print(f"        ! 生成建议失败")
             return None
         
         return coverage_result
     
     def _extract_verbs_from_segment(self, segment_content):
         """
-        从意义段中提取关键动词及其语义
+        从意义段中提取关键动词及其语义（使用高级模型）
         
         Args:
             segment_content (str): 意义段内容
@@ -642,8 +669,9 @@ class GraphBuilder:
         prompt = EXTRACT_VERBS_FROM_SEGMENT_PROMPT.format(
             segment_content=segment_content
         )
+        print(f"  - 提取动词")
         
-        result = self.llm_service.call_api(prompt)
+        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
         
         if isinstance(result, dict) and 'verbs' in result:
             return result
@@ -682,7 +710,7 @@ class GraphBuilder:
             graph_nodes=json.dumps(graph_nodes, ensure_ascii=False, indent=2)
         )
         
-        result = self.llm_service.call_api(prompt)
+        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
         
         if isinstance(result, dict) and 'coverage_check' in result:
             return result
@@ -710,7 +738,7 @@ class GraphBuilder:
             
             # 使用层次化分类
             classified = self._classify_event_hierarchical(verb_desc)
-            
+            print(f"        - 对动词 '{verb_desc}' 进行层次化分类")
             if classified:
                 classified_verb = {
                     'verb': verb.get('verb', ''),
@@ -724,7 +752,7 @@ class GraphBuilder:
                     'temporal_order': verb.get('temporal_order', 1)
                 }
                 classified_verbs.append(classified_verb)
-        
+                print(f"        - 动词 '{verb_desc}' 层次化分类成功")
         return classified_verbs
     
     def _check_verb_coverage(self, classified_verbs, graph_data):
@@ -738,13 +766,14 @@ class GraphBuilder:
         Returns:
             dict: 覆盖检查结果
         """
+        print(f"    - 检查 {len(classified_verbs)} 个动词事件是否在图中有体现")
         prompt = CHECK_VERB_COVERAGE_PROMPT.format(
             classified_verbs=json.dumps(classified_verbs, ensure_ascii=False, indent=2),
             current_graph=json.dumps(graph_data, ensure_ascii=False, indent=2)
-        )
+        )  # 这一步的工作量很大的
         
-        result = self.llm_service.call_api(prompt)
-        
+        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
+        print(f"    - 覆盖检查完成")
         if isinstance(result, dict):
             return result
         return None
@@ -760,6 +789,7 @@ class GraphBuilder:
         Returns:
             tuple: (success, updated_graph_data)
         """
+        print(f"    - 验证 {len(suggestions)} 个修改意见的合法性并应用到图结构")
         # 创建一个工作副本，避免修改原数据
         working_graph = {
             'nodes': [node.copy() for node in graph_data.get('nodes', [])],
@@ -1047,6 +1077,45 @@ class GraphBuilder:
         # 保存到文件
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(graph_data, f, ensure_ascii=False, indent=2)
+    
+    def load_graph_from_json(self, input_path):
+        """
+        从JSON文件加载图
+        
+        Args:
+            input_path (str): 输入文件路径
+            
+        Returns:
+            networkx.DiGraph: 图对象，如果失败返回None
+        """
+        try:
+            with open(input_path, 'r', encoding='utf-8') as f:
+                graph_data = json.load(f)
+            
+            # 创建有向图
+            G = nx.DiGraph()
+            
+            # 添加节点
+            for node in graph_data.get('nodes', []):
+                node_id = node.get('id')
+                if node_id:
+                    # 复制所有属性，除了id
+                    attrs = {k: v for k, v in node.items() if k != 'id'}
+                    G.add_node(node_id, **attrs)
+            
+            # 添加边
+            for edge in graph_data.get('edges', []):
+                source = edge.get('source')
+                target = edge.get('target')
+                if source and target and G.has_node(source) and G.has_node(target):
+                    # 复制所有属性，除了source和target
+                    attrs = {k: v for k, v in edge.items() if k not in ['source', 'target']}
+                    G.add_edge(source, target, **attrs)
+            
+            return G
+        except Exception as e:
+            print(f"加载图文件失败: {str(e)}")
+            return None
     
     def get_validation_summary(self):
         """

@@ -5,35 +5,139 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "周五早上，奎塔的哈扎尔干吉市场发生爆炸，造成至少20人死亡（包括8名哈扎拉人、1名FC官员和2名儿童），至少48人受伤（包括3名安全人员），据信目标是哈扎拉社区成员。",
+      "description": "A Palestinian suicide bomber approached the unguarded entrance to a crowded cafe in Netanya.",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_2",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "Unspecified",
-      "description": "爆炸发生后不久，妇女和儿童开始静坐抗议，要求政府实施有效的安全计划，确保哈扎拉社区的保护。",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "The bomber blew himself up near the cafe entrance, injuring more than 50 people.",
       "source_text": "text_16"
     },
     {
       "id": "text_16_node_3",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "周六，哈扎拉社区成员在奎塔的西部旁路继续进行第二天的静坐，要求更好的安全措施。",
+      "description": "An Israeli soldier emerged from the cafe, potentially deterring the bomber from entering.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "The blast shattered windows, overturned outdoor tables, and sent shrapnel flying, causing various injuries.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "A soldier near the blast site was reported to be in critical condition with abdominal and neck injuries.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Islamic Jihad claimed responsibility for the attack, calling it a 'gift to the heroic people of Iraq.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "The bombing was the first suicide attack inside Israel since the start of the U.S.-led war in Iraq.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "The blast was described as a 'huge explosion' by a witness who was inside the cafe.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "56 people suffered injuries ranging from minor cuts to serious wounds, with one infant injured but unhurt.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Broadcast",
+      "description": "David Baker, an aide to Israeli Prime Minister Ariel Sharon, called the bombing a 'brutal reminder of the cruelty of Palestinian terrorism.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Palestinian Authority condemned the bombing, while Islamic militant groups sought to capitalize on anger in the Arab world over the war in Iraq.",
       "source_text": "text_16"
     }
   ],
   "edges": [
     {
       "source": "text_16_node_1",
-      "target": "text_16_node_2",
+      "target": "text_16_node_3",
       "relation": "before"
     },
     {
       "source": "text_16_node_2",
-      "target": "text_16_node_3",
+      "target": "text_16_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_3",
+      "target": "text_16_node_2",
       "relation": "before"
     }
   ]

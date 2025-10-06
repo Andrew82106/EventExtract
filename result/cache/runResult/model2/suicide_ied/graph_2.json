@@ -1,0 +1,288 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "多名自杀式炸弹袭击者试图通过Charsadda法院正门进入法院场地",
+      "support_text": "Attackers attempted to enter the court premises through the main gate, witnesses said",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击者开枪并投掷手榴弹，引发警察和安全部队的还击",
+      "support_text": "adding they opened fire and also threw hand grenades, prompting retaliatory fire by police and security forces deployed at the court premises",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "第二名炸弹袭击者被安全部队击毙",
+      "support_text": "A second bomber was shot dead by security forces",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "第三名炸弹袭击者在法院大门外引爆了身上的炸弹背心",
+      "support_text": "and a third died when he detonated his vest outside the main gates of the facility in Khyber Pakhtunkhwa province, according to police",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成至少7人死亡（包括一名律师）和21人受伤",
+      "support_text": "At least seven people, including a lawyer were killed and 21 others injured as a sessions court in Charsadda was hit by multiple suicide bombers Tuesday morning",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "伤者和遇难者被送往Charsadda Tangi医院和Peshawar的Lady Reading医院",
+      "support_text": "The bodies and injured were shifted to Charsadda Tangi Hospital and Lady Reading Hospital in Peshawar",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦陆军参谋长赞扬安全部队的及时反应挽救了许多生命",
+      "support_text": "Army chief general Qamar javed Bajwa lauded response by security forces to Charsadda explosions, saying \"first tier police response saved many lives",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "总理纳瓦兹·谢里夫办公室发表声明谴责这次袭击",
+      "support_text": "Prime Minister Nawaz Sharif's office condemned the latest assault. \"We are a steadfast nation and will not be deterred by such attacks. Our government will continue to fight against terrorist elements and we will succeed,\" a statement said",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "被禁止的巴基斯坦塔利班运动派系Jamaatul Ahrar声称对袭击负责",
+      "support_text": "The proscribed Tehreek-e-Taliban Pakistan (TTP)'s faction Jamaatul Ahrar (JA) claimed responsibility for the attack. \"We claim responsibility for the attack, which is part of our Ghazi operation,\" the group's spokesperson Asad Mansoor said in a phone call to the media",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "多名自杀式炸弹袭击者袭击了Charsadda的一个地方法院",
+      "support_text": "多名自杀式炸弹袭击者袭击了Charsadda的一个地方法院",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察和安全部队被部署在法院场地",
+      "support_text": "警察和安全部队被部署在法院场地",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者陈述了所发生的事件",
+      "support_text": "目击者陈述了所发生的事件",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "官员陈述了所发生的事件",
+      "support_text": "官员陈述了所发生的事件",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mohammad Shah Baz朝食堂方向逃跑",
+      "support_text": "他朝食堂方向逃跑",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mohammad Shah Baz爬上了墙",
+      "support_text": "他爬上了墙",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦的安全镇压行动导致100多名武装分子死亡",
+      "support_text": "巴基斯坦的安全镇压行动导致100多名武装分子死亡",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "发言人Asad Mansoor向媒体声明组织对袭击负责并说明这是他们行动的一部分",
+      "support_text": "\"We claim responsibility for the attack, which is part of our Ghazi operation,\" the group's spokesperson Asad Mansoor said",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "Asad Mansoor打电话给媒体",
+      "support_text": "the group's spokesperson Asad Mansoor said in a phone call to the media",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "Attackers attempted to enter the court premises through the main gate, witnesses said, adding they opened fire and also threw hand grenades"
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "they opened fire and also threw hand grenades, prompting retaliatory fire by police and security forces deployed at the court premises. One bomber was briefly on the loose inside the busy complex in the Tangi area of Charsadda district but was killed by police some 20 minutes after the attack began, officials said. A second bomber was shot dead by security forces"
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "they opened fire and also threw hand grenades, prompting retaliatory fire by police and security forces deployed at the court premises. A second bomber was shot dead by security forces and a third died when he detonated his vest outside the main gates of the facility in Khyber Pakhtunkhwa province, according to police"
+    },
+    {
+      "source": "text_2_node_4",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "a third died when he detonated his vest outside the main gates of the facility in Khyber Pakhtunkhwa province, according to police. \"So far seven people have been killed and 15 wounded,\" Sohail Khalid, district police chief, said"
+    },
+    {
+      "source": "text_2_node_4",
+      "target": "text_2_new_node_3",
+      "relation": "before",
+      "support_text": "第三名炸弹袭击者死亡后，目击者陈述了所发生的事件"
+    },
+    {
+      "source": "text_2_node_4",
+      "target": "text_2_new_node_4",
+      "relation": "before",
+      "support_text": "第三名炸弹袭击者死亡后，官员陈述了所发生的事件"
+    },
+    {
+      "source": "text_2_node_5",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "At least seven people, including a lawyer were killed and 21 others injured as a sessions court in Charsadda was hit by multiple suicide bombers Tuesday morning. The bodies and injured were shifted to Charsadda Tangi Hospital and Lady Reading Hospital in Peshawar"
+    },
+    {
+      "source": "text_2_node_5",
+      "target": "text_2_node_7",
+      "relation": "before",
+      "support_text": "At least seven people, including a lawyer were killed and 21 others injured as a sessions court in Charsadda was hit by multiple suicide bombers Tuesday morning. Army chief general Qamar javed Bajwa lauded response by security forces to Charsadda explosions"
+    },
+    {
+      "source": "text_2_node_5",
+      "target": "text_2_node_8",
+      "relation": "before",
+      "support_text": "At least seven people, including a lawyer were killed and 21 others injured as a sessions court in Charsadda was hit by multiple suicide bombers Tuesday morning. Prime Minister Nawaz Sharif's office condemned the latest assault"
+    },
+    {
+      "source": "text_2_node_5",
+      "target": "text_2_node_9",
+      "relation": "before",
+      "support_text": "At least seven people, including a lawyer were killed and 21 others injured as a sessions court in Charsadda was hit by multiple suicide bombers Tuesday morning. The proscribed Tehreek-e-Taliban Pakistan (TTP)'s faction Jamaatul Ahrar (JA) claimed responsibility for the attack"
+    },
+    {
+      "source": "text_2_node_9",
+      "target": "text_2_new_node_9",
+      "relation": "before",
+      "support_text": "Jamaatul Ahrar claimed responsibility for the attack before Asad Mansoor called the media"
+    },
+    {
+      "source": "text_2_new_node_1",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "多名自杀式炸弹袭击者袭击了Charsadda的一个地方法院，袭击者试图通过法院正门进入法院场地"
+    },
+    {
+      "source": "text_2_new_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "多名自杀式炸弹袭击者袭击了Charsadda的一个地方法院，袭击者开枪并投掷手榴弹"
+    },
+    {
+      "source": "text_2_new_node_1",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "多名自杀式炸弹袭击者袭击了Charsadda的一个地方法院，第二名炸弹袭击者被安全部队击毙"
+    },
+    {
+      "source": "text_2_new_node_1",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "多名自杀式炸弹袭击者袭击了Charsadda的一个地方法院，第三名炸弹袭击者在法院大门外引爆了身上的炸弹背心"
+    },
+    {
+      "source": "text_2_new_node_1",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "多名自杀式炸弹袭击者袭击了Charsadda的一个地方法院，袭击造成至少7人死亡和21人受伤"
+    },
+    {
+      "source": "text_2_new_node_2",
+      "target": "text_2_new_node_1",
+      "relation": "before",
+      "support_text": "警察和安全部队被部署在法院场地，然后多名自杀式炸弹袭击者袭击了Charsadda的一个地方法院"
+    },
+    {
+      "source": "text_2_new_node_2",
+      "target": "text_2_new_node_7",
+      "relation": "before",
+      "support_text": "巴基斯坦发起了安全镇压行动，导致100多名武装分子死亡"
+    },
+    {
+      "source": "text_2_new_node_5",
+      "target": "text_2_new_node_6",
+      "relation": "before",
+      "support_text": "他朝食堂方向逃跑，然后爬上了墙"
+    },
+    {
+      "source": "text_2_new_node_9",
+      "target": "text_2_new_node_8",
+      "relation": "before",
+      "support_text": "Asad Mansoor called the media before he made the statement"
+    }
+  ]
+}

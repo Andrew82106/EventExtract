@@ -9,7 +9,7 @@ import random
 import json
 import hashlib
 import pandas as pd
-from config import EXTRACTED_TEXTS_PATH, ONTOLOGY_PATH, MAX_TEXT_SAMPLES, SAMPLING_CACHE_PATH, USE_SAMPLING_CACHE, CACHE_ROOT
+from config import EXTRACTED_TEXTS_PATH, ONTOLOGY_PATH, MAX_TEXT_SAMPLES, SAMPLING_CACHE_PATH, SAMPLING_RESULTS_CACHE, USE_SAMPLING_CACHE, CACHE_ROOT
 
 
 class DataLoader:
@@ -120,6 +120,43 @@ class DataLoader:
         key_string = f"{file_path}:{attack_type}"
         return hashlib.md5(key_string.encode()).hexdigest()
     
+    def _save_sampling_results(self, attack_type, selected_texts):
+        """
+        保存采样结果到缓存
+        
+        Args:
+            attack_type (str): 攻击类型
+            selected_texts (list): 选中的文本列表，包含path、content和confidence
+        """
+        if not USE_SAMPLING_CACHE:
+            return
+        
+        try:
+            os.makedirs(CACHE_ROOT, exist_ok=True)
+            
+            # 加载现有缓存
+            sampling_cache = {}
+            if os.path.exists(SAMPLING_RESULTS_CACHE):
+                with open(SAMPLING_RESULTS_CACHE, 'r', encoding='utf-8') as f:
+                    sampling_cache = json.load(f)
+            
+            # 更新缓存（只保存路径和置信度，不保存内容以节省空间）
+            sampling_cache[attack_type] = [
+                {
+                    'path': t['path'],
+                    'confidence': t['confidence']
+                }
+                for t in selected_texts
+            ]
+            
+            # 保存缓存
+            with open(SAMPLING_RESULTS_CACHE, 'w', encoding='utf-8') as f:
+                json.dump(sampling_cache, f, ensure_ascii=False, indent=2)
+            
+            print(f"采样结果已缓存到: {SAMPLING_RESULTS_CACHE}")
+        except Exception as e:
+            print(f"保存采样结果缓存失败: {str(e)}")
+    
     def _judge_text_relevance(self, text_content, attack_type, file_path=None):
         """
         使用LLM判断文本是否讲述了与攻击类型相关的事件故事（支持缓存）
@@ -182,7 +219,7 @@ class DataLoader:
     
     def load_texts_for_attack_type(self, attack_type, use_smart_sampling=True):
         """
-        加载指定攻击类型的所有文本（支持基于LLM判断的智能采样）
+        加载指定攻击类型的所有文本（支持基于LLM判断的智能采样，并缓存采样结果）
         
         Args:
             attack_type (str): 攻击类型名称
@@ -196,6 +233,37 @@ class DataLoader:
         if not os.path.exists(attack_type_path):
             print(f"攻击类型路径不存在: {attack_type_path}")
             return []
+        
+        # 尝试从缓存加载采样结果
+        if USE_SAMPLING_CACHE and use_smart_sampling and os.path.exists(SAMPLING_RESULTS_CACHE):
+            try:
+                with open(SAMPLING_RESULTS_CACHE, 'r', encoding='utf-8') as f:
+                    sampling_cache = json.load(f)
+                
+                if attack_type in sampling_cache:
+                    cached_sampling = sampling_cache[attack_type]
+                    print(f"从缓存加载采样结果: {len(cached_sampling)} 个文本")
+                    print(f"  平均置信度: {sum(t['confidence'] for t in cached_sampling) / len(cached_sampling):.2f}")
+                    
+                    # 加载缓存的文本
+                    texts = []
+                    for item in cached_sampling:
+                        file_path = item['path']
+                        try:
+                            with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                                content = f.read().strip()
+                                if content:
+                                    texts.append({
+                                        'path': file_path,
+                                        'content': content
+                                    })
+                        except Exception as e:
+                            print(f"  ! 读取缓存文件失败 {file_path}: {str(e)}")
+                    
+                    print(f"成功加载 {len(texts)} 个缓存文本")
+                    return texts
+            except Exception as e:
+                print(f"加载采样缓存失败: {str(e)}，将重新采样")
         
         # 收集所有文本文件
         text_files = []
@@ -265,11 +333,19 @@ class DataLoader:
                     selected_texts = selected_texts[:MAX_TEXT_SAMPLES]
                     print(f"智能采样完成，选取了 {len(selected_texts)} 个相关文本")
                     print(f"  平均置信度: {sum(t['confidence'] for t in selected_texts) / len(selected_texts):.2f}")
+                    
+                    # 保存采样结果到缓存
+                    self._save_sampling_results(attack_type, selected_texts)
+                    
                     return [{'path': t['path'], 'content': t['content']} for t in selected_texts]
                 elif len(selected_texts) > 0:
                     # 如果采样数量不足但有一些，使用这些
                     print(f"警告: 只找到 {len(selected_texts)} 个相关文本（目标: {MAX_TEXT_SAMPLES}）")
                     print(f"  将使用这 {len(selected_texts)} 个文本继续")
+                    
+                    # 保存采样结果到缓存
+                    self._save_sampling_results(attack_type, selected_texts)
+                    
                     return [{'path': t['path'], 'content': t['content']} for t in selected_texts]
                 else:
                     # 如果一个都没找到，回退到随机采样

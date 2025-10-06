@@ -3,9 +3,9 @@
     {
       "id": "text_35_node_1",
       "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
-      "event_sub_subtype": "Unspecified",
-      "description": "分离主义组织PKK的单方面停火结束",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰国宣称对喀布尔一家什叶派清真寺的自杀式袭击负责，该袭击造成30多人死亡，数十人受伤。",
       "source_text": "text_35"
     },
     {
@@ -13,162 +13,105 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "自杀式炸弹袭击者在伊斯坦布尔市中心的塔克西姆广场试图袭击巡逻的防暴警察",
+      "description": "袭击者在中午时分进入喀布尔的巴基尔-乌尔-乌勒姆清真寺，当时什叶派信徒正在参加阿巴伦仪式。",
       "source_text": "text_35"
     },
     {
       "id": "text_35_node_3",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "袭击者试图进入一辆警车但未能成功",
+      "description": "自7月以来，这是伊斯兰国第三次在喀布尔针对少数什叶派发动的主要袭击。",
       "source_text": "text_35"
     },
     {
       "id": "text_35_node_4",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "袭击者在到达预定目标前引爆了自己，造成爆炸",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国将此次袭击描述为“暴行”，并称至少有32人死亡，50多人受伤，其中包括许多儿童。",
       "source_text": "text_35"
     },
     {
       "id": "text_35_node_5",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "DamageDestroyDisableDismantle",
-      "event_sub_subtype": "Damage",
-      "description": "爆炸在上午10:30左右震撼了该地区，炸毁了附近办公室和酒店的窗户",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国在东部纳格哈尔省逐渐扩大其影响力，自去年进入阿富汗以来，以其强硬的激进主义和残暴而闻名。",
       "source_text": "text_35"
     },
     {
       "id": "text_35_node_6",
-      "event_type": "Life",
-      "event_subtype": "Injure",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "爆炸造成32人受伤，其中包括17名平民和15名警察",
+      "description": "在周一的袭击之前，伊斯兰国已宣称对喀布尔两次针对什叶派目标的主要袭击负责，包括一次导致80多人死亡的自杀式爆炸。",
       "source_text": "text_35"
     },
     {
       "id": "text_35_node_7",
-      "event_type": "Life",
-      "event_subtype": "Die",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "唯一的死亡者是炸弹袭击者",
+      "description": "上个月，伊斯兰国还宣称对喀布尔一处什叶派圣地的袭击负责，该袭击造成18人死亡。",
       "source_text": "text_35"
     },
     {
       "id": "text_35_node_8",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
       "event_sub_subtype": "Unspecified",
-      "description": "警察和救护车赶往现场",
+      "description": "塔利班否认参与此次袭击，称他们从未攻击过清真寺。",
       "source_text": "text_35"
     },
     {
       "id": "text_35_node_9",
-      "event_type": "Control",
-      "event_subtype": "ImpedeInterfereWith",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "警方立即在该地区设置了安全警戒线，包括步行历史街区Istiklal在内的街道被关闭",
-      "source_text": "text_35"
-    },
-    {
-      "id": "text_35_node_10",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "警察局长Huseyin Capkin表示，他们认为这是一次自杀式袭击",
-      "source_text": "text_35"
-    },
-    {
-      "id": "text_35_node_11",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "伊斯坦布尔省长Huseyin Avni Mutlu向记者通报了伤亡情况",
-      "source_text": "text_35"
-    },
-    {
-      "id": "text_35_node_12",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "总理Recep Tayyip Erdogan在访问库尔德人占多数的东南部土耳其时谴责了这次'恐怖主义'袭击",
-      "source_text": "text_35"
-    },
-    {
-      "id": "text_35_node_13",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "内政部长Besir Atalay表示，现在说谁该为这次袭击负责还为时过早，但提到了可能的组织",
+      "description": "官员表示，此次袭击是故意煽动教派紧张局势的企图。",
       "source_text": "text_35"
     }
   ],
   "edges": [
     {
-      "source": "text_35_node_1",
-      "target": "text_35_node_2",
-      "relation": "before"
-    },
-    {
       "source": "text_35_node_2",
-      "target": "text_35_node_3",
+      "target": "text_35_node_1",
       "relation": "before"
     },
     {
       "source": "text_35_node_3",
-      "target": "text_35_node_4",
+      "target": "text_35_node_1",
       "relation": "before"
     },
     {
       "source": "text_35_node_4",
-      "target": "text_35_node_5",
+      "target": "text_35_node_1",
       "relation": "before"
     },
     {
       "source": "text_35_node_5",
-      "target": "text_35_node_6",
-      "relation": "before"
-    },
-    {
-      "source": "text_35_node_5",
-      "target": "text_35_node_7",
+      "target": "text_35_node_1",
       "relation": "before"
     },
     {
       "source": "text_35_node_6",
-      "target": "text_35_node_8",
+      "target": "text_35_node_1",
       "relation": "before"
     },
     {
       "source": "text_35_node_7",
-      "target": "text_35_node_8",
+      "target": "text_35_node_1",
       "relation": "before"
     },
     {
       "source": "text_35_node_8",
-      "target": "text_35_node_9",
+      "target": "text_35_node_1",
       "relation": "before"
     },
     {
       "source": "text_35_node_9",
-      "target": "text_35_node_10",
-      "relation": "before"
-    },
-    {
-      "source": "text_35_node_10",
-      "target": "text_35_node_11",
-      "relation": "before"
-    },
-    {
-      "source": "text_35_node_11",
-      "target": "text_35_node_12",
-      "relation": "before"
-    },
-    {
-      "source": "text_35_node_12",
-      "target": "text_35_node_13",
+      "target": "text_35_node_1",
       "relation": "before"
     }
   ]

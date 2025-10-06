@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "id": "text_20_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗查巴哈拉警局遭自杀式袭击，造成至少2人死亡",
+      "support_text": "A suicide car bomber has attacked a police headquarters in the Iranian port city of Chabahar, killing at least two people and wounding several others, according to state TV.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ansar al-Furqan组织一年前炸毁伊朗南部输油管道",
+      "support_text": "A year ago the group claimed to have blown up an oil pipeline in Iran’s southern Khuzestan province.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国去年重新实施对伊朗制裁，部分源于伊核协议退出",
+      "support_text": "Last month the US reimposed sanctions on Iran that had been lifted after Tehran’s nuclear deal with world powers.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿瓦兹军事游行遭伪装士兵袭击，致多人伤亡",
+      "support_text": "In September, gunmen disguised as soldiers opened fire on a military parade in Ahvaz, killing and wounding dozens.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "议会和霍梅尼陵墓遭极端组织袭击，造成18人死亡",
+      "support_text": "In June last year a coordinated Isis assault on parliament and the shrine of Ayatollah Ruhollah Khomeini, the leader of Iran’s 1979 Islamic revolution, killed at least 18 people and wounded more than 50.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rahmdel Bameri报告自杀式袭击事件",
+      "support_text": "Rahmdel Bameri reported a suicide bombing incident",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_7",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式袭击者开车冲向警察总部",
+      "support_text": "A suicide attacker drove towards police headquarters",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警员封锁载有炸弹的车辆",
+      "support_text": "Police officers blocked a vehicle containing explosives",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警员开始向袭击者射击",
+      "support_text": "Police officers began shooting at the attacker",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ansar al-Furqan在伊朗东南部省份活动",
+      "support_text": "Ansar al-Furqan在伊朗东南部省份活动",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_11",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗遵守核协议",
+      "support_text": "伊朗遵守核协议",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "特朗普部分退出核协议",
+      "support_text": "特朗普部分退出核协议",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_13",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗支持黎巴嫩真主党等武装团体",
+      "support_text": "伊朗支持黎巴嫩真主党等武装团体",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿拉伯分离主义者和伊斯兰国宣称对此负责",
+      "support_text": "阿拉伯分离主义者和伊斯兰国宣称对此负责",
+      "source_text": "text_20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_20_node_2",
+      "target": "text_20_node_1",
+      "relation": "before",
+      "support_text": "A year ago the group claimed to have blown up an oil pipeline in Iran’s southern Khuzestan province."
+    },
+    {
+      "source": "text_20_node_2",
+      "target": "text_20_node_10",
+      "relation": "before",
+      "support_text": "根据事件描述中的时间逻辑"
+    },
+    {
+      "source": "text_20_node_3",
+      "target": "text_20_node_4",
+      "relation": "before",
+      "support_text": "Last month the US reimposed sanctions on Iran..."
+    },
+    {
+      "source": "text_20_node_4",
+      "target": "text_20_node_1",
+      "relation": "before",
+      "support_text": "In September, gunmen disguised as soldiers opened fire on a military parade in Ahvaz..."
+    },
+    {
+      "source": "text_20_node_5",
+      "target": "text_20_node_3",
+      "relation": "before",
+      "support_text": "In June last year a coordinated Isis assault... killed at least 18 people and wounded more than 50."
+    },
+    {
+      "source": "text_20_node_6",
+      "target": "text_20_node_7",
+      "relation": "before",
+      "support_text": "报告事件后立即发生袭击行动"
+    },
+    {
+      "source": "text_20_node_7",
+      "target": "text_20_node_8",
+      "relation": "before",
+      "support_text": "袭击者接近后触发封锁"
+    },
+    {
+      "source": "text_20_node_8",
+      "target": "text_20_node_9",
+      "relation": "before",
+      "support_text": "封锁车辆后展开交火"
+    },
+    {
+      "source": "text_20_node_10",
+      "target": "text_20_node_1",
+      "relation": "before",
+      "support_text": "根据temporal_order 3建立时序关系"
+    },
+    {
+      "source": "text_20_node_11",
+      "target": "text_20_node_12",
+      "relation": "before",
+      "support_text": "伊朗遵守协议后特朗普退出"
+    },
+    {
+      "source": "text_20_node_12",
+      "target": "text_20_node_3",
+      "relation": "before",
+      "support_text": "特朗普退出导致美国制裁重启"
+    },
+    {
+      "source": "text_20_node_13",
+      "target": "text_20_node_10",
+      "relation": "before",
+      "support_text": "伊朗支持武装团体与Ansar al-Furqan活动关联"
+    },
+    {
+      "source": "text_20_node_14",
+      "target": "text_20_node_1",
+      "relation": "before",
+      "support_text": "根据temporal_order 3建立时序关系"
+    }
+  ]
+}

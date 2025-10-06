@@ -1,0 +1,273 @@
+{
+  "nodes": [
+    {
+      "id": "text_8_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "三名自杀式袭击者伪装成请愿者接近Charsadda地区法院",
+      "support_text": "The three suicide bombers approached the court in the guise of petitioners, suggested an initial assessment report provided by local police to the provincial Counter Terrorism Department.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "第一名袭击者在被安全人员拦截时投掷手榴弹",
+      "support_text": "The report revealed that the first attacker had hurled a hand grenade when he was intercepted by security personnel.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "安保人员开火，第一名袭击者在法院大门处被击毙",
+      "support_text": "The bomber was killed as security personnel opened fire at the gate of the compound",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "第二名袭击者进入法院时被击毙",
+      "support_text": "whereas the second was killed as he entered the court.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "第三名袭击者引爆了炸药并被炸死",
+      "support_text": "The third bomber was killed when he detonated his explosives.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致5名平民死亡（包括1名律师）和15人受伤",
+      "support_text": "DSP Charsadda Fayaz Khan said five civilians have been killed in the attack, which the proscribed Jamaat-ul-Ahraar (JuA) claimed. Provincial government sources said one lawyer was among those killed, while 15 others were injured.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "禁止组织Jamaat-ul-Ahraar (JuA)声称对此次袭击负责",
+      "support_text": "DSP Charsadda Fayaz Khan said five civilians have been killed in the attack, which the proscribed Jamaat-ul-Ahraar (JuA) claimed.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "陆军参谋长赞扬安全部队的应对措施，称警方反应挽救了许多生命",
+      "support_text": "Director General Inter-Services Public Relations, Major General Asif Ghafoor tweeted, \"Chief of Army Staff lauds security forces' response to Charsada Blast. First tier Police response has saved many lives. Shares grief on loss of lives.\"",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "从白沙瓦派遣了多达10辆救护车到Charsadda",
+      "support_text": "Up to 10 ambulances were dispatched to Charsadda from Peshawar",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Lady Reading Hospital进入高度戒备状态",
+      "support_text": "where the Lady Reading Hospital had been put on high alert.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "PTI主席Imran Khan赞扬警方的迅速行动，避免了更高的死亡人数",
+      "support_text": "Pakistan Tehreek-i-Insaf (PTI) Chairman Imran Khan, whose party rules in KP, lauded the quick action taken by the police, which averted a higher death toll.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "官员表示安全部队杀死了三名试图在当地法院造成破坏的自杀式袭击者",
+      "support_text": "officials said on Tuesday that security forces killed three suicide attackers who attempted to wreak havoc at a local court in Khyber Pakhtunkhwa's Charsadda district",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "当地警方向省反恐部门提供了初步评估报告",
+      "support_text": "The three suicide bombers approached the court in the guise of petitioners, suggested an initial assessment report provided by local police to the provincial Counter Terrorism Department.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "初步发现暗示了初步评估报告的内容",
+      "support_text": "The three suicide bombers approached the court in the guise of petitioners, suggested an initial assessment report provided by local police to the provincial Counter Terrorism Department.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者描述炸弹袭击者的遗骸躺在路边",
+      "support_text": "Eyewitnesses said that the remains of the bombers were lying on the roadside.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mohammad Shahbaz朝食堂方向逃跑",
+      "support_text": "Mohammad Shahbaz朝食堂方向逃跑",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mohammad Shahbaz爬上了墙",
+      "support_text": "Mohammad Shahbaz爬上了墙",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦正在经历恐怖袭击的再次激增",
+      "support_text": "巴基斯坦正在经历恐怖袭击的再次激增",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖袭击导致超过100人死亡",
+      "support_text": "恐怖袭击导致超过100人死亡",
+      "source_text": "text_8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_2",
+      "relation": "before",
+      "support_text": "The three suicide bombers approached the court in the guise of petitioners... The report revealed that the first attacker had hurled a hand grenade when he was intercepted by security personnel."
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_node_3",
+      "relation": "before",
+      "support_text": "The first attacker had hurled a hand grenade when he was intercepted by security personnel. The bomber was killed as security personnel opened fire at the gate of the compound"
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_new_node_4",
+      "relation": "before",
+      "support_text": "报告揭示了第一名袭击者投掷了一枚手榴弹，目击者描述炸弹袭击者的遗骸躺在路边"
+    },
+    {
+      "source": "text_8_node_3",
+      "target": "text_8_node_4",
+      "relation": "before",
+      "support_text": "The bomber was killed as security personnel opened fire at the gate of the compound, whereas the second was killed as he entered the court."
+    },
+    {
+      "source": "text_8_node_4",
+      "target": "text_8_node_5",
+      "relation": "before",
+      "support_text": "whereas the second was killed as he entered the court. The third bomber was killed when he detonated his explosives."
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_6",
+      "relation": "before",
+      "support_text": "The third bomber was killed when he detonated his explosives. DSP Charsadda Fayaz Khan said five civilians have been killed in the attack... Provincial government sources said one lawyer was among those killed, while 15 others were injured."
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_new_node_1",
+      "relation": "before",
+      "support_text": "Security forces killed three suicide attackers before officials made the statement"
+    },
+    {
+      "source": "text_8_node_6",
+      "target": "text_8_node_7",
+      "relation": "before",
+      "support_text": "DSP Charsadda Fayaz Khan said five civilians have been killed in the attack, which the proscribed Jamaat-ul-Ahraar (JuA) claimed."
+    },
+    {
+      "source": "text_8_node_6",
+      "target": "text_8_node_8",
+      "relation": "before",
+      "support_text": "DSP Charsadda Fayaz Khan said five civilians have been killed in the attack... Director General Inter-Services Public Relations, Major General Asif Ghafoor tweeted, \"Chief of Army Staff lauds security forces' response to Charsada Blast.\""
+    },
+    {
+      "source": "text_8_node_6",
+      "target": "text_8_node_9",
+      "relation": "before",
+      "support_text": "DSP Charsadda Fayaz Khan said five civilians have been killed in the attack... Up to 10 ambulances were dispatched to Charsadda from Peshawar"
+    },
+    {
+      "source": "text_8_node_6",
+      "target": "text_8_node_11",
+      "relation": "before",
+      "support_text": "DSP Charsadda Fayaz Khan said five civilians have been killed in the attack... Pakistan Tehreek-i-Insaf (PTI) Chairman Imran Khan... lauded the quick action taken by the police, which averted a higher death toll."
+    },
+    {
+      "source": "text_8_node_9",
+      "target": "text_8_node_10",
+      "relation": "before",
+      "support_text": "Up to 10 ambulances were dispatched to Charsadda from Peshawar, where the Lady Reading Hospital had been put on high alert."
+    },
+    {
+      "source": "text_8_new_node_2",
+      "target": "text_8_new_node_3",
+      "relation": "before",
+      "support_text": "当地警方向省反恐部门提供了初步评估报告，初步发现暗示了初步评估报告的内容"
+    },
+    {
+      "source": "text_8_new_node_3",
+      "target": "text_8_node_2",
+      "relation": "before",
+      "support_text": "初步发现暗示了初步评估报告的内容，报告揭示了第一名袭击者投掷了一枚手榴弹"
+    },
+    {
+      "source": "text_8_new_node_5",
+      "target": "text_8_new_node_6",
+      "relation": "before",
+      "support_text": "Mohammad Shahbaz先朝食堂方向逃跑，然后爬上了墙"
+    },
+    {
+      "source": "text_8_new_node_8",
+      "target": "text_8_new_node_7",
+      "relation": "before",
+      "support_text": "恐怖袭击导致超过100人死亡，巴基斯坦正在经历恐怖袭击的再次激增"
+    }
+  ]
+}

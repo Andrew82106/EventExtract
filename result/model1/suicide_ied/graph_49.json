@@ -2,26 +2,26 @@
   "nodes": [
     {
       "id": "text_49_node_1",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Meet",
-      "description": "塔利班和美国开始和平谈判，旨在结束近18年的冲突",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sarah Levy-Hoffman于二战期间被送往奥斯维辛但幸存",
       "source_text": "text_49"
     },
     {
       "id": "text_49_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Defeat",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
       "event_sub_subtype": "Unspecified",
-      "description": "塔利班控制了更多领土",
+      "description": "1949年Sarah移民以色列并定居特拉维夫",
       "source_text": "text_49"
     },
     {
       "id": "text_49_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Contact",
+      "event_subtype": "",
       "event_sub_subtype": "Unspecified",
-      "description": "全国范围内袭击增加，过去一个月约1500人死伤",
+      "description": "过去四年Sarah与儿子及家人在Park Hotel庆祝逾越节",
       "source_text": "text_49"
     },
     {
@@ -29,55 +29,39 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "喀布尔发生针对缉毒局工作人员车辆的爆炸，造成5人死亡7人受伤",
+      "description": "2002年3月27日逾越节前夜，Hamas成员在Netanya Park Hotel实施自杀式爆炸",
       "source_text": "text_49"
     },
     {
       "id": "text_49_node_5",
-      "event_type": "Contact",
-      "event_subtype": "ThreatenCoerce",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "塔利班呼吁抵制9月28日总统选举并威胁攻击选举集会",
+      "description": "爆炸导致22人当场死亡，140人受伤（8人后续死亡）",
       "source_text": "text_49"
     },
     {
       "id": "text_49_node_6",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "卡塔尔谈判中美国特别代表提到谈判取得'卓越进展'",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sarah的儿子在爆炸中轻微受伤，其家人因在房间内未受伤害",
       "source_text": "text_49"
     },
     {
       "id": "text_49_node_7",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "喀布尔警察局外发生炸弹袭击，造成至少14人死亡近150人受伤",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sarah于爆炸后11天（4月7日）去世",
       "source_text": "text_49"
     },
     {
       "id": "text_49_node_8",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "塔利班声称使用卡车炸弹针对警察'招募'中心并负责此次袭击",
-      "source_text": "text_49"
-    },
-    {
-      "id": "text_49_node_9",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "阿富汗内政部表示携带爆炸物的车辆在检查站被引爆",
-      "source_text": "text_49"
-    },
-    {
-      "id": "text_49_node_10",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "总统发言人表示塔利班持续袭击表明其对和平没有承诺",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sarah被安葬于Holon，由儿子Menachem和三个孙辈继承",
       "source_text": "text_49"
     }
   ],
@@ -115,21 +99,6 @@
     {
       "source": "text_49_node_7",
       "target": "text_49_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_49_node_7",
-      "target": "text_49_node_9",
-      "relation": "before"
-    },
-    {
-      "source": "text_49_node_8",
-      "target": "text_49_node_10",
-      "relation": "before"
-    },
-    {
-      "source": "text_49_node_9",
-      "target": "text_49_node_10",
       "relation": "before"
     }
   ]

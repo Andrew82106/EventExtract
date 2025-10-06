@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_8_node_1",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军进行跨部门努力追捕巴格达迪，并最近取得重大进展",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "周五，特朗普总统被简报了计划的各个方面和执行风险",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "行动前，美国联系俄罗斯和土耳其，以避免可能的冲突",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "获得特朗普批准后，麦肯齐下令在周六上午9点开始任务",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军特种部队通过直升机空降袭击巴格达迪在叙利亚西北部的院落",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "空中掩护部队（包括武装直升机、无人机和战斗机）支持和保护地面士兵",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "当美军到达院落时，附近敌军武装分子开始向参与袭击的飞机开火",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "这些武装分子被两次空袭击毙",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_9",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "特种部队包围院落，并多次呼吁其 occupants 和平出来",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "周三，国防部长等官员在国会山就袭击举行机密简报",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "五角大楼发布袭击照片和视频，麦肯齐向记者提供任务时间线",
+      "source_text": "text_8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_3",
+      "target": "text_8_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_4",
+      "target": "text_8_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_7",
+      "target": "text_8_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_10",
+      "target": "text_8_node_11",
+      "relation": "before"
+    }
+  ]
+}

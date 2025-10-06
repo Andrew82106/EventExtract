@@ -2,130 +2,66 @@
   "nodes": [
     {
       "id": "text_31_node_1",
-      "event_type": "Personnel",
-      "event_subtype": "StartPosition",
-      "event_sub_subtype": "Unspecified",
-      "description": "恐怖分子哈菲兹·纳瓦兹加入了被禁止的恐怖组织Lashkar-e-Jhangvi (LeJ)",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴基斯坦拉合尔市Ferozepur Road附近发生自杀式爆炸，造成26人死亡、50余人受伤",
       "source_text": "text_31"
     },
     {
       "id": "text_31_node_2",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "哈菲兹·纳瓦兹与他的兄弟姐妹离开巴基斯坦前往阿富汗",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者称爆炸声震耳欲聋，附近建筑物窗户被气浪震碎",
       "source_text": "text_31"
     },
     {
       "id": "text_31_node_3",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "哈菲兹·纳瓦兹在阿富汗生活了约两年",
+      "description": "警方确认爆炸为自杀式袭击，袭击者可能针对在蔬菜市场附近执行清理行动的警察",
       "source_text": "text_31"
     },
     {
       "id": "text_31_node_4",
-      "event_type": "Personnel",
-      "event_subtype": "ChangePosition",
-      "event_sub_subtype": "Unspecified",
-      "description": "哈菲兹·纳瓦兹从LeJ成员转为加入Da'esh(ISIS)",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救援人员将伤者转移至医院，军警部署现场控制",
       "source_text": "text_31"
     },
     {
       "id": "text_31_node_5",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "哈菲兹·纳瓦兹从卡拉奇抵达俾路支省",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦总统、总理及陆军参谋长对伤亡表示哀悼",
       "source_text": "text_31"
     },
     {
       "id": "text_31_node_6",
-      "event_type": "Transaction",
-      "event_subtype": "Donation",
-      "event_sub_subtype": "Unspecified",
-      "description": "哈菲兹·纳瓦兹在Mastung地区获得当地人的庇护和帮助",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "警方更新调查结果，否认袭击者使用摩托车，确认为步行实施袭击",
       "source_text": "text_31"
     },
     {
       "id": "text_31_node_7",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
       "event_sub_subtype": "Unspecified",
-      "description": "哈菲兹·纳瓦兹参加BAP的公众集会，坐在第四排并拿着该党旗帜",
+      "description": "巴塔组织声称2017年2月策划拉合尔13人死亡的炸弹袭击",
       "source_text": "text_31"
     },
     {
       "id": "text_31_node_8",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "当Nawabzada Siraj Raisani开始演讲时，哈菲兹·纳瓦兹向前移动并在舞台附近引爆自杀式背心",
-      "source_text": "text_31"
-    },
-    {
-      "id": "text_31_node_9",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "自杀式爆炸造成至少150名参与者死亡，200多人受伤",
-      "source_text": "text_31"
-    },
-    {
-      "id": "text_31_node_10",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "调查人员在爆炸现场发现爆炸者的一只手，确认其身份为哈菲兹·纳瓦兹",
-      "source_text": "text_31"
-    },
-    {
-      "id": "text_31_node_11",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
-      "event_sub_subtype": "Unspecified",
-      "description": "CTD卡拉奇协助追踪哈菲兹·纳瓦兹的家庭背景",
-      "source_text": "text_31"
-    },
-    {
-      "id": "text_31_node_12",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
-      "event_sub_subtype": "Unspecified",
-      "description": "情报机构开始调查哈菲兹·纳瓦兹在阿富汗的活动",
-      "source_text": "text_31"
-    },
-    {
-      "id": "text_31_node_13",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "旁遮普法医实验室的调查人员访问爆炸现场进行调查",
-      "source_text": "text_31"
-    },
-    {
-      "id": "text_31_node_14",
       "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "反恐部门DIG Aitzaz Goraya在周三举行新闻发布会通报Mastung自杀式爆炸事件",
-      "source_text": "text_31"
-    },
-    {
-      "id": "text_31_node_15",
-      "event_type": "Justice",
-      "event_subtype": "InvestigateCrime",
+      "event_subtype": "Prevarication",
       "event_sub_subtype": "Unspecified",
-      "description": "CTD、边境部队、警察和其他执法机构调查爆炸事件并进行基于情报的行动以逮捕协助者",
-      "source_text": "text_31"
-    },
-    {
-      "id": "text_31_node_16",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Meet",
-      "description": "俾路支省Additional IG在周四向参议院内政委员会通报情况",
+      "description": "巴塔组织宣称2017年4月针对政府人口普查工作人员发动袭击",
       "source_text": "text_31"
     }
   ],
@@ -163,46 +99,6 @@
     {
       "source": "text_31_node_7",
       "target": "text_31_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_31_node_8",
-      "target": "text_31_node_9",
-      "relation": "before"
-    },
-    {
-      "source": "text_31_node_9",
-      "target": "text_31_node_10",
-      "relation": "before"
-    },
-    {
-      "source": "text_31_node_10",
-      "target": "text_31_node_11",
-      "relation": "before"
-    },
-    {
-      "source": "text_31_node_10",
-      "target": "text_31_node_12",
-      "relation": "before"
-    },
-    {
-      "source": "text_31_node_10",
-      "target": "text_31_node_13",
-      "relation": "before"
-    },
-    {
-      "source": "text_31_node_10",
-      "target": "text_31_node_14",
-      "relation": "before"
-    },
-    {
-      "source": "text_31_node_10",
-      "target": "text_31_node_15",
-      "relation": "before"
-    },
-    {
-      "source": "text_31_node_14",
-      "target": "text_31_node_16",
       "relation": "before"
     }
   ]

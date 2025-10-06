@@ -2,119 +2,119 @@
   "nodes": [
     {
       "id": "text_12_node_1",
-      "event_type": "Life",
-      "event_subtype": "Die",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "Zarqawi's father died in 1984, leading him to drop out of school and engage in a life of drinking, drug abuse, and violence.",
-      "support_text": "Zarqawi's father, a local tribal leader and retired army officer, died in 1984, leaving his mother a small pension to raise six daughters and four sons. Devastated by the death of his father, the seventeen-year-old adolescent dropped out of school and descended into a life of drinking, drug abuse, and violence on the streets of Zarqa.",
+      "description": "2019年2月16日伊朗伊صفان发生自杀式汽车爆炸袭击，造成革命卫队27人死亡",
+      "support_text": "Mourners carry flag-draped caskets during a mass funeral for those killed in a suicide car bombing that targeted members of Iran’s powerful Revolutionary Guard in earlier in the week, killing at least 27 people, in Isfahan, Iran, Saturday, Feb. 16, 2019.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_2",
-      "event_type": "Justice",
-      "event_subtype": "Sentence",
-      "event_sub_subtype": "Unspecified",
-      "description": "Zarqawi was jailed for drug possession and sexual assault, which exposed him to radical Salafist preachers in a Palestinian refugee camp in Zarqa.",
-      "support_text": "He soon ran afoul of the authorities and was jailed for drug possession and sexual assault. Ironically, it was probably his criminal activities that first drew him into the city's abject and lawless Palestinian refugee camp, where he was exposed to radical Salafist preachers.",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "革命卫队领导人威胁对沙特阿拉伯和阿拉伯联合酋长国实施报复",
+      "support_text": "The head of the Guard has threatened to retaliate against neighboring Saudi Arabia and United Arab Emirates over the bombing.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_3",
-      "event_type": "Personnel",
-      "event_subtype": "StartPosition",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "Zarqawi married one of his maternal cousins and acquired a clerical job in the local municipality before leaving for Afghanistan in 1989.",
-      "support_text": "After acquiring a clerical job in the local municipality, he married one of his maternal cousins. In 1989, however, Zarqawi abruptly left his family to go to Afghanistan.",
+      "description": "伊朗议会 speaker周日（2月17日）指控巴基斯坦策划并实施袭击",
+      "support_text": "Iran’s parliament speaker said Sunday that an attack that killed 27 members of Iran’s elite Revolutionary Guard was ‘planned and carried out from inside Pakistan,’ which he said should answer for it.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_4",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "Zarqawi went to Afghanistan hoping to witness the establishment of the world's first Sunni Islamist state but found the Mujahideen front fragmented.",
-      "support_text": "By this time, Soviet troops had already pulled out of the country  evidently he was expecting to join a triumphant march on Kabul and witness the establishment of the world's first Sunni Islamist state. Instead, he saw the Mujahideen front fragment along tribal and ethnic lines, unable to deliver the coup de grace to the 'godless' Soviet-installed regime in Kabul for three years.",
+      "description": "伊朗外交部召见巴基斯坦大使以示抗议",
+      "support_text": "Iran’s Foreign Ministry summoned Pakistan’s ambassador on Sunday to protest the attack.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_5",
       "event_type": "Cognitive",
-      "event_subtype": "Research",
-      "event_sub_subtype": "Unspecified",
-      "description": "From 1991, Zarqawi spent most of his time in Peshawar, Pakistan, where he came under the influence of Muhammad al-Ma...",
-      "support_text": "From 1991, he was spending most of his time in Peshawar, Pakistan  once a way station for Arab volunteers going to Afghanistan, now teeming with disillusioned Arab fighters debating what to do next. It is here that Zarqawi came under the influence of Muhammad al-Ma...",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "巴基斯坦外长与伊朗外长通话承诺全面配合调查",
+      "support_text": "Shah Mahmood Qureshi... spoke with his Iranian counterpart, Mohammad Javad Zarif, by phone on Sunday to assure him that Pakistan would fully cooperate in the investigation.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_6",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
-      "event_sub_subtype": "Unspecified",
-      "description": "阿布·穆萨布·扎卡维从默默无闻中脱颖而出",
-      "support_text": "阿布·穆萨布·扎卡维从默默无闻中脱颖而出",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "革命卫队总司令指责巴基斯坦安全部队支持袭击者Jaish al-Adl组织",
+      "support_text": "The head of Iran’s powerful Revolutionary Guard, Maj. Gen. Mohammad Ali Jafari, on Saturday accused Pakistan’s security forces of supporting the militants and said Iran expects it to ‘punish’ them.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_7",
-      "event_type": "Cognitive",
-      "event_subtype": "IdentifyCategorize",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "阿布·穆萨布·扎卡维取代了奥萨马·本·拉登成为首要公敌",
-      "support_text": "阿布·穆萨布·扎卡维取代了奥萨马·本·拉登成为首要公敌",
+      "description": "伊朗总统Rouhani公开誓言对烈士家属实施报复",
+      "support_text": "Iran’s President Hassan Rouhani meanwhile vowed ‘revenge for the blood of these martyrs,’ in remarks broadcast Sunday on state TV.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_8",
-      "event_type": "Cognitive",
-      "event_subtype": "Research",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "扎卡维凭借其网络技能崛起",
-      "support_text": "扎卡维凭借其网络技能崛起",
+      "description": "沙特王储推迟一天行程后原定于周日访问巴基斯坦",
+      "support_text": "Saudi Arabia’s Crown Prince Mohammed bin Salman is expected to visit Pakistan Sunday after delaying his arrival by one day without providing an explanation.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_9",
       "event_type": "Cognitive",
-      "event_subtype": "Research",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "扎卡维制定了看似有效的恐怖主义战略的轮廓",
-      "support_text": "扎卡维制定了看似有效的恐怖主义战略的轮廓",
+      "description": "Jaish al-Adl声称了责任",
+      "support_text": "Jaish al-Adl组织声称对此次袭击负责",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_10",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "看似有效的恐怖主义战略破坏了伊拉克战后政治过渡",
-      "support_text": "看似有效的恐怖主义战略破坏了伊拉克战后政治过渡",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "伊朗国家电视台广播了总统的声明",
+      "support_text": "Iran’s President Hassan Rouhani meanwhile vowed ‘revenge for the blood of these martyrs,’ in remarks broadcast Sunday on state TV.",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_11",
-      "event_type": "Life",
-      "event_subtype": "Die",
-      "event_sub_subtype": "Unspecified",
-      "description": "Zarqawi出生为Ahmad Fadil Nazal al-Khalaylah",
-      "support_text": "Zarqawi出生为Ahmad Fadil Nazal al-Khalaylah",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "鲁哈尼表示了这些言论",
+      "support_text": "伊朗议会 speaker周日（2月17日）指控巴基斯坦策划并实施袭击",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_12",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "Zarqawi参与了某些战斗",
-      "support_text": "扎尔卡维参与了某些战斗",
+      "description": "巴基斯坦尝试维持与沙特和伊朗之间的平衡",
+      "support_text": "语义描述：巴基斯坦尝试维持（与沙特和伊朗之间的）平衡",
       "source_text": "text_12"
     },
     {
       "id": "text_12_node_13",
-      "event_type": "Cognitive",
-      "event_subtype": "TeachingTrainingLearning",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "他主要作为一家激进伊斯兰主义杂志的记者工作",
-      "support_text": "他主要作为一家激进伊斯兰主义杂志的记者工作",
+      "description": "巴基斯坦维持与沙特和伊朗之间的平衡",
+      "support_text": "语义描述：巴基斯坦维持（与沙特和伊朗之间的）平衡",
       "source_text": "text_12"
     }
   ],
@@ -123,37 +123,73 @@
       "source": "text_12_node_1",
       "target": "text_12_node_2",
       "relation": "before",
-      "support_text": "Zarqawi's father, a local tribal leader and retired army officer, died in 1984, leaving his mother a small pension to raise six daughters and four sons. Devastated by the death of his father, the seventeen-year-old adolescent dropped out of school and descended into a life of drinking, drug abuse, and violence on the streets of Zarqa."
+      "support_text": "The head of the Guard has threatened to retaliate against neighboring Saudi Arabia and United Arab Emirates over the bombing."
+    },
+    {
+      "source": "text_12_node_1",
+      "target": "text_12_node_6",
+      "relation": "before",
+      "support_text": "The head of the Guard, Maj. Gen. Mohammad Ali Jafari, on Saturday accused Pakistan’s security forces..."
+    },
+    {
+      "source": "text_12_node_1",
+      "target": "text_12_node_7",
+      "relation": "before",
+      "support_text": "Iran’s President Hassan Rouhani meanwhile vowed ‘revenge for the blood of these martyrs,’..."
     },
     {
       "source": "text_12_node_2",
-      "target": "text_12_node_3",
+      "target": "text_12_node_6",
       "relation": "before",
-      "support_text": "He soon ran afoul of the authorities and was jailed for drug possession and sexual assault. Ironically, it was probably his criminal activities that first drew him into the city's abject and lawless Palestinian refugee camp, where he was exposed to radical Salafist preachers."
+      "support_text": "After the bombing, Maj. Gen. Mohammad Ali Jafari accused Pakistan’s security forces..."
     },
     {
       "source": "text_12_node_3",
       "target": "text_12_node_4",
       "relation": "before",
-      "support_text": "After acquiring a clerical job in the local municipality, he married one of his maternal cousins. In 1989, however, Zarqawi abruptly left his family to go to Afghanistan."
+      "support_text": "Iran’s Foreign Ministry summoned Pakistan’s ambassador on Sunday to protest the attack."
+    },
+    {
+      "source": "text_12_node_3",
+      "target": "text_12_node_6",
+      "relation": "before",
+      "support_text": "伊朗议会 speaker周日（2月17日）指控巴基斯坦策划并实施袭击后，革命卫队总司令指责巴基斯坦安全部队支持袭击者Jaish al-Adl组织"
     },
     {
       "source": "text_12_node_4",
       "target": "text_12_node_5",
       "relation": "before",
-      "support_text": "By this time, Soviet troops had already pulled out of the country  evidently he was expecting to join a triumphant march on Kabul and witness the establishment of the world's first Sunni Islamist state. Instead, he saw the Mujahideen front fragment along tribal and ethnic lines, unable to deliver the coup de grace to the 'godless' Soviet-installed regime in Kabul for three years."
+      "support_text": "Shah Mahmood Qureshi spoke with his Iranian counterpart Zarif to assure cooperation..."
     },
     {
-      "source": "text_12_node_9",
-      "target": "text_12_node_10",
+      "source": "text_12_node_5",
+      "target": "text_12_node_8",
       "relation": "before",
-      "support_text": "扎卡维制定了看似有效的恐怖主义战略的轮廓，随后该战略破坏了伊拉克战后政治过渡"
+      "support_text": "Mohammed bin Salman was expected to visit Pakistan Sunday after delaying his arrival..."
     },
     {
-      "source": "text_12_node_13",
-      "target": "text_12_node_5",
+      "source": "text_12_node_6",
+      "target": "text_12_node_7",
       "relation": "before",
-      "support_text": "他主要作为一家激进伊斯兰主义杂志的记者工作，之后前往白沙瓦"
+      "support_text": "Meanwhile, Rouhani vowed ‘revenge for the blood of these martyrs,’ broadcast Sunday on state TV."
+    },
+    {
+      "source": "text_12_node_6",
+      "target": "text_12_node_9",
+      "relation": "before",
+      "support_text": "革命卫队总司令指责巴基斯坦安全部队支持Jaish al-Adl组织后，Jaish al-Adl声称了责任"
+    },
+    {
+      "source": "text_12_node_10",
+      "target": "text_12_node_11",
+      "relation": "before",
+      "support_text": "伊朗国家电视台广播总统声明后，鲁哈尼进一步表态"
+    },
+    {
+      "source": "text_12_node_12",
+      "target": "text_12_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order 1在前，2在后建立时序关系"
     }
   ]
 }

@@ -1,0 +1,222 @@
+{
+  "nodes": [
+    {
+      "id": "text_43_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年3月，数百名基督徒因被指控亵渎伊斯兰教而受到伊斯兰狂热者的迫害",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年9月22日，两名自杀式炸弹袭击者在巴基斯坦白沙瓦的诸圣教堂发动袭击",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者首先射杀了两名保安，造成一人死亡，一人受伤",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "其中一名袭击者在被警察阻止后引爆了炸弹",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "第二名袭击者进入教堂并在内部引爆了炸弹",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_6",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "爆炸造成教堂墙壁出现洞口，附近建筑物的窗户被震碎",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成127人死亡，250多人受伤，成为巴基斯坦历史上对基督教少数群体最致命的袭击",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者的尸体被识别并送去检查，确认他们使用了装有炸药的自杀式背心",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "与巴基斯坦塔利班运动有关的组织'真主军'声称对袭击负责",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_10",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "'真主军'表示将继续攻击基督徒和非穆斯林，直到美国在巴基斯坦的无人机袭击停止",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦塔利班运动否认参与此次事件，并否认与'真主军'有关联",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "袭击后，住在教堂附近的基督徒走上街头抗议，焚烧轮胎并喊口号",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "科哈蒂门地区的许多商店关闭，该地区有许多其他教堂",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "在卡拉奇、拉合尔、木尔坦和其他城市举行了抗议集会，谴责这次杀戮",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "卡拉奇发生了愤怒的抗议者与警察之间的冲突",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦基督教社区哀叹'巴基斯坦基督徒的未来正在消亡'",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦总理纳瓦兹·谢里夫谴责这次袭击，表示恐怖分子没有宗教，针对无辜人民违反伊斯兰教教义",
+      "source_text": "text_43"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_2",
+      "target": "text_43_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_3",
+      "target": "text_43_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_4",
+      "target": "text_43_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_5",
+      "target": "text_43_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_6",
+      "target": "text_43_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_7",
+      "target": "text_43_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_7",
+      "target": "text_43_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_7",
+      "target": "text_43_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_7",
+      "target": "text_43_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_7",
+      "target": "text_43_node_16",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_7",
+      "target": "text_43_node_17",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_8",
+      "target": "text_43_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_9",
+      "target": "text_43_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_10",
+      "target": "text_43_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_14",
+      "target": "text_43_node_15",
+      "relation": "before"
+    }
+  ]
+}

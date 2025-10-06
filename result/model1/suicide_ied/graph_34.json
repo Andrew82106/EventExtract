@@ -2,18 +2,18 @@
   "nodes": [
     {
       "id": "text_34_node_1",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "一名自杀式炸弹袭击者通过拉尔沙巴兹卡兰达尔神殿的金门进入",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在Mastung的一次选举会议上发生自杀式爆炸袭击，造成149人死亡，其中包括选举候选人Nawab Siraj Raisani。",
       "source_text": "text_34"
     },
     {
       "id": "text_34_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "袭击者投掷一枚未能爆炸的手榴弹后引爆了自己",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式爆炸袭击者Hafiz Nawaz被认定为来自Abbottabad的居民，他曾在Sindh与一个被禁止的组织联系，并隶属于Daesh和Lashkar-e-Jhangvi。",
       "source_text": "text_34"
     },
     {
@@ -21,39 +21,31 @@
       "event_type": "Cognitive",
       "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "爆炸发生在晚祷后进行苏菲仪式的区域",
+      "description": "IG Balochistan Mohsin Hassan Butt向参议院委员会报告，Daesh在阿富汗建立了强大的存在，并在Balochistan发动恐怖袭击。",
       "source_text": "text_34"
     },
     {
       "id": "text_34_node_4",
-      "event_type": "Life",
-      "event_subtype": "Die",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "袭击导致至少70人死亡，150多人受伤",
+      "description": "Mufti Haider和Hafiz Naeem被指认为本地的Daesh指挥官，当局正在努力逮捕他们。",
       "source_text": "text_34"
     },
     {
       "id": "text_34_node_5",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "印度外交部发言人Vikas Swarup发表声明谴责这起恐怖袭击",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "反恐部门 DIG Aitzaz Goraya在新闻发布会上表示，自杀式爆炸袭击者是通过指纹被识别的，并且有当地居民协助了他。",
       "source_text": "text_34"
     },
     {
       "id": "text_34_node_6",
-      "event_type": "Contact",
-      "event_subtype": "RequestCommand",
-      "event_sub_subtype": "Unspecified",
-      "description": "巴基斯坦陆军参谋长Qamar Javed Bajwa将军指示立即向民政当局提供援助",
-      "source_text": "text_34"
-    },
-    {
-      "id": "text_34_node_7",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "陆军部队连同医务人员被派往现场",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在Peshawar的一次自杀式爆炸袭击中，造成Awami National Party (ANP)领袖Haroon Bilour和21人死亡的袭击者已被逮捕。",
       "source_text": "text_34"
     }
   ],
@@ -75,17 +67,12 @@
     },
     {
       "source": "text_34_node_4",
-      "target": "text_34_node_6",
-      "relation": "before"
-    },
-    {
-      "source": "text_34_node_4",
       "target": "text_34_node_5",
       "relation": "before"
     },
     {
-      "source": "text_34_node_6",
-      "target": "text_34_node_7",
+      "source": "text_34_node_5",
+      "target": "text_34_node_6",
       "relation": "before"
     }
   ]

@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "1980年：拉吉夫·甘地的兄弟桑贾伊在空难中丧生，导致拉吉夫放弃航空飞行员工作并当选为议会议员。",
+      "support_text": "After his brother Sanjay was killed in an air crash in 1980, he gave up his job as an airline pilot and was elected to Sanjay's parliamentary seat.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1984年：拉吉夫·甘地的母亲英迪拉·甘地被自己的锡克教保镖暗杀。",
+      "support_text": "He became prime minister after his mother, Indira Gandhi, was assassinated by her own Sikh bodyguards in 1984.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "1984年：拉吉夫·甘地成为印度总理，并在同年晚些时候带领国大党创纪录地赢得多数席位。",
+      "support_text": "He became prime minister after his mother, Indira Gandhi, was assassinated by her own Sikh bodyguards in 1984. Often seen as a reluctant leader, he and his Congress Party won a record majority later that year.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Personnel",
+      "event_subtype": "EndPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "1989年：拉吉夫·甘地在选举中失败并辞去总理职务。",
+      "support_text": "After he lost the election in 1989, Rajiv Gandhi resigned.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "1991年：印度历史上最暴力的选举中，印度教和穆斯林之间的宗派暴力导致200人丧生。",
+      "support_text": "The campaign has been marred by sectarian violence between Hindus and Muslims in what has proved to be the most violent election in Indian history. Two hundred people have already been killed.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1991年：前总理拉吉夫·甘地在竞选活动中被藏在花篮中的炸弹炸死，至少还有14人丧生。",
+      "support_text": "Rajiv Gandhi, the 46-year-old former Indian prime minister, has been assassinated. He was campaigning for the Congress Party on the second day of voting in the world's largest democratic election when a powerful bomb, hidden in a basket of flowers, exploded killing him instantly. At least 14 other people were also killed in the attack in the town of Sriperumbudur, about 30 miles from Madras, the capital of the southern state of Tamil Nadu.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_1",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "选举投票正在进行中",
+      "support_text": "选举投票正在进行中",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "暴力游击队组织为在斯里兰卡岛上的泰米尔人争取一个独立的家园而战斗",
+      "support_text": "a violent guerrilla group (LTTE) fight for a separate homeland for Tamils on the island of Sri Lanka",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "没有人承认实施了谋杀",
+      "support_text": "No-one admit carrying out the murder",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "谋杀被归咎于甘地先生的宿敌，泰米尔伊拉姆解放虎",
+      "support_text": "the murder was blamed on Mr Gandhi's arch enemies, the Liberation Tigers of Tamil Eelam (LTTE)",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉吉夫·甘地的死亡震惊了世界",
+      "support_text": "拉吉夫·甘地的死亡震惊了世界",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉吉夫·甘地的死亡标志着尼赫鲁王朝的结束",
+      "support_text": "拉吉夫·甘地的死亡标志着尼赫鲁王朝的结束",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "尼赫鲁王朝领导了印度",
+      "support_text": "尼赫鲁王朝领导了印度",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "After his brother Sanjay was killed in an air crash in 1980, he gave up his job as an airline pilot and was elected to Sanjay's parliamentary seat. He became prime minister after his mother, Indira Gandhi, was assassinated by her own Sikh bodyguards in 1984."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "He became prime minister after his mother, Indira Gandhi, was assassinated by her own Sikh bodyguards in 1984. Often seen as a reluctant leader, he and his Congress Party won a record majority later that year."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "He encouraged foreign investment, a freer economy and rejuvenated his own party, ridding it of his mother's unelected cronies. After he lost the election in 1989, Rajiv Gandhi resigned."
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "After he lost the election in 1989, Rajiv Gandhi resigned. This time, the Congress Party was expected to win the largest number of parliamentary seats - but not overall control - against the Hindu BJP Party and the Janata Dal, now split into two parties. The campaign has been marred by sectarian violence between Hindus and Muslims in what has proved to be the most violent election in Indian history."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "The campaign has been marred by sectarian violence between Hindus and Muslims in what has proved to be the most violent election in Indian history. Two hundred people have already been killed. Rajiv Gandhi, the 46-year-old former Indian prime minister, has been assassinated."
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_new_node_3",
+      "relation": "before",
+      "support_text": "甘地被暗杀后，没有人承认实施了谋杀"
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_new_node_5",
+      "relation": "before",
+      "support_text": "拉吉夫·甘地被暗杀发生在拉吉夫·甘地的死亡震惊了世界之前"
+    },
+    {
+      "source": "text_4_new_node_1",
+      "target": "text_4_node_1",
+      "relation": "before",
+      "support_text": "选举投票导致拉吉夫·甘地当选为议会议员"
+    },
+    {
+      "source": "text_4_new_node_2",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "LTTE的战斗活动发生在甘地被暗杀之前"
+    },
+    {
+      "source": "text_4_new_node_3",
+      "target": "text_4_new_node_4",
+      "relation": "before",
+      "support_text": "在没有人承认之后，谋杀被归咎于泰米尔伊拉姆解放虎"
+    },
+    {
+      "source": "text_4_new_node_5",
+      "target": "text_4_new_node_6",
+      "relation": "before",
+      "support_text": "拉吉夫·甘地的死亡震惊了世界发生在拉吉夫·甘地的死亡标志着尼赫鲁王朝的结束之前"
+    },
+    {
+      "source": "text_4_new_node_7",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "尼赫鲁王朝领导了印度发生在拉吉夫·甘地被暗杀之前"
+    }
+  ]
+}

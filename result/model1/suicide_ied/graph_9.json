@@ -2,10 +2,10 @@
   "nodes": [
     {
       "id": "text_9_node_1",
-      "event_type": "Life",
-      "event_subtype": "Die",
-      "event_sub_subtype": "Unspecified",
-      "description": "自周三以来，巴格达和其他地区的一系列爆炸事件已造成140多人死亡",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "9时早高峰期间，喀布尔政府安全单位附近发生自杀式爆炸",
       "source_text": "text_9"
     },
     {
@@ -13,110 +13,86 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "周三，对巴格达什叶派社区的袭击使这一天成为巴格达今年最血腥的一天，死亡人数超过90人",
+      "description": "恐怖分子冲入政府安全单位建筑引发持续两小时的交火",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_3",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "伊拉克总理海德尔·阿巴迪周六表示，ISIL正在利用联合政府的政治危机",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官方通报至少28人死亡、300人受伤，多数为平民",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_4",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "周日黎明时分，一名自杀式汽车炸弹袭击者在巴格达以北约20公里的塔吉镇袭击了天然气厂的主要大门",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "喀布尔警察局长确认一名袭击者在交火中死亡",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_5",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
       "event_sub_subtype": "Unspecified",
-      "description": "几名自杀式炸弹袭击者和武装分子闯入工厂并与安全部队发生冲突，造成27名士兵受伤",
+      "description": "阿富汗总统谴责袭击并强调国家需要和平与安全",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_6",
       "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "ISIL武装分子在增援部队到达时引爆汽车炸弹，与安全部队交战并引爆自杀式背心",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "北部巴尔赫省代理省长号召民众发起反塔利班起义",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_7",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "DamageDestroyDisableDismantle",
-      "event_sub_subtype": "Damage",
-      "description": "工厂的三个天然气储罐被点燃，安全部队最终控制住局势",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班承认对袭击负责并启动春季攻势",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_8",
-      "event_type": "Disaster",
-      "event_subtype": "FireExplosion",
-      "event_sub_subtype": "Unspecified",
-      "description": "消防队员成功控制并扑灭了爆炸引起的火灾",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "联合国特使称袭击可能构成战争罪行",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_9",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "技术人员开始检查损失",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国使馆谴责袭击并批评塔利班袭击平民",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_10",
-      "event_type": "ArtifactExistence",
-      "event_subtype": "DamageDestroyDisableDismantle",
-      "event_sub_subtype": "DisableDefuse",
-      "description": "附近的两座发电站因天然气供应中断而停止运营",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "北约驻阿指挥官指出塔利班战场失利转而使用恐怖袭击",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_11",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "数十辆警察和军队车辆赶到现场，枪战持续了约一个小时",
-      "source_text": "text_9"
-    },
-    {
-      "id": "text_9_node_12",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "一辆针对巴格达以南约30公里的拉蒂菲亚镇购物区的汽车炸弹造成7人死亡，18人受伤",
-      "source_text": "text_9"
-    },
-    {
-      "id": "text_9_node_13",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "巴格达其他地方发生三起独立的炸弹袭击，造成至少8名平民死亡，28人受伤",
-      "source_text": "text_9"
-    },
-    {
-      "id": "text_9_node_14",
-      "event_type": "Life",
-      "event_subtype": "Die",
-      "event_sub_subtype": "Unspecified",
-      "description": "周日的系列袭击共造成29人死亡",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者描述爆炸产生巨大冲击波和浓烟尘覆盖街道",
       "source_text": "text_9"
     }
   ],
   "edges": [
     {
-      "source": "text_9_node_2",
-      "target": "text_9_node_1",
+      "source": "text_9_node_1",
+      "target": "text_9_node_2",
       "relation": "before"
     },
     {
@@ -135,21 +111,6 @@
       "relation": "before"
     },
     {
-      "source": "text_9_node_4",
-      "target": "text_9_node_11",
-      "relation": "before"
-    },
-    {
-      "source": "text_9_node_4",
-      "target": "text_9_node_12",
-      "relation": "before"
-    },
-    {
-      "source": "text_9_node_4",
-      "target": "text_9_node_13",
-      "relation": "before"
-    },
-    {
       "source": "text_9_node_5",
       "target": "text_9_node_6",
       "relation": "before"
@@ -165,23 +126,18 @@
       "relation": "before"
     },
     {
-      "source": "text_9_node_7",
-      "target": "text_9_node_10",
-      "relation": "before"
-    },
-    {
       "source": "text_9_node_8",
       "target": "text_9_node_9",
       "relation": "before"
     },
     {
-      "source": "text_9_node_12",
-      "target": "text_9_node_14",
+      "source": "text_9_node_9",
+      "target": "text_9_node_10",
       "relation": "before"
     },
     {
-      "source": "text_9_node_13",
-      "target": "text_9_node_14",
+      "source": "text_9_node_10",
+      "target": "text_9_node_11",
       "relation": "before"
     }
   ]

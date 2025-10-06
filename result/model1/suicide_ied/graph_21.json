@@ -2,26 +2,82 @@
   "nodes": [
     {
       "id": "text_21_node_1",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "系统检测到用户的浏览器中JavaScript被禁用",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Taliban在喀布尔的警察局外引爆汽车炸弹，造成至少14人死亡，140多人受伤。",
       "source_text": "text_21"
     },
     {
       "id": "text_21_node_2",
       "event_type": "Contact",
-      "event_subtype": "RequestCommand",
-      "event_sub_subtype": "Unspecified",
-      "description": "系统询问用户是否要继续使用旧版Twitter",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Taliban宣称对此次袭击负责。",
       "source_text": "text_21"
     },
     {
       "id": "text_21_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生在美国和Taliban在卡塔尔举行的和平谈判取得进展的周三早晨。",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗总统阿什拉夫·加尼的发言人Sediq Sediqqi谴责了此次针对平民区的自杀袭击。",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_5",
       "event_type": "Contact",
       "event_subtype": "Contact",
-      "event_sub_subtype": "Correspondence",
-      "description": "用户回答同意继续使用旧版Twitter",
+      "event_sub_subtype": "Meet",
+      "description": "美国特使扎马尔·哈利勒扎德表示，应立即减少暴力，以推动即将进行的阿富汗内部谈判。",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_6",
+      "event_type": "Disaster",
+      "event_subtype": "DiseaseOutbreak",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国报告称7月是自2017年以来阿富汗最致命的一个月，超过1500名平民死亡或受伤。",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "周三的袭击加剧了对下月总统选举期间安全的担忧。",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "上个月，副总统候选人阿姆鲁拉·萨利赫在喀布尔幸免于一次自杀袭击。",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_9",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "塔利班威胁要破坏9月28日的选举，称其“没有合法性”。",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_10",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国对塔利班的威胁表示“深切关注”。",
       "source_text": "text_21"
     }
   ],
@@ -34,6 +90,41 @@
     {
       "source": "text_21_node_2",
       "target": "text_21_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_21_node_3",
+      "target": "text_21_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_21_node_4",
+      "target": "text_21_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_21_node_5",
+      "target": "text_21_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_21_node_6",
+      "target": "text_21_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_21_node_7",
+      "target": "text_21_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_21_node_8",
+      "target": "text_21_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_21_node_9",
+      "target": "text_21_node_10",
       "relation": "before"
     }
   ]

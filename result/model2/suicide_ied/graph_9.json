@@ -4,141 +4,183 @@
       "id": "text_9_node_1",
       "event_type": "Conflict",
       "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "Caretaker Balochistan Chief Minister Alauddin Marri condemned the attack on the convoy of Balochistan Awami Party (BAP) leader Siraj Raisani.",
-      "support_text": "Caretaker Balochistan Chief Minister Alauddin Marri on Friday condemned the “cowardly” attack on the convoy of Balochistan Awami Party (BAP) leader Siraj Raisani which claimed the lives of 128 people and injured nearly 130.",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Salman Abedi于2017年5月22日在曼彻斯特体育馆自杀式爆炸，造成22人死亡、116人受伤",
+      "support_text": "which killed himself and 22 concertgoers on 22 May and injured 116 more",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "At least 128 people, including Siraj Raisani, were martyred and nearly 130 others injured in the suicide attack in the Dringrah area of Mastung district.",
-      "support_text": "At least 128 people, including Siraj Raisani, were martyred and nearly 130 others injured in the suicide attack in the Dringrah area of Mastung district on Friday in the third such attack on election candidates in the run-up to the nationwide polls.",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查初期认为存在恐怖网络关联，但后续证实Abedi主要单独行动",
+      "support_text": "Police said they were investigating a potential terror 'network'. But now detectives say the 22-year-old shopped alone for most of the components",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_3",
-      "event_type": "Control",
-      "event_subtype": "ImpedeInterfereWith",
-      "event_sub_subtype": "Unspecified",
-      "description": "The chief minister has ordered the interior secretary, inspector general of police and law enforcement agencies to ramp up security arrangements in the province.",
-      "support_text": "The chief minister has ordered the interior secretary, inspector general of police and law enforcement agencies to ramp up security arrangements in the province.",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Abedi在袭击前四天（5月18日）返回英国，四天前曾访问利比亚",
+      "support_text": "He is believed to have visited Libya just four days before the attack, arriving back in the UK on 18 May",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_4",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "The attack is part of a conspiracy to disrupt the electoral process and peaceful atmosphere.",
-      "support_text": "“The attack is part of a conspiracy to disrupt the electoral process and peaceful atmosphere,” Marri said.",
+      "description": "利比亚当局拘留Abedi的父亲和弟弟Hashem",
+      "support_text": "His father and younger brother, Hashem, have been taken into custody by Libyan authorities",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_5",
-      "event_type": "Medical",
-      "event_subtype": "Intervention",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
       "event_sub_subtype": "Unspecified",
-      "description": "The chief minister also directed the Mastung deputy commissioner and other officers to ensure the injured receive proper treatment at hospitals.",
-      "support_text": "The chief minister also directed the Mastung deputy commissioner and other officers to ensure the injured receive proper treatment at hospitals.",
+      "description": "英国警方逮捕16人，其中3人（包括Abedi的两位表亲）于5月24日被释放",
+      "support_text": "Three men were released without charge on Tuesday: two men aged 20 and 24 from the Fallowfield area...",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_6",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Meet",
-      "description": "The chief minister met a delegation of the Balochistan Lecturers and Professors Association at the CM House.",
-      "support_text": "On Thursday, the chief minister met a delegation of the Balochistan Lecturers and Professors Association at the CM House.",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方通过手机记录、CCTV和数字设备分析Abedi的行踪",
+      "support_text": "Police have examined Abedi’s phone records, along with CCTV footage, to begin to piece together his movements",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_7",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
       "event_sub_subtype": "Unspecified",
-      "description": "The delegation shared grievances and demands, including higher education allowance, with the interim CM.",
-      "support_text": "The delegation shared grievances and demands, including higher education allowance, with the interim CM.",
+      "description": "在Pilsworth垃圾场搜索Abedi使用的蓝色行李箱",
+      "support_text": "officers have been searching a landfill site in Pilsworth, Bury, reportedly looking for the case",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_8",
-      "event_type": "Conflict",
-      "event_subtype": "Demonstrate",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
       "event_sub_subtype": "Unspecified",
-      "description": "The provincial government is keen to address the teachers’ issues but since joining the government, the province has been struck by the worst kind of financial crisis.",
-      "support_text": "The provincial government is keen to address the teachers’ issues but since we joined the government the province has been struck by the worst kind of financial crisis.",
+      "description": "11人（多为青少年）仍在拘留中，警方计划延长部分嫌疑人关押时间",
+      "support_text": "Eleven men remain in custody, mostly in their late teens or early twenties",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_9",
-      "event_type": "Control",
-      "event_subtype": "ImpedeInterfereWith",
-      "event_sub_subtype": "Unspecified",
-      "description": "The chief minister directed the education secretary to address the BPLA’s issues and proceed with the summary of higher education allowance.",
-      "support_text": "The chief minister directed the education secretary to address the BPLA’s issues and proceed with the summary of higher education allowance.",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "发布Abedi在Wilmslow Road携带行李箱的CCTV图像并呼吁公众提供线索",
+      "support_text": "police released a CCTV image showing Abedi wheeling a large blue suitcase and appealed for anyone who may have seen him with it",
       "source_text": "text_9"
     },
     {
       "id": "text_9_node_10",
-      "event_type": "Cognitive",
-      "event_subtype": "TeachingTrainingLearning",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Salman Abedi使用组件制造炸弹",
+      "support_text": "which killed himself and 22 concertgoers on 22 May and injured 116 more",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Salman Abedi制造炸弹",
+      "support_text": "which killed himself and 22 concertgoers on 22 May and injured 116 more",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_12",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
       "event_sub_subtype": "Unspecified",
-      "description": "组织了一次角落会议以推广他的竞选资格",
-      "support_text": "组织了一次角落会议以推广他的竞选资格",
+      "description": "被捕的青少年和妇女被释放",
+      "support_text": "被捕的青少年和妇女被释放",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "持续返回威尔姆斯劳路区域",
+      "support_text": "他持续返回威尔姆斯劳路区域",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "使用该行李箱进行相关行程",
+      "support_text": "他使用该行李箱进行相关行程",
       "source_text": "text_9"
     }
   ],
   "edges": [
     {
-      "source": "text_9_node_1",
-      "target": "text_9_node_2",
-      "relation": "before",
-      "support_text": "Caretaker Balochistan Chief Minister Alauddin Marri on Friday condemned the “cowardly” attack on the convoy of Balochistan Awami Party (BAP) leader Siraj Raisani which claimed the lives of 128 people and injured nearly 130."
-    },
-    {
       "source": "text_9_node_2",
-      "target": "text_9_node_3",
+      "target": "text_9_node_1",
       "relation": "before",
-      "support_text": "At least 128 people, including Siraj Raisani, were martyred and nearly 130 others injured in the suicide attack in the Dringrah area of Mastung district on Friday in the third such attack on election candidates in the run-up to the nationwide polls."
+      "support_text": "But now detectives say the 22-year-old shopped alone for most of the components"
     },
     {
       "source": "text_9_node_3",
-      "target": "text_9_node_4",
+      "target": "text_9_node_1",
       "relation": "before",
-      "support_text": "The chief minister has ordered the interior secretary, inspector general of police and law enforcement agencies to ramp up security arrangements in the province."
+      "support_text": "He is believed to have visited Libya just four days before the attack, arriving back in the UK on 18 May"
     },
     {
       "source": "text_9_node_4",
-      "target": "text_9_node_5",
+      "target": "text_9_node_8",
       "relation": "before",
-      "support_text": "“The attack is part of a conspiracy to disrupt the electoral process and peaceful atmosphere,” Marri said."
+      "support_text": "His father and younger brother, Hashem, have been taken into custody by Libyan authorities"
     },
     {
       "source": "text_9_node_5",
-      "target": "text_9_node_6",
+      "target": "text_9_node_8",
       "relation": "before",
-      "support_text": "The chief minister also directed the Mastung deputy commissioner and other officers to ensure the injured receive proper treatment at hospitals."
+      "support_text": "Three men were released without charge on Tuesday: two men aged 20 and 24 from the Fallowfield area..."
+    },
+    {
+      "source": "text_9_node_5",
+      "target": "text_9_node_12",
+      "relation": "before",
+      "support_text": "5月24日释放3人（含Abedi表亲）→随后释放其他被捕青少年和妇女"
     },
     {
       "source": "text_9_node_6",
+      "target": "text_9_node_1",
+      "relation": "before",
+      "support_text": "Police have examined Abedi’s phone records, along with CCTV footage, to begin to piece together his movements"
+    },
+    {
+      "source": "text_9_node_9",
       "target": "text_9_node_7",
       "relation": "before",
-      "support_text": "On Thursday, the chief minister met a delegation of the Balochistan Lecturers and Professors Association at the CM House."
+      "support_text": "For the last few days officers have been searching a landfill site in Pilsworth..."
     },
     {
-      "source": "text_9_node_7",
-      "target": "text_9_node_8",
+      "source": "text_9_node_9",
+      "target": "text_9_node_13",
       "relation": "before",
-      "support_text": "The delegation shared grievances and demands, including higher education allowance, with the interim CM."
+      "support_text": "根据temporal_order=1与2的时序关系"
     },
     {
-      "source": "text_9_node_8",
-      "target": "text_9_node_9",
+      "source": "text_9_node_13",
+      "target": "text_9_node_14",
       "relation": "before",
-      "support_text": "The provincial government is keen to address the teachers’ issues but since we joined the government the province has been struck by the worst kind of financial crisis."
+      "support_text": "根据temporal_order=2的时序关系"
     }
   ]
 }

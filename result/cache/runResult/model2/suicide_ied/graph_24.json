@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "text_24_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰抵抗组织策划并执行首次大规模自杀式爆炸，袭击法国军事基地，造成298名士兵死亡",
+      "support_text": "Its 1,800kg cargo of high explosives detonated on impact, tearing the building to rubble. Two hundred and ninety-eight soldiers died in the bombings.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "抵抗组织将自杀式爆炸作为核心战略，推动巴勒斯坦抵抗从暴力抗议升级为独立战争",
+      "support_text": "Hamas and Islamic Jihad have made human bombs - to give them a politically neutral designation - the centpiece of a new strategy to take the intifada from a violent, high-intensity public protest into a popular war of independence.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "统计显示巴勒斯坦在抵抗行动中已造成600人死亡、2万人受伤",
+      "support_text": "So far, this intifada has seen 600 Palestinians killed and 20,000 injured.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析指出自杀式爆炸在军事层面具有低成本高伤亡优势",
+      "support_text": "Militarily, human bombs are cost-effective: just one can inflict multiple casualties.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "宗教意识形态推动自杀式抵抗，将自我牺牲与伊斯兰教义中的殉道精神结合",
+      "support_text": "Faiths don't operate in a vacuum and the dominant context in the West Bank and Gaza has been the Israeli occupation. Consequently, resurgent Islam has expressed itself in the language of resistance.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "伊斯兰教法权威人物称自杀式爆炸为抵抗压迫的正当手段",
+      "support_text": "Sheikh Yusuf al-Qaradawi calls the bombs 'commendable' and 'among the greatest form of holy struggle against oppression'.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "抵抗组织领袖以非对称战争逻辑回应针对平民的袭击问题",
+      "support_text": "When you are at war with an enemy that does not respect the distinction between combatant and civilian, you cannot let it attack your people with impunity.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "明确抵抗行动与以色列占领的系统性压迫形成直接对抗关系",
+      "support_text": "The change of strategy was always on the cards. Sooner or later the cost of taking on the Middle East's most powerful army with rocks was going to become onerous.",
+      "source_text": "text_24"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_2",
+      "relation": "before",
+      "support_text": "Combining elements of surprise, zeal and self-sacrifice, Islamic Jihad, later to become Hizbullah, had forced two of the world's biggest powers to turn tail."
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_3",
+      "relation": "before",
+      "support_text": "Two hundred and ninety-eight soldiers died in the bombings. So far, this intifada has seen 600 Palestinians killed and 20,000 injured."
+    },
+    {
+      "source": "text_24_node_2",
+      "target": "text_24_node_3",
+      "relation": "before",
+      "support_text": "The attacks remain the benchmark for all 'suicide bombers'. They have proved particularly inspiring to the Palestinian Islamist resistance."
+    },
+    {
+      "source": "text_24_node_3",
+      "target": "text_24_node_4",
+      "relation": "before",
+      "support_text": "But their biggest impact is on the psychological level. The fighter who believes in what he is fighting for is a better soldier than the one who doesn't."
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_2",
+      "relation": "before",
+      "support_text": "The change of strategy was always on the cards. Sooner or later the cost of taking on the Middle East's most powerful army with rocks was going to become onerous."
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_6",
+      "relation": "before",
+      "support_text": "Polls in the Middle East show 75% of people in favour of martyr-bombings. They also carry the weight of religious authority."
+    },
+    {
+      "source": "text_24_node_6",
+      "target": "text_24_node_7",
+      "relation": "before",
+      "support_text": "What this does not answer, of course, is the ethical problem of bombing civilian centres. Can there ever be any moral justification in harming non-combatants?"
+    },
+    {
+      "source": "text_24_node_7",
+      "target": "text_24_node_8",
+      "relation": "before",
+      "support_text": "To do so would be tantamount..."
+    }
+  ]
+}

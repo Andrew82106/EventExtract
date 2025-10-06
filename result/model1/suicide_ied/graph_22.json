@@ -2,26 +2,50 @@
   "nodes": [
     {
       "id": "text_22_node_1",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Unspecified",
-      "description": "一名男子带着妻子和两个孩子前往游乐场的游乐设施",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2010年3月17日莫斯科多莫杰多沃机场发生自杀式爆炸袭击，造成35人死亡、160余人重伤",
       "source_text": "text_22"
     },
     {
       "id": "text_22_node_2",
       "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "他听到一声巨大的爆炸声",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "俄罗斯紧急事务部确认44岁保加利亚籍遇难者尼科莱伊·伊万诺夫·伊万诺夫身份，其遗体由救援人员从机场废墟中抬出",
       "source_text": "text_22"
     },
     {
       "id": "text_22_node_3",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "保加利亚外交部向遇难者家属通报情况，该袭击者系机场内实施自杀式爆炸的恐怖分子",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_4",
       "event_type": "Life",
       "event_subtype": "Injure",
-      "event_sub_subtype": "Unspecified",
-      "description": "他们四个人都被摔到了地板上",
+      "event_sub_subtype": "",
+      "description": "莫斯科医院接收至少180名伤者，其中部分伤者处于危重状态",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "",
+      "description": "确认两名英国公民在袭击中遇难，另有其他非俄罗斯籍公民被送医救治",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_6",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "保加利亚总统格奥尔基·帕尔瓦诺夫和总理博伊科·博里斯索夫代表国家向俄罗斯人民致哀",
       "source_text": "text_22"
     }
   ],
@@ -32,8 +56,33 @@
       "relation": "before"
     },
     {
+      "source": "text_22_node_1",
+      "target": "text_22_node_4",
+      "relation": "before"
+    },
+    {
       "source": "text_22_node_2",
       "target": "text_22_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_22_node_3",
+      "target": "text_22_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_22_node_4",
+      "target": "text_22_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_22_node_5",
+      "target": "text_22_node_6",
       "relation": "before"
     }
   ]

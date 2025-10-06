@@ -5,55 +5,87 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "DetonateExplode",
-      "description": "1998年美国驻肯尼亚和坦桑尼亚大使馆遭遇爆炸袭击",
+      "description": "周一上午，伊斯兰国（ISIS）在也门阿登北部训练营针对新兵集合进行自杀式汽车炸弹袭击",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_2",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "Unspecified",
-      "description": "2007年前巴基斯坦总理贝娜齐尔·布托遭遇未遂暗杀",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "爆炸导致70人死亡67人受伤，创阿登地区袭击死亡人数最高纪录",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "2008年6月伊斯兰堡丹麦大使馆遭遇爆炸袭击",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "袭击者通过载有早餐的卡车混入营地，引爆炸弹后部分屋顶坍塌掩埋人员",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_4",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "2008年9月伊斯兰堡万豪酒店遭遇爆炸袭击，造成55人死亡",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "爆炸碎片扩散至周边建筑，目击者称现场散落大量残骸",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_5",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
       "event_sub_subtype": "Unspecified",
-      "description": "2009年1月1日美国无人机在南瓦济里斯坦发射导弹，击中一栋建筑",
+      "description": "ISIS在袭击当天宣称对事件负责",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_6",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
       "event_sub_subtype": "Unspecified",
-      "description": "2009年1月第一周基地组织在巴基斯坦的行动负责人Usama al-Kini和他的高级助手Sheikh Ahmed Salim Swedan被美国无人机炸死",
+      "description": "阿登作为也门阿拉伯海湾国家支持政府的临时基地，已发生多起针对官员和安保的袭击",
       "source_text": "text_1"
     },
     {
       "id": "text_1_node_7",
-      "event_type": "Cognitive",
-      "event_subtype": "Research",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
       "event_sub_subtype": "Unspecified",
-      "description": "2009年1月巴基斯坦军方开始对无人机袭击事件进行调查",
+      "description": "过去两个月内，也门政府已在阿登训练数百士兵，作为收复南部省份行动的一部分",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "8月也门政府军攻占阿比扬省首府辛贾巴，后续收复多个城镇但遭遇激烈抵抗",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "在已收复的城镇周边仍有武装分子滞留，控制邻近沙布瓦省大部分地区",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "沙特阿拉伯主导的阿拉伯联盟持续为政府军提供空中支援对抗武装分子",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_11",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "自2015年3月以来，也门战争已造成6,600人死亡（多为平民），80%人口需人道主义援助",
       "source_text": "text_1"
     }
   ],
@@ -64,7 +96,7 @@
       "relation": "before"
     },
     {
-      "source": "text_1_node_2",
+      "source": "text_1_node_1",
       "target": "text_1_node_3",
       "relation": "before"
     },
@@ -74,18 +106,28 @@
       "relation": "before"
     },
     {
-      "source": "text_1_node_4",
+      "source": "text_1_node_3",
       "target": "text_1_node_5",
       "relation": "before"
     },
     {
-      "source": "text_1_node_5",
-      "target": "text_1_node_6",
+      "source": "text_1_node_7",
+      "target": "text_1_node_8",
       "relation": "before"
     },
     {
-      "source": "text_1_node_6",
-      "target": "text_1_node_7",
+      "source": "text_1_node_8",
+      "target": "text_1_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_1_node_8",
+      "target": "text_1_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_1_node_10",
+      "target": "text_1_node_11",
       "relation": "before"
     }
   ]

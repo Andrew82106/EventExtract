@@ -2,10 +2,10 @@
   "nodes": [
     {
       "id": "text_17_node_1",
-      "event_type": "Contact",
-      "event_subtype": "ThreatenCoerce",
-      "event_sub_subtype": "Unspecified",
-      "description": "塔利班多次威胁要针对三个世俗政党（ANP、PPP和MQM），因其支持军事行动和反恐战争",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周四，伊朗东南部主要港口城市查巴哈尔的警察总部发生自杀式汽车炸弹袭击，造成四名警察死亡，42人受伤。",
       "source_text": "text_17"
     },
     {
@@ -13,87 +13,55 @@
       "event_type": "Conflict",
       "event_subtype": "Attack",
       "event_sub_subtype": "Unspecified",
-      "description": "过去一个月内，ANP领导人和候选人已遭受六次类似袭击",
+      "description": "自杀式袭击者驾驶装满炸弹的车辆，被警方发现后发动爆炸，爆炸发生在查巴哈尔警察总部附近。",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_3",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "4月16日晚上，一名自杀式炸弹袭击者在白沙瓦的ANP选举集会上引爆自己",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗安全部门截获并逮捕了前往阿联酋的极端分子，伊朗外交部指责外国势力支持恐怖主义。",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_4",
-      "event_type": "Conflict",
-      "event_subtype": "Attack",
-      "event_sub_subtype": "DetonateExplode",
-      "description": "炸弹袭击发生在ANP领导人车辆附近，使用了约6公斤装有滚珠轴承的炸药",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "伊朗外交部部长扎里夫在推特上谴责外国支持的恐怖分子在查巴哈尔的袭击，并表示这些罪行不会得到惩罚。",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_5",
-      "event_type": "Life",
-      "event_subtype": "Die",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
       "event_sub_subtype": "Unspecified",
-      "description": "袭击造成至少15人死亡，包括四名警察和一名记者，另有50人受伤",
+      "description": "伊朗近年来在锡斯坦-巴尔赫斯坦省多次发生针对安全部队的武装袭击，自杀式爆炸在伊朗较为罕见。",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_6",
-      "event_type": "Life",
-      "event_subtype": "Injure",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
       "event_sub_subtype": "Unspecified",
-      "description": "ANP高级领导人兼前联邦铁路部长Ghulam Ahmed Bilour在袭击中受伤",
+      "description": "2010年，伊朗安全部门截获并逮捕了前往阿联酋的极端分子。",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_7",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "塔利班声称对袭击负责，表示目标是Haroon Bilour而非Ghulam Ahmed Bilour",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年，伊朗安全部门截获并逮捕了前往阿联酋的极端分子。",
       "source_text": "text_17"
     },
     {
       "id": "text_17_node_8",
-      "event_type": "Life",
-      "event_subtype": "Die",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
       "event_sub_subtype": "Unspecified",
-      "description": "死者包括前联邦部长的司机、多名警察和一名记者",
-      "source_text": "text_17"
-    },
-    {
-      "id": "text_17_node_9",
-      "event_type": "Movement",
-      "event_subtype": "Transportation",
-      "event_sub_subtype": "Evacuation",
-      "description": "救援队和ANP工人赶到现场，将死者和伤者转移到医院",
-      "source_text": "text_17"
-    },
-    {
-      "id": "text_17_node_10",
-      "event_type": "Cognitive",
-      "event_subtype": "Inspection",
-      "event_sub_subtype": "SensoryObserve",
-      "description": "ANP领导人表示，Ghulam Ahmed Bilour明显受到惊吓，裤子上沾有血迹",
-      "source_text": "text_17"
-    },
-    {
-      "id": "text_17_node_11",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "白沙瓦副专员表示，一些伤者情况严重，正在监控局势",
-      "source_text": "text_17"
-    },
-    {
-      "id": "text_17_node_12",
-      "event_type": "Contact",
-      "event_subtype": "Contact",
-      "event_sub_subtype": "Broadcast",
-      "description": "ANP负责人声称，某些势力想要从选举中消除自由力量",
+      "description": "2010年，伊朗安全部门截获并逮捕了前往阿联酋的极端分子。",
       "source_text": "text_17"
     }
   ],
@@ -114,43 +82,23 @@
       "relation": "before"
     },
     {
-      "source": "text_17_node_3",
+      "source": "text_17_node_4",
       "target": "text_17_node_5",
       "relation": "before"
     },
     {
-      "source": "text_17_node_3",
+      "source": "text_17_node_5",
       "target": "text_17_node_6",
       "relation": "before"
     },
     {
-      "source": "text_17_node_3",
+      "source": "text_17_node_6",
       "target": "text_17_node_7",
       "relation": "before"
     },
     {
-      "source": "text_17_node_3",
+      "source": "text_17_node_7",
       "target": "text_17_node_8",
-      "relation": "before"
-    },
-    {
-      "source": "text_17_node_3",
-      "target": "text_17_node_9",
-      "relation": "before"
-    },
-    {
-      "source": "text_17_node_3",
-      "target": "text_17_node_10",
-      "relation": "before"
-    },
-    {
-      "source": "text_17_node_3",
-      "target": "text_17_node_12",
-      "relation": "before"
-    },
-    {
-      "source": "text_17_node_9",
-      "target": "text_17_node_11",
       "relation": "before"
     }
   ]

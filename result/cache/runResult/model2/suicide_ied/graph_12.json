@@ -1,0 +1,246 @@
+{
+  "nodes": [
+    {
+      "id": "text_12_node_1",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "50年前，阿拉伯基督徒Mattar家族和犹太Tayar家族在海法开设了Maxim餐厅",
+      "support_text": "It was 50 years ago this month that the Arab-Christian Mattar family and the Jewish Tayar family opened this folksy, Middle Eastern restaurant at the entrance to the northern Israeli city.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "两个家族在好时光和坏时光中保持了50年的合作关系",
+      "support_text": "The two families, both from Haifa and with roots in Lebanon, have remained in partnership ever since, through good and bad times.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "12年前，在第二次巴勒斯坦大起义期间，Maxim餐厅发生了一起自杀式炸弹袭击，造成21人死亡，100人受伤",
+      "support_text": "It was 12 years ago this month, during the height of the second intifada, that one of the worst terror attacks in Israeli history was carried out at this very restaurant. A female suicide bomber from the West Bank city of Jenin walked in on Saturday October 4, when it was jam-packed with lunchtime customers, and blew herself up. Twenty-one Israelis were killed in that attack, including five restaurant employees, and another 100 people were wounded.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖袭击发生一个月后，餐厅老板们考虑不再重新开业，但最终决定继续经营，以维护犹太-阿拉伯共存的象征",
+      "support_text": "\"A month after the terror attack, we were really tempted not to reopen,\" he recalls. \"But we understood that if we put our hands up in defeat, that would be a victory for hate and evil. We have long been regarded as a symbol of Jewish-Arab coexistence in this country, and we did not want that symbol destroyed.\"",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当前，由于最新的暴力浪潮，餐厅生意受到影响，大多数以色列人不愿意外出就餐",
+      "support_text": "Business is suffering these days at Maxim, as it is elsewhere in the country, with most Israelis preferring not to venture out to restaurants if they don't have to.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "餐厅第二代所有者对当前局势感到悲伤，但仍然保持希望",
+      "support_text": "When the second generation of owners looks around today at the latest wave of violence engulfing the country, they are sad, yet simultaneously optimistic. \"If I had no hope, I would have closed this place down long ago,\" says Tony Mattar, son of the original Arab partner.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "女性自杀式炸弹袭击者走进餐厅",
+      "support_text": "A female suicide bomber from the West Bank city of Jenin walked in on Saturday October 4, when it was jam-packed with lunchtime customers",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "他和他的伙伴放弃他们的生意",
+      "support_text": "他和他的伙伴放弃他们的生意",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Tony Mattar说如果他没有希望，他早就关闭这个地方了",
+      "support_text": "\"If I had no hope, I would have closed this place down long ago,\" says Tony Mattar",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Tony Mattar会关闭这个地方",
+      "support_text": "I would have closed this place down long ago",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "他们举手投降",
+      "support_text": "if we put our hands up in defeat",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_6",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "那个象征被破坏",
+      "support_text": "we did not want that symbol destroyed",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Orly Nir前几天带她母亲来这里",
+      "support_text": "Orly Nir前几天带她母亲来这里",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Orly Nir的母亲看到这个地方有多空",
+      "support_text": "Orly Nir的母亲看到这个地方有多空",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Tony安慰Orly Nir和她的母亲",
+      "support_text": "Tony安慰Orly Nir和她的母亲",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Orly Nir说她前几天带她母亲来这里",
+      "support_text": "Orly Nir说她前几天带她母亲来这里",
+      "source_text": "text_12"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_12_node_1",
+      "target": "text_12_node_2",
+      "relation": "before",
+      "support_text": "It was 50 years ago this month that the Arab-Christian Mattar family and the Jewish Tayar family opened this folksy, Middle Eastern restaurant at the entrance to the northern Israeli city. The two families, both from Haifa and with roots in Lebanon, have remained in partnership ever since, through good and bad times."
+    },
+    {
+      "source": "text_12_node_1",
+      "target": "text_12_node_3",
+      "relation": "before",
+      "support_text": "It was 50 years ago this month that the Arab-Christian Mattar family and the Jewish Tayar family opened this folksy, Middle Eastern restaurant at the entrance to the northern Israeli city. It was 12 years ago this month, during the height of the second intifada, that one of the worst terror attacks in Israeli history was carried out at this very restaurant."
+    },
+    {
+      "source": "text_12_node_3",
+      "target": "text_12_node_4",
+      "relation": "before",
+      "support_text": "It was 12 years ago this month, during the height of the second intifada, that one of the worst terror attacks in Israeli history was carried out at this very restaurant. \"A month after the terror attack, we were really tempted not to reopen,\" he recalls."
+    },
+    {
+      "source": "text_12_node_3",
+      "target": "text_12_new_node_2",
+      "relation": "before",
+      "support_text": "恐怖袭击后，他和他们的伙伴放弃他们的生意"
+    },
+    {
+      "source": "text_12_node_4",
+      "target": "text_12_node_5",
+      "relation": "before",
+      "support_text": "\"A month after the terror attack, we were really tempted not to reopen,\" he recalls. Business is suffering these days at Maxim, as it is elsewhere in the country, with most Israelis preferring not to venture out to restaurants if they don't have to."
+    },
+    {
+      "source": "text_12_node_5",
+      "target": "text_12_node_6",
+      "relation": "before",
+      "support_text": "Business is suffering these days at Maxim, as it is elsewhere in the country, with most Israelis preferring not to venture out to restaurants if they don't have to. When the second generation of owners looks around today at the latest wave of violence engulfing the country, they are sad, yet simultaneously optimistic."
+    },
+    {
+      "source": "text_12_node_6",
+      "target": "text_12_new_node_3",
+      "relation": "before",
+      "support_text": "餐厅第二代所有者对当前局势感到悲伤，但仍然保持希望，然后Tony Mattar说如果他没有希望，他早就关闭这个地方了"
+    },
+    {
+      "source": "text_12_new_node_1",
+      "target": "text_12_node_3",
+      "relation": "before",
+      "support_text": "A female suicide bomber from the West Bank city of Jenin walked in on Saturday October 4, when it was jam-packed with lunchtime customers, and blew herself up."
+    },
+    {
+      "source": "text_12_new_node_2",
+      "target": "text_12_node_4",
+      "relation": "before",
+      "support_text": "他和他们的伙伴放弃他们的生意，然后他们理解了如果他们投降，那将是仇恨和邪恶的胜利"
+    },
+    {
+      "source": "text_12_new_node_3",
+      "target": "text_12_new_node_4",
+      "relation": "before",
+      "support_text": "Tony Mattar说如果他没有希望，他早就关闭这个地方了，然后Tony Mattar会关闭这个地方"
+    },
+    {
+      "source": "text_12_new_node_4",
+      "target": "text_12_new_node_5",
+      "relation": "before",
+      "support_text": "Tony Mattar会关闭这个地方，然后他们举手投降"
+    },
+    {
+      "source": "text_12_new_node_5",
+      "target": "text_12_new_node_6",
+      "relation": "before",
+      "support_text": "他们举手投降，然后那个象征被破坏"
+    },
+    {
+      "source": "text_12_new_node_7",
+      "target": "text_12_new_node_8",
+      "relation": "before",
+      "support_text": "Orly Nir前几天带她母亲来这里，然后她的母亲看到这个地方有多空"
+    },
+    {
+      "source": "text_12_new_node_8",
+      "target": "text_12_new_node_9",
+      "relation": "before",
+      "support_text": "Orly Nir的母亲看到这个地方有多空，然后Tony安慰Orly Nir和她的母亲"
+    },
+    {
+      "source": "text_12_new_node_9",
+      "target": "text_12_new_node_10",
+      "relation": "before",
+      "support_text": "Tony安慰Orly Nir和她的母亲，然后Orly Nir说她前几天带她母亲来这里"
+    },
+    {
+      "source": "text_12_new_node_10",
+      "target": "text_12_node_5",
+      "relation": "before",
+      "support_text": "Orly Nir说她前几天带她母亲来这里，然后大多数以色列人冒险外出到餐厅"
+    }
+  ]
+}
