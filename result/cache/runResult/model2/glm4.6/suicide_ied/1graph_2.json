@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班官员与阿富汗活动家在多哈为内部阿富汗峰会做准备。",
+      "support_text": "The attack took place as Taliban officials and a selected group of Afghan activists and civil society figures prepared to meet in Doha, casting a pall over talks intended to open the way for full peace negotiations in the future.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "塔利班在阿富汗加兹尼市国家安全局办公室附近引爆了一枚汽车炸弹。",
+      "support_text": "Islamist Taliban fighters detonated a car bomb in Ghazni city near an office of Afghanistan’s main intelligence service, the national directorate of security (NDS), during Sunday morning’s rush hour, officials said.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致至少14人死亡，超过180人受伤，其中包括许多附近学校的学生。",
+      "support_text": "A car bomb in central Afghanistan has killed at least 14 people, including eight members of the security forces and six civilians, as well as injuring more than 180, many of them students attending a nearby school.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班宣布对此次袭击负责，并声称造成多名情报人员伤亡。",
+      "support_text": "The Taliban claimed responsibility, saying in a statement dozens of NDS officers were killed or wounded.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_5",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国特使扎尔梅·哈利勒扎德强烈谴责了此次袭击。",
+      "support_text": "“It is unfathomable to endanger children in this way and I strongly condemn this attack,” US special representative for Afghanistan reconciliation, Zalmay Khalilzad, tweeted.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "此次袭击给旨在推动和平谈判的多哈会谈蒙上了阴影。",
+      "support_text": "The attack took place as Taliban officials and a selected group of Afghan activists and civil society figures prepared to meet in Doha, casting a pall over talks intended to open the way for full peace negotiations in the future.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_1",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "德国和卡塔尔官员安排了这次会议。",
+      "support_text": "German and Qatari officials arranged the meeting.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Correspondence",
+      "description": "塔利班一再拒绝与阿富汗政府谈判。",
+      "support_text": "The Taliban have repeatedly refused to negotiate directly with the western-backed government of Afghan president Ashraf Ghani.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国和平特使扎尔梅·哈利勒扎德说，最新一轮会谈是迄今为止最有成效的。",
+      "support_text": "US peace envoy Zalmay Khalilzad said the latest round of talks... were the most productive ever.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_4",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤亡人数可能会上升。",
+      "support_text": "Zaher Shah Nekmal, a health director in Ghazni province, said the casualty figures may rise further.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "加兹尼省卫生主任表示伤亡人数可能进一步上升。",
+      "support_text": "Zaher Shah Nekmal, a health director in Ghazni province, said the casualty figures may rise further.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班目前控制着约半个阿富汗。",
+      "support_text": "塔利班目前控制着约半个阿富汗。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班持续加强对阿富汗部队的攻击。",
+      "support_text": "塔利班持续加强对阿富汗部队的攻击。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班加强了对阿富汗部队的攻击。",
+      "support_text": "塔利班加强了对阿富汗部队的攻击。",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "The attack took place as Taliban officials and a selected group of Afghan activists and civil society figures prepared to meet in Doha..."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "A car bomb in central Afghanistan has killed at least 14 people... as well as injuring more than 180..."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "The attack took place... casting a pall over talks intended to open the way for full peace negotiations in the future."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "Islamist Taliban fighters detonated a car bomb... The Taliban claimed responsibility..."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_new_node_5",
+      "relation": "before",
+      "support_text": "基于动词事件的时序顺序推断：'destroy' (temporal_order: 1) 发生于 'say' (temporal_order: 2) 之前。"
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "At least 60 children who were attending classes... were among the 180 people wounded... “It is unfathomable to endanger children in this way and I strongly condemn this attack,” US special representative for Afghanistan reconciliation, Zalmay Khalilzad, tweeted."
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "A car bomb in central Afghanistan has killed at least 14 people... The Taliban claimed responsibility, saying in a statement dozens of NDS officers were killed or wounded."
+    },
+    {
+      "source": "text_2_new_node_1",
+      "target": "text_2_new_node_2",
+      "relation": "before",
+      "support_text": "基于动词事件的时序顺序推断：'arrange' (temporal_order: 1) 发生于 'refuse' (temporal_order: 2) 之前。"
+    },
+    {
+      "source": "text_2_new_node_2",
+      "target": "text_2_new_node_3",
+      "relation": "before",
+      "support_text": "基于动词事件的时序顺序推断：'refuse' (temporal_order: 2) 发生于 'say' (temporal_order: 7) 之前。"
+    },
+    {
+      "source": "text_2_new_node_5",
+      "target": "text_2_new_node_4",
+      "relation": "before",
+      "support_text": "基于动词事件的时序顺序推断：'say' (temporal_order: 2) 发生于 'rise' (temporal_order: 3) 之前。"
+    },
+    {
+      "source": "text_2_new_node_6",
+      "target": "text_2_new_node_7",
+      "relation": "before",
+      "support_text": "基于动词事件的时序顺序推断：'hold sway' (temporal_order: 2) 发生于 'continue' (temporal_order: 3) 之前。"
+    },
+    {
+      "source": "text_2_new_node_7",
+      "target": "text_2_new_node_8",
+      "relation": "before",
+      "support_text": "基于动词事件的时序顺序推断：'continue' (temporal_order: 3) 发生于 'intensify' (temporal_order: 4) 之前。"
+    }
+  ]
+}

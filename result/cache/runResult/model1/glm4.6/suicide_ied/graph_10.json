@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_10_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "犯罪调查局（CID）发布了与复活节星期日爆炸袭击相关的嫌疑人照片。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "警方公布了三名男性和三名女性嫌疑人的姓名。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "警方寻求公众协助以追踪这些嫌疑人。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "警方公布了联系电话，请求知情者提供线索。",
+      "source_text": "text_10"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_2",
+      "target": "text_10_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_4",
+      "relation": "before"
+    }
+  ]
+}

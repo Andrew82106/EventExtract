@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_23_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2001年8月，Sbarro餐厅遭自杀式爆炸袭击，造成15人死亡（包括15岁受害者Malki Roth），14名额外受害者死亡，130人受伤",
+      "support_text": "Malki Roth, 15, from Jerusalem...was one of 15 people murdered in the bombing of the restaurant...Ahlam Tamimi...drove the suicide bomber who carried out the suicide bombing at the Sbarro restaurant",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_2",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ahlam Tamimi因策划该袭击被判16次终身监禁，其言论显示拒绝承认以色列存在",
+      "support_text": "Ahlam Tamimi...was sentenced to 16 life terms in prison...Tamimi’s comment was prophetic: 'I’m not sorry for what I did. I will get out of prison and I refuse to recognize Israel's existence'",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_3",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年3月，以色列政府批准释放包括Ahlam Tamimi在内的1026名囚犯，以换取被绑架士兵Shalit的归还被扣押",
+      "support_text": "the Cabinet’s approval...to win the return of kidnapped soldier Gilad Shalit",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ahlam Tamimi获释后拒绝公开道歉，预言将再次实施恐怖袭击",
+      "support_text": "the terrorist’s comment was prophetic. It's reasonable to think she will seek to do the same again",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "受害者母亲Frimet Roth在获知释放决定后发表声明，谴责政府交易与恐怖主义循环",
+      "support_text": "Frimet Roth...wrote on her 'This Ongoing War' website...the government that prosecuted this monstrous woman has agreed to the satanic transaction",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴勒斯坦官方媒体为Ahlam Tamimi及女囚犯庆祝获释，称其为‘光荣囚犯’",
+      "support_text": "Official Palestinian Authority media recently stated, 'We wish her freedom - she and [the rest of] our glorious female prisoners'",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_new_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ahlam Tamimi加入哈马斯组织",
+      "support_text": "Ahlam Tamimi...drove the suicide bomber who carried out the suicide bombing at the Sbarro restaurant",
+      "source_text": "text_23"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_23_node_2",
+      "target": "text_23_node_3",
+      "relation": "before",
+      "support_text": "Ahlam Tamimi...was sentenced to 16 life terms in prison but is to be freed"
+    },
+    {
+      "source": "text_23_node_3",
+      "target": "text_23_node_4",
+      "relation": "before",
+      "support_text": "the terrorist’s comment was prophetic...will seek to do the same again"
+    },
+    {
+      "source": "text_23_node_3",
+      "target": "text_23_node_5",
+      "relation": "before",
+      "support_text": "after learning of the Cabinet’s approval...the government that prosecuted this monstrous woman has agreed"
+    },
+    {
+      "source": "text_23_node_3",
+      "target": "text_23_node_6",
+      "relation": "before",
+      "support_text": "the Cabinet’s approval...Official Palestinian Authority media recently stated"
+    },
+    {
+      "source": "text_23_node_4",
+      "target": "text_23_node_5",
+      "relation": "before",
+      "support_text": "the terrorist’s comment was prophetic...Frimet Roth...wrote on her website"
+    },
+    {
+      "source": "text_23_new_node_7",
+      "target": "text_23_node_1",
+      "relation": "before",
+      "support_text": "加入哈马斯后策划实施自杀式爆炸袭击"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈菲兹·纳瓦兹加入了被禁的Lashkar-e-Jhangvi (LeJ)组织。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈菲兹·纳瓦兹后来加入了Daesh (ISIS)组织。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "加入恐怖组织后，哈菲兹·纳瓦兹与家人前往阿富汗并在那里生活了两年。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生前，自杀式炸弹袭击者从卡拉奇抵达俾路支省。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "马斯通的一些当地人为袭击者提供住所，并帮助他到达集会地点。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "袭击者手持党旗，坐在集会第四排等待时机。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "当目标人物开始演讲时，袭击者移动到舞台附近并引爆了自杀式炸弹背心。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查人员在爆炸现场发现的一只手帮助确认了袭击者的身份。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_9",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "多个执法和情报机构开始对袭击展开调查，并搜捕协助者。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_10",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "法医团队对爆炸现场进行调查，以确定所用爆炸物的细节。",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_1_node_4",
+      "target": "text_1_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_1_node_6",
+      "target": "text_1_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_1_node_7",
+      "target": "text_1_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_1_node_7",
+      "target": "text_1_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_1_node_9",
+      "target": "text_1_node_8",
+      "relation": "before"
+    }
+  ]
+}

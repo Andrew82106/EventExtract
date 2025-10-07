@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_91_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2008年8月和11月，巴基斯坦什叶派遭到多次轰炸，什叶派葬礼被袭击。",
+      "source_text": "text_91"
+    },
+    {
+      "id": "text_91_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年2月19日，什叶派成员Sher Zaman在Dera Ismail Khan被枪杀。",
+      "source_text": "text_91"
+    },
+    {
+      "id": "text_91_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2009年2月20日，Sher Zaman的葬礼上发生自杀式爆炸袭击，造成32人死亡，65人受伤。",
+      "source_text": "text_91"
+    },
+    {
+      "id": "text_91_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "袭击发生后，什叶派社区成员抗议并破坏商店和车辆。",
+      "source_text": "text_91"
+    },
+    {
+      "id": "text_91_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府实施宵禁，军队被派往城市以防止暴力蔓延。",
+      "source_text": "text_91"
+    },
+    {
+      "id": "text_91_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "总统Asif Ali Zardari和总理Yousuf Raza Gilani谴责袭击，并要求进行调查和确保伤者得到治疗。",
+      "source_text": "text_91"
+    },
+    {
+      "id": "text_91_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "各省政府首脑也谴责袭击，并宣布对遇难者和伤者家庭进行赔偿。",
+      "source_text": "text_91"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_91_node_1",
+      "target": "text_91_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_91_node_2",
+      "target": "text_91_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_91_node_3",
+      "target": "text_91_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_91_node_4",
+      "target": "text_91_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_91_node_5",
+      "target": "text_91_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_91_node_6",
+      "target": "text_91_node_7",
+      "relation": "before"
+    }
+  ]
+}

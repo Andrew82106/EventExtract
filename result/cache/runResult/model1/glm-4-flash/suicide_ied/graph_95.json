@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_95_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年8月的一个暑假，Ahlam Tamimi在耶路撒冷Sbarro比萨餐厅谋杀了我的15岁女儿以及14其他无辜的人",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "2006年，Ahlam Tamimi公开表示她不后悔所做的事情，并声称如果有机会她会再次这样做",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ahlam Tamimi被判处16个无期徒刑，但她仍然没有表现出悔意",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "我和我的丈夫向以色列总理Netanyahu写信，请求他拒绝释放Ahlam Tamimi",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "Ahlam Tamimi在2006年预测她会再次获得自由，现在我们担心她即将被释放",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_6",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "我请求Netanyahu总理花几分钟时间听我们讲述",
+      "source_text": "text_95"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_95_node_1",
+      "target": "text_95_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_95_node_2",
+      "target": "text_95_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_95_node_3",
+      "target": "text_95_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_95_node_4",
+      "target": "text_95_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_95_node_5",
+      "target": "text_95_node_6",
+      "relation": "before"
+    }
+  ]
+}

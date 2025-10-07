@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_66_node_1",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abu Jandal and Mahmoud acknowledge the sugarless cookies and Abu Jandal's surprise at the kindness.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "Abu Jandal expresses gratitude and shifts his attention to the interrogator, waiting for the next question.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "The interrogator asks light personal questions to warm up Abu Jandal and engage him intellectually.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abu Jandal confirms his departure from al-Qaeda in 2000 and sarcastically remarks about his current situation.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abu Jandal mentions Abu Mohammed al-Masri's warning that leaving al-Qaeda does not guarantee safety.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abu Jandal explains his reasons for leaving al-Qaeda, including family issues and personal conflicts.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_7",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "The interrogator asks if there were ideological reasons for his departure, setting the stage for further questioning.",
+      "source_text": "text_66"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_66_node_1",
+      "target": "text_66_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_2",
+      "target": "text_66_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_3",
+      "target": "text_66_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_4",
+      "target": "text_66_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_5",
+      "target": "text_66_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_6",
+      "target": "text_66_node_7",
+      "relation": "before"
+    }
+  ]
+}

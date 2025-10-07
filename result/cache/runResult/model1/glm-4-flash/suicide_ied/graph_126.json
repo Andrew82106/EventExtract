@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_126_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "攻击阿富汗首都喀布尔的阿姆鲁拉赫·萨利赫的政治办公室，造成至少20人死亡，约50人受伤。",
+      "source_text": "text_126"
+    },
+    {
+      "id": "text_126_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队在数小时长的行动中击毙了数名枪手，并与被困在建筑内的攻击者进行了枪战。",
+      "source_text": "text_126"
+    },
+    {
+      "id": "text_126_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿姆鲁拉赫·萨利赫被安全部队从建筑中安全撤离，并转移到安全地点。",
+      "source_text": "text_126"
+    },
+    {
+      "id": "text_126_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "约85名平民也从建筑内被救援出来。",
+      "source_text": "text_126"
+    },
+    {
+      "id": "text_126_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者描述了攻击前的混乱和爆炸声，以及攻击期间的多起爆炸和枪声。",
+      "source_text": "text_126"
+    },
+    {
+      "id": "text_126_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者看到攻击者进入建筑，并描述了现场混乱和伤亡情况。",
+      "source_text": "text_126"
+    },
+    {
+      "id": "text_126_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "枪战导致恐慌，目击者描述了现场混乱和伤亡情况。",
+      "source_text": "text_126"
+    },
+    {
+      "id": "text_126_node_8",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "暴力事件凸显了总统选举面临的风险。",
+      "source_text": "text_126"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_126_node_1",
+      "target": "text_126_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_126_node_1",
+      "target": "text_126_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_126_node_1",
+      "target": "text_126_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_126_node_1",
+      "target": "text_126_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_126_node_2",
+      "target": "text_126_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_126_node_2",
+      "target": "text_126_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_126_node_2",
+      "target": "text_126_node_7",
+      "relation": "before"
+    }
+  ]
+}

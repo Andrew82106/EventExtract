@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_148_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "Salman Abedi于2007年9月进入Wellacre Academy（原Wellacre Technology College）就读",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abedi于2009年1月从Wellacre Academy毕业进入Burnage Academy for Boys继续高中学业",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年5月22日曼彻斯特体育馆发生恐怖袭击，22人死亡，Abedi在袭击中死亡",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Wellacre Academy发布声明，对事件表示震惊与哀悼，呼吁媒体关注学生心理影响",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_5",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "Greater Manchester Police对曼彻斯特多个区域展开反恐调查",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认逮捕16人（2人无薪释放，14人拘留）",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "警方发布反恐热线和证据提交渠道信息",
+      "source_text": "text_148"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_148_node_2",
+      "target": "text_148_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_148_node_3",
+      "target": "text_148_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_148_node_3",
+      "target": "text_148_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_148_node_5",
+      "target": "text_148_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_148_node_6",
+      "target": "text_148_node_7",
+      "relation": "before"
+    }
+  ]
+}

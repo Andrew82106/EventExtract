@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_110_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在巴基斯坦拉合尔的自杀式爆炸中超过70人死亡，该爆炸针对在复活节集会的基督徒。",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦开始为期三天的哀悼期，以纪念在复活节自杀式爆炸中丧生的人。",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦官员誓言要追捕声称针对基督徒的伊斯兰激进分子，但许多穆斯林也丧生。",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_4",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队在旁遮普省的多个城市进行了至少五次搜捕，逮捕了“大量恐怖分子嫌疑人和支持者”。",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_5",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉合尔的警方在调查自杀式爆炸者是否有关联。",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_6",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "在梵蒂冈，教皇方济各谴责了复活节爆炸，并呼吁保护巴基斯坦的宗教少数群体。",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸发生在拥挤的公园中，当时家庭正在庆祝复活节和学校假期。",
+      "source_text": "text_110"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_110_node_1",
+      "target": "text_110_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_2",
+      "target": "text_110_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_3",
+      "target": "text_110_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_4",
+      "target": "text_110_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_5",
+      "target": "text_110_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_7",
+      "target": "text_110_node_1",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_84_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Muis和新加坡穆斯林社区强烈谴责斯里兰卡复活节周日发生的炸弹袭击中无辜生命的死亡。",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Muis和新加坡穆斯林社区对在宗教场所和平信徒身上发生的恐怖行为深感悲痛，并谴责这种可耻的暴力行为。",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰教倡导和平与不同信仰社区之间的和谐关系，尊重宗教的神圣性和人类生命，呼吁保护所有信徒和宗教场所。",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Muis和新加坡穆斯林社区向斯里兰卡人民致以思想和祈祷，支持他们在艰难时刻。",
+      "source_text": "text_84"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_84_node_1",
+      "target": "text_84_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_2",
+      "target": "text_84_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_3",
+      "target": "text_84_node_4",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "id": "text_74_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "One Japanese national was killed and four others injured in terrorist attacks in Sri Lanka on Easter Sunday.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "The attacks left at least 290 dead and more than 500 injured in Sri Lanka on Easter Sunday.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "Prime Minister Shinzo Abe told reporters that Tokyo “never tolerates” such violence and is “determined to combat terrorism” by cooperating with the Sri Lankan government and internationally.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "The dead Japanese national was a woman identified as Kaori Takahashi, a local resident whose age was not immediately known.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "One of the four injured was reportedly a worker at the Japanese Embassy in Colombo, and another was Kazukiyo Yajima of telecom carrier KDDI Corp.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_6",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "A spokesperson for KDDI Corp. confirmed that one of their workers was injured at a local hotel and was hospitalized as of Monday afternoon.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Local police have reportedly arrested 13 suspects in connection with Sunday’s bombings.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Defence Minister Ruwan Wijewardene described the blasts as a terrorist attack by religious extremists.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "During the news conference in Tokyo, Suga declined to identify any of the five Japanese victims, saying the government had yet to gain the consent of their families.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Japan’s government has dispatched a special unit to Sri Lanka to gather information related to the victims and attackers from local investigative authorities.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_11",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "The bombings could deal a blow to the country’s tourism industry, which had been recovering following the end of a 26-year-long civil war in 2009.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_12",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Major Japanese travel agency JTB Corp. said it had confirmed by Sunday night the safety of all tourists staying in Sri Lanka via its tours.",
+      "source_text": "text_74"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_74_node_1",
+      "target": "text_74_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_2",
+      "target": "text_74_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_3",
+      "target": "text_74_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_3",
+      "target": "text_74_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_5",
+      "target": "text_74_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_6",
+      "target": "text_74_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_7",
+      "target": "text_74_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_8",
+      "target": "text_74_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_9",
+      "target": "text_74_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_10",
+      "target": "text_74_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_11",
+      "target": "text_74_node_12",
+      "relation": "before"
+    }
+  ]
+}

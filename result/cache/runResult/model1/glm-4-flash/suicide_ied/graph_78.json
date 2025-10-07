@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_78_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "英国内政部长杰克·斯特劳对在肯尼亚发生的针对以色列酒店的自杀式炸弹袭击表示强烈谴责，该袭击至少造成8人死亡。",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生前，两枚导弹袭击了从肯尼亚机场起飞的以色列客机，但未击中目标。",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国政府正在紧急审查针对前往肯尼亚的旅行者的建议，以应对周四在蒙巴萨发生的袭击。",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "杰克·斯特劳表示，没有证据表明此次袭击与基地组织有关，但如果有迹象表明他们负责，将公开宣布。",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_5",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "托尼·布莱尔正在致信肯尼亚总统丹尼尔·阿鲁奥·莫伊和以色列总理阿利埃勒·沙龙，以表达政府的慰问。",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "杰克·斯特劳在唐宁街发表讲话，表示对在蒙巴萨发生的恐怖袭击表示强烈谴责，并向遇难者和受伤者的亲属和朋友表示慰问。",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "杰克·斯特劳强调，无论在什么情况下，这种恐怖主义都没有任何正当性，并表示将与国际执法机构合作提供援助。",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "杰克·斯特劳表示，必须对恐怖主义保持警惕，但他没有看到任何证据表明此次袭击与基地组织有关。",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "工党主席约翰·里德表示，对遇难者家庭表示慰问，并谴责此次袭击。",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "保守党领袖伊恩·邓肯·史密斯将此次袭击描述为悲剧，并表示必须找出并追究责任。",
+      "source_text": "text_78"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_78_node_2",
+      "target": "text_78_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_3",
+      "target": "text_78_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_4",
+      "target": "text_78_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_5",
+      "target": "text_78_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_6",
+      "target": "text_78_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_7",
+      "target": "text_78_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_8",
+      "target": "text_78_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_9",
+      "target": "text_78_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_10",
+      "target": "text_78_node_1",
+      "relation": "before"
+    }
+  ]
+}

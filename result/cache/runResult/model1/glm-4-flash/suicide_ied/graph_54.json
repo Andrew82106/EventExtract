@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_54_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在复活节星期日，斯里兰卡发生了大规模、有组织的袭击。",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在科伦坡、尼甘布和拜蒂卡洛亚的三个教堂和三个豪华酒店发生了近乎同时的爆炸；后来，在科伦坡的一个低成本旅馆和一个住宅区发生了两起爆炸。",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "截至目前，死亡人数接近300人，另有约500人受伤。",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "根据美联社的报道，教堂和酒店袭击是由七个自杀式炸弹袭击者共同执行的。",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "虽然没有组织声称对袭击负责，但一名斯里兰卡官员指责激进伊斯兰组织国家Thuwheeth Jama’ath对伤亡负责。",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹爆炸后，斯里兰卡当局封锁了主要社交媒体平台，以遏制虚假信息的传播。",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Facebook、WhatsApp、Instagram、YouTube、Snapchat和Viber等平台都停止了服务。",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "社交媒体平台的关闭在外国报道中备受关注，因为几个世纪前被视为重要“应急响应机构”的平台不再被信任承担这一功能。",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "全球声音的执行董事Ivan Sigal告诉《纽约时报》，斯里兰卡的黑色星期一是对平台的“毁灭性控诉”。",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "其他观察人士认为，国家支持的互联网关闭设定了一个危险的先例。",
+      "source_text": "text_54"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_54_node_1",
+      "target": "text_54_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_2",
+      "target": "text_54_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_3",
+      "target": "text_54_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_4",
+      "target": "text_54_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_5",
+      "target": "text_54_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_6",
+      "target": "text_54_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_7",
+      "target": "text_54_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_8",
+      "target": "text_54_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_9",
+      "target": "text_54_node_10",
+      "relation": "before"
+    }
+  ]
+}

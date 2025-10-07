@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_88_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀炸弹袭击者在 Bulgaria 的 Burgas 机场炸毁了一辆载有以色列游客的巴士，造成 8 人死亡，包括一名保加利亚司机和炸弹袭击者。",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_2",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚内政部长证实了自杀炸弹袭击事件，并表示袭击者无法在到达的以色列游客中区分开来。",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "保加利亚安全部门没有收到任何关于即将发生的袭击的迹象。",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列外交部确认有五名以色列人在袭击中死亡。",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_5",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生时，游客们乘坐的巴士在机场停车场，爆炸导致双层巴士严重损坏，现场一片狼藉。",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "PreventPassage",
+      "description": "Burgas 机场于周四关闭，警方禁止人们接近，约 100 名游客被 stranded。",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列国防部长 Ehud Barak 指控伊朗支持的黎巴嫩什叶派穆斯林组织 Hezbollah 负责此次袭击。",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "以色列总理 Benjamin Netanyahu 表示伊朗是此次袭击的幕后黑手，并威胁要对伊朗恐怖主义进行强烈反应。",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_9",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名重伤的以色列游客被送往保加利亚首都索菲亚的医院治疗。",
+      "source_text": "text_88"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_88_node_1",
+      "target": "text_88_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_2",
+      "target": "text_88_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_3",
+      "target": "text_88_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_4",
+      "target": "text_88_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_5",
+      "target": "text_88_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_6",
+      "target": "text_88_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_7",
+      "target": "text_88_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_8",
+      "target": "text_88_node_9",
+      "relation": "before"
+    }
+  ]
+}

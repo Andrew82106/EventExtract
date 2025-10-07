@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_15_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式炸弹袭击者在亚丁Badr基地附近排队的人群中引爆爆炸腰带，造成至少20人死亡。",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "第二名自杀式炸弹袭击者引爆了爆炸背心，造成至少25人死亡。",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊斯兰国（ISIS）在网上发布声明，声称对这两起袭击负责。",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "在暂停一周后，也门政府与叛军在科威特恢复和平谈判。",
+      "source_text": "text_15"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_15_node_1",
+      "target": "text_15_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_15_node_1",
+      "target": "text_15_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_15_node_2",
+      "target": "text_15_node_3",
+      "relation": "before"
+    }
+  ]
+}

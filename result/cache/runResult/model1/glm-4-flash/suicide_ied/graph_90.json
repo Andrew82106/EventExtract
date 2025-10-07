@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "text_90_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "三枚炸弹在拉合尔的Data Darbar爆炸，造成至少35人死亡，175人受伤。",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方封锁了现场，并疏散了交通。",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "据信这三枚炸弹是自杀式炸弹，每个炸弹可携带高达10-15公斤的爆炸物。",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤者被转移至Mayo医院，该医院已宣布进入紧急状态。",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_5",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "该地区的医院也宣布进入紧急状态。",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名自杀式炸弹袭击者的尸体被发现，包括两个头颅。",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "媒体人员在现场遭到愤怒民众袭击。",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方使用空中射击驱散聚集在 Shrine 的人群。",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "抗议者与警方发生冲突，要求调查安全漏洞。",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shrine管理员表示已采取严格的安全措施，所有进入Shrine的人员都接受了彻底检查。",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_11",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "周四是最繁忙的一天，大量信徒前来朝拜和祈福。",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_12",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Data Darbar是赛义德阿布·哈桑·本·奥斯曼·本·阿里·阿尔-哈杰维的陵墓，每年有成千上万的人前来朝拜和祈祷。",
+      "source_text": "text_90"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_90_node_1",
+      "target": "text_90_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_2",
+      "target": "text_90_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_3",
+      "target": "text_90_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_4",
+      "target": "text_90_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_5",
+      "target": "text_90_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_6",
+      "target": "text_90_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_7",
+      "target": "text_90_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_8",
+      "target": "text_90_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_9",
+      "target": "text_90_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_11",
+      "target": "text_90_node_12",
+      "relation": "before"
+    }
+  ]
+}

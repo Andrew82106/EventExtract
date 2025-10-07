@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_26_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊拉克媒体在周日报道巴格达贾迪亚桥下侯赛尼耶运动会发生自杀爆炸事件",
+      "support_text": "Baghdad – Iraqi media outlets reported on Sunday, that six persons were either killed or wounded in a suicide bombing that targeted a Hussainiyah march under Jardiyah Bridge in central Baghdad.",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Al-Sumaria News首次报道爆炸导致不明人数伤亡",
+      "support_text": "Al-Sumaria News stated, 'A suicide bomber blew up himself in front of a Hussainiyah march near Aghsan al-Zaiton restaurant under al-Jardiyah Bridge in central Baghdad.'",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Sumaria News更新伤亡人数为6人",
+      "support_text": "the bombing resulted in the killing and wounding of an unidentified number of people, then it was confirmed by Baghdad Operations Command that the bombing claimed 6 casualties.",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴格达作战指挥中心确认自杀炸弹袭击造成2人死亡、4人受伤",
+      "support_text": "The suicide bomber immediately blew up himself, killing two persons and wounding four others with different injuries.",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队在事发区域实施严格管控措施",
+      "support_text": "Security forces imposed strict procedures in the area of incident.",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救护车将伤者送往附近医院，尸体移交法医部门",
+      "support_text": "ambulances transferred the wounded to a nearby hospital and the bodies to the forensic medicine department.",
+      "source_text": "text_26"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_26_node_1",
+      "target": "text_26_node_2",
+      "relation": "before",
+      "support_text": "Baghdad – Iraqi media outlets reported on Sunday..."
+    },
+    {
+      "source": "text_26_node_2",
+      "target": "text_26_node_3",
+      "relation": "before",
+      "support_text": "the bombing resulted in the killing and wounding of an unidentified number of people..."
+    },
+    {
+      "source": "text_26_node_3",
+      "target": "text_26_node_4",
+      "relation": "before",
+      "support_text": "then it was confirmed by Baghdad Operations Command that the bombing claimed 6 casualties."
+    },
+    {
+      "source": "text_26_node_4",
+      "target": "text_26_node_5",
+      "relation": "before",
+      "support_text": "Security forces imposed strict procedures in the area of incident."
+    },
+    {
+      "source": "text_26_node_4",
+      "target": "text_26_node_6",
+      "relation": "before",
+      "support_text": "ambulances transferred the wounded to a nearby hospital and the bodies to the forensic medicine department."
+    }
+  ]
+}

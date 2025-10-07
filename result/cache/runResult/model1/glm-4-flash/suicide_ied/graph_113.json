@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "text_113_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年8月29日，一名ISIS分子驾驶装满爆炸物的车辆冲入也门阿den的军队训练中心，引爆了爆炸物，造成71人死亡。",
+      "source_text": "text_113"
+    },
+    {
+      "id": "text_113_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "爆炸导致屋顶坍塌，将新兵掩埋在下面。",
+      "source_text": "text_113"
+    },
+    {
+      "id": "text_113_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者伪装在运送早餐的卡车后面进入训练中心。",
+      "source_text": "text_113"
+    },
+    {
+      "id": "text_113_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "据报道，该中心的安保相当松懈。",
+      "source_text": "text_113"
+    },
+    {
+      "id": "text_113_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "ISIS宣称对此次袭击负责。",
+      "source_text": "text_113"
+    },
+    {
+      "id": "text_113_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "自2016年上半年以来，沙特领导的联军空袭和胡塞武装的暴力活动导致也门暴力加剧。",
+      "source_text": "text_113"
+    },
+    {
+      "id": "text_113_node_7",
+      "event_type": "Disaster",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年，也门因爆炸暴力活动造成的平民死亡和受伤人数位居世界第二，仅次于叙利亚。",
+      "source_text": "text_113"
+    },
+    {
+      "id": "text_113_node_8",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年，沙特领导的联军导致也门3958名平民死亡和受伤，占当年也门爆炸暴力活动造成平民死亡和受伤总数的63%。",
+      "source_text": "text_113"
+    },
+    {
+      "id": "text_113_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年，ISIS通过爆炸装置袭击造成757名平民死亡和受伤，其中至少有六起是自杀式爆炸袭击。",
+      "source_text": "text_113"
+    },
+    {
+      "id": "text_113_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式爆炸袭击占ISIS爆炸装置袭击造成平民死亡和受伤的71%。",
+      "source_text": "text_113"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_113_node_1",
+      "target": "text_113_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_113_node_2",
+      "target": "text_113_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_113_node_3",
+      "target": "text_113_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_113_node_4",
+      "target": "text_113_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_113_node_6",
+      "target": "text_113_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_113_node_7",
+      "target": "text_113_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_113_node_8",
+      "target": "text_113_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_113_node_9",
+      "target": "text_113_node_10",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "text_82_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ms Bhutto was rushed from the scene to her Karachi residence after an attack on her motorcade.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The truck carrying Ms Bhutto had its windows shattered and a door blown off during the attack.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Despite heavy security presence, the motorcade was attacked following threats from militant groups.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Witnesses described horrific scenes with bodies and body parts littering the area, including children among the dead.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Several Islamist groups, including pro-Taleban militants, had threatened to attack Ms Bhutto on her return.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ms Bhutto had warned that hidden authorities within the government might be responsible for an attack.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Asif Ali Zardari, Ms Bhutto's husband, accused members of the government and intelligence agencies of being behind the attack.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "The US condemned the attack and stated that extremists would not be allowed to stop Pakistanis from selecting their representatives.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ms Bhutto was travelling from the airport to a rally marking her homecoming after eight years in self-imposed exile.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ms Bhutto wanted to contest parliamentary elections due to be held in January and was negotiating with President Pervez Musharraf over a possible power-sharing agreement.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "The US had backed a power-sharing deal amid concerns about the military's inability to defeat Islamist militants and Gen Musharraf's rising unpopularity.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Gen Musharraf described the attack on Ms Bhutto's convoy as a conspiracy against democracy.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Victoria Schofield, a friend of Ms Bhutto, described the chaos and the flash of light during the explosion.",
+      "source_text": "text_82"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_82_node_1",
+      "target": "text_82_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_2",
+      "target": "text_82_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_3",
+      "target": "text_82_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_4",
+      "target": "text_82_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_5",
+      "target": "text_82_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_6",
+      "target": "text_82_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_7",
+      "target": "text_82_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_9",
+      "target": "text_82_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_10",
+      "target": "text_82_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_11",
+      "target": "text_82_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_12",
+      "target": "text_82_node_1",
+      "relation": "before"
+    }
+  ]
+}

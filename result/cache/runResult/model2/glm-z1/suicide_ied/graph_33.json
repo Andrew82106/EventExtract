@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_33_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年4月斯里兰卡复活节教堂遭自杀式爆炸袭击，造成至少258人死亡，最初归咎于伊斯兰极端组织",
+      "support_text": "The attacks were later claimed by Islamic State.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "爆炸次日（2019年4月22日），总统西里塞纳首次声明承认本地恐怖分子与国际恐怖组织共同策划",
+      "support_text": "Sirisena’s office said the day after the bombings that local terrorists and international terror groups were responsible for the attacks.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年4月17日，西里塞纳再次声明爆炸系国际毒品集团策划，旨在打击其禁毒行动",
+      "support_text": "Sirisena again said the attacks were the work of international drug dealers.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年4月18日，总理温德迈辛格发言人否认毒品集团涉案，称警方两周内完成调查且无相关证据",
+      "support_text": "PM Wickremesinghe’s spokesman discounted the president’s claims. ‘Police completed the investigations within about two weeks,’ Sudarshana Gunawardana said. ‘There is no mention of drug dealers being involved. We have no reason to doubt our investigators.’",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "西里塞纳推动恢复死刑以强化禁毒政策，但遭执政联盟在议会内反对",
+      "support_text": "Sirisena is waging a battle against efforts by his governing coalition in parliament to abolish capital punishment, which has been subject to a moratorium since 1976.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "2019年4月斯里兰卡复活节教堂遭自杀式爆炸袭击后，当局首次公开声明National Tawheed Jamaat对爆炸负责",
+      "support_text": "当局声称National Tawheed Jamaat对自杀式爆炸负责",
+      "source_text": "text_33"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_2",
+      "relation": "before",
+      "support_text": "The attacks were later claimed by Islamic State."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_6",
+      "relation": "before",
+      "support_text": "爆炸事件发生后当局首次公开声明的时序关系"
+    },
+    {
+      "source": "text_33_node_2",
+      "target": "text_33_node_3",
+      "relation": "before",
+      "support_text": "Despite earlier blaming the attacks on Islamic extremists."
+    },
+    {
+      "source": "text_33_node_3",
+      "target": "text_33_node_4",
+      "relation": "before",
+      "support_text": "温德迈辛格发言人否认毒品集团涉案，称警方两周内完成调查且无相关证据"
+    },
+    {
+      "source": "text_33_node_3",
+      "target": "text_33_node_5",
+      "relation": "before",
+      "support_text": "Sirisena is waging a battle against efforts by his governing coalition in parliament to abolish capital punishment"
+    }
+  ]
+}

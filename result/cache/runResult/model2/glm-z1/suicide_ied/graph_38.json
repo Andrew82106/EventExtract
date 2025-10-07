@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "text_38_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "安全部队在摩加迪沙霍丹区KM4街追踪一辆卡车，卡车随后爆炸",
+      "support_text": "Security forces were trailing the truck on KM4 street in Hodan district when it exploded on Saturday, police captain Mohamed Hussein told the Associated Press.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸造成至少20人死亡、15人受伤，现场留下大规模破坏痕迹",
+      "support_text": "At least 20 people have died in Mogadishu after a truck bomb detonated... At least 15 people were injured.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者描述爆炸发生在交通拥堵的繁忙路口，导致建筑物窗户破裂",
+      "support_text": "‘There was a traffic jam and the road was packed with bystanders and cars,’ said Abdinur Abdulle, a waiter at a nearby restaurant.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者称爆炸导致多人死亡，现场散落大量遗体",
+      "support_text": "‘I saw several dead bodies strewn about but could not count them,’ said Ismail Yusuf.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击目标疑似位于现场的酒店",
+      "support_text": "It is believed the target was a hotel.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "暂未公布责任方，但怀疑与关联基地组织的伊斯兰国青年党有关",
+      "support_text": "The organisation, which is allied to al-Qaida...",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "该组织正试图推翻联合国支持政府及非盟盟友",
+      "support_text": "The organisation is waging an insurgency to topple the weak UN-backed government and its African Union allies.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "袭击发生前两日，美国非洲司令部司令曾访问摩加迪沙",
+      "support_text": "The attack comes two days after the head of the US Africa command was in Mogadishu to meet Somalia’s president.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "青年党近年虽失去大部分控制领土，但仍频繁在摩加迪沙实施袭击",
+      "support_text": "The militants still launch frequent deadly gun, grenade and bomb attacks in high-profile areas of Mogadishu...",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Ismail Yusuf 向法新社报道袭击事件",
+      "support_text": "Ismail Yusuf told Agence France-Presse about the attack.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国谢巴布组织定期发动袭击",
+      "support_text": "伊斯兰国谢巴布组织定期发动袭击",
+      "source_text": "text_38"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_38_node_1",
+      "target": "text_38_node_2",
+      "relation": "before",
+      "support_text": "At least 20 people have died in Mogadishu after a truck bomb detonated..."
+    },
+    {
+      "source": "text_38_node_1",
+      "target": "text_38_node_3",
+      "relation": "before",
+      "support_text": "‘There was a traffic jam and the road was packed with bystanders and cars,’ said Abdinur Abdulle..."
+    },
+    {
+      "source": "text_38_node_1",
+      "target": "text_38_node_4",
+      "relation": "before",
+      "support_text": "‘I saw several dead bodies strewn about but could not count them,’ said Ismail Yusuf..."
+    },
+    {
+      "source": "text_38_node_1",
+      "target": "text_38_node_5",
+      "relation": "before",
+      "support_text": "It is believed the target was a hotel."
+    },
+    {
+      "source": "text_38_node_1",
+      "target": "text_38_node_6",
+      "relation": "before",
+      "support_text": "The organisation, which is allied to al-Qaida..."
+    },
+    {
+      "source": "text_38_node_1",
+      "target": "text_38_node_10",
+      "relation": "before",
+      "support_text": "Ismail Yusuf 向法新社报道袭击事件发生在卡车爆炸之后"
+    },
+    {
+      "source": "text_38_node_8",
+      "target": "text_38_node_1",
+      "relation": "before",
+      "support_text": "The attack comes two days after the head of the US Africa command was in Mogadishu to meet Somalia’s president."
+    },
+    {
+      "source": "text_38_node_9",
+      "target": "text_38_node_1",
+      "relation": "before",
+      "support_text": "The militants still launch frequent deadly attacks in high-profile areas of Mogadishu..."
+    },
+    {
+      "source": "text_38_node_11",
+      "target": "text_38_node_7",
+      "relation": "before",
+      "support_text": "根据temporal_order 1和语义关联性添加时序边"
+    },
+    {
+      "source": "text_38_node_11",
+      "target": "text_38_node_9",
+      "relation": "before",
+      "support_text": "通过支持文本中'关联基地组织的伊斯兰国青年党'关联"
+    }
+  ]
+}

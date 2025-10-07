@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "text_125_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A suicide bomber detonates explosives near a cultural house belonging to Shia Afghans in Kabul.",
+      "source_text": "text_125"
+    },
+    {
+      "id": "text_125_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "At least 40 people are killed and dozens wounded in the blast at a compound comprising a news agency, Shia cultural centre and religious school in Kabul.",
+      "source_text": "text_125"
+    },
+    {
+      "id": "text_125_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "People gathered at Tebyan were marking the 38th anniversary of the Soviet invasion in Afghanistan when the explosion occurred.",
+      "source_text": "text_125"
+    },
+    {
+      "id": "text_125_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "ISIL claims responsibility for the attack on its Amaq website.",
+      "source_text": "text_125"
+    },
+    {
+      "id": "text_125_node_5",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "Afghan security forces stand guard near the site of the blasts.",
+      "source_text": "text_125"
+    },
+    {
+      "id": "text_125_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "The Afghan Journalists Safety Committee (AJSC) condemns the attack in the strongest terms possible and heads to the scene to assist the aid efforts.",
+      "source_text": "text_125"
+    },
+    {
+      "id": "text_125_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ashraf Ghani, the Afghan president, calls the attack a “crime against humanity” and criticizes the terrorists for attacking cultural centres.",
+      "source_text": "text_125"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_125_node_1",
+      "target": "text_125_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_125_node_2",
+      "target": "text_125_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_125_node_2",
+      "target": "text_125_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_125_node_4",
+      "target": "text_125_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_125_node_6",
+      "target": "text_125_node_7",
+      "relation": "before"
+    }
+  ]
+}

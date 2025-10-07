@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "text_42_node_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bashir Bilour, Haroon Bilour's father, was martyred in a 2012 suicide attack in Peshawar's Qissa Khawani Bazaar",
+      "support_text": "Bashir Bilour, father of Haroon Bilour, had embraced martyrdom in a suicide attack on December 22, 2012 in Peshawar's Qissa Khawani Bazaar.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "ANP candidate Haroon Bilour's suicide blast occurred during a corner meeting in Peshawar's Yakatoot area on Tuesday night",
+      "support_text": "The blast took place in Yakatoot area of Peshawar when a corner meeting of ANP was underway.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bomber targeted Haroon Bilour's vehicle and detonated near him during fireworks",
+      "support_text": "Bomber blew himself up near Haroon Bilour during fireworks.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Haroon Bilour succumbed to injuries at Lady Reading Hospital after being rushed there",
+      "support_text": "Haroon Bilour was rushed to Lady Reading Hospital, where he succumbed to his wounds.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "12 casualties were confirmed, including Haroon Bilour, with death toll potentially rising",
+      "support_text": "At least 12 people, including ANP candidate Haroon Bilour, were killed and 30 others sustained injuries in a suicide blast...",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Rescue and police teams responded to the explosion site, transferring伤者 to hospitals",
+      "support_text": "Rescuers and police teams rushed to the site and shifted the injured to nearby hospitals.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者称在爆炸现场目击到爆炸发生",
+      "support_text": "目击者称发生了爆炸",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Haroon Bilour 参与PK-87选区ANP政党选举",
+      "support_text": "Haroon Bilour 参与PK-87选区ANP政党选举",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_9",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daniyal Bilour 是爆炸事件中的受伤者之一",
+      "support_text": "据称 Daniyal Bilour 是受伤者之一",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致至少30人受伤",
+      "support_text": "爆炸导致至少30人受伤",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察和排爆队向Geo TV报告自杀式爆炸事件",
+      "support_text": "警察和排爆队向Geo TV报告自杀式爆炸事件",
+      "source_text": "text_42"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_42_node_1",
+      "target": "text_42_node_2",
+      "relation": "before",
+      "support_text": "Bashir Bilour...2012 in Peshawar's Qissa Khawani Bazaar. ANP candidate Haroon Bilour's suicide blast occurred during a corner meeting in Peshawar's Yakatoot area on Tuesday night."
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_4",
+      "relation": "before",
+      "support_text": "The blast took place... ANP was underway. Haroon Bilour was rushed to Lady Reading Hospital..."
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_6",
+      "relation": "before",
+      "support_text": "The blast took place... ANP was underway. Rescuers and police teams rushed to the site..."
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_7",
+      "relation": "before",
+      "support_text": "爆炸发生后目击者进行陈述"
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_9",
+      "relation": "before",
+      "support_text": "爆炸发生后确认Daniyal Bilour为受伤者之一"
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_10",
+      "relation": "before",
+      "support_text": "自杀爆炸发生前30人受伤的语义描述需要关联到具体事件节点"
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_11",
+      "relation": "before",
+      "support_text": "爆炸发生后，警察和排爆队向Geo TV进行事件报告"
+    },
+    {
+      "source": "text_42_node_3",
+      "target": "text_42_node_2",
+      "relation": "before",
+      "support_text": "Bomber blew himself up near Haroon Bilour during fireworks. The blast took place in Yakatoot area of Peshawar when a corner meeting of ANP was underway."
+    },
+    {
+      "source": "text_42_node_3",
+      "target": "text_42_node_6",
+      "relation": "before",
+      "support_text": "Bomber blew himself up near Haroon Bilour during fireworks. Rescuers and police teams rushed to the site..."
+    },
+    {
+      "source": "text_42_node_4",
+      "target": "text_42_node_5",
+      "relation": "before",
+      "support_text": "Haroon Bilour succumbed to his wounds. The death toll is feared to go up as some of those injured in the explosion are in critical condition."
+    },
+    {
+      "source": "text_42_node_5",
+      "target": "text_42_node_6",
+      "relation": "before",
+      "support_text": "At least 12 people... were killed. Rescuers and police teams rushed to the site..."
+    },
+    {
+      "source": "text_42_node_7",
+      "target": "text_42_node_5",
+      "relation": "before",
+      "support_text": "目击者陈述后官方确认伤亡"
+    },
+    {
+      "source": "text_42_node_8",
+      "target": "text_42_node_2",
+      "relation": "before",
+      "support_text": "Haroon Bilour 在ANP政党选举中参与PK-87选区活动后遭遇自杀爆炸"
+    }
+  ]
+}

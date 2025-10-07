@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "Personnel",
+      "event_subtype": "EndPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "长期执政的强人阿里·阿卜杜拉·萨利赫在2012年被赶下台，导致也门陷入混乱。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "胡塞武装于九月占领了萨那，并随后加强了对权力的控制。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一月，萨那警察学院发生一起汽车炸弹袭击，造成40人死亡。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "总统哈迪上个月逃离了在萨那的软禁，并逃往南部城市亚丁。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "星期五，针对萨那两座清真寺的三起自杀式炸弹袭击造成77人死亡。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "星期五，萨达的一个清真寺外发生一起自杀式爆炸，仅袭击者本人死亡。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "星期五晚上，一名与胡塞武装有关的高级军官在亚丁附近逃脱了一次暗杀企图。",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_2",
+      "target": "text_5_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_5",
+      "target": "text_5_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_node_6",
+      "target": "text_5_node_7",
+      "relation": "before"
+    }
+  ]
+}

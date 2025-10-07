@@ -1,0 +1,669 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "蒙巴萨一家以色列人拥有的酒店发生自杀式爆炸案，造成人员伤亡。",
+      "support_text": "Last week's suicide bombing at an Israeli-owned resort hotel in Mombasa killed 10 Kenyans and three Israelis.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "几乎在同一时间，一架离开蒙巴萨的以色列包机遭遇导弹袭击未遂。",
+      "support_text": "A missile attack on an Israeli charter jet leaving Mombasa the same day was unsuccessful.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "一份被指是基地组织的声明在网上发布，声称对这两起袭击负责。",
+      "support_text": "A statement attributed to al Qaeda has claimed responsibility for last week's terrorist attacks on Israeli targets in Kenya, saying Osama bin Laden's followers are \"capable of reaching any place in the world.\"",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国官员表示，他们认为基地组织的声明是可信的，并正严肃对待。",
+      "support_text": "A U.S. official told CNN that Washington can't vouch for the authenticity of the claim, \"but we do view it as credible. We're taking it very seriously.\"",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚当局迅速拘留了12名嫌疑人进行讯问。",
+      "support_text": "Kenyan authorities quickly detained 12 people for questioning.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "美国调查发现，袭击中使用的导弹与此前在沙特使用的一枚来自同一批次。",
+      "support_text": "U.S. officials said Monday the shoulder-fired missiles used to target the charter jet apparently came from the same batch as one used in a failed attempt to shoot down a U.S. military plane near the Prince Sultan Air Base in Saudi Arabia last May.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列方面称，袭击是从索马里发起，并由一名基地组织头目策划。",
+      "support_text": "Israeli sources said they believe the attacks were launched from Somalia, Kenya's largely lawless northern neighbor, and were organized by Fazul Abdullah Mohammed -- whom Israeli officials identified as al Qaeda's chief of operations there.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚官员考虑以色列提出的将关键证据送往以色列进行分析的请求。",
+      "support_text": "In Mombasa, Kenyan officials were considering an Israeli request to take key pieces of evidence from the hotel bombing to Israel for analysis.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国情报部门将基地组织和索马里伊斯兰组织AIAI列为头号嫌疑人。",
+      "support_text": "That \"strongly suggests\" a link to al Qaeda, said a U.S. official, who stopped short of calling the evidence conclusive.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_10",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名以色列高级官员宣布，以色列因此次袭击而正式加入全球反恐战争。",
+      "support_text": "Israeli agents were deeply involved in the probe, including those from the country's intelligence service, Mossad, dispatched by Prime Minister Ariel Sharon.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_11",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "前摩萨德负责人在以色列一次安全会议上表示，此次袭击改变了游戏规则。",
+      "support_text": "Israeli agents were deeply involved in the probe, including those from the country's intelligence service, Mossad, dispatched by Prime Minister Ariel Sharon.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "遭到导弹袭击的以色列包机最终安全降落在特拉维夫。",
+      "support_text": "飞机安全降落在特拉维夫。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "基地组织的声明构成了对美国敌人的挑战。",
+      "support_text": "该声明构成了对美国敌人的挑战。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "基地组织恐怖分子在1998年轰炸了肯尼亚和坦桑尼亚的美国大使馆。",
+      "support_text": "基地组织恐怖分子轰炸了肯尼亚和坦桑尼亚的美国大使馆。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者（基地组织）返回了四年前的袭击地点。",
+      "support_text": "袭击者（基地组织）返回了（袭击地点）。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Paul Eedle 监控与恐怖组织有关的网站。",
+      "support_text": "Paul Eedle monitors websites linked to the terrorist organization.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Paul Eedle 表示，该声明出现在了特定的网站上。",
+      "support_text": "Paul Eedle said the statement appeared on sites that regularly carry al Qaeda pronouncements.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_18",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "（声明中假设）以色列人杀害了声明方的孩子。",
+      "support_text": "as you kill our children",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Eedle 引述了该声明的具体内容。",
+      "support_text": "Eedle said, 'It says very directly to Israelis that as you kill our children, we will kill your children.'",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_know",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国情报官员知道基地组织成员获取导弹的具体地点和时间。",
+      "support_text": "美国情报官员知道基地组织成员获取导弹的具体地点和时间。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_pack",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者将200公斤炸药装入两个气焊瓶中。",
+      "support_text": "袭击者将200公斤炸药装入两个气焊瓶中。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_find_ak47",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查人员在酒店废墟中发现了AK-47突击步枪的烧焦残骸。",
+      "support_text": "调查人员在酒店废墟中发现了AK-47突击步枪的烧焦残骸。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_discuss",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列和肯尼亚的调查人员就谁将进行法医调查展开了激烈的讨论。",
+      "support_text": "以色列和肯尼亚的调查人员就谁将进行法医调查展开了激烈的讨论。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_say_kenyan",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚当局表示，如果需要更复杂的分析，他们愿意将证据交给以色列。",
+      "support_text": "肯尼亚当局表示，如果需要更复杂的分析，他们愿意将证据交给以色列。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_carry_out_forensics",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "（讨论中）某一方将执行法医调查。",
+      "support_text": "（讨论中）某一方将执行法医调查。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_identify_bombers",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列调查人员将识别出炸弹袭击者。",
+      "support_text": "以色列调查人员将识别出炸弹袭击者。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_pass_evidence",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚方面将证据交给以色列。",
+      "support_text": "肯尼亚方面将证据交给以色列。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_make_decision",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚总统丹尼尔·阿拉普·莫伊将最终做出决定。",
+      "support_text": "肯尼亚总统丹尼尔·阿拉普·莫伊将最终做出决定。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_enter_kenya",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "这10个人乘船进入了肯尼亚。",
+      "support_text": "这10个人乘船进入了肯尼亚。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_issue_passports",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "索马里当局为大多数人签发了护照。",
+      "support_text": "索马里当局为大多数人签发了护照。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_release_two",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚当局释放了两个人，其中包括一名美国人。",
+      "support_text": "肯尼亚当局释放了两个人，其中包括一名美国人。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_hold_ten",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚当局仍在扣押六名巴基斯坦人和四名索马里人。",
+      "support_text": "肯尼亚当局仍在扣押六名巴基斯坦人和四名索马里人。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_say_no_docs",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "当局发表声明，称这10人乘船入境且没有合法旅行文件。",
+      "support_text": "当局发表声明，称这10人乘船入境且没有合法旅行文件。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_say_passports_no_link",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚官员补充说，大多数人持有索马里签发的护照，并且他们似乎与袭击事件无关。",
+      "support_text": "肯尼亚官员补充说，大多数人持有索马里签发的护照，并且他们似乎与袭击事件无关。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verb_choose_battleground",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "Israel states that it does not choose the battleground.",
+      "support_text": "We do not choose the battleground.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verb_choose_enemy",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Israel states that it does not choose the enemy.",
+      "support_text": "We do not choose the enemy.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verb_enemy_choose_israel",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "The enemy chose Israel as its target.",
+      "support_text": "They chose us.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verb_halevy_say_judge",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Halevy said that it would be correct to understand the Mombasa event in terms of a larger tragedy and to judge the new situation on that basis.",
+      "support_text": "Halevy said it would be 'correct' to understand the Mombasa event in terms of a larger tragedy and to judge the new situation on that basis.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verb_scenario_result",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The attack scenario hypothetically resulted in a larger tragedy.",
+      "support_text": "The scenario hypothetically resulted in an even larger tragedy.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verb_hypothetical_shootdown",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The planes were hypothetically shot down.",
+      "support_text": "The planes were hypothetically shot down.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verb_judge_situation",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "One should judge the new situation based on the hypothetical larger tragedy.",
+      "support_text": "One should judge the new situation based on the hypothetical larger tragedy.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verb_halevy_say_change_spirit",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Halevy said that the attack changes the national spirit and creates international dynamics.",
+      "support_text": "Halevy said that the attack changes the national spirit and creates international dynamics.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verb_attack_changes_spirit",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The attack changes the national spirit.",
+      "support_text": "It changes the national spirit.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verb_attack_creates_dynamics",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The attack creates international dynamics.",
+      "support_text": "It creates international dynamics.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verb_dynamics_open_options",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "The international dynamics open up new options for Israel.",
+      "support_text": "The international dynamics open up new options for Israel.",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "A statement attributed to al Qaeda has claimed responsibility for **last week's** terrorist attacks on Israeli targets in Kenya..."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "Kenyan authorities **quickly** detained 12 people for questioning."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_7",
+      "relation": "before",
+      "support_text": "Israeli sources said they believe **the attacks** were launched from Somalia..."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_8",
+      "relation": "before",
+      "support_text": "...Kenyan officials were considering an Israeli request to take key pieces of evidence from **the hotel bombing** to Israel for analysis."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_9",
+      "relation": "before",
+      "support_text": "Serial numbers on the two weapons were close, according to sources. That \"strongly suggests\" a link to al Qaeda..."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_10",
+      "relation": "before",
+      "support_text": "Israeli agents were deeply involved in **the probe**, including those from the country's intelligence service, Mossad, dispatched by Prime Minister Ariel Sharon."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_11",
+      "relation": "before",
+      "support_text": "Israeli agents were deeply involved in **the probe**, including those from the country's intelligence service, Mossad, dispatched by Prime Minister Ariel Sharon."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_new_node_15",
+      "relation": "before",
+      "support_text": "上周的袭击是袭击者返回后发生的。"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "A statement attributed to al Qaeda has claimed responsibility for **last week's** terrorist attacks on Israeli targets in Kenya..."
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_6",
+      "relation": "before",
+      "support_text": "U.S. officials said **Monday** the shoulder-fired missiles used to target the charter jet..."
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_12",
+      "relation": "before",
+      "support_text": "导弹袭击未遂后，飞机安全降落。"
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "A U.S. official told CNN that Washington can't vouch for the authenticity of **the claim**, \"but we do view it as credible.\""
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_new_node_18",
+      "relation": "before",
+      "support_text": "根据temporal_order (3 -> 4)，声明事件中引用的过往杀害事件发生在声明之后（作为声明内容的一部分）。"
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_new_node_release_two",
+      "relation": "before",
+      "support_text": "肯尼亚当局拘留了12人，之后释放了其中两人。"
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_new_node_hold_ten",
+      "relation": "before",
+      "support_text": "肯尼亚当局拘留了12人，之后仍在扣押其中十人。"
+    },
+    {
+      "source": "text_1_node_6",
+      "target": "text_1_node_9",
+      "relation": "before",
+      "support_text": "U.S. officials said Monday the shoulder-fired missiles used to target the charter jet apparently came from the same batch as one used in a failed attempt to shoot down a U.S. military plane... Serial numbers on the two weapons were close, according to sources. That \"strongly suggests\" a link to al Qaeda, said a U.S. official, who stopped short of calling the evidence conclusive."
+    },
+    {
+      "source": "text_1_node_7",
+      "target": "text_1_new_node_know",
+      "relation": "before",
+      "support_text": "根据temporal_order，identify事件(t=4)发生在know事件(t=5)之前。"
+    },
+    {
+      "source": "text_1_node_8",
+      "target": "text_1_new_node_carry_out_forensics",
+      "relation": "before",
+      "support_text": "根据temporal_order (13 -> 14)，考虑请求发生在执行法医调查之前。"
+    },
+    {
+      "source": "text_1_node_10",
+      "target": "text_1_new_node_discuss",
+      "relation": "before",
+      "support_text": "根据temporal_order (4 -> 7)，派遣特工发生在展开讨论之前。"
+    },
+    {
+      "source": "text_1_node_11",
+      "target": "text_1_new_node_verb_halevy_say_judge",
+      "relation": "before",
+      "support_text": "The change in the rules of the game (t=2) is the context for Halevy's subsequent statement on how to judge the situation (t=3)."
+    },
+    {
+      "source": "text_1_new_node_13",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "根据temporal_order，构成挑战(t=6)发生在声明(t=7)之前。"
+    },
+    {
+      "source": "text_1_new_node_14",
+      "target": "text_1_new_node_15",
+      "relation": "before",
+      "support_text": "根据temporal_order，历史事件(t=1)发生在返回(t=3)之前。"
+    },
+    {
+      "source": "text_1_new_node_15",
+      "target": "text_1_new_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order，返回(t=3)发生在构成挑战(t=6)之前。"
+    },
+    {
+      "source": "text_1_new_node_16",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "根据temporal_order (1 -> 3)，监控事件发生在声明事件之前。"
+    },
+    {
+      "source": "text_1_new_node_18",
+      "target": "text_1_new_node_17",
+      "relation": "before",
+      "support_text": "根据temporal_order (4 -> 5)，Eedle对声明来源的评论发生在引用的过往事件之后。"
+    },
+    {
+      "source": "text_1_new_node_18",
+      "target": "text_1_new_node_19",
+      "relation": "before",
+      "support_text": "根据temporal_order (4 -> 5)，Eedle对声明内容的引述发生在引用的过往事件之后。"
+    },
+    {
+      "source": "text_1_new_node_pack",
+      "target": "text_1_new_node_find_ak47",
+      "relation": "before",
+      "support_text": "根据temporal_order (1 -> 3)，打包炸药发生在发现AK-47残骸之前。"
+    },
+    {
+      "source": "text_1_new_node_find_ak47",
+      "target": "text_1_node_10",
+      "relation": "before",
+      "support_text": "根据temporal_order (3 -> 4)，发现残骸发生在派遣特工之前。"
+    },
+    {
+      "source": "text_1_new_node_discuss",
+      "target": "text_1_new_node_say_kenyan",
+      "relation": "before",
+      "support_text": "根据temporal_order (7 -> 9)，展开讨论发生在肯尼亚当局表态之前。"
+    },
+    {
+      "source": "text_1_new_node_say_kenyan",
+      "target": "text_1_node_8",
+      "relation": "before",
+      "support_text": "根据temporal_order (9 -> 13)，肯尼亚当局表态发生在肯方考虑以方请求之前。"
+    },
+    {
+      "source": "text_1_new_node_carry_out_forensics",
+      "target": "text_1_new_node_identify_bombers",
+      "relation": "before",
+      "support_text": "根据temporal_order (14 -> 15)，执行法医调查发生在识别袭击者之前。"
+    },
+    {
+      "source": "text_1_new_node_identify_bombers",
+      "target": "text_1_new_node_pass_evidence",
+      "relation": "before",
+      "support_text": "根据temporal_order (15 -> 16)，识别袭击者发生在移交证据之前。"
+    },
+    {
+      "source": "text_1_new_node_pass_evidence",
+      "target": "text_1_new_node_make_decision",
+      "relation": "before",
+      "support_text": "根据temporal_order (16 -> 18)，移交证据发生在总统做出决定之前。"
+    },
+    {
+      "source": "text_1_new_node_enter_kenya",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "这10个人进入肯尼亚后，被肯尼亚当局拘留。"
+    },
+    {
+      "source": "text_1_new_node_issue_passports",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "他们在被拘留前就已持有护照。"
+    },
+    {
+      "source": "text_1_new_node_release_two",
+      "target": "text_1_new_node_say_no_docs",
+      "relation": "before",
+      "support_text": "根据temporal_order (3 -> 4)，释放事件发生在当局声明之前。"
+    },
+    {
+      "source": "text_1_new_node_hold_ten",
+      "target": "text_1_new_node_say_no_docs",
+      "relation": "before",
+      "support_text": "根据temporal_order (3 -> 4)，扣押事件发生在当局声明之前。"
+    },
+    {
+      "source": "text_1_new_node_say_no_docs",
+      "target": "text_1_new_node_say_passports_no_link",
+      "relation": "before",
+      "support_text": "根据temporal_order (4 -> 5)，第一次声明发生在第二次补充声明之前。"
+    },
+    {
+      "source": "text_1_new_node_verb_enemy_choose_israel",
+      "target": "text_1_node_11",
+      "relation": "before",
+      "support_text": "The enemy's choice of Israel (t=1) precedes the change in the rules of the game (t=2)."
+    },
+    {
+      "source": "text_1_new_node_verb_halevy_say_judge",
+      "target": "text_1_new_node_verb_judge_situation",
+      "relation": "before",
+      "support_text": "Halevy's statement about judging (t=3) precedes the act of judging the new situation (t=4)."
+    },
+    {
+      "source": "text_1_new_node_verb_halevy_say_judge",
+      "target": "text_1_new_node_verb_scenario_result",
+      "relation": "before",
+      "support_text": "Halevy's statement about judging (t=3) introduces the hypothetical scenario which results in a larger tragedy (t=4)."
+    },
+    {
+      "source": "text_1_new_node_verb_scenario_result",
+      "target": "text_1_new_node_verb_hypothetical_shootdown",
+      "relation": "before",
+      "support_text": "The larger tragedy (t=4) is the result of the scenario where the planes were hypothetically shot down (t=4)."
+    },
+    {
+      "source": "text_1_new_node_verb_attack_creates_dynamics",
+      "target": "text_1_new_node_verb_dynamics_open_options",
+      "relation": "before",
+      "support_text": "The creation of international dynamics (t=2) leads to the opening of new options (t=3)."
+    }
+  ]
+}

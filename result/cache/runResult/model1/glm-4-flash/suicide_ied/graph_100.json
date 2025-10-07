@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_100_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其面临许多安全威胁，伊斯兰国组织被指责在过去一年内对土耳其发动了三次爆炸袭击，包括在安卡拉的一次袭击，造成100多人死亡。",
+      "source_text": "text_100"
+    },
+    {
+      "id": "text_100_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其安全部队与PKK民兵之间的暴力冲突加剧，因为7月份的停火协议破裂，PKK的一个分支TAK在一个月前向伊斯坦布尔机场发射了迫击炮。",
+      "source_text": "text_100"
+    },
+    {
+      "id": "text_100_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "在伊斯坦布尔苏丹阿赫迈特区的警察局发生了一起女性自杀式炸弹袭击，这表明极左翼组织在土耳其也很活跃。",
+      "source_text": "text_100"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_100_node_1",
+      "target": "text_100_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_100_node_2",
+      "target": "text_100_node_3",
+      "relation": "before"
+    }
+  ]
+}

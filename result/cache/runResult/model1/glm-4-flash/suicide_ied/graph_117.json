@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    {
+      "id": "text_117_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "23 July 2012, a series of simultaneous, coordinated bombings and shootings struck the Iraqi security force and Shi'ite Muslim communities.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "The first attack took place on an army base in Saladin Governorate around dawn.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "In Taji, a series of bombs around homes went off simultaneously, followed by a suicide bomber detonating himself.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A car bomb exploded near a government building in Sadr City in Baghdad, killing 16.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "At least five car bombs went off in Kirkuk.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Insurgents attacked a base in Dhuluiya, killing 15 soldiers.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "In al-Husseiniya and Mosul, a total of six people were killed in bombing attacks.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "An explosion in Yarmouk killed at least four people and injured another 24.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A car bomb exploded near a busy market in Diwaniya, killing nearly five people and injuring 22 or 25.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Checkpoint shootings and bomb blasts in Diyala Governorate resulted in 11 dead and 40 wounded.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "In Heet, a car bombing occurred near an army patrol, killing one soldier and injuring 10 others.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Bombings occurred in Saadiya, Khan Beni-Saad, Tuz Khurmatu, Dibis, Samarra, and Dujail.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A car bomb blast near a café in the Shi'ite Ameen district in southeastern Baghdad killed six men and wounded 24.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A roadside bombing near Baquba killed three people and injured seven others.",
+      "source_text": "text_117"
+    },
+    {
+      "id": "text_117_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "The attacks were claimed by the Islamic State of Iraq.",
+      "source_text": "text_117"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_117_node_1",
+      "target": "text_117_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_2",
+      "target": "text_117_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_3",
+      "target": "text_117_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_4",
+      "target": "text_117_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_5",
+      "target": "text_117_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_6",
+      "target": "text_117_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_7",
+      "target": "text_117_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_8",
+      "target": "text_117_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_9",
+      "target": "text_117_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_10",
+      "target": "text_117_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_11",
+      "target": "text_117_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_12",
+      "target": "text_117_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_13",
+      "target": "text_117_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_117_node_14",
+      "target": "text_117_node_15",
+      "relation": "before"
+    }
+  ]
+}

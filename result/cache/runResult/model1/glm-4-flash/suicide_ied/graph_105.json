@@ -1,0 +1,209 @@
+{
+  "nodes": [
+    {
+      "id": "text_105_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式爆炸袭击发生在政治集会中，造成128人死亡，包括Balochistan Awami Party候选人Nawab Siraj Raisani",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "死亡人数上升至131人，其中三人于周六因伤死亡",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "临时政府宣布周日全国哀悼一天，以纪念在最近恐怖袭击中丧生的人",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Balochistan省政府宣布该省为期两天的哀悼",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦国家旗帜在所有公共建筑上降半旗",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "巴基斯坦律师协会宣布为期两天的哀悼，并罢免所有法庭程序",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦人民党取消了在Batkhela的集会",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦正义运动取消了在Quetta的集会",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在Mastung的Darengarh地区发生自杀式爆炸袭击，袭击发生在政治集会中",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_10",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "巴基斯坦临时总理Justice (retd) Nasirul Mulk指示内政部发布通知，将周日定为哀悼日",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_11",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦陆军参谋长General Qamar Javed Bajwa和南部司令官LT General Asim Saleem Bajwa参加了Nawab Siraj Raisani的葬礼",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_12",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nawab Siraj Raisani在Mastung的Kanak地区安葬，葬于其父和儿子的墓地旁",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_13",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "在Quetta为Balochistan Awami Party候选人Nawab Siraj Raisani举行了葬礼祷告",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "在Bannu发生爆炸袭击，造成四人死亡，39人受伤，袭击目标是JUI-F车队",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_15",
+      "event_type": "Medical",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "证据正在从袭击现场收集，法医团队已封锁现场",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_16",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Correspondence",
+      "description": "当局将寻求旁遮普法医实验室的协助，以调查此次袭击",
+      "source_text": "text_105"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_105_node_1",
+      "target": "text_105_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_2",
+      "target": "text_105_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_3",
+      "target": "text_105_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_4",
+      "target": "text_105_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_5",
+      "target": "text_105_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_6",
+      "target": "text_105_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_7",
+      "target": "text_105_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_8",
+      "target": "text_105_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_9",
+      "target": "text_105_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_10",
+      "target": "text_105_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_11",
+      "target": "text_105_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_12",
+      "target": "text_105_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_13",
+      "target": "text_105_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_14",
+      "target": "text_105_node_15",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_15",
+      "target": "text_105_node_16",
+      "relation": "before"
+    }
+  ]
+}

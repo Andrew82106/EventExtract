@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "text_109_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名轮椅乘客能够渗透 Mogadishu 机场的安检过程",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "机场立即进行安检审查，该机场也用于西方外交官和援助工作者",
+      "source_text": "text_109"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_109_node_1",
+      "target": "text_109_node_2",
+      "relation": "before"
+    }
+  ]
+}

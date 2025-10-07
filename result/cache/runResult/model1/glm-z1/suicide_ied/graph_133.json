@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_133_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "9月某日萨利赫位于喀布尔的绿潮党总部遭遇自杀式汽车炸弹袭击",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "汽车炸弹引爆炸弹后三名武装分子闯入四层办公楼",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "安全部队展开六小时救援行动救出超过150名平民",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "事件造成20人死亡（含4名安全人员）和50人受伤（含16名平民）",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_5",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "萨利赫本人轻微受伤但未公开露面",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_6",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "美国驻阿大使凯利泽德谴责袭击并要求严惩",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "阿富汗政府宣布选举筹备工作正式启动",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "加尼政府面临选举筹备与安全双重压力",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "美国与塔利班谈判因加尼政府未获邀请陷入僵局",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "塔利班持续拒绝与阿富汗政府直接谈判",
+      "source_text": "text_133"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_133_node_1",
+      "target": "text_133_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_2",
+      "target": "text_133_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_3",
+      "target": "text_133_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_4",
+      "target": "text_133_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_5",
+      "target": "text_133_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_6",
+      "target": "text_133_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_7",
+      "target": "text_133_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_8",
+      "target": "text_133_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_9",
+      "target": "text_133_node_10",
+      "relation": "before"
+    }
+  ]
+}

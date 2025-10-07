@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_18_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一辆载有以色列游客的公交车在保加利亚遭到炸弹袭击。",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_2",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚调查人员表示尚未确定爆炸者身份，也未公开指认幕后主使。",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列总理内塔尼亚胡公开指责真主党和伊朗是袭击的幕后黑手。",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚官员不愿公开附和以色列对真主党和伊朗的指责。",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚政府试图控制调查细节以避免在全球政治局势中犯错。",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "一位匿名安全官员透露，调查证据明确指向真主党。",
+      "source_text": "text_18"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_3",
+      "target": "text_18_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_4",
+      "target": "text_18_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_5",
+      "target": "text_18_node_6",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_17_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式炸弹袭击者的母亲辨认出其头颅。",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "有报道指出该炸弹袭击者是名为纳萨尔·阿扎尔的27岁已婚男子。",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "一名高级警官表示炸弹袭击者身份尚未确认，且调查正在进行中。",
+      "source_text": "text_17"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_3",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    {
+      "id": "text_24_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "周五凌晨2:30，一辆非法停放在Cockspur Street的蓝色奔驰因停车票问题被拖走，工作人员发现其散发燃气味",
+      "support_text": "The second bomb was in a car that was illegally parked nearby and towed to the Park Lane car pound. Staff there alerted police because 'it smelled of gas.'",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认两辆奔驰车均装载燃油、燃气罐和铁钉，且存在触发装置（疑似手机）",
+      "support_text": "The first car... packed with petrol, gas cannisters and nails... The second device... contained very similar materials to the first vehicle.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": " Sky News披露首位抵达现场的警员手动拆除第一辆炸弹，避免警队专业排爆人员到场前爆炸",
+      "support_text": "Sky News sources say one of the first police officers on the scene... manually defused the explosives before the bomb squad arrived.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "苏格兰场反恐指挥官Peter Clarke证实两车系同一恐怖组织制造",
+      "support_text": "DAC Clarke said: 'The vehicles are clearly linked.'",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国首相布朗在Cobra紧急会议后宣布全国进入最高反恐级别",
+      "support_text": "Mr Brown said the incident reminds us that Britain faces 'a serious and continuous threat' and the public 'need to be alert' at all times.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "交通摄像头系统启用车牌追踪功能，协助调查车辆进入伦敦路线",
+      "support_text": "Detectives are looking at CCTV footage from the area surrounding the Haymarket.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "前飞虎队指挥官John O'Connor分析袭击者为本土恐袭者，放弃使用遥控引爆器",
+      "support_text": "John O'Connor... suggested the attackers were homegrown and may have deliberately avoided remote detonation.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "国会大厦启动强化安保措施，包括部署反恐部队和监控设备",
+      "support_text": "Whitehall sources said that the police and security services are looking at possible international links...",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "伦敦交通局发布2005年7月7日地铁恐袭伤亡数据（52死784伤）作为历史参照",
+      "support_text": "The number of casualties from the 2005 London Underground bombings was 52 dead and 784 injured.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "附近夜店发生事件",
+      "support_text": "附近夜店发生事件",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救护车被派往事件现场",
+      "support_text": "救护车被派往事件现场",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方将携带燃气罐和铁钉的车辆移除用于安全检验",
+      "support_text": "警方将炸弹移除用于检验",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Clarke在发布会上声明第二辆车的位置",
+      "support_text": "Clarke在发布会上声明第二辆车的位置",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "第二辆车在凌晨2:30被发放停车票",
+      "support_text": "第二辆车在凌晨2:30被发放停车票",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "工作人员通知警方",
+      "support_text": "工作人员通知警方",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方和安保机构正在调查潜在的国际关联",
+      "support_text": "Whitehall sources said that the police and security services are looking at possible international links...",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "事件促使公众意识到威胁存在",
+      "support_text": "the incident reminds us that Britain faces 'a serious and continuous threat' and the public 'need to be alert' at all times.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "侦探采访酒吧和夜店员工以获取目击者信息",
+      "support_text": "侦探正在采访酒吧和夜店员工",
+      "source_text": "text_24"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_2",
+      "relation": "before",
+      "support_text": "The second bomb was in a car that was illegally parked nearby and towed to the Park Lane car pound. Staff there alerted police because 'it smelled of gas.'"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_12",
+      "relation": "before",
+      "support_text": "基于node_1中警员因燃气味触发警报的时序推导"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_13",
+      "relation": "before",
+      "support_text": "基于node_1中警员因燃气味触发警报的时序推导"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_14",
+      "relation": "before",
+      "support_text": "基于temporal_order=3的时序关系"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_15",
+      "relation": "before",
+      "support_text": "基于node_1中警员因燃气味触发警报的时序推导"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_16",
+      "relation": "before",
+      "support_text": "基于node_8的时序推导（原事件temporal_order=1对应现有节点8的触发条件）"
+    },
+    {
+      "source": "text_24_node_2",
+      "target": "text_24_node_3",
+      "relation": "before",
+      "support_text": "Sky News sources say one of the first police officers on the scene of the Haymarket car bomb may have saved dozens of lives by defusing the explosives before the bomb squad arrived."
+    },
+    {
+      "source": "text_24_node_3",
+      "target": "text_24_node_4",
+      "relation": "before",
+      "support_text": "DAC Clarke said: 'The vehicles are clearly linked.'"
+    },
+    {
+      "source": "text_24_node_4",
+      "target": "text_24_node_5",
+      "relation": "before",
+      "support_text": "Mr Brown said the incident reminds us that Britain faces 'a serious and continuous threat' and the public 'need to be alert' at all times."
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_6",
+      "relation": "before",
+      "support_text": "Detectives are looking at CCTV footage from the area surrounding the Haymarket."
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_7",
+      "relation": "before",
+      "support_text": "John O'Connor... suggested the attackers were homegrown and may have deliberately avoided remote detonation."
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_8",
+      "relation": "before",
+      "support_text": "Whitehall sources said that the police and security services are looking at possible international links..."
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_9",
+      "relation": "before",
+      "support_text": "The number of casualties from the 2005 London Underground bombings was 52 dead and 784 injured."
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_17",
+      "relation": "before",
+      "support_text": "基于原事件temporal_order=4的时序推导（需在node_5后触发）"
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_18",
+      "relation": "before",
+      "support_text": "基于语义描述中的时序关系（temporal_order=1）"
+    },
+    {
+      "source": "text_24_node_10",
+      "target": "text_24_node_11",
+      "relation": "before",
+      "support_text": "事件发生后救护车被派往现场"
+    },
+    {
+      "source": "text_24_node_11",
+      "target": "text_24_node_1",
+      "relation": "before",
+      "support_text": "救护车到达后警方收到警报"
+    }
+  ]
+}

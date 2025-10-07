@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_13_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一枚装有炸弹的汽车在恰巴哈尔警察局外爆炸。",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "剧烈的爆炸震碎了附近建筑的玻璃。",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子紧随其后试图冲进警察总部。",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队击毙了试图冲进总部的武装分子。",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "这次恐怖袭击导致两名警察殉职。",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_6",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "许多平民在袭击中受伤。",
+      "source_text": "text_13"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_3",
+      "target": "text_13_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_13_node_3",
+      "target": "text_13_node_5",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_57_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "至少33人在东部阿富汗城市贾拉拉巴德的自杀式炸弹袭击中丧生，100人受伤。",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生在银行外，政府工作人员和军事人员在那里领取工资。",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "一个自称代表伊斯兰国阿富汗的声音声称对袭击负责，但BBC无法证实。",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "贾拉拉巴德已有数月未发生如此大规模的袭击。",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "总统阿什拉夫·加尼称此次袭击为“懦弱和邪恶的恐怖主义行为”。",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在附近发现另一枚炸弹，并在控制爆炸中销毁。",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周六早上，贾拉拉巴德另一座清真寺外也发生了爆炸，但据报道没有伤亡。",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "自称伊斯兰国发言人的沙希杜拉·沙希德声称该组织对银行袭击负责，但BBC无法证实。",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "塔利班的发言人扎比胡拉·穆贾希德告诉新闻机构，该组织没有参与银行爆炸，并强烈谴责这一行为。",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "贾拉拉巴德在过去一年中一直是塔利班的袭击目标。",
+      "source_text": "text_57"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_57_node_1",
+      "target": "text_57_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_2",
+      "target": "text_57_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_3",
+      "target": "text_57_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_4",
+      "target": "text_57_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_5",
+      "target": "text_57_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_6",
+      "target": "text_57_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_7",
+      "target": "text_57_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_8",
+      "target": "text_57_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_9",
+      "target": "text_57_node_10",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "text_58_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "An explosion at the compound kills at least four foreign security staff and triggers a gun battle that lasts an hour-and-a-half.",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Somali and African Union forces regain control of a UN compound in Mogadishu after an attack.",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Shabab claims responsibility for the attack.",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "UN Secretary-General Ban Ki-moon expresses shock at the news of the attack.",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "UN staff take shelter in a bunker at the compound during the attack.",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The attack begins with a suicide bomber blowing himself up at one of the gates of the complex.",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mogadishu has been hit by a series of attacks, including suicide and car bombers, mortar attacks, and shootings, although it has been relatively calm in recent weeks.",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Shabab used to control most of the seaside capital until it abandoned fixed positions in August 2011.",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "The UN re-opens its offices in Mogadishu and begins moving personnel from Nairobi, Kenya.",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "International embassies follow the UN in moving to Mogadishu.",
+      "source_text": "text_58"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_58_node_1",
+      "target": "text_58_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_58_node_1",
+      "target": "text_58_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_58_node_2",
+      "target": "text_58_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_58_node_3",
+      "target": "text_58_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_58_node_6",
+      "target": "text_58_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_58_node_7",
+      "target": "text_58_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_58_node_8",
+      "target": "text_58_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_58_node_9",
+      "target": "text_58_node_10",
+      "relation": "before"
+    }
+  ]
+}

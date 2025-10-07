@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "id": "text_70_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Daallo flight 159 to Djibouti was climbing out of Mogadishu-Adden Adde Airport crossing an altitude above 14000 ft when a massive explosion occured inside the passenger cabin.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "A gaping hole on the right side of the A321 was the result of the explosion.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "One person sitting next to the explosion center was sucked out by the following decompression and fallen to the ground.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_4",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "At least three other passengers received various injuries.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The pilots maintained control and managed to return to land at Mogadishu Airport without further damage.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "There were reports of a badly burnt body fallen from the aircraft was found by residents of Dhiiqaaley in Bal’ad.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "The person sitting closest to the explosion was identified as a 50 year old man in a wheelchair that bypasses normal bodyscreening during boarding at Mogadishu.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "The explosive device may have contained a TNT package hidden inside a laptop computer.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Either a technical fault of a oxygen bottle or a suicidal terrorist attack were named as possible scenarios that could have caused the explosion.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "Somali based jihadist terror group Al Shabaab are thought to be behind this supposedly suicidal terrorist act.",
+      "source_text": "text_70"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_2",
+      "target": "text_70_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_2",
+      "target": "text_70_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_3",
+      "target": "text_70_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_4",
+      "target": "text_70_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_5",
+      "target": "text_70_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_6",
+      "target": "text_70_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_7",
+      "target": "text_70_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_8",
+      "target": "text_70_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_9",
+      "target": "text_70_node_10",
+      "relation": "before"
+    }
+  ]
+}

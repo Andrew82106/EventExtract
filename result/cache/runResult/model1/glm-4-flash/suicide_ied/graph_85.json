@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "id": "text_85_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在江西福州，三起连续的爆炸袭击了政府建筑，造成全国范围内的创伤。",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生后，公众对事件的起因感到困惑和猜测，尤其是在缺乏确认信息的情况下。",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "尽管外界高度关注袭击的原因，但呼吁地方政府进行透明调查并及时向公众更新信息。",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "一些报道称，嫌疑人钱明奇因法律纠纷寻求报复并在袭击中死亡，但没有理由为这种无差别袭击平民的行为辩护。",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_5",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "这类炸弹袭击在中国很少见，造成了巨大的恐慌，引发了远比物质损失更严重的心理创伤。",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "近年来，选择激烈暴力解决争端的事件并非首次发生，例如，一个愤怒的小贩因不公平待遇刺死两名当地官员，一个失业者因涉嫌偷自行车谋杀六名警察。",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "这些暴力事件的激增表明背后有普遍的原因，那些攻击特定群体或对社会复仇的人通常具有相同的特质：脆弱性。",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "他们的教育背景、社交接触有限和贫困构成了个人发展的障碍，加剧了他们的疯狂，使他们在一个快速发展、大多数人变得更好的国家中感到更大的不公平。",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "因此，问题在于发展问题：如何在急剧变化的国家中实现均衡增长并维护社会正义？",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "当务之急是避免类似去年幼儿园系列杀戮的可能连续袭击。",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "媒体煽情可能造成误解，认为针对公共设施的个人愤怒袭击可以给肇事者在某种程度上带来有利的光环。",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_12",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "这并不意味着应该压制信息，因为这只会引发谣言，而是社会必须坚定不移地反对暴力，政府必须缓解每个潜在炸弹制造者的紧张情绪。",
+      "source_text": "text_85"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_85_node_1",
+      "target": "text_85_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_85_node_2",
+      "target": "text_85_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_85_node_3",
+      "target": "text_85_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_85_node_4",
+      "target": "text_85_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_85_node_5",
+      "target": "text_85_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_85_node_6",
+      "target": "text_85_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_85_node_7",
+      "target": "text_85_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_85_node_8",
+      "target": "text_85_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_85_node_9",
+      "target": "text_85_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_85_node_10",
+      "target": "text_85_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_85_node_11",
+      "target": "text_85_node_12",
+      "relation": "before"
+    }
+  ]
+}

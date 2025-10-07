@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_124_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "美国大使馆在1998年8月7日被恐怖分子炸弹袭击摧毁",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "在原美国大使馆遗址上建立了一个精心维护的花园",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "可以在现场观看描述袭击事件的短片，需要向保安人员请求",
+      "source_text": "text_124"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_124_node_1",
+      "target": "text_124_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_124_node_2",
+      "target": "text_124_node_3",
+      "relation": "before"
+    }
+  ]
+}

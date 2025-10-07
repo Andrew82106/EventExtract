@@ -1,0 +1,318 @@
+{
+  "nodes": [
+    {
+      "id": "text_6_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦拉合尔Data Darbar Sufi shrine遭遇连环自杀式爆炸，造成42人死亡",
+      "support_text": "A twin suicide attack that killed 42 at Pakistan's most popular Sufi shrine has angered and frustrated Pakistanis",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "过去一个月内，巴基斯坦拉合尔Ahmadi教派两座清真寺遭袭击，93人死亡",
+      "support_text": "About a month ago, gunmen and suicide bombers attacked two mosques of the minority Ahmadi sect in Lahore, killing 93 people",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦政府强烈谴责袭击，强调反恐斗争的必要性",
+      "support_text": "Pakistani officials condemned Thursday's bombings, using language they have frequently used to try to convince the population that the fight against militancy is not one they can ignore",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国强烈谴责袭击，批评针对宗教场所的暴力行为",
+      "support_text": "U.N. Secretary-General Ban Ki-moon strongly condemned the attack and said 'the deliberate targeting of a crowded place of worship makes this particularly vicious'",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国大使馆声明支持巴基斯坦反恐，提及7.5亿美元援助计划",
+      "support_text": "The U.S. Embassy said the Lahore attack 'demonstrates the terrorists' blatant disregard for the lives of the Pakistani people and the future of this country' and that the U.S. 'will continue to support Pakistan in the fight against a common enemy'",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "80%巴基斯坦民众反对与美合作反恐（国际共和研究所民调）",
+      "support_text": "Polls in recent years have shown that support for the Taliban has dropped in Pakistan dramatically as violence has exploded. But that hasn't been coupled by a surge in support for the U.S. or the Pakistani government's alliance with it",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦政府被指控在旁遮普省打击恐怖主义不力，涉历史支持反苏组织",
+      "support_text": "Those who still pretend that we are not a nation at war are complicit in these deaths",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦提出调解阿富汗内部冲突方案，遭美国认为时机不成熟",
+      "support_text": "Qaiser Hameed... said there should be efforts to start negotiations with all the stakeholders in Afghanistan, especially those disgruntled elements who are resisting the American occupation there",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析人士指出巴基斯坦极端分子目标转向巴基斯坦政府而非美国",
+      "support_text": "The sentiments underscored the low standing of the U.S. here. The wariness of the U.S. was all the more remarkable considering Thursday's attack was a direct assault on the moderate, Sufi-influenced Islam most Pakistanis still practice",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "部分巴基斯坦民众认为美国撤出阿富汗可带来地区和平",
+      "support_text": "some saying Friday that the solution to the country's terror threat is a U.S. exit from Afghanistan",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "部分巴基斯坦人被采访",
+      "support_text": "部分巴基斯坦人被采访",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "部分巴基斯坦人说美国的战争是暴力根源",
+      "support_text": "部分巴基斯坦人说美国的战争是暴力根源",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国在巴基斯坦的部落地区发动导弹袭击",
+      "support_text": "美国在巴基斯坦的部落地区发动导弹袭击",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿丽法·莫恩声称华盛顿在巴基斯坦鼓励印第安人和犹太人发动袭击",
+      "support_text": "Arifa Moen claims Washington is encouraging Indians and Jews to carry out attacks in Pakistan",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "华盛顿正鼓励印第安人和犹太人发动袭击",
+      "support_text": "Washington is encouraging Indians and Jews to carry out attacks",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "绿色圆顶神庙聚集事件",
+      "support_text": "成千上万的人曾在绿色圆顶神庙聚集",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹周期性爆炸事件",
+      "support_text": "炸弹每隔几分钟就爆炸",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "混凝土结构破坏事件",
+      "support_text": "爆炸将墙壁的混凝土撕裂",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_19",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "大理石地板污染事件",
+      "support_text": "爆炸使得白色大理石地板浸满鲜血",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_20",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "巴基斯坦境内暴力事件激增",
+      "support_text": "Polls in recent years have shown that support for the Taliban has dropped in Pakistan dramatically as violence has exploded",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_21",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国支持阿富汗赦免计划",
+      "support_text": "The U.S. Embassy said the Lahore attack 'demonstrates the terrorists' blatant disregard for the lives of the Pakistani people and the future of this country' and that the U.S. 'will continue to support Pakistan in the fight against a common enemy'",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析师Rizvi指出观点",
+      "support_text": "分析师Rizvi指出观点",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_23",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "很多人不会接受巴基斯坦国家制造圣战者的说法",
+      "support_text": "that many of these jihadis were manufactured by the state of Pakistan itself for its own nefarious activities elsewhere",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_24",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "巴基斯坦政府被指控系统化制造圣战者",
+      "support_text": "the state of Pakistan itself for its own nefarious activities elsewhere",
+      "source_text": "text_6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_3",
+      "relation": "before",
+      "support_text": "Pakistani officials condemned Thursday's bombings..."
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_1",
+      "relation": "before",
+      "support_text": "About a month ago, gunmen and suicide bombers attacked two mosques of the minority Ahmadi sect in Lahore, killing 93 people"
+    },
+    {
+      "source": "text_6_node_3",
+      "target": "text_6_node_4",
+      "relation": "before",
+      "support_text": "U.N. Secretary-General Ban Ki-moon strongly condemned the attack..."
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_node_5",
+      "relation": "before",
+      "support_text": "The U.S. Embassy said the Lahore attack 'demonstrates the terrorists' blatant disregard..."
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_6",
+      "relation": "before",
+      "support_text": "Polls in recent years have shown that support for the Taliban has dropped in Pakistan dramatically..."
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_21",
+      "relation": "before",
+      "support_text": "基于语义描述的时序逻辑"
+    },
+    {
+      "source": "text_6_node_6",
+      "target": "text_6_node_7",
+      "relation": "before",
+      "support_text": "Those who still pretend that we are not a nation at war are complicit in these deaths"
+    },
+    {
+      "source": "text_6_node_6",
+      "target": "text_6_node_20",
+      "relation": "before",
+      "support_text": "支持下降与暴力激增存在因果关系"
+    },
+    {
+      "source": "text_6_node_7",
+      "target": "text_6_node_8",
+      "relation": "before",
+      "support_text": "Qaiser Hameed... said there should be efforts to start negotiations..."
+    },
+    {
+      "source": "text_6_node_8",
+      "target": "text_6_node_9",
+      "relation": "before",
+      "support_text": "The wariness of the U.S. was all the more remarkable considering Thursday's attack was a direct assault on the moderate, Sufi-influenced Islam most Pakistanis still practice"
+    },
+    {
+      "source": "text_6_node_9",
+      "target": "text_6_node_10",
+      "relation": "before",
+      "support_text": "some saying Friday that the solution to the country's terror threat is a U.S. exit from Afghanistan"
+    },
+    {
+      "source": "text_6_node_11",
+      "target": "text_6_node_12",
+      "relation": "before",
+      "support_text": "基于temporal_order 1→2的时序逻辑"
+    },
+    {
+      "source": "text_6_node_12",
+      "target": "text_6_node_13",
+      "relation": "before",
+      "support_text": "基于temporal_order 2→4的时序逻辑"
+    },
+    {
+      "source": "text_6_node_14",
+      "target": "text_6_node_15",
+      "relation": "before",
+      "support_text": "基于temporal_order 1→2的时序逻辑"
+    },
+    {
+      "source": "text_6_node_22",
+      "target": "text_6_node_9",
+      "relation": "before",
+      "support_text": "基于temporal_order 3→1的时序逻辑"
+    },
+    {
+      "source": "text_6_node_24",
+      "target": "text_6_node_23",
+      "relation": "before",
+      "support_text": "制造行为引发公众不信任（基于temporal_order 3→2逻辑）"
+    }
+  ]
+}

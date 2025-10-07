@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "text_63_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Taliban launched a fresh offensive in late April.",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "No group has claimed responsibility for the blast.",
+      "source_text": "text_63"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_63_node_1",
+      "target": "text_63_node_2",
+      "relation": "before"
+    }
+  ]
+}

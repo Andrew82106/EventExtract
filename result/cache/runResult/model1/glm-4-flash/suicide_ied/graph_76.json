@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_76_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在哥伦比亚首都波哥大的警察学院发生了一起汽车炸弹袭击，造成至少九人死亡，数十人受伤。",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击发生在波哥大General Santander警察学院，现场混乱，有视频显示警察在运送伤员，爆炸的卡车残骸仍在燃烧。",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_3",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "哥伦比亚总统Ivan Duque返回首都，与军事顾问一起监督警察调查。",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "哥伦比亚首席检察官Nestor Martinez宣布，袭击者Jose Aldemar Rojas驾驶一辆装满80公斤Pentolite炸药的1993年日产皮卡实施了袭击。",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "总统Duque发表声明，称此次袭击不仅针对年轻的安全力量，而是针对整个社会，并表示袭击者将受到惩罚。",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_6",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认至少九人死亡，波哥大卫生部门称另有54人受伤，其中包括一名巴拿马人和一名厄瓜多尔人。",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者Rafael Trujillo表示，他在送儿子Gerson去学校时遭遇爆炸，儿子刚刚入学两天。",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局对车辆如何通过设有爆炸嗅探犬、武装守卫和监控摄像头的关卡感到困惑，但有未经证实的报告称，司机撞过了检查点，似乎是在进行自杀式袭击。",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_9",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "波哥大卫生部门呼吁居民献血。",
+      "source_text": "text_76"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_76_node_1",
+      "target": "text_76_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_2",
+      "target": "text_76_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_3",
+      "target": "text_76_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_4",
+      "target": "text_76_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_5",
+      "target": "text_76_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_6",
+      "target": "text_76_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_7",
+      "target": "text_76_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_8",
+      "target": "text_76_node_9",
+      "relation": "before"
+    }
+  ]
+}

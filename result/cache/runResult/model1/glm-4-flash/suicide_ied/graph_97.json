@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    {
+      "id": "text_97_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Bangladesh has been hit by a series of bombs recently.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A suicide bomb attack killed at least six people in northern Bangladesh a day before the main protests.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "At least 25 people have been killed in a series of bombings across Bangladesh this year.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Protests were organised by leading Muslim clerics at the Baitul Mukarram national mosque in Dhaka after Friday prayers.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Cleric Obaidul Haq denounced the attacks as against the tenets of Islam and urged Muslims to stand up against those killing in the name of Islam.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Similar protests took place in towns and cities around Bangladesh.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_7",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "The government urged clerics to mobilise public opinion against the bombers and said the organisations behind the bombings were abusing Islam.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_8",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "Police questioned some suspects in connection with the blast in the northern town of Netrakona.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Two men rode up on a bicycle and dropped a package on the street in the northern town of Netrakona, resulting in a bomb explosion.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A powerful bomb exploded inside a library near a courthouse in Gazipur, leaving seven people dead and about 50 others injured.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Two policemen were killed in a bomb attack outside a courthouse in the port city of Chittagong on the same day.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "One person died in another bomb attack in Gazipur two days later.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The government blamed a banned militant group, Jamaat-ul-Mujahideen, for the explosions and a series of earlier attacks.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_14",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "More than 400 people have been arrested, but it is thought the masterminds of the attacks remain at large.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Jamaat-ul-Mujahideen wants to establish Islamic law in Bangladesh.",
+      "source_text": "text_97"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_97_node_1",
+      "target": "text_97_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_2",
+      "target": "text_97_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_3",
+      "target": "text_97_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_4",
+      "target": "text_97_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_5",
+      "target": "text_97_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_6",
+      "target": "text_97_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_7",
+      "target": "text_97_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_8",
+      "target": "text_97_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_9",
+      "target": "text_97_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_10",
+      "target": "text_97_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_11",
+      "target": "text_97_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_12",
+      "target": "text_97_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_13",
+      "target": "text_97_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_14",
+      "target": "text_97_node_15",
+      "relation": "before"
+    }
+  ]
+}

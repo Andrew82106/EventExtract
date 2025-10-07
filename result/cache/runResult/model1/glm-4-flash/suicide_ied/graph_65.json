@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_65_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abedi was away at random times throughout the year.",
+      "source_text": "text_65"
+    },
+    {
+      "id": "text_65_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "The reason for his absence was unclear, whether he was out of the country or just didn't show up to school.",
+      "source_text": "text_65"
+    },
+    {
+      "id": "text_65_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "He was known to hang around with the wrong crowd.",
+      "source_text": "text_65"
+    },
+    {
+      "id": "text_65_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "He was described as very, very gullible.",
+      "source_text": "text_65"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_65_node_1",
+      "target": "text_65_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_65_node_2",
+      "target": "text_65_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_65_node_3",
+      "target": "text_65_node_4",
+      "relation": "before"
+    }
+  ]
+}

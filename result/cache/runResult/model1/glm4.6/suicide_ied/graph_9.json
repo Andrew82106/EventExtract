@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_9_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名袭击者在霍姆斯的一所学校先安放了一枚炸弹，然后在附近引爆炸弹自杀，实施了双重爆炸袭击。",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成至少48人死亡，其中包括41名儿童，并有儿童失踪，预计死亡人数可能还会上升。",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "惊慌的居民冲到现场，紧急撤离和救助穿着校服的受伤儿童。",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "亲政府的社交媒体发布了现场的图片和视频，显示了残骸、浓烟和混乱的景象。",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "叙利亚人权观察组织和霍姆斯省长分别公布了不同的伤亡数字。",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生后，没有组织立即宣布对此负责。",
+      "source_text": "text_9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_6",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_14_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "今年七月，卡拉达区发生了伊拉克首都最致命的单次炸弹袭击，造成300人死亡。",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "上周二，“伊斯兰国”在繁忙的卡拉达区一家医院附近发动了类似的袭击，造成七人死亡。",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五午夜前，纳赫伊勒购物中心附近发生双重汽车炸弹袭击，先是一辆停放的汽车爆炸，随后一名自杀式炸弹袭击者引爆了另一辆车。",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "周六，警方和医疗消息人士向德通社证实，袭击造成至少40人死亡，60人受伤。",
+      "source_text": "text_14"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_14_node_1",
+      "target": "text_14_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_14_node_2",
+      "target": "text_14_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_14_node_3",
+      "target": "text_14_node_4",
+      "relation": "before"
+    }
+  ]
+}

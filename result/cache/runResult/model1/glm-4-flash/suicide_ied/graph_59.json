@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_59_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在哥伦比亚波哥大的一家警察学院发生了一起汽车炸弹袭击，造成21人死亡，50多人受伤。",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生在周四上午，现场混乱，救护车和直升机赶往现场。",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者称听到了巨大的爆炸声，窗户在邻近建筑中破碎。",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "社交媒体上发布了烧毁的车辆和现场废墟的照片。",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击中包括一名巴拿马人和一名厄瓜多尔人。",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "市民拉斐尔·特鲁希略在距离学校不远的地方被爆炸波及，他的儿子在学校内。",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_7",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "哥伦比亚总统伊万·杜克正在返回首都监督警察调查。",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_8",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查人员确定驾驶员乔斯·阿尔德马尔·罗哈斯·罗德里格斯死亡，车辆载有80公斤高爆炸药。",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_9",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "哥伦比亚检察官表示，当局尚未提出袭击者身份，但正在寻找“智力作者”。",
+      "source_text": "text_59"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_59_node_1",
+      "target": "text_59_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_2",
+      "target": "text_59_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_3",
+      "target": "text_59_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_4",
+      "target": "text_59_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_5",
+      "target": "text_59_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_6",
+      "target": "text_59_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_7",
+      "target": "text_59_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_8",
+      "target": "text_59_node_9",
+      "relation": "before"
+    }
+  ]
+}

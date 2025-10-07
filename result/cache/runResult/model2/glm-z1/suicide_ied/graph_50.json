@@ -1,0 +1,147 @@
+{
+  "nodes": [
+    {
+      "id": "text_50_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2010年，Jundullah（ Soldiers of God）在东南伊朗寺庙发动自杀式爆炸，造成至少28人死亡，包括革命卫队成员，伊朗指控美国支持",
+      "support_text": "That attack was claimed by the Sunni separatist group Jundullah (or Soldiers of God), which has claimed responsibility for bombings in the past.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年，Ansar al-Furqan在伊朗南部Khuzestan省炸毁输油管道，伊朗称其对此负责",
+      "support_text": "In June, Iran's Revolutionary Guards said they had killed the group's suspected leader, Molavi Jalil Qanbar-Zehi, in a mountainous area of Sistan and Baluchestan.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年，Separatist group Jaish al-Adl在Sistan and Baluchestan省绑架12名边境 guards，5人获释",
+      "support_text": "In October, the separatist Jaish al-Adl (Army of Justice) group kidnapped 12 Iranian border guards in the remote province, five of whom have since been released.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年6月，伊朗革命卫队击毙Ansar al-Furqan疑似领导人Molavi Jalil Qanbar-Zehi",
+      "support_text": "In June, Iran's Revolutionary Guards said they had killed the group's suspected leader, Molavi Jalil Qanbar-Zehi, in a mountainous area of Sistan and Baluchestan.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年12月6日，Chabahar警察局发生自杀式爆炸，导致至少3人死亡、48人受伤",
+      "support_text": "A suicide bomber has set off an explosion outside a police station in the Iranian southern port city of Chabahar, killing at least three people and wounding 48, state TV has reported.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "副总督确认两名警察死亡，袭击者被当场击毙",
+      "support_text": "Mohammad Hadi Marashi, deputy governor for security affairs, told state TV that two police officers were killed in the attack. An official said that 'the terrorist who carried out the attack was killed'.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Tasnim新闻 Agency报道爆炸事件伤亡数字和现场图片，包括社交媒体视频",
+      "support_text": "The Tasnim news agency said there were reports that women and children were among the injured. Four people were reportedly killed and 4 injured in a terrorist attack on Police headquarters in #Iran's southeastern city of #Chabahar: Acting Governor of #Sistan and #Baluchestan Province pic.twitter.com/sDY3ZUb31f — Tasnim News Agency (@Tasnimnews_EN) December 6, 2018",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "SITE Intelligence Group报告Ansar al-Furqan宣称对爆炸负责",
+      "support_text": " SITE Intelligence Group reported that Sunni militant group Ansar al-Furqan had claimed responsibility for the attack.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗外交部谴责袭击，称将追究责任",
+      "support_text": "Foreign Minister Mohammad Javad Zarif tweeted. 'Foreign-backed terrorists kill & wound innocents in Chabahar. As we've made clear in the past, such crimes won’t go unpunished.'",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度外交部谴责袭击，要求严惩；美国对伊朗港口项目给予制裁例外",
+      "support_text": "India has said it is ready to invest up to...",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_11",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "官方声明负责的恐怖分子被击毙",
+      "support_text": "Mohammad Hadi Marashi, deputy governor for security affairs, told state TV that two police officers were killed in the attack. An official said that 'the terrorist who carried out the attack was killed'.",
+      "source_text": "text_50"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_50_node_4",
+      "target": "text_50_node_5",
+      "relation": "before",
+      "support_text": "In June, Iran's Revolutionary Guards said they had killed the group's suspected leader, Molavi Jalil Qanbar-Zehi, in a mountainous area of Sistan and Baluchestan."
+    },
+    {
+      "source": "text_50_node_5",
+      "target": "text_50_node_6",
+      "relation": "before",
+      "support_text": "Mohammad Hadi Marashi, deputy governor for security affairs, told state TV that two police officers were killed in the attack. An official said that 'the terrorist who carried out the attack was killed'."
+    },
+    {
+      "source": "text_50_node_5",
+      "target": "text_50_node_7",
+      "relation": "before",
+      "support_text": "The Tasnim news agency said there were reports that women and children were among the injured. Four people were reportedly killed and 4 injured in a terrorist attack on Police headquarters in #Iran's southeastern city of #Chabahar: Acting Governor of #Sistan and #Baluchestan Province pic.twitter.com/sDY3ZUb31f — Tasnim News Agency (@Tasnimnews_EN) December 6, 2018"
+    },
+    {
+      "source": "text_50_node_5",
+      "target": "text_50_node_8",
+      "relation": "before",
+      "support_text": " SITE Intelligence Group reported that Sunni militant group Ansar al-Furqan had claimed responsibility for the attack."
+    },
+    {
+      "source": "text_50_node_5",
+      "target": "text_50_node_9",
+      "relation": "before",
+      "support_text": "Foreign Minister Mohammad Javad Zarif tweeted. 'Foreign-backed terrorists kill & wound innocents in Chabahar. As we've made clear in the past, such crimes won’t go unpunished.'"
+    },
+    {
+      "source": "text_50_node_5",
+      "target": "text_50_node_10",
+      "relation": "before",
+      "support_text": "India has said it is ready to invest up to..."
+    },
+    {
+      "source": "text_50_node_8",
+      "target": "text_50_node_9",
+      "relation": "before",
+      "support_text": "Foreign Minister Mohammad Javad Zarif tweeted. 'Foreign-backed terrorists kill & wound innocents in Chabahar. As we've made clear in the past, such crimes won’t go unpunished.'"
+    }
+  ]
+}

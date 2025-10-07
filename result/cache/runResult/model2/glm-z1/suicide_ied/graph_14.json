@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "id": "text_14_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Richard Reid于2001年12月22日试图在巴黎戴高乐机场登机时被拒绝，因其未完整回答安检问题",
+      "support_text": "Sources in France said that Reid attempted Friday to board an American Airlines Paris-to-Miami flight, but authorities at Charles de Gaulle Airport in Paris would not let him aboard when he did not answer all their questions.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid以虚假身份Tariq Raja重新登机，随身携带未托运的含10盎司爆炸物的运动鞋",
+      "support_text": "He raised further suspicions because he checked no luggage on the overseas flight, though he did have a carry-on bag, sources said.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "航班上空乘人员发现Reid点燃鞋内引爆装置，触发紧急迫降程序",
+      "support_text": "A flight attendant smelled what she thought was a burnt match at about 11 a.m., 90 minutes into the flight. A passenger directed the flight attendant... he put a match into his mouth, according to a criminal complaint the FBI filed.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "机组与乘客合力制服Reid，使用镇静剂控制其行为直至波士顿洛根机场降落",
+      "support_text": "Flight attendants and passengers wrestled and subdued Reid aboard American Airlines Flight 63... the plane was diverted to Boston's Logan International Airport, where it landed safely.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "FBI初步检测确认鞋内含两枚简易爆炸物，疑似含Semtex或PETN成分",
+      "support_text": "The FBI's preliminary analysis of Reid's shoes showed they contained 'two functional improvised explosive devices'... analysts were trying to determine if the material is Semtex, PETN or RDX.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国司法部以危害机组安全罪正式起诉Reid，指控其威胁航空安全",
+      "support_text": "Richard C. Reid, 28, has been charged with interfering with the performance of the duties of flight crew members by assault or intimidation, according to the U.S. attorney's office in Boston.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "波士顿地方法院批准对Reid的保释候审程序，要求其继续羁押至1月5日证据听证会",
+      "support_text": "U.S. Magistrate Judith Dein approved a request by U.S. attorneys for Reid to remain in custody until the pending trial.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "航空安全部门实施随机鞋检新规，强化旅客安检流程",
+      "support_text": "As a result of Saturday's events, the Federal Aviation Administration issued a security directive Sunday ordering airlines to add random shoe inspections.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "多国警方确认Reid真实身份为英国公民，其护照信息存在伪造嫌疑",
+      "support_text": "The man was turned over to French National Police, who concluded his British passport was genuine.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "联邦当局在周日宣布了FBI的分析结果",
+      "support_text": "联邦当局在周日宣布了FBI的分析结果",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_new_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府官员说明了鞋内爆炸物质的重量信息",
+      "support_text": "政府官员说明了鞋内爆炸物质的重量信息",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_new_node_12",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "法国国家警察允许美国航空公司重新签发机票",
+      "support_text": "法国国家警察允许美国航空公司重新签发机票",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_new_node_13",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国航空公司重新签发该男士的机票",
+      "support_text": "美国航空公司重新签发该男士的机票",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "宣誓书在星期日提交至投诉中",
+      "support_text": "宣誓书在星期日提交至投诉中",
+      "source_text": "text_14"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_14_node_1",
+      "target": "text_14_node_2",
+      "relation": "before",
+      "support_text": "He raised further suspicions because he checked no luggage on the overseas flight, though he did have a carry-on bag, sources said."
+    },
+    {
+      "source": "text_14_node_2",
+      "target": "text_14_node_3",
+      "relation": "before",
+      "support_text": "A flight attendant smelled what she thought was a burnt match at about 11 a.m., 90 minutes into the flight."
+    },
+    {
+      "source": "text_14_node_3",
+      "target": "text_14_node_4",
+      "relation": "before",
+      "support_text": "Flight attendants and passengers wrestled and subdued Reid aboard American Airlines Flight 63..."
+    },
+    {
+      "source": "text_14_node_3",
+      "target": "text_14_node_5",
+      "relation": "before",
+      "support_text": "The FBI's preliminary analysis of Reid's shoes showed they contained 'two functional improvised explosive devices'..."
+    },
+    {
+      "source": "text_14_node_4",
+      "target": "text_14_node_6",
+      "relation": "before",
+      "support_text": "The plane was diverted to Boston's Logan International Airport, where it landed safely. At Monday's brief hearing..."
+    },
+    {
+      "source": "text_14_node_5",
+      "target": "text_14_node_8",
+      "relation": "before",
+      "support_text": "As a result of Saturday's events, the Federal Aviation Administration issued a security directive Sunday ordering airlines to add random shoe inspections."
+    },
+    {
+      "source": "text_14_node_5",
+      "target": "text_14_new_node_10",
+      "relation": "before",
+      "support_text": "FBI初步检测确认鞋内含两枚简易爆炸物，疑似含Semtex或PETN成分"
+    },
+    {
+      "source": "text_14_node_5",
+      "target": "text_14_new_node_11",
+      "relation": "before",
+      "support_text": "FBI初步检测确认鞋内含两枚简易爆炸物，疑似含Semtex或PETN成分"
+    },
+    {
+      "source": "text_14_node_5",
+      "target": "text_14_new_node_14",
+      "relation": "before",
+      "support_text": "宣誓书在星期日提交至投诉中"
+    },
+    {
+      "source": "text_14_node_6",
+      "target": "text_14_node_7",
+      "relation": "before",
+      "support_text": "Richard C. Reid, 28, has been charged with interfering with the performance of the duties of flight crew members by assault or intimidation..."
+    },
+    {
+      "source": "text_14_node_9",
+      "target": "text_14_node_2",
+      "relation": "before",
+      "support_text": "The man was turned over to French National Police, who concluded his British passport was genuine."
+    },
+    {
+      "source": "text_14_node_9",
+      "target": "text_14_new_node_12",
+      "relation": "before",
+      "support_text": "法国国家警察允许美国航空公司重新签发机票"
+    },
+    {
+      "source": "text_14_new_node_12",
+      "target": "text_14_new_node_13",
+      "relation": "before",
+      "support_text": "美国航空公司重新签发该男士的机票"
+    }
+  ]
+}

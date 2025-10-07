@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "id": "text_106_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年4月21日，斯里兰卡发生一系列协调一致的爆炸袭击，目标为科伦坡、尼甘布和拜蒂克洛的基督教堂和豪华酒店。",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸袭击导致290人死亡，500多人受伤，斯里兰卡官员称宗教极端分子负责。",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "上午8:45，科伦坡发生爆炸，同时袭击了圣安东尼大教堂、香格里拉酒店和金斯伯里酒店。",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "五分钟后，科伦坡的锡兰宫酒店也遭到袭击。",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "下午1:45，在德希瓦拉郊区的一家靠近国家动物园的旅馆发生爆炸。",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "下午2:15，在德马塔戈达的住宅区发生另一起爆炸。",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "上午8:45，在首都不远的海滨城镇尼甘布，圣塞巴斯蒂安教堂在复活节礼拜期间遭到爆炸袭击。",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "上午9:05，在拜蒂克洛东海岸的锡安福音教堂在复活节礼拜期间遭到袭击。",
+      "source_text": "text_106"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_106_node_1",
+      "target": "text_106_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_3",
+      "target": "text_106_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_3",
+      "target": "text_106_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_4",
+      "target": "text_106_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_5",
+      "target": "text_106_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_7",
+      "target": "text_106_node_8",
+      "relation": "before"
+    }
+  ]
+}

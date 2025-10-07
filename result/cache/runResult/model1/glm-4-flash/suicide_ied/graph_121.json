@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "text_121_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在阿富汗首都喀布尔的婚礼派对上发生了一起深夜自杀式炸弹袭击，造成至少63人死亡，其中包括妇女和儿童。",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_2",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地伊斯兰国（ISIS）附属组织宣称对此次袭击负责，这是喀布尔今年最致命的袭击。",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Damage",
+      "description": "另有一名182人在周六晚上的爆炸中受伤，政府发言人Feroz Bashari确认了伤亡人数。",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Damage",
+      "description": "内政部发言人Nusrat Rahimi证实了伤亡情况，喀布尔的居民对暴力事件感到愤怒，尽管美国和塔利班表示他们接近达成结束18年冲突的协议。",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班谴责此次袭击是“非法和不正当的”，并否认任何参与。",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸发生在喀布尔西部的一个 neighborhood，那里居住着许多阿富汗的少数族裔什叶派哈扎拉社区。",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣称对许多针对什叶派的袭击负责，并在周日发布了一份声明，称一名寻求殉道的巴基斯坦伊斯兰国战士针对喀布尔的什叶派集会。",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "一份由伊斯兰国发布的声明声称，自杀式炸弹袭击后，一辆汽车炸弹也被引爆，但阿富汗官员尚未证实。",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Damage",
+      "description": "目击者Gul Mohammad说，炸弹爆炸发生在播放音乐的舞台附近，‘所有在那里的人，包括青年、儿童和所有人，都被杀死了。’",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Damage",
+      "description": "幸存者Ahmad Omid说，大约有1200位宾客被邀请参加他父亲表哥的婚礼，‘我们在另一个房间和新人在一起时听到了爆炸声，然后我就找不到任何人了，大厅里到处都是躺着的人。’",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "此次袭击发生在名为‘迪拜城婚礼厅’的场所，打破了喀布尔相对平静的时期。",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "8月7日，塔利班在一辆针对阿富汗安全部队的车炸弹中引爆了炸弹，在 cùng一条路上炸死了14人，伤145人，其中大多是妇女、儿童和其他平民。",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_13",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗总统发言人Sediq Seddiqi在Twitter上表示，对喀布尔婚礼厅内的自杀式袭击感到震惊，称这是一项针对人民的‘残忍罪行’。",
+      "source_text": "text_121"
+    },
+    {
+      "id": "text_121_node_14",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "欧盟驻阿富汗代表团表示，‘此类行为是无法谴责的。’",
+      "source_text": "text_121"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_121_node_1",
+      "target": "text_121_node_14",
+      "relation": "before"
+    }
+  ]
+}

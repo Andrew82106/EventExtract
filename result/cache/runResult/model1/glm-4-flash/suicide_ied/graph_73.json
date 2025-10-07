@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_73_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2018年9月2日，一辆载有炸弹的汽车在索马里摩加迪沙的一处政府办公室附近爆炸，造成至少6人死亡，其中包括3名士兵，另有14人受伤。",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "爆炸导致附近一所学校倒塌，邻近房屋受损，一座行宫的屋顶被炸毁，目标建筑被摧毁。",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "伊斯兰极端组织谢巴布 shortly after the attack 声明对此次袭击负责。",
+      "source_text": "text_73"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_73_node_1",
+      "target": "text_73_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_73_node_2",
+      "target": "text_73_node_3",
+      "relation": "before"
+    }
+  ]
+}

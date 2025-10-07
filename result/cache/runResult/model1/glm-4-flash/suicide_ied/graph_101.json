@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "id": "text_101_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年11月，恐怖分子在索马里摩加迪沙首次会面，讨论针对肯尼亚以色列利益的袭击计划。",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年4月，恐怖分子确定以色列航空公司的飞机和帕拉迪斯酒店为袭击目标。",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年5月至9月，恐怖分子对酒店进行视频监控，并从也门走私两枚SA-7B地对空导弹到肯尼亚。",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_4",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月15日，恐怖分子购买了一辆SUV，用于装载炸弹。",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年，恐怖分子在图多尔租用的房子里组装炸弹。",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年，恐怖分子驾驶绿色帕杰罗到达以色列拥有的酒店大门，声称要见酒店里的人。",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年，一名恐怖分子跳下车，滑过障碍物，跑到接待台并引爆身上的炸弹。",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年，另外两名恐怖分子驾车冲过障碍物，撞进酒店接待台并引爆车上的炸弹。",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年，袭击造成15人死亡，其中12名肯尼亚人，3名以色列人，另有80人受伤。",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年8:40，其他恐怖分子向一架以色列航空公司的飞机发射导弹，但未击中目标，机上250名乘客和10名机组人员均安全。",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年，美国、以色列和肯尼亚情报机构调查后揭露，袭击的准备工作始于一年前。",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击后，澳大利亚、英国、加拿大和美国暂时关闭大使馆并发布旅行警告，英国暂停飞往肯尼亚的航班一个月。",
+      "source_text": "text_101"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_101_node_1",
+      "target": "text_101_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_2",
+      "target": "text_101_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_3",
+      "target": "text_101_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_4",
+      "target": "text_101_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_5",
+      "target": "text_101_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_6",
+      "target": "text_101_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_6",
+      "target": "text_101_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_7",
+      "target": "text_101_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_8",
+      "target": "text_101_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_10",
+      "target": "text_101_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_11",
+      "target": "text_101_node_12",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_123_node_1",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸物被放置在人力车上",
+      "source_text": "text_123"
+    },
+    {
+      "id": "text_123_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生在贾拉拉巴德市PD3区域，靠近一辆属于阿富汗国民军招募中心的微型巴士",
+      "source_text": "text_123"
+    },
+    {
+      "id": "text_123_node_3",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸造成至少10人死亡，其中包括一名儿童，27人受伤",
+      "source_text": "text_123"
+    },
+    {
+      "id": "text_123_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿富汗内政部表示，部分受伤者在爆炸中处于危重状态",
+      "source_text": "text_123"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_123_node_1",
+      "target": "text_123_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_123_node_2",
+      "target": "text_123_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_123_node_3",
+      "target": "text_123_node_4",
+      "relation": "before"
+    }
+  ]
+}

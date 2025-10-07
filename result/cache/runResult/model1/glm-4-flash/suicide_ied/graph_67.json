@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_67_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年12月28日，极端分子在喀布尔的一所什叶派文化中心发动自杀式炸弹袭击。",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成50人死亡，80多人受伤，其中包括记者和大学生。",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "IdentifyCategorize",
+      "description": "袭击发生在纪念苏联入侵阿富汗38周年讨论活动期间。",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗内政部表示，袭击后不久发生了另两起爆炸，但未造成人员伤亡。",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊斯兰国（ISIS）通过其 Amaq 新闻机构发表声明，宣称对此次袭击负责。",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "塔利班否认对此次袭击负责。",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗总统阿什拉夫·加尼将此次袭击描述为对人类的不可饶恕的罪行。",
+      "source_text": "text_67"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_67_node_1",
+      "target": "text_67_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_67_node_2",
+      "target": "text_67_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_67_node_3",
+      "target": "text_67_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_67_node_4",
+      "target": "text_67_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_67_node_5",
+      "target": "text_67_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_67_node_6",
+      "target": "text_67_node_7",
+      "relation": "before"
+    }
+  ]
+}

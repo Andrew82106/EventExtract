@@ -1,0 +1,264 @@
+{
+  "nodes": [
+    {
+      "id": "text_7_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "3月27日，巴基斯坦拉合尔Gulshan-e-Iqbal公园发生自杀式爆炸，造成至少72人死亡、233人受伤，现场发现球轴承等爆炸物",
+      "support_text": "PHOTO: AFP AN EXPRESS NEWS SCREENGRAB At least 72 people were killed and more than 233 injured when a suicide bomb ripped through the parking space of a crowded park in Lahore where Christians were celebrating Easter Sunday, officials said.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "3月27日夜至28日凌晨，军方与情报机构展开5次联合行动，在拉合尔、费萨拉巴德等地逮捕恐怖分子及关联人员",
+      "support_text": "data-width=\"100%\"> PHOTO: AFP Number of suspect terrorists and facilitators arrested and huge cache of arms and ammunition recovered-3 — Gen(R) Asim Saleem Bajwa (@AsimBajwaISPR) March 28, 2016 Int agencies with Army& Rangers carried out 5 ops in Lhr,Fsd&Multan since last night. Ops continue with more leads coming in-2 — Gen(R) Asim Saleem Bajwa (@AsimBajwaISPR) March 28, 2016 #COAS chaired a high lvl security mtng at GHQ today to review progress of op in Punjab to nab terrorists in the aftermath of Lahore Blast-1",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "3月28日阿富汗总统加尼与巴基斯坦总理谢里夫通话，谴责袭击并承诺联合打击恐怖主义",
+      "support_text": "Afghan President Ashraf Ghani on Monday expressed his condolences on the loss of life in Lahore attack and condemned the cowardly act during his telephonic conversation with Prime Minister Nawaz Sharif, a statement said.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦总理谢里夫召开高规格安全会议，要求加强情报协作与反恐行动，宣布对袭击者实施全面追捕",
+      "support_text": "#COAS chaired a high lvl security mtng at GHQ today to review progress of op in Punjab to nab terrorists in the aftermath of Lahore Blast-1",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦首席部长谢赫巴兹宣布为每位遇难者提供100万卢比赔偿，并宣布三天空难哀悼期",
+      "support_text": "Rescue spokesperson Deeba Shahbaz said the toll had risen to 72 Monday, with 29 children among the dead. Senior police official Haider Ashraf confirmed the number killed, adding the majority of the dead were Muslims, AFP reported.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦军方证实爆炸系巴基斯坦塔利班分支Jamaat-ul-Ahrar实施，该组织宣称以基督徒为特定目标",
+      "support_text": "Senior police official Haider Ashraf confirmed the number killed, adding the majority of the dead were Muslims, AFP reported. \"Christians were not the specific target of this attack because the majority of the dead are Muslims,' he said.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国秘书长潘基文谴责袭击为'令人发指的恐怖行径'，呼吁保障宗教少数群体安全",
+      "support_text": "The premier said terrorists were on the run and were targeting soft targets like children and women. \"Terrorism has become a serious global challenge. Unfortunately your country is also faced with this menace,' the prime minister said.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "英国首相卡梅伦、印度总理莫迪等国际政要通过社交媒体表达哀悼，承诺加强反恐合作",
+      "support_text": "The premier said: \"The scourge of terrorism and extremism has to be countered with coordinated efforts at regional and international levels,' he added.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦PTI党主席伊姆兰·汗批评政府安全措施失效，要求立即去政治化警察系统",
+      "support_text": "Imran Khan has demanded a military operation against terrorists in Punjab. Talking to media outside Lahore’s Jinnah Hospital, where Imran arrived to inquire after victims of the Sunday’s blast, he said: \"It is high time for the government to implement the National Action Plan and develop a consensus to go after terrorists in whichever province they are seeking refuge.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "土耳其总统埃尔多安与巴基斯坦总理通话，重申反恐立场并表达慰问",
+      "support_text": "Pakistan Tehreek-e-Insaf (PTI) chairman Imran Khan has demanded a military operation against terrorists in Punjab. Talking to media outside Lahore’s Jinnah Hospital, where Imran arrived to inquire after victims of the Sunday’s blast, he said: \"It is high time for the government to implement the National Action Plan and develop a consensus to go after terrorists in whichever province they are seeking refuge.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "救护车赶往Gulshan-e-Iqbal公园",
+      "support_text": "已分类的动词事件语义描述：救护车赶往Gulshan-e-Iqbal公园",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "官员发布伤亡情况",
+      "support_text": "已分类的动词事件语义描述：官员发布伤亡情况",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_13",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "死亡人数从之前数值上升至72",
+      "support_text": "死亡人数从之前数值上升至72",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Haider Ashraf确认死亡人数",
+      "support_text": "Haider Ashraf confirmed the number killed",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_15",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "补充说明死者多数为穆斯林",
+      "support_text": "补充说明死者多数为穆斯林",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "AFP报道了该事件",
+      "support_text": "AFP reported the incident",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦总理纳瓦兹向阿富汗 counterpart 汇报反恐进展",
+      "support_text": "语义描述：巴基斯坦总理纳瓦兹向阿富汗 counterpart 汇报",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦总理声称恐怖分子针对软目标发动攻击",
+      "support_text": "语义描述：总理声称恐怖分子正在针对软目标发动攻击",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_19",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖分子针对儿童和妇女等软目标发动攻击",
+      "support_text": "语义描述：恐怖分子针对儿童和妇女等软目标发动攻击",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_20",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "统治者需要调整其优先级",
+      "support_text": "统治者需要调整其优先级",
+      "source_text": "text_7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_2",
+      "relation": "before",
+      "support_text": "Int agencies with Army& Rangers carried out 5 ops in Lhr,Fsd&Multan since last night. Ops continue with more leads coming in-2"
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_3",
+      "relation": "before",
+      "support_text": "Afghan President Ashraf Ghani on Monday expressed his condolences on the loss of life in Lahore attack and condemned the cowardly act during his telephonic conversation with Prime Minister Nawaz Sharif, a statement said."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_4",
+      "relation": "before",
+      "support_text": "#COAS chaired a high lvl security mtng at GHQ today to review progress of op in Punjab to nab terrorists in the aftermath of Lahore Blast-1"
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_5",
+      "relation": "before",
+      "support_text": "Rescue spokesperson Deeba Shahbaz said the toll had risen to 72 Monday, with 29 children among the dead. Senior police official Haider Ashraf confirmed the number killed, adding the majority of the dead were Muslims, AFP reported."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "Senior police official Haider Ashraf confirmed the number killed, adding the majority of the dead were Muslims, AFP reported. \"Christians were not the specific target of this attack because the majority of the dead are Muslims,' he said."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_11",
+      "relation": "before",
+      "support_text": "爆炸发生后，救护车立即赶往现场"
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_17",
+      "relation": "before",
+      "support_text": "语义描述：巴基斯坦总理纳瓦兹在袭击后向阿富汗 counterpart 汇报"
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_node_7",
+      "relation": "before",
+      "support_text": "The premier said: \"The scourge of terrorism and extremism has to be countered with coordinated efforts at regional and international levels,' he added."
+    },
+    {
+      "source": "text_7_node_4",
+      "target": "text_7_node_8",
+      "relation": "before",
+      "support_text": "The premier said: \"The scourge of terrorism and extremism has to be countered with coordinated efforts at regional and international levels,' he added."
+    },
+    {
+      "source": "text_7_node_9",
+      "target": "text_7_node_10",
+      "relation": "before",
+      "support_text": "Pakistan Tehreek-e-Insaf (PTI) chairman Imran Khan has demanded a military operation against terrorists in Punjab. Talking to media outside Lahore’s Jinnah Hospital, where Imran arrived to inquire after victims of the Sunday’s blast, he said: \"It is high time for the government to implement the National Action Plan and develop a consensus to go after terrorists in whichever province they are seeking refuge."
+    },
+    {
+      "source": "text_7_node_11",
+      "target": "text_7_node_12",
+      "relation": "before",
+      "support_text": "救援行动完成后，官员发布伤亡数据"
+    },
+    {
+      "source": "text_7_node_17",
+      "target": "text_7_node_18",
+      "relation": "before",
+      "support_text": "语义描述：在汇报后总理声称恐怖分子针对软目标发动攻击"
+    },
+    {
+      "source": "text_7_node_18",
+      "target": "text_7_node_19",
+      "relation": "before",
+      "support_text": "语义描述：基于汇报内容进一步明确攻击目标"
+    }
+  ]
+}

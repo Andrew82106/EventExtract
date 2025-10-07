@@ -1,0 +1,192 @@
+{
+  "nodes": [
+    {
+      "id": "text_27_node_1",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daallo Airlines客机起飞后不久发生爆炸和火灾，导致机身出现大洞",
+      "support_text": "An explosion and fire blew a gaping hole in a commercial airliner, forcing it to make an emergency landing at Mogadishu's international airport late Tuesday, officials and witnesses said.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "飞行员称疑似炸弹爆炸，并成功操作返航降落",
+      "support_text": "I think it was a bomb,",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "15英里外发现15英里外坠落的严重烧伤老人遗体",
+      "support_text": "Eyewitnesses claim the badly burned body of an elderly man fell to earth about 15 miles away from Mogadishu airport.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "74名乘客和机组人员被安全疏散，2人轻微受伤",
+      "support_text": "74 passengers and crew of the plane were evacuated after the plane made a safe landing.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "航空官员确认飞机在升空后不久被迫降落",
+      "support_text": "The plane... was forced to land minutes after taking off from the Mogadishu airport, said Mohamoud.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "联合国驻索马里副大使通过社交媒体描述听到巨响和烟雾",
+      "support_text": "Awale Kullane... heard a loud noise and couldn't see anything but smoke for a few seconds.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "航空安全专家通过机身照片排除压力爆炸可能性，确认爆炸装置特征",
+      "support_text": "Goglia said there are only two things that could have caused a hole in the plane that looks like the one in photos circulated online — a bomb or a pressurization blowout caused by a flaw or fatigue in the plane's skin.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "乘客听到内部爆炸声并目击火焰撕裂机身侧面",
+      "support_text": "Mohamed Ali... heard a bang inside the plane before flames opened a gaping hole in the plane's side.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "乘客拍摄氧气面罩使用视频并上传社交媒体",
+      "support_text": "Passengers also posted a video showing some passengers putting on oxygen masks inside the plane.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Blic引用飞行员发言",
+      "support_text": "Belgrade daily Blic引用Vladimir Vodopivec的话",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "舱内压力丧失",
+      "support_text": "cabin lose pressure",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_12",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "事件结束",
+      "support_text": "事件结束",
+      "source_text": "text_27"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_27_node_1",
+      "target": "text_27_node_2",
+      "relation": "before",
+      "support_text": "forcing it to make an emergency landing"
+    },
+    {
+      "source": "text_27_node_1",
+      "target": "text_27_node_3",
+      "relation": "before",
+      "support_text": "Eyewitnesses claim the badly burned body of an elderly man fell to earth"
+    },
+    {
+      "source": "text_27_node_1",
+      "target": "text_27_node_4",
+      "relation": "before",
+      "support_text": "74 passengers and crew of the plane were evacuated after the plane made a safe landing"
+    },
+    {
+      "source": "text_27_node_1",
+      "target": "text_27_node_5",
+      "relation": "before",
+      "support_text": "minutes after taking off from the Mogadishu airport"
+    },
+    {
+      "source": "text_27_node_1",
+      "target": "text_27_node_6",
+      "relation": "before",
+      "support_text": "heard a loud noise and couldn't see anything but smoke"
+    },
+    {
+      "source": "text_27_node_1",
+      "target": "text_27_node_7",
+      "relation": "before",
+      "support_text": "Goglia said there are only two things that could have caused"
+    },
+    {
+      "source": "text_27_node_1",
+      "target": "text_27_node_8",
+      "relation": "before",
+      "support_text": "heard a bang inside the plane"
+    },
+    {
+      "source": "text_27_node_1",
+      "target": "text_27_node_9",
+      "relation": "before",
+      "support_text": "passengers also posted a video showing"
+    },
+    {
+      "source": "text_27_node_2",
+      "target": "text_27_node_4",
+      "relation": "before",
+      "support_text": "after the plane made a safe landing"
+    },
+    {
+      "source": "text_27_node_4",
+      "target": "text_27_node_9",
+      "relation": "before",
+      "support_text": "passengers also posted a video showing"
+    },
+    {
+      "source": "text_27_node_10",
+      "target": "text_27_node_2",
+      "relation": "before",
+      "support_text": "Blic引用飞行员发言发生在飞行员称疑似炸弹爆炸之前"
+    },
+    {
+      "source": "text_27_node_11",
+      "target": "text_27_node_1",
+      "relation": "before",
+      "support_text": "舱内压力丧失发生在爆炸和火灾之前"
+    },
+    {
+      "source": "text_27_node_12",
+      "target": "text_27_node_4",
+      "relation": "before",
+      "support_text": "事件结束发生在乘客安全疏散之后"
+    }
+  ]
+}

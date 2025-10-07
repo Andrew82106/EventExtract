@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_111_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在英国伦敦和格拉斯哥发生恐怖袭击事件",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "格拉斯哥机场安保措施有效",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖分子将丙烷罐放入车内高速冲撞建筑物，但实际爆炸效果有限",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "苏格兰民众反应理性，无人受伤，生活继续",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人邀请朋友一同参与自杀式袭击",
+      "source_text": "text_111"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_111_node_1",
+      "target": "text_111_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_111_node_2",
+      "target": "text_111_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_111_node_3",
+      "target": "text_111_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_111_node_4",
+      "target": "text_111_node_5",
+      "relation": "before"
+    }
+  ]
+}

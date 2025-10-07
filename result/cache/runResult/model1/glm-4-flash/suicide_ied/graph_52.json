@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_52_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "至少20人在巴基斯坦拉合尔的一个集会上被自杀式炸弹袭击，包括Awami National Party的Haroon Bilour",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生在Haroon Bilour的车辆接近集会地点时，他正在参加一个为他选举活动组织的集会",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击后，救援队伍和安全官员将遇难者和伤者转移到Lady Reading医院",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "ANP支持者在医院外集会，并高喊反对政府的口号",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "塔利班巴基斯坦宣称对袭击负责，并威胁将进行更多袭击",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_6",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Haroon Bilour的父亲Bashir Bilour在2012年也曾在集会上被自杀式炸弹袭击",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_7",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Haroon Bilour的葬礼在安全措施下举行，安全部队在城市各处部署",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_8",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "10名在袭击中遇难的遇难者在Esa Khel清真寺举行葬礼",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_9",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "由于Haroon Bilour遇害，PK-78选区的选举被推迟",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_10",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦选举委员会宣布，如果候选人死亡或被杀害，选区选举将被取消",
+      "source_text": "text_52"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_52_node_1",
+      "target": "text_52_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_52_node_2",
+      "target": "text_52_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_52_node_3",
+      "target": "text_52_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_52_node_4",
+      "target": "text_52_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_52_node_5",
+      "target": "text_52_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_52_node_6",
+      "target": "text_52_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_52_node_7",
+      "target": "text_52_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_52_node_8",
+      "target": "text_52_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_52_node_9",
+      "target": "text_52_node_10",
+      "relation": "before"
+    }
+  ]
+}

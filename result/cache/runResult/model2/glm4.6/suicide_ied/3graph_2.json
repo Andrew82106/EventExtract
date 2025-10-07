@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式炸弹袭击者在Shah Hasankhel村一个拥挤的操场上引爆了他的载有炸药的汽车，当时观众正在观看一场排球比赛。",
+      "support_text": "The suicide bomber detonated his explosive-laden vehicle in the middle of the playground where spectators were watching a volleyball match in the Shah Hasankhel village, about 25km off Lakki Marwat.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸摧毁了十几所房屋，损坏了另外30所，并在现场形成了一个八英尺深的弹坑。",
+      "support_text": "Over a dozen houses were destroyed in the blast, rendering the residents homeless. Another 30 houses were damaged. An eight-foot-deep crater was created at the site of the blast.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "星期六，当地居民从被毁房屋的废墟中又挖出了两具尸体，使死亡人数达到91人。",
+      "support_text": "The area people pulled two more bodies from the rubble of destroyed houses on Saturday. The death toll from Friday’s suicide attack on a crowded playground in Lakki Marwat reached 91 on Saturday.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "星期六，当地居民在Shah Hasan Khel村为受害者举行了葬礼祈祷。",
+      "support_text": "Local residents gather beside the bodies of the victims of Friday's suicide car bombing during a funeral prayer in Shah Hasan Khel village near Lakki Marwat on Saturday, Jan. 2, 2010.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Lakki Marwat警方针对身份不明的恐怖分子登记了一份第一信息报告（FIR）。",
+      "support_text": "Meanwhile, the Lakki Marwat police registered an FIR against unknown terrorists.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "消息来源报道了恐怖袭击事件中的伤亡情况，包括死亡和受伤人员的具体身份。",
+      "support_text": "The sources said that five Frontier Constabulary personnel and two policemen were among the dead while two personnel each of FC and police were wounded in the terrorist act.",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "The suicide bomber detonated his explosive-laden vehicle... Over a dozen houses were destroyed in the blast... An eight-foot-deep crater was created at the site of the blast."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "The death toll from Friday’s suicide attack on a crowded playground in Lakki Marwat reached 91 on Saturday."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "Local residents gather beside the bodies of the victims of Friday's suicide car bombing during a funeral prayer... on Saturday, Jan. 2, 2010."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "Meanwhile, the Lakki Marwat police registered an FIR against unknown terrorists."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_new_node_1",
+      "relation": "before",
+      "support_text": "Based on the temporal_order of the verb events (wound: 1, say: 2), the attack event (wound) happened before the reporting event (say)."
+    }
+  ]
+}

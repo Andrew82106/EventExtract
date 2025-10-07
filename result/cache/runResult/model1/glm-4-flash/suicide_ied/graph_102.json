@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_102_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "至少70人在巴格达的两次自杀式爆炸中丧生，爆炸针对一个什叶派为主的户外市场。",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生在巴格达的萨德城，至少161人受伤。",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "爆炸是由一辆装满炸药的摩托车和一个自杀式炸弹袭击者引起的，后者在人们聚集帮助第一爆炸的伤者时引爆。",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊斯兰国的媒体分支——哈亚特媒体中心——宣称对袭击负责，并表示将进行更多袭击。",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国是一支逊尼派军事伊斯兰组织，认为什叶派是异端。",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "上周，该组织宣称对大马士革一个什叶派郊区的一次类似袭击负责。",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "自2014年以来，该组织从叙利亚越过边境，迅速推进，控制了伊拉克北部和西部的大片土地，导致数千名伊拉克士兵溃逃。",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "自那时以来，伊拉克军队在美国领导的联盟的空中支援下进行反攻，收复了伊斯兰国控制的提克里特、辛贾尔和拉马迪等城市。",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "然而，该组织仍然在摩苏尔、费卢杰和邻近叙利亚拥有据点，并继续在什叶派社区进行自杀式炸弹袭击，通常在紧急服务和人群在初始爆炸现场形成后引爆后续爆炸。",
+      "source_text": "text_102"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_102_node_1",
+      "target": "text_102_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_102_node_2",
+      "target": "text_102_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_102_node_3",
+      "target": "text_102_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_102_node_4",
+      "target": "text_102_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_102_node_5",
+      "target": "text_102_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_102_node_6",
+      "target": "text_102_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_102_node_7",
+      "target": "text_102_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_102_node_8",
+      "target": "text_102_node_9",
+      "relation": "before"
+    }
+  ]
+}

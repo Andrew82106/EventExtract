@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_61_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "至少32人在伊斯坦布尔市中心的一次自杀式爆炸中受伤，其中五人伤势严重。",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生在塔克西姆广场，包括15名警察和17名平民受伤，其中五名重伤者均为警察。",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式爆炸袭击者当场死亡，其身上发现未爆炸或未使用的第二个装置。",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者试图进入一辆警察车时引爆了爆炸装置。",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "安全摄像头捕捉到事件，官员正在查看视频以获取更多信息。",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯坦布尔省长谴责此次袭击是“反人类罪行”，但未透露袭击者身份或动机。",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯坦布尔警察局长表示，疑似袭击者曾试图登上广场上的一辆警察巴士，但爆炸发生在其之前。",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔克西姆广场是商业区和主要交通枢纽，通常有大量警察巡逻。",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸发生时，伊斯坦布尔正在庆祝国家日，原定于周五的游行因天气原因推迟至周日。",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "有熟悉库尔德工人党（PKK）的分析人士认为该组织可能是幕后黑手，但PKK发言人否认知道此次爆炸。",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_11",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国谴责此次袭击，并表示将继续与土耳其合作打击暴力极端主义。",
+      "source_text": "text_61"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_61_node_1",
+      "target": "text_61_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_2",
+      "target": "text_61_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_3",
+      "target": "text_61_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_4",
+      "target": "text_61_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_5",
+      "target": "text_61_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_6",
+      "target": "text_61_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_7",
+      "target": "text_61_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_8",
+      "target": "text_61_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_9",
+      "target": "text_61_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_10",
+      "target": "text_61_node_11",
+      "relation": "before"
+    }
+  ]
+}

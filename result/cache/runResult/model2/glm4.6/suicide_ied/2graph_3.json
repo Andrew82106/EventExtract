@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴基斯坦首都发生了一起使用了史上最大量炸药且最为致命的恐怖袭击。",
+      "support_text": "Rehman Malik, a senior interior ministry official, said the attack used the largest amount of explosives ever seen in a terrorist strike in Pakistan. It was also the deadliest attack ever seen in the Pakistani capital.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "（隐含的）观察者目睹了这次袭击。",
+      "support_text": "Rehman Malik, a senior interior ministry official, said the attack used the largest amount of explosives ever seen in a terrorist strike in Pakistan. It was also the deadliest attack ever seen in the Pakistani capital.",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_new_node_1",
+      "relation": "before",
+      "support_text": "根据temporal_order，袭击（顺序1）发生在被观察到（顺序2）之前。"
+    }
+  ]
+}

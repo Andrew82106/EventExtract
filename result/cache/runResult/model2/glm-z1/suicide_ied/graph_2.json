@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴基斯坦Shah Hasan Khan村举行排球比赛期间发生自杀式爆炸",
+      "support_text": "a suicide bomb attack at a volleyball match in north-west Pakistan",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸造成88人死亡37人受伤，是两月以来最致命袭击",
+      "support_text": "at least 88 people have been killed and dozens more wounded",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "南瓦济斯坦部落区自10月以来因军事行动已致500余人死亡",
+      "support_text": "since the army launched an offensive... have killed more than 500 people since October",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地村民组成民兵成功驱逐极端分子",
+      "support_text": "Locals set up a militia and expelled the militants from this area",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸袭击者驾车进入比赛场地并引爆炸弹",
+      "support_text": "the bomber drove onto the field during the volleyball contest",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致20余间房屋倒塌，约10人被困废墟",
+      "support_text": "More than 20 nearby houses collapsed... some 10 or so people might have been trapped",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方承认此前宣称已完全控制该地区但实际存在安全漏洞",
+      "support_text": "Police and the army had previously claimed to have completely secured the region",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "最新血腥事件震动巴基斯坦",
+      "support_text": "最新血腥事件震动巴基斯坦",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "军事行动使武装分子分散",
+      "support_text": "军事行动使武装分子分散",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "军事行动引发报复性袭击",
+      "support_text": "军事行动引发报复性袭击",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "大量观众正在观看巴基斯坦Shah Hasan Khan村的排球比赛",
+      "support_text": "a lot of people were watching the volleyball match",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "at least 88 people have been killed"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "More than 20 nearby houses collapsed"
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "since the army launched an offensive... have killed more than 500 people since October"
+    },
+    {
+      "source": "text_2_node_4",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "This attack seems to be reaction to their expulsion"
+    },
+    {
+      "source": "text_2_node_5",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "the bomber drove onto the field during the volleyball contest"
+    },
+    {
+      "source": "text_2_node_7",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "Police and the army had previously claimed to have completely secured the region"
+    },
+    {
+      "source": "text_2_node_9",
+      "target": "text_2_node_10",
+      "relation": "before",
+      "support_text": "根据temporal_order 3 < 4"
+    },
+    {
+      "source": "text_2_new_node_11",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "观众观看比赛与爆炸袭击在时间上重叠（原句未明确时序需补充）"
+    }
+  ]
+}

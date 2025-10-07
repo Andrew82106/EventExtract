@@ -1,0 +1,291 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "第一名自杀式袭击者提着一个袋子进入Data Darbar神社大门。",
+      "support_text": "The CNN affiliate aired surveillance footage showing the first attacker entering through a gate holding a bag.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "第一名袭击者在触发金属探测器警报后，跑向净身区并引爆了炸弹背心。",
+      "support_text": "As he passed through a metal detector, alarms went off and the man ran toward an area used for ablutions and blew himself up.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "第二名袭击者在混乱中进入神社并跑上楼。",
+      "support_text": "Geo TV showed a second attacker entering amid the confusion a few minutes later and running upstairs carrying a bag.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "第二名袭击者在神社较低楼层引爆了他的炸弹背心。",
+      "support_text": "One of the bombs detonated in the shrine's courtyard; the other in the shrine's lower lever, according to Chaudhry Shafiq Ahmed, Lahore's senior police superintendent.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成50人死亡，超过200人受伤。",
+      "support_text": "The death toll climbed to 50 on Friday after a pair of suicide bombers detonated their explosive vests at one of Pakistan's holiest shrines, police said. More than 200 people were injured in the blasts outside the Data Darbar, a famous Sufi shrine complex.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名袭击者的遗骸被找到并识别。",
+      "support_text": "Geo TV reported that the heads of two bombers were recovered and identified.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总统发言人谴责了这次袭击，并发誓要将极端主义赶出国家。",
+      "support_text": "\"This sickening poison of extremism will be driven out of our nation and we will not be cowed,\" said Farahnaz Ispahani, a spokeswoman for President Asif Ali Zardari, in a text message to CNN.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "愤怒的巴基斯坦民众在拉合尔街头举行抗议。",
+      "support_text": "On Friday, angry Pakistanis, some wielding guns for revenge, took to the streets of Lahore in protest.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_9",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦人权委员会发表声明，对袭击表示震惊并呼吁对抗极端主义。",
+      "support_text": "The Human Rights Commission of Pakistan expressed alarm over the attacks and called on both the government and Muslim clerics to stand up to extremism.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_10",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "警方报道了死亡人数上升以及袭击者引爆爆炸背心的事件。",
+      "support_text": "The death toll climbed to 50 on Friday after a pair of suicide bombers detonated their explosive vests at one of Pakistan's holiest shrines, police said.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Geo TV报道了爆炸事件的顺序。",
+      "support_text": "Geo TV reported the sequence of explosions.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "CNN附属机构播放了监控录像。",
+      "support_text": "The CNN affiliate aired surveillance footage.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "视频显示了爆炸画面。",
+      "support_text": "The video showed the explosion.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "炸弹客步行到达了圣地。",
+      "support_text": "The bombers arrived at the shrine on foot.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "夹克被装满了滚珠轴承。",
+      "support_text": "Jackets were packed with ball bearings.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Geo TV称炸弹客穿着10公斤重的夹克。",
+      "support_text": "Geo TV said that the bombers wore 10kg jackets.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名目击者向Geo TV描述了一名炸弹客的衣着。",
+      "support_text": "A witness told Geo TV about a bomber's clothing.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_18",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "Geo TV播放了第二名袭击者进入的画面。",
+      "support_text": "Geo TV showed a second attacker entering.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "另一起袭击的目标是艾哈迈迪派。",
+      "support_text": "另一起袭击的目标是艾哈迈迪派。",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "The CNN affiliate aired surveillance footage showing the first attacker entering through a gate holding a bag. As he passed through a metal detector, alarms went off and the man ran toward an area used for ablutions and blew himself up."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_new_node_12",
+      "relation": "before",
+      "support_text": "The first attacker entered (node_1) before the CNN affiliate aired the footage (new_node_12)."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "Geo TV showed a second attacker entering amid the confusion a few minutes later and running upstairs carrying a bag."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "The first explosion, which occurred at 10:48 p.m. Thursday, was followed five minutes later by a second blast, Geo TV reported."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "Geo TV showed a second attacker entering amid the confusion a few minutes later and running upstairs carrying a bag. Then the video showed the explosion."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_new_node_18",
+      "relation": "before",
+      "support_text": "The second attacker entered (node_3) before Geo TV showed the footage (new_node_18)."
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "The death toll climbed to 50 on Friday after a pair of suicide bombers detonated their explosive vests at one of Pakistan's holiest shrines, police said."
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_new_node_13",
+      "relation": "before",
+      "support_text": "The second bomb detonated (node_4) before the video showed the explosion (new_node_13)."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "Geo TV reported that the heads of two bombers were recovered and identified."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_7",
+      "relation": "before",
+      "support_text": "\"Peaceful worshippers have once again been targeted by those who want to destroy the fabric of this great country. We will not forgive or forget and we will get justice for all Pakistanis murdered in cold blood -- be they Muslim, Christian, Ahmadi or of any other faith.\""
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_8",
+      "relation": "before",
+      "support_text": "On Friday, angry Pakistanis, some wielding guns for revenge, took to the streets of Lahore in protest."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_9",
+      "relation": "before",
+      "support_text": "The Human Rights Commission of Pakistan expressed alarm over the attacks and called on both the government and Muslim clerics to stand up to extremism."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_new_node_10",
+      "relation": "before",
+      "support_text": "The death toll climbed to 50 ... police said. (伤亡发生在警方报道之前)"
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_new_node_19",
+      "relation": "before",
+      "support_text": "在袭击造成伤亡（node_5）之后，才确定了袭击的目标群体。"
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_new_node_11",
+      "relation": "before",
+      "support_text": "Bombers were identified (node_6) before Geo TV reported the sequence (new_node_11)."
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_new_node_16",
+      "relation": "before",
+      "support_text": "Bombers were identified (node_6) before Geo TV said about the jackets (new_node_16)."
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_new_node_17",
+      "relation": "before",
+      "support_text": "Bombers were identified (node_6) after a witness gave a description (new_node_17), this relation could be 'before' or 'after' depending on context, assuming it's part of the identification process."
+    },
+    {
+      "source": "text_4_new_node_14",
+      "target": "text_4_node_1",
+      "relation": "before",
+      "support_text": "Bombers arrived (temporal_order: 2) before the first attacker entered (node_1)."
+    },
+    {
+      "source": "text_4_new_node_15",
+      "target": "text_4_new_node_14",
+      "relation": "before",
+      "support_text": "Jackets were packed (temporal_order: 1) before bombers arrived (temporal_order: 2)."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_122_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年10月23日清晨，自杀式炸弹袭击者驾驶一辆5吨卡车冲向贝鲁特的美国海军陆战队营房。",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡车在冲过铁丝网围栏和哨兵岗后，撞入陆战队营房，引爆了超过12,000磅TNT当量的炸弹。",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_3",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸造成241名美国军人死亡，其中包括220名海军陆战队员，这是海军陆战队自第二次世界大战以来最惨重的一天。",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "这次袭击导致美国撤出黎巴嫩，并使一些人认为美国在遭受袭击后会撤回。",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "贝鲁特袭击被视为美国与穆斯林激进主义和原教旨主义伊斯兰主义冲突的开端，取代了苏联共产主义成为美国的主要对手。",
+      "source_text": "text_122"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_122_node_1",
+      "target": "text_122_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_122_node_2",
+      "target": "text_122_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_122_node_3",
+      "target": "text_122_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_122_node_4",
+      "target": "text_122_node_5",
+      "relation": "before"
+    }
+  ]
+}

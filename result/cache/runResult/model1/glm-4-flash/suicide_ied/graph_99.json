@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_99_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Manchester Arena suicide attacker Salman Abedi walked city streets toting a bright blue suitcase hours before setting off a bomb.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_2",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "Greater Manchester Police released two photos and asked for the public's help in their investigation of the May 22 attack.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_3",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "Detective Chief Superintendent Russ Jackson asked the public if they saw Abedi with the suitcase between May 18 and May 22, 2017.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_4",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "Police stated they have no reason to believe the case and its contents contain anything dangerous but asked people to be cautious.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_5",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "Police said the attacker had the suitcase in at least two Manchester neighborhoods.",
+      "source_text": "text_99"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_99_node_1",
+      "target": "text_99_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_99_node_2",
+      "target": "text_99_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_99_node_3",
+      "target": "text_99_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_99_node_4",
+      "target": "text_99_node_5",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_107_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Al-Shabaab attackers disguised as security soldiers stormed the Ministry of Interior headquarters in Mogadishu after detonating a car bomb at the gate.",
+      "source_text": "text_107"
+    },
+    {
+      "id": "text_107_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "At least 20 people, including staff members of the two ministries, were killed in the attack while dozens sustained wounds.",
+      "source_text": "text_107"
+    },
+    {
+      "id": "text_107_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Somali government arrested 14 security officials over the attack following a security meeting in the capital.",
+      "source_text": "text_107"
+    },
+    {
+      "id": "text_107_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "The detained officers were in charge of the checkpoints near the attacked compound and were taken into custody for inquiry.",
+      "source_text": "text_107"
+    },
+    {
+      "id": "text_107_node_5",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "The security minister and police and intelligence chiefs attended a security meeting in the capital on Sunday regarding the attack.",
+      "source_text": "text_107"
+    },
+    {
+      "id": "text_107_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Shabaab attackers used ministry of security identity cards to pass through the security checkpoints and gain access to the building.",
+      "source_text": "text_107"
+    },
+    {
+      "id": "text_107_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "The spokesman of the ministry of security believed Al-Shabaab could not carry out the attack without internal help from Somali security agencies.",
+      "source_text": "text_107"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_107_node_1",
+      "target": "text_107_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_107_node_1",
+      "target": "text_107_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_107_node_2",
+      "target": "text_107_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_107_node_3",
+      "target": "text_107_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_107_node_3",
+      "target": "text_107_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_107_node_6",
+      "target": "text_107_node_7",
+      "relation": "before"
+    }
+  ]
+}

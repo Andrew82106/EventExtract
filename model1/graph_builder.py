@@ -81,7 +81,7 @@ class GraphBuilder:
             text = text[:3000] + "..."
         
         prompt = EXTRACT_EVENT_FLOW_PROMPT.format(text=text)
-        result = self.llm_service.call_api(prompt)
+        result = self.llm_service.call_api(prompt, use_advanced_model=True)
         
         if isinstance(result, dict) and 'events' in result:
             return result
@@ -101,7 +101,7 @@ class GraphBuilder:
             event_flow=json.dumps(event_flow, ensure_ascii=False, indent=2),
             event_ontology=self.event_ontology
         )
-        result = self.llm_service.call_api(prompt)
+        result = self.llm_service.call_api(prompt, use_advanced_model=True)
         
         if not isinstance(result, dict) or 'nodes' not in result or 'edges' not in result:
             return None

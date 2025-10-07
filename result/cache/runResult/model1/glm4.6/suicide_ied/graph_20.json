@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_20_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "1997年，哈马斯成员Tarak Zidan开始研究将氯气等化学制剂用于恐怖袭击。",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_2",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年，袭击者为此次袭击购买了4公斤氯气并打包备用。",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "2002年帕斯卡节期间，内坦亚的帕克酒店正为250名宾客举行传统的逾越节家宴。",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "3月27日晚，伪装成女性的自杀式炸弹袭击者携带装有炸药的箱子接近帕克酒店。",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "GrantAllowPassage",
+      "description": "袭击者成功通过了酒店入口的安保，并进入了拥挤的餐厅。",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "19时30分，袭击者在餐厅内引爆了爆炸装置。",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸当场导致28名平民死亡，约140人受伤，其中两人后因伤势过重不治身亡。",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "袭击中的73名伤者被送往附近的拉尼亚多医院接受治疗。",
+      "source_text": "text_20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_2",
+      "target": "text_20_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_3",
+      "target": "text_20_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_4",
+      "target": "text_20_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_5",
+      "target": "text_20_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_6",
+      "target": "text_20_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_7",
+      "target": "text_20_node_8",
+      "relation": "before"
+    }
+  ]
+}

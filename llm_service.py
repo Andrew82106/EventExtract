@@ -11,10 +11,11 @@ from time import sleep
 try:
     from zai import ZhipuAiClient
     USE_NEW_API = True
-except ImportError:
+except Exception as e:
     from zhipuai import ZhipuAI
     USE_NEW_API = False
     print("警告: 未安装新版智谱AI库(zai)，使用旧版(zhipuai)")
+    print(e)
 
 
 class LLMServiceOld:

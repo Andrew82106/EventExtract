@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_19_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "青年党撤离后，摩加迪沙曾迎来新的稳定希望。",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_2",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "过渡政府在非盟维和部队支持下名义上控制首都，部分区域被认为相对安全。",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "近几个月来，商人们已重返街头，城市恢复了久违的生机。",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "上午10点45分左右，一辆载有燃料桶的卡车驶向政府大院入口。",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "另一辆油罐车恰好从旁经过。",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸卡车司机选择此时引爆了炸药。",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "爆炸产生了巨大的火球，并震碎了数英里范围内的窗户。",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_8",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸将残骸和尸体抛洒到数个街区宽的区域。",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "索马里政府官员称没有高级官员在此次事件中受伤。",
+      "source_text": "text_19"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_19_node_1",
+      "target": "text_19_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_2",
+      "target": "text_19_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_3",
+      "target": "text_19_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_4",
+      "target": "text_19_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_5",
+      "target": "text_19_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_6",
+      "target": "text_19_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_6",
+      "target": "text_19_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_6",
+      "target": "text_19_node_9",
+      "relation": "before"
+    }
+  ]
+}

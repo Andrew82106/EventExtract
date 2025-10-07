@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    {
+      "id": "text_11_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "一天前，一次公交伏击事件打破了长达一个月的相对平静。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "在爆炸案发生前几小时，布什总统对驱逐阿拉法特表示谨慎乐观，同时有消息称阿拉法特考虑任命总理。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "一名妓女在爆炸前与一名自杀式炸弹袭击者交谈，但对方拒绝了她。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "该妓女试图报警但未能接通。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两名巴勒斯坦自杀式炸弹袭击者在特拉维夫一家电影院外同时引爆了炸弹，造成3人死亡，40人受伤。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "一名罗马尼亚目击者描述了爆炸后现场的惨状。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "同一天，一名以色列士兵和一名巴勒斯坦武装分子在约旦河西岸的冲突中丧生。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_8",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名巴勒斯坦人在试图渗透以色列时被杀。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_9",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名巴勒斯坦男孩在拉马拉因接触一枚爆炸物而死亡。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列直升机袭击了加沙的一个疑似炸弹工厂。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_11",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "一个在周二公交袭击中因母亲死亡而早产的婴儿于昨日夭折。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊斯兰圣战组织声称对特拉维夫爆炸案负责。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴勒斯坦权力机构谴责了此次袭击。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "以色列总理沙龙的发言人指责巴勒斯坦权力机构未采取行动阻止袭击。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "此次袭击给计划于次日举行的布什与阿拉伯国家外长的会议蒙上了阴影。",
+      "source_text": "text_11"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_11_node_1",
+      "target": "text_11_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_1",
+      "target": "text_11_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_2",
+      "target": "text_11_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_3",
+      "target": "text_11_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_4",
+      "target": "text_11_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_5",
+      "target": "text_11_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_5",
+      "target": "text_11_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_5",
+      "target": "text_11_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_5",
+      "target": "text_11_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_5",
+      "target": "text_11_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_5",
+      "target": "text_11_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_5",
+      "target": "text_11_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_5",
+      "target": "text_11_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_11_node_5",
+      "target": "text_11_node_15",
+      "relation": "before"
+    }
+  ]
+}

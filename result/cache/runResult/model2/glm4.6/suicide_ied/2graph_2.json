@@ -1,0 +1,468 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴格达发生三起爆炸，造成至少77人死亡，140多人受伤。",
+      "support_text": "At least 77 people were killed and more than 140 wounded by three bombings in Baghdad on Tuesday, extending the deadliest spate of attacks in the Iraqi capital so far this year and driving Shi’ite fighters into the streets to defend some areas.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣布对其中两起爆炸事件负责。",
+      "support_text": "Islamic State claimed a suicide bombing which killed 41 people and wounded more than 70 in the northern district of al-Shaab as well as a car bomb in nearby Sadr City that left at least 30 dead and 57 wounded, police and medical sources said.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克总理下令逮捕沙阿卜地区安全负责人。",
+      "support_text": "Prime Minister Haider al-Abadi ordered the arrest of the official in charge of al-Shaab’s security, his office said in a statement, without giving a reason.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "什叶派教士萨德尔指责政府失职，并部署其民兵上街保卫什叶派社区。",
+      "support_text": "Powerful cleric Moqtada al-Sadr blamed the government for failing to provide security and hundreds of militiamen loyal to him deployed in Sadr City and five other mainly Shi’ite areas where the worst of the recent violence has been centered.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "萨德尔派民兵在萨德尔城设立检查站，并抓获一名自杀式袭击者。",
+      "support_text": "Sadr’s fighters set up tents outside markets where women were searching female shoppers after initial investigations revealed that the bomber in al-Shaab was a woman... Sadr’s fighters also apprehended a suicide bomber in a crowded market there...",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "萨德尔派民兵拒绝将抓获的袭击者移交给政府安全部队。",
+      "support_text": "Sadr’s fighters also apprehended a suicide bomber in a crowded market there, but refused to hand him over to the security forces, according to militia and police sources.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克警方在萨德尔城成功拆除了另一枚汽车炸弹。",
+      "support_text": "Police sources said they had defused another car bomb near a popular restaurant in Sadr City.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国控制着伊拉克北部和西部地区。",
+      "support_text": "伊斯兰国控制着伊拉克北部和西部地区。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐惧正在加剧。",
+      "support_text": "恐惧正在加剧。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴格达可能重新陷入十年前的大屠杀状态。",
+      "support_text": "巴格达可能重新陷入十年前的大屠杀状态。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "这一情况给阿巴迪施加了巨大压力。",
+      "support_text": "这一情况给阿巴迪施加了巨大压力。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_5",
+      "event_type": "Life",
+      "event_subtype": "Illness",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿巴迪正在努力挣扎。",
+      "support_text": "阿巴迪正在努力挣扎。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿巴迪试图解决一场政治危机。",
+      "support_text": "阿巴迪试图解决一场政治危机。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿巴迪面临着失去对巴格达部分地区控制权的风险。",
+      "support_text": "阿巴迪面临着失去对巴格达部分地区控制权的风险。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿巴迪可能会失去对巴格达部分地区的控制权。",
+      "support_text": "阿巴迪可能会失去对巴格达部分地区的控制权。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克军方对伊斯兰国发动反攻。",
+      "support_text": "伊拉克军方正在发动一场反攻。伊拉克军方对伊斯兰国发动反攻（攻击）。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿巴迪表示，一场政治危机正在阻碍打击伊斯兰国的行动并为民众遭受更多袭击创造空间。",
+      "support_text": "Abadi said a political crisis in Baghdad... is hampering the fight against Islamic State and creating space for more insurgent attacks on the civilian population.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿巴迪试图改组内阁以打击腐败的企图引发了一场政治危机。",
+      "support_text": "his attempt to reshuffle the cabinet in a drive to tackle graft has sparked a political crisis in Baghdad.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿巴迪试图改组内阁。",
+      "support_text": "his attempt to reshuffle the cabinet...",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿巴迪试图打击腐败。",
+      "support_text": "...in a drive to tackle graft...",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴格达的政治危机正在阻碍打击伊斯兰国的行动。",
+      "support_text": "...a political crisis in Baghdad... is hampering the fight against Islamic State...",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴格达的政治危机正在为民众遭受更多叛乱袭击创造空间。",
+      "support_text": "...a political crisis in Baghdad... is creating space for more insurgent attacks on the civilian population.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸事件有给权力斗争增加一个危险新元素的风险。",
+      "support_text": "The bombings risk adding a dangerous new element to a power struggle.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府保护你们",
+      "support_text": "政府保护你们",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府为你们提供安全",
+      "support_text": "政府为你们提供安全",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "萨德尔将爆炸事件称为‘最清晰的证据’",
+      "support_text": "萨德尔将爆炸事件称为‘最清晰的证据’",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_20",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "战士们乘坐着装有重机枪的皮卡车。",
+      "support_text": "Camouflaged fighters from his Peace Brigades rode in pickups mounted with machine guns.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_21",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名路透社目击者称，战士们在数量上远超政府安全部队，并且后者只在主要入口处维持存在。",
+      "support_text": "A Reuters witness said they heavily outnumbered government security forces, which maintained a presence only at the main entrances to the neighborhoods.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府安全部队只在社区的主要入口处维持存在。",
+      "support_text": "government security forces maintained a presence only at the main entrances to the neighborhoods.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "初步调查揭示了al-Shaab的炸弹袭击者是一名女性。",
+      "support_text": "Sadr’s fighters set up tents outside markets where women were searching female shoppers after initial investigations revealed that the bomber in al-Shaab was a woman...",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_24",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴格达作战指挥部的一名发言人向国家电视台通报了袭击者引爆炸弹的事件。",
+      "support_text": "巴格达作战指挥部的一名发言人向国家电视台通报了袭击者引爆炸弹的事件。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_25",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "支持者在线上分发了一份声明。",
+      "support_text": "支持者在线上分发了一份声明。",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "At least 77 people were killed and more than 140 wounded by three bombings in Baghdad on Tuesday... Islamic State claimed a suicide bombing which killed 41 people and wounded more than 70 in the northern district of al-Shaab as well as a car bomb in nearby Sadr City..."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "At least 77 people were killed and more than 140 wounded by three bombings in Baghdad on Tuesday... Prime Minister Haider al-Abadi ordered the arrest of the official in charge of al-Shaab’s security..."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "At least 77 people were killed and more than 140 wounded by three bombings in Baghdad on Tuesday... and driving Shi’ite fighters into the streets to defend some areas. Powerful cleric Moqtada al-Sadr blamed the government for failing to provide security and hundreds of militiamen loyal to him deployed..."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_7",
+      "relation": "before",
+      "support_text": "Police sources said they had defused another car bomb near a popular restaurant in Sadr City."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_new_node_2",
+      "relation": "before",
+      "support_text": "根据temporal_order: set_off(1) -> grow(2)"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_new_node_16",
+      "relation": "before",
+      "support_text": "爆炸事件（node_1）是产生政治风险（new_node_16）的原因。"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_new_node_24",
+      "relation": "before",
+      "support_text": "爆炸事件发生后，巴格达作战指挥部向国家电视台通报了情况。"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_new_node_25",
+      "relation": "before",
+      "support_text": "根据temporal_order，target事件(1)发生在distribute事件(3)之前。"
+    },
+    {
+      "source": "text_2_node_4",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "hundreds of militiamen loyal to him deployed in Sadr City... Sadr’s fighters set up tents outside markets... Sadr’s fighters also apprehended a suicide bomber in a crowded market there..."
+    },
+    {
+      "source": "text_2_node_5",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "Sadr’s fighters also apprehended a suicide bomber in a crowded market there, but refused to hand him over to the security forces..."
+    },
+    {
+      "source": "text_2_new_node_2",
+      "target": "text_2_new_node_3",
+      "relation": "before",
+      "support_text": "根据temporal_order: grow(2) -> relapse(3)"
+    },
+    {
+      "source": "text_2_new_node_3",
+      "target": "text_2_new_node_4",
+      "relation": "before",
+      "support_text": "根据temporal_order: relapse(3) -> crank up(4)"
+    },
+    {
+      "source": "text_2_new_node_4",
+      "target": "text_2_new_node_5",
+      "relation": "before",
+      "support_text": "根据temporal_order: crank up(4) -> struggle(5)"
+    },
+    {
+      "source": "text_2_new_node_4",
+      "target": "text_2_new_node_6",
+      "relation": "before",
+      "support_text": "根据temporal_order: crank up(4) -> solve(5)"
+    },
+    {
+      "source": "text_2_new_node_5",
+      "target": "text_2_new_node_7",
+      "relation": "before",
+      "support_text": "根据temporal_order: struggle(5) -> risk(6)"
+    },
+    {
+      "source": "text_2_new_node_6",
+      "target": "text_2_new_node_7",
+      "relation": "before",
+      "support_text": "根据temporal_order: solve(5) -> risk(6)"
+    },
+    {
+      "source": "text_2_new_node_7",
+      "target": "text_2_new_node_8",
+      "relation": "before",
+      "support_text": "根据temporal_order: risk(6) -> lose(6)，且lose是risk的可能结果"
+    },
+    {
+      "source": "text_2_new_node_11",
+      "target": "text_2_new_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order: spark(2) -> hamper(3)"
+    },
+    {
+      "source": "text_2_new_node_11",
+      "target": "text_2_new_node_15",
+      "relation": "before",
+      "support_text": "根据temporal_order: spark(2) -> create(3)"
+    },
+    {
+      "source": "text_2_new_node_12",
+      "target": "text_2_new_node_11",
+      "relation": "before",
+      "support_text": "根据temporal_order: reshuffle(1) -> spark(2)"
+    },
+    {
+      "source": "text_2_new_node_13",
+      "target": "text_2_new_node_11",
+      "relation": "before",
+      "support_text": "根据temporal_order: tackle(1) -> spark(2)"
+    },
+    {
+      "source": "text_2_new_node_14",
+      "target": "text_2_new_node_10",
+      "relation": "before",
+      "support_text": "根据temporal_order: hamper(3) -> say(5)，且hamper是say的内容"
+    },
+    {
+      "source": "text_2_new_node_15",
+      "target": "text_2_new_node_10",
+      "relation": "before",
+      "support_text": "根据temporal_order: create(3) -> say(5)，且create是say的内容"
+    },
+    {
+      "source": "text_2_new_node_16",
+      "target": "text_2_new_node_11",
+      "relation": "before",
+      "support_text": "根据temporal_order: risk(2)/add(3) -> flounder(5)。爆炸增加的危险元素加剧了政治斗争，导致组建政府的尝试（new_node_11）陷入困境。"
+    },
+    {
+      "source": "text_2_new_node_17",
+      "target": "text_2_new_node_19",
+      "relation": "before",
+      "support_text": "根据temporal_order: protect(2) -> call(3)"
+    },
+    {
+      "source": "text_2_new_node_18",
+      "target": "text_2_new_node_19",
+      "relation": "before",
+      "support_text": "根据temporal_order: provide(2) -> call(3)"
+    },
+    {
+      "source": "text_2_new_node_20",
+      "target": "text_2_new_node_22",
+      "relation": "before",
+      "support_text": "根据temporal_order: ride(2) -> maintain(5)"
+    },
+    {
+      "source": "text_2_new_node_22",
+      "target": "text_2_new_node_21",
+      "relation": "before",
+      "support_text": "根据temporal_order: maintain(5) -> say(6)"
+    },
+    {
+      "source": "text_2_new_node_23",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "Sadr’s fighters set up tents... after initial investigations revealed that the bomber in al-Shaab was a woman..."
+    }
+  ]
+}

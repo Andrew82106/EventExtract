@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "全国范围内发生八起连环爆炸，袭击了三座教堂、三家酒店及其他地点。",
+      "support_text": "A total of eight explosions occurred across the country since last morning (21) in which 207 were killed and over 450 sustained injuries. Explosions were reported in St. Anthony’s Church in Kotahena, Katuwapitiya Church in Katana, Zion Church in Batticaloa and Shangri-La, Cinnamon Grand and Kingsbury hotels in Colombo, a reception hall near the Zoological Garden in Dehiwala and at Maha Wila Gardens housing scheme in Dematagoda.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方针对爆炸事件展开调查。",
+      "support_text": "Police launched investigations into the explosions",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府分析师部门确认袭击由自杀式炸弹袭击者实施。",
+      "support_text": "The Government Analyst’s Department has confirmed that the attack on the three churches and the hotels in Colombo had been carried out by suicide bombers.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方逮捕了24名与该系列事件有关的嫌疑人。",
+      "support_text": "and had arrested 24 suspects in connection with the series of tragic events.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "207人在爆炸中丧生。",
+      "support_text": "A total of eight explosions occurred across the country since last morning (21) in which 207 were killed and over 450 sustained injuries.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_6",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "超过450人受伤。",
+      "support_text": "A total of eight explosions occurred across the country since last morning (21) in which 207 were killed and over 450 sustained injuries.",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "Police launched investigations into the explosions and had arrested 24 suspects in connection with the series of tragic events."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "The Government Analyst’s Department has confirmed that the attack ... had been carried out by suicide bombers."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_new_node_5",
+      "relation": "before",
+      "support_text": "A total of eight explosions occurred... in which 207 were killed..."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_new_node_6",
+      "relation": "before",
+      "support_text": "A total of eight explosions occurred... and over 450 sustained injuries."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "Police launched investigations into the explosions and had arrested 24 suspects in connection with the series of tragic events."
+    }
+  ]
+}

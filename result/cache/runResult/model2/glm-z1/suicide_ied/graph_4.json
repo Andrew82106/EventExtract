@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年10月23日，伊朗支持的黎巴嫩真主党对位于贝鲁特的美军海军陆战队营地发动自杀式卡车炸弹袭击，造成241名美国军人死亡",
+      "support_text": "October 23, 1983 suicide truck bombing of a U.S. Marine barracks in Beirut, Lebanon, that killed 241 American servicemen",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年，241名幸存者及遇难者家属分别提起两起民事诉讼，指控伊朗对袭击负责",
+      "support_text": "Two separate suits were filed in 2001; Lamberth considered the two together",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年法院向伊朗送达诉讼文件但未获回应，依法对伊朗作出缺席判决",
+      "support_text": "Iran was served with the lawsuits in 2002 but failed to file any responses, Lamberth wrote that the court entered default judgments against the defendants",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年通过 bench trial 确认真主党在1983年完全受伊朗政府操控，并得到情报部门直接协助实施袭击",
+      "support_text": "From the subsequent bench trial, Lamberth concluded that Hezbollah was formed under the auspices of the Iranian government and assisted Iranian Ministry of Information and Security agents",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院认定美军在黎巴嫩执行的是严格限制武力使用的维和任务，排除战斗状态抗辩",
+      "support_text": "Lamberth said the bulk of the evidence pointed clearly to a peacekeeping mission operating on stringent peacetime rules of engagement",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院判定伊朗需支付 compensatory damages 赔偿，但将 punitive damages 的裁决暂缓考虑",
+      "support_text": "Lamberth ordered that the court will determine compensatory damages after reviewing reports submitted by special masters",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "援引1996年《反恐怖主义法》，确立美国公民可起诉被国务院列为恐怖主义支持国的行为",
+      "support_text": "The lawsuit was filed under a 1996 U.S. law that allows Americans to sue nations that the State Department considers sponsors of terrorism",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hezbollah持续18年对抗以色列对黎巴嫩南部的占领",
+      "support_text": "Hezbollah持续18年对抗以色列对黎巴嫩南部的占领",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "海军陆战队在任务中参与战斗",
+      "support_text": "海军陆战队在任务中参与战斗",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_7",
+      "relation": "before",
+      "support_text": "October 23, 1983 suicide truck bombing"
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_8",
+      "relation": "before",
+      "support_text": "1983年10月23日黎巴嫩真主党袭击美军营地事件是持续18年对抗的开端"
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_9",
+      "relation": "before",
+      "support_text": "1983年10月23日黎巴嫩真主党袭击美军营地事件是持续18年对抗的开端"
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "Two separate suits were filed in 2001"
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "From the subsequent bench trial"
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "Lamberth said the bulk of the evidence pointed clearly to a peacekeeping mission"
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "Lamberth ordered that the court will determine compensatory damages"
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "As pointed out during trial, the Marines were more restricted in their use of force"
+    },
+    {
+      "source": "text_4_node_7",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "The lawsuit was filed under a 1996 U.S. law"
+    }
+  ]
+}

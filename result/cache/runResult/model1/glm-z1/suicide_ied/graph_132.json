@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "id": "text_132_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国附属组织宣称对也门南部穆卡alla市袭击负责，造成至少43人死亡、多人受伤",
+      "source_text": "text_132"
+    },
+    {
+      "id": "text_132_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府与胡塞武装计划暂停也门更大冲突的谈判，因两个月科威特谈判陷入僵局",
+      "source_text": "text_132"
+    },
+    {
+      "id": "text_132_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式炸弹袭击和武装分子行动导致至少七次同时袭击，目标包括情报办公室、军营和检查站",
+      "source_text": "text_132"
+    },
+    {
+      "id": "text_132_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "武装分子将炸弹藏在士兵的食品箱中，袭击检查站以打破斋月禁食",
+      "source_text": "text_132"
+    },
+    {
+      "id": "text_132_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "另一组武装分子冲击警察局，引发全城枪战和救护车响应",
+      "source_text": "text_132"
+    },
+    {
+      "id": "text_132_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国附属组织发布网络声明，声称对四起自杀式爆炸负责",
+      "source_text": "text_132"
+    },
+    {
+      "id": "text_132_node_7",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员确认袭击导致另外10人受伤，死亡人数可能上升",
+      "source_text": "text_132"
+    },
+    {
+      "id": "text_132_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "胡塞武装与政府代表在科威特起草联合声明，宣布暂停谈判至7月中旬",
+      "source_text": "text_132"
+    },
+    {
+      "id": "text_132_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "联合国秘书长访问科威特，呼吁释放囚犯并推动和平协议",
+      "source_text": "text_132"
+    },
+    {
+      "id": "text_132_node_10",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "政府要求胡塞武装撤出城市并交出武器，胡塞要求成立联合政府",
+      "source_text": "text_132"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_132_node_1",
+      "target": "text_132_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_132_node_2",
+      "target": "text_132_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_132_node_3",
+      "target": "text_132_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_132_node_4",
+      "target": "text_132_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_132_node_5",
+      "target": "text_132_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_132_node_8",
+      "target": "text_132_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_132_node_8",
+      "target": "text_132_node_9",
+      "relation": "before"
+    }
+  ]
+}

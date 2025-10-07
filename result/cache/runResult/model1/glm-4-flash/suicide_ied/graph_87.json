@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_87_node_1",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Zarqawi's group announces allegiance to Osama Bin Laden and pledges to follow his orders in jihad.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_2",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Almost a year of talks take place between Zarqawi and al-Qaeda members to integrate Zarqawi's group into the World Islamic Front Against Crusaders and Jews.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_3",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bin Laden publicly welcomes Zarqawi into the World Front, emphasizing that Zarqawi will not be under his direct command.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_4",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bin Laden praises Zarqawi's daring operations against the Americans and the Iraqi interim government.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_5",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Zarqawi's group changes its name from Jama’at al-Tawhid wal-Jihad to Qa’idat al-Jihad Bilad al-Rafidayn (The al-Qaeda Organization for Jihad in the Land of the Two Rivers) while maintaining autonomy in Iraq.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_6",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "The talks between Zarqawi and al-Qaeda focus on ensuring Zarqawi's group adheres to the regulations governing al-Qaeda's coalition partners, including anti-U.S. actions and avoiding worsening intra-Islamic disputes.",
+      "source_text": "text_87"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_87_node_1",
+      "target": "text_87_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_87_node_2",
+      "target": "text_87_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_87_node_3",
+      "target": "text_87_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_87_node_4",
+      "target": "text_87_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_87_node_5",
+      "target": "text_87_node_6",
+      "relation": "before"
+    }
+  ]
+}

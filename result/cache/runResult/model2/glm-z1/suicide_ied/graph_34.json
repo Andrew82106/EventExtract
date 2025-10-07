@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "id": "text_34_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "3月27日自杀式爆炸袭击发生在Gulshan-e-Iqbal公园，造成72人死亡（含29名儿童）、370人受伤",
+      "support_text": "Anguished families in Lahore spent Easter Monday burying their dead as the toll from Sunday’s suicide bomb attack on Gulshan-e-Iqbal park rose to 72, including 29 children. Around 370 more were injured Sunday when explosives packed with ball-bearings ripped through the crowds near a children’s play area in the park, where many had gathered to celebrate Easter.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "3月28日72名死者中58人经尸检辨认并移交家属安葬，172人因重伤住院治疗",
+      "support_text": "Of the 63 bodies brought to the mortuary at Mayo Hospital, 58 were identified on Monday and handed over to their families for burial after post-mortem examinations.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方立案调查并确认袭击者 Muhammad Yusaf，其卡片在爆炸现场被发现",
+      "support_text": "Authorities registered the FIR for Sunday’s attack.The report was lodged against four unidentified suspects on the complaint of Allama Iqbal Town SHO Nasrullah Khan. It added that the attacker and his three accomplices were stopped at the entrance by a security guard. The attacker managed to sneak into the park while the guard was distracted by his accomplices.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "反恐部门根据线索在Muzaffargarh和Ichhra搜查，拘留嫌疑人亲属并没收涉案物品",
+      "support_text": "Separately, a counter-terrorism department (CTD) team raided the house in Muzaffargarh which was listed on a CNIC card recovered from the blast site. Officials detained two relatives of the card holder from the house for questioning. The card had belonged to Muhammad Yusaf, who is believed to be the bomber. A separate team raided a location in Ichhra, a temporary residence mentioned on the card, and seized belongings of the suspected bomber including a laptop.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉合尔主要商业区、公园及Spring Festival活动因袭击关闭",
+      "support_text": "Most major markets and recreational places in Lahore remained closed on Monday as the city mourned Sunday’s attack. The Parks and Horticulture Authority (PHA) cancelled all its events including the ongoing Spring Festival. All public parks kept by the authority also remained closed on Monday.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_6",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": " PTI主席Imran谴责袭击，呼吁按国家反恐计划追捕恐怖分子",
+      "support_text": "Pakistan Tehreek-e-Insaf (PTI) chairman Imran also visited the injured as he called for hunting down terrorists across all provinces under the National Action Plan (NAP). 'After the APS attack there was a consensus over the National Action Plan' he said. 'It is time to go after terrorists under the NAP, whether they are in Khyber Pakhtunkhwa, Punjab, Sindh or Balochistan,' he told media as he condemned the attack.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府官员Khan访问医院受阻，媒体和党工作人员试图进入伤者病房",
+      "support_text": "Khan, who arrived in the city on Monday afternoon, went to Jinnah Hospital -- which is treating the largest number of injured from Sunday’s attack. But his visit was marred by chaos as party workers and media men tried to force their way into the ward.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "基督徒成为袭击目标",
+      "support_text": "基督徒成为袭击目标",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员声明基督教徒死亡人数",
+      "support_text": "官员声明基督教徒死亡人数",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "14名死者身份确认为基督徒",
+      "support_text": "14名死者身份确认为基督徒",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "尚未确认五具尸体的身份",
+      "support_text": "尚未确认五具尸体的身份",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "PTI主席Imran发表关于国家行动计划共识的声明",
+      "support_text": "After the APS attack there was a consensus over the National Action Plan' he said.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "PTI主席Imran向媒体传达信息",
+      "support_text": "It is time to go after terrorists under the NAP, whether they are in Khyber Pakhtunkhwa, Punjab, Sindh or Balochistan,' he told media as he condemned the attack.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府要求去政治化军队",
+      "support_text": "政府要求去政治化军队",
+      "source_text": "text_34"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_2",
+      "relation": "before",
+      "support_text": "Of the 63 bodies brought to the mortuary at Mayo Hospital, 58 were identified on Monday and handed over to their families for burial after post-mortem examinations."
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_3",
+      "relation": "before",
+      "support_text": "Authorities registered the FIR for Sunday’s attack.The report was lodged against four unidentified suspects on the complaint of Allama Iqbal Town SHO Nasrullah Khan."
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_5",
+      "relation": "before",
+      "support_text": "Most major markets and recreational places in Lahore remained closed on Monday as the city mourned Sunday’s attack."
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_6",
+      "relation": "before",
+      "support_text": "Pakistan Tehreek-e-Insaf (PTI) chairman Imran also visited the injured as he called for hunting down terrorists across all provinces under the National Action Plan (NAP)."
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_8",
+      "relation": "before",
+      "support_text": "基督徒成为袭击目标"
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_12",
+      "relation": "before",
+      "support_text": "Pakistan Tehreek-e-Insaf (PTI) chairman Imran also visited the injured as he called for hunting down terrorists across all provinces under the National Action Plan (NAP)."
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_14",
+      "relation": "before",
+      "support_text": "政府要求去政治化军队"
+    },
+    {
+      "source": "text_34_node_2",
+      "target": "text_34_node_9",
+      "relation": "before",
+      "support_text": "官员声明基督教徒死亡人数"
+    },
+    {
+      "source": "text_34_node_3",
+      "target": "text_34_node_4",
+      "relation": "before",
+      "support_text": "Separately, a counter-terrorism department (CTD) team raided the house in Muzaffargarh which was listed on a CNIC card recovered from the blast site."
+    },
+    {
+      "source": "text_34_node_6",
+      "target": "text_34_node_7",
+      "relation": "before",
+      "support_text": "Khan, who arrived in the city on Monday afternoon, went to Jinnah Hospital -- which is treating the largest number of injured from Sunday’s attack."
+    },
+    {
+      "source": "text_34_node_8",
+      "target": "text_34_node_10",
+      "relation": "before",
+      "support_text": "14名死者身份确认为基督徒"
+    },
+    {
+      "source": "text_34_node_10",
+      "target": "text_34_node_11",
+      "relation": "before",
+      "support_text": "尚未确认五具尸体的身份"
+    },
+    {
+      "source": "text_34_node_12",
+      "target": "text_34_node_13",
+      "relation": "before",
+      "support_text": "It is time to go after terrorists under the NAP, whether they are in Khyber Pakhtunkhwa, Punjab, Sindh or Balochistan,' he told media as he condemned the attack."
+    }
+  ]
+}

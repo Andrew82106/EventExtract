@@ -1,0 +1,399 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生前四天，当地复兴党的防御部队撤走了武器，尽管已知有迫在眉睫的威胁。",
+      "support_text": "",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击者首先攻击了苏韦达市的防御阵地，并在弹药耗尽后引爆了自杀式炸弹背心。",
+      "support_text": "The attackers began by assaulting defensive positions in the city. When they depleted their ammunition, they detonated their explosive vests.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIL武装分子协同袭击了周边地区和四个村庄，屠杀家庭并劫持了人质。",
+      "support_text": "Groups of militants also attacked areas in the Al-Mushannaf nahiyah in a coordinated assault and four villages ( Al-Sbeky , Ramy , Ghethet-Hamael and Tarbeh ), gaining temporary control of several settlements, slaughtered families in their houses and seizing hostages.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地民众和德鲁兹民兵自发组织起来，在政府军未到场的情况下夺回了村庄。",
+      "support_text": "Local people gathered and defended their villages with simple weapons and retook the villages without support of governmental forces .",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "苏韦达省会的蔬菜市场发生自杀式爆炸，造成大量人员伤亡。",
+      "support_text": "A suicide bombing in a vegetable market in the capital of the province, Al Suwayda, resulted in at least 38 casualties.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "当晚省长宣布城市安全，叙利亚空军对ISIL控制的村庄发动了空袭。",
+      "support_text": "As-Suwayda Governor Amer al-Eshi reported that the city had been secured by evening. The state-run television station, Ikhbariyah TV, reported that the Syrian Air Force has launched a bombing campaign on ISIS-held villages of al-Matouna, Duma, and Tima.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIL威胁称，如果叙利亚军队不停止在耶尔穆克盆地的攻势，将处决被俘的德鲁兹妇女。",
+      "support_text": "ISIL had threatened to execute the captured Druze women if the Syrian army didn't stop their offensive against ISIL in the Yarmouk basin in western Daraa province.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "7月31日，叙利亚军队为换取释放被俘的德鲁兹妇女，从耶尔穆克盆地撤离了数百名ISIL战斗人员。",
+      "support_text": "On the 31st of July 2018, in exchange for the release of the Druze women captured by ISIL in the raid in eastern Suweida, the Syrian Army evacuated hundreds of ISIL fighters from the Yarmouk basin in western Daraa to their strongholds in the Badiya region in eastern Syria Desert.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_10",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚政府提出用俘虏交换ISIL战斗人员，但ISIL拒绝并要求支付大笔赎金。",
+      "support_text": "Afterwards, the Syrian government offered a deal to ISIL, that the 30+ captured Druze civilians will be swapped in the prisoner exchange for over 200 ISIL fighters of Jaysh Khaled bin Walid who surrendered ...",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "8月2日，为向政府施压，ISIL处决了一名被俘的德鲁兹男性并公布了视频。",
+      "support_text": "ISIL executed all the Druze men they've captured. ISIL executed several Syrian army soldiers and NDF members captured during the raid, posting videos of their executions on the Internet.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "作为回应，叙利亚军队威胁称，若不释放人质，将摧毁巴迪亚地区的ISIL。",
+      "support_text": "",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队击毙了另外两名袭击者。",
+      "support_text": "security forces killing two other attackers",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队在医院内逮捕了另一名袭击者。",
+      "support_text": "and arresting another",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚阿拉伯通讯社报道了在苏韦达发生的多起袭击及相关后续事件。",
+      "support_text": "The Syrian Arab News Agency reported two separate suicide attacks in Suweida, with security forces killing two other attackers... and arresting another...",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "谢赫·阿布·穆阿尼斯·纳比尔·赛穆阿在战斗过程中被杀。",
+      "support_text": "谢赫·阿布·穆阿尼斯·纳比尔·赛穆阿在战斗过程中被杀。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "基督教SSNP也援助了当地的亲政府防御者。",
+      "support_text": "基督教SSNP也援助了当地的亲政府防御者。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚军在战斗结束两天后抵达该地区。",
+      "support_text": "叙利亚军在战斗结束两天后抵达该地区。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "愤怒的当地德鲁兹人公开绞死了三名被俘的ISIL战斗人员。",
+      "support_text": "愤怒的当地德鲁兹人公开绞死了三名被俘的ISIL战斗人员。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "苏韦达卫生部门负责人告诉亲大马士革的沙姆FM电台初步的伤亡人数。",
+      "support_text": "苏韦达卫生部门负责人告诉亲大马士革的沙姆FM电台初步的伤亡人数。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "卫生部门主任更新了死亡和受伤的人数。",
+      "support_text": "卫生部门主任更新了死亡和受伤的人数。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_10",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "卫生部门主任说有215人死亡，180人受伤。",
+      "support_text": "卫生部门主任说有215人死亡，180人受伤。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "被绑架的德鲁兹妇女和儿童被ISIL战斗员带到他们在沙漠中的据点。",
+      "support_text": "被绑架的德鲁兹妇女和儿童被ISIL战斗员带到他们在沙漠中的据点。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "一些被绑架的德鲁兹妇女和儿童设法逃脱了。",
+      "support_text": "一些被绑架的德鲁兹妇女和儿童设法逃脱了。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_13",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "几名被绑架的德鲁兹妇女和儿童在囚禁中死亡。",
+      "support_text": "几名被绑架的德鲁兹妇女和儿童在囚禁中死亡。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_report_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "苏韦达省省长阿梅尔·埃希报道了该市已被确保安全的消息。",
+      "support_text": "As-Suwayda Governor Amer al-Eshi reported that the city had been secured by evening.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_report_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "国家电视台伊赫巴里亚电视台报道了叙利亚空军已发动了一场轰炸行动。",
+      "support_text": "The state-run television station, Ikhbariyah TV, reported that the Syrian Air Force has launched a bombing campaign on ISIS-held villages of al-Matouna, Duma, and Tima.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚军队拒绝支付赎金。",
+      "support_text": "叙利亚军队拒绝支付赎金。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_attack_significance",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "这次袭击再次揭示了伊斯兰国的真实面目，并清楚地表明该恐怖组织必须尽快被摧毁。",
+      "support_text": "YPG在声明中谴责了这些袭击，并呼吁对伊斯兰国采取进一步行动，称这次袭击再次揭示了伊斯兰国的真实面目，并清楚地表明该恐怖组织必须尽快被摧毁。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_YPG_statement",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "YPG在声明中谴责了这些袭击，并呼吁对伊斯兰国采取进一步行动。",
+      "support_text": "YPG在声明中谴责了这些袭击，并呼吁对伊斯兰国采取进一步行动，称这次袭击再次揭示了伊斯兰国的真实面目，并清楚地表明该恐怖组织必须尽快被摧毁。",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "The attackers began by assaulting defensive positions in the city... Groups of militants also attacked areas in the Al-Mushannaf nahiyah in a coordinated assault..."
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_2",
+      "relation": "before",
+      "support_text": "袭击者引爆自己后，安全部队逮捕了另一名袭击者。"
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "Groups of militants also attacked... gaining temporary control of several settlements, slaughtered families... Local people gathered and defended their villages with simple weapons and retook the villages..."
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_new_node_4",
+      "relation": "before",
+      "support_text": "在ISIL袭击村庄的战斗过程中，谢赫·阿布·穆阿尼斯·纳比尔·赛穆阿被杀。"
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_new_node_5",
+      "relation": "before",
+      "support_text": "作为对ISIL袭击的回应，基督教SSNP援助了当地的亲政府防御者。"
+    },
+    {
+      "source": "text_1_node_4",
+      "target": "text_1_new_node_6",
+      "relation": "before",
+      "support_text": "当地民众夺回村庄后，叙利亚军才抵达该地区。"
+    },
+    {
+      "source": "text_1_node_4",
+      "target": "text_1_new_node_7",
+      "relation": "before",
+      "support_text": "当地民众夺回村庄后，愤怒的德鲁兹人绞死了被俘的ISIL战斗人员。"
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_node_7",
+      "relation": "before",
+      "support_text": "A suicide bombing in a vegetable market... resulted in at least 38 casualties. As-Suwayda Governor Amer al-Eshi reported that the city had been secured by evening."
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_new_node_8",
+      "relation": "before",
+      "support_text": "蔬菜市场发生爆炸后，卫生部门负责人公布了初步伤亡数字。"
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_new_node_attack_significance",
+      "relation": "before",
+      "support_text": "袭击发生后，其意义和启示才随之产生。蔬菜市场爆炸（node_5）是袭击的一部分，而“揭示”和“表明”是对该袭击事件的后续认知。"
+    },
+    {
+      "source": "text_1_node_8",
+      "target": "text_1_node_9",
+      "relation": "before",
+      "support_text": "ISIL had threatened to execute the captured Druze women if the Syrian army didn't stop their offensive... On the 31st of July 2018, in exchange for the release of the Druze women... the Syrian Army evacuated hundreds of ISIL fighters..."
+    },
+    {
+      "source": "text_1_node_9",
+      "target": "text_1_node_10",
+      "relation": "before",
+      "support_text": "the Syrian Army evacuated hundreds of ISIL fighters... Afterwards, the Syrian government offered a deal to ISIL..."
+    },
+    {
+      "source": "text_1_node_10",
+      "target": "text_1_node_11",
+      "relation": "before",
+      "support_text": "Afterwards, the Syrian government offered a deal to ISIL... ISIL executed all the Druze men they've captured. ISIL executed several Syrian army soldiers and NDF members captured during the raid, posting videos of their executions on the Internet."
+    },
+    {
+      "source": "text_1_node_10",
+      "target": "text_1_new_node_14",
+      "relation": "before",
+      "support_text": "根据动词事件的时序，ISIL拒绝囚犯交换发生在叙利亚军队拒绝支付赎金之前。"
+    },
+    {
+      "source": "text_1_new_node_1",
+      "target": "text_1_new_node_2",
+      "relation": "before",
+      "support_text": "安全部队击毙袭击者后，又逮捕了另一名袭击者。"
+    },
+    {
+      "source": "text_1_new_node_2",
+      "target": "text_1_new_node_3",
+      "relation": "before",
+      "support_text": "安全部队完成行动后，叙利亚阿拉伯通讯社对此进行了报道。"
+    },
+    {
+      "source": "text_1_new_node_8",
+      "target": "text_1_new_node_9",
+      "relation": "before",
+      "support_text": "在公布初步数字后，卫生部门主任更新了伤亡人数。"
+    },
+    {
+      "source": "text_1_new_node_9",
+      "target": "text_1_new_node_10",
+      "relation": "before",
+      "support_text": "在更新人数后，卫生部门主任说出了具体的死亡和受伤人数。"
+    },
+    {
+      "source": "text_1_new_node_11",
+      "target": "text_1_new_node_12",
+      "relation": "before",
+      "support_text": "根据动词事件的时序，'take' (temporal_order: 2) 发生在 'escape' (temporal_order: 5) 之前。"
+    },
+    {
+      "source": "text_1_new_node_12",
+      "target": "text_1_new_node_13",
+      "relation": "before",
+      "support_text": "根据动词事件的时序，'escape' (temporal_order: 5) 发生在 'die' (temporal_order: 6) 之前。"
+    },
+    {
+      "source": "text_1_new_node_report_1",
+      "target": "text_1_new_node_report_2",
+      "relation": "before",
+      "support_text": "根据动词事件的时序，省长报道发生在电视台报道之前。"
+    },
+    {
+      "source": "text_1_new_node_attack_significance",
+      "target": "text_1_new_node_YPG_statement",
+      "relation": "before",
+      "support_text": "根据动词事件的时序，'reveal' 和 'show' (temporal_order: 1) 发生在 'condemn' 和 'call' (temporal_order: 3) 之前。YPG的声明是基于对袭击事件的认知而发表的。"
+    }
+  ]
+}

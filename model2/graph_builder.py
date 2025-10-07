@@ -271,7 +271,7 @@ class GraphBuilder:
             event_description=event_description,
             available_types=types_with_definitions
         )
-        result1 = self.llm_service.call_api(prompt1, use_advanced_model=False)  # 使用低级模型
+        result1 = self.llm_service.call_api(prompt1)  # 使用低级模型
         
         if not isinstance(result1, dict) or 'selected_type' not in result1:
             return None
@@ -294,7 +294,7 @@ class GraphBuilder:
             selected_type=selected_type,
             available_subtypes=subtypes_with_definitions
         )
-        result2 = self.llm_service.call_api(prompt2, use_advanced_model=False)  # 使用低级模型
+        result2 = self.llm_service.call_api(prompt2)  # 使用低级模型
         
         if not isinstance(result2, dict) or 'selected_subtype' not in result2:
             return None
@@ -321,7 +321,7 @@ class GraphBuilder:
             selected_subtype=selected_subtype,
             available_sub_subtypes=sub_subtypes_with_definitions
         )
-        result3 = self.llm_service.call_api(prompt3, use_advanced_model=False)  # 使用低级模型
+        result3 = self.llm_service.call_api(prompt3)  # 使用低级模型
         
         if not isinstance(result3, dict) or 'selected_sub_subtype' not in result3:
             return None
@@ -357,7 +357,7 @@ class GraphBuilder:
         #     text = text[:3000] + "..."
         
         prompt = SEGMENT_TEXT_PROMPT.format(text=text)
-        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
+        result = self.llm_service.call_api(prompt, use_advanced_model=True)  # 使用低级模型
         
         if isinstance(result, dict) and 'segments' in result:
             return result['segments']
@@ -378,7 +378,7 @@ class GraphBuilder:
         #     text = text[:3000] + "..."
         
         prompt = EXTRACT_EVENT_FLOW_PROMPT.format(text=text)
-        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
+        result = self.llm_service.call_api(prompt, use_advanced_model=True)  # 使用低级模型
         
         if isinstance(result, dict) and 'events' in result:
             return result
@@ -448,7 +448,7 @@ class GraphBuilder:
             original_text=original_text,
             classified_events=json.dumps(classified_events, ensure_ascii=False, indent=2)
         )
-        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
+        result = self.llm_service.call_api(prompt, use_advanced_model=True)  # 使用低级模型
         
         if not isinstance(result, dict) or 'nodes' not in result or 'edges' not in result:
             return None
@@ -586,7 +586,7 @@ class GraphBuilder:
             segment_core_meaning=segment_core_meaning
         )
         
-        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
+        result = self.llm_service.call_api(prompt)  # 使用低级模型
         
         if isinstance(result, dict) and 'is_relevant' in result:
             return result['is_relevant']
@@ -671,7 +671,7 @@ class GraphBuilder:
         )
         print(f"  - 提取动词")
         
-        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
+        result = self.llm_service.call_api(prompt, use_advanced_model=True)  # 使用低级模型
         
         if isinstance(result, dict) and 'verbs' in result:
             return result
@@ -710,7 +710,7 @@ class GraphBuilder:
             graph_nodes=json.dumps(graph_nodes, ensure_ascii=False, indent=2)
         )
         
-        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
+        result = self.llm_service.call_api(prompt, use_advanced_model=True)  # 使用低级模型
         
         if isinstance(result, dict) and 'coverage_check' in result:
             return result
@@ -772,7 +772,7 @@ class GraphBuilder:
             current_graph=json.dumps(graph_data, ensure_ascii=False, indent=2)
         )  # 这一步的工作量很大的
         
-        result = self.llm_service.call_api(prompt, use_advanced_model=False)  # 使用低级模型
+        result = self.llm_service.call_api(prompt, use_advanced_model=True)  # 使用低级模型
         print(f"    - 覆盖检查完成")
         if isinstance(result, dict):
             return result

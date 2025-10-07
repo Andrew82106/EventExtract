@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "text_108_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "至少83人在Uranus婚礼厅受伤",
+      "source_text": "text_108"
+    },
+    {
+      "id": "text_108_node_2",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "神职人员在Uranus婚礼厅聚会庆祝先知穆罕默德的生日",
+      "source_text": "text_108"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_108_node_1",
+      "target": "text_108_node_2",
+      "relation": "before"
+    }
+  ]
+}

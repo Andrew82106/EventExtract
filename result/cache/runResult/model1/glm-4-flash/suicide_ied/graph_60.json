@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_60_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查人员在 Tamil Nadu 审查一名伊斯兰国同情者时得知了恐怖袭击计划。",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_2",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查人员将恐怖袭击计划的信息通过外交渠道传递给斯里兰卡。",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度国家安全局在周日斯里兰卡的连环爆炸事件中获得了具体情报。",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度情报局发出警报，担心恐怖分子可能从 Tamil Nadu、Kerala 和 Puducherry 的海岸线逃往印度。",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度海岸安全机构与印度海军和海岸警卫队紧密合作，监视可疑船只、嫌疑人和陌生人。",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "近年来，印度情报机构已经拦截并 neutralised 了针对南部重要设施的恐怖袭击计划。",
+      "source_text": "text_60"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_60_node_2",
+      "target": "text_60_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_60_node_3",
+      "target": "text_60_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_60_node_4",
+      "target": "text_60_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_60_node_5",
+      "target": "text_60_node_6",
+      "relation": "before"
+    }
+  ]
+}

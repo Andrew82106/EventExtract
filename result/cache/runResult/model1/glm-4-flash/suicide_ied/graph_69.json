@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_69_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "至少142人在也门首都萨那的周五祈祷时死于四名自杀式炸弹袭击者",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "ISIS声称对袭击负责，但白宫表示没有证据将袭击者与爆炸联系起来",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生在萨那的al-Badr和al-Hashahush清真寺，这两个清真寺主要由胡塞派支持者参加",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生前一天，阿布·班克尔·曼苏尔·哈迪总统的宫殿在亚丁遭到空袭",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "自2014年胡塞派武装分子攻占萨那并迫使哈迪政府辞职以来，也门一直处于分裂状态",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "胡塞派在2月份解散议会并控制政府",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "国际社会继续承认哈迪为也门领导人，并拒绝承认胡塞派",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_8",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "GenericCrime",
+      "description": "胡塞派高级领导人阿卜杜勒-卡里姆·阿尔-凯万在萨那被枪杀",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Correspondence",
+      "description": "基地组织声称对暗杀负责",
+      "source_text": "text_69"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_69_node_1",
+      "target": "text_69_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_2",
+      "target": "text_69_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_3",
+      "target": "text_69_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_4",
+      "target": "text_69_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_5",
+      "target": "text_69_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_6",
+      "target": "text_69_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_7",
+      "target": "text_69_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_8",
+      "target": "text_69_node_9",
+      "relation": "before"
+    }
+  ]
+}

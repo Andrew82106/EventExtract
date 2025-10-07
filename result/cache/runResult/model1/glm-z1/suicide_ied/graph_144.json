@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_144_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "武装分子在摩加迪沙内政部大楼外制造爆炸，随后3名激进分子冲入",
+      "source_text": "text_144"
+    },
+    {
+      "id": "text_144_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队发起反恐行动，与武装分子展开长达一小时的交火",
+      "source_text": "text_144"
+    },
+    {
+      "id": "text_144_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "目击者称至少10人在第一次袭击中死亡，现场发现多具尸体",
+      "source_text": "text_144"
+    },
+    {
+      "id": "text_144_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部长称武装分子目标为伤害平民，但未透露具体伤亡人数",
+      "source_text": "text_144"
+    },
+    {
+      "id": "text_144_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "匿名官员表示死亡人数可能因现场搜救而上升",
+      "source_text": "text_144"
+    },
+    {
+      "id": "text_144_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "数十名被困人员被救出，部分从窗户跳楼逃生",
+      "source_text": "text_144"
+    },
+    {
+      "id": "text_144_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "副保安部长从复合体内被成功解救",
+      "source_text": "text_144"
+    },
+    {
+      "id": "text_144_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "位于内政部对面的警察局大楼遭遇第二次爆炸",
+      "source_text": "text_144"
+    },
+    {
+      "id": "text_144_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救护车从爆炸现场转运5具尸体和17名伤员",
+      "source_text": "text_144"
+    },
+    {
+      "id": "text_144_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织Al-Shabab宣称对两次袭击负责",
+      "source_text": "text_144"
+    },
+    {
+      "id": "text_144_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "另一起路边炸弹袭击导致前Qoryooley区局长死亡",
+      "source_text": "text_144"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_144_node_1",
+      "target": "text_144_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_144_node_2",
+      "target": "text_144_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_144_node_3",
+      "target": "text_144_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_144_node_4",
+      "target": "text_144_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_144_node_5",
+      "target": "text_144_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_144_node_6",
+      "target": "text_144_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_144_node_7",
+      "target": "text_144_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_144_node_8",
+      "target": "text_144_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_144_node_9",
+      "target": "text_144_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_144_node_10",
+      "target": "text_144_node_11",
+      "relation": "before"
+    }
+  ]
+}

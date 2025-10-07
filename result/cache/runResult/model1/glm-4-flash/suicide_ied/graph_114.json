@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_114_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式炸弹袭击者在巴基斯坦奎达附近的一个城镇的脊髓灰质炎中心附近的安全人员车辆附近引爆了自己",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击至少造成了15人死亡，其中包括13名警察和1名士兵死亡，另外还有25人受伤，其中包括18名警察、2名士兵和6名平民",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "伊斯兰教派巴基斯坦和贾希乌尔伊斯兰组织声称对此次袭击负责",
+      "source_text": "text_114"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_114_node_1",
+      "target": "text_114_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_2",
+      "target": "text_114_node_3",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "text_93_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年12月27日，三名车臣自杀式炸弹袭击者在格罗兹尼的政府总部附近引爆车辆。",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "GrantAllowPassage",
+      "description": "两名驾驶员身着联邦军装并持有官方通行证，成功通过了三个军事检查站。",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "在第四个检查站，一名警卫试图检查车辆并开枪，但未能阻止袭击。",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "炸弹爆炸，相当于一吨炸药，摧毁了四层建筑物的屋顶和楼层。",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成83人死亡（其中48人当场死亡），210人受伤，包括多名车臣官员。",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "车臣叛乱指挥官阿布·阿尔-瓦利德和沙米尔·巴萨耶夫被指策划并执行了袭击。",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "巴萨耶夫声称对袭击的策划和执行负责，并称自己通过遥控引爆了炸弹。",
+      "source_text": "text_93"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_93_node_1",
+      "target": "text_93_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_2",
+      "target": "text_93_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_3",
+      "target": "text_93_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_4",
+      "target": "text_93_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_6",
+      "target": "text_93_node_7",
+      "relation": "before"
+    }
+  ]
+}

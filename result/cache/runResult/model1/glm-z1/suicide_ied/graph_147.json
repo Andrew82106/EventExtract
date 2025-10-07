@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_147_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴基斯坦什瓦纳镇苏菲派圣地发生恐怖袭击，造成75人死亡",
+      "source_text": "text_147"
+    },
+    {
+      "id": "text_147_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣称对此次袭击负责",
+      "source_text": "text_147"
+    },
+    {
+      "id": "text_147_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗总统加尼谴责袭击并宣布本国安全部队持续打击恐怖主义",
+      "source_text": "text_147"
+    },
+    {
+      "id": "text_147_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "加尼强调苏菲派倡导和平与宗教和谐",
+      "source_text": "text_147"
+    },
+    {
+      "id": "text_147_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "加尼指出恐怖分子不尊重伊斯兰教义价值观",
+      "source_text": "text_147"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_147_node_1",
+      "target": "text_147_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_147_node_2",
+      "target": "text_147_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_147_node_3",
+      "target": "text_147_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_147_node_4",
+      "target": "text_147_node_5",
+      "relation": "before"
+    }
+  ]
+}

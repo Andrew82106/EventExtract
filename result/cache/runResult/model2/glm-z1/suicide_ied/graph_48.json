@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "text_48_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年1月2日，萨德尔城东部什叶派穆斯林区及Kindi和Imam Ali医院附近发生至少3起自杀式汽车爆炸，造成56人死亡、120余人受伤",
+      "support_text": "On January 2, 2017, at least three suicide car bombings took place in a Shia Muslim eastern district of Sadr City, as well as behind the Kindi and Imam Ali hospitals, killing 56 people and injuring more than 120 others.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊拉克总理哈迪尔·阿巴迪在新闻发布会上披露，市场爆炸系自杀式袭击者伪装招聘日工后引爆炸弹",
+      "support_text": "Haider al-Abadi, Iraq's prime minister, had informed in a news conference that the suicide bombing, in Sadr City's busy market, was operated by the suicide bomber who detonated a vehicle with explosives. The bomber had pretended to hire day labourers in the market; once labourers gathered near the vehicle, the vehicle was detonated by him.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法国总统弗朗索瓦·奥朗德在袭击发生时身处该市",
+      "support_text": "French President François Hollande was in the city during the attacks.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织伊斯兰国宣称对针对什叶派群体的爆炸袭击负责",
+      "support_text": "The jihadist group Islamic State claimed the responsibility of attacks, with a targeted attack on a 'gathering of Shia'.",
+      "source_text": "text_48"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_2",
+      "relation": "before",
+      "support_text": "Haider al-Abadi, Iraq's prime minister, had informed in a news conference that the suicide bombing, in Sadr City's busy market, was operated by the suicide bomber who detonated a vehicle with explosives."
+    },
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_4",
+      "relation": "before",
+      "support_text": "The jihadist group Islamic State claimed the responsibility of attacks, with a targeted attack on a 'gathering of Shia'."
+    }
+  ]
+}

@@ -1,88 +1,103 @@
 {
   "suicide_ied": [
     {
-      "index": 10,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_42/news_010.txt",
+      "index": 8,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_152/news_036.txt",
       "reason": "未生成有效的图"
     },
     {
-      "index": 13,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_28/news_009.txt",
+      "index": 10,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_151/news_052.txt",
+      "reason": "未生成有效的图"
+    },
+    {
+      "index": 11,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_160/news_009.txt",
       "reason": "未生成有效的图"
     },
     {
       "index": 15,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_37/news_005.txt",
-      "reason": "未生成有效的图"
-    },
-    {
-      "index": 16,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_170/news_005.txt",
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_124/news_003.txt",
       "reason": "未生成有效的图"
     },
     {
       "index": 17,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_153/news_010.txt",
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_113/news_021.txt",
       "reason": "未生成有效的图"
     },
     {
-      "index": 21,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_116/news_009.txt",
+      "index": 18,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_59/news_051.txt",
       "reason": "未生成有效的图"
     },
     {
-      "index": 27,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_70/news_018.txt",
+      "index": 19,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_135/news_000.txt",
       "reason": "未生成有效的图"
     },
     {
-      "index": 28,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_121/news_000.txt",
+      "index": 25,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_115/news_246.txt",
       "reason": "未生成有效的图"
     },
     {
-      "index": 33,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_169/news_021.txt",
+      "index": 29,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_64/news_003.txt",
       "reason": "未生成有效的图"
     },
     {
-      "index": 34,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_96/news_040.txt",
+      "index": 30,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_197/main.txt",
+      "reason": "未生成有效的图"
+    },
+    {
+      "index": 31,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_117/news_001.txt",
       "reason": "未生成有效的图"
     },
     {
       "index": 35,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_47/news_003.txt",
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_48/news_005.txt",
+      "reason": "未生成有效的图"
+    },
+    {
+      "index": 37,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_44/news_002.txt",
+      "reason": "未生成有效的图"
+    },
+    {
+      "index": 39,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_125/news_001.txt",
       "reason": "未生成有效的图"
     },
     {
       "index": 40,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_170/news_034.txt",
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_102/news_000.txt",
       "reason": "未生成有效的图"
     },
     {
-      "index": 42,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_40/news_001.txt",
+      "index": 41,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_126/news_018.txt",
+      "reason": "'str' object has no attribute 'get'"
+    },
+    {
+      "index": 43,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_94/news_007.txt",
       "reason": "未生成有效的图"
     },
     {
       "index": 44,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_115/news_023.txt",
-      "reason": "未生成有效的图"
-    },
-    {
-      "index": 45,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_96/news_053.txt",
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_151/news_002.txt",
       "reason": "未生成有效的图"
     },
     {
       "index": 46,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_164/main.txt",
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_44/news_000.txt",
       "reason": "未生成有效的图"
     },
     {
-      "index": 50,
-      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_217/news_023.txt",
+      "index": 49,
+      "path": "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_texts/suicide_ied/suicide_ied_217/news_033.txt",
       "reason": "未生成有效的图"
     }
   ]

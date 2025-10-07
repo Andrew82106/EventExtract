@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_98_node_1",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷国会于周四早些时候批准了一项与伊朗达成的协议，以调查1994年布宜诺斯艾利斯犹太社区中心的炸弹袭击事件。",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "犹太领袖表示，设立‘真相委员会’的协议可能会破坏对此次袭击事件的司法调查，该袭击事件于1994年发生，造成85人死亡。",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_3",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷总统克里斯蒂娜·费尔南德斯表示，该协议可能在多年僵局后为案件带来新的曙光。",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "费尔南德斯总统与伊朗关系密切，她的支持者将该协议视为历史性机遇。",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列外交部对阿根廷国会的决议表示失望，认为与伊朗的协议不会带来正义。",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_6",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷国会以131票赞成和113票反对的微弱优势通过了该协议。",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "反对派议员质疑政府的动机，一些人认为背后有石油和粮食销售的商业利益。",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_8",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "该协议将设立一个由外国法律专家组成的五人委员会，并概述了阿根廷司法官员前往德黑兰的计划。",
+      "source_text": "text_98"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_98_node_1",
+      "target": "text_98_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_2",
+      "target": "text_98_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_3",
+      "target": "text_98_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_4",
+      "target": "text_98_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_5",
+      "target": "text_98_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_6",
+      "target": "text_98_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_7",
+      "target": "text_98_node_8",
+      "relation": "before"
+    }
+  ]
+}

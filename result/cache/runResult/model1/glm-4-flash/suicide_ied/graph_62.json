@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_62_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴基斯坦在斯瓦特的一个苏菲派清真寺发生爆炸，造成75人死亡，其中包括20名儿童，数百人受伤。",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "伊斯兰国组织（IS）宣称对斯瓦特袭击负责。",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦在全国范围内展开安全镇压行动，至少37名恐怖分子在与执法机构的交火中被击毙。",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察在周五早些时候封锁了拉尔·沙赫巴兹·卡兰达尔（Lal Shahbaz Qalandar）的圣地，他是13世纪的穆斯林圣徒。",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_5",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯瓦特的医疗设施基本，许多伤者被军用飞机和直升机运往卡拉奇和其他主要城镇。",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "信德省政府宣布三天哀悼，巴基斯坦人在社交媒体上表达他们的悲痛和愤怒。",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "斯瓦特圣地的一名看护者在 carnage 中 defiantly 按响了寺庙的钟，发誓继续这一日常仪式，表示“不会向恐怖分子屈服”。",
+      "source_text": "text_62"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_62_node_1",
+      "target": "text_62_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_62_node_2",
+      "target": "text_62_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_62_node_3",
+      "target": "text_62_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_62_node_4",
+      "target": "text_62_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_62_node_5",
+      "target": "text_62_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_62_node_6",
+      "target": "text_62_node_7",
+      "relation": "before"
+    }
+  ]
+}

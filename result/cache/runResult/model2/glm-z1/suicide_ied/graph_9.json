@@ -1,0 +1,261 @@
+{
+  "nodes": [
+    {
+      "id": "text_9_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2015年3月15日，巴基斯坦拉合尔Youhanabad社区两座相距半公里的教堂在礼拜期间遭遇自杀式爆炸，造成至少14人死亡、70人受伤",
+      "support_text": "The bombings occurred during prayers at two churches located around half a kilometre apart in the city's Youhanabad neighbourhood that is home to more than 100,000 Christians, officials said.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "爆炸后愤怒的基督徒民众携带棍棒攻击拉合尔市公交枢纽，砸毁车辆并破坏城市交通系统",
+      "support_text": "Up to 4,000 Christians later took to the streets of Lahore, many armed with clubs as they smashed vehicles and attacked a city bus station in a rare show of anger.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "抗议者误伤两名疑似与袭击者关联的平民并将其殴打致死，警方称两名执勤警察在爆炸中丧生",
+      "support_text": "Police spokeswoman Nabila Ghazanfar said two policemen guarding the churches were among those killed in the attacks, while two people were beaten to death by protesters who took to the streets after the blasts.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击事件由巴基斯坦塔利班分支Jamaatul Ahrar宣称负责，该组织此前刚与其他派系合并",
+      "support_text": "The Tehreek-e-Taliban Pakistan's Jamaatul Ahrar faction described the blasts as suicide attacks and vowed to continue their campaign.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "拉合尔总医院确认接收14具尸体和70名伤者，含被民众处决的袭击者及自杀式爆炸者",
+      "support_text": "Doctor Mohammad Saeed Sohbin... told AFP: 'We have received 14 dead bodies and 70 injured,' adding that the figure did not include the suspected militants who were lynched or the bombers.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "基督教社区在全国多个城市发起抗议，包括卡拉奇、锡亚科特等地民众阻断主要道路",
+      "support_text": "Christians also took to the streets in other cities, including Karachi, where around 200 protesters blocked a main road and burnt tyres.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦总理纳瓦兹·谢里夫谴责袭击并指示地方政府加强公共安全措施",
+      "support_text": "PM Nawaz in a statement condemned the church bombings and 'directed provincial governments to ensure the security of public and their properties'.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉合尔总医院确认接收14具尸体和70名伤者，含被民众处决的袭击者及自杀式爆炸者",
+      "support_text": "Police spokeswoman Nabila Ghazanfar said two policemen guarding the churches were among those killed in the attacks...",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "军方宣布加强反恐行动，包括设立军事法庭审理恐怖主义案件",
+      "support_text": "Pakistan Army has stepped up its fight against militants since Taliban gunmen massacred more than 150 people... The constitution amended to set up military courts for the speedy trial of terrorism cases.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "抗议者与警方达成和解，部分路段恢复通行，但局势仍不稳定",
+      "support_text": "efforts were being made to talk to the protesters to stop the rioting but 'emotions are very high because their churches have been attacked'.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府宣布解除恐怖主义案件执行死刑的暂停令并恢复死刑制度",
+      "support_text": "A moratorium on executions in terror cases was lifted and the constitution amended to set up military courts for the speedy trial of terrorism cases.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "基督教学校宣布关闭以配合局势管控，医院发起血液捐赠呼吁",
+      "support_text": "Security tightened across churches in the country.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方使用水炮和空中射击驱散抗议人群，同时释放被扣押的警察",
+      "support_text": "Police spokeswoman Nabila Ghazanfar said two policemen guarding the churches were among those killed in the attacks...",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员表示轰炸事件",
+      "support_text": "官员表示轰炸事件",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦总统Zahid Pervez向记者通报袭击事件",
+      "support_text": "向记者通报",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "基督徒在其他城市走上街头抗议",
+      "support_text": "Up to 4,000 Christians later took to the streets of Lahore, many armed with clubs as they smashed vehicles and attacked a city bus station in a rare show of anger.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "记者Rameez Khan报道了道路封锁事件",
+      "support_text": "记者Rameez Khan报道了道路封锁事件",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "抗议活动导致75人受伤",
+      "support_text": "抗议活动导致75人受伤",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "记者Rana Tanveer报道教堂袭击事件细节",
+      "support_text": "记者Rana Tanveer报道教堂袭击事件",
+      "source_text": "text_9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_2",
+      "relation": "before",
+      "support_text": "Up to 4,000 Christians later took to the streets of Lahore, many armed with clubs as they smashed vehicles and attacked a city bus station in a rare show of anger."
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_3",
+      "relation": "before",
+      "support_text": "Police spokeswoman Nabila Ghazanfar said two policemen guarding the churches were among those killed in the attacks..."
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_5",
+      "relation": "before",
+      "support_text": "Doctor Mohammad Saeed Sohbin... told AFP: 'We have received 14 dead bodies and 70 injured,' adding that the figure did not include the suspected militants who were lynched or the bombers."
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_8",
+      "relation": "before",
+      "support_text": "Police spokeswoman Nabila Ghazanfar said two policemen guarding the churches were among those killed in the attacks..."
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_14",
+      "relation": "before",
+      "support_text": "官员表示轰炸事件"
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_15",
+      "relation": "after",
+      "support_text": "官员表示轰炸事件后"
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_4",
+      "relation": "after",
+      "support_text": "The Tehreek-e-Taliban Pakistan's Jamaatul Ahrar faction described the blasts as suicide attacks and vowed to continue their campaign."
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_16",
+      "relation": "before",
+      "support_text": "爆炸后愤怒的基督徒民众携带棍棒攻击拉合尔市公交枢纽，砸毁车辆并破坏城市交通系统"
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_18",
+      "relation": "before",
+      "support_text": "爆炸后拉合尔总医院接收伤者"
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_19",
+      "relation": "after",
+      "support_text": "袭击事件发生后"
+    },
+    {
+      "source": "text_9_node_2",
+      "target": "text_9_node_3",
+      "relation": "before",
+      "support_text": "Police spokeswoman Nabila Ghazanfar said two policemen guarding the churches were among those killed in the attacks..."
+    },
+    {
+      "source": "text_9_node_7",
+      "target": "text_9_node_9",
+      "relation": "before",
+      "support_text": "Pakistan Army has stepped up its fight against militants since Taliban gunmen massacred more than 150 people..."
+    },
+    {
+      "source": "text_9_node_9",
+      "target": "text_9_node_11",
+      "relation": "before",
+      "support_text": "A moratorium on executions in terror cases was lifted and the constitution amended to set up military courts for the speedy trial of terrorism cases."
+    },
+    {
+      "source": "text_9_node_12",
+      "target": "text_9_node_13",
+      "relation": "before",
+      "support_text": "Police spokeswoman Nabila Ghazanfar said two policemen guarding the churches were among those killed in the attacks..."
+    }
+  ]
+}

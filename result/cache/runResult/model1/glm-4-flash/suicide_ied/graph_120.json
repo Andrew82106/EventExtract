@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_120_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Arika Airlines Boeing 757-300 reports missiles fired at it as it takes off from Mombassa en route for Tel Aviv.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Two unused Sam 7 missiles are recovered from the scene where missiles were reported to have been fired at the plane.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A green Pajera jeep carrying suicide bombers crashes through the gates of the Israeli-owned Paradise Hotel in Mombassa, Kenya, and explodes in the lobby.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The November 28 bombing of the Paradise Hotel kills 16 people, including three Israelis and ten Kenyan hotel employees.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "An unknown organization calling itself the Army of Palestine claims responsibility for the Kenyan attacks.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Israeli and US investigators blame Al Ittihad al Islamiya (AIAI), a Somali-based organization with links to Al Qaeda, for the attacks.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "A gun attack on a Likud party office in Beit Sheân, Israel kills six people and wounds 43, with the Al Aksa Martyrs’ Brigade claiming responsibility.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Mombassa bombing coincides with the gun attack on the Likud party office and provides a justification for extending the US-led 'war against terrorism'.",
+      "source_text": "text_120"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_120_node_1",
+      "target": "text_120_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_2",
+      "target": "text_120_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_3",
+      "target": "text_120_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_4",
+      "target": "text_120_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_5",
+      "target": "text_120_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_6",
+      "target": "text_120_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_7",
+      "target": "text_120_node_8",
+      "relation": "before"
+    }
+  ]
+}

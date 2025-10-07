@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_16_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式爆炸袭击发生在Data Darbar shrine外的精英警察部队车辆附近",
+      "support_text": "The blast, which targeted a police van stationed outside the entrance of Data Darbar, claimed the lives of five police officials...",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致5名警察、1名保安和多名平民死亡",
+      "support_text": "claimed the lives of five police officials, a security guard and civilians.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_3",
+      "event_type": "Medical",
+      "event_subtype": "Diagnosis",
+      "event_sub_subtype": "Unspecified",
+      "description": "医院报告26名伤者正在接受治疗，其中2人情况危急",
+      "support_text": "Around 26 others were being treated for their injuries, two of whom were in critical condition, the official added.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "新增1名警察Saddam Hussain因伤去世，总死亡人数升至11人",
+      "support_text": "as another police official succumbed to his injuries earlier today.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认4名牺牲警察身份为Head Constable Shahid Nazir等",
+      "support_text": "The other four martyred police officers were identified as Head Constable Shahid Nazir, Head Constable Muhammad Sohail, Head Constable Gulzar Ahmad, and Constable Muhammad Saleem.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "披露自杀袭击者为15岁男孩，在爆炸中自毁",
+      "support_text": "According to Shahbaz Gill, spokesperson for chief minister of Punjab, the suicide bomber was a 15-year-old boy who blew himself up near the Elite Force police van stationed outside the 11th century shrine.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_7",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致警察官员受伤",
+      "support_text": "警察官员在爆炸中受伤",
+      "source_text": "text_16"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_2",
+      "relation": "before",
+      "support_text": "claimed the lives of five police officials, a security guard and civilians."
+    },
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_6",
+      "relation": "before",
+      "support_text": "According to Shahbaz Gill, spokesperson for chief minister of Punjab, the suicide bomber was a 15-year-old boy who blew himself up near the Elite Force police van stationed outside the 11th century shrine."
+    },
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_7",
+      "relation": "before",
+      "support_text": "爆炸导致5名警察、1名保安和多名平民死亡"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_4",
+      "relation": "before",
+      "support_text": "as another police official succumbed to his injuries earlier today."
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_5",
+      "relation": "before",
+      "support_text": "The other four martyred police officers were identified as Head Constable Shahid Nazir, Head Constable Muhammad Sohail, Head Constable Gulzar Ahmad, and Constable Muhammad Saleem."
+    },
+    {
+      "source": "text_16_node_4",
+      "target": "text_16_node_3",
+      "relation": "before",
+      "support_text": "Around 26 others were being treated for their injuries, two of whom were in critical condition, the official added."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_68_node_1",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名叛逃的伊斯兰国成员向叙利亚民主力量提供情报，帮助他们了解巴格达迪的藏身之处和其据点的布局。",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_2",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚民主力量将这名情报员交给美国情报官员，经过数周的审查确认其为可信情报来源。",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "自夏季开始，情报员提供的情报被用于策划行动，但在过去一个月才获得行动机会。",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "情报员提供的情报帮助美军确定巴格达迪的据点位置，并在10月26日的突袭行动中发挥了关键作用。",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "突袭行动成功，巴格达迪被击毙，情报员在行动中在场，并在两天后与家人被从地区撤离。",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_6",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "情报员有望获得美国政府悬赏的2500万美元。",
+      "source_text": "text_68"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_68_node_1",
+      "target": "text_68_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_68_node_2",
+      "target": "text_68_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_68_node_3",
+      "target": "text_68_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_68_node_4",
+      "target": "text_68_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_68_node_5",
+      "target": "text_68_node_6",
+      "relation": "before"
+    }
+  ]
+}

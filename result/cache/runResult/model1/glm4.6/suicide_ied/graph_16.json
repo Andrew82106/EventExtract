@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_16_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式炸弹袭击者驾驶一辆载有炸药的卡车撞向贝鲁特的美国海军陆战队军营。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸摧毁了建筑，造成241名美国军人和58名法国士兵死亡。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "三个月后，里根总统将美军撤出贝鲁特。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "这次袭击由伊朗和叙利亚支持的真主党组织的一个分支实施。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击的策划者之一伊马德·穆格尼耶于2008年2月12日被汽车炸弹炸死。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "真主党组织从一个游击团体成长为黎巴嫩的一支主要政治和军事力量。",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "贝鲁特爆炸案的影响一直延续至911事件以及后来的伊拉克和阿富汗战争。",
+      "source_text": "text_16"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_3",
+      "relation": "before"
+    }
+  ]
+}

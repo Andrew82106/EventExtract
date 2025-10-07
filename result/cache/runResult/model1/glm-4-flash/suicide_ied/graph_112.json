@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "text_112_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "The first bombing occurred at a police training ground north of Kabul during a campaign rally for Afghan President Ashraf Ghani, killing at least 26 and injuring more than 30.",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Later, the Taliban took credit for another bombing near Kabul’s ‘Green Zone’, killing at least 22 and injuring at least 38.",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The attacks came a week after President Donald Trump declared peace talks with the Taliban ‘dead’ and highlighted the stakes in those talks.",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Taliban has vowed to disrupt Afghanistan’s upcoming elections, which are currently scheduled for September 28.",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "The Afghan government has not been involved in the US-Taliban peace talks and has been critical of them.",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Taliban views the current Afghan administration as illegitimate and has complained about the lack of commitment to a ceasefire in the negotiations.",
+      "source_text": "text_112"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_112_node_1",
+      "target": "text_112_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_112_node_2",
+      "target": "text_112_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_112_node_3",
+      "target": "text_112_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_112_node_5",
+      "target": "text_112_node_6",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式汽车炸弹袭击者在弗拉季高加索市场入口处引爆了爆炸装置。",
+      "support_text": "Russian authorities said a suicide car bomber detonated an explosive device packed with metal bars, bolts and ball bearings at the entrance to the market in the regional capital Vladikavkaz.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸造成约100人受伤。",
+      "support_text": "About 100 people were wounded in the blast widely blamed on Islamist militants operating across the North Caucasus.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "亚美尼亚领事馆确认了受害者中有亚美尼亚国民和族裔亚美尼亚的俄罗斯公民。",
+      "support_text": "Artak Avetisian, an official at Armenia’s consulate in the southern Russian city of Rostov-on-Don, told RFE/RL that one of the victims is an Armenian national while three others ethnic Armenian citizens of Russia.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯最高领导人迅速谴责了此次爆炸。",
+      "support_text": "Russia’s top leaders swiftly condemned the bombing.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "总统梅德韦杰夫发表电视讲话，称袭击者是罪犯，不容妥协。",
+      "support_text": "“What has happened is the latest outbreak of the criminal activity of bandits with whom there can be no compromise, no truce,” President Dmitry Medvedev said in televised comments.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总理普京警告不要让袭击者在各族人民间播下仇恨。",
+      "support_text": "“Criminals like those who acted today in the North Caucasus hope to sow hatred between our peoples,” Prime Minister Vladimir Putin said, for his part.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰武装分子在北高加索地区活动。",
+      "support_text": "About 100 people were wounded in the blast widely blamed on Islamist militants operating across the North Caucasus.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "这起爆炸被广泛归咎于伊斯兰武装分子。",
+      "support_text": "About 100 people were wounded in the blast widely blamed on Islamist militants operating across the North Caucasus.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（有人）试图识别其中一名受害者但尚未成功。",
+      "support_text": "one of them has not been identified yet",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿韦蒂相称其中一名受害者尚未被识别。",
+      "support_text": "He said one of them has not been identified yet",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿韦蒂相补充说，在炸弹袭击中受伤的人员中也包括亚美尼亚人。",
+      "support_text": "He added that those wounded in the blast also include Armenians",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们（俄罗斯）有权让（或阻止）罪犯播撒仇恨的企图发生。",
+      "support_text": "We have the right to let this happen.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "罪犯播撒仇恨的企图可能会实现（坏事发生）。",
+      "support_text": "this happen",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯军队与车臣分裂主义叛军之间爆发了战争。",
+      "support_text": "俄罗斯军队与车臣分裂主义叛军之间爆发了战争。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_9",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年，弗拉季高加索市场的一次炸弹爆炸导致至少50人被杀害。",
+      "support_text": "1999年，弗拉季高加索市场的一次炸弹爆炸导致至少50人被杀害。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_10",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年，超过330人（其中大部分是儿童）在别斯兰学校围困事件中死亡。",
+      "support_text": "2004年，超过330人（其中大部分是儿童）在别斯兰学校围困事件中死亡。",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "Russian authorities said a suicide car bomber detonated an explosive device... About 100 people were wounded in the blast..."
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_3",
+      "relation": "before",
+      "support_text": "Artak Avetisian... told RFE/RL that one of the victims is an Armenian national..."
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_4",
+      "relation": "before",
+      "support_text": "Russia’s top leaders swiftly condemned the bombing."
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_5",
+      "relation": "before",
+      "support_text": "“What has happened is the latest outbreak of the criminal activity...” President Dmitry Medvedev said..."
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_6",
+      "relation": "before",
+      "support_text": "“Criminals like those who acted today in the North Caucasus...” Prime Minister Vladimir Putin said..."
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_new_node_2",
+      "relation": "before",
+      "support_text": "Russian authorities said a suicide car bomber detonated an explosive device... About 100 people were wounded in the blast widely blamed on Islamist militants..."
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_new_node_3",
+      "relation": "before",
+      "support_text": "识别行为发生在爆炸之后。"
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_new_node_6",
+      "relation": "before",
+      "support_text": "爆炸事件（node_1）是后续所有声明和意图的背景，发生在“我们有权让此事发生”（new_node_6）的声明之前。"
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_new_node_7",
+      "relation": "before",
+      "support_text": "爆炸事件（node_1）是后续所有声明和意图的背景，发生在对“坏事将要发生”（new_node_7）的预测之前。"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_new_node_4",
+      "relation": "before",
+      "support_text": "在同一次采访中，先告知已识别的受害者信息，再说明未识别的情况。"
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_node_5",
+      "relation": "before",
+      "support_text": "Russia’s top leaders swiftly condemned the bombing. “What has happened is the latest outbreak of the criminal activity...” President Dmitry Medvedev said in televised comments."
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_node_6",
+      "relation": "before",
+      "support_text": "Russia’s top leaders swiftly condemned the bombing. “Criminals like those who acted today in the North Caucasus...” Prime Minister Vladimir Putin said..."
+    },
+    {
+      "source": "text_5_node_5",
+      "target": "text_5_node_6",
+      "relation": "before",
+      "support_text": "“What has happened is the latest outbreak of the criminal activity...” President Dmitry Medvedev said in televised comments. “Criminals like those who acted today in the North Caucasus hope to sow hatred between our peoples,” Prime Minister Vladimir Putin said, for his part."
+    },
+    {
+      "source": "text_5_node_6",
+      "target": "text_5_new_node_7",
+      "relation": "before",
+      "support_text": "罪犯“播撒仇恨”的企图（node_6）是导致“坏事将要发生”（new_node_7）的原因。"
+    },
+    {
+      "source": "text_5_new_node_1",
+      "target": "text_5_new_node_2",
+      "relation": "before",
+      "support_text": "About 100 people were wounded in the blast widely blamed on Islamist militants operating across the North Caucasus."
+    },
+    {
+      "source": "text_5_new_node_3",
+      "target": "text_5_node_3",
+      "relation": "before",
+      "support_text": "识别失败的情况先于报告成功识别的情况。"
+    },
+    {
+      "source": "text_5_new_node_4",
+      "target": "text_5_new_node_5",
+      "relation": "before",
+      "support_text": "在同一次采访中，补充信息在先前信息之后说出。"
+    },
+    {
+      "source": "text_5_new_node_6",
+      "target": "text_5_new_node_7",
+      "relation": "before",
+      "support_text": "“我们有权阻止此事发生”（new_node_6）是防止“坏事将要发生”（new_node_7）的手段，在逻辑上具有先后顺序。"
+    },
+    {
+      "source": "text_5_new_node_8",
+      "target": "text_5_new_node_9",
+      "relation": "before",
+      "support_text": "战争（temporal_order: 1）发生在1999年爆炸（temporal_order: 3）之前。"
+    },
+    {
+      "source": "text_5_new_node_9",
+      "target": "text_5_new_node_10",
+      "relation": "before",
+      "support_text": "1999年爆炸（temporal_order: 3）发生在2004年别斯兰事件（temporal_order: 4）之前。"
+    }
+  ]
+}

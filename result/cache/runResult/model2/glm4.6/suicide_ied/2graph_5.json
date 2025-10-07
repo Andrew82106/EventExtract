@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年7月28日，针对副总统候选人阿姆鲁拉·萨利赫的喀布尔办公室发生了一起自杀式汽车炸弹袭击，造成20多人死亡，50多人受伤，萨利赫本人也受轻伤。",
+      "support_text": "On 28 July 2019, a suicide car bombing occurred in the Kabul office of the Vice Presidential candidate Amrullah Saleh, killing over 20 and injuring over 50 including slightly wounding Saleh.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生后，四名枪手冲入该大楼。",
+      "support_text": "Four gunmen then stormed the building...",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "枪手与安保部队展开对峙，围困了大楼数小时。",
+      "support_text": "...and laid siege for hours...",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "经过数小时的围困，四名枪手最终被击毙。",
+      "support_text": "...before being killed.",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "Four gunmen then stormed the building..."
+    },
+    {
+      "source": "text_5_node_2",
+      "target": "text_5_node_3",
+      "relation": "before",
+      "support_text": "Four gunmen then stormed the building and laid siege for hours..."
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_4",
+      "relation": "before",
+      "support_text": "...laid siege for hours before being killed."
+    }
+  ]
+}

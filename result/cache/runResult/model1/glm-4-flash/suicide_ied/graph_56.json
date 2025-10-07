@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_56_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Gunmen attacked worshippers from a minority sect in two worship places in Lahore on Friday, killing over 80 people.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Three attackers blew themselves up with suicide vests when police tried to enter the building in Garhi Shahu, resulting in a higher death toll there.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "One attacker was arrested in Model Town, and another was killed, with the arrested attacker being a teenage Pashtun linked to Waziristan and possibly the Taliban.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "A suicide vest laden with explosives was recovered from Model Town, where some attackers escaped and fired at a television van.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Stock market investors shrugged off the violence, with the Karachi Stock Exchange benchmark index up 0.75 percent.",
+      "source_text": "text_56"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_2",
+      "target": "text_56_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_3",
+      "target": "text_56_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_4",
+      "target": "text_56_node_5",
+      "relation": "before"
+    }
+  ]
+}

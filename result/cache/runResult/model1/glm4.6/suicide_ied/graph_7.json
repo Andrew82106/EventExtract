@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "id": "text_7_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "一月份发生了一起造成约100人死亡的袭击事件。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "上个月，加尼总统提出与塔利班进行和平谈判。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "鉴于之前的袭击，政府承诺加强安保，并在诺鲁孜节期间将喀布尔置于高度戒备状态。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "星期三，一名自杀式炸弹袭击者在喀布尔一个什叶派神社附近引爆了自己。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "这次爆炸造成至少26人死亡，18人受伤。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "内政部发言人称，袭击者本想进入神社，但被警察检查站阻止。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国通过其在开罗的阿马克新闻社声称对此次袭击负责。",
+      "source_text": "text_7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_4",
+      "target": "text_7_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_4",
+      "target": "text_7_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_4",
+      "target": "text_7_node_7",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年某日深夜，塔利班在阿富汗 Laghman Province Alishing 区的军事车队和检查站发动袭击",
+      "support_text": "Taliban attacked a security checkpoint in Alishing district and clashed with security forces, the MoD said.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗国防部于次日（星期一）宣布击退袭击，称塔利班遭受重大伤亡",
+      "support_text": "the attack happened on Sunday night, said the MoD in a statement on Monday.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗省级议会成员 Gulzar Sangarwal Neyazi 披露至少 22 名安全部队成员死亡，多辆军车损毁",
+      "support_text": "Gulzar Sangarwal Neyazi, a member of the provincial council, said that at least 22 Afghan security forces were killed in the attack.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "塔利班宣称共击毙 24 名士兵并摧毁 13 辆军车，为袭击负责",
+      "support_text": "the Taliban claimed responsibility for the attack and said they killed 24 soldiers and destroyed 13 military tanks.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "阿富汗省级议会成员Gulzar Sangarwal Neyazi向TOLOnews透露伤亡细节",
+      "support_text": "Gulzar Sangarwal Neyazi, a member of the provincial council, said that at least 22 Afghan security forces were killed in the attack.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国国防部声称塔利班遭受重创",
+      "support_text": "英国国防部声称塔利班遭受重创",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "the attack happened on Sunday night, said the MoD in a statement on Monday."
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "In the meantime, Gulzar Sangarwal Neyazi, a member of the provincial council, said that at least 22 Afghan security forces were killed in the attack."
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "the Taliban claimed responsibility for the attack and said they killed 24 soldiers and destroyed 13 military tanks."
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "In the meantime, Gulzar Sangarwal Neyazi... said that at least 22 Afghan security forces were killed in the attack."
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_6",
+      "relation": "before",
+      "support_text": "英国国防部在宣布击退袭击后声称塔利班遭受重创"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_36_node_1",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "LTTE自杀式袭击队突破路障并驾驶卡车冲撞寺庙附近的检查站",
+      "support_text": "A LTTE Terrorist suicide squad crashed through roadblocks and set off a truck bomb outside a fabled Buddhist temple in central Kandy on Sunday, killing 11 people and wounding 23.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "卡车在距离佛教圣地Temple of the Tooth约30米处爆炸，造成11人死亡23人受伤",
+      "support_text": "The truck exploded opposite the sacred Temple of the Tooth, mainly Buddhist Sri Lanka's holiest shrine which houses a sacred tooth of Lord Buddha. The tooth relic was safe.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致寺庙入口和屋顶受损，但主殿和供奉佛牙的圣物完好无损",
+      "support_text": "The entrance and the roof of Dalada Maligawa were damaged in the blast, but the inner chamber was intact, it added.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸冲击波使800米外民宅窗户破裂，现场发现自杀式袭击者使用的卡车残骸",
+      "support_text": "The blast shattered windows of houses as far as half a mile (800 metres) away, residents said.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸发生时间确定为2月3日6:10（UTC+5:30），早于原定2月4日的独立日庆典",
+      "support_text": "The attack occurred days before the ancient capital is due to mark 50 years of independence in Sri Lanka on February 4 with celebrations to be attended by Britain's Prince Charles and other foreign dignitaries. Charles is scheduled to arrive in Sri Lanka on February 3.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "副国防部长承认存在安全漏洞，称难以防范隐藏的爆炸物",
+      "support_text": "Deputy Defence Minister Anuruddha Ratwatte said. 'There was a serious security lapse, but it is nearly difficult to check when explosives are hidden'",
+      "source_text": "text_36"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_node_2",
+      "relation": "before",
+      "support_text": "The suicide squad proceeded in a lorry along Raja Veediya (road) and had fired at the roadblocks. The lorry crashed through the gate and exploded in front of the Dalada Maligawa."
+    },
+    {
+      "source": "text_36_node_2",
+      "target": "text_36_node_3",
+      "relation": "before",
+      "support_text": "The entrance and the roof of Dalada Maligawa were damaged in the blast, but the inner chamber was intact, it added."
+    },
+    {
+      "source": "text_36_node_2",
+      "target": "text_36_node_4",
+      "relation": "before",
+      "support_text": "The blast shattered windows of houses as far as half a mile (800 metres) away, residents said."
+    },
+    {
+      "source": "text_36_node_4",
+      "target": "text_36_node_7",
+      "relation": "before",
+      "support_text": "Deputy Defence Minister Anuruddha Ratwatte said. 'There was a serious security lapse, but it is nearly difficult to check when explosives are hidden'"
+    },
+    {
+      "source": "text_36_node_5",
+      "target": "text_36_node_7",
+      "relation": "before",
+      "support_text": "The attack occurred days before the ancient capital is due to mark 50 years of independence in Sri Lanka on February 4 with celebrations to be attended by Britain's Prince Charles and other foreign dignitaries. Charles is scheduled to arrive in Sri Lanka on February 3."
+    }
+  ]
+}

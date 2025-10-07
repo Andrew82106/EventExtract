@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_127_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Three bombings occurred in Kampala, targeting an Ethiopian restaurant, a rugby club, and a packed pub, resulting in at least 76 deaths and 70 injuries.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al Qaeda-backed Somali militants attacked a regional symbol of stability, prosperity and secularism in Uganda, raising fears of a spreading terrorist threat in East Africa.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_3",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "Al Shabaab claimed responsibility for the bombings, warning that they would attack African nations contributing to the peacekeeping effort in Somalia.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "U.S. officials are investigating al Shabaab's claims and offered assistance to Uganda in the aftermath of the attacks.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "President Obama called Ugandan President Yoweri Museveni to offer condolences and U.S. assistance.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "The attacks pose a challenge to Africa, highlighting the continent's struggle to police and pacify its own hot spots.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Uganda has adopted a regional role, buoyed by an emerging middle class, newly discovered oil reserves, and flows of foreign tourists.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "President Museveni vowed to fight back against the attackers.",
+      "source_text": "text_127"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_127_node_1",
+      "target": "text_127_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_127_node_2",
+      "target": "text_127_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_127_node_3",
+      "target": "text_127_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_127_node_4",
+      "target": "text_127_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_127_node_5",
+      "target": "text_127_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_127_node_6",
+      "target": "text_127_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_127_node_7",
+      "target": "text_127_node_8",
+      "relation": "before"
+    }
+  ]
+}

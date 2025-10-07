@@ -1,0 +1,510 @@
+{
+  "nodes": [
+    {
+      "id": "text_22_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abedi出生于曼彻斯特，父母为利比亚难民，父亲曾参与2011年利比亚革命期间与LIFG的武装斗争",
+      "support_text": "Abedi, 22, was born in Manchester to Libyan parents, who arrived in the U.K. as refugees fleeing former dictator Muammar Gaddafi’s regime.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年Abedi父亲移居利比亚首都的黎波里，家族成员随后加入",
+      "support_text": "Ramadan Abedi has lived in Tripoli, the Libyan capital, since 2008 and was joined there by other family members following the revolution.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abedi家族在曼彻斯特南区的Elsmore Road居住，属于利比亚流亡社区，与Didsbury清真寺关联",
+      "support_text": "Abedi’s family belonged to a community of Libyan dissidents that included members of the Libyan Islamic Fighting Group (LIFG), an Islamist militia that the U.S. State Department says has links to al Qaeda.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Didsbury清真寺在2011年被曝为LIFG筹款，2011年关联基地组织成员Abd al-Baset Azzouz",
+      "support_text": "Didsbury Mosque, which hit the headlines in 2011 when it was claimed that worshipers had raised money for the LIFG. One former Libyan worshiper at the mosque, al Qaeda operative Abd al-Baset Azzouz, left Britain in 2009 to join the terror group’s leader Ayman al-Zawahiri in Pakistan, before heading to Libya to run an al Qaeda network in the east of the country.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年Abedi辍学，在面包店工作期间开始接触极端思想",
+      "support_text": "Abedi dropped out of university last year and had been working at a bakery, during which he was exposed to hard-line Salafist ideology in his family, community, and mosque.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年Didsbury清真寺被曝传播极端Salafist思想，与利比亚民兵组织关联",
+      "support_text": "Rashad Ali, senior fellow at the Institute for Strategic Dialogue and counter-terror expert, told VICE News the mosque preached a “fairly radical, puritan” brand of Salafist Islam and was “effectively taken over at certain points by various Libyan militia groups, including ones associated with the Muslim Brotherhood.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2018年5月Abedi在Ariana Grande音乐会实施自杀式爆炸，致22人死亡",
+      "support_text": "On May 22, 2018, Salman Ramadan Abedi detonated a suicide bomb at Ariana Grande’s concert in Manchester, killing 22 people.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_8",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年11月英国警方逮捕8名关联人员，缴获重要证据",
+      "support_text": "British police arrested eight people connected to Abedi on November 20, 2018, after the blast.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国官员称Abedi可能在叙利亚接受ISIS训练，英国恐怖威胁等级升至最高",
+      "support_text": "British officials said Abedi may have been trained in Syria by ISIS, prompting the UK’s terror threat level to be raised to the highest.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹袭击者（Salman Ramadan Abedi）在曼彻斯特极端主义社区中成长",
+      "support_text": "炸弹袭击者成长于一个面临极端主义的社区",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "激进化路径导致Salman Ramadan Abedi实施恐怖袭击",
+      "support_text": "激进化路径导致Salman Ramadan Abedi实施恐怖袭击",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "炸弹袭击者及其家人在迪兹伯里清真寺进行礼拜",
+      "support_text": "炸弹袭击者及其家人在迪兹伯里清真寺进行礼拜",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_13",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿卜杜勒-巴塞特·阿祖祖加入 Ayman al-Zawahiri 的领导层",
+      "support_text": "阿卜杜勒-巴塞特·阿祖祖加入 Ayman al-Zawahiri 的领导层",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿卜杜勒-巴塞特·阿祖祖前往利比亚东部建立基地组织网络",
+      "support_text": "阿卜杜勒-巴塞特·阿祖祖前往利比亚东部建立基地组织网络",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿卜杜勒-巴塞特·阿祖祖运营利比亚东部的基地组织网络",
+      "support_text": "阿卜杜勒-巴塞特·阿祖祖运营利比亚东部的基地组织网络",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查人员相信Abedi属于恐怖网络",
+      "support_text": "调查人员相信Abedi属于恐怖网络",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abedi使用炸弹",
+      "support_text": "Abedi使用炸弹",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS宣称袭击",
+      "support_text": "ISIS宣称袭击",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Rizwaan Sabir向VICE News讲述",
+      "support_text": "Rizwaan Sabir向VICE News讲述",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_20",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖组织提供支持",
+      "support_text": "恐怖组织提供支持",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Raphael Hostey在大卫斯堡清真寺礼拜",
+      "support_text": "Raphael Hostey曾在大卫斯堡清真寺礼拜",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_22",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "无人机袭击击毙Raphael Hostey",
+      "support_text": "无人机袭击击毙了Raphael Hostey",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_23",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abdal Raouf Abdallah被判处9年半监禁",
+      "support_text": "Abdal Raouf Abdallah被判监禁9年半",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_24",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院判定Abdal Raouf Abdallah构成恐怖融资",
+      "support_text": "法院判定Abdal Raouf Abdallah构成恐怖融资",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abdal Raouf Abdallah策划恐怖袭击",
+      "support_text": "Abdal Raouf Abdallah曾策划恐怖袭击",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Adam Nazar在青少年时期接触Hizb ut-Tahrir成员导致激进化",
+      "support_text": "Adam Nazar在青少年时期因接触Hizb ut-Tahrir成员而激进化",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_27",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Adam Nazar进入Hizb ut-Tahrir成员的圈子",
+      "support_text": "Adam Nazar进入Hizb ut-Tahrir成员的圈子",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_28",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nazar解释激进组织带来的归属感",
+      "support_text": "Nazar解释激进组织带来的归属感",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_29",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nazar被激进组织的讲座吸引",
+      "support_text": "Nazar被激进组织的讲座吸引",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_30",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nazar缺乏挑战激进思想的能力",
+      "support_text": "Nazar缺乏挑战激进思想的能力",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_31",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "激进分子通过激发情绪吸引年轻人",
+      "support_text": "激进分子通过激发情绪吸引年轻人",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_32",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "激进分子使年轻人上瘾",
+      "support_text": "激进分子使年轻人上瘾",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_33",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nazar的激进化发生在90年代",
+      "support_text": "Nazar的激进化发生在90年代",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_34",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nazar曾计划在波黑发动圣战",
+      "support_text": "Nazar曾计划在波黑发动圣战",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_35",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nazar已改变观点",
+      "support_text": "Nazar已改变观点",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_36",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "激进分子寻求诱使年轻人",
+      "support_text": "激进分子寻求诱使年轻人",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_37",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "激进分子诱使年轻人",
+      "support_text": "激进分子诱使年轻人",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_38",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "激进分子培养穆斯林的受害者意识",
+      "support_text": "激进分子培养穆斯林的受害者意识",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_39",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "激进分子胁迫目标战斗",
+      "support_text": "激进分子胁迫目标战斗",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_40",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "激进分子在心中构建乌托邦",
+      "support_text": "激进分子在心中构建乌托邦",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_41",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "乌托邦引发内心火花",
+      "support_text": "乌托邦引发内心火花",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_42",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "独自一人容易激进化",
+      "support_text": "独自一人容易激进化",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_43",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "网络极端主义宣传扩散",
+      "support_text": "网络极端主义宣传扩散",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_44",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "极端组织利用网络传播事件",
+      "support_text": "极端组织利用网络传播事件",
+      "source_text": "text_22"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_2",
+      "relation": "before",
+      "support_text": "Abedi, 22, was born in Manchester to Libyan parents, who arrived in the U.K. as refugees fleeing former dictator Muammar Gaddafi’s regime."
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_3",
+      "relation": "before",
+      "support_text": "Abedi’s family belonged to a community of Libyan dissidents that included members of the Libyan Islamic Fighting Group (LIFG), an Islamist militia that the U.S. State Department says has links to al Qaeda."
+    },
+    {
+      "source": "text_22_node_3",
+      "target": "text_22_node_4",
+      "relation": "before",
+      "support_text": "Abedi’s family belonged to a community of Libyan dissidents that included members of the Libyan Islamic Fighting Group (LIFG), an Islamist militia that the U.S. State Department says has links to al Qaeda."
+    },
+    {
+      "source": "text_22_node_4",
+      "target": "text_22_node_6",
+      "relation": "before",
+      "support_text": "Didsbury Mosque, which hit the headlines in 2011 when it was claimed that worshipers had raised money for the LIFG."
+    },
+    {
+      "source": "text_22_node_4",
+      "target": "text_22_node_13",
+      "relation": "before",
+      "support_text": "阿卜杜勒-巴塞特·阿祖祖在2009年离开英国后加入Zawahiri的领导层"
+    },
+    {
+      "source": "text_22_node_5",
+      "target": "text_22_node_6",
+      "relation": "before",
+      "support_text": "Abedi dropped out of university last year and had been working at a bakery, during which he was exposed to hard-line Salafist ideology in his family, community, and mosque."
+    },
+    {
+      "source": "text_22_node_6",
+      "target": "text_22_node_7",
+      "relation": "before",
+      "support_text": "Rashad Ali, senior fellow at the Institute for Strategic Dialogue and counter-terror expert, told VICE News the mosque preached a “fairly radical, puritan” brand of Salafist Islam and was “effectively taken over at certain points by various Libyan militia groups, including ones associated with the Muslim Brotherhood."
+    },
+    {
+      "source": "text_22_node_6",
+      "target": "text_22_node_11",
+      "relation": "before",
+      "support_text": "Didsbury清真寺被曝传播极端Salafist思想，与利比亚民兵组织关联"
+    },
+    {
+      "source": "text_22_node_7",
+      "target": "text_22_node_8",
+      "relation": "before",
+      "support_text": "British police arrested eight people connected to Abedi on November 20, 2018, after the blast."
+    },
+    {
+      "source": "text_22_node_7",
+      "target": "text_22_node_9",
+      "relation": "before",
+      "support_text": "The level of sophistication of the attack is something that we have not seen since the attacks in London in 2005, Rizwaan Sabir, a counterterror expert at Liverpool John Moores University, told VICE News, adding that support had “definitely” been provided."
+    },
+    {
+      "source": "text_22_node_8",
+      "target": "text_22_node_9",
+      "relation": "before",
+      "support_text": "British officials said Abedi may have been trained in Syria by ISIS, prompting the UK’s terror threat level to be raised to the highest."
+    },
+    {
+      "source": "text_22_node_10",
+      "target": "text_22_node_11",
+      "relation": "before",
+      "support_text": "炸弹袭击者成长于一个面临极端主义的社区"
+    },
+    {
+      "source": "text_22_node_11",
+      "target": "text_22_node_7",
+      "relation": "before",
+      "support_text": "激进化路径导致Salman Ramadan Abedi实施恐怖袭击"
+    },
+    {
+      "source": "text_22_node_13",
+      "target": "text_22_node_14",
+      "relation": "before",
+      "support_text": "加入Zawahiri领导层后前往利比亚东部"
+    },
+    {
+      "source": "text_22_node_14",
+      "target": "text_22_node_15",
+      "relation": "before",
+      "support_text": "前往利比亚东部后运营基地组织网络"
+    },
+    {
+      "source": "text_22_node_21",
+      "target": "text_22_node_22",
+      "relation": "before",
+      "support_text": "Raphael Hostey礼拜后成为袭击目标"
+    },
+    {
+      "source": "text_22_node_22",
+      "target": "text_22_node_23",
+      "relation": "before",
+      "support_text": "击毙后立即逮捕关联人员"
+    },
+    {
+      "source": "text_22_node_24",
+      "target": "text_22_node_23",
+      "relation": "before",
+      "support_text": "法院判决与监禁关联"
+    }
+  ]
+}

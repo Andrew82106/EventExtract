@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_47_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸声在黑暗的酒店内响起，北约直升机尚未抵达",
+      "support_text": "Explosions echoed through the darkened hotel before a Nato helicopter could be heard overhead.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daood Mirakai在酒店五楼房间内滞留至烟雾从门下渗出",
+      "support_text": "Daood Mirakai stayed in his fifth-floor room at the top of the hotel until smoke started seeping under the door.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "因担心火灾升级为烧烤式攻击，Daood Mirakai带领人员转移至地下室",
+      "support_text": "I said we might as well get shot rather than get barbecued so we ran to the basement, he said.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_4",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "北约直升机从头顶传来声音",
+      "support_text": "before a Nato helicopter could be heard overhead",
+      "source_text": "text_47"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_47_node_1",
+      "target": "text_47_node_2",
+      "relation": "before",
+      "support_text": "before a Nato helicopter could be heard overhead"
+    },
+    {
+      "source": "text_47_node_1",
+      "target": "text_47_node_4",
+      "relation": "before",
+      "support_text": "Explosions echoed through the darkened hotel before a Nato helicopter could be heard overhead."
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_3",
+      "relation": "before",
+      "support_text": "until smoke started seeping under the door"
+    },
+    {
+      "source": "text_47_node_4",
+      "target": "text_47_node_2",
+      "relation": "before",
+      "support_text": "Daood Mirakai stayed in his fifth-floor room until smoke started seeping under the door."
+    }
+  ]
+}

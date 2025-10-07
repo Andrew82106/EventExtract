@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "text_142_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣称的燃料油罐车冲入伊拉克Hilla检查站，造成至少60人死亡",
+      "source_text": "text_142"
+    },
+    {
+      "id": "text_142_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰国宣称的自杀式爆炸在巴格达以南40公里的Iskandariya镇公园外发生，致26人死亡、71人受伤",
+      "source_text": "text_142"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_142_node_1",
+      "target": "text_142_node_2",
+      "relation": "before"
+    }
+  ]
+}

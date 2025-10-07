@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "三辆载有自杀式炸弹的卡车在2002年12月27日冲入格罗兹尼政府总部",
+      "support_text": "The Grozny truck bombing occurred on December 27, 2002, when three Chechen suicide bombers ran vehicles into the heavily guarded republic's government headquarters in the regional capital Grozny.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "袭击者身着联邦军服并携带通行证，通过前三道军事检查站",
+      "support_text": "The drivers of two vehicles reportedly wore federal military uniforms and carried official passes which allowed them through three successive military checkpoints on their way to the headquarters building.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "第四道检查站岗哨开枪拦截卡车，随后卡车冲入政府大楼引发爆炸",
+      "support_text": "A guard at the fourth and final checkpoint attempted to inspect the vehicles, and began firing on the vehicles as they drove through the checkpoint towards the building.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸使用相当于一吨 dynamite 的炸药，摧毁四层建筑结构",
+      "support_text": "The explosion by the equivalent of a ton of dynamite brought down the roof and floors of the four-story building.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "初期报告称最少2人死亡，最终确认83人遇难，210人受伤",
+      "support_text": "The first reports said of as few as two dead. Ultimately, Chechen officials said 83 people were killed (48 on the spot) and 210 were injured.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "切钦官员朱娜·巴蒂采娃等多人受伤，地方行政首脑阿赫马德·卡德罗夫未在现场",
+      "support_text": "Several Chechen administration officials were injured in the attack, including Deputy Prime Minister Zina Batyzheva (seriously wounded) and Chechen Security Council Secretary Rudnik Dudayev. The head of the pro-Russian administration in Chechnya, Akhmad Kadyrov, and his Prime Minister, Mikhail Babich, were not in the building at the time.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "联邦部队发言人称袭击由阿卜杜勒-瓦利德和沙米尔·巴沙耶夫策划",
+      "support_text": "Colonel Ilya Shabalkin, spokesman for the joint federal forces in Chechnya, said the bombing was organized by Chechen rebel field commanders Abu al-Walid and Shamil Basayev.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴沙耶夫声称通过遥控装置引爆炸弹并承担全部责任",
+      "support_text": "Basayev claimed responsibility for the planning and execution of the attack, saying that he personally detonated the bomb by remote control.",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_3",
+      "relation": "before",
+      "support_text": "allowed them through three successive military checkpoints on their way to the headquarters building... began firing on the vehicles as they drove through the checkpoint"
+    },
+    {
+      "source": "text_3_node_3",
+      "target": "text_3_node_4",
+      "relation": "before",
+      "support_text": "began firing... explosion by the equivalent of a ton of dynamite brought down the roof"
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_node_5",
+      "relation": "before",
+      "support_text": "brought down the roof and floors... 83 people were killed (48 on the spot) and 210 were injured"
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_node_6",
+      "relation": "before",
+      "support_text": "brought down the roof... Several Chechen administration officials were injured"
+    },
+    {
+      "source": "text_3_node_7",
+      "target": "text_3_node_8",
+      "relation": "before",
+      "support_text": "said the bombing was organized by... Basayev claimed responsibility"
+    }
+  ]
+}

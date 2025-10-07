@@ -21,7 +21,7 @@ from mergeGraph import GraphMerger
 class UnifiedEvaluator:
     """统一评测器：支持递进式合并评测、分层权重评测、三层事件类型评测"""
     
-    def __init__(self, graphs_dir, ground_truth_path, output_dir, attack_type):
+    def __init__(self, graphs_dir, ground_truth_path, output_dir, attack_type, max_file_count=None):
         """
         初始化评测器
         
@@ -30,6 +30,10 @@ class UnifiedEvaluator:
             ground_truth_path (str): ground truth数据路径
             output_dir (str): 输出目录路径
             attack_type (str): 攻击类型
+            max_file_count (int, list, or None): 每个目录的最大文件数量限制
+                - None: 不限制
+                - int: 所有目录使用相同的限制
+                - list: 每个目录对应一个限制值，长度必须与 graphs_dir 相同
         """
         # 标准化 graphs_dir 为列表格式
         if isinstance(graphs_dir, str):
@@ -38,6 +42,21 @@ class UnifiedEvaluator:
             self.graphs_dir_list = graphs_dir
         else:
             raise ValueError("graphs_dir 必须是字符串或字符串列表")
+        
+        # 标准化 max_file_count 为列表格式
+        if max_file_count is None:
+            # 不限制
+            self.max_file_count_list = [None] * len(self.graphs_dir_list)
+        elif isinstance(max_file_count, int):
+            # 所有目录使用相同限制
+            self.max_file_count_list = [max_file_count] * len(self.graphs_dir_list)
+        elif isinstance(max_file_count, list):
+            # 每个目录单独限制
+            if len(max_file_count) != len(self.graphs_dir_list):
+                raise ValueError(f"max_file_count 列表长度({len(max_file_count)})必须与 graphs_dir 列表长度({len(self.graphs_dir_list)})相同")
+            self.max_file_count_list = max_file_count
+        else:
+            raise ValueError("max_file_count 必须是 None、int 或 list")
         
         self.graphs_dir = graphs_dir
         self.ground_truth_path = ground_truth_path
@@ -68,24 +87,42 @@ class UnifiedEvaluator:
             self.logger.printLog(f"从 {self.graphs_dir_list[0]} 加载图文件...")
         else:
             self.logger.printLog(f"从 {len(self.graphs_dir_list)} 个目录加载图文件...")
-            for dir_path in self.graphs_dir_list:
-                self.logger.printLog(f"  - {dir_path}")
+            for i, dir_path in enumerate(self.graphs_dir_list):
+                limit_info = f" (限制最多 {self.max_file_count_list[i]} 个文件)" if self.max_file_count_list[i] else ""
+                self.logger.printLog(f"  - {dir_path}{limit_info}")
         
         graph_files = []
         
         # 遍历所有目录
-        for graphs_dir in self.graphs_dir_list:
+        for dir_idx, graphs_dir in enumerate(self.graphs_dir_list):
             if not os.path.exists(graphs_dir):
                 self.logger.printLog(f"警告: 目录不存在: {graphs_dir}")
                 continue
-                
+            
+            # 收集当前目录的所有图文件
+            dir_files = []
             for filename in os.listdir(graphs_dir):
-                if filename.startswith('graph_') and filename.endswith('.json') and 'merged' not in filename:
+                if filename.endswith('.json') and 'merged' not in filename:
                     file_path = os.path.join(graphs_dir, filename)
-                    graph_files.append(file_path)
+                    dir_files.append(file_path)
+            
+            # 按文件名排序
+            dir_files.sort()
+            
+            # 应用最大文件数量限制
+            max_count = self.max_file_count_list[dir_idx]
+            if max_count is not None and len(dir_files) > max_count:
+                self.logger.printLog(f"  ! 目录 {os.path.basename(graphs_dir)} 有 {len(dir_files)} 个文件，限制为 {max_count} 个")
+                # 随机采样（保持随机种子以便复现）
+                random.seed(42)
+                dir_files = random.sample(dir_files, max_count)
+                dir_files.sort()  # 重新排序以保持一致性
+                self.logger.printLog(f"    已随机选择 {max_count} 个文件")
+            
+            # 添加到总列表
+            graph_files.extend(dir_files)
         
-        # 按文件名排序
-        graph_files.sort()
+        # 不再进行全局排序，保持各目录文件的相对顺序
         
         for file_path in graph_files:
             try:
@@ -728,15 +765,28 @@ def main():
     
     # 多目录合并评测示例：
     GRAPHS_DIR = [
-        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model1/suicide_ied",
-        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model2/suicide_ied",
-        # "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/model2/suicide_ied"
+        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model1/glm-4-flash/suicide_ied",
+        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm4.6/suicide_ied",
+        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm-z1/suicide_ied",
+        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model1/glm-z1/suicide_ied",
+        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model1/glm4.6/suicide_ied",
     ]
+
+    # 限制目录中文件最大数量
+    MAX_FILE_COUNT = [
+        0,
+        1000,
+        0,
+        0,
+        1000
+    ]
+
+    assert len(GRAPHS_DIR) == len(MAX_FILE_COUNT)
     
     # Ground Truth路径
-    # GROUND_TRUTH_PATH = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_data/event_graphs_train.json"
+    GROUND_TRUTH_PATH = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_data/event_graphs_train.json"
     # GROUND_TRUTH_PATH = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_data/event_graphs_test.json"
-    GROUND_TRUTH_PATH = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_data/event_graphs_dev.json"
+    # GROUND_TRUTH_PATH = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/dataset/processedData/extracted_data/event_graphs_dev.json"
     
     # 输出目录
     OUTPUT_DIR = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/unified_evaluation"
@@ -746,7 +796,7 @@ def main():
     
     # 递进式评测参数
     MAX_LEVEL = None  # None表示测试到全合并，或指定具体数字如20
-    NUM_SAMPLES = 5  # 中间层级的采样数量
+    NUM_SAMPLES = 3  # 中间层级的采样数量
     
     # ==================================================
     
@@ -755,7 +805,8 @@ def main():
         graphs_dir=GRAPHS_DIR,
         ground_truth_path=GROUND_TRUTH_PATH,
         output_dir=OUTPUT_DIR,
-        attack_type=ATTACK_TYPE
+        attack_type=ATTACK_TYPE,
+        max_file_count=MAX_FILE_COUNT
     )
     
     # 运行递进式图合并评测（包含三层事件类型评测）

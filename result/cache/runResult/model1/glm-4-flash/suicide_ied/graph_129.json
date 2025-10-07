@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_129_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "巴格达迪在伊德利卜省停留数月，试图通过走私网络将家人转移至土耳其",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克情报机构通过追踪走私网络，锁定巴格达迪藏身于哈拉比位于伊德利卜的化合物",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "巴格达迪在哈拉比处停留超5天，化合物包含地下设施",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "哈拉比被证实为边境走私者，其活动暴露巴格达迪藏身位置",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "HTS战士发现巴格达迪曾在化合物附近活动，并确认哈拉比与哈马斯丁组织关联",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "美国在凌晨突袭化合物，巴格达迪在隧道内引爆自杀背心被击毙",
+      "source_text": "text_129"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_129_node_1",
+      "target": "text_129_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_2",
+      "target": "text_129_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_3",
+      "target": "text_129_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_4",
+      "target": "text_129_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_5",
+      "target": "text_129_node_6",
+      "relation": "before"
+    }
+  ]
+}

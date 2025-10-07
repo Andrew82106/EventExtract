@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "text_145_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两名巴勒斯坦自杀式炸弹袭击者在特拉维夫剧院外几乎同时引爆炸弹，造成3名路人死亡、40余人受伤",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "罗马尼亚目击者描述爆炸现场惨状，称看到大量伤亡者和伤者尖叫",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰抵抗运动宣称对袭击负责，指责以色列无法阻止恐怖主义",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴勒斯坦权力机构谴责袭击但未采取有效反制，以色列指责其纵容",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "特拉维夫性工作者称曾试图与袭击者发生关系但被拒绝",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸前5分钟目击者尝试报警但未成功",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "西岸发生交火导致以军士兵和巴武装分子各1人死亡",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "加沙地带遭以色列直升机火箭袭击，摧毁疑似炸弹工厂",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "两人试图渗透以色列边境遭击毙，拉马兰两儿童误触爆炸物身亡",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_10",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "周二公交车袭击中丧生的早产婴儿在本日死亡，成为以色列最年轻受害者",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "布什在华盛顿表示正推进推翻阿拉法特的目标",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_12",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "",
+      "description": "巴勒斯坦权力机构考虑任命总理分担阿拉法特权力",
+      "source_text": "text_145"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_145_node_1",
+      "target": "text_145_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_1",
+      "target": "text_145_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_1",
+      "target": "text_145_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_1",
+      "target": "text_145_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_3",
+      "target": "text_145_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_3",
+      "target": "text_145_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_6",
+      "target": "text_145_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_7",
+      "target": "text_145_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_8",
+      "target": "text_145_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_11",
+      "target": "text_145_node_12",
+      "relation": "before"
+    }
+  ]
+}

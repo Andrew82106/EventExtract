@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_116_node_1",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国警方透露曼彻斯特自杀式炸弹犯Salman Abedi的轻微犯罪过去",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_2",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "曼彻斯特警察局长Ian Hopkins表示Abedi曾因盗窃、收赃和袭击被记录在案，但从未被标记为有激进观点",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击事件发生在曼彻斯特体育馆附近，造成22人死亡，116人受伤，袭击者Abedi是利比亚裔，曾参与利比亚内战",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_4",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "有报道称美国当局曾警告英国MI5情报机构关于Abedi的情况，引发对情报机构是否遗漏重要线索的质疑",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_5",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国警方发布Abedi携带大型蓝色行李箱的监控图像，并呼吁提供信息",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_6",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在曼彻斯特附近搜索垃圾堆，以寻找Abedi可能丢弃的物品",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abedi的兄弟Hashem和父亲Ramadan在利比亚被逮捕，被指为伊斯兰国（ISIS）成员",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "曼彻斯特维多利亚火车站自袭击事件后首次重新开放",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "曼彻斯特出生的Oasis乐队主唱Liam Gallagher将进行慈善演唱会，作为对袭击受害者的悼念",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "曼彻斯特维多利亚火车站出现纪念标语和鲜花，以纪念袭击受害者",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_11",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ian Hopkins表示未来的重要工作是与年轻人合作，了解他们为何感到孤立并受激进思想影响",
+      "source_text": "text_116"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_116_node_1",
+      "target": "text_116_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_2",
+      "target": "text_116_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_3",
+      "target": "text_116_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_3",
+      "target": "text_116_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_4",
+      "target": "text_116_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_5",
+      "target": "text_116_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_6",
+      "target": "text_116_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_8",
+      "target": "text_116_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_9",
+      "target": "text_116_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_10",
+      "target": "text_116_node_11",
+      "relation": "before"
+    }
+  ]
+}

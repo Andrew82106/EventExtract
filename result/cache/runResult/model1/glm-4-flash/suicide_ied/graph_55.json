@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_55_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰国宣称对喀布尔的阿富汗之声新闻机构办公室和邻边的什叶派文化中心发动了自杀炸弹袭击",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀袭击由一名身穿炸弹背心的炸弹袭击者执行",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "同一地区发生了三起其他爆炸",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成数十人死亡",
+      "source_text": "text_55"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_2",
+      "target": "text_55_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_3",
+      "target": "text_55_node_4",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "id": "text_118_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Loai al-Saqa was convicted for masterminding the attacks on the UK consulate, two synagogues, and an HSBC bank branch.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Six Turkish citizens were convicted of organising the bombings.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_3",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "A total of 74 people were tried, with many receiving lighter sentences and 26 being acquitted.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "Several defendants shouted 'God is great' as the verdicts were read out in court.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_5",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "The judge ruled that five sentenced to life, including Saqa, should not benefit from sentence reductions or amnesties.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "A group calling themselves Warriors for Islam planned the attacks on the direct orders of Osama Bin Laden.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_7",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "Many defendants admitted attending training camps in Afghanistan for Islamic extremists but denied involvement in the Istanbul attacks.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_8",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "Saqa was described as a high-level operative for al-Qaeda and denied involvement in the attacks.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Fevzi Yitiz, Yusuf Polat, Baki Yigit, Osman Eken, and Adnan Ersoz were sentenced to life in prison for their roles in the attacks.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Seyit Ertul was convicted of leading an al-Qaeda cell in Konya and sentenced to 18 years in prison.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_11",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hamid Obysi was sentenced to 12-and-a-half years for membership in al-Qaeda, bomb-making, and producing false identity cards.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_12",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Twenty-nine people received sentences of six years and three months, and 10 more were sentenced to three years and nine months for helping the bombings.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_13",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "UK Foreign Secretary Margaret Beckett welcomed the verdicts, calling the acts abhorrent and specifically targeting British interests.",
+      "source_text": "text_118"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_118_node_1",
+      "target": "text_118_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_118_node_2",
+      "target": "text_118_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_118_node_3",
+      "target": "text_118_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_118_node_4",
+      "target": "text_118_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_118_node_5",
+      "target": "text_118_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_118_node_6",
+      "target": "text_118_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_118_node_7",
+      "target": "text_118_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_118_node_8",
+      "target": "text_118_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_118_node_9",
+      "target": "text_118_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_118_node_10",
+      "target": "text_118_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_118_node_11",
+      "target": "text_118_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_118_node_12",
+      "target": "text_118_node_13",
+      "relation": "before"
+    }
+  ]
+}

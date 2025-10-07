@@ -1,0 +1,411 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式袭击者驾驶一辆装有炸弹的汽车，目标是恰巴哈尔的警察总部。",
+      "support_text": "Rahmdel Bameri, governor of Sistan-Baluchestan province, said a bomb-filled vehicle was used to target the police station by the suicide attacker.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "警察拦下这辆装满炸药的汽车并向司机开火。",
+      "support_text": "“Police stopped the explosive-laden car and started firing at the driver …",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击者在警察总部附近引爆了爆炸物。",
+      "support_text": "...who then set off the explosion near the police headquarters in Chabahar,” said Bameri.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击造成4名警察死亡，42人受伤，现场升起浓烟。",
+      "support_text": "Four policemen were killed and 42 other people were wounded in a suicide car bomb attack on a police headquarters in Iran’s southeast on Thursday.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "逊尼派武装组织“安萨尔·弗尔坎”声称对此次袭击负责。",
+      "support_text": "The SITE Intelligence Group reported that Sunni armed group Ansar al-Furqan claimed responsibility for the attack.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗外交部长指责一个外国势力卷入了这次袭击。",
+      "support_text": "Iran’s Foreign Minister Javad Zarif accused a foreign power of involvement without naming a specific country.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度外交部谴责了这次“卑鄙的恐怖袭击”。",
+      "support_text": "The Indian foreign ministry condemned Thursday’s “despicable terrorist attack”.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "这个以什叶派为主的国家长期以来一直受到来自毒品走私者和分裂分子的暴力困扰。",
+      "support_text": "这个以什叶派为主的国家长期以来一直受到来自毒品走私者和分裂分子的暴力困扰。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "国家电视台Press TV报道了袭击事件。",
+      "support_text": "国家电视台Press TV报道了袭击事件。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Press TV在报道时引用了安全和地方官员的话。",
+      "support_text": "Press TV在报道时引用了安全和地方官员的话。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "国家媒体也报道了该地区的枪击事件。",
+      "support_text": "国家媒体也报道了该地区的枪击事件。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rahmdel Bameri向媒体陈述了袭击事件的细节，包括袭击者使用炸弹汽车的目标，以及警察拦停汽车、开火后袭击者引爆爆炸物的过程。",
+      "support_text": "Rahmdel Bameri, governor of Sistan-Baluchestan province, said a bomb-filled vehicle was used to target the police station by the suicide attacker. “Police stopped the explosive-laden car and started firing at the driver … who then set off the explosion near the police headquarters in Chabahar,” said Bameri.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "网上发布了显示袭击现场的图片",
+      "support_text": "(有人)在网上发布了图片",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "图片显示袭击地点升起浓烟",
+      "support_text": "(网上发布的)图片显示了浓烟升起的景象",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗在过去已经阐明了其立场（即此类罪行不会不受惩罚）。",
+      "support_text": "As we’ve made clear in the past, such crimes won’t go unpunished",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "此类罪行将不会逍遥法外（会受到惩罚）。",
+      "support_text": "such crimes won’t go unpunished",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "德黑兰指责其地区对手沙特阿拉伯和美国资助武装团体。",
+      "support_text": "Tehran has long accused its regional rival Saudi Arabia and the United States of funding such groups.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "沙特阿拉伯和美国被指控为武装团体提供资金。",
+      "support_text": "Saudi Arabia and the United States are accused of funding armed groups.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "利雅得（沙特）和华盛顿（美国）否认了相关指控。",
+      "support_text": "Both Riyadh and Washington deny the charge.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_13",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗安全部门抓获了极端分子。",
+      "support_text": "Our security services have captured the extremists.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_14",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "扎里夫要求听众记住他的话（作为一个承诺或警告）。",
+      "support_text": "Mark my words.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_15",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗承诺将把恐怖分子及其幕后主使绳之以法。",
+      "support_text": "We will bring terrorists & their masters to justice.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子在伊朗西南部城市阿瓦士的一个军事阅兵上开火。",
+      "support_text": "武装分子于九月在伊朗西南部城市阿瓦士的一个军事阅兵上行上开火。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗加强了边境地区的安保措施。",
+      "support_text": "伊朗在九月袭击事件后加强了边境地区的安保措施。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_18",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "该城市主办了伊朗和印度在阿曼湾的联合港口项目的运营。",
+      "support_text": "该城市主办了伊朗和印度在阿曼湾的联合港口项目的运营。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_19",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "恰巴哈尔港正在由印度资助开发。",
+      "support_text": "恰巴哈尔港正在由印度资助开发。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "恰巴哈尔港被（人们）描述为印度的‘黄金门户’。",
+      "support_text": "恰巴哈尔港被（人们）描述为印度的‘黄金门户’。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_21",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "恰巴哈尔港将帮助促进与内陆阿富汗和中亚的贸易联系。",
+      "support_text": "恰巴哈尔港将帮助促进与内陆阿富汗和中亚的贸易联系。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "恰巴哈尔港将绕过其地区对手巴基斯坦。",
+      "support_text": "恰巴哈尔港将绕过其地区对手巴基斯坦。",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_2",
+      "relation": "before",
+      "support_text": "Rahmdel Bameri, governor of Sistan-Baluchestan province, said a bomb-filled vehicle was used to target the police station by the suicide attacker. “Police stopped the explosive-laden car and started firing at the driver …"
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_3",
+      "relation": "before",
+      "support_text": "“Police stopped the explosive-laden car and started firing at the driver … who then set off the explosion near the police headquarters in Chabahar,” said Bameri."
+    },
+    {
+      "source": "text_3_node_3",
+      "target": "text_3_node_4",
+      "relation": "before",
+      "support_text": "Four policemen were killed and 42 other people were wounded in a suicide car bomb attack on a police headquarters in Iran’s southeast on Thursday."
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_node_5",
+      "relation": "before",
+      "support_text": "Four policemen were killed and 42 other people were wounded in a suicide car bomb attack on a police headquarters in Iran’s southeast on Thursday. The SITE Intelligence Group reported that Sunni armed group Ansar al-Furqan claimed responsibility for the attack."
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_node_6",
+      "relation": "before",
+      "support_text": "“Foreign-backed terrorists kill and wound innocents in Chabahar. As we’ve made clear in the past, such crimes won’t go unpunished,” Zarif said on Twitter."
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_node_7",
+      "relation": "before",
+      "support_text": "The Indian foreign ministry condemned Thursday’s “despicable terrorist attack”."
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_new_node_2",
+      "relation": "before",
+      "support_text": "袭击造成伤亡（node_4）之后，媒体开始进行报道（new_node_2, temporal_order=3）。"
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_new_node_5",
+      "relation": "before",
+      "support_text": "袭击造成伤亡（node_4）后，官员Rahmdel Bameri向媒体陈述了事件的详细经过（new_node_5）。"
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_new_node_10",
+      "relation": "before",
+      "support_text": "根据temporal_order，袭击事件(node_4)发生在德黑兰的背景指控(temporal_order=5)之前。"
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_new_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order，袭击事件(node_4)发生在抓获极端分子(temporal_order=2)之后，但此事件为后续声明，逻辑上应在袭击后。"
+    },
+    {
+      "source": "text_3_node_6",
+      "target": "text_3_new_node_8",
+      "relation": "before",
+      "support_text": "根据temporal_order，扎里夫的指责(node_6, temporal_order=6)发生在阐明立场(temporal_order=4)之后，但两者在同一声明中，逻辑上阐明立场是背景。"
+    },
+    {
+      "source": "text_3_new_node_1",
+      "target": "text_3_node_1",
+      "relation": "before",
+      "support_text": "plague事件（temporal_order=1）作为背景，发生在具体袭击（node_1）之前。"
+    },
+    {
+      "source": "text_3_new_node_2",
+      "target": "text_3_new_node_3",
+      "relation": "before",
+      "support_text": "Press TV先报道了袭击（new_node_2），然后在报道中引用了官员的话（new_node_3）。"
+    },
+    {
+      "source": "text_3_new_node_3",
+      "target": "text_3_new_node_4",
+      "relation": "before",
+      "support_text": "在Press TV的报道（new_node_3）之后，国家媒体也进行了报道（new_node_4）。"
+    },
+    {
+      "source": "text_3_new_node_6",
+      "target": "text_3_new_node_7",
+      "relation": "before",
+      "support_text": "根据temporal_order，发布图片(temporal_order=3)发生在图片显示内容(temporal_order=4)之前。"
+    },
+    {
+      "source": "text_3_new_node_8",
+      "target": "text_3_new_node_9",
+      "relation": "before",
+      "support_text": "根据temporal_order，阐明立场(temporal_order=4)发生在罪行不受惩罚(temporal_order=8)之前。"
+    },
+    {
+      "source": "text_3_new_node_9",
+      "target": "text_3_new_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order，罪行不受惩罚(temporal_order=8)发生在要求记住话语(temporal_order=7)之后，但逻辑上两者紧密相关。"
+    },
+    {
+      "source": "text_3_new_node_10",
+      "target": "text_3_new_node_12",
+      "relation": "before",
+      "support_text": "根据temporal_order，指控(temporal_order=5)发生在否认(temporal_order=5)之前或同时，但逻辑上指控在前。"
+    },
+    {
+      "source": "text_3_new_node_14",
+      "target": "text_3_new_node_15",
+      "relation": "before",
+      "support_text": "根据temporal_order，要求记住话语(temporal_order=7)发生在绳之以法(temporal_order=8)之前。"
+    },
+    {
+      "source": "text_3_new_node_16",
+      "target": "text_3_new_node_17",
+      "relation": "before",
+      "support_text": "伊朗在九月袭击事件后加强了边境地区的安保措施。"
+    },
+    {
+      "source": "text_3_new_node_18",
+      "target": "text_3_new_node_20",
+      "relation": "before",
+      "support_text": "根据 temporal_order，事件(host, order=1)发生在事件(describe, order=2)之前。"
+    },
+    {
+      "source": "text_3_new_node_19",
+      "target": "text_3_new_node_20",
+      "relation": "before",
+      "support_text": "根据 temporal_order，事件(develop, order=1)发生在事件(describe, order=2)之前。"
+    },
+    {
+      "source": "text_3_new_node_20",
+      "target": "text_3_new_node_21",
+      "relation": "before",
+      "support_text": "根据 temporal_order，事件(describe, order=2)发生在事件(boost, order=3)之前。"
+    },
+    {
+      "source": "text_3_new_node_20",
+      "target": "text_3_new_node_22",
+      "relation": "before",
+      "support_text": "根据 temporal_order，事件(describe, order=2)发生在事件(bypass, order=3)之前。"
+    }
+  ]
+}

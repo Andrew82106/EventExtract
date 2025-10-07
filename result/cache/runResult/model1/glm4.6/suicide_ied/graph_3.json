@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1998年，美国驻肯尼亚首都内罗毕的大使馆遭到炸弹袭击。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月28日，一架以色列客机在蒙巴萨起飞时遭遇导弹袭击，但未被击中。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "约20分钟后，一辆载有自杀式炸弹袭击者的汽车冲入蒙巴萨的天堂饭店并引爆，造成16人死亡。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "同一天，以色列贝特谢安的一个利库德党办公室遭遇枪击，造成6人死亡。",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_4",
+      "relation": "before"
+    }
+  ]
+}

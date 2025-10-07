@@ -29,7 +29,7 @@ def get_graphs_path(attack_type):
 
 
 # 采样配置
-MAX_TEXT_SAMPLES = 150
+MAX_TEXT_SAMPLES = 20
 
 # 缓存配置
 CACHE_ROOT = os.path.join(RESULT_ROOT, 'cache')
@@ -38,7 +38,7 @@ SAMPLING_RESULTS_CACHE = os.path.join(CACHE_ROOT, 'sampling_results.json')  # �
 USE_SAMPLING_CACHE = False  # 是否启用智能采样缓存
 
 # 断点续传配置
-ENABLE_RESUME = True  # 是否启用断点续传（跳过已处理的文本）
+ENABLE_RESUME = False  # 是否启用断点续传（跳过已处理的文本）
 FAILED_TEXTS_LOG = os.path.join(CACHE_ROOT, 'failed_texts.json')  # 失败文本记录
 
 # LLM重试配置

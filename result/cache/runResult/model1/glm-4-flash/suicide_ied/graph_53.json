@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_53_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰国自杀式炸弹袭击了阿富汗首都喀布尔通往一个什叶派清真寺的路，造成至少29人死亡。",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "公共卫生部表示，袭击中另有52人受伤。",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "印度强烈谴责喀布尔的恐怖袭击，并声明愿意向战乱中的阿富汗提供一切可能的援助。",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "印度外交部表示，这次袭击不仅是针对阿富汗人民的攻击，也是针对他们的身份和文化的攻击。",
+      "source_text": "text_53"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_53_node_1",
+      "target": "text_53_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_2",
+      "target": "text_53_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_3",
+      "target": "text_53_node_4",
+      "relation": "before"
+    }
+  ]
+}

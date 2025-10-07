@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "id": "text_21_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1992年7月阿根廷以色列大使馆遭爆炸袭击，造成29人死亡",
+      "support_text": "1992年7月阿根廷以色列大使馆遭爆炸袭击，造成29人死亡",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年7月18日布宜诺斯艾利斯犹太社区中心AMIA遭汽车炸弹袭击，85人死亡、300人受伤",
+      "support_text": "1994年7月18日布宜诺斯艾利斯犹太社区中心AMIA遭汽车炸弹袭击，85人死亡、300人受伤",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷检察官指控伊朗前总统拉菲桑贾尼及7名涉案者，指控其指使黎巴嫩真主党实施袭击",
+      "support_text": "阿根廷检察官指控伊朗前总统拉菲桑贾尼及7名涉案者，指控其指使黎巴嫩真主党实施袭击",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗外交部将袭击定性为'犹太复国主义阴谋'，同时坚称与事件无关",
+      "support_text": "伊朗外交部将袭击定性为'犹太复国主义阴谋'，同时坚称与事件无关",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "真主党公开否认参与袭击，并称已证实涉案人员伊布拉欣·赫苏斯·伯罗在黎巴嫩与以色列冲突中死亡",
+      "support_text": "真主党公开否认参与袭击，并称已证实涉案人员伊布拉欣·赫苏斯·伯罗在黎巴嫩与以色列冲突中死亡",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷政府持续追查未果，2022年11月宣布通过美阿联合情报行动锁定真主党成员作为嫌疑人",
+      "support_text": "Last November, an Argentine prosecutor said a member of Hezbollah was behind the attack and had been identified in a joint operation by Argentine intelligence and the FBI",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_7",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "案件历经30年调查，仍无最终司法定论，阿根廷现政府重申追责决心",
+      "support_text": "案件历经30年调查，仍无最终司法定论，阿根廷现政府重申追责决心",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "黎巴嫩真主党执行恐怖袭击",
+      "support_text": "黎巴嫩真主党执行恐怖袭击",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hoseyni将新捏造的事实纳入阴谋框架",
+      "support_text": "Hoseyni表示新捏造的事实在阴谋框架内进行",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阴谋框架内的系统性操作",
+      "support_text": "阴谋在框架内进行",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "转移国际社会注意力以规避以色列罪行",
+      "support_text": "转移世界注意力以避开以色列人对巴勒斯坦妇女儿童的罪行",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_12",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "针对巴勒斯坦妇女儿童的系统性罪行",
+      "support_text": "以色列人对巴勒斯坦妇女儿童犯下罪行",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "案件被标记为传闻和指控",
+      "support_text": "案件被标记为传闻和指控",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "犹太团体称爆炸案具有伊朗背景",
+      "support_text": "犹太团体称爆炸案具有伊朗背景",
+      "source_text": "text_21"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_21_node_1",
+      "target": "text_21_node_2",
+      "relation": "before",
+      "support_text": "1992年7月阿根廷以色列大使馆遭爆炸袭击，造成29人死亡"
+    },
+    {
+      "source": "text_21_node_2",
+      "target": "text_21_node_3",
+      "relation": "before",
+      "support_text": "阿根廷检察官指控伊朗前总统拉菲桑贾尼及7名涉案者，指控其指使黎巴嫩真主党实施袭击"
+    },
+    {
+      "source": "text_21_node_3",
+      "target": "text_21_node_4",
+      "relation": "before",
+      "support_text": "伊朗外交部将袭击定性为'犹太复国主义阴谋'，同时坚称与事件无关"
+    },
+    {
+      "source": "text_21_node_3",
+      "target": "text_21_node_8",
+      "relation": "before",
+      "support_text": "阿根廷检察官指控伊朗前总统拉菲桑贾尼及7名涉案者，指控其指使黎巴嫩真主党实施袭击"
+    },
+    {
+      "source": "text_21_node_4",
+      "target": "text_21_node_5",
+      "relation": "before",
+      "support_text": "真主党公开否认参与袭击，并称已证实涉案人员伊布拉欣·赫苏斯·伯罗在黎巴嫩与以色列冲突中死亡"
+    },
+    {
+      "source": "text_21_node_4",
+      "target": "text_21_node_9",
+      "relation": "before",
+      "support_text": "基于伊朗外交部阴谋定性（node_4）的前置条件"
+    },
+    {
+      "source": "text_21_node_5",
+      "target": "text_21_node_7",
+      "relation": "before",
+      "support_text": "案件历经30年调查，仍无最终司法定论，阿根廷现政府重申追责决心"
+    },
+    {
+      "source": "text_21_node_6",
+      "target": "text_21_node_5",
+      "relation": "before",
+      "support_text": "Last November, an Argentine prosecutor said a member of Hezbollah was behind the attack and had been identified in a joint operation by Argentine intelligence and the FBI"
+    },
+    {
+      "source": "text_21_node_6",
+      "target": "text_21_node_7",
+      "relation": "before",
+      "support_text": "Last November, an Argentine prosecutor said a member of Hezbollah was behind the attack and had been identified in a joint operation by Argentine intelligence and the FBI"
+    },
+    {
+      "source": "text_21_node_9",
+      "target": "text_21_node_10",
+      "relation": "before",
+      "support_text": "Hoseyni的声明（node_9）触发框架内操作（node_10）"
+    },
+    {
+      "source": "text_21_node_10",
+      "target": "text_21_node_11",
+      "relation": "before",
+      "support_text": "框架内操作（node_10）导致注意力转移（node_11）"
+    },
+    {
+      "source": "text_21_node_11",
+      "target": "text_21_node_12",
+      "relation": "before",
+      "support_text": "注意力转移（node_11）掩盖目标罪行（node_12）"
+    },
+    {
+      "source": "text_21_node_13",
+      "target": "text_21_node_14",
+      "relation": "before",
+      "support_text": "基于案件标记为传闻和指控（node_13）的前置条件"
+    }
+  ]
+}

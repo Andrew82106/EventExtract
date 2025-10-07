@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "text_28_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "0300 GMT（约0600当地时间）塔吉设施入口发生自杀式爆炸，允许载有6名武装分子（佩戴爆衣）的车辆进入",
+      "support_text": "A suicide car bomb went off at the entrance of the facility in Taji at around 0600 local time (0300 GMT), allowing another vehicle carrying at least six attackers with explosive vests to enter...",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "武装分子声称4名持机枪战士杀害守卫，并点燃预先放置的汽车炸弹",
+      "support_text": "The militant group said in an online statement that four fighters with machine guns had killed the guards at the plant which it said the Iraqi army was using as a headquarters.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "增援部队到达后，武装分子引爆自杀式爆炸背心并与安全部队交火",
+      "support_text": "When reinforcements arrived, they set off a parked car bomb before clashing with the security forces and detonating their suicide vests.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队控制局势前，3个设施天然气储油罐被点燃",
+      "support_text": "A spokesman for Baghdad Operations Command said three of the facility’s gas storages were set alight before security forces were able to bring the situation under control.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克石油部确认未影响烹饪用气及电力生产",
+      "support_text": "Iraq’s Oil Ministry said the attack had not disrupted the plant’s production of gas for cooking and electricity production.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "电力部报告因Taji设施断供导致2座邻近电站停运",
+      "support_text": "But the Electricity Ministry said two nearby power stations had halted operations due to a cut in gas supplies from the Taji plant.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者描述听到爆炸声并目击设施内火球喷发、黑烟及持续约1小时的交火",
+      "support_text": "Video broadcast by Al Hadath TV showed a fireball surging from the plant. An employee who lives nearby said after hearing a powerful blast he saw flames and black smoke coming from inside the facility.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣称控制伊拉克北部西部，本周已发动多起致百人伤亡的袭击",
+      "support_text": "Islamic State, which controls swathes of the country’s north and west, has carried out a string of bombings this week that killed around 100 people.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿巴迪总理指出极端组织利用国内政治危机（政府系统改革争议）策划袭击",
+      "support_text": "Prime Minister Haider al-Abadi said on Saturday the militants were taking advantage of a political crisis in the country, sparked by his attempt to overhaul its quota-based governing system, to conduct bombings in areas under nominal government control.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国主导的打击极端组织联盟在Taji基地对伊拉克军队进行数月训练",
+      "support_text": "A U.S.-led coalition backing the Iraqi government in its fight against Islamic State has been training army forces for months at a military base located in Taji.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴格达南部郊区发生另一起爆炸，造成3死12伤",
+      "support_text": "Separate explosions in Baghdad’s southern outskirts on Sunday left three people dead and 12 wounded, police sources said.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "警车和军车赶赴火灾现场",
+      "support_text": "语义描述内容",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政治危机由配额制改革计划触发",
+      "support_text": "政治危机由配额制改革计划触发",
+      "source_text": "text_28"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_28_node_1",
+      "target": "text_28_node_2",
+      "relation": "before",
+      "support_text": "allowing another vehicle carrying at least six attackers with explosive vests to enter and clash with security forces"
+    },
+    {
+      "source": "text_28_node_2",
+      "target": "text_28_node_3",
+      "relation": "before",
+      "support_text": "When reinforcements arrived, they set off a parked car bomb before clashing with the security forces"
+    },
+    {
+      "source": "text_28_node_3",
+      "target": "text_28_node_4",
+      "relation": "before",
+      "support_text": "before security forces were able to bring the situation under control"
+    },
+    {
+      "source": "text_28_node_4",
+      "target": "text_28_node_5",
+      "relation": "before",
+      "support_text": "Iraq’s Oil Ministry said the attack had not disrupted the plant’s production"
+    },
+    {
+      "source": "text_28_node_4",
+      "target": "text_28_node_6",
+      "relation": "before",
+      "support_text": "due to a cut in gas supplies from the Taji plant"
+    },
+    {
+      "source": "text_28_node_4",
+      "target": "text_28_node_7",
+      "relation": "before",
+      "support_text": "Video broadcast by Al Hadath TV showed a fireball surging from the plant"
+    },
+    {
+      "source": "text_28_node_4",
+      "target": "text_28_node_12",
+      "relation": "before",
+      "support_text": "增援部队到达后，安全部队控制局势前"
+    },
+    {
+      "source": "text_28_node_8",
+      "target": "text_28_node_9",
+      "relation": "before",
+      "support_text": "Prime Minister Haider al-Abadi said on Saturday the militants were taking advantage of a political crisis"
+    },
+    {
+      "source": "text_28_node_8",
+      "target": "text_28_node_11",
+      "relation": "before",
+      "support_text": "Separate explosions in Baghdad’s southern outskirts on Sunday"
+    },
+    {
+      "source": "text_28_node_9",
+      "target": "text_28_node_13",
+      "relation": "before",
+      "support_text": "阿巴迪总理指出极端组织利用国内政治危机（政府系统改革争议）策划袭击"
+    },
+    {
+      "source": "text_28_node_10",
+      "target": "text_28_node_8",
+      "relation": "before",
+      "support_text": "has been training army forces for months at a military base located in Taji"
+    }
+  ]
+}

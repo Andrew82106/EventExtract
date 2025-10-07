@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_83_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年4月22日，全球基督教领袖谴责斯里兰卡复活节周日发生的爆炸事件，超过200人死亡，超过450人受伤，教堂和酒店是目标之一",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_2",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "教皇方济各在圣彼得广场表示对袭击感到“悲伤和痛苦”，并表达对受害者的同情",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_3",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "世界基督教会联合会秘书长奥拉夫·费克塞·特维特谴责袭击，并表达对受害者的祈祷",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_4",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "坎特伯雷大主教贾斯汀·韦利表示受影响者将得到全球数百万人的祈祷，并呼吁拒绝所有暴力和仇恨",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_5",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "科伦坡的圣公会主教迪利拉贾·卡纳加萨贝谴责这些恐怖行为，并向受害者家属表示深切慰问",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_6",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "主教呼吁彻底调查，并要求斯里兰卡政府确保宗教场所的安全，防止任何形式的暴力行为",
+      "source_text": "text_83"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_83_node_1",
+      "target": "text_83_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_83_node_3",
+      "target": "text_83_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_83_node_4",
+      "target": "text_83_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_83_node_5",
+      "target": "text_83_node_6",
+      "relation": "before"
+    }
+  ]
+}

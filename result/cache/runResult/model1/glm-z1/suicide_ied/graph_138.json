@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_138_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "9:18 am Thursday, a car bomb exploded inside the People's Procuratorate of Fuzhou",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "10 minutes later, a bomb exploded inside the Linchuan district government building",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "9:45 am, a third car bomb detonated near the Linchuan district Food and Drug Administration",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "4 pm: residents reported a fourth blast, dismissed by authorities",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "security guard critically injured at Linchuan district government building died in hospital",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "police confirmed suspect Qian Mingqi died at the blast site",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "windows shattered and car wreckage observed at People's Procuratorate building",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "eyewitness reported glass flying and dense smoke from Linchuan district government building",
+      "source_text": "text_138"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_138_node_1",
+      "target": "text_138_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_1",
+      "target": "text_138_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_2",
+      "target": "text_138_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_2",
+      "target": "text_138_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_2",
+      "target": "text_138_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_3",
+      "target": "text_138_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_5",
+      "target": "text_138_node_6",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_115_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kingsbury Hotel Colombo was opened for business after being a terrorist target on Easter Sunday.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "A wedding function was held in the hotel as part of the reopening.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_3",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Managing Director of Kingsbury Colombo announced that most of the restaurants are also open for business.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bookings for rooms are being accepted, with rooms expected to be ready by Friday.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "Minor repairs are being completed in the hotel.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_6",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kingsbury Hotel will receive Rs 25 million from the National Insurance Trust Fund due to being insulated from Terrorism insurance.",
+      "source_text": "text_115"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_115_node_1",
+      "target": "text_115_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_115_node_2",
+      "target": "text_115_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_115_node_3",
+      "target": "text_115_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_115_node_4",
+      "target": "text_115_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_115_node_5",
+      "target": "text_115_node_6",
+      "relation": "before"
+    }
+  ]
+}

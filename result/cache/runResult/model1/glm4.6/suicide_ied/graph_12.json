@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_12_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年7月7日，阿富汗加兹尼发生了一起自杀式汽车炸弹袭击。",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成14人死亡，180人受伤。",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班声称对此次袭击负责。",
+      "source_text": "text_12"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_12_node_1",
+      "target": "text_12_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_12_node_1",
+      "target": "text_12_node_3",
+      "relation": "before"
+    }
+  ]
+}

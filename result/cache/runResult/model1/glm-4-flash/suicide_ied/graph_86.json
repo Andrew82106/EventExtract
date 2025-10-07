@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "id": "text_86_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "三个嫌疑人来自印度班加罗尔的同一家族，另外两个人的家族在中东是老朋友，他们都在英国共享住所。",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "所有嫌疑人除了一个都是NHS医院的医生，他们都是穆斯林年轻人，对他们的信仰非常虔诚。",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "五个嫌疑人是由他们的医生父母鼓励选择医学作为职业，因为医学在沙特阿拉伯和约旦等国家非常受欢迎。",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "由于中东国家医疗工作机会有限，许多医生从中东移民到英国和欧洲寻找更好的工作。",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "有怀疑认为，一些医生移民到英国不仅仅是为了救死扶伤，而是为了从事恐怖活动。",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_6",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "在伊拉克首都巴格达长大的Bilal Talal Abdulla在2004年医学毕业后，因为美国和英国的入侵，他的观点变得极端。",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_7",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abdulla在约旦遇到了脑外科医生Mohammed Asha，他们在父亲的好友介绍下相识，并保持联系。",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_8",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abdulla在2006年获得在英国工作的资格，但即使是最基本的移民安全检查也能发现他已经被严重激进化。",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abdulla在巴格达大学医学院的一位教授承认认识他，并称他在战后是最激进的学生之一。",
+      "source_text": "text_86"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_86_node_1",
+      "target": "text_86_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_86_node_2",
+      "target": "text_86_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_86_node_3",
+      "target": "text_86_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_86_node_4",
+      "target": "text_86_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_86_node_6",
+      "target": "text_86_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_86_node_7",
+      "target": "text_86_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_86_node_8",
+      "target": "text_86_node_9",
+      "relation": "before"
+    }
+  ]
+}

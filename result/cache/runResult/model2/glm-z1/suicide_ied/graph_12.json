@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_12_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年巴厘岛连环爆炸案造成202人死亡，包括88名澳大利亚公民",
+      "support_text": "for their role in the 2002 bombings that killed 202 people, including 88 Australians",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "印尼警方与澳大利亚联邦警察联合追捕三名主犯Amrozi、Mukhlas和Imam Samudra",
+      "support_text": "tracked down by a combination of the Indonesian national police, the Australian Federal Police and others",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "澳大利亚总理鲁德公开确认三犯已被定罪并称其行为为'杀人犯'",
+      "support_text": "they had been brought to justice",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "印尼政府宣布对三犯实施枪决，执行时间可能定于周六",
+      "support_text": "will face a firing squad, possibly as early as Saturday",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "鲁德表达对受害者家属的哀悼但重申澳大利亚政府反对死刑的立场",
+      "support_text": "the impact of the bombings on the victims' families made my 'heart weep'... our policy on the death penalty has changed",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_6",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "澳大利亚政府承诺继续对涉及本国公民的死刑案件进行外交干预",
+      "support_text": "the Government would continue to intervene in cases where an Australian citizen had received the death penalty",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "澳大利亚总理鲁德向电台网络传达信息",
+      "support_text": "Rudd向电台网络传达信息",
+      "source_text": "text_12"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_12_node_1",
+      "target": "text_12_node_2",
+      "relation": "before",
+      "support_text": "for their role in the 2002 bombings"
+    },
+    {
+      "source": "text_12_node_2",
+      "target": "text_12_node_3",
+      "relation": "before",
+      "support_text": "established their guilt"
+    },
+    {
+      "source": "text_12_node_3",
+      "target": "text_12_node_4",
+      "relation": "before",
+      "support_text": "Mr Rudd said the Bali bombers were 'murderers' but they had been brought to justice"
+    },
+    {
+      "source": "text_12_node_4",
+      "target": "text_12_node_5",
+      "relation": "before",
+      "support_text": "The three men... will face a firing squad"
+    },
+    {
+      "source": "text_12_node_4",
+      "target": "text_12_node_6",
+      "relation": "before",
+      "support_text": "the Government would continue to intervene"
+    },
+    {
+      "source": "text_12_node_4",
+      "target": "text_12_node_7",
+      "relation": "before",
+      "support_text": "执行枪决后鲁德通过电台网络传达信息"
+    }
+  ]
+}

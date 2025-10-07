@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_64_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式炸弹袭击者在巴基斯坦西部城市奎达的脊髓灰质炎根除中心外炸死至少15人，其中大部分是警察。",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹袭击发生在一辆刚到达中心为疫苗接种工作者提供护送的警察车上。",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦警方确认这是一起自杀式爆炸事件，并已从现场收集证据。",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致至少12名警察、1名准军事官员和2名平民死亡，另有25人受伤。",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦和邻国阿富汗是世界上仅存的两个脊髓灰质炎地方性流行国家。",
+      "source_text": "text_64"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_64_node_1",
+      "target": "text_64_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_64_node_2",
+      "target": "text_64_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_64_node_3",
+      "target": "text_64_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_64_node_4",
+      "target": "text_64_node_5",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_20_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名巴勒斯坦人从埃及穿越沙漠边境，搭乘以色列司机车辆后于1月30日在以色列埃拉特面包店实施自杀式爆炸",
+      "support_text": "a Palestinian walked from Egypt across the open desert border, hitched a ride from a wary Israeli motorist and then blew himself up on Monday inside a bakery in the Red Sea resort town of Eilat",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸造成3名在面包店工作的以色列人死亡，这是埃拉特首次遭受自杀式袭击",
+      "support_text": "Three Israelis who worked in the bakery were killed by the blast",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "埃拉特成为袭击目标，因以色列防御体系与旅行限制使西岸成为主要袭击源地的趋势被打破",
+      "support_text": "The town was apparently a target because Israel’s web of defenses and travel restrictions on Palestinians has made it extremely difficult for bombers to reach Israel from the West Bank, the source of virtually all suicide bombings in Israel in recent years.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击干扰了六年来停滞的以巴和谈重启努力，美国将于1月31日主办多边会谈",
+      "support_text": "The attack complicated the latest effort to restart Israeli-Palestinian negotiations, which have languished for six years. The United States will be the host of talks on Friday that will include European, Russian and United Nations officials",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "白宫警告若巴勒斯坦政府未能阻止恐怖主义，将损害巴勒斯坦人民建立独立国家的 aspirations",
+      "support_text": "The White House said in statement on Monday that if the Palestinian government failed to prevent terrorism, it would ‘undermine the aspirations of the Palestinian people for a state of their own.’",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "巴勒斯坦人从埃及步行穿越沙漠边境",
+      "support_text": "巴勒斯坦人从埃及步行穿越沙漠边境，搭乘以色列司机车辆后于1月30日在以色列埃拉特面包店实施自杀式爆炸",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴勒斯坦政府试图阻止恐怖主义",
+      "support_text": "巴勒斯坦政府试图阻止恐怖主义",
+      "source_text": "text_20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_2",
+      "relation": "before",
+      "support_text": "Three Israelis who worked in the bakery were killed by the blast"
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_3",
+      "relation": "before",
+      "support_text": "The town was apparently a target because Israel’s web of defenses and travel restrictions on Palestinians has made it extremely difficult for bombers to reach Israel from the West Bank"
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_4",
+      "relation": "before",
+      "support_text": "The attack complicated the latest effort to restart Israeli-Palestinian negotiations"
+    },
+    {
+      "source": "text_20_node_5",
+      "target": "text_20_node_4",
+      "relation": "before",
+      "support_text": "The United States will be the host of talks on Friday"
+    },
+    {
+      "source": "text_20_node_6",
+      "target": "text_20_node_1",
+      "relation": "before",
+      "support_text": "巴勒斯坦人从埃及步行穿越沙漠边境（事件发生时间早于爆炸）"
+    },
+    {
+      "source": "text_20_node_7",
+      "target": "text_20_node_4",
+      "relation": "before",
+      "support_text": "巴勒斯坦政府试图阻止恐怖主义（需在会谈前体现）"
+    }
+  ]
+}

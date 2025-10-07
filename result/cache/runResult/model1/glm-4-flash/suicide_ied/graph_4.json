@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "1980年萨南吉·甘地空难身亡，拉吉夫·甘地接替其议会席位",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1984年英迪拉·甘地遭锡克保镖刺杀，拉吉夫·甘地继任印度总理",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Personnel",
+      "event_subtype": "EndPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "1989年拉吉夫·甘地因选举失利主动辞职",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1991年大选中拉吉夫·甘地遇袭身亡，LTTE被指为凶手",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "遇袭事件导致至少14人死亡，包括至少14名平民",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "1991年大选中爆发大规模印穆冲突，已致200人死亡",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉吉夫·甘地遇袭终结尼赫鲁王朝统治，持续55年的政治家族影响力终结",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_node_7",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "text_45_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周二（事件前一日）发生自杀袭击，Awami National Party领袖Haroon Bilour在Peshawar Yakatoot社区殉国，共22人遇难",
+      "support_text": "On Tuesday, Awami National Party leader Haroon Bilour, among 22 others, was martyred in a suicide attack in Yakatoot neighbourhood of Peshawar.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周五（周六立案前一日）发生 Mastung地区政治集会自杀爆炸，造成128人死亡、150余人受伤，创国家历史伤亡纪录",
+      "support_text": "On Friday, a suicide blast at a political rally in Mastung martyred 128 people and injured more than 150, in one of the deadliest attacks in the country’s history.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六（事件当日）警方在Haved警局对JUI-F领袖车队遇袭事件立案，指控恐怖主义犯罪",
+      "support_text": "BANNU: Police registered on Saturday a first information report (FIR) against the attack on the convoy of Jamiat Ulema-e-Islam-Fazl (JUI-F) leader Akhram Khan Durrani. The case registered at Haved Police Station also includes terrorism charges.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六上午爆炸事件发生，Durrani车队在Haved巴扎附近遭遇轮胎附近爆炸，造成4死10伤",
+      "support_text": "A day earlier, at least four people were killed and 10 injured in an explosion near the JUI-F leader’s convoy as it was headed back from an election rally. Speaking to reporters after the attack, Durrani said the blast took place near the tyre of his jeep when he was passing through Haved Bazaar after addressing an election rally.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Durrani向记者发表声明",
+      "support_text": "Speaking to reporters after the attack, Durrani said the blast took place near the tyre of his jeep when he was passing through Haved Bazaar after addressing an election rally.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "Durrani向记者陈述爆炸事件",
+      "support_text": "Speaking to reporters after the attack, Durrani said the blast took place near the tyre of his jeep when he was passing through Haved Bazaar after addressing an election rally.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Durrani经过哈维德市场",
+      "support_text": "A day earlier, at least four people were killed and 10 injured in an explosion near the JUI-F leader’s convoy as it was headed back from an election rally.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Durrani在竞选集会上发表演讲",
+      "support_text": "Police registered on Saturday a first information report (FIR) against the attack on the convoy of Jamiat Ulema-e-Islam-Fazl (JUI-F) leader Akhram Khan Durrani.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "工人包围其越野车",
+      "support_text": "A day earlier, at least four people were killed and 10 injured in an explosion near the JUI-F leader’s convoy as it was headed back from an election rally.",
+      "source_text": "text_45"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_45_node_1",
+      "target": "text_45_node_2",
+      "relation": "before",
+      "support_text": "On Tuesday, Awami National Party leader Haroon Bilour, among 22 others, was martyred in a suicide attack in Yakatoot neighbourhood of Peshawar. On Friday, a suicide blast at a political rally in Mastung martyred 128 people and injured more than 150, in one of the deadliest attacks in the country’s history."
+    },
+    {
+      "source": "text_45_node_2",
+      "target": "text_45_node_4",
+      "relation": "before",
+      "support_text": "On Friday, a suicide blast at a political rally in Mastung martyled 128 people... This was the second major incident of pre-poll violence in Khyber Pakhtunkhwa this week."
+    },
+    {
+      "source": "text_45_node_4",
+      "target": "text_45_node_3",
+      "relation": "before",
+      "support_text": "A day earlier, at least four people were killed and 10 injured in an explosion near the JUI-F leader’s convoy... Police registered on Saturday a first information report (FIR) against the attack on the convoy."
+    },
+    {
+      "source": "text_45_node_5",
+      "target": "text_45_node_4",
+      "relation": "before",
+      "support_text": "Durrani在爆炸事件后向记者发表声明"
+    },
+    {
+      "source": "text_45_node_6",
+      "target": "text_45_node_4",
+      "relation": "before",
+      "support_text": "Durrani向记者陈述爆炸事件"
+    },
+    {
+      "source": "text_45_node_7",
+      "target": "text_45_node_4",
+      "relation": "before",
+      "support_text": "Durrani经过哈维德市场"
+    },
+    {
+      "source": "text_45_node_8",
+      "target": "text_45_node_4",
+      "relation": "before",
+      "support_text": "Durrani在竞选集会上发表演讲"
+    },
+    {
+      "source": "text_45_node_9",
+      "target": "text_45_node_4",
+      "relation": "before",
+      "support_text": "工人包围其越野车"
+    }
+  ]
+}

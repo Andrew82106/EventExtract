@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "text_80_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A group claiming allegiance to ISIS took responsibility for suicide attacks in Yemen's capital city, Sanaa.",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "At least one expert stated that the ISIS claim is not credible, suggesting AQAP as a more likely perpetrator.",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "During Friday's noon prayer, a suicide bomber detonated explosives at the al-Badr mosque, causing panic and further attacks.",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "By Friday evening, the death toll from the attacks on the mosques had risen to 137.",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "In February, the Houthis dissolved the parliament and placed President Hadi under house arrest, leading to his escape to Aden.",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "On Thursday, gun battles occurred between forces loyal to Hadi and those loyal to President Saleh in Aden.",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "An unidentified warplane attacked the presidential compound in Aden during the clashes, though Hadi was unhurt.",
+      "source_text": "text_80"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_80_node_1",
+      "target": "text_80_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_2",
+      "target": "text_80_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_3",
+      "target": "text_80_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_5",
+      "target": "text_80_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_6",
+      "target": "text_80_node_7",
+      "relation": "before"
+    }
+  ]
+}

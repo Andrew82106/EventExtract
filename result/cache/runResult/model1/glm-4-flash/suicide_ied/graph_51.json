@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_51_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式炸弹袭击者在伊朗边境附近炸死了27名伊朗革命卫队成员",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗革命卫队司令表示，实施袭击的自杀式炸弹袭击者和另一个激进分子都是巴基斯坦公民",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗指责巴基斯坦窝藏与边境地区袭击有关的激进分子，但这是首次明确提到巴基斯坦公民直接参与袭击",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗还指责区域 rival Saudi Arabia 煽动对伊朗逊尼穆斯林少数群体的暴力，但巴基斯坦和沙特阿拉伯否认任何角色",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "三个来自伊朗东南部锡斯坦和布哈拉省的伊朗人也参与了这个团伙，其中两人已被逮捕",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "革命卫队宣布在周一逮捕了三人",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "自称寻求为东部伊朗的巴尔uchi少数民族争取更大权利和生活条件的逊尼派组织 Jaish al Adl (正义之军) 宣称对袭击负责",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "革命卫队的副司令在纪念袭击遇难者的仪式上表示，沙特阿拉伯是地区和世界的邪恶之心",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "革命卫队司令表示，该团伙曾计划进行多次袭击，并准备了大量弹药和设备",
+      "source_text": "text_51"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_51_node_1",
+      "target": "text_51_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_51_node_2",
+      "target": "text_51_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_51_node_3",
+      "target": "text_51_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_51_node_4",
+      "target": "text_51_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_51_node_5",
+      "target": "text_51_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_51_node_6",
+      "target": "text_51_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_51_node_7",
+      "target": "text_51_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_51_node_8",
+      "target": "text_51_node_9",
+      "relation": "before"
+    }
+  ]
+}

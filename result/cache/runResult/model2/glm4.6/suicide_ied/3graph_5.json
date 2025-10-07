@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Eva和Ernest Weiss在二战期间待在集中营。",
+      "support_text": "Eva and Ernest Weiss were in concentration camps in World War II, and married in 1946 in Romania.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Eva和Ernest Weiss于1946年在罗马尼亚结婚。",
+      "support_text": "Eva and Ernest Weiss were in concentration camps in World War II, and married in 1946 in Romania.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "这对夫妇于1964年来到以色列，并定居在佩塔提克瓦。",
+      "support_text": "In 1964 the couple came to Israel and settled in Petah Tikva.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "在过去的三年里，他们选择了帕克酒店来庆祝逾越节家宴。",
+      "support_text": "and in the last three years chose the Park Hotel.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "恐怖分子引爆了爆炸装置，当场造成22人死亡，140人受伤。",
+      "support_text": "He detonated an explosive device, killing 22 immediately and injuring 140, seven of whom died later.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_8",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Eva和Ernest Weiss与他们的朋友George Yakobovitz一同在爆炸中丧生。",
+      "support_text": "Both were killed together with their good friend George Yakobovitz, who was at the same table.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者被确认为来自图勒凯尔姆的哈马斯伊宰·丁·卡桑旅成员。",
+      "support_text": "The bomber was identified as a member of the Hamas Iz a Din al-Kassam Brigades, from the West Bank city of Tulkarem, which is just 10 kilometers (six miles) east of Netanya.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Eva Weiss被安葬在佩塔提克瓦，与她丈夫Ernest的墓地在一起。",
+      "support_text": "Eva Weiss was laid to rest in Petah Tikva alongside her husband Ernest.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "250位客人刚刚坐下准备开始逾越节家宴。",
+      "support_text": "250 guests had just sat down to begin the seder",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "客人们开始逾越节家宴。",
+      "support_text": "250 guests had just sat down to begin the seder",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "恐怖分子走进了酒店的餐厅。",
+      "support_text": "On the eve of Passover, the terrorist walked into the dining room of the hotel",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "七名伤者后来死亡。",
+      "support_text": "injuring 140, seven of whom died later",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列曾请求逮捕这些恐怖分子。",
+      "support_text": "以色列曾请求逮捕这些恐怖分子。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "（未明确）执法机构将（被请求）逮捕这些恐怖分子。",
+      "support_text": "（未明确）执法机构将（被请求）逮捕这些恐怖分子。",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "Eva and Ernest Weiss were in concentration camps in World War II, and married in 1946 in Romania."
+    },
+    {
+      "source": "text_5_node_2",
+      "target": "text_5_node_3",
+      "relation": "before",
+      "support_text": "married in 1946 in Romania. In 1964 the couple came to Israel and settled in Petah Tikva."
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_5",
+      "relation": "before",
+      "support_text": "In 1964 the couple came to Israel and settled in Petah Tikva. ... in the last three years chose the Park Hotel."
+    },
+    {
+      "source": "text_5_node_5",
+      "target": "text_5_node_7",
+      "relation": "before",
+      "support_text": "in the last three years chose the Park Hotel. ... On the eve of Passover, the terrorist walked into the dining room of the hotel... He detonated an explosive device..."
+    },
+    {
+      "source": "text_5_node_7",
+      "target": "text_5_node_8",
+      "relation": "before",
+      "support_text": "He detonated an explosive device, killing 22 immediately... Both were killed together with their good friend George Yakobovitz..."
+    },
+    {
+      "source": "text_5_node_7",
+      "target": "text_5_node_9",
+      "relation": "before",
+      "support_text": "He detonated an explosive device... The bomber was identified as a member of the Hamas Iz a Din al-Kassam Brigades..."
+    },
+    {
+      "source": "text_5_node_7",
+      "target": "text_5_new_node_4",
+      "relation": "before",
+      "support_text": "爆炸造成140人受伤，其中七人后来死亡。"
+    },
+    {
+      "source": "text_5_node_8",
+      "target": "text_5_node_10",
+      "relation": "before",
+      "support_text": "Both were killed together with their good friend George Yakobovitz... Eva Weiss was laid to rest in Petah Tikva alongside her husband Ernest."
+    },
+    {
+      "source": "text_5_new_node_1",
+      "target": "text_5_new_node_2",
+      "relation": "before",
+      "support_text": "客人坐下后，开始家宴。"
+    },
+    {
+      "source": "text_5_new_node_2",
+      "target": "text_5_new_node_3",
+      "relation": "before",
+      "support_text": "家宴开始后，恐怖分子走了进来。"
+    },
+    {
+      "source": "text_5_new_node_3",
+      "target": "text_5_node_7",
+      "relation": "before",
+      "support_text": "恐怖分子走进餐厅后，引爆了爆炸装置。"
+    },
+    {
+      "source": "text_5_new_node_5",
+      "target": "text_5_new_node_6",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (1 < 3)，请求逮捕发生在逮捕行动之前。"
+    }
+  ]
+}

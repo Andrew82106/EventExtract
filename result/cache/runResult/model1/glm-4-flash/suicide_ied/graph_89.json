@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_89_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年5月23日，伊斯兰国在也门阿登对军队新兵进行自杀式炸弹袭击，造成至少45人死亡。",
+      "source_text": "text_89"
+    },
+    {
+      "id": "text_89_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "第一起袭击在队列中发生，造成20人死亡。",
+      "source_text": "text_89"
+    },
+    {
+      "id": "text_89_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "第二起袭击在基地内部发生，造成25人死亡。",
+      "source_text": "text_89"
+    },
+    {
+      "id": "text_89_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣称对此次袭击负责。",
+      "source_text": "text_89"
+    },
+    {
+      "id": "text_89_node_5",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击之前，也门穆卡拉发生了2016年也门警察炸弹袭击事件，造成超过48人死亡，超过60人受伤。",
+      "source_text": "text_89"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_89_node_1",
+      "target": "text_89_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_89_node_1",
+      "target": "text_89_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_89_node_3",
+      "target": "text_89_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_89_node_5",
+      "target": "text_89_node_1",
+      "relation": "before"
+    }
+  ]
+}

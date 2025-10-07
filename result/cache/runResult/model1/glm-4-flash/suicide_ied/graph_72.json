@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_72_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一辆汽车炸弹在俄罗斯弗拉季卡夫卡兹市的拥挤市场爆炸，造成至少16人死亡，100多人受伤。",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式炸弹袭击者驾驶一辆在邻国印古什共和国购买的伏尔加轿车进入市场，并在爆炸后引爆。",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸威力相当于40公斤TNT，导致114人受伤，其中108人在医院接受治疗。",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_4",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名18个月大的男婴在重症监护室死亡，使死亡人数上升至16人。",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯总统德米特里·梅德韦杰夫谴责此次袭击为“可怕的”，总理弗拉基米尔·普京称袭击旨在“在我们公民之间播撒仇恨”。",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯政府加强了对莫斯科的安全措施，交通警察被指示留意来自北高加索的车牌。",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "北奥塞梯的学校儿童被要求回家，该地区自2004年贝斯兰学校袭击以来遭遇了最严重的袭击。",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "此次袭击可能是对夏季安全部队击毙多名叛乱指挥官的回应，是激进组织攻击软目标和杀害平民策略的一部分。",
+      "source_text": "text_72"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_72_node_1",
+      "target": "text_72_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_72_node_1",
+      "target": "text_72_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_72_node_2",
+      "target": "text_72_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_72_node_3",
+      "target": "text_72_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_72_node_5",
+      "target": "text_72_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_72_node_6",
+      "target": "text_72_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_72_node_7",
+      "target": "text_72_node_8",
+      "relation": "before"
+    }
+  ]
+}

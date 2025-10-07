@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "text_150_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "7月13日，巴基斯坦俾路支斯坦省巴尔赫斯坦的Balochistan Awami Party（BAP）领导人Siraj Raisani集会遭自杀式爆炸袭击，造成至少130人死亡（含Raisani）、200余人受伤",
+      "source_text": "text_150"
+    },
+    {
+      "id": "text_150_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "联合国安理会及联合国秘书长António Guterres在爆炸次日（7月14日）联合谴责袭击并慰问巴基斯坦政府和受害者家属",
+      "source_text": "text_150"
+    },
+    {
+      "id": "text_150_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "巴基斯坦外交部发言人Dr Mohammad Faisal确认联合国及秘书长已表达立场",
+      "source_text": "text_150"
+    },
+    {
+      "id": "text_150_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "巴基斯坦驻联合国代表Lodhi重申伊斯兰堡持续与恐怖主义斗争的立场",
+      "source_text": "text_150"
+    },
+    {
+      "id": "text_150_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "德国总理默克尔在爆炸次日（7月14日）向巴基斯坦看守总理Nasirul Mulk发送慰问电，承诺支持反恐合作",
+      "source_text": "text_150"
+    },
+    {
+      "id": "text_150_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全专家指出此次袭击是2018年7月25日大选前夕针对选举集会的最致命恐袭之一，加剧地区安全担忧",
+      "source_text": "text_150"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_150_node_1",
+      "target": "text_150_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_150_node_1",
+      "target": "text_150_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_150_node_2",
+      "target": "text_150_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_150_node_3",
+      "target": "text_150_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_150_node_4",
+      "target": "text_150_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_150_node_5",
+      "target": "text_150_node_4",
+      "relation": "before"
+    }
+  ]
+}

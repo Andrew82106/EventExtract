@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_92_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "公众应保持警惕，报告可疑活动给警方或反恐热线。",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国当前国际恐怖主义威胁级别为CRITICAL。",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "北爱尔兰相关恐怖主义威胁级别在北爱尔兰为SEVERE，在英国为SUBSTANTIAL。",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "订阅威胁级别警报RSS feed以接收威胁级别更新。",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "威胁级别分为LOW, MODERATE, SUBSTANTIAL, SEVERE, CRITICAL，分别表示攻击可能性从低到高。",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "国际恐怖主义威胁级别由联合反恐分析中心（JTAC）设定。",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爱尔兰和其他国内恐怖主义威胁级别由MI5设定。",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "决定威胁级别时需考虑可用情报、恐怖分子能力、恐怖分子意图和时间段。",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "威胁级别定期审查以确保其时效性。",
+      "source_text": "text_92"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_92_node_1",
+      "target": "text_92_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_2",
+      "target": "text_92_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_3",
+      "target": "text_92_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_4",
+      "target": "text_92_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_5",
+      "target": "text_92_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_6",
+      "target": "text_92_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_7",
+      "target": "text_92_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_8",
+      "target": "text_92_node_9",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者在爆炸发生前约五天抵达了当地的萨拉福沃机场。",
+      "support_text": "who arrived in the area about five days before the attack, at the local Sarafovo Airport.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "在爆炸前的几天里，据信是袭击者的男子在当地海滩与游客交谈。",
+      "support_text": "The same man, according to eyewitnesses quoted on Israel’s Channel 2 news, had been seen speaking to tourists at local beaches in the days before the attack.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周三，一名自杀式炸弹袭击者在布尔加斯引爆了一辆满载以色列游客的公交车，造成六人死亡。",
+      "support_text": "the bomber who blew up a bus full of Israeli tourists in Burgas on Wednesday, killing five Israelis and the Bulgarian bus driver.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "周三，有报道称袭击者携带了伪造的美国护照和密歇根州驾照。",
+      "support_text": "The Bulgarian news agency Sofia reported Wednesday that the bomber was carrying an American passport and Michigan driver’s license, both believed to be forgeries.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "周四，保加利亚当局公布了据称是袭击者在机场航站楼走动的监控录像。",
+      "support_text": "The Bulgarian authorities on Thursday released a video clip, filmed on airport security cameras, of the alleged bomber walking around in the airport terminal just before the attack.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "周四，有未经证实的新闻报道声称袭击者已被确认为Mehdi Ghezali。",
+      "support_text": "On Thursday, Bulgarian news reports had claimed the Burgas bomber was identified as Mehdi Ghezali, but the reports were not confirmed by officials and were denied by some official sources.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚官员在随后两天内表示，袭击者并非保加利亚人，但得到了一些当地协助。",
+      "support_text": "Bulgarian officials have been quoted in the past two days as saying the suicide bomber was not Bulgarian, but had some local assistance.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "周五，保加利亚当局公布了一张据信曾协助袭击者的男子的素描。",
+      "support_text": "Bulgarian authorities on Friday released an artist’s sketch of a man believed to have helped the bomber",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "周五，检察官和目击者就袭击者的发型（短发与假发）提供了相互矛盾的细节。",
+      "support_text": "Bulgarian prosecutors said the attacker had short hair, not the long hair seen in the security video footage captured of him at the airport. A witness said he appeared to be wearing a wig.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚官员表示他们已非常接近确认袭击者身份，并正在进行DNA测试。",
+      "support_text": "Bulgarian officials were quoted on Friday as saying they were very close to identifying the bomber... Interior Minister Tsvetan Tsvetanov told Sofia that DNA tests were being run to determine the identity of the Caucasian man",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "以色列情报机构、美国联邦调查局和中央情报局加入了调查工作。",
+      "support_text": "The FBI and CIA joined Israeli and Bulgarian officials in investigating the attack. The Bulgarian authorities are being assisted in investigating the blast by teams now in Burgas from Israel’s Mossad external intelligence agency, Shin Bet domestic security agency, and Israel Police, Israeli media reported on Friday.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列总理内塔尼亚胡指责伊朗支持的真主党策划了此次袭击。",
+      "support_text": "Israel’s Prime Minister Benjamin Netanyahu has blamed Hezbollah for carrying out the attack, under the direction of Iran, and pledged a forceful response.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_13",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "周五，五名遇难的以色列人被安葬，另有十七名伤者仍在医院接受治疗。",
+      "support_text": "The five Israeli fatalities were buried Friday. Seventeen injured Israelis were still in hospital on Friday night.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "那名男子告诉游客他的母亲是荷兰人，父亲是伊朗人。",
+      "support_text": "那名男子告诉游客他的母亲是荷兰人，父亲是伊朗人。",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚内政部成功获取了爆炸案犯的指纹。",
+      "support_text": "the Bulgarian Interior Ministry managed to recover the fingerprints of the bomber",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "保加利亚内政部将指纹提交给了美国联邦调查局和国际刑警组织。",
+      "support_text": "which they submitted to the FBI and Interpol",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "索非亚通讯社报道了指纹被获取和提交一事。",
+      "support_text": "Sofia reported that the Bulgarian Interior Ministry managed to recover the fingerprints of the bomber, which they submitted to the FBI and Interpol",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "who arrived in the area about five days before the attack... The same man... had been seen speaking to tourists at local beaches in the days before the attack."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "...in the days before the attack... blew up a bus full of Israeli tourists in Burgas on Wednesday..."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_new_node_1",
+      "relation": "before",
+      "support_text": "目击者看到那名男子与游客交谈，其中包括该男子告诉他们自己的背景信息。"
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "...blew up a bus... on Wednesday... The Bulgarian news agency Sofia reported Wednesday that the bomber was carrying..."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "...on Wednesday... The Bulgarian authorities on Thursday released a video clip..."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "...on Wednesday... On Thursday, Bulgarian news reports had claimed..."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_7",
+      "relation": "before",
+      "support_text": "...on Wednesday... Bulgarian officials have been quoted in the past two days as saying..."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_8",
+      "relation": "before",
+      "support_text": "...on Wednesday... Bulgarian authorities on Friday released an artist’s sketch..."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_9",
+      "relation": "before",
+      "support_text": "...on Wednesday... Bulgarian prosecutors said... A witness said he appeared to be wearing a wig."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_10",
+      "relation": "before",
+      "support_text": "...on Wednesday... Bulgarian officials were quoted on Friday as saying they were very close to identifying the bomber..."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_11",
+      "relation": "before",
+      "support_text": "...the bomber who blew up a bus... The FBI and CIA joined Israeli and Bulgarian officials in investigating the attack."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_12",
+      "relation": "before",
+      "support_text": "...the bomber who blew up a bus... Israel’s Prime Minister Benjamin Netanyahu has blamed Hezbollah for carrying out the attack..."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_13",
+      "relation": "before",
+      "support_text": "...killing five Israelis... on Wednesday... The five Israeli fatalities were buried Friday."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_new_node_2",
+      "relation": "before",
+      "support_text": "爆炸发生在周三，而指纹的获取和提交是后续的调查行动。"
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_new_node_4",
+      "relation": "before",
+      "support_text": "根据temporal_order，报道伪造证件(6)发生在报道指纹(7)之前。"
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_9",
+      "relation": "before",
+      "support_text": "The Bulgarian authorities on Thursday released a video clip... (node_5). Bulgarian prosecutors said the attacker had short hair, not the long hair seen in the security video footage... (node_9). The release of the video on Thursday precedes the analysis of its content on Friday."
+    },
+    {
+      "source": "text_4_new_node_2",
+      "target": "text_4_new_node_3",
+      "relation": "before",
+      "support_text": "先获取指纹，然后才能提交。"
+    },
+    {
+      "source": "text_4_new_node_3",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "根据temporal_order，提交指纹(4)发生在报道伪造证件(6)之前。"
+    }
+  ]
+}

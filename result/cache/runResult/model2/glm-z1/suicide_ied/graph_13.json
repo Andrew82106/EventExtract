@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "text_13_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周末Taliban对北部城市Kunduz和Pul-e Khumri发动大规模袭击",
+      "support_text": "Following major Taliban attacks on two northern cities over the weekend, the bombing in a heavily populated area of the capital added to questions around the peace deal reached between US and Taliban negotiators in the Qatari capital Doha.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周一晚Taliban在喀布尔Green Village使用拖拉机炸弹实施爆炸",
+      "support_text": "A Taliban vehicle bomb late on Monday close to a housing compound used by international organisations in the Afghan capital Kabul killed at least 16 people and wounded 119, officials said as emergency workers began cleanup operations.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部证实爆炸致16人死亡119人受伤，400名外国人被撤离",
+      "support_text": "Interior ministry spokesman Nasrat Rahimi said the blast was caused by a tractor packed with explosives close to Green Village... killed at least 16 people and wounded 119, officials said as emergency workers began cleanup operations.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Taliban发言人否认平民伤亡，称袭击针对外国机构",
+      "support_text": "'Enemy claims of civilian losses are false as no civilians were allowed close to the site of the attack,' he said in a tweet.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "Khalilzad宣布美军将撤出5000人并关闭5基地换取阿富汗不作为攻击基地",
+      "support_text": "Khalilzad, a veteran Afghan-born diplomat who has been leading US negotiations, said almost 5,000 US troops would be pulled out and five bases closed in exchange for Taliban guarantees that Afghanistan would not be used as a base for militant attacks on the United States and its allies.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "和平协议缺乏正式停火条款，结合多起袭击引发对协议有效性的质疑",
+      "support_text": "the deal did not include a formal ceasefire and Monday's attacks, as well as major assaults on the northern cities of Kunduz and Pul-e Khumri, underlined doubts about whether it would lead to an end to violence.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "应急工人开始清理操作",
+      "support_text": "officials said as emergency workers began cleanup operations.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸震动了数公里外的建筑物",
+      "support_text": "爆炸震动了数公里外的建筑物",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "卡利法佐德在电视采访中概述了草案协议的细节",
+      "support_text": "卡利法佐德在电视采访中概述了草案协议的细节",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Taliban发言人声明袭击摧毁了入侵者的房间和办公室",
+      "support_text": "发言人声明袭击摧毁了入侵者的房间和办公室",
+      "source_text": "text_13"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_2",
+      "relation": "before",
+      "support_text": "Following major Taliban attacks on two northern cities over the weekend, the bombing in a heavily populated area of the capital added to questions around the peace deal reached between US and Taliban negotiators in the Qatari capital Doha."
+    },
+    {
+      "source": "text_13_node_2",
+      "target": "text_13_node_3",
+      "relation": "before",
+      "support_text": "officials said as emergency workers began cleanup operations."
+    },
+    {
+      "source": "text_13_node_2",
+      "target": "text_13_node_5",
+      "relation": "before",
+      "support_text": "the blast... came just as Zalmay Khalilzad... was outlining details of a draft accord with the insurgent movement in a television interview."
+    },
+    {
+      "source": "text_13_node_2",
+      "target": "text_13_node_7",
+      "relation": "before",
+      "support_text": "officials said as emergency workers began cleanup operations."
+    },
+    {
+      "source": "text_13_node_3",
+      "target": "text_13_node_4",
+      "relation": "before",
+      "support_text": "'Enemy claims of civilian losses are false as no civilians were allowed close to the site of the attack,' he said in a tweet."
+    },
+    {
+      "source": "text_13_node_5",
+      "target": "text_13_node_6",
+      "relation": "before",
+      "support_text": "the deal did not include a formal ceasefire and Monday's attacks... underlined doubts about whether it would lead to an end to violence."
+    },
+    {
+      "source": "text_13_node_8",
+      "target": "text_13_node_2",
+      "relation": "before",
+      "support_text": "爆炸震动了数公里外的建筑物发生在Monday晚的拖拉机炸弹袭击之前"
+    },
+    {
+      "source": "text_13_node_9",
+      "target": "text_13_node_5",
+      "relation": "before",
+      "support_text": "卡利法佐德在电视采访中概述协议细节发生在美军撤出声明之前"
+    },
+    {
+      "source": "text_13_node_10",
+      "target": "text_13_node_4",
+      "relation": "before",
+      "support_text": "该声明早于发言人否认平民伤亡的推文"
+    }
+  ]
+}

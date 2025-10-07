@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "text_141_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "塔利班声称对赫尔曼德省Grishk区卡车炸弹袭击负责，造成至少5名阿富汗安全部队成员死亡、7人受伤",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生在驻扎至少150名军方和情报人员的军事中心，阿富汗国防部最初报告仅1名士兵受伤",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "幸存者称现场清理出18具尸体，塔利班声称伤亡人数远超官方数据",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "守卫称击毙试图闯入的卡车司机后发生爆炸，导致至少8名守卫受伤",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "过去两个月阿富汗政府军全国伤亡严重，威胁美塔和平协议执行",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "帕克塔省Khayerkot区发生塔利班手榴弹袭击清真寺事件，致20人受伤",
+      "source_text": "text_141"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_141_node_1",
+      "target": "text_141_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_141_node_1",
+      "target": "text_141_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_141_node_1",
+      "target": "text_141_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_141_node_3",
+      "target": "text_141_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_141_node_4",
+      "target": "text_141_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_141_node_6",
+      "target": "text_141_node_5",
+      "relation": "before"
+    }
+  ]
+}

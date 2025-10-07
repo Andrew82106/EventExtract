@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_77_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年3月27日，一名恐怖分子在Netanya的Park Hotel内进行自杀式爆炸袭击，造成30人死亡，22人当场死亡，140人受伤，其中8人后来死亡。",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者被认定为哈马斯Iz a Din al-Kassam旅的成员，来自西岸的Tulkarem市，该市距离Netanya仅10公里，且袭击者是在以色列请求逮捕的恐怖分子名单上。",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Anna Yakobovitch是30名遇难者之一，她是一位78岁的 Holocaust 幸存者，来自匈牙利，与她的丈夫George Yakobovitch和她的继子Andre Fried计划一起庆祝Passover晚宴。",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_4",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "George Yakobovitch、Andre Fried及其妻子Idit在爆炸中丧生，Anna Yakobovitch则受伤。",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Anna Yakobovitch于2002年4月11日因伤去世。",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_6",
+      "event_type": "Life",
+      "event_subtype": "Infect",
+      "event_sub_subtype": "Unspecified",
+      "description": "Anna Yakobovitch被安葬在Tel-Aviv的Yarkon墓地。她由她的儿子Peter（53岁）继承。",
+      "source_text": "text_77"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_77_node_1",
+      "target": "text_77_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_1",
+      "target": "text_77_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_1",
+      "target": "text_77_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_4",
+      "target": "text_77_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_5",
+      "target": "text_77_node_6",
+      "relation": "before"
+    }
+  ]
+}

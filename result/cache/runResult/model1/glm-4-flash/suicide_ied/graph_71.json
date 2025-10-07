@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_71_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sri Lanka's Prime Minister Ranil Wickremesinghe condemned the blasts as 'cowardly' and said the government was working to 'contain the situation.'",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "President Maithripala Sirisena appealed for calm and called an emergency meeting.",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sri Lanka's Minister of Economic Reforms and Public Distribution, Harsha de Silva, reported being at the scene of attacked hotels and described 'horrible scenes' with many casualties.",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Pope Francis expressed sadness at the attacks and stood with the victims of 'such cruel violence' during his Easter address at the Vatican.",
+      "source_text": "text_71"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_71_node_1",
+      "target": "text_71_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_71_node_2",
+      "target": "text_71_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_71_node_3",
+      "target": "text_71_node_4",
+      "relation": "before"
+    }
+  ]
+}

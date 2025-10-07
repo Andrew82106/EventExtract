@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "text_139_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年3月2日：加沙汗尤尼斯9岁男孩阿卜杜勒-拉赫曼·穆斯塔法·阿里·贾达拉在葬礼中被以军枪击头部死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年3月2日：加沙阿因贝特马恩难民营17岁少年纳吉旺·穆罕默德·阿里·阿里在以军检查站死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年3月3日：加沙布赖尔难民营13岁男孩塔里克·萨米·阿克尔·阿卜杜勒-马塔尔在以军突袭中死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年3月3日：加沙布赖尔难民营16岁男孩法迪·费耶兹·穆罕默德·哈瓦贾拉在以军突袭中胸部中弹死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年3月5日：以色列海法市17名乘客乘坐37路巴士赴大学时遭巴勒斯坦自杀式袭击死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年3月6日：加沙贾巴利亚难民营14岁男孩穆罕默德·贾马尔·穆辛在以军火力攻击中死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年3月6日：加沙贾巴利亚难民营14岁男孩塔里克·马赫鲁姆·阿赫迈德·纳贾尔在木工店遭以军导弹袭击死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年3月6日：加沙贾巴利亚难民营17岁男孩哈马扎·杰布里尔·卡鲁姆特在以军突袭中死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年3月6日：加沙纳布卢斯16岁男孩穆罕默德·拉巴·萨义德·哈瓦什在胸部中弹后死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年3月13日：约旦河西岸塔曼恩地区17岁男孩阿明·阿里·萨阿德·巴沙尔特在武装冲突中以军枪击死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2003年3月14日：约旦河西岸阿提勒地区16岁男孩乌萨马·雷布希·阿卜杜勒-卡利尔在定点清除中胸部和手臂中弹死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2003年3月14日：加沙杰宁17岁男孩瓦西格·阿卜杜勒-拉赫曼·巴希尔-加赫比耶在头部和胸部中弹后死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2003年3月16日：加沙汗尤尼斯17岁男孩穆罕默德·易卜拉欣·阿卜杜勒-拉希姆·阿卜杜勒-哈迪在帮助伤者时腹部遭以军炮击死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2003年3月17日：加沙努赛拉难民营4岁女孩伊尔哈姆·齐亚德·哈桑·阿萨尔腹部和左脚遭以军枪击死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2003年3月17日：加沙努赛拉难民营17岁男孩穆罕默德·塔夫菲格·萨拉马·阿卜杜勒-尤素福头部遭以军枪击死亡",
+      "source_text": "text_139"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_139_node_1",
+      "target": "text_139_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_2",
+      "target": "text_139_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_3",
+      "target": "text_139_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_4",
+      "target": "text_139_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_5",
+      "target": "text_139_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_5",
+      "target": "text_139_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_5",
+      "target": "text_139_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_5",
+      "target": "text_139_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_6",
+      "target": "text_139_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_7",
+      "target": "text_139_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_8",
+      "target": "text_139_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_9",
+      "target": "text_139_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_10",
+      "target": "text_139_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_10",
+      "target": "text_139_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_11",
+      "target": "text_139_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_12",
+      "target": "text_139_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_13",
+      "target": "text_139_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_13",
+      "target": "text_139_node_15",
+      "relation": "before"
+    }
+  ]
+}

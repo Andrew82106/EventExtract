@@ -29,7 +29,7 @@ def get_graphs_path(attack_type):
 
 
 # 采样配置
-MAX_TEXT_SAMPLES = 150
+MAX_TEXT_SAMPLES = 5
 
 # 缓存配置
 CACHE_ROOT = os.path.join(RESULT_ROOT, 'cache')

@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_134_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2005年7月6日，TAK在土耳其Kusadasi发动首次公开袭击，造成5死14伤，并首次宣称对此负责",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2006年4月，TAK袭击Malatya警察总部",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2010年6月，TAK在伊斯坦布尔郊区使用路边炸弹袭击，导致4名军人及1名平民死亡",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2015年12月23日，TAK对伊斯坦布尔萨比哈·古凯恩机场发动炮击，造成1人死亡",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2016年2月17日，安卡拉发生自杀式车辆爆炸事件，造成29人死亡，TAK宣称负责，DNA测试确认",
+      "source_text": "text_134"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_134_node_1",
+      "target": "text_134_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_134_node_2",
+      "target": "text_134_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_134_node_3",
+      "target": "text_134_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_134_node_4",
+      "target": "text_134_node_5",
+      "relation": "before"
+    }
+  ]
+}

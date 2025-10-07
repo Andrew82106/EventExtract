@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_81_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2020年1月7日，在巴基斯坦奎塔的McConaghey路上发生了一起摩托车爆炸袭击，造成2人死亡，14人受伤。",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2020年1月10日，在奎塔的Ghousabad地区的一座塔利班控制的清真寺内发生了一起自杀式爆炸袭击，造成至少15人死亡，19人受伤。",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸袭击后，爆炸处理小组和保安人员在清真寺及其周围地区搜寻证据，并将该地区封锁。",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_4",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "2020年1月11日，反恐部门对未知嫌疑人登记了第一份信息报告。",
+      "source_text": "text_81"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_81_node_1",
+      "target": "text_81_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_81_node_2",
+      "target": "text_81_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_81_node_3",
+      "target": "text_81_node_4",
+      "relation": "before"
+    }
+  ]
+}

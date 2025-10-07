@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_75_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名男子在格拉斯哥机场被捕，因为他们的车冲进了主航站楼的门并着火。",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名26岁的男子和一名27岁的女子在切斯特郡桑德巴赫附近的M6公路被捕。",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名26岁的男子在利物浦的利姆街车站附近被捕。",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名28岁的男子和一名25岁的男子在paisley被捕。",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名27岁的男医生在澳大利亚被捕，第二名医生被询问。",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名28岁的男子和一名25岁的男子在paisley的医院宿舍被捕。",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名27岁的男医生在格拉斯哥机场被捕，并与一名伊拉克医生Bilal Abdullah一起被拘留。",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_8",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在格拉斯哥的一辆从格拉斯哥清真寺附近移除的车上进行了三次受控爆炸。",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_9",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Meet",
+      "description": "苏格兰首席大臣Elish Angiolini授权将嫌疑人转移到伦敦，以便在一个案件中起诉。",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_10",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "苏格兰首席大臣Alex Salmond表示，转移是“为了公众利益”，但不会排除在苏格兰起诉涉嫌参与格拉斯哥机场事件的人。",
+      "source_text": "text_75"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_75_node_1",
+      "target": "text_75_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_75_node_2",
+      "target": "text_75_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_75_node_3",
+      "target": "text_75_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_75_node_4",
+      "target": "text_75_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_75_node_5",
+      "target": "text_75_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_75_node_6",
+      "target": "text_75_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_75_node_7",
+      "target": "text_75_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_75_node_8",
+      "target": "text_75_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_75_node_9",
+      "target": "text_75_node_10",
+      "relation": "before"
+    }
+  ]
+}

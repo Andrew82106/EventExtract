@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_79_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "至少15人在巴基斯坦奎达市一个脊髓灰质炎疫苗接种中心的自杀式爆炸袭击中丧生，其中许多是负责保护的警察。",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸发生在早晨，脊髓灰质炎工作者和安全人员在前往接种路线之前报告上班。",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名幸存的警察表示，他的团队在准备离开奎达市各个社区时遭遇了袭击。",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "奎达市副专员确认死亡人数升至15人，其中14名警察和1名路人死亡，约20人受伤。",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "这是近年来在巴洛奇斯坦地区针对脊髓灰质炎接种活动最血腥的袭击之一。",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "尽管巴基斯坦的军事行动导致近年来民兵袭击减少，但此次袭击提醒人们，上门接种脊髓灰质炎仍然是一项危险的工作。",
+      "source_text": "text_79"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_79_node_2",
+      "target": "text_79_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_3",
+      "target": "text_79_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_4",
+      "target": "text_79_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_5",
+      "target": "text_79_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_6",
+      "target": "text_79_node_1",
+      "relation": "before"
+    }
+  ]
+}

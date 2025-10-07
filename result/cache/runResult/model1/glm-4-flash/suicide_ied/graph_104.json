@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_104_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀炸弹袭击者在喀布尔的什叶派清真寺附近引爆了爆炸装置，造成至少26人死亡，18人受伤。",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生时，喀布尔正在庆祝波斯新年的开始，即纳乌鲁兹节。",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊斯兰国（ISIS）通过其 Amaq 新闻机构宣称对此次袭击负责。",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部发言人 Najib Danesh 表示，袭击者显然试图接近清真寺，但被警察检查点阻止。",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_5",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "意大利援助组织 Emergency 表示，有七人被送入医院，其中三人到达时已经死亡。",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "纳乌鲁兹节是一个古老的波斯节日，庆祝春天的开始，但在阿富汗的某些地区也受到一些伊斯兰原教旨主义者的反对。",
+      "source_text": "text_104"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_104_node_1",
+      "target": "text_104_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_2",
+      "target": "text_104_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_3",
+      "target": "text_104_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_4",
+      "target": "text_104_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_5",
+      "target": "text_104_node_6",
+      "relation": "before"
+    }
+  ]
+}

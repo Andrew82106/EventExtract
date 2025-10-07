@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "id": "text_94_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "A pipe bomb near Colombo's airport was detonated by explosives experts.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Colombo airport was put in lockdown on Monday morning, Australian time.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Prime Minister Ranil Wickremesinghe feared the violence could trigger instability in the country and its economy.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Wickremesinghe's government vowed to take action against those responsible for Sunday's attacks.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Six blasts occurred on Sunday morning in Colombo, targeting a Catholic church and three luxury hotels.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Two additional blasts occurred at St Sebastian's Catholic church in Negombo and the Protestant Zion church in Batticaloa.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Three police officers were killed during a search operation at a suspected safe house in Dematagoda.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The occupants of a house in Dematagoda detonated explosives to prevent arrest.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shops were closed and streets deserted in Colombo before a nationwide curfew was imposed.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_10",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "207 people were killed and 450 wounded in the blasts, with the death toll expected to rise.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Two blasts were suspected to have been carried out by suicide bombers.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "At least 27 foreigners were recovered from the blast sites, including British nationals.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_13",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "A mother and son were among the victims at the Shangri-La Hotel during the attacks.",
+      "source_text": "text_94"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_94_node_1",
+      "target": "text_94_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_2",
+      "target": "text_94_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_3",
+      "target": "text_94_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_4",
+      "target": "text_94_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_5",
+      "target": "text_94_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_6",
+      "target": "text_94_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_7",
+      "target": "text_94_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_8",
+      "target": "text_94_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_9",
+      "target": "text_94_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_10",
+      "target": "text_94_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_11",
+      "target": "text_94_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_12",
+      "target": "text_94_node_13",
+      "relation": "before"
+    }
+  ]
+}

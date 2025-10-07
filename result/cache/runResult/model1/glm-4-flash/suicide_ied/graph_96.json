@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_96_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "A Nigerian offshoot of ISIS claimed responsibility for the killing of 11 people, stating it was retaliation for the killing of ISIS leader Abu Bakr al-Baghdadi in northern Syria two months ago.",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The group released a video showing members cutting 10 people’s throats and shooting an 11th person, labeling the killings a 'message for Christians.'",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nigerian experts suggested that some of the victims were likely Muslims based on the group’s previous tactics.",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "The Islamic State West Africa Province (ISWAP) split off from Boko Haram in 2016 due to issues with the group’s violence against other Muslims.",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISWAP has been under increased pressure to publicly retaliate for al-Baghdadi’s death as other branches and affiliates of ISIS have done.",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abdulbasit Kassim suggested that ISWAP is attempting to both assuage the broader Islamic State and extract concessions and ransom from the Nigerian government.",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nigerian President Muhammadu Buhari condemned the attack, stating that the killers do not represent Islam.",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "Tibor Nagy, the top State Department official for Africa policy, urged the Government of Nigeria to swiftly bring the perpetrators to justice.",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_9",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "President Trump announced the killing of al-Baghdadi in Syria's Idlib province in October, claiming the ISIS leader detonated a suicide vest during a raid by U.S. forces.",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS announced Abu Ibrahim al-Hashimi al-Qurashi as the successor to al-Baghdadi later that month.",
+      "source_text": "text_96"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_96_node_1",
+      "target": "text_96_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_96_node_2",
+      "target": "text_96_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_96_node_4",
+      "target": "text_96_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_96_node_5",
+      "target": "text_96_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_96_node_6",
+      "target": "text_96_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_96_node_7",
+      "target": "text_96_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_96_node_8",
+      "target": "text_96_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_96_node_9",
+      "target": "text_96_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_96_node_9",
+      "target": "text_96_node_10",
+      "relation": "before"
+    }
+  ]
+}

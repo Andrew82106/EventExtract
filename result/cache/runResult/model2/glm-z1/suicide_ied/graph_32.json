@@ -1,0 +1,171 @@
+{
+  "nodes": [
+    {
+      "id": "text_32_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两周前（2023年10月？） Mogadishu街头发生卡车炸弹袭击，造成350人死亡",
+      "support_text": "Saturday’s blasts came two weeks after more than 350 people were killed in a massive truck bombing on a busy Mogadishu street in the country’s worst-ever attack.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周六下午（同上） Al-Shabaab自杀式汽车炸弹袭击Nasa-Hablod酒店入口",
+      "support_text": "Al-Shabaab, Africa’s deadliest Islamic extremist group, quickly claimed responsibility for Saturday’s attack and said its fighters were inside the hotel.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六夜间至周日清晨酒店遭武装分子冲击，23人死亡30人受伤",
+      "support_text": "Footage from the scene showed twisted vehicles and nearby buildings with only walls left standing.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "周日早晨（具体时间）军警控制酒店，击毙3名武装分子并活捉2人",
+      "support_text": "Capt. Mohamed Hussein said that troops regained control of the hotel on Sunday morning, having killed three attackers and captured two alive.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "周日清晨（同上）成功解救包括政府部长在内的30名人质",
+      "support_text": "Police said security forces had rescued 30 people, including a government minister, from Mogadishu’s Nasa-Hablod hotel.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击期间目击者确认武装分子使用伪造军服混入",
+      "support_text": "He said he saw at least three armed men in military uniforms running toward the hotel after the suicide bombing at its gate.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2020年底非洲联盟2.2万驻军计划撤离转交Somali军",
+      "support_text": "A 22,000-strong multinational African Union force in Somalia is expected to withdraw its forces and hand over the country’s security to the Somali military by the end of 2020.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2020年美国对Somalia实施近20次无人机打击",
+      "support_text": "The US military also has stepped up efforts against al-Shabaab this year in Somalia, carrying out nearly 20 drone strikes as the global war on extremism moves deeper into the African continent.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_10",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "总统访问邻国寻求支持",
+      "support_text": "Since the blast two weeks ago, president Mohamed Abdullahi Mohamed has visited other countries in the region to seek more support for the fight against the extremist group.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总统宣布进入战争状态",
+      "support_text": "The president declared a 'state of war' after the attack.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总统整合区域力量",
+      "support_text": "The president initiated efforts to unify regional powers within the fractured country.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "联邦政府确立自身地位",
+      "support_text": "The federal government asserted its authority through diplomatic and military measures.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "全球反极端主义战争向非洲大陆深入",
+      "support_text": "全球反极端主义战争向非洲大陆深入",
+      "source_text": "text_32"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_32_node_1",
+      "target": "text_32_node_2",
+      "relation": "before",
+      "support_text": "Saturday’s blasts came two weeks after more than 350 people were killed in a massive truck bombing on a busy Mogadishu street in the country’s worst-ever attack."
+    },
+    {
+      "source": "text_32_node_1",
+      "target": "text_32_node_8",
+      "relation": "before",
+      "support_text": "Since the blast two weeks ago, president Mohamed Abdullahi Mohamed has visited other countries in the region to seek more support for the fight against the extremist group."
+    },
+    {
+      "source": "text_32_node_2",
+      "target": "text_32_node_3",
+      "relation": "before",
+      "support_text": "As night fell, sporadic gunfire could be heard as soldiers responded."
+    },
+    {
+      "source": "text_32_node_2",
+      "target": "text_32_node_6",
+      "relation": "before",
+      "support_text": "He said he saw at least three armed men in military uniforms running toward the hotel after the suicide bombing at its gate."
+    },
+    {
+      "source": "text_32_node_3",
+      "target": "text_32_node_4",
+      "relation": "before",
+      "support_text": "Capt. Mohamed Hussein said that troops regained control of the hotel on Sunday morning, having killed three attackers and captured two alive."
+    },
+    {
+      "source": "text_32_node_4",
+      "target": "text_32_node_5",
+      "relation": "before",
+      "support_text": "Police said security forces had rescued 30 people, including a government minister, from Mogadishu’s Nasa-Hablod hotel."
+    },
+    {
+      "source": "text_32_node_8",
+      "target": "text_32_node_9",
+      "relation": "before",
+      "support_text": "The US military also has stepped up efforts against al-Shabaab this year in Somalia, carrying out nearly 20 drone strikes as the global war on extremism moves deeper into the African continent."
+    },
+    {
+      "source": "text_32_node_8",
+      "target": "text_32_node_14",
+      "relation": "before",
+      "support_text": "2020年底非洲联盟2.2万驻军计划撤离转交Somali军"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_8_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "上个月新西兰两座清真寺发生大屠杀。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "国际情报机构警告斯里兰卡一个当地武装组织正准备发动袭击。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯里兰卡情报单位已获悉即将发生的袭击信息。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "关于袭击的警告信息仅在小范围内流传，未传达给总理办公室。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "复活节周日，斯里兰卡的教堂和酒店等地发生连环爆炸，造成至少321人死亡。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "周二，斯里兰卡举行全国默哀和受害者集体葬礼。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "斯里兰卡国防部长称爆炸是对新西兰枪击事件的报复，并指责安全机构存在失职。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "斯里兰卡基督教改革会呼吁信徒为国家祈祷，并表达了对经济影响的担忧。",
+      "source_text": "text_8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_3",
+      "target": "text_8_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_4",
+      "target": "text_8_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_8",
+      "relation": "before"
+    }
+  ]
+}

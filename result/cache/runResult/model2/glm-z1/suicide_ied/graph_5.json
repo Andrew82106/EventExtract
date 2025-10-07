@@ -1,0 +1,14 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2015年8月22日，阿富汗喀布尔发生自杀式爆炸袭击，造成至少10人死亡、60人受伤，其中包括1名妇女和3名北约士兵",
+      "support_text": "At least 10 people died and more than 60 were wounded in a suicide bomb attack in Kabul, Afghanistan, on 22 August 2015.",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": []
+}

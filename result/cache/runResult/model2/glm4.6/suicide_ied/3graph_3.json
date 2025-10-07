@@ -1,0 +1,267 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "扎哈兰·哈希姆过去曾多次周游印度南部。",
+      "support_text": "Investigators said Hashim, who had toured south India several times in the past, had modelled the NTJ on the Coimbatore outfit.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "2016年，他们在哥印拜陀的一个附属组织因一宗谋杀案而面临调查。",
+      "support_text": "But an affiliate organisation of theirs at Coimbatore in Tamil Nadu had faced investigation in 2016 on the charge of orchestrating the murder of a Hindu Munnani worker.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年，一名网络圣战招募者说服喀拉拉邦人加入“伊斯兰国”。",
+      "support_text": "An online jihadi recruiter had persuaded two groups of people from Kasaragod and Kannur to join the IS in Afghan and Syria in 2016 and moved them to their destinations via a safe-house in Colombo.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "国家调查局（NIA）调查了这些叛逃事件。",
+      "support_text": "The NIA had investigated the defections.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈希姆的一名未具名同伙曾访问过泰米尔纳德邦。",
+      "support_text": "They said another unnamed associate of Hashim, possibly one of the seven bombers, had visited Tamil Nadu.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "喀拉拉邦的至少两人与爆炸案主谋哈希姆有直接联系。",
+      "support_text": "...at least two persons in north Kerala were in direct and possibly prolonged contact with Zaharan Hashim, the architect of the Easter day suicide bombings in Sri Lanka.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "喀萨拉戈德的一对人与哈希姆通过帕拉卡德的伙伴进行间接沟通。",
+      "support_text": "The Kasaragod pair communicated with Hashim indirectly through their Palakkad partners.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "斯里兰卡发生复活节自杀式爆炸案。",
+      "support_text": "Four persons under scanner in connection with the Easter suicide bombings in Sri Lanka",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸案发生后，“伊斯兰国”宣传人员声称NTJ是其附属组织。",
+      "support_text": "After the blasts, online propagandists for the Islamic State (IS) claimed the NJT to be its satellite organisation and hailed the bombers as martyrs, including Hashim.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "国家调查局（NIA）在周日检查了印度嫌疑人的住所。",
+      "support_text": "The National Investigation Agency (NIA) had on Sunday inspected their homes in Palakkad and that of two of their close associates in Kasaragod.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "安全机构正在分析嫌疑人与哈希姆的通信时间线。",
+      "support_text": "Security agencies appeared to be analysing the time line of their communications in a bid to understand the nature of the contacts and when they occurred last.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "中央安全机构告知州警方，至少有两名喀拉拉邦北部的居民与爆炸案主谋扎哈兰·哈希姆有过联系。",
+      "support_text": "中央安全机构告知州警方，至少有两名喀拉拉邦北部的居民与爆炸案主谋扎哈兰·哈希姆有过联系。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名官员称，被调查的人员是一个“中间偏右的极端萨拉菲组织”的成员。",
+      "support_text": "一名官员称，被调查的人员是一个“中间偏右的极端萨拉菲组织”的成员。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "国际调查发现了帕拉卡德二人与哈希姆有直接联系的证据。",
+      "support_text": "the international probe into the terror attacks has thrown up evidence that the Palakkad duo had direct contact with Hashim",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "哈希姆是一位狂热的网络圣战布道者，能流利地使用泰米尔语进行沟通。",
+      "support_text": "a zealous online jihadi preacher, Hashim, communicated fluently in Tamil",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯里兰卡的激进活动在过去对喀拉拉邦产生了影响。",
+      "support_text": "斯里兰卡的激进活动在过去对喀拉拉邦产生了影响。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员们表示，斯里兰卡的激进活动过去曾影响喀拉拉邦。",
+      "support_text": "官员们表示，斯里兰卡的激进活动过去曾影响喀拉拉邦。",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_8",
+      "relation": "before",
+      "support_text": "Investigators said Hashim, who had toured south India several times in the past..."
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_1",
+      "relation": "before",
+      "support_text": "Investigators said Hashim, who had toured south India several times in the past, had modelled the NTJ on the Coimbatore outfit."
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_8",
+      "relation": "before",
+      "support_text": "...had faced investigation in 2016..."
+    },
+    {
+      "source": "text_3_node_3",
+      "target": "text_3_node_4",
+      "relation": "before",
+      "support_text": "An online jihadi recruiter had persuaded two groups of people... in 2016... The NIA had investigated the defections."
+    },
+    {
+      "source": "text_3_node_3",
+      "target": "text_3_node_8",
+      "relation": "before",
+      "support_text": "...to join the IS in Afghan and Syria in 2016..."
+    },
+    {
+      "source": "text_3_node_3",
+      "target": "text_3_new_node_17",
+      "relation": "before",
+      "support_text": "根据temporal_order，'move'事件发生在'say'事件之前。"
+    },
+    {
+      "source": "text_3_node_5",
+      "target": "text_3_node_8",
+      "relation": "before",
+      "support_text": "They said another unnamed associate of Hashim... had visited Tamil Nadu."
+    },
+    {
+      "source": "text_3_node_6",
+      "target": "text_3_node_8",
+      "relation": "before",
+      "support_text": "...were in direct and possibly prolonged contact with Zaharan Hashim, the architect of the Easter day suicide bombings..."
+    },
+    {
+      "source": "text_3_node_7",
+      "target": "text_3_node_8",
+      "relation": "before",
+      "support_text": "The Kasaragod pair communicated with Hashim indirectly through their Palakkad partners. Their interactions with Hashim... were mainly through social media accounts and encrypted instant messaging platforms."
+    },
+    {
+      "source": "text_3_node_7",
+      "target": "text_3_node_11",
+      "relation": "before",
+      "support_text": "沟通事件的发生是后续安全机构试图了解其性质和时间的前提。"
+    },
+    {
+      "source": "text_3_node_8",
+      "target": "text_3_node_9",
+      "relation": "before",
+      "support_text": "After the blasts, online propagandists for the Islamic State (IS) claimed the NJT to be its satellite organisation..."
+    },
+    {
+      "source": "text_3_node_8",
+      "target": "text_3_node_10",
+      "relation": "before",
+      "support_text": "Four persons under scanner in connection with the Easter suicide bombings in Sri Lanka... The National Investigation Agency (NIA) had on Sunday inspected their homes..."
+    },
+    {
+      "source": "text_3_node_8",
+      "target": "text_3_node_11",
+      "relation": "before",
+      "support_text": "Security agencies appeared to be analysing the time line of their communications in a bid to understand the nature of the contacts and when they occurred last."
+    },
+    {
+      "source": "text_3_node_8",
+      "target": "text_3_node_12",
+      "relation": "before",
+      "support_text": "该事件发生在复活节爆炸案之后，作为调查的一部分。"
+    },
+    {
+      "source": "text_3_node_12",
+      "target": "text_3_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order，'say'事件发生在'tell'事件之后。"
+    },
+    {
+      "source": "text_3_new_node_14",
+      "target": "text_3_node_7",
+      "relation": "before",
+      "support_text": "调查发现证据发生在卡萨拉戈德二人组与哈希姆沟通之前或同时。"
+    },
+    {
+      "source": "text_3_new_node_14",
+      "target": "text_3_new_node_15",
+      "relation": "before",
+      "support_text": "根据temporal_order，'throw up'事件发生在'communicate'事件之前。"
+    },
+    {
+      "source": "text_3_new_node_16",
+      "target": "text_3_node_3",
+      "relation": "before",
+      "support_text": "根据temporal_order，'impact'事件发生在'move'事件之前。"
+    }
+  ]
+}
