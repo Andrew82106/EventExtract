@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_41_node_1",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rebecca和Fred在家听到30英里外爆炸声",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "Rebecca因看到消防员救孩子而催促丈夫立即驾车前往",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "抵达现场时Rebecca被坠落碎片击中后脑",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援人员劝其接受治疗但Rebecca坚持返回协助伤者",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_5",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "送医后短暂恢复意识并成功唤醒丈夫",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_6",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "首次手术清除脑部血块后短暂恢复肢体反应",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "术后次日失去意识，四天后因脑水肿死亡",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_8",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "心脏被移植给55岁康复中的赌场工人William Wilcoxson",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "家人评价其天生具有同情心与助人本能",
+      "source_text": "text_41"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_41_node_1",
+      "target": "text_41_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_41_node_2",
+      "target": "text_41_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_41_node_3",
+      "target": "text_41_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_41_node_4",
+      "target": "text_41_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_41_node_5",
+      "target": "text_41_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_41_node_6",
+      "target": "text_41_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_41_node_7",
+      "target": "text_41_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_41_node_8",
+      "target": "text_41_node_9",
+      "relation": "before"
+    }
+  ]
+}

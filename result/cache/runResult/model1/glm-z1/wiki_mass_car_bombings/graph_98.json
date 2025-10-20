@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_98_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "拉合尔发生两次自杀袭击，造成45人死亡（含10名士兵）及100人受伤",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸后数小时，旁遮普省两处地点连续发生5次爆炸，致3人受伤（含1名警察）",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国国务院发表声明谴责袭击，赞扬巴基斯坦反极端主义努力，并向受害者家属致哀",
+      "source_text": "text_98"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_98_node_1",
+      "target": "text_98_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_2",
+      "target": "text_98_node_3",
+      "relation": "before"
+    }
+  ]
+}

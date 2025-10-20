@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "text_15_node_1",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1975年，他因一桩三重谋杀案被定罪，并已在巴黎监狱服无期徒刑。",
+      "support_text": "Carlos, a Venezuelan whose real name is Ilich Ramirez Sanchez, is already serving life in a Paris prison for a triple murder in 1975.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1975年，他皈依了伊斯兰教。",
+      "support_text": "He converted to Islam in 1975.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1982年3月，一列行驶于巴黎和图卢兹之间的火车发生爆炸，造成5人死亡。",
+      "support_text": "The first bombing, in March 1982, was on a train between Paris and Toulouse, killing five people and wounding 28.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1982年4月，巴黎一家反叙利亚报社外发生汽车爆炸案，造成1人死亡。",
+      "support_text": "It was followed a month later by the car bombing of an anti-Syrian newspaper in Paris. One passer-by was killed and 60 injured.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年新年前夜，一列行驶于马赛和巴黎之间的TGV列车发生爆炸，造成3人死亡。",
+      "support_text": "The other two bombings took place on New Year's Eve 1983, with a bomb on a TGV fast train between Marseille and Paris that killed three people and wounded 13",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年新年前夜，马赛一个火车站发生爆炸，造成2人死亡。",
+      "support_text": "and a bomb at a Marseille train station that killed two.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年，他在苏丹被法国特种部队抓获。",
+      "support_text": "The 62-year-old was captured by French special forces in Sudan in 1994.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_8",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "因新证据被发现，他因1982年和1983年的爆炸案而接受审判。",
+      "support_text": "It was the discovery of fresh evidence that led to him being tried for the bomb attacks in Paris and Marseilles that also left more than 140 people injured.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "豺狼卡洛斯组织了四起发生在1980年代的致命袭击。",
+      "support_text": "豺狼卡洛斯组织了四起发生在1980年代的致命袭击。",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊里奇·拉米雷斯·桑切斯（豺狼卡洛斯）将自己描述为一名职业革命家。",
+      "support_text": "伊里奇·拉米雷斯·桑切斯（豺狼卡洛斯）将自己描述为一名职业革命家。",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "他策划了暗杀行动。",
+      "support_text": "他策划了暗杀行动。",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_4",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "他策划了绑架人质事件。",
+      "support_text": "他策划了绑架人质事件。",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "他因其策划的系列事件而获得了全球性的恶名。",
+      "support_text": "他因其策划的系列事件而获得了全球性的恶名。",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴黎和马赛的炸弹袭击导致140多人受伤。",
+      "support_text": "the bomb attacks in Paris and Marseilles that also left more than 140 people injured",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉米雷斯在结案陈词中说他是一个'活着的档案'。",
+      "support_text": "he said he was a 'living archive. Most of the people of my level are dead.'",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "拉米雷斯朗读了一篇纪念前利比亚领导人卡扎菲的文本。",
+      "support_text": "He read a text hailing former Libyan leader Muammar Gaddafi.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_9",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "前利比亚领导人卡扎菲资助了反西方袭击。",
+      "support_text": "Muammar Gaddafi funded anti-Western attacks.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_new_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "另外两次爆炸发生在1983年新年前夜。",
+      "support_text": "The other two bombings took place on New Year's Eve 1983, with a bomb on a TGV fast train between Marseille and Paris that killed three people and wounded 13, and a bomb at a Marseille train station that killed two.",
+      "source_text": "text_15"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_15_node_1",
+      "target": "text_15_node_8",
+      "relation": "before",
+      "support_text": "Carlos, a Venezuelan whose real name is Ilich Ramirez Sanchez, is already serving life in a Paris prison for a triple murder in 1975."
+    },
+    {
+      "source": "text_15_node_1",
+      "target": "text_15_new_node_1",
+      "relation": "before",
+      "support_text": "node_1中的事件发生在1975年，而new_node_1中的事件发生在1980年代，因此前者在时间上早于后者。"
+    },
+    {
+      "source": "text_15_node_3",
+      "target": "text_15_node_4",
+      "relation": "before",
+      "support_text": "It was followed a month later by the car bombing of an anti-Syrian newspaper in Paris."
+    },
+    {
+      "source": "text_15_node_4",
+      "target": "text_15_node_5",
+      "relation": "before",
+      "support_text": "The other two bombings took place on New Year's Eve 1983, with a bomb on a TGV fast train between Marseille and Paris that killed three people and wounded 13, and a bomb at a Marseille train station that killed two."
+    },
+    {
+      "source": "text_15_node_4",
+      "target": "text_15_new_node_10",
+      "relation": "before",
+      "support_text": "1982年4月的汽车爆炸案之后，是1983年新年前夜发生的另外两次爆炸。"
+    },
+    {
+      "source": "text_15_node_6",
+      "target": "text_15_node_7",
+      "relation": "before",
+      "support_text": "By that time he had earned global notoriety as a mastermind of deadly bomb attacks, assassinations and hostage-takings."
+    },
+    {
+      "source": "text_15_node_7",
+      "target": "text_15_node_8",
+      "relation": "before",
+      "support_text": "The 62-year-old was captured by French special forces in Sudan in 1994. By that time he had earned global notoriety as a mastermind of deadly bomb attacks, assassinations and hostage-takings. It was the discovery of fresh evidence that led to him being tried for the bomb attacks in Paris and Marseilles..."
+    },
+    {
+      "source": "text_15_new_node_3",
+      "target": "text_15_new_node_5",
+      "relation": "before",
+      "support_text": "动词事件 'assassinate' 的 temporal_order (1) 早于 'earn' 的 temporal_order (2)。"
+    },
+    {
+      "source": "text_15_new_node_4",
+      "target": "text_15_new_node_5",
+      "relation": "before",
+      "support_text": "动词事件 'take hostage' 的 temporal_order (1) 早于 'earn' 的 temporal_order (2)。"
+    },
+    {
+      "source": "text_15_new_node_6",
+      "target": "text_15_node_8",
+      "relation": "before",
+      "support_text": "It was the discovery of fresh evidence that led to him being tried for the bomb attacks in Paris and Marseilles"
+    },
+    {
+      "source": "text_15_new_node_9",
+      "target": "text_15_new_node_7",
+      "relation": "before",
+      "support_text": "动词事件 'fund' 的 temporal_order (1) 早于 'say' 的 temporal_order (4)。"
+    },
+    {
+      "source": "text_15_new_node_9",
+      "target": "text_15_new_node_8",
+      "relation": "before",
+      "support_text": "动词事件 'fund' 的 temporal_order (1) 早于 'read' 的 temporal_order (4)。"
+    }
+  ]
+}

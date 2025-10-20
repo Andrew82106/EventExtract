@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_177_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "JeM suicide bomber Aadil Ahmad rammed explosives-laden vehicle into CRPF bus in Pulwama district",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "37 CRPF personnel killed and many critically wounded in the attack",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "India's PM Modi declares sacrifices of jawans will not go in vain",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Pakistan government expresses 'grave concern' but rejects Indian allegations of involvement",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_5",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Correspondence",
+      "description": "India condemns attack, urges international community to list JeM and Masood Azhar as terrorists",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Indian MEA accuses Pakistan of providing full freedom to JeM to operate cross-border attacks",
+      "source_text": "text_177"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_177_node_1",
+      "target": "text_177_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_177_node_2",
+      "target": "text_177_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_177_node_3",
+      "target": "text_177_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_177_node_4",
+      "target": "text_177_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_177_node_5",
+      "target": "text_177_node_6",
+      "relation": "before"
+    }
+  ]
+}

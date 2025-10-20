@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_71_node_1",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "Boko Haram成立于Maiduguri，距离Mamudo仅几英里",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "该组织自2012年成立至今持续发展壮大",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Boko Haram名称直译为禁止西方教育的号召",
+      "source_text": "text_71"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_71_node_1",
+      "target": "text_71_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_71_node_2",
+      "target": "text_71_node_3",
+      "relation": "before"
+    }
+  ]
+}

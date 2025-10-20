@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_90_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "IRA在恩尼基伦战争纪念服务期间引爆150磅炸弹，导致11人死亡63人受伤",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在图利霍蒙纪念活动集合点附近发现未引爆的150磅IRA炸弹",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRA声称恩尼基伦爆炸是‘错误’并谎报炸弹重量为40磅",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "IRA通过电台通知未爆炸弹位置，但直至周二由军方解除爆炸物",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "未爆炸弹引线跨越英爱边境，原计划放置于50名青少年和百余名家长聚集处",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方证实未爆炸弹若引爆将造成更多伤亡，揭露IRA预谋杀人意图",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRA因恩尼基伦事件遭两国民众强烈谴责，国际地位进一步孤立",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "教皇约翰·保罗二世对事件表示哀悼，谴责暴力行为",
+      "source_text": "text_90"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_90_node_1",
+      "target": "text_90_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_2",
+      "target": "text_90_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_3",
+      "target": "text_90_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_4",
+      "target": "text_90_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_5",
+      "target": "text_90_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_6",
+      "target": "text_90_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_7",
+      "target": "text_90_node_8",
+      "relation": "before"
+    }
+  ]
+}

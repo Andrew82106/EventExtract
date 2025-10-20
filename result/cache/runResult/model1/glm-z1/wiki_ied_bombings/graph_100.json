@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "text_100_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "孟买发生连环爆炸事件，爆炸地点位于Zaveri Bazaar和Dadar",
+      "source_text": "text_100"
+    },
+    {
+      "id": "text_100_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "孟买警方通过短信向全体手机用户发布安全警告，要求民众留在室内并关注新闻频道",
+      "source_text": "text_100"
+    },
+    {
+      "id": "text_100_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "印度 home 部长P Chidambaram宣布每两小时通过媒体向公众更新事件进展",
+      "source_text": "text_100"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_100_node_1",
+      "target": "text_100_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_100_node_1",
+      "target": "text_100_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_100_node_2",
+      "target": "text_100_node_3",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_68_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "Terry Nichols gave Lana Padilla a package before leaving for the Philippines in October 1994",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "Lana Padilla opened the package on October 24, 1994 (the day after Nichols left) and found two envelopes",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "One envelope was addressed to Jennifer McVeigh (Timothy McVeigh's sister) and the other to Timothy McVeigh",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "The letter instructed Padilla to wait at least 60 days before opening a storage unit in Las Vegas and accessing hidden cash in her kitchen",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "Padilla waited until December 17, 1994 and discovered $20,000 cash behind a kitchen drawer with help from her son Barry",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "The letter to Timothy McVeigh instructed him to clear storage locker CG37 by February 1, 1995 or pay storage fees under Ted Parker of Decker",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "The letter mentioned liquidating $40 and stated the purpose was to avoid detection after Nichols' death",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "Prosecutors linked CG37 and 40 to storage lockers in Council Grove, Kansas used for storing bombing materials",
+      "source_text": "text_68"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_68_node_1",
+      "target": "text_68_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_68_node_2",
+      "target": "text_68_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_68_node_3",
+      "target": "text_68_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_68_node_4",
+      "target": "text_68_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_68_node_4",
+      "target": "text_68_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_68_node_5",
+      "target": "text_68_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_68_node_6",
+      "target": "text_68_node_7",
+      "relation": "before"
+    }
+  ]
+}

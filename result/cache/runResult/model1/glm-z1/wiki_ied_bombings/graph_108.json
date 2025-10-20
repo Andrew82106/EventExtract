@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_108_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "2019年10月9日，土耳其与美俄签署协议，在叙利亚北部建立安全区",
+      "source_text": "text_108"
+    },
+    {
+      "id": "text_108_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其支持的地面部队于2019年10月发动进攻，夺取拉卡因地区控制权",
+      "source_text": "text_108"
+    },
+    {
+      "id": "text_108_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年11月26日，土耳其国防部宣布Tel Halaf村庄发生汽车炸弹袭击，造成17人死亡20人受伤",
+      "source_text": "text_108"
+    },
+    {
+      "id": "text_108_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "叙利亚观察站确认袭击并报告11人死亡，但指出伤亡可能上升",
+      "source_text": "text_108"
+    },
+    {
+      "id": "text_108_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其指责库尔德工人党（PKK）及其分支YPG为袭击负责，称其行为比极端组织更恶劣",
+      "source_text": "text_108"
+    },
+    {
+      "id": "text_108_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "土耳其政府表示计划在境内设立安全区安置3.6百万叙利亚难民",
+      "source_text": "text_108"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_108_node_1",
+      "target": "text_108_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_108_node_2",
+      "target": "text_108_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_108_node_3",
+      "target": "text_108_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_108_node_4",
+      "target": "text_108_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_108_node_5",
+      "target": "text_108_node_6",
+      "relation": "before"
+    }
+  ]
+}

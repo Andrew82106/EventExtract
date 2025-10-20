@@ -1,0 +1,435 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "KGB/FSB制定了名为‘斯瓦希里’的计划，旨在扶植‘天选之人’（普京）成为总统并建立‘铁腕’政权。",
+      "support_text": "In the beginning of 1999, Russian is in total disorder after an August 1998 default. The KGB/FSB plans to take over Russia and establish an \"iron hand\" regime. The plan is called \"Suahili.\" According to the plan, Chosen One will become president of Russia and later the obedient marionette of the \"KGB order.\"",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "检察官被设局陷害，其与妓女的风流韵事被录像公之于众，导致他下台并由‘天选之人’接任FSB局长。",
+      "support_text": "The \"secretly debauched\" Prosecutor, the tool of Mayor in his struggle with Dummy (Yury Skuratov, general prosecutor in the first half of 1999)",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "FSB挑起车臣和达吉斯坦的战争，使时任总理斯捷帕申被解职，‘天选之人’随后接任总理。",
+      "support_text": "Plump-cheeked Prime Minister, continually blabbing about his officers' honor (Sergei Stepashin, prime minister in May-August 1999)",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "KGB特工毒死了‘留声机’（圣彼得堡前市长索布恰克），以保护‘天选之人’免受潜在丑闻的牵连。",
+      "support_text": "Gramophone (former Mayor of St. Petersburg Sobchak)",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "FSB实施了‘赫索根’行动，炸毁莫斯科公寓楼并嫁祸给车臣游击队，以塑造‘天选之人’的战争英雄形象。",
+      "support_text": "...and, particularly, throws light on the real perpetrattors of the apartment explosions in Moscow in the beginning of September 1999.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "凭借公寓爆炸案后获得的高支持率，‘天选之人’（普京）最终成为俄罗斯代理总统。",
+      "support_text": "According to the plan, Chosen One will become president of Russia and later the obedient marionette of the \"KGB order.\"",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "新政权建立后，FSB掌握了最高权力，并开始剥夺曾帮助他们的寡头（扎列茨基和阿斯特罗斯）的媒体帝国。",
+      "support_text": "Two Jewish oligarchs, competing owners of media empires: Zaretsky (Boris Berezovsky) Astros, chairman of Russia's Jewish Congress (Vladimir Gusinsky)",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯当局通过海关没收揭露性电影《刺杀俄罗斯》的录像带，并颁布《反极端主义法》以压制相关调查和异议。",
+      "support_text": "文本中未提及",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "故事的创作者将对莫斯科近期事件的详细描述伪装成了小说《赫索根先生》。",
+      "support_text": "（故事的创作者）将对莫斯科近期事件的详细描述伪装成了小说。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "该报的数千名读者热切地向其主编通报罪行。",
+      "support_text": "该报的数千名读者热切地向其主编通报罪行。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Prokhanov在2001年9月至10月将这个故事发表在《明天》杂志的几期上。",
+      "support_text": "Prokhanov在2001年9月至10月将这个故事发表在《明天》杂志的几期上。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_4",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ad Marginem出版社在2001年11月至2002年4月额外出版了数十万册。",
+      "support_text": "Ad Marginem出版社在2001年11月至2002年4月额外出版了数十万册。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "《六号先生》在2002年5月底于莫斯科举办的“国家畅销书”竞赛中获得了第一名。",
+      "support_text": "《六号先生》在2002年5月底于莫斯科举办的“国家畅销书”竞赛中获得了第一名。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "市长想自己成为总统。",
+      "support_text": "市长想自己成为总统。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "检察官正在收集针对总统达米的妥协材料。",
+      "support_text": "检察官正在收集针对总统达米的妥协材料。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "别列佐夫斯基在入侵的准备工作中扮演了决定性角色。",
+      "support_text": "别列佐夫斯基在入侵的准备工作中扮演了决定性角色。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_9",
+      "event_type": "Life",
+      "event_subtype": "Consume",
+      "event_sub_subtype": "Unspecified",
+      "description": "留声机正在饮用那杯白兰地。",
+      "support_text": "基于动词事件 'drink' 的语义描述",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "FSB和普京启动了一场“爱国运动”。",
+      "support_text": "FSB和普京启动了一场“爱国运动”。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "在新“铁腕”政权下，俄罗斯人民的苦难变得更加深重。",
+      "support_text": "在新“铁腕”政权下，俄罗斯人民的苦难变得更加深重。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "作者要求读者根据自己的判断得出结论。",
+      "support_text": "（作者）要求读者得出自己的结论。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "真相从国外传入俄罗斯。",
+      "support_text": "the truth comes in from abroad",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "鲍里斯·别列佐夫斯基制作了《刺杀俄罗斯》这部电影。",
+      "support_text": "Boris Berezovsky produced the film 'Assassination of Russia'",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "电影《刺杀俄罗斯》描述了FSB在爆炸案中的角色以及一次失败的爆炸企图。",
+      "support_text": "The film 'Assassination of Russia' describes FSB's role in the blasts and the failed attempt",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_16",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "电影《刺杀俄罗斯》在伦敦被公之于众。",
+      "support_text": "The film 'Assassination of Russia' is unveiled in London",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "该电影的拷贝被偷偷带入俄罗斯境内。",
+      "support_text": "copies of the film are sneaked into the country",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "FSB和俄罗斯内政部正在搜寻该电影的拷贝。",
+      "support_text": "the FSB and Russian Interior Ministry hunt for copies of the film",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "俄罗斯总检察长办公室经过调查，没有发现任何线索。",
+      "support_text": "the Russian General Prosecutor's office... had found no clues connecting the FSB with the apartment explosions",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯总检察长办公室宣布了其调查结果，即未发现FSB与公寓爆炸案有关联的线索。",
+      "support_text": "the Russian General Prosecutor's office... announced that it had found no clues connecting the FSB with the apartment explosions",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_21",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "副总检察长瓦西里·科尔莫戈罗夫在一封信中提出了这项声明。",
+      "support_text": "Deputy General Prosecutor Vasily Kolmogorov made this claim in a letter",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "Each stage of the plan corresponds to one part of the story. In the beginning of the story, Chosen One is the deputy of Tricky... Prosecutor (first part of the book and first part of the KGB'..."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "Each stage of the plan corresponds to one part of the story."
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "Each stage of the plan corresponds to one part of the story."
+    },
+    {
+      "source": "text_2_node_4",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "Each stage of the plan corresponds to one part of the story."
+    },
+    {
+      "source": "text_2_node_5",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "\"Mr. Hexogen\" describes the major events in Moscow, and consequently in Russia, from spring 1999 to the beginning of 2000. ...the apartment explosions in Moscow in the beginning of September 1999."
+    },
+    {
+      "source": "text_2_node_5",
+      "target": "text_2_new_node_2",
+      "relation": "before",
+      "support_text": "读者通报的罪行（公寓爆炸案）发生在爆炸案（node_5）之后。"
+    },
+    {
+      "source": "text_2_node_5",
+      "target": "text_2_new_node_10",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，成为战争英雄(3)发生在启动爱国运动(4)之前。"
+    },
+    {
+      "source": "text_2_node_5",
+      "target": "text_2_new_node_14",
+      "relation": "before",
+      "support_text": "爆炸案是电影《刺杀俄罗斯》所描述的核心内容，因此爆炸案发生在电影制作之前。"
+    },
+    {
+      "source": "text_2_node_6",
+      "target": "text_2_node_7",
+      "relation": "before",
+      "support_text": "文本中未提及"
+    },
+    {
+      "source": "text_2_node_6",
+      "target": "text_2_new_node_1",
+      "relation": "before",
+      "support_text": "《六号先生》描述的事件（至node_6）是故事创作（new_node_1）的基础。"
+    },
+    {
+      "source": "text_2_node_7",
+      "target": "text_2_node_8",
+      "relation": "before",
+      "support_text": "文本中未提及"
+    },
+    {
+      "source": "text_2_node_7",
+      "target": "text_2_new_node_11",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，寡头失去帝国(9)发生在人民苦难加深(10)之前。"
+    },
+    {
+      "source": "text_2_new_node_1",
+      "target": "text_2_new_node_3",
+      "relation": "before",
+      "support_text": "故事在被伪装成小说后，才由Prokhanov在杂志上发表。"
+    },
+    {
+      "source": "text_2_new_node_2",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "公众对罪行的通报是推动‘天选之人’上台（node_6）的背景事件之一。"
+    },
+    {
+      "source": "text_2_new_node_3",
+      "target": "text_2_new_node_4",
+      "relation": "before",
+      "support_text": "Prokhanov在杂志上发表后，Ad Marginem出版社才出版了书籍。"
+    },
+    {
+      "source": "text_2_new_node_4",
+      "target": "text_2_new_node_5",
+      "relation": "before",
+      "support_text": "书籍出版后，才赢得了“国家畅销书”竞赛的第一名。"
+    },
+    {
+      "source": "text_2_new_node_6",
+      "target": "text_2_new_node_7",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，市长想成为总统（1）发生在检察官收集材料（2）之前。"
+    },
+    {
+      "source": "text_2_new_node_8",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "入侵的准备工作（别列佐夫斯基的角色）在逻辑上应早于入侵的实际执行（挑起车臣和达吉斯坦的战争）。"
+    },
+    {
+      "source": "text_2_new_node_9",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "饮用白兰地发生在留声机被毒死之前。"
+    },
+    {
+      "source": "text_2_new_node_10",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，启动爱国运动(4)发生在成为代理总统(6)之前。"
+    },
+    {
+      "source": "text_2_new_node_13",
+      "target": "text_2_new_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order，真相传入(1)发生在制作电影(2)之前。"
+    },
+    {
+      "source": "text_2_new_node_14",
+      "target": "text_2_new_node_15",
+      "relation": "before",
+      "support_text": "根据temporal_order，制作电影(2)发生在电影描述事件(3)之前。"
+    },
+    {
+      "source": "text_2_new_node_15",
+      "target": "text_2_new_node_16",
+      "relation": "before",
+      "support_text": "根据temporal_order，电影描述事件(3)发生在电影公之于众(4)之前。"
+    },
+    {
+      "source": "text_2_new_node_16",
+      "target": "text_2_new_node_17",
+      "relation": "before",
+      "support_text": "根据temporal_order，电影公之于众(4)发生在拷贝被偷运入境(5)之前。"
+    },
+    {
+      "source": "text_2_new_node_17",
+      "target": "text_2_new_node_18",
+      "relation": "before",
+      "support_text": "根据temporal_order，拷贝被偷运入境(5)发生在FSB搜寻拷贝(7)之前。"
+    },
+    {
+      "source": "text_2_new_node_18",
+      "target": "text_2_node_8",
+      "relation": "before",
+      "support_text": "根据temporal_order，FSB搜寻拷贝(7)发生在FSB试图隔离真相(8)之前。"
+    },
+    {
+      "source": "text_2_new_node_19",
+      "target": "text_2_new_node_20",
+      "relation": "before",
+      "support_text": "调查发现是宣布结果的前提。"
+    },
+    {
+      "source": "text_2_new_node_21",
+      "target": "text_2_new_node_20",
+      "relation": "before",
+      "support_text": "在信中提出声明是宣布该声明的方式。"
+    }
+  ]
+}

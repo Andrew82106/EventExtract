@@ -1,0 +1,372 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "CRPF人员护卫队凌晨3点30分从查谟出发前往斯利那加。",
+      "support_text": "The convoy started from Jammu around 3.30 am and was supposed to reach Srinagar before sunset, officials said.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "下午3点15分，一名穆罕默德军自杀式炸弹袭击者驾驶满载炸药的汽车在普尔瓦马地区撞击了CRPF护卫队的巴士。",
+      "support_text": "...when a Jaish suicide bomber rammed a vehicle carrying over 100 kg of explosives into their bus in Pulwama district... around 3.15 pm.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击引发了强烈爆炸，导致巴士被完全摧毁。",
+      "support_text": "The powerful explosion, which reduced the bus to a mangled heap of iron, was heard many kilometres away, including in some parts of Srinagar adjoining Pulwama district.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成至少38名CRPF人员死亡，另有多人重伤。",
+      "support_text": "At least 38 CRPF personnel were killed on Thursday in one of the deadliest terror attacks in Jammu and Kashmir... that also left many critically wounded, officials said.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦境内的穆罕默德军恐怖组织宣称对此次袭击负责。",
+      "support_text": "The Pakistan-based Jaish-e-Mohammed terror group has claimed responsibility for the attack that took place about 20 km from Srinagar, officials said.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "印度总理莫迪强烈谴责此次“卑鄙的”袭击，并保证牺牲不会白费。",
+      "support_text": "Attack on CRPF personnel in Pulwama is despicable. I strongly condemn this dastardly attack. The sacrifices of our… https://t.co/QaTBqQrojk — Narendra Modi (@narendramodi) 1550150217000",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "包括国大党主席和人民党主席在内的各党派政治领导人纷纷谴责此次袭击。",
+      "support_text": "In a statement , Singh said the government is determined to foil the designs of those who want to disrupt peace through such a terror attack... His deputy Kiren Rijiju said the \"cowardly\" attack will not go unpunished and it will be avenged in \"all way possible\".",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度内阁安全委员会定于次日上午开会讨论安全局势。",
+      "support_text": "The Cabinet Committee on Security will meet Friday morning to discuss the security situation in Jammu and Kashmir against the backdrop of the attack, sources said.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "国家调查局和国家安全卫队小组被派往克什米尔协助调查。",
+      "support_text": "原始文本中未找到支撑片段",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员们报道了这起袭击事件及其伤亡情况。",
+      "support_text": "At least 38 CRPF personnel were killed on Thursday in one of the deadliest terror attacks in Jammu and Kashmir... that also left many critically wounded, officials said.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "许多CRPF人员正从假期返回，准备归队。",
+      "support_text": "许多中央后备警察部队人员正在从假期中返回。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_12",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "ChangeJobLocation",
+      "description": "CRPF人员返回的目的是重新归队执勤。",
+      "support_text": "许多中央后备警察部队人员返回的目的是重新归队执勤。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员们报道了穆罕默德军宣称对袭击负责这一事件。",
+      "support_text": "The Pakistan-based Jaish-e-Mohammed terror group has claimed responsibility for the attack that took place about 20 km from Srinagar, officials said.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿迪尔·艾哈迈德于2018年加入了“虔诚军”。",
+      "support_text": "阿迪尔·艾哈迈德于2018年加入了“虔诚军”。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认了自杀式炸弹袭击者的身份是阿迪尔·艾哈迈德。",
+      "support_text": "警方确认了自杀式炸弹袭击者的身份是阿迪尔·艾哈迈德。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员们称，阿迪尔·艾哈迈德于2018年加入了“虔诚军”。",
+      "support_text": "官员们称，阿迪尔·艾哈迈德于2018年加入了“虔诚军”。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "他补充说，他们尚未查明巴士上确切的乘客人数。",
+      "support_text": "他补充说，他们尚未查明巴士上确切的乘客人数。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸将残肢散落在该区域各处。",
+      "support_text": "爆炸将残肢散落在该区域各处。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_19",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "残肢散落在该区域，可以被看到。",
+      "support_text": "残肢散落在该区域，可以被看到。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "遗体被肢解和残害的情况导致医生难以确认确切伤亡人数。",
+      "support_text": "The bodies are dismembered and mutilated to make it difficult for doctors to give the exact number of casualties.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_21",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "官方人员拒绝提供伤者的确切数字。",
+      "support_text": "They refuse to give an exact number for those injured.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_22",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "其他几辆巴士在袭击中受损。",
+      "support_text": "其他几辆巴士在袭击中受损。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_23",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "一些枪声向CRPF护卫队开火。",
+      "support_text": "一些枪声向车队开火。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员们解释了此次人员数量众多的原因是许多人员正从假期返回。",
+      "support_text": "The convoy had a total of 2,500 personnel, many of whom were returning from leave and rejoining duty, officials said.",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "More than 2,500 Central Reserve Police Force personnel... were travelling in the convoy of 78 vehicles when they were ambushed on the Srinagar-Jammu highway... around 3.15 pm. The convoy started from Jammu around 3.30 am..."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_new_node_24",
+      "relation": "before",
+      "support_text": "护卫队出发后，官员们解释了人员众多的原因，这发生在袭击之前。"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "...a Jaish suicide bomber rammed a vehicle carrying over 100 kg of explosives into their bus... The powerful explosion, which reduced the bus to a mangled heap of iron..."
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_23",
+      "relation": "before",
+      "support_text": "根据事件的逻辑顺序，车辆炸弹袭击（node_2）发生后，紧接着可能发生了枪击（new_node_23）。"
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "The powerful explosion, which reduced the bus to a mangled heap of iron... Officials said 38 CRPF personnel have lost their lives and some others are critical."
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_new_node_19",
+      "relation": "before",
+      "support_text": "在爆炸声被听到之后，现场散落的残肢才被看到。"
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_new_node_22",
+      "relation": "before",
+      "support_text": "爆炸导致巴士被摧毁，同时也造成了其他巴士的损坏。"
+    },
+    {
+      "source": "text_1_node_4",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "At least 38 CRPF personnel were killed on Thursday in one of the deadliest terror attacks... The Pakistan-based Jaish-e-Mohammed terror group has claimed responsibility for the attack..."
+    },
+    {
+      "source": "text_1_node_4",
+      "target": "text_1_new_node_10",
+      "relation": "before",
+      "support_text": "袭击造成人员伤亡后，官员们对此进行了报道。"
+    },
+    {
+      "source": "text_1_node_4",
+      "target": "text_1_new_node_17",
+      "relation": "before",
+      "support_text": "在报道了袭击造成的伤亡情况后，官员补充了关于乘客人数正在核实中的细节。"
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_node_6",
+      "relation": "before",
+      "support_text": "The Pakistan-based Jaish-e-Mohammed terror group has claimed responsibility for the attack... Condemning the terrorist attack, Prime Minister Narendra Modi said that the sacrifice of the brave security personnel will not go in vain."
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_new_node_10",
+      "relation": "before",
+      "support_text": "恐怖组织宣称负责后，官员们对此进行了报道。"
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_new_node_13",
+      "relation": "before",
+      "support_text": "穆罕默德军首先宣称负责（node_5），然后官员们报道了这一事实（new_node_13）。"
+    },
+    {
+      "source": "text_1_node_6",
+      "target": "text_1_node_7",
+      "relation": "before",
+      "support_text": "Prime Minister Narendra Modi... termed it despicable and asserted that the sacrifices of security personnel will not go in vain. In a statement , Singh said the government is determined to foil the designs of those who want to disrupt peace through such a terror attack..."
+    },
+    {
+      "source": "text_1_node_7",
+      "target": "text_1_node_8",
+      "relation": "before",
+      "support_text": "...it will be avenged in \"all way possible\". The Cabinet Committee on Security will meet Friday morning to discuss the security situation in Jammu and Kashmir against the backdrop of the attack..."
+    },
+    {
+      "source": "text_1_node_8",
+      "target": "text_1_node_9",
+      "relation": "before",
+      "support_text": "原始文本中未找到支撑片段"
+    },
+    {
+      "source": "text_1_new_node_10",
+      "target": "text_1_node_6",
+      "relation": "before",
+      "support_text": "在官员报道事件详情后，印度总理莫迪发表了谴责声明。"
+    },
+    {
+      "source": "text_1_new_node_11",
+      "target": "text_1_new_node_12",
+      "relation": "before",
+      "support_text": "人员从假期返回是重新归队的前提。"
+    },
+    {
+      "source": "text_1_new_node_11",
+      "target": "text_1_node_1",
+      "relation": "before",
+      "support_text": "人员从假期返回，护卫队从查谟出发是这一过程中的具体行动。"
+    },
+    {
+      "source": "text_1_new_node_14",
+      "target": "text_1_new_node_15",
+      "relation": "before",
+      "support_text": "阿迪尔·艾哈迈德先加入组织，后来才被确认为袭击者。"
+    },
+    {
+      "source": "text_1_new_node_15",
+      "target": "text_1_new_node_16",
+      "relation": "before",
+      "support_text": "警方确认身份后，官员们公布了其背景信息。"
+    },
+    {
+      "source": "text_1_new_node_17",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "官员对伤亡细节的补充说明发生在恐怖组织正式宣称负责之前。"
+    },
+    {
+      "source": "text_1_new_node_18",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "爆炸首先将残肢散落，然后爆炸声被听到。"
+    },
+    {
+      "source": "text_1_new_node_20",
+      "target": "text_1_new_node_21",
+      "relation": "before",
+      "support_text": "根据temporal_order，'make'事件发生在'refuse'事件之前。"
+    },
+    {
+      "source": "text_1_new_node_24",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "对护卫队人员数量的解释发生在袭击事件之前。"
+    }
+  ]
+}

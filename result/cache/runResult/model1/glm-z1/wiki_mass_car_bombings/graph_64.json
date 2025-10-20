@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "id": "text_64_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "5月10日，大马士革情报大楼附近发生爆炸，造成约55人死亡",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周六（未明确日期）代尔祖尔军事情报设施外发生汽车炸弹袭击，致9人死亡、100人受伤",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚人权观察组织确认爆炸并报告伴随激烈枪击",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "反对派指责政府策划爆炸以污名化抗议运动",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "人权活动组织及地面人士否认政府指控",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚全国委员会（SNC）正式归咎于政府并谴责",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府军与自由叙利亚军（FSA）在伊德利卜交火致10名FSA成员死亡",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴卜·哈瓦地区因士兵叛变爆发战斗",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿贾新闻因政府限制无法独立核实暴力事件",
+      "source_text": "text_64"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_64_node_1",
+      "target": "text_64_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_64_node_2",
+      "target": "text_64_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_64_node_3",
+      "target": "text_64_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_64_node_3",
+      "target": "text_64_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_64_node_4",
+      "target": "text_64_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_64_node_5",
+      "target": "text_64_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_64_node_6",
+      "target": "text_64_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_64_node_7",
+      "target": "text_64_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_64_node_8",
+      "target": "text_64_node_9",
+      "relation": "before"
+    }
+  ]
+}

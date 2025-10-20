@@ -1,0 +1,423 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "俄克拉荷马城联邦大楼发生爆炸，造成168人死亡。",
+      "support_text": "...dedicated to those who died in the bombing of the Murrah Federal Building six years ago.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "一些人返回坍塌的建筑中救人并因此牺牲。",
+      "support_text": "The man who survived the blast but instead of escaping the crumbling building went straight to what was left of the second-floor day care center, where the babies and children were, and died when he was struck by falling debris. The nurse who was killed the same way after running into the ruins …",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "蒂莫西·麦克维接受了审判并被定罪。",
+      "support_text": "...the anniversaries of the bombing, McVeigh's trial and conviction...",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "一座为纪念遇难者而建的纪念碑在爆炸案后完工。",
+      "support_text": "...the completion of a spectacular $29-million memorial dedicated to those who died in the bombing of the Murrah Federal Building six years ago.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "麦克维的处决经历了筹备和延迟的过程。",
+      "support_text": "...the build-up to his execution and the delay...",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "蒂莫西·麦克维被处以死刑。",
+      "support_text": "When Timothy McVeigh is put to death Monday, Florence Rogers won't be watching.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Florence Rogers 发表了她的看法和假设。",
+      "support_text": "\"I'm not gonna waste my time on that skinny little bastard,\" \"If I want to see an execution, I'll go out and rent `The Green Mile.'\"",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Florence Rogers 将不会观看处决过程。",
+      "support_text": "When Timothy McVeigh is put to death Monday, Florence Rogers won't be watching.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Florence Rogers 表示她不会浪费自己的时间。",
+      "support_text": "\"I'm not gonna waste my time on that skinny little bastard,\"",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Florence Rogers 提出了一个假设性的愿望。",
+      "support_text": "\"If I want to see an execution...\"",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "Florence Rogers 说她会外出。",
+      "support_text": "\"...I'll go out and rent `The Green Mile.'\"",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_6",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "Florence Rogers 说她会去租借电影《绿里奇迹》。",
+      "support_text": "\"...I'll go out and rent `The Green Mile.'\"",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "对Treanor来说，这件事的本质是直面邪恶并成为最后的幸存者。",
+      "support_text": "it boiled down to staring evil straight in the face, and being the last one standing.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Treanor直面邪恶。",
+      "support_text": "staring evil straight in the face",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_9",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "Treanor对邪恶宣告‘你输了’。",
+      "support_text": "saying, 'You lose.' to the evil",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "邪恶最终失败。",
+      "support_text": "You lose.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "大部分国民将从远处观看McVeigh的处决。",
+      "support_text": "大部分国民将从远处观看McVeigh的处决。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "一些受害者（如Treanor）已经选择观看处决。",
+      "support_text": "一些受害者（如Treanor）已经选择观看处决。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_13",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "一些受害者将通过闭路电视观看处决。",
+      "support_text": "一些受害者将通过闭路电视观看处决。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（他们担心）相关的事物会带回回忆。",
+      "support_text": "（他们担心）相关的事物会带回回忆。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者们正在应对（或习惯于应对）各种里程碑事件。",
+      "support_text": "受害者们正在应对（或习惯于应对）各种里程碑事件。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "一些人帮助设计了纪念碑。",
+      "support_text": "一些人帮助设计了纪念碑。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "一些人设计了纪念碑。",
+      "support_text": "一些人设计了纪念碑。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "两面纯金墙壁位于168个空青铜椅的两侧。",
+      "support_text": "两面纯金墙壁位于168个空青铜椅的两侧。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_19",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "（制作者）将遇难者的名字刻在了椅子上。",
+      "support_text": "（制作者）将遇难者的名字刻在了椅子上。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_20",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "一些曾经参与设计的人现在担任导游。",
+      "support_text": "一些曾经参与设计的人现在担任导游。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_21",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "其他人开车经过那个多风的地方。",
+      "support_text": "其他人开车经过那个多风的地方。",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "The man who survived the blast but instead of escaping the crumbling building..."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "...the anniversaries of the bombing, McVeigh's trial and conviction..."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "...the completion of a spectacular $29-million memorial dedicated to those who died in the bombing of the Murrah Federal Building six years ago."
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "...McVeigh's trial and conviction, the build-up to his execution and the delay..."
+    },
+    {
+      "source": "text_1_node_4",
+      "target": "text_1_node_6",
+      "relation": "before",
+      "support_text": "...the completion of a spectacular $29-million memorial... six years ago. ... When Timothy McVeigh is put to death Monday..."
+    },
+    {
+      "source": "text_1_node_4",
+      "target": "text_1_new_node_20",
+      "relation": "before",
+      "support_text": "纪念碑完成后，人们才能担任导游。"
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_node_6",
+      "relation": "before",
+      "support_text": "...the build-up to his execution and the delay..."
+    },
+    {
+      "source": "text_1_node_6",
+      "target": "text_1_new_node_14",
+      "relation": "before",
+      "support_text": "处决完成后，相关事物才可能带回回忆。"
+    },
+    {
+      "source": "text_1_new_node_1",
+      "target": "text_1_new_node_2",
+      "relation": "before",
+      "support_text": "Florence Rogers发表了看法，该看法包含了不观看处决的决定。"
+    },
+    {
+      "source": "text_1_new_node_1",
+      "target": "text_1_new_node_3",
+      "relation": "before",
+      "support_text": "Florence Rogers发表了看法，该看法包含了不浪费时间的决定。"
+    },
+    {
+      "source": "text_1_new_node_1",
+      "target": "text_1_new_node_4",
+      "relation": "before",
+      "support_text": "Florence Rogers发表了看法，该看法包含了一个假设性愿望。"
+    },
+    {
+      "source": "text_1_new_node_1",
+      "target": "text_1_new_node_5",
+      "relation": "before",
+      "support_text": "Florence Rogers发表了看法，该看法包含了外出的行为。"
+    },
+    {
+      "source": "text_1_new_node_1",
+      "target": "text_1_new_node_6",
+      "relation": "before",
+      "support_text": "Florence Rogers发表了看法，该看法包含了租借电影的行为。"
+    },
+    {
+      "source": "text_1_new_node_1",
+      "target": "text_1_node_6",
+      "relation": "before",
+      "support_text": "Florence Rogers的声明发生在麦克维被处决之前。"
+    },
+    {
+      "source": "text_1_new_node_7",
+      "target": "text_1_new_node_8",
+      "relation": "before",
+      "support_text": "根据temporal_order，'boil down' (2) 发生在 'stare' (3) 之前。"
+    },
+    {
+      "source": "text_1_new_node_8",
+      "target": "text_1_new_node_9",
+      "relation": "before",
+      "support_text": "根据temporal_order，'stare' (3) 发生在 'say' (4) 之前。"
+    },
+    {
+      "source": "text_1_new_node_9",
+      "target": "text_1_new_node_10",
+      "relation": "before",
+      "support_text": "根据temporal_order，'say' (4) 发生在 'lose' (5) 之前。"
+    },
+    {
+      "source": "text_1_new_node_11",
+      "target": "text_1_new_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order，'view' (2) 发生在 'bring' (3) 之前。"
+    },
+    {
+      "source": "text_1_new_node_12",
+      "target": "text_1_new_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order，'elect' (1) 发生在 'watch' (2) 之前。"
+    },
+    {
+      "source": "text_1_new_node_12",
+      "target": "text_1_new_node_11",
+      "relation": "before",
+      "support_text": "根据temporal_order，'elect' (1) 发生在 'view' (2) 之前。"
+    },
+    {
+      "source": "text_1_new_node_12",
+      "target": "text_1_node_6",
+      "relation": "before",
+      "support_text": "选择观看处决发生在处决本身之前。"
+    },
+    {
+      "source": "text_1_new_node_13",
+      "target": "text_1_new_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order，'watch' (2) 发生在 'bring' (3) 之前。"
+    },
+    {
+      "source": "text_1_new_node_14",
+      "target": "text_1_new_node_15",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order(9)，它发生在图中其他事件之后，包括担心回忆被带回(new_node_14)。"
+    },
+    {
+      "source": "text_1_new_node_14",
+      "target": "text_1_new_node_21",
+      "relation": "before",
+      "support_text": "根据temporal_order，无法面对(5)发生在开车经过(6)之前。"
+    },
+    {
+      "source": "text_1_new_node_16",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "帮助设计纪念碑发生在纪念碑完成之前。"
+    },
+    {
+      "source": "text_1_new_node_17",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "设计纪念碑发生在纪念碑完成之前。"
+    },
+    {
+      "source": "text_1_new_node_18",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "墙壁的设置是纪念碑建造的一部分，发生在纪念碑完成之前。"
+    },
+    {
+      "source": "text_1_new_node_19",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "刻上名字是纪念碑建造的一部分，发生在纪念碑完成之前。"
+    },
+    {
+      "source": "text_1_new_node_20",
+      "target": "text_1_new_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order，担任导游(4)发生在无法面对(5)之前。"
+    }
+  ]
+}

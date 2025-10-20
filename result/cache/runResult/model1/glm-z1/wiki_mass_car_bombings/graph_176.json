@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "id": "text_176_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "周六卡车炸弹袭击在摩加迪沙造成300人死亡，创索马里最致命单次袭击纪录",
+      "source_text": "text_176"
+    },
+    {
+      "id": "text_176_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "索马里情报官员披露卡车通过检查站过程：司机与士兵通话后获准入城",
+      "source_text": "text_176"
+    },
+    {
+      "id": "text_176_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "",
+      "description": "政府逮捕2名嫌疑人并公布袭击细节",
+      "source_text": "text_176"
+    },
+    {
+      "id": "text_176_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "星期三民众举行反恐抗议，市长号召'解放被鲜血浸染之城'",
+      "source_text": "text_176"
+    },
+    {
+      "id": "text_176_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "",
+      "description": "学生和教师发表悼念演讲，谴责袭击并呼吁维护和平",
+      "source_text": "text_176"
+    },
+    {
+      "id": "text_176_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "安全部队驱散抗议时开枪致3人受伤，含孕妇",
+      "source_text": "text_176"
+    },
+    {
+      "id": "text_176_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "政府将袭击定性为'基地组织盟友' al-Shabab所为",
+      "source_text": "text_176"
+    },
+    {
+      "id": "text_176_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "分析人士推测袭击者可能因平民伤亡过多而回避认责",
+      "source_text": "text_176"
+    },
+    {
+      "id": "text_176_node_9",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "",
+      "description": "最终统计显示近400人受伤，多人失踪",
+      "source_text": "text_176"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_176_node_1",
+      "target": "text_176_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_176_node_1",
+      "target": "text_176_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_176_node_2",
+      "target": "text_176_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_176_node_3",
+      "target": "text_176_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_176_node_4",
+      "target": "text_176_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_176_node_5",
+      "target": "text_176_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_176_node_6",
+      "target": "text_176_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_176_node_7",
+      "target": "text_176_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_176_node_8",
+      "target": "text_176_node_9",
+      "relation": "before"
+    }
+  ]
+}

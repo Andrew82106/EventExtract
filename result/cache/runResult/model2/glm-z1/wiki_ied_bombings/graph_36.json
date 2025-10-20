@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "id": "text_36_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年1月，Dange、Kalsangra和Joshi在Bagli对炸弹训练进行两日培训，涵盖爆炸物组装、定时装置使用及武器操作",
+      "support_text": "Kamal also led the NIA to Bagli near Indore where the bombers were trained in January 2006 by Dange, Kalsangra and Joshi.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2007年，Samjhauta Express列车在印巴边境爆炸，造成68人死亡（含43名巴基斯坦人），Rajendra Pehalwan和Lokesh Sharma参与炸弹安装",
+      "support_text": "The fresh chargesheet will name Kamal Chauhan and Amit Chauhan alias Hakla as the two bombers who along with Lokesh Sharma and Rajendra Pehalwan allegedly planted the four suitcase bombs in the train that killed 68 people, including 43 Pakistan nationals.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2007年，Joshi在Dewas被发现死亡，其尸体与早期调查关联",
+      "support_text": "Sunil Joshi  who was found dead in 2007 in Dewas.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "2010年，NIA正式接管Samjhauta Express爆炸案调查",
+      "support_text": "The NIA, which took over the probe in 2010",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2011年6月，NIA首次起诉书指控Swami Aseemanand等5人参与策划",
+      "support_text": "The NIA filed the first chargesheet in June 2011 against Swami Aseemanand...",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2024年2月，NIA逮捕Kamal Chauhan，其供词揭示训练细节及炸弹组装地点",
+      "support_text": "The NIA arrested Kamal Chauhan in February this year and was able to identify the bombers.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2024年X月X日（下 couple of days），NIA提交二次起诉书，新增指控Amit Chauhan和Rajendra Pehalwan，仍无证据指向Indresh Kumar",
+      "support_text": "The NIA is likely to file its second chargesheet into the 2007 Samjhauta Express blast at a Panchkula court in the next couple of days.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "NIA将Amit Chauhan识别为与Kalsangra和Dange在Indore的出租公寓附近组装炸弹的人员",
+      "support_text": "NIA将Amit Chauhan识别为与Kalsangra和Dange一起在Indore的出租公寓附近组装炸弹的人员",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "从已拆除的炸弹中发现了相同的表",
+      "support_text": "从已拆除的炸弹中发现了相同的表",
+      "source_text": "text_36"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_node_2",
+      "relation": "before",
+      "support_text": "Kamal also led the NIA to Bagli near Indore where the bombers were trained in January 2006 by Dange, Kalsangra and Joshi."
+    },
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_node_6",
+      "relation": "before",
+      "support_text": "Kamal also led the NIA to Bagli near Indore where the bombers were trained in January 2006 by Dange, Kalsangra and Joshi."
+    },
+    {
+      "source": "text_36_node_2",
+      "target": "text_36_node_3",
+      "relation": "before",
+      "support_text": "Sunil Joshi  who was found dead in 2007 in Dewas."
+    },
+    {
+      "source": "text_36_node_2",
+      "target": "text_36_node_4",
+      "relation": "before",
+      "support_text": "The NIA, which took over the probe in 2010"
+    },
+    {
+      "source": "text_36_node_3",
+      "target": "text_36_node_4",
+      "relation": "before",
+      "support_text": "The NIA, which took over the probe in 2010"
+    },
+    {
+      "source": "text_36_node_4",
+      "target": "text_36_node_5",
+      "relation": "before",
+      "support_text": "The NIA filed the first chargesheet in June 2011 against Swami Aseemanand..."
+    },
+    {
+      "source": "text_36_node_4",
+      "target": "text_36_node_9",
+      "relation": "before",
+      "support_text": "NIA在2010年接管调查后，在后续调查中发现了与炸弹训练相关的物证"
+    },
+    {
+      "source": "text_36_node_5",
+      "target": "text_36_node_6",
+      "relation": "before",
+      "support_text": "The NIA arrested Kamal Chauhan in February this year"
+    },
+    {
+      "source": "text_36_node_5",
+      "target": "text_36_node_8",
+      "relation": "before",
+      "support_text": "NIA在2011年首次起诉书中指控Swami Aseemanand等5人参与策划，并在后续调查中识别Amit Chauhan的具体角色"
+    },
+    {
+      "source": "text_36_node_6",
+      "target": "text_36_node_7",
+      "relation": "before",
+      "support_text": "The NIA is likely to file its second chargesheet into the 2007 Samjhauta Express blast at a Panchkula court in the next couple of days."
+    },
+    {
+      "source": "text_36_node_8",
+      "target": "text_36_node_6",
+      "relation": "before",
+      "support_text": "NIA通过识别Amit Chauhan的供词确认其参与炸弹组装训练及爆炸实施"
+    }
+  ]
+}

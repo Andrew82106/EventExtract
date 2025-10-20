@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_80_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1998年8月15日，Real IRA在北爱尔兰奥马戈市中心发动爆炸，造成29人死亡",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_2",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "",
+      "description": "2013年，北爱尔兰警察监察员Nuala O'Loan发布调查报告，指出警方在爆炸前收到警告却未采取有效行动",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "2013年10月23日，受害者家属首次被展示调查报告摘要",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "Kevin Skelton遗孀Philomena质疑警方调查未兑现'不放过任何线索'的承诺",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Kevin Skelton在BBC采访中要求启动全面公听会并强调需追究真相",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "Lawrence Rush等受害者家属指责警方存在系统性失职，特别是Special Branch的独立性",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "奥马戈爆炸现场居民集体讨论调查报告结论，部分人再次质疑警方责任",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "Patricia Sowerby指出城镇仍处于'悬而未决'状态，质疑报告的实际效果",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_9",
+      "event_type": "Life",
+      "event_subtype": "Consume",
+      "event_sub_subtype": "",
+      "description": "Marion Radford表示2013年是奥马戈悲剧后最艰难的一年",
+      "source_text": "text_80"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_80_node_1",
+      "target": "text_80_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_2",
+      "target": "text_80_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_3",
+      "target": "text_80_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_3",
+      "target": "text_80_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_3",
+      "target": "text_80_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_3",
+      "target": "text_80_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_3",
+      "target": "text_80_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_3",
+      "target": "text_80_node_9",
+      "relation": "before"
+    }
+  ]
+}

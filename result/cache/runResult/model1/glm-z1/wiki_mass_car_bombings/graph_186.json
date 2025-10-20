@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "id": "text_186_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年1月21日晨，塔利班使用改装车辆炸弹突破玛丹瓦德克省军事检查站并引爆",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名袭击者趁爆炸后进入校园，向多批阿富汗士兵开火后被击毙",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "玛丹瓦德克省国防官员确认袭击导致126名安全部队成员死亡，含8名特战队",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "玛丹瓦德克省前官员透露NDS部队在爆炸中损失超100人",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "玛丹瓦德克省议会成员Hotak目击35具士兵遗体并称更多伤亡被转移至喀布尔",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "玛丹瓦德克省国防官员称政府因担心军心动摇而隐瞒准确伤亡数据",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "玛丹瓦德克省省长办公室声明袭击由'国家敌人'实施",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "喀布尔NDS官员公布至少50人伤亡，含12名受伤人员",
+      "source_text": "text_186"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_186_node_1",
+      "target": "text_186_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_186_node_2",
+      "target": "text_186_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_186_node_2",
+      "target": "text_186_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_186_node_3",
+      "target": "text_186_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_186_node_4",
+      "target": "text_186_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_186_node_5",
+      "target": "text_186_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_186_node_5",
+      "target": "text_186_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_186_node_6",
+      "target": "text_186_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_186_node_7",
+      "target": "text_186_node_8",
+      "relation": "before"
+    }
+  ]
+}

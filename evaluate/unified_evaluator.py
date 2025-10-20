@@ -10,6 +10,7 @@ import networkx as nx
 from collections import defaultdict
 from datetime import datetime
 import random
+import pandas as pd
 
 # 添加父目录到路径
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -753,6 +754,94 @@ class UnifiedEvaluator:
             json.dump(results, f, ensure_ascii=False, indent=2)
         
         self.logger.printLog(f"\n评测结果已保存到: {output_file}")
+        
+        # 同时导出xlsx文件
+        self._export_to_xlsx(results, evaluation_type, model_type, timestamp)
+    
+    def _export_to_xlsx(self, results, evaluation_type, model_type, timestamp):
+        """导出评测结果为xlsx文件"""
+        # 创建xlsx输出目录（在项目根目录下）
+        project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        xlsx_dir = os.path.join(project_root, 'result', 'cache', 'runResult', 'xlsx')
+        os.makedirs(xlsx_dir, exist_ok=True)
+        
+        # 创建Excel文件路径
+        xlsx_file = os.path.join(
+            xlsx_dir,
+            f"{evaluation_type}_{self.attack_type}_{model_type}_{timestamp}.xlsx"
+        )
+        
+        # 创建Excel写入器
+        with pd.ExcelWriter(xlsx_file, engine='openpyxl') as writer:
+            
+            # 为每个层级和指标类型创建工作表
+            for hierarchy_level in [1, 2, 3]:
+                level_name = f'level{hierarchy_level}'
+                hierarchy_desc = ['只Type', 'Type.Subtype', 'Type.Subtype.Sub_subtype'][hierarchy_level-1]
+                
+                # 事件类型匹配结果
+                event_types_data = []
+                for level in sorted(results['levels'].keys()):
+                    level_data = results['levels'][level]
+                    avg = level_data['average']
+                    num_combos = level_data['num_combinations']
+                    
+                    event_types_data.append({
+                        '层级': level,
+                        '组合数': num_combos,
+                        'F1': avg[level_name]['event_types']['f1'],
+                        'Precision': avg[level_name]['event_types']['precision'],
+                        'Recall': avg[level_name]['event_types']['recall']
+                    })
+                
+                # 序列匹配结果（长度2）
+                sequences_len2_data = []
+                for level in sorted(results['levels'].keys()):
+                    level_data = results['levels'][level]
+                    avg = level_data['average']
+                    num_combos = level_data['num_combinations']
+                    
+                    sequences_len2_data.append({
+                        '层级': level,
+                        '组合数': num_combos,
+                        'F1': avg[level_name]['sequences_len2']['f1'],
+                        'Precision': avg[level_name]['sequences_len2']['precision'],
+                        'Recall': avg[level_name]['sequences_len2']['recall']
+                    })
+                
+                # 序列匹配结果（长度3）
+                sequences_len3_data = []
+                for level in sorted(results['levels'].keys()):
+                    level_data = results['levels'][level]
+                    avg = level_data['average']
+                    num_combos = level_data['num_combinations']
+                    
+                    sequences_len3_data.append({
+                        '层级': level,
+                        '组合数': num_combos,
+                        'F1': avg[level_name]['sequences_len3']['f1'],
+                        'Precision': avg[level_name]['sequences_len3']['precision'],
+                        'Recall': avg[level_name]['sequences_len3']['recall']
+                    })
+                
+                # 写入工作表
+                sheet_name = f'{hierarchy_desc}'
+                if len(sheet_name) > 31:  # Excel工作表名称限制
+                    sheet_name = sheet_name[:31]
+                
+                # 事件类型匹配
+                df_event_types = pd.DataFrame(event_types_data)
+                df_event_types.to_excel(writer, sheet_name=f'{sheet_name}_事件类型', index=False)
+                
+                # 序列匹配（长度2）
+                df_seq2 = pd.DataFrame(sequences_len2_data)
+                df_seq2.to_excel(writer, sheet_name=f'{sheet_name}_序列2', index=False)
+                
+                # 序列匹配（长度3）
+                df_seq3 = pd.DataFrame(sequences_len3_data)
+                df_seq3.to_excel(writer, sheet_name=f'{sheet_name}_序列3', index=False)
+        
+        self.logger.printLog(f"Excel文件已保存到: {xlsx_file}")
 
 
 def main():
@@ -763,7 +852,7 @@ def main():
     # 图文件目录（可以是单个路径或路径列表）
     # GRAPHS_DIR = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model2/suicide_ied"
     
-    # 多目录合并评测示例：
+    # suicide_ied多目录合并评测示例：
     GRAPHS_DIR = [
         "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model1/glm-4-flash/suicide_ied",
         "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm4.6/suicide_ied",
@@ -776,10 +865,19 @@ def main():
     MAX_FILE_COUNT = [
         0,
         1000,
-        0,
+        1000,
         0,
         1000
     ]
+
+    # wiki_mass_car_bombings多目录合并评测示例：
+    """GRAPHS_DIR = [
+        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm4.6/wiki_mass_car_bombings"
+    ]
+
+    MAX_FILE_COUNT = [
+        1000
+    ]"""
 
     assert len(GRAPHS_DIR) == len(MAX_FILE_COUNT)
     
@@ -792,7 +890,7 @@ def main():
     OUTPUT_DIR = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/unified_evaluation"
     
     # 攻击类型
-    ATTACK_TYPE = "suicide_ied"
+    ATTACK_TYPE = "wiki_mass_car_bombings"
     
     # 递进式评测参数
     MAX_LEVEL = None  # None表示测试到全合并，或指定具体数字如20

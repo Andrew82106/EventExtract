@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_46_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴基斯坦Lakki Marwat地区户外排球赛现场发生自杀式爆炸，造成至少75名平民死亡",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸系载有550磅高爆炸药的皮卡实施，现场200余人观看比赛",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸导致地面严重损毁，附近房屋被夷平，幸存者从废墟中救援伤者",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地医院因伤员过多超负荷运转，部分伤者被转至其他医院救治",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认袭击针对反塔利班和平委员会成员，该组织曾驱逐该地区激进分子",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击后当地民兵组织被指已清除该区域武装分子",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成死亡人数从75人更新至近100人",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者系南瓦济里斯坦地区塔利班分支，该地区正遭巴基斯坦军队清剿",
+      "source_text": "text_46"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_46_node_1",
+      "target": "text_46_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_2",
+      "target": "text_46_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_3",
+      "target": "text_46_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_4",
+      "target": "text_46_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_5",
+      "target": "text_46_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_6",
+      "target": "text_46_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_7",
+      "target": "text_46_node_8",
+      "relation": "before"
+    }
+  ]
+}

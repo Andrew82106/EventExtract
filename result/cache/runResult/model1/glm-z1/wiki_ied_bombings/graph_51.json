@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_51_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2011年穆斯林兄弟会在埃及被推翻，导致北塞尼讷恐怖组织活动增加",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_2",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "2016年12月9日，ABM通过《Al-Naba》发表声明，称苏菲派为异教徒并威胁清除其宗教场所",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年11月25日，40名ABM成员驾驶8辆越野车袭击拉瓦达清真寺，造成严重伤亡",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年11月27日，埃及媒体确认该袭击系ABM（自称‘塞尼讷省’）所为，并分析其意识形态动机",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "ABM将苏菲主义定义为‘多神教’（shirk），视苏菲派领袖为潜在威胁，持续实施宗教清洗行动",
+      "source_text": "text_51"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_51_node_1",
+      "target": "text_51_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_51_node_2",
+      "target": "text_51_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_51_node_3",
+      "target": "text_51_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_51_node_4",
+      "target": "text_51_node_5",
+      "relation": "before"
+    }
+  ]
+}

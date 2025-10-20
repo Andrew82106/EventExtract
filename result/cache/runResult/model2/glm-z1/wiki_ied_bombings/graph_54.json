@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "text_54_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2013年12月25日，巴格达Athorien户外市场发生两次同步炸弹爆炸，针对基督徒，造成11人死亡、14人受伤",
+      "support_text": "Two bombs first exploded simultaneously in an outdoor market in the Christian section of Athorien in Baghdad.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "同日稍后，巴格达南部Dora社区St. John's罗马天主教教堂附近发生汽车炸弹袭击，爆炸发生在圣诞祈祷结束后，导致27人死亡、56人受伤",
+      "support_text": "A few minutes later, about half a mile away, a car bomb went off near St. John's Roman Catholic Church in Baghdad's southern Dora neighborhood.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "此次连环袭击共造成38人死亡、70人受伤，袭击者未宣称责任",
+      "support_text": "In total, the bombings targeting the two Christian-populated sites killed 38 and wounded 70.",
+      "source_text": "text_54"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_54_node_1",
+      "target": "text_54_node_2",
+      "relation": "before",
+      "support_text": "A few minutes later, about half a mile away, a car bomb went off near St. John's Roman Catholic Church in Baghdad's southern Dora neighborhood."
+    }
+  ]
+}

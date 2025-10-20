@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_18_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1974年11月21日，两枚炸弹在伯明翰Mulberry Bush和Tavern in the Town酒吧爆炸，造成21人死亡、182人受伤",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_2",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1975年，六名嫌疑人因爆炸案被判刑",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "1991年，上述六人的定罪被撤销",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年4月7日，西敏寺警方宣布不启动新调查，称无新证据",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "同日，受害者家属Julie Hambleton与警长Chris Sims会面，表达失望但接受现实",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_6",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在2014年重新调查，分析18,500项材料并确认1991年调查已充分完成",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "Brian Hambleton批评警方纵容恐怖袭击，称伯明翰成恐怖分子目标",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Sims表示案件未关闭，未来可能发现新证据",
+      "source_text": "text_18"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_3",
+      "target": "text_18_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_4",
+      "target": "text_18_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_5",
+      "target": "text_18_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_6",
+      "target": "text_18_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_18_node_7",
+      "target": "text_18_node_8",
+      "relation": "before"
+    }
+  ]
+}

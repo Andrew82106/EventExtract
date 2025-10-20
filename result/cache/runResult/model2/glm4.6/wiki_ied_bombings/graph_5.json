@@ -1,0 +1,1074 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1984年9月，黑手党线人Tommaso Buscetta的证词引发了对西西里黑手党的调查和逮捕令。",
+      "support_text": "...the testimony of the Mafia turncoat Tommaso Buscetta to Antimafia prosecutor Giovanni Falcone had led to a series of arrest warrants in September 1984 that subsequently would lead to the Maxi Trial against 475 Mafia defendants.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1984年12月23日，一枚炸弹在佛罗伦萨火车站被放置在904次列车的行李架上。",
+      "support_text": "The bomb had been placed on a luggage rack whilst the train was in Florence Santa Maria Novella railway station.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "当晚19:08，列车在亚平宁隧道内高速行驶时，炸弹被遥控引爆。",
+      "support_text": "At 19:08 a bomb exploded in the ninth car, a 2nd class coach in the middle of the train. The train was 8 kilometers into the Apennine Base Tunnel... and was travelling at 150 km/h.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致16人死亡，266人受伤，列车在紧急制动后停在隧道内。",
+      "support_text": "A bomb on the 904 express train (Rapido 904) from Naples to Milan was detonated, killing 16 and wounding 266... The emergency brake was pulled, and the train came to a stop a thousand or so meters from the blast...",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "受伤的列车长设法通过服务电话呼叫求助，启动了应急响应。",
+      "support_text": "Train conductor Gian Claudio Bianconcini – on his last journey before retiring – was wounded in the nape of his neck, but managed to reach a service telephone and call for help.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援人员因浓烟和通信困难受阻，一个半小时后才抵达现场。",
+      "support_text": "Rescuers encountered problems reaching the disaster scene. Rescue vehicles gathered at the southern entrance of the tunnel, but were blocked by thick smoke emerging from it. After an hour and a half the first service vehicles dispatched to the scene could reach the stricken train...",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救援列车被用作救护车，分批次将伤者和未受伤乘客疏散出隧道。",
+      "support_text": "Coaches of a rescue train were used as ambulances, ferrying the injured and taking them to San Benedetto Val di Sambro station.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后数小时内，多个左右翼组织声称负责，调查初期怀疑为新法西斯主义者。",
+      "support_text": "文本片段未在提供的原始文本中找到",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "一名目击者称看到两人在佛罗伦萨车站将袋子放上行李架，为调查提供了关键线索。",
+      "support_text": "文本片段未在提供的原始文本中找到",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_10",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "1985年3月，黑手党头目Giuseppe Calò和Guido Cercola因其他罪名被捕。",
+      "support_text": "文本片段未在提供的原始文本中找到",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "1985年5月11日，在Calò的藏身处发现了与爆炸案相同的炸药和引爆装置。",
+      "support_text": "文本片段未在提供的原始文本中找到",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1986年1月9日，检察官正式指控Calò和Cercola策划了此次爆炸案。",
+      "support_text": "文本片段未在提供的原始文本中找到",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_13",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "1989年2月25日，佛罗伦萨法院判处Calò和Cercola无期徒刑。",
+      "support_text": "Mafia boss Giuseppe Calò, also known as \"Pippo\", was convicted for ordering and organising the attack in February 1989.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_14",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "1991年3月5日，意大利最高法院出人意料地撤销了判决，下令重审。",
+      "support_text": "文本片段未在提供的原始文本中找到",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_15",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1992年11月24日，最高法院最终确认了Calò等人的有罪判决，认定黑手党是幕后主使。",
+      "support_text": "文本片段未在提供的原始文本中找到",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_16",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2011年4月27日，黑手党“教父”Salvatore Riina因被指控是爆炸案的幕后主谋而被下令拘留。",
+      "support_text": "In April 2011 Mafia \"boss of bosses\" Salvatore Riina was indicted for ordering the bombing.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "袭击者企图通过炸弹袭击分散意大利安全部队的注意力。",
+      "support_text": "The motive behind the bomb attack was to distract Italian security forces from investigating the Sicilian Mafia after the testimony of the Mafia turncoat Tommaso Buscetta...",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Giuseppe Calò下令组织和发动了904次列车的炸弹袭击。",
+      "support_text": "Mafia boss Giuseppe Calò, also known as \"Pippo\", was convicted for ordering and organising the attack in February 1989.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_19",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Salvatore Riina下令进行了904次列车的爆炸。",
+      "support_text": "In April 2011 Mafia \"boss of bosses\" Salvatore Riina was indicted for ordering the bombing.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_20",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸的冲击波被隧道侧壁反射。",
+      "support_text": "Its shock wave was reflected by the tunnel sides.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸者的目的是最大化破坏程度。",
+      "support_text": "The bomber's intention was to maximize the damage.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_22",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "画廊的霓虹灯正在变暗。",
+      "support_text": "Bianconcini gave first aid to the passengers while the gallery's neon lights were fading...",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_23",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bianconcini 向乘客提供了急救。",
+      "support_text": "Bianconcini gave first aid to the passengers while the gallery's neon lights were fading...",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_24",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "强烈的黑火药味影响了呼吸。",
+      "support_text": "a strong smell of black powder was impairing breathing",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "博洛尼亚救援组织由已解散的CePIS发展而来。",
+      "support_text": "博洛尼亚救援组织由已解散的CePIS发展而来。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_26",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "风将烟雾吹向南方。",
+      "support_text": "风将烟雾吹向南方。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_27",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "风吹向南方避免了隧道内的烟雾积聚。",
+      "support_text": "风吹向南方避免了隧道内的烟雾积聚。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_28",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "风吹向南方使得北入口相对畅通。",
+      "support_text": "风吹向南方使得北入口相对畅通。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_29",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "对事件规模的低估导致救援列车上只有一名医生在场。",
+      "support_text": "对事件规模的低估导致救援列车上只有一名医生在场。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_30",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "一辆柴油电力机车被从博洛尼亚带来。",
+      "support_text": "一辆柴油电力机车被从博洛尼亚带来。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_31",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Dismantle",
+      "description": "该机车被用来回收损坏列车的车头部分。",
+      "support_text": "该机车被用来回收损坏列车的车头部分。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_32",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地警察为救护车路线预留了一些道路。",
+      "support_text": "当地警察为救护车路线预留了一些道路。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_33",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援人员之间的协调由博洛尼亚救援组织管理。",
+      "support_text": "救援人员之间的协调由博洛尼亚救援组织管理。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_34",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Dismantle",
+      "description": "回收车头部分使得救援人员能够到达被炸毁的车厢。",
+      "support_text": "回收车头部分使得救援人员能够到达被炸毁的车厢。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_35",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "15辆救护车将危重病人送往博洛尼亚马焦雷医院。",
+      "support_text": "15辆救护车将危重病人送往博洛尼亚马焦雷医院。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_36",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "火车迅速返回了隧道。",
+      "support_text": "火车迅速返回了隧道。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_37",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "柴油发动机产生的烟雾意外地充满了隧道。",
+      "support_text": "柴油发动机产生的烟雾意外地充满了隧道。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_38",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "必须为仍在隧道内的乘客和救援人员提供氧气面罩。",
+      "support_text": "必须为仍在隧道内的乘客和救援人员提供氧气面罩。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_39",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名处于休克状态的女性在隧道内被发现。",
+      "support_text": "一名处于休克状态的女性在隧道内被发现。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_40",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "该名女性被徒步带到附近的Ca' di Landino车站。",
+      "support_text": "该名女性被徒步带到附近的Ca' di Landino车站。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_41",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "在下雪开始时，最后一批乘客正在被疏散。",
+      "support_text": "在下雪开始时，最后一批乘客正在被疏散。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_42",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "检察官办公室立即开始了一项调查。",
+      "support_text": "检察官办公室立即开始了一项调查。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_43",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "（当局）委托进行了一项化学和弹道学调查。",
+      "support_text": "（当局）委托进行了一项化学和弹道学调查。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_44",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "（当局）将调查任务分配给了佛罗伦萨的检察官。",
+      "support_text": "（当局）将调查任务分配给了佛罗伦萨的检察官。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_find_hideout",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Calò 的藏身处被发现。",
+      "support_text": "搜查人员的行动使Calò的藏身处得以被发现。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_prove_explosive",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "检查结果证明这批炸药与904次列车上使用的炸药相同。",
+      "support_text": "化学和弹道学检查结果证明，这批炸药与904次列车上使用的炸药相同。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_maxi_trial",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "这些逮捕令随后导致了对474名黑手党被告的大审判。",
+      "support_text": "...had led to a series of arrest warrants in September 1984 that subsequently would lead to the Maxi Trial against 474 Mafia defendants.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_find_links",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查人员发现了Calò、卡莫拉与新法西斯主义团体之间的许多联系。",
+      "support_text": "调查人员发现了Calò、卡莫拉与新法西斯主义团体之间的许多联系。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_sentence_franco",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "佛朗哥·迪·阿戈斯蒂诺被判处28年监禁。",
+      "support_text": "佛朗哥·迪·阿戈斯蒂诺被判处28年监禁。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_sentence_others",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查中的其他相关人员受到了较轻的判决。",
+      "support_text": "调查中的其他相关人员受到了较轻的判决。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_second_trial",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "一场由Giulio Catelani主持的二审于1990年3月15日在佛罗伦萨举行。",
+      "support_text": "一场由Giulio Catelani主持的二审于1990年3月15日在佛罗伦萨举行。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_discharge_three",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "Misso, Pirozzi和Galeota因大屠杀案被宣告无罪。",
+      "support_text": "Misso, Pirozzi和Galeota因大屠杀案被宣告无罪。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_convict_three_explosives",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Misso, Pirozzi和Galeota被裁定犯有非法持有爆炸物罪。",
+      "support_text": "Misso, Pirozzi和Galeota被裁定犯有非法持有爆炸物罪。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_find_schaudinn_link",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Schaudinn被判定与黑手党没有正式关联。",
+      "support_text": "Schaudinn被判定与黑手党没有正式关联。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_revise_sentence",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "他因大屠杀案被判处的刑期被修改为22年。",
+      "support_text": "他因大屠杀案被判处的刑期被修改为22年。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_scopelliti_call",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "总检察长Antonino Scopelliti呼吁进行公平的刑事起诉。",
+      "support_text": "根据提供的动词事件信息：总检察长Antonino Scopelliti呼吁进行公平的刑事起诉。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_cut_misso_sentence",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Misso的刑期被削减至三年。",
+      "support_text": "Misso's sentence was cut to three years.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_return_naples",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Galeota、Pirozzi、Rita Casolaro和Assunta Sarno正在返回那不勒斯。",
+      "support_text": "Galeota, Pirozzi, Rita Casolaro and Assunta Sarno were returning to Naples.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_car_rammed",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "他们的车在A1高速公路上被撞击。",
+      "support_text": "Their car was rammed on the A1 motorway.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_open_fire",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡莫拉家族派来的杀手开火。",
+      "support_text": "Killers sent by the Camorra clans opened fire.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_execute_galeota_sarno",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Galeota和Sarno被处决（口中一枪）。",
+      "support_text": "Galeota and Sarno were executed with a shot in the mouth.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_save_pirozzi_wife",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Giulio Pirozzi和他的妻子被一辆警车所救。",
+      "support_text": "Giulio Pirozzi and his wife were saved by a police car.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_police_car_pass",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "一辆警车碰巧在反向车道经过。",
+      "support_text": "A police car fortuitously passed on the opposite lane.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_cause_flee",
+      "event_type": "Medical",
+      "event_subtype": "Diagnosis",
+      "event_sub_subtype": "Unspecified",
+      "description": "警车的经过导致杀手逃跑。",
+      "support_text": "The passing of the police car caused the killers to flee.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_flee_killers",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "杀手们逃跑了。",
+      "support_text": "The killers fled.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_give_explosive",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Massimo Abbatangelo 在1984年初向 Misso 提供了爆炸物。",
+      "support_text": "Massimo Abbatangelo 在1984年初向 Misso 提供了爆炸物。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_ask_tougher_sentence",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者亲属要求更严厉的判决。",
+      "support_text": "受害者亲属要求更严厉的判决。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_lose_appeal",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者亲属输掉了上诉。",
+      "support_text": "受害者亲属输掉了上诉。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_pay_expenses",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者亲属必须支付司法费用。",
+      "support_text": "受害者亲属必须支付司法费用。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_kill_borsellino",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者杀害了反黑手党法官保罗·博尔塞利诺及其护卫。",
+      "support_text": "袭击者杀害了反黑手党法官保罗·博尔塞利诺及其护卫。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_consider_riina",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "那不勒斯反黑手党办公室认为托托·里纳是屠杀的幕后主谋。",
+      "support_text": "那不勒斯反黑手党办公室认为托托·里纳是屠杀的幕后主谋。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_say_explosives_same",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "检方称，用于发动904次列车袭击的爆炸物与杀害法官保罗·博尔塞利诺所用的爆炸物相同。",
+      "support_text": "检方称，用于发动904次列车袭击的爆炸物与杀害法官保罗·博尔塞利诺所用的爆炸物相同。",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "The motive behind the bomb attack was to distract Italian security forces from investigating the Sicilian Mafia after the testimony of the Mafia turncoat Tommaso Buscetta... had led to a series of arrest warrants in September 1984"
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_new_node_17",
+      "relation": "before",
+      "support_text": "The motive behind the bomb attack was to distract Italian security forces from investigating the Sicilian Mafia after the testimony of the Mafia turncoat Tommaso Buscetta had led to a series of arrest warrants..."
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_new_node_maxi_trial",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (2 -> 3)，逮捕令的签发在先，大审判在后。"
+    },
+    {
+      "source": "text_5_node_2",
+      "target": "text_5_node_3",
+      "relation": "before",
+      "support_text": "The bomb had been placed on a luggage rack whilst the train was in Florence Santa Maria Novella railway station. ... the bomb was remote controlled and was detonated while the train was well into the tunnel"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_4",
+      "relation": "before",
+      "support_text": "At 19:08 a bomb exploded in the ninth car... Its shock wave... blew out all the window glass... 15 died as a direct consequence of the blast... The emergency brake was pulled, and the train came to a stop"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_new_node_20",
+      "relation": "before",
+      "support_text": "冲击波反射是爆炸的结果，因此发生在爆炸之后。"
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_node_5",
+      "relation": "before",
+      "support_text": "Train conductor Gian Claudio Bianconcini – was wounded... but managed to reach a service telephone and call for help."
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_new_node_36",
+      "relation": "before",
+      "support_text": "基于事件逻辑，列车在隧道内停止后，才可能发生返回隧道的动作。"
+    },
+    {
+      "source": "text_5_node_5",
+      "target": "text_5_node_6",
+      "relation": "before",
+      "support_text": "Bianconcini gave first aid to the passengers while the gallery's neon lights were fading... Rescuers encountered problems reaching the disaster scene."
+    },
+    {
+      "source": "text_5_node_5",
+      "target": "text_5_new_node_23",
+      "relation": "before",
+      "support_text": "列车长呼叫求助后，开始提供急救。"
+    },
+    {
+      "source": "text_5_node_6",
+      "target": "text_5_node_7",
+      "relation": "before",
+      "support_text": "After an hour and a half the first service vehicles dispatched to the scene could reach the stricken train... Coaches of a rescue train were used as ambulances, ferrying the injured"
+    },
+    {
+      "source": "text_5_node_6",
+      "target": "text_5_new_node_24",
+      "relation": "before",
+      "support_text": "基于事件的temporal_order (4 -> 7)，呼吸受到影响发生在救援受阻之后。"
+    },
+    {
+      "source": "text_5_node_7",
+      "target": "text_5_node_8",
+      "relation": "before",
+      "support_text": "该时序关系基于事件描述中的时间信息，但支撑文本未在提供的原始文本中找到。"
+    },
+    {
+      "source": "text_5_node_7",
+      "target": "text_5_new_node_35",
+      "relation": "before",
+      "support_text": "基于事件逻辑，伤员先被列车运到车站，再由救护车送往医院。"
+    },
+    {
+      "source": "text_5_node_8",
+      "target": "text_5_node_9",
+      "relation": "before",
+      "support_text": "该时序关系基于事件描述中的时间信息，但支撑文本未在提供的原始文本中找到。"
+    },
+    {
+      "source": "text_5_node_9",
+      "target": "text_5_node_10",
+      "relation": "before",
+      "support_text": "该时序关系基于事件描述中的时间信息，但支撑文本未在提供的原始文本中找到。"
+    },
+    {
+      "source": "text_5_node_10",
+      "target": "text_5_node_11",
+      "relation": "before",
+      "support_text": "该时序关系基于事件描述中的时间信息，但支撑文本未在提供的原始文本中找到。"
+    },
+    {
+      "source": "text_5_node_11",
+      "target": "text_5_node_12",
+      "relation": "before",
+      "support_text": "该时序关系基于事件描述中的时间信息，但支撑文本未在提供的原始文本中找到。"
+    },
+    {
+      "source": "text_5_node_11",
+      "target": "text_5_new_node_prove_explosive",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (5 -> 7)，发现炸药是进行检查并证明其来源的前提。"
+    },
+    {
+      "source": "text_5_node_11",
+      "target": "text_5_new_node_find_links",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (6 -> 6)，发现设备和发现联系是同一阶段调查的并行或相继事件。"
+    },
+    {
+      "source": "text_5_node_12",
+      "target": "text_5_node_13",
+      "relation": "before",
+      "support_text": "该时序关系基于事件描述中的时间信息（1986年指控，1989年判决），但支撑文本未在提供的原始文本中找到。"
+    },
+    {
+      "source": "text_5_node_13",
+      "target": "text_5_node_14",
+      "relation": "before",
+      "support_text": "该时序关系基于事件描述中的时间信息，但支撑文本未在提供的原始文本中找到。"
+    },
+    {
+      "source": "text_5_node_13",
+      "target": "text_5_new_node_sentence_franco",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (2 -> 3)，法庭判处他们无期徒刑发生在佛朗哥·迪·阿戈斯蒂诺被判处之前。"
+    },
+    {
+      "source": "text_5_node_14",
+      "target": "text_5_node_15",
+      "relation": "before",
+      "support_text": "该时序关系基于事件描述中的时间信息，但支撑文本未在提供的原始文本中找到。"
+    },
+    {
+      "source": "text_5_node_15",
+      "target": "text_5_node_16",
+      "relation": "before",
+      "support_text": "该时序关系基于事件描述中的时间信息，但支撑文本未在提供的原始文本中找到。"
+    },
+    {
+      "source": "text_5_node_15",
+      "target": "text_5_new_node_kill_borsellino",
+      "relation": "before",
+      "support_text": "博尔塞利诺法官被杀害发生在1992年，晚于最高法院确认Calò有罪（node_15, 1992年）。"
+    },
+    {
+      "source": "text_5_new_node_17",
+      "target": "text_5_node_2",
+      "relation": "motive_for",
+      "support_text": "The motive behind the bomb attack was to distract Italian security forces..."
+    },
+    {
+      "source": "text_5_new_node_19",
+      "target": "text_5_node_16",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (5 -> 7) 和语义逻辑（下令行为先于因该行为被起诉）。"
+    },
+    {
+      "source": "text_5_new_node_20",
+      "target": "text_5_node_4",
+      "relation": "before",
+      "support_text": "反射与碎片飞溅都是爆炸的即时后果，发生在列车紧急制动并停止之前。"
+    },
+    {
+      "source": "text_5_new_node_21",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "意图（maximize damage）发生在放置炸弹之前。"
+    },
+    {
+      "source": "text_5_new_node_23",
+      "target": "text_5_node_6",
+      "relation": "before",
+      "support_text": "在提供急救的同时，救援人员在外部集结并受阻。"
+    },
+    {
+      "source": "text_5_new_node_24",
+      "target": "text_5_new_node_37",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (4 -> 5)。"
+    },
+    {
+      "source": "text_5_new_node_25",
+      "target": "text_5_new_node_26",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (0 -> 1)。"
+    },
+    {
+      "source": "text_5_new_node_26",
+      "target": "text_5_new_node_27",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (1 -> 2)。"
+    },
+    {
+      "source": "text_5_new_node_27",
+      "target": "text_5_new_node_29",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (2 -> 3)。"
+    },
+    {
+      "source": "text_5_new_node_29",
+      "target": "text_5_new_node_30",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (3 -> 4)。"
+    },
+    {
+      "source": "text_5_new_node_30",
+      "target": "text_5_new_node_31",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (4 -> 5)。"
+    },
+    {
+      "source": "text_5_new_node_31",
+      "target": "text_5_new_node_34",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (5 -> 6)。"
+    },
+    {
+      "source": "text_5_new_node_34",
+      "target": "text_5_node_7",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (6 -> 7)，回收车头部分是救援人员到达车厢的前提，之后才能进行疏散。"
+    },
+    {
+      "source": "text_5_new_node_36",
+      "target": "text_5_new_node_24",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (2 -> 4)。"
+    },
+    {
+      "source": "text_5_new_node_37",
+      "target": "text_5_new_node_38",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (5 -> 6)，烟雾充满隧道后，需要提供氧气。"
+    },
+    {
+      "source": "text_5_new_node_39",
+      "target": "text_5_new_node_40",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (8 -> 9)，先发现女性，再将她带走。"
+    },
+    {
+      "source": "text_5_new_node_40",
+      "target": "text_5_new_node_41",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (9 -> 10)，带走女性后，进行最后的疏散。"
+    },
+    {
+      "source": "text_5_new_node_42",
+      "target": "text_5_new_node_43",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (6 -> 7)。"
+    },
+    {
+      "source": "text_5_new_node_43",
+      "target": "text_5_new_node_44",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (7 -> 10)。"
+    },
+    {
+      "source": "text_5_new_node_find_hideout",
+      "target": "text_5_node_11",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (4 -> 5)，发现藏身处是发现其中手提箱的前提。"
+    },
+    {
+      "source": "text_5_new_node_maxi_trial",
+      "target": "text_5_node_11",
+      "relation": "before",
+      "support_text": "基于动词事件的temporal_order (3 -> 6)，大审判开始后，调查仍在继续并发现了新证据。"
+    },
+    {
+      "source": "text_5_new_node_sentence_franco",
+      "target": "text_5_new_node_sentence_others",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (3 -> 4)，佛朗哥·迪·阿戈斯蒂诺被判刑发生在其他相关人员被判刑之前。"
+    },
+    {
+      "source": "text_5_new_node_second_trial",
+      "target": "text_5_new_node_discharge_three",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (1 -> 3)，审判先于判决结果。"
+    },
+    {
+      "source": "text_5_new_node_second_trial",
+      "target": "text_5_new_node_convict_three_explosives",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (1 -> 3)，审判先于判决结果。"
+    },
+    {
+      "source": "text_5_new_node_second_trial",
+      "target": "text_5_new_node_cut_misso_sentence",
+      "relation": "before",
+      "support_text": "二审的结果导致了Misso刑期的削减。"
+    },
+    {
+      "source": "text_5_new_node_second_trial",
+      "target": "text_5_new_node_ask_tougher_sentence",
+      "relation": "before",
+      "support_text": "二审（new_node_second_trial）是受害者亲属提出要求（new_node_ask_tougher_sentence）的法律背景和前提。"
+    },
+    {
+      "source": "text_5_new_node_discharge_three",
+      "target": "text_5_new_node_find_schaudinn_link",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (3 -> 4)，对三人的判决先于后续的认定。"
+    },
+    {
+      "source": "text_5_new_node_discharge_three",
+      "target": "text_5_new_node_revise_sentence",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (3 -> 4)，对三人的判决先于刑期修改。"
+    },
+    {
+      "source": "text_5_new_node_convict_three_explosives",
+      "target": "text_5_new_node_find_schaudinn_link",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (3 -> 4)，对三人的判决先于后续的认定。"
+    },
+    {
+      "source": "text_5_new_node_convict_three_explosives",
+      "target": "text_5_new_node_revise_sentence",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (3 -> 4)，对三人的判决先于刑期修改。"
+    },
+    {
+      "source": "text_5_new_node_scopelliti_call",
+      "target": "text_5_node_12",
+      "relation": "before",
+      "support_text": "基于事件逻辑，总检察长的呼吁（new_node_scopelliti_call）是正式提出指控（node_12）之前的步骤，符合司法程序的时序。"
+    },
+    {
+      "source": "text_5_new_node_return_naples",
+      "target": "text_5_new_node_car_rammed",
+      "relation": "before",
+      "support_text": "他们在返回那不勒斯的途中，车辆被撞击。"
+    },
+    {
+      "source": "text_5_new_node_car_rammed",
+      "target": "text_5_new_node_open_fire",
+      "relation": "before",
+      "support_text": "车辆被撞击后，杀手开始开火。"
+    },
+    {
+      "source": "text_5_new_node_open_fire",
+      "target": "text_5_new_node_execute_galeota_sarno",
+      "relation": "before",
+      "support_text": "杀手开火后，处决了Galeota和Sarno。"
+    },
+    {
+      "source": "text_5_new_node_execute_galeota_sarno",
+      "target": "text_5_new_node_police_car_pass",
+      "relation": "before",
+      "support_text": "在袭击发生后，一辆警车碰巧经过。"
+    },
+    {
+      "source": "text_5_new_node_police_car_pass",
+      "target": "text_5_new_node_save_pirozzi_wife",
+      "relation": "before",
+      "support_text": "警车的经过使得Pirozzi和他的妻子获救。"
+    },
+    {
+      "source": "text_5_new_node_police_car_pass",
+      "target": "text_5_new_node_cause_flee",
+      "relation": "before",
+      "support_text": "警车的经过是导致杀手逃跑的原因。"
+    },
+    {
+      "source": "text_5_new_node_cause_flee",
+      "target": "text_5_new_node_flee_killers",
+      "relation": "before",
+      "support_text": "警车的经过导致（cause）了杀手逃跑（flee）的结果。"
+    },
+    {
+      "source": "text_5_new_node_give_explosive",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "提供爆炸物是后续在列车上放置炸弹的准备工作，发生在放置炸弹（node_2）之前。"
+    },
+    {
+      "source": "text_5_new_node_ask_tougher_sentence",
+      "target": "text_5_new_node_lose_appeal",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (5 -> 6)，提出要求先于上诉结果。"
+    },
+    {
+      "source": "text_5_new_node_lose_appeal",
+      "target": "text_5_new_node_pay_expenses",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (6 -> 7)，输掉上诉是支付司法费用的法律前提。"
+    },
+    {
+      "source": "text_5_new_node_kill_borsellino",
+      "target": "text_5_new_node_consider_riina",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (1 -> 3)，杀害事件发生在那不勒斯办公室的认定之前。"
+    },
+    {
+      "source": "text_5_new_node_consider_riina",
+      "target": "text_5_new_node_say_explosives_same",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (3 -> 5)，那不勒斯办公室的认定发生在检方发言之前。"
+    },
+    {
+      "source": "text_5_new_node_say_explosives_same",
+      "target": "text_5_node_16",
+      "relation": "before",
+      "support_text": "检方关于爆炸物相同的声明是调查的一部分，该调查最终导致2011年对Riina的起诉（node_16）。"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "id": "text_159_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年7月，两枚汽车炸弹袭击伦敦以色列使馆和犹太慈善机构，造成数百万英镑损失",
+      "source_text": "text_159"
+    },
+    {
+      "id": "text_159_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年5月25日前，被告Botmeh和Alami被指控在1993-1995年间策划针对英国犹太目标的爆炸阴谋",
+      "source_text": "text_159"
+    },
+    {
+      "id": "text_159_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年5月，被告Botmeh和Alami被陪审团判定参与爆炸阴谋，Abu-Wardeh被清白释放",
+      "source_text": "text_159"
+    },
+    {
+      "id": "text_159_node_4",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年5月，陪审团未对Botmeh和Alami的爆炸物及枪支指控进行裁决",
+      "source_text": "text_159"
+    },
+    {
+      "id": "text_159_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年5月，法官Garland以证据不足为由释放被指控参与爆炸的Zekra",
+      "source_text": "text_159"
+    },
+    {
+      "id": "text_159_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年5月，Botmeh和Alami在六小时半 deliberations后接受定罪宣判",
+      "source_text": "text_159"
+    },
+    {
+      "id": "text_159_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年5月，Abu-Wardeh在庭审中被完全清白判定并获释",
+      "source_text": "text_159"
+    },
+    {
+      "id": "text_159_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年5月，Botmeh和Alami在宣判时保持沉默，未对陪审团裁决作出反应",
+      "source_text": "text_159"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_159_node_1",
+      "target": "text_159_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_159_node_2",
+      "target": "text_159_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_159_node_2",
+      "target": "text_159_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_159_node_3",
+      "target": "text_159_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_159_node_3",
+      "target": "text_159_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_159_node_3",
+      "target": "text_159_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_159_node_4",
+      "target": "text_159_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_159_node_6",
+      "target": "text_159_node_8",
+      "relation": "before"
+    }
+  ]
+}

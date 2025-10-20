@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_187_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2007年2月18日，Samjhauta Express列车爆炸案造成68人死亡，SIMI成员Abdul Razzak被指为直接策划者",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "审讯视频显示Safdar Nagori承认Razzak受巴基斯坦训练并策划爆炸，提及Razzak曾以政治身份为由要求其放弃圣战",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nagori透露Razzak与巴基斯坦有亲属联系，并自称SIMI在印度印第安纳负责的负责人",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nagori供称通过LeT成员Nasir采购武器，计划针对2002年古吉拉特邦、米鲁特等地暴力事件中的施暴者",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nasir被捕后武器未送达，Nagori确认其可能将AK47等武器分发给SIMI其他分支（如Imran Ansari小组）",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "2007年10月Nagori与Nasir最后一次会面，提及Nasir曾赴巴基斯坦接受训练并谎称前往麦加朝觐",
+      "source_text": "text_187"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_187_node_1",
+      "target": "text_187_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_187_node_2",
+      "target": "text_187_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_187_node_4",
+      "target": "text_187_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_187_node_5",
+      "target": "text_187_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_187_node_6",
+      "target": "text_187_node_2",
+      "relation": "before"
+    }
+  ]
+}

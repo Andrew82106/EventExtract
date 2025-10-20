@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_16_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "奥斯陆市中心发生大规模炸弹袭击",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "枪手在乌托亚岛青年营地开枪射击",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "幸存者通过短信向外界求救并隐藏行踪",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "特警乘船抵达现场实施逮捕",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者证实枪手伪装成警察并命令目标",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "幸存者目击至少20具尸体漂浮水中",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "媒体披露枪手具有北欧外貌特征",
+      "source_text": "text_16"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_3",
+      "target": "text_16_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_5",
+      "target": "text_16_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_16_node_6",
+      "target": "text_16_node_7",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_78_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "俄克拉荷马城爆炸十周年纪念仪式开始，dignitaries and family members在教堂集合",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "上午9:02（本地时间）举行168秒集体沉默，纪念遇难者",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "遇难者家属名单在仪式中被宣读",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "家属从教堂步行至纪念广场的168座纪念座椅",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "",
+      "description": "新展览《Forever Changed and Changing Forever》正式开放",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "幸存儿童宣读纪念使命声明",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "采访家属，部分家长在纪念仪式期间情绪波动",
+      "source_text": "text_78"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_78_node_1",
+      "target": "text_78_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_2",
+      "target": "text_78_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_3",
+      "target": "text_78_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_4",
+      "target": "text_78_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_5",
+      "target": "text_78_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_6",
+      "target": "text_78_node_7",
+      "relation": "before"
+    }
+  ]
+}

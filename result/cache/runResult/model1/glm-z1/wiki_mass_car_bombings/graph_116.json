@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_116_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "1998年4月对涉事爱尔兰共和派分细胞的调查",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年 County Armagh居民Sean Hoey成为首名因爆炸案被起诉的嫌疑人",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_3",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "上周警方与Omagh爆炸案受害者家属召开案情通报会",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "在Policing Board最终公开会议中，警监Sir Hugh Orde拒绝确认MI5是否隐瞒1998年爆炸案前情报",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Correspondence",
+      "description": "SDLP党团成员Alex Attwood质疑警方未正面回应MI5情报共享问题",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Sir Hugh援引调查员Superintendent Norman Baxter的结论称MI5未扣留相关情报",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认Omagh爆炸案与1998年4月调查的另一个爱尔兰共和派分细胞无关联证据",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "警监确认上周已向受害者家属通报调查进展",
+      "source_text": "text_116"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_116_node_1",
+      "target": "text_116_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_2",
+      "target": "text_116_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_3",
+      "target": "text_116_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_4",
+      "target": "text_116_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_5",
+      "target": "text_116_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_6",
+      "target": "text_116_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_116_node_7",
+      "target": "text_116_node_8",
+      "relation": "before"
+    }
+  ]
+}

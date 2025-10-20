@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "id": "text_199_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1998年8月15日，Real IRA在Omagh市中心发动汽车炸弹袭击，造成29人死亡和2名未出生胎儿死亡",
+      "source_text": "text_199"
+    },
+    {
+      "id": "text_199_node_2",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2022年12月，一名嫌疑人被起诉但被宣判无罪",
+      "source_text": "text_199"
+    },
+    {
+      "id": "text_199_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年十周年纪念活动开始，受害者家庭与公众共同参与",
+      "source_text": "text_199"
+    },
+    {
+      "id": "text_199_node_4",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国官员Shaun Woodward在纪念仪式上强调事件对社会的深远影响",
+      "source_text": "text_199"
+    },
+    {
+      "id": "text_199_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "部分受害者家庭抵制官方仪式，抗议纪念牌文未明确指认共和派袭击者",
+      "source_text": "text_199"
+    },
+    {
+      "id": "text_199_node_6",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Omagh市政厅回应称纪念牌文基于独立调查建议",
+      "source_text": "text_199"
+    },
+    {
+      "id": "text_199_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "揭幕 Market Street 炸弹遗址的玻璃尖塔和花园之灯纪念碑",
+      "source_text": "text_199"
+    },
+    {
+      "id": "text_199_node_8",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "包括Martin McGuinness、Brian Cowen等在内的多位政要出席纪念仪式",
+      "source_text": "text_199"
+    },
+    {
+      "id": "text_199_node_9",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "西班牙总统Zapatero发贺电，特别提及马德里遇难的交换生",
+      "source_text": "text_199"
+    },
+    {
+      "id": "text_199_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家庭组织替代纪念活动，于次日举行",
+      "source_text": "text_199"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_199_node_3",
+      "target": "text_199_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_199_node_4",
+      "target": "text_199_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_199_node_5",
+      "target": "text_199_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_199_node_6",
+      "target": "text_199_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_199_node_7",
+      "target": "text_199_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_199_node_8",
+      "target": "text_199_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_199_node_9",
+      "target": "text_199_node_10",
+      "relation": "before"
+    }
+  ]
+}

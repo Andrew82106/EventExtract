@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "text_58_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1998年奥马赫爆炸案发生，29人死亡，数百人受伤",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_2",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "",
+      "description": "2002年Colm Murphy因阴谋制造爆炸被判刑，但上诉成功，等待再审判定",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "",
+      "description": "2003年Sean Hoey被宣判无罪",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_4",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "",
+      "description": "2015年六个家庭对五名被告（Michael McKevitt等）提起民事诉讼，索赔超1000万英镑，被告均否认涉及爆炸",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_5",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "2016年庭审部分移至都柏林，以便听取爱尔兰警方证词",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_6",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "2016年Michael Gallagher在庭审前表示受害者将继续追究正义",
+      "source_text": "text_58"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_58_node_1",
+      "target": "text_58_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_58_node_2",
+      "target": "text_58_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_58_node_3",
+      "target": "text_58_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_58_node_4",
+      "target": "text_58_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_58_node_4",
+      "target": "text_58_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_58_node_5",
+      "target": "text_58_node_6",
+      "relation": "before"
+    }
+  ]
+}

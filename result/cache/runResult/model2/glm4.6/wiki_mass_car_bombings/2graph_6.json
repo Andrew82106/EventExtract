@@ -1,0 +1,300 @@
+{
+  "nodes": [
+    {
+      "id": "text_6_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年9月4日，布伊纳克斯克的一座军营大楼被卡车炸弹摧毁，造成64人死亡。",
+      "support_text": "when the enormous truck bomb went off late on the night of September 4, 1999, the floors pancaked onto each other until the building was reduced to a pile of burning rubble. In that rubble were the bodies of sixty-four people—men, women, and children.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年9月13日，莫斯科卡希尔斯科耶公路6/3号公寓楼被地下室炸弹炸毁，导致121人丧生。",
+      "support_text": "At 5:03 on the morning of September 13, 1999—exactly nine years prior to my visit—6/3 Kashirskoye had been blasted apart by a bomb secreted in its basement; 121 of its residents had died while they slept.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在为期十二天的一系列爆炸案中，约300名俄罗斯公民死亡，导致国家陷入恐慌。",
+      "support_text": "That explosion, coming nine days after the one in Buynaksk, was the third of what would be four apartment-building bombings in Russia over a twelve-day span that September, leaving some 300 citizens dead and the nation in panic;",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯新任总理弗拉基米尔·普京将爆炸案归咎于来自车臣的恐怖分子。",
+      "support_text": "Blaming the bombings on terrorists from Chechnya, Russia's newly appointed prime minister, Vladimir Putin, ordered a scorched-earth offensive into the breakaway republic.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "普京下令对车臣分裂共和国发动一场焦土军事攻势。",
+      "support_text": "Blaming the bombings on terrorists from Chechnya, Russia's newly appointed prime minister, Vladimir Putin, ordered a scorched-earth offensive into the breakaway republic.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "凭借军事攻势的成功，普京成为民族英雄并迅速掌握了国家政权。",
+      "support_text": "On the success of that offensive, the previously unknown Putin became a national hero and swiftly assumed complete control of the Russian state.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "遇难者亲属在纪念碑前献上蜡烛和鲜花以示悼念。",
+      "support_text": "Shortly after 5 A.M., a cluster of perhaps two dozen people—most of them young, relatives of the dead, presumably—trooped up to place candles and red carnations at the foot of the monument, but they retreated as quickly as they had appeared.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "一位在爆炸案中失去家人的老年幸存者向作者讲述了他的经历，并暗示爆炸案是普京所为。",
+      "support_text": "Finally, I approached him. \"I lived very close to here,\" he said, \"and I was awoken by the sound, I came rushing over and...\" He was a big man, a former sailor, and he waved his hands helplessly over the flower beds. \"Nothing. Nothing. They pulled a young boy and his dog out. That was all. Everyone else was already dead.\" But as it turned out, the old man had a more personal connection to the tragedy. His daughter, son-in-law, and grandson had lived at 6/3 Kashirskoye, and they had all perished that morning, too. Leading me up to the monument, he pointed out their names in the stone, and desperately brushed at his eyes again. Then he angrily whispered: \"They say...",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "几位当地记者出现在了爆炸九周年的纪念活动现场。",
+      "support_text": "For the bombing's ninth anniversary, three or four local journalists had shown up, standing quietly on the sidewalk.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "几名警察在一辆警车里暗中监视着记者们。",
+      "support_text": "A couple of policemen in a parked car across the street were watching over the journalists.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "他转过身。",
+      "support_text": "他转过身。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "他带着明确的目的走开。",
+      "support_text": "他带着明确的目的走开。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "他强迫自己（想要离开）。",
+      "support_text": "他强迫自己（想要离开）。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "他想要离开（但未成功）。",
+      "support_text": "他想要离开（但未成功）。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "他没能走远。",
+      "support_text": "他没能走远。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "他在公园边缘的树旁徘徊。",
+      "support_text": "他在公园边缘的树旁徘徊。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "他缓慢地返回神社。",
+      "support_text": "他缓慢地返回神社。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "老人带领我走向纪念碑。",
+      "support_text": "Leading me up to the monument, he pointed out their names in the stone, and desperately brushed at his eyes again.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "老人指出在石头上他家人的名字。",
+      "support_text": "Leading me up to the monument, he pointed out their names in the stone, and desperately brushed at his eyes again.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_12",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "老人绝望地再次擦拭眼睛。",
+      "support_text": "Leading me up to the monument, he pointed out their names in the stone, and desperately brushed at his eyes again.",
+      "source_text": "text_6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_2",
+      "relation": "before",
+      "support_text": "That explosion, coming nine days after the one in Buynaksk, was the third of what would be four apartment-building bombings in Russia over a twelve-day span that September..."
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_3",
+      "relation": "before",
+      "support_text": "That explosion, coming nine days after the one in Buynaksk, was the third of what would be four apartment-building bombings in Russia over a twelve-day span that September, leaving some 300 citizens dead and the nation in panic;"
+    },
+    {
+      "source": "text_6_node_3",
+      "target": "text_6_node_4",
+      "relation": "before",
+      "support_text": "Blaming the bombings on terrorists from Chechnya, Russia's newly appointed prime minister, Vladimir Putin, ordered a scorched-earth offensive into the breakaway republic."
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_node_5",
+      "relation": "before",
+      "support_text": "Blaming the bombings on terrorists from Chechnya, Russia's newly appointed prime minister, Vladimir Putin, ordered a scorched-earth offensive into the breakaway republic."
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_6",
+      "relation": "before",
+      "support_text": "On the success of that offensive, the previously unknown Putin became a national hero and swiftly assumed complete control of the Russian state."
+    },
+    {
+      "source": "text_6_node_6",
+      "target": "text_6_node_8",
+      "relation": "before",
+      "support_text": "In the predawn hours of last September 13, I left my hotel in Central Moscow... For the bombing's ninth anniversary, three or four local journalists had shown up... Shortly after 5 A.M., a cluster of perhaps two dozen people...trooped up to place candles and red carnations at the foot of the monument..."
+    },
+    {
+      "source": "text_6_node_6",
+      "target": "text_6_new_node_1",
+      "relation": "before",
+      "support_text": "The events of the anniversary (journalists showing up) occur after the historical context of Putin's rise to power."
+    },
+    {
+      "source": "text_6_node_6",
+      "target": "text_6_new_node_2",
+      "relation": "before",
+      "support_text": "The police watching over the event (temporal_order 2) occurs after the historical context of Putin's rise to power."
+    },
+    {
+      "source": "text_6_node_8",
+      "target": "text_6_node_9",
+      "relation": "before",
+      "support_text": "but they retreated as quickly as they had appeared. The only other visitors that morning were two elderly men who had witnessed the bombing... Finally, I approached him."
+    },
+    {
+      "source": "text_6_node_9",
+      "target": "text_6_new_node_3",
+      "relation": "before",
+      "support_text": "根据事件的时间顺序（temporal_order 5 -> 7）推断"
+    },
+    {
+      "source": "text_6_node_9",
+      "target": "text_6_new_node_10",
+      "relation": "before",
+      "support_text": "But as it turned out, the old man had a more personal connection to the tragedy... Leading me up to the monument..."
+    },
+    {
+      "source": "text_6_new_node_1",
+      "target": "text_6_node_8",
+      "relation": "before",
+      "support_text": "The journalists had shown up (temporal_order 2) before the cluster of people trooped up (temporal_order 3)."
+    },
+    {
+      "source": "text_6_new_node_2",
+      "target": "text_6_node_8",
+      "relation": "before",
+      "support_text": "The police were watching over (temporal_order 2) before the cluster of people trooped up (temporal_order 3)."
+    },
+    {
+      "source": "text_6_new_node_3",
+      "target": "text_6_new_node_4",
+      "relation": "before",
+      "support_text": "根据事件的时间顺序（temporal_order 7 -> 8）推断"
+    },
+    {
+      "source": "text_6_new_node_4",
+      "target": "text_6_new_node_7",
+      "relation": "before",
+      "support_text": "根据事件的时间顺序（temporal_order 8 -> 9）推断"
+    },
+    {
+      "source": "text_6_new_node_7",
+      "target": "text_6_new_node_8",
+      "relation": "before",
+      "support_text": "根据事件的时间顺序（temporal_order 9 -> 10）推断"
+    },
+    {
+      "source": "text_6_new_node_8",
+      "target": "text_6_new_node_9",
+      "relation": "before",
+      "support_text": "根据事件的时间顺序（temporal_order 10 -> 11）推断"
+    },
+    {
+      "source": "text_6_new_node_10",
+      "target": "text_6_new_node_11",
+      "relation": "before",
+      "support_text": "Leading me up to the monument, he pointed out their names in the stone..."
+    },
+    {
+      "source": "text_6_new_node_11",
+      "target": "text_6_new_node_12",
+      "relation": "before",
+      "support_text": "...he pointed out their names in the stone, and desperately brushed at his eyes again."
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "nodes": [
+    {
+      "id": "text_19_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "去年8月29日，维也纳中央犹太教堂遭到袭击，造成两人死亡，十八人受伤。",
+      "support_text": "Two persons were killed and 18 wounded in the raid on Vienna's central synogogue on Aug. 29 last year",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "今年6月3日，以色列驻英国大使阿尔戈夫在伦敦酒店外遇袭受重伤。",
+      "support_text": "Mr. Argov was severely wounded June 3 when he was hit by bullets while leaving a function at a London hotel.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "6月6日，英国首相撒切尔夫人透露，袭击阿尔戈夫的嫌疑人身上有一份包含巴解组织伦敦代表的暗杀名单。",
+      "support_text": "On June 6, Prime Minister Margaret Thatcher of Britain said that a ''hit list'' of assassination targets found on one of the three suspects arrested in an attack on Shlomo Argov, the Israeli Ambassador to Britain, included the name of the P.L.O. representative in London.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "8月9日星期一，巴黎犹太社区的“金兹伯格”餐厅遭遇冲锋枪和手榴弹袭击，导致六人死亡，二十二人受伤。",
+      "support_text": "No group has taken responsibility for Monday's submachine-gun and grenade attack, in which six people, including two Americans, were killed and 22 were wounded at a restaurant on a corner of the Rue des Rosiers.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "8月10日，法国政府公布证据，指出巴黎袭击案可能与阿布·尼达尔领导的法塔赫革命委员会有关，该组织也声称对伦敦和维也纳的袭击负责。",
+      "support_text": "Without making an explicit accusation, the Government disclosed evidence that it said pointed to the assailants' being part of the Fatah Revolutionary Council, an organization led by a Palestinian dissident using the name Abu Nidal.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "同日，巴解组织领导人阿拉法特致电法国总统，谴责了此次袭击事件。",
+      "support_text": "Yasir Arafat, sent a message today to President Francois Mitterrand condemning Monday's killings.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "此外，法国警方已就此次袭击事件拘留了八人进行问询。",
+      "support_text": "Eight people were being questioned by the police here in connection with the attack, but none were charged.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿布·尼达尔的组织袭击了巴勒斯坦解放组织的领导人。",
+      "support_text": "His group (Abu Nidal's group) attacked the leaders of the Palestine Liberation Organization.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_9",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局逮捕了袭击阿尔戈夫事件中的一名嫌疑人。",
+      "support_text": "根据动词事件'arrest'的语义描述生成",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列为其入侵黎巴嫩的行为提供了正当理由。",
+      "support_text": "根据动词事件'justify'的语义描述生成",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列因阿尔戈夫遇袭事件而指责巴勒斯坦解放组织。",
+      "support_text": "根据动词事件'blame'的语义描述生成",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿拉法特的组织（巴解组织）否认了以色列的指控。",
+      "support_text": "根据动词事件'deny'的语义描述生成",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "三名嫌疑人因袭击阿尔戈夫先生一案而被正式指控。",
+      "support_text": "根据动词事件'charge'的语义描述生成",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "三名嫌疑人的身份被确认为两名约旦出生的学生和一名伊拉克商人。",
+      "support_text": "根据动词事件'identify'的语义描述生成",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查发现，枪手在伦敦和维也纳的袭击中使用了同一种类型的武器。",
+      "support_text": "gunmen used a type of [pistol] in the London and Vienna attacks",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局披露了受害者的身份和情况。",
+      "support_text": "Authorities disclosed the identity and status of the victims",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查人员在现场发现了弹壳和一个弹匣。",
+      "support_text": "investigators found shell casings and a magazine from an automatic weapon at the scene",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "内政部长加斯东·德费尔向记者通报了调查发现。",
+      "support_text": "Interior Minister Gaston Defferre told reporters about the investigation",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "对弹壳和弹匣的检验显示，枪手使用的是波兰制的冲锋枪。",
+      "support_text": "an examination of shell casings and a magazine showed that the gunmen had fired Polish-made machine pistols",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "德费尔先生及其团队认为，一个国际组织参与了这些袭击，该组织正在使用这些武器并在欧洲各地发动反犹袭击。",
+      "support_text": "Mr. Deferre and his team think that an international organization is involved, is using these weapons, and is committing anti-Semitic attacks across Europe.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "上级（如内政部长德费尔）已指示警方单位增加保护措施。",
+      "support_text": "上级已指示警方单位增加保护措施。",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_new_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方单位将为法国的70万犹太人增加保护措施。",
+      "support_text": "警方单位将为法国的70万犹太人增加保护措施。",
+      "source_text": "text_19"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_19_node_1",
+      "target": "text_19_node_2",
+      "relation": "before",
+      "support_text": "Two persons were killed and 18 wounded in the raid on Vienna's central synogogue on Aug. 29 last year, and Mr. Argov was severely wounded June 3 when he was hit by bullets while leaving a function at a London hotel."
+    },
+    {
+      "source": "text_19_node_2",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "Mr. Argov was severely wounded June 3... On June 6, Prime Minister Margaret Thatcher of Britain said..."
+    },
+    {
+      "source": "text_19_node_3",
+      "target": "text_19_node_4",
+      "relation": "before",
+      "support_text": "On June 6... Monday's terrorist attack in a Jewish neighborhood here..."
+    },
+    {
+      "source": "text_19_node_3",
+      "target": "text_19_new_node_13",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order（cast: 8 -> charge: 9）添加时序关系"
+    },
+    {
+      "source": "text_19_node_4",
+      "target": "text_19_node_5",
+      "relation": "before",
+      "support_text": "France said today that it had evidence suggesting that Monday's terrorist attack... might have involved the same Palestinian renegade group..."
+    },
+    {
+      "source": "text_19_node_4",
+      "target": "text_19_new_node_17",
+      "relation": "before",
+      "support_text": "巴黎袭击案发生后，调查人员开始在现场搜集证据。"
+    },
+    {
+      "source": "text_19_node_5",
+      "target": "text_19_node_6",
+      "relation": "before",
+      "support_text": "The Government disclosed evidence... Yasir Arafat, sent a message today to President Francois Mitterrand condemning Monday's killings."
+    },
+    {
+      "source": "text_19_node_5",
+      "target": "text_19_node_7",
+      "relation": "before",
+      "support_text": "The Government disclosed evidence... Eight people were being questioned by the police here in connection with the attack..."
+    },
+    {
+      "source": "text_19_new_node_8",
+      "target": "text_19_node_5",
+      "relation": "before",
+      "support_text": "根据事件的时序，阿布·尼达尔组织的袭击发生在专家公布信息之前。"
+    },
+    {
+      "source": "text_19_new_node_9",
+      "target": "text_19_new_node_11",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order（arrest: 2 -> blame: 5）添加时序关系"
+    },
+    {
+      "source": "text_19_new_node_9",
+      "target": "text_19_new_node_10",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order（arrest: 2 -> justify: 5）添加时序关系"
+    },
+    {
+      "source": "text_19_new_node_10",
+      "target": "text_19_new_node_12",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order（justify: 5 -> deny: 7）添加时序关系"
+    },
+    {
+      "source": "text_19_new_node_11",
+      "target": "text_19_new_node_12",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order（blame: 5 -> deny: 7）添加时序关系"
+    },
+    {
+      "source": "text_19_new_node_12",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order（deny: 7 -> cast: 8）添加时序关系"
+    },
+    {
+      "source": "text_19_new_node_13",
+      "target": "text_19_new_node_14",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order（charge: 9 -> identify: 10）添加时序关系"
+    },
+    {
+      "source": "text_19_new_node_15",
+      "target": "text_19_new_node_16",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order（use: 1 -> disclose: 2）添加时序关系"
+    },
+    {
+      "source": "text_19_new_node_16",
+      "target": "text_19_new_node_18",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order（disclose: 2 -> tell: 3）添加时序关系"
+    },
+    {
+      "source": "text_19_new_node_17",
+      "target": "text_19_new_node_19",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order（find: 2 -> show: 3）添加时序关系"
+    },
+    {
+      "source": "text_19_new_node_18",
+      "target": "text_19_new_node_20",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order（tell: 3 -> say/think/use/commit: 5）添加时序关系"
+    },
+    {
+      "source": "text_19_new_node_19",
+      "target": "text_19_new_node_15",
+      "relation": "before",
+      "support_text": "检验显示武器类型后，可以将其与维也纳袭击案中的武器进行比较。"
+    },
+    {
+      "source": "text_19_new_node_21",
+      "target": "text_19_new_node_22",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order（instruct: 6 -> increase: 7）添加时序关系"
+    }
+  ]
+}

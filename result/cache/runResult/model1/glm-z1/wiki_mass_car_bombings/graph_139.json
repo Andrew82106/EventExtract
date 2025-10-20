@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "text_139_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年12月31日，Lethpora地区发生武装袭击，造成5名安全人员死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年9月，Uri地区印度陆军总部遭4名袭击者攻击，19名士兵死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年2-6月，Pampore地区两起自杀袭击分别造成9和8名安全人员死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年初，Pathankot空军基地遭4-6名武装分子袭击",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年7月，Gurdaspur地区发生武装分子袭击公交和警察局事件",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "1989年以来，印度管辖区克什米尔持续存在武装冲突，累计死亡超7万人",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年，印度击毙著名武装分子Burhan Wani引发局势激化",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年2月14日，Lethpora地区发生CRPF车队自杀式袭击，40人死亡",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击者Adil Ahmad Dar（JeM成员）驾驶载有爆炸物的车辆撞击车队",
+      "source_text": "text_139"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_139_node_1",
+      "target": "text_139_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_2",
+      "target": "text_139_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_3",
+      "target": "text_139_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_4",
+      "target": "text_139_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_5",
+      "target": "text_139_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_6",
+      "target": "text_139_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_6",
+      "target": "text_139_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_6",
+      "target": "text_139_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_6",
+      "target": "text_139_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_6",
+      "target": "text_139_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_6",
+      "target": "text_139_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_6",
+      "target": "text_139_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_7",
+      "target": "text_139_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_139_node_8",
+      "target": "text_139_node_9",
+      "relation": "before"
+    }
+  ]
+}

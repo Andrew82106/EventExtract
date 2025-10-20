@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_104_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "Remy Jiemza在进入车站时遭遇爆炸，现场充满浓烟，伤者从楼梯逃出",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "内政部长德布雷紧急召集安全与移民官员开会，宣布加强边境管控",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "朱佩宣布立即恢复'维吉帕蒂特'反恐应急计划，包括军警联合巡逻和封闭垃圾桶",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "希拉克中断与科尔对话，通过电视发表全国讲话，谴责袭击为野蛮恐怖行为",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "巴黎民众因连续恐怖袭击和罢工导致的社会紧张达到1995年7-10月的高度",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_6",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "文本提及1995年7月25日同一线路B线地铁爆炸案造成8死84伤",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_7",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "",
+      "description": "极端组织宣称对此次袭击及1995年系列爆炸案负责，要求法国与阿尔及利亚断交",
+      "source_text": "text_104"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_104_node_1",
+      "target": "text_104_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_2",
+      "target": "text_104_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_3",
+      "target": "text_104_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_4",
+      "target": "text_104_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_5",
+      "target": "text_104_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_6",
+      "target": "text_104_node_1",
+      "relation": "before"
+    }
+  ]
+}

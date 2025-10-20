@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_60_node_1",
+      "event_type": "ManufactureAssemble",
+      "event_subtype": "Unspecified",
+      "event_sub_subtype": "",
+      "description": "1988年12月7日，迈格拉希在马耳他Mary's House商店购买炸弹行李箱的衣物",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_2",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "DisableDefuse",
+      "event_sub_subtype": "",
+      "description": "1988年12月21日，迈格拉希在马耳他放置装有炸弹的托莎牌录音机",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1988年12月21日晚上7时，炸弹在洛克比爆炸，导致259名机上人员及11名地面人员死亡",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_4",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "审判期间检方未能提供直接证据证明炸弹在马耳他装载",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "检方证人阿卜杜勒·马吉德·吉亚卡被揭露为受金钱驱动的虚假证人",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "法庭拒绝采纳对检方证据存疑的质疑，最终裁定迈格拉希有罪",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "共犯阿明·哈利法·费米赫在审判中被宣判无罪",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "迈格拉希于审判后宣布将提出上诉",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_9",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家属要求英国政府履行独立调查承诺",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "若调查启动，可能揭露1988年空难后关键证据被隐瞒的事实",
+      "source_text": "text_60"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_60_node_2",
+      "target": "text_60_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_60_node_3",
+      "target": "text_60_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_60_node_4",
+      "target": "text_60_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_60_node_5",
+      "target": "text_60_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_60_node_6",
+      "target": "text_60_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_60_node_6",
+      "target": "text_60_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_60_node_8",
+      "target": "text_60_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_60_node_9",
+      "target": "text_60_node_10",
+      "relation": "before"
+    }
+  ]
+}

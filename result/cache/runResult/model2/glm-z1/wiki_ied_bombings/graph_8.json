@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "text_8_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "CBS News producer Ahmad Mukhtar was at American University in Afghanistan when it came under Taliban attack",
+      "support_text": "CBS News producer Ahmad Mukhtar was at American University in Afghanistan this evening when it came under attack by Taliban fighters.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "Mukhtar, also a student at the University in Kabul, called CBSN to report the attack",
+      "support_text": "Mukhtar called into CBSN this afternoon.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "While escaping to the university's backside, Mukhtar heard approaching gunshots during the evacuation",
+      "support_text": "While we were escaping we could still hear the gunshots and as we were trying to escape the gunshots were getting closer and closer to us",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mukhtar reported that several friends and professors were trapped inside the university during the attack",
+      "support_text": "#AUAF under attack. I along with my friends escaped and several other of my friends and professors trapped inside.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Ahmad Mukhtar和朋友们逃离大学现场",
+      "support_text": "Ahmad Mukhtar和朋友们逃离现场",
+      "source_text": "text_8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_2",
+      "relation": "before",
+      "support_text": "CBS News producer Ahmad Mukhtar was at American University in Afghanistan this evening when it came under attack by Taliban fighters. Mukthar is also a student at the University in Kabul. He called into CBSN this afternoon."
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_node_3",
+      "relation": "before",
+      "support_text": "Mukhtar called into CBSN this afternoon. While we were escaping we could still hear the gunshots and as we were trying to escape the gunshots were getting closer and closer to us"
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_node_5",
+      "relation": "before",
+      "support_text": "Mukhtar called into CBSN this afternoon. While we were escaping we could still hear the gunshots..."
+    },
+    {
+      "source": "text_8_node_3",
+      "target": "text_8_node_4",
+      "relation": "before",
+      "support_text": "While we were escaping we could still hear the gunshots and as we were trying to escape the gunshots were getting closer and closer to us. #AUAF under attack. I along with my friends escaped and several other of my friends and professors trapped inside."
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_3",
+      "relation": "before",
+      "support_text": "While escaping to the university's backside, Mukhtar heard approaching gunshots during the evacuation"
+    }
+  ]
+}

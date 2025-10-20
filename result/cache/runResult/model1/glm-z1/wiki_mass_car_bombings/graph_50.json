@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_50_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2009年8月17日：意大利士兵和10名阿富汗平民在军事车队遭自杀式爆炸袭击",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年9月17日：联合国工作人员在喀布尔酒店遇袭身亡",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2009年10月8日：印度使馆遭自杀式爆炸袭击，造成至少17人死亡",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年10月24日：联合国嘉宾宿舍遇袭，导致6名工作人员死亡",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2009年12月15日：喀布尔酒店附近发生自杀袭击，致6人死亡",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2009年12月24日：六名联合国工作人员在喀布尔遇袭身亡",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2010年1月18日：塔利班袭击政府目标和购物中心，造成12人死亡",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2010年2月26日：喀布尔外国人聚集区发生爆炸和枪击事件，17人死亡",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2010年3月（当前事件）：自杀式汽车炸弹在喀布尔议会附近爆炸，18人死亡（含5名美军士兵）",
+      "source_text": "text_50"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_50_node_2",
+      "target": "text_50_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_50_node_3",
+      "target": "text_50_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_50_node_4",
+      "target": "text_50_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_50_node_5",
+      "target": "text_50_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_50_node_6",
+      "target": "text_50_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_50_node_7",
+      "target": "text_50_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_50_node_8",
+      "target": "text_50_node_9",
+      "relation": "before"
+    }
+  ]
+}

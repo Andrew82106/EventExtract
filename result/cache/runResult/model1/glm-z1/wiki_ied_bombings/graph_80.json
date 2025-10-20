@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_80_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年阿根廷布宜诺斯艾利斯犹太社区中心遭炸弹袭击，造成85人死亡",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "2013年阿根廷政府与伊朗达成协议，以能源合作换取对爆炸案调查的搁置",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年1月检察官阿尔贝托·尼曼斯指控基什内尔政府包庇伊朗涉案人员",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年1月尼曼斯在公寓遇刺身亡，最初判定为自杀，后经调查确认为谋杀",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_5",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年12月法官布南多要求剥夺基什内尔参议员豁免权，但国会未执行",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_6",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年阿根廷边境警察确认尼曼斯遭谋杀，推翻自杀结论",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年法官正式宣布起诉基什内尔及11名涉案人员，指控掩盖伊朗责任",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "基什内尔要求立即受审以反驳指控，并指责司法系统受保守政府干预",
+      "source_text": "text_80"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_80_node_1",
+      "target": "text_80_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_2",
+      "target": "text_80_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_3",
+      "target": "text_80_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_4",
+      "target": "text_80_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_5",
+      "target": "text_80_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_6",
+      "target": "text_80_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_80_node_7",
+      "target": "text_80_node_8",
+      "relation": "before"
+    }
+  ]
+}

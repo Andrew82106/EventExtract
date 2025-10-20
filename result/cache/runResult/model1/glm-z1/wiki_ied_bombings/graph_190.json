@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_190_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1989年1月18日，哥伦比亚Simacota发生12名司法官员遭杀害事件，成为当年针对政客、官员和记者系列袭击的开端",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_2",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "1989年11月，麦德林卡特尔策划Avianca Flight 203空难，造成百余人死亡",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1989年12月6日，麦德林卡特尔在波哥大DAS总部实施卡车炸弹袭击，导致63人死亡、千余人受伤，并摧毁大量建筑",
+      "source_text": "text_190"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_190_node_1",
+      "target": "text_190_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_190_node_2",
+      "target": "text_190_node_3",
+      "relation": "before"
+    }
+  ]
+}

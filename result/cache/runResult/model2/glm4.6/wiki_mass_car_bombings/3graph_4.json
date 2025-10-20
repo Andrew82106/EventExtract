@@ -1,0 +1,264 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1996年6月，一辆卡车炸弹炸毁了位于沙特的霍巴塔楼，造成19人死亡。",
+      "support_text": "Nineteen people died in June 1996 when a truck bomb blew up the tower-style dormitory for U.S. Air Force pilots and staff.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生后，被捕的六名真主党成员牵连了伊朗官员。",
+      "support_text": "Six Hezbollah members captured after the attacks implicated Iranian officials.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年，17名遇难美国家属对伊朗政府提起了诉讼。",
+      "support_text": "Lamberth's decision in the lawsuit, which was filed in 2002 by the families of 17 victims, reverses a lower magistrate judge...",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名下级法官曾裁定，将伊朗政府与爆炸案联系起来的证据没有说服力。",
+      "support_text": "...reverses a lower magistrate judge who said evidence linking the Iranian government to the bombing was not convincing.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名联邦法官作出裁决，认定伊朗对爆炸案负责，并下令其赔偿2.54亿美元。",
+      "support_text": "A federal judge ruled yesterday that Iran is responsible for the 1996 Khobar Towers bombing and ordered that the government pay $254 million to the families of 17 Americans who died in the attack in Saudi Arabia.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗政府拒绝参与此案，并坚持称其与爆炸案无关。",
+      "support_text": "Iran has refused to participate in the case and insists it has no connection to the bombing.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "遇难者家属的律师事务所计划追踪伊朗政府的海外资产以执行赔偿。",
+      "support_text": "The families' law firm plans to try to track down Iranian government assets in countries around the world and claim them to collect the damages.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_1",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "遇难美国军人家属是否会收到那笔赔偿金。",
+      "support_text": "Whether the families of the dead U.S. servicemen and women will ever receive that money remains in question.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗政府的高级领导层策划了霍布斯塔公寓楼爆炸案。",
+      "support_text": "原文支持文本",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗政府机构和高级部长资助了爆炸事件。",
+      "support_text": "原文支持文本",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗政府机构和高级部长指挥了爆炸事件。",
+      "support_text": "原文支持文本",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗政府的高级领导层赞助了霍布斯塔公寓楼爆炸案。",
+      "support_text": "原文支持文本",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "被告的行为为这次袭击提供了便利。",
+      "support_text": "原文支持文本",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "被告为袭击提供了物质支持。",
+      "support_text": "原文支持文本",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "被告的行为促成了这次袭击的发生。",
+      "support_text": "原文支持文本",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "法官兰伯特撰写了包含上述裁决内容的书面意见。",
+      "support_text": "原文支持文本",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "真主党方面的首席专家提出了“压倒性的”证据。",
+      "support_text": "真主党方面的首席专家提出了“压倒性的”证据。",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "兰伯思的决定推翻了一位低级治安法官的裁决。",
+      "support_text": "兰伯思的决定推翻了一位低级治安法官的裁决。",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "Six Hezbollah members captured after the attacks implicated Iranian officials."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "Lamberth's decision in the lawsuit, which was filed in 2002 by the families of 17 victims..."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "Lamberth's decision in the lawsuit... reverses a lower magistrate judge..."
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "Lamberth's decision in the lawsuit... reverses a lower magistrate judge..."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_7",
+      "relation": "before",
+      "support_text": "A federal judge ruled yesterday... and ordered that the government pay $254 million... The families' law firm plans to try to track down Iranian government assets... and claim them to collect the damages."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_new_node_9",
+      "relation": "before",
+      "support_text": "法官先作出裁决，然后撰写书面意见。"
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "Iran has refused to participate in the case and insists it has no connection to the bombing. Whether the families... will ever receive that money remains in question."
+    },
+    {
+      "source": "text_4_node_7",
+      "target": "text_4_new_node_1",
+      "relation": "before",
+      "support_text": "The families' law firm plans to try to track down Iranian government assets... and claim them to collect the damages. Whether the families... will ever receive that money remains in question."
+    },
+    {
+      "source": "text_4_new_node_2",
+      "target": "text_4_node_1",
+      "relation": "before",
+      "support_text": "策划发生在爆炸之前。"
+    },
+    {
+      "source": "text_4_new_node_3",
+      "target": "text_4_node_1",
+      "relation": "before",
+      "support_text": "资助发生在爆炸之前。"
+    },
+    {
+      "source": "text_4_new_node_4",
+      "target": "text_4_node_1",
+      "relation": "before",
+      "support_text": "指挥发生在爆炸之前。"
+    },
+    {
+      "source": "text_4_new_node_5",
+      "target": "text_4_node_1",
+      "relation": "before",
+      "support_text": "赞助发生在爆炸之前。"
+    },
+    {
+      "source": "text_4_new_node_6",
+      "target": "text_4_node_1",
+      "relation": "before",
+      "support_text": "提供便利的行为发生在袭击之前。"
+    },
+    {
+      "source": "text_4_new_node_7",
+      "target": "text_4_node_1",
+      "relation": "before",
+      "support_text": "提供物质支持的行为发生在袭击之前。"
+    },
+    {
+      "source": "text_4_new_node_8",
+      "target": "text_4_node_1",
+      "relation": "before",
+      "support_text": "促成袭击的行为发生在袭击之前。"
+    },
+    {
+      "source": "text_4_new_node_10",
+      "target": "text_4_new_node_11",
+      "relation": "before",
+      "support_text": "根据事件时序，present事件（temporal_order: 7）发生在reverse事件（temporal_order: 8）之前。"
+    }
+  ]
+}

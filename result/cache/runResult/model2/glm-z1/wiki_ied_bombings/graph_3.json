@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "孟买南孟买Operahouse和Zaveri Bazar、市中心Dadar West发生三起爆炸",
+      "support_text": "Three explosions have taken place in Mumbai on Wednesday evening - two in South Mumbai at Opera House and in Zaveri Bazar and one at Dadar West, in central Mumbai.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度内政部确认事件为恐怖袭击，孟买进入高度戒备",
+      "support_text": "The Home Ministry has confirmed a terrorist attack and Mumbai is on high alert.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Zaveri Bazar目击者称约15-20人送医",
+      "support_text": "Eyewitnesses said about 15 to 20 people have taken to hospital in Zaveri Bazar.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认Dadar West爆炸系汽车炸弹",
+      "support_text": "One explosion, in a car at a bus stop in Dadar West, has been confirmed.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Khau gali街道配电箱发现可疑爆炸物",
+      "support_text": "A police officer said there might have been an explosive in a meter box behind a hoarding at Khau gali...",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Dadar发现未爆炸弹，排爆小组正在处理",
+      "support_text": "An unexploded bomb has also reportedly been found in Dadar and a bomb disposal squad is working to defuse it.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "警方指挥中心接到炸弹威胁电话",
+      "support_text": "Early reports said a police control room had received a call claiming that there were serial blasts in Mumbai.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "国家调查局(NIA)团队从德里抵达调查",
+      "support_text": "The National Investigation Agency (NIA) team has rushed to Mumbai from Delhi to investigate...",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "德里、钦奈、班加罗尔进入高度戒备",
+      "support_text": "Malls, markets and other crowded places in Delhi, Chennai and Bangalore are on high alert.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "NIA团队收集物证",
+      "support_text": "NIA team collects forensic evidence",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_2",
+      "relation": "before",
+      "support_text": "The Home Ministry has confirmed a terrorist attack and Mumbai is on high alert."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_3",
+      "relation": "before",
+      "support_text": "Eyewitnesses said about 15 to 20 people have taken to hospital in Zaveri Bazar."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_4",
+      "relation": "before",
+      "support_text": "One explosion, in a car at a bus stop in Dadar West, has been confirmed."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_5",
+      "relation": "before",
+      "support_text": "A police officer said there might have been an explosive in a meter box behind a hoarding at Khau gali..."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_6",
+      "relation": "before",
+      "support_text": "An unexploded bomb has also reportedly been found in Dadar and a bomb disposal squad is working to defuse it."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_7",
+      "relation": "before",
+      "support_text": "Early reports said a police control room had received a call claiming that there were serial blasts in Mumbai."
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_8",
+      "relation": "before",
+      "support_text": "The National Investigation Agency (NIA) team has rushed to Mumbai from Delhi to investigate..."
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_9",
+      "relation": "before",
+      "support_text": "Malls, markets and other crowded places in Delhi, Chennai and Bangalore are on high alert."
+    }
+  ]
+}

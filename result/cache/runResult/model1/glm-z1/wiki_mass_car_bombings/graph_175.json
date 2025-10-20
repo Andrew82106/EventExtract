@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "text_175_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "德国大使馆卡车炸弹袭击（五月）",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "一周前塔利班围困洲际酒店致20人死亡",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "周日塔利班自杀式爆炸袭击喀布尔致103死235伤",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "伊斯兰国袭击贾拉拉巴德拯救儿童办公室致6人死亡",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "两辆伪装救护车参与周日袭击并引爆",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "政府官员确认伤亡统计并指出安保漏洞",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "居民对安全局势的绝望情绪蔓延",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "前官员批评政府过度内斗忽视安全",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_9",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "",
+      "description": "塔利班宣称袭击针对特朗普政策",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_10",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "美国前大使呼吁政治派系和解",
+      "source_text": "text_175"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_175_node_2",
+      "target": "text_175_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_175_node_3",
+      "target": "text_175_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_175_node_3",
+      "target": "text_175_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_175_node_5",
+      "target": "text_175_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_175_node_5",
+      "target": "text_175_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_175_node_6",
+      "target": "text_175_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_175_node_6",
+      "target": "text_175_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_175_node_8",
+      "target": "text_175_node_10",
+      "relation": "before"
+    }
+  ]
+}

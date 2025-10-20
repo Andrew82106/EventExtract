@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_162_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴格达拉希德区发生炸弹爆炸，造成1人死亡、1人受伤",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_2",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致死亡者被送往法医部门进行尸检",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_3",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "受伤者被紧急送往附近医院接受医疗救治",
+      "source_text": "text_162"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_162_node_1",
+      "target": "text_162_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_162_node_1",
+      "target": "text_162_node_3",
+      "relation": "before"
+    }
+  ]
+}

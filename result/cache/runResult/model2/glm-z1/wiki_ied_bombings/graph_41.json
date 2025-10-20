@@ -1,0 +1,660 @@
+{
+  "nodes": [
+    {
+      "id": "text_41_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "1974年11月21日19:40三人等待Steve Grater下楼，因Steve的强迫症导致等待超1小时",
+      "support_text": "Steve Grater was a nightmare, if even a single hair was out of place, he would re-wash it, dry it with a hair dryer and start all over again - sometimes we were kept waiting for an hour.",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "19:50乘55路公交车抵达Cabin Pub附近，8:00进入Costermongers尝试新安装的Shuffle board",
+      "support_text": "Steve lives about 50 yards from the bus stop near Revesby Walk and as bus arrives just a few minutes later, by 7.50pm, we're on our way to town.",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_3",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "8:10在The Tavern in the Town购买三杯25便士的拉格啤酒",
+      "support_text": "I order and pay for three pints of Lager, it's 25p a pint and there is nothing better than your first beer of night sliding easily down.",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "8:10-8:10之间在Pong游戏机前游玩时遭遇爆炸，导致酒吧严重损毁",
+      "support_text": "As I touch the left hand control, my world exploded into darkness. Les was playing on a Pong video game, which could well have saved his life",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸瞬间幸存者被气浪抛飞，面部、听力、视力严重受损",
+      "support_text": "I'm lifted up and half somersaulting, I'm thrown into the wall. My eardrums are burst, I've lost all my hair, my eyebrows and lashes are burned off and my sweater has melted to my body.",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "在废墟中挣扎逃生，遭遇幸存者袭击并闻到焦糊味",
+      "support_text": "I start crawling up the stairs... I'm kicked in the face... I can smell bacon cooking. I didn't know it then but that was the smell of burnt and dying people.",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "从楼梯残骸中爬出后获消防员救助，被邻居Arthur送往医院",
+      "support_text": "A fireman and rescue workers working at the scene... My Dad had always said 'Les, if you're in...",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_8",
+      "event_type": "Medical",
+      "event_subtype": "Vaccinate",
+      "event_sub_subtype": "Unspecified",
+      "description": "次日（11月22日）从Birmingham Accident Hospital出院，接受初步治疗",
+      "support_text": "There are no lights left working and I put my hand on the wall, what's left of the phone is hanging down and I know where I am - I've been blown to the bottom of the stairs.",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_9",
+      "event_type": "Medical",
+      "event_subtype": "Vaccinate",
+      "event_sub_subtype": "Unspecified",
+      "description": "康复期间经历多次复健，面部严重烧伤需长期护理",
+      "support_text": "Later the body count is to total 11, the injured in there number 100%... I start crawling up the stairs...",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_10",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "通过赔偿金和募捐获得经济补偿，但部分朋友未获分毫",
+      "support_text": "I know I can't stay in there, although I'm still not sure what happened...",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "我和Steve Grater继续前往我们的酒吧",
+      "support_text": "我和Steve Grater继续前往我们的酒吧",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "游戏通过两个分离的摇杆进行控制",
+      "support_text": "游戏通过两个分离的摇杆进行控制",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "玩家击打白色点",
+      "support_text": "玩家击打白色点",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "说话者正在严重输掉比赛",
+      "support_text": "说话者正在严重输掉比赛",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "获胜者还需要14分达成胜利",
+      "support_text": "获胜者还需要14分达成胜利",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤亡人数统计为11人",
+      "support_text": "Later the body count is to total 11, the injured in there number 100%",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "在学骑车过程中做出回家决定",
+      "support_text": "我决定回家",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_18",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "学骑车时摔倒受伤",
+      "support_text": "学骑车时摔倒",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "语义描述：将我减少到学步儿童状态",
+      "support_text": "将我减少到学步儿童状态",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_20",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "语义描述：记得人们奔跑",
+      "support_text": "记得人们奔跑",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_21",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "语义描述：人们奔跑",
+      "support_text": "人们奔跑",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "语义描述：没有人停下来帮助",
+      "support_text": "没有人停下来帮助",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "语义描述：认为炸弹已爆炸",
+      "support_text": "认为炸弹已爆炸",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_24",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "语义描述：炸弹已爆炸",
+      "support_text": "炸弹已爆炸",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_25",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "语义描述：我离开到寒冷的空气中",
+      "support_text": "我离开到寒冷的空气中",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_26",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "语义描述：疼痛推动我",
+      "support_text": "疼痛推动我",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_27",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "语义描述：血液从右腋下流出",
+      "support_text": "血液从右腋下流出",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_28",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "语义描述：嘴唇被撕裂",
+      "support_text": "嘴唇被撕裂",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_29",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "语义描述：嘴唇流血",
+      "support_text": "嘴唇流血",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_30",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "语义描述：被弹片击中",
+      "support_text": "被弹片击中",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_31",
+      "event_type": "Medical",
+      "event_subtype": "Vaccinate",
+      "event_sub_subtype": "Unspecified",
+      "description": "语义描述：头发全部掉光",
+      "support_text": "头发全部掉光",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_32",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "语义描述：感到像被大锤击中",
+      "support_text": "感到像被大锤击中",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_33",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "语义描述：被大锤击中",
+      "support_text": "被大锤击中",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_34",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "液体从手腕流到肘部",
+      "support_text": "液体从手腕流到肘部",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_35",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸冲击波沿裤腿上升",
+      "support_text": "爆炸冲击波沿裤腿上升",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_36",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸冲击波将裤子彻底撕碎",
+      "support_text": "爆炸冲击波将裤子彻底撕碎",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_37",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "在肾上腺素作用下拖着身体前进",
+      "support_text": "在肾上腺素作用下拖着身体前进",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_38",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "到达家门",
+      "support_text": "到达家门",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_39",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "向邻居家的门敲门",
+      "support_text": "向邻居家的门敲门",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_40",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "对伤者进行快速检查",
+      "support_text": "对伤者进行快速检查",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_41",
+      "event_type": "Life",
+      "event_subtype": "Consume",
+      "event_sub_subtype": "Unspecified",
+      "description": "为伤者注射止痛针",
+      "support_text": "为伤者注射止痛针",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_42",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "体内异物逐渐消退",
+      "support_text": "体内异物逐渐消退",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_43",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Steve Cox遭受更严重的伤害",
+      "support_text": "Steve Cox遭受更严重的伤害",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_44",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Steve Cox出院",
+      "support_text": "Steve Cox出院",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_45",
+      "event_type": "Life",
+      "event_subtype": "Illness",
+      "event_sub_subtype": "Unspecified",
+      "description": "Steve G状况恶化",
+      "support_text": "Steve G状况恶化",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_46",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Steve G背部受伤（玻璃碎片）",
+      "support_text": "Steve G背部受伤（玻璃碎片）",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_47",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "带三人前往Skylark酒吧",
+      "support_text": "带三人前往Skylark酒吧",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_48",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "举起饮料",
+      "support_text": "举起饮料",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_49",
+      "event_type": "Life",
+      "event_subtype": "Illness",
+      "event_sub_subtype": "Unspecified",
+      "description": "开始剧烈颤抖",
+      "support_text": "开始剧烈颤抖",
+      "source_text": "text_41"
+    },
+    {
+      "id": "text_41_node_50",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "经历三个月康复",
+      "support_text": "经历三个月康复",
+      "source_text": "text_41"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_41_node_1",
+      "target": "text_41_node_2",
+      "relation": "before",
+      "support_text": "Hallelujah! Steve G comes downstairs, dressed and ready to go. Steve lives about 50 yards from the bus stop near Revesby Walk and as bus arrives just a few minutes later, by 7.50pm, we're on our way to town."
+    },
+    {
+      "source": "text_41_node_1",
+      "target": "text_41_node_12",
+      "relation": "before",
+      "support_text": "1974年11月21日19:40三人等待Steve Grater下楼，因Steve的强迫症导致等待超1小时"
+    },
+    {
+      "source": "text_41_node_2",
+      "target": "text_41_node_3",
+      "relation": "before",
+      "support_text": "The Tavern in the Town was about a third full when the bomb went off"
+    },
+    {
+      "source": "text_41_node_2",
+      "target": "text_41_node_11",
+      "relation": "before",
+      "support_text": "乘55路公交车抵达Cabin Pub附近后继续前往我们的酒吧"
+    },
+    {
+      "source": "text_41_node_2",
+      "target": "text_41_node_17",
+      "relation": "before",
+      "support_text": "在前往酒吧途中做出回家决定"
+    },
+    {
+      "source": "text_41_node_2",
+      "target": "text_41_node_47",
+      "relation": "before",
+      "support_text": "乘公交前往后带三人前往酒吧"
+    },
+    {
+      "source": "text_41_node_3",
+      "target": "text_41_node_4",
+      "relation": "before",
+      "support_text": "I carry the beers over to where the two Steves are. Steve Cox has put some money in the Bat and ball or ''Pong'' machine..."
+    },
+    {
+      "source": "text_41_node_3",
+      "target": "text_41_node_48",
+      "relation": "before",
+      "support_text": "购买啤酒后举起饮料"
+    },
+    {
+      "source": "text_41_node_4",
+      "target": "text_41_node_5",
+      "relation": "before",
+      "support_text": "As I touch the left hand control, my world exploded into darkness"
+    },
+    {
+      "source": "text_41_node_4",
+      "target": "text_41_node_35",
+      "relation": "before",
+      "support_text": "爆炸冲击波沿裤腿上升（原事件图node_4的support_text隐含该动作）"
+    },
+    {
+      "source": "text_41_node_5",
+      "target": "text_41_node_6",
+      "relation": "before",
+      "support_text": "I'm lying in the rubble, that was seconds before...The Tavern in the Town. There are no lights left working..."
+    },
+    {
+      "source": "text_41_node_5",
+      "target": "text_41_node_37",
+      "relation": "before",
+      "support_text": "爆炸瞬间幸存者被气浪抛飞后触发拖动动作"
+    },
+    {
+      "source": "text_41_node_5",
+      "target": "text_41_node_43",
+      "relation": "before",
+      "support_text": "爆炸导致Steve Cox受伤后触发更严重伤害"
+    },
+    {
+      "source": "text_41_node_6",
+      "target": "text_41_node_7",
+      "relation": "before",
+      "support_text": "I start crawling up the stairs... My arm vanishes through a hole in the stairs where the bomb has punched through"
+    },
+    {
+      "source": "text_41_node_7",
+      "target": "text_41_node_8",
+      "relation": "before",
+      "support_text": "There are no lights left working and I put my hand on the wall, what's left of the phone is hanging down and I know where I am - I've been blown to the bottom of the stairs."
+    },
+    {
+      "source": "text_41_node_7",
+      "target": "text_41_node_44",
+      "relation": "before",
+      "support_text": "获消防员救助后出院"
+    },
+    {
+      "source": "text_41_node_8",
+      "target": "text_41_node_9",
+      "relation": "before",
+      "support_text": "Later the body count is to total 11, the injured in there number 100%"
+    },
+    {
+      "source": "text_41_node_9",
+      "target": "text_41_node_10",
+      "relation": "before",
+      "support_text": "I know I can't stay in there, although I'm still not sure what happened..."
+    },
+    {
+      "source": "text_41_node_9",
+      "target": "text_41_node_16",
+      "relation": "before",
+      "support_text": "Later the body count is to total 11, the injured in there number 100%"
+    },
+    {
+      "source": "text_41_node_9",
+      "target": "text_41_node_45",
+      "relation": "before",
+      "support_text": "康复期间状况恶化"
+    },
+    {
+      "source": "text_41_node_9",
+      "target": "text_41_node_50",
+      "relation": "before",
+      "support_text": "康复期间经历三个月治疗"
+    },
+    {
+      "source": "text_41_node_12",
+      "target": "text_41_node_13",
+      "relation": "before",
+      "support_text": "游戏通过两个分离的摇杆进行控制"
+    },
+    {
+      "source": "text_41_node_13",
+      "target": "text_41_node_14",
+      "relation": "before",
+      "support_text": "玩家击打白色点"
+    },
+    {
+      "source": "text_41_node_14",
+      "target": "text_41_node_15",
+      "relation": "before",
+      "support_text": "说话者正在严重输掉比赛"
+    },
+    {
+      "source": "text_41_node_15",
+      "target": "text_41_node_4",
+      "relation": "before",
+      "support_text": "获胜者还需要14分达成胜利"
+    },
+    {
+      "source": "text_41_node_17",
+      "target": "text_41_node_18",
+      "relation": "before",
+      "support_text": "决定回家后立即发生摔倒"
+    },
+    {
+      "source": "text_41_node_30",
+      "target": "text_41_node_46",
+      "relation": "before",
+      "support_text": "玻璃碎片导致背部受伤"
+    },
+    {
+      "source": "text_41_node_35",
+      "target": "text_41_node_36",
+      "relation": "before",
+      "support_text": "爆炸冲击波将裤子彻底撕碎（根据temporal_order 2需在node_35后触发）"
+    },
+    {
+      "source": "text_41_node_37",
+      "target": "text_41_node_38",
+      "relation": "before",
+      "support_text": "拖动身体后到达家门"
+    },
+    {
+      "source": "text_41_node_38",
+      "target": "text_41_node_39",
+      "relation": "before",
+      "support_text": "到达家门后向邻居敲门"
+    },
+    {
+      "source": "text_41_node_39",
+      "target": "text_41_node_40",
+      "relation": "before",
+      "support_text": "敲门后对伤者检查"
+    },
+    {
+      "source": "text_41_node_40",
+      "target": "text_41_node_41",
+      "relation": "before",
+      "support_text": "检查后注射止痛针"
+    },
+    {
+      "source": "text_41_node_41",
+      "target": "text_41_node_42",
+      "relation": "before",
+      "support_text": "注射后异物消退"
+    },
+    {
+      "source": "text_41_node_41",
+      "target": "text_41_node_49",
+      "relation": "before",
+      "support_text": "注射止痛针后开始颤抖"
+    }
+  ]
+}

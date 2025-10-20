@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_34_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年4月23日，克林顿总统访问俄克拉荷马州，回应国内最严重的国内恐怖爆炸事件",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致168人死亡，克林顿称该行为是'恐怖罪行'并承诺严惩",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸幸存者及家属在埋葬遇难者期间相信克林顿的正义承诺",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年爆炸主犯蒂莫西·麦考伊被判处死刑，同案犯特里·尼克斯被判终身监禁",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "克林顿政府考虑对16名波多黎各FALN组织成员提供大赦，其成员曾策划130起爆炸",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "FALN成员被指控参与策划爆炸、运输武器等直接支持恐怖活动的行为",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "部分舆论质疑大赦是政治动机，旨在帮助希拉里2000年纽约参议员选举",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年爆炸导致8名联邦执法人员死亡",
+      "source_text": "text_34"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_34_node_2",
+      "target": "text_34_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_34_node_2",
+      "target": "text_34_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_34_node_2",
+      "target": "text_34_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_34_node_4",
+      "target": "text_34_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_34_node_5",
+      "target": "text_34_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_34_node_6",
+      "target": "text_34_node_7",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_191_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1980年10月慕尼黑Oktoberfest发生炸弹袭击，造成13人死亡、数百人受伤",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "新证据出现，引发关于袭击者是否为右翼极端分子单独行动的质疑",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "政客和受害者家属要求重新调查案件",
+      "source_text": "text_191"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_191_node_1",
+      "target": "text_191_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_191_node_2",
+      "target": "text_191_node_3",
+      "relation": "before"
+    }
+  ]
+}

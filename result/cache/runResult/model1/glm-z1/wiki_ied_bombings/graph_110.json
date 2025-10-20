@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_110_node_1",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "二战前Jo Goldenberg的餐厅在巴黎犹太区Le Marais的Rue des Rosiers建立",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1982年8月9日恐怖分子在餐厅投掷手榴弹并扫射，造成6死22伤",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者身份未明，当地犹太社区认定系巴勒斯坦恐怖组织所为",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_4",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "2006年餐厅关闭，原址改建为同名服装店并保留袭击纪念标志",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "91岁的Jo Goldenberg于上周因长期患病去世，由助手Franck Tapiero宣布",
+      "source_text": "text_110"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_110_node_1",
+      "target": "text_110_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_2",
+      "target": "text_110_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_3",
+      "target": "text_110_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_4",
+      "target": "text_110_node_5",
+      "relation": "before"
+    }
+  ]
+}

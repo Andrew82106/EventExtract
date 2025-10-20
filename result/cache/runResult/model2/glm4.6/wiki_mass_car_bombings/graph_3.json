@@ -1,0 +1,321 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰国组织的一名自杀式炸弹袭击者在巴格达引爆了一辆装满炸药的面包车。",
+      "support_text": "A suicide bomber detonated an explosives-laden minibus in Baghdad's Karrada neighbourhood early on Sunday, ahead of the Eid al-Fitr holiday marking the end of the holy Muslim fasting month of Ramadan.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸引发了大火，将许多人困在缺乏紧急出口的建筑内导致其丧生。",
+      "support_text": "The initial blast killed a limited number of people, but flames spread and trapped people inside shopping centres which lacked emergency exits, Rahi told a news conference in Baghdad.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成200人受伤。",
+      "support_text": "The blast also wounded 200 people, said the minister, who on Tuesday told AFP that the process of identifying the dead -- which she put at 150 at the time -- was expected to take 15-45 days.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "内政部长Mohammed Ghabban因爆炸案引咎辞职。",
+      "support_text": "Interior Minister Mohammed Ghabban tendered his resignation following the bombing, and authorities also announced the execution of five convicts and the arrest of 40 jihadists in an apparent bid to limit the fallout from the attack.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局宣布处决五名罪犯并逮捕40名圣战分子以应对袭击。",
+      "support_text": "Interior Minister Mohammed Ghabban tendered his resignation following the bombing, and authorities also announced the execution of five convicts and the arrest of 40 jihadists in an apparent bid to limit the fallout from the attack.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "卫生部长表示，确认遇难者身份的过程预计将需要15至45天。",
+      "support_text": "...the process of identifying the dead -- which she put at 150 at the time -- was expected to take 15-45 days.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总理办公室的官员称，总理已接受了内政部长的辞职。",
+      "support_text": "An official in Prime Minister Haider al-Abadi's office told AFP on Wednesday that the premier had accepted the minister's resignation, though there has been no official statement from him on the matter.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_8",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "官方公布的最新死亡人数上升至292人。",
+      "support_text": "Baghdad (AFP) - A Baghdad bombing claimed by the Islamic State group killed 292 people, according to a new toll issued Thursday, many of whom were trapped in blazing buildings and burned alive.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "数千人聚集在爆炸现场哀悼，并对政府表达了愤怒。",
+      "support_text": "Thousands have come to the site of the bombing to mourn the dead and express solidarity with those stricken by the blast. The street running between the charred remains of buildings burned in the attack has been packed with people, some carrying Iraqi flags. Many wept and beat their chests in mourning for the dead. Some of those gathered at the site on Thursday shouted slogans, while others left candles at the site, which is covered with banners bearing the names of the dead. And some expressed anger at the government, blaming it for the attack.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查人员公布爆炸由塑胶炸药和硝酸铵造成，并指出建筑缺乏紧急出口加剧了伤亡。",
+      "support_text": "Investigators now believe they know what caused the attack to claim so many lives. Police Major General Talib Khalil Rahi said the bomber's minibus had been loaded with plastic explosives and ammonium nitrate. The initial blast killed a limited number of people, but flames spread and trapped people inside shopping centres which lacked emergency exits, Rahi told a news conference in Baghdad.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国组织宣称对巴格达爆炸事件负责。",
+      "support_text": "A Baghdad bombing claimed by the Islamic State group killed 292 people, according to a new toll issued Thursday...",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年美国领导的入侵为该国超过13年的残酷暴力埋下了伏笔。",
+      "support_text": "2003年美国领导的入侵为该国超过13年的残酷暴力埋下了伏笔。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "115名在爆炸中遇难者的遗体被移交给其家属。",
+      "support_text": "Health Minister Adila Hamoud said the bodies of 115 killed in the bombing had now been handed over to families...",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿里·亚西里发表了公民必须推翻政府的言论。",
+      "support_text": "Ali al-Yasiri said, “Citizens must remove this government by any means”.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "加班批评了安全系统存在根本性缺陷。",
+      "support_text": "加班批评了安全系统存在根本性缺陷。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "加班呼吁进行一系列变革。",
+      "support_text": "加班呼吁进行一系列变革。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（这些变革）最终将增加内政部的权力。",
+      "support_text": "（这些变革）最终将增加内政部的权力。",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国组织在2014年占领了巴格达北部和西部的大片地区。",
+      "support_text": "The IS, which overran large areas north and west of Baghdad in 2014",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克部队从圣战分子手中夺回了重要领土。",
+      "support_text": "Iraqi forces have since regained significant territory",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "圣战分子继续失去地盘。",
+      "support_text": "the jihadists have continued to lose ground",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "专家警告可能会有更多的爆炸案。",
+      "support_text": "experts have warned there could be more bombings",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_2",
+      "relation": "before",
+      "support_text": "The initial blast killed a limited number of people, but flames spread and trapped people inside shopping centres which lacked emergency exits..."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_3",
+      "relation": "before",
+      "support_text": "The blast also wounded 200 people, said the minister..."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_4",
+      "relation": "before",
+      "support_text": "Interior Minister Mohammed Ghabban tendered his resignation following the bombing..."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_5",
+      "relation": "before",
+      "support_text": "...authorities also announced the execution of five convicts and the arrest of 40 jihadists in an apparent bid to limit the fallout from the attack."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_9",
+      "relation": "before",
+      "support_text": "Thousands have come to the site of the bombing to mourn the dead and express solidarity with those stricken by the blast."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_10",
+      "relation": "before",
+      "support_text": "Investigators now believe they know what caused the attack to claim so many lives."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_new_node_1",
+      "relation": "before",
+      "support_text": "A Baghdad bombing claimed by the Islamic State group..."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_new_node_11",
+      "relation": "before",
+      "support_text": "根据temporal_order，袭击事件(5)发生后，专家发出了警告(7)。"
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_6",
+      "relation": "before",
+      "support_text": "Health Minister Adila Hamoud said the bodies of 115 killed in the bombing had now been handed over to families, while the identities of 177 others have yet to be determined. ...the process of identifying the dead... was expected to take 15-45 days."
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_node_7",
+      "relation": "before",
+      "support_text": "An official in Prime Minister Haider al-Abadi's office told AFP on Wednesday that the premier had accepted the minister's resignation..."
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_new_node_6",
+      "relation": "before",
+      "support_text": "加班在表示无法承担责任（引咎辞职）后，呼吁进行一系列变革。"
+    },
+    {
+      "source": "text_3_node_7",
+      "target": "text_3_new_node_7",
+      "relation": "before",
+      "support_text": "总理接受辞呈后，所呼吁的变革将增加内政部的权力。"
+    },
+    {
+      "source": "text_3_node_8",
+      "target": "text_3_node_6",
+      "relation": "before",
+      "support_text": "Health Minister Adila Hamoud said the bodies of 115 killed in the bombing had now been handed over to families, while the identities of 177 others have yet to be determined. ...the process of identifying the dead... was expected to take 15-45 days."
+    },
+    {
+      "source": "text_3_node_9",
+      "target": "text_3_new_node_4",
+      "relation": "before",
+      "support_text": "基于事件的时序顺序（temporal_order），指责政府（4）发生在发表言论（5）之前。"
+    },
+    {
+      "source": "text_3_new_node_2",
+      "target": "text_3_node_1",
+      "relation": "before",
+      "support_text": "2003年美国领导的入侵为该国超过13年的残酷暴力埋下了伏笔。"
+    },
+    {
+      "source": "text_3_new_node_3",
+      "target": "text_3_node_6",
+      "relation": "before",
+      "support_text": "Health Minister Adila Hamoud said the bodies of 115 killed in the bombing had now been handed over to families, while the identities of 177 others have yet to be determined."
+    },
+    {
+      "source": "text_3_new_node_5",
+      "target": "text_3_node_4",
+      "relation": "before",
+      "support_text": "加班先批评了安全系统，然后表示无法再承担责任（引咎辞职）。"
+    },
+    {
+      "source": "text_3_new_node_6",
+      "target": "text_3_node_7",
+      "relation": "before",
+      "support_text": "加班呼吁变革后，总理接受了其辞呈。"
+    },
+    {
+      "source": "text_3_new_node_8",
+      "target": "text_3_new_node_9",
+      "relation": "before",
+      "support_text": "根据temporal_order，伊斯兰国占领地区(2)发生在伊拉克部队夺回领土(3)之前。"
+    },
+    {
+      "source": "text_3_new_node_9",
+      "target": "text_3_new_node_10",
+      "relation": "before",
+      "support_text": "根据temporal_order，伊拉克部队夺回领土(3)发生在圣战分子失去地盘(4)之前，两者是同一事件的不同方面描述。"
+    },
+    {
+      "source": "text_3_new_node_10",
+      "target": "text_3_node_1",
+      "relation": "before",
+      "support_text": "根据temporal_order，圣战分子失去地盘(4)是其进行报复性袭击(5)的背景原因。"
+    }
+  ]
+}

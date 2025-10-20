@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_172_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "卡车装载爆炸物在摩加迪沙市中心酒店入口附近引爆，造成至少230人死亡、数百人受伤",
+      "source_text": "text_172"
+    },
+    {
+      "id": "text_172_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "总统莫哈迈德·阿卜迪拉赫曼宣布为爆炸受害者举行三天哀悼",
+      "source_text": "text_172"
+    },
+    {
+      "id": "text_172_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "摩加迪沙市内第二起爆炸发生在麦德纳区，导致2人死亡",
+      "source_text": "text_172"
+    },
+    {
+      "id": "text_172_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "当地官员伊布拉希马·穆罕默德证实伤者数量可能进一步上升",
+      "source_text": "text_172"
+    },
+    {
+      "id": "text_172_node_5",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "摩加迪沙市长泰比特·阿卜迪呼吁市民团结应对袭击",
+      "source_text": "text_172"
+    },
+    {
+      "id": "text_172_node_6",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "麦德纳医院报告72名伤者入院，其中25人重伤，多人肢体残缺",
+      "source_text": "text_172"
+    },
+    {
+      "id": "text_172_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "非盟主席马乌萨·法基·马哈马特承诺继续支持索马里和平安全努力",
+      "source_text": "text_172"
+    },
+    {
+      "id": "text_172_node_8",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其宣布派遣载有医疗物资的飞机并安排伤员转运至土耳其",
+      "source_text": "text_172"
+    },
+    {
+      "id": "text_172_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国驻索马里使团称袭击为‘怯懦行为’，重申对索马里承诺",
+      "source_text": "text_172"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_172_node_1",
+      "target": "text_172_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_172_node_2",
+      "target": "text_172_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_172_node_3",
+      "target": "text_172_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_172_node_4",
+      "target": "text_172_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_172_node_5",
+      "target": "text_172_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_172_node_6",
+      "target": "text_172_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_172_node_7",
+      "target": "text_172_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_172_node_8",
+      "target": "text_172_node_9",
+      "relation": "before"
+    }
+  ]
+}

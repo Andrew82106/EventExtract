@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "text_57_node_1",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "审判前检方声称炸弹成本低于1000美元，使用肥料和普通柴油作为原料",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_2",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "审判中检方更正炸弹实际使用更易燃的赛车燃料替代普通柴油，原料成本更高",
+      "source_text": "text_57"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_57_node_1",
+      "target": "text_57_node_2",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Improvised explosive device detonates on a bridge in Gamboru, killing at least 30 people.",
+      "support_text": "at least 30 people were killed in the northeastern Nigerian state of Borno after an improvised explosive device detonated on a bridge, sources told Reuters on Monday.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Eyewitness reports describe a loud explosion and multiple casualties.",
+      "support_text": "Witnesses in the market town said more than 35 injured people were taken to the local hospital following the attack.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "More than 35 injured people are taken to the local hospital.",
+      "support_text": "more than 35 injured people were taken to the local hospital.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Military spokesman confirms he will provide comment later in the evening.",
+      "support_text": "A military spokesman said he would provide comment later in the evening.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Two CJTF sources confirm the attack and early death toll estimates.",
+      "support_text": "Two sources with the Civilian Joint Task Force, a group of citizens formed to fight Boko Haram, confirmed the attack and the early death toll estimates.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "No group immediately claims responsibility for the attack.",
+      "support_text": "No group immediately took responsibility.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "消息来源向路透社报告",
+      "support_text": "after an improvised explosive device detonated on a bridge, sources told Reuters on Monday",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "意识到同事朋友伤亡",
+      "support_text": "语义描述：意识到同事朋友伤亡；主体：I；对象：many friends and colleagues were killed",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "看到同事朋友",
+      "support_text": "语义描述：看到同事朋友；主体：I；对象：many friends and colleagues",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "after an improvised explosive device detonated on a bridge, sources told Reuters on Monday. Witnesses in the market town said more than 35 injured people were taken to the local hospital following the attack."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "after an improvised explosive device detonated on a bridge...Two sources with the Civilian Joint Task Force...confirmed the attack"
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "after an improvised explosive device detonated on a bridge...No group immediately took responsibility"
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_new_node_7",
+      "relation": "before",
+      "support_text": "after an improvised explosive device detonated on a bridge, sources told Reuters on Monday"
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "Witnesses in the market town said more than 35 injured people were taken to the local hospital following the attack."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_new_node_9",
+      "relation": "before",
+      "support_text": "Eyewitness reports describe a loud explosion and multiple casualties（节点2）→ 看到同事朋友（new_node_9）"
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "more than 35 injured people were taken to the local hospital. A military spokesman said he would provide comment later in the evening."
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "A military spokesman said he would provide comment later in the evening. Two sources with the Civilian Joint Task Force...confirmed the attack and the early death toll estimates."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "Two sources with the Civilian Joint Task Force...confirmed the attack and the early death toll estimates. No group immediately took responsibility."
+    },
+    {
+      "source": "text_4_new_node_9",
+      "target": "text_4_new_node_8",
+      "relation": "before",
+      "support_text": "看到同事朋友（new_node_9）→ 知道伤亡（new_node_8）"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "nodes": [
+    {
+      "id": "text_105_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生，46人受伤（4人重伤），100多辆车受损",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者描述爆炸威力巨大，3-4辆汽车被弹飞10-15英尺，附近建筑窗户碎裂",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "学校屋顶因爆炸倒塌，高压线（132kV）受损导致区域停电",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方初步调查发现卡车装载从斯瓦特运往拉合尔的杏干，停留停车点3天",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认卡车内藏有大量爆炸物，正在评估爆炸物重量",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_6",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤者被送往医院，12人经处理后出院，4人因重伤转入梅奥医院",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "救援人员发现爆炸现场形成10-15英尺深的坑洞",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "拉合尔首席部长要求调查，指示彻查事件",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员推测爆炸物可能用于袭击前总理纳瓦兹·谢里夫原定周日的游行车队",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "拉合尔市长宣布将多角度调查爆炸事件，并指出事发地位于谢里夫原定游行路线",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "《黎明报》于2017年8月8日发布事件报道",
+      "source_text": "text_105"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_105_node_1",
+      "target": "text_105_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_1",
+      "target": "text_105_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_1",
+      "target": "text_105_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_3",
+      "target": "text_105_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_4",
+      "target": "text_105_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_5",
+      "target": "text_105_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_5",
+      "target": "text_105_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_8",
+      "target": "text_105_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_8",
+      "target": "text_105_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_9",
+      "target": "text_105_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_105_node_10",
+      "target": "text_105_node_11",
+      "relation": "before"
+    }
+  ]
+}

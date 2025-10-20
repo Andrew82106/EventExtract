@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_19_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2010年7月，Al-Shabaab在乌干达坎帕拉发动爆炸，报复乌干达支持非洲联盟驻索马里军事行动",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2011年夏季，东非干旱导致索马里饥荒，数十万人逃往埃塞俄比亚和肯尼亚避难",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年3月，美国将索马里列为‘活跃冲突区’，允许更宽松的军事行动规则",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年10月14日，首辆装满爆炸物的卡车在摩加迪沙霍丹区爆炸，造成至少587人死亡",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年10月14日，第二辆卡车在附近爆炸，导致2人死亡",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_6",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "2017年10月14日，第三辆载爆炸物的卡车被索马里警方截获",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年10月14日，索马里总统宣布实施三天全国哀悼日",
+      "source_text": "text_19"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_19_node_1",
+      "target": "text_19_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_2",
+      "target": "text_19_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_3",
+      "target": "text_19_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_4",
+      "target": "text_19_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_5",
+      "target": "text_19_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_19_node_6",
+      "target": "text_19_node_7",
+      "relation": "before"
+    }
+  ]
+}

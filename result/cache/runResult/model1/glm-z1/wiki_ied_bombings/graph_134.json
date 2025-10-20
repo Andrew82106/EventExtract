@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_134_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "特朗普政府于10月6日突然宣布从叙利亚东北部撤军",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其于10月9日发动‘和平之春’行动，与盟友控制Tel Abyad等边境城镇",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "土耳其与华盛顿达成停火协议后，又与莫斯科签署协议推动YPG撤出边境",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "YPG被俄土协议要求至少撤出30公里，但土耳其质疑撤军不彻底",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "10月某日发生车辆炸弹袭击，造成12死30伤，土耳其指控YPG所为",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "土耳其与俄罗斯启动边境联合巡逻机制",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "",
+      "description": "英国观察站数据显示已有30万人因战斗流离失所，120名平民死亡",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_8",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "",
+      "description": "土耳其国防部长公开谴责YPG袭击平民，并警告可能重启军事行动",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_9",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "",
+      "description": "埃尔多安称掌握YPG未完全撤军的情报，强调保留反击权利",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "土方公布爆炸现场照片，部分伤者被送往土耳其桑利乌尔法省治疗",
+      "source_text": "text_134"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_134_node_1",
+      "target": "text_134_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_134_node_2",
+      "target": "text_134_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_134_node_3",
+      "target": "text_134_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_134_node_4",
+      "target": "text_134_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_134_node_5",
+      "target": "text_134_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_134_node_6",
+      "target": "text_134_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_134_node_7",
+      "target": "text_134_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_134_node_8",
+      "target": "text_134_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_134_node_9",
+      "target": "text_134_node_10",
+      "relation": "before"
+    }
+  ]
+}

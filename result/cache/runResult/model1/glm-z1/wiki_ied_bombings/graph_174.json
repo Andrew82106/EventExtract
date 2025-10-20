@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_174_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式汽车炸弹在酒店入口爆炸",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子随后冲入酒店并引发多轮爆炸",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两次爆炸中包含针对第一响应人员的远程爆炸",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "索马里特种部队抵达现场与武装分子交火",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "al-Shabaab通过电台宣称对袭击负责",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认至少15人死亡且多数为平民",
+      "source_text": "text_174"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_174_node_1",
+      "target": "text_174_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_174_node_2",
+      "target": "text_174_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_174_node_3",
+      "target": "text_174_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_174_node_4",
+      "target": "text_174_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_174_node_5",
+      "target": "text_174_node_6",
+      "relation": "before"
+    }
+  ]
+}

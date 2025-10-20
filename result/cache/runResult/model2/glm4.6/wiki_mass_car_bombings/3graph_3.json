@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式炸弹袭击者于周日清晨在巴格达卡拉达区引爆了一辆装有爆炸物的汽车。",
+      "support_text": "A suicide bomber detonated an explosives-rigged vehicle in Baghdad's Karrada district early Sunday as it teemed with shoppers ahead of the holiday marking the end of the holy Muslim fasting month of Ramadan, sparking infernos in nearby buildings.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸引发了附近建筑物的火灾。",
+      "support_text": "A suicide bomber detonated an explosives-rigged vehicle in Baghdad's Karrada district early Sunday as it teemed with shoppers ahead of the holiday marking the end of the holy Muslim fasting month of Ramadan, sparking infernos in nearby buildings.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "数千名伊拉克人于周三在爆炸现场聚集，哀悼死者并表达声援。",
+      "support_text": "Thousands of Iraqis gathered Wednesday at the site of a Baghdad bombing that killed at least 250 people to mourn the dead and express solidarity with those stricken by the blast.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴格达卡拉达区挤满了购物者。",
+      "support_text": "A suicide bomber detonated an explosives-rigged vehicle in Baghdad's Karrada district early Sunday as it teemed with shoppers ahead of the holiday marking the end of the holy Muslim fasting month of Ramadan, sparking infernos in nearby buildings.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "海德尔·穆罕默德·哈桑发表声明，表示与卡拉达人民和烈士团结一致。",
+      "support_text": "\"We came from all the areas of Baghdad to stand in solidarity with the people of Karrada and the martyrs of Karrada,\"",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_2",
+      "relation": "before",
+      "support_text": "A suicide bomber detonated an explosives-rigged vehicle in Baghdad's Karrada district early Sunday... sparking infernos in nearby buildings."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_3",
+      "relation": "before",
+      "support_text": "A suicide bomber detonated... early Sunday... Thousands of Iraqis gathered Wednesday at the site of a Baghdad bombing..."
+    },
+    {
+      "source": "text_3_node_3",
+      "target": "text_3_new_node_5",
+      "relation": "before",
+      "support_text": "Thousands of Iraqis gathered Wednesday at the site of a Baghdad bombing... to mourn the dead and express solidarity... Haider Mohammed Hassan said..."
+    },
+    {
+      "source": "text_3_new_node_4",
+      "target": "text_3_node_1",
+      "relation": "before",
+      "support_text": "A suicide bomber detonated ... as it teemed with shoppers ..."
+    }
+  ]
+}

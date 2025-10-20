@@ -1,0 +1,483 @@
+{
+  "nodes": [
+    {
+      "id": "text_6_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "叙利亚政府与叛军达成了一项涉及多个城镇的撤离协议。",
+      "support_text": "The explosion on Saturday in Rashidin, west of Aleppo, targeted residents who were evacuated from the rebel-besieged towns of Foua and Kefraya in Idlib province under a deal reached between the Syrian government and rebels.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "周五，数千人从被围困的亲政府城镇Foua和Kefraya以及叛军控制的Madaya和Zabadani开始撤离。",
+      "support_text": "More than 5,000 people who had lived under the crippling siege for more than two years left the two towns, along with 2,200 evacuated from rebel-held Madaya and Zabadani, on Friday.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "因对撤离的亲政府战斗人员人数存在分歧，来自Foua和Kefraya的撤离人员在阿勒颇西部的拉什迪丁地区被困。",
+      "support_text": "Thousands of evacuees from Foua and Kefraya were stuck on the road in Rashidin when the blast struck. Evacuees were left stranded as differences emerged over the number of loyalist fighters leaving, a rebel source said...",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周六，一辆载有爆炸物的汽车在拉什迪丁袭击了撤离车队，造成至少126人死亡。",
+      "support_text": "The explosion on Saturday in Rashidin, west of Aleppo, targeted residents who were evacuated from the rebel-besieged towns of Foua and Kefraya in Idlib province under a deal reached between the Syrian government and rebels.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_5",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙北部主要叛军组织Ahrar al-Sham谴责了这次袭击，并称其成员亦有伤亡。",
+      "support_text": "Ahrar al-Sham, a key rebel group in Syria’s north, condemned the “cowardly” attack, saying that many of its members were killed in the blast.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ahrar al-Sham表示愿意配合国际调查以确定袭击元凶。",
+      "support_text": "The group said it was willing to cooperate with an international probe to determine the culprits.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "在爆炸发生数小时后，撤离行动得以恢复，车队继续前往目的地。",
+      "support_text": "Al Jazeera’s Adham Abul Hussam, reporting from the scene of the attack, said dozens of bodies littered the ground and ambulances were packed with victims. “The civil defence teams are recovering the bodies and searching for survivors. Many of the buses were totally destroyed,” he said.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "一个监测组织报道了爆炸事件及其造成的伤亡情况。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_9",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "数十具尸体散落在地面上",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救护车里挤满了受害者",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "许多巴士被完全摧毁",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "大火喷出滚滚浓烟",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_13",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "巴士被爆炸熏黑",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_14",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "巴士的窗户被震碎",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_15",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "记者说，数十具尸体散落在地面上，救护车里挤满了受害者",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "他说，许多巴士被完全摧毁",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "民防队正在回收尸体",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_18",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "民防队正在搜寻幸存者",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "图片被发布在国家媒体上",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "图片显示了爆炸后的景象",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_21",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "病人和伤员正在被交换。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "一些叛军战士负责保护车队。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府盟友伊朗和叛军支持者卡塔尔斡旋了此次撤离行动。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_24",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "协议规定了撤离的条款，即第一阶段应有8000人离开。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "观察站报道称，实际上只有5000人离开了。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_26",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名叛军消息人士拒绝提供更多细节。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_27",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "来自马亚和扎巴达尼的数千名撤离者被困在政府控制的拉穆萨地区。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_28",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "穆罕默德·达尔维什通过电话向半岛电视台透露了平民中日益增长的恐惧。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_29",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "他说公交车上充满恐惧，因为政府士兵在场且周围人群拥挤。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_30",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "撤离者希望联合国、土耳其、卡塔尔、伊朗等协议支持方能照顾平民并确保他们安全到达。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_31",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "撤离者按计划将被转移到反政府武装控制的伊德利卜省。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_32",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国、土耳其、卡塔尔、伊朗等协议支持方被希望能够照顾平民。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_33",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "联合国、土耳其、卡塔尔、伊朗等协议支持方被希望确保所有平民都能安全到达。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_34",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "平民被希望能够安全到达目的地。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_35",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "来自双方的约120辆巴士中的100辆已在周六午夜前抵达各自的目的地。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_2",
+      "relation": "before",
+      "support_text": "The explosion on Saturday in Rashidin, west of Aleppo, targeted residents who were evacuated from the rebel-besieged towns of Foua and Kefraya in Idlib province under a deal reached between the Syrian government and rebels. More than 5,000 people... left the two towns... on Friday."
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_3",
+      "relation": "before",
+      "support_text": "More than 5,000 people... left the two towns... on Friday. Thousands of evacuees from Foua and Kefraya were stuck on the road in Rashidin when the blast struck."
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_new_node_21",
+      "relation": "before",
+      "support_text": "交换行动在撤离开始后进行。"
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_new_node_22",
+      "relation": "before",
+      "support_text": "车队在开始撤离（node_2）后需要被保护。"
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_new_node_25",
+      "relation": "before",
+      "support_text": "人员撤离后，观察站对此进行了报道。"
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_new_node_27",
+      "relation": "before",
+      "support_text": "撤离开始后，撤离者在途中被困。"
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_new_node_35",
+      "relation": "before",
+      "support_text": "根据时序，出发（start）事件发生在抵达（arrive）事件之前。"
+    },
+    {
+      "source": "text_6_node_3",
+      "target": "text_6_node_4",
+      "relation": "before",
+      "support_text": "Thousands of evacuees from Foua and Kefraya were stuck on the road in Rashidin when the blast struck."
+    },
+    {
+      "source": "text_6_node_3",
+      "target": "text_6_new_node_26",
+      "relation": "before",
+      "support_text": "叛军消息人士先发表声明，然后拒绝提供更多细节。"
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_node_5",
+      "relation": "before",
+      "support_text": "Ahrar al-Sham, a key rebel group in Syria’s north, condemned the “cowardly” attack, saying that many of its members were killed in the blast."
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_node_6",
+      "relation": "before",
+      "support_text": "The group said it was willing to cooperate with an international probe to determine the culprits."
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_node_7",
+      "relation": "before",
+      "support_text": "Al Jazeera’s Adham Abul Hussam, reporting from the scene of the attack, said dozens of bodies littered the ground and ambulances were packed with victims. “The civil defence teams are recovering the bodies and searching for survivors. Many of the buses were totally destroyed,” he said."
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_new_node_8",
+      "relation": "before",
+      "support_text": "报道事件发生在爆炸事件之后。"
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_new_node_9",
+      "relation": "before",
+      "support_text": "爆炸（node_4）导致了尸体散落地面（new_node_9）"
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_new_node_10",
+      "relation": "before",
+      "support_text": "爆炸（node_4）导致了救护车挤满受害者（new_node_10）"
+    },
+    {
+      "source": "text_6_new_node_9",
+      "target": "text_6_new_node_15",
+      "relation": "before",
+      "support_text": "记者报道（new_node_15）发生在现场场景（new_node_9）之后"
+    },
+    {
+      "source": "text_6_new_node_15",
+      "target": "text_6_new_node_17",
+      "relation": "before",
+      "support_text": "民防队回收尸体（new_node_17）是在记者报道（new_node_15）之后进行的救援行动"
+    },
+    {
+      "source": "text_6_new_node_17",
+      "target": "text_6_new_node_19",
+      "relation": "before",
+      "support_text": "发布图片（new_node_19）是在救援行动（new_node_17）之后发生的媒体行为"
+    },
+    {
+      "source": "text_6_new_node_23",
+      "target": "text_6_new_node_24",
+      "relation": "before",
+      "support_text": "先有斡旋，然后协议才规定条款。"
+    },
+    {
+      "source": "text_6_new_node_24",
+      "target": "text_6_node_2",
+      "relation": "before",
+      "support_text": "协议规定条款后，人员才开始撤离。"
+    },
+    {
+      "source": "text_6_new_node_27",
+      "target": "text_6_new_node_28",
+      "relation": "before",
+      "support_text": "撤离者被困后，其中一人向媒体讲述情况。"
+    },
+    {
+      "source": "text_6_new_node_28",
+      "target": "text_6_new_node_29",
+      "relation": "before",
+      "support_text": "在讲述情况后，他具体描述了车内的恐惧氛围。"
+    },
+    {
+      "source": "text_6_new_node_29",
+      "target": "text_6_new_node_30",
+      "relation": "before",
+      "support_text": "描述完困境后，撤离者表达了对未来的希望。"
+    },
+    {
+      "source": "text_6_new_node_30",
+      "target": "text_6_new_node_31",
+      "relation": "before",
+      "support_text": "希望之后，说明了计划中的转移目的地。"
+    },
+    {
+      "source": "text_6_new_node_30",
+      "target": "text_6_new_node_32",
+      "relation": "before",
+      "support_text": "希望中包含了希望各方能照顾平民的诉求。"
+    },
+    {
+      "source": "text_6_new_node_30",
+      "target": "text_6_new_node_33",
+      "relation": "before",
+      "support_text": "希望中包含了希望各方能确保安全的诉求。"
+    },
+    {
+      "source": "text_6_new_node_33",
+      "target": "text_6_new_node_34",
+      "relation": "before",
+      "support_text": "确保安全之后，是最终安全到达的目标。"
+    }
+  ]
+}

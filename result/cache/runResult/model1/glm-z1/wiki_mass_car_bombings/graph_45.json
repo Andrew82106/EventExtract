@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_45_node_1",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "断腿于1995年5月30日在俄克拉荷马城爆炸中心发现，最初报告显示为男性左腿，穿着军靴",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法医报告发布确认断腿属于黑人女性，排除男性嫌疑人可能",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "FBI联合专家通过DNA和毛发分析验证性别为女性，种族为黑人",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "调查转向寻找1995年4月19日失踪的符合条件的黑人女性",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "截至法医报告发布时，未发现符合描述的失踪人口报告",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "检方预判辩方可能利用断腿证据质疑主谋身份",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "辩方律师质疑法医性别结论变更的可靠性",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_8",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "发现断腿嵌入蓝色塑料碎片，可能作为关键证据",
+      "source_text": "text_45"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_45_node_1",
+      "target": "text_45_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_45_node_2",
+      "target": "text_45_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_45_node_3",
+      "target": "text_45_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_45_node_4",
+      "target": "text_45_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_45_node_5",
+      "target": "text_45_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_45_node_5",
+      "target": "text_45_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_45_node_6",
+      "target": "text_45_node_7",
+      "relation": "before"
+    }
+  ]
+}

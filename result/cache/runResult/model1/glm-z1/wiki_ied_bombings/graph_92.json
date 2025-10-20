@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_92_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2004年3月11日，西班牙马德里发生 commuter trains 爆炸事件，21人死亡，1800余人受伤",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸案发三周后，7名涉案人员因警方围捕在郊区公寓自杀，携带关键证据",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "西班牙法院判决3名主犯（含2名摩洛哥人）参与恐怖袭击，分别获刑42924年（实际上限40年）",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院认定3名被告（含摩洛哥人Othman el Gnaoui）提供爆炸物，但未定主谋罪",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2名原指控的袭击策划者仅被认定为恐怖组织成员，未涉及马德里爆炸案",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "第三名嫌疑人Rabei Osman Sayed Ahmed被完全无罪释放",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "21人获刑中，7人完全无罪，其余最高刑期23年",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家属对判决结果不满，认为刑期过短且主谋未明确",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_9",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "部分被告及受害者组织宣布将上诉，要求重新调查主谋身份",
+      "source_text": "text_92"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_92_node_1",
+      "target": "text_92_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_2",
+      "target": "text_92_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_3",
+      "target": "text_92_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_3",
+      "target": "text_92_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_3",
+      "target": "text_92_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_3",
+      "target": "text_92_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_7",
+      "target": "text_92_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_8",
+      "target": "text_92_node_9",
+      "relation": "before"
+    }
+  ]
+}

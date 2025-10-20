@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "id": "text_54_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "新婚夫妇 Martina McManus 和 Thaddeus Turbett 从伦敦返回 Newtownbutler 准备婚礼",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "婚礼在 Enniskillen 的 Killyhevlin 酒店举行，宾客包括新娘邻居 James Rice 和新郎 cousin Eugene Turbett",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "酒店收到炸弹警告后开始疏散，部分宾客在停车场等待至凌晨3点",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1,200磅炸弹在婚宴期间爆炸，导致酒店严重损毁，宾客受伤并丢失物品",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_5",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "新娘 Martina 在家中表示对婚礼被毁的失望，确认丢失婚礼礼物和伦敦往返机票",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "新娘伴娘因爆炸冲击送医，Killyhevlin 酒店宾客被转移至其他 Fermangh 酒店",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "Armagh 离退休夫妇 Cecil Bloomer 和 Grace 在酒店入睡后被紧急疏散，仅携带少量衣物",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "宾客目击爆炸过程，描述现场混乱和人员伤亡情况，部分宾客确认所有个人物品损毁",
+      "source_text": "text_54"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_54_node_1",
+      "target": "text_54_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_2",
+      "target": "text_54_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_3",
+      "target": "text_54_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_4",
+      "target": "text_54_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_4",
+      "target": "text_54_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_4",
+      "target": "text_54_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_5",
+      "target": "text_54_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_6",
+      "target": "text_54_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_54_node_7",
+      "target": "text_54_node_5",
+      "relation": "before"
+    }
+  ]
+}

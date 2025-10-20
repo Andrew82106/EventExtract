@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_107_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1993年世贸中心炸弹袭击引发美国对本土恐怖主义的首次大规模关注",
+      "source_text": "text_107"
+    },
+    {
+      "id": "text_107_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年Oklahoma City联邦大楼炸弹袭击成为美国反恐政策转折点",
+      "source_text": "text_107"
+    },
+    {
+      "id": "text_107_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国执法机构普遍成立反恐专门部门并扩编FBI反恐力量",
+      "source_text": "text_107"
+    },
+    {
+      "id": "text_107_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖主义威胁认知从海外组织转向国内反政府民兵和独狼袭击者",
+      "source_text": "text_107"
+    },
+    {
+      "id": "text_107_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "联邦调查局将麦康纳利（McVeigh）确认为独立行动的独狼恐怖分子",
+      "source_text": "text_107"
+    },
+    {
+      "id": "text_107_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "政策制定者反思过度打击民兵组织可能引发政治反弹",
+      "source_text": "text_107"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_107_node_1",
+      "target": "text_107_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_107_node_2",
+      "target": "text_107_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_107_node_3",
+      "target": "text_107_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_107_node_4",
+      "target": "text_107_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_107_node_5",
+      "target": "text_107_node_6",
+      "relation": "before"
+    }
+  ]
+}

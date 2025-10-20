@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "text_48_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年4月19日，Oklahoma City Murrah联邦大厦遭遇汽车炸弹袭击，造成168人死亡",
+      "support_text": "It was, without a doubt, one of the most significant -- and tragic -- events in Oklahoma's rich history.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年3月，记者Alex Cameron报道Oklahoma州教育系统未将爆炸事件纳入必修课程",
+      "support_text": "Monday, March 29th 2010... How could the state that declared to the world that it would 'always remember' April 19, 1995... allow the first generation not to have any personal recollection of the tragedy to forget it?",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年，纪念执行总监Kari Watkins在母校演讲时发现高中生对爆炸事件一无所知",
+      "support_text": "As I looked out at the 250 or so high school students, I could just see this blank stare, like I was almost speaking a foreign language... they had no idea what I was talking about when I mentioned the Oklahoma City bombing.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "家长Ann-Clore Duncan反映子女的学校历史课程未涉及爆炸事件",
+      "support_text": "The bombing hasn't been covered in their history classes at all... it's not currently part of their required curriculum.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "历史教师Bobby Tanner指出教材仅用2页篇幅介绍爆炸事件，且非州考核标准",
+      "support_text": "flipping through his copy of Oklahoma Adventure. 'So, for such a big deal, we've got basically two pages.' The other Oklahoma history textbooks used in the state have roughly the same number of pages dedicated to the bombing.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年，Oklahoma州教育部门通过修改PASS标准将爆炸事件纳入历史课程",
+      "support_text": "State Superintendent of Public Instruction Sandy Garrett and the State Board of Education did earlier this year. They amended the PASS standards to include the Oklahoma City bombing, ...",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "议员Lee Denney提出法案HB 2750，推动将爆炸事件法定化入课程",
+      "support_text": "still can't be a priority. 'As it is right now, no, it's not,' Tanner said, 'but... I think that's why we need to make it a priority.' And making the bombing a priority... is exactly what State Superintendent... did earlier this year.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "纪念机构承诺为学校免费提供爆炸事件补充教学材料",
+      "support_text": "the Survivor Tree continues to teach about resilience; the field of chairs still teach the cost of violence, while the fence reminds of the importance of community.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "计划2013年更新教材时进一步强化爆炸事件教学内容",
+      "support_text": "they amended the PASS standards to include the Oklahoma City bombing, ... and making the bombing a priority -- making it a PASS standard -- is exactly what State Superintendent... did earlier this year.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Tanner发表关于课程与轰炸问题的声明",
+      "support_text": "声明内容（关于课程和轰炸问题）",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "Tanner在课程中系统化覆盖轰炸教学内容",
+      "support_text": "Tanner努力在课程中覆盖轰炸内容",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Tanner向Oklahoma Impact Team展示课本",
+      "support_text": "Tanner向团队展示课本",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Tanner翻阅Oklahoma Adventure教材",
+      "support_text": "Tanner翻阅课本",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_14",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年俄克拉荷马州教育系统通过修改PASS标准正式采用新教材和核心学科学习材料",
+      "support_text": "State Superintendent of Public Instruction Sandy Garrett and the State Board of Education did earlier this year. They amended the PASS standards to include the Oklahoma City bombing, ..., and making the bombing a priority -- making it a PASS standard -- is exactly what State Superintendent... did earlier this year.",
+      "source_text": "text_48"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_2",
+      "relation": "before",
+      "support_text": "Monday, March 29th 2010... allow the first generation not to have any personal recollection of the tragedy to forget it?"
+    },
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_3",
+      "relation": "before",
+      "support_text": "As I looked out at the 250 or so high school students, I could just see this blank stare..."
+    },
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_4",
+      "relation": "before",
+      "support_text": "The bombing hasn't been covered in their history classes at all..."
+    },
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_5",
+      "relation": "before",
+      "support_text": "flipping through his copy of Oklahoma Adventure. 'So, for such a big deal, we've got basically two pages.'"
+    },
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_6",
+      "relation": "before",
+      "support_text": "State Superintendent of Public Instruction Sandy Garrett and the State Board of Education did earlier this year."
+    },
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_7",
+      "relation": "before",
+      "support_text": "still can't be a priority. 'As it is right now, no, it's not,' Tanner said, 'but... I think that's why we need to make it a priority.'"
+    },
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_8",
+      "relation": "before",
+      "support_text": "the Survivor Tree continues to teach about resilience..."
+    },
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_9",
+      "relation": "before",
+      "support_text": "they amended the PASS standards to include the Oklahoma City bombing, ..."
+    },
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_14",
+      "relation": "before",
+      "support_text": "How could the state... allow the first generation... to forget it?"
+    },
+    {
+      "source": "text_48_node_2",
+      "target": "text_48_node_3",
+      "relation": "before",
+      "support_text": "How could that be? Clearly, it's not because Watkins and the Memorial have stopped spreading the word..."
+    },
+    {
+      "source": "text_48_node_2",
+      "target": "text_48_node_4",
+      "relation": "before",
+      "support_text": "How could the state... allow the first generation... to forget it?"
+    },
+    {
+      "source": "text_48_node_2",
+      "target": "text_48_node_5",
+      "relation": "before",
+      "support_text": "With just one semester to cover all of it, Tanner said teaching something that is not a PASS standard, like the bombing, just can't be a priority."
+    },
+    {
+      "source": "text_48_node_6",
+      "target": "text_48_node_7",
+      "relation": "before",
+      "support_text": "they amended the PASS standards to include the Oklahoma City bombing, ... and making the bombing a priority -- making it a PASS standard -- is exactly what State Superintendent... did earlier this year."
+    },
+    {
+      "source": "text_48_node_6",
+      "target": "text_48_node_9",
+      "relation": "before",
+      "support_text": "they amended the PASS standards to include the Oklahoma City bombing, ..."
+    }
+  ]
+}

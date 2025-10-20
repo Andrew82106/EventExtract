@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_186_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "Terry Nichols gave Lana Padilla a package before leaving for the Philippines six months before the Oklahoma City bombing",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Lana Padilla opened the package on the day after Terry left and found two envelopes addressed to herself and Jennifer McVeigh",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Correspondence",
+      "description": "The letter to Lana instructed her to access a storage unit in Las Vegas and locate $20,000 cash hidden in her kitchen drawer",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Correspondence",
+      "description": "The letter to Jennifer McVeigh directed her to clear storage locker CG37 by February 1, 1995, and liquidate item '40'",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Lana waited 60 days and discovered $20,000 cash in the kitchen drawer on December 17, 1994",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Prosecutors linked CG37 and item '40' to storage lockers used for storing bombing materials",
+      "source_text": "text_186"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_186_node_1",
+      "target": "text_186_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_186_node_2",
+      "target": "text_186_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_186_node_3",
+      "target": "text_186_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_186_node_4",
+      "target": "text_186_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_186_node_5",
+      "target": "text_186_node_6",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_132_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1月17日 Tikrit发生自杀式爆炸，针对警察招募中心，造成约60人死亡",
+      "source_text": "text_132"
+    },
+    {
+      "id": "text_132_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1月19日 Baquba发生救护车自杀式袭击，针对警察 compound，造成14人死亡、60人受伤",
+      "source_text": "text_132"
+    },
+    {
+      "id": "text_132_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1月19日 Ghalbiyah发生针对什叶派朝圣者的自杀式袭击，造成2人死亡、15人受伤",
+      "source_text": "text_132"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_132_node_1",
+      "target": "text_132_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_132_node_1",
+      "target": "text_132_node_3",
+      "relation": "before"
+    }
+  ]
+}

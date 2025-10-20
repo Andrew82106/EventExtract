@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_24_node_1",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年，巴基斯坦极端分子穆罕默德·阿扎尔在印度被捕",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "1999年12月，ISI与基地组织合作劫持印度航空客机，要求释放阿扎尔",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_3",
+      "event_type": "ManufactureAssemble",
+      "event_subtype": "Unspecified",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年1月，阿扎尔获释后宣布成立Jaish-e-Mohammed（JEM）",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年12月，JEM与Lashkar-e-Tayyiba联合作袭印度议会大厦",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年11月，Lashkar-e-Tayyiba发动孟买连环恐袭",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_6",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年，阿扎尔公开呼吁对印美发动新一轮袭击",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年12月31日，JEM恐怖分子越境袭击印度帕坦克特空军基地",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年12月31日，印度驻阿富汗马扎尔-沙里夫领事馆遭枪击袭击",
+      "source_text": "text_24"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_2",
+      "target": "text_24_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_3",
+      "target": "text_24_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_4",
+      "target": "text_24_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_6",
+      "target": "text_24_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_7",
+      "target": "text_24_node_8",
+      "relation": "before"
+    }
+  ]
+}

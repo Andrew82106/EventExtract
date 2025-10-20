@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_145_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1992年7月阿根廷以色列大使馆遭爆炸袭击，造成29人死亡，案件至今未破",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年7月18日阿根廷犹太社区中心AMIA遭汽车炸弹袭击，造成85死300伤",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷检方指控前伊朗总统哈梅内伊及7名关联者策划袭击，指控真主党执行",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗及真主党均否认参与爆炸，但当地犹太团体认为具有伊朗背景",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年爆炸案中用于袭击的卡车被警方人员非法出售，但未追责",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_6",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年11月阿根廷检方称通过美伊联合行动锁定真主党成员，但该成员被声称死于黎巴嫩与以色列冲突",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_7",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷当前政府重申追责决心，但爆炸案至今无人被判有罪",
+      "source_text": "text_145"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_145_node_1",
+      "target": "text_145_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_2",
+      "target": "text_145_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_2",
+      "target": "text_145_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_3",
+      "target": "text_145_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_3",
+      "target": "text_145_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_6",
+      "target": "text_145_node_7",
+      "relation": "before"
+    }
+  ]
+}

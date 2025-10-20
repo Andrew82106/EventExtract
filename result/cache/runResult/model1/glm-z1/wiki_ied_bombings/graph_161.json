@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "text_161_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1985年6月19日，法兰克福机场发生炸弹袭击，造成3死74伤，包括两名澳大利亚儿童和一名葡萄牙人，30个团体宣称对此负责，其中包括阿拉伯革命组织",
+      "source_text": "text_161"
+    },
+    {
+      "id": "text_161_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1988年7月，西德调查确认阿布·纳达尔组织策划袭击，利比亚使馆知情，卡扎菲可能参与",
+      "source_text": "text_161"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_161_node_1",
+      "target": "text_161_node_2",
+      "relation": "before"
+    }
+  ]
+}

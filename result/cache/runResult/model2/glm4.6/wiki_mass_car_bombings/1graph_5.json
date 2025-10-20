@@ -1,0 +1,588 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "居民瓦西里耶夫发现三名可疑人员在公寓楼地下室活动。",
+      "support_text": "Vladimir Vasiliev, an engineer com ing home for the night, noticed three strangers acting suspiciously by the basement of his block of flats at 14/16 Novosyolov Street, literally New Settlers Street.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "瓦西里耶夫对可疑车辆感到困惑并决定报警。",
+      "support_text": "Vasiliev, puzzled, decided to call the police.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地警察当晚逮捕了两名嫌疑人。",
+      "support_text": "The local police arrested two men that night, according to Boris Kagarlitsky, a member of the Russian Institute of Comparative Politics.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警察在地下室发现了装有电子装置的糖袋。",
+      "support_text": "Police Inspector Andrei Chernyshev was the first to enter the basement... 'We could see sacks of sugar and in them some electronic device, a few wires and a clock.'",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "拆弹专家确认该装置是一枚装有Hexagen炸药的真炸弹。",
+      "support_text": "Tkachenko said: 'It was a live bomb. I was in a combat situation.' He tested the three sugar sacks in the basement with his MO-2 portable gas analyser, and got a positive reading for Hexagen, the explosive used in the Moscow bombs.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "FSB取走了炸弹材料，但将雷管遗留在了现场。",
+      "support_text": "The sacks were taken out of the basement at around 1.30 am and driven away by the FSB. But the secret police forgot to take away the detonator, which was left in the hands of the bomb squad.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "在莫斯科FSB总部干预后，被捕的嫌疑人被释放。",
+      "support_text": "Then, when the headquarters of the FSB in Moscow intervened, the two men were quietly let go.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "FSB于次日宣布该事件只是一场训练演习。",
+      "support_text": "The following day, on 24 September, the FSB in Moscow announced that there had never been a bomb, only a training exercise.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_1",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "普京在成为俄罗斯代理总统前曾领导KGB（秘密警察）。",
+      "support_text": "Putin had headed the KGB (the secret police) before becoming Russia's acting President.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "普京成为了俄罗斯的代理总统。",
+      "support_text": "he became Russia's acting President.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两枚炸弹在莫斯科引爆爆炸。",
+      "support_text": "Two bombs went off in Moscow.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "被捕的轰炸者出示了来自FSB的身份证件。",
+      "support_text": "they (the bombers) flashed identity cards from the FSB.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "第三枚炸弹被拆弹专家尤里·特卡琴科成功拆除。",
+      "support_text": "a third bomb was defused by bomb disposal expert Yuri Tkachenko.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_6",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "第三枚炸弹最终没有爆炸。",
+      "support_text": "The third bomb did not go off.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_suggested_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "联邦安全局的秘密警察分发了无名车臣人的模拟画像。",
+      "support_text": "联邦安全局的秘密警察分发了无名车臣人的模拟画像。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_suggested_node_2",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局没有逮捕任何嫌疑人。",
+      "support_text": "当局没有逮捕任何嫌疑人。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_suggested_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局没有向公众提供任何有说服力的解释。",
+      "support_text": "当局没有向公众提供任何有说服力的解释。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "雷管的定时器被设定在早上5点30分引爆。",
+      "support_text": "the timer was set for 5.30am",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_8",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "（如果炸弹引爆）这枚在早上5点30分设定的炸弹将会杀死250名租户中的许多人。",
+      "support_text": "The bomb that was set for 5.30am would have killed many of the 250 tenants",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "拆弹小组在第二天给雷管拍了照。",
+      "support_text": "The bomb squad photographed the detonator the next day",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "可疑人员用一张纸盖住了车辆的车牌。",
+      "support_text": "the number plate at the front of the car had been covered up with a piece of paper",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "弗拉基米尔·瓦西里耶夫正在回家。",
+      "support_text": "Vladimir Vasiliev, an engineer coming home for the night",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "瓦西里耶夫注意到了车牌被盖住了。",
+      "support_text": "he noticed that the number plate at the front of the car had been covered up",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "瓦西里耶夫和其他人正在等电梯。",
+      "support_text": "we were waiting for the lift",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "一个年轻人从车上下来了。",
+      "support_text": "one of the young guys got out of the car",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_15",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "女孩询问年轻人是否已经完成了所有事情。",
+      "support_text": "The girl asked him: 'Have you done everything?'",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "一些男人从地下室里出来。",
+      "support_text": "一些男人从地下室里出来。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "这些男人乘车离开了现场。",
+      "support_text": "这些男人乘车离开了现场。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "（有人）看到一些陌生人离开地下室。",
+      "support_text": "（有人）看到一些陌生人离开地下室。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_19",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "警长安德烈·切尔尼舍夫进入地下室。",
+      "support_text": "警长安德烈·切尔尼舍夫第一个进入地下室。我（切尔尼舍夫）下到了地下室。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察们感到震惊。",
+      "support_text": "警察们感到震惊。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_21",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "警察们跑出了地下室。",
+      "support_text": "警察们跑出了地下室。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警长安德烈·切尔尼舍夫留在入口处警戒。",
+      "support_text": "我（切尔尼舍夫）留在入口处警戒。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_23",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "警官们去执行疏散任务。",
+      "support_text": "警官们去执行疏散任务。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_24",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "警官们疏散了居民。",
+      "support_text": "警官们疏散了居民。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警长安德烈·切尔尼舍夫陈述了整个事件的经过。",
+      "support_text": "警长安德烈·切尔尼舍夫陈述了整个事件的经过。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_26",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Vasiliev从广播中听到了官方版本，即该事件是一场训练演习。",
+      "support_text": "Vasiliev从广播中听到了官方版本。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_27",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Vasiliev发表声明，描述了他听到官方版本后的感受。",
+      "support_text": "Vasiliev发表声明，描述了他听到官方版本后的感受。",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "Vladimir Vasiliev, an engineer com ing home for the night, noticed three strangers acting suspiciously by the basement of his block of flats... Vasiliev, puzzled, decided to call the police."
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_new_node_12",
+      "relation": "before",
+      "support_text": "瓦西里耶夫先注意到可疑人员，然后才注意到车牌被盖住。基于 temporal_order: 4 -> 5"
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_new_node_16",
+      "relation": "before",
+      "support_text": "居民发现可疑人员后，这些人员才从地下室出来。"
+    },
+    {
+      "source": "text_5_node_2",
+      "target": "text_5_node_3",
+      "relation": "before",
+      "support_text": "Vasiliev, puzzled, decided to call the police... The local police arrested two men that night..."
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_4",
+      "relation": "before",
+      "support_text": "The local police arrested two men that night... Police Inspector Andrei Chernyshev was the first to enter the basement. He said: 'It was about 10 in the evening. There were some strangers who were seen leaving the basement.'"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_7",
+      "relation": "before",
+      "support_text": "The local police arrested two men that night... Then, when the headquarters of the FSB in Moscow intervened, the two men were quietly let go."
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_new_node_4",
+      "relation": "before",
+      "support_text": "嫌疑人在被捕后出示证件。基于 temporal_order: (node_3) -> 5"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_new_node_19",
+      "relation": "before",
+      "support_text": "警察逮捕嫌疑人后，警长进入地下室检查。"
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_node_5",
+      "relation": "before",
+      "support_text": "We could see sacks of sugar and in them some electronic device... He tested the three sugar sacks in the basement with his MO-2 portable gas analyser, and got a positive reading for Hexagen..."
+    },
+    {
+      "source": "text_5_node_4",
+      "target": "text_5_new_node_20",
+      "relation": "before",
+      "support_text": "基于 temporal_order: 8 -> 9"
+    },
+    {
+      "source": "text_5_node_5",
+      "target": "text_5_node_6",
+      "relation": "before",
+      "support_text": "He tested the three sugar sacks in the basement... and got a positive reading for Hexagen... The sacks were taken out of the basement at around 1.30 am and driven away by the FSB."
+    },
+    {
+      "source": "text_5_node_5",
+      "target": "text_5_new_node_5",
+      "relation": "before",
+      "support_text": "炸弹被确认为真炸弹后被拆除。基于 temporal_order: (node_5) -> 6"
+    },
+    {
+      "source": "text_5_node_6",
+      "target": "text_5_node_8",
+      "relation": "before",
+      "support_text": "The sacks were taken out of the basement at around 1.30 am and driven away by the FSB... The following day, on 24 September, the FSB in Moscow announced that there had never been a bomb, only a training exercise."
+    },
+    {
+      "source": "text_5_node_8",
+      "target": "text_5_new_node_26",
+      "relation": "before",
+      "support_text": "FSB先宣布官方版本（node_8），Vasiliev随后才从广播中听到（new_node_26）。"
+    },
+    {
+      "source": "text_5_new_node_1",
+      "target": "text_5_new_node_2",
+      "relation": "before",
+      "support_text": "基于 temporal_order: -1 -> 0"
+    },
+    {
+      "source": "text_5_new_node_2",
+      "target": "text_5_new_node_3",
+      "relation": "before",
+      "support_text": "基于 temporal_order: 0 -> 2"
+    },
+    {
+      "source": "text_5_new_node_3",
+      "target": "text_5_node_1",
+      "relation": "before",
+      "support_text": "莫斯科炸弹爆炸是Ryazan事件的背景。基于 temporal_order: 2 -> (node_1 及后续节点)"
+    },
+    {
+      "source": "text_5_new_node_5",
+      "target": "text_5_new_node_6",
+      "relation": "before",
+      "support_text": "炸弹被拆除是其未爆炸的原因。基于 temporal_order: 6 -> 7"
+    },
+    {
+      "source": "text_5_new_node_5",
+      "target": "text_5_new_node_9",
+      "relation": "before",
+      "support_text": "炸弹被拆除后，拆弹小组在第二天对雷管进行了拍照。基于 temporal_order: 6 -> 10"
+    },
+    {
+      "source": "text_5_suggested_node_1",
+      "target": "text_5_suggested_node_2",
+      "relation": "before",
+      "support_text": "基于 temporal_order: 3 -> 4"
+    },
+    {
+      "source": "text_5_suggested_node_2",
+      "target": "text_5_suggested_node_3",
+      "relation": "before",
+      "support_text": "基于 temporal_order: 4 -> 5"
+    },
+    {
+      "source": "text_5_new_node_7",
+      "target": "text_5_node_1",
+      "relation": "before",
+      "support_text": "安放并设定炸弹发生在居民发现可疑人员之前。"
+    },
+    {
+      "source": "text_5_new_node_7",
+      "target": "text_5_new_node_8",
+      "relation": "before",
+      "support_text": "设定定时器是导致潜在爆炸和伤亡的前提。基于 temporal_order: 1 -> 6"
+    },
+    {
+      "source": "text_5_new_node_8",
+      "target": "text_5_new_node_5",
+      "relation": "before",
+      "support_text": "炸弹被拆除（new_node_5）阻止了潜在的爆炸和伤亡（new_node_8）的发生。"
+    },
+    {
+      "source": "text_5_new_node_10",
+      "target": "text_5_new_node_11",
+      "relation": "before",
+      "support_text": "基于 temporal_order: 1 -> 2"
+    },
+    {
+      "source": "text_5_new_node_11",
+      "target": "text_5_node_1",
+      "relation": "before",
+      "support_text": "瓦西里耶夫回家后，才注意到可疑人员。基于 temporal_order: 2 -> 4"
+    },
+    {
+      "source": "text_5_new_node_12",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "注意到车牌被盖住是瓦西里耶夫决定报警的原因之一。"
+    },
+    {
+      "source": "text_5_new_node_13",
+      "target": "text_5_new_node_14",
+      "relation": "before",
+      "support_text": "等电梯时，一个年轻人从车上下来。基于 temporal_order: 8 -> 9"
+    },
+    {
+      "source": "text_5_new_node_14",
+      "target": "text_5_new_node_15",
+      "relation": "before",
+      "support_text": "年轻人下车后，女孩与他对话。基于 temporal_order: 9 -> 10/11"
+    },
+    {
+      "source": "text_5_new_node_15",
+      "target": "text_5_node_3",
+      "relation": "before",
+      "support_text": "可疑人员的活动发生在警察逮捕他们之前。"
+    },
+    {
+      "source": "text_5_new_node_16",
+      "target": "text_5_new_node_17",
+      "relation": "before",
+      "support_text": "基于 temporal_order: 2 -> 3"
+    },
+    {
+      "source": "text_5_new_node_17",
+      "target": "text_5_new_node_18",
+      "relation": "before",
+      "support_text": "基于 temporal_order: 3 -> 4"
+    },
+    {
+      "source": "text_5_new_node_18",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "目击者看到陌生人离开后，居民决定报警。"
+    },
+    {
+      "source": "text_5_new_node_19",
+      "target": "text_5_node_4",
+      "relation": "before",
+      "support_text": "警察进入地下室后，才看到里面的糖袋。"
+    },
+    {
+      "source": "text_5_new_node_20",
+      "target": "text_5_new_node_21",
+      "relation": "before",
+      "support_text": "基于 temporal_order: 9 -> 10"
+    },
+    {
+      "source": "text_5_new_node_21",
+      "target": "text_5_new_node_22",
+      "relation": "before",
+      "support_text": "基于 temporal_order: 10 -> 11"
+    },
+    {
+      "source": "text_5_new_node_21",
+      "target": "text_5_new_node_23",
+      "relation": "before",
+      "support_text": "基于 temporal_order: 10 -> 11"
+    },
+    {
+      "source": "text_5_new_node_23",
+      "target": "text_5_new_node_24",
+      "relation": "before",
+      "support_text": "基于 temporal_order: 11 -> 12"
+    },
+    {
+      "source": "text_5_new_node_24",
+      "target": "text_5_new_node_25",
+      "relation": "before",
+      "support_text": "基于 temporal_order: 12 -> 13"
+    },
+    {
+      "source": "text_5_new_node_26",
+      "target": "text_5_new_node_27",
+      "relation": "before",
+      "support_text": "Vasiliev先听到官方版本（new_node_26），然后才发表声明描述自己的感受（new_node_27）。基于temporal_order: 2 -> 3。"
+    }
+  ]
+}

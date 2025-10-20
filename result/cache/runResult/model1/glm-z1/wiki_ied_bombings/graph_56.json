@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_56_node_1",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "喀布尔美国大学两位外国教授（美、澳籍）在校园附近遭绑架",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织发动针对美国大学的近10小时袭击，周三傍晚开始",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_3",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "校园内发生爆炸和交火，数百名学生被困",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "16人死亡（含8名学生、警察等），53人受伤",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "学生通过家具封堵门窗、跳窗逃生，部分获救者回忆惊险经历",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "阿富汗警方与北约军事顾问联合开展救援行动",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "黎明时分部分女性学生由警察护送撤离校园",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿富汗总统谴责袭击，称其阻碍国家价值观建设",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击系阿富汗长期敌对国家（巴基斯坦）策划，系该校首次重大遇袭事件",
+      "source_text": "text_56"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_2",
+      "target": "text_56_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_3",
+      "target": "text_56_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_4",
+      "target": "text_56_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_5",
+      "target": "text_56_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_6",
+      "target": "text_56_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_7",
+      "target": "text_56_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_8",
+      "target": "text_56_node_9",
+      "relation": "before"
+    }
+  ]
+}

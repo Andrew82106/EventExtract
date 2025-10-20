@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_31_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1974年11月21日，IRA在伯明翰的Mulberry Bush和Tavern In The Town两处酒吧实施炸弹袭击，造成21人死亡、182人受伤",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_2",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "",
+      "description": "1975年，Patrick Hill等6人与其他5人因虚假供词被判处终身监禁",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "",
+      "description": "1974-1991年间，6人累计服刑16年，期间未获释放",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "",
+      "description": "1991年，英国上诉法院裁定用于定罪的法医证据不可靠，推翻原判并释放6人",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "2012年，66岁的Patrick Hill加入'Justice 4 The 21'请愿活动，要求追查1974年爆炸案真凶",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "2012年，请愿活动发起者（一名爆炸案受害者家属）发起在线签名，目标达成10,000个有效签名以便在议会推动新调查",
+      "source_text": "text_31"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_31_node_1",
+      "target": "text_31_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_31_node_2",
+      "target": "text_31_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_31_node_3",
+      "target": "text_31_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_31_node_4",
+      "target": "text_31_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_31_node_5",
+      "target": "text_31_node_6",
+      "relation": "before"
+    }
+  ]
+}

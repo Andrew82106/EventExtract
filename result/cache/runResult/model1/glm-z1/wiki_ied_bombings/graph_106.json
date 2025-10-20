@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "id": "text_106_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "安卡拉Kizilay区发生汽车爆炸，造成3人死亡、15人受伤",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "",
+      "description": "爆炸车辆一周前购买但尚未完成注册",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "副总理称车辆内发现炸弹，目击者称燃烧气体罐被投掷",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_4",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "爆炸引发相邻车辆连续起火并爆炸",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_5",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "",
+      "description": "伤者最初在附近学校操场接受紧急救治",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "爆炸导致家长集体撤离学校接孩子",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "库尔德武装近期在土耳其东南部加剧针对政府目标袭击",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "土耳其战机轰炸伊拉克北部疑似库尔德武装据点",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "8月28日地中海度假胜地Kemer发生库尔德炸弹袭击，致10人受伤（含4名瑞典人）",
+      "source_text": "text_106"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_106_node_1",
+      "target": "text_106_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_1",
+      "target": "text_106_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_1",
+      "target": "text_106_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_1",
+      "target": "text_106_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_2",
+      "target": "text_106_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_7",
+      "target": "text_106_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_8",
+      "target": "text_106_node_9",
+      "relation": "before"
+    }
+  ]
+}

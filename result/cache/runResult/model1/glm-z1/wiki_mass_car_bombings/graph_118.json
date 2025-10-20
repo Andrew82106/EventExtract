@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "text_118_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "文本内容为#REDIRECT November 2010 Baghdad bombings的重定向标记",
+      "source_text": "text_118"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_194_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年10月23日6:22 a.m.，自杀式卡车炸弹袭击美国海军陆战队贝鲁特基地，Sgt. Stephen Russell目击卡车司机微笑并与之对视",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "卡车冲破基地 perimeter，未击中卸载的哨兵，以超过12,000磅TNT威力的炸弹摧毁海军陆战队大楼",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸造成241名军人死亡，其中220名为海军陆战队队员，成为该部队自硫磺岛以来最严重伤亡日",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国政府宣布从黎巴嫩撤军，结束持续18个月的联合国维和行动",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "事件成为恐怖主义胜利象征，鼓舞了包括本·拉登在内的极端组织，促使美国将伊斯兰激进主义取代苏联列为主要威胁",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "海军陆战队司令P.X. Kelley将事件定性为'大屠杀'，揭示非对称战争新模式",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_7",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "马里兰州三角市海军陆战队博物馆展出1983年救援队历史照片",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "事件引发'第一次血腥教训'效应，导致美国战略收缩与后续反恐政策调整（如9/11、阿富汗战争）",
+      "source_text": "text_194"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_194_node_1",
+      "target": "text_194_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_2",
+      "target": "text_194_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_3",
+      "target": "text_194_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_4",
+      "target": "text_194_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_5",
+      "target": "text_194_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_6",
+      "target": "text_194_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_7",
+      "target": "text_194_node_8",
+      "relation": "before"
+    }
+  ]
+}

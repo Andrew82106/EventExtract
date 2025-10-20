@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_53_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Improvised Explosive Device (IED) detonated on Fotokol Bridge in Gamboru town at 4:00pm",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "32 civilians confirmed dead and 35 critically injured from blast",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Eyewitness Ahmad Musa reports chaotic aftermath with visible bloodstains and lifeless bodies",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "32 dead bodies counted immediately after explosion on Nigeria-Cameroon border bridge",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "35 injured transported to hospital but many more left unaccounted for",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mohammad Ali notes disproportionate impact on children and women casualties",
+      "source_text": "text_53"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_53_node_1",
+      "target": "text_53_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_1",
+      "target": "text_53_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_2",
+      "target": "text_53_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_4",
+      "target": "text_53_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_5",
+      "target": "text_53_node_6",
+      "relation": "before"
+    }
+  ]
+}

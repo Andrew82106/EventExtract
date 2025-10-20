@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": "text_8_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周六在Rashidin地区发生爆炸，摧毁载有126名撤离者的车队，包括68名儿童",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚民防队周六报告至少100人死亡",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚国家电视台周六发布死亡人数为39人的初步报告",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国叙利亚观察组织周日更新伤亡数据至126人",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查发现爆炸由载有爆炸物的车辆实施",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "现场目击者描述车队前方70辆巴士被完全摧毁",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "阿勒颇省电视台画面显示燃烧的巴士和浓烟",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿赫拉尔沙姆武装组织谴责袭击并承诺配合国际调查",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "超过5,000名被困两年的平民从Foua和Kefraya撤离",
+      "source_text": "text_8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_3",
+      "target": "text_8_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_4",
+      "target": "text_8_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_6",
+      "target": "text_8_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_7",
+      "target": "text_8_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_8_node_8",
+      "target": "text_8_node_4",
+      "relation": "before"
+    }
+  ]
+}

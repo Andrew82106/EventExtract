@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_184_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1987年7月14日晚，卡拉奇萨德尔地区发生两起汽车炸弹爆炸",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸造成72人死亡、250人受伤",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "多数遇难者为街头摊贩，主要销售芒果、二手衣物和小饰品",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤者被紧急送往贾姆谢德·汗研究生医学中心救治",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "信德省政府宣布实施三天官方哀悼",
+      "source_text": "text_184"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_184_node_1",
+      "target": "text_184_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_184_node_2",
+      "target": "text_184_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_184_node_2",
+      "target": "text_184_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_184_node_4",
+      "target": "text_184_node_5",
+      "relation": "before"
+    }
+  ]
+}

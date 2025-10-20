@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_66_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1999年3月11日马德里火车连环炸弹袭击，10个背包炸弹在三个火车站同时引爆",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_2",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "袭击造成199人死亡、1450人受伤，西班牙首都马德里爆发大规模悼念活动",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "安全部门发现并引爆3个未 detonated 的定时炸弹，显示袭击具有预谋性",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "爆炸物分析显示使用西班牙产ECO炸药，与ETA历史使用炸药相似但 detonators 更先进",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "调查初期同时怀疑ETA和基地组织，但西班牙官员坚持ETA为主要调查方向",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "内政部长Acebes强调ETA必须作为主要调查对象，并指出其历史袭击记录",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "西班牙政府披露ETA曾于上月拦截500公斤炸药，以及去年12月的类似 commuter train 攻击",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "Acebes质疑30年来ETA未成功袭击的记录，要求将其作为调查优先级",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "ETA被美欧列为恐怖组织，其1987年超市炸弹袭击造成21人死亡",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "西班牙官员确认爆炸物原料全部来自国内，排除外部大规模运输证据",
+      "source_text": "text_66"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_66_node_1",
+      "target": "text_66_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_2",
+      "target": "text_66_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_3",
+      "target": "text_66_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_4",
+      "target": "text_66_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_5",
+      "target": "text_66_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_6",
+      "target": "text_66_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_7",
+      "target": "text_66_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_8",
+      "target": "text_66_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_66_node_9",
+      "target": "text_66_node_10",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_37_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2020年2月14日，巴基斯坦境内极端组织JeM实施Pulwama恐袭，一辆载有40名CRPF人员的巴士遭自杀式爆炸袭击，造成40人死亡、5人受伤",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2020年2月17日巴基斯坦官方确认JeM自2002年起已被本国禁令定性为恐怖组织，并强调正在履行国际制裁义务",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "同日印度发起外交攻势， MEA发言人Kumar指出JeM及其领导层位于巴基斯坦境内，要求对方采取可验证措施打击恐怖主义",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kumar指责巴基斯坦官员曾与联合国禁令名单上的恐怖分子同台，并批评其否认涉恐责任缺乏说服力",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "巴基斯坦外办发言人Faisal反驳称印度指控系未经调查的仓促反应，质疑其双重标准（既采信社交媒体证据又拒认 Kulbhushan Jadhav案中的自白证据）",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_6",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "Faisal要求印度解释2017年以来Adil Ahmed Dar的拘押问题，并批评其未反思情报安全漏洞",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "巴基斯坦总理Imran Khan提出与印度的和解方案，主张通过总理级对话逐步推进关系正常化",
+      "source_text": "text_37"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_37_node_1",
+      "target": "text_37_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_37_node_2",
+      "target": "text_37_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_37_node_3",
+      "target": "text_37_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_37_node_4",
+      "target": "text_37_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_37_node_5",
+      "target": "text_37_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_37_node_6",
+      "target": "text_37_node_7",
+      "relation": "before"
+    }
+  ]
+}

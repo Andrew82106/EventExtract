@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_129_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2006年7月11日，孟买郊区火车在晚高峰时段发生七次串联爆炸，造成189人死亡、800余人受伤",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_2",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "Destroy",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸物为七个压力锅炸弹，放置于行李中，在移动列车和车站同步引爆，主要针对头等舱",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度检方指控巴基斯坦情报机构ISI与勒沙克-e-塔伊巴组织策划，印度学生伊斯兰运动协助实施",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦否认参与并拒绝接受印度提供的所谓证据",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "经过八年审理（2006-2014），法院于2015年9月30日判处5名被告死刑，7人无期徒刑",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_6",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "被告律师声称被告被诬陷，计划向高等法院提起上诉",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸事件后印度政府将此定性为反国家行为，12名被告被同时指控谋杀、共谋和煽动内战",
+      "source_text": "text_129"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_129_node_1",
+      "target": "text_129_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_2",
+      "target": "text_129_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_3",
+      "target": "text_129_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_4",
+      "target": "text_129_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_5",
+      "target": "text_129_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_7",
+      "target": "text_129_node_5",
+      "relation": "before"
+    }
+  ]
+}

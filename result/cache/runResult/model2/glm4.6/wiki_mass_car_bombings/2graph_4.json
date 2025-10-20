@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一枚汽车炸弹在贝鲁特一个什叶派郊区爆炸，造成重大人员伤亡。",
+      "support_text": "At least 45 people have died and 175 have been injured in a car bomb explosion in Beirut, Lebanon. The bomb went off outside a block of flats and close to a mosque as worshippers were gathering for Friday night prayers in a densely populated Shia Muslim suburb.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸摧毁了两栋公寓楼、一座清真寺和一家电影院，并在街上留下一个巨坑。",
+      "support_text": "The bomb blew a huge crater in the street and destroyed two seven-storey blocks of flats, a mosque and a cinema.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "GrantAllowPassage",
+      "description": "枪手跑到街上为救护车开路，同时消防员开始在瓦砾中搜寻遇难者。",
+      "support_text": "The blast brought gunmen running on to the streets firing guns into the air to clear the roads for ambulances. Radio stations broadcast appeals for blood donors as fire fighters and civil defence workers tried to remove bodies from under the rubble.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "大量救护车涌入西贝鲁特的主要医院，医院很快被伤者和死者挤满。",
+      "support_text": "Fleets of ambulances jammed the entrance to west Beirut's main hospital. It was soon packed with wounded and dead.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "什叶派教长费德拉拉指责以色列及其盟友是袭击的幕后黑手，并发出警告。",
+      "support_text": "Sheikh Fadlallah later accused Israel and its \"internal allies\" of being behind the explosion and he gave a warning to \"all those who are playing with fire\" that their hands will be \"burned by the flames\".",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "信徒们为周五晚上的礼拜而聚集。",
+      "support_text": "as worshippers were gathering for Friday night prayers",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_2",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sheikh Fadlallah在袭击中未受伤。",
+      "support_text": "他在袭击中没有受伤。",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "The bomb blew a huge crater in the street and destroyed two seven-storey blocks of flats, a mosque and a cinema."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "The blast brought gunmen running on to the streets firing guns into the air to clear the roads for ambulances."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "Sheikh Fadlallah later accused Israel and its \"internal allies\" of being behind the explosion..."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_new_node_2",
+      "relation": "before",
+      "support_text": "袭击发生后，确认了Sheikh Fadlallah并未受伤。"
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "The blast brought gunmen running on to the streets firing guns into the air to clear the roads for ambulances. Fleets of ambulances jammed the entrance to west Beirut's main hospital."
+    },
+    {
+      "source": "text_4_new_node_1",
+      "target": "text_4_node_1",
+      "relation": "before",
+      "support_text": "The bomb went off ... as worshippers were gathering for Friday night prayers"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_110_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式炸弹车在星期日早晨卡杜纳州首府繁忙道路引爆，原计划攻击教堂但被屏障和保安阻止",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸导致至少38人死亡，摧毁道路摩托车和餐饮摊位，附近酒店窗户和屋顶被炸毁",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸波及All Nations Christian Assembly Church和ECWA Good News Church，教堂内复活节礼拜人员遭遇冲击",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者称炸弹车试图进入教堂但被屏障阻挡，引爆前被警察接近拦截",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸造成教堂窗户、门和设备损毁，牧师在礼拜中经历爆炸冲击",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "PreventPassage",
+      "description": "警方封锁爆炸现场，民众目睹火焰和损毁",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡杜纳州应急管理局确认死亡人数，伤者送医治疗",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者Augustine Vincent在爆炸前摩托车紧跟炸弹车幸存",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "文本提及2015年圣诞节马达拉天主教堂自杀式爆炸事件",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "博科圣地被指为幕后黑手，该组织年内已致380人死亡",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "博科圣地被描述为反对西方教育的极端组织，使用自杀炸弹和枪击战术",
+      "source_text": "text_110"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_110_node_1",
+      "target": "text_110_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_1",
+      "target": "text_110_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_1",
+      "target": "text_110_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_1",
+      "target": "text_110_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_2",
+      "target": "text_110_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_4",
+      "target": "text_110_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_8",
+      "target": "text_110_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_9",
+      "target": "text_110_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_10",
+      "target": "text_110_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_110_node_11",
+      "target": "text_110_node_10",
+      "relation": "before"
+    }
+  ]
+}

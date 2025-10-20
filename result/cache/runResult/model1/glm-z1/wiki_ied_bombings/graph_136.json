@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "text_136_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "塔利班在喀布尔发动复杂袭击，包括汽车炸弹攻击和武装袭击",
+      "source_text": "text_136"
+    },
+    {
+      "id": "text_136_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "袭击导致私人战争博物馆、电视站和小学严重损毁，造成大量人员伤亡",
+      "source_text": "text_136"
+    },
+    {
+      "id": "text_136_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "喀布尔防卫部门初步统计显示6名安全人员死亡、20人受伤，34名平民死亡、63人受伤",
+      "source_text": "text_136"
+    },
+    {
+      "id": "text_136_node_4",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "袭击引发学校建筑倒塌，造成51名学生受伤，包括多名儿童",
+      "source_text": "text_136"
+    },
+    {
+      "id": "text_136_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "美塔谈判在袭击发生期间持续进行，双方就美军撤军协议展开第三日磋商",
+      "source_text": "text_136"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_136_node_1",
+      "target": "text_136_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_136_node_1",
+      "target": "text_136_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_136_node_2",
+      "target": "text_136_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_136_node_2",
+      "target": "text_136_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_136_node_4",
+      "target": "text_136_node_3",
+      "relation": "before"
+    }
+  ]
+}

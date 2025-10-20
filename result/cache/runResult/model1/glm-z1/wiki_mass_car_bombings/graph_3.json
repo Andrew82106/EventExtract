@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "4月21日晚间，科伦坡主要巴士站发生汽车炸弹爆炸，造成111人死亡、300人受伤，现场形成10英尺深坑",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸车辆残骸被拖至车库保存，警方通过车辆序列号锁定涉事车辆",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "4月22日警方以涉事车辆所有者身份对泰米尔医生展开调查",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "4月22日葬礼仪式中首席医学官确认死亡人数并披露受害者身份辨认困难情况",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府指控泰米尔分离主义武装策划爆炸并展开军事打击",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_6",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府宣布空袭造成400人伤亡，但遭叛军和西方外交官质疑数据真实性",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府暂停空袭并计划休整后继续军事行动",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_8",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府披露族群暴力四年间已致5500人死亡，武装分子要求北部东部自治",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_3_node_3",
+      "target": "text_3_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_3_node_4",
+      "target": "text_3_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_3_node_5",
+      "target": "text_3_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_3_node_6",
+      "target": "text_3_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_3_node_7",
+      "target": "text_3_node_8",
+      "relation": "before"
+    }
+  ]
+}

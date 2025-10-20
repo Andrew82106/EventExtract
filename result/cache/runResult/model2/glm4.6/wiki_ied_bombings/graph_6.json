@@ -1,0 +1,366 @@
+{
+  "nodes": [
+    {
+      "id": "text_6_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1974年11月21日，IRA在伯明翰两家酒吧引爆炸弹，造成21人死亡、182人受伤。",
+      "support_text": "The evening of November 21 1974 saw 21 people killed and 182 injured as two IRA bombs exploded within minutes of each other at the Tavern In The Town and Mulberry Bush pubs in the centre of the city.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸案引发了对伯明翰爱尔兰社区的强烈抵制和报复行为。",
+      "support_text": "And the aftermath of that horrific created a backlash against the city's Irish community which took decades to heal.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当年的圣帕特里克节游行因抵制而被中止。",
+      "support_text": "That year the St Patrick's Day annual parade was halted and it seemed the backlash would go on forever.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸案发生九年后，乔·塔菲神父领导社区重建，并重新启动了圣帕特里克节游行。",
+      "support_text": "But nine years later the rebuilding started led by the late Fr. Joe Taffe - Director of the Birmingham Irish Welfare and Information Centre. He restarted the St Patrick's Parade and decreed it was time for the Irish community to come out of the shadows.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "伯明翰爱尔兰社区论坛成立，成为该城爱尔兰社区的第一个官方代表机构。",
+      "support_text": "Building on that came the formation of the Birmingham Irish Community Forum - providing a link and the first ever official voice for the Irish community in the city.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "在伯明翰的Digbeth地区启动了建设新爱尔兰区的项目。",
+      "support_text": "Overseas visitors drop in to the many Irish pubs in the city - especially in the Digbeth area where a six-year project has just begun to build a new Irish Quarter.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_bury",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸产生的碎片埋住了数十人。",
+      "support_text": "爆炸产生的碎片埋住了数十人。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_rip",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "灼热的横梁（或碎片）撕裂了现场。",
+      "support_text": "灼热的横梁（或碎片）撕裂了现场。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_describe",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "幸存者事后描述了酒吧残骸内的惨状。",
+      "support_text": "幸存者事后描述了酒吧残骸内的惨状。",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_want",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRA（爱尔兰共和军）希望袭击英国的核心地带。",
+      "support_text": "IRA wants to strike at the heart of Britain.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_identify",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（有关当局）确认了最后两名受害者的身份。",
+      "support_text": "The last two victims are identified.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_flock",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "爱尔兰人在20世纪40至60年代大规模涌入伯明翰。",
+      "support_text": "The Irish flocked to Birmingham in their tens of thousands between the 1940s and 1960s.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_build_community",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "爱尔兰人建立了一个繁荣的社区。",
+      "support_text": "They built a thriving community.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_come_out_shadows",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爱尔兰社群走出阴影，不再保持低调。",
+      "support_text": "He decreed it was time for the Irish community to come out of the shadows.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_transformation",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "基于动词'be'的事件描述：从1974年的黑暗时期开始，一场惊人的转变正在进行中。",
+      "support_text": "From the dark days of 1974 an amazing transformation was under way.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_say",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伯明翰的BBC多年来声称，因为1974年的爆炸事件，爱尔兰广播节目是不可行的。",
+      "support_text": "The BBC in Birmingham had for years claimed an Irish radio programme was not viable because of the 1974 bombings.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_relent",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伯明翰的BBC最终让步，改变了之前的立场。",
+      "support_text": "Now the BBC in Birmingham has relented.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_broadcast",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "德里人鲍勃·布罗利现在从市中心的邮箱大厦新演播室广播他受欢迎的周日下午节目。",
+      "support_text": "And Derryman Bob Brolly is now broadcasting his popular Sunday afternoon programmes from new studios in the city's Mailbox building.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_boast",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "城市领导者吹嘘该活动是伯明翰顶级的年度景点之一。",
+      "support_text": "City leaders boast the event is one of Birmingham's top annual attractions.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_boom",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "爱尔兰广播节目正在蓬勃发展。",
+      "support_text": "Irish radio programmes are booming.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_pay",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "爱尔兰社区的筹款活动支付了关键设备的费用。",
+      "support_text": "the Irish community's fundraising efforts paid for vital equipment",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_drop_in",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "海外访客顺道参观市内的众多爱尔兰酒吧。",
+      "support_text": "Overseas visitors drop in to the many Irish pubs in the city",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_look",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "说话者建议/命令读者将注意力转向GAA在学校里的项目。",
+      "support_text": "Look at the GAA in Schools project.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_new_node_forget",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1974年11月那个决定性的夜晚的黑暗记忆将永远不会被遗忘。",
+      "support_text": "The dark memories of that fateful night in November 1974 will never be forgotten.",
+      "source_text": "text_6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_2",
+      "relation": "before",
+      "support_text": "And the aftermath of that horrific created a backlash against the city's Irish community which took decades to heal."
+    },
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_new_node_bury",
+      "relation": "before",
+      "support_text": "炸弹爆炸后，碎片埋住了数十人。"
+    },
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_new_node_rip",
+      "relation": "before",
+      "support_text": "炸弹爆炸后，灼热的碎片撕裂了现场。"
+    },
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_new_node_identify",
+      "relation": "before",
+      "support_text": "爆炸袭击（node_1）发生后，才进行受害者身份确认（identify）。"
+    },
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_new_node_say",
+      "relation": "before",
+      "support_text": "BBC声称爱尔兰广播不可行是1974年爆炸事件的直接后果。"
+    },
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_new_node_forget",
+      "relation": "before",
+      "support_text": "The memories of the bombing (node_1) are said to never be forgotten."
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_3",
+      "relation": "before",
+      "support_text": "That year the St Patrick's Day annual parade was halted and it seemed the backlash would go on forever."
+    },
+    {
+      "source": "text_6_node_3",
+      "target": "text_6_node_4",
+      "relation": "before",
+      "support_text": "But nine years later the rebuilding started led by the late Fr. Joe Taffe..."
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_node_5",
+      "relation": "before",
+      "support_text": "Building on that came the formation of the Birmingham Irish Community Forum..."
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_new_node_come_out_shadows",
+      "relation": "before",
+      "support_text": "He decreed it was time for the Irish community to come out of the shadows. (法令颁布在前，走出阴影在后)"
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_new_node_transformation",
+      "relation": "before",
+      "support_text": "But nine years later the rebuilding started... an amazing transformation was under way."
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_7",
+      "relation": "before",
+      "support_text": "From the dark days of 1974 an amazing transformation was under way. And its impact has been astonishing and a testament to the strength of the Irish spirit in the city."
+    },
+    {
+      "source": "text_6_new_node_bury",
+      "target": "text_6_new_node_describe",
+      "relation": "before",
+      "support_text": "在被埋等伤害发生后，幸存者事后描述了惨状。"
+    },
+    {
+      "source": "text_6_new_node_want",
+      "target": "text_6_node_1",
+      "relation": "before",
+      "support_text": "IRA的袭击动机（want）导致了实际的爆炸袭击（node_1）。"
+    },
+    {
+      "source": "text_6_new_node_identify",
+      "target": "text_6_node_2",
+      "relation": "before",
+      "support_text": "确认受害者身份（identify, temporal_order: 4）后，社区的抵制和漫长的愈合过程（heal, temporal_order: 5, 体现在node_2中）才逐渐展开。"
+    },
+    {
+      "source": "text_6_new_node_flock",
+      "target": "text_6_new_node_build_community",
+      "relation": "before",
+      "support_text": "根据temporal_order，涌入社区（1）发生在建立社区（2）之前。"
+    },
+    {
+      "source": "text_6_new_node_build_community",
+      "target": "text_6_node_2",
+      "relation": "before",
+      "support_text": "根据temporal_order，建立社区（2）发生在建筑物被蓄意破坏/抵制（4）之前。"
+    },
+    {
+      "source": "text_6_new_node_come_out_shadows",
+      "target": "text_6_node_5",
+      "relation": "before",
+      "support_text": "Building on that came the formation of the Birmingham Irish Community Forum. (社群走出阴影的行动，促成了论坛的成立)"
+    },
+    {
+      "source": "text_6_new_node_say",
+      "target": "text_6_new_node_relent",
+      "relation": "before",
+      "support_text": "BBC先声称不可行，之后才让步。"
+    },
+    {
+      "source": "text_6_new_node_relent",
+      "target": "text_6_new_node_broadcast",
+      "relation": "before",
+      "support_text": "BBC让步之后，鲍勃·布罗利才开始广播节目。"
+    },
+    {
+      "source": "text_6_new_node_relent",
+      "target": "text_6_new_node_boast",
+      "relation": "before",
+      "support_text": "社区环境改善（BBC让步是标志之一）后，城市领导者才开始吹嘘相关活动。"
+    },
+    {
+      "source": "text_6_new_node_relent",
+      "target": "text_6_new_node_boom",
+      "relation": "before",
+      "support_text": "BBC让步为爱尔兰广播的蓬勃发展扫清了障碍。"
+    },
+    {
+      "source": "text_6_new_node_broadcast",
+      "target": "text_6_new_node_transformation",
+      "relation": "is_example_of",
+      "support_text": "鲍勃·布罗利开始广播是'惊人的转变'的一个具体例证。"
+    },
+    {
+      "source": "text_6_new_node_pay",
+      "target": "text_6_new_node_drop_in",
+      "relation": "before",
+      "support_text": "根据已分类的动词事件列表，'pay' 的 temporal_order 为 1，'drop in' 的 temporal_order 为 3，因此 'pay' 事件发生在 'drop in' 事件之前。"
+    }
+  ]
+}

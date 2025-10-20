@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "id": "text_194_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰抵抗运动在1983年3月以贝鲁特汽车爆炸为报复行动",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "伊斯兰抵抗运动在1983年9月炸毁美国使馆附件",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰抵抗运动在1983年12月袭击美国海军总部和使馆",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_4",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "伊斯兰抵抗运动在1983年12月炸毁美国使馆",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰抵抗运动在1983年12月袭击美国海军总部",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_6",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "伊斯兰抵抗运动两周前炸毁巴黎犹太电影节剧院",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "伊斯兰抵抗运动在里根总统访问前不到一个月炸毁马德里餐厅",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "上周五马德里餐厅爆炸导致18人死亡、82人受伤",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六贝鲁特匿名电话声称对马德里爆炸负责并提及3月贝鲁特爆炸",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "周日西班牙政府确认爆炸由13磅氯酸钾炸弹引发",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "周日西班牙官员推断袭击针对常去该餐厅的美国军人",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "周日西班牙官员指出这是自内战以来最严重恐怖袭击",
+      "source_text": "text_194"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_194_node_1",
+      "target": "text_194_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_2",
+      "target": "text_194_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_3",
+      "target": "text_194_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_4",
+      "target": "text_194_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_5",
+      "target": "text_194_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_6",
+      "target": "text_194_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_7",
+      "target": "text_194_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_8",
+      "target": "text_194_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_9",
+      "target": "text_194_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_10",
+      "target": "text_194_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_194_node_11",
+      "target": "text_194_node_12",
+      "relation": "before"
+    }
+  ]
+}

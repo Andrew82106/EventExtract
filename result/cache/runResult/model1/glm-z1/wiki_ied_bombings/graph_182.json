@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_182_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年4月19日清晨7点，Charlie Hanger身着制服开始巡逻Noble县乡村道路",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "在Turnpike总部接到通知，Oklahoma Highway Patrol已派员前往俄克拉荷马城",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "通过电视发现 Murrah大楼三分之一被摧毁，目击惨烈现场",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Correspondence",
+      "description": "被指示留守35号州际公路，随后协助两名因车辆故障停在高速的妇女",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "在Perry附近发现一辆无牌照的黄色老式Mercury汽车",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Meet",
+      "description": "主动尾随可疑车辆并实施常规交通检查，司机身份随后确认",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Meet",
+      "description": "根据训练要求隔着车门与司机对峙，确认其双手无武器后下车接触",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "通过证件检查发现司机来自密歇根州，要求检查保险单据",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "发现证件后察觉风衣内藏武器，要求司机解衣检查",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Meet",
+      "description": "司机承认携带武器，Hanger亮枪对峙并控制其走向巡逻车",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_11",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认武器已上膛后完成逮捕程序，事件后续发展未完全披露",
+      "source_text": "text_182"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_182_node_1",
+      "target": "text_182_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_182_node_2",
+      "target": "text_182_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_182_node_3",
+      "target": "text_182_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_182_node_4",
+      "target": "text_182_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_182_node_5",
+      "target": "text_182_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_182_node_6",
+      "target": "text_182_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_182_node_7",
+      "target": "text_182_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_182_node_8",
+      "target": "text_182_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_182_node_9",
+      "target": "text_182_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_182_node_10",
+      "target": "text_182_node_11",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_124_node_1",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "1988年洛克比空难发生，270人在飞机爆炸中遇难",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_2",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年在荷兰特殊苏格兰法院对Megrahi的审判，判处其27年监禁",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年首次上诉被驳回，2007年因可能存在司法不公批准第二次上诉",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_4",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年11月-2010年2月安排两次实质上诉听证会，但因法官健康问题推迟",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_5",
+      "event_type": "Life",
+      "event_subtype": "Illness",
+      "event_sub_subtype": "Unspecified",
+      "description": "Megrahi因前列腺癌恶化，律师警告其可能在判决前死亡",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_6",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "利比亚与英国签署引渡协议，利比亚要求引渡Megrahi",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_7",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "苏格兰司法部长Kenny MacAskill正在协调各方意见决定是否引渡",
+      "source_text": "text_124"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_124_node_1",
+      "target": "text_124_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_124_node_2",
+      "target": "text_124_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_124_node_3",
+      "target": "text_124_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_124_node_4",
+      "target": "text_124_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_124_node_5",
+      "target": "text_124_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_124_node_6",
+      "target": "text_124_node_7",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_83_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1987年11月11日，炸弹在北爱尔兰恩尼基伦阵亡将士纪念日活动中于1045 GMT爆炸",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "炸弹藏匿于活动场地的附近厅堂，爆炸导致建筑墙壁倒塌并引发大规模碎片飞溅",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸造成11人死亡、63人受伤（其中9人重伤），为北爱尔兰五年内最严重恐怖袭击",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "部分死者身份包括三对已婚夫妇、一位退休警察和一位护士",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "首相玛格丽特·撒切尔谴责袭击‘亵渎阵亡者，是人类的耻辱’",
+      "source_text": "text_83"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_83_node_1",
+      "target": "text_83_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_83_node_3",
+      "target": "text_83_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_83_node_4",
+      "target": "text_83_node_5",
+      "relation": "before"
+    }
+  ]
+}

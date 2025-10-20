@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_145_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2011年7月13日孟买发生三起连环爆炸事件，造成重大伤亡",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "《印度时报》将孟买称为恐怖分子的主要目标，引用邦部长指出金融中心地位使其易受袭击",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "《 Hindu 报道指出五起2008年11月以来的重大城市恐袭调查陷入僵局",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "《经济时报》分析扎维尔珠宝市场成为恐袭目标的三大因素：人口密集、宗教多元、经济富裕",
+      "source_text": "text_145"
+    },
+    {
+      "id": "text_145_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "《印度快报》记录社交媒体在爆炸事件中发挥的信息传播与互助救援作用",
+      "source_text": "text_145"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_145_node_1",
+      "target": "text_145_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_2",
+      "target": "text_145_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_3",
+      "target": "text_145_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_145_node_4",
+      "target": "text_145_node_5",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "上周，土耳其战机对伊拉克北部的库尔德叛军目标发动了空袭。",
+      "support_text": "Last week, Turkish warplanes launched strikes on Kurdish rebel targets in northern Iraq.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一枚遥控炸弹在迪亚巴克尔市中心引爆，目标是一辆正在行驶的军车。",
+      "support_text": "It was set off remotely and targeted a military bus as it passed through the city centre, a local governor said.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸引发了巨大火灾，导致多辆汽车起火，窗户震碎。",
+      "support_text": "...there was an enormous explosion, which caused a number of vehicles to catch fire and windows to shatter.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸造成五人死亡，其中包括两名学生，另有约30名士兵受伤。",
+      "support_text": "Two of the five people killed were students, while some 30 soldiers were among the injured.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "消防队在四到五分钟内赶到现场，但因火势猛烈，需先灭火才能救助伤员。",
+      "support_text": "Fire crews arrived within four to five minutes, but the flames were such that they could not get to the injured either. They had to deal with the flames before tending to them.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方表示他们怀疑是库尔德武装分子发动了此次袭击。",
+      "support_text": "Police said they suspected Kurdish militants.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其总理埃尔多安在安卡拉谴责此次爆炸是“恐怖主义行为”。",
+      "support_text": "Prime Minister Recep Tayyip Erdogan condemned the blast as a \"terrorist act\".",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "土耳其电视台播放了爆炸引发的大火画面，据报道爆炸声在三公里外都能听到。",
+      "support_text": "Turkish television has been carrying pictures of the huge blaze caused by the blast, which it says could be heard 3km (two miles) away.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "一辆军车经过了迪亚巴克尔市中心。",
+      "support_text": "It was set off remotely and targeted a military bus as it passed through the city centre, a local governor said.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其军队与PKK库尔德叛军正在交战。",
+      "support_text": "土耳其军队与PKK库尔德叛军正在交战。",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "两年前，有人发现了一枚未爆炸的炸弹。",
+      "support_text": "两年前，有人发现了一枚未爆炸的炸弹。",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "我们朝火焰跑去。",
+      "support_text": "我们朝火焰跑去。",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "Last week, Turkish warplanes launched strikes on Kurdish rebel targets in northern Iraq."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "...there was an enormous explosion, which caused a number of vehicles to catch fire and windows to shatter."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "Two of the five people killed were students, while some 30 soldiers were among the injured."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "Fire crews arrived within four to five minutes..."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "Police said they suspected Kurdish militants."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_7",
+      "relation": "before",
+      "support_text": "Prime Minister Recep Tayyip Erdogan condemned the blast as a \"terrorist act\"."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_8",
+      "relation": "before",
+      "support_text": "Turkish television has been carrying pictures of the huge blaze caused by the blast..."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_new_node_4",
+      "relation": "before",
+      "support_text": "爆炸发生后，我们朝火焰跑去。"
+    },
+    {
+      "source": "text_4_new_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "It was set off remotely and targeted a military bus as it passed through the city centre..."
+    },
+    {
+      "source": "text_4_new_node_3",
+      "target": "text_4_node_1",
+      "relation": "before",
+      "support_text": "该事件发生于两年前，早于图中主要事件（上周发生）。"
+    }
+  ]
+}

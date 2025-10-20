@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_7_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年9月，达吉斯坦地区的一栋公寓楼发生爆炸。",
+      "support_text": "the September 1999 bombing of an apartment block in the Dagestan region",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "该爆炸案是1999年末一系列造成重大伤亡的爆炸案中的第一起。",
+      "support_text": "The blast was the first of a series of bombings that killed 367 Russians and injured more than 650 others in late 1999",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸案事件动员了公众舆论，以支持针对车臣分裂主义叛军的战争。",
+      "support_text": "and mobilized public opinion in favor of the war against separatist rebels in Chechnya, which borders on Dagestan",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "时任总理的普京被煽动，将有限的军事行动升级为全面军事攻击。",
+      "support_text": "The bombings also incited Vladimir V. Putin, who was then prime minister, to expand a limited military action into a full-scale military assault to crush the Chechen resistance",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "镇压车臣抵抗的战斗演变成一场持续至今的低强度冲突。",
+      "support_text": "a battle that still festers as a low-intensity conflict of skirmishes and mine warfare",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_6",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "针对公寓楼爆炸案的首次法庭程序于11月开始进行。",
+      "support_text": "The trial, under way since November, was the first court proceeding brought by Russian prosecutors to establish responsibility for the wave of apartment bombings",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "一个俄罗斯法庭宣判六名男子与1999年的爆炸案有关。",
+      "support_text": "A Russian court convicted six men today in the September 1999 bombing of an apartment block in the Dagestan region, sentencing two of them to life prison terms",
+      "source_text": "text_7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_2",
+      "relation": "before",
+      "support_text": "The blast was the first of a series of bombings that killed 367 Russians and injured more than 650 others in late 1999 and mobilized public opinion in favor of the war against separatist rebels in Chechnya, which borders on Dagestan."
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_3",
+      "relation": "before",
+      "support_text": "The blast was the first of a series of bombings that killed 367 Russians and injured more than 650 others in late 1999 and mobilized public opinion in favor of the war against separatist rebels in Chechnya, which borders on Dagestan."
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "The trial, under way since November, was the first court proceeding brought by Russian prosecutors to establish responsibility for the wave of apartment bombings that terrorized many Russians and inflamed public opinion against the Chechen rebellion."
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_node_4",
+      "relation": "before",
+      "support_text": "The bombings also incited Vladimir V. Putin, who was then prime minister, to expand a limited military action into a full-scale military assault to crush the Chechen resistance, a battle that still festers as a low-intensity conflict of skirmishes and mine warfare."
+    },
+    {
+      "source": "text_7_node_4",
+      "target": "text_7_node_5",
+      "relation": "before",
+      "support_text": "to crush the Chechen resistance, a battle that still festers as a low-intensity conflict of skirmishes and mine warfare."
+    },
+    {
+      "source": "text_7_node_6",
+      "target": "text_7_node_7",
+      "relation": "before",
+      "support_text": "The trial, under way since November, was the first court proceeding brought by Russian prosecutors to establish responsibility for the wave of apartment bombings that terrorized many Russians and inflamed public opinion against the Chechen rebellion. A Russian court convicted six men today in the September 1999 bombing of an apartment block in the Dagestan region, sentencing two of them to life prison terms."
+    }
+  ]
+}

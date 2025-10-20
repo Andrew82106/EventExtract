@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "id": "text_103_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "周五阿富汗反政府抗议导致6人死亡",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五喀布尔使馆区发生近100人死亡的炸弹袭击",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周六葬礼现场发生三次自杀式爆炸致15人死亡80人受伤",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六喀布尔紧急医院附近发生枪击事件",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六巴基斯坦Peshawar市民因喀布尔事件举行抗议",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "周六阿富汗政府召开紧急会议调查抗议事件",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六安全官员质疑政府安全措施有效性",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "周六阿富汗总统谴责袭击并呼吁全国团结",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六阿富汗议会成员批评安全部队存在明显漏洞",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "周六内政部确认死亡 toll 为15人并预测伤亡上升",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_11",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗政府指控哈卡尼网络为周三使馆袭击主谋",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六安全改革部长质疑首都安保部署存在重大疏漏",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "持续动荡可能使政府陷入瘫痪并加剧安全危机",
+      "source_text": "text_103"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_103_node_1",
+      "target": "text_103_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_2",
+      "target": "text_103_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_3",
+      "target": "text_103_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_4",
+      "target": "text_103_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_5",
+      "target": "text_103_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_6",
+      "target": "text_103_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_7",
+      "target": "text_103_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_8",
+      "target": "text_103_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_9",
+      "target": "text_103_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_10",
+      "target": "text_103_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_11",
+      "target": "text_103_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_12",
+      "target": "text_103_node_13",
+      "relation": "before"
+    }
+  ]
+}

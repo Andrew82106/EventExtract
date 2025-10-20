@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "id": "text_46_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2001年Qasmani协助Al-Qaeda人员从阿富汗撤离",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003-04年Qasmani与Lashkar-e-Toiba创始人Saeed因战略分歧产生矛盾",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004-05年印度通过审讯Hyderabad居民Razaq发现Qasmani与Lashkar-e-Toiba关联",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2006年Qasmani通过Dawood Ibrahim策划Mumbai本地火车爆炸",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2007年Qasmani策划Panipat Samjota Express火车爆炸",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年6月美国财政部将Qasmani列为全球恐怖分子",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_7",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年联合国将Qasmani列入1267号反恐制裁名单",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_8",
+      "event_type": "Personnel",
+      "event_subtype": "EndPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "Qasmani因与Saeed决裂于2007年脱离Lashkar-e-Toiba组建Khair-un-Nas组织",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Razaq供认曾为Qasmani提供后勤支持给Al-Qaeda/Taliban成员",
+      "source_text": "text_46"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_46_node_1",
+      "target": "text_46_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_2",
+      "target": "text_46_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_3",
+      "target": "text_46_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_3",
+      "target": "text_46_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_4",
+      "target": "text_46_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_5",
+      "target": "text_46_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_6",
+      "target": "text_46_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_8",
+      "target": "text_46_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_46_node_9",
+      "target": "text_46_node_6",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "nodes": [
+    {
+      "id": "text_55_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周五下午北塞尼讷省拉伍达清真寺遭武装分子袭击，至少305人死亡（含27名儿童）、128人受伤",
+      "support_text": "According to figures released by Egypt’s Public Prosecution, making this the deadliest militant attack in Egyptian history.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击始于武装分子在清真寺入口附近引爆爆炸物，随后伴随多地点枪击",
+      "support_text": "Eyewitnesses told Mada Masr that the attack began when armed militants detonated an explosive device near the entrance of the mosque as people were leaving after prayers.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "袭击后大量伤者通过私人车辆转运至 Bir al-Abd、Arish 和艾斯梅利亚省医院",
+      "support_text": "A large number of those injured were transported to hospitals in Bir al-Abd, Arish and the neighboring governorate of Ismailia, a medical source in the North Sinai branch of the Ambulance Authority told Mada Masr, emphasizing that priority was given to those injured.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "北塞尼讷和艾斯梅利亚省医院紧急提升至最高应急状态",
+      "support_text": "Following the attack, the Health Ministry raised the emergency code in all North Sinai and Ismailia hospitals to the highest level possible.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "军队封锁阿里有-比拉阿尔-阿德国际公路，并在周边地区展开搜查",
+      "support_text": "Military troops closed the international Arish–Bir al-Abd highway, as security personnel conducted sweeps in the areas surrounding the attack.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "检方启动调查，指定艾斯梅利亚和州安全检方组成调查组",
+      "support_text": "General Prosecutor Nabil Sadek ordered a team from Ismailia Prosecution and State Security Prosecution to begin investigations immediately on Friday night.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "无人机在里沙沙漠摧毁载有武装分子的车辆，15人死亡",
+      "support_text": "A security source told Sky News that two drones destroyed two vehicles in the Risha desert area close to Rawda that were carrying militants, killing 15 of them.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部门确认袭击涉及超过20名武装分子，但动机和责任方未明",
+      "support_text": "Security sources have stated that over 20 militants were involved in the attack, according to the privately owned newspaper Al-Masry Al-Youm.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总统塞西主持闭门会议，部署国防和内政部长及情报机构负责人",
+      "support_text": "President Abdel Fattah al-Sisi presided over a closed meeting attended by the defense and interior ministers, as well as the heads of the general and military intelligence bodies, Egyptian state media reported.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_10",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "塞西发表电视讲话，宣布对伤亡者发放补偿（每名死者20万埃镑，伤者5万埃镑）",
+      "support_text": "At the conclusion of the meeting, Sisi addressed the attack in a televised speech.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "埃及政府宣布全国哀悼三天",
+      "support_text": "The Egyptian government also declared a three-day mourning period on Friday.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": " Province of Sinai 等极端组织近年多次针对塞尼讷省苏菲派圣地发动袭击（2013-2016年案例）",
+      "support_text": "The Province of Sinai, a militant group affiliated with the Islamic State, has threatened followers of Sufi orders in different areas of North Sinai, including Arish, Sheikh Zuwayed and villages west of Arish, where Bir al-Abd lies, demanding they stop certain rituals, including visiting Sufi shrines and performing zikr, a ceremony in which Sufi Muslims chant rhythmically in prayer.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": " Province of Sinai 近期在阿里有西部频繁袭击军警，包括汽车炸弹和人员暗杀",
+      "support_text": "Security sources have stated that over 20 militants were involved in the attack, according to the privately owned newspaper Al-Masry Al-Youm.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Sisi向埃及人民和西奈殉难者家属表达哀悼",
+      "support_text": "语义描述内容",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sisi为受伤者康复祈祷",
+      "support_text": "语义描述内容",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sisi承诺以强硬手段回应",
+      "support_text": "语义描述内容",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "总统补充说明反恐行动",
+      "support_text": "语义描述内容",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sinai省军事组织威胁苏菲派信徒，要求停止特定仪式",
+      "support_text": " Province of Sinai等极端组织近年多次针对塞尼讷省苏菲派圣地发动袭击（2013-2016年案例）， demanding they stop certain rituals, including visiting Sufi shrines and performing zikr",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "苏菲派信徒被要求停止访问苏菲圣地",
+      "support_text": "苏菲派信徒被要求停止访问苏菲圣地",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_20",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "苏菲派信徒被要求停止举行赞圣仪式",
+      "support_text": "苏菲派信徒被要求停止举行赞圣仪式",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": " Province of Sinai劫持两位什叶派谢赫",
+      "support_text": " Province of Sinai劫持两位什叶派谢赫",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_22",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": " Province of Sinai斩首两位谢赫",
+      "support_text": " Province of Sinai斩首两位谢赫",
+      "source_text": "text_55"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_5",
+      "relation": "before",
+      "support_text": "Military troops closed the international Arish–Bir al-Abd highway"
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_6",
+      "relation": "before",
+      "support_text": "General Prosecutor Nabil Sadek ordered a team"
+    },
+    {
+      "source": "text_55_node_2",
+      "target": "text_55_node_1",
+      "relation": "before",
+      "support_text": "making this the deadliest militant attack in Egyptian history."
+    },
+    {
+      "source": "text_55_node_2",
+      "target": "text_55_node_3",
+      "relation": "before",
+      "support_text": "as people were leaving after prayers."
+    },
+    {
+      "source": "text_55_node_2",
+      "target": "text_55_node_6",
+      "relation": "before",
+      "support_text": "Eyewitnesses told Mada Masr that the attack began when armed militants detonated an explosive device near the entrance of the mosque as people were leaving after prayers."
+    },
+    {
+      "source": "text_55_node_3",
+      "target": "text_55_node_4",
+      "relation": "before",
+      "support_text": "emphasizing that priority was given to those injured."
+    },
+    {
+      "source": "text_55_node_5",
+      "target": "text_55_node_7",
+      "relation": "before",
+      "support_text": "destroyed two vehicles in the Risha desert area"
+    },
+    {
+      "source": "text_55_node_7",
+      "target": "text_55_node_8",
+      "relation": "before",
+      "support_text": "killing 15 of them."
+    },
+    {
+      "source": "text_55_node_9",
+      "target": "text_55_node_10",
+      "relation": "before",
+      "support_text": "At the conclusion of the meeting"
+    },
+    {
+      "source": "text_55_node_10",
+      "target": "text_55_node_11",
+      "relation": "before",
+      "support_text": "declared a three-day mourning period"
+    },
+    {
+      "source": "text_55_node_12",
+      "target": "text_55_node_13",
+      "relation": "before",
+      "support_text": "threatened followers of Sufi orders"
+    },
+    {
+      "source": "text_55_node_21",
+      "target": "text_55_node_22",
+      "relation": "before",
+      "support_text": "根据temporal_order 3和4的顺序关系"
+    }
+  ]
+}

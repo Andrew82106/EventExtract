@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "id": "text_20_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴黎至图卢兹特快列车在Ambazac村附近发生爆炸，致5死27伤",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认爆炸由干燥型塑料炸药引发，含电子引信",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "列车工程师在爆炸前紧急停车，避免列车脱轨造成更大伤亡",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "内政部长德菲雷宣布全面加强铁路安检，包括金属探测和行李检查",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "专家Calisti分析爆炸物为专业分离包装的炸药和引信",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方将极右翼极端组织列为嫌疑人，但排除卡洛斯直接责任",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸时间与卡洛斯最后通牒（要求释放两名恐怖分子）到期时间吻合",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_8",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者中包括前财政部长妹妹，无犯罪记录者占全部遇难者",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "乘客目击爆炸前有可疑男子快速穿越车厢",
+      "source_text": "text_20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_2",
+      "target": "text_20_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_3",
+      "target": "text_20_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_5",
+      "target": "text_20_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_20_node_9",
+      "target": "text_20_node_1",
+      "relation": "before"
+    }
+  ]
+}

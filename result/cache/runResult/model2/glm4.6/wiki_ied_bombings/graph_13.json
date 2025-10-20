@@ -1,0 +1,774 @@
+{
+  "nodes": [
+    {
+      "id": "text_13_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年4月19日，阿尔弗雷德·P·默拉联邦大楼发生恐怖爆炸，产生了被两个永久性地震仪记录的地震波。",
+      "support_text": "The terrorist bombing of the Alfred P. Murrah Federal Building in Oklahoma City on April 19, 1995, generated seismic waves that were recorded on two permanent seismographs about 7 and 26 km away from the bombing.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "其中一个地震图显示了两个相隔约10秒的低频波列，引发了关于存在第二个独立能量源的猜测。",
+      "support_text": "The seismogram recorded at 26 km shows two low-frequency wave trains, discrete sets of oscillatory signals, that begin about 10 s apart. Public release of this record prompted speculation that each wave train was caused by a different energy source.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Dismantle",
+      "description": "1995年5月23日，为了解决争议，美国地质调查局在受控拆除该建筑时使用了便携式地震仪进行监测。",
+      "support_text": "On May 23, 1995, the U.S. Geological Survey monitored the demolition of the bomb-ravaged Federal Building with portable seismographs (Figure 1).",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "拆除监测再次记录到了两个相似的地震波列，表明这是由于地震波的传播特性而非多个能量源造成的。",
+      "support_text": "Two wave trains were picked up again. The recordings indicate that the wave trains during both the bombing and demolition represent seismic waves traveling at different velocities.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "通过对比分析和计算，科学家最终确定爆炸案中的两个波列是由单一爆炸源产生的不同地震波相，并估算出了爆炸的精确时间。",
+      "support_text": "Analysis of these data indicates that the two wave trains are distinct seismic phases that traveled in a near-surface zone over which seismic velocity increases significantly with depth. The two wave trains recorded on April 19 are consistent with a single explosion, not evidence of two explosions 10 s apart. The investigation also permits an accurate estimation of the time of detonation between 9:01:52 and 9:01:57 a.m. local time (LT).",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府策划了这起悲剧。",
+      "support_text": "the government orchestrated the tragedy",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "民兵组织暗示政府策划了这起悲剧。",
+      "support_text": "Militia groups hint that the government orchestrated the tragedy",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "大楼在爆炸后倒塌。",
+      "support_text": "the fall of the building",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "AAPG Explorer报道了爆炸案的起因，指出第一个事件来自爆炸，第二个来自大楼倒塌。",
+      "support_text": "The AAPG Explorer [1995] reported that 'the first event was caused by energy from the explosion and the second from the fall of the building.'",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "奥克拉荷马地质调查局负责运营FNO地震台。",
+      "support_text": "The Oklahoma Geological Survey operates the FNO seismograph.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Omniplex科学博物馆负责运营OMN地震仪。",
+      "support_text": "The Omniplex Science Museum operates the OMN seismograph.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "FNO地震图被展示在图3a和4a中。",
+      "support_text": "The FNO seismogram is shown in Figures 3a and 4a.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "两个低频波列之前有一个高频波列。",
+      "support_text": "The two low-frequency wave trains are preceded by a high-frequency wave train.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "几乎没有关注被给予高频波列。",
+      "support_text": "Little attention was paid to the high-frequency wave train.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "地震仪操作员最初将高频波列归因于当地交通。",
+      "support_text": "The seismograph operator initially attributed the high-frequency wave train to local traffic.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "地震图的振幅开始增加。",
+      "support_text": "The OMN seismogram of the bombing's amplitude began to increase.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "地震图的读数第一次超出刻度范围。",
+      "support_text": "The OMN seismogram of the bombing went off scale for the first time.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "超出刻度范围的时间段开始。",
+      "support_text": "The off-scale intervals began.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "地震图的读数第二次超出刻度范围。",
+      "support_text": "The OMN seismogram of the bombing went off scale for the second time.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "地震信号的开始标志着P波的到达。",
+      "support_text": "the beginning of the seismic signal marks the arrival of the P wave",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "来自爆炸的空气波在奥姆尼普莱克斯科学博物馆被清晰地听到。",
+      "support_text": "the air wave from the blast was clearly heard at the Omniplex Science Museum",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_17",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "OMN地震仪未能准确记录爆炸的时间。",
+      "support_text": "the OMN seismograph failed to accurately record the time of the bombing",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "OMN地震仪准确记录爆炸的时间（该事件未成功发生）。",
+      "support_text": "the OMN seismograph to accurately record the time of the bombing (negated event)",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "数字地震图因高频环境噪声而使用低通2赫兹滤波器进行了滤波。",
+      "support_text": "digital seismograms were filtered with a low-pass 2-Hz filter to reduce high-frequency environmental noise",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "随着地震波传播，地震信号的持续时间增加。",
+      "support_text": "The duration of the seismic signal increases as the seismic waves propagate.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "射线路径的数量和长度增加。",
+      "support_text": "The numbers and lengths of ray paths increase.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_22",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "拆除过程中的炸药被完全引爆。",
+      "support_text": "explosives were completely detonated",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_23",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "大部分地震能量被释放。",
+      "support_text": "most of the seismic energy was released",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_24",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "整个拆除过程持续了8秒。",
+      "support_text": "The entire demolition lasted 8 s.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "对未滤波地震图的分析表明，大部分地震能在开始后约5秒被释放。",
+      "support_text": "Analysis of the unfiltered seismogram indicates that most of the seismic energy... was released about 5 s after it started.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_26",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "视频与地震图的对比表明，炸药被完全引爆且产生的能量少于建筑倒塌。",
+      "support_text": "Comparison of timed video coverage... with the seismogram indicates that explosives were completely detonated... and did not generate as much seismic energy.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_27",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "使用数字记录帮助识别波的类型。",
+      "support_text": "数字记录可以被用来帮助识别波的类型。",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_28",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "S波在近地表区域内被散射。",
+      "support_text": "S波在近地表区域内被散射。",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_29",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Wang和Herrmann描述了一个用于计算的数值代码。",
+      "support_text": "Wang and Herrmann [1980] and Herrmann and Wang [1985] described a numerical code for computation.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_30",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Lee和McMechan进行了区域性的研究。",
+      "support_text": "Lee and McMechan [1987] studied the regional (geological structure).",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_31",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "研究人员基于当地油井的井下速度测量构建了一个一维速度结构。",
+      "support_text": "(the researchers) constructed a one-dimensional velocity structure from downhole velocity measurements in a nearby well.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_32",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "研究人员为5月23日的爆破事件计算了合成地震图。",
+      "support_text": "(the researchers) computed synthetic seismograms for the May 23 demolition shot.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_33",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "为了使合成地震图与观测到的FNO地震图相匹配，需要对S波速度进行修正。",
+      "support_text": "To match the synthetic with the observed FNO seismogram required modification of the S wave velocity.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_34",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "研究人员对上层350米的S波速度进行了修正。",
+      "support_text": "(the researchers) modified the S wave velocity in the upper 350 m.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_35",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "在最终模型中，浅层区域的S波速度随深度增加。",
+      "support_text": "The S wave velocity in the shallow zone increases from about 0.3 to 1.3 km/s with depth in the final model.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_36",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "为了改善波形振幅的匹配度，研究人员假设了一个固有衰减值Q为50。",
+      "support_text": "we (the researchers) assumed an intrinsic attenuation, Q, of 50 to improve the fit of the waveform amplitude.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_37",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "波列的传播花费了一定时间。",
+      "support_text": "The travel of the wave train took a certain amount of time.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_38",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "我们测量了30秒的传播时间。",
+      "support_text": "we measured a travel time of 30 s.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_39",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "这些时间意味着波列1的平均速度分别为2.7和5.5公里/秒。",
+      "support_text": "These times imply average velocities of 2.7 and 5.5 km/s for wave train 1.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_40",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "建筑物倒塌不能被排除作为部分地震能量来源。",
+      "support_text": "the building collapse cannot be excluded as a partial source of seismic energy.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_41",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "（研究者）通过将距离除以声速来计算传播时间。",
+      "support_text": "one divides the 6.86-km distance ... by the speed of sound",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_42",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "（研究者）使用340米/秒的速度进行计算。",
+      "support_text": "we use a speed of 340 m/s",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_43",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "使用340米/秒的速度计算得出20.1秒的传播时间。",
+      "support_text": "Using a speed of 340 m/s yields a travel time of 20.1 s",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_44",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "（用于拆除的）炸药引爆引起了大振幅、高频率的波列。",
+      "support_text": "the explosives detonated for the demolition caused a large-amplitude, high-frequency, wave train",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_45",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "空气波的传播时间意味着爆炸发生在地震能量到达之前。",
+      "support_text": "The air-wave travel time implies that the explosion occurred about 2.5 s before seismic energy started arriving",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_46",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "这些传播时间计算出了2.7和1.5公里/秒的平均速度。",
+      "support_text": "These travel times yield average velocities of 2.7 and 1.5 km/s",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_new_node_47",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们推断OMN地震信号的开端是P波，第一个超量程波列是S波。",
+      "support_text": "we infer that the beginning of the OMN seismic signal... is a P wave and the first off-scale wave train is an S wave",
+      "source_text": "text_13"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_2",
+      "relation": "before",
+      "support_text": "The seismogram recorded at 26 km shows two low-frequency wave trains... Public release of this record prompted speculation that each wave train was caused by a different energy source."
+    },
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_new_node_3",
+      "relation": "before",
+      "support_text": "爆炸导致了大楼的倒塌。"
+    },
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_new_node_7",
+      "relation": "before",
+      "support_text": "爆炸事件发生后，其产生的地震图被展示出来。"
+    },
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_new_node_11",
+      "relation": "before",
+      "support_text": "爆炸事件导致地震图的振幅开始增加。"
+    },
+    {
+      "source": "text_13_node_2",
+      "target": "text_13_node_3",
+      "relation": "before",
+      "support_text": "To help understand the April 19 seismograms, the controlled demolition of the building on May 23, was recorded with an array of four portable digital seismographs (Figure 2)."
+    },
+    {
+      "source": "text_13_node_2",
+      "target": "text_13_new_node_8",
+      "relation": "before",
+      "support_text": "在引发猜测后，对地震图进行了更详细的观察，发现了高频波列。"
+    },
+    {
+      "source": "text_13_node_3",
+      "target": "text_13_node_4",
+      "relation": "before",
+      "support_text": "On May 23, 1995, the U.S. Geological Survey monitored the demolition of the bomb-ravaged Federal Building with portable seismographs (Figure 1). Two wave trains were picked up again."
+    },
+    {
+      "source": "text_13_node_3",
+      "target": "text_13_new_node_22",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，拆除过程开始 (1) 发生在炸药被引爆 (2) 之前。"
+    },
+    {
+      "source": "text_13_node_4",
+      "target": "text_13_node_5",
+      "relation": "before",
+      "support_text": "Analysis of these data indicates that the two wave trains are distinct seismic phases... The two wave trains recorded on April 19 are consistent with a single explosion, not evidence of two explosions 10 s apart."
+    },
+    {
+      "source": "text_13_node_4",
+      "target": "text_13_new_node_25",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，分析波列性质 (9) 发生在分析能量释放时间 (10) 之前。"
+    },
+    {
+      "source": "text_13_node_5",
+      "target": "text_13_new_node_4",
+      "relation": "before",
+      "support_text": "最终的科学研究结论被AAPG Explorer报道。"
+    },
+    {
+      "source": "text_13_new_node_1",
+      "target": "text_13_new_node_2",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'orchestrate' (1) 发生在 'hint' (2) 之前。"
+    },
+    {
+      "source": "text_13_new_node_3",
+      "target": "text_13_node_2",
+      "relation": "before",
+      "support_text": "大楼倒塌，引发了关于第二个波源的猜测。"
+    },
+    {
+      "source": "text_13_new_node_3",
+      "target": "text_13_new_node_4",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'fall' (3) 发生在 'report' (4) 之前。"
+    },
+    {
+      "source": "text_13_new_node_5",
+      "target": "text_13_node_1",
+      "relation": "before",
+      "support_text": "FNO地震台的运营是记录爆炸事件的背景前提。"
+    },
+    {
+      "source": "text_13_new_node_6",
+      "target": "text_13_node_1",
+      "relation": "before",
+      "support_text": "OMN地震仪的运营是记录爆炸事件的背景前提。"
+    },
+    {
+      "source": "text_13_new_node_7",
+      "target": "text_13_node_2",
+      "relation": "before",
+      "support_text": "地震图的展示引发了关于存在第二个独立能量源的猜测。"
+    },
+    {
+      "source": "text_13_new_node_8",
+      "target": "text_13_new_node_9",
+      "relation": "before",
+      "support_text": "观察到高频波列后，几乎没有给予其关注。"
+    },
+    {
+      "source": "text_13_new_node_9",
+      "target": "text_13_new_node_10",
+      "relation": "before",
+      "support_text": "由于缺乏关注，高频波列被错误地归因于当地交通。"
+    },
+    {
+      "source": "text_13_new_node_10",
+      "target": "text_13_node_3",
+      "relation": "before",
+      "support_text": "为了解决包括错误归因在内的争议，决定进行受控拆除监测。"
+    },
+    {
+      "source": "text_13_new_node_11",
+      "target": "text_13_new_node_12",
+      "relation": "before",
+      "support_text": "根据temporal_order，振幅增加(1)发生在第一次超出刻度范围(2)之前。"
+    },
+    {
+      "source": "text_13_new_node_12",
+      "target": "text_13_new_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order，第一次超出刻度范围(2)发生在第二次超出刻度范围(3)之前。"
+    },
+    {
+      "source": "text_13_new_node_14",
+      "target": "text_13_new_node_17",
+      "relation": "before",
+      "support_text": "根据temporal_order，第二次超出刻度范围(3)发生在未能记录(6)之前。"
+    },
+    {
+      "source": "text_13_new_node_19",
+      "target": "text_13_new_node_20",
+      "relation": "before",
+      "support_text": "根据temporal_order，滤波(2)发生在信号持续时间增加(3)之前。"
+    },
+    {
+      "source": "text_13_new_node_19",
+      "target": "text_13_new_node_21",
+      "relation": "before",
+      "support_text": "根据temporal_order，滤波(2)发生在射线路径增加(3)之前。"
+    },
+    {
+      "source": "text_13_new_node_22",
+      "target": "text_13_new_node_23",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，炸药被引爆 (2) 发生在地震能量被释放 (4) 之前。"
+    },
+    {
+      "source": "text_13_new_node_23",
+      "target": "text_13_new_node_24",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，地震能量被释放 (4) 发生在拆除过程持续结束 (7) 之前。"
+    },
+    {
+      "source": "text_13_new_node_24",
+      "target": "text_13_node_4",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，拆除过程结束 (7) 发生在分析表明波列与地震波有关 (9) 之前。"
+    },
+    {
+      "source": "text_13_new_node_25",
+      "target": "text_13_new_node_26",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，分析能量释放时间 (10) 发生在通过对比视频得出结论 (12) 之前。"
+    },
+    {
+      "source": "text_13_new_node_27",
+      "target": "text_13_node_5",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'use' (3) 发生在 'interpret' (5) 之前。"
+    },
+    {
+      "source": "text_13_new_node_28",
+      "target": "text_13_new_node_27",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'scatter' (2) 发生在 'use' (3) 之前。"
+    },
+    {
+      "source": "text_13_new_node_30",
+      "target": "text_13_new_node_31",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'study' (0) 发生在 'construct' (3) 之前。"
+    },
+    {
+      "source": "text_13_new_node_31",
+      "target": "text_13_new_node_32",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'construct' (3) 发生在 'compute' (4) 之前。"
+    },
+    {
+      "source": "text_13_new_node_32",
+      "target": "text_13_new_node_33",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'compute' (4) 发生在 'require' (5) 之前。"
+    },
+    {
+      "source": "text_13_new_node_33",
+      "target": "text_13_new_node_34",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'require' (5) 发生在 'modify' (6) 之前。"
+    },
+    {
+      "source": "text_13_new_node_34",
+      "target": "text_13_new_node_35",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'modify' (6) 发生在 'increase' (7) 之前。"
+    },
+    {
+      "source": "text_13_new_node_35",
+      "target": "text_13_new_node_36",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'increase' (7) 发生在 'assume' (8) 之前。"
+    },
+    {
+      "source": "text_13_new_node_37",
+      "target": "text_13_new_node_38",
+      "relation": "before",
+      "support_text": "波列传播花费时间之后，才能测量这个时间。"
+    },
+    {
+      "source": "text_13_new_node_37",
+      "target": "text_13_new_node_39",
+      "relation": "before",
+      "support_text": "波列传播花费的时间是推断其平均速度的前提。"
+    },
+    {
+      "source": "text_13_new_node_38",
+      "target": "text_13_new_node_39",
+      "relation": "before",
+      "support_text": "测量了传播时间后，这些时间数据被用来推断速度。"
+    },
+    {
+      "source": "text_13_new_node_38",
+      "target": "text_13_node_5",
+      "relation": "before",
+      "support_text": "测量的时间是最终确定爆炸时间（prefer）的数据基础之一。"
+    },
+    {
+      "source": "text_13_new_node_39",
+      "target": "text_13_node_5",
+      "relation": "before",
+      "support_text": "推断出的速度是分析过程的一部分，其结论导向了最终的爆炸时间。"
+    },
+    {
+      "source": "text_13_new_node_40",
+      "target": "text_13_node_5",
+      "relation": "before",
+      "support_text": "排除建筑物倒塌作为能量来源的可能性，是得出单一爆炸结论的必要步骤。"
+    },
+    {
+      "source": "text_13_new_node_41",
+      "target": "text_13_new_node_43",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'divide' (3) 发生在 'yield' (4) 之前。"
+    },
+    {
+      "source": "text_13_new_node_42",
+      "target": "text_13_new_node_43",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'use' (3) 发生在 'yield' (4) 之前。"
+    },
+    {
+      "source": "text_13_new_node_43",
+      "target": "text_13_new_node_45",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'yield' (4) 发生在 'imply' (5) 之前。"
+    },
+    {
+      "source": "text_13_new_node_44",
+      "target": "text_13_new_node_41",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'cause' (0) 发生在 'divide' (3) 之前。"
+    },
+    {
+      "source": "text_13_new_node_44",
+      "target": "text_13_new_node_42",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'cause' (0) 发生在 'use' (3) 之前。"
+    },
+    {
+      "source": "text_13_new_node_45",
+      "target": "text_13_new_node_46",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'imply' (5) 发生在 'yield' (6) 之前。"
+    },
+    {
+      "source": "text_13_new_node_46",
+      "target": "text_13_new_node_47",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'yield' (6) 发生在 'infer' (7) 之前。"
+    }
+  ]
+}

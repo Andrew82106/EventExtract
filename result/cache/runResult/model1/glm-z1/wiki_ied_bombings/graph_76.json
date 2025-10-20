@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_76_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "北爱尔兰恩尼基伦的社区中心发生炸弹爆炸，造成11人死亡63人受伤",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "皇家 Ulster 警察局证实爱尔兰共和军（IRA）为此次袭击负责",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "警方承认未搜查炸弹所在的社区中心，因误判其为安全区域",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "IRA 通过间接渠道警告另一枚炸弹在 Tullyhammon 未爆炸",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "Tullyhammon 纪念仪式因安全顾虑被取消",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "警方确认炸弹具有蓄意杀害平民的致命意图",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_7",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "袭击成为北爱尔兰五年内最严重平民伤亡事件",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "提及 1998 年 Ballykelly Droppin' Well 酒吧爆炸案（11名士兵和6名平民死亡）",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "公布首批遇难者名单（含3对夫妻、退休警察、看护员和护士等）",
+      "source_text": "text_76"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_76_node_1",
+      "target": "text_76_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_1",
+      "target": "text_76_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_1",
+      "target": "text_76_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_2",
+      "target": "text_76_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_2",
+      "target": "text_76_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_4",
+      "target": "text_76_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_7",
+      "target": "text_76_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_76_node_7",
+      "target": "text_76_node_9",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "id": "text_24_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1980年8月2日10:25 CEST，博洛尼亚中央火车站空调候车室发生炸弹爆炸，导致85人死亡、200余人受伤，屋顶坍塌并摧毁主建筑",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "爆炸波及停放在一楼的安科纳-Chiasso列车，火车站因夏季游客增多导致应急车辆不足",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "目击者自发实施急救和废墟救援，消防部门动用公交车、私家车和出租车转运伤员",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "",
+      "description": "医生和医院员工提前结束休假，临时开放暑期关闭的科室接收伤员",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "8月6日葬礼期间，博洛尼亚广场爆发大规模抗议，政府官员遭批评，总统佩特尼 helicopter抵达并谴责",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "初期误判为地下锅炉爆炸事故，3日《统一报》率先指控新法西斯组织NAR责任",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "8月政府确认恐怖主义性质，总理科西加在参议院特别会议上定性右翼恐怖主义策略",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "确认炸弹含TNT、Composition B和T4炸药成分，NAR通过通讯社发布虚假责任声明",
+      "source_text": "text_24"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_2",
+      "target": "text_24_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_2",
+      "target": "text_24_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_6",
+      "target": "text_24_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_24_node_7",
+      "target": "text_24_node_8",
+      "relation": "before"
+    }
+  ]
+}

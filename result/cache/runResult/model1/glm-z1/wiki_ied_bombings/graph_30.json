@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "text_30_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1830当地时间（1300 GMT）西方铁路郊区通勤高峰期发生首次爆炸",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸引发混乱，乘客跳车，尸体被抛至轨道",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认共6个地点（Matunga、Khar等）遭袭击，大部分在移动列车，2个在车站",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者描述爆炸威力相当于闪电，救援人员清理残骸",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致车门窗户脱落，行李和衣物散布轨道",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_6",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mahim站目击者称跳车者被反向列车碾压",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_7",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "医院涌入大量伤员，医疗学生称 floors filled with bloodstains",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "手机网络崩溃，仅存付费电话排长队",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "未发现责任声明，系十多年最严重袭击",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Home Minister称已获攻击情报但未掌握具体时间和地点",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "文本提及1993年孟买曾发生250人死亡的连环爆炸事件",
+      "source_text": "text_30"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_30_node_1",
+      "target": "text_30_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_30_node_2",
+      "target": "text_30_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_30_node_2",
+      "target": "text_30_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_30_node_2",
+      "target": "text_30_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_30_node_2",
+      "target": "text_30_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_30_node_3",
+      "target": "text_30_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_30_node_4",
+      "target": "text_30_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_30_node_5",
+      "target": "text_30_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_30_node_6",
+      "target": "text_30_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_30_node_7",
+      "target": "text_30_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_30_node_8",
+      "target": "text_30_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_30_node_9",
+      "target": "text_30_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_30_node_10",
+      "target": "text_30_node_11",
+      "relation": "before"
+    }
+  ]
+}

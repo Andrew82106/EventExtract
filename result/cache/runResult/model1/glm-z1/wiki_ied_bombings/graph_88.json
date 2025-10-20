@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_88_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周五上午，北塞尼姆省一座苏菲派清真寺遭遇武装分子袭击",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "数十名武装分子驾驶越野车向正在做周五礼拜的清真寺投掷炸弹",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "袭击者向试图逃离的礼拜者开火，并纵火焚烧停放在清真寺外的车辆以封锁出口",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成至少235人死亡，这是埃及武装分子针对平民的史上最严重袭击",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "未明确身份的武装分子与伊斯兰国关联团体在当地的活跃性被提及",
+      "source_text": "text_88"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_88_node_1",
+      "target": "text_88_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_2",
+      "target": "text_88_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_3",
+      "target": "text_88_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_4",
+      "target": "text_88_node_5",
+      "relation": "before"
+    }
+  ]
+}

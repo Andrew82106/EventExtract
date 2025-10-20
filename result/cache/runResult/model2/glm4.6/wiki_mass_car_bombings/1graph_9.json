@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "text_9_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "一辆载有炸药的汽车试图进入教堂院落。",
+      "support_text": "the explosive-laden car attempted to go into the compound of the churches before it detonated",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "汽车被街道上的路障拦住。",
+      "support_text": "but was blocked by barriers in the street",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "PreventPassage",
+      "description": "一名保安在警察靠近时将汽车驱离。",
+      "support_text": "and was turned away by a security guard as police approached",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "汽车随后发生爆炸。",
+      "support_text": "The blast struck Kaduna, the capital of Kaduna state, leaving charred motorcycles and debris strewn across a major road in the city",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸震碎了附近教堂的窗户，并损坏了建筑物。",
+      "support_text": "we heard a loud noise that shattered all our windows and doors, destroyed our fans and some of our equipment in the church",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "据报道，该事件导致至少38人死亡。",
+      "support_text": "At least 38 people were reported dead.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "怀疑立即落在了激进伊斯兰教派博科圣地身上。",
+      "support_text": "While no one immediately claimed responsibility for the attack, suspicion immediately fell on a radical Islamist sect blamed for hundreds of killings in the oil-rich country this year alone.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "出现了此次袭击可能加剧该地区宗教紧张局势的担忧。",
+      "support_text": "And some fear the attack could further inflame tensions around Kaduna, a region on the dividing line between Nigeria's largely Christian south and Muslim north.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "牧师约书亚·拉吉正在劝诫他的会众。",
+      "support_text": "I (Pastor Joshua Raji) was exhorting my people",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "牧师约书亚·拉吉陈述了事发经过。",
+      "support_text": "Pastor Joshua Raji said the quoted statement",
+      "source_text": "text_9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_2",
+      "relation": "before",
+      "support_text": "the explosive-laden car attempted to go into the compound of the churches before it detonated, but was blocked by barriers in the street"
+    },
+    {
+      "source": "text_9_node_2",
+      "target": "text_9_node_3",
+      "relation": "before",
+      "support_text": "but was blocked by barriers in the street and was turned away by a security guard as police approached."
+    },
+    {
+      "source": "text_9_node_3",
+      "target": "text_9_node_4",
+      "relation": "before",
+      "support_text": "the explosive-laden car attempted to go into the compound of the churches before it detonated, but was blocked by barriers in the street and was turned away by a security guard as police approached."
+    },
+    {
+      "source": "text_9_node_4",
+      "target": "text_9_node_5",
+      "relation": "before",
+      "support_text": "we heard a loud noise that shattered all our windows and doors, destroyed our fans and some of our equipment in the church"
+    },
+    {
+      "source": "text_9_node_4",
+      "target": "text_9_node_6",
+      "relation": "before",
+      "support_text": "A suicide car bombing occurred on Easter Day church services in the Nigerian city of Kaduna on 8 April 2012, targeting Christians. At least 38 people were reported dead."
+    },
+    {
+      "source": "text_9_node_4",
+      "target": "text_9_node_7",
+      "relation": "before",
+      "support_text": "While no one immediately claimed responsibility for the attack, suspicion immediately fell on a radical Islamist sect blamed for hundreds of killings in the oil-rich country this year alone."
+    },
+    {
+      "source": "text_9_node_4",
+      "target": "text_9_node_8",
+      "relation": "before",
+      "support_text": "And some fear the attack could further inflame tensions around Kaduna, a region on the dividing line between Nigeria's largely Christian south and Muslim north."
+    },
+    {
+      "source": "text_9_node_5",
+      "target": "text_9_new_node_2",
+      "relation": "before",
+      "support_text": "The pastor's statement about the event was made after the explosion and its immediate effects were heard and witnessed."
+    },
+    {
+      "source": "text_9_new_node_1",
+      "target": "text_9_node_1",
+      "relation": "before",
+      "support_text": "The exhortation was happening before the car bomb attempted to enter the church compound."
+    }
+  ]
+}

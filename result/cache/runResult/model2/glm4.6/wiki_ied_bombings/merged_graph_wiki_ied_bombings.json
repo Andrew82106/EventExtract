@@ -1,0 +1,2124 @@
+{
+  "nodes": [
+    {
+      "id": "Cognitive > IdentifyCategorize > Unspecified",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 148,
+      "occurrence_percentage": 778.9473684210526,
+      "weight": 7.7894736842105265
+    },
+    {
+      "id": "Control > ImpedeInterfereWith > Unspecified",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 97,
+      "occurrence_percentage": 510.5263157894737,
+      "weight": 5.105263157894737
+    },
+    {
+      "id": "Conflict > Attack > DetonateExplode",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "occurrence_count": 54,
+      "occurrence_percentage": 284.2105263157895,
+      "weight": 2.8421052631578947
+    },
+    {
+      "id": "Cognitive > Inspection > SensoryObserve",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "occurrence_count": 42,
+      "occurrence_percentage": 221.0526315789474,
+      "weight": 2.210526315789474
+    },
+    {
+      "id": "Conflict > Attack > Unspecified",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 33,
+      "occurrence_percentage": 173.6842105263158,
+      "weight": 1.736842105263158
+    },
+    {
+      "id": "Movement > Transportation > Unspecified",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 29,
+      "occurrence_percentage": 152.63157894736844,
+      "weight": 1.5263157894736843
+    },
+    {
+      "id": "Cognitive > Research > Unspecified",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 23,
+      "occurrence_percentage": 121.05263157894737,
+      "weight": 1.2105263157894737
+    },
+    {
+      "id": "Contact > Contact > Broadcast",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "occurrence_count": 20,
+      "occurrence_percentage": 105.26315789473684,
+      "weight": 1.0526315789473684
+    },
+    {
+      "id": "Justice > TrialHearing > Unspecified",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 17,
+      "occurrence_percentage": 89.47368421052632,
+      "weight": 0.8947368421052632
+    },
+    {
+      "id": "Justice > ChargeIndict > Unspecified",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 14,
+      "occurrence_percentage": 73.68421052631578,
+      "weight": 0.7368421052631579
+    },
+    {
+      "id": "Transaction > ExchangeBuySell > Unspecified",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 14,
+      "occurrence_percentage": 73.68421052631578,
+      "weight": 0.7368421052631579
+    },
+    {
+      "id": "Movement > Transportation > Evacuation",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "occurrence_count": 13,
+      "occurrence_percentage": 68.42105263157895,
+      "weight": 0.6842105263157895
+    },
+    {
+      "id": "Justice > Sentence > Unspecified",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 11,
+      "occurrence_percentage": 57.89473684210527,
+      "weight": 0.5789473684210527
+    },
+    {
+      "id": "Justice > ArrestJailDetain > Unspecified",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 11,
+      "occurrence_percentage": 57.89473684210527,
+      "weight": 0.5789473684210527
+    },
+    {
+      "id": "Life > Die > Unspecified",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 9,
+      "occurrence_percentage": 47.368421052631575,
+      "weight": 0.47368421052631576
+    },
+    {
+      "id": "Contact > Contact > Meet",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "occurrence_count": 8,
+      "occurrence_percentage": 42.10526315789473,
+      "weight": 0.42105263157894735
+    },
+    {
+      "id": "Contact > Contact > Unspecified",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 8,
+      "occurrence_percentage": 42.10526315789473,
+      "weight": 0.42105263157894735
+    },
+    {
+      "id": "Justice > Convict > Unspecified",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 8,
+      "occurrence_percentage": 42.10526315789473,
+      "weight": 0.42105263157894735
+    },
+    {
+      "id": "Justice > Acquit > Unspecified",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 7,
+      "occurrence_percentage": 36.84210526315789,
+      "weight": 0.3684210526315789
+    },
+    {
+      "id": "Life > Injure > Unspecified",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 5,
+      "occurrence_percentage": 26.31578947368421,
+      "weight": 0.2631578947368421
+    },
+    {
+      "id": "Contact > Contact > Correspondence",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "occurrence_count": 5,
+      "occurrence_percentage": 26.31578947368421,
+      "weight": 0.2631578947368421
+    },
+    {
+      "id": "Transaction > AidBetweenGovernments > Unspecified",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "id": "GenericCrime > GenericCrime > GenericCrime",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "id": "Transaction > Donation > Unspecified",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "id": "Movement > Transportation > IllegalTransportation",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "id": "Contact > Prevarication > Unspecified",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "id": "ArtifactExistence > DamageDestroyDisableDismantle > DisableDefuse",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "id": "Personnel > StartPosition > Unspecified",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "id": "ArtifactExistence > DamageDestroyDisableDismantle > Damage",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "id": "ArtifactExistence > DamageDestroyDisableDismantle > Dismantle",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Dismantle",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "id": "Justice > ReleaseParole > Unspecified",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "id": "Contact > RequestCommand > Unspecified",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "id": "Contact > Prevarication > Broadcast",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "id": "Personnel > ChangePosition > Promotion",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "Promotion",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "id": "Contact > RequestCommand > Meet",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "id": "Contact > RequestCommand > Broadcast",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "id": "Life > Illness > Unspecified",
+      "event_type": "Life",
+      "event_subtype": "Illness",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "id": "Medical > Intervention > Unspecified",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "id": "Disaster > Crash > Unspecified",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "id": "Medical > Diagnosis > Unspecified",
+      "event_type": "Medical",
+      "event_subtype": "Diagnosis",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "id": "Cognitive > TeachingTrainingLearning > Unspecified",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "id": "Contact > ThreatenCoerce > Broadcast",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "id": "ArtifactExistence > DamageDestroyDisableDismantle > Unspecified",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "id": "Disaster > FireExplosion > Unspecified",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "id": "ArtifactExistence > DamageDestroyDisableDismantle > Destroy",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "id": "Contact > ThreatenCoerce > Correspondence",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Correspondence",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 37,
+      "occurrence_percentage": 194.73684210526315,
+      "weight": 1.9473684210526316
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 25,
+      "occurrence_percentage": 131.57894736842107,
+      "weight": 1.3157894736842106
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 23,
+      "occurrence_percentage": 121.05263157894737,
+      "weight": 1.2105263157894737
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 20,
+      "occurrence_percentage": 105.26315789473684,
+      "weight": 1.0526315789473684
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 17,
+      "occurrence_percentage": 89.47368421052632,
+      "weight": 0.8947368421052632
+    },
+    {
+      "source": "Cognitive > Inspection > SensoryObserve",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 17,
+      "occurrence_percentage": 89.47368421052632,
+      "weight": 0.8947368421052632
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 12,
+      "occurrence_percentage": 63.1578947368421,
+      "weight": 0.631578947368421
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 12,
+      "occurrence_percentage": 63.1578947368421,
+      "weight": 0.631578947368421
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 11,
+      "occurrence_percentage": 57.89473684210527,
+      "weight": 0.5789473684210527
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 10,
+      "occurrence_percentage": 52.63157894736842,
+      "weight": 0.5263157894736842
+    },
+    {
+      "source": "Cognitive > Research > Unspecified",
+      "target": "Cognitive > Research > Unspecified",
+      "occurrence_count": 10,
+      "occurrence_percentage": 52.63157894736842,
+      "weight": 0.5263157894736842
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Conflict > Attack > Unspecified",
+      "occurrence_count": 8,
+      "occurrence_percentage": 42.10526315789473,
+      "weight": 0.42105263157894735
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 7,
+      "occurrence_percentage": 36.84210526315789,
+      "weight": 0.3684210526315789
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Justice > TrialHearing > Unspecified",
+      "occurrence_count": 7,
+      "occurrence_percentage": 36.84210526315789,
+      "weight": 0.3684210526315789
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 7,
+      "occurrence_percentage": 36.84210526315789,
+      "weight": 0.3684210526315789
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 6,
+      "occurrence_percentage": 31.57894736842105,
+      "weight": 0.3157894736842105
+    },
+    {
+      "source": "Justice > TrialHearing > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 6,
+      "occurrence_percentage": 31.57894736842105,
+      "weight": 0.3157894736842105
+    },
+    {
+      "source": "Conflict > Attack > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 6,
+      "occurrence_percentage": 31.57894736842105,
+      "weight": 0.3157894736842105
+    },
+    {
+      "source": "Conflict > Attack > Unspecified",
+      "target": "Conflict > Attack > Unspecified",
+      "occurrence_count": 6,
+      "occurrence_percentage": 31.57894736842105,
+      "weight": 0.3157894736842105
+    },
+    {
+      "source": "Conflict > Attack > Unspecified",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 6,
+      "occurrence_percentage": 31.57894736842105,
+      "weight": 0.3157894736842105
+    },
+    {
+      "source": "Cognitive > Inspection > SensoryObserve",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 6,
+      "occurrence_percentage": 31.57894736842105,
+      "weight": 0.3157894736842105
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Movement > Transportation > Evacuation",
+      "occurrence_count": 5,
+      "occurrence_percentage": 26.31578947368421,
+      "weight": 0.2631578947368421
+    },
+    {
+      "source": "Justice > ChargeIndict > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 5,
+      "occurrence_percentage": 26.31578947368421,
+      "weight": 0.2631578947368421
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Transaction > ExchangeBuySell > Unspecified",
+      "occurrence_count": 5,
+      "occurrence_percentage": 26.31578947368421,
+      "weight": 0.2631578947368421
+    },
+    {
+      "source": "Cognitive > Inspection > SensoryObserve",
+      "target": "Cognitive > Research > Unspecified",
+      "occurrence_count": 5,
+      "occurrence_percentage": 26.31578947368421,
+      "weight": 0.2631578947368421
+    },
+    {
+      "source": "Justice > ArrestJailDetain > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 5,
+      "occurrence_percentage": 26.31578947368421,
+      "weight": 0.2631578947368421
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Movement > Transportation > Unspecified",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Contact > Contact > Broadcast",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Justice > ArrestJailDetain > Unspecified",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Cognitive > Research > Unspecified",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Movement > Transportation > Unspecified",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "source": "Contact > Contact > Broadcast",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "source": "Cognitive > Research > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "source": "Contact > Contact > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 4,
+      "occurrence_percentage": 21.052631578947366,
+      "weight": 0.21052631578947367
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Life > Injure > Unspecified",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Cognitive > Research > Unspecified",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Justice > ArrestJailDetain > Unspecified",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Contact > Contact > Meet",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Contact > Contact > Correspondence",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Contact > Contact > Broadcast",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Justice > Sentence > Unspecified",
+      "target": "Justice > Sentence > Unspecified",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Justice > TrialHearing > Unspecified",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Justice > ChargeIndict > Unspecified",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Movement > Transportation > Unspecified",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Transaction > AidBetweenGovernments > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "GenericCrime > GenericCrime > GenericCrime",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Cognitive > Inspection > SensoryObserve",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Cognitive > Research > Unspecified",
+      "target": "Contact > Contact > Broadcast",
+      "occurrence_count": 3,
+      "occurrence_percentage": 15.789473684210526,
+      "weight": 0.15789473684210525
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Contact > Contact > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Justice > ChargeIndict > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Justice > Acquit > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Conflict > Attack > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Justice > Convict > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > ChargeIndict > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > ChargeIndict > Unspecified",
+      "target": "Justice > ChargeIndict > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > Acquit > Unspecified",
+      "target": "Contact > Contact > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Personnel > StartPosition > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Movement > Transportation > Evacuation",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Contact > Contact > Broadcast",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Conflict > Attack > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Contact > Contact > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Justice > ArrestJailDetain > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Cognitive > Research > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > TrialHearing > Unspecified",
+      "target": "Justice > TrialHearing > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > TrialHearing > Unspecified",
+      "target": "Transaction > ExchangeBuySell > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > TrialHearing > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > TrialHearing > Unspecified",
+      "target": "Justice > Convict > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > TrialHearing > Unspecified",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > TrialHearing > Unspecified",
+      "target": "Justice > Sentence > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > TrialHearing > Unspecified",
+      "target": "Contact > Contact > Meet",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Conflict > Attack > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Conflict > Attack > Unspecified",
+      "target": "Movement > Transportation > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Conflict > Attack > Unspecified",
+      "target": "Life > Die > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Contact > Contact > Meet",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Contact > Contact > Meet",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Contact > Contact > Meet",
+      "target": "Cognitive > TeachingTrainingLearning > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Cognitive > Inspection > SensoryObserve",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "Cognitive > Research > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > ArrestJailDetain > Unspecified",
+      "target": "Justice > Sentence > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > ArrestJailDetain > Unspecified",
+      "target": "Justice > Convict > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Cognitive > Research > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Transaction > ExchangeBuySell > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Transaction > ExchangeBuySell > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Contact > Contact > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Contact > Prevarication > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Justice > Convict > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Life > Die > Unspecified",
+      "target": "Contact > Contact > Broadcast",
+      "occurrence_count": 2,
+      "occurrence_percentage": 10.526315789473683,
+      "weight": 0.10526315789473684
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Transaction > Donation > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Contact > Prevarication > Broadcast",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Life > Die > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "ArtifactExistence > DamageDestroyDisableDismantle > DisableDefuse",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Transaction > ExchangeBuySell > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Contact > Prevarication > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "ArtifactExistence > DamageDestroyDisableDismantle > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Disaster > FireExplosion > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Conflict > Attack > DetonateExplode",
+      "target": "Justice > TrialHearing > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Transaction > AidBetweenGovernments > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Contact > Prevarication > Broadcast",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "GenericCrime > GenericCrime > GenericCrime",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Contact > Prevarication > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Justice > Sentence > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Life > Die > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "Justice > ReleaseParole > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > IdentifyCategorize > Unspecified",
+      "target": "ArtifactExistence > DamageDestroyDisableDismantle > Dismantle",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ChargeIndict > Unspecified",
+      "target": "Justice > ReleaseParole > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ChargeIndict > Unspecified",
+      "target": "GenericCrime > GenericCrime > GenericCrime",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ChargeIndict > Unspecified",
+      "target": "Transaction > ExchangeBuySell > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ChargeIndict > Unspecified",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ReleaseParole > Unspecified",
+      "target": "Justice > Sentence > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ReleaseParole > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ReleaseParole > Unspecified",
+      "target": "Movement > Transportation > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Sentence > Unspecified",
+      "target": "Justice > Acquit > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Sentence > Unspecified",
+      "target": "GenericCrime > GenericCrime > GenericCrime",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Sentence > Unspecified",
+      "target": "Justice > TrialHearing > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Sentence > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Sentence > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Acquit > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Acquit > Unspecified",
+      "target": "Justice > Acquit > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Acquit > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Acquit > Unspecified",
+      "target": "Justice > Sentence > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Acquit > Unspecified",
+      "target": "Movement > Transportation > IllegalTransportation",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Contact > Contact > Meet",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Movement > Transportation > IllegalTransportation",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Transaction > AidBetweenGovernments > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Medical > Intervention > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Life > Injure > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Justice > Convict > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Justice > ReleaseParole > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Life > Die > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "ArtifactExistence > DamageDestroyDisableDismantle > DisableDefuse",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Control > ImpedeInterfereWith > Unspecified",
+      "target": "Contact > ThreatenCoerce > Correspondence",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > TrialHearing > Unspecified",
+      "target": "Contact > RequestCommand > Meet",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > TrialHearing > Unspecified",
+      "target": "Conflict > Attack > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > TrialHearing > Unspecified",
+      "target": "Justice > Acquit > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > TrialHearing > Unspecified",
+      "target": "Contact > Contact > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Conflict > Attack > Unspecified",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Conflict > Attack > Unspecified",
+      "target": "Justice > Sentence > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Conflict > Attack > Unspecified",
+      "target": "Contact > Contact > Broadcast",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Conflict > Attack > Unspecified",
+      "target": "Movement > Transportation > IllegalTransportation",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Contact > Meet",
+      "target": "Contact > Contact > Meet",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Contact > Meet",
+      "target": "Transaction > AidBetweenGovernments > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Contact > Meet",
+      "target": "Cognitive > Research > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "GenericCrime > GenericCrime > GenericCrime",
+      "target": "Transaction > AidBetweenGovernments > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "GenericCrime > GenericCrime > GenericCrime",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > Inspection > SensoryObserve",
+      "target": "ArtifactExistence > DamageDestroyDisableDismantle > Damage",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > Inspection > SensoryObserve",
+      "target": "Justice > ArrestJailDetain > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > Inspection > SensoryObserve",
+      "target": "GenericCrime > GenericCrime > GenericCrime",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > Inspection > SensoryObserve",
+      "target": "Justice > Sentence > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > Inspection > SensoryObserve",
+      "target": "Movement > Transportation > Evacuation",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > Inspection > SensoryObserve",
+      "target": "Conflict > Attack > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "Transaction > Donation > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "ArtifactExistence > DamageDestroyDisableDismantle > Dismantle",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "Life > Injure > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "Movement > Transportation > Evacuation",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "Disaster > Crash > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "Life > Die > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "Medical > Diagnosis > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "Transaction > ExchangeBuySell > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Unspecified",
+      "target": "Justice > ArrestJailDetain > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > Donation > Unspecified",
+      "target": "Movement > Transportation > Evacuation",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > Donation > Unspecified",
+      "target": "Life > Injure > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > Donation > Unspecified",
+      "target": "Movement > Transportation > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > Donation > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > Donation > Unspecified",
+      "target": "Contact > Contact > Broadcast",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Evacuation",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Evacuation",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Evacuation",
+      "target": "Movement > Transportation > Evacuation",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Evacuation",
+      "target": "Contact > Contact > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Evacuation",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > Evacuation",
+      "target": "Cognitive > Research > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > IllegalTransportation",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Movement > Transportation > IllegalTransportation",
+      "target": "Conflict > Attack > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Life > Injure > Unspecified",
+      "target": "Movement > Transportation > Evacuation",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Life > Injure > Unspecified",
+      "target": "Life > Illness > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Life > Injure > Unspecified",
+      "target": "ArtifactExistence > DamageDestroyDisableDismantle > Damage",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Life > Injure > Unspecified",
+      "target": "Contact > Prevarication > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ArrestJailDetain > Unspecified",
+      "target": "Contact > Contact > Broadcast",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ArrestJailDetain > Unspecified",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ArrestJailDetain > Unspecified",
+      "target": "Justice > TrialHearing > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ArrestJailDetain > Unspecified",
+      "target": "Contact > Contact > Correspondence",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ArrestJailDetain > Unspecified",
+      "target": "Cognitive > Research > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ArrestJailDetain > Unspecified",
+      "target": "Movement > Transportation > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ArrestJailDetain > Unspecified",
+      "target": "Justice > ArrestJailDetain > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > ArrestJailDetain > Unspecified",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Contact > Broadcast",
+      "target": "Transaction > ExchangeBuySell > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Contact > Broadcast",
+      "target": "Contact > Contact > Broadcast",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Contact > Broadcast",
+      "target": "Justice > TrialHearing > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Contact > Broadcast",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Contact > Broadcast",
+      "target": "Justice > ArrestJailDetain > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > Research > Unspecified",
+      "target": "ArtifactExistence > DamageDestroyDisableDismantle > Dismantle",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Cognitive > Research > Unspecified",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > ExchangeBuySell > Unspecified",
+      "target": "Transaction > ExchangeBuySell > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > ExchangeBuySell > Unspecified",
+      "target": "Justice > ArrestJailDetain > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > ExchangeBuySell > Unspecified",
+      "target": "Contact > RequestCommand > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > ExchangeBuySell > Unspecified",
+      "target": "Justice > TrialHearing > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > ExchangeBuySell > Unspecified",
+      "target": "Justice > Acquit > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > ExchangeBuySell > Unspecified",
+      "target": "Justice > ChargeIndict > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > ExchangeBuySell > Unspecified",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Transaction > ExchangeBuySell > Unspecified",
+      "target": "Movement > Transportation > Evacuation",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Personnel > StartPosition > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Personnel > StartPosition > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > RequestCommand > Unspecified",
+      "target": "Contact > Contact > Meet",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > RequestCommand > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > RequestCommand > Meet",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Contact > Correspondence",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Contact > Correspondence",
+      "target": "Contact > Prevarication > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Contact > Correspondence",
+      "target": "Justice > TrialHearing > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Contact > Unspecified",
+      "target": "Contact > Contact > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > Prevarication > Broadcast",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Life > Illness > Unspecified",
+      "target": "Movement > Transportation > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Life > Illness > Unspecified",
+      "target": "Contact > Contact > Broadcast",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "ArtifactExistence > DamageDestroyDisableDismantle > Damage",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "ArtifactExistence > DamageDestroyDisableDismantle > Damage",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "ArtifactExistence > DamageDestroyDisableDismantle > DisableDefuse",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "ArtifactExistence > DamageDestroyDisableDismantle > DisableDefuse",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Convict > Unspecified",
+      "target": "Justice > ArrestJailDetain > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Convict > Unspecified",
+      "target": "Life > Die > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Convict > Unspecified",
+      "target": "Justice > Sentence > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Convict > Unspecified",
+      "target": "Transaction > ExchangeBuySell > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Convict > Unspecified",
+      "target": "Justice > Convict > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Convict > Unspecified",
+      "target": "Justice > TrialHearing > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Justice > Convict > Unspecified",
+      "target": "Conflict > Attack > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Medical > Intervention > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "ArtifactExistence > DamageDestroyDisableDismantle > Dismantle",
+      "target": "ArtifactExistence > DamageDestroyDisableDismantle > Dismantle",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "ArtifactExistence > DamageDestroyDisableDismantle > Dismantle",
+      "target": "Movement > Transportation > Evacuation",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "ArtifactExistence > DamageDestroyDisableDismantle > Dismantle",
+      "target": "Cognitive > Inspection > SensoryObserve",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "ArtifactExistence > DamageDestroyDisableDismantle > Dismantle",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Disaster > Crash > Unspecified",
+      "target": "Conflict > Attack > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Life > Die > Unspecified",
+      "target": "Cognitive > IdentifyCategorize > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Life > Die > Unspecified",
+      "target": "Justice > Convict > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Life > Die > Unspecified",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Medical > Diagnosis > Unspecified",
+      "target": "Movement > Transportation > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > ThreatenCoerce > Broadcast",
+      "target": "Movement > Transportation > IllegalTransportation",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "ArtifactExistence > DamageDestroyDisableDismantle > Unspecified",
+      "target": "Cognitive > Research > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "ArtifactExistence > DamageDestroyDisableDismantle > Unspecified",
+      "target": "Contact > Contact > Broadcast",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Disaster > FireExplosion > Unspecified",
+      "target": "Control > ImpedeInterfereWith > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "ArtifactExistence > DamageDestroyDisableDismantle > Destroy",
+      "target": "Cognitive > Research > Unspecified",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    },
+    {
+      "source": "Contact > ThreatenCoerce > Correspondence",
+      "target": "Conflict > Attack > DetonateExplode",
+      "occurrence_count": 1,
+      "occurrence_percentage": 5.263157894736842,
+      "weight": 0.05263157894736842
+    }
+  ],
+  "statistics": {
+    "total_nodes": 46,
+    "total_edges": 241,
+    "total_source_graphs": 19,
+    "node_weight_stats": {
+      "max": 7.7894736842105265,
+      "min": 0.05263157894736842,
+      "mean": 0.7185354691075515,
+      "median": 0.21052631578947367
+    },
+    "edge_weight_stats": {
+      "max": 1.9473684210526316,
+      "min": 0.05263157894736842,
+      "mean": 0.13037781174929022,
+      "median": 0.05263157894736842
+    }
+  }
+}

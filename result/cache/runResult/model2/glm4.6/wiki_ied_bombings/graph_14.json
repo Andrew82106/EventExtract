@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "text_14_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRA小队于1987年5月8日袭击了Loughgall警察局。",
+      "support_text": "Eight IRA men were killed by the SAS as they attacked Loughgall RUC station on May 8, 1987.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国特种空勤团（SAS）伏击了正在袭击的IRA小队。",
+      "support_text": "Mr Hughes was one of nine men shot dead when the SAS ambushed an IRA unit which was in the process of attacking Loughgall RUC station.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "Anthony Hughes和他的弟弟Oliver无意中驾车驶入了伏击现场。",
+      "support_text": "Anthony Hughes was killed when, along with his brother, he drove unknowingly into the ambush.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "SAS部队向两兄弟开火，导致Anthony死亡，Oliver重伤。",
+      "support_text": "Mr Hughes (36) from Caledon, died after being hit by 15 bullets as he attempted to reverse his car away from the scene. His brother Oliver survived despite being struck 14 times by SAS gunfire as he tried to escape from the car.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "幸存的弟弟Oliver Hughes于2010年去世，生前未收到道歉。",
+      "support_text": "Oliver passed away in 2010 aged 62 having never received an apology for the serious injuries he suffered.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国国防部于2012年发出的初步道歉被Hughes家人拒绝。",
+      "support_text": "The family of Anthony Hughes had rejected an initial apology from the MOD in 2012 because they believed it attempted to apportion some blame for the incident to the brothers, according to the Irish News.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_7",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府在事发27年后向家人发出了一个新的正式道歉。",
+      "support_text": "The government has now apologised to the family after a wait of 27 years.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Anthony的遗孀Brigid对这次道歉表示欢迎，但认为正义来得太迟。",
+      "support_text": "Speaking to a daily newspaper, Anthony’s widow Brigid welcomed the apology. “I’m glad that this apology has come but slow justice is no justice,” she said.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_new_node_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "SAS单位杀死了8名IRA成员和1名无辜的平民。",
+      "support_text": "SAS单位杀死了8名IRA成员和1名无辜的平民。",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_new_node_2",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "Brigid的丈夫和他的兄弟没有做错任何事，是无辜的。",
+      "support_text": "your husband and his brother did nothing wrong",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_new_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Anna Soubry写信道歉并确认Hughes先生完全无辜。",
+      "support_text": "I am writing to apologise... and to confirm that Mr Hughes was 'wholly innocent of any wrongdoing'",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_new_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Anna Soubry在信中希望这封信能减轻家人的悲痛。",
+      "support_text": "I hope that this letter may go some way to easing your grief",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_new_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "这封信能在某种程度上起到减轻家人悲痛的作用。",
+      "support_text": "that this letter may go some way to easing your grief",
+      "source_text": "text_14"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_14_node_1",
+      "target": "text_14_node_2",
+      "relation": "before",
+      "support_text": "Mr Hughes was one of nine men shot dead when the SAS ambushed an IRA unit which was in the process of attacking Loughgall RUC station."
+    },
+    {
+      "source": "text_14_node_2",
+      "target": "text_14_node_3",
+      "relation": "before",
+      "support_text": "Anthony Hughes was killed when, along with his brother, he drove unknowingly into the ambush."
+    },
+    {
+      "source": "text_14_node_2",
+      "target": "text_14_new_node_1",
+      "relation": "before",
+      "support_text": "Eight IRA men were killed by the SAS as they attacked Loughgall RUC station on May 8, 1987."
+    },
+    {
+      "source": "text_14_node_3",
+      "target": "text_14_node_4",
+      "relation": "before",
+      "support_text": "Anthony Hughes was killed when, along with his brother, he drove unknowingly into the ambush."
+    },
+    {
+      "source": "text_14_node_4",
+      "target": "text_14_node_5",
+      "relation": "before",
+      "support_text": "Oliver passed away in 2010 aged 62 having never received an apology for the serious injuries he suffered."
+    },
+    {
+      "source": "text_14_node_4",
+      "target": "text_14_node_6",
+      "relation": "before",
+      "support_text": "The family of Anthony Hughes had rejected an initial apology from the MOD in 2012 because they believed it attempted to apportion some blame for the incident to the brothers, according to the Irish News."
+    },
+    {
+      "source": "text_14_node_6",
+      "target": "text_14_node_7",
+      "relation": "before",
+      "support_text": "The family of Anthony Hughes had rejected an initial apology from the MOD in 2012... However the fresh apology was sent two months ago."
+    },
+    {
+      "source": "text_14_node_6",
+      "target": "text_14_new_node_3",
+      "relation": "before",
+      "support_text": "在2012年的道歉被拒绝后，政府发出了这封新的道歉信。"
+    },
+    {
+      "source": "text_14_node_7",
+      "target": "text_14_node_8",
+      "relation": "before",
+      "support_text": "Speaking to a daily newspaper, Anthony’s widow Brigid welcomed the apology."
+    },
+    {
+      "source": "text_14_new_node_2",
+      "target": "text_14_node_3",
+      "relation": "before",
+      "support_text": "两兄弟的无辜状态在他们误入伏击圈之前就已存在。"
+    },
+    {
+      "source": "text_14_new_node_3",
+      "target": "text_14_node_8",
+      "relation": "before",
+      "support_text": "Anna Soubry写信后，Brigid向媒体发表了她的看法。"
+    },
+    {
+      "source": "text_14_new_node_3",
+      "target": "text_14_new_node_4",
+      "relation": "before",
+      "support_text": "信件中包含了希望（hope）的内容。"
+    },
+    {
+      "source": "text_14_new_node_4",
+      "target": "text_14_new_node_5",
+      "relation": "before",
+      "support_text": "希望（hope）信件能起到（go）减轻悲痛的作用。"
+    }
+  ]
+}

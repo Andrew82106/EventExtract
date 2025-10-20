@@ -1,0 +1,171 @@
+{
+  "nodes": [
+    {
+      "id": "text_45_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年1月21日塔利班对阿富汗玛丹沙尔省军事基地及民兵训练中心发动自杀式袭击",
+      "support_text": "In this Monday, Jan. 21, 2019, photo, Afghan security forces inspect the site of a Taliban attack in Maidan Shar, capital of Maidan Wardak province, east of Kabul, Afghanistan.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击中使用装甲悍马车爆炸导致建筑倒塌，造成大量人员被困",
+      "support_text": "a suicide bomber who drove an armored Humvee packed with explosives at the base on the outskirts of Maidan Shar... even though guards fired at the vehicle. Khawanin Sultani... a main building collapsed from the explosion, which likely contributed to the high casualty toll.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "1月22日阿富汗官员公布初步伤亡数据：45人死亡、70人受伤",
+      "support_text": "Afghan official said Tuesday, Jan. 22, 2019, scores of people mostly military personnel were killed in the Taliban assault on a military base and a pro-government militia training center a day earlier in the province.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班在袭击后数小时内宣称对事件负责",
+      "support_text": "Taliban claimed responsibility in a statement to the media just hours after the attack.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "4名塔利班袭击者与阿军交火后全部被击毙",
+      "support_text": "four other attackers engaged in a shootout with Afghan troops, according to Sultani, the provincial council member. All the attackers were killed, he said.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "NDS官方数据显示36人死亡58人受伤，与省级统计存在差异",
+      "support_text": "NDS said its reports show 36 military personnel were killed and 58 were wounded. Though the agency’s figures were lower than what provincial officials had reported...",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致民宅窗户受损，75具遗体被确认",
+      "support_text": "A provincial security official... said he counted as many as 75 bodies at the base. There was no official confirmation of this higher toll.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "阿富汗政府启动调查并谴责袭击",
+      "support_text": "Dozens of people killed in a brazen Taliban attack on a military base were members of Afghanistan’s intelligence agency, officials said Tuesday, in a severe blow to the government that already has lost control of nearly half of the country to the insurgents.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "塔利班与美方在卡塔尔启动和平谈判",
+      "support_text": "Taliban have a political office in Qatar... They are meeting in Qatar, where the Taliban have a political office.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击暴露阿政府安全漏洞，分析师质疑NDS防御失效",
+      "support_text": "The timing of the attack... underscored the audacity of the insurgents in the face of stepped-up peace efforts.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡塔尔会议为解决阿富汗战争铺路",
+      "support_text": "卡塔尔会议为解决阿富汗战争铺路",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班每日对阿富汗安保部队发动袭击",
+      "support_text": "塔利班每日对阿富汗安保部队发动袭击",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班主要针对薄弱的阿富汗安保部队发动袭击",
+      "support_text": "塔利班主要针对薄弱的阿富汗安保部队发动袭击",
+      "source_text": "text_45"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_45_node_1",
+      "target": "text_45_node_2",
+      "relation": "before",
+      "support_text": "a suicide bomber who drove an armored Humvee packed with explosives at the base on the outskirts of Maidan Shar... even though guards fired at the vehicle."
+    },
+    {
+      "source": "text_45_node_1",
+      "target": "text_45_node_3",
+      "relation": "before",
+      "support_text": "Afghan official said Tuesday, Jan. 22, 2019, scores of people mostly military personnel were killed in the Taliban assault on a military base and a pro-government militia training center a day earlier in the province."
+    },
+    {
+      "source": "text_45_node_1",
+      "target": "text_45_node_4",
+      "relation": "before",
+      "support_text": "Taliban claimed responsibility in a statement to the media just hours after the attack."
+    },
+    {
+      "source": "text_45_node_1",
+      "target": "text_45_node_5",
+      "relation": "before",
+      "support_text": "four other attackers engaged in a shootout with Afghan troops, according to Sultani, the provincial council member. All the attackers were killed, he said."
+    },
+    {
+      "source": "text_45_node_3",
+      "target": "text_45_node_6",
+      "relation": "before",
+      "support_text": "NDS said its reports show 36 military personnel were killed and 58 were wounded. Though the agency’s figures were lower than what provincial officials had reported..."
+    },
+    {
+      "source": "text_45_node_3",
+      "target": "text_45_node_7",
+      "relation": "before",
+      "support_text": "A provincial security official... said he counted as many as 75 bodies at the base. There was no official confirmation of this higher toll."
+    },
+    {
+      "source": "text_45_node_4",
+      "target": "text_45_node_9",
+      "relation": "before",
+      "support_text": "Taliban have a political office in Qatar... They are meeting in Qatar, where the Taliban have a political office."
+    },
+    {
+      "source": "text_45_node_7",
+      "target": "text_45_node_10",
+      "relation": "before",
+      "support_text": "The timing of the attack... underscored the audacity of the insurgents in the face of stepped-up peace efforts."
+    }
+  ]
+}

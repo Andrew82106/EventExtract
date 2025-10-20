@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_197_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2011年7月27日挪威布雷维克制造恐袭，造成超过100人死亡",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国对穆斯林的战争宣传导致欧洲极端分子出现",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "布雷维克自称行动是'可恶但必要'，旨在阻止西方被穆斯林'殖民化'",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "布雷维克揭露存在更多恐怖组织网络，要求警方加强警惕",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "呼吁西方民众质疑政府宣传，反思反恐政策影响",
+      "source_text": "text_197"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_197_node_1",
+      "target": "text_197_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_2",
+      "target": "text_197_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_3",
+      "target": "text_197_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_4",
+      "target": "text_197_node_5",
+      "relation": "before"
+    }
+  ]
+}

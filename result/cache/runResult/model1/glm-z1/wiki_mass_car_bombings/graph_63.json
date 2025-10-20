@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_63_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1994年以色列-阿根廷互助协会遭遇汽车炸弹袭击，造成85人死亡、200余人受伤",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "",
+      "description": "阿根廷法官Juan Jose Galeano被任命为主调查法官，成功逮捕使用炸弹车辆的嫌疑人Carlos Telleldin及20名警察",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "阿根廷电视曝光Galeano法官涉嫌向Telleldin支付40万美元的模糊视频，引发公众对其调查公正性的质疑",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "受害者家属律师Pablo Jacoby代表20个家庭正式投诉Galeano存在调查违规行为，要求其停职",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_5",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "",
+      "description": "Jacoby的投诉得到批准，Galeano被撤下案件调查，调查工作由其他人员接手继续进行",
+      "source_text": "text_63"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_63_node_1",
+      "target": "text_63_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_63_node_2",
+      "target": "text_63_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_63_node_3",
+      "target": "text_63_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_63_node_4",
+      "target": "text_63_node_5",
+      "relation": "before"
+    }
+  ]
+}

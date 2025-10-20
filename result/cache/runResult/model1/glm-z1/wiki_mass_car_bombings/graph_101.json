@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    {
+      "id": "text_101_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "爆炸发生在莫斯科马涅什地下购物中心底层的游乐园",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "目击者称听到巨响和浓烟，看到窗户飞出",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "俄罗斯紧急部否认4人死亡传闻，称无人伤亡",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "专家团队在红场附近现场调查",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_5",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "普京下令尽快调查事件",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "叶利钦对爆炸表示愤怒并慰问",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "",
+      "description": "加强红场和克里姆林宫周边安保",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "消防部门疏散商场，顾客逃离",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_9",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "安全局称炸弹在地面炸出坑洞",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "市长猜测可能是车臣分离主义分子所为",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "BBC记者推测事件与总统府邻近有关",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "媒体称受害者可能卷入商业争斗",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "Luzhkov称炸弹投放者为'野兽'",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_14",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "",
+      "description": "马涅什购物中心为1997年莫斯科850周年庆典项目",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "今年莫斯科已发生两次重大爆炸（含4月酒店事件）",
+      "source_text": "text_101"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_101_node_1",
+      "target": "text_101_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_2",
+      "target": "text_101_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_3",
+      "target": "text_101_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_4",
+      "target": "text_101_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_5",
+      "target": "text_101_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_5",
+      "target": "text_101_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_5",
+      "target": "text_101_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_8",
+      "target": "text_101_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_9",
+      "target": "text_101_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_9",
+      "target": "text_101_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_9",
+      "target": "text_101_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_10",
+      "target": "text_101_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_13",
+      "target": "text_101_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_14",
+      "target": "text_101_node_15",
+      "relation": "before"
+    }
+  ]
+}

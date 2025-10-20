@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "id": "text_53_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周二在 Tikrit 的警察招募站发生自杀式爆炸袭击，造成至少50人死亡",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周三上午在 Baquba 的警察局发生卡车冲撞爆炸事件，导致12人死亡、50人受伤",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊拉克官员呼吁加强安全措施以应对针对警察部队的袭击",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "议员 Mutashar al-Samaraie 批评安全措施不足，要求吸取历史教训",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_5",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "议员 Tariq al-Hashimi 指出招募中心成为易攻击目标，呼吁政策审查",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "The Australian 报道称 Al Qaeda 可能策划了 Tikrit 袭击",
+      "source_text": "text_53"
+    },
+    {
+      "id": "text_53_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "当地议员 Abdullah Jabara 指责 Al Qaeda 并指出安保漏洞被利用",
+      "source_text": "text_53"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_53_node_1",
+      "target": "text_53_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_2",
+      "target": "text_53_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_2",
+      "target": "text_53_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_2",
+      "target": "text_53_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_3",
+      "target": "text_53_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_3",
+      "target": "text_53_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_4",
+      "target": "text_53_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_5",
+      "target": "text_53_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_53_node_6",
+      "target": "text_53_node_7",
+      "relation": "before"
+    }
+  ]
+}

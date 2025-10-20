@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_6_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年10月23日，21名美军士兵在黎巴嫩贝鲁特军营爆炸中丧生，并安葬于阿灵顿国家公墓",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "1989年12月，巴拿马‘正义事业’行动中1名美军士兵（Alejandro Manriquelozano）被安葬于阿灵顿国家公墓",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "1991年4月12日，海军士兵Richard P. Swanson在阿灵顿国家公墓安葬",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "1991年4月18日，空军士兵Dixon L. Walters在阿灵顿国家公墓安葬",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "1991年5月10日，陆军上校David Allen Douthit在阿灵顿国家公墓安葬",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "1991年5月20日，空军上尉Thomas Clifford Bland Jr.在阿灵顿国家公墓安葬",
+      "source_text": "text_6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_3",
+      "target": "text_6_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_6",
+      "relation": "before"
+    }
+  ]
+}

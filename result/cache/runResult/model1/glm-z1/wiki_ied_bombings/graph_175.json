@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_175_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2000年8月1日，菲律宾驻印尼雅加达总领馆外发生爆炸，造成2死21伤",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者称爆炸源于大使座驾进入住宅，警方调查认为实际是停在入口的车辆携带炸弹",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "爆炸导致大使座驾损毁、多辆车辆受损，领馆建筑和印尼选举委员会办公室受损",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "菲律宾政府加强使馆安全措施，总统府承认首次遭遇外交机构爆炸",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "印尼总统称爆炸与菲律宾打击棉兰老岛伊斯兰武装有关，但被莫罗伊斯兰自由阵线否认",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "阿布沙耶夫组织未宣称负责，三年后印尼警方确认十名涉事者属伊斯兰祈祷团",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "主谋里杜安·伊斯迈乌丁被抓获，其策划过2002年巴厘岛爆炸案",
+      "source_text": "text_175"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_175_node_1",
+      "target": "text_175_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_175_node_2",
+      "target": "text_175_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_175_node_3",
+      "target": "text_175_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_175_node_4",
+      "target": "text_175_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_175_node_5",
+      "target": "text_175_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_175_node_6",
+      "target": "text_175_node_7",
+      "relation": "before"
+    }
+  ]
+}

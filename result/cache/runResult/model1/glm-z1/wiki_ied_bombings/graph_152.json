@@ -1,0 +1,139 @@
+{
+  "nodes": [
+    {
+      "id": "text_152_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "chemists 和 pharmaceutical manufacturers 在拉合尔省议会大厦前抗议政府打击非法药品销售",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "DIG Mobin 等警员在抗议现场调解",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "NACTA 在2月7日发布针对拉合尔的恐怖袭击预警",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2月7日抗议期间发生自杀式爆炸，造成至少13人死亡85人受伤",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "6名警察（含2名高级官员）在爆炸中遇难",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_6",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jamat-ul-Ahrar 宣布对袭击负责",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "军警和救援力量（含救护车、消防车）迅速抵达现场",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "拉合尔所有医院进入紧急状态，伤员转移至Mayo和Ganga Ram医院",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦陆军和 Rangers 部署至警戒区，法医团队开始取证",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_10",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "总理Nawaz Sharif谴责袭击并重申反恐决心",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_11",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "COAS Bajwa要求军情部门协助追捕凶手",
+      "source_text": "text_152"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_152_node_1",
+      "target": "text_152_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_3",
+      "target": "text_152_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_4",
+      "target": "text_152_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_4",
+      "target": "text_152_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_4",
+      "target": "text_152_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_4",
+      "target": "text_152_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_7",
+      "target": "text_152_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_9",
+      "target": "text_152_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_10",
+      "target": "text_152_node_11",
+      "relation": "before"
+    }
+  ]
+}

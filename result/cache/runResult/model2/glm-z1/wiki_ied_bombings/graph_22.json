@@ -1,0 +1,177 @@
+{
+  "nodes": [
+    {
+      "id": "text_22_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "高峰时段孟买七列火车发生爆炸，造成714人受伤",
+      "support_text": "The bombs exploded at the height of the rush-hour As bomb squads combed the wrecked carriages, a leading militant group denied it was behind the attacks. The blasts in compartments on seven trains also left 714 people injured.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "炸弹小组检查残骸，激进组织否认责任",
+      "support_text": "Bomb squads combed the wrecked carriages where the seven co-ordinated blasts occurred.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "总理曼莫汉·辛格将发表全国讲话",
+      "support_text": "Prime Minister Manmohan Singh will shortly address the nation.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "铁路部分恢复运营，大量乘客改乘公交车",
+      "support_text": "Much of Mumbai's railways are working again, although many people used buses.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方搜查并拘留嫌疑人，未完成逮捕",
+      "support_text": "Police say they have raided sites in the area and detained suspects for questioning, but made no arrests.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全官员称袭击由主要恐怖组织精心策划",
+      "support_text": "Security officials say it was a well planned operation masterminded by a major terrorist outfit.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "两个恐怖组织Lashkar-e-Toiba和Hizb-ul-Mujahideen否认参与",
+      "support_text": "Lashkar-e-Toiba... rejected suggestions... Hizb-ul-Mujahideen also condemned the blasts.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "超过12小时后，民众仍在医院寻找失踪亲人",
+      "support_text": "More than 12 hours later, many people were still frantically searching for relatives.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "孟买郊区铁路系统在爆炸后关闭，数万人被困",
+      "support_text": "In the immediate aftermath of the blasts the city's entire rail network was shut down, stranding hundreds of thousands of people.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "印度铁路部长宣布受害者赔偿计划",
+      "support_text": "Indian railway minister Laloo Prasad Yadav has announced financial help for the victims.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击是十多年来的最严重，1993年有250人死亡",
+      "support_text": "The attacks are the worst in the city for more than a decade. More than 250 people died in a string of blasts in 1993.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "哈马斯组织谴责七列火车爆炸事件",
+      "support_text": "Hizb-ul-Mujahideen also condemned the blasts.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "印度快报记者Anumeha Yadav向BBC《世界今日》节目报道了截肢事件",
+      "support_text": "印度快报记者Anumeha Yadav向BBC《世界今日》节目报道了截肢事件",
+      "source_text": "text_22"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_2",
+      "relation": "before",
+      "support_text": "Bomb squads combed the wrecked carriages where the seven co-ordinated blasts occurred."
+    },
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_9",
+      "relation": "before",
+      "support_text": "In the immediate aftermath of the blasts the city's entire rail network was shut down."
+    },
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_3",
+      "relation": "before",
+      "support_text": "Prime Minister Manmohan Singh will shortly address the nation."
+    },
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_11",
+      "relation": "before",
+      "support_text": "The attacks are the worst in the city for more than a decade."
+    },
+    {
+      "source": "text_22_node_3",
+      "target": "text_22_node_10",
+      "relation": "before",
+      "support_text": "Indian railway minister Laloo Prasad Yadav has announced financial help."
+    },
+    {
+      "source": "text_22_node_6",
+      "target": "text_22_node_7",
+      "relation": "before",
+      "support_text": "Lashkar-e-Toiba... rejected suggestions... Hizb-ul-Mujahideen also condemned the blasts."
+    },
+    {
+      "source": "text_22_node_6",
+      "target": "text_22_node_12",
+      "relation": "before",
+      "support_text": "Security officials say it was a well planned operation masterminded by a major terrorist outfit. Hizb-ul-Mujahideen also condemned the blasts."
+    },
+    {
+      "source": "text_22_node_9",
+      "target": "text_22_node_5",
+      "relation": "before",
+      "support_text": "Police said they have raided sites in the area and detained suspects for questioning."
+    },
+    {
+      "source": "text_22_node_9",
+      "target": "text_22_node_8",
+      "relation": "before",
+      "support_text": "More than 12 hours later, many people were still frantically searching for relatives."
+    }
+  ]
+}

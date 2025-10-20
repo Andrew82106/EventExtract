@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1992年7月，以色列驻阿根廷大使馆遭汽车炸弹袭击，造成29人死亡，案件未解决",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年7月18日，阿根廷布宜诺斯艾利斯AMIA犹太社区中心遭汽车炸弹袭击，造成80人死亡、200人受伤",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年阿根廷法官Galeano签发逮捕令，指控12名伊朗人涉袭AMIA，包括时任伊朗驻阿大使Soleimanpour",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年伊朗大使Soleimanpour在英被捕，引发伊朗与阿根廷、英国的外交争端，现保释候审",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "当前审判中，德国证人C通过视频指控伊朗误将AMIA当作以色列情报基地实施袭击",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_node_5",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "text_17_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "购物中心管理方在爆炸前两小时收到了炸弹威胁，但决定不疏散大楼。",
+      "support_text": "An employee at the store said that Hipercor had received a bomb threat two hours before the explosion but that the store management had decided not to evacuate the building because it was not the first time a bomb threat had been received.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_2",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Correspondence",
+      "description": "爆炸前五分钟，一家报社收到了自称是ETA组织的电话，警告店内已被放置炸弹。",
+      "support_text": "Five minutes before the blast, the Barcelona newspaper Avui received a warning from a caller claiming to speak for the Basque separatist group ETA that a bomb had been planted at the store.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "下午约4点15分，购物中心地下停车场发生汽车炸弹爆炸，造成重大伤亡。",
+      "support_text": "At least 30 people also were injured when the bomb exploded at about 4:15 p.m. at the Hipercor store in downtown Barcelona, Spain’s second biggest city, 400 miles northeast of Madrid.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸产生的烟雾和火焰阻碍了救援工作，官方担心有更多人被困。",
+      "support_text": "Rescue operations were hampered by smoke and fumes from the parking lot, where several cars went up in flames. Officials feared more people might be trapped in the parking lot.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "警方从现场废墟中找到15具遇难者遗体，并将30名伤者送往医院。",
+      "support_text": "Police said they recovered the bodies of 15 people from the burning rubble. Hospital sources said 30 other people were rushed to two nearby hospitals, and most of the injured were treated for burns and smoke inhalation.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局报道了这起爆炸事件。",
+      "support_text": "authorities said a car bomb exploded... in Spain",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "（据称是ETA）在商店里安放了一颗炸弹。",
+      "support_text": "Five minutes before the blast, the Barcelona newspaper Avui received a warning from a caller claiming to speak for the Basque separatist group ETA that a bomb had been planted at the store.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人将炸弹藏在汽车的后备箱里。",
+      "support_text": "有人将炸弹藏在汽车的后备箱里。",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方没有立即确认这些报道。",
+      "support_text": "警方没有立即确认这些报道。",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "人们开始惊慌地沿街奔跑。",
+      "support_text": "All of a sudden people started running down the street in panic",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "一位目击者描述了人们惊慌奔跑的情景。",
+      "support_text": "一位目击者描述了人们惊慌奔跑的情景。",
+      "source_text": "text_17"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_2",
+      "relation": "before",
+      "support_text": "An employee at the store said that Hipercor had received a bomb threat two hours before the explosion... Five minutes before the blast, the Barcelona newspaper Avui received a warning..."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_3",
+      "relation": "before",
+      "support_text": "Five minutes before the blast, the Barcelona newspaper Avui received a warning... when the bomb exploded at about 4:15 p.m."
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_4",
+      "relation": "before",
+      "support_text": "...when the bomb exploded at about 4:15 p.m... Rescue operations were hampered by smoke and fumes from the parking lot..."
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_6",
+      "relation": "before",
+      "support_text": "The bomb exploded... Authorities then said..."
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_new_node_3",
+      "relation": "before",
+      "support_text": "爆炸（temporal_order 2）发生在警方未确认报道（temporal_order 4）之前。"
+    },
+    {
+      "source": "text_17_node_4",
+      "target": "text_17_node_5",
+      "relation": "before",
+      "support_text": "Rescue operations were hampered by smoke and fumes from the parking lot, where several cars went up in flames. Officials feared more people might be trapped in the parking lot. Police said they recovered the bodies of 15 people from the burning rubble."
+    },
+    {
+      "source": "text_17_new_node_1",
+      "target": "text_17_node_3",
+      "relation": "before",
+      "support_text": "Five minutes before the blast, ... that a bomb had been planted at the store... when the bomb exploded at about 4:15 p.m."
+    },
+    {
+      "source": "text_17_new_node_2",
+      "target": "text_17_node_3",
+      "relation": "before",
+      "support_text": "隐藏炸弹（temporal_order 1）发生在爆炸（temporal_order 2）之前。"
+    },
+    {
+      "source": "text_17_new_node_4",
+      "target": "text_17_new_node_5",
+      "relation": "before",
+      "support_text": "人们奔跑发生在目击者描述之前。"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_161_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "伊拉克宣布费卢杰被完全解放，成为打击ISIS的重要胜利",
+      "source_text": "text_161"
+    },
+    {
+      "id": "text_161_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "伊斯兰国宣称对午夜巴格达卡拉达区自杀式卡车炸弹袭击负责",
+      "source_text": "text_161"
+    },
+    {
+      "id": "text_161_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "卡车炸弹在凌晨卡拉达区商业街爆炸，造成115死187伤",
+      "source_text": "text_161"
+    },
+    {
+      "id": "text_161_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "",
+      "description": "爆炸导致购物中心内数十人因燃烧或窒息死亡",
+      "source_text": "text_161"
+    },
+    {
+      "id": "text_161_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "至少12人失踪，含15名儿童、10名妇女和6名警察",
+      "source_text": "text_161"
+    },
+    {
+      "id": "text_161_node_6",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "",
+      "description": "消防员和市民在爆炸现场处理伤亡，目击烧毁车辆和摊位",
+      "source_text": "text_161"
+    },
+    {
+      "id": "text_161_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "卡拉达区女性群体在路边哭泣寻找失踪亲人",
+      "source_text": "text_161"
+    },
+    {
+      "id": "text_161_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "巴格达沙布社区发生路边炸弹袭击，致5死16伤",
+      "source_text": "text_161"
+    },
+    {
+      "id": "text_161_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "两起袭击后医疗官员确认总伤亡数字",
+      "source_text": "text_161"
+    },
+    {
+      "id": "text_161_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "官员匿名透露伤亡统计及事件背景信息",
+      "source_text": "text_161"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_161_node_1",
+      "target": "text_161_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_161_node_2",
+      "target": "text_161_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_161_node_3",
+      "target": "text_161_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_161_node_4",
+      "target": "text_161_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_161_node_5",
+      "target": "text_161_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_161_node_6",
+      "target": "text_161_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_161_node_7",
+      "target": "text_161_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_161_node_8",
+      "target": "text_161_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_161_node_9",
+      "target": "text_161_node_10",
+      "relation": "before"
+    }
+  ]
+}

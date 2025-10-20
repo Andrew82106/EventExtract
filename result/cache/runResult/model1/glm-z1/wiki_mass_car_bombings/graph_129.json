@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "id": "text_129_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1995年4月19日，美国俄克拉荷马城阿尔弗雷德·P·默拉联邦大楼遭遇汽车炸弹爆炸",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_2",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "爆炸造成167人当场死亡、853人受伤，并导致1名志愿者护士因落石二次受伤死亡",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_3",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "爆炸使大楼北面坍塌成废墟，9层楼逐层 pancaking 倒塌，1/3建筑损毁",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_4",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "爆炸波及324栋周边建筑，引发50街区范围的车辆颠覆、火灾和门窗损毁",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_5",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "爆炸震动半径达55英里，里氏震级6.0，19名儿童（含托儿所幼儿）在坍塌中遇难",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_6",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "30名儿童成为孤儿，219名儿童失去父母，400人无家可归",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_7",
+      "event_type": "Control",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "爆炸导致7000人失业，爆炸时现场有16000人",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_8",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "360000名俄克拉荷马州居民与爆炸直接相关工作者有个人联系",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_9",
+      "event_type": "Life",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "16天救援行动对执法、消防及救援人员造成严重心理创伤",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_10",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "爆炸时大楼内设有19个联邦机构及美国儿童发展中心",
+      "source_text": "text_129"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_129_node_1",
+      "target": "text_129_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_1",
+      "target": "text_129_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_1",
+      "target": "text_129_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_1",
+      "target": "text_129_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_2",
+      "target": "text_129_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_3",
+      "target": "text_129_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_5",
+      "target": "text_129_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_6",
+      "target": "text_129_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_7",
+      "target": "text_129_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_8",
+      "target": "text_129_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_129_node_10",
+      "target": "text_129_node_1",
+      "relation": "before"
+    }
+  ]
+}

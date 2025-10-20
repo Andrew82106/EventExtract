@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2000年8月1日，一枚炸弹在雅加达的菲律宾大使官邸外被引爆。",
+      "support_text": "A bomb was detonated outside the official residence of the Philippine ambassador to Indonesia, Leonides Caday,",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致两名平民死亡，包括大使在内的21人受伤。",
+      "support_text": "killing two people and injuring 21 others. Those killed were a female street vendor and a guard to the official residence. Caday was treated in hospital for head and hand injuries.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方对炸弹来源展开调查，提出了与目击者不同的理论。",
+      "support_text": "Some witnesses suggested the 12:30 p.m. blast came from the envoy's vehicle and detonated as it entered the residence on Imam Bonjol Street. However, police investigators theorized that another car parked near the entrance contained the bomb, which was detonated as the ambassador's Mercedes entered his driveway.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "菲律宾政府回应称这是其外交机构首次遭袭，并加强了使馆安保。",
+      "support_text": "In response Alexander Aguirre, national security adviser to then President Joseph Estrada, stated the bombing was the first time a Philippine diplomatic post had been bombed and that the Philippine government \"didn't expect that to happen.\" Security at the Philippine Embassy in Jakarta, also located on Imam Bonjol Street, was tightened as a result.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印尼总统认为爆炸与菲律宾打击伊斯兰叛乱分子有关，但相关组织均否认。",
+      "support_text": "Then Indonesian President Abdurrahman Wahid stated he believed the bombing was linked to the Philippine government's efforts to combat Islamist rebel groups in Mindanao, however the Moro Islamic Liberation Front released a statement denying it had set the bomb. Abu Sayyaf, another group opposed to the Philippine government, did not claim responsibility either.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "近三年后，印尼警方确定了伊斯兰祈祷团的十名嫌疑成员。",
+      "support_text": "Almost three years later Indonesian police identified ten suspects, most known members of regional terrorist group Jemaah Islamiyah, as suspects in the investigation.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "被捕的恐怖分子Riduan Isamuddin被怀疑策划并资助了此次袭击。",
+      "support_text": "The now apprehended Riduan Isamuddin, chief organiser of the 2002 Bali nightclub bombings among others, is suspected of planning and financing the attack.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "另一辆车停在入口附近。",
+      "support_text": "another car parked near the entrance",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "汽车载着菲律宾驻印尼大使。",
+      "support_text": "The car carrying the Philippine ambassador to Indonesia",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "特使的车辆进入住所。",
+      "support_text": "it (the envoy's vehicle) entered the residence",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "大使的奔驰车驶入车道。",
+      "support_text": "the ambassador's Mercedes entered his driveway",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "载有大使的汽车被摧毁。",
+      "support_text": "The car carrying the Philippine ambassador to Indonesia was destroyed",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "官邸的一侧和印尼国家选举委员会办公室遭到中度破坏。",
+      "support_text": "A wing of the official residence and the office of Indonesia's national electoral commission were moderately damaged",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "摩洛伊斯兰解放阵线安放了炸弹。",
+      "support_text": "it had set the bomb",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "A bomb was detonated outside the official residence of the Philippine ambassador to Indonesia, Leonides Caday, killing two people and injuring 21 others."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "A bomb was detonated... Some witnesses suggested the 12:30 p.m. blast... However, police investigators theorized..."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "In response Alexander Aguirre, national security adviser to then President Joseph Estrada, stated the bombing was the first time a Philippine diplomatic post had been bombed..."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "Then Indonesian President Abdurrahman Wahid stated he believed the bombing was linked to the Philippine government's efforts to combat Islamist rebel groups in Mindanao..."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "Almost three years later Indonesian police identified ten suspects... as suspects in the investigation."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_new_node_12",
+      "relation": "before",
+      "support_text": "A bomb was detonated outside the official residence... The car carrying the Philippine ambassador to Indonesia was destroyed"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_new_node_13",
+      "relation": "before",
+      "support_text": "A bomb was detonated outside the official residence... A wing of the official residence and the office of Indonesia's national electoral commission were moderately damaged"
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "police investigators theorized that another car parked near the entrance contained the bomb... Almost three years later Indonesian police identified ten suspects..."
+    },
+    {
+      "source": "text_2_node_6",
+      "target": "text_2_node_7",
+      "relation": "before",
+      "support_text": "Almost three years later Indonesian police identified ten suspects... The now apprehended Riduan Isamuddin... is suspected of planning and financing the attack."
+    },
+    {
+      "source": "text_2_new_node_8",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "another car parked near the entrance contained the bomb, which was detonated as the ambassador's Mercedes entered his driveway."
+    },
+    {
+      "source": "text_2_new_node_9",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "The car carrying the Philippine ambassador to Indonesia was destroyed"
+    },
+    {
+      "source": "text_2_new_node_10",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "Some witnesses suggested the 12:30 p.m. blast came from the envoy's vehicle and detonated as it entered the residence"
+    },
+    {
+      "source": "text_2_new_node_11",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "police investigators theorized that another car parked near the entrance contained the bomb, which was detonated as the ambassador's Mercedes entered his driveway"
+    },
+    {
+      "source": "text_2_new_node_14",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "the Moro Islamic Liberation Front released a statement denying it had set the bomb"
+    }
+  ]
+}

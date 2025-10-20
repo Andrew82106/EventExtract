@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_136_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年3月7日伊拉克举行议会选举，但政府尚未成立",
+      "source_text": "text_136"
+    },
+    {
+      "id": "text_136_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年5月政府数据显示337人死于军事袭击",
+      "source_text": "text_136"
+    },
+    {
+      "id": "text_136_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2010年6月7日迪亚拉省穆克达迪亚发生摩托车炸弹袭击，造成2死5伤",
+      "source_text": "text_136"
+    },
+    {
+      "id": "text_136_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "袭击后专家警告政治真空可能引发更多针对平民的袭击",
+      "source_text": "text_136"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_136_node_1",
+      "target": "text_136_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_136_node_2",
+      "target": "text_136_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_136_node_3",
+      "target": "text_136_node_4",
+      "relation": "before"
+    }
+  ]
+}

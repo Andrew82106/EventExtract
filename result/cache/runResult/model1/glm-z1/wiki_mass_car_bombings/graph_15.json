@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "id": "text_15_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式袭击者携带指甲和炸药在巴格达征兵中心等待数小时",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "7:30 a.m.袭击者引爆炸弹导致61人死亡、100余人受伤",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "幸存者描述爆炸现场肢体碎片和血腥场景",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "军方将事件归咎于伊拉克 AQ 组织",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击成为今年最严重恐袭，质疑伊拉克军队控制力",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "近期针对警察、士兵和法官的袭击频发",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "幸存者冒险返回征兵中心找回血染文件",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_8",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "",
+      "description": "伊拉克民众因就业困难争相参军获取稳定收入",
+      "source_text": "text_15"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_15_node_1",
+      "target": "text_15_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_15_node_2",
+      "target": "text_15_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_15_node_2",
+      "target": "text_15_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_15_node_2",
+      "target": "text_15_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_15_node_3",
+      "target": "text_15_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_15_node_4",
+      "target": "text_15_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_15_node_5",
+      "target": "text_15_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_15_node_6",
+      "target": "text_15_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_15_node_6",
+      "target": "text_15_node_8",
+      "relation": "before"
+    }
+  ]
+}

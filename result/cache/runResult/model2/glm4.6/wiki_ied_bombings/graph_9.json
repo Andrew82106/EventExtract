@@ -1,0 +1,435 @@
+{
+  "nodes": [
+    {
+      "id": "text_9_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2004年马德里通勤高峰时段发生火车爆炸案，造成191人死亡。",
+      "support_text": "...the rush-hour bombings that killed 191 people and left more than 1,800 wounded...",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "西班牙当局最初将爆炸案归咎于巴斯克分离主义分子。",
+      "support_text": "Spanish authorities initially blamed the blasts on Basque separatists, despite evidence of Islamic radical involvement.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_3",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生三天后，现任社会主义政府当选上台。",
+      "support_text": "...the current Socialist government was voted into power three days after the attack.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "新政府迅速将西班牙军队从伊拉克撤回。",
+      "support_text": "The new leaders quickly brought Spain's troops home from Iraq.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "被告拉贝·奥斯曼于2004年6月在意大利被捕。",
+      "support_text": "Osman, who is accused of being one of three men who masterminded the attack, was arrested in Italy in June 2004.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "一项长期调查得出结论，袭击是由一个本土伊斯兰极端主义小组实施的。",
+      "support_text": "The trial marks the culmination of a lengthy probe which concluded the attack was carried out by a homegrown cell of Muslim extremists angry about the then-conservative Spanish government's support for the Iraq war.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_7",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "针对29名被告的审判在高度戒备下开始。",
+      "support_text": "...the trial of 29 defendants began Thursday with emotions running extremely high in a country still coming to grips with the attack.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "第一名被告拉贝·奥斯曼在法庭上否认与袭击有任何关联。",
+      "support_text": "\"I never had any relation to the events which occurred in Madrid,\" he said in Arabic through a translator, adding that he condemned the bombings \"unconditionally and completely.\"",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "预计审判将持续五个多月，并于十月下旬做出判决。",
+      "support_text": "Testimony is expected to last more than five months and a verdict is expected in late October.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "在庭审现场，许多嫌疑人坐在防弹玻璃后，避免或转过身去不看受害者的亲属，情绪紧张。",
+      "support_text": "Many of the suspects sat behind bulletproof glass and avoided looking at the victims' relatives. Some turned their backs.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "一些亲属和幸存者表示难以忍受与被告同处一室，并选择通过闭路电视在另一房间观看庭审。",
+      "support_text": "Some relatives and survivors said they could barely bring themselves to be in the same room as the defendants and chose to watch the proceedings on closed-circuit TV in a separate room.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "一个心理学家小组在庭审后为悲伤的亲属和幸存者提供心理援助。",
+      "support_text": "A team of psychologists was on hand to assist grieving relatives and survivors after the session.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Osman在监听通话中据称吹嘘自己是袭击的幕后主使。",
+      "support_text": "Osman is believed to have boasted in a tapped phone conversation that he was the brains behind it.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "意大利检察官监听了Osman的电话通话。",
+      "support_text": "Italian prosecutors have said they tapped phone conversations involving Osman.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Osman告诉一名同伙，他是通往马德里的线索，这是他的杰作。",
+      "support_text": "In one conversation, he told an associate that he was 'the thread to Madrid' and 'my masterpiece.'",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "意大利检察官曾表示他们监听了Osman的电话通话。",
+      "support_text": "Italian prosecutors have said they tapped phone conversations involving Osman.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rabei Osman拒绝回答检察官的任何问题。",
+      "support_text": "The first defendant to testify, Rabei Osman, refused to answer any questions from prosecutors.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Os曼否认是基地组织或任何其他伊斯兰极端组织的成员。",
+      "support_text": "Osman also denied being a member of al-Qaida or any other Islamic extremist group.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Os曼说他只在清真寺认识其他据称是爆炸案成员的人，仅限于熟人关系。",
+      "support_text": "He said he knew other alleged members of the bombing cell only as acquaintances from a mosque.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "西班牙在1930年代发生内战。",
+      "support_text": "该动词事件描述的背景信息",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_21",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "西班牙电视台全天重播了尸体袋和扭曲火车车厢的画面。",
+      "support_text": "该动词事件描述的背景信息",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "西班牙人认为（该回忆所指向的事件）是国家自1930年代内战以来最创伤的事件。",
+      "support_text": "该动词事件描述的背景信息",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "法庭传唤约100名专家和600名证人作证。",
+      "support_text": "The trial is expected to call some 100 experts and 600 witnesses.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_24",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "因恐怖主义定罪的人开始服刑。",
+      "support_text": "Anyone convicted on a terrorism charge would have to serve the time.",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "该小组受到了基地组织的启发。",
+      "support_text": "该小组受到了基地组织的启发。",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_26",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "该小组没有收到来自奥萨马·本·拉登恐怖组织的资助。",
+      "support_text": "该小组没有收到来自奥萨马·本·拉登恐怖组织的资助。",
+      "source_text": "text_9"
+    },
+    {
+      "id": "text_9_new_node_27",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局的指责行为导致了对其掩盖真相的指控。",
+      "support_text": "This led to charges of a cover-up.",
+      "source_text": "text_9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_2",
+      "relation": "before",
+      "support_text": "Spanish authorities initially blamed the blasts on Basque separatists, despite evidence of Islamic radical involvement."
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_3",
+      "relation": "before",
+      "support_text": "...the current Socialist government was voted into power three days after the attack."
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_node_5",
+      "relation": "before",
+      "support_text": "Osman, who is accused of being one of three men who masterminded the attack, was arrested in Italy in June 2004."
+    },
+    {
+      "source": "text_9_node_1",
+      "target": "text_9_new_node_21",
+      "relation": "before",
+      "support_text": "爆炸案发生后，电视台开始重播相关画面。"
+    },
+    {
+      "source": "text_9_node_2",
+      "target": "text_9_node_6",
+      "relation": "before",
+      "support_text": "The trial marks the culmination of a lengthy probe which concluded the attack was carried out by a homegrown cell of Muslim extremists..."
+    },
+    {
+      "source": "text_9_node_2",
+      "target": "text_9_new_node_27",
+      "relation": "before",
+      "support_text": "当局的指责行为先于并导致了掩盖真相的指控。"
+    },
+    {
+      "source": "text_9_node_3",
+      "target": "text_9_node_4",
+      "relation": "before",
+      "support_text": "The new leaders quickly brought Spain's troops home from Iraq."
+    },
+    {
+      "source": "text_9_node_5",
+      "target": "text_9_node_7",
+      "relation": "before",
+      "support_text": "Nearly three years after the rush-hour bombings that killed 191 people and left more than 1,800 wounded, the trial of 29 defendants began Thursday..."
+    },
+    {
+      "source": "text_9_node_5",
+      "target": "text_9_new_node_14",
+      "relation": "before",
+      "support_text": "Osman was arrested in June 2004; the tapped conversations are part of the evidence leading to the trial."
+    },
+    {
+      "source": "text_9_node_6",
+      "target": "text_9_node_7",
+      "relation": "before",
+      "support_text": "The trial marks the culmination of a lengthy probe which concluded the attack was carried out by a homegrown cell of Muslim extremists..."
+    },
+    {
+      "source": "text_9_node_7",
+      "target": "text_9_node_8",
+      "relation": "before",
+      "support_text": "The first defendant to testify, Rabei Osman, refused to answer any questions from prosecutors."
+    },
+    {
+      "source": "text_9_node_7",
+      "target": "text_9_node_9",
+      "relation": "before",
+      "support_text": "Testimony is expected to last more than five months and a verdict is expected in late October."
+    },
+    {
+      "source": "text_9_node_7",
+      "target": "text_9_new_node_10",
+      "relation": "before",
+      "support_text": "The trial of 29 defendants began... Many of the suspects sat behind bulletproof glass..."
+    },
+    {
+      "source": "text_9_node_7",
+      "target": "text_9_new_node_11",
+      "relation": "before",
+      "support_text": "The trial of 29 defendants began... Some relatives and survivors said they could barely bring themselves to be in the same room..."
+    },
+    {
+      "source": "text_9_node_7",
+      "target": "text_9_new_node_17",
+      "relation": "before",
+      "support_text": "The trial began, and the first defendant, Osman, refused to answer questions."
+    },
+    {
+      "source": "text_9_node_7",
+      "target": "text_9_new_node_23",
+      "relation": "before",
+      "support_text": "审判开始后，进入传唤证人作证的阶段。"
+    },
+    {
+      "source": "text_9_node_9",
+      "target": "text_9_new_node_24",
+      "relation": "before",
+      "support_text": "判决做出后，定罪的人才开始服刑。"
+    },
+    {
+      "source": "text_9_new_node_10",
+      "target": "text_9_new_node_12",
+      "relation": "before",
+      "support_text": "Many of the suspects sat behind bulletproof glass... A team of psychologists was on hand to assist grieving relatives and survivors after the session."
+    },
+    {
+      "source": "text_9_new_node_11",
+      "target": "text_9_new_node_12",
+      "relation": "before",
+      "support_text": "Some relatives and survivors said they could barely bring themselves to be in the same room... A team of psychologists was on hand to assist grieving relatives and survivors after the session."
+    },
+    {
+      "source": "text_9_new_node_14",
+      "target": "text_9_new_node_13",
+      "relation": "before",
+      "support_text": "The boasting occurred during the tapped phone conversations."
+    },
+    {
+      "source": "text_9_new_node_14",
+      "target": "text_9_new_node_15",
+      "relation": "before",
+      "support_text": "The conversation where he told an associate was part of the tapped communications."
+    },
+    {
+      "source": "text_9_new_node_16",
+      "target": "text_9_node_7",
+      "relation": "before",
+      "support_text": "Prosecutors' statements about the tapped calls were made before the trial began."
+    },
+    {
+      "source": "text_9_new_node_17",
+      "target": "text_9_node_8",
+      "relation": "before",
+      "support_text": "After refusing to answer questions, Osman made a statement denying involvement in the attack."
+    },
+    {
+      "source": "text_9_new_node_17",
+      "target": "text_9_new_node_18",
+      "relation": "before",
+      "support_text": "As part of his testimony, after refusing questions, he also denied extremist group membership."
+    },
+    {
+      "source": "text_9_new_node_17",
+      "target": "text_9_new_node_19",
+      "relation": "before",
+      "support_text": "He also explained his relationship with other alleged members after refusing to answer questions."
+    },
+    {
+      "source": "text_9_new_node_20",
+      "target": "text_9_node_1",
+      "relation": "before",
+      "support_text": "1930年代的内战早于2004年的火车爆炸案。"
+    },
+    {
+      "source": "text_9_new_node_20",
+      "target": "text_9_new_node_22",
+      "relation": "before",
+      "support_text": "内战是公众评价事件创伤程度的历史参照。"
+    },
+    {
+      "source": "text_9_new_node_21",
+      "target": "text_9_new_node_22",
+      "relation": "before",
+      "support_text": "媒体的重播影响了公众对该事件的看法和认知。"
+    },
+    {
+      "source": "text_9_new_node_23",
+      "target": "text_9_node_9",
+      "relation": "before",
+      "support_text": "证人作证是审判过程中的一个环节，之后会做出判决。"
+    },
+    {
+      "source": "text_9_new_node_25",
+      "target": "text_9_new_node_26",
+      "relation": "before",
+      "support_text": "根据temporal_order，事件1(inspire)发生在事件2(receive)之前。"
+    },
+    {
+      "source": "text_9_new_node_26",
+      "target": "text_9_node_6",
+      "relation": "before",
+      "support_text": "根据temporal_order，事件2(receive)发生在事件5(say)之前，而事件5由node_6体现。"
+    }
+  ]
+}

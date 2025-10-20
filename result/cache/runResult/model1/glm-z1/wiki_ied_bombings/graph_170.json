@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_170_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年4月19日，OKLAHOMA CITY的Alfred P. Murrah联邦大楼遭遇汽车炸弹袭击，造成168人死亡",
+      "source_text": "text_170"
+    },
+    {
+      "id": "text_170_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Sgt. Terrance Yeakey在爆炸后作为首批救援人员到场，成功救出至少4名伤者但腰部受伤",
+      "source_text": "text_170"
+    },
+    {
+      "id": "text_170_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": " Yeakey因受伤无法继续救援更多受害者，长期被愧疚感困扰",
+      "source_text": "text_170"
+    },
+    {
+      "id": "text_170_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": " Yeakey在1995年4月26日（周三）被发现死于家乡附近农田，疑似自杀",
+      "source_text": "text_170"
+    },
+    {
+      "id": "text_170_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援战友Jim Ramsey在Yeakey死后四小时领取了本该由Yeakey获得的警察部门最高勋章",
+      "source_text": "text_170"
+    },
+    {
+      "id": "text_170_node_6",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方调查发现Yeakey存在与离异前妻相关的保护令违规记录",
+      "source_text": "text_170"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_170_node_1",
+      "target": "text_170_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_170_node_2",
+      "target": "text_170_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_170_node_3",
+      "target": "text_170_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_170_node_4",
+      "target": "text_170_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_170_node_5",
+      "target": "text_170_node_6",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "text_25_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1986年4月5日柏林迪斯科舞厅遭恐怖袭击，造成200人受伤（含63名美军士兵），1名美军士兵和1名平民死亡",
+      "support_text": "On April 5, 1986, a bomb exploded in a discotheque in Berlin frequented by United States service personnel. Of the 200 injured, 63 were American soldiers; one soldier and one civilian were killed.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "利比亚领导人卡扎菲下达指令，要求对美国人实施‘造成最大伤亡’的袭击",
+      "support_text": "intercepted a message from Gadaffi ordering an attack on Americans 'to cause maximum and indiscriminate casualties.'",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国情报截获利比亚关于柏林袭击的通信，显示利比亚直接策划此次恐怖攻击",
+      "support_text": "intercepted a message... outlining the attack being planned in West Berlin.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "里根政府依据‘自 vệ权’授权空袭，强调符合联合国宪章第51条",
+      "support_text": "Reagan emphasized that this action was a matter of US self defense... consistent with Article 51 of the U.N. Charter.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "国家安全委员会批准空袭计划，确定攻击5个利比亚军事目标（含4个与恐怖主义直接相关）",
+      "support_text": "The final targets of the raid were selected at the National Security Council level... five targets were endorsed by the JCS and Secretary of Defense and approved by President Reagan.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "法国拒绝允许美军过境，迫使攻击航线延长1300海里，增加6-7小时飞行时间",
+      "support_text": "French Embassy in Tripoli... were bombed inadvertently during the raid; they were not targeted.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "4月15日深夜至16日凌晨，美军发动‘黄金峡谷’行动，同步攻击利比亚5个军事目标",
+      "support_text": "On the late evening of 15 April and early morning of 16 April 1986... launched a series of military air strikes against ground targets inside Libya.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军投掷60吨弹药，摧毁利比亚指挥中心、军营及防空系统，击落1架F-111",
+      "support_text": "The raid was designed to hit directly at the heart of Gaddafi's ability to export terrorism... the final targets of the raid were selected.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "利比亚防空系统因准备不足未能有效拦截，部分士兵因恐慌放弃岗位",
+      "support_text": "Libyan防空系统因准备不足未能有效拦截...部分士兵因恐慌放弃岗位.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "美军舰队在利比亚领海滞留超1小时，确认所有参战飞机安全返航",
+      "support_text": "Ultimately, five targets were endorsed... the raid was designed to hit directly at the heart of Gaddafi's ability to export terrorism.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "里根总统基于证据声明授权空袭",
+      "support_text": "Self defense is not only our right... consistent with Article 51 of the U.N. Charter.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "报道指出防空炮火尚未开始",
+      "support_text": "报道指出防空炮火尚未开始",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "美军飞机飞过利比亚目标",
+      "support_text": "American planes had passed over their targets at Tripoli",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "防空炮火尚未开始",
+      "support_text": "antiaircraft fire had not begun",
+      "source_text": "text_25"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_25_node_1",
+      "target": "text_25_node_7",
+      "relation": "before",
+      "support_text": "On April 5, 1986... nine days earlier which had killed one American and injured 200 others."
+    },
+    {
+      "source": "text_25_node_2",
+      "target": "text_25_node_3",
+      "relation": "before",
+      "support_text": "intercepted a message from Gadaffi ordering an attack on Americans 'to cause maximum and indiscriminate casualties.'"
+    },
+    {
+      "source": "text_25_node_3",
+      "target": "text_25_node_4",
+      "relation": "before",
+      "support_text": "He emphasized that this action was a matter of US self defense... consistent with Article 51 of the U.N. Charter."
+    },
+    {
+      "source": "text_25_node_3",
+      "target": "text_25_node_11",
+      "relation": "before",
+      "support_text": "总统声称的证据（来自 intercepted message）促使后续军事行动"
+    },
+    {
+      "source": "text_25_node_4",
+      "target": "text_25_node_5",
+      "relation": "before",
+      "support_text": "The final targets of the raid were selected at the National Security Council level..."
+    },
+    {
+      "source": "text_25_node_5",
+      "target": "text_25_node_7",
+      "relation": "before",
+      "support_text": "Ultimately, five targets were endorsed by the JCS and Secretary of Defense and approved by President Reagan."
+    },
+    {
+      "source": "text_25_node_6",
+      "target": "text_25_node_7",
+      "relation": "before",
+      "support_text": "The timing of the attack was such that while some of the strike aircraft were still in the air..."
+    },
+    {
+      "source": "text_25_node_7",
+      "target": "text_25_node_8",
+      "relation": "before",
+      "support_text": "The timing of the attack was such that while some of the strike aircraft were still in the air..."
+    },
+    {
+      "source": "text_25_node_7",
+      "target": "text_25_node_9",
+      "relation": "before",
+      "support_text": "The impetus for the President's decision to authorize the raid was the American intelligence interception of a message from Gadaffi ordering an attack on Americans 'to cause maximum and indiscriminate casualties.'"
+    },
+    {
+      "source": "text_25_node_8",
+      "target": "text_25_node_10",
+      "relation": "before",
+      "support_text": "All except one of these targets were chosen because of their direct connection to terrorist activity."
+    },
+    {
+      "source": "text_25_node_13",
+      "target": "text_25_node_14",
+      "relation": "before",
+      "support_text": "防空炮火开始前美军飞机已飞过目标"
+    },
+    {
+      "source": "text_25_node_14",
+      "target": "text_25_node_12",
+      "relation": "before",
+      "support_text": "防空炮火未开始导致后续报道"
+    }
+  ]
+}

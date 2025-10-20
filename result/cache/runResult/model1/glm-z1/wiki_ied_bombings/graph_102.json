@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_102_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1993年世贸中心爆炸事件引发美国反恐讨论",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年Oklahoma City Murrah联邦大楼爆炸事件",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Frank Cilluffo指出国内恐怖主义威胁取代海外威胁关注",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mark Potok揭示美国反恐认知从阿拉伯恐怖主义转向国内极端主义",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "FBI新增500名反恐调查员及全美执法机构成立国内反恐部门",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "反恐焦点从海外组织转向反政府民兵组织",
+      "source_text": "text_102"
+    },
+    {
+      "id": "text_102_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "麦凯恩作为独狼式恐怖分子的案例引发政策反思",
+      "source_text": "text_102"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_102_node_1",
+      "target": "text_102_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_102_node_2",
+      "target": "text_102_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_102_node_3",
+      "target": "text_102_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_102_node_4",
+      "target": "text_102_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_102_node_5",
+      "target": "text_102_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_102_node_6",
+      "target": "text_102_node_7",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "text_153_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Breivik于2011年5月订购六吨化肥用于制造炸弹",
+      "source_text": "text_153"
+    },
+    {
+      "id": "text_153_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Breivik在奥斯陆政府区引爆自制炸弹",
+      "source_text": "text_153"
+    },
+    {
+      "id": "text_153_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Breivik伪装成警察在尤特亚岛枪击劳动党青少年夏令营",
+      "source_text": "text_153"
+    },
+    {
+      "id": "text_153_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "至少85名青少年在枪击中死亡，幸存者描述凶手追击过程",
+      "source_text": "text_153"
+    },
+    {
+      "id": "text_153_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "",
+      "description": "Breivik被捕时尤特亚岛仍在搜救失踪者",
+      "source_text": "text_153"
+    },
+    {
+      "id": "text_153_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "警方确认凶手单独作案，但调查是否存在第二人",
+      "source_text": "text_153"
+    },
+    {
+      "id": "text_153_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "挪威总理宣布与外国情报机构合作调查国际关联",
+      "source_text": "text_153"
+    },
+    {
+      "id": "text_153_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "Breivik在多个网站发布极端主义文章，提及与极右组织交流",
+      "source_text": "text_153"
+    },
+    {
+      "id": "text_153_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "Breivik被披露为前保守党成员，极端仇视多元文化",
+      "source_text": "text_153"
+    },
+    {
+      "id": "text_153_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "幸存者证实凶手使用精确战术制造大规模伤亡",
+      "source_text": "text_153"
+    },
+    {
+      "id": "text_153_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "VG媒体引用Breivik朋友证实其极端思想转变时间线",
+      "source_text": "text_153"
+    },
+    {
+      "id": "text_153_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "警方在岛屿及周边持续发现更多遇难者遗体",
+      "source_text": "text_153"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_153_node_1",
+      "target": "text_153_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_153_node_2",
+      "target": "text_153_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_153_node_3",
+      "target": "text_153_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_153_node_4",
+      "target": "text_153_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_153_node_5",
+      "target": "text_153_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_153_node_6",
+      "target": "text_153_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_153_node_8",
+      "target": "text_153_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_153_node_9",
+      "target": "text_153_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_153_node_10",
+      "target": "text_153_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_153_node_11",
+      "target": "text_153_node_12",
+      "relation": "before"
+    }
+  ]
+}

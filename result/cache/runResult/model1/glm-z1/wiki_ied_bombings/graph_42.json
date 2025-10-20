@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_42_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2013年5月11日雷伊汉利镇发生两次汽车炸弹袭击，造成52人死亡",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_2",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其指控叙利亚政府支持团体实施2013年爆炸事件",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其对策划2013年爆炸的Yusuf Nazik判处终身监禁",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其加强900公里边境管控以应对2013年后安全威胁",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2023年5月12日雷伊汉利镇发生汽车爆炸，致3名叙利亚人死亡",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "初步调查显示爆炸系车内炸弹引爆，可能涉恐",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查发现车上有疑似伊斯兰国关联的自杀式袭击者",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "雷伊汉利镇作为叙利亚难民聚集地面临安全挑战",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_9",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致1名伤者，涉事人员正接受反恐调查",
+      "source_text": "text_42"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_42_node_1",
+      "target": "text_42_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_3",
+      "target": "text_42_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_4",
+      "target": "text_42_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_5",
+      "target": "text_42_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_5",
+      "target": "text_42_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_5",
+      "target": "text_42_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_6",
+      "target": "text_42_node_7",
+      "relation": "before"
+    }
+  ]
+}

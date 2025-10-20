@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "text_18_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "喀布尔Puli Mahmood Khan社区发生汽车炸弹袭击，造成至少93人受伤",
+      "support_text": "Taliban detonated a powerful car bomb in an area of Kabul housing military and government buildings",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子冲入目标建筑引发与阿富汗特种部队的枪战，战斗持续近7小时",
+      "support_text": "gunmen storming a building and triggering a gun battle with special forces",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_3",
+      "event_type": "Medical",
+      "event_subtype": "Diagnosis",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗卫生部确认1人死亡93人受伤，其中50名儿童伤势较重",
+      "support_text": "health ministry said at least one person had been killed and 93 wounded",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "五所学校部分受损，教育部呼吁保障师生安全",
+      "support_text": "five schools had been partially damaged",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "社交媒体流传医院内受伤儿童仍持课本的照片",
+      "support_text": "social media images purportedly taken at a hospital showed wounded children",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_6",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班宣称袭击针对国防部大楼并致人伤亡",
+      "support_text": "Taliban claimed the attack targeted a defence ministry building",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗特种部队击毙至少2名袭击者并解救210名平民",
+      "support_text": "Afghan forces and ambulances blocked off the area and rescued 210 civilians",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_8",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shamshad电视台办公室受损，7名记者受伤",
+      "support_text": "Shamshad TV station... damage to its offices",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国与塔利班在卡塔尔重启第三轮谈判",
+      "support_text": "US eyes a breakthrough before Afghanistan's September presidential election",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班拒绝与喀布尔政府谈判，要求先确定外国军撤时间表",
+      "support_text": "Taliban refused to negotiate with Kabul administration",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美方强调所有协议需全部达成才生效",
+      "support_text": "Washington will rush for the exits and allow the militants to return",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "潜在撤军协议包含美国撤军及塔利班反恐承诺",
+      "support_text": "a potential deal would see the US agree to withdraw its troops",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班开始第七轮谈判",
+      "support_text": "Taliban began the seventh round of talks",
+      "source_text": "text_18"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_2",
+      "relation": "before",
+      "support_text": "The rush-hour blast... shook buildings nearly two kilometres away"
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_3",
+      "relation": "before",
+      "support_text": "health ministry said at least one person had been killed"
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_4",
+      "relation": "before",
+      "support_text": "five schools had been partially damaged"
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_6",
+      "relation": "before",
+      "support_text": "Taliban claimed the attack targeted a defence ministry building"
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_8",
+      "relation": "before",
+      "support_text": "Shamshad TV station... damage to its offices"
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_node_7",
+      "relation": "before",
+      "support_text": "gunfire continued... nearly seven hours after the first blast"
+    },
+    {
+      "source": "text_18_node_3",
+      "target": "text_18_node_5",
+      "relation": "before",
+      "support_text": "some social media images purportedly taken at a hospital showed"
+    },
+    {
+      "source": "text_18_node_9",
+      "target": "text_18_node_10",
+      "relation": "before",
+      "support_text": "the attack came just two days after... seventh round of talks"
+    },
+    {
+      "source": "text_18_node_10",
+      "target": "text_18_node_11",
+      "relation": "before",
+      "support_text": "Washington eyes a breakthrough before Afghanistan's September presidential election"
+    },
+    {
+      "source": "text_18_node_11",
+      "target": "text_18_node_12",
+      "relation": "before",
+      "support_text": "a potential deal would see the US agree to withdraw its troops"
+    },
+    {
+      "source": "text_18_node_13",
+      "target": "text_18_node_10",
+      "relation": "before",
+      "support_text": "谈判重启后两日发生袭击事件"
+    }
+  ]
+}

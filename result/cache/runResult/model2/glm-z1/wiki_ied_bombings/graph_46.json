@@ -1,0 +1,246 @@
+{
+  "nodes": [
+    {
+      "id": "text_46_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "1975年3月，Zatikyan向苏联最高苏维埃提交退出国籍声明并交出护照，但未获回复",
+      "support_text": "Zatikyan sent a statement to the Supreme Soviet in which he renounced Soviet citizenship and asked to be given the chance to leave for any non-socialist country. He posted his passport together with the statement.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1977年1月8日，莫斯科地铁发生爆炸事件，当局将事件与持不同政见者关联",
+      "support_text": "On 8 January 1977 an explosion occurred in a Moscow underground train. The authorities immediately tried to link this act of terrorism with dissident activity.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "1977年10月27-30日，Stepanyan住宅遭搜查，Zatikyan无意中目击",
+      "support_text": "On 27 October Stepanyan was seen for the last time at home; on 30 October his flat was searched. During the search Zatikyan happened to drop in.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "1977年11月3日，Zatikyan被捕，同时展开对三人小组的全面搜查和审讯",
+      "support_text": "Zatikyan was arrested on November 3. Rumours immediately started circulating that all three were suspected of attempting to cause an explosion at the Kursk Station in Moscow.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "1977年9月，Zatikyan遭KGB传唤12小时，未提及爆炸相关指控",
+      "support_text": "In September 1977 (a month and a half before his last arrest) Zatikyan was taken to the KGB, who talked to him for about 12 hours, but made no mention of sabotage, explosions or acts of terrorism.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "1978年1月，Sakharov致信勃列日涅夫质疑审判公正性",
+      "support_text": "The Chronicle does not have information about the other two condemned men. It knows only that Akop Stepanyan (b. 1949) and Zaven Bagdasaryan (b. 1954?) were related, and that both were workers.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "1978年12月17日，苏联最高法院刑事法庭秘密审理三人案",
+      "support_text": "The Judicial Board for Criminal Cases of the Supreme Court of the USSR has examined in open session the criminal case against the specially dangerous recidivist S. S. Zatikyan and his two accomplices.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "1979年1月24日，最高法院最终庭审宣判三人死刑",
+      "support_text": "Zatikyan and his accomplices were sentenced to the highest measure of punishment — the death penalty. The sentence was carried out.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "1979年1月26-27日，Zatikyan亲属被KGB传唤至莫斯科受审",
+      "support_text": "It is known that Akop Stepanyan (b. 1949) and Zaven Bagdasaryan (b. 1954?) were related, and that both were workers.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "1979年1月30日，Sakharov获知三人已执行死刑并公开抗议",
+      "support_text": "Sakharov获知三人已执行死刑并公开抗议",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "1979年2月，Dmitry Tyuzhin致信《真理报》为判决辩护，引发舆论争议",
+      "support_text": "The Chronicle does not have information about the other two condemned men.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "1979年2月，Sakharov因该案遭受暴民袭击和电话威胁",
+      "support_text": "Sakharov获知三人已执行死刑并公开抗议",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "1979年2月，莫斯科赫尔辛基小组发表第81号文件谴责秘密审判",
+      "support_text": "The Chronicle does not have information about the other two condemned men.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1978-1979年间通过案卷材料证明Zatikyan等人有罪",
+      "support_text": "通过证人证词、专家报告和其他案卷材料证明被告有罪",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Stepan Zatikyan获得金牌完成学业",
+      "support_text": "Stepan Zatikyan获得金牌完成学业",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "Stepan Zatikyan被录取到亚美尼亚理工学院",
+      "support_text": "Stepan Zatikyan被录取到亚美尼亚理工学院",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "该地下小组发展成立国统一党（NUP）",
+      "support_text": "该地下小组发展成立国统一党（NUP）",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Stepan Zatikyan被指控进行反苏煽动和宣传",
+      "support_text": "Stepan Zatikyan被指控进行反苏煽动和宣传",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_19",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Stepan Zatikyan被判处四年严格监管劳改营",
+      "support_text": "Stepan Zatikyan被判处四年严格监管劳改营",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_5a",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "扎蒂凯扬未参与公民活动",
+      "support_text": "Zatikyan被KGB传唤12小时，未提及爆炸相关指控",
+      "source_text": "text_46"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_46_node_2",
+      "target": "text_46_node_3",
+      "relation": "before",
+      "support_text": "On 31 January 1979 the following report was published: In the Supreme Court of the USSR. The Judicial Board for Criminal Cases of the Supreme Court of the USSR has examined in open session the criminal case against the specially dangerous recidivist S. S. Zatikyan and his two accomplices, charged with causing an explosion in January 1977 in a carriage of the Moscow underground, as a consequence of which there were human victims."
+    },
+    {
+      "source": "text_46_node_3",
+      "target": "text_46_node_4",
+      "relation": "before",
+      "support_text": "During the search Zatikyan happened to drop in. Zatikyan was arrested on November 3."
+    },
+    {
+      "source": "text_46_node_5",
+      "target": "text_46_node_4",
+      "relation": "before",
+      "support_text": "In September 1977 (a month and a half before his last arrest) Zatikyan was taken to the KGB..."
+    },
+    {
+      "source": "text_46_node_7",
+      "target": "text_46_node_8",
+      "relation": "before",
+      "support_text": "The Judicial Board for Criminal Cases of the Supreme Court of the USSR has examined in open session the criminal case against the specially dangerous recidivist S. S. Zatikyan and his two accomplices."
+    },
+    {
+      "source": "text_46_node_7",
+      "target": "text_46_node_14",
+      "relation": "before",
+      "support_text": "审判前调取案卷材料形成指控依据"
+    },
+    {
+      "source": "text_46_node_8",
+      "target": "text_46_node_10",
+      "relation": "before",
+      "support_text": "The sentence was carried out. The three men who were convicted and executed were Stepan Zatikyan, Akop Stepanyan and Zaven Bagdasaryan."
+    },
+    {
+      "source": "text_46_node_8",
+      "target": "text_46_node_9",
+      "relation": "before",
+      "support_text": "The three men who were convicted and executed were Stepan Zatikyan, Akop Stepanyan and Zaven Bagdasaryan."
+    },
+    {
+      "source": "text_46_node_10",
+      "target": "text_46_node_12",
+      "relation": "before",
+      "support_text": "Sakharov获知三人已执行死刑并公开抗议"
+    },
+    {
+      "source": "text_46_node_10",
+      "target": "text_46_node_13",
+      "relation": "before",
+      "support_text": "Sakharov获知三人已执行死刑并公开抗议"
+    },
+    {
+      "source": "text_46_node_14",
+      "target": "text_46_node_8",
+      "relation": "before",
+      "support_text": "证据链完成于死刑判决前"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "id": "text_79_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1993年4月24日上午10:25，伦敦Bishopsgate地区发生恐怖主义炸弹爆炸",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸造成1人死亡、34人受伤，半径500米内建筑受损程度从严重损毁到轻微损坏不等",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "14世纪圣埃德蒙堡教堂（距爆心7米）被完全摧毁",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "作者受Griffiths Cleator and Associates (GCA)委托，参与超过10栋商业建筑的调查与修复",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "对距离爆心11米的A93建筑进行3D非线性行动时程分析",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "对距离爆心75米的B93建筑进行3D准静态分析",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "通过ANSYS有限元分析预测两栋建筑的动态响应并验证分析结果与现场检测的一致性",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "论文系统总结爆炸事件影响、分析方法和有限元建模在结构可靠性评估中的应用价值",
+      "source_text": "text_79"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_79_node_1",
+      "target": "text_79_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_1",
+      "target": "text_79_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_2",
+      "target": "text_79_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_3",
+      "target": "text_79_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_4",
+      "target": "text_79_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_4",
+      "target": "text_79_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_5",
+      "target": "text_79_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_6",
+      "target": "text_79_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_7",
+      "target": "text_79_node_8",
+      "relation": "before"
+    }
+  ]
+}

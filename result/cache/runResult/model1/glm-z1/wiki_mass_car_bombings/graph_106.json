@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_106_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "周四（袭击发生日）发生喀什米尔阿万蒂普拉自杀式袭击，40名印军士兵死亡",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "周五印度总理莫迪谴责袭击并承诺严惩，称将发起外交孤立巴基斯坦行动",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "印度政府正式指控巴基斯坦支持袭击者， Jaish-e-Muhammad宣称对袭击负责",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "美国国务院谴责袭击为恐怖主义行为，要求各国切断恐怖主义支持",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "巴基斯坦否认支持恐怖主义，称领袖Masood Azhar在巴境内但无官方庇护",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "印度全国举行烛光集会悼念遇难者，媒体播放士兵遗属与运棺画面",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "印度启动大选筹备，莫迪以强硬安全政策巩固民族主义政治品牌",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "Jaish-e-Muhammad被美列为恐怖组织，该组织曾策划多起印境内汽车炸弹袭击",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "印度宣布将取消与巴方合作项目，实施经济外交施压措施",
+      "source_text": "text_106"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_106_node_1",
+      "target": "text_106_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_1",
+      "target": "text_106_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_2",
+      "target": "text_106_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_3",
+      "target": "text_106_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_3",
+      "target": "text_106_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_4",
+      "target": "text_106_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_6",
+      "target": "text_106_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_106_node_7",
+      "target": "text_106_node_9",
+      "relation": "before"
+    }
+  ]
+}

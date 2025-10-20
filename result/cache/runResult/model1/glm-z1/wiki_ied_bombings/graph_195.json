@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_195_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2007年Samjhauta Express列车爆炸案造成68人死亡，巴基斯坦内政部长称印度军官Shrikant Purohit雇佣巴基斯坦极端分子实施袭击",
+      "source_text": "text_195"
+    },
+    {
+      "id": "text_195_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查该案的印度调查总监Hemant Karkare在案件调查期间被杀害",
+      "source_text": "text_195"
+    },
+    {
+      "id": "text_195_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦内政部长Rehman Malik多次要求印度提供Shrikant Purohit的详细调查记录但未获回应",
+      "source_text": "text_195"
+    },
+    {
+      "id": "text_195_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "Malik在1月23日通过《黎明报》公开表示愿意与印度就案件证据进行面对面会谈",
+      "source_text": "text_195"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_195_node_1",
+      "target": "text_195_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_195_node_2",
+      "target": "text_195_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_195_node_3",
+      "target": "text_195_node_4",
+      "relation": "before"
+    }
+  ]
+}

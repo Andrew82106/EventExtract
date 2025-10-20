@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_20_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "古勒卜丁·希克马蒂亚尔号召对国际安全援助部队的外国军队发动圣战。",
+      "support_text": "It came shortly after Hekmaytar called for a holy war against the foreign troops of ISAF.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年9月5日，喀布尔发生一起汽车爆炸案，造成重大人员伤亡。",
+      "support_text": "The 2002 Kabul bombing was a car bombing that killed 26 people and wounded 167 on September 5, 2002, in front of the Ministry of Information and Culture building in Kabul, Afghanistan.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸案发生几小时后，哈米德·卡尔扎伊在坎大哈躲过了一次暗杀企图。",
+      "support_text": "Just a few hours after the bombings, Hamid Karzai narrowly survived an assassination attempt by a Taliban member in the city of Kandahar.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_new_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡尔扎伊政府成立了。",
+      "support_text": "the Karzai administration was formed.",
+      "source_text": "text_20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_2",
+      "relation": "before",
+      "support_text": "It came shortly after Hekmaytar called for a holy war against the foreign troops of ISAF."
+    },
+    {
+      "source": "text_20_node_2",
+      "target": "text_20_node_3",
+      "relation": "before",
+      "support_text": "Just a few hours after the bombings, Hamid Karzai narrowly survived an assassination attempt by a Taliban member in the city of Kandahar."
+    },
+    {
+      "source": "text_20_new_node_4",
+      "target": "text_20_node_1",
+      "relation": "before",
+      "support_text": "根据事件的时序逻辑，政府的成立应早于后续的冲突和袭击事件。"
+    }
+  ]
+}

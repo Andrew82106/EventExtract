@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_112_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Via D’Amelio炸弹袭击导致法官Paolo Borsellino及其五名保镖死亡",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_2",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "Caltanissetta检察官办公室根据Gaspare Spatuzza的陈述启动新调查，重审Borsellino案",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "DIA警察执行四项预审拘留令，逮捕Madonia、Tutino、Vitale和Pulci",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Madonia和Tutino因涉嫌爆炸案主要策划被拘留，Vitale因健康问题在诊所接受审讯",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Spatuzza被指控参与爆炸案并协助Madonia和Tutino盗窃Fiat 126汽车",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Vitale被指控提供爆炸物和电子设备，并利用与Borsellino家族的密切关系获取情报",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "Vitale被指控将爆炸车牌照交给Graviano，并协助其使用Regia Corte马厩",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "调查揭示Totò Riina因谈判僵局策划暴力展示，认为Borsellino阻碍谈判进程",
+      "source_text": "text_112"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_112_node_1",
+      "target": "text_112_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_112_node_2",
+      "target": "text_112_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_112_node_3",
+      "target": "text_112_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_112_node_4",
+      "target": "text_112_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_112_node_5",
+      "target": "text_112_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_112_node_6",
+      "target": "text_112_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_112_node_7",
+      "target": "text_112_node_8",
+      "relation": "before"
+    }
+  ]
+}

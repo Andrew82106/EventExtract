@@ -1,0 +1,276 @@
+{
+  "nodes": [
+    {
+      "id": "text_16_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1986年12月17日马德里TWA和British Airways办公室遭炸弹袭击，导致1死27伤",
+      "support_text": "Terrorists bombed a building that houses offices of Trans World Airlines and British Airways and attacked the nearby Alia Royal Jordanian Airline today, killing an elderly Spanish woman and injuring 27 persons, among them an American teen-ager on vacation.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "同日马德里Alia Royal Jordanian Airline办公室遭枪击和手榴弹袭击，警方发现未爆弹",
+      "support_text": "Five minutes after the bomb exploded at British Airways in the busy commercial center of Madrid, gunmen raked the Alia offices 200 yards away with automatic-weapons fire and lobbed two grenades through the shattered plate glass.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹袭击中老年西班牙妇女在购买机票时被炸死",
+      "support_text": "killing an elderly Spanish woman and injured 27 persons, among them an American teen-ager on vacation.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方推测破坏British Airways办公室的炸弹原计划攻击TWA",
+      "support_text": "Police said they believe the intended target of the bomb damaging the British Airways office was TWA.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "贝鲁特匿名来电声称袭击是回应里根总统打击恐怖主义的威胁",
+      "support_text": "In Beirut, an anonymous caller said a group carried out the attack in reply to President Reagan's threat to strike against terrorists.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "劫持TWA客机的劫机者通过西班牙司法系统要求释放两名人质，遭西班牙政府拒绝",
+      "support_text": "The TWA plane hijackers had at one time demanded their release in return for the freedom of the hostages, but the Spanish government... signalled that it 'would not bow to terrorist blackmail' and the demand was dropped.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "西班牙政府于1986年11月拒绝恐怖勒索，导致劫机者撤回人质交换要求",
+      "support_text": "the Spanish government... signalled that it 'would not bow to terrorist blackmail' and the demand was dropped.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "1985年9月袭击利比亚外交官的两名什叶派分子于1986年11月被判处23年监禁",
+      "support_text": "The two Shiites were sentenced last week for the wounding last September of a Libyan diplomat here.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "1985年两次袭击事件：马贝拉餐厅爆炸（18死）和贝鲁特声明事件",
+      "support_text": "Earlier this year, 18 Spaniards were killed in a bomb attack on a restaurant... claimed by Islamic Jihad in a communique from Beirut.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "约旦大使表示不会因恐怖袭击阻碍与国王侯赛因推动的和平倡议",
+      "support_text": "The Jordanian ambassador in Madrid said after the attack on the Alia office that terrorism would 'never deter' Middle East peace initiatives undertaken by King Hussein and the Jordanian government.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "马德里商业区因袭击陷入瘫痪，警方封锁区域三小时未抓获嫌犯",
+      "support_text": "The two attacks brought Madrid to a standstill. Police sealed off the area for three hours in an apparently fruitless search for the assailants.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_12",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "所有袭击者均未被抓获，最后一条提及1985年事件仍无凶手落网",
+      "support_text": "The bombers have not been caught.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "TWA大型红色标志主导建筑外观",
+      "support_text": "美国航空（TWA）的大型红色标志主导外观",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "劫机者签署向记者发布的声明",
+      "support_text": "劫机者签署向记者发布的声明",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "来电者感谢联盟支持",
+      "support_text": "来电者感谢联盟支持",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "联盟协助实施对TWA办公室的轰炸",
+      "support_text": "联盟协助实施对TWA办公室的轰炸",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Correspondence",
+      "description": "路透社引用匿名来电内容",
+      "support_text": "路透社引用匿名来电内容",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_18",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sidney Bridges被飞溅的玻璃割伤",
+      "support_text": "Sidney Bridges被飞溅的玻璃割伤",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sidney Bridges看到轰炸者",
+      "support_text": "Sidney Bridges看到轰炸者",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_20",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "警方对未爆炸的手榴弹进行解除引信处理",
+      "support_text": "警方对未爆炸的手榴弹进行解除引信处理",
+      "source_text": "text_16"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_2",
+      "relation": "before",
+      "support_text": "Five minutes after the bomb exploded at British Airways in the busy commercial center of Madrid, gunmen raked the Alia offices 200 yards away with automatic-weapons fire and lobbed two grenades through the shattered plate glass."
+    },
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_3",
+      "relation": "before",
+      "support_text": "killing an elderly Spanish woman and injured 27 persons, among them an American teen-ager on vacation."
+    },
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_4",
+      "relation": "before",
+      "support_text": "Police said they believe the intended target of the bomb damaging the British Airways office was TWA."
+    },
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_6",
+      "relation": "before",
+      "support_text": "The TWA plane hijackers had at one time demanded their release in return for the freedom of the hostages."
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_10",
+      "relation": "before",
+      "support_text": "The Jordanian ambassador in Madrid said after the attack on the Alia office that terrorism would 'never deter' Middle East peace initiatives."
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_20",
+      "relation": "before",
+      "support_text": "警方发现未爆弹后对其实施解除引信处理"
+    },
+    {
+      "source": "text_16_node_4",
+      "target": "text_16_node_5",
+      "relation": "before",
+      "support_text": "In Beirut, an anonymous caller said a group carried out the attack in reply to President Reagan's threat to strike against terrorists."
+    },
+    {
+      "source": "text_16_node_5",
+      "target": "text_16_node_14",
+      "relation": "before",
+      "support_text": "劫机者签署向记者发布的声明"
+    },
+    {
+      "source": "text_16_node_6",
+      "target": "text_16_node_7",
+      "relation": "before",
+      "support_text": "the Spanish government... signalled that it 'would not bow to terrorist blackmail' and the demand was dropped."
+    },
+    {
+      "source": "text_16_node_7",
+      "target": "text_16_node_10",
+      "relation": "before",
+      "support_text": "The Jordanian ambassador in Madrid said after the attack on the Alia office that terrorism would 'never deter' Middle East peace initiatives."
+    },
+    {
+      "source": "text_16_node_8",
+      "target": "text_16_node_6",
+      "relation": "before",
+      "support_text": "The TWA plane hijackers had at one time demanded their release in return for the freedom of the hostages."
+    },
+    {
+      "source": "text_16_node_9",
+      "target": "text_16_node_12",
+      "relation": "before",
+      "support_text": "Earlier this year, 18 Spaniards were killed in a bomb attack on a restaurant... claimed by Islamic Jihad in a communique from Beirut."
+    },
+    {
+      "source": "text_16_node_11",
+      "target": "text_16_node_12",
+      "relation": "before",
+      "support_text": "The two attacks brought Madrid to a standstill. Police sealed off the area for three hours in an apparently fruitless search for the assailants."
+    },
+    {
+      "source": "text_16_node_14",
+      "target": "text_16_node_15",
+      "relation": "before",
+      "support_text": "来电者感谢联盟支持"
+    },
+    {
+      "source": "text_16_node_19",
+      "target": "text_16_node_18",
+      "relation": "before",
+      "support_text": "Sidney Bridges在观察轰炸者后受到玻璃伤害"
+    }
+  ]
+}

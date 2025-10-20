@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "id": "text_56_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯启动追捕制造多起爆炸事件的恐怖分子，调查范围扩展至高加索和阿拉伯半岛",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯政府寻求西方协助，证据显示需共同应对Wahhabi穆斯林教派威胁",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "车臣政府发言人证实Wahhabi教派通过沙特麦加大学基地向高加索扩散影响力",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "俄军在高加索地区打击进入达吉斯坦的伊斯兰武装力量",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Buinaksk和Pechatniki两城市发生住宅区爆炸，分别造成64和92人死亡",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "自称高加索口音的 caller 向Interfax承认对两起爆炸负责",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "莫斯科Kashirskoye Shosse发生第三次爆炸，导致118人死亡",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_8",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "达吉斯坦解放军（DLA）代表通过Itar-Tass声明报复俄军空袭穆斯林平民",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "车臣领导人Shamil Basayev公开否认参与爆炸，称其风格不伤害平民",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Basayev同伙Amir al-Khattab承认爆炸系报复俄军轰炸达吉斯坦两个Wahhabi村庄",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Khattab被证实与基地组织关联，拥有来自阿富汗、阿尔及利亚等地的武装力量",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Wahhabi教派通过全球宗教机构向高加索扩散意识形态的典型模式被揭示",
+      "source_text": "text_56"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_2",
+      "target": "text_56_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_3",
+      "target": "text_56_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_4",
+      "target": "text_56_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_5",
+      "target": "text_56_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_6",
+      "target": "text_56_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_7",
+      "target": "text_56_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_8",
+      "target": "text_56_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_9",
+      "target": "text_56_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_10",
+      "target": "text_56_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_56_node_11",
+      "target": "text_56_node_12",
+      "relation": "before"
+    }
+  ]
+}

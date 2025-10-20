@@ -1,0 +1,138 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年11月26日，一辆卡车在摩加迪沙的一个市场爆炸，造成20人死亡。",
+      "support_text": "“Absuge was also owner of a second truck that was detonated at a vegetable market in Mogadishu’s Waberi district on Nov. 26, 2016 that killed 20,” a Voice of America journalist Harun Maruf added.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年10月，索马里摩加迪沙发生造成超过500人死亡的自杀式卡车炸弹袭击。",
+      "support_text": "The attacks killed over 500 people according to official records.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "该袭击引发了国际社会的广泛谴责，并凸显了地区反恐的必要性。",
+      "support_text": "The attack drew global condemnation and upped the tempo on the need to defeat terrorism in the Horn of Africa region.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "作为回应，索马里总统法尔马乔访问邻国以寻求反恐支持。",
+      "support_text": "President Farmajo visited neighbouring Ethiopia, Uganda and Djibouti to solicit support in the fight against terrorism.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "摩加迪沙的一家法院因一名男子在袭击中的角色而判处其死刑。",
+      "support_text": "摩加迪沙的一家法院因一名男子在袭击中的角色而判处其死刑。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "罪犯哈桑·阿登·伊萨克当时正在驾驶一辆卡车。",
+      "support_text": "罪犯哈桑·阿登·伊萨克当时正在驾驶一辆卡车。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "没有任何组织声称对这次袭击负责。",
+      "support_text": "没有任何组织声称对这次袭击负责。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府相信是青年党发动了这次袭击。",
+      "support_text": "政府相信是青年党发动了这次袭击。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "他（易卜拉欣·哈桑·阿布苏格）带来了那辆卡车。",
+      "support_text": "他（易卜拉欣·哈桑·阿布苏格）带来了那辆卡车。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "第二个人因其在该事件中的角色被判处了类似的刑罚。",
+      "support_text": "第二个人因其在该事件中的角色被判处了类似的刑罚。",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "Absuge was also owner of a second truck that was detonated at a vegetable market in Mogadishu’s Waberi district on Nov. 26, 2016... A military court in Somalia has sentenced a man to death for involvement in country’s deadliest bombing last October."
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "The attack drew global condemnation and upped the tempo on the need to defeat terrorism in the Horn of Africa region."
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "The attack drew global condemnation and upped the tempo on the need to defeat terrorism in the Horn of Africa region. President Farmajo visited neighbouring Ethiopia, Uganda and Djibouti to solicit support in the fight against terrorism."
+    },
+    {
+      "source": "text_1_new_node_5",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "根据temporal_order，'sentence'事件(3)发生在'tag'事件(4)之前。"
+    },
+    {
+      "source": "text_1_new_node_6",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "罪犯驾驶卡车是卡车爆炸袭击的前置事件。"
+    },
+    {
+      "source": "text_1_new_node_7",
+      "target": "text_1_new_node_8",
+      "relation": "before",
+      "support_text": "根据temporal_order，'claim'事件(2)发生在'believe'事件(4)之前。"
+    },
+    {
+      "source": "text_1_new_node_9",
+      "target": "text_1_new_node_10",
+      "relation": "before",
+      "support_text": "根据temporal_order，'bring'事件(1)发生在'hand'事件(4)之前。"
+    }
+  ]
+}

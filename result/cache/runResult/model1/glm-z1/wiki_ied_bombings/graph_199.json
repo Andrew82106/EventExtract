@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_199_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Taliban detonated a car bomb in Kabul, killing at least three people and injuring many others",
+      "source_text": "text_199"
+    },
+    {
+      "id": "text_199_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Gunmen stormed a government building and engaged in a fierce gun battle with security forces",
+      "source_text": "text_199"
+    },
+    {
+      "id": "text_199_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Many wounded from the attacks were confirmed to be schoolchildren",
+      "source_text": "text_199"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_199_node_1",
+      "target": "text_199_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_199_node_2",
+      "target": "text_199_node_3",
+      "relation": "before"
+    }
+  ]
+}

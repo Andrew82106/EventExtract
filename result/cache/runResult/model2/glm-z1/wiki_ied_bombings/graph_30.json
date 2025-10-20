@@ -1,0 +1,114 @@
+{
+  "nodes": [
+    {
+      "id": "text_30_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "喀布尔Al-Taqwa清真寺在周五祈祷期间发生爆炸",
+      "support_text": "A bomb exploded in a mosque in the Afghan capital, Kabul, during Friday prayers",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致3人死亡（含高级布道者Samiullah Raihan）和20人受伤",
+      "support_text": "killing three people including a senior preacher",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸物被放置在清真寺供桌附近",
+      "support_text": "explosives were apparently placed near the altar of the Al-Taqwa mosque",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "遇袭清真寺位于逊尼派穆斯林为主的社区",
+      "support_text": "The neighborhood where the bombing took place is dominated by Sunni Muslims",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸发生时 dozens of men 正在参加集体礼拜",
+      "support_text": "The explosion hit at a time when dozens of men had gathered for prayers",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "未明确宣称责任的袭击，但塔利班和伊斯兰国被指为惯犯",
+      "support_text": "No group has claimed responsibility for the attack",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "高级布道者Raihan身份：西方支持政府支持者/阿富汗国民宗教委员会成员",
+      "support_text": "He was a supporter of the Western-backed Afghan government which Taliban militants are trying to bring down. He was also a member of the National Ulema Council",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员确认爆炸事件",
+      "support_text": "官员确认爆炸事件",
+      "source_text": "text_30"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_30_node_1",
+      "target": "text_30_node_2",
+      "relation": "before",
+      "support_text": "killing three people including a senior preacher"
+    },
+    {
+      "source": "text_30_node_1",
+      "target": "text_30_node_4",
+      "relation": "before",
+      "support_text": "The neighborhood where the bombing took place is dominated by Sunni Muslims"
+    },
+    {
+      "source": "text_30_node_2",
+      "target": "text_30_node_6",
+      "relation": "before",
+      "support_text": "No group has claimed responsibility for the attack"
+    },
+    {
+      "source": "text_30_node_3",
+      "target": "text_30_node_1",
+      "relation": "before",
+      "support_text": "explosives were apparently placed near the altar of the Al-Taqwa mosque"
+    },
+    {
+      "source": "text_30_node_5",
+      "target": "text_30_node_1",
+      "relation": "before",
+      "support_text": "The explosion hit at a time when dozens of men had gathered for prayers"
+    },
+    {
+      "source": "text_30_node_7",
+      "target": "text_30_node_1",
+      "relation": "before",
+      "support_text": "He was a supporter of the Western-backed Afghan government"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国驻巴基斯坦大使馆于周五谴责Charsadda边防训练营遭恐怖袭击事件",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成大量平民伤亡及多人受伤",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "大使馆向巴基斯坦军方及受害者家属表达哀悼",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "声明强调恐怖分子是巴基斯坦政府和人民的真正敌人",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_node_4",
+      "relation": "before"
+    }
+  ]
+}

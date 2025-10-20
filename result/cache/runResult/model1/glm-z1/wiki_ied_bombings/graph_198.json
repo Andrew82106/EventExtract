@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "id": "text_198_node_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2005年2月14日，黎巴嫩前总理拉菲克·哈里里遇刺身亡，导致国家局势倒退至1980年代暴力冲突水平",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_2",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "2007年5月，联合国安理会通过决议设立黎巴嫩特别刑事法庭",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年11月，联合国任命11名法官，包括4名黎巴嫩籍法官",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年11月，联合国任命第三任调查专员兼特别检察官",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_5",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年1月，黎巴嫩特别刑事法庭计划在荷兰海牙郊区开庭审理",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查发现哈里里遇刺案与叙利亚总统阿萨德及其核心圈成员存在关联",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "潜在指控可能影响叙利亚与以色列和平谈判、阿萨德政权稳定性及中东地缘格局",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国调查引发国际社会对叙利亚政权责任认定及政治博弈的持续关注",
+      "source_text": "text_198"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_198_node_1",
+      "target": "text_198_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_2",
+      "target": "text_198_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_2",
+      "target": "text_198_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_3",
+      "target": "text_198_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_4",
+      "target": "text_198_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_5",
+      "target": "text_198_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_6",
+      "target": "text_198_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_7",
+      "target": "text_198_node_8",
+      "relation": "before"
+    }
+  ]
+}

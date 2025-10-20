@@ -1,0 +1,504 @@
+{
+  "nodes": [
+    {
+      "id": "text_10_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2007年2月18日，萨姆豪塔快车发生爆炸，造成68人死亡。",
+      "support_text": "2007 Samjhauta Express blast that claimed the lives of 68 passengers, mostly Pakistanis",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后，两名目击者描述了据信是安放炸弹的男子的外貌。",
+      "support_text": "After the blast, the description of the man who was believed to have planted the bomb in the ill-fated train was described by two eyewitnesses (Shaukat Ali and Rukhsana).",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2007年3月1日，一名名叫阿兹马特·阿里的巴基斯坦国民在阿塔里边境附近被逮捕。",
+      "support_text": "He was arrested near Attari border by Government Railway Police (GRP) on March 1, 2007 while he was exploring ways to return to Pakistan.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查人员确认阿里与目击者提供的安放炸弹者的描述相符。",
+      "support_text": "Ali matched the description was and this was conveyed to the team which was probing the blast.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2007年3月6日，调查团队向法院申请了对阿里的14天拘留令。",
+      "support_text": "The probe team had on March 6, 2007, sought 14-day custody of Ali.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院批准了该请求，将阿里置于14天的警方拘留之下进行审讯。",
+      "support_text": "The court had at that time sent Ali to 14-day police custody.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "2007年3月20日，在警方声称没有发现证据后，法院批准了阿里的保释。",
+      "support_text": "on March 20, when Ali’s 14-day police custody ended, the court granted him bail because police told the court that investigation was over and no concrete evidence of Ali’s involvement was found in the blast.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年7月21日，高级警官举行会议，决定调查印度教组织的作用并将案件移交国家调查局。",
+      "support_text": "But on July 21, 2010,...",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "十多年后，退休的调查官古尔迪普在法庭上揭露，高级官员为政治目的故意释放了主要嫌疑人阿里。",
+      "support_text": "Over a decade after the 2007 Samjhauta Express blast... comes a shocking revelation... A retired officer involved in the investigating into the case has now laid bare how officials at that time not only twisted the entire case... but also let the main accused... go scot-free... The whistleblower here is Gurdeep (now retired)... Gurdeep revealed before a court...",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当时的政治机构试图为整个事件粉饰上宗教色彩。",
+      "support_text": "当时的政治机构试图为整个事件粉饰上宗教色彩。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "高官意图利用这起可怕的事件来推动一项政治议程。",
+      "support_text": "高官意图利用这起可怕的事件来推动一项政治议程。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "高官意图推动一项政治议程。",
+      "support_text": "高官意图推动一项政治议程。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员们为了实现他们的议程而采取了这些行动。",
+      "support_text": "官员们为了实现他们的议程而采取了这些行动。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "那名巴基斯坦国民返回了他的国家。",
+      "support_text": "那名巴基斯坦国民返回了他的国家。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方走访了 Azmat Ali 曾去过的所有城市和地点。",
+      "support_text": "警方走访了 Azmat Ali 曾去过的所有城市和地点。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿里后来被送往阿姆利则中央监狱。",
+      "support_text": "阿里后来被送往阿姆利则中央监狱。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿里由穆罕默德·谢里夫所生。",
+      "support_text": "阿里由穆罕默德·谢里夫所生。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿里于2006年11月3日抵达此地。",
+      "support_text": "阿里于2006年11月3日抵达此地。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "一个团队正在调查爆炸事件。",
+      "support_text": "一个团队正在调查爆炸事件。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿里在审讯中告知了他抵达的日期和国籍。",
+      "support_text": "阿里在审讯中告知了他抵达的日期和国籍。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队根据目击者提供的信息开发了一张草图。",
+      "support_text": "安全部队根据目击者提供的信息开发了一张草图。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿里的草图在媒体上被广泛传播。",
+      "support_text": "阿里的草图在媒体上被广泛传播。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿里被移交给负责调查该事件的警察团队。",
+      "support_text": "Ali matched the description was and this was conveyed to the team which was probing the blast. Later, Ali was handed over to the team of police probing the incident.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Ali 对德里、孟买、果阿等多个主要城市进行了侦察。",
+      "support_text": "Ali 对多个主要城市进行了侦察。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ali曾入住过每一家酒店。",
+      "support_text": "Ali had stayed at each of the hotels.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Ali曾与一些人见过面。",
+      "support_text": "he (Ali) had met some people.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_18",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "法庭在其保释令中记录了警方的说法。",
+      "support_text": "The court noted the police’s version in its bail order.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当时的UPA政府曾表示LeT参与了爆炸案。",
+      "support_text": "当时的UPA政府曾表示LeT参与了爆炸案。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "哈里亚纳邦警方未能将调查进行到底。",
+      "support_text": "哈里亚纳邦警方未能将调查进行到底。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_21",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "India TV获取了该会议的记录。",
+      "support_text": "India TV获取了该会议的记录。",
+      "source_text": "text_10"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_2",
+      "relation": "before",
+      "support_text": "After the blast, the description of the man who was believed to have planted the bomb in the ill-fated train was described by two eyewitnesses (Shaukat Ali and Rukhsana)."
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_3",
+      "relation": "before",
+      "support_text": "a Pakistani national was arrested within a fortnight of the incident"
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_new_node_19",
+      "relation": "before",
+      "support_text": "爆炸案发生后，政府发表了声明。"
+    },
+    {
+      "source": "text_10_node_2",
+      "target": "text_10_new_node_12",
+      "relation": "before",
+      "support_text": "目击者提供信息后，安全部队据此开发了草图。"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_4",
+      "relation": "before",
+      "support_text": "Ali matched the description was and this was conveyed to the team which was probing the blast."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_new_node_6",
+      "relation": "before",
+      "support_text": "在逮捕 Azmat Ali 之后，警方对他曾逗留过的所有城市和地点进行了走访调查。"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_new_node_7",
+      "relation": "before",
+      "support_text": "在被捕时，阿里正在寻找返回巴基斯坦的方法。阿里后来被送往阿姆利则中央监狱。"
+    },
+    {
+      "source": "text_10_node_4",
+      "target": "text_10_node_5",
+      "relation": "before",
+      "support_text": "Ali matched the description was and this was conveyed to the team which was probing the blast. Later, Ali was handed over to the team of police probing the incident. The probe team had on March 6, 2007, sought 14-day custody of Ali."
+    },
+    {
+      "source": "text_10_node_4",
+      "target": "text_10_new_node_14",
+      "relation": "before",
+      "support_text": "确认阿里与描述相符后，阿里被移交给调查团队。"
+    },
+    {
+      "source": "text_10_node_5",
+      "target": "text_10_node_6",
+      "relation": "before",
+      "support_text": "The probe team had on March 6, 2007, sought 14-day custody of Ali. In its affidavit, the police had clearly told the court that Ali was arrested by the GRP... The court had at that time sent Ali to 14-day police custody."
+    },
+    {
+      "source": "text_10_node_6",
+      "target": "text_10_node_7",
+      "relation": "before",
+      "support_text": "on March 20, when Ali’s 14-day police custody ended, the court granted him bail"
+    },
+    {
+      "source": "text_10_node_7",
+      "target": "text_10_node_8",
+      "relation": "before",
+      "support_text": "on March 20... But on July 21, 2010,..."
+    },
+    {
+      "source": "text_10_node_7",
+      "target": "text_10_new_node_5",
+      "relation": "before",
+      "support_text": "在法院批准保释后，该巴基斯坦国民得以返回他的国家。"
+    },
+    {
+      "source": "text_10_node_8",
+      "target": "text_10_node_9",
+      "relation": "before",
+      "support_text": "Over a decade after the 2007 Samjhauta Express blast... comes a shocking revelation"
+    },
+    {
+      "source": "text_10_node_8",
+      "target": "text_10_new_node_21",
+      "relation": "before",
+      "support_text": "会议记录产生后，媒体才有可能获取并报道。"
+    },
+    {
+      "source": "text_10_node_9",
+      "target": "text_10_new_node_4",
+      "relation": "before",
+      "support_text": "高官对这起事件进行了丑陋的扭曲，以实现他们的议程。"
+    },
+    {
+      "source": "text_10_node_9",
+      "target": "text_10_new_node_18",
+      "relation": "before",
+      "support_text": "根据动词事件的时序，Gurdeep的声称在法庭记录之前。"
+    },
+    {
+      "source": "text_10_new_node_1",
+      "target": "text_10_node_7",
+      "relation": "before",
+      "support_text": "政治机构粉饰事件是导致嫌疑人被释放的原因。"
+    },
+    {
+      "source": "text_10_new_node_1",
+      "target": "text_10_node_9",
+      "relation": "before",
+      "support_text": "十多年后，退休的调查官揭露了当初政治机构粉饰事件的行为。"
+    },
+    {
+      "source": "text_10_new_node_1",
+      "target": "text_10_new_node_4",
+      "relation": "before",
+      "support_text": "官员们给案件赋予了“藏红花色”的意味，以实现他们的议程。"
+    },
+    {
+      "source": "text_10_new_node_2",
+      "target": "text_10_new_node_3",
+      "relation": "before",
+      "support_text": "高官意图利用这起可怕的事件来推动一项政治议程。"
+    },
+    {
+      "source": "text_10_new_node_2",
+      "target": "text_10_node_9",
+      "relation": "before",
+      "support_text": "高官意图利用这起可怕的事件来推动一项政治议程，因此对这起事件进行了丑陋的扭曲。"
+    },
+    {
+      "source": "text_10_new_node_2",
+      "target": "text_10_new_node_1",
+      "relation": "before",
+      "support_text": "高官意图利用这起可怕的事件来推动一项政治议程，因此给案件赋予了“藏红花色”的意味。"
+    },
+    {
+      "source": "text_10_new_node_6",
+      "target": "text_10_node_4",
+      "relation": "before",
+      "support_text": "警方在走访调查后，确认了 Ali 与目击者提供的描述相符。"
+    },
+    {
+      "source": "text_10_new_node_6",
+      "target": "text_10_node_9",
+      "relation": "before",
+      "support_text": "警方的走访谈话行为先于Gurdeep在法庭上对此事的声称。"
+    },
+    {
+      "source": "text_10_new_node_8",
+      "target": "text_10_new_node_9",
+      "relation": "before",
+      "support_text": "根据事件的时间顺序，出生先于抵达。"
+    },
+    {
+      "source": "text_10_new_node_9",
+      "target": "text_10_new_node_10",
+      "relation": "before",
+      "support_text": "阿里抵达后，发生了爆炸事件，随后团队开始调查。"
+    },
+    {
+      "source": "text_10_new_node_9",
+      "target": "text_10_new_node_15",
+      "relation": "before",
+      "support_text": "阿里抵达后，对多个城市进行了侦察。"
+    },
+    {
+      "source": "text_10_new_node_10",
+      "target": "text_10_new_node_11",
+      "relation": "before",
+      "support_text": "调查团队在审讯中获取了阿里提供的信息。"
+    },
+    {
+      "source": "text_10_new_node_11",
+      "target": "text_10_node_4",
+      "relation": "before",
+      "support_text": "阿里提供信息后，该信息被传达给调查团队（node_4的内容）。"
+    },
+    {
+      "source": "text_10_new_node_12",
+      "target": "text_10_new_node_13",
+      "relation": "before",
+      "support_text": "草图被开发出来后，才可能在媒体上传播。"
+    },
+    {
+      "source": "text_10_new_node_13",
+      "target": "text_10_node_3",
+      "relation": "before",
+      "support_text": "草图在媒体上传播后，导致了阿里被逮捕。"
+    },
+    {
+      "source": "text_10_new_node_14",
+      "target": "text_10_node_5",
+      "relation": "before",
+      "support_text": "阿里被移交给调查团队后，该团队申请了拘留令。"
+    },
+    {
+      "source": "text_10_new_node_15",
+      "target": "text_10_node_1",
+      "relation": "before",
+      "support_text": "侦察活动发生在爆炸事件之前。"
+    },
+    {
+      "source": "text_10_new_node_16",
+      "target": "text_10_new_node_6",
+      "relation": "before",
+      "support_text": "Ali入住酒店是警方后续走访调查的前提。"
+    },
+    {
+      "source": "text_10_new_node_17",
+      "target": "text_10_new_node_6",
+      "relation": "before",
+      "support_text": "Ali与一些人见面是警方后续与这些人交谈的前提。"
+    },
+    {
+      "source": "text_10_new_node_19",
+      "target": "text_10_new_node_20",
+      "relation": "before",
+      "support_text": "在政府初步表态后，调查过程被发现存在失败。"
+    },
+    {
+      "source": "text_10_new_node_20",
+      "target": "text_10_node_8",
+      "relation": "before",
+      "support_text": "由于哈里亚纳邦警方调查失败，会议记录建议将案件移交NIA。"
+    }
+  ]
+}

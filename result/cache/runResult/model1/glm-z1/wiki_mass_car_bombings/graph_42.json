@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_42_node_1",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸发生30英里外，Fred想前往查看，Rebecca最初认为只是空军基地起飞",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "Rebecca目睹消防员救出伤者后立即冲出，要求Fred立即出发",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rebecca在爆炸现场被坠落碎片击中后脑，送医时拒绝初步治疗",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rebecca通过意识传递丈夫的传呼机号码，短暂苏醒回应Fred",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_5",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "首次手术清除脑部血块后短暂恢复意识，但次日陷入深度昏迷",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "四天后因脑水肿死亡，丈夫Fred在病床前与昏迷的Rebecca告别",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_7",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rebecca心脏被移植给55岁康复中的赌场工人William Wilcoxson",
+      "source_text": "text_42"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_42_node_1",
+      "target": "text_42_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_3",
+      "target": "text_42_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_4",
+      "target": "text_42_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_5",
+      "target": "text_42_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_42_node_6",
+      "target": "text_42_node_7",
+      "relation": "before"
+    }
+  ]
+}

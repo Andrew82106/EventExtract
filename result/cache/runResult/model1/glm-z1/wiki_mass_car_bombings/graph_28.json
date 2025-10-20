@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_28_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "IRA在1992年保守党大选胜利后策划并执行St Mary Axe炸弹袭击",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "IRA在1993年于Bishopsgate实施卡车炸弹袭击，两名嫌疑人被摄像头拍到逃跑",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_3",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "",
+      "description": "William Taylor就任伦敦市警察局局长，接手877人警力应对IRA潜在威胁",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "Taylor宣布维持随机武装查封、道路封闭、车辆检查和监控摄像头等现有安全措施",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_5",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认掌握Bishopsgate炸弹袭击者身份但缺乏起诉证据，可能因爱尔兰共和国引渡争议搁置",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Taylor指出加强警力与公众警惕使过去两年伦敦金融城犯罪率下降27%",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_7",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "Taylor拒绝合并伦敦市警察局与28,000人的大都会警察局",
+      "source_text": "text_28"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_28_node_1",
+      "target": "text_28_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_28_node_2",
+      "target": "text_28_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_28_node_3",
+      "target": "text_28_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_28_node_4",
+      "target": "text_28_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_28_node_5",
+      "target": "text_28_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_28_node_6",
+      "target": "text_28_node_7",
+      "relation": "before"
+    }
+  ]
+}

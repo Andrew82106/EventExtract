@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_71_event_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "12月22日巴格达发生系列爆炸致60人死亡",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_event_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "上周总理Maliki发布逮捕令针对哈希米副总统",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_event_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "上周伊拉克ya党团抵制议会抗议政府权力集中",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_event_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周四纳西里耶省自杀式袭击致46死80伤",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_event_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周四巴格达东部什叶派社区爆炸致24死66伤",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_event_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周四萨德城摩托车炸弹袭击致9死35伤",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_event_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周四卡迪米亚区两次爆炸致15死31伤",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_event_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "贾拉尔·塔拉比总统家会议未定，部分政党抵制参与",
+      "source_text": "text_71"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_71_event_1",
+      "target": "text_71_event_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_71_event_2",
+      "target": "text_71_event_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_71_event_3",
+      "target": "text_71_event_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_71_event_4",
+      "target": "text_71_event_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_71_event_5",
+      "target": "text_71_event_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_71_event_6",
+      "target": "text_71_event_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_71_event_7",
+      "target": "text_71_event_8",
+      "relation": "before"
+    }
+  ]
+}

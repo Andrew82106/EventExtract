@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    {
+      "id": "text_7_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年7月阿富汗发生大规模喀布尔爆炸案",
+      "support_text": "including the large July 2016 Kabul bombing",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年8月24日塔利班分子在AUAF实施自杀式爆炸和枪击",
+      "support_text": "On 24 August 2016, attackers who are suspected members of the Taliban stormed the American University of Afghanistan in Kabul, Afghanistan using a car bomb and automatic weapons.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "袭击当晚阿富汗特种部队与外国部队联合营救被困学生",
+      "support_text": "Afghan National Army troops belonging to an elite unit led operations to secure the campus while exchanging gunfire with the assailants. United States led military coalition foreign troops assisted in the operations, including mentors from the Norwegian Special forces group Marinejegerkommandoen to rescue the 200 students trapped inside the school.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查显示袭击由塔利班或ISIS实施，造成至少13人死亡",
+      "support_text": "The Taliban was suspected to be behind the attack but has not yet claimed responsibility. The Islamic State of Iraq and the Levant is also a suspect.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "AUAF因袭击关闭，并于2017年3月重新开放",
+      "support_text": "The American University of Afghanistan temporarily closed indefinitely 'in the wake of the despicable terrorist attack on the university'. The university reopened in March 2017.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "美军特种部队营救行动失败",
+      "support_text": "美军特种部队在联合营救行动中未能成功解救被困人员",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击开始",
+      "support_text": "袭击开始",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "大学被加固围墙包围",
+      "support_text": "大学被加固围墙包围",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "载有炸药的卡车被驾驶至围墙前",
+      "support_text": "载有炸药的卡车被驾驶至围墙前",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "载有炸药的卡车被炸毁",
+      "support_text": "载有炸药的卡车被炸毁",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名袭击者进入校区",
+      "support_text": "两名袭击者进入校区",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_12",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "员工和学生恐慌",
+      "support_text": "员工和学生恐慌",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "员工和学生逃跑",
+      "support_text": "员工和学生逃跑",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "员工和学生躲藏",
+      "support_text": "员工和学生躲藏",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国领导军事联盟实施联合营救行动",
+      "support_text": "United States led military coalition foreign troops assisted in the operations",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_16",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "摄影师Massoud Hossaini在校园袭击中受伤",
+      "support_text": "Massoud Hossaini was wounded during the attack",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "摄影师Massoud Hossaini通过社交媒体发布报道更新",
+      "support_text": "Massoud Hossaini tweeted updates about the rescue operation",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_18",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "职业学校的视力障碍者保安被子弹击中身亡",
+      "support_text": "guard from a neighboring vocational school for visually impaired people was killed by bullets",
+      "source_text": "text_7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_2",
+      "relation": "before",
+      "support_text": "including the large July 2016 Kabul bombing"
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_3",
+      "relation": "before",
+      "support_text": "A nearly ten-hour-long siege then ensued, which lasted overnight. Hundreds of trapped students 'pleaded for help' as an explosion followed gunshots"
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_5",
+      "relation": "before",
+      "support_text": "The American University of Afghanistan temporarily closed indefinitely 'in the wake of the despicable terrorist attack on the university'"
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_node_4",
+      "relation": "before",
+      "support_text": "Laura Bush, a major supporter of the university, denounced the attack along with the U.S. State Department and offered her condolences"
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "营救行动因未能成功而失败"
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_node_15",
+      "relation": "before",
+      "support_text": "美军特种部队联合营救行动后美国领导的军事联盟实施后续管控"
+    },
+    {
+      "source": "text_7_node_4",
+      "target": "text_7_node_5",
+      "relation": "before",
+      "support_text": "The university reopened in March 2017"
+    },
+    {
+      "source": "text_7_node_7",
+      "target": "text_7_node_8",
+      "relation": "before",
+      "support_text": "袭击开始后大学被加固围墙包围"
+    },
+    {
+      "source": "text_7_node_8",
+      "target": "text_7_node_9",
+      "relation": "before",
+      "support_text": "加固围墙包围后卡车被驾驶至围墙前"
+    },
+    {
+      "source": "text_7_node_9",
+      "target": "text_7_node_10",
+      "relation": "before",
+      "support_text": "卡车被驾驶至围墙前后被炸毁"
+    },
+    {
+      "source": "text_7_node_10",
+      "target": "text_7_node_11",
+      "relation": "before",
+      "support_text": "卡车炸毁后两名袭击者进入校区"
+    },
+    {
+      "source": "text_7_node_10",
+      "target": "text_7_node_18",
+      "relation": "before",
+      "support_text": "卡车炸毁后职业学校的保安被子弹击中身亡"
+    },
+    {
+      "source": "text_7_node_11",
+      "target": "text_7_node_12",
+      "relation": "before",
+      "support_text": "袭击者进入校区后员工和学生恐慌"
+    },
+    {
+      "source": "text_7_node_12",
+      "target": "text_7_node_13",
+      "relation": "before",
+      "support_text": "恐慌导致员工和学生逃跑"
+    },
+    {
+      "source": "text_7_node_13",
+      "target": "text_7_node_14",
+      "relation": "before",
+      "support_text": "逃跑过程中员工和学生躲藏"
+    },
+    {
+      "source": "text_7_node_15",
+      "target": "text_7_node_16",
+      "relation": "before",
+      "support_text": "军事联盟行动期间摄影师受伤"
+    },
+    {
+      "source": "text_7_node_16",
+      "target": "text_7_node_17",
+      "relation": "before",
+      "support_text": "受伤后摄影师发布社交媒体更新"
+    }
+  ]
+}

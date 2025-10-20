@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_8_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两枚汽车炸弹在巴古巴市中心的两处政府办公室附近几乎同时引爆。",
+      "support_text": "The attacks occurred at about 9:30 am (0630 GMT) when two car bombs parked near two government offices in central Baquba, some 65 km northeast of Baghdad, detonated almost simultaneously, the source said.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式炸弹袭击者在巴古巴主医院外的人群中引爆了他的爆炸背心。",
+      "support_text": "A third attack took place when a suicide bomber blew up his explosive vest among a crowd of people gathering outside the main hospital of Baquba to receive the victims of the two car bombings, the source added.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致多达30人死亡。",
+      "support_text": "袭击导致多达30人死亡。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_2",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致45人受伤。",
+      "support_text": "袭击导致45人受伤。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名省级警方消息人士报道了袭击事件及其造成的伤亡情况。",
+      "support_text": "一名省级警方消息人士报道了袭击事件及其造成的伤亡情况。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_4",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "两辆汽车炸弹被停放在巴古巴市中心的两间政府办公室附近。",
+      "support_text": "The attacks occurred at about 9:30 am (0630 GMT) when two car bombs parked near two government offices in central Baquba...",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "一群人在巴古巴主医院外聚集，准备接收两次汽车炸弹袭击的受害者。",
+      "support_text": "...a crowd of people gathering outside the main hospital of Baquba to receive the victims of the two car bombings...",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "蒂米米在医院入口监督接收数十名伤者。",
+      "support_text": "蒂米米正在医院入口监督接收数十名伤者。",
+      "source_text": "text_8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_2",
+      "relation": "before",
+      "support_text": "A third attack took place when a suicide bomber blew up his explosive vest among a crowd of people gathering outside the main hospital of Baquba to receive the victims of the two car bombings, the source added."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_new_node_1",
+      "relation": "causes",
+      "support_text": "袭击导致多达30人死亡。"
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_new_node_2",
+      "relation": "causes",
+      "support_text": "袭击导致45人受伤。"
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_new_node_1",
+      "relation": "causes",
+      "support_text": "袭击导致多达30人死亡。"
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_new_node_2",
+      "relation": "causes",
+      "support_text": "袭击导致45人受伤。"
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_new_node_3",
+      "relation": "before",
+      "support_text": "...the source added."
+    },
+    {
+      "source": "text_8_new_node_1",
+      "target": "text_8_new_node_3",
+      "relation": "before",
+      "support_text": "死亡事件发生后，消息人士对此进行了报道。"
+    },
+    {
+      "source": "text_8_new_node_2",
+      "target": "text_8_new_node_3",
+      "relation": "before",
+      "support_text": "受伤事件发生后，消息人士对此进行了报道。"
+    },
+    {
+      "source": "text_8_new_node_4",
+      "target": "text_8_node_1",
+      "relation": "before",
+      "support_text": "...two car bombs parked near two government offices in central Baquba, some 65 km northeast of Baghdad, detonated almost simultaneously..."
+    },
+    {
+      "source": "text_8_new_node_5",
+      "target": "text_8_node_2",
+      "relation": "before",
+      "support_text": "A third attack took place when a suicide bomber blew up his explosive vest among a crowd of people gathering outside the main hospital..."
+    },
+    {
+      "source": "text_8_new_node_5",
+      "target": "text_8_new_node_6",
+      "relation": "before",
+      "support_text": "一群人在巴古巴主医院外聚集准备接收受害者，随后蒂米米监督了接收过程。"
+    }
+  ]
+}

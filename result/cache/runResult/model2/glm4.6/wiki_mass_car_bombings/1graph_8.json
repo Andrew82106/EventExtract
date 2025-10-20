@@ -1,0 +1,435 @@
+{
+  "nodes": [
+    {
+      "id": "text_8_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "黎巴嫩警告叙利亚，基地组织成员正从其领土渗透入境。",
+      "support_text": "The foreign ministry said it had been warned about al-Qaida infiltration into the country from Lebanon.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚官方媒体援引黎巴嫩方面的担忧，为“恐怖袭击”的说法做铺垫。",
+      "support_text": "on Thursday, Sana reported Lebanese government concerns that members of al-Qaida were infiltrating Syria via East Lebanon.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_3",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "叙利亚政府警告公众周五可能发生恐怖袭击。",
+      "support_text": "Syria's foreign minister Walid al-Moualem predicted that Arab League observers would vindicate government claims that Syria is battling terrorists, predicting they would observe their presence.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者称，在爆炸发生前安全部队已封锁事发街道。",
+      "support_text": "There were also unconfirmed reports of roads being closed before the blasts and a lack of reaction by security forces.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "大马士革发生两起爆炸， targeting 安全机构大楼，造成重大伤亡。",
+      "support_text": "Two explosions in Damascus have killed more than 40 people, with more than 150 injured, the Syrian government says.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚政府立即指责基地组织发动自杀式袭击，并称已逮捕一名肇事者。",
+      "support_text": "It blamed the attacks on two al-Qaida suicide bombers driving booby-trapped operatives but Syrian TV reported that one perpetrator had been arrested.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "正在叙利亚访问的阿拉伯联盟观察员先遣队被带往爆炸现场。",
+      "support_text": "The explosions came as an advance party of Arab League observers were in Damascus and they were taken to see the scene of the blast.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚自由军否认对爆炸负责，而活动人士和反对派表示怀疑。",
+      "support_text": "The renegade Free Syrian Army has denied responsibility for the attacks and many activists, including a member of the opposition Syrian National Council, expressed scepticism about the official account of the blasts.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "前黎巴嫩总理哈里里等反对派人士指责阿萨德政权策划了爆炸。",
+      "support_text": "The former Lebanese prime minster Saad Hariri, whose father was assassinated in 2005, claimed the bombings were \"engineered\" by the Assad's regime.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析师认为，该事件符合叙利亚政府关于其正在与恐怖分子作战的叙事。",
+      "support_text": "Analysts and activists suggested that the reported blasts fit into the narrative the Syrian government has adopted about armed terrorist groups being behind the uprising.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国谴责袭击，但强调不应影响阿盟观察团的工作。",
+      "support_text": "The US State department condemned the attacks, describing them as acts of terrorism. But it said they should not interfere with the work of the Arab League monitoring mission.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法国对袭击来源表示怀疑，并指责叙利亚试图掩盖镇压真相。",
+      "support_text": "But the French government expressed scepticism with French Foreign Ministry spokesman Bernard Valero quoted as saying: \"We still don't have any details on the origin of these attacks.\"",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_13",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "尽管发生爆炸，叙利亚各地的反政府抗议活动仍在继续，并造成人员死亡。",
+      "support_text": "The reports of the explosions failed to deter Assad's opponents from taking to the streets in protests.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "外交部声明其曾收到关于基地组织渗透的警告。",
+      "support_text": "The foreign ministry said it had been warned about al-Qaida infiltration into the country from Lebanon.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "专家们就大马士革爆炸事件指责美国、以色列、欧洲和基地组织。",
+      "support_text": "experts blame the US, Israel and Europe, as well as al-Qaida",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析人士就大马士革爆炸事件指责美国、以色列、欧洲和基地组织。",
+      "support_text": "analysts blame the US, Israel and Europe, as well as al-Qaida",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Amin Hoteit博士发表评论，称袭击表明西方代理人已开始执行恐怖计划，且颠覆叙利亚的阴谋正在失败。",
+      "support_text": "Dr Amin Hoteit said the twin terrorist attacks indicate that the agents of the west and Israel have started carrying out the terrorist acts plan, and that the Zio-American-European plot to undermine Syria has failed.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "奥马尔·哈尼说他住在距离爆炸现场三英里的地方。",
+      "support_text": "Omar al-Khani said he lived three miles from the site of the explosions.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_6",
+      "event_type": "Life",
+      "event_subtype": "Consume",
+      "event_sub_subtype": "Unspecified",
+      "description": "情报人员继续喝茶。",
+      "support_text": "they (intelligence agents) continued to drink tea",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hariri指控叙利亚外交部及其在黎巴嫩的工具捏造了关于他的声明。",
+      "support_text": "（叙利亚外交部的）声明被其本人及在黎巴嫩的工具所捏造。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Hariri就叙利亚外交部的声明发表评论。",
+      "support_text": "Hariri就叙利亚外交部的声明发表评论。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hariri称该声明是叙利亚外交部及其工具捏造的。",
+      "support_text": "Hariri称该声明是叙利亚外交部及其工具捏造的。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "（有媒体或消息来源）报道了爆炸事件。",
+      "support_text": "（根据语义描述推断）媒体报道了爆炸事件。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "阿盟观察员将证实政府的主张（这是一个预测中的未来事件）。",
+      "support_text": "Syria's foreign minister Walid al-Moualem predicted that Arab League observers would vindicate government claims...",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "阿盟观察员将观察到恐怖分子的存在（这是一个预测中的未来事件）。",
+      "support_text": "...predicting they would observe their presence.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "叙利亚正在将政治囚犯转移到秘密监狱。",
+      "support_text": "Syria is transferring political prisoners to secret prisons.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法国更普遍地担心叙利亚一直在采取行动。",
+      "support_text": "France was more generally concerned that Syria had been carrying out actions.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_15",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚革命总委员会报告称，今日有25人被杀害，其中包括三名儿童。",
+      "support_text": "The Syrian Revolution General Commission (SRGC) said 25 people have been killed today, including three children.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "叙利亚革命总委员会（SRGC）报告了各地具体的死亡人数。",
+      "support_text": "The SRGC said five people have been killed in Hama, four in Idlib, three in Dera'a, two in Damascus suburbs and one each in Deir Ezzor and Latakia.",
+      "source_text": "text_8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_2",
+      "relation": "before",
+      "support_text": "The foreign ministry said it had been warned about al-Qaida infiltration into the country from Lebanon. ... on Thursday, Sana reported Lebanese government concerns that members of al-Qaida were infiltrating Syria via East Lebanon."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_new_node_1",
+      "relation": "before",
+      "support_text": "外交部先受到警告，然后发表声明。"
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_node_5",
+      "relation": "before",
+      "support_text": "on Thursday, Sana reported Lebanese government concerns that members of al-Qaida were infiltrating Syria via East Lebanon. ... Here's a summary of the main developments today, which was dominated by the twin explosions in Damascus"
+    },
+    {
+      "source": "text_8_node_3",
+      "target": "text_8_node_5",
+      "relation": "before",
+      "support_text": "Earlier this week Syria's foreign minister Walid al-Moualem predicted that Arab League observers would vindicate government claims that Syria is battling terrorists ... Here's a summary of the main developments today, which was dominated by the twin explosions in Damascus"
+    },
+    {
+      "source": "text_8_node_3",
+      "target": "text_8_node_10",
+      "relation": "before",
+      "support_text": "Earlier this week Syria's foreign minister Walid al-Moualem predicted that Arab League observers would vindicate government claims that Syria is battling terrorists... Analysts and activists suggested that the reported blasts fit into the narrative the Syrian government has adopted about armed terrorist groups being behind the uprising."
+    },
+    {
+      "source": "text_8_node_3",
+      "target": "text_8_new_node_10",
+      "relation": "before",
+      "support_text": "预测（node_3）发生在爆炸事件被报道（new_node_10）之前。"
+    },
+    {
+      "source": "text_8_node_3",
+      "target": "text_8_new_node_11",
+      "relation": "before",
+      "support_text": "预测（node_3）发生在其预测的内容（new_node_11）之前。"
+    },
+    {
+      "source": "text_8_node_3",
+      "target": "text_8_new_node_12",
+      "relation": "before",
+      "support_text": "预测（node_3）发生在其预测的内容（new_node_12）之前。"
+    },
+    {
+      "source": "text_8_node_4",
+      "target": "text_8_node_5",
+      "relation": "before",
+      "support_text": "There were also unconfirmed reports of roads being closed before the blasts and a lack of reaction by security forces."
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_6",
+      "relation": "before",
+      "support_text": "Two explosions in Damascus have killed more than 40 people, with more than 150 injured, the Syrian government says. It blamed the attacks on two al-Qaida suicide bombers..."
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_7",
+      "relation": "before",
+      "support_text": "The explosions came as an advance party of Arab League observers were in Damascus and they were taken to see the scene of the blast."
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_8",
+      "relation": "before",
+      "support_text": "The renegade Free Syrian Army has denied responsibility for the attacks and many activists... expressed scepticism about the official account of the blasts."
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_9",
+      "relation": "before",
+      "support_text": "The former Lebanese prime minster Saad Hariri... claimed the bombings were \"engineered\" by the Assad's regime."
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_11",
+      "relation": "before",
+      "support_text": "The US State department condemned the attacks, describing them as acts of terrorism."
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_12",
+      "relation": "before",
+      "support_text": "But the French government expressed scepticism with French Foreign Ministry spokesman Bernard Valero quoted as saying: \"We still don't have any details on the origin of these attacks.\""
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_13",
+      "relation": "before",
+      "support_text": "The reports of the explosions failed to deter Assad's opponents from taking to the streets in protests."
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_new_node_2",
+      "relation": "before",
+      "support_text": "爆炸发生后，专家们发表指责。"
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_new_node_14",
+      "relation": "before",
+      "support_text": "爆炸发生后，法国表达了更广泛的担忧。"
+    },
+    {
+      "source": "text_8_node_9",
+      "target": "text_8_new_node_7",
+      "relation": "before",
+      "support_text": "根据temporal_order，暗杀事件（order 1）发生在捏造声明指控（order 4）之前。"
+    },
+    {
+      "source": "text_8_new_node_1",
+      "target": "text_8_node_5",
+      "relation": "before",
+      "support_text": "外交部发表警告声明后，发生了爆炸。"
+    },
+    {
+      "source": "text_8_new_node_2",
+      "target": "text_8_new_node_3",
+      "relation": "before",
+      "support_text": "根据temporal_order，专家的指责先于分析人士的指责。"
+    },
+    {
+      "source": "text_8_new_node_3",
+      "target": "text_8_new_node_4",
+      "relation": "before",
+      "support_text": "根据temporal_order，分析人士的指责先于Amin Hoteit博士的评论。"
+    },
+    {
+      "source": "text_8_new_node_6",
+      "target": "text_8_node_4",
+      "relation": "before",
+      "support_text": "根据temporal_order，情报人员继续喝茶(temporal_order: 2)发生在居民报告情报人员未移动(temporal_order: 3)之前。"
+    },
+    {
+      "source": "text_8_new_node_6",
+      "target": "text_8_new_node_5",
+      "relation": "before",
+      "support_text": "根据temporal_order，情报人员继续喝茶(temporal_order: 2)发生在奥马尔·哈尼说他住在附近(temporal_order: 3)之前。"
+    },
+    {
+      "source": "text_8_new_node_7",
+      "target": "text_8_new_node_8",
+      "relation": "before",
+      "support_text": "根据temporal_order，捏造声明指控（order 4）发生在发表评论（order 7）之前。"
+    },
+    {
+      "source": "text_8_new_node_7",
+      "target": "text_8_new_node_9",
+      "relation": "before",
+      "support_text": "根据temporal_order，捏造声明指控（order 4）发生在称声明被捏造（order 7）之前。"
+    },
+    {
+      "source": "text_8_new_node_13",
+      "target": "text_8_node_5",
+      "relation": "before",
+      "support_text": "转移囚犯（temporal_order: 1）发生在爆炸（main event）之前。"
+    },
+    {
+      "source": "text_8_new_node_15",
+      "target": "text_8_new_node_16",
+      "relation": "before",
+      "support_text": "根据temporal_order，报告总死亡人数（5）发生在报告具体细目（6）之前。"
+    }
+  ]
+}

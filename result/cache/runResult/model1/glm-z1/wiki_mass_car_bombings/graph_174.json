@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "text_174_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年发布报告，分析自杀袭击与巴勒斯坦针对以色列平民的袭击",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "2014年11月28日报告被添加至Google Books数字图书馆",
+      "source_text": "text_174"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_174_node_1",
+      "target": "text_174_node_2",
+      "relation": "before"
+    }
+  ]
+}

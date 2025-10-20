@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_75_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五早间，石家庄四栋公寓楼遭连环爆炸，官方最初通报18人死亡",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "死亡人数经官方更新后升至108人，香港人权机构称可能达200人",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_3",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "中国领导人派遣高级官员赶赴现场应对危机",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "政府发布5万元悬赏通缉爆炸嫌疑人",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方公开41岁通缉犯 Jin Ruchao 的照片，其因谋杀女友被通缉",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "官方未披露爆炸动机及嫌疑人是否具备同步引爆四栋建筑的专业能力",
+      "source_text": "text_75"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_75_node_1",
+      "target": "text_75_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_75_node_2",
+      "target": "text_75_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_75_node_3",
+      "target": "text_75_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_75_node_4",
+      "target": "text_75_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_75_node_5",
+      "target": "text_75_node_6",
+      "relation": "before"
+    }
+  ]
+}

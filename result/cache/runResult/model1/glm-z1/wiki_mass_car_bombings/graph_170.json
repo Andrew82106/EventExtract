@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_170_node_1",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年，巴基斯坦恐怖分子领袖Mualana Masoud Azhar被印度军方在克什米尔地区逮捕",
+      "source_text": "text_170"
+    },
+    {
+      "id": "text_170_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年12月，ISI与基地组织协助劫持印度航空公司的尼泊尔至印度航班，成功交换Azhar等恐怖分子",
+      "source_text": "text_170"
+    },
+    {
+      "id": "text_170_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年1月，ISI将Azhar举行全国胜利巡游并宣布成立Jaish-e-Mohammed（JEM）",
+      "source_text": "text_170"
+    },
+    {
+      "id": "text_170_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年12月，JEM与Lashkar-e-Tayyiba（LET）合谋袭击印度议会大厦",
+      "source_text": "text_170"
+    },
+    {
+      "id": "text_170_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年，LET策划并实施孟买连环恐怖袭击",
+      "source_text": "text_170"
+    },
+    {
+      "id": "text_170_node_6",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "2014年，Azhar重出江湖，公开呼吁对印度和美国发动袭击",
+      "source_text": "text_170"
+    },
+    {
+      "id": "text_170_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年12月31日，JEM恐怖分子跨境袭击印度旁遮普邦Pathankot空军基地",
+      "source_text": "text_170"
+    },
+    {
+      "id": "text_170_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年12月31日，JEM分子袭击阿富汗马扎尔-沙里夫印度领事馆",
+      "source_text": "text_170"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_170_node_1",
+      "target": "text_170_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_170_node_2",
+      "target": "text_170_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_170_node_3",
+      "target": "text_170_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_170_node_4",
+      "target": "text_170_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_170_node_5",
+      "target": "text_170_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_170_node_6",
+      "target": "text_170_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_170_node_7",
+      "target": "text_170_node_8",
+      "relation": "before"
+    }
+  ]
+}

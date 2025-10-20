@@ -1,0 +1,253 @@
+{
+  "nodes": [
+    {
+      "id": "text_97_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "1995年发现炸毁IRS大楼的炸弹计划",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1995年Amtrak列车遭破坏致1死多人受伤",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "",
+      "description": "1995年四名参与者因针对同性恋酒吧等目标被判刑",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "",
+      "description": "1996年七人因连续22次银行抢劫被起诉",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "",
+      "description": "1996年反政府人士非法持有爆炸物被起诉",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1996年Larry Wayne Shoemake实施种族主义枪击致1死7伤",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1997年堕胎诊所爆炸致七人受伤",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1997年官方突袭疑似KKK成员住所",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1997年兵团活动人士计划炸毁多个联邦建筑",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_10",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "",
+      "description": "1998年警察在堕胎诊所爆炸中死亡及重伤护士",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1998年新秩序成员计划暗杀法官及民权律师",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1998年三名民兵成员合谋炸毁联邦建筑",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "1999年国家联盟成员承认计划向华盛顿寄送炸弹",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1999年三人纵火三座犹太教堂并杀害同性恋伴侣",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1999年Benjamin Nathaniel Smith枪击致2死9伤",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2000年Mark Wayne McCool计划攻击休斯顿联邦建筑",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_17",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "",
+      "description": "2000年Richard Baumhammers因种族主义暴行被判死刑",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2001年突袭Springmeier住所发现针对目标列表",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_19",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2001年Aryan Unit One成员计划炸毁黑人及犹太地标",
+      "source_text": "text_97"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_97_node_1",
+      "target": "text_97_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_2",
+      "target": "text_97_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_3",
+      "target": "text_97_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_4",
+      "target": "text_97_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_5",
+      "target": "text_97_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_6",
+      "target": "text_97_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_7",
+      "target": "text_97_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_7",
+      "target": "text_97_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_8",
+      "target": "text_97_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_9",
+      "target": "text_97_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_10",
+      "target": "text_97_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_11",
+      "target": "text_97_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_12",
+      "target": "text_97_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_13",
+      "target": "text_97_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_14",
+      "target": "text_97_node_15",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_15",
+      "target": "text_97_node_16",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_16",
+      "target": "text_97_node_17",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_17",
+      "target": "text_97_node_18",
+      "relation": "before"
+    },
+    {
+      "source": "text_97_node_18",
+      "target": "text_97_node_19",
+      "relation": "before"
+    }
+  ]
+}

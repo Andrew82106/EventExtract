@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "1982年6月，以色列军队在入侵黎巴嫩后建立了军事指挥所。",
+      "support_text": "After invading Lebanon in June, the Israeli military set up command posts to run the cities they occupied.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1982年11月11日，一辆装满炸药的汽车袭击了以色列在提尔的总部大楼。",
+      "support_text": "On November 11, 1982, a Peugeot car packed with explosives struck the seven-story building being used by the Israeli military to govern Tyre.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "第一次爆炸后，以色列政府声称该事件是由煤气罐爆炸造成的意外。",
+      "support_text": "The Israeli government said soon after the blast, and insists to this day, that the explosion was an accident resulting from gas cylinders exploding.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年11月4日，一名自杀式炸弹袭击者驾驶卡车袭击了位于提尔军事基地的另一个以色列目标。",
+      "support_text": "On November 4, 1983, a suicide bomber drove a pickup truck filled with explosives into a Shin Bet building at an army base in Tyre.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致103名以色列人和46至59名黎巴嫩人死亡。",
+      "support_text": "爆炸导致103名以色列人和46至59名黎巴嫩人死亡。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_2",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "（爆炸）导致27名以色列人和28名阿拉伯人受伤。",
+      "support_text": "爆炸导致27名以色列人和28名阿拉伯人受伤。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "一份辛贝特报告详细说明了真主党为爆炸所做的准备工作。",
+      "support_text": "一份辛贝特报告详细说明了真主党为爆炸所做的准备工作。",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "After invading Lebanon in June, the Israeli military set up command posts to run the cities they occupied. On November 11, 1982, a Peugeot car packed with explosives struck the seven-story building..."
+    },
+    {
+      "source": "text_5_node_2",
+      "target": "text_5_node_3",
+      "relation": "before",
+      "support_text": "The Israeli government said soon after the blast, and insists to this day, that the explosion was an accident..."
+    },
+    {
+      "source": "text_5_node_2",
+      "target": "text_5_node_4",
+      "relation": "before",
+      "support_text": "Almost a year later, a nearly identical bombing happened in Tyre."
+    },
+    {
+      "source": "text_5_node_2",
+      "target": "text_5_new_node_1",
+      "relation": "before",
+      "support_text": "The blasts killed 103 Israelis and 46–59 Lebanese, and wounded 95 people."
+    },
+    {
+      "source": "text_5_node_2",
+      "target": "text_5_new_node_2",
+      "relation": "before",
+      "support_text": "爆炸将大楼夷为平地，并导致27名以色列人和28名阿拉伯人受伤。"
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_4",
+      "relation": "before",
+      "support_text": "Almost a year later, a nearly identical bombing happened in Tyre. On November 4, 1983, a suicide bomber drove a pickup truck filled with explosives..."
+    },
+    {
+      "source": "text_5_new_node_3",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "根据事件的时序，报告的准备发生在目击者看到汽车之前。"
+    }
+  ]
+}

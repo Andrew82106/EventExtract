@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "text_69_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2024年1月1日，巴基斯坦Shah Hasan Khel村发生自杀式爆炸袭击，造成96人死亡",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者原计划在部落长老会议地点引爆炸弹，但实际爆炸发生在附近的排球场地",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸摧毁30多座土屋，现场弥漫尘土、烟雾和烧焦气味",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地5,000名居民因恐惧不愿指认袭击者，部分长老公开表示坚决抵抗",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "部落长老委员会正在讨论对杀害族长的激进分子亲属实施惩罚",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "过去两年巴基斯坦西北部村庄自发建立民兵组织对抗塔利班",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府鼓励的民兵组织（拉什卡尔）在Bajur地区协助军队挫败极端分子",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "Swat谷地的民众通过民兵行动防止被军队打击的极端分子卷土重来",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "民兵传统源于普什图部落数百年传承的复仇文化",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "多个反恐长老会议因对抗极端分子风险遭自杀袭击",
+      "source_text": "text_69"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_69_node_1",
+      "target": "text_69_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_2",
+      "target": "text_69_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_3",
+      "target": "text_69_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_4",
+      "target": "text_69_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_5",
+      "target": "text_69_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_6",
+      "target": "text_69_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_7",
+      "target": "text_69_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_69_node_9",
+      "target": "text_69_node_6",
+      "relation": "before"
+    }
+  ]
+}

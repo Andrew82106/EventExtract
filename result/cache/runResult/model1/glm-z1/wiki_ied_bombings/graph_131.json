@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_131_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年9月20日在伊拉克卡尔巴拉南部城市一辆迷你巴士上发生未遂袭击",
+      "source_text": "text_131"
+    },
+    {
+      "id": "text_131_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者登车后遗落可疑背包并提前下车",
+      "source_text": "text_131"
+    },
+    {
+      "id": "text_131_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "遗留背包在下车后不久发生爆炸",
+      "source_text": "text_131"
+    },
+    {
+      "id": "text_131_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "爆炸造成12名平民死亡和至少5人受伤",
+      "source_text": "text_131"
+    },
+    {
+      "id": "text_131_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "",
+      "description": "袭击嫌疑人被警方逮捕",
+      "source_text": "text_131"
+    },
+    {
+      "id": "text_131_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "伊斯兰国组织宣称对此次袭击负责",
+      "source_text": "text_131"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_131_node_1",
+      "target": "text_131_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_131_node_2",
+      "target": "text_131_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_131_node_3",
+      "target": "text_131_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_131_node_4",
+      "target": "text_131_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_131_node_5",
+      "target": "text_131_node_6",
+      "relation": "before"
+    }
+  ]
+}

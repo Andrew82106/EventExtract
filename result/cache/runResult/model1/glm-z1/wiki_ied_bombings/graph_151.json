@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "id": "text_151_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "卡车炸弹在Bund Road附近爆炸，造成1人死亡、24人受伤，包括婴儿和行人",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "爆炸导致附近电网站受损，整个区域陷入数小时停电",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_3",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援人员从废墟中救出一名重伤女童并送医",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方封锁现场并限制媒体进入，使用钢板覆盖爆炸区域",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查发现爆炸现场遗留20英尺宽、6英尺深的坑洞",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_6",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "电力公司证实爆炸严重损坏电路系统，派员抢修",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "22名伤者被转移至Mian Munshi医院，10人经处理后出院",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "警方向媒体通报事件系卡车炸弹引发，但未排除恐怖主义可能",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉合尔警方与反恐部门联合调查爆炸原因",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_10",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "爆炸导致周边建筑玻璃碎裂，一辆政府大楼部分受损",
+      "source_text": "text_151"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_151_node_1",
+      "target": "text_151_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_1",
+      "target": "text_151_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_1",
+      "target": "text_151_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_2",
+      "target": "text_151_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_3",
+      "target": "text_151_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_4",
+      "target": "text_151_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_4",
+      "target": "text_151_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_5",
+      "target": "text_151_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_6",
+      "target": "text_151_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_7",
+      "target": "text_151_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_9",
+      "target": "text_151_node_8",
+      "relation": "before"
+    }
+  ]
+}

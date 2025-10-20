@@ -1,0 +1,345 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "数百万朝圣者抵达伊拉克圣城卡尔巴拉参加阿尔巴恩纪念活动。",
+      "support_text": "Between 17 and 20 million people visited Karbala, home to the mausoleum of Imam Hussein, for Arbaeen, which is one of the world’s largest religious events.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克安全部队在朝觐期间保持高度戒备并部署了大量安保人员。",
+      "support_text": "Iraq’s security forces were on high alert for the duration of the pilgrimage, seen as a major potential target for the Islamic State group. Around 25,000 members of the security forces were deployed in and around the city last week to protect the pilgrims and the shrine...",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿尔巴恩纪念活动于周一结束。",
+      "support_text": "The Iranian nationals — who were the largest contingent of foreigners at the Arbaeen pilgrimage that ended on Monday — were among the victims...",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "许多伊朗朝圣者在活动结束后继续在卡尔巴拉停留数日。",
+      "support_text": "Many of them stay a few days longer to visit the shrine city.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "载有返回朝圣者的巴士在舒马里村的一个加油站停靠。",
+      "support_text": "The explosion ripped through a petrol station where buses packed with Shiite pilgrims returning from the Arbaeen commemoration in Karbala were parked, security officials said.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式袭击者驾驶卡车炸弹在加油站引爆。",
+      "support_text": "A suicide truck bomb blast in Iraq killed at least 70 people Thursday...",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸造成至少70人死亡，其中大部分是伊朗朝圣者。",
+      "support_text": "A suicide truck bomb blast in Iraq killed at least 70 people Thursday, most of them Iranian pilgrims returning from the holy Shiite city of Karbala...",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救护车和民防部队被派往袭击现场进行救援。",
+      "support_text": "“Those buses were loaded with Iranians, Bahrainis and Iraqis. Ambulances and civil defense are on their way to the site,” a police intelligence source told AFP.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "一名安全官员报道了自杀式卡车炸弹袭击造成至少70人死亡。",
+      "support_text": "a security official said that a suicide truck bomb blast killed at least 70 people",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "法拉赫·拉希迪向法新社通报了伤亡情况。",
+      "support_text": "Falah al-Radhi, head of the security committee for the Babylon provincial council, told AFP",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "安全官员报道了爆炸摧毁了一个加油站的细节。",
+      "support_text": "security officials said that the explosion ripped through a petrol station",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合行动指挥部确认了伊朗国民是受害者。",
+      "support_text": "the Joint Operations Command (JOC) said that the Iranian nationals were among the victims",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "这次袭击带有伊斯兰国组织的特征。",
+      "support_text": "The attack bore the hallmarks of the Islamic State group.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "一名警察中校向法新社透露了当时加油站内有至少七辆朝圣者巴士的情况。",
+      "support_text": "a police lieutenant colonel told AFP",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名舒马里村民描述了加油站的地理位置。",
+      "support_text": "A Shomali resident said",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "穆萨·奥姆兰向法新社说明了现场人员的来源。",
+      "support_text": "Mousa Omran told AFP",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "穆萨·奥姆兰在讲话中提到了另一座南部城市纳西里耶。",
+      "support_text": "Mousa Omran referred to",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "观察人士曾担心该组织会试图袭击卡尔巴拉。",
+      "support_text": "Observers had feared the group would seek to attack Karbala.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "该组织会试图攻击卡尔巴拉。",
+      "support_text": "...the group would seek to attack Karbala.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "该组织的跨境哈里国正在多方军事压力下瓦解。",
+      "support_text": "whose cross-border caliphate is crumbling under multi-front military pressure.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "圣战组织正试图保卫其在摩苏尔的最后一个主要据点。",
+      "support_text": "The jihadist organization is trying to defend its last major Iraqi bastion of Mosul.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "圣战组织保卫其在摩苏尔的最后一个主要据点。",
+      "support_text": "to defend its last major Iraqi bastion of Mosul.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周四的袭击玷污了阿舒拉节的纪念活动。",
+      "support_text": "周四的袭击玷污了阿舒拉节的纪念活动。",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "Iraq’s security forces were on high alert for the duration of the pilgrimage..."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "...the Arbaeen pilgrimage that ended on Monday..."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "Many of them stay a few days longer to visit the shrine city."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "...buses packed with Shiite pilgrims returning from the Arbaeen commemoration in Karbala were parked..."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "The explosion ripped through a petrol station where buses packed with Shiite pilgrims... were parked..."
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_node_7",
+      "relation": "before",
+      "support_text": "A suicide truck bomb blast in Iraq killed at least 70 people Thursday..."
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_node_8",
+      "relation": "before",
+      "support_text": "Ambulances and civil defense are on their way to the site..."
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_new_node_3",
+      "relation": "before",
+      "support_text": "爆炸发生后，安全官员报道了现场细节。"
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_new_node_5",
+      "relation": "before",
+      "support_text": "在爆炸袭击发生后，其特征被识别出来。"
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_new_node_15",
+      "relation": "before",
+      "support_text": "袭击发生后，其玷污纪念活动的影响才得以体现。"
+    },
+    {
+      "source": "text_4_node_7",
+      "target": "text_4_node_8",
+      "relation": "before",
+      "support_text": "Ambulances and civil defense are on their way to the site..."
+    },
+    {
+      "source": "text_4_node_7",
+      "target": "text_4_new_node_1",
+      "relation": "before",
+      "support_text": "爆炸造成伤亡后，安全官员对此进行了报道。"
+    },
+    {
+      "source": "text_4_node_7",
+      "target": "text_4_new_node_2",
+      "relation": "before",
+      "support_text": "爆炸造成伤亡后，法拉赫·拉希迪向法新社通报了情况。"
+    },
+    {
+      "source": "text_4_node_7",
+      "target": "text_4_new_node_4",
+      "relation": "before",
+      "support_text": "伤亡情况明确后，联合行动指挥部确认了受害者身份。"
+    },
+    {
+      "source": "text_4_node_7",
+      "target": "text_4_new_node_6",
+      "relation": "before",
+      "support_text": "爆炸造成伤亡后，警方才向媒体透露现场的具体情况（如巴士数量）。"
+    },
+    {
+      "source": "text_4_node_7",
+      "target": "text_4_new_node_7",
+      "relation": "before",
+      "support_text": "爆炸事件发生后，当地居民对事件发生地点进行描述。"
+    },
+    {
+      "source": "text_4_node_7",
+      "target": "text_4_new_node_8",
+      "relation": "before",
+      "support_text": "在伤亡情况发生后，目击者向媒体说明现场人员的来源。"
+    },
+    {
+      "source": "text_4_node_7",
+      "target": "text_4_new_node_9",
+      "relation": "before",
+      "support_text": "在事件发生后，目击者在描述中提到了其他相关信息。"
+    },
+    {
+      "source": "text_4_new_node_10",
+      "target": "text_4_new_node_11",
+      "relation": "before",
+      "support_text": "观察人士曾担心该组织会试图袭击卡尔巴拉。"
+    },
+    {
+      "source": "text_4_new_node_11",
+      "target": "text_4_new_node_12",
+      "relation": "before",
+      "support_text": "根据事件的temporal_order，'seek' (3) 发生在 'crumble' (6) 之前。"
+    },
+    {
+      "source": "text_4_new_node_12",
+      "target": "text_4_new_node_13",
+      "relation": "before",
+      "support_text": "哈里国瓦解是圣战组织试图保卫摩苏尔的背景原因。"
+    },
+    {
+      "source": "text_4_new_node_13",
+      "target": "text_4_new_node_14",
+      "relation": "before",
+      "support_text": "'try' (试图) 是 'defend' (保卫) 的意图或前置动作。"
+    }
+  ]
+}

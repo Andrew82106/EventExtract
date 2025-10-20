@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_173_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "FBI在NCIC中心通过计算机报告发现McVeigh与1993年世贸中心爆炸案关联",
+      "source_text": "text_173"
+    },
+    {
+      "id": "text_173_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "诺布尔县警长确认McVeigh因无关案件被拘留",
+      "source_text": "text_173"
+    },
+    {
+      "id": "text_173_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "FBI俄克拉荷马指挥中心欢呼并启动押解行动",
+      "source_text": "text_173"
+    },
+    {
+      "id": "text_173_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "FBI直升机前往诺布尔县监狱押解McVeigh",
+      "source_text": "text_173"
+    },
+    {
+      "id": "text_173_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "McVeigh在监狱等待区被带离时被询问是否为爆炸犯",
+      "source_text": "text_173"
+    },
+    {
+      "id": "text_173_node_6",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "DisableDefuse",
+      "event_sub_subtype": "Unspecified",
+      "description": "审讯室中McVeigh要求律师并拒绝佩戴防弹衣",
+      "source_text": "text_173"
+    },
+    {
+      "id": "text_173_node_7",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "FBI拒绝使用直升机押解并解释屋顶不适合起降",
+      "source_text": "text_173"
+    },
+    {
+      "id": "text_173_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "监狱外聚集人群发出催促释放McVeigh的呼声",
+      "source_text": "text_173"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_173_node_1",
+      "target": "text_173_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_173_node_2",
+      "target": "text_173_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_173_node_3",
+      "target": "text_173_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_173_node_4",
+      "target": "text_173_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_173_node_5",
+      "target": "text_173_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_173_node_6",
+      "target": "text_173_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_173_node_7",
+      "target": "text_173_node_8",
+      "relation": "before"
+    }
+  ]
+}

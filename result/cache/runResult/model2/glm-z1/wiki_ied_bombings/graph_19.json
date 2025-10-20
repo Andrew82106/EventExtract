@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "text_19_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1988年7月，伊朗一架空客被美国‘企业号’导弹击落，290人死亡，成为后续报复事件导火索",
+      "support_text": "The USS Vincennes shot down an Iranian airliner which killed 290 people in July 1988.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1988年12月，泛美航空103号航班在洛克比遭炸弹袭击，270人死亡，利比亚被初步归咎",
+      "support_text": "the 1988 attack which killed 270 people [...] the Pan Am airliner over the Scottish town.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1990年代末，伊朗情报官员梅萨比赫叛逃德国，指控伊朗通过巴勒斯坦组织实施洛克比空难",
+      "support_text": "new evidence gathered for Megrahi's planned appeal [...] supported his innocence and implicated a Syrian-based Palestinian militant group.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_4",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年，利比亚承认洛克比空难责任并支付27亿美元赔偿，但其领导人称此举为外交策略",
+      "support_text": "Gaddafi's regime admitted responsibility [...] paid $US2.7 billion in compensation to victims' families.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年，被定罪的洛克比空难主犯迈格拉希在服刑中死亡，始终坚称无罪",
+      "support_text": "Megrahi [...] died in May 2012 [...] maintained his innocence right up until his death.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年，梅萨比赫提供的证据被用于迈格拉希申诉，但申诉因提前获释被取消",
+      "support_text": "申诉因提前获释被取消 [...] new evidence gathered for Megrahi's planned appeal.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国情报人员贝尔回忆称，1991年海湾战争前美国为避免激怒叙利亚，将责任临时转嫁给利比亚",
+      "support_text": "the US government [...] did not want to alienate Syria in the run-up to the 1991 Gulf war.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗否认参与洛克比空难",
+      "support_text": "伊朗否认了洛克比空难中的任何参与",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_9",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗与巴勒斯坦激进分子签订合同",
+      "support_text": "伊朗与巴勒斯坦激进分子签订合同",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "欧盟和美国将PFLP-GC列入恐怖组织名单",
+      "support_text": "PFLP-GC被欧盟和美国列入恐怖组织名单",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_11",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jibril被给予金钱用于初始开支",
+      "support_text": "Jibril被给予金钱用于初始开支",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Mesbahi向半岛电视台报道",
+      "support_text": "Mesbahi向半岛电视台报道",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "结束政权的流放状态（作为策略的一部分）",
+      "support_text": "结束政权的流放状态（作为策略的一部分）",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "修复与西方的关系（作为策略的一部分）",
+      "support_text": "修复与西方的关系（作为策略的一部分）",
+      "source_text": "text_19"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_19_node_1",
+      "target": "text_19_node_2",
+      "relation": "before",
+      "support_text": "the 1988 attack which killed 270 people [...] in revenge for the shooting down of an Iranian airliner by the USS Vincennes"
+    },
+    {
+      "source": "text_19_node_2",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "Documents obtained by Al-Jazeera television for a documentary [...] supported his innocence and implicated a Syrian-based Palestinian militant group."
+    },
+    {
+      "source": "text_19_node_2",
+      "target": "text_19_node_8",
+      "relation": "before",
+      "support_text": "文件获得引发伊朗否认行为"
+    },
+    {
+      "source": "text_19_node_2",
+      "target": "text_19_node_10",
+      "relation": "before",
+      "support_text": "Al-Jazeera的纪录片证据为后续指控提供依据"
+    },
+    {
+      "source": "text_19_node_3",
+      "target": "text_19_node_6",
+      "relation": "before",
+      "support_text": "new evidence gathered for Megrahi's planned appeal [...] supported his innocence"
+    },
+    {
+      "source": "text_19_node_6",
+      "target": "text_19_node_5",
+      "relation": "before",
+      "support_text": "申诉因提前获释被取消 [...] Megrahi [...] died in May 2012"
+    },
+    {
+      "source": "text_19_node_7",
+      "target": "text_19_node_4",
+      "relation": "before",
+      "support_text": "Gaddafi's regime admitted responsibility [...] paid $US2.7 billion in compensation"
+    },
+    {
+      "source": "text_19_node_7",
+      "target": "text_19_node_13",
+      "relation": "before",
+      "support_text": "1991年海湾战争前美国将责任转嫁利比亚 → 伊朗结束流放状态的策略实施"
+    },
+    {
+      "source": "text_19_node_8",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "否认参与作为后续指控的反驳"
+    },
+    {
+      "source": "text_19_node_9",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "合同签订为后续指控提供依据"
+    },
+    {
+      "source": "text_19_node_10",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "被列入名单引发伊朗的否认和反指控"
+    },
+    {
+      "source": "text_19_node_11",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "Jibril获得的资金用于后续指控的指控依据"
+    },
+    {
+      "source": "text_19_node_12",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "Mesbahi的报道为后续指控提供证据"
+    },
+    {
+      "source": "text_19_node_14",
+      "target": "text_19_node_4",
+      "relation": "before",
+      "support_text": "修复与西方关系 → 利比亚承认责任并赔偿"
+    }
+  ]
+}

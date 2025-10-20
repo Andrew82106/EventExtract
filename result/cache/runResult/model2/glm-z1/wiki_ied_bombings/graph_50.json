@@ -1,0 +1,378 @@
+{
+  "nodes": [
+    {
+      "id": "text_50_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉合尔邦德路发生卡车炸弹袭击，造成1人死亡、24人受伤",
+      "support_text": "Share: LAHORE - A man died and two dozen others were wounded when a massive truck bomb ripped through Lahore’s Bund Road on Monday night.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致附近电网站受损，引发大面积停电",
+      "support_text": "A major portion of the district plunged into darkness as the blast triggered power breakdown.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援人员在爆炸现场发现20英尺宽、6英尺深的坑洞",
+      "support_text": "Rescue workers said there was a '20 feet wide and 6-feet deep carter' at the site of the explosion.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "一名女童从倒塌建筑残骸中获救，送医时情况危重",
+      "support_text": "We recovered a child from the debris of a nearby building that flattened following the blast.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "现场发现被炸毁的卡车残骸，部分部件散落数百米外",
+      "support_text": "A rescue worker told this reporter that there was a '20 feet wide and 6-feet deep carter' at the site of the explosion.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_6",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地居民称爆炸导致自家房屋墙体开裂",
+      "support_text": "The blast was so powerful that it caused cracks in the two-storey house where he lives.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "一辆载有水果的卡车被怀疑装有爆炸物",
+      "support_text": "A rescue worker told this reporter that there was a '20 feet wide and 6-feet deep carter' at the site of the explosion.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方和军警在拉合尔开展大规模安全清查",
+      "support_text": " Authorities sealed off the locality to help rescuers operate smoothly.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援队持续作业至次日凌晨，仍有人员被困废墟",
+      "support_text": "Rescue operation was underway at the site till filing of this report.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_10",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "民调显示10名伤者住院，10人经急救后出院，2人转院",
+      "support_text": "Out of 22 total victims, 10 injured are admitted to our hospital. Ten others were discharged after first aid. Two patients are referred to the main Mayo hospital.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉合尔电务公司确认爆炸导致电路严重损毁",
+      "support_text": "Our field staff is there to fix the problem.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "部分媒体被禁止进入封锁现场，用钢板隔离",
+      "support_text": "Media crews were denied access to the blast site that was closed with the help of steel sheets.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "省首席部长要求提交爆炸事件详细调查报告",
+      "support_text": "Earlier, Lahore’s chief traffic officer visited the site and told reporters that the counter terrorism department will determine nature of the blast.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "DIG向《国民报》说明情况",
+      "support_text": "DIG向《国民报》说明情况",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "正在寻找卡车司机",
+      "support_text": "正在寻找卡车司机",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "救援人员向记者报告发现20英尺宽、6英尺深的坑洞",
+      "support_text": "Rescue worker told this reporter that there was a '20 feet wide and 6-feet deep carter' at the site of the explosion.",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸震碎附近建筑窗户",
+      "support_text": "爆炸震碎附近建筑窗户",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_18",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "政府大楼部分受损",
+      "support_text": "政府大楼部分受损",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_19",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者因砖块和玻璃击中受伤",
+      "support_text": "受害者因砖块和玻璃击中受伤",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者被砖块和玻璃击中",
+      "support_text": "受害者被砖块和玻璃击中",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_21",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸使省城摇晃",
+      "support_text": "爆炸使省城摇晃",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总理被罢免",
+      "support_text": "总理被罢免",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_23",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "总理预计到达家乡",
+      "support_text": "总理预计到达家乡",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_24",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总理领导集会",
+      "support_text": "总理领导集会",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Punjab首席部长Shehbaz Sharif命令省级警察局长采取行动",
+      "support_text": "Punjab首席部长命令省级警察局长",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "省级警察局长向Punjab首席部长提交详细报告",
+      "support_text": "省级警察局长返回详细报告",
+      "source_text": "text_50"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_2",
+      "relation": "before",
+      "support_text": "A major portion of the district plunged into darkness as the blast triggered power breakdown."
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_3",
+      "relation": "before",
+      "support_text": "Rescue workers said there was a '20 feet wide and 6-feet deep carter' at the site of the explosion."
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_4",
+      "relation": "before",
+      "support_text": "We recovered a child from the debris of a nearby building that flattened following the blast."
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_5",
+      "relation": "before",
+      "support_text": "A rescue worker told this reporter that there was a '20 feet wide and 6-feet deep carter' at the site of the explosion."
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_6",
+      "relation": "before",
+      "support_text": "The blast was so powerful that it caused cracks in the two-storey house where he lives."
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_7",
+      "relation": "before",
+      "support_text": "A rescue worker told this reporter that there was a '20 feet wide and 6-feet deep carter' at the site of the explosion."
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_8",
+      "relation": "before",
+      "support_text": " Authorities sealed off the locality to help rescuers operate smoothly."
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_9",
+      "relation": "before",
+      "support_text": "Rescue operation was underway at the site till filing of this report."
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_10",
+      "relation": "before",
+      "support_text": "Out of 22 total victims, 10 injured are admitted to our hospital."
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_11",
+      "relation": "before",
+      "support_text": "Our field staff is there to fix the problem."
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_12",
+      "relation": "before",
+      "support_text": "Media crews were denied access to the blast site that was closed with the help of steel sheets."
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_13",
+      "relation": "before",
+      "support_text": "Earlier, Lahore’s chief traffic officer visited the site and told reporters that the counter terrorism department will determine nature of the blast."
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_14",
+      "relation": "before",
+      "support_text": "DIG向《国民报》说明情况"
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_17",
+      "relation": "before",
+      "support_text": "爆炸震碎附近建筑窗户发生在卡车炸弹袭击后"
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_18",
+      "relation": "before",
+      "support_text": "政府大楼受损发生在爆炸后"
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_19",
+      "relation": "before",
+      "support_text": "受害者受伤发生在爆炸后"
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_20",
+      "relation": "before",
+      "support_text": "受害者被击中发生在爆炸后"
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_21",
+      "relation": "before",
+      "support_text": "爆炸发生前已确认省城摇晃"
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_22",
+      "relation": "before",
+      "support_text": "爆炸事件后总理被罢免"
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_23",
+      "relation": "before",
+      "support_text": "爆炸事件后总理预计到达家乡"
+    },
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_24",
+      "relation": "before",
+      "support_text": "爆炸事件后总理领导集会"
+    },
+    {
+      "source": "text_50_node_4",
+      "target": "text_50_node_16",
+      "relation": "before",
+      "support_text": "倒塌建筑引发救援行动"
+    },
+    {
+      "source": "text_50_node_14",
+      "target": "text_50_node_15",
+      "relation": "before",
+      "support_text": "正在寻找卡车司机"
+    }
+  ]
+}

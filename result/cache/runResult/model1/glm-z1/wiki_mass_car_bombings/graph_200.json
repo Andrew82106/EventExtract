@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_200_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五的炸弹袭击在奥斯陆政府大楼爆炸，造成7人死亡",
+      "source_text": "text_200"
+    },
+    {
+      "id": "text_200_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "安德里斯·布雷维克伪装成警察，在尤特岛青年集会现场射杀84名青少年",
+      "source_text": "text_200"
+    },
+    {
+      "id": "text_200_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "布雷维克承认单独策划并实施枪击和炸弹袭击",
+      "source_text": "text_200"
+    },
+    {
+      "id": "text_200_node_4",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "奥斯陆警方今早突袭多处房产进行搜查",
+      "source_text": "text_200"
+    },
+    {
+      "id": "text_200_node_5",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "布雷维克被安排于次日出庭受审",
+      "source_text": "text_200"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_200_node_1",
+      "target": "text_200_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_200_node_2",
+      "target": "text_200_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_200_node_3",
+      "target": "text_200_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_200_node_4",
+      "target": "text_200_node_5",
+      "relation": "before"
+    }
+  ]
+}

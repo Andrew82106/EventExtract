@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": "text_77_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "美军撤离伊拉克后，巴格达遭遇至少14次协调爆炸袭击，造成69人死亡",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸主要针对什叶派社区，11个居民区遭汽车炸弹、路边炸弹和黏性炸弹袭击",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Karrada社区发生自杀式爆炸，袭击者伪装成救护车突破检查后引爆载有爆炸物的车辆",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_4",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "自杀袭击导致政府反腐机构办公楼前形成5米宽坑洞，造成25人死亡62人受伤",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸持续数小时，现场升起浓烟，急救车紧急响应",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者身份未明，但爆炸特征与基地组织逊尼派武装分子高度吻合",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_7",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成12岁儿童Hussain Abbas重伤，当地居民Um Hanin的婴儿被玻璃碎片划伤",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "爆炸事件加剧什叶派与逊尼派政治危机，sectarian tensions again升级",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "伊拉克政府官员证实总死亡人数达69人，伤者169人",
+      "source_text": "text_77"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_77_node_1",
+      "target": "text_77_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_2",
+      "target": "text_77_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_3",
+      "target": "text_77_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_4",
+      "target": "text_77_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_4",
+      "target": "text_77_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_5",
+      "target": "text_77_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_5",
+      "target": "text_77_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_6",
+      "target": "text_77_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_6",
+      "target": "text_77_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_9",
+      "target": "text_77_node_8",
+      "relation": "before"
+    }
+  ]
+}

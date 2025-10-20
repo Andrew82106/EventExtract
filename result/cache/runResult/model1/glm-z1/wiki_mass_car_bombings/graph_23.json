@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_23_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2023年8月12日，喀布尔外交区发生卡车炸弹袭击，造成总统宫窗户破裂，总统Ghani当时在宫内",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致最初90人死亡的统计被修正为总统Ghani宣布的151人死亡，300余人受伤",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ghani在和平会议（Kabul Process）上赞扬13名牺牲警察，强调外交人员未伤亡",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击引发大规模抗议，要求政府官员下台",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "8月17日，抗议活动升级，安全部队开枪导致更多平民死亡",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击后一周未发现实施者，阿富汗情报机构怀疑与巴基斯坦关联的Haqqani网络有关",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Taliban官方否认责任，Ghani指责巴基斯坦和亚洲邻国反恐不力",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ghani提出与Taliban和谈，但遭对方拒绝（要求外国军队撤离前提）",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国2014年撤军后仍留有约8400名驻军",
+      "source_text": "text_23"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_23_node_1",
+      "target": "text_23_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_23_node_2",
+      "target": "text_23_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_23_node_3",
+      "target": "text_23_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_23_node_4",
+      "target": "text_23_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_23_node_5",
+      "target": "text_23_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_23_node_6",
+      "target": "text_23_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_23_node_7",
+      "target": "text_23_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_23_node_8",
+      "target": "text_23_node_9",
+      "relation": "before"
+    }
+  ]
+}

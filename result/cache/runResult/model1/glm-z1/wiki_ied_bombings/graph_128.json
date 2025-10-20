@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_128_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1977年1月8日莫斯科地铁和两个杂货店发生三次恐怖爆炸",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "1977年1月10日塔斯社首次报道爆炸事件",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_3",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "1977年10月塔什干机场发现指向埃里温的可疑背包",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "1977年11月逮捕亚美尼亚民族主义者同伙并阻止库尔斯基火车站炸弹未遂",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "1977年11月逮捕初步嫌疑人Potapov并发现强迫供词",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_6",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "1978年撤销Potapov调查线索",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1979年早期三名亚美尼亚民族主义者经秘密审判后被处决",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "1979年2月8日《真理报》首次确认事件伤亡数据",
+      "source_text": "text_128"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_128_node_1",
+      "target": "text_128_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_2",
+      "target": "text_128_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_3",
+      "target": "text_128_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_4",
+      "target": "text_128_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_5",
+      "target": "text_128_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_6",
+      "target": "text_128_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_7",
+      "target": "text_128_node_8",
+      "relation": "before"
+    }
+  ]
+}

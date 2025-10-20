@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_188_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年以色列-阿根廷互助协会爆炸案发生，造成85人死亡、200余人受伤，但无人被起诉",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷法官胡安·约瑟·加莱安诺被任命为主调查法官，逮捕了提供炸弹车辆的卡洛斯·泰莱迪尼及其20名警察",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "电视播出加莱安诺法官涉嫌向泰莱迪尼支付40万美元的模糊视频，引发对其调查公正性的质疑",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "受害者家属律师巴勃罗·雅可比正式投诉加莱安诺法官违规操作，要求其退出调查",
+      "source_text": "text_188"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_188_node_1",
+      "target": "text_188_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_188_node_2",
+      "target": "text_188_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_188_node_3",
+      "target": "text_188_node_4",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_111_node_1",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "2006年1月，Dange、Kalsangra和Joshi在印度印多尔Bagli地区为炸弹袭击者进行为期两天的训练，内容包括炸弹组装、定时装置使用及武器操作",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2007年，Samjhauta特快列车在印巴边境爆炸，造成68人死亡（含43名巴方公民），四具行李炸弹引爆炸",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_3",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年，NIA接管2007年Samjhauta爆炸案调查，此前已由地方机构初步处理",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2011年6月，NIA首次起诉书指控Swami Aseemanand等5人（含已故Sunil Joshi）",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2024年2月，NIA逮捕Kamal Chauhan并获取其提供的训练细节，包括Bagli训练地点和炸弹组装方法",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_6",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "NIA通过Kamal Chauhan指认Amit Chauhan与Dange、Kalsangra在印多尔Bengali Chouraha租住公寓组装炸弹",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "NIA在起诉书中确认数字ORPAT手表被用于定时装置，该手表在爆炸物残骸和训练期间使用的炸弹中均被发现",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_8",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "NIA指控Lokesh Sharma和Kamal Chauhan当前羁押中，Amit Chauhan和Rajendra Pehalwan仍在逃亡",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "NIA明确排除RSS领袖Indresh Kumar的涉案指控，未将其列入新起诉书",
+      "source_text": "text_111"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_111_node_1",
+      "target": "text_111_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_111_node_2",
+      "target": "text_111_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_111_node_3",
+      "target": "text_111_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_111_node_4",
+      "target": "text_111_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_111_node_5",
+      "target": "text_111_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_111_node_6",
+      "target": "text_111_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_111_node_7",
+      "target": "text_111_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_111_node_8",
+      "target": "text_111_node_9",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_120_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "靳如超在云南马关县杀害女友后飞往天津",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "靳如超在石家庄郊区隐藏炸药引信和雷管",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_3",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "3月12-14日三次向王玉顺购买炸药",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "PreventPassage",
+      "description": "3月15日租用卡车运输炸药途中被司机拒绝",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸药被临时存放在郊区废弃建筑内",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "8时租用三轮车和出租车运送炸药至目标区域",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "4:16首枚炸弹摧毁15棉纺厂宿舍（含靳如超岳母）",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_8",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "4:30次炸弹彻底摧毁16棉纺厂宿舍（靳如超住所）",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_9",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "4:45炸弹摧毁建设公司宿舍（含靳如超前妻）",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_10",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "4:45另一枚炸弹摧毁硬件公司宿舍（含靳如超前妻）",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_11",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "5:01最后炸弹在民巷12号炸出地面坑洞",
+      "source_text": "text_120"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_120_node_1",
+      "target": "text_120_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_2",
+      "target": "text_120_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_3",
+      "target": "text_120_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_4",
+      "target": "text_120_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_5",
+      "target": "text_120_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_6",
+      "target": "text_120_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_7",
+      "target": "text_120_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_8",
+      "target": "text_120_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_9",
+      "target": "text_120_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_120_node_10",
+      "target": "text_120_node_11",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_144_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "黎巴嫩萨达东部郊区发生炸弹袭击，造成1人死亡、10人受伤，袭击目标为什叶派社区住宅楼入口",
+      "source_text": "text_144"
+    },
+    {
+      "id": "text_144_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "黎巴嫩总理哈里里在巴黎与法国总统希拉克会谈，呼吁欧盟解决伊拉克危机分歧并推动中东和平路线图",
+      "source_text": "text_144"
+    },
+    {
+      "id": "text_144_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "黎巴嫩真主党发表声明，再次否认参与1990年代布宜诺斯艾利斯针对犹太目标的爆炸袭击",
+      "source_text": "text_144"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_144_node_1",
+      "target": "text_144_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_144_node_2",
+      "target": "text_144_node_3",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "text_28_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "科西嘉分离主义者上周因抗议政府政策终止停火协议",
+      "support_text": "Corsican separatists last week ended a ceasefire in protest at government policy towards the island.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六深夜发生两起炸弹袭击事件，造成周边数百米内商铺和住宅受损及窗户破碎",
+      "support_text": "Anti-terrorist police were called in after two bombs went off late on Saturday, damaging shops and houses and shattering windows for hundreds of metres around.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "袭击现场发现一辆科西嘉被盗车辆残骸，其上带有伪造车牌和未引爆的定时装置",
+      "support_text": "Near the scene of the attack police found a detonator in a burnt-out car that was stolen in Corsica and had false number plates.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Diagnosis",
+      "event_sub_subtype": "Unspecified",
+      "description": "部分伤者因玻璃飞溅或心理创伤送医，但伤势均被评估为轻微",
+      "support_text": "People were taken to hospital suffering from shock or cuts from flying glass, but their injuries were described as minor.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "科西嘉阿雅克肖警方使用催泪瓦斯驱散夜间集会抗议的青少年",
+      "support_text": "Police in the Corsican city of Ajaccio fired tear gas on Saturday night to drive back rioting youths.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "反恐警察被调派（被动语态）",
+      "support_text": "Anti-terrorist police were called in after two bombs went off late on Saturday, damaging shops and houses and shattering windows for hundreds of metres around.",
+      "source_text": "text_28"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_28_node_1",
+      "target": "text_28_node_2",
+      "relation": "before",
+      "support_text": "Corsican separatists last week ended a ceasefire in protest at government policy towards the island."
+    },
+    {
+      "source": "text_28_node_2",
+      "target": "text_28_node_3",
+      "relation": "before",
+      "support_text": "Anti-terrorist police were called in after two bombs went off late on Saturday, damaging shops and houses and shattering windows for hundreds of metres around."
+    },
+    {
+      "source": "text_28_node_2",
+      "target": "text_28_node_6",
+      "relation": "before",
+      "support_text": "炸弹袭击事件后反恐警察被调派"
+    },
+    {
+      "source": "text_28_node_3",
+      "target": "text_28_node_4",
+      "relation": "before",
+      "support_text": "People were taken to hospital suffering from shock or cuts from flying glass, but their injuries were described as minor."
+    },
+    {
+      "source": "text_28_node_4",
+      "target": "text_28_node_5",
+      "relation": "before",
+      "support_text": "Police in the Corsican city of Ajaccio fired tear gas on Saturday night to drive back rioting youths."
+    },
+    {
+      "source": "text_28_node_6",
+      "target": "text_28_node_3",
+      "relation": "before",
+      "support_text": "警察调派后开始现场调查"
+    }
+  ]
+}

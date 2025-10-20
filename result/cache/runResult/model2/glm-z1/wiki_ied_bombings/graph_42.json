@@ -1,0 +1,324 @@
+{
+  "nodes": [
+    {
+      "id": "text_42_node_1",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年6月7日，美国地方法官Richard Matsch驳回了Timothy McVeigh的延期执行申请，认定新发布的FBI文件不影响其定罪，执行定于下周进行",
+      "support_text": "On June 7, Court TV reported that the judge appointed to the Oklahoma City bombing case, U.S. District Judge Richard Matsch, refused to delay the execution of Timothy McVeigh on the grounds that documents newly released by the FBI do not change the fact that he is guilty.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_2",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年6月8日，第十巡回上诉法院驳回McVeigh的上诉，其承认新证据不足以推翻原判，决定放弃继续申诉",
+      "support_text": "On June 8, Court TV reported that any hopes... that the newly produced materials do not satisfy the standard.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年6月9日，第三巡回上诉法院暂停执行录像许可，要求重新评估联邦禁令与执行录像的冲突",
+      "support_text": "According to the defense, one such document alluded to a potential witness that was previously unknown to them.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年6月10日，McVeigh正式放弃所有上诉，接受死刑执行，进入最后24小时准备阶段",
+      "support_text": "McVeigh... decided to end the process and was...",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年6月11日，执行前McVeigh在狱中保持镇定，坚持认为自己是政府战争的胜利者，完成最后通讯与心理准备",
+      "support_text": "McVeigh... said he believed that McVeigh was at war against the United States government...",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年6月12日，McVeigh于美国中部时间8:14执行lethal injection，创联邦38年来首个联邦死刑案例",
+      "support_text": "McVeigh... was executed at 8:14 CDT.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "法官与律师之间的评论互动",
+      "support_text": "法官向律师发表评论",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官对裁决的详细解释",
+      "support_text": "法官解释裁决",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "McVeigh律师正式提出上诉",
+      "support_text": "律师向上诉法院提出上诉",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_10",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "司法部长对裁决的官方评价",
+      "support_text": "司法部长称裁决为正义",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "McVeigh律师向法官提交论点",
+      "support_text": "律师向法官提出论点",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官对证据可靠性的质疑",
+      "support_text": "法官质疑信息来源可靠性",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_13",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "幸存者对定罪结果的声明",
+      "support_text": "幸存者声明结果不影响定罪",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "州长对裁决的公开赞扬",
+      "support_text": "州长赞扬周三裁决",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_15",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "McVeigh律师提交法院文件",
+      "support_text": "律师提交法院文件",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国政府文件保密行为",
+      "support_text": "政府隐瞒文件",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "FBI对第二嫌疑人的搜查行动",
+      "support_text": "FBI搜索第二嫌疑人",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_18",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "McVeigh拒绝向总统申请特赦",
+      "support_text": "McVeigh refused to ask President Bush for clemency",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_19",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家属欢迎放弃上诉的报道",
+      "support_text": "受害者家属欢迎McVeigh放弃上诉的报道",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_20",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Court TV报道允许麦考伊夫执行死刑录像的裁决",
+      "support_text": "Court TV reported that the judge appointed to the Oklahoma City bombing case, U.S. District Judge Richard Matsch, refused to delay the execution of Timothy McVeigh on the grounds that documents newly released by the FBI do not change the fact that he is guilty.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_21",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官Cohill允许对麦考伊夫执行死刑进行录像",
+      "support_text": "法官Cohill允许对麦考伊夫执行死刑进行录像",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官小组考虑是否维持延缓令",
+      "support_text": "法官小组考虑是否维持延缓令",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_23",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "辩护律师联系了McVeigh的律师Chris Tritico",
+      "support_text": "辩护律师联系了McVeigh的律师Chris Tritico",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "辩护律师与McVeigh讨论了是否同意录像",
+      "support_text": "辩护律师与McVeigh讨论了是否同意录像",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "司法部长Ashcroft为禁止执行死刑录像的规定辩护",
+      "support_text": "司法部长Ashcroft为禁止执行死刑录像的规定辩护",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_26",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "McVeigh与家人通过电话和信件沟通",
+      "support_text": "McVeigh给家人打电话并写信",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_27",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "监狱官员将McVeigh转移至隔离室",
+      "support_text": "监狱官员将McVeigh转移至隔离室",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_28",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Michel向ABC节目透露McVeigh观点",
+      "support_text": "Michel向ABC节目透露McVeigh观点",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_29",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "McVeigh向家乡报纸表达遗憾",
+      "support_text": "McVeigh向家乡报纸表达遗憾",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_30",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "McVeigh要求对方举证",
+      "support_text": "McVeigh要求对方举证",
+      "source_text": "text_42"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_42_node_1",
+      "target": "text_42_node_2",
+      "relation": "before",
+      "support_text": "Following the decision, McVeigh... decided to end the process and was..."
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_3",
+      "relation": "before",
+      "support_text": "According to the defense, one such document alluded to a potential witness that was previously unknown to them."
+    },
+    {
+      "source": "text_42_node_3",
+      "target": "text_42_node_4",
+      "relation": "before",
+      "support_text": "McVeigh... decided to end the process and was..."
+    },
+    {
+      "source": "text_42_node_4",
+      "target": "text_42_node_5",
+      "relation": "before",
+      "support_text": "McVeigh... said he believed that McVeigh was at war against the United States government..."
+    },
+    {
+      "source": "text_42_node_4",
+      "target": "text_42_node_26",
+      "relation": "before",
+      "support_text": "McVeigh放弃上诉后开始与家人沟通"
+    },
+    {
+      "source": "text_42_node_5",
+      "target": "text_42_node_6",
+      "relation": "before",
+      "support_text": "McVeigh... was executed at 8:14 CDT."
+    },
+    {
+      "source": "text_42_node_26",
+      "target": "text_42_node_5",
+      "relation": "before",
+      "support_text": "沟通结束后进入心理准备阶段"
+    },
+    {
+      "source": "text_42_node_28",
+      "target": "text_42_node_23",
+      "relation": "before",
+      "support_text": "Michel透露观点后引发后续联系"
+    }
+  ]
+}

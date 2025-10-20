@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "id": "text_114_node_1",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "Dr. Hans Koechler于2000年5月至2002年3月担任联合国任命的洛克比审判观察员",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Koechler于2001年1月发布第一份报告，指出情报机构干预导致司法程序受损",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Koechler于2002年3月发布第二份报告，重申情报机构不当干预问题",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "2007年10月Koechler接受BBC采访，揭露 CIA隐瞒与定时器相关的关键证据",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_5",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "GenericCrime",
+      "description": "证实CIA曾向关键证人Tony Gauci支付巨额报酬以获取其指认Al-Megrahi的证词",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_6",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "GenericCrime",
+      "description": "揭露CIA向双面间谍Abdul Majid Giaka提供巨额报酬获取其证词",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "发现 prosecution邀请的两位法医专家与情报机构有关且被证明不可靠",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_8",
+      "event_type": "Personnel",
+      "event_subtype": "EndPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "洛克比审判资料组（University of Glasgow）成员被曝为英国情报人员并辞职",
+      "source_text": "text_114"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_114_node_1",
+      "target": "text_114_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_2",
+      "target": "text_114_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_3",
+      "target": "text_114_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_4",
+      "target": "text_114_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_4",
+      "target": "text_114_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_5",
+      "target": "text_114_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_6",
+      "target": "text_114_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_7",
+      "target": "text_114_node_8",
+      "relation": "before"
+    }
+  ]
+}

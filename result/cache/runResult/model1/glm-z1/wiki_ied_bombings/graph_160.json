@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_160_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Ashcroft公布麦奎尔恐怖袭击案伤亡数据（168人遇难，19名儿童）并宣布执行死刑计划",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Ashcroft与约100名受害者家属及幸存者在俄克拉荷马城会面，其发言促使最终执行决定",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "确定10名由抽签产生的目击者参与行刑，并计划通过闭路电视直播",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "Ashcroft禁止媒体在行刑前对麦奎尔进行电视采访，强调限制凶手利用公共平台",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Correspondence",
+      "description": "麦奎尔同意5次电视采访后突然撤回，其律师Nigh表示对执行计划不满",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Nigh计划与印第安纳州特雷鲁特监狱典狱长会面，并安排与麦奎尔沟通",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "确认麦奎尔可每日使用15分钟电话联系记者，但需监狱方协助安排采访",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "Ashcroft要求媒体自律，禁止协助麦奎尔散布文化腐蚀言论",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "麦奎尔传记作者Michel被选为6名指定目击者之一",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_10",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "Ashcroft允许麦奎尔在行刑时有精神顾问作为见证人",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_11",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Correspondence",
+      "description": "Nigh确认麦奎尔家庭成员不会在行刑前探视，且无已知精神顾问介入",
+      "source_text": "text_160"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_160_node_1",
+      "target": "text_160_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_160_node_2",
+      "target": "text_160_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_160_node_3",
+      "target": "text_160_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_160_node_4",
+      "target": "text_160_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_160_node_5",
+      "target": "text_160_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_160_node_6",
+      "target": "text_160_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_160_node_7",
+      "target": "text_160_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_160_node_8",
+      "target": "text_160_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_160_node_9",
+      "target": "text_160_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_160_node_10",
+      "target": "text_160_node_11",
+      "relation": "before"
+    }
+  ]
+}

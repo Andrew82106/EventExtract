@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "id": "text_197_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1986年4月5日，柏林Friedenau区的La Belle夜总会遭炸弹袭击，造成3人死亡、229人受伤，其中2名死者和79名伤者是美国人",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生时炸弹放置在DJ台附近，01:45 CET引爆，当场致死土耳其女性Nermin Hannay和美国陆军中士Kenneth T. Ford",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "",
+      "description": "第二位美国陆军中士James E. Goins因伤势过重在爆炸后两个月死亡，部分受害者因爆炸导致永久残疾",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国指控利比亚支持袭击，里根总统10天后发动空袭打击利比亚的黎波里和班加西",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "截获的利比亚驻东柏林使馆电报证实其庆祝袭击的Telex信息，强化利比亚责任证据",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "1990年德国 reunification后开放东德史塔西档案，检察官梅利希通过档案锁定利比亚使馆间谍Musaheb Abdulghasem Eter",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "",
+      "description": "1996年Eter及四名嫌疑人同时在黎巴嫩、意大利、希腊和柏林被捕，1997年启动柏林地方法院审判",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_8",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "",
+      "description": "2001年审判认定Eter与两名巴勒斯坦人协助谋杀，Eter前妻Verena Chanaa因运输炸弹被判谋杀罪成立",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_9",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "",
+      "description": "梅利希证明炸弹由Chanaa公寓组装，利比亚外交公文袋运输，Häusler因证据不足获无罪判决",
+      "source_text": "text_197"
+    },
+    {
+      "id": "text_197_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "",
+      "description": "2001年美国法院最终确认袭击由利比亚情报局和使馆策划",
+      "source_text": "text_197"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_197_node_1",
+      "target": "text_197_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_1",
+      "target": "text_197_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_1",
+      "target": "text_197_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_2",
+      "target": "text_197_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_4",
+      "target": "text_197_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_4",
+      "target": "text_197_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_5",
+      "target": "text_197_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_6",
+      "target": "text_197_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_7",
+      "target": "text_197_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_8",
+      "target": "text_197_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_197_node_9",
+      "target": "text_197_node_10",
+      "relation": "before"
+    }
+  ]
+}

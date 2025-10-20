@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_100_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1998年美国驻肯尼亚内罗毕和坦桑尼亚达累斯萨拉姆大使馆遭恐怖袭击",
+      "source_text": "text_100"
+    },
+    {
+      "id": "text_100_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国受害者指控苏丹支持上述袭击并提起诉讼",
+      "source_text": "text_100"
+    },
+    {
+      "id": "text_100_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "苏丹政府因国内动荡和未及时知情未对诉讼作出回应长达四年",
+      "source_text": "text_100"
+    },
+    {
+      "id": "text_100_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国联邦法官维持对苏丹10亿美元赔偿判决并驳回其上诉请求",
+      "source_text": "text_100"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_100_node_1",
+      "target": "text_100_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_100_node_2",
+      "target": "text_100_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_100_node_3",
+      "target": "text_100_node_4",
+      "relation": "before"
+    }
+  ]
+}

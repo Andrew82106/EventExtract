@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周四，一名当地武装分子驾驶装满炸药的货车撞击准军事巴士，造成至少40名士兵死亡。",
+      "support_text": "which came after a local Kashmiri militant rammed an explosive-laden van into a paramilitary bus on Thursday, killing at least 40 soldiers in the worst attack against Indian government forces in Kashmir’s history.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度将此次袭击归咎于巴基斯坦，并承诺予以“粉碎性回应”。",
+      "support_text": "Tensions have escalated in the region since Thursday’s attack, which India blamed on Pakistan, promising a “jaw breaking response.”",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦警告印度不要在没有调查的情况下将其与袭击联系起来。",
+      "support_text": "Pakistan warned India not to link it to the attack without an investigation, saying that it was part of New Delhi’s “known rhetoric and tactics” to divert global attention from human rights violations in Kashmir.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "周一，政府部队根据情报包围了普尔瓦马地区的一个村庄。",
+      "support_text": "The fighting erupted early Monday after government forces surrounded a village in the southern Pulwama area on a tip that militants were hiding there, security officials said.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "部队在搜查时遭到猛烈射击，引发了致命的枪战。",
+      "support_text": "As troops began conducting searches they came under heavy gunfire, leading to fatalities, police said.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "部队在战斗中摧毁了一座平民房屋，并从废墟中找到了两名武装分子的尸体。",
+      "support_text": "Local residents said troops destroyed one civilian house by explosives during the fighting. Police said they recovered the bodies of two militants from the debris.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名平民在交火中丧生，四名印度士兵被杀，另一名士兵受伤。",
+      "support_text": "Four Indian soldiers, two suspected militants and a civilian were killed in a gunbattle in disputed Kashmir on Monday, officials said... Another soldier was wounded in the gunbattle...",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "枪战引发了反印度的抗议和冲突，安全部队发射了催泪瓦斯。",
+      "support_text": "The fighting triggered anti-India protests and clashes in the village, with local residents, mainly youths, trying to march to the site of the gunbattle in solidarity with the rebels. Government forces fired tear gas at stone-throwing protesters.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "官员们对外公布了关于枪战和死亡事件的消息。",
+      "support_text": "Four Indian soldiers, two suspected militants and a civilian were killed in a gunbattle in disputed Kashmir on Monday, officials said.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_new_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "新德里的言论和策略旨在转移全球对克什米尔人权侵犯行为的注意力。",
+      "support_text": "... saying that it was part of New Delhi's “known rhetoric and tactics” to divert global attention from human rights violations in Kashmir.",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "Tensions have escalated in the region since Thursday’s attack, which India blamed on Pakistan, promising a “jaw breaking response.”"
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "Pakistan warned India not to link it to the attack without an investigation..."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "Another soldier was wounded in the gunbattle, which came after a local Kashmiri militant rammed an explosive-laden van into a paramilitary bus on Thursday..."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_new_node_10",
+      "relation": "before",
+      "support_text": "Tensions have escalated in the region since Thursday’s attack, which India blamed on Pakistan, promising a “jaw breaking response.” Pakistan warned India ... saying that it was part of New Delhi's “known rhetoric and tactics” to divert global attention from human rights violations in Kashmir."
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "The fighting erupted early Monday after government forces surrounded a village... As troops began conducting searches they came under heavy gunfire..."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "Local residents said troops destroyed one civilian house by explosives during the fighting."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_7",
+      "relation": "before",
+      "support_text": "Four Indian soldiers, two suspected militants and a civilian were killed in a gunbattle..."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_8",
+      "relation": "before",
+      "support_text": "The fighting triggered anti-India protests and clashes in the village..."
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_new_node_9",
+      "relation": "before",
+      "support_text": "枪战发生后，官员们对外公布了该事件的消息。"
+    },
+    {
+      "source": "text_4_new_node_10",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "Pakistan warned India not to link it to the attack without an investigation, saying that it was part of New Delhi's “known rhetoric and tactics” to divert global attention from human rights violations in Kashmir."
+    }
+  ]
+}

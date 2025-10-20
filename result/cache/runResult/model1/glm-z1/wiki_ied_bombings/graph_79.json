@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_79_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "周一市场正常关闭，社区领袖Goni Malam Usman在市场结束后来回途中",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周二下午3:00桥脚市场附近发生炸弹爆炸，尼日利亚和喀麦隆民间安全部队正在控制人群",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_3",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸导致人群恐慌逃散，现场冒烟并出现伤亡情况",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "PreventPassage",
+      "description": "安全人员延迟抵达现场，社区领袖与CJTF人员冒险前往查看",
+      "source_text": "text_79"
+    },
+    {
+      "id": "text_79_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "周二凌晨统计确认38人死亡、30人受伤",
+      "source_text": "text_79"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_79_node_1",
+      "target": "text_79_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_2",
+      "target": "text_79_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_3",
+      "target": "text_79_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_79_node_4",
+      "target": "text_79_node_5",
+      "relation": "before"
+    }
+  ]
+}

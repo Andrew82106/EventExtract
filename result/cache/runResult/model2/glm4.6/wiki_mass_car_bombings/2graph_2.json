@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "人们作为叛乱分子-政权交换的一部分，乘坐巴士车队撤离他们的城镇。",
+      "support_text": "The blast struck buses of people leaving their towns as part of a rebel-regime swap.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "星期六，一个汽车炸弹袭击了载有撤离人员的巴士车队。",
+      "support_text": "The blast hit a convoy of buses Saturday, according to the Syrian Observatory for Human Rights, which reported the higher death toll.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "星期日，一个监督小组报告称，死亡人数已上升至126人。",
+      "support_text": "The death toll from a bomb attack targeting evacuees leaving besieged Syrian towns has risen to 126, a monitoring group said Sunday.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_1",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "至少55名其他人在爆炸中受伤。",
+      "support_text": "At least 55 others are injured, group says",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "叛军护卫着车队。",
+      "support_text": "叛军护卫着车队。",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "The blast struck buses of people leaving their towns as part of a rebel-regime swap."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "The death toll from a bomb attack targeting evacuees leaving besieged Syrian towns has risen to 126, a monitoring group said Sunday."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_new_node_1",
+      "relation": "before",
+      "support_text": "The blast struck buses of people... At least 55 others are injured"
+    },
+    {
+      "source": "text_2_new_node_2",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "叛军护卫车队发生在车队被袭击之前。"
+    }
+  ]
+}

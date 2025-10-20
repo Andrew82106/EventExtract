@@ -1,0 +1,219 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周一晚间拉合尔奥托布尔路停车场发生卡车爆炸",
+      "support_text": "when an explosion occurred in a truck at a parking stand on Outfall Road on Monday evening.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致46人受伤（4人重伤）并损毁超100辆车辆",
+      "support_text": "Up to 46 people were injured... damaged, partially or heavily, more than 100 vehicles.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸冲击波使3-4辆汽车弹飞10-15英尺，附近建筑窗户破裂",
+      "support_text": "three or four cars parked by the truck went airborne about 10 to 15 feet... windowpanes of a nearby building were also shattered.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "学校屋顶因爆炸倒塌，4公里半径内听到巨响",
+      "support_text": "the roof of a school building... collapsed... The blast was heard in several areas... within a radius of four to five kilometres.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "132千伏高压电线损坏导致区域停电",
+      "support_text": "the high voltage wires (132kV)... were damaged leaving the area in darkness.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方初步调查卡车载有从斯瓦特运往拉合尔的杏干",
+      "support_text": "the initial investigation suggested that the truck was carrying crates of apricot being transported from Swat to the city.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "确认卡车内藏有大量爆炸物，正在评估具体重量",
+      "support_text": "a huge cache of explosives had been stored in the truck... trying to assess the exact weight of the explosives.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "伤者被送往两家医院，12人经处理后出院",
+      "support_text": "The injured were taken to Services and Mian Munshi hospitals from where 12 of them were discharged after first aid.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "4名重伤者被转至梅奥医院重症监护",
+      "support_text": "Four people suffering life-threatening injuries were admitted to the Mayo Hospital.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方推测爆炸物可能用于袭击城市其他区域",
+      "support_text": "the attackers might have been intending to transport the explosives to other areas of the city.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援人员发现爆炸现场形成10-15英尺深坑洞",
+      "support_text": "the powerful explosion left a 10 to 15 feet crater on the spot.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "首席部长要求调查并提交报告至都城警察局长",
+      "support_text": "Chief Minister Shahbaz Sharif took notice of the incident and sought its report from Capital City Police Officer Amin Wains.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员怀疑爆炸物原计划用于袭击前总理纳瓦兹·谢里夫车队",
+      "support_text": "they feared that the explosives-laden truck might have been arranged to target the caravan of ousted prime minister Nawaz Sharif.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "谢里夫原定周日从伊斯兰堡返回的巡游路线经过爆炸地点",
+      "support_text": "His rally would have passed by the point as per the earlier plan.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "市议会议长宣布将全面调查爆炸事件",
+      "support_text": "Lord Mayor Mubashir Javed told reporters they would investigate the blast from all angles.",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "when an explosion occurred in a truck at a parking stand on Outfall Road on Monday evening."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "three or four cars parked by the truck went airborne about 10 to 15 feet due to the impact of the blast."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "the roof of a school building in the vicinity also collapsed due to the blast."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "the high voltage wires (132kV)... were damaged leaving the area in darkness."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_11",
+      "relation": "before",
+      "support_text": "the powerful explosion left a 10 to 15 feet crater on the spot."
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "three or four cars parked by the truck went airborne about 10 to 15 feet due to the impact of the blast."
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "the high voltage wires (132kV)... were damaged leaving the area in darkness."
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "the roof of a school building in the vicinity also collapsed due to the blast."
+    },
+    {
+      "source": "text_1_node_6",
+      "target": "text_1_node_7",
+      "relation": "before",
+      "support_text": "a huge cache of explosives had been stored in the truck... trying to assess the exact weight of the explosives."
+    },
+    {
+      "source": "text_1_node_8",
+      "target": "text_1_node_9",
+      "relation": "before",
+      "support_text": "The injured were taken to Services and Mian Munshi hospitals from where 12 of them were discharged after first aid."
+    },
+    {
+      "source": "text_1_node_10",
+      "target": "text_1_node_13",
+      "relation": "before",
+      "support_text": "the attackers might have been intending to transport the explosives to other areas of the city."
+    },
+    {
+      "source": "text_1_node_12",
+      "target": "text_1_node_15",
+      "relation": "before",
+      "support_text": "Chief Minister Shahbaz Sharif took notice of the incident and sought its report from Capital City Police Officer Amin Wains."
+    },
+    {
+      "source": "text_1_node_14",
+      "target": "text_1_node_13",
+      "relation": "before",
+      "support_text": "His rally would have passed by the point as per the earlier plan."
+    }
+  ]
+}

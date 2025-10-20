@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_17_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1993年纽约世贸中心遭恐怖袭击，成为美国本土首次重大恐怖攻击事件",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年俄克拉荷马城联邦大楼遭汽车炸弹袭击，造成168人死亡",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击后美国公众开始关注本土恐怖主义威胁，取代此前对海外威胁的专注",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织威胁认知转变：从海外阿拉伯组织转向国内反政府民兵团体",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_5",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "",
+      "description": "FBI新增500名反恐调查员，各执法机构成立国内反恐专门部门",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖袭击促使美国重新评估对独狼式袭击者的应对策略",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "发现袭击者麦凯ех为独立行动者，无所属组织，引发对民兵团体过度打击的反思",
+      "source_text": "text_17"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_4",
+      "target": "text_17_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_5",
+      "target": "text_17_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_6",
+      "target": "text_17_node_7",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "nodes": [
+    {
+      "id": "text_20_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2004年3月12日，西班牙马德里通勤火车和车站遭遇十枚炸弹袭击，造成190人死亡、1200人受伤，成为欧洲数十年来最致命的恐怖袭击",
+      "support_text": "Ten terrorist bombs tore through trains and stations along a commuter line at the height of the morning rush hour Thursday, killing more than 190 people and wounding 1,200 in the country's worst terrorist attack.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "西班牙政府最初将袭击归咎于巴斯克分离主义组织ETA",
+      "support_text": "The Spanish government initially blamed the Basque separatist group ETA, which came three days before Spain's general elections",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在爆炸案发现场附近发现阿拉伯语《古兰经》录音带和七枚炸药，调查转向伊斯兰恐怖组织",
+      "support_text": "after police found detonators and an Arabic-language audio tape of Quranic verses in a van near where the bombed trains originated",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "伦敦《Al-Quds al-Arabi》报纸收到名为'Abu Hafs al Masri Brigades'的声明，声称代表基地组织负责",
+      "support_text": "A senior official in Prime Minister Jose Maria Aznar's office said the government was studying the reported claim but still thought ETA was more likely behind the attacks",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "西班牙政府表示仍认为ETA的可能性更高，美国当局正在审查声明",
+      "support_text": "The group making the claim, Abu Hafs al Masri Brigades, is affiliated with al Qaeda and has carried out bombings before. But U.S. officials caution the group is 'notoriously unreliable' and does not necessarily speak for Osama bin Laden's organization",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abu Hafs al Masri Brigades被指过去多次虚假宣称负责袭击，可靠性存疑",
+      "support_text": "For example, Abu Hafs took credit for last summer's Northeast blackout, Orr reports",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "首相Aznar在紧急内阁会议后宣布追捕凶手，称此为'反人类罪行'",
+      "support_text": "After an emergency Cabinet meeting, a somber Aznar vowed to hunt down the attackers. 'This is mass murder,' he said",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "西班牙宣布三天全国哀悼，多国领导人谴责并表达支持",
+      "support_text": "In Madrid, commuters panicked... Aznar was a staunch supporter of U.S.-led war that ousted Saddam Hussein",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_9",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "Aznar因选举失败辞职，保守党可能在选举中获益",
+      "support_text": "Aznar was a staunch supporter of U.S.-led war that ousted Saddam Hussein and has sent 1,300 troops to Iraq",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸使用的炸药与ETA此前被拦截的炸弹相同，显示其可能调整策略",
+      "support_text": "The van was found in the town of Alcala de Henares, 25 kilometers (15 miles) northeast of Madrid and stolen in the capital on February 28",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "西班牙政府此前通过大规模逮捕和禁止ETA政治前台显著削弱该组织，但此次袭击显示其仍有威胁",
+      "support_text": "If confirmed as ETA's, the attack could signal a radical and lethal change of strategy for the group that has largely targeted police and politicians",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "ETA曾试图在圣诞前夕发动类似袭击，但未成功",
+      "support_text": "There are three countries that were at the forefront of the U.S....",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "阿拉伯卫星电视台（Al-Quds al-Arabi）报道阿布哈夫斯·马斯里旅对马德里恐袭的负责声明",
+      "support_text": "阿拉伯卫星电视台报道了阿布哈夫斯·马斯里旅对某事件的负责声明",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美方官员指出该组织（Abu Hafs al Masri Brigades）过去多次虚假宣称负责袭击",
+      "support_text": "美方官员指出了该组织之前的虚假声明",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "美国当局强调证据不足以得出进一步结论",
+      "support_text": "美国当局强调证据不足以得出进一步结论",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "ETA对警察/政治家的历史针对与马德里袭击的大规模伤亡形成对比",
+      "support_text": "ETA对警察/政治家的历史针对与马德里袭击的大规模伤亡形成对比",
+      "source_text": "text_20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_20_node_2",
+      "target": "text_20_node_3",
+      "relation": "before",
+      "support_text": "but then seemed to back away after police found detonators and an Arabic-language audio tape of Quranic verses in a van near where the bombed trains originated"
+    },
+    {
+      "source": "text_20_node_2",
+      "target": "text_20_node_15",
+      "relation": "before",
+      "support_text": "西班牙政府最初将袭击归咎于巴斯克分离主义组织ETA，但美国当局随后强调证据不足"
+    },
+    {
+      "source": "text_20_node_3",
+      "target": "text_20_node_4",
+      "relation": "before",
+      "support_text": "The London-based Arabic newspaper Al-Quds al-Arabi said Thursday evening it had received a claim of responsibility"
+    },
+    {
+      "source": "text_20_node_3",
+      "target": "text_20_node_7",
+      "relation": "before",
+      "support_text": "After an emergency Cabinet meeting, a somber Aznar vowed to hunt down the attackers"
+    },
+    {
+      "source": "text_20_node_4",
+      "target": "text_20_node_5",
+      "relation": "before",
+      "support_text": "A senior official in Prime Minister Jose Maria Aznar's office said the government was studying the reported claim"
+    },
+    {
+      "source": "text_20_node_5",
+      "target": "text_20_node_6",
+      "relation": "before",
+      "support_text": "The group making the claim, Abu Hafs al Masri Brigades, is affiliated with al Qaeda and has carried out bombings before"
+    },
+    {
+      "source": "text_20_node_5",
+      "target": "text_20_node_14",
+      "relation": "before",
+      "support_text": "美国官员的可靠性评估早于对虚假声明的具体分析"
+    },
+    {
+      "source": "text_20_node_7",
+      "target": "text_20_node_8",
+      "relation": "before",
+      "support_text": "In Madrid, commuters panicked... Aznar was a staunch supporter of U.S.-led war that ousted Saddam Hussein"
+    },
+    {
+      "source": "text_20_node_7",
+      "target": "text_20_node_9",
+      "relation": "before",
+      "support_text": "Aznar was a staunch supporter of U.S.-led war that ousted Saddam Hussein and has sent 1,300 troops to Iraq"
+    },
+    {
+      "source": "text_20_node_10",
+      "target": "text_20_node_11",
+      "relation": "before",
+      "support_text": "If confirmed as ETA's, the attack could signal a radical and lethal change of strategy for the group that has largely targeted police and politicians"
+    },
+    {
+      "source": "text_20_node_11",
+      "target": "text_20_node_12",
+      "relation": "before",
+      "support_text": "There are three countries that were at the forefront of the U.S...."
+    },
+    {
+      "source": "text_20_node_11",
+      "target": "text_20_node_16",
+      "relation": "before",
+      "support_text": "西班牙政府此前通过大规模逮捕和禁止ETA政治前台显著削弱该组织，但此次袭击显示其仍有威胁"
+    },
+    {
+      "source": "text_20_node_13",
+      "target": "text_20_node_5",
+      "relation": "before",
+      "support_text": "阿拉伯卫星电视台的报道早于美国官员的可靠性评估"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_122_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦政府谴责Pulwama恐怖袭击并否认与事件有关",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度外交部强烈谴责巴基斯坦支持恐怖主义并要求其摧毁境内恐怖基础设施",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度提议将JeM及其领导人Masood Azhar列入联合国安理会1267制裁名单",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度指出JeM在巴基斯坦境内获得庇护并实施针对印度的恐袭",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦政府重申一贯反对一切形式的暴力行为",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "印度证实Pulwama袭击系Jaish-e-Mohammed组织策划的自杀式爆炸",
+      "source_text": "text_122"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_122_node_1",
+      "target": "text_122_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_122_node_2",
+      "target": "text_122_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_122_node_3",
+      "target": "text_122_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_122_node_4",
+      "target": "text_122_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_122_node_5",
+      "target": "text_122_node_6",
+      "relation": "before"
+    }
+  ]
+}

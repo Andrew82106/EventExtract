@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "text_33_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2023年8月17日，孟加拉国多地发生大规模爆炸袭击，造成2人死亡、140人受伤",
+      "support_text": "Nearly 500 bombs went off, in 63 out of the country's 64 districts, all within about an hour of each other. Targets included government buildings, courts and press clubs.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "一周内，警方拘留超过170名涉事嫌疑人，其供词确认极端组织Jamaat-ul-Mujahideen参与",
+      "support_text": "Within a week of the bombings, more than 170 out of 500 suspects sought by the police had been detained.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "爆炸现场发现要求实施伊斯兰法的极端组织传单",
+      "support_text": "Leaflets from the group, demanding the introduction of Islamic law, had been left at many of the bomb sites.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府承认于2023年2月将Jamaat-ul-Mujahideen列为非法组织，此前曾否认其存在",
+      "support_text": "Jamaat-ul-Mujahideen was one of two extremist groups the government banned in February, having earlier denied their very existence.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_5",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "2023年8月23日，Jamaat-ul-Mujahideen通过官网威胁发动新一轮袭击",
+      "support_text": "On August 23rd, its website threatened new attacks.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "BNP政府与反对党Awami League互相指责策划爆炸袭击",
+      "support_text": "Some senior BNP members openly blamed the main opposition party, the Awami League. The League in turn accused the government of complicity.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Awami League指控政府通过爆炸转移公众对通胀、非法处决和选举改革的关注",
+      "support_text": "He claimed that the ruling party wanted to distract attention from rising prices, a spate of extra-judicial killings and an opposition campaign for political reform ahead of elections that must be held by early 2007.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_8",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2022年数据显示，BNP与Awami League的暴力冲突已导致超过500人死亡",
+      "support_text": "Two Islamic parties are junior partners in the BNP-led coalition. Motiur Rahman Nizami, the industry minister, from the larger of the two, Jamaat-e-Islami, hardly helped his party's international standing by accusing India of involvement in last week's blasts.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度指责孟加拉国庇护分离主义分子，担忧其社会政治趋于‘塔利班化’",
+      "support_text": "India accuses Bangladesh of harbouring secessionist groups from its restive North-East. It has also been fretting about a perceived “Talibanisation” of Bangladeshi society and politics.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "BNP官员Khaleda Zia强调国家世俗性，否认极端主义威胁，称女性领导层可抵御极端化",
+      "support_text": "Moudud Ahmed, the law minister, said it was inconceivable that the militant group could have organised the blasts alone. If they try for 100 years, they will not turn Bangladesh into a Taliban state.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖袭击被大规模协调",
+      "support_text": "恐怖袭击被大规模协调",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "They will further tarnish Bangladesh's secular Muslim democratic reputation",
+      "support_text": "They will further tarnish Bangladesh's secular Muslim democratic reputation",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "BNP和Awami League使用政治暴力",
+      "support_text": "BNP和Awami League使用政治暴力",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nizami帮助提升党的国际地位",
+      "support_text": "Nizami帮助提升党的国际地位",
+      "source_text": "text_33"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_2",
+      "relation": "before",
+      "support_text": "Within a week of the bombings, more than 170 out of 500 suspects sought by the police had been detained."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_3",
+      "relation": "before",
+      "support_text": "Leaflets from the group, demanding the introduction of Islamic law, had been left at many of the bomb sites."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_5",
+      "relation": "before",
+      "support_text": "On August 23rd, its website threatened new attacks."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_13",
+      "relation": "before",
+      "support_text": "爆炸袭击发生前存在组织协调行为"
+    },
+    {
+      "source": "text_33_node_4",
+      "target": "text_33_node_5",
+      "relation": "before",
+      "support_text": "Jamaat-ul-Mujahideen was one of two extremist groups the government banned in February, having earlier denied their very existence."
+    },
+    {
+      "source": "text_33_node_6",
+      "target": "text_33_node_7",
+      "relation": "before",
+      "support_text": "The League in turn accused the government of complicity."
+    },
+    {
+      "source": "text_33_node_8",
+      "target": "text_33_node_1",
+      "relation": "before",
+      "support_text": "Two Islamic parties are junior partners in the BNP-led coalition."
+    },
+    {
+      "source": "text_33_node_8",
+      "target": "text_33_node_14",
+      "relation": "before",
+      "support_text": "Nizami指控印度后帮助提升国际地位"
+    },
+    {
+      "source": "text_33_node_9",
+      "target": "text_33_node_10",
+      "relation": "before",
+      "support_text": "India accuses Bangladesh of harbouring secessionist groups from its restive North-East."
+    },
+    {
+      "source": "text_33_node_11",
+      "target": "text_33_node_1",
+      "relation": "before",
+      "support_text": "大规模爆炸袭击发生前存在组织协调行为"
+    },
+    {
+      "source": "text_33_node_12",
+      "target": "text_33_node_1",
+      "relation": "before",
+      "support_text": "After the bombings, the reputation damage became irreversible"
+    },
+    {
+      "source": "text_33_node_13",
+      "target": "text_33_node_14",
+      "relation": "before",
+      "support_text": "使用暴力后国际地位提升"
+    }
+  ]
+}

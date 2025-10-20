@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "1998年6月，McArdle因驾驶Docklands炸弹被判处25年监禁。",
+      "support_text": "McArdle was initially sentenced to 25 years in June 1998 for driving the Docklands bomb from Northern Ireland to England.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_2",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "他最终因这些指控被合并判处总计50年监禁。",
+      "support_text": "He was jailed for a total of 50 years on those charges.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "他当时正在服一个先前的刑期。",
+      "support_text": "他当时正在服一个先前的刑期。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "他被特别空勤团（SAS）抓获。",
+      "support_text": "他被特别空勤团（SAS）抓获。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "（在他被抓获时）发现了一把狙击步枪。",
+      "support_text": "（在他被抓获时）发现了一把狙击步枪。",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "他被判持有狙击步枪的罪名成立。",
+      "support_text": "他被判持有狙击步枪的罪名成立。",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "He was jailed for a total of 50 years on those charges."
+    },
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_new_node_1",
+      "relation": "before",
+      "support_text": "node_1（因Docklands炸弹被判刑）是new_node_1（服刑）的前提。"
+    },
+    {
+      "source": "text_5_new_node_1",
+      "target": "text_5_new_node_2",
+      "relation": "before",
+      "support_text": "根据temporal_order，服刑早于被抓。"
+    },
+    {
+      "source": "text_5_new_node_2",
+      "target": "text_5_new_node_3",
+      "relation": "before",
+      "support_text": "根据temporal_order，被抓早于发现步枪。"
+    },
+    {
+      "source": "text_5_new_node_3",
+      "target": "text_5_new_node_4",
+      "relation": "before",
+      "support_text": "根据temporal_order，发现步枪早于定罪。"
+    },
+    {
+      "source": "text_5_new_node_4",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "new_node_4（因持有步枪定罪）是node_2（最终合并判刑）的前提之一。"
+    }
+  ]
+}

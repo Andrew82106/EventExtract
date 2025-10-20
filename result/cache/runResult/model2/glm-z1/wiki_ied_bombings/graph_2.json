@@ -1,0 +1,360 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2007年2月18日，萨姆焦auta Express在印度潘帕特附近遭炸弹袭击，70人死亡，多为巴基斯坦平民",
+      "support_text": "Bombs were set off in two carriages, both filled with passengers, just after the train passed Diwana near the Indian city of Panipat, north of New Delhi. 70 people were killed in the ensuing fire and dozens more were injured.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查显示炸弹藏于两节车厢行李中，含未爆装置及定时器，部分证据指向印度激进组织",
+      "support_text": "Investigators subsequently found evidence of suitcases with explosives and flammable material, including three undetonated bombs. Inside one of the undetonated suitcases, a digital timer encased in transparent plastic was packed alongside a dozen plastic bottles containing fuel oils and chemicals.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印巴政府谴责袭击，认为其旨在破坏两国和平谈判（袭击发生于巴基斯坦外长访印前夕）",
+      "support_text": "Both the Indian and Pakistani governments condemned the attack, and officials on both sides speculated that the perpetrators intended to disrupt improving relations between the two nations, since the attack came just a day before Pakistani Foreign Minister Khurshid Mahmud Kasuri was to arrive in New Delhi to resume peace talks with Indian leaders.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度NIA指控8人涉案，包括前RSS成员Swami Aseemanand，但2019年法院宣布全部无罪",
+      "support_text": "India's National Investigation Agency (NIA) charged eight people in the terrorist attack, including Swami Aseemanand... In 2019, NIA court has acquitted all the accused.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国2009年制裁Lashkar-e-Toiba，指控其成员Arif Qasmani参与策划",
+      "support_text": "A United States report declared Arif Qasmani to be involved in the attack. Consequently, after consulting with the United Nations, the United States declared him an international terrorist.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年印度指控军官Purohit策划袭击，2016年NIA撤销指控",
+      "support_text": "Some officers had also questioned the reliability of narco-analysis. One of the investigating officers stated in 2016 that they had investigated the Islamists including Safdar but didn't find them involved.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年调查质疑印度极端组织与伊斯兰组织的双重嫌疑，证据存疑",
+      "support_text": "Questions were raised over a Pakistani national who was arrested after the bombings for not carrying valid papers and was seen as suspicious by the investigators, but was discharged within 14 days according to a statement of the first investigation officer assigned to the case. A court order had noted the statement of the police that no proof had been found against him, which was also stated later by one of the senior officers.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年释放被怀疑的巴基斯坦乘客Ajmat Ali，因无确凿证据",
+      "support_text": "A court order had noted the statement of the police that no proof had been found against him, which was also stated later by one of the senior officers.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年NIA法院最终裁定所有指控不成立，因证据不足",
+      "support_text": "In 2019, NIA court has acquitted all the accused.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_10",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦人因未携带有效证件被逮捕",
+      "support_text": "语义描述内容",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方对SIMI领导人进行测谎测试",
+      "support_text": "语义描述内容",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "电视台播出测谎测试视频",
+      "support_text": "语义描述内容",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "SIMI领导人证实Abdul Razzaq策划爆炸",
+      "support_text": "语义描述内容",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度警方声明炸弹袭击事件",
+      "support_text": "语义描述内容",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "巴基斯坦内政部长指控印度未认真调查",
+      "support_text": "语义描述内容",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查报告揭露目标被讨论",
+      "support_text": "语义描述内容",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "印度教报包含声明",
+      "support_text": "印度教报包含声明",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_18",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bharti Arora指示嫌疑人被释放",
+      "support_text": "Bharti Arora指示嫌疑人被释放",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Bharti Arora领导特别调查组",
+      "support_text": "Bharti Arora领导特别调查组",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bharti Arora被Gurdeep Singh点名",
+      "support_text": "Bharti Arora被Gurdeep Singh点名",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_21",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "印度教报发表声明",
+      "support_text": "印度教报发表声明",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bharti Arora声明被误读",
+      "support_text": "Bharti Arora声明被误读",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bharti Arora计划法律行动",
+      "support_text": "Bharti Arora计划法律行动",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bharti Arora陈述窃听报告",
+      "support_text": "Bharti Arora陈述窃听报告",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_25",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "频道释放嫌疑人",
+      "support_text": "频道释放嫌疑人",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bharti Arora声称报告虚假",
+      "support_text": "Bharti Arora声称报告虚假",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_27",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "虚假报告指控Bharti Arora",
+      "support_text": "虚假报告指控Bharti Arora",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_28",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "NIA声明不调查",
+      "support_text": "NIA声明不调查",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "Bombs were set off in two carriages, both filled with passengers, just after the train passed Diwana near the Indian city of Panipat, north of New Delhi."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "Both the Indian and Pakistani governments condemned the attack, and officials on both sides speculated that the perpetrators intended to disrupt improving relations between the two nations, since the attack came just a day before Pakistani Foreign Minister Khurshid Mahmud Kasuri was to arrive in New Delhi to resume peace talks with Indian leaders."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "Investigators subsequently found evidence of suitcases with explosives and flammable material, including three undetonated bombs."
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "India's National Investigation Agency (NIA) charged eight people in the terrorist attack"
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "A United States report declared Arif Qasmani to be involved in the attack"
+    },
+    {
+      "source": "text_2_node_4",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "Some officers had also questioned the reliability of narco-analysis"
+    },
+    {
+      "source": "text_2_node_4",
+      "target": "text_2_node_8",
+      "relation": "before",
+      "support_text": "A court order had noted the statement of the police that no proof had been found against him"
+    },
+    {
+      "source": "text_2_node_6",
+      "target": "text_2_node_7",
+      "relation": "before",
+      "support_text": "Questions were raised over a Pakistani national who was arrested after the bombings"
+    },
+    {
+      "source": "text_2_node_7",
+      "target": "text_2_node_8",
+      "relation": "before",
+      "support_text": "A court order had noted the statement of the police that no proof had been found against him"
+    },
+    {
+      "source": "text_2_node_8",
+      "target": "text_2_node_9",
+      "relation": "before",
+      "support_text": "In 2019, NIA court has acquitted all the accused"
+    },
+    {
+      "source": "text_2_node_10",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "巴基斯坦人因未携带有效证件被逮捕发生在爆炸事件后"
+    },
+    {
+      "source": "text_2_node_11",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "警方测谎测试发生在政府谴责事件后"
+    },
+    {
+      "source": "text_2_node_12",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "电视台播出视频发生在测谎测试后"
+    },
+    {
+      "source": "text_2_node_13",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "SIMI领导人证实策划发生在政府谴责事件后"
+    },
+    {
+      "source": "text_2_node_14",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "语义描述内容"
+    },
+    {
+      "source": "text_2_node_15",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "语义描述内容"
+    },
+    {
+      "source": "text_2_node_16",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "语义描述内容"
+    }
+  ]
+}

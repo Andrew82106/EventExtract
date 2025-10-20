@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "text_128_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "塔利班在Maidan Wardak省军事训练中心发动袭击，汽车炸弹冲破检查站并爆炸",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名塔利班枪手进入训练中心后向士兵开枪，随后被击毙",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "国防部官员确认126人死于爆炸，其中8名为特种部队成员",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "Maidan Wardak省前官员称NDS成员死亡超过100人",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hotak目睹35具士兵遗体，并称更多伤者被转移至Kabul",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部官员透露政府未公开准确伤亡数据以避免军队不安",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "NDS官员称至少50人伤亡，与之前数据存在差异",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "省长Mangal报告12死12伤，并指控政府隐瞒真相",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_9",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "总统Ghani谴责袭击，称针对国家安全的暴力行为",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_10",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "土耳其总统Erdoğan对袭击表示哀悼并谴责",
+      "source_text": "text_128"
+    },
+    {
+      "id": "text_128_node_11",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "塔利班与美方在卡塔尔启动新一轮谈判",
+      "source_text": "text_128"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_128_node_1",
+      "target": "text_128_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_2",
+      "target": "text_128_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_2",
+      "target": "text_128_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_2",
+      "target": "text_128_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_3",
+      "target": "text_128_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_4",
+      "target": "text_128_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_5",
+      "target": "text_128_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_6",
+      "target": "text_128_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_7",
+      "target": "text_128_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_8",
+      "target": "text_128_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_8",
+      "target": "text_128_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_9",
+      "target": "text_128_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_128_node_10",
+      "target": "text_128_node_11",
+      "relation": "before"
+    }
+  ]
+}

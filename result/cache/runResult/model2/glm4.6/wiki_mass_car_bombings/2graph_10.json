@@ -1,0 +1,690 @@
+{
+  "nodes": [
+    {
+      "id": "text_10_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周四，一名袭击者驾车对印度准军事部队车队发动自杀式袭击，造成42名士兵死亡。",
+      "support_text": "when 20-year-old Adil Dar rammed his car filled with explosives into a convoy carrying Indian paramilitary forces, killing 42 of them.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦武装组织“穆罕默德军”宣布对此次袭击负责。",
+      "support_text": "Pakistan-based group Jaish-e-Mohammed (JeM) claimed responsibility for the attack, the deadliest in nearly 30 years of the Kashmir conflict.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击引发了对居住在印度本土各地的克什米尔人的仇恨和报复性攻击浪潮。",
+      "support_text": "Thursday's suicide attack on Indian forces in India-administered Kashmir has triggered a wave of hate and revenge attacks against Kashmiris residing in different parts of mainland India.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "周五，一群暴民在德拉敦殴打了一些克什米尔学生。",
+      "support_text": "Nisar Ahmad (name changed), 23, who is studying physics at an institute in Dehradun, capital of the northern Uttarakhand state, told Al Jazeera that Kashmiri students were beaten by a mob on Friday.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六，一群人在德拉敦集会，高喊口号要求将克什米尔人赶出去。",
+      "support_text": "Ahmad said a group of around 70 people took out a rally in the area on Saturday, \"chanting slogans like 'shoot the traitor Kashmiris', 'drive them out'\".",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "多地的克什米尔学生报告其宿舍被暴民包围，并受到离开或面临后果的最后通牒。",
+      "support_text": "Asma Ashraf, 24, a student of science in Dehradun, told Al Jazeera that she fears for her life after her hostel was \"surrounded by a mob\".",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_7",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度公民在社交媒体上广泛发声，为受威胁的克什米尔人提供住所和安全保障。",
+      "support_text": "Like everyone else, my home is also open to anyone needing help. Especially, if any Kashmir women living in Delhi/NCR feels like she needs to go to someone, please DM.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "分裂主义叛乱分子正在为实现穆斯林占多数的整个克什米尔的独立而战斗。",
+      "support_text": "The separatist rebels have been fighting for the independence of all of Muslim-majority Kashmir.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "PreventPassage",
+      "description": "Dawood在袭击后无法外出移动。",
+      "support_text": "他无法外出。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "暴民进入了Dawood的房间。",
+      "support_text": "暴民进入了我们的房间。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Dawood躲在浴室里以确保安全。",
+      "support_text": "我躲在浴室里。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Dawood补充说明了更多学生被困且不敢外出的情况。",
+      "support_text": "Dawood补充说，还有更多学生被困在自己的宿舍里，不敢外出。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "学生们担心在路上会遭遇更多袭击。",
+      "support_text": "我们担心在路上会遭到更多袭击。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "作者指控巴基斯坦正在庆祝来自比哈尔的这些可怕场景。",
+      "support_text": "作者指控巴基斯坦正在庆祝来自比哈尔的这些可怕场景。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_15",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "作者号召大家不要玷污国家的肌理。",
+      "support_text": "作者号召大家不要玷污国家的肌理。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sara Khursheed 告诉半岛电视台，克什米尔人正被以怀疑的眼光看待，并描述了她下班回家途中的经历。",
+      "support_text": "“我们正被以怀疑的眼光看待，” Sara Khursheed 告诉半岛电视台。“昨天我下班回家...”",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "公众以怀疑的眼光看待克什米尔人。",
+      "support_text": "“我们正被以怀疑的眼光看待，” Sara Khursheed 告诉半岛电视台。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_18",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sara Khursheed 在下班回家途中。",
+      "support_text": "“昨天我下班回家...”",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名路人声称克什米尔人对杀戮事件感到高兴。",
+      "support_text": "“一名路人走过来说，‘这些克什米尔人对杀戮事件感到高兴。’”",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_20",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "暴力暴民通过高音喇叭宣布，威胁克什米尔学生立即离开他们的出租屋。",
+      "support_text": "暴力暴民通过高音喇叭宣布，威胁克什米尔学生立即离开他们的出租屋",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_21",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "学生们从昨天起就开始逃亡。",
+      "support_text": "We have been on the run since yesterday.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_22",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "学生们离开了他们的出租屋。",
+      "support_text": "We left the rented place.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_23",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "管理部门将学生们安置在一个有安保的宿舍里。",
+      "support_text": "the administration has put us in a hostel with security.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_24",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "Bashir陈述说，暴力暴民威胁了克什米尔学生。",
+      "support_text": "Bashir says a violent mob threatened the Kashmiri students.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bashir透露了自己的姓氏。",
+      "support_text": "He reveals his second name.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_26",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "克什米尔学生在社交媒体上发表了针对部队的言论。",
+      "support_text": "克什米尔学生在社交媒体上发表了针对部队的言论。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_27",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "克什米尔学生被指控在WhatsApp上侮辱了印度准军事部队。",
+      "support_text": "克什米尔学生被指控在WhatsApp上侮辱了印度准军事部队。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_28",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局确保学生不会受到伤害。",
+      "support_text": "当局确保学生不会受到伤害。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_29",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "克什米尔地区警察局长迪尔巴格·辛格告诉半岛电视台相关情况，并表示无需担忧。",
+      "support_text": "克什米尔地区警察局长迪尔巴格·辛格告诉半岛电视台相关情况...迪尔巴格·辛格表示无需担忧...",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_30",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Correspondence",
+      "description": "警方接到了求助电话。",
+      "support_text": "we got the calls.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_31",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "（克什米尔）警方与相关地方警方取得了联系。",
+      "support_text": "we got in touch with the respective police.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_32",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "相关地方警方向克什米尔警方做出了保证。",
+      "support_text": "they have ensured us.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_33",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "克什米尔警方已经发布了求助热线号码。",
+      "support_text": "Police in Kashmir have issued helpline numbers.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_34",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Correspondence",
+      "description": "学生通过热线报告威胁或袭击。",
+      "support_text": "for students to report threats or attacks.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_35",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "克什米尔领导人向联邦政府呼吁，要求确保学生和其他克什米尔人的安全。",
+      "support_text": "克什米尔领导人向联邦政府呼吁，要求确保学生和其他克什米尔人的安全。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_36",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "梅赫布巴·穆夫蒂曾与印度人民党（BJP）联合执政。",
+      "support_text": "梅赫布巴·穆夫蒂曾与印度人民党（BJP）联合执政。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_37",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "梅赫布巴·穆夫蒂将相关事件称为“不幸的”。",
+      "support_text": "梅赫布巴·穆夫蒂将相关事件称为“不幸的”。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_38",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Correspondence",
+      "description": "梅赫布巴·穆夫蒂已与印度内政部长及德拉敦的行政部门通话，请求帮助学生。",
+      "support_text": "梅赫布巴·穆夫蒂已与印度内政部长及德拉敦的行政部门通话，请求帮助学生。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_39",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "这些人（学生们）前往当地学习。",
+      "support_text": "这些人（学生们）前往当地学习。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_40",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "这些事件将导致局势进一步恶化。",
+      "support_text": "这些事件将导致局势进一步恶化。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_41",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "梅赫布巴·穆夫蒂向半岛电视台讲述了她的观点和采取的行动。",
+      "support_text": "梅赫布巴·穆夫蒂向半岛电视台讲述了她的观点和采取的行动。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_42",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "新闻机构ANI报道了印度联邦内政部发布建议通告的消息。",
+      "support_text": "新闻机构ANI报道了印度联邦内政部发布建议通告的消息。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_43",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "克什米尔的贸易商呼吁周日停业以示抗议。",
+      "support_text": "克什米尔的贸易商呼吁周日停业以示抗议。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_44",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "右翼团体点燃了穆斯林居民的车辆。",
+      "support_text": "右翼团体点燃了穆斯林居民的车辆。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_45",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "右翼团体找到了一辆挂着克什米尔牌照的汽车。",
+      "support_text": "右翼团体找到了一辆挂着克什米尔牌照的汽车。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_46",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "右翼团体将找到的汽车付之一炬。",
+      "support_text": "右翼团体将找到的汽车付之一炬。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_47",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "查谟行政当局在整个地区实施了宵禁。",
+      "support_text": "查谟行政当局在整个地区实施了宵禁。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_48",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "查谟行政当局部署了额外部队以维持法律和秩序。",
+      "support_text": "查谟行政当局部署了额外部队以维持法律和秩序。",
+      "source_text": "text_10"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_2",
+      "relation": "before",
+      "support_text": "Pakistan-based group Jaish-e-Mohammed (JeM) claimed responsibility for the attack..."
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_3",
+      "relation": "before",
+      "support_text": "Thursday's suicide attack on Indian forces in India-administered Kashmir has triggered a wave of hate and revenge attacks..."
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_4",
+      "relation": "before",
+      "support_text": "Passions have been running high against Kashmiri Muslims since Thursday when 20-year-old Adil Dar rammed his car... Kashmiri students were beaten by a mob on Friday."
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_5",
+      "relation": "before",
+      "support_text": "Since Thursday... Ahmad said a group of around 70 people took out a rally in the area on Saturday..."
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_6",
+      "relation": "before",
+      "support_text": "Since Thursday, dozens of Kashmiris living outside the disputed Himalayan region have been threatened, assaulted or forced to vacate their residences... her hostel was \"surrounded by a mob\"."
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_7",
+      "relation": "before",
+      "support_text": "Like everyone else, my home is also open to anyone needing help. Especially, if any Kashmir women living in Delhi/NCR feels like she needs to go to someone, please DM. I live in noida with my mother. https://t.co/m5h4mY4cG0 — Stuti (@StuteeMishra) February 16, 2019"
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_new_node_17",
+      "relation": "before",
+      "support_text": "袭击事件（node_1）是导致公众以怀疑眼光看待克什米尔人（new_node_17）的根本原因。"
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_new_node_39",
+      "relation": "before",
+      "support_text": "学生前往学习（new_node_39, temporal_order=1）是周四袭击事件（node_1）发生前的背景情况。"
+    },
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_new_node_36",
+      "relation": "before",
+      "support_text": "梅赫布巴·穆夫蒂曾执政（new_node_36, temporal_order=1）是周四袭击事件（node_1）发生前的背景信息。"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_new_node_35",
+      "relation": "before",
+      "support_text": "袭击引发仇恨浪潮（node_3）之后，克什米尔领导人发出呼吁（new_node_35, temporal_order=2）。"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_new_node_44",
+      "relation": "before",
+      "support_text": "袭击引发了对居住在印度本土各地的克什米尔人的仇恨和报复性攻击浪潮，其中包括右翼团体点燃车辆。"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_new_node_45",
+      "relation": "before",
+      "support_text": "袭击引发了对居住在印度本土各地的克什米尔人的仇恨和报复性攻击浪潮，其中包括右翼团体寻找目标。"
+    },
+    {
+      "source": "text_10_node_4",
+      "target": "text_10_new_node_9",
+      "relation": "before",
+      "support_text": "暴民发动袭击后，导致Dawood等人无法外出移动。"
+    },
+    {
+      "source": "text_10_node_6",
+      "target": "text_10_new_node_22",
+      "relation": "before",
+      "support_text": "学生们被迫离开住所后，他们实际上离开了出租屋。"
+    },
+    {
+      "source": "text_10_new_node_8",
+      "target": "text_10_node_1",
+      "relation": "before",
+      "support_text": "The separatist rebels' ongoing fight for independence is the broader context in which the specific suicide attack (node_1) occurred."
+    },
+    {
+      "source": "text_10_new_node_9",
+      "target": "text_10_new_node_10",
+      "relation": "before",
+      "support_text": "Dawood无法外出时，暴民进入了他的房间。"
+    },
+    {
+      "source": "text_10_new_node_10",
+      "target": "text_10_new_node_11",
+      "relation": "before",
+      "support_text": "暴民进入房间后，Dawood躲进了浴室。"
+    },
+    {
+      "source": "text_10_new_node_11",
+      "target": "text_10_new_node_12",
+      "relation": "before",
+      "support_text": "Dawood在躲藏后，补充说明了更多学生的情况。"
+    },
+    {
+      "source": "text_10_new_node_12",
+      "target": "text_10_new_node_13",
+      "relation": "before",
+      "support_text": "Dawood补充说明情况后，提到了学生们对更多袭击的担忧。"
+    },
+    {
+      "source": "text_10_new_node_14",
+      "target": "text_10_new_node_15",
+      "relation": "before",
+      "support_text": "根据temporal_order，'celebrate'事件（顺序2）发生在'tarnish'事件（顺序4）之前。"
+    },
+    {
+      "source": "text_10_new_node_16",
+      "target": "text_10_new_node_18",
+      "relation": "before",
+      "support_text": "根据temporal_order，Sara接受采访（顺序2）发生在她下班回家（顺序3）之前。"
+    },
+    {
+      "source": "text_10_new_node_17",
+      "target": "text_10_new_node_16",
+      "relation": "before",
+      "support_text": "公众的怀疑态度（new_node_17）是Sara Khursheed接受采访（new_node_16）时所陈述的背景情况。"
+    },
+    {
+      "source": "text_10_new_node_17",
+      "target": "text_10_new_node_19",
+      "relation": "before",
+      "support_text": "根据temporal_order，公众的怀疑态度（顺序2）是路人发表言论（顺序3）的背景。"
+    },
+    {
+      "source": "text_10_new_node_20",
+      "target": "text_10_node_6",
+      "relation": "before",
+      "support_text": "暴民通过高音喇叭发布威胁通告后，学生们被迫离开他们的住所。"
+    },
+    {
+      "source": "text_10_new_node_21",
+      "target": "text_10_new_node_23",
+      "relation": "before",
+      "support_text": "学生们在逃亡之后，被管理部门安置在有安保的宿舍里。"
+    },
+    {
+      "source": "text_10_new_node_22",
+      "target": "text_10_new_node_21",
+      "relation": "before",
+      "support_text": "学生们离开出租屋后，便开始了逃亡。"
+    },
+    {
+      "source": "text_10_new_node_23",
+      "target": "text_10_new_node_24",
+      "relation": "before",
+      "support_text": "根据temporal_order，管理部门安置学生（顺序7）发生在Bashir陈述事件（顺序10）之前。"
+    },
+    {
+      "source": "text_10_new_node_24",
+      "target": "text_10_new_node_25",
+      "relation": "before",
+      "support_text": "根据temporal_order，Bashir陈述事件（顺序10）发生在他透露姓氏（顺序11）之前。"
+    },
+    {
+      "source": "text_10_new_node_26",
+      "target": "text_10_new_node_27",
+      "relation": "before",
+      "support_text": "根据temporal_order，发表言论（顺序1）发生在被指控侮辱（顺序2）之前。"
+    },
+    {
+      "source": "text_10_new_node_28",
+      "target": "text_10_new_node_29",
+      "relation": "before",
+      "support_text": "当局先确保了学生安全 (temporal_order 3)，然后警方局长才向媒体宣布无需担忧 (temporal_order 9)。"
+    },
+    {
+      "source": "text_10_new_node_30",
+      "target": "text_10_new_node_31",
+      "relation": "before",
+      "support_text": "警方先接到电话 (temporal_order 6)，然后才与地方警方取得联系 (temporal_order 7)。"
+    },
+    {
+      "source": "text_10_new_node_31",
+      "target": "text_10_new_node_32",
+      "relation": "before",
+      "support_text": "警方先与地方警方取得联系 (temporal_order 7)，然后地方警方才做出保证 (temporal_order 8)。"
+    },
+    {
+      "source": "text_10_new_node_32",
+      "target": "text_10_new_node_33",
+      "relation": "before",
+      "support_text": "地方警方做出保证后 (temporal_order 8)，克什米尔警方发布了热线号码，作为一种安抚措施 (temporal_order 10)。"
+    },
+    {
+      "source": "text_10_new_node_35",
+      "target": "text_10_new_node_38",
+      "relation": "before",
+      "support_text": "在领导人发出呼吁（new_node_35, temporal_order=2）后，梅赫布巴·穆夫蒂与相关部门通话（new_node_38, temporal_order=3）。"
+    },
+    {
+      "source": "text_10_new_node_35",
+      "target": "text_10_new_node_37",
+      "relation": "before",
+      "support_text": "在领导人发出呼吁（new_node_35, temporal_order=2）后，梅赫布巴·穆夫蒂发表评论（new_node_37, temporal_order=3）。"
+    },
+    {
+      "source": "text_10_new_node_35",
+      "target": "text_10_new_node_41",
+      "relation": "before",
+      "support_text": "在领导人发出呼吁（new_node_35, temporal_order=2）后，梅赫布巴·穆夫蒂向媒体讲述情况（new_node_41, temporal_order=3）。"
+    },
+    {
+      "source": "text_10_new_node_35",
+      "target": "text_10_new_node_42",
+      "relation": "before",
+      "support_text": "在领导人发出呼吁（new_node_35, temporal_order=2）后，新闻机构报道了官方回应（new_node_42, temporal_order=3）。"
+    },
+    {
+      "source": "text_10_new_node_42",
+      "target": "text_10_new_node_40",
+      "relation": "before",
+      "support_text": "在新闻报道（new_node_42, temporal_order=3）之后，事件导致局势恶化（new_node_40, temporal_order=5）。"
+    },
+    {
+      "source": "text_10_new_node_45",
+      "target": "text_10_new_node_46",
+      "relation": "before",
+      "support_text": "右翼团体先找到了一辆挂着克什米尔牌照的汽车，然后将其付之一炬。"
+    },
+    {
+      "source": "text_10_new_node_46",
+      "target": "text_10_new_node_43",
+      "relation": "before",
+      "support_text": "针对克什米尔人的暴力袭击发生后，克什米尔的贸易商呼吁停业以示抗议。"
+    },
+    {
+      "source": "text_10_new_node_46",
+      "target": "text_10_new_node_47",
+      "relation": "before",
+      "support_text": "针对克什米尔人的暴力袭击发生后，查谟行政当局实施了宵禁。"
+    },
+    {
+      "source": "text_10_new_node_46",
+      "target": "text_10_new_node_48",
+      "relation": "before",
+      "support_text": "针对克什米尔人的暴力袭击发生后，查谟行政当局部署了额外部队。"
+    }
+  ]
+}

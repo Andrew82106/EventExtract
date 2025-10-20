@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_152_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "1995年4月19日，FBI调查指出麦凯ех必然知晓奥马哈联邦大楼内有日托中心",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "爆炸事件造成168人死亡，其中15名日托中心儿童和4名大楼内其他人员死亡",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "麦凯ех声称日托中心存在是意外，但FBI通过建筑标识（如儿童手印、花朵图案）证明其早有预知",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "麦凯ех被捕后，FBI发现其计划攻击达拉斯和奥马哈等更多联邦建筑",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "FBI排查全美存储设施未发现更多爆炸物，案件档案达1亿份记录",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "FBI确认麦凯ех单独行动，排除'约翰Doe #2'等共犯可能性",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_7",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "",
+      "description": "该案成为FBI历史上规模最大、耗时最长的调查",
+      "source_text": "text_152"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_152_node_1",
+      "target": "text_152_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_2",
+      "target": "text_152_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_3",
+      "target": "text_152_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_4",
+      "target": "text_152_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_5",
+      "target": "text_152_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_152_node_6",
+      "target": "text_152_node_7",
+      "relation": "before"
+    }
+  ]
+}

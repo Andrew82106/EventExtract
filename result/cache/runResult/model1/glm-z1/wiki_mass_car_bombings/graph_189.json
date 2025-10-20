@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_189_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "12月某日中午，位于巴格达西部阿布加里布区扎丹村的al-Hashd al-Shaabi巡逻队遭遇简易爆炸物袭击",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸造成1名成员当场死亡，5名伤者及1辆巡逻车受损",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴格达内政部消息源证实事件并披露伤亡细节",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队迅速到场实施伤员转运和尸体交接",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "启动针对爆炸案嫌疑人的追捕行动",
+      "source_text": "text_189"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_189_node_1",
+      "target": "text_189_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_189_node_2",
+      "target": "text_189_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_189_node_3",
+      "target": "text_189_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_189_node_4",
+      "target": "text_189_node_5",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_101_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年2月，巴基斯坦旁遮普省发生一起爆炸事件，造成13人死亡",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年4月，针对普查队的爆炸事件发生",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年8月1日，情报机构向旁遮普警察总监报告水果市场附近存在恐怖分子活动",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年8月7日，TTP发动的卡车炸弹袭击在拉合尔Band Road造成2死35伤",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击后CTD开始搜索，随后与7名恐怖分子交火，击毙4人，3人逃脱",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_6",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "CM Shehbaz Sharif谴责并要求调查",
+      "source_text": "text_101"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_101_node_1",
+      "target": "text_101_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_2",
+      "target": "text_101_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_3",
+      "target": "text_101_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_4",
+      "target": "text_101_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_101_node_5",
+      "target": "text_101_node_6",
+      "relation": "before"
+    }
+  ]
+}

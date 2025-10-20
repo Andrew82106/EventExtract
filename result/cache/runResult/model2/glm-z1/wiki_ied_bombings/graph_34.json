@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "text_34_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年5月24日12:20（GMT+4:30）喀布尔Al-Taqwa清真寺发生爆炸，炸弹藏于周五祷告使用的麦克风内",
+      "support_text": "The 2019 Kabul mosque bombing occurred around 01:20pm (08:50 GMT) on 24 May 2019 when worshippers and the imam were inside the mosque for Friday prayer. The explosives were placed in the mosque's microphone which was used by the imam.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致3人死亡（含清真寺伊玛目Samiullah Rayhan）及20人受伤",
+      "support_text": "At least three people were killed, including the imam, Samiullah Rayhan, and nearly 20 people were injured.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗内政部发言人Nasrat Rahimi初步认定塔利班为责任方",
+      "support_text": "Nasrat Rahimi, a spokesman for the Afghan Ministry of Interior Affairs said, the Taliban is responsible for the attack.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班发言人否认内政部声明的责任指控",
+      "support_text": "A spokesman for the Taliban’s group denied Rahimi's claim.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班新任领导人Mawlawi Haibatullah Akhundzada上任后，针对宗教人士袭击增加",
+      "support_text": "After Taliban’s new leader appointment, Mawlawi Haibatullah Akhundzada, the number of attack to religious person increased.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_6",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方证实炸弹固定于Al-Taqwa清真寺礼拜场所的麦克风设备",
+      "support_text": "The bomb was fixed in the mosque microphone which was used by the mosque imam.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "遇袭伊玛目Samiullah Rayhan身份曝光：议会顾问兼宗教电视节目主持人",
+      "support_text": "Samiullah Rayhan, 36, a father of four children, was an imam at Al-Taqwa mosque. He was a parliamentary adviser and the host of a daily religious television show.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rayhan因支持政府、反对塔利班自杀袭击、倡导女性权利等立场被认定为攻击目标",
+      "support_text": "His support for the families of fallen Afghan soldiers, condemnation of the Taliban’s suicide bombings, women’s rights, and cooperation between Western military forces and the Afghan government were the main reasons for being targeted in the attack.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗总统Ashraf Ghani谴责袭击为恐怖主义行为",
+      "support_text": "President Ashraf Ghani condemned the mosque attack as a terrorist act.",
+      "source_text": "text_34"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_2",
+      "relation": "before",
+      "support_text": "the bomb explosion happened near the altar of the Al-Taqwa mosque, a place used by the mosque leader to initiate the prayers."
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_6",
+      "relation": "before",
+      "support_text": "the bomb was fixed in the mosque's microphone which was used by the imam."
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_3",
+      "relation": "before",
+      "support_text": "Nasrat Rahimi, a spokesman for the Afghan Ministry of Interior Affairs said, the Taliban is responsible for the attack."
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_5",
+      "relation": "before",
+      "support_text": "After Taliban’s new leader appointment, Mawlawi Haibatullah Akhundzada..."
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_9",
+      "relation": "before",
+      "support_text": "President Ashraf Ghani condemned the mosque attack as a terrorist act."
+    },
+    {
+      "source": "text_34_node_2",
+      "target": "text_34_node_7",
+      "relation": "before",
+      "support_text": "Samiullah Rayhan, 36, a father of four children, was an imam at Al-Taqwa mosque."
+    },
+    {
+      "source": "text_34_node_2",
+      "target": "text_34_node_8",
+      "relation": "before",
+      "support_text": "His support for the families of fallen Afghan soldiers, condemnation of the Taliban’s suicide bombings..."
+    },
+    {
+      "source": "text_34_node_3",
+      "target": "text_34_node_4",
+      "relation": "before",
+      "support_text": "A spokesman for the Taliban’s group denied Rahimi's claim."
+    }
+  ]
+}

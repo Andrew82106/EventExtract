@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_183_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1992年12月29日，基地组织在也门亚丁的Gold Mohur和Mövenpick酒店发动两次炸弹袭击，未造成美军伤亡，但导致非美军人员伤亡",
+      "source_text": "text_183"
+    },
+    {
+      "id": "text_183_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1993年4月，情报显示本拉登参与此次袭击",
+      "source_text": "text_183"
+    },
+    {
+      "id": "text_183_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "GrantAllowPassage",
+      "description": "1993年4月，美国因未发生美军伤亡宣布从也门撤军",
+      "source_text": "text_183"
+    },
+    {
+      "id": "text_183_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "1993年3月，本拉登在CNN采访中提及与基地组织的合作对抗美军",
+      "source_text": "text_183"
+    },
+    {
+      "id": "text_183_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1997年3月，本拉登在采访中声称袭击是基地组织的首次胜利",
+      "source_text": "text_183"
+    },
+    {
+      "id": "text_183_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "1998年，本拉登正式宣称对袭击负责",
+      "source_text": "text_183"
+    },
+    {
+      "id": "text_183_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1993年，美军在摩加迪沙战役中遭遇重大损失（18人死亡、80人受伤）",
+      "source_text": "text_183"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_183_node_1",
+      "target": "text_183_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_183_node_2",
+      "target": "text_183_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_183_node_4",
+      "target": "text_183_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_183_node_4",
+      "target": "text_183_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_183_node_5",
+      "target": "text_183_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_183_node_7",
+      "target": "text_183_node_5",
+      "relation": "before"
+    }
+  ]
+}

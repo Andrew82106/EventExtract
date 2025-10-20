@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "id": "text_92_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克3月议会选举未产生明确赢家，政府联盟未达成",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一周前伊拉克中央银行遭武装分子袭击，交火后自杀爆炸",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周六上午巴格达贸易银行总部附近发生 twin suicide car bombing",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两辆装满80公斤炸药的汽车撞击银行防弹墙后同步爆炸",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_5",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致26人死亡、50余人受伤，两名内政部警察死亡",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_6",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地居民Mahmoud Asi夫妇在袭击中受伤",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "银行员工称防弹设施有效降低伤亡人数",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击由伊拉克al-Qaeda分支声称负责，疑似掩盖洗钱活动",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周六晚Hurriya区发生三次路边炸弹袭击，致2死14伤",
+      "source_text": "text_92"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_92_node_2",
+      "target": "text_92_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_3",
+      "target": "text_92_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_4",
+      "target": "text_92_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_4",
+      "target": "text_92_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_4",
+      "target": "text_92_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_4",
+      "target": "text_92_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_92_node_4",
+      "target": "text_92_node_9",
+      "relation": "before"
+    }
+  ]
+}

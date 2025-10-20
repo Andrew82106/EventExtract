@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "text_8_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一列开往巴基斯坦的火车在抵达德瓦纳村车站前发生爆炸，引发大火并导致至少66人丧生。",
+      "support_text": "An explosion on a train headed for Pakistan set off a fire that swept through two cars and killed at least 66 people in an attack that a government minister said was aimed at undermining the peace process between India and Pakistan.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "附近的村民带着水桶赶到现场试图灭火。",
+      "support_text": "But townspeople and villagers soon flocked to the scene with buckets to try to put out the fire.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "当局在未受攻击的车厢中发现了装有未爆炸的自制简易爆炸装置和汽油瓶的手提箱。",
+      "support_text": "Authorities said two suitcases packed with unexploded crude bombs and bottles of gasoline were found in cars not hit in the attack, leading them to suspect the fire was set off by an identical explosive device.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度和巴基斯坦的政府官员谴责这次袭击，称其为旨在破坏和平进程的恐怖主义行为。",
+      "support_text": "\"This is an act of sabotage,\" Railway Minister Laloo Prasad told reporters in Patna, India. \"This is an attempt to derail the improving relationship between India and Pakistan.\" ... \"We expect the Indian authorities to conduct a full investigation and punish those responsible for this heinous act of terrorism,\" she said.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "第二天早上，焦急的家属涌向新德里主要火车站，但只找到了一份手写的伤亡者名单。",
+      "support_text": "Frantic relatives flocked to New Delhi's main railway station Monday morning in search of answers. But there was only a handwritten list, posted on a bulletin board, with the names of 13 injured people and one identified body.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦外交部长库尔希德·卡苏里原计划抵达新德里。",
+      "support_text": "巴基斯坦外交部长库尔希德·卡苏里原计划抵达新德里。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "火焰的高温将至少一扇门焊死。",
+      "support_text": "火焰的高温将至少一扇门焊死。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "被焊死的门将一些乘客困在车厢内。",
+      "support_text": "被焊死的门将一些乘客困在车厢内。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "一些人从受损较轻的车厢里跳了出来，身上着了火。",
+      "support_text": "一些人从受损较轻的车厢里跳了出来，身上着了火。",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "火车抵达车站。",
+      "support_text": "An explosion on a train headed for Pakistan set off a fire that swept through two cars and killed at least 66 people in an attack that a government minister said was aimed at undermining the peace process between India and Pakistan.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "穆罕默德·瓦西姆·汗在周日深夜将他的叔叔和两个年轻的侄子送到车站。",
+      "support_text": "Mohammed Wasim Khan, who had dropped off his uncle and two young nephews at the station late Sunday...",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "铁路官员粗鲁地告知穆罕默德·瓦西姆·汗，如果想要更多信息，就乘火车去爆炸现场。",
+      "support_text": "Brusque railway officials told him to take a train to the blast site... if he wanted more information.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "穆罕默德·瓦西姆·汗向他人转述了铁路官员的粗鲁回应。",
+      "support_text": "He said that brusque railway officials had told him to take a train to the blast site...",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_new_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "穆罕默德·瓦西姆·汗被建议乘坐一列火车去爆炸现场。",
+      "support_text": "...told him to take a train to the blast site...",
+      "source_text": "text_8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_2",
+      "relation": "before",
+      "support_text": "The explosion and fire struck just before the train reached the station in the village of Dewana... But townspeople and villagers soon flocked to the scene with buckets to try to put out the fire."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_3",
+      "relation": "before",
+      "support_text": "An explosion on a train headed for Pakistan set off a fire... Authorities said two suitcases packed with unexploded crude bombs and bottles of gasoline were found in cars not hit in the attack..."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_4",
+      "relation": "before",
+      "support_text": "An explosion on a train headed for Pakistan set off a fire... in an attack that a government minister said was aimed at undermining the peace process... \"This is an act of sabotage,\" Railway Minister Laloo Prasad told reporters..."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_5",
+      "relation": "before",
+      "support_text": "Mohammed Wasim Khan, who had dropped off his uncle and two young nephews at the station late Sunday... Frantic relatives flocked to New Delhi's main railway station Monday morning..."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_new_node_7",
+      "relation": "before",
+      "support_text": "由爆炸引发的大火导致门被焊死。"
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_new_node_9",
+      "relation": "before",
+      "support_text": "爆炸发生后，幸存者从车厢里跳出来逃生。"
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_new_node_12",
+      "relation": "before",
+      "support_text": "爆炸发生后，穆罕默德·瓦西姆·汗去寻找信息时，才被铁路官员告知。"
+    },
+    {
+      "source": "text_8_new_node_6",
+      "target": "text_8_node_1",
+      "relation": "before",
+      "support_text": "The attack was aimed at undermining the peace process, which includes diplomatic visits like the one by the Pakistani Foreign Minister."
+    },
+    {
+      "source": "text_8_new_node_7",
+      "target": "text_8_new_node_8",
+      "relation": "before",
+      "support_text": "被焊死的门将一些乘客困在车厢内。"
+    },
+    {
+      "source": "text_8_new_node_9",
+      "target": "text_8_node_4",
+      "relation": "before",
+      "support_text": "乘客逃生后，官员向记者报告情况。"
+    },
+    {
+      "source": "text_8_new_node_10",
+      "target": "text_8_node_2",
+      "relation": "before",
+      "support_text": "The explosion and fire struck just before the train reached the station in the village of Dewana... But townspeople and villagers soon flocked to the scene with buckets to try to put out the fire."
+    },
+    {
+      "source": "text_8_new_node_11",
+      "target": "text_8_node_1",
+      "relation": "before",
+      "support_text": "穆罕默德·瓦西姆·汗送家人到车站后，火车才发生了爆炸。"
+    },
+    {
+      "source": "text_8_new_node_12",
+      "target": "text_8_new_node_13",
+      "relation": "before",
+      "support_text": "铁路官员先告知他信息，然后他才向他人转述了这件事。"
+    },
+    {
+      "source": "text_8_new_node_12",
+      "target": "text_8_new_node_14",
+      "relation": "before",
+      "support_text": "铁路官员告知他“乘坐火车”的建议（tell），这个建议本身（take）是告知事件的一部分。"
+    }
+  ]
+}

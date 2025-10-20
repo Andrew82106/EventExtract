@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_84_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1992年阿根廷以色列使馆遭汽车炸弹袭击，29人死亡",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年阿根廷犹太社区中心（AMIA）遭汽车炸弹袭击，85人死亡",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_3",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年阿根廷启动针对20名嫌疑人的两年审判，累计1200名证人出庭",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "2002年阿根廷前总统Menem否认掩盖真相，但承认存在瑞士银行账户",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_5",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年3月阿根廷总统Kirchner就职后开放案件情报文件并允许证人作证",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年8月英国逮捕涉嫌与袭击相关的伊朗前驻阿根廷大使索莱曼普尔",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "2003年伊朗否认参与爆炸指控，称逮捕索莱曼普尔系政治动机",
+      "source_text": "text_84"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_84_node_1",
+      "target": "text_84_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_2",
+      "target": "text_84_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_3",
+      "target": "text_84_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_4",
+      "target": "text_84_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_5",
+      "target": "text_84_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_6",
+      "target": "text_84_node_7",
+      "relation": "before"
+    }
+  ]
+}

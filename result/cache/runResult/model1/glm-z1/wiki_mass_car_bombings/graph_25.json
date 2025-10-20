@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_25_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1992年Ruby Ridge围困事件中，FBI狙击手误杀白人分离主义者的妻子",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_2",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "Demotion",
+      "description": "FBI局长Louis J. Freeh因Ruby Ridge事件争议解雇Larry A. Potts",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_3",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "",
+      "description": "FBI局长Louis J. Freeh任命Weldon L. Kennedy为副局长，其继续领导OKC爆炸案调查",
+      "source_text": "text_25"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_25_node_1",
+      "target": "text_25_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_25_node_2",
+      "target": "text_25_node_3",
+      "relation": "before"
+    }
+  ]
+}

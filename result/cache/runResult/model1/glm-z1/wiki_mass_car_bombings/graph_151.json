@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_151_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1992年7月阿根廷以色列大使馆遭遇汽车炸弹袭击，29人死亡但案件未解",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年7月18日阿根廷AMIA犹太社区中心遭汽车炸弹袭击，80人死亡200人受伤",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年阿根廷法官Galeano签发逮捕令，指控12名伊朗官员涉足袭击",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_4",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年审判20名阿根廷嫌犯参与袭击，证据包括德国证人C的证词",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年伊朗驻阿根廷大使Soleimanpour在英被捕，引发伊阿伊英外交争端",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "Soleimanpour被保释候审，案件进展引发阿根廷犹太社区对伊朗高层的指控",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗否认袭击指控，称案件系政治动机驱动的诬告",
+      "source_text": "text_151"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_151_node_1",
+      "target": "text_151_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_2",
+      "target": "text_151_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_3",
+      "target": "text_151_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_4",
+      "target": "text_151_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_5",
+      "target": "text_151_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_151_node_6",
+      "target": "text_151_node_7",
+      "relation": "before"
+    }
+  ]
+}

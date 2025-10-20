@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_81_node_1",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "1988年12月：洛克比空难发生，270人遇难",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1991年11月：苏格兰和美国法院对迈格拉希和另一名利比亚人提出指控",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_3",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年11月：利比亚交出两人，在荷兰营 Zeist 进行审判",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年3月：荷兰特别法院判处迈格拉希死刑",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年8月：迈格拉希因癌症获释，引发争议",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年5月20日：迈格拉希在利比亚家中去世",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "2012年5月20日：英国首相卡梅伦谴责释放决定",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年5月20日：苏格兰首长亚历克斯·萨尔摩德提及案件仍在调查",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年5月20日：受害者家属愤怒，美国批评释放",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年5月20日：迈格拉希的安葬安排",
+      "source_text": "text_81"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_81_node_1",
+      "target": "text_81_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_81_node_2",
+      "target": "text_81_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_81_node_3",
+      "target": "text_81_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_81_node_4",
+      "target": "text_81_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_81_node_5",
+      "target": "text_81_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_81_node_6",
+      "target": "text_81_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_81_node_7",
+      "target": "text_81_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_81_node_8",
+      "target": "text_81_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_81_node_9",
+      "target": "text_81_node_10",
+      "relation": "before"
+    }
+  ]
+}

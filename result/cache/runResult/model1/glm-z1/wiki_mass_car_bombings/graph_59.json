@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "text_59_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "Logar省Azra区医院发生汽车炸弹袭击，造成38人死亡",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "医院建筑被完全摧毁，人员被掩埋在废墟下",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "阿富汗官员将袭击归咎于塔利班，但遭其否认",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "塔利班发言人声称袭击系‘有预谋者’所为",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "官员称实际死亡人数可能高于官方统计",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_6",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "",
+      "description": "受伤的医院首席医生在移动诊所恢复工作",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_7",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "",
+      "description": "塔利班被指曾警告居民不得协助政府",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "哈卡尼小组被怀疑为报复未获响应的警告而发动袭击",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "情报官员推测袭击者原非针对医院",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "目击者描述爆炸现场人员伤亡惨重",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_11",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "阿富汗公共卫生部谴责袭击为‘国家冲突史上的不人道行为’",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "Azra地区被指接近巴基斯坦边境且政府控制薄弱",
+      "source_text": "text_59"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_59_node_1",
+      "target": "text_59_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_2",
+      "target": "text_59_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_3",
+      "target": "text_59_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_4",
+      "target": "text_59_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_5",
+      "target": "text_59_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_7",
+      "target": "text_59_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_8",
+      "target": "text_59_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_9",
+      "target": "text_59_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_10",
+      "target": "text_59_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_11",
+      "target": "text_59_node_12",
+      "relation": "before"
+    }
+  ]
+}

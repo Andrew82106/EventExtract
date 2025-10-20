@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_77_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "孟买Zaveri Bazar、Dadar和Opera House发生连环爆炸",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "Shiv Sena领袖Manohar Joshi在Dadar现场呼吁政府立即调查爆炸案",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_3",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "诗人Javed Akhtar公开谴责恐怖袭击并要求采取严厉措施",
+      "source_text": "text_77"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_77_node_1",
+      "target": "text_77_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_77_node_2",
+      "target": "text_77_node_3",
+      "relation": "before"
+    }
+  ]
+}

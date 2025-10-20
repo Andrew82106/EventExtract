@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_35_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Safdar Nagori (SIMI前负责人)在审讯中承认2007年2月18日Samjhauta列车爆炸由巴基斯坦训练人员策划",
+      "support_text": "A video of the narco-analysis interrogation of Safdar Nagori accessed by Times Now shows the former Simi chief and terrorist admitting on tape that the Samjhauta Express blasts were carried out by those trained in Pakistan.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nagori指认SIMI成员Abdul Razzak为爆炸主谋，并透露其受训于巴基斯坦",
+      "support_text": "He names Simi operative Abdul Razzak as the person responsible for the explosions that killed 68 people on February 18, 2007.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Nagori证实Abdul Razzak与巴基斯坦有亲属联系，并曾单独执行爆炸任务",
+      "support_text": "Nagori says, 'He has relatives in Pakistan.' Abdul Razzaq used to say he could do this on his own.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nagori承认通过LeT成员Nasir采购武器，计划针对2003年印度教骚乱中的施暴者",
+      "support_text": "Nagori says, 'I contacted LeT operative Nasir and told him I needed it to punish those culprits for a project'.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nagori提及LeT可能将AK47和Mauser步枪分发给SIMI其他成员，包括与Abdul Razzak同属的派系",
+      "support_text": "Nagori says the LeT operative may have given arms to other SIMI members.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nagori回忆2007年10月与Nasir会面细节，包括其赴巴基斯坦受训的真实目的",
+      "support_text": "Adding that he met Nasir in 2007 October, Nagori says he was unhappy with his arrest and encounter as he knew him since he was a young boy.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "Nagori披露武器采购计划中的策略差异：AK47用于大规模袭击，Mauser专攻精准个体打击",
+      "support_text": "When asked about Razzak’s contacts in Pakistan, Nagori says, 'He has relatives in Pakistan.'",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abdul Razzak向Nagori透露信息",
+      "support_text": "Abdul Razzak向Nagori透露信息",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abdul Razzak声称Nagori已不适合进行圣战",
+      "support_text": "Abdul Razzak声称Nagori已不适合进行圣战",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_10",
+      "event_type": "Personnel",
+      "event_subtype": "EndPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nagori从SIMI组织退休",
+      "support_text": "Nagori从SIMI组织退休",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_11",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "SIMI向Nagori提供资金",
+      "support_text": "SIMI向Nagori提供资金",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_12",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nagori转变为政治人物",
+      "support_text": "Nagori转变为政治人物",
+      "source_text": "text_35"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_35_node_1",
+      "target": "text_35_node_2",
+      "relation": "before",
+      "support_text": "He names Simi operative Abdul Razzak as the person responsible for the explosions that killed 68 people on February 18, 2007."
+    },
+    {
+      "source": "text_35_node_2",
+      "target": "text_35_node_3",
+      "relation": "before",
+      "support_text": "Nagori says, 'He has relatives in Pakistan.' Abdul Razzaq used to say he could do this on his own."
+    },
+    {
+      "source": "text_35_node_2",
+      "target": "text_35_node_4",
+      "relation": "before",
+      "support_text": "Nagori says, 'I contacted LeT operative Nasir and told him I needed it to punish those culprits for a project'."
+    },
+    {
+      "source": "text_35_node_4",
+      "target": "text_35_node_5",
+      "relation": "before",
+      "support_text": "Nagori says the LeT operative may have given arms to other SIMI members."
+    },
+    {
+      "source": "text_35_node_6",
+      "target": "text_35_node_7",
+      "relation": "before",
+      "support_text": "Adding that he met Nasir in 2007 October, Nagori says he was unhappy with his arrest and encounter as he knew him since he was a young boy."
+    }
+  ]
+}

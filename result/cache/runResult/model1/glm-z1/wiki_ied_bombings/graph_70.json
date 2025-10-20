@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_70_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴塞罗那发生汽车炸弹袭击，造成17人死亡、39人受伤",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员分析认为袭击将迫使ETA转向仅攻击军事目标",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "政府发言人警告可能伴随恐怖袭击数量激增",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击成为ETA历史上针对平民最致命的袭击事件",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "ETA被证实19年内造成约500人死亡，主要攻击政府军目标",
+      "source_text": "text_70"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_2",
+      "target": "text_70_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_3",
+      "target": "text_70_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_4",
+      "target": "text_70_node_5",
+      "relation": "before"
+    }
+  ]
+}

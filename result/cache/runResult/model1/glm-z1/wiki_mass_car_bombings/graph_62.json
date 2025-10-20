@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "id": "text_62_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "三个袭击导致29人死亡、128人受伤",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Tal Afar足球场发生三辆汽车自杀式爆炸，致25人死亡、108人受伤",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Hilla什叶派清真寺附近汽车炸弹爆炸，20名 worshippers 受伤",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "新领导人警告对什叶派的新袭击",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mosul发生针对裁缝的枪击事件",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "迪亚拉省逮捕11名嫌疑人，2人投降",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴士拉省逮捕18名嫌疑人",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_8",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "苏韦拉逮捕5名涉及周一袭击的嫌疑人",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "三个袭击导致29人死亡、128人受伤",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "新领导人警告对什叶派的新袭击",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Tal Afar足球场发生三辆汽车自杀式爆炸，致25人死亡、108人受伤",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Hilla什叶派清真寺附近汽车炸弹爆炸，20名 worshippers 受伤",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mosul发生针对裁缝的枪击事件",
+      "source_text": "text_62"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_62_node_1",
+      "target": "text_62_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_62_node_2",
+      "target": "text_62_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_62_node_3",
+      "target": "text_62_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_62_node_4",
+      "target": "text_62_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_62_node_5",
+      "target": "text_62_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_62_node_6",
+      "target": "text_62_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_62_node_7",
+      "target": "text_62_node_8",
+      "relation": "before"
+    }
+  ]
+}

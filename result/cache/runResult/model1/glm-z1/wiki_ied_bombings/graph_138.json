@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "id": "text_138_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Terry Nichols于1995年4月19日被指控参与策划俄克拉荷马城爆炸案",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸案后两天（4月21日）， Nichols携妻女向堪萨斯州赫林顿警方投案自首",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_3",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "FBI对 Nichols进行9小时审讯，其陈述成为后续审判关键证据",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年6月2日，陪审团裁定 Timothy McVeigh 被定罪（含预谋杀人、武器相关等罪名）",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年8月14日，McVeigh 正式被判死刑但计划上诉",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "检方指控 Nichols在爆炸前3天（4月16日）将逃跑车辆停放在俄克拉荷马联邦大楼附近",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查发现 Nichols在堪萨斯州家中保留炸药组件（含硝酸铵化肥和雷管）的收据",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_8",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nichols使用别名购买炸药组件并租用储藏空间（时间跨度为爆炸前数月）",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_9",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nichols在1988年加入陆军时与 McVeigh 相遇，两人均对枪支、极右思想及民兵组织有共同兴趣",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nichols两次试图 renounce 美国公民身份，其反政府哲学驱动犯罪行为",
+      "source_text": "text_138"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_138_node_1",
+      "target": "text_138_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_2",
+      "target": "text_138_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_3",
+      "target": "text_138_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_4",
+      "target": "text_138_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_6",
+      "target": "text_138_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_6",
+      "target": "text_138_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_7",
+      "target": "text_138_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_8",
+      "target": "text_138_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_8",
+      "target": "text_138_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_138_node_9",
+      "target": "text_138_node_8",
+      "relation": "before"
+    }
+  ]
+}

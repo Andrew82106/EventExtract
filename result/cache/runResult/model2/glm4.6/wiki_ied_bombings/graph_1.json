@@ -1,0 +1,3015 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1992年3月17日，以色列驻布宜诺斯艾利斯大使馆遭到爆炸袭击。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年7月18日，阿根廷布宜诺斯艾利斯的AMIA犹太社区中心遭到自杀式卡车炸弹袭击，造成85人死亡。",
+      "support_text": "The AMIA bombing was a suicide van bomb attack on the Asociación Mutual Israelita Argentina (AMIA; Argentine Israelite Mutual Association) building in Buenos Aires, Argentina on 18 July 1994, killing 85 people and injuring hundreds.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年7月19日，阿根廷袭击后次日，巴拿马一架通勤飞机上发生自杀式爆炸，12名犹太乘客遇难。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年7月26日，阿根廷袭击后八天，以色列驻伦敦大使馆和犹太社区中心遭到汽车炸弹袭击。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生后不久，巴勒斯坦圣战组织安萨尔安拉声称对AMIA爆炸案负责。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年，阿根廷司法部门对真主党成员伊马德·穆格尼耶发出逮捕令。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年8月，时任伊朗驻阿根廷大使索莱曼普尔在英国被捕，后因证据不足被释放。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年，法官加莱亚诺被曝出为获取证据向证人支付40万美元，导致其在2003年被剥夺案件审理权。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年9月，所有与案件“本地联系”有关的嫌疑人，包括多名布宜诺斯艾利斯省警察，均被宣告无罪。",
+      "support_text": "All suspects in the \"local connection\" (among them, many members of the Buenos Aires Provincial Police) were found to be not guilty in September 2004.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2005年，时任布宜诺斯艾利斯总主教贝尔戈利奥（后来的教皇方济各）签署请愿书，呼吁为AMIA案伸张正义。",
+      "support_text": "In 2005, Cardinal Jorge Mario Bergoglio, who would later become Pope Francis, was the first public personality to sign a petition for justice in the AMIA bombing case.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2005年7月，阿根廷总统基什内尔政府发布法令，为调查失败承担部分责任。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_12",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "2005年8月，联邦法官加莱亚诺因在调查中存在“严重”违规行为而被弹劾并免职。",
+      "support_text": "In August 2005, federal judge Juan José Galeano, in charge of the case, was impeached and removed from his post on a charge of \"serious\" irregularities due to mishandling of the investigation.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年10月，阿根廷检察官正式指控伊朗政府策划了爆炸案，并指示真主党组织实施。",
+      "support_text": "On 25 October 2006, Argentine prosecutors Alberto Nisman and Marcelo Martínez Burgos formally accused the government of Iran of directing the bombing, and the Hezbollah militia of carrying it out.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2007年，数名被指控的伊朗和真主党成员被列入国际刑警组织的红色通缉令。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_15",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年11月，前总统梅内姆被传唤就AMIA案作证。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年3月，一名前案件调查员声称因调查情报部门参与而遭绑架和折磨。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年3月，前总统梅内姆被下令因妨碍AMIA案司法公正而受审。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_18",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "2012年，阿根廷总统克里斯蒂娜·基什内尔在联大宣布将与伊朗会面，讨论联合调查爆炸案。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年1月，阿根廷政府宣布与伊朗签署谅解备忘录，成立“真相委员会”联合调查案件。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_20",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年2月，阿根廷众议院批准了与伊朗的谅解备忘录。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年5月，检察官尼斯曼发布报告，指控伊朗在整个拉丁美洲建立恐怖网络。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_22",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2014年1月，时任以色列驻阿根廷大使称，大部分爆炸案元凶已被摩萨德追杀。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年5月，阿根廷法院裁定与伊朗签署的谅解备忘录违宪。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_24",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年1月，检察官尼斯曼提起诉讼，指控总统克里斯蒂娜·基什内尔为掩盖伊朗参与而达成秘密协议。",
+      "support_text": "In 2015 Alberto Nisman filed a 300-page document accusing former President Cristina Fernandez de Kirchner of covering up Iran's role in the incident.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_25",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "2015年1月18日，检察官尼斯曼在其计划公布指控细节的前几个小时被发现死亡。",
+      "support_text": "Nisman was murdered hours before he was due to testify against the former president, which the Federal Court of Buenos Aires ruled was a “direct consequence” of Nisman's accusations against Kirchner.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_26",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年3月，前委内瑞拉官员声称，查韦斯和内贾德曾在2007年会面，讨论向阿根廷政府付款以换取对伊朗有利的协议。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_27",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年2月，阿根廷检察官宣布，尼斯曼的死因是他杀。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_28",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年7月，新的DNA证据被发现，可用于确认自杀式炸弹袭击者的身份。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_29",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年，法官博纳迪奥指控前总统基什内尔犯有叛国罪，因其涉嫌掩盖伊朗的角色。",
+      "support_text": "In 2017, Judge Claudio Bonadio accused Kirchner of treason and called on the country's senate to permit her arrest and trial for allegedly covering up Iranian involvement in the 1994 bomb attack.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_30",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年，司法部门宣布前总统克里斯蒂娜·基什内尔将因掩盖伊朗角色而面临审判。",
+      "support_text": "Kirchner is currently referred for public trial over alleged cover-up of Iranian involvement in the bombing.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_31",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年7月，阿根廷正式宣布真主党为恐怖组织，并冻结其资产。",
+      "support_text": "In 2019, Argentina officially declared Hezbollah a terrorist organization.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "多年来，掩盖行为的指控给该案件打上了烙印。",
+      "support_text": "多年来，掩盖行为的指控给该案件打上了烙印。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_2",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "Promotion",
+      "description": "豪尔赫·马里奥·贝尔戈里奥枢机后来成为了教皇方济各。",
+      "support_text": "豪尔赫·马里奥·贝尔戈里奥枢机后来成为了教皇方济各。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "布宜诺斯艾利斯决定暂停向德黑兰转让一项核技术合同。",
+      "support_text": "布宜诺斯艾利斯决定暂停向德黑兰转让一项核技术合同。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "检察官声称，由于布宜诺斯艾利斯决定暂停核技术转让合同，阿根廷成为了伊朗的目标。",
+      "support_text": "检察官声称，由于布宜诺斯艾利斯决定暂停核技术转让合同，阿根廷成为了伊朗的目标。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（有人）对检察官的说法提出了争议。",
+      "support_text": "（有人）对检察官的说法提出了争议。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人将硝酸铵肥料和燃料油爆炸混合物装上了一辆雷诺Trafic货车炸弹。",
+      "support_text": "有人将硝酸铵肥料和燃料油爆炸混合物装上了一辆雷诺Trafic货车炸弹。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "（有人）布置了爆炸物，以将爆炸威力集中在建筑物上，呈现出聚能装药或爆炸成型穿甲弹的效果。",
+      "support_text": "（有人）布置了爆炸物，以将爆炸威力集中在建筑物上，呈现出聚能装药或爆炸成型穿甲弹的效果。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "炸弹产生的冲击波完全摧毁了暴露的承重墙。",
+      "support_text": "炸弹产生的冲击波完全摧毁了暴露的承重墙。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "承重墙的毁坏导致了楼板的连续性失效和建筑物的几乎完全坍塌。",
+      "support_text": "承重墙的毁坏导致了楼板的连续性失效和建筑物的几乎完全坍塌。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "分析人员认为爆炸物被布置成了聚能装药或爆炸成型穿甲弹的效果。",
+      "support_text": "分析人员认为爆炸物被布置成了聚能装药或爆炸成型穿甲弹的效果。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列派遣摩萨德特工前往阿根廷。",
+      "support_text": "以色列派遣摩萨德特工前往阿根廷。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "摩萨德特工对爆炸事件进行调查。",
+      "support_text": "摩萨德特工对爆炸事件进行调查。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "以色列警方派遣了一个由四名法医科学家组成的团队。",
+      "support_text": "以色列警方派遣了一个由四名法医科学家组成的团队。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（法医科学家等）建立死亡前档案。",
+      "support_text": "（法医科学家等）建立死亡前档案。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_18",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列国防军派遣了人员。",
+      "support_text": "以色列国防军派遣了人员。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_19",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列国防军人员帮助阿根廷人。",
+      "support_text": "以色列国防军人员帮助阿根廷人。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_20",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "（阿根廷人及以色列国防军人员）从现场提取遇难者遗体。",
+      "support_text": "（阿根廷人及以色列国防军人员）从现场提取遇难者遗体。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷关闭了其边境。",
+      "support_text": "阿根廷关闭了其边境。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷因担心更多恐怖分子进入而采取了行动。",
+      "support_text": "阿根廷因担心更多恐怖分子进入而采取了行动。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_23",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "更多恐怖分子进入阿根廷（一种可能性或担忧）。",
+      "support_text": "更多恐怖分子进入阿根廷（一种可能性或担忧）。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_24",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "爆炸分子进入了阿根廷（在袭击前）。",
+      "support_text": "爆炸分子进入了阿根廷（在袭击前）。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷情报局（SIDE）建立了一个名为“半人马座”的监控网络。",
+      "support_text": "阿根廷情报局（SIDE）建立了一个名为“半人马座”的监控网络。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_kill",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1992年3月17日的爆炸案导致29人死亡。",
+      "support_text": "1992年3月17日的爆炸案导致29人死亡。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_wound",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1992年3月17日的爆炸案导致242人受伤。",
+      "support_text": "1992年3月17日的爆炸案导致242人受伤。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_claim",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰圣战组织声称对大使馆爆炸案负责。",
+      "support_text": "伊斯兰圣战组织声称对大使馆爆炸案负责。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_operate",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰圣战组织在真主党的庇护下运作。",
+      "support_text": "伊斯兰圣战组织在真主党的庇护下运作。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_suspect",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人怀疑AMIA爆炸案与大使馆袭击有关联。",
+      "support_text": "有人怀疑AMIA爆炸案与大使馆袭击有关联。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_locate",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局未能找到对两起爆炸案负责的人。",
+      "support_text": "当局未能找到对两起爆炸案负责的人。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_determine",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查人员确定了爆炸事件的实施者是 'Lya Jamal'。",
+      "support_text": "调查人员确定了爆炸事件的实施者是 'Lya Jamal'。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_think",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（调查人员）认为 'Lya Jamal' 是一名使用化名和欺诈性哥伦比亚文件的阿拉伯人。",
+      "support_text": "（调查人员）认为 'Lya Jamal' 是一名使用化名和欺诈性哥伦比亚文件的阿拉伯人。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_injure_22",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "在爆炸事件中有22人受伤。",
+      "support_text": "在爆炸事件中有22人受伤。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_arrest",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "五名巴勒斯坦人在伦敦被逮捕。",
+      "support_text": "五名巴勒斯坦人在伦敦被逮捕。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_sentence",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "这两名被判有罪的人被判处20年监禁。",
+      "support_text": "这两名被判有罪的人被判处20年监禁。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_1",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "联邦法官克劳迪奥·博纳迪奥表示，其他11名前官员也将受审。",
+      "support_text": "联邦法官克劳迪奥·博纳迪奥表示，其他11名前官员也将受审。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_2",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "其他11名前官员及基什内尔政府的亲信将因掩盖和滥用权力罪而受审。",
+      "support_text": "其他11名前官员及基什内尔政府的亲信将因掩盖和滥用权力罪而受审。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "基什内尔否认了这些指控。",
+      "support_text": "基什内尔否认了这些指控。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_prevent",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "国际刑警组织的规章禁止将拉夫桑贾尼等高级官员列入名单。",
+      "support_text": "国际刑警组织的规章禁止将拉夫桑贾尼等高级官员列入名单。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_distribute",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "(有人)在赛达分发了传单。",
+      "support_text": "(有人)在赛达分发了传单。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hussein加入了激进的什叶派民兵组织真主党。",
+      "support_text": "Hussein加入了激进的什叶派民兵组织真主党。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ibrahim Hussein Berro因其“殉道”而获得一块牌匾的荣誉。",
+      "support_text": "Ibrahim Hussein Berro因其“殉道”而获得一块牌匾的荣誉。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "这项调查由调查人员（与美国联邦调查局）共同进行。",
+      "support_text": "这项调查由调查人员（与美国联邦调查局）共同进行。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（官方）没有进行适当的尸检或DNA测试。",
+      "support_text": "（官方）没有进行适当的尸检或DNA测试。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方将一颗被认为是袭击者的头颅扔进了垃圾桶。",
+      "support_text": "警方将一颗被认为是袭击者的头颅扔进了垃圾桶。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hussein被美国联邦调查局和阿根廷情报部门确认身份。",
+      "support_text": "Hussein被美国联邦调查局和阿根廷情报部门确认身份。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hussein的身份得到至少三名目击者的证实。",
+      "support_text": "Hussein的身份得到至少三名目击者的证实。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hussein的两名兄弟证明他加入了真主党。",
+      "support_text": "Hussein的两名兄弟证明他加入了真主党。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "兄弟们的证词表明Hussein就是被杀的人。",
+      "support_text": "兄弟们的证词表明Hussein就是被杀的人。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列外交消息来源阅读了SIDE的“最终”报告。",
+      "support_text": "以色列外交消息来源阅读了SIDE的“最终”报告。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列外交消息来源在2003年称袭击是自杀式炸弹袭击。",
+      "support_text": "以色列外交消息来源在2003年称袭击是自杀式炸弹袭击。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nisman补充说兄弟们的证词是实质性的。",
+      "support_text": "Nisman补充说兄弟们的证词是实质性的。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_16",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "一位BBC记者报道称“独立”调查人员持怀疑态度。",
+      "support_text": "一位BBC记者报道称“独立”调查人员持怀疑态度。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_17",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "独立调查人员指出了官方调查中反复出现的不称职和欺骗行为。",
+      "support_text": "独立调查人员指出了官方调查中反复出现的不称职和欺骗行为。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查人员将检验关于炸弹袭击者的普遍怀疑。",
+      "support_text": "调查人员将检验关于炸弹袭击者的普遍怀疑。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_accept",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "一位前阿根廷总统接受了德黑兰的一千万美元付款。",
+      "support_text": "一位前阿根廷总统接受了德黑兰的一千万美元付款。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_use",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "同一个银行账户被用于此次暗杀和据称的付款。",
+      "support_text": "同一个银行账户被用于此次暗杀和据称的付款。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_deposit",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "六百万美元被存入这个账户。",
+      "support_text": "六百万美元被存入这个账户。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_issue",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官Galeano签署了逮捕12名伊朗人的逮捕令。",
+      "support_text": "法官Galeano签署了逮捕12名伊朗人的逮捕令。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_interview",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "法官Galeano采访了Abolghasem Mesbahi。",
+      "support_text": "法官Galeano采访了Abolghasem Mesbahi。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_say",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abolghasem Mesbahi说一位前阿根廷总统接受了一千万美元的付款。",
+      "support_text": "Abolghasem Mesbahi说一位前阿根廷总统接受了一千万美元的付款。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_claim_mesbahi",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abolghasem Mesbahi向阿根廷法庭声称伊朗策划了爆炸。",
+      "support_text": "Abolghasem Mesbahi向阿根廷法庭声称伊朗策划了爆炸。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_claim_menem",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "前总统Carlos Menem在2004年声称袭击与他对美国支持及访问以色列有关。",
+      "support_text": "前总统Carlos Menem在2004年声称袭击与他对美国支持及访问以色列有关。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_deny_menem",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "前总统Carlos Menem否认了这些指控。",
+      "support_text": "前总统Carlos Menem否认了这些指控。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_admit",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "前总统Carlos Menem承认他有一个秘密的瑞士银行账户。",
+      "support_text": "前总统Carlos Menem承认他有一个秘密的瑞士银行账户。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_reopen",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "瑞士法官Jacques Antenen重新开启了关于伊朗情报部门瑞士银行账户的案件。",
+      "support_text": "瑞士法官Jacques Antenen重新开启了关于伊朗情报部门瑞士银行账户的案件。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_notify",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "瑞士司法部门此前已获知一个属于Red Spark Foundation的账户的存在。",
+      "support_text": "瑞士司法部门此前已获知一个属于Red Spark Foundation的账户的存在。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_declare",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "最高法院在2006年宣布，前法院为了掩盖失职而捏造了调查事件的虚假版本。",
+      "support_text": "最高法院在2006年宣布，前法院为了掩盖失职而捏造了调查事件的虚假版本。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_report",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷《号角报》报道将很快对他提起诉讼。",
+      "support_text": "阿根廷《号角报》报道将很快对他提起诉讼。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_press",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局将很快对Galeano提起诉讼。",
+      "support_text": "当局将很快对Galeano提起诉讼。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_deny_galeano",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官Galeano否认了这些指控。",
+      "support_text": "法官Galeano否认了这些指控。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_assume",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "内斯托尔·基什内尔在2003年春季就任总统。",
+      "support_text": "内斯托尔·基什内尔在2003年春季就任。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_call_shame",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "基什内尔称未解决的调查为“国家耻辱”。",
+      "support_text": "基什内尔称未解决的调查为“国家耻辱”。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_condemn",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗政府谴责了这次恐怖袭击。",
+      "support_text": "伊朗政府谴责了这次恐怖袭击。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_call_punish",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗政府呼吁紧急惩罚责任人。",
+      "support_text": "伊朗政府呼吁紧急惩罚责任人。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_require",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷政府要求引渡被指控的袭击者。",
+      "support_text": "阿根廷政府要求引渡被指控的袭击者。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_give_evidence",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "另外两名伊朗人提供了牵涉伊朗参与爆炸案的所谓证据。",
+      "support_text": "另外两名伊朗人提供了牵涉伊朗的所谓证据。所谓证据牵涉伊朗参与爆炸案。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_provide_evidence",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Mario Cafiero和Luis D'Elia在新闻发布会上提供了证据，并声称国际刑警组织已对另外两名伊朗人发出逮捕令。",
+      "support_text": "Mario Cafiero和Luis D'Elia在新闻发布会上提供了证据。Cafiero和D'Elia说国际刑警组织对另外两名伊朗人发出了逮捕令。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_refuse",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗一直拒绝接受阿根廷司法部门的判决。",
+      "support_text": "伊朗一直拒绝接受阿根廷司法部门的判决。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_describe",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗外交部发言人Hoseyni将这些指控描述为“犹太复国主义阴谋”，并称其意图转移世界对巴勒斯坦罪行的注意力。",
+      "support_text": "伊朗外交部发言人Hoseyni将这些指控描述为“犹太复国主义阴谋”。这些指控被意图用来转移世界对巴勒斯坦罪行的注意力。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_advocate",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗人民圣战者组织（MEK）主张推翻伊朗伊斯兰共和国。",
+      "support_text": "伊朗人民圣战者组织（MEK）主张推翻伊朗伊斯兰共和国。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_designate",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗人民圣战者组织（MEK）曾被美国指定为恐怖组织。",
+      "support_text": "伊朗人民圣战者组织（MEK）曾被美国指定为恐怖组织。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_lead_vahidi",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "艾哈迈德·瓦希迪在袭击发生时领导伊朗革命卫队的圣城旅部队。",
+      "support_text": "艾哈迈德·瓦希迪在袭击发生时领导伊朗革命卫队的圣城旅部队。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_propose_kirchner",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "基什内尔总统敢于提议并请求伊朗合作与协助调查。",
+      "support_text": "基什内尔总统敢于提议请求伊朗合作调查。基什内尔总统提议请求伊朗合作与协助调查。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_tell_kidnappers",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "绑架者告诉利夫希茨不要调查SIDE的参与。",
+      "support_text": "绑架者告诉利夫希茨不要调查SIDE的参与。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_investigate_lifschitz",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（被阻止的）克劳迪奥·利夫希茨对SIDE参与案件的调查。",
+      "support_text": "（被阻止的）对SIDE参与案件的调查。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_become_vahidi",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "艾哈迈德·瓦希迪成为伊朗国防部长提名人，并被BBC新闻报道。",
+      "support_text": "BBC新闻在2009年8月报道艾哈迈德·瓦希迪成为伊朗国防部长提名人。艾哈迈德·瓦希迪成为伊朗国防部长提名人。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_accuse_vahidi",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "艾哈迈德·瓦希迪被指控策划了爆炸案。",
+      "support_text": "艾哈迈德·瓦希迪被指控策划了爆炸案。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_apologize_bolivia",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "玻利维亚为瓦希迪的未宣布访问向阿根廷道歉，并宣布他将立即离开。",
+      "support_text": "玻利维亚在2011年6月1日为瓦希迪的未宣布访问向阿根廷道歉。玻利维亚宣布瓦希迪将立即离开该国。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_meet_un_announced",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "伊朗和阿根廷在联合国宣布后将开会讨论伊朗对袭击的参与。",
+      "support_text": "伊朗和阿根廷将开会讨论伊朗对袭击的参与。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_criticize_kirchner",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "基什内尔总统批评本国犹太领导人不支持阿伊协议，而犹太领导人则未能支持该协议。",
+      "support_text": "基什内尔总统在2014年批评了本国犹太领导人不支持与伊朗的协议。（被批评的）犹太领导人未能支持阿伊协议的行为。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_open_create",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷政府开放了所有情报档案，并创建了一个特别检察官调查组。",
+      "support_text": "阿根廷政府开放了所有情报档案。阿根廷政府创建了一个特别检察官调查组。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_make_request",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "（与伊朗合作的）请求在2007年至2011年间被间歇性地提出。",
+      "support_text": "该请求在2007年至2011年间被间歇性地提出。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_include_meeting",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿伊会议被列入议程。",
+      "support_text": "该会议被列入议程。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_lead_to_mou",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿伊会议促使两国签署了法律谅解备忘录。",
+      "support_text": "该会议促使两国签署了法律谅解备忘录。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_allow_depose",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿伊备忘录允许被指控的伊朗公民在法官面前作证。",
+      "support_text": "该备忘录允许被指控的伊朗公民在法官面前作证。被指控的伊朗公民在法官面前作证。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_accuse_jewish_associations",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "犹太协会曾寻求支持，后转而反对并指控我们与伊朗国串通。",
+      "support_text": "犹太协会过去曾寻求我们的支持。犹太协会转而反对我们。犹太协会指控我们与伊朗国串通。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_accuse_vulture_funds",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "秃鹫基金在美国国会进行游说，指控我们与伊朗伊斯兰共和国合作，并在网上发布我的照片。",
+      "support_text": "秃鹫基金在美国国会进行游说。秃鹫基金指控我们与伊朗伊斯兰共和国合作。秃鹫基金在他们的网站上发布我的照片。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_learn_kerry_zarif",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "我们得知美国国务卿和伊朗外长在华尔道夫酒店举行了会晤。",
+      "support_text": "我们得知美国国务卿和伊朗外长在华尔道夫酒店举行了会晤。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_ask_accusers",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们希望质问那些一直指责伊朗是恐怖主义国家的人。",
+      "support_text": "我们希望质问那些一直指责伊朗是恐怖主义国家的人。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_meet_ministers",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "阿根廷和伊朗外长在纽约联合国大会期间会面，并承诺继续谈判。",
+      "support_text": "阿根廷和伊朗外长在纽约联合国大会期间会面。阿伊两国外长承诺继续谈判直到九十年代的爆炸案得到解决。他们将继续进行会谈。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_analyze",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "委员会将分析阿根廷和伊朗司法部门提交的所有文件。",
+      "support_text": "委员会将分析阿根廷和伊朗司法部门提交的所有文件。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_commission_give_vision",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "委员会将提出其看法。",
+      "support_text": "委员会将提出其看法。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_commission_issue_report",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "委员会将发布一份带有建议的报告。",
+      "support_text": "委员会将发布一份带有建议的报告。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_case_proceed",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "案件将在双方的法律和监管框架内进行。",
+      "support_text": "案件将在双方的法律和监管框架内进行。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_news_generate_criticism",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "该新闻引发了多方批评。",
+      "support_text": "该新闻引发了多方批评。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_harris_state",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "大卫·哈里斯发表声明，表达其观点。",
+      "support_text": "大卫·哈里斯发表声明，表达其观点。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_metaphor_ask_nazi",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（比喻）建立真相委员会这一行为，好比请求纳粹德国帮助确定“水晶之夜”的事实。",
+      "support_text": "（比喻）建立真相委员会这一行为，好比请求纳粹德国帮助确定“水晶之夜”的事实。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_metaphor_nazi_establish",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（比喻）纳粹德国帮助确定“水晶之夜”的事实。",
+      "support_text": "（比喻）纳粹德国帮助确定“水晶之夜”的事实。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_jacobson_say",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国助理国务卿雅各布森表示她对此持怀疑态度。",
+      "support_text": "美国助理国务卿雅各布森表示她对此持怀疑态度。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_find_solution",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "通过该“真相委员会”找到一个公正的解决方案。",
+      "support_text": "通过该“真相委员会”找到一个公正的解决方案。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_jewish_community_issue",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿根廷犹太社区发布了一份声明。",
+      "support_text": "阿根廷犹太社区发布了一份声明。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_commission_ignore",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（声明中描述的）该委员会将无视阿根廷司法部门所做的一切。",
+      "support_text": "（声明中描述的）该委员会将无视阿根廷司法部门所做的一切。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_argentine_justice_do",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "阿根廷司法部门在案件上所做的工作。",
+      "support_text": "阿根廷司法部门在案件上所做的工作。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_commission_replace",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（声明中描述的）该委员会将取代阿根廷司法部门的工作。",
+      "support_text": "（声明中描述的）该委员会将取代阿根廷司法部门的工作。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_commission_issue_recommendation",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "该委员会将发布一项“建议”。",
+      "support_text": "该委员会将发布一项“建议”。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_act_reverse_justice",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "（声明中描述的）此举构成了对实现正义这一共同目标的逆转。",
+      "support_text": "（声明中描述的）此举构成了对实现正义这一共同目标的逆转。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_obtain_justice",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "各方获得正义。",
+      "support_text": "各方获得正义。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_israel_express_disappointment",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列对此进展表示失望。",
+      "support_text": "以色列对此进展表示失望。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_borger_criticize",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "AMIA主席博尔格批评了该备忘录的合法性。",
+      "support_text": "AMIA主席博尔格批评了该备忘录的合法性。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_borger_announce_court",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "博尔格宣布他将把此案提交至阿根廷最高法院。",
+      "support_text": "博尔格宣布他将把此案提交至阿根廷最高法院。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_borger_take_to_court",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "博尔格将把备忘录提交至最高法院。",
+      "support_text": "博尔格将把备忘录提交至最高法院。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_kirchners_file_appeal",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "基什内尔政府此前提交了上诉。",
+      "support_text": "基什内尔政府此前提交了上诉。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_macri_become_president",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "毛里西奥·马克里就任阿根廷总统。",
+      "support_text": "毛里西奥·马克里就任阿根廷总统。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_macri_withdraw_appeal",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "马克里撤回了上诉。",
+      "support_text": "马克里撤回了上诉。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_kadir_participate",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abdul Kadir参与了一个袭击肯尼迪国际机场的未遂计划",
+      "support_text": "Abdul Kadir参与了一个袭击肯尼迪国际机场的未遂计划",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_plan_attack_jfk",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "（未遂计划的参与者）企图袭击肯尼迪国际机场",
+      "support_text": "（未遂计划的参与者）企图袭击肯尼迪国际机场",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_sentence_kadir_life",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "（法庭）判处Abdul Kadir无期徒刑",
+      "support_text": "（法庭）判处Abdul Kadir无期徒刑",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_corach_provide_payment",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "Carlos Vladimir Corach向Carlos Telleldin提供了一笔40万美元的非法付款",
+      "support_text": "Carlos Vladimir Corach向Carlos Telleldin提供了一笔40万美元的非法付款",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_nisman_say_rabbani",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nisman说新证据强调了Mohsen Rabbani的责任",
+      "support_text": "Nisman说新证据强调了Mohsen Rabbani的责任",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_evidence_underscore_rabbani",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "新证据强调了Mohsen Rabbani作为AMIA爆炸案主谋的责任",
+      "support_text": "新证据强调了Mohsen Rabbani作为AMIA爆炸案主谋的责任",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_nisman_say_kadir_disciple",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nisman说美国法庭文件显示Abdul Kadir是Rabbani的门徒",
+      "support_text": "Nisman说美国法庭文件显示Abdul Kadir是Rabbani的门徒",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_documents_show_kadir_disciple",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国法庭文件显示伊斯兰武装分子Abdul Kadir是Rabbani的门徒",
+      "support_text": "美国法庭文件显示伊斯兰武装分子Abdul Kadir是Rabbani的门徒",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_report_presidential_candidates",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "有来源报道称两名伊朗AMIA爆炸案嫌疑人是当时的总统候选人",
+      "support_text": "有来源报道称两名伊朗AMIA爆炸案嫌疑人是当时的总统候选人",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_jta_report_corach_investigated",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "JTA报道阿根廷前内政部长Carlos Vladimir Corach将接受调查",
+      "support_text": "JTA报道阿根廷前内政部长Carlos Vladimir Corach将接受调查",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_investigate_corach",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（有关当局）将调查Carlos Vladimir Corach",
+      "support_text": "（有关当局）将调查Carlos Vladimir Corach",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_prevent_evidence",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列阻止了新证据的收集。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_call_palmor",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列外交部发言人伊格·帕尔莫尔称阿维兰的声明为“彻头彻尾的胡说八道”。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_cause_concern",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿维兰的声明在阿根廷引起了担忧。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_accuse_timerman",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷外长埃克托尔·蒂默尔曼指控以色列妨碍了新证据的收集。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_summon_charge_affairs",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷传唤了以色列驻阿代办。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_ask_explanation",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷要求以色列就阿维兰的声明做出解释。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_dismiss_claims",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列政府驳斥了阿维兰的说法，称其为“彻头彻尾的胡说八道”。",
+      "support_text": "原始文本中未提供支撑信息",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_exchange",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "根据指控，伊朗石油将被用来交换阿根廷谷物。",
+      "support_text": "根据指控，伊朗石油将被用来交换阿根廷谷物。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_cancel_warrant",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "根据指控，阿根廷将取消对拉巴尼等人的国际刑警组织逮捕令。",
+      "support_text": "根据指控，阿根廷将取消对拉巴尼等人的国际刑警组织逮捕令。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_nisman_say_taps",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "尼斯曼称其指控基于对费尔南德斯政治盟友的电话窃听。",
+      "support_text": "尼斯曼称其指控基于对费尔南德斯政治盟友的电话窃听。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_nisman_demand_embargo",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "尼斯曼要求对总统基什内尔实施2亿比索的预防性财产禁令。",
+      "support_text": "尼斯曼要求对总统基什内尔实施2亿比索的预防性财产禁令。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_nisman_request_question",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "尼斯曼请求质询总统、外长及其他相关人员。",
+      "support_text": "尼斯曼请求质询总统、外长及其他相关人员。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_nisman_question_officials",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "尼斯曼希望质询总统、外长及其他相关人员。",
+      "support_text": "尼斯曼希望质询总统、外长及其他相关人员。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_find_gun",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "在尸体旁发现了一把枪和弹壳。",
+      "support_text": "在尸体旁发现了一把枪和弹壳。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_official_say_suicide",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名政府官员称尼斯曼的死很可能是自杀。",
+      "support_text": "一名政府官员称尼斯曼的死很可能是自杀。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_lijo_return",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官阿里尔·利霍立即结束度假返回处理此案。",
+      "support_text": "法官阿里尔·利霍立即结束度假返回处理此案。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_lijo_work",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官阿里尔·利霍开始处理此案。",
+      "support_text": "法官阿里尔·利霍开始处理此案。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_lijo_order_protection",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官阿里尔·利霍下令保护尼斯曼的证据。",
+      "support_text": "法官阿里尔·利霍下令保护尼斯曼的证据。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_verify_gentili_replace",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "检察官阿尔贝托·詹蒂利接替了尼斯曼的职位。",
+      "support_text": "检察官阿尔贝托·詹蒂利接替了尼斯曼的职位。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_run",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷秘密安保服务长期以来在国家控制之外运行。",
+      "support_text": "阿根廷秘密安保服务长期以来在国家控制之外运行。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_receive",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗接收阿根廷核技术。",
+      "support_text": "伊朗接收阿根廷核技术。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_declare",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "基什内尔总统宣布了她决心完全替换阿根廷秘密安保服务。",
+      "support_text": "基什内尔总统宣布了她决心完全替换阿根廷秘密安保服务。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_replace",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（基什内尔/政府）决心替换阿根廷秘密安保服务。",
+      "support_text": "（基什内尔/政府）决心替换阿根廷秘密安保服务。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_release_ad",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿根廷政府在2015年3月发布了一整版广告。",
+      "support_text": "阿根廷政府在2015年3月发布了一整版广告。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_accuse_nisman",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "广告指控已故检察官阿尔贝托·尼曼企图动摇国家。",
+      "support_text": "广告指控已故检察官阿尔贝托·尼曼企图动摇国家。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_destabilise",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "尼曼被指控企图动摇国家。",
+      "support_text": "尼曼被指控企图动摇国家。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_argue",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "广告主张阿根廷应恢复与伊朗的一项争议性协议。",
+      "support_text": "广告主张阿根廷应恢复与伊朗的一项争议性协议。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_revive",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷应恢复与伊朗的争议性协议。",
+      "support_text": "阿根廷应恢复与伊朗的争议性协议。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_accuse_israel",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "克里斯蒂娜·费尔南德斯·德·基什内尔总统指责以色列应对1992年阿根廷以色列使馆爆炸案负责。",
+      "support_text": "克里斯蒂娜·费尔南德斯·德·基什内尔总统指责以色列应对1992年阿根廷以色列使馆爆炸案负责。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_refute",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列大使馆立即驳斥了基什内尔的指控。",
+      "support_text": "以色列大使馆立即驳斥了基什内尔的指控。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_reaffirm",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列大使馆重申其确实要求对两起案件伸张正义。",
+      "support_text": "以色列大使馆重申其确实要求对两起案件伸张正义。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_demand_justice",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列大使馆要求对两起案件伸张正义。",
+      "support_text": "以色列大使馆要求对两起案件伸张正义。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_release_tapes",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿根廷电台米特雷在2015年12月公布了埃克托尔·蒂默曼的秘密录音。",
+      "support_text": "阿根廷电台米特雷在2015年12月公布了埃克托尔·蒂默曼的秘密录音。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_admit_responsibility",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "埃克托尔·蒂默曼在录音中承认伊朗应对爆炸案负责。",
+      "support_text": "埃克托尔·蒂默曼在录音中承认伊朗应对爆炸案负责。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_negotiate",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（阿根廷）在与伊朗谈判的同时，承认了伊朗的责任。",
+      "support_text": "（阿根廷）在与伊朗谈判的同时，承认了伊朗的责任。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_claim_federal",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "萨恩斯声称此案应移交联邦司法部门。",
+      "support_text": "萨恩斯声称此案应移交联邦司法部门。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_direct_federal",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "此案应被移交至联邦司法部门。",
+      "support_text": "此案应被移交至联邦司法部门。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_v_expel",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷将该组织所有成员驱逐出境。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_come_up_with_evidence",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查人员从未找到任何关于伊朗责任的证据。",
+      "support_text": "They never came up with anything.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_claim_moatamer_knowledge",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Moatamer曾声称自己拥有政府决策的知识。",
+      "support_text": "Moatamer claimed to have the knowledge of government decision-making.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_moatamer_turn_out",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Moatamer最终被证明只是一个心怀不满的低级官员。",
+      "support_text": "Moatamer turned out to be a dissatisfied low-ranking official.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_decide_not_credible",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Cheek和他的团队最终决定Moatamer是不可信的。",
+      "support_text": "We finally decided that he wasn't credible.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_tell_no_evidence",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "James Cheek告诉作者，没有关于伊朗责任的任何真实证据。",
+      "support_text": "James Cheek told him that there was never any real evidence of Iranian responsibility.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_recall_moatamer_lead",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Cheek回忆起该案中最有价值的线索是伊朗叛逃者Moatamer。",
+      "support_text": "Cheek recalled that the hottest lead in the case was an Iranian defector, Moatamer.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_recall_decision",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Cheek回忆起他们最终决定Moatamer不可信。",
+      "support_text": "Cheek recalled, 'We finally decided that he wasn't credible'.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_claim_author_cheek_told",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "作者声称James Cheek曾告诉他关于证据和Moatamer的情况。",
+      "support_text": "The author claims James Cheek told him about the lack of evidence and the Moatamer affair.",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_new_node_v_kill",
+      "relation": "before",
+      "support_text": "爆炸案是导致死亡的原因，时序基于temporal_order: 1"
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_new_node_v_wound",
+      "relation": "before",
+      "support_text": "爆炸案是导致受伤的原因，时序基于temporal_order: 1"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_11",
+      "relation": "before",
+      "support_text": "爆炸事件（node_2）是导致承重墙被摧毁的直接原因。"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order，爆炸袭击发生后，以色列派遣了摩萨德特工。"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_16",
+      "relation": "before",
+      "support_text": "根据temporal_order，爆炸袭击发生后，以色列警方派遣了法医团队。"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_18",
+      "relation": "before",
+      "support_text": "根据temporal_order，爆炸袭击发生后，以色列国防军派遣了人员。"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_21",
+      "relation": "before",
+      "support_text": "根据temporal_order，爆炸袭击发生后，阿根廷关闭了边境。"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_v_suspect",
+      "relation": "before",
+      "support_text": "AMIA爆炸案是怀疑其与大使馆袭击有关联的前提，时序基于temporal_order: 5"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_v_determine",
+      "relation": "before",
+      "support_text": "根据temporal_order，爆炸事件（2）发生在确定实施者（3）之前。"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_v_think",
+      "relation": "before",
+      "support_text": "根据temporal_order，爆炸事件（2）发生在对实施者形成看法（3）之前。"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_v_injure_22",
+      "relation": "before",
+      "support_text": "根据temporal_order，爆炸事件（2）发生在人员受伤（5）之前。"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_verify_5",
+      "relation": "before",
+      "support_text": "根据temporal_order，实施袭击事件(1)发生在Berro被荣誉事件(2)之前。"
+    },
+    {
+      "source": "text_1_node_2",
+      "target": "text_1_new_node_v_expel",
+      "relation": "before",
+      "support_text": "驱逐成员是对AMIA爆炸案这一事件的后续反应，在时序上应位于爆炸事件之后。"
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_4",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_node_6",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_6",
+      "target": "text_1_node_7",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_6",
+      "target": "text_1_new_node_verify_prevent",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，起诉事件（temporal_order: 3）发生在国际刑警组织禁止事件（temporal_order: 4）之前。"
+    },
+    {
+      "source": "text_1_node_6",
+      "target": "text_1_node_14",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，起诉事件（temporal_order: 3）发生在列入名单事件（temporal_order: 4）之前。"
+    },
+    {
+      "source": "text_1_node_7",
+      "target": "text_1_node_8",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_8",
+      "target": "text_1_node_9",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_9",
+      "target": "text_1_node_10",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_10",
+      "target": "text_1_node_11",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_11",
+      "target": "text_1_node_12",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_11",
+      "target": "text_1_new_node_v_call_shame",
+      "relation": "before",
+      "support_text": "基什内尔政府发布法令（temporal_order: 1）发生在其称调查为“国家耻辱”（temporal_order: 3）之前。"
+    },
+    {
+      "source": "text_1_node_12",
+      "target": "text_1_node_13",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_12",
+      "target": "text_1_new_node_v_tell_kidnappers",
+      "relation": "before",
+      "support_text": "法官被免职(2005)后，调查员声称因调查情报部门参与而遭绑架(2009)。"
+    },
+    {
+      "source": "text_1_node_13",
+      "target": "text_1_node_14",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_13",
+      "target": "text_1_new_node_v_require",
+      "relation": "before",
+      "support_text": "检察官指控（temporal_order: 6）发生在阿根廷政府要求引渡（temporal_order: 7）之前。"
+    },
+    {
+      "source": "text_1_node_14",
+      "target": "text_1_node_15",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_15",
+      "target": "text_1_node_16",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_16",
+      "target": "text_1_node_17",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_17",
+      "target": "text_1_node_18",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_18",
+      "target": "text_1_node_19",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_18",
+      "target": "text_1_new_node_v_meet_un_announced",
+      "relation": "before",
+      "support_text": "宣布会面是会面本身的前提。"
+    },
+    {
+      "source": "text_1_node_19",
+      "target": "text_1_node_20",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_19",
+      "target": "text_1_new_node_v_allow_depose",
+      "relation": "before",
+      "support_text": "签署备忘录是允许作证的前提。"
+    },
+    {
+      "source": "text_1_node_19",
+      "target": "text_1_new_node_verify_analyze",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，宣布事件(temporal_order: 2)发生在分析文件事件(temporal_order: 5)之前。"
+    },
+    {
+      "source": "text_1_node_20",
+      "target": "text_1_node_21",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_21",
+      "target": "text_1_node_22",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_22",
+      "target": "text_1_node_23",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_23",
+      "target": "text_1_node_24",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_24",
+      "target": "text_1_node_25",
+      "relation": "before",
+      "support_text": "Nisman was murdered hours before he was due to testify against the former president, which the Federal Court of Buenos Aires ruled was a “direct consequence” of Nisman's accusations against Kirchner."
+    },
+    {
+      "source": "text_1_node_24",
+      "target": "text_1_new_node_verify_exchange",
+      "relation": "before",
+      "support_text": "尼斯曼提起诉讼（node_24）是其提出具体指控（包括石油换谷物）的前提。"
+    },
+    {
+      "source": "text_1_node_25",
+      "target": "text_1_node_26",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_25",
+      "target": "text_1_new_node_verify_find_gun",
+      "relation": "before",
+      "support_text": "发现尼斯曼死亡(node_25)是发现枪支(new_node_verify_find_gun)的前提。"
+    },
+    {
+      "source": "text_1_node_26",
+      "target": "text_1_node_27",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_27",
+      "target": "text_1_node_28",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_28",
+      "target": "text_1_node_29",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_28",
+      "target": "text_1_new_node_verify_18",
+      "relation": "before",
+      "support_text": "根据temporal_order，识别新DNA证据事件(9)发生在检验普遍怀疑事件(10)之前。"
+    },
+    {
+      "source": "text_1_node_29",
+      "target": "text_1_node_30",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_node_30",
+      "target": "text_1_node_31",
+      "relation": "before",
+      "support_text": "原始文本中未提供直接支撑此关系的文本片段，时序关系基于事件日期推断。"
+    },
+    {
+      "source": "text_1_new_node_6",
+      "target": "text_1_new_node_7",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，暂停合同事件（temporal_order: 1）发生在检察官声称事件（temporal_order: 5）之前。"
+    },
+    {
+      "source": "text_1_new_node_7",
+      "target": "text_1_new_node_8",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，检察官声称事件（temporal_order: 5）发生在争议事件（temporal_order: 6）之前。"
+    },
+    {
+      "source": "text_1_new_node_9",
+      "target": "text_1_new_node_10",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，装载爆炸物（temporal_order: 1）发生在布置爆炸物（temporal_order: 2）之前。"
+    },
+    {
+      "source": "text_1_new_node_9",
+      "target": "text_1_new_node_use",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，提供货车事件(3)发生在使用账户事件(4)之前。"
+    },
+    {
+      "source": "text_1_new_node_10",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，布置爆炸物（temporal_order: 2）发生在爆炸摧毁墙体（temporal_order: 4）之前，而爆炸事件本身由node_2表示。"
+    },
+    {
+      "source": "text_1_new_node_11",
+      "target": "text_1_new_node_12",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，承重墙被摧毁（temporal_order: 4）发生在建筑坍塌（temporal_order: 5）之前。"
+    },
+    {
+      "source": "text_1_new_node_12",
+      "target": "text_1_new_node_13",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，建筑坍塌（temporal_order: 5）发生在分析人员进行事后分析（temporal_order: 6）之前。"
+    },
+    {
+      "source": "text_1_new_node_14",
+      "target": "text_1_new_node_15",
+      "relation": "before",
+      "support_text": "根据temporal_order，派遣特工后，他们开始进行调查。"
+    },
+    {
+      "source": "text_1_new_node_16",
+      "target": "text_1_new_node_17",
+      "relation": "before",
+      "support_text": "根据temporal_order，派遣法医团队后，他们开始建立档案。"
+    },
+    {
+      "source": "text_1_new_node_18",
+      "target": "text_1_new_node_19",
+      "relation": "before",
+      "support_text": "根据temporal_order，以色列国防军派遣人员后，这些人员开始提供帮助。"
+    },
+    {
+      "source": "text_1_new_node_19",
+      "target": "text_1_new_node_20",
+      "relation": "before",
+      "support_text": "在以色列国防军帮助的过程中，他们参与了提取遗体的工作。"
+    },
+    {
+      "source": "text_1_new_node_20",
+      "target": "text_1_new_node_25",
+      "relation": "before",
+      "support_text": "根据temporal_order，现场遗体提取工作（temporal_order: 3）早于情报局建立监控网络（temporal_order: 5）。"
+    },
+    {
+      "source": "text_1_new_node_22",
+      "target": "text_1_new_node_21",
+      "relation": "before",
+      "support_text": "“担心”是“关闭边境”行为的原因。"
+    },
+    {
+      "source": "text_1_new_node_22",
+      "target": "text_1_new_node_23",
+      "relation": "before",
+      "support_text": "“担心更多恐怖分子进入”是关于“恐怖分子进入”这一可能性的前置事件。"
+    },
+    {
+      "source": "text_1_new_node_24",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "根据temporal_order，爆炸分子进入事件发生在爆炸袭击之前。"
+    },
+    {
+      "source": "text_1_new_node_v_kill",
+      "target": "text_1_new_node_v_claim",
+      "relation": "before",
+      "support_text": "根据temporal_order，伤亡事件(1)发生在声称负责(3)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_claim",
+      "target": "text_1_new_node_v_operate",
+      "relation": "before",
+      "support_text": "根据temporal_order，声称负责(3)发生在组织运作(4)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_suspect",
+      "target": "text_1_new_node_v_locate",
+      "relation": "before",
+      "support_text": "根据temporal_order，怀疑关联(5)发生在未能找到责任人(6)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_determine",
+      "target": "text_1_new_node_v_arrest",
+      "relation": "before",
+      "support_text": "根据temporal_order，确定实施者（3）发生在逮捕事件（6）之前。"
+    },
+    {
+      "source": "text_1_new_node_v_arrest",
+      "target": "text_1_new_node_v_sentence",
+      "relation": "before",
+      "support_text": "根据temporal_order，逮捕事件（6）发生在判刑（7）之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_1",
+      "target": "text_1_new_node_verify_2",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，法官表示事件(5)发生在官员受审事件(6)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_2",
+      "target": "text_1_new_node_verify_3",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，官员受审事件(6)发生在基什内尔否认事件(7)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_prevent",
+      "target": "text_1_node_14",
+      "relation": "before",
+      "support_text": "国际刑警组织的禁止性规定（prevent）是后续部分人员被列入名单（list）事件的背景和前提条件，时序上基于temporal_order均为4，但存在逻辑上的前后关系。"
+    },
+    {
+      "source": "text_1_new_node_verify_4",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "根据temporal_order，Hussein加入真主党事件(0)发生在实施袭击事件(1)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_5",
+      "target": "text_1_new_node_verify_6",
+      "relation": "before",
+      "support_text": "根据temporal_order，Berro被荣誉事件(2)发生在调查进行事件(3)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_6",
+      "target": "text_1_new_node_verify_9",
+      "relation": "before",
+      "support_text": "根据temporal_order，调查进行事件(3)发生在FBI确认身份事件(4)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_9",
+      "target": "text_1_new_node_verify_11",
+      "relation": "before",
+      "support_text": "根据temporal_order，FBI确认身份事件(4)发生在兄弟作证事件(5)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_11",
+      "target": "text_1_new_node_verify_13",
+      "relation": "before",
+      "support_text": "根据temporal_order，兄弟作证事件(5)发生在以色列消息来源阅读报告事件(6)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_13",
+      "target": "text_1_new_node_verify_15",
+      "relation": "before",
+      "support_text": "根据temporal_order，以色列消息来源阅读报告事件(6)发生在Nisman补充说明事件(7)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_15",
+      "target": "text_1_new_node_verify_16",
+      "relation": "before",
+      "support_text": "根据temporal_order，Nisman补充说明事件(7)发生在BBC记者报道事件(8)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_16",
+      "target": "text_1_node_28",
+      "relation": "before",
+      "support_text": "根据temporal_order，BBC记者报道事件(8)发生在识别新DNA证据事件(9)之前。"
+    },
+    {
+      "source": "text_1_new_node_accept",
+      "target": "text_1_new_node_9",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，接受付款事件(2)发生在提供货车事件(3)之前。"
+    },
+    {
+      "source": "text_1_new_node_use",
+      "target": "text_1_new_node_deposit",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，使用账户事件(4)发生在存款事件(5)之前。"
+    },
+    {
+      "source": "text_1_new_node_deposit",
+      "target": "text_1_new_node_issue",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，存款事件(5)发生在签署逮捕令事件(7)之前。"
+    },
+    {
+      "source": "text_1_new_node_issue",
+      "target": "text_1_new_node_interview",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，签署逮捕令事件(7)发生在采访事件(9)之前。"
+    },
+    {
+      "source": "text_1_new_node_interview",
+      "target": "text_1_new_node_say",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，采访事件(9)发生在说话事件(12)之前。"
+    },
+    {
+      "source": "text_1_new_node_say",
+      "target": "text_1_new_node_claim_mesbahi",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，说话事件(12)发生在声称事件(13)之前。"
+    },
+    {
+      "source": "text_1_new_node_claim_mesbahi",
+      "target": "text_1_new_node_claim_menem",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，Mesbahi声称事件(13)发生在Menem声称事件(20)之前。"
+    },
+    {
+      "source": "text_1_new_node_claim_menem",
+      "target": "text_1_new_node_deny_menem",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，Menem声称事件(20)发生在Menem否认事件(21)之前。"
+    },
+    {
+      "source": "text_1_new_node_deny_menem",
+      "target": "text_1_new_node_admit",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，Menem否认事件(21)发生在Menem承认事件(22)之前。"
+    },
+    {
+      "source": "text_1_new_node_admit",
+      "target": "text_1_new_node_reopen",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，Menem承认事件(22)发生在重新开启案件事件(27)之前。"
+    },
+    {
+      "source": "text_1_new_node_reopen",
+      "target": "text_1_new_node_notify",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，重新开启案件事件(27)发生在通知事件(28)之前。"
+    },
+    {
+      "source": "text_1_new_node_notify",
+      "target": "text_1_new_node_declare",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，通知事件(28)发生在宣布事件(29)之前。"
+    },
+    {
+      "source": "text_1_new_node_declare",
+      "target": "text_1_new_node_report",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，宣布事件(29)发生在报道事件(31)之前。"
+    },
+    {
+      "source": "text_1_new_node_report",
+      "target": "text_1_new_node_press",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，报道事件(31)发生在提起诉讼事件(32)之前。"
+    },
+    {
+      "source": "text_1_new_node_press",
+      "target": "text_1_new_node_deny_galeano",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，提起诉讼事件(32)发生在Galeano否认事件(33)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_assume",
+      "target": "text_1_node_11",
+      "relation": "before",
+      "support_text": "基什内尔就任（temporal_order: 1）是其政府后续行动（如发布法令）的前提。"
+    },
+    {
+      "source": "text_1_new_node_v_call_shame",
+      "target": "text_1_new_node_v_condemn",
+      "relation": "before",
+      "support_text": "基什内尔称调查为“国家耻辱”（temporal_order: 3）发生在伊朗政府谴责袭击（temporal_order: 5）之前。"
+    },
+    {
+      "source": "text_1_new_node_v_condemn",
+      "target": "text_1_new_node_v_call_punish",
+      "relation": "before",
+      "support_text": "伊朗政府谴责（temporal_order: 5）与其呼吁惩罚（temporal_order: 5）是同一时间框架内的行为，但逻辑上谴责在前。"
+    },
+    {
+      "source": "text_1_new_node_v_call_punish",
+      "target": "text_1_node_13",
+      "relation": "before",
+      "support_text": "伊朗呼吁惩罚（temporal_order: 5）发生在阿根廷检察官指控伊朗（temporal_order: 6）之前。"
+    },
+    {
+      "source": "text_1_new_node_v_require",
+      "target": "text_1_new_node_v_give_evidence",
+      "relation": "before",
+      "support_text": "阿根廷政府要求引渡（temporal_order: 7）发生在另外两名伊朗人提供证据（temporal_order: 7）之前。"
+    },
+    {
+      "source": "text_1_new_node_v_give_evidence",
+      "target": "text_1_new_node_v_provide_evidence",
+      "relation": "before",
+      "support_text": "另外两名伊朗人提供证据（temporal_order: 7）发生在Cafiero和D'Elia提供证据（temporal_order: 8）之前。"
+    },
+    {
+      "source": "text_1_new_node_v_provide_evidence",
+      "target": "text_1_new_node_v_refuse",
+      "relation": "before",
+      "support_text": "Cafiero和D'Elia提供证据（temporal_order: 8）与伊朗拒绝接受判决（temporal_order: 8）是同一时间框架，但前者是具体事件，后者是持续状态。"
+    },
+    {
+      "source": "text_1_new_node_v_refuse",
+      "target": "text_1_new_node_v_describe",
+      "relation": "before",
+      "support_text": "伊朗拒绝接受判决（temporal_order: 8）发生在伊朗发言人描述指控为阴谋（temporal_order: 10）之前。"
+    },
+    {
+      "source": "text_1_new_node_v_describe",
+      "target": "text_1_new_node_v_advocate",
+      "relation": "before",
+      "support_text": "伊朗发言人描述指控为阴谋（temporal_order: 10）发生在MEK主张推翻伊朗政府（temporal_order: 11）之前。"
+    },
+    {
+      "source": "text_1_new_node_v_lead_vahidi",
+      "target": "text_1_node_13",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，领导事件(3)发生在指控事件(4)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_propose_kirchner",
+      "target": "text_1_node_18",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，提议合作事件(5)发生在宣布会面事件(11)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_tell_kidnappers",
+      "target": "text_1_new_node_v_investigate_lifschitz",
+      "relation": "before",
+      "support_text": "绑架者告诉利夫希茨不要调查，导致他的调查被阻止。"
+    },
+    {
+      "source": "text_1_new_node_v_investigate_lifschitz",
+      "target": "text_1_new_node_v_become_vahidi",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，调查事件(7)发生在瓦希迪成为提名人事件(8)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_become_vahidi",
+      "target": "text_1_new_node_v_accuse_vahidi",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，成为提名人事件(8)与被指控事件(8)时间相近，逻辑上指控是伴随其提名发生的。"
+    },
+    {
+      "source": "text_1_new_node_v_accuse_vahidi",
+      "target": "text_1_new_node_v_apologize_bolivia",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，指控事件(8)发生在玻利维亚道歉事件(9)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_meet_un_announced",
+      "target": "text_1_new_node_v_criticize_kirchner",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，开会事件(11)发生在批评事件(12)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_criticize_kirchner",
+      "target": "text_1_new_node_v_open_create",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，批评事件(12)发生在开放档案和创建调查组事件(13)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_open_create",
+      "target": "text_1_new_node_v_make_request",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，开放档案事件(13)发生在提出请求事件(14)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_make_request",
+      "target": "text_1_new_node_v_include_meeting",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，提出请求事件(14)发生在会议列入议程事件(16)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_include_meeting",
+      "target": "text_1_new_node_v_lead_to_mou",
+      "relation": "before",
+      "support_text": "会议列入议程是签署备忘录的前提。"
+    },
+    {
+      "source": "text_1_new_node_v_lead_to_mou",
+      "target": "text_1_node_19",
+      "relation": "before",
+      "support_text": "会议促使签署备忘录，该备忘录随后被宣布。"
+    },
+    {
+      "source": "text_1_new_node_v_allow_depose",
+      "target": "text_1_new_node_v_accuse_jewish_associations",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，作证事件(16)发生在犹太协会指控事件(17)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_accuse_jewish_associations",
+      "target": "text_1_new_node_v_accuse_vulture_funds",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，犹太协会指控事件(17)发生在秃鹫基金游说事件(18)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_accuse_vulture_funds",
+      "target": "text_1_new_node_v_learn_kerry_zarif",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，秃鹫基金游说事件(18)发生在得知美伊外长会晤事件(19)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_learn_kerry_zarif",
+      "target": "text_1_new_node_v_ask_accusers",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，得知会晤事件(19)发生在希望质问事件(19)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_ask_accusers",
+      "target": "text_1_new_node_v_meet_ministers",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，希望质问事件(19)发生在外长会面事件(20)之前。"
+    },
+    {
+      "source": "text_1_new_node_v_meet_ministers",
+      "target": "text_1_node_20",
+      "relation": "before",
+      "support_text": "外长会面并达成协议，随后阿根廷众议院批准了该协议。"
+    },
+    {
+      "source": "text_1_new_node_verify_analyze",
+      "target": "text_1_new_node_verify_commission_give_vision",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，分析文件事件(temporal_order: 5)发生在提出看法事件(temporal_order: 6)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_commission_give_vision",
+      "target": "text_1_new_node_verify_commission_issue_report",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，提出看法事件(temporal_order: 6)发生在发布报告事件(temporal_order: 7)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_commission_issue_report",
+      "target": "text_1_new_node_verify_case_proceed",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，发布报告事件(temporal_order: 7)发生在案件进行事件(temporal_order: 8)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_case_proceed",
+      "target": "text_1_new_node_verify_news_generate_criticism",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，案件进行事件(temporal_order: 8)发生在新闻引发批评事件(temporal_order: 9)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_news_generate_criticism",
+      "target": "text_1_new_node_verify_harris_state",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，新闻引发批评事件(temporal_order: 9)发生在大卫·哈里斯发表声明事件(temporal_order: 10)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_harris_state",
+      "target": "text_1_new_node_verify_metaphor_ask_nazi",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，大卫·哈里斯发表声明事件(temporal_order: 10)发生在比喻请求纳粹事件(temporal_order: 11)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_metaphor_ask_nazi",
+      "target": "text_1_new_node_verify_metaphor_nazi_establish",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，比喻请求纳粹事件(temporal_order: 11)发生在比喻纳粹确定事实事件(temporal_order: 12)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_metaphor_nazi_establish",
+      "target": "text_1_new_node_verify_jacobson_say",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，比喻纳粹确定事实事件(temporal_order: 12)发生在雅各布森表示事件(temporal_order: 13)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_jacobson_say",
+      "target": "text_1_new_node_verify_find_solution",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，雅各布森表示事件(temporal_order: 13)发生在找到解决方案事件(temporal_order: 14)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_find_solution",
+      "target": "text_1_new_node_verify_jewish_community_issue",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，找到解决方案事件(temporal_order: 14)发生在犹太社区发布声明事件(temporal_order: 15)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_jewish_community_issue",
+      "target": "text_1_new_node_verify_commission_ignore",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，犹太社区发布声明事件(temporal_order: 15)发生在委员会无视事件(temporal_order: 16)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_commission_ignore",
+      "target": "text_1_new_node_verify_argentine_justice_do",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，委员会无视事件(temporal_order: 16)发生在阿根廷司法部门工作事件(temporal_order: 17)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_argentine_justice_do",
+      "target": "text_1_new_node_verify_commission_replace",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，阿根廷司法部门工作事件(temporal_order: 17)发生在委员会取代事件(temporal_order: 18)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_commission_replace",
+      "target": "text_1_new_node_verify_commission_issue_recommendation",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，委员会取代事件(temporal_order: 18)发生在委员会发布建议事件(temporal_order: 19)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_commission_issue_recommendation",
+      "target": "text_1_new_node_verify_act_reverse_justice",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，委员会发布建议事件(temporal_order: 19)发生在逆转正义目标事件(temporal_order: 20)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_act_reverse_justice",
+      "target": "text_1_new_node_verify_obtain_justice",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，逆转正义目标事件(temporal_order: 20)发生在获得正义事件(temporal_order: 21)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_obtain_justice",
+      "target": "text_1_new_node_verify_israel_express_disappointment",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，获得正义事件(temporal_order: 21)发生在以色列表示失望事件(temporal_order: 23)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_israel_express_disappointment",
+      "target": "text_1_new_node_verify_borger_criticize",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，以色列表示失望事件(temporal_order: 23)发生在博尔格批评事件(temporal_order: 24)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_borger_criticize",
+      "target": "text_1_new_node_verify_borger_announce_court",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，博尔格批评事件(temporal_order: 24)发生在博尔格宣布提交法院事件(temporal_order: 25)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_borger_announce_court",
+      "target": "text_1_new_node_verify_borger_take_to_court",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，博尔格宣布提交法院事件(temporal_order: 25)发生在博尔格提交至法院事件(temporal_order: 26)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_borger_take_to_court",
+      "target": "text_1_new_node_verify_kirchners_file_appeal",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，博尔格提交至法院事件(temporal_order: 26)发生在基什内尔政府提交上诉事件(temporal_order: 28)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_kirchners_file_appeal",
+      "target": "text_1_new_node_verify_macri_become_president",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，基什内尔政府提交上诉事件(temporal_order: 28)发生在马克里就任总统事件(temporal_order: 29)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_macri_become_president",
+      "target": "text_1_new_node_verify_macri_withdraw_appeal",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，马克里就任总统事件(temporal_order: 29)发生在马克里撤回上诉事件(temporal_order: 30)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_kadir_participate",
+      "target": "text_1_new_node_verify_plan_attack_jfk",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，参与事件(2)发生在袭击事件(2)之前或之中。"
+    },
+    {
+      "source": "text_1_new_node_verify_plan_attack_jfk",
+      "target": "text_1_new_node_verify_sentence_kadir_life",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，袭击计划(2)发生在判刑(3)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_sentence_kadir_life",
+      "target": "text_1_new_node_verify_corach_provide_payment",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，判刑(3)发生在提供付款(5)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_corach_provide_payment",
+      "target": "text_1_new_node_verify_nisman_say_rabbani",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，提供付款(5)发生在Nisman说话(9)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_nisman_say_rabbani",
+      "target": "text_1_new_node_verify_evidence_underscore_rabbani",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，Nisman说话(9)发生在证据强调(10)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_evidence_underscore_rabbani",
+      "target": "text_1_new_node_verify_nisman_say_kadir_disciple",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，证据强调(10)发生在Nisman关于门徒的说话(11)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_nisman_say_kadir_disciple",
+      "target": "text_1_new_node_verify_documents_show_kadir_disciple",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，Nisman关于门徒的说话(11)发生在文件显示(12)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_documents_show_kadir_disciple",
+      "target": "text_1_new_node_verify_report_presidential_candidates",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，文件显示(12)发生在报道候选人(13)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_report_presidential_candidates",
+      "target": "text_1_new_node_verify_jta_report_corach_investigated",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，报道候选人(13)发生在JTA报道(14)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_jta_report_corach_investigated",
+      "target": "text_1_new_node_verify_investigate_corach",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，JTA报道(14)发生在调查(15)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_prevent_evidence",
+      "target": "text_1_new_node_verify_call_palmor",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，阻止证据收集事件（temporal_order: 1）发生在发言人称声明为胡说事件（temporal_order: 3）之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_call_palmor",
+      "target": "text_1_new_node_verify_cause_concern",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，发言人称声明为胡说事件（temporal_order: 3）发生在声明引起担忧事件（temporal_order: 5）之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_cause_concern",
+      "target": "text_1_new_node_verify_accuse_timerman",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，声明引起担忧事件（temporal_order: 5）发生在外长指控事件（temporal_order: 6）之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_accuse_timerman",
+      "target": "text_1_new_node_verify_summon_charge_affairs",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，外长指控事件（temporal_order: 6）发生在传唤代办事件（temporal_order: 7）之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_accuse_timerman",
+      "target": "text_1_new_node_verify_ask_explanation",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，外长指控事件（temporal_order: 6）发生在要求解释事件（temporal_order: 7）之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_summon_charge_affairs",
+      "target": "text_1_new_node_verify_dismiss_claims",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，传唤代办事件（temporal_order: 7）发生在政府驳斥说法事件（temporal_order: 8）之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_ask_explanation",
+      "target": "text_1_new_node_verify_dismiss_claims",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，要求解释事件（temporal_order: 7）发生在政府驳斥说法事件（temporal_order: 8）之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_exchange",
+      "target": "text_1_new_node_verify_cancel_warrant",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，交换事件(temporal_order: 2)发生在取消逮捕令事件(temporal_order: 2)之前或同时，但作为指控的不同方面，存在逻辑先后。"
+    },
+    {
+      "source": "text_1_new_node_verify_cancel_warrant",
+      "target": "text_1_new_node_verify_nisman_say_taps",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，取消逮捕令事件(temporal_order: 2)发生在尼斯曼称指控基于窃听事件(temporal_order: 3)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_nisman_say_taps",
+      "target": "text_1_new_node_verify_nisman_demand_embargo",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，尼斯曼称指控基于窃听事件(temporal_order: 3)发生在尼斯曼要求财产禁令事件(temporal_order: 3)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_nisman_demand_embargo",
+      "target": "text_1_new_node_verify_nisman_request_question",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，尼斯曼要求财产禁令事件(temporal_order: 3)发生在尼斯曼请求质询事件(temporal_order: 3)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_nisman_request_question",
+      "target": "text_1_new_node_verify_nisman_question_officials",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，尼斯曼请求质询事件(temporal_order: 3)发生在尼斯曼希望质询事件(temporal_order: 4)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_nisman_question_officials",
+      "target": "text_1_node_25",
+      "relation": "before",
+      "support_text": "尼斯曼希望质询官员(temporal_order: 4)发生在他被发现死亡(temporal_order: 5)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_find_gun",
+      "target": "text_1_new_node_verify_official_say_suicide",
+      "relation": "before",
+      "support_text": "发现枪支(new_node_verify_find_gun)是官员称其为自杀(new_node_verify_official_say_suicide)的背景。"
+    },
+    {
+      "source": "text_1_new_node_verify_official_say_suicide",
+      "target": "text_1_new_node_verify_lijo_return",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，官员称自杀事件(temporal_order: 5)发生在法官返回事件(temporal_order: 6)之前。"
+    },
+    {
+      "source": "text_1_new_node_verify_lijo_return",
+      "target": "text_1_new_node_verify_lijo_work",
+      "relation": "before",
+      "support_text": "法官返回(new_node_verify_lijo_return)是其开始工作(new_node_verify_lijo_work)的前提。"
+    },
+    {
+      "source": "text_1_new_node_verify_lijo_work",
+      "target": "text_1_new_node_verify_lijo_order_protection",
+      "relation": "before",
+      "support_text": "法官开始工作(new_node_verify_lijo_work)是其下令保护证据(new_node_verify_lijo_order_protection)的前提。"
+    },
+    {
+      "source": "text_1_new_node_verify_lijo_order_protection",
+      "target": "text_1_new_node_verify_gentili_replace",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，法官下令保护证据事件(temporal_order: 6)发生在检察官接替职位事件(temporal_order: 7)之前。"
+    },
+    {
+      "source": "text_1_new_node_come_up_with_evidence",
+      "target": "text_1_new_node_claim_moatamer_knowledge",
+      "relation": "before",
+      "support_text": "根据temporal_order，未找到证据事件 (1) 发生在Moatamer声称事件 (2) 之前。"
+    },
+    {
+      "source": "text_1_new_node_claim_moatamer_knowledge",
+      "target": "text_1_new_node_moatamer_turn_out",
+      "relation": "before",
+      "support_text": "根据temporal_order，Moatamer声称事件 (2) 发生在其被证明是低级官员事件 (3) 之前。"
+    },
+    {
+      "source": "text_1_new_node_moatamer_turn_out",
+      "target": "text_1_new_node_decide_not_credible",
+      "relation": "before",
+      "support_text": "根据temporal_order，Moatamer被证明是低级官员事件 (3) 发生在Cheek团队决定其不可信事件 (4) 之前。"
+    },
+    {
+      "source": "text_1_new_node_decide_not_credible",
+      "target": "text_1_new_node_tell_no_evidence",
+      "relation": "before",
+      "support_text": "根据temporal_order，Cheek团队决定其不可信事件 (4) 发生在Cheek告诉作者没有证据事件 (5) 之前。"
+    },
+    {
+      "source": "text_1_new_node_tell_no_evidence",
+      "target": "text_1_new_node_recall_moatamer_lead",
+      "relation": "before",
+      "support_text": "根据temporal_order，Cheek告诉作者没有证据事件 (5) 发生在Cheek回忆起Moatamer是线索事件 (6) 之前。"
+    },
+    {
+      "source": "text_1_new_node_recall_moatamer_lead",
+      "target": "text_1_new_node_recall_decision",
+      "relation": "before",
+      "support_text": "根据temporal_order，Cheek回忆起Moatamer是线索事件 (6) 发生在Cheek回忆起其不可信的决定事件 (7) 之前。"
+    },
+    {
+      "source": "text_1_new_node_recall_decision",
+      "target": "text_1_new_node_claim_author_cheek_told",
+      "relation": "before",
+      "support_text": "根据temporal_order，Cheek回忆起其不可信的决定事件 (7) 发生在作者声称Cheek告诉了他一切事件 (8) 之前。"
+    }
+  ]
+}

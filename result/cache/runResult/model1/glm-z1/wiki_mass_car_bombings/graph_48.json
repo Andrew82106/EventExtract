@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "id": "text_48_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "大马士革发生 twin explosions 致40人死亡、150人受伤，叙利亚政府指控基地组织自杀式袭击",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚国家电视台报道1名袭击者被逮捕，Sana称袭击针对国家安全局和情报总局",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "专家指责美国、以色列、欧洲和基地组织共同策划袭击",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "阿拉伯联赛观察团先遣队进入大马士革并前往爆炸现场",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸现场发现残肢、废墟和烧毁车辆",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "反对派质疑官方说法，包括安全区域袭击、观察团在场时间巧合等",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚外长称已从黎巴嫩收到基地组织渗透警告",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "前黎巴嫩总理哈里里指控爆炸系叙利亚政府策划",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析指出袭击符合叙利亚政府‘恐怖组织主导内乱’的叙事框架",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "叙利亚外长预测阿拉伯观察团将证明政府指控",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "法国外交部质疑袭击来源，批评叙利亚转移囚犯掩盖镇压",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "美国国务院谴责袭击但强调不影响观察团工作",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "反对派继续抗议，革命委员会报告新增25人死亡",
+      "source_text": "text_48"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_48_node_2",
+      "target": "text_48_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_48_node_3",
+      "target": "text_48_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_48_node_4",
+      "target": "text_48_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_48_node_5",
+      "target": "text_48_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_48_node_7",
+      "target": "text_48_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_48_node_8",
+      "target": "text_48_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_48_node_9",
+      "target": "text_48_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_48_node_10",
+      "target": "text_48_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_48_node_11",
+      "target": "text_48_node_12",
+      "relation": "before"
+    }
+  ]
+}

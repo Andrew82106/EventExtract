@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "text_114_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "阿富汗总统官邸附近发生大规模爆炸，导致喀布尔市中心广泛区域窗户破裂",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员证实爆炸已造成至少50人伤亡，伤者被紧急撤离现场",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "爆炸地点位于总统官邸与外国使馆附近的扎布卡广场，现场浓烟弥漫",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "急救人员在爆炸现场发现大量受伤人员，包括血泊中等待救援的平民",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "爆炸波及范围达1英里，周边商铺店主开始清理窗户碎片",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "恐慌导致家长提前接回恐慌的在校学生",
+      "source_text": "text_114"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_114_node_1",
+      "target": "text_114_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_1",
+      "target": "text_114_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_1",
+      "target": "text_114_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_2",
+      "target": "text_114_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_3",
+      "target": "text_114_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_114_node_5",
+      "target": "text_114_node_6",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_168_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2011年7月22日，挪威发生奥斯陆爆炸案和乌托亚岛青年营地枪击案",
+      "source_text": "text_168"
+    },
+    {
+      "id": "text_168_node_2",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "7月25日Breivik首次出庭，承认策划袭击但否认有组织",
+      "source_text": "text_168"
+    },
+    {
+      "id": "text_168_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Breivik声称存在两个协同行动的'细胞'",
+      "source_text": "text_168"
+    },
+    {
+      "id": "text_168_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方将乌托亚岛死亡人数从86人修正为68人，奥斯陆炸弹袭击死亡人数增至8人",
+      "source_text": "text_168"
+    },
+    {
+      "id": "text_168_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Oslo警方申请对Breivik实施4周隔离",
+      "source_text": "text_168"
+    },
+    {
+      "id": "text_168_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官批准隔离措施，禁止Breivik接收信件和访客",
+      "source_text": "text_168"
+    },
+    {
+      "id": "text_168_node_7",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "检察官确认 Breivik的'细胞'说法并启动调查",
+      "source_text": "text_168"
+    },
+    {
+      "id": "text_168_node_8",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Breivik被正式指控恐怖主义，指控包括破坏社会核心功能",
+      "source_text": "text_168"
+    },
+    {
+      "id": "text_168_node_9",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Breivik在法庭上保持冷静，表示愿意解释动机",
+      "source_text": "text_168"
+    },
+    {
+      "id": "text_168_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "法官以安全为由关闭法庭，Breivik的宣言被摘要记录",
+      "source_text": "text_168"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_168_node_1",
+      "target": "text_168_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_168_node_2",
+      "target": "text_168_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_168_node_3",
+      "target": "text_168_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_168_node_4",
+      "target": "text_168_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_168_node_5",
+      "target": "text_168_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_168_node_6",
+      "target": "text_168_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_168_node_7",
+      "target": "text_168_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_168_node_8",
+      "target": "text_168_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_168_node_9",
+      "target": "text_168_node_10",
+      "relation": "before"
+    }
+  ]
+}

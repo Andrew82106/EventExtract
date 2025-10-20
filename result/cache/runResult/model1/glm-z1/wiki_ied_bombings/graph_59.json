@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "id": "text_59_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年4月19日，Oklahoma City Alfred P. Murrah Building遭遇Ryder卡车炸弹袭击，造成168人死亡、500余人受伤",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸后第2天（4月21日），Terry Nichols主动投案，被控8项过失杀人及1项共谋罪",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸后第7天（4月26日），蒂莫西·麦克维在俄克拉荷马被捕，后被判死刑",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "炸后第9天（4月28日），FBI通过银行存款单追踪到 Nichols的卡车，发现车牌及车架号被篡改",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_5",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995-2004年间，政府宣布案件已结案，仅认定McVeigh和 Nichols为唯一主犯",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_6",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年， Nichols因涉及161项谋杀指控开启第二次刑事审判",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "证人David Paul Hammer证实McVeigh曾透露有他人参与爆炸计划",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "证人Peter Langan指证至少3名前白人至上主义成员在案发期间身处俄克拉荷马",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "早期调查显示中东恐怖主义为疑似 suspect，但主犯落网后该理论被排除",
+      "source_text": "text_59"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_59_node_1",
+      "target": "text_59_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_1",
+      "target": "text_59_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_1",
+      "target": "text_59_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_1",
+      "target": "text_59_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_1",
+      "target": "text_59_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_2",
+      "target": "text_59_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_3",
+      "target": "text_59_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_4",
+      "target": "text_59_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_59_node_5",
+      "target": "text_59_node_6",
+      "relation": "before"
+    }
+  ]
+}

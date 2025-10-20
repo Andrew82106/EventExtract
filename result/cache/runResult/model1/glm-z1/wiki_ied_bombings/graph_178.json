@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_178_node_1",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "GenericCrime",
+      "description": "1996年7月3日，一辆银灰色Isuzu Trooper越野车在都柏林被盗",
+      "source_text": "text_178"
+    },
+    {
+      "id": "text_178_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "7月4日凌晨，被盗车辆在科 наван郡Redhills被爱尔兰警察局拦截，司机被要求出示保险和证件后迅速逃离",
+      "source_text": "text_178"
+    },
+    {
+      "id": "text_178_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "皇家 Ulster警察部队（RUC）接到警告后，于7月7日在Fermanagh郡Newtownbutler再次发现该车辆，但返回时发现车辆已不翼而飞",
+      "source_text": "text_178"
+    },
+    {
+      "id": "text_178_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "7月13日，Continuity IRA在Fermanagh郡基利赫夫林酒店的婚礼现场引爆自制炸弹，造成17人轻伤",
+      "source_text": "text_178"
+    },
+    {
+      "id": "text_178_node_5",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸前酒店收到11:40的炸弹警告，称注册号为92RN92的银灰色Isuzu越野车内有炸弹",
+      "source_text": "text_178"
+    },
+    {
+      "id": "text_178_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爱尔兰进步民主党议员Liz O'Donnell批评警方未能有效追踪可疑车辆",
+      "source_text": "text_178"
+    },
+    {
+      "id": "text_178_node_7",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "爱尔兰司法部长Nora Owen证实警方疏漏已被讨论，并在英爱峰会期间提及",
+      "source_text": "text_178"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_178_node_1",
+      "target": "text_178_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_178_node_2",
+      "target": "text_178_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_178_node_3",
+      "target": "text_178_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_178_node_4",
+      "target": "text_178_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_178_node_5",
+      "target": "text_178_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_178_node_6",
+      "target": "text_178_node_7",
+      "relation": "before"
+    }
+  ]
+}

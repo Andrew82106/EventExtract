@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "text_127_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Havelock Road bombing事件发生",
+      "source_text": "text_127"
+    }
+  ],
+  "edges": []
+}

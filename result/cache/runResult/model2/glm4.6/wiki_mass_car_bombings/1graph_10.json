@@ -1,0 +1,1887 @@
+{
+  "nodes": [
+    {
+      "id": "text_10_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年9月4日，达吉斯坦共和国的布伊纳克斯克发生公寓楼爆炸，造成64人死亡。",
+      "support_text": "The first of the apartment bombings, on Sept. 4, had killed 64 people in Buynaksk, in the republic of Dagestan, which borders Chechnya.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年9月9日，莫斯科发生公寓楼爆炸。",
+      "support_text": "Then, blasts in Moscow on Sept. 9 and Sept. 13 killed 228 people.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年9月13日，莫斯科再次发生公寓楼爆炸。",
+      "support_text": "Then, blasts in Moscow on Sept. 9 and Sept. 13 killed 228 people.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年9月16日，伏尔加顿斯克市发生公寓楼爆炸，造成18人死亡。",
+      "support_text": "The last explosion was Sept. 16 in Volgodonsk, 600 miles south of Moscow, which killed 18 people.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年9月22日，梁赞市公寓楼司机卡尔托费尔尼科夫因发现可疑车辆而报警。",
+      "support_text": "Arriving home, Kartofelnikov noticed a car parked near the entryway... Suspicious, he called police.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "1999年9月22日，警方在卡尔托费尔尼科夫居住的公寓楼地下室发现了疑似炸弹装置。",
+      "support_text": "But in the basement, officers discovered what appeared to be a bomb made with sacks of white powder in the basement of his apartment block.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年9月23日，俄罗斯以此为借口在车臣发动第二次战争。",
+      "support_text": "The Ryazan case might have remained a historical footnote had the Kremlin not launched its second war in Chechnya that month, a tough response that contributed greatly to the popularity of the new prime minister, Vladimir V. Putin.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年9月24日，内政部长称阻止了一场爆炸，但FSB局长却反驳称这只是一场演习。",
+      "support_text": "Two days later, the interior minister said authorities had prevented another attack. But the director of the Federal Security Service, or FSB, the main successor to the KGB, contradicted him, saying it was an exercise by his agency.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_9",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年3月，普京凭借其强硬立场获得的声望当选为俄罗斯总统。",
+      "support_text": "Riding that popularity, Putin was elected president six months later.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "在2000年和2004年的总统选举中，普京的挑战者提出政府可能参与爆炸案的指控。",
+      "support_text": "The charge that officials might be complicit in the apartment bombings was raised by challengers to Putin in the 2000 and 2004 presidential elections.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年，前克格勃特工利特维年科出版书籍，指控FSB策划爆炸案以助普京上台。",
+      "support_text": "Litvinenko made that argument in a 2002 book, “Blowing Up Russia: Terror From Within,” which he wrote with historian Yuri Felshtinsky.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年，导演涅克拉索夫拍摄了一部关于爆炸案的电影。",
+      "support_text": "Andrei Nekrasov, a friend of Litvinenko who directed a 2004 film about the bombings, said he believed that the poisoning of Litvinenko might have been an attempt to eliminate a dangerous critic...",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年10月，调查车臣问题的记者安娜·波利特科夫斯卡娅被枪杀。",
+      "support_text": "...and journalist Anna Politkovskaya. The latter, who focused on reports of abuses by Russian security forces in the separatist republic of Chechnya, was shot in her Moscow apartment building in October.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_21",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年11月，利特维年科因放射性物质中毒身亡，其临终指控再次引发对爆炸案的质疑。",
+      "support_text": "The latest were former KGB agent Alexander Litvinenko, who was poisoned by radioactive polonium-210... His death in November has given new prominence to doubts about Ryazan and the apartment bombings.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "有人试图在Alexei Kartofelnikov居住的公寓楼引爆炸弹。",
+      "support_text": "有人炸毁Alexei Kartofelnikov的家。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "FSB局长Nikolai P. Patrushev声称，在梁赞发现的白色粉末只是糖。",
+      "support_text": "FSB局长Nikolai P. Patrushev说那些粉末只是糖。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "公交车司机Alexei Kartofelnikov仍然认为有人试图炸毁他的家。",
+      "support_text": "Alexei Kartofelnikov仍然认为有人试图炸毁他的家。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "证据表明FSB试图安放一枚真正的炸弹。",
+      "support_text": "the evidence suggests the FSB tried to plant a real bomb...",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "FSB试图安放一枚真正的炸弹。",
+      "support_text": "the FSB tried to plant a real bomb...",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "普京下令杀害利特维年科。",
+      "support_text": "Putin ordered his killing.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "安德烈·科尔图诺夫发表了关于该指控可能再次成为政治问题的看法。",
+      "support_text": "Andrei Kortunov said it could quickly become a political issue again...",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "在选举竞选期间发生袭击或其他紧急情况。",
+      "support_text": "...if an attack or other emergency occurred during campaigning.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "如果发生袭击，该指控可能再次迅速成为一个政治问题。",
+      "support_text": "...the charge could quickly become a political issue again.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "该问题再次出现将立即允许普京的批评者唤起人们对那些事件的记忆。",
+      "support_text": "That would instantly allow Putin critics to bring back the memories...",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "普京的批评者将唤起人们对那些事件的记忆。",
+      "support_text": "...Putin critics to bring back the memories of those events.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kartofelnikov和他的妻子曾考虑在乡下别墅过夜。",
+      "support_text": "Kartofelnikov和他的妻子曾考虑在乡下别墅过夜。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kartofelnikov和他的妻子从乡下回到了省城的家。",
+      "support_text": "Kartofelnikov和他的妻子从乡下回到了省城的家。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "他们回到了他们所居住的12层公寓楼。",
+      "support_text": "他们回到了他们所居住的12层公寓楼。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kartofelnikov到家了。",
+      "support_text": "Kartofelnikov到家了。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人在车牌上写了梁赞地区的车辆代码“62”。",
+      "support_text": "有人在车牌上写了梁赞地区的车辆代码“62”。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人把写有“62”的纸贴在了车牌上。",
+      "support_text": "有人把写有“62”的纸贴在了车牌上。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_defeat_russian_forces",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "车臣分离主义地区在1994-1996年的战争中击败了俄罗斯军队。",
+      "support_text": "车臣分离主义地区在1994-1996年的战争中击败了俄罗斯军队。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_exercise_independence",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "车臣分离主义地区在1994-1996年战争击败俄军后，行使了事实上的独立。",
+      "support_text": "车臣分离主义地区在1994-1996年战争击败俄军后，行使了事实上的独立。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_arrive_police",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察到达了现场。",
+      "support_text": "警察到达了现场。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_test_powder",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "该粉末经过检测，结果呈阳性。",
+      "support_text": "该粉末经过检测，结果呈阳性。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_bomb_grozny",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "俄罗斯轰炸了车臣共和国首都格罗兹尼的机场。",
+      "support_text": "俄罗斯轰炸了车臣共和国首都格罗兹尼的机场。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_say_moscow",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "莫斯科方面称，这次轰炸是一次针对恐怖分子的反击。",
+      "support_text": "莫斯科方面称，这次轰炸是一次针对恐怖分子的反击。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_connect",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "来自俄罗斯南部的穆斯林据称与奥马尔·伊本·哈塔布有关联。",
+      "support_text": "Muslims from southern Russia were said to be connected to Omar ibn Khattab.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_convict",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "来自俄罗斯南部的穆斯林因四起爆炸案最终被定罪。",
+      "support_text": "The Muslims from southern Russia were eventually convicted for all four bombings.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_say_khattab_killed",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯当局声称他们已于2002年杀死哈塔布。",
+      "support_text": "Russian authorities said they had killed Khattab in 2002.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_say_no_cause",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯当局没有说明哈塔布的死因。",
+      "support_text": "Russian authorities did not say how he had died.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_die_khattab",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈塔布死亡。",
+      "support_text": "Khattab died.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_say_separatists_poison",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "车臣分裂分子声称哈塔布是被信使递送的毒信所害。",
+      "support_text": "Chechen separatists said he was poisoned by a letter delivered by a messenger.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_poison_khattab",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈塔布被一封信毒死。",
+      "support_text": "he was poisoned by a letter.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_deliver_letter",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "一名信使递送了一封信。",
+      "support_text": "a letter delivered by a messenger.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_acquit",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "在2006年的两次审判中，陪审团宣判该兄弟无罪。",
+      "support_text": "在2006年的两次审判中，陪审团宣判该兄弟无罪。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_surface",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "对车臣人的指控和FSB的说法立即引起了怀疑。",
+      "support_text": "对车臣人的指控和FSB的说法立即引起了怀疑。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_clear",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局迅速清除了莫斯科爆炸案的残骸。",
+      "support_text": "当局迅速清除了莫斯科爆炸案的残骸。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_ask",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "批评者质疑当局为何愿意放弃寻找更多证据的机会。",
+      "support_text": "批评者质疑当局为何愿意放弃寻找更多证据的机会。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_forgo",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局愿意放弃寻找更多证据的机会（这是被质疑的行为）。",
+      "support_text": "当局愿意放弃寻找更多证据的机会（这是被质疑的行为）。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_search",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "（被放弃的）机会是去寻找更多证据。",
+      "support_text": "（被放弃的）机会是去寻找更多证据。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_prove",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "车臣人理论已被证明对联邦当局既有用又方便。",
+      "support_text": "车臣人理论已被证明对联邦当局既有用又方便。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_get",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查人员已经锁定了他们的嫌疑人（这是调查人员的想法内容）。",
+      "support_text": "调查人员已经锁定了他们的嫌疑人（这是调查人员的想法内容）。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_play",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（报道质疑）调查人员是否在为了谨慎而行动。",
+      "support_text": "（报道质疑）调查人员是否在为了谨慎而行动。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_turn_up",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "确保没有其他可能性出现。",
+      "support_text": "确保没有其他可能性出现。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_lyudmila_interview",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "在一次采访中，Lyudmila Knutova表达了对官方调查的多个疑点，包括：质疑调查人员未仔细检查废墟、瓦砾被运走倾倒、其子遗骸未被识别，并表示所有人都对官方版本有怀疑。",
+      "support_text": "Lyudmila Knutova在最近的采访中说，她想知道为什么调查人员没有更仔细地检查废墟。她儿子的遗骸从未被识别。“Why did they take all the rubble, with pieces of flesh, and dump it?”“we all have doubts”",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_tell",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "打电话的人告诉电话另一头的人城市被封锁了。",
+      "support_text": "打电话的人告诉电话另一头的人城市被封锁了。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_listen",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "电话接线员窃听了一段对话。",
+      "support_text": "电话接线员窃听了一段对话。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_alert",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名电话接线员提醒当局注意她所窃听的对话。",
+      "support_text": "一名电话接线员提醒当局注意她所窃听的对话。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_organize",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局组织了一场颁奖典礼。",
+      "support_text": "当局组织了一场颁奖典礼。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_honor_citizens",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局举办典礼以表彰公民的警惕。",
+      "support_text": "当局举办典礼以表彰公民的警惕。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_receive_tv",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡尔托费尔尼科夫收到了一台电视机作为奖励。",
+      "support_text": "卡尔托费尔尼科夫收到了一台电视机作为奖励。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_honor_operator",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名电话接线员因其警惕而受到表彰。",
+      "support_text": "一名电话接线员因其警惕而受到表彰。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_say_honored",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡尔托费尔尼科夫说，一名电话接线员因提醒当局而受到表彰。",
+      "support_text": "卡尔托费尔尼科夫说，一名电话接线员因提醒当局而受到表彰。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_say_told",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Correspondence",
+      "description": "他说，打电话的人告诉另一头的人城市被封锁了。",
+      "support_text": "他说，打电话的人告诉另一头的人城市被封锁了。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_identify_operator",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "利特维年科和费尔什廷斯基在书中确认了操作员的身份是纳杰日达·尤汉诺娃。",
+      "support_text": "利特维年科和费尔什廷斯基在书中确认了操作员的身份是纳杰日达·尤汉诺娃。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_say_ryazan",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "利特维年科和费尔什廷斯基称，从梁赞拨打的号码来自莫斯科的一个联邦安全局（FSB）办公室。",
+      "support_text": "利特维年科和费尔什廷斯基称，从梁赞拨打的号码来自莫斯科的一个联邦安全局（FSB）办公室。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_announce_attempt",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "当地联邦安全局（FSB）办公室宣布，他们曾尝试引爆一份粉末样本但失败了。",
+      "support_text": "当地联邦安全局（FSB）办公室宣布，他们曾尝试引爆一份粉末样本但失败了。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_try_detonate",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "当地联邦安全局（FSB）办公室尝试引爆一份粉末样本。",
+      "support_text": "当地联邦安全局（FSB）办公室尝试引爆一份粉末样本。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_detonate_sample",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "引爆一份粉末样本。",
+      "support_text": "引爆一份粉末样本。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_fail_explode",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "样本未能成功爆炸。",
+      "support_text": "样本未能成功爆炸。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_explode_sample",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "样本发生爆炸。",
+      "support_text": "样本发生爆炸。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_say_sergeyev",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "亚历山大·谢尔盖耶夫说，官员们后来发现装有检测设备的公文包因之前使用而被污染了。",
+      "support_text": "亚历山大·谢尔盖耶夫说，官员们后来发现装有检测设备的公文包因之前使用而被污染了。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_discover_contamination",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "官员们发现装有检测设备的公文包被污染了。",
+      "support_text": "官员们发现装有检测设备的公文包被污染了。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_contaminate_briefcase",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "装有检测设备的公文包因之前的使用而被污染。",
+      "support_text": "装有检测设备的公文包因之前的使用而被污染。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_say_to_self",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kartofelnikov在心里对自己说，阐述了他的想法。",
+      "support_text": "Kartofelnikov在心里对自己说，阐述了他的想法。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_spot",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kartofelnikov假设如果他们那天没回家，就没人会发现那些粉末。",
+      "support_text": "Kartofelnikov假设如果他们那天没回家，就没人会发现那些粉末。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_say_quote",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kartofelnikov向他人陈述了他的假设和想法。",
+      "support_text": "Kartofelnikov向他人陈述了他的假设和想法。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_lose",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kartofelnikov和他的家人假设会因此失去他们的孩子。",
+      "support_text": "Kartofelnikov和他的家人假设会因此失去他们的孩子。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_agree",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Natalya Gribashova同意Kartofelnikov的看法。",
+      "support_text": "Natalya Gribashova同意Kartofelnikov的看法。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_stay",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "白色粉末在楼外的地面上停留了很长时间。",
+      "support_text": "白色粉末在楼外的地面上停留了很长时间。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_rain",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "当时雨下得很大。",
+      "support_text": "当时雨下得很大。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_say_gribashova",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Gribashova向他人陈述了她的观察。",
+      "support_text": "Gribashova向他人陈述了她的观察。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_become",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "粉末在雨中变成了雪泥状。",
+      "support_text": "粉末在雨中变成了雪泥状。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_dissolve",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "粉末（在雨中）没有溶解。",
+      "support_text": "粉末（在雨中）没有溶解。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_take",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "Gribashova后悔他们当时没有取一些粉末作为样本。",
+      "support_text": "Gribashova后悔他们当时没有取一些粉末作为样本。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_appear",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "FSB特工出现在电视上。",
+      "support_text": "FSB特工出现在电视上。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_dismiss",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "普京驳斥了FSB可能策划爆炸案的想法。",
+      "support_text": "普京驳斥了FSB可能策划爆炸案的想法。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_call",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "普京将该想法称为“彻底的疯狂”。",
+      "support_text": "普京将该想法称为“彻底的疯狂”。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_tell_kommersant",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "普京告诉《生意人报》，俄罗斯特工部门无人能犯下如此罪行。",
+      "support_text": "普京告诉《生意人报》，俄罗斯特工部门无人能犯下如此罪行。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_finish",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "在选举中，久加诺夫获得第二名，亚夫林斯基获得第三名。",
+      "support_text": "在选举中，久加诺夫获得第二名，亚夫林斯基获得第三名。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_vote",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "久加诺夫和亚夫林斯基投票赞成进行议会调查。",
+      "support_text": "久加诺夫和亚夫林斯基投票赞成进行议会调查。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_fail",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "议会调查未能通过。",
+      "support_text": "议会调查未能通过。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_position",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊琳娜·哈卡马达将自己定位为亲西方选民的总统候选人。",
+      "support_text": "伊琳娜·哈卡马达将自己定位为亲西方选民的总统候选人。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_write",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "哈卡马达在一封公开信中写下了她的承诺。",
+      "support_text": "哈卡马达在一封公开信中写下了她的承诺。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_promise",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "哈卡马达承诺，当她成为总统后，俄罗斯公民将知道真相。",
+      "support_text": "哈卡马达承诺，当她成为总统后，俄罗斯公民将知道真相。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_become_condition",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈卡马达将成为总统（承诺的条件）。",
+      "support_text": "哈卡马达将成为总统（承诺的条件）。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_know",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯公民将知道关于公寓楼爆炸案和当局其他许多犯罪的真相（承诺的结果）。",
+      "support_text": "俄罗斯公民将知道关于公寓楼爆炸案和当局其他许多犯罪的真相（承诺的结果）。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_win_reelection",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "普京赢得了连任。",
+      "support_text": "普京赢得了连任。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_place_fourth",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈卡马达在选举中获得了第四名。",
+      "support_text": "哈卡马达在选举中获得了第四名。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_head_yushenkov",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "谢尔盖·尤申科夫领导了俄罗斯自由党的一个派系。",
+      "support_text": "谢尔盖·尤申科夫领导了俄罗斯自由党的一个派系。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_set_up_commission",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "谢尔盖·尤申科夫帮助成立了一个调查爆炸案的非官方委员会。",
+      "support_text": "谢尔盖·尤申科夫帮助成立了一个调查爆炸案的非官方委员会。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_investigate_bombings",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "一个非官方委员会调查爆炸案。",
+      "support_text": "一个非官方委员会调查爆炸案。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_shoot_yushenkov",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "（有人）枪杀了谢尔盖·尤申科夫。",
+      "support_text": "（有人）枪杀了谢尔盖·尤申科夫。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_convict_kodanyov",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "米哈伊尔·科达诺夫因下令杀人而被定罪。",
+      "support_text": "米哈伊尔·科达诺夫因下令杀人而被定罪。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_deny_kodanyov",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "他（米哈伊尔·科达诺夫）否认了这项指控。",
+      "support_text": "他（米哈伊尔·科达诺夫）否认了这项指控。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_prove_fsb_responsible",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "他们（批评者）证明FSB对爆炸案负责。",
+      "support_text": "他们（批评者）证明FSB对爆炸案负责。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_join_shchekochikhin",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "Yuri Shchekochikhin 加入了 Yushenkov 的委员会。",
+      "support_text": "Yuri Shchekochikhin 加入了 Yushenkov 的委员会。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_advise_trepashkin",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mikhail Trepashkin 一直在为该委员会提供建议。",
+      "support_text": "Mikhail Trepashkin 一直在为该委员会提供建议。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_die_shchekochikhin",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Yuri Shchekochikhin 因不明原因的过敏反应而死亡。",
+      "support_text": "Yuri Shchekochikhin 因不明原因的过敏反应而死亡。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_suspect_poisoning",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "人们广泛怀疑（过敏反应）是一场投毒。",
+      "support_text": "人们广泛怀疑（过敏反应）是一场投毒。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_divulge_secrets",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "Mikhail Trepashkin 泄露了国家机密。",
+      "support_text": "Mikhail Trepashkin 泄露了国家机密。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_prosecute_trepashkin",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局起诉了 Trepashkin。",
+      "support_text": "当局起诉了 Trepashkin。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_find_trepashkin_guilty",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法庭认定 Mikhail Trepashkin 有罪。",
+      "support_text": "法庭认定 Mikhail Trepashkin 有罪。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_sentence_trepashkin_four_years",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "法庭判处 Mikhail Trepashkin 四年监禁。",
+      "support_text": "法庭判处 Mikhail Trepashkin 四年监禁。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_plant_handgun",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "未指明的行动者将手枪栽赃到了 Trepashkin 的车里。",
+      "support_text": "未指明的行动者将手枪栽赃到了 Trepashkin 的车里。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_possess_handgun",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Trepashkin 非法持有一把手枪。",
+      "support_text": "Trepashkin 非法持有一把手枪。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_receive_sentence_handgun",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Trepashkin 因非法持有手枪被判一年徒刑。",
+      "support_text": "Trepashkin 因非法持有手枪被判一年徒刑。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_say_planted",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Trepashkin 声称手枪是被人栽赃到他车里的。",
+      "support_text": "Trepashkin 声称手枪是被人栽赃到他车里的。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_claim_prosecuted_reason",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Trepashkin 声称自己之所以被起诉，是因为他对公寓楼爆炸案的调查。",
+      "support_text": "Trepashkin 声称自己之所以被起诉，是因为他对公寓楼爆炸案的调查。",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_deny_kremlin",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "克里姆林宫否认与利特维年科及其他人的死亡有任何关系。",
+      "support_text": "The Kremlin has denied that it had anything to do with the death of Litvinenko, or any of the others.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_raise_questions",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "人们正在提出（一些）问题。",
+      "support_text": "people are raising the questions",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_walter_want_answers",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "沃尔特（利特维年科的父亲）想要得到一些答案。",
+      "support_text": "Walter (Litvinenko’s father) wants some answers.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_walter_present_book",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "沃尔特向俄罗斯大使馆递交了一本他儿子书的副本。",
+      "support_text": "he presented a copy of his son’s book to the Russian Embassy",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_walter_include_letter",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "沃尔特在书中附上了一封给普京的信。",
+      "support_text": "he had included a letter to Putin",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_walter_say_included",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "沃尔特说他随书附上了一封信。",
+      "support_text": "He said he had included a letter to Putin saying...",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_letter_say_address",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "信中说到当局必须妥善处理关于FSB参与的指控。",
+      "support_text": "that authorities must properly address the accusation of FSB involvement",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_walter_want_putin_act",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "沃尔特希望普京能阅读这本书并回应人们提出的问题。",
+      "support_text": "I want Putin to read the book and respond to the questions",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_walter_say_want_putin",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "沃尔特说他希望普京读书并回应问题。",
+      "support_text": "\"I want Putin to read the book and respond...\"",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_book_pass_putin",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "（请求）这本书被转交给普京。",
+      "support_text": "it would be passed to Putin",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_new_node_verb_loiko_contribute",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "谢尔盖·L·洛伊科为本篇报道做出了贡献。",
+      "support_text": "Sergei L. Loiko contributed to this report.",
+      "source_text": "text_10"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_2",
+      "relation": "before",
+      "support_text": "The first of the apartment bombings, on Sept. 4... Then, blasts in Moscow on Sept. 9..."
+    },
+    {
+      "source": "text_10_node_2",
+      "target": "text_10_node_3",
+      "relation": "before",
+      "support_text": "Then, blasts in Moscow on Sept. 9 and Sept. 13 killed 228 people."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_4",
+      "relation": "before",
+      "support_text": "Then, blasts in Moscow on Sept. 9 and Sept. 13 killed 228 people. The last explosion was Sept. 16 in Volgodonsk..."
+    },
+    {
+      "source": "text_10_node_4",
+      "target": "text_10_node_5",
+      "relation": "before",
+      "support_text": "The last explosion was Sept. 16... Kartofelnikov and his wife returned home... on Sept. 22, 1999."
+    },
+    {
+      "source": "text_10_node_5",
+      "target": "text_10_node_6",
+      "relation": "before",
+      "support_text": "Suspicious, he called police. The car was gone by the time police arrived. But in the basement, officers discovered what appeared to be a bomb..."
+    },
+    {
+      "source": "text_10_node_6",
+      "target": "text_10_node_7",
+      "relation": "before",
+      "support_text": "The discovery of the bomb was on Sept. 22. The text states the Kremlin launched its second war in Chechnya \"that month\" (September 1999)."
+    },
+    {
+      "source": "text_10_node_6",
+      "target": "text_10_new_node_1",
+      "relation": "before",
+      "support_text": "警方发现疑似炸弹装置，该事件是有人试图炸毁公寓楼这一事件的一部分。"
+    },
+    {
+      "source": "text_10_node_6",
+      "target": "text_10_new_node_test_powder",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，发现装置(2)发生在检测粉末(3)之前。"
+    },
+    {
+      "source": "text_10_node_6",
+      "target": "text_10_new_node_verb_say_to_self",
+      "relation": "before",
+      "support_text": "发现炸弹后，Kartofelnikov开始思考，对自己说话。"
+    },
+    {
+      "source": "text_10_node_7",
+      "target": "text_10_node_8",
+      "relation": "before",
+      "support_text": "The war was launched in September 1999. The FSB director's statement was made \"Two days later\" after the Sept. 22 bomb discovery, placing it on Sept. 24."
+    },
+    {
+      "source": "text_10_node_8",
+      "target": "text_10_node_9",
+      "relation": "before",
+      "support_text": "The events of September 1999 \"contributed greatly to the popularity of the new prime minister, Vladimir V. Putin. Riding that popularity, Putin was elected president six months later.\""
+    },
+    {
+      "source": "text_10_node_8",
+      "target": "text_10_new_node_3",
+      "relation": "before",
+      "support_text": "官方声明发生在Alexei Kartofelnikov形成自己看法之前。"
+    },
+    {
+      "source": "text_10_node_9",
+      "target": "text_10_node_10",
+      "relation": "before",
+      "support_text": "Putin was elected president. \"The charge... was raised by challengers to Putin in the 2000 and 2004 presidential elections.\""
+    },
+    {
+      "source": "text_10_node_10",
+      "target": "text_10_node_11",
+      "relation": "before",
+      "support_text": "The charge was raised in the 2000 and 2004 elections. Litvinenko \"made that argument in a 2002 book\"."
+    },
+    {
+      "source": "text_10_node_10",
+      "target": "text_10_new_node_verb_write",
+      "relation": "before",
+      "support_text": "根据temporal_order，'suggest'(5)发生在'write'(6)之前，而'suggest'事件由node_10覆盖。"
+    },
+    {
+      "source": "text_10_node_11",
+      "target": "text_10_node_16",
+      "relation": "before",
+      "support_text": "Litvinenko wrote the book in 2002. \"Andrei Nekrasov... directed a 2004 film about the bombings...\""
+    },
+    {
+      "source": "text_10_node_16",
+      "target": "text_10_node_20",
+      "relation": "before",
+      "support_text": "Nekrasov directed the film in 2004. Politkovskaya was shot \"in October\" (2006)."
+    },
+    {
+      "source": "text_10_node_16",
+      "target": "text_10_new_node_7",
+      "relation": "before",
+      "support_text": "根据temporal_order，Nekrasov的陈述(7)发生在Kortunov的陈述(8)之前。"
+    },
+    {
+      "source": "text_10_node_20",
+      "target": "text_10_node_21",
+      "relation": "before",
+      "support_text": "Politkovskaya was shot \"in October\". Litvinenko's death was \"in November\"."
+    },
+    {
+      "source": "text_10_node_21",
+      "target": "text_10_new_node_lyudmila_interview",
+      "relation": "before",
+      "support_text": "Lyudmila Knutova的采访是在主要事件（如利特维年科之死）发生后的反思性陈述，用以表达对过去事件的持续质疑，因此在时间上晚于2006年的事件。"
+    },
+    {
+      "source": "text_10_new_node_1",
+      "target": "text_10_node_8",
+      "relation": "before",
+      "support_text": "未遂的爆炸事件发生在内政部长和FSB局长发表声明之前。"
+    },
+    {
+      "source": "text_10_new_node_2",
+      "target": "text_10_new_node_3",
+      "relation": "before",
+      "support_text": "关于粉末是糖的声明发生在Alexei Kartofelnikov形成自己看法之前。"
+    },
+    {
+      "source": "text_10_new_node_5",
+      "target": "text_10_new_node_6",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'plant'(1)发生在'order'(4)之前。"
+    },
+    {
+      "source": "text_10_new_node_6",
+      "target": "text_10_new_node_4",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'order'(4)发生在'suggest'(7)之前。"
+    },
+    {
+      "source": "text_10_new_node_7",
+      "target": "text_10_new_node_8",
+      "relation": "before",
+      "support_text": "根据temporal_order，Kortunov的陈述(8)发生在袭击(9)之前。"
+    },
+    {
+      "source": "text_10_new_node_8",
+      "target": "text_10_new_node_9",
+      "relation": "before",
+      "support_text": "根据temporal_order，袭击(9)发生在指控成为政治问题(10)之前。"
+    },
+    {
+      "source": "text_10_new_node_9",
+      "target": "text_10_new_node_10",
+      "relation": "before",
+      "support_text": "根据temporal_order，指控成为政治问题(10)发生在允许批评者唤起记忆(11)之前。"
+    },
+    {
+      "source": "text_10_new_node_10",
+      "target": "text_10_new_node_11",
+      "relation": "before",
+      "support_text": "根据temporal_order，允许批评者唤起记忆(11)发生在批评者唤起记忆(12)之前。"
+    },
+    {
+      "source": "text_10_new_node_12",
+      "target": "text_10_new_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order，'consider'(1)发生在'return'(2)之前。"
+    },
+    {
+      "source": "text_10_new_node_12",
+      "target": "text_10_new_node_verb_spot",
+      "relation": "before",
+      "support_text": "根据temporal_order (3 -> 4)"
+    },
+    {
+      "source": "text_10_new_node_13",
+      "target": "text_10_new_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order，'return'(2)发生在'come back'(2)之前。"
+    },
+    {
+      "source": "text_10_new_node_14",
+      "target": "text_10_new_node_15",
+      "relation": "before",
+      "support_text": "根据temporal_order，'come back'(2)发生在'arrive'(2)之前。"
+    },
+    {
+      "source": "text_10_new_node_15",
+      "target": "text_10_new_node_16",
+      "relation": "before",
+      "support_text": "根据temporal_order，'arrive'(2)发生在'write'(4)之前。"
+    },
+    {
+      "source": "text_10_new_node_16",
+      "target": "text_10_new_node_17",
+      "relation": "before",
+      "support_text": "根据temporal_order，'write'(4)发生在'tape'(5)之前。"
+    },
+    {
+      "source": "text_10_new_node_17",
+      "target": "text_10_node_5",
+      "relation": "before",
+      "support_text": "根据temporal_order，'tape'(5)发生在'see'(6)之前。"
+    },
+    {
+      "source": "text_10_new_node_defeat_russian_forces",
+      "target": "text_10_new_node_exercise_independence",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，击败俄军(-1)发生在行使独立(0)之前。"
+    },
+    {
+      "source": "text_10_new_node_exercise_independence",
+      "target": "text_10_new_node_arrive_police",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，行使独立(0)发生在警察到达(1)之前。"
+    },
+    {
+      "source": "text_10_new_node_arrive_police",
+      "target": "text_10_node_6",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，警察到达(1)发生在发现装置(2)之前。"
+    },
+    {
+      "source": "text_10_new_node_test_powder",
+      "target": "text_10_new_node_bomb_grozny",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，检测粉末(3)发生在轰炸格罗兹尼(4)之前。"
+    },
+    {
+      "source": "text_10_new_node_test_powder",
+      "target": "text_10_new_node_say_moscow",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，检测粉末(3)发生在莫斯科方面表态(4)之前。"
+    },
+    {
+      "source": "text_10_new_node_test_powder",
+      "target": "text_10_new_node_verb_discover_contamination",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，确认检测到黑索金蒸气(6)发生在官员们发现污染(7)之前。"
+    },
+    {
+      "source": "text_10_new_node_bomb_grozny",
+      "target": "text_10_node_8",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，轰炸格罗兹尼(4)发生在内政部长表态(5)之前。"
+    },
+    {
+      "source": "text_10_new_node_say_moscow",
+      "target": "text_10_node_8",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，莫斯科方面表态(4)发生在内政部长表态(5)之前。"
+    },
+    {
+      "source": "text_10_new_node_connect",
+      "target": "text_10_new_node_convict",
+      "relation": "before",
+      "support_text": "根据temporal_order，'connect'(2)发生在'convict'(3)之前。"
+    },
+    {
+      "source": "text_10_new_node_convict",
+      "target": "text_10_new_node_say_khattab_killed",
+      "relation": "before",
+      "support_text": "根据temporal_order，'convict'(3)发生在'say'(4)之前。"
+    },
+    {
+      "source": "text_10_new_node_convict",
+      "target": "text_10_new_node_say_no_cause",
+      "relation": "before",
+      "support_text": "根据temporal_order，'convict'(3)发生在'say'(4)之前。"
+    },
+    {
+      "source": "text_10_new_node_convict",
+      "target": "text_10_new_node_say_separatists_poison",
+      "relation": "before",
+      "support_text": "根据temporal_order，'convict'(3)发生在'say'(4)之前。"
+    },
+    {
+      "source": "text_10_new_node_die_khattab",
+      "target": "text_10_new_node_connect",
+      "relation": "before",
+      "support_text": "根据temporal_order，'die'(1)发生在'connect'(2)之前。"
+    },
+    {
+      "source": "text_10_new_node_poison_khattab",
+      "target": "text_10_new_node_die_khattab",
+      "relation": "before",
+      "support_text": "中毒导致死亡。"
+    },
+    {
+      "source": "text_10_new_node_deliver_letter",
+      "target": "text_10_new_node_poison_khattab",
+      "relation": "before",
+      "support_text": "信件被递送是哈塔布被毒死的前提。"
+    },
+    {
+      "source": "text_10_new_node_verb_acquit",
+      "target": "text_10_new_node_verb_surface",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'acquit'(3)发生在'surface'(4)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_surface",
+      "target": "text_10_new_node_verb_clear",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'surface'(4)发生在'clear'(5)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_clear",
+      "target": "text_10_new_node_verb_ask",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'clear'(5)发生在'ask'(6)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_ask",
+      "target": "text_10_new_node_verb_forgo",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'ask'(6)发生在'forgo'(6)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_forgo",
+      "target": "text_10_new_node_verb_search",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'forgo'(6)发生在'search'(6)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_search",
+      "target": "text_10_new_node_verb_prove",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'search'(6)发生在'prove'(7)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_prove",
+      "target": "text_10_new_node_verb_get",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'prove'(7)发生在'get'(8)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_get",
+      "target": "text_10_new_node_verb_play",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'get'(8)发生在'play'(9)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_play",
+      "target": "text_10_new_node_verb_turn_up",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'play'(9)发生在'turn up'(10)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_tell",
+      "target": "text_10_new_node_verb_listen",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'tell'(1)发生在'listen in on'(2)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_listen",
+      "target": "text_10_new_node_verb_alert",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'listen in on'(2)发生在'alert'(3)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_alert",
+      "target": "text_10_new_node_verb_organize",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'alert'(3)发生在'organize'(4)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_organize",
+      "target": "text_10_new_node_verb_say_honored",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'organize'(4)发生在'say'(5)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_say_honored",
+      "target": "text_10_new_node_verb_say_told",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'say'(5)发生在'say'(5)之前，作为后续的转述。"
+    },
+    {
+      "source": "text_10_new_node_verb_identify_operator",
+      "target": "text_10_new_node_verb_try_detonate",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，识别操作员(2)发生在尝试引爆(3)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_say_ryazan",
+      "target": "text_10_new_node_verb_try_detonate",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，称号码来自FSB办公室(2)发生在尝试引爆(3)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_announce_attempt",
+      "target": "text_10_new_node_verb_contaminate_briefcase",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，宣布尝试和失败(4)发生在公文包被污染(5)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_try_detonate",
+      "target": "text_10_new_node_verb_announce_attempt",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，尝试引爆(3)发生在宣布尝试和失败(4)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_discover_contamination",
+      "target": "text_10_new_node_verb_say_sergeyev",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，官员们发现污染(7)发生在谢尔盖耶夫对此发表评论(8)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_contaminate_briefcase",
+      "target": "text_10_new_node_test_powder",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，公文包被污染(5)发生在确认检测到黑索金蒸气(6)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_spot",
+      "target": "text_10_new_node_verb_say_quote",
+      "relation": "before",
+      "support_text": "根据temporal_order (4 -> 5)"
+    },
+    {
+      "source": "text_10_new_node_verb_say_quote",
+      "target": "text_10_new_node_verb_lose",
+      "relation": "before",
+      "support_text": "根据temporal_order (5 -> 7)"
+    },
+    {
+      "source": "text_10_new_node_verb_lose",
+      "target": "text_10_new_node_verb_agree",
+      "relation": "before",
+      "support_text": "根据temporal_order (7 -> 8)"
+    },
+    {
+      "source": "text_10_new_node_verb_agree",
+      "target": "text_10_new_node_verb_stay",
+      "relation": "before",
+      "support_text": "根据temporal_order (8 -> 9)"
+    },
+    {
+      "source": "text_10_new_node_verb_stay",
+      "target": "text_10_new_node_verb_rain",
+      "relation": "before",
+      "support_text": "根据temporal_order (9 -> 10)"
+    },
+    {
+      "source": "text_10_new_node_verb_rain",
+      "target": "text_10_new_node_verb_say_gribashova",
+      "relation": "before",
+      "support_text": "根据temporal_order (10 -> 11)"
+    },
+    {
+      "source": "text_10_new_node_verb_say_gribashova",
+      "target": "text_10_new_node_verb_become",
+      "relation": "before",
+      "support_text": "根据temporal_order (11 -> 12)"
+    },
+    {
+      "source": "text_10_new_node_verb_become",
+      "target": "text_10_new_node_verb_dissolve",
+      "relation": "before",
+      "support_text": "根据temporal_order (12 -> 13)"
+    },
+    {
+      "source": "text_10_new_node_verb_dissolve",
+      "target": "text_10_new_node_verb_take",
+      "relation": "before",
+      "support_text": "根据temporal_order (13 -> 14)"
+    },
+    {
+      "source": "text_10_new_node_verb_appear",
+      "target": "text_10_new_node_verb_dismiss",
+      "relation": "before",
+      "support_text": "根据temporal_order，'appear'(4)发生在'dismiss'(6)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_dismiss",
+      "target": "text_10_new_node_verb_call",
+      "relation": "before",
+      "support_text": "根据temporal_order，'dismiss'(6)发生在'call'(6)之前，为连续动作。"
+    },
+    {
+      "source": "text_10_new_node_verb_call",
+      "target": "text_10_new_node_verb_tell_kommersant",
+      "relation": "before",
+      "support_text": "根据temporal_order，'call'(6)发生在'tell'(7)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_finish",
+      "target": "text_10_new_node_verb_vote",
+      "relation": "before",
+      "support_text": "根据temporal_order，'finish'(1)发生在'vote'(2)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_vote",
+      "target": "text_10_new_node_verb_fail",
+      "relation": "before",
+      "support_text": "根据temporal_order，'vote'(2)发生在'fail'(3)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_fail",
+      "target": "text_10_new_node_verb_position",
+      "relation": "before",
+      "support_text": "根据temporal_order，'fail'(3)发生在'position'(4)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_position",
+      "target": "text_10_node_10",
+      "relation": "before",
+      "support_text": "根据temporal_order，'position'(4)发生在'suggest'(5)之前，而'suggest'事件由node_10覆盖。"
+    },
+    {
+      "source": "text_10_new_node_verb_write",
+      "target": "text_10_new_node_verb_promise",
+      "relation": "before",
+      "support_text": "根据temporal_order，'write'(6)和'promise'(6)是同时发生的，'write'是'promise'的载体。"
+    },
+    {
+      "source": "text_10_new_node_verb_promise",
+      "target": "text_10_new_node_verb_become_condition",
+      "relation": "before",
+      "support_text": "根据temporal_order，'promise'(6)发生在'become'(7)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_become_condition",
+      "target": "text_10_new_node_verb_know",
+      "relation": "before",
+      "support_text": "根据temporal_order，'become'(7)发生在'know'(8)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_know",
+      "target": "text_10_new_node_verb_win_reelection",
+      "relation": "before",
+      "support_text": "根据temporal_order，'know'(8)发生在'win'(9)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_know",
+      "target": "text_10_new_node_verb_place_fourth",
+      "relation": "before",
+      "support_text": "根据temporal_order，'know'(8)发生在'place'(9)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_head_yushenkov",
+      "target": "text_10_new_node_verb_investigate_bombings",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'head'(1)发生在'investigate'(2)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_set_up_commission",
+      "target": "text_10_new_node_verb_investigate_bombings",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'set up'(1)发生在'investigate'(2)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_investigate_bombings",
+      "target": "text_10_new_node_verb_shoot_yushenkov",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'investigate'(2)发生在'shoot to death'(4)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_shoot_yushenkov",
+      "target": "text_10_new_node_verb_convict_kodanyov",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'shoot to death'(4)发生在'convict of'(5)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_convict_kodanyov",
+      "target": "text_10_new_node_verb_deny_kodanyov",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'convict of'(5)发生在'deny'(6)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_deny_kodanyov",
+      "target": "text_10_new_node_verb_prove_fsb_responsible",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order，'deny'(6)发生在'prove'(9)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_join_shchekochikhin",
+      "target": "text_10_new_node_verb_die_shchekochikhin",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (1 -> 2)"
+    },
+    {
+      "source": "text_10_new_node_verb_advise_trepashkin",
+      "target": "text_10_new_node_verb_die_shchekochikhin",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (1 -> 2)"
+    },
+    {
+      "source": "text_10_new_node_verb_die_shchekochikhin",
+      "target": "text_10_new_node_verb_suspect_poisoning",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (2 -> 3)"
+    },
+    {
+      "source": "text_10_new_node_verb_die_shchekochikhin",
+      "target": "text_10_new_node_verb_divulge_secrets",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (2 -> 3)"
+    },
+    {
+      "source": "text_10_new_node_verb_suspect_poisoning",
+      "target": "text_10_new_node_verb_prosecute_trepashkin",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (3 -> 4)"
+    },
+    {
+      "source": "text_10_new_node_verb_divulge_secrets",
+      "target": "text_10_new_node_verb_prosecute_trepashkin",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (3 -> 4)"
+    },
+    {
+      "source": "text_10_new_node_verb_prosecute_trepashkin",
+      "target": "text_10_new_node_verb_find_trepashkin_guilty",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (4 -> 4)，起诉发生在认定有罪之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_find_trepashkin_guilty",
+      "target": "text_10_new_node_verb_sentence_trepashkin_four_years",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (4 -> 5)"
+    },
+    {
+      "source": "text_10_new_node_verb_sentence_trepashkin_four_years",
+      "target": "text_10_new_node_verb_plant_handgun",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (5 -> 6)"
+    },
+    {
+      "source": "text_10_new_node_verb_plant_handgun",
+      "target": "text_10_new_node_verb_possess_handgun",
+      "relation": "before",
+      "support_text": "根据语义逻辑，栽赃手枪是持有手枪的前提。"
+    },
+    {
+      "source": "text_10_new_node_verb_possess_handgun",
+      "target": "text_10_new_node_verb_receive_sentence_handgun",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (6 -> 7)"
+    },
+    {
+      "source": "text_10_new_node_verb_receive_sentence_handgun",
+      "target": "text_10_new_node_verb_say_planted",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (7 -> 8)"
+    },
+    {
+      "source": "text_10_new_node_verb_say_planted",
+      "target": "text_10_new_node_verb_claim_prosecuted_reason",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (8 -> 9)"
+    },
+    {
+      "source": "text_10_new_node_verb_deny_kremlin",
+      "target": "text_10_new_node_verb_walter_want_answers",
+      "relation": "before",
+      "support_text": "根据temporal_order，'deny'(2)发生在'want'(3)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_raise_questions",
+      "target": "text_10_new_node_verb_walter_want_answers",
+      "relation": "before",
+      "support_text": "根据temporal_order，'raise'(2)发生在'want'(3)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_walter_present_book",
+      "target": "text_10_new_node_verb_walter_include_letter",
+      "relation": "before",
+      "support_text": "根据语义，递交书是附上信件的前提或同时发生的动作。"
+    },
+    {
+      "source": "text_10_new_node_verb_walter_present_book",
+      "target": "text_10_new_node_verb_book_pass_putin",
+      "relation": "before",
+      "support_text": "根据temporal_order，'present'(4)发生在'pass'(5)之前。"
+    },
+    {
+      "source": "text_10_new_node_verb_walter_include_letter",
+      "target": "text_10_new_node_verb_walter_say_included",
+      "relation": "before",
+      "support_text": "根据语义，先有附上信件的动作，后有对此动作的陈述。"
+    },
+    {
+      "source": "text_10_new_node_verb_walter_want_putin_act",
+      "target": "text_10_new_node_verb_walter_present_book",
+      "relation": "before",
+      "support_text": "根据temporal_order，'want'(3)发生在'present'(4)之前，表明意图先于行动。"
+    },
+    {
+      "source": "text_10_new_node_verb_book_pass_putin",
+      "target": "text_10_new_node_verb_loiko_contribute",
+      "relation": "before",
+      "support_text": "根据temporal_order，'pass'(5)发生在'contribute'(7)之前。"
+    }
+  ]
+}

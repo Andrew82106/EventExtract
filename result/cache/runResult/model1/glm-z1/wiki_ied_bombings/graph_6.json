@@ -1,0 +1,94 @@
+{
+  "nodes": [
+    {
+      "id": "text_6_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年7月以来，Sinai半岛持续针对军警的恐怖袭击，导致至少1000名安全人员死亡",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2015年10月31日，Metrojet Flight 9268在Sharm El Sheikh机场遭炸弹袭击，224人遇难",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年8月，摩加迪沙发生自杀式爆炸袭击，造成358人死亡",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年Bir al-Abd发生恐袭，炸弹袭击清真寺后枪手扫射幸存者，造成235人死亡",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Wilayat Sinai组织自2014年宣誓效忠ISIS后，2017年试图向Sinai中部扩张领土并增加袭击",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Zack Gold指出Sinai东部成为2017年主要袭击区域，而南部的旅游区因保护较好较少受袭",
+      "source_text": "text_6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_3",
+      "target": "text_6_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_4",
+      "target": "text_6_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_4",
+      "relation": "before"
+    }
+  ]
+}

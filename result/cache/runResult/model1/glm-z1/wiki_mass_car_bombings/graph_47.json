@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_47_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "自2023年8月以来，巴格达连续发生针对政府建筑的系列炸弹袭击，已造成数百人死亡",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "伊拉克和美国当局在议会选举前发出暴力升级预警",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2024年3月5日巴库巴发生连环自杀式爆炸：首枚汽车炸弹袭击住房部省总部，次日在路口爆炸，第三枚伪装成警察制服的背心炸弹在医院引爆",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "伊拉克和美国指挥官对选举期间及后续暴力责任归属存在认知分歧",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "选举后可能出现暴力反弹，因潜在选举舞弊指控或政府组阁谈判破裂",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "选举前夕伊拉克全国低级别暴力事件激增，包括绑架、暗杀和针对绿区的炮击",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "2023年夏季美军从伊拉克主要城市撤离后，政府安全效能受质疑",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "伊拉克官方将近期袭击归咎于基地组织关联恐怖分子和萨达姆政权支持者",
+      "source_text": "text_47"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_47_node_1",
+      "target": "text_47_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_3",
+      "target": "text_47_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_4",
+      "target": "text_47_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_6",
+      "target": "text_47_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_7",
+      "target": "text_47_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_47_node_8",
+      "target": "text_47_node_5",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "nodes": [
+    {
+      "id": "text_93_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1974年11月21日8:11pm，爱尔兰口音男子使用IRA密码向两家伯明翰报纸办公室报告Rotunda和税局有炸弹",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "8:17pm，Mulberry Bush酒吧爆炸致10人死亡，多人受伤",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "8:27pm，Tavern in the Town酒吧爆炸致11人死亡，公交车被毁",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后五名可疑人员被截获并送往Morecambe警局检测",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "11月22日5am，巴克莱银行对Edgbaston第三个未爆炸弹进行引爆",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "五名被捕者被移交西敏士德严重犯罪调查队，第六人Hugh Callaghan在伯明翰被捕",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_7",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "1974年末至1975年初被捕者被关押期间遭受虐待",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_8",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1975年5月12日，被捕者被正式指控谋杀和阴谋爆炸",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_9",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "1975年6月9日，Lancaster城堡法院开始对六人进行审判",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1975年8月15日，六人被判有罪，每人获21年监禁",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_11",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "1976年3月，六人上诉被驳回",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_12",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "1980年1月17日，法院驳回六人对西敏士德警察的损害赔偿请求",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "1985年，记者Chris Mullin开始质疑定罪的纪录片",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_14",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1988年3月14日，法院确认原定罪结论有效",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_15",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "1991年3月14日，六人因证据造假等理由第二次上诉成功获释",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_16",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1991年10月，退休侦探George Reade因涉嫌伪造证据被起诉",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_17",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1993年10月7日，法院命令起诉三名前西敏士德警察",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "1993年，皇家刑事司法委员会报告推动成立刑事案件复查委员会",
+      "source_text": "text_93"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_93_node_1",
+      "target": "text_93_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_2",
+      "target": "text_93_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_3",
+      "target": "text_93_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_4",
+      "target": "text_93_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_5",
+      "target": "text_93_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_6",
+      "target": "text_93_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_7",
+      "target": "text_93_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_8",
+      "target": "text_93_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_9",
+      "target": "text_93_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_10",
+      "target": "text_93_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_11",
+      "target": "text_93_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_12",
+      "target": "text_93_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_13",
+      "target": "text_93_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_14",
+      "target": "text_93_node_15",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_15",
+      "target": "text_93_node_16",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_16",
+      "target": "text_93_node_17",
+      "relation": "before"
+    },
+    {
+      "source": "text_93_node_17",
+      "target": "text_93_node_18",
+      "relation": "before"
+    }
+  ]
+}

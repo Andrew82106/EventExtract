@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "id": "text_74_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年5月24日中午12:20（GMT+4:30），喀布尔Al-Taqwa清真寺发生爆炸，造成至少3人死亡（包括伊玛目Samiullah Rayhan）和近20人受伤",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "阿富汗内政部发言人Nasrat Rahimi称塔利班为袭击负责",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "塔利班发言人否认该指控",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班新领导人Mawlawi Haibatullah Akhundzada任命后，针对宗教人士的袭击增加",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "爆炸装置被放置在伊玛目Samiullah Rayhan使用的清真寺麦克风附近",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Taqwa清真寺位于逊尼派为主的地区，多数为塔利班成员聚集地",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Samiullah Rayhan因支持政府、谴责塔利班、倡导女性权利等被袭击",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "总统Ashraf Ghani谴责事件为恐怖袭击",
+      "source_text": "text_74"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_74_node_1",
+      "target": "text_74_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_2",
+      "target": "text_74_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_3",
+      "target": "text_74_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_4",
+      "target": "text_74_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_5",
+      "target": "text_74_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_74_node_7",
+      "target": "text_74_node_1",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_57_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1993年纽约世贸中心遭恐怖袭击，引发美国对本土恐怖主义的首次大规模讨论",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年俄克拉荷马城联邦大楼遭汽车炸弹袭击，彻底改变美国对恐怖主义的认知",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国执法机构全面升级反恐措施，包括FBI增招500名国内反恐 agents",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "联邦与州级执法部门普遍设立国内恐怖主义专门调查单位",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "反恐重点转向国内反政府民兵组织，取代此前对海外威胁的聚焦",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "麦奎尔案暴露独狼式恐怖主义威胁，揭示极端分子可能脱离传统组织独立行动",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "引发关于如何在开放社会防范独狼式恐怖主义的根本性政策辩论",
+      "source_text": "text_57"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_57_node_1",
+      "target": "text_57_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_2",
+      "target": "text_57_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_3",
+      "target": "text_57_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_4",
+      "target": "text_57_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_5",
+      "target": "text_57_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_57_node_6",
+      "target": "text_57_node_7",
+      "relation": "before"
+    }
+  ]
+}

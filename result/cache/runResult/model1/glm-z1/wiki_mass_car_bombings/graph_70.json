@@ -1,0 +1,140 @@
+{
+  "nodes": [
+    {
+      "id": "text_70_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "奥马赫市中心发生汽车炸弹袭击，造成28人死亡（含9名儿童、13名妇女及6名男子），220人受伤或残疾，53人失踪",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "爆炸导致北爱尔兰科蒂恩30年来最严重暴力事件，引发全省政治领导人谴责",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "英国首相布莱尔称袭击为「令人发指的暴行」，女王表达哀悼，承诺追捕凶手",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "爱尔兰共和军政治 wing Sinn Fein 首领 Martin McGuinness 谴责袭击者反对和平进程",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "北爱尔兰首席部长 David Trimble 指责IRA和Sinn Fein未上交武器导致死亡",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_6",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "",
+      "description": "警方向「真实IRA」发出通缉，认为其极可能实施爆炸",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "幸存者描述爆炸时人群被疏散误导，导致商店被夷为平地",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "爆炸发生在奥马赫年度嘉年华最后一天，现场出现大规模伤亡和血腥场景",
+      "source_text": "text_70"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_2",
+      "target": "text_70_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_3",
+      "target": "text_70_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_3",
+      "target": "text_70_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_4",
+      "target": "text_70_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_6",
+      "target": "text_70_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_7",
+      "target": "text_70_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_70_node_8",
+      "target": "text_70_node_5",
+      "relation": "before"
+    }
+  ]
+}

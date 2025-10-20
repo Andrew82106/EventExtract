@@ -1,0 +1,276 @@
+{
+  "nodes": [
+    {
+      "id": "text_7_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "周末，警方接到报告称在Wattlebridge Road上有一个可疑装置。",
+      "support_text": "Bomb disposal officers had been in the area at the weekend responding to reports that a device had been left there. The initial report received by police indicated that a device had been left on the Wattlebridge Road",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "军方爆炸物处理小组和警察在周末前往该区域处理这起报告。",
+      "support_text": "Bomb disposal officers had been in the area at the weekend responding to reports that a device had been left there.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "经调查，第一个被报告的装置被确认为骗局。",
+      "support_text": "The first device was declared a hoax.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "周一上午，一队军方技术官员和警察再次前往现场。",
+      "support_text": "the explosion on Monday occurred on the main A3 Cavan Road when a team of Army Technical Officers (ATO) and police attended the scene.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "上午10点35分，当警察和军方人员在现场时，一枚炸弹在主A3 Cavan Road上爆炸。",
+      "support_text": "Officers reported the explosion at around 10.35am. ... a team of Army Technical Officers (ATO) and police attended the scene at Wattle Bridge close to Newtownbutler on Monday morning.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "事后，警方官员和政治人物纷纷发表声明，谴责这次袭击并归咎于分裂主义共和军。",
+      "support_text": "Deputy Chief Constable Stephen Martin described the attack as 'indiscriminate and reckless'. \"We are of the belief that this attack has been carried out by dissident republican groupings...",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人将一个装置留在了Wattlebridge路上。",
+      "support_text": "reports that a device had been left there.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（副总警长）认为其中一个组织是调查的一个很好的起点。",
+      "support_text": "I (Deputy Chief Constable Stephen Martin) think one of those groups would be a very good starting point for the investigation",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "（副总警长）认为可以说他们的活动水平今年有所增加。",
+      "support_text": "I (Deputy Chief Constable Stephen Martin) think it is fair to say that their level of activity has increased this year",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_4",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "他们的活动水平今年有所增加。",
+      "support_text": "their level of activity has increased this year",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "“爱尔兰共和军连续派”宣称对2009年谋杀警官斯蒂芬·卡罗尔的事件负责。",
+      "support_text": "The Continuity IRA claimed responsibility for the murder of Constable Stephen Carroll in 2009",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "“新爱尔兰共和军”今年四月在伦敦德里开枪打死了记者莱拉·麦基。",
+      "support_text": "The New IRA shot dead journalist Lyra McKee in Londonderry in April",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "攻击者蓄意企图引诱警察和ATO同事进入该区域。",
+      "support_text": "蓄意企图引诱警察和ATO同事进入该区域。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "攻击者的意图是谋杀警察和军队人员，该装置被设计用于此目的。",
+      "support_text": "引诱警察的最终目的是为了谋杀他们。该装置被设计意图是杀死警察和军队人员。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_9",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "首批到场警员的行动最终导致了没有严重伤亡的结果。",
+      "support_text": "首批到场警员的行动最终导致了没有严重伤亡的结果。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "马丁承认并赞扬了现场警员和军队人员的勇敢与奉献。",
+      "support_text": "马丁表示他希望并愿意承认和赞扬警员的勇敢。马丁承认并赞扬了现场警员和军队人员的勇敢与奉献。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_find",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "一名在职警察在车下发现了诡雷炸弹。",
+      "support_text": "一名在职警察在车下发现了诡雷炸弹。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_attack_july",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "持异见者共和党人策划了七月的袭击事件。",
+      "support_text": "持异见者共和党人策划了七月的袭击事件。",
+      "source_text": "text_7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_2",
+      "relation": "before",
+      "support_text": "Bomb disposal officers had been in the area at the weekend responding to reports that a device had been left there."
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_3",
+      "relation": "before",
+      "support_text": "Bomb disposal officers had been in the area at the weekend... The first device was declared a hoax."
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_node_4",
+      "relation": "before",
+      "support_text": "Bomb disposal officers had been in the area at the weekend... the explosion on Monday occurred on the main A3 Cavan Road when a team of Army Technical Officers (ATO) and police attended the scene."
+    },
+    {
+      "source": "text_7_node_4",
+      "target": "text_7_node_5",
+      "relation": "before",
+      "support_text": "...the explosion on Monday occurred on the main A3 Cavan Road when a team of Army Technical Officers (ATO) and police attended the scene."
+    },
+    {
+      "source": "text_7_node_5",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "Deputy Chief Constable Stephen Martin described the attack as 'indiscriminate and reckless'."
+    },
+    {
+      "source": "text_7_node_5",
+      "target": "text_7_new_node_9",
+      "relation": "before",
+      "support_text": "爆炸发生在警员行动导致无伤亡的结果之前。"
+    },
+    {
+      "source": "text_7_node_6",
+      "target": "text_7_new_node_10",
+      "relation": "before",
+      "support_text": "官方发表声明（node_6）在马丁赞扬警员（temporal_order: 3）之前。"
+    },
+    {
+      "source": "text_7_node_6",
+      "target": "text_7_new_node_attack_july",
+      "relation": "before",
+      "support_text": "根据temporal_order，策划六月袭击事件（1）发生在策划七月袭击事件（2）之前。"
+    },
+    {
+      "source": "text_7_new_node_1",
+      "target": "text_7_node_1",
+      "relation": "before",
+      "support_text": "Bomb disposal officers had been in the area at the weekend responding to reports that a device had been left there."
+    },
+    {
+      "source": "text_7_new_node_2",
+      "target": "text_7_new_node_3",
+      "relation": "before",
+      "support_text": "temporal_order: 3 -> 4"
+    },
+    {
+      "source": "text_7_new_node_3",
+      "target": "text_7_new_node_4",
+      "relation": "before",
+      "support_text": "temporal_order: 4 -> 5"
+    },
+    {
+      "source": "text_7_new_node_4",
+      "target": "text_7_new_node_5",
+      "relation": "before",
+      "support_text": "temporal_order: 5 -> 6"
+    },
+    {
+      "source": "text_7_new_node_5",
+      "target": "text_7_new_node_6",
+      "relation": "before",
+      "support_text": "temporal_order: 6 -> 7"
+    },
+    {
+      "source": "text_7_new_node_6",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "The listed verb events are background information/context provided before or during the police's final statement (node_6)."
+    },
+    {
+      "source": "text_7_new_node_7",
+      "target": "text_7_new_node_8",
+      "relation": "before",
+      "support_text": "引诱的意图在谋杀的意图之前。"
+    },
+    {
+      "source": "text_7_new_node_8",
+      "target": "text_7_node_4",
+      "relation": "before",
+      "support_text": "攻击意图（temporal_order: 1）在警察到场（node_4）之前。"
+    },
+    {
+      "source": "text_7_new_node_9",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "无伤亡的结果（temporal_order: 2）在官方发表声明（node_6）之前。"
+    },
+    {
+      "source": "text_7_new_node_find",
+      "target": "text_7_new_node_attack_july",
+      "relation": "before",
+      "support_text": "根据temporal_order，发现炸弹事件（1）发生在策划七月袭击事件（2）之前。"
+    }
+  ]
+}

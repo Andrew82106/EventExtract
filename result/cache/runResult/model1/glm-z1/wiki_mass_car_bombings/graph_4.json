@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "卡车炸弹在摩加迪沙K5交叉口的酒店入口处爆炸",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "安全官员确认至少20人死亡、15人受伤，现场仍在燃烧",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "警方警告死亡人数可能进一步上升",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "目击者称这是其经历过的最大规模爆炸，摧毁了整个区域",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "社交媒体传播了显示破坏现场的图像",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "尚无组织宣称对爆炸负责",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "索马里政府正在与基地组织关联的al-Shabab交战",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_4_node_6",
+      "target": "text_4_node_7",
+      "relation": "before"
+    }
+  ]
+}

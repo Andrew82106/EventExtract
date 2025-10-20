@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "text_58_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年，博科圣地（Boko Haram）在尼日利亚东北部地区发动叛乱，累计造成超过35,000人死亡",
+      "source_text": "text_58"
+    },
+    {
+      "id": "text_58_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2020年1月6日17时左右，博尔诺州Gamboru市场的桥梁附近发生炸弹爆炸，导致38人死亡、35人受伤，未明确责任方",
+      "source_text": "text_58"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_58_node_1",
+      "target": "text_58_node_2",
+      "relation": "before"
+    }
+  ]
+}

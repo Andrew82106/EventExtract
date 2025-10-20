@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "text_148_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在Afula地区发生公交车自杀式爆炸事件",
+      "source_text": "text_148"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_104_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年联合国将JeM列为恐怖组织",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年Adil与同学被印度军警拦截并殴打",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2020年2月14日Adil实施Pulwama自杀袭击致44名军警死亡",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "JeM宣称对袭击负责并发布Adil执行视频",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "2020年3月19日Adil离家未归",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "父母称Adil激进化源于2016年受迫害经历",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度指责巴基斯坦支持恐怖主义，巴方否认",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国记录显示JeM自2001年起被列为恐怖组织",
+      "source_text": "text_104"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_104_node_1",
+      "target": "text_104_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_1",
+      "target": "text_104_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_2",
+      "target": "text_104_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_3",
+      "target": "text_104_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_3",
+      "target": "text_104_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_4",
+      "target": "text_104_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_104_node_5",
+      "target": "text_104_node_6",
+      "relation": "before"
+    }
+  ]
+}

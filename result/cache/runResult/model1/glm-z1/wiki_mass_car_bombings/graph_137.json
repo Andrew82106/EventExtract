@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    {
+      "id": "text_137_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "Jesse Aliganga born in Oakland, California, and grew up in Pensacola, Florida",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "",
+      "description": "Graduated high school in Tallahassee, Florida in 1994",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "Enlisted in U.S. Marines in January 1995 at age 19",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "",
+      "description": "Completed Parris Island boot camp in South Carolina in 1995",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "Advanced to Camp Lejeune for combat training in 1995",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "",
+      "description": "Trained as communications specialist at Twenty-Nine Palms and Keesler AFB in 1995-1997",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_7",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "",
+      "description": "Promoted to Corporal after completing initial 3-year enlistment in 1998",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "Agreed to 30-month extension to become Sergeant by July 1998",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "",
+      "description": "Completed Marine Security Guard School at Quantico in February 1998",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "Deployed to U.S. Embassy in Nairobi, Kenya in late February 1998",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "Served in Okinawa, Japan and Camp Pendleton, California before deployment",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_12",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "",
+      "description": "Achieved Sergeant rank in July 1998 during first 4-year tour",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "Killed in car-bomb attack at Nairobi U.S. Embassy on August 7, 1998",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_14",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "",
+      "description": "Purple Heart medal awarded to his mother Clara Aliganga at Quantico memorial",
+      "source_text": "text_137"
+    },
+    {
+      "id": "text_137_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "Burial planned at Arlington National Cemetery",
+      "source_text": "text_137"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_137_node_1",
+      "target": "text_137_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_2",
+      "target": "text_137_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_3",
+      "target": "text_137_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_4",
+      "target": "text_137_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_5",
+      "target": "text_137_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_6",
+      "target": "text_137_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_7",
+      "target": "text_137_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_8",
+      "target": "text_137_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_9",
+      "target": "text_137_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_10",
+      "target": "text_137_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_11",
+      "target": "text_137_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_12",
+      "target": "text_137_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_13",
+      "target": "text_137_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_137_node_14",
+      "target": "text_137_node_15",
+      "relation": "before"
+    }
+  ]
+}

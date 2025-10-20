@@ -1,0 +1,1932 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "狄龙大使在办公室准备去慢跑时，一颗汽车炸弹突然引爆。",
+      "support_text": "So I was ready to go... All of a sudden, the window blew in. I was very lucky, because I had my arm and the T-shirt in front of my face, which protected me from the flying glass. I ended up flat on my back. I never heard the explosion. Others said that it was the loudest explosion they ever heard.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸的冲击波震碎了窗户并推倒了大使身后的墙壁，导致他被困。",
+      "support_text": "As I lay on the floor on my back, the brick wall behind my desk blew out. Everything seemed to happen in slow motion. The wall fell on my legs; I could not feel them. I thought they were gone. The office filled with smoke, dust, and tear gas.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "大使的同事鲍勃·皮尤和汤姆·巴龙进入办公室，撬开墙壁将他救出。",
+      "support_text": "In a few minutes Bob Pugh, my secretary, and Tom Barron, our administrative officer, came in....",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "狄龙和同事们通过另一座楼梯穿过瓦砾撤离，并意识到楼下的破坏更为严重。",
+      "support_text": "狄龙和同事们通过另一座楼梯穿过瓦砾撤离，并意识到楼下的破坏更为严重。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "在撤离过程中，狄龙首次得知有人丧生，包括美国国际开发署的负责人比尔·麦金太尔。",
+      "support_text": "在撤离过程中，狄龙首次得知有人丧生，包括美国国际开发署的负责人比尔·麦金太尔。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "幸存者转移到邻近的公寓楼，并立即向华盛顿报告了袭击情况。",
+      "support_text": "幸存者转移到邻近的公寓楼，并立即向华盛顿报告了袭击情况。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "工作人员开始清点人员名单，并震惊地发现有大量人员下落不明。",
+      "support_text": "工作人员开始清点人员名单，并震惊地发现有大量人员下落不明。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "在公共事务官的协助下，狄龙大使向媒体发表声明，以展现美国的决心。",
+      "support_text": "在公共事务官的协助下，狄龙大使向媒体发表声明，以展现美国的决心。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援行动持续了五天，工作人员在废墟中寻找幸存者和遇难者遗体。",
+      "support_text": "救援行动持续了五天，工作人员在废墟中寻找幸存者和遇难者遗体。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "大约十天后，狄龙大使在为遇难者举行的追悼会上致辞时情绪崩溃。",
+      "support_text": "大约十天后，狄龙大使在为遇难者举行的追悼会上致辞时情绪崩溃。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击被最终归咎于伊朗支持的真主党，并被视为伊斯兰组织反美袭击的开端。",
+      "support_text": "The attack is thought of as the beginning of anti-U.S. attacks from Islamist groups.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "此次袭击促使国务院审查安全措施，并最终导致了外交安全局的成立。",
+      "support_text": "the terrorist attack prompted a review of security measures at the Department of State and led to the creation of the Bureau of Diplomatic Security (DS) and the Diplomatic Security Service.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "这次经历深刻地影响了狄龙大使，塑造了他余下的职业生涯，使其转向人道主义工作。",
+      "support_text": "Ambassador to Lebanon Robert S. Dillon recounts the explosion... and how the attack changed his life.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_1",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国差点就抓获了真主党主谋。",
+      "support_text": "美国差点就抓获了真主党主谋。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（某人）劫持了环球航空847班机。",
+      "support_text": "hijack TWA flight 847",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖分子要求释放那些卷入大使馆爆炸案的人。",
+      "support_text": "terrorists demand the release of those involved in the embassy bombing",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（当权者）释放那些与大使馆爆炸案有关的人。",
+      "support_text": "release of those involved in the embassy bombing",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "We had held a marathon in Beirut the day before.",
+      "support_text": "We had held a marathon in Beirut the day before.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_6",
+      "event_type": "Life",
+      "event_subtype": "Consume",
+      "event_sub_subtype": "Unspecified",
+      "description": "One of my bodyguards drank too much at the party.",
+      "support_text": "One of my bodyguards drank too much at the party.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "I had talked to my friend Rod Wagner.",
+      "support_text": "I had talked to my friend Rod Wagner.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "I had just received a phone call from a German banker.",
+      "support_text": "I had just received a phone call from a German banker.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "My Lebanese social secretary had just visited me.",
+      "support_text": "My Lebanese social secretary had just visited me.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "I saw my social secretary for the last time.",
+      "support_text": "I saw my social secretary for the last time.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "I finished my current task.",
+      "support_text": "I finished my current task.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "I did not return the German banker's call.",
+      "support_text": "I did not return the German banker's call.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_13",
+      "event_type": "Life",
+      "event_subtype": "Illness",
+      "event_sub_subtype": "Unspecified",
+      "description": "The hungover bodyguard stayed with me.",
+      "support_text": "The hungover bodyguard stayed with me.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "The other security forces went downstairs.",
+      "support_text": "The other security forces went downstairs.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "The other security forces waited for me downstairs.",
+      "support_text": "The other security forces waited for me downstairs.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_16",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "I started to undress.",
+      "support_text": "I started to undress.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "大使馆一周前曾被火箭弹击中，作为背景事件。",
+      "support_text": "The Embassy had been hit by a rocket a week before.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_18",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "我准备给某人回电话。",
+      "support_text": "I was going to call him back.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "我费力地穿上沉重的海军陆战队T恤。",
+      "support_text": "I struggled to put on a heavy Marine T-shirt.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸冲击波沿通风井上涌，引爆了催泪瓦斯罐。",
+      "support_text": "the blast traveled up an air shaft and set off tear gas canisters.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_21",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "我躺在地板上咒骂。",
+      "support_text": "I was lying on the floor cursing.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我以为大使馆再次遭到了火箭弹袭击。",
+      "support_text": "I believed the Embassy had been hit by a rocket, that we had a repeat performance.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_23",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "我感到愤怒并想要反击。",
+      "support_text": "you get angry and you want to lash back.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_24",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "我被玻璃划伤了。",
+      "support_text": "我被玻璃划伤了。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "他们抓住了旗杆。",
+      "support_text": "他们抓住了旗杆。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "我看了看我的腿。",
+      "support_text": "我看了看我的腿。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_27",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "我发现我的腿还在并且功能正常。",
+      "support_text": "我发现我的腿还在并且功能正常。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_28",
+      "event_type": "Medical",
+      "event_subtype": "Diagnosis",
+      "event_sub_subtype": "Unspecified",
+      "description": "（我的伤口）痒得厉害。",
+      "support_text": "（我的伤口）痒得厉害。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_29",
+      "event_type": "Medical",
+      "event_subtype": "Diagnosis",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们开始咳嗽和干呕。",
+      "support_text": "我们开始咳嗽和干呕。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_30",
+      "event_type": "Life",
+      "event_subtype": "Illness",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们干呕。",
+      "support_text": "我们干呕。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_31",
+      "event_type": "Life",
+      "event_subtype": "Illness",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人呕吐了。",
+      "support_text": "有人呕吐了。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_32",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "一阵风吹了过来。",
+      "support_text": "一阵风吹了过来。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_33",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "风吹散了空气（中的催泪瓦斯）。",
+      "support_text": "风吹散了空气（中的催泪瓦斯）。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_34",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（空气变清）这件事让我们感觉好多了。",
+      "support_text": "（空气变清）这件事让我们感觉好多了。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_35",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "我（在叙述中）提到过我的脸得到了保护。",
+      "support_text": "我（在叙述中）提到过我的脸得到了保护。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_36",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "我（在叙述中）回忆起有人呕吐了。",
+      "support_text": "我（在叙述中）回忆起有人呕吐了。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_37",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "我们看到了受伤的人。",
+      "support_text": "我们看到了受伤的人。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_38",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "他们摇摇晃晃地走动。",
+      "support_text": "他们摇摇晃晃地走动。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_39",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们到达了二楼。",
+      "support_text": "我们到达了二楼。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_40",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "我把她抱了起来。",
+      "support_text": "我把她抱了起来。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_41",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "我带她到一扇窗户边。",
+      "support_text": "我带她到一扇窗户边。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_42",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "我把她交给了某个人。",
+      "support_text": "我把她交给了某个人。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_43",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "他刚刚看到了尸体。",
+      "support_text": "他刚刚看到了尸体。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_44",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人在窗户旁架起了一个梯子。",
+      "support_text": "有人在窗户旁架起了一个梯子。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_45",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们顺着梯子爬了下去。",
+      "support_text": "我们顺着梯子爬了下去。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_46",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援人员、警察和美国记者到达了现场。",
+      "support_text": "救援人员、警察和美国记者到达了现场。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_47",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们找到了我们的人事官。",
+      "support_text": "我们找到了我们的人事官。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_48",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们从名单上勾掉了那些已知还活着的人。",
+      "support_text": "我们从名单上勾掉了那些已知还活着的人。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_49",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "皮尤和安保人员在使馆监督救援行动。",
+      "support_text": "皮尤和安保人员在使馆监督救援行动。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_50",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们的信息用完了。",
+      "support_text": "我们的信息用完了。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_51",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "我回到了大使馆。",
+      "support_text": "我回到了大使馆。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_52",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "我加入了当时的混乱场面。",
+      "support_text": "我加入了当时的混乱场面。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_53",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我记起了两件事。",
+      "support_text": "我记起了两件事。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_54",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "里德将一张纸塞到我手里。",
+      "support_text": "里德将一张纸塞到我手里。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_55",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "里德告诉我该说什么。",
+      "support_text": "里德告诉我该说什么。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_56",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "里德拽了拽我的胳膊肘。",
+      "support_text": "里德拽了拽我的胳膊肘。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_57",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "里德把我拉走了。",
+      "support_text": "里德把我拉走了。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_58",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "人们后来评价说我成功传达了信息。",
+      "support_text": "人们后来评价说我成功传达了信息。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_59",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙述者在吉隆坡恐怖袭击后见过该医生。",
+      "support_text": "I thought it was the same doctor I saw after the Kuala Lumpur terrorist attack.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_60",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一些人在爆炸发生时因公事正在大使馆内。",
+      "support_text": "There were people in the Embassy on business who were killed when the bomb went off.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_61",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一些人在经过大使馆时被爆炸冲击力掀入海中。",
+      "support_text": "Some people who were just passing by the Embassy were blown into the sea by the blast.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_62",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我没有认出被救出的人的身份。",
+      "support_text": "I did not recognize him.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_63",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人必须告诉我被救出者的身份。",
+      "support_text": "Somebody had to tell me who he was.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_64",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我认为科普蒂先生活不下来。",
+      "support_text": "I did not think Mr. Copty was going to make it.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_65",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "另一名幸存者安妮·达马雷尔被救出。",
+      "support_text": "Anne Dammarel, another survivor, came out.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_66",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "我认为安妮·达马雷尔也活不下来。",
+      "support_text": "I did not think Anne was going to make it either.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_67",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "家人们在一旁等待消息。",
+      "support_text": "The families were waiting on the sidelines.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_68",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们找到了被炸入海中的遇难者尸体。",
+      "support_text": "We found the bodies of people who had been blown into the sea.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_69",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "我们与等待的家属交谈。",
+      "support_text": "We talked to the families.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_70",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "家人们因打击而惊呆了。",
+      "support_text": "The families were stunned.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_71",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "家人们在哭泣。",
+      "support_text": "These families were weeping.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_72",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "我们（美国工作人员）表现得异常正常。",
+      "support_text": "We functioned, we American staff, extraordinarily normally.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_73",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们刻意排解了这场灾难的沉重感。",
+      "support_text": "We shut out the enormity of the catastrophe.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_74",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们的行为举止出奇地正常。",
+      "support_text": "We acted surprisingly normal.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_75",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我认为这位医生和上次是同一个人。",
+      "support_text": "I thought it was the same doctor I saw after the Kuala Lumpur terrorist attack.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_76",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "精神科医生与我们交谈。",
+      "support_text": "He talked to us.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_77",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我记得自己曾对他说话。",
+      "support_text": "I remember saying to him...",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_78",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我对自己感觉如此正常感到惊讶。",
+      "support_text": "I was surprised at how normal I feel.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_79",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我感觉自己很正常。",
+      "support_text": "I feel normal.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_80",
+      "event_type": "Medical",
+      "event_subtype": "Diagnosis",
+      "event_sub_subtype": "Unspecified",
+      "description": "医生告诉我这是一种正常且典型的反应。",
+      "support_text": "He told me that this was a normal and typical reaction.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_81",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们的内在防御机制已经显现出来。",
+      "support_text": "The defense mechanism had come to the fore.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_82",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "我之前曾对自己的反应感到担忧。",
+      "support_text": "I had been concerned about my reaction.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_83",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "我感觉好多了。",
+      "support_text": "I felt much better.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_84",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国大使邀请我们使用他的大使馆。",
+      "support_text": "英国大使邀请我们使用他的大使馆。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_85",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们使用大使馆。",
+      "support_text": "我们使用大使馆。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_86",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们接管了地下室。",
+      "support_text": "我们接管了地下室。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_87",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们从其他大使馆获得了支持。",
+      "support_text": "我们从其他大使馆获得了支持。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_88",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "（大使汇报的）此事令外交部感到不快。",
+      "support_text": "（大使汇报的）此事令外交部感到不快。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一名自杀式炸弹袭击者将一辆装有炸弹的汽车开到大使馆楼下。",
+      "support_text": "drive: 一名自杀式炸弹袭击者将一辆装有炸弹的汽车开到大使馆楼下。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "司机在引爆前一直留在车里。",
+      "support_text": "stay: 司机在引爆前一直留在车里。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "司机在爆炸中自杀身亡。",
+      "support_text": "kill: 司机在爆炸中自杀身亡。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "在那个时期，汽车炸弹袭击变得非常普遍。",
+      "support_text": "become: 在那个时期，汽车炸弹袭击变得非常普遍。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们清空了大使馆周围的区域作为安全措施。",
+      "support_text": "clear: 我们清空了大使馆周围的区域作为安全措施。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "由于存在汽车炸弹的风险，汽车不被允许停放在大使馆周围。",
+      "support_text": "allow: 由于存在汽车炸弹的风险，汽车不被允许停放在大使馆周围。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击者将炸药装满汽车。",
+      "support_text": "load: 袭击者将炸药装满汽车。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者把装有炸药的汽车遗弃在街上。",
+      "support_text": "leave: 袭击者把装有炸药的汽车遗弃在街上。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生后，一辆被遗弃的汽车变成了高度可疑的对象。",
+      "support_text": "become: 袭击发生后，一辆被遗弃的汽车变成了高度可疑的对象。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们从未查明伊拉克大使馆被炸的真相。",
+      "support_text": "find out: 我们从未查明伊拉克大使馆被炸的真相。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们没有从前述事件中吸取教训，即我们可能成为自杀式袭击的目标。",
+      "support_text": "learn: 我们没有从前述事件中吸取教训，即我们可能成为自杀式袭击的目标。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们曾经讨论过自杀式袭击的可能性。",
+      "support_text": "discuss: 我们曾经讨论过自杀式袭击的可能性。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们认为更可能发生的是让袭击者有机会在爆炸后逃脱的事件。",
+      "support_text": "think: 我们认为更可能发生的是让袭击者有机会在爆炸后逃脱的事件。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "我们当时设想的袭击方式给了炸弹袭击者逃生的机会。",
+      "support_text": "give: 我们当时设想的袭击方式给了炸弹袭击者逃生的机会。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国人有时会进行生还几率不高的攻击。",
+      "support_text": "engage: 美国人有时会进行生还几率不高的攻击。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "当人们试图就安全安排做出决定时，会考虑各种可能性。",
+      "support_text": "try: 当人们试图就安全安排做出决定时，会考虑各种可能性。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "人们就安全安排做出决定。",
+      "support_text": "make: 人们就安全安排做出决定。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_suggested_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "在做决策时，人们会更强调那些更可能发生的事件。",
+      "support_text": "stress: 在做决策时，人们会更强调那些更可能发生的事件。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_verification_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们将更多注意力投入到（应对）自杀式攻击上。",
+      "support_text": "devote: 我们将更多注意力投入到（应对）自杀式攻击上。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_verification_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们对小型火箭攻击没有过多思考。",
+      "support_text": "think: 我们对小型火箭攻击没有过多思考。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_verification_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（我们计划）设置一些路障。",
+      "support_text": "set up: （我们计划）设置一些路障。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_verification_node_4",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "（车辆）冲撞大使馆。（这是一个被阻止的潜在事件）",
+      "support_text": "ram: （车辆）冲撞大使馆。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_verification_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "路障已经送达了。",
+      "support_text": "arrive: 路障已经送达了。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_verification_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "路障还未被安装好。",
+      "support_text": "put in place: 路障还未被安装好。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_verification_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们本可以阻止它（自杀式袭击）的发生。",
+      "support_text": "prevent: 我们本可以阻止它（自杀式袭击）的发生。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_verification_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（我们）在远处设置路障。",
+      "support_text": "put: （我们）在远处设置路障。",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_verification_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（我们）阻止任何车辆靠近大楼。",
+      "support_text": "prevent: （我们）阻止任何车辆靠近大楼。",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "All of a sudden, the window blew in... As I lay on the floor on my back, the brick wall behind my desk blew out."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_new_node_20",
+      "relation": "before",
+      "support_text": "The explosion (node_1) caused the blast wave effects (new_node_20)."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_new_node_24",
+      "relation": "before",
+      "support_text": "时序关系：脸得到保护后，我被玻璃划伤。"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_new_node_54",
+      "relation": "before",
+      "support_text": "根据temporal_order: 4 (爆炸事件) -> 5"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_new_node_61",
+      "relation": "before",
+      "support_text": "爆炸导致一些人被掀入海中。"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_suggested_node_3",
+      "relation": "before",
+      "support_text": "kill (temporal_order: 1) 是爆炸的结果。"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_suggested_node_5",
+      "relation": "before",
+      "support_text": "clear (temporal_order: 3) 是爆炸后采取的安全措施。"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_suggested_node_6",
+      "relation": "before",
+      "support_text": "allow (temporal_order: 3) 是爆炸后采取的安全措施。"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_suggested_node_10",
+      "relation": "before",
+      "support_text": "become suspicious (temporal_order: 5) 是爆炸后观念的变化。"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_verification_node_7",
+      "relation": "before",
+      "support_text": "爆炸事件发生后，反思本可以阻止它。"
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "I couldn't move. In a few minutes Bob Pugh, my secretary, and Tom Barron, our administrative officer, came in...."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_new_node_21",
+      "relation": "before",
+      "support_text": "Temporal order: 5 (event in node_2) -> 9"
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_new_node_22",
+      "relation": "before",
+      "support_text": "Temporal order: 5 (event in node_2) -> 9"
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "狄龙和同事们通过另一座楼梯穿过瓦砾撤离..."
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_new_node_43",
+      "relation": "before",
+      "support_text": "根据temporal_order: 13 -> 13"
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_new_node_44",
+      "relation": "before",
+      "support_text": "在同事进入救援后，外部人员架起梯子准备撤离。"
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_new_node_62",
+      "relation": "before",
+      "support_text": "叙述者被救出后，遇到了另一个人但没有认出。"
+    },
+    {
+      "source": "text_2_node_4",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "在撤离过程中，狄龙首次得知有人丧生..."
+    },
+    {
+      "source": "text_2_node_4",
+      "target": "text_2_new_node_37",
+      "relation": "before",
+      "support_text": "根据temporal_order: 3 -> 6"
+    },
+    {
+      "source": "text_2_node_5",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "幸存者转移到邻近的公寓楼..."
+    },
+    {
+      "source": "text_2_node_6",
+      "target": "text_2_node_7",
+      "relation": "before",
+      "support_text": "工作人员开始清点人员名单..."
+    },
+    {
+      "source": "text_2_node_7",
+      "target": "text_2_node_8",
+      "relation": "before",
+      "support_text": "在公共事务官的协助下，狄龙大使向媒体发表声明..."
+    },
+    {
+      "source": "text_2_node_7",
+      "target": "text_2_new_node_48",
+      "relation": "before",
+      "support_text": "在开始清点名册后，进行勾掉已知存活人员的具体操作。"
+    },
+    {
+      "source": "text_2_node_8",
+      "target": "text_2_node_9",
+      "relation": "before",
+      "support_text": "救援行动持续了五天..."
+    },
+    {
+      "source": "text_2_node_8",
+      "target": "text_2_new_node_56",
+      "relation": "before",
+      "support_text": "根据temporal_order: 6 (发表声明) -> 11"
+    },
+    {
+      "source": "text_2_node_9",
+      "target": "text_2_node_10",
+      "relation": "before",
+      "support_text": "大约十天后，狄龙大使在为遇难者举行的追悼会上致辞时情绪崩溃。"
+    },
+    {
+      "source": "text_2_node_9",
+      "target": "text_2_suggested_node_11",
+      "relation": "before",
+      "support_text": "find out (temporal_order: 6) 是在救援行动后的反思。"
+    },
+    {
+      "source": "text_2_node_9",
+      "target": "text_2_suggested_node_12",
+      "relation": "before",
+      "support_text": "learn (temporal_order: 6) 是在救援行动后的反思。"
+    },
+    {
+      "source": "text_2_node_10",
+      "target": "text_2_node_11",
+      "relation": "before",
+      "support_text": "袭击被最终归咎于伊朗支持的真主党..."
+    },
+    {
+      "source": "text_2_node_11",
+      "target": "text_2_node_12",
+      "relation": "before",
+      "support_text": "此次袭击促使国务院审查安全措施..."
+    },
+    {
+      "source": "text_2_node_11",
+      "target": "text_2_new_node_1",
+      "relation": "before",
+      "support_text": "在确定袭击由真主党负责后，美国试图抓获其主谋。"
+    },
+    {
+      "source": "text_2_node_11",
+      "target": "text_2_new_node_2",
+      "relation": "before",
+      "support_text": "大使馆袭击被认为是伊斯兰组织反美袭击的开端，劫机事件是其中之一。"
+    },
+    {
+      "source": "text_2_node_11",
+      "target": "text_2_suggested_node_16",
+      "relation": "before",
+      "support_text": "engage (temporal_order: 8) 是在确定袭击者后的类比反思。"
+    },
+    {
+      "source": "text_2_node_12",
+      "target": "text_2_node_13",
+      "relation": "before",
+      "support_text": "这次经历深刻地影响了狄龙大使，塑造了他余下的职业生涯..."
+    },
+    {
+      "source": "text_2_node_13",
+      "target": "text_2_new_node_58",
+      "relation": "before",
+      "support_text": "根据temporal_order: 12 (讲述故事) -> 13"
+    },
+    {
+      "source": "text_2_new_node_2",
+      "target": "text_2_new_node_3",
+      "relation": "before",
+      "support_text": "劫机后，恐怖分子提出了要求。"
+    },
+    {
+      "source": "text_2_new_node_3",
+      "target": "text_2_new_node_4",
+      "relation": "before",
+      "support_text": "在恐怖分子的要求下，相关人员被释放。"
+    },
+    {
+      "source": "text_2_new_node_5",
+      "target": "text_2_new_node_6",
+      "relation": "before",
+      "support_text": "Temporal order: 2 -> 4"
+    },
+    {
+      "source": "text_2_new_node_6",
+      "target": "text_2_new_node_7",
+      "relation": "before",
+      "support_text": "Temporal order: 4 -> 6"
+    },
+    {
+      "source": "text_2_new_node_7",
+      "target": "text_2_new_node_8",
+      "relation": "before",
+      "support_text": "Temporal order: 6 -> 7"
+    },
+    {
+      "source": "text_2_new_node_8",
+      "target": "text_2_new_node_9",
+      "relation": "before",
+      "support_text": "Temporal order: 7 -> 8"
+    },
+    {
+      "source": "text_2_new_node_9",
+      "target": "text_2_new_node_10",
+      "relation": "before",
+      "support_text": "Temporal order: 8 -> 9"
+    },
+    {
+      "source": "text_2_new_node_10",
+      "target": "text_2_new_node_11",
+      "relation": "before",
+      "support_text": "Temporal order: 9 -> 10"
+    },
+    {
+      "source": "text_2_new_node_11",
+      "target": "text_2_new_node_12",
+      "relation": "before",
+      "support_text": "Temporal order: 10 -> 11"
+    },
+    {
+      "source": "text_2_new_node_12",
+      "target": "text_2_new_node_13",
+      "relation": "before",
+      "support_text": "Temporal order: 11 -> 12"
+    },
+    {
+      "source": "text_2_new_node_13",
+      "target": "text_2_new_node_14",
+      "relation": "before",
+      "support_text": "Temporal order: 12 -> 13"
+    },
+    {
+      "source": "text_2_new_node_14",
+      "target": "text_2_new_node_15",
+      "relation": "before",
+      "support_text": "Temporal order: 13 -> 14"
+    },
+    {
+      "source": "text_2_new_node_15",
+      "target": "text_2_new_node_16",
+      "relation": "before",
+      "support_text": "Temporal order: 14 -> 15"
+    },
+    {
+      "source": "text_2_new_node_16",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "The narrator started to undress before the explosion (node_1) occurred."
+    },
+    {
+      "source": "text_2_new_node_17",
+      "target": "text_2_new_node_18",
+      "relation": "before",
+      "support_text": "Temporal order: 0 -> 1"
+    },
+    {
+      "source": "text_2_new_node_18",
+      "target": "text_2_new_node_19",
+      "relation": "before",
+      "support_text": "Temporal order: 1 -> 2"
+    },
+    {
+      "source": "text_2_new_node_19",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "Temporal order: 2 -> 4 (event in node_1)"
+    },
+    {
+      "source": "text_2_new_node_20",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "The tear gas canisters detonating (new_node_20) caused the office to fill with gas (node_2)."
+    },
+    {
+      "source": "text_2_new_node_22",
+      "target": "text_2_new_node_23",
+      "relation": "before",
+      "support_text": "Believing it was another attack (new_node_22) led to feelings of anger (new_node_23)."
+    },
+    {
+      "source": "text_2_new_node_24",
+      "target": "text_2_new_node_25",
+      "relation": "before",
+      "support_text": "时序关系：我被划伤后，他们抓住了旗杆。"
+    },
+    {
+      "source": "text_2_new_node_25",
+      "target": "text_2_new_node_26",
+      "relation": "before",
+      "support_text": "时序关系：抓住旗杆后，我看了看我的腿。"
+    },
+    {
+      "source": "text_2_new_node_26",
+      "target": "text_2_new_node_27",
+      "relation": "before",
+      "support_text": "时序关系：看腿之后，我发现腿还在。"
+    },
+    {
+      "source": "text_2_new_node_27",
+      "target": "text_2_new_node_28",
+      "relation": "before",
+      "support_text": "时序关系：发现腿还在后，伤口开始发痒。"
+    },
+    {
+      "source": "text_2_new_node_28",
+      "target": "text_2_new_node_29",
+      "relation": "before",
+      "support_text": "时序关系：伤口发痒后，我们开始咳嗽和干呕。"
+    },
+    {
+      "source": "text_2_new_node_29",
+      "target": "text_2_new_node_30",
+      "relation": "before",
+      "support_text": "时序关系：开始干呕后，我们干呕。"
+    },
+    {
+      "source": "text_2_new_node_30",
+      "target": "text_2_new_node_31",
+      "relation": "before",
+      "support_text": "时序关系：我们干呕后，有人呕吐了。"
+    },
+    {
+      "source": "text_2_new_node_31",
+      "target": "text_2_new_node_32",
+      "relation": "before",
+      "support_text": "时序关系：有人呕吐后，一阵风吹了过来。"
+    },
+    {
+      "source": "text_2_new_node_32",
+      "target": "text_2_new_node_33",
+      "relation": "before",
+      "support_text": "时序关系：风来之后，吹散了空气。"
+    },
+    {
+      "source": "text_2_new_node_33",
+      "target": "text_2_new_node_34",
+      "relation": "before",
+      "support_text": "时序关系：空气变清后，我们感觉好多了。"
+    },
+    {
+      "source": "text_2_new_node_34",
+      "target": "text_2_new_node_35",
+      "relation": "before",
+      "support_text": "时序关系：感觉好转后，我在叙述中提到脸被保护。"
+    },
+    {
+      "source": "text_2_new_node_35",
+      "target": "text_2_new_node_36",
+      "relation": "before",
+      "support_text": "时序关系：提到脸被保护后，我回忆起有人呕吐。"
+    },
+    {
+      "source": "text_2_new_node_37",
+      "target": "text_2_new_node_38",
+      "relation": "before",
+      "support_text": "根据temporal_order: 6 -> 6"
+    },
+    {
+      "source": "text_2_new_node_38",
+      "target": "text_2_new_node_39",
+      "relation": "before",
+      "support_text": "根据temporal_order: 6 -> 7"
+    },
+    {
+      "source": "text_2_new_node_39",
+      "target": "text_2_new_node_40",
+      "relation": "before",
+      "support_text": "根据temporal_order: 7 -> 10"
+    },
+    {
+      "source": "text_2_new_node_40",
+      "target": "text_2_new_node_41",
+      "relation": "before",
+      "support_text": "根据temporal_order: 10 -> 11"
+    },
+    {
+      "source": "text_2_new_node_41",
+      "target": "text_2_new_node_42",
+      "relation": "before",
+      "support_text": "根据temporal_order: 11 -> 12"
+    },
+    {
+      "source": "text_2_new_node_44",
+      "target": "text_2_new_node_45",
+      "relation": "before",
+      "support_text": "架起梯子发生在顺着梯子爬下去之前。temporal_order: 2 -> 4"
+    },
+    {
+      "source": "text_2_new_node_45",
+      "target": "text_2_new_node_46",
+      "relation": "before",
+      "support_text": "爬下梯子到达地面后，外部救援人员到达现场。temporal_order: 4 -> 8"
+    },
+    {
+      "source": "text_2_new_node_46",
+      "target": "text_2_new_node_47",
+      "relation": "before",
+      "support_text": "救援人员到达后，开始寻找和确认人员。temporal_order: 8 -> 9"
+    },
+    {
+      "source": "text_2_new_node_46",
+      "target": "text_2_new_node_49",
+      "relation": "before",
+      "support_text": "救援人员到达后，皮尤等人开始监督行动。temporal_order: 8 -> 16"
+    },
+    {
+      "source": "text_2_new_node_48",
+      "target": "text_2_new_node_50",
+      "relation": "before",
+      "support_text": "在核对名单后，信息逐渐耗尽。temporal_order: 12 -> 18"
+    },
+    {
+      "source": "text_2_new_node_51",
+      "target": "text_2_new_node_52",
+      "relation": "before",
+      "support_text": "根据temporal_order: 2 -> 2"
+    },
+    {
+      "source": "text_2_new_node_52",
+      "target": "text_2_new_node_53",
+      "relation": "before",
+      "support_text": "根据temporal_order: 2 -> 3"
+    },
+    {
+      "source": "text_2_new_node_53",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "根据temporal_order: 3 -> 4 (爆炸事件)"
+    },
+    {
+      "source": "text_2_new_node_54",
+      "target": "text_2_new_node_55",
+      "relation": "before",
+      "support_text": "根据temporal_order: 5 -> 5"
+    },
+    {
+      "source": "text_2_new_node_55",
+      "target": "text_2_node_8",
+      "relation": "before",
+      "support_text": "根据temporal_order: 5 -> 6 (发表声明)"
+    },
+    {
+      "source": "text_2_new_node_56",
+      "target": "text_2_new_node_57",
+      "relation": "before",
+      "support_text": "根据temporal_order: 11 -> 11"
+    },
+    {
+      "source": "text_2_new_node_57",
+      "target": "text_2_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order: 11 -> 12 (讲述故事)"
+    },
+    {
+      "source": "text_2_new_node_59",
+      "target": "text_2_new_node_75",
+      "relation": "before",
+      "support_text": "在见过医生后，叙述者认为这是同一个人。"
+    },
+    {
+      "source": "text_2_new_node_60",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "事件发生时有人在大使馆内，然后爆炸发生。"
+    },
+    {
+      "source": "text_2_new_node_62",
+      "target": "text_2_new_node_63",
+      "relation": "before",
+      "support_text": "在认不出之后，有人告知了身份。"
+    },
+    {
+      "source": "text_2_new_node_63",
+      "target": "text_2_new_node_64",
+      "relation": "before",
+      "support_text": "在救援过程中，叙述者对幸存者的生存状况感到悲观。"
+    },
+    {
+      "source": "text_2_new_node_64",
+      "target": "text_2_new_node_65",
+      "relation": "before",
+      "support_text": "在担心一名幸存者后，另一名幸存者被救出。"
+    },
+    {
+      "source": "text_2_new_node_65",
+      "target": "text_2_new_node_66",
+      "relation": "before",
+      "support_text": "在安妮被救出后，叙述者同样对她的生存感到悲观。"
+    },
+    {
+      "source": "text_2_new_node_66",
+      "target": "text_2_node_9",
+      "relation": "before",
+      "support_text": "对幸存者的担忧之后，是持续的搜救行动。"
+    },
+    {
+      "source": "text_2_new_node_67",
+      "target": "text_2_new_node_68",
+      "relation": "overlap",
+      "support_text": "家属在等待的同时，救援队在海中找到了尸体。"
+    },
+    {
+      "source": "text_2_new_node_68",
+      "target": "text_2_new_node_69",
+      "relation": "before",
+      "support_text": "在找到尸体后，工作人员与家属交谈。"
+    },
+    {
+      "source": "text_2_new_node_69",
+      "target": "text_2_new_node_70",
+      "relation": "before",
+      "support_text": "交谈后，家属们因打击而惊呆。"
+    },
+    {
+      "source": "text_2_new_node_70",
+      "target": "text_2_new_node_71",
+      "relation": "before",
+      "support_text": "惊呆之后，家属们开始哭泣。"
+    },
+    {
+      "source": "text_2_new_node_71",
+      "target": "text_2_new_node_72",
+      "relation": "before",
+      "support_text": "在家属情绪崩溃后，叙述者反思了美国工作人员的异常正常表现。"
+    },
+    {
+      "source": "text_2_new_node_72",
+      "target": "text_2_new_node_73",
+      "relation": "caused_by",
+      "support_text": "表现得异常正常是因为排解了灾难的沉重感。"
+    },
+    {
+      "source": "text_2_new_node_73",
+      "target": "text_2_new_node_74",
+      "relation": "before",
+      "support_text": "在排解沉重感之后，行为举止显得正常。"
+    },
+    {
+      "source": "text_2_new_node_74",
+      "target": "text_2_new_node_59",
+      "relation": "before",
+      "support_text": "从事件后的反思，叙述者联想到之前见过的医生。"
+    },
+    {
+      "source": "text_2_new_node_75",
+      "target": "text_2_new_node_76",
+      "relation": "before",
+      "support_text": "在思考之后，精神科医生开始与他们交谈。"
+    },
+    {
+      "source": "text_2_new_node_76",
+      "target": "text_2_new_node_77",
+      "relation": "before",
+      "support_text": "在与医生交谈的过程中，叙述者回忆起自己说过的话。"
+    },
+    {
+      "source": "text_2_new_node_76",
+      "target": "text_2_new_node_82",
+      "relation": "before",
+      "support_text": "在医生交谈之前，叙述者曾对自己的反应感到担忧。"
+    },
+    {
+      "source": "text_2_new_node_77",
+      "target": "text_2_new_node_78",
+      "relation": "before",
+      "support_text": "在回忆之后，叙述者表达了自己对感觉正常的惊讶。"
+    },
+    {
+      "source": "text_2_new_node_78",
+      "target": "text_2_new_node_79",
+      "relation": "caused_by",
+      "support_text": "对自己感觉正常的惊讶源于自己感觉正常。"
+    },
+    {
+      "source": "text_2_new_node_79",
+      "target": "text_2_new_node_80",
+      "relation": "before",
+      "support_text": "在表达感觉后，医生给出了诊断。"
+    },
+    {
+      "source": "text_2_new_node_80",
+      "target": "text_2_new_node_81",
+      "relation": "caused_by",
+      "support_text": "医生的诊断解释了内在防御机制的作用。"
+    },
+    {
+      "source": "text_2_new_node_80",
+      "target": "text_2_new_node_83",
+      "relation": "before",
+      "support_text": "在医生解释后，叙述者感觉好多了。"
+    },
+    {
+      "source": "text_2_new_node_84",
+      "target": "text_2_new_node_85",
+      "relation": "before",
+      "support_text": "时序关系：邀请 (temporal_order: 1) 发生在使用 (temporal_order: 2) 之前。"
+    },
+    {
+      "source": "text_2_new_node_84",
+      "target": "text_2_new_node_86",
+      "relation": "before",
+      "support_text": "时序关系：邀请 (temporal_order: 1) 发生在接管 (temporal_order: 2) 之前。"
+    },
+    {
+      "source": "text_2_new_node_84",
+      "target": "text_2_new_node_87",
+      "relation": "before",
+      "support_text": "时序关系：邀请 (temporal_order: 1) 发生在获得支持 (temporal_order: 2) 之前。"
+    },
+    {
+      "source": "text_2_new_node_85",
+      "target": "text_2_new_node_88",
+      "relation": "before",
+      "support_text": "时序关系：使用大使馆 (temporal_order: 2) 发生在令外交部不快 (temporal_order: 4) 之前。"
+    },
+    {
+      "source": "text_2_new_node_86",
+      "target": "text_2_new_node_88",
+      "relation": "before",
+      "support_text": "时序关系：接管地下室 (temporal_order: 2) 发生在令外交部不快 (temporal_order: 4) 之前。"
+    },
+    {
+      "source": "text_2_new_node_87",
+      "target": "text_2_new_node_88",
+      "relation": "before",
+      "support_text": "时序关系：获得支持 (temporal_order: 2) 发生在令外交部不快 (temporal_order: 4) 之前。"
+    },
+    {
+      "source": "text_2_suggested_node_1",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "drive (temporal_order: 1) 是爆炸的直接前奏。"
+    },
+    {
+      "source": "text_2_suggested_node_2",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "stay (temporal_order: 1) 是爆炸前司机的状态。"
+    },
+    {
+      "source": "text_2_suggested_node_4",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "become common (temporal_order: 2) 描述了爆炸发生时的背景。"
+    },
+    {
+      "source": "text_2_suggested_node_8",
+      "target": "text_2_suggested_node_1",
+      "relation": "before",
+      "support_text": "load (temporal_order: 4) 发生在 drive (temporal_order: 1) 之前，但这是准备阶段，逻辑上在爆炸前。"
+    },
+    {
+      "source": "text_2_suggested_node_9",
+      "target": "text_2_suggested_node_1",
+      "relation": "before",
+      "support_text": "leave (temporal_order: 4) 发生在 drive (temporal_order: 1) 之前，但这是准备阶段，逻辑上在爆炸前。"
+    },
+    {
+      "source": "text_2_suggested_node_13",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "discuss (temporal_order: 7) 是爆炸前的假设。"
+    },
+    {
+      "source": "text_2_suggested_node_14",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "think (temporal_order: 7) 是爆炸前的假设。"
+    },
+    {
+      "source": "text_2_suggested_node_15",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "give (temporal_order: 7) 是爆炸前的假设。"
+    },
+    {
+      "source": "text_2_suggested_node_17",
+      "target": "text_2_node_12",
+      "relation": "before",
+      "support_text": "try (temporal_order: 9) 是制定安全措施的过程，发生在审查结果(node_12)之前。"
+    },
+    {
+      "source": "text_2_suggested_node_18",
+      "target": "text_2_node_12",
+      "relation": "before",
+      "support_text": "make (temporal_order: 9) 是制定安全措施的过程，发生在审查结果(node_12)之前。"
+    },
+    {
+      "source": "text_2_suggested_node_19",
+      "target": "text_2_node_12",
+      "relation": "before",
+      "support_text": "stress (temporal_order: 9) 是制定安全措施的过程，发生在审查结果(node_12)之前。"
+    },
+    {
+      "source": "text_2_verification_node_1",
+      "target": "text_2_verification_node_3",
+      "relation": "before",
+      "support_text": "在决定投入更多注意力后，计划设置路障作为具体措施。"
+    },
+    {
+      "source": "text_2_verification_node_2",
+      "target": "text_2_verification_node_1",
+      "relation": "before",
+      "support_text": "因为没有过多思考小型火箭攻击，所以决定将更多注意力投入到应对自杀式攻击上。"
+    },
+    {
+      "source": "text_2_verification_node_3",
+      "target": "text_2_verification_node_4",
+      "relation": "before",
+      "support_text": "设置路障是为了防止车辆冲撞。"
+    },
+    {
+      "source": "text_2_verification_node_5",
+      "target": "text_2_verification_node_6",
+      "relation": "before",
+      "support_text": "路障送达是安装的前提。"
+    },
+    {
+      "source": "text_2_verification_node_7",
+      "target": "text_2_verification_node_8",
+      "relation": "before",
+      "support_text": "意识到本可以阻止袭击后，提出了新的安全方案：在远处设置路障。"
+    },
+    {
+      "source": "text_2_verification_node_8",
+      "target": "text_2_verification_node_9",
+      "relation": "before",
+      "support_text": "设置远处路障的目的是阻止车辆靠近大楼。"
+    }
+  ]
+}

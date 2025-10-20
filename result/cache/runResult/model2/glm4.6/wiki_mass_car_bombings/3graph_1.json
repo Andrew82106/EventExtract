@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度于1996年授予巴基斯坦最惠国（MFN）地位。",
+      "support_text": "India granted the MFN status to Pakistan way back in 1996, but the neighbouring country had not reciprocated.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦于2012年承诺授予印度最惠国地位但后来收回。",
+      "support_text": "In 2012, Pakistan had committed to giving the MFN status to India but retracted later due to domestic opposition.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "普尔瓦马发生恐怖袭击，造成至少40名CRPF人员死亡。",
+      "support_text": "At least 40 CRPF personnel were killed and five injured on Thursday in one of the deadliest terror attacks in Jammu and Kashmir when a Jaish-e-Mohammed suicide bomber rammed a vehicle carrying over 100 kg of explosives into their bus in Pulwama district.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生后，印度于周五撤销了对巴基斯坦的最惠国地位。",
+      "support_text": "India on Friday revoked the MFN status to Pakistan in the aftermath of the Pulwama terror attack .",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度于周六将对从巴基斯坦进口的所有商品的关税提高至200%。",
+      "support_text": "India Saturday raised the customs duty to 200 per cent on all goods imported from the neighbouring country, including fresh fruits, cement, petroleum products and mineral ore.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_6",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "财政部长阿尔温德·贾伊特利在推特上发表了关于撤回最惠国待遇和提高关税的声明。",
+      "support_text": "finance minister Arun Jaitley said in a tweet",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "该决定将严重打击巴基斯坦对印度的出口。",
+      "support_text": "该决定将严重打击巴基斯坦对印度的出口。",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_new_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度援引WTO的安全例外条款。",
+      "support_text": "印度援引了世界贸易组织的安全例外条款。",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "India on Friday revoked the MFN status to Pakistan in the aftermath of the Pulwama terror attack ."
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "Taking strong economic action against Pakistan following the Pulwama terror attack , India Saturday raised the customs duty to 200 per cent on all goods imported from the neighbouring country..."
+    },
+    {
+      "source": "text_1_node_3",
+      "target": "text_1_new_node_8",
+      "relation": "before",
+      "support_text": "根据temporal_order，普尔瓦马袭击(temporal_order: 1)在印度援引条款(temporal_order: 2)之前。"
+    },
+    {
+      "source": "text_1_node_4",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "Upon withdrawal, basic customs duty on all goods exported from Pakistan to India has been raised to 200 per cent with immediate effect,\" finance minister Arun Jaitley said in a tweet."
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_new_node_6",
+      "relation": "before",
+      "support_text": "根据时序，印度采取行动（temporal_order: 3）在财政部长发表声明（temporal_order: 5）之前。"
+    },
+    {
+      "source": "text_1_node_5",
+      "target": "text_1_new_node_7",
+      "relation": "before",
+      "support_text": "根据temporal_order，提高关税价格（temporal_order: 3）在打击出口（temporal_order: 4）之前。"
+    },
+    {
+      "source": "text_1_new_node_8",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "根据temporal_order，印度援引条款(temporal_order: 2)在提高关税(temporal_order: 3)之前。"
+    }
+  ]
+}

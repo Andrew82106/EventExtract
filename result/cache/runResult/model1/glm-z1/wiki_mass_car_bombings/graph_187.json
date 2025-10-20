@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_187_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "文本提及对阿勒颇轰炸事件的调查",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "责任方（自由叙利亚军或其分支）否认了相关指控",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析指出轰炸事件很可能是该组织或其分支所为",
+      "source_text": "text_187"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_187_node_1",
+      "target": "text_187_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_187_node_2",
+      "target": "text_187_node_3",
+      "relation": "before"
+    }
+  ]
+}

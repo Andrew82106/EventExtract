@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_43_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1月1日自杀袭击发生在Lakki Marwat Shah Hasankhel村的拥挤游乐场，自杀式炸弹车在观看排球比赛的人群中爆炸",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸造成8英尺深的坑洞，摧毁12栋房屋，30栋房屋受损",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "1月2日从废墟中打捞出2具遗体，总死亡人数升至91人",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认5名Frontier Constabulary人员和2名警察在袭击中遇难，另有4名执法人员受伤",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地居民在1月2日举行葬礼时发现更多受害者遗体",
+      "source_text": "text_43"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_2",
+      "target": "text_43_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_3",
+      "target": "text_43_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_43_node_4",
+      "target": "text_43_node_5",
+      "relation": "before"
+    }
+  ]
+}

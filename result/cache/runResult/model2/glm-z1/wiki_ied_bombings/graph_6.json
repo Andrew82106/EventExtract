@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": "text_6_node_1",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Correspondence",
+      "description": "利比亚正式向安理会主席提交承认洛克比空难责任及赔偿计划的信件",
+      "support_text": "Libya today formally accepted responsibility for the 1988 bombing of Pan Am Flight 103 in general language that lacked any expression of remorse for the 270 lives lost when the plane exploded over Lockerbie, Scotland. A letter containing Libya's admission and its pledge to compensate the survivors and renounce terrorism was presented to the Security Council president as part of a carefully choreographed diplomatic pas de trois between Tripoli, London and Washington, all to pave the way for the final lifting of United Nations sanctions against Libya as early as next week.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "英国和美国外交官同步向安理会主席提交支持利比亚评估的联合信件",
+      "support_text": "The Libyan chargé d'affaires, Ahmed A. Own, delivered the letter to the Council president, Mikhail Wehbe, at the same time as the British envoy, Emyr Jones Parry, and an American diplomat, Gordon Olson, were delivering a joint letter saying that their governments concurred in Libya's assessment that the conditions for lifting the sanctions had been met.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_3",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "利比亚宣布将2.7亿美元存入国际清算银行，分阶段向遇难者家属支付每人最高100万美元赔偿",
+      "support_text": "The Libyan government has agreed to pay $2.7 billion into the Bank for International Settlements, to be paid out to survivors in installments that would eventually total $10 million for each victim as the various international and bilateral sanctions against the Libyan government are lifted.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_4",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国安理会启动解除对利比亚制裁的流程，预计下周完成",
+      "support_text": "all to pave the way for the final lifting of United Nations sanctions against Libya as early as next week.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "利比亚承诺补偿幸存者并放弃恐怖主义",
+      "support_text": "Libya's pledge to compensate survivors and renounce terrorism",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "利比亚宣布放弃恐怖主义",
+      "support_text": "Libya's announcement to renounce terrorism",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_7",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "利比亚、伦敦和华盛顿为解除制裁铺路",
+      "support_text": "利比亚、伦敦和华盛顿为解除制裁铺路",
+      "source_text": "text_6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_3",
+      "relation": "before",
+      "support_text": "A letter containing Libya's admission... was presented to the Security Council president... all to pave the way for the final lifting of United Nations sanctions against Libya as early as next week."
+    },
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_4",
+      "relation": "before",
+      "support_text": "利比亚正式向安理会主席提交承认洛克比空难责任及赔偿计划的信件（node_1）中明确使用缺乏悔意的语言，该行为直接导致安理会启动解除制裁流程（node_4）的触发条件。"
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_3",
+      "relation": "before",
+      "support_text": "their governments concurred in Libya's assessment that the conditions for lifting the sanctions had been met."
+    },
+    {
+      "source": "text_6_node_3",
+      "target": "text_6_node_4",
+      "relation": "before",
+      "support_text": "as the various international and bilateral sanctions against the Libyan government are lifted."
+    }
+  ]
+}

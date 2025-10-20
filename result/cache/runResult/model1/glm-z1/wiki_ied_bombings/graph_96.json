@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_96_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "10:30 P.M.，Grand Vefour餐厅外发生爆炸，玻璃碎片飞入室内",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "爆炸导致10人受伤，其中1人重伤，8人经处理后出院",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "法国公共安全部长确认爆炸由人行道地格下的炸弹引发",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_4",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "餐厅主厨通过电话采访证实爆炸时间及破坏情况",
+      "source_text": "text_96"
+    },
+    {
+      "id": "text_96_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "爆炸发生至发稿时无人公开宣称对此负责",
+      "source_text": "text_96"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_96_node_1",
+      "target": "text_96_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_96_node_2",
+      "target": "text_96_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_96_node_3",
+      "target": "text_96_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_96_node_4",
+      "target": "text_96_node_5",
+      "relation": "before"
+    }
+  ]
+}

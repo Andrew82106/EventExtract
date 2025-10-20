@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "text_14_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周四 Pulwama 恐怖袭击死亡人数攀升至 40 人",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "周五 CRPF 总部发布阵亡士兵名单，显示 Uttar Pradesh 伤亡最重（12 人），Punjab（4 人）、Rajasthan（5 人）",
+      "source_text": "text_14"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_14_node_1",
+      "target": "text_14_node_2",
+      "relation": "before"
+    }
+  ]
+}

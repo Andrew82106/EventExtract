@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_82_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Samjhauta Express departed from Old Delhi railway station at 10:50 pm on February 18, 2007",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Train slowed to 20 kmph near Diwana due to track screening speed restriction",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Two explosions occurred in coaches during high-speed travel (100 kmph) near Diwana station",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_4",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "Destroy",
+      "event_sub_subtype": "Unspecified",
+      "description": "68 passengers died and coaches caught fire due to bomb explosions on under racks",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Two suspects arrested in Indore but no breakthrough in terrorism investigation",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "CRS report confirmed bombs caused fire and wind speed amplified combustion",
+      "source_text": "text_82"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_82_node_1",
+      "target": "text_82_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_2",
+      "target": "text_82_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_3",
+      "target": "text_82_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_4",
+      "target": "text_82_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_5",
+      "target": "text_82_node_6",
+      "relation": "before"
+    }
+  ]
+}

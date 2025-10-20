@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_156_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "前双重间谍 Kevin Fulton 在1998年8月 Omagh 爆炸案前声称提前向警方警告 Real IRA 炸弹准备情况",
+      "source_text": "text_156"
+    },
+    {
+      "id": "text_156_node_2",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "InvestigateCrime",
+      "description": "Northern Ireland Ombudsman Nuala O'Loan 启动调查，由 Fulton 的指控引发",
+      "source_text": "text_156"
+    },
+    {
+      "id": "text_156_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Correspondence",
+      "description": "前军方间谍 Willie Carlin 上个月声称掌握证明 Fulton 指控的证据（含 Fulton 与警方的对话录音带）",
+      "source_text": "text_156"
+    },
+    {
+      "id": "text_156_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "Ombudsman 官方发言人否认存在 Fulton 的录音带，称调查进行中",
+      "source_text": "text_156"
+    },
+    {
+      "id": "text_156_node_5",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "TrialHearing",
+      "description": "调查接近结束，预计数周内发布报告，受害者家属及 RUC 首席 constable 等方等待结果",
+      "source_text": "text_156"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_156_node_1",
+      "target": "text_156_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_156_node_2",
+      "target": "text_156_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_156_node_3",
+      "target": "text_156_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_156_node_4",
+      "target": "text_156_node_5",
+      "relation": "before"
+    }
+  ]
+}

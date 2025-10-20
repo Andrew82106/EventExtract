@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "text_163_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "武装分子在北塞尼恩省拉达村拉达清真寺入口处引爆爆炸物",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后武装分子从多个地点向试图逃离的礼拜者开枪射击",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致305人死亡（含27名儿童）和128人受伤",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤者被分送至比拉阿尔-阿卜德、阿里什和艾斯梅利亚省医院救治",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "北塞尼恩省医院紧急响应升级至最高级别",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "拉达村居民发现清真寺内满载遇难者遗体",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_7",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "当地伊玛目号召民众为医院献血",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "PreventPassage",
+      "description": "军方封闭阿里什-比拉阿尔-阿卜德国际公路",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_9",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "检方成立跨省联合调查组展开初步调查",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "无人机摧毁拉达沙漠附近两辆载有武装分子的车辆，造成15人死亡",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部门确认袭击涉及超过20名武装分子",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_12",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "塞西召开闭门安全会议并发表电视讲话",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_13",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "塞西宣布向遇难者家庭发放补偿金",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_14",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "塞西强调将采取强硬手段打击恐怖主义",
+      "source_text": "text_163"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_163_node_1",
+      "target": "text_163_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_163_node_2",
+      "target": "text_163_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_163_node_3",
+      "target": "text_163_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_163_node_4",
+      "target": "text_163_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_163_node_5",
+      "target": "text_163_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_163_node_6",
+      "target": "text_163_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_163_node_7",
+      "target": "text_163_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_163_node_8",
+      "target": "text_163_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_163_node_9",
+      "target": "text_163_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_163_node_10",
+      "target": "text_163_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_163_node_11",
+      "target": "text_163_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_163_node_12",
+      "target": "text_163_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_163_node_13",
+      "target": "text_163_node_14",
+      "relation": "before"
+    }
+  ]
+}

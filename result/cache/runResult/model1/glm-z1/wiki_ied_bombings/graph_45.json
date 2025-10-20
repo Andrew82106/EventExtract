@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "id": "text_45_node_1",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Correspondence",
+      "description": "匿名来电威胁：7点爱尔兰共和军来电称45分钟后将在伦敦主要车站引爆炸弹",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察搜查车站：爆炸前警方已对Victoria Station等通勤枢纽展开反恐搜查",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Victoria Station炸弹爆炸：7:40爆炸导致地面震动，目击者描述血肉横飞现场",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_4",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者Cyprus伤情：火车月台遭遇火墙冲击，失去部分脚掌",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "车站惨状目击：Les Hanretty发现大厅满地尸体，形容现场为『人间地狱』",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "血迹追踪发现：记者沿血迹从爆炸点追踪至车站正门150英尺处",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "遗物遗留现场：碎片、自行车和背包散落，显示大量人员仓皇逃离",
+      "source_text": "text_45"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_45_node_1",
+      "target": "text_45_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_45_node_2",
+      "target": "text_45_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_45_node_3",
+      "target": "text_45_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_45_node_3",
+      "target": "text_45_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_45_node_4",
+      "target": "text_45_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_45_node_5",
+      "target": "text_45_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_45_node_5",
+      "target": "text_45_node_7",
+      "relation": "before"
+    }
+  ]
+}

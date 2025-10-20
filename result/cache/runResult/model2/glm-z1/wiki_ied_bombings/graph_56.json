@@ -1,0 +1,213 @@
+{
+  "nodes": [
+    {
+      "id": "text_56_node_1",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年11月，西班牙警方逮捕了被认为是基地组织欧洲头目Abu Dahdah及其同伙",
+      "support_text": "the man considered to be al-Qa'ida's leader in Europe, Eddin Barakat Yarkas, alias Abu Dahdah, and other al-Qa'ida members were detained in Spain after the 11 September attacks",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "2003年10月，本拉登通过半岛电视台发表电视讲话，威胁对参与伊拉克战争的西班牙等国采取行动",
+      "support_text": "Bin Laden's televised message transmitted by al-Jazeera television Bin Laden said: \"We reserve the right to respond at the opportune time and place in all the countries that are participating in this unjust war, in particular United Kingdom, Spain [and other countries]\"",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年3月11日，西班牙马德里发生 commuter trains连环爆炸，造成191人死亡、1820人受伤",
+      "support_text": "The seven suspects accused of masterminding the Madrid train bombings of 11 March 2004",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年4月左右，七名主要嫌疑人因警方突袭其在Leganes的藏身处而自杀身亡",
+      "support_text": "Seven alleged ringleaders ... blew themselves up three weeks after the train bombings when police laid siege to their apartment hideout in the Madrid suburb of Leganes",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年11月6日，埃及嫌疑人Rabei Osman在意大利米兰因恐怖主义指控被判刑10年",
+      "support_text": "Osman, who is accused of having bragged that the train bombings were his idea, is expected to be extradited to face trial in Spain",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年11月7日，西班牙检方正式提出对七名主谋的刑期诉求，总计每名38,490年",
+      "support_text": "The state prosecutor, Olga Sanchez, said the suspected ringleaders should face prison terms of 30 years for each of the 191 victims... The combined sentence requested amounts to 38,490 years for each suspect",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年，马德里火车爆炸案审判准备工作就绪，计划于2007年春季开庭审理",
+      "support_text": "The prosecutor's office will call on 134 witnesses and 67 experts... during the trial which is expected to begin next spring",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年10月，电视讲话激发袭击事件",
+      "support_text": "袭击事件受电视讲话启发",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "We保留对参与国采取回应的权利",
+      "support_text": "保留在参战国采取回应权利",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "We对参与国实施回应",
+      "support_text": "在参战国实施回应",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_11",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "Bin Laden发表针对西班牙等国的声明",
+      "support_text": "本拉登发表声明",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jamal Zougam被指控提供用于制造炸弹的手机",
+      "support_text": "Jamal Zougam被指控提供用于制造炸弹的手机",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jamal Zougam声称与阴谋无关",
+      "support_text": "Jamal Zougam声称与阴谋无关",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "起诉书称目击者看见Jamal Zougam在炸弹袭击前乘坐列车",
+      "support_text": "起诉书称目击者看见Jamal Zougam在炸弹袭击前乘坐列车",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者看见Jamal Zougam在炸弹袭击前的通勤列车上",
+      "support_text": "目击者看见Jamal Zougam在炸弹袭击前的通勤列车上",
+      "source_text": "text_56"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_56_node_2",
+      "target": "text_56_node_3",
+      "relation": "before",
+      "support_text": "Bin Laden's televised message accelerated efforts to obtain explosives, vehicles and safe houses for the attack"
+    },
+    {
+      "source": "text_56_node_3",
+      "target": "text_56_node_4",
+      "relation": "before",
+      "support_text": "blowed themselves up three weeks after the train bombings"
+    },
+    {
+      "source": "text_56_node_3",
+      "target": "text_56_node_5",
+      "relation": "before",
+      "support_text": "Osman ... is expected to be extradited to face trial in Spain"
+    },
+    {
+      "source": "text_56_node_5",
+      "target": "text_56_node_6",
+      "relation": "before",
+      "support_text": "The combined sentence requested amounts to 38,490 years for each suspect"
+    },
+    {
+      "source": "text_56_node_6",
+      "target": "text_56_node_7",
+      "relation": "before",
+      "support_text": "during the trial which is expected to begin next spring"
+    },
+    {
+      "source": "text_56_node_8",
+      "target": "text_56_node_3",
+      "relation": "before",
+      "support_text": "电视讲话激发袭击事件"
+    },
+    {
+      "source": "text_56_node_9",
+      "target": "text_56_node_10",
+      "relation": "before",
+      "support_text": "保留权利后实施回应"
+    },
+    {
+      "source": "text_56_node_11",
+      "target": "text_56_node_3",
+      "relation": "before",
+      "support_text": "声明引发后续行动"
+    },
+    {
+      "source": "text_56_node_12",
+      "target": "text_56_node_3",
+      "relation": "before",
+      "support_text": "指控发生在爆炸事件前"
+    },
+    {
+      "source": "text_56_node_13",
+      "target": "text_56_node_12",
+      "relation": "before",
+      "support_text": "否认指控前先提出指控"
+    },
+    {
+      "source": "text_56_node_14",
+      "target": "text_56_node_15",
+      "relation": "before",
+      "support_text": "起诉书陈述早于目击者证词"
+    },
+    {
+      "source": "text_56_node_15",
+      "target": "text_56_node_3",
+      "relation": "before",
+      "support_text": "目击者证词早于爆炸事件"
+    }
+  ]
+}

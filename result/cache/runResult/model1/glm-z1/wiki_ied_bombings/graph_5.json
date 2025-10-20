@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_event_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "极端分子在埃及西奈半岛Bir al-Abed镇拥挤清真寺内引爆炸弹",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_event_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者向逃离现场的恐慌信徒扫射，造成305人死亡128人受伤",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_event_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "埃及官方将此次袭击定性为现代史上最致命的恐怖袭击",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_event_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "袭击的规模和针对清真寺的极端性引发全国震动",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_event_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国此前主要袭击科普特教堂而非穆斯林宗教场所",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_event_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击主要针对苏菲派穆斯林，该派别被极端组织视为异端",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_event_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "事件暴露总统塞西打击恐怖主义的安保承诺未能兑现",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_5_event_1",
+      "target": "text_5_event_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_event_2",
+      "target": "text_5_event_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_event_3",
+      "target": "text_5_event_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_event_4",
+      "target": "text_5_event_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_event_5",
+      "target": "text_5_event_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_5_event_6",
+      "target": "text_5_event_7",
+      "relation": "before"
+    }
+  ]
+}

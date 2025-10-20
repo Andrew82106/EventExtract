@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "text_7_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴基斯坦拉瓦尔品第军事基地遭双胞胎自杀炸弹袭击，造成59人死亡",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致10名士兵死亡，伤者死亡使总死亡人数增至59人",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "超过130人受伤，7具无名尸体尚未身份确认",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "10名士兵遗体被送回原籍安葬",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击后数小时，拉合尔Iqbal镇和Samnabad区发生6起低强度爆炸，3人轻伤",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "执法部门在拉合尔和拉瓦尔品第逮捕75名嫌疑人",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉合尔市场因抗议关闭，居民减少外出",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "发现17-20岁袭击者遗骸，其中1具头颅显示来自部落地区",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_9",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "TTP和Lashkar-e-Jhangvi al-Almi宣称对袭击负责",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方收集爆炸现场证据并调取闭路电视录像",
+      "source_text": "text_7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_5",
+      "target": "text_7_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_6",
+      "target": "text_7_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_9",
+      "target": "text_7_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_10",
+      "target": "text_7_node_8",
+      "relation": "before"
+    }
+  ]
+}

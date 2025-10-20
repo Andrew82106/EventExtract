@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_82_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "喀布尔发生自杀式汽车炸弹袭击，造成18人死亡",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "加拿大将军Geoff Parker在袭击中身亡，系加拿大自2002年阿富汗任务以来最高军衔牺牲者",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "五名美国士兵和十二名阿富汗平民在袭击中死亡",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "加拿大军方确认Parker身份，其原为皇家加拿大团机械化部队指挥官",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "加拿大总理Harper对Parker表示哀悼，并慰问美阿遇难者家属",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Oakville市长宣布全城降半旗，Parker系该市首位在阿富汗牺牲的军人",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "北约秘书长谴责袭击，称造成平民伤亡和士兵伤亡",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班宣称对袭击负责，事件发生在喀布尔西区军队招募中心附近",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "阿富汗总统Karzai谴责袭击，事件发生于周二早间",
+      "source_text": "text_82"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_82_node_1",
+      "target": "text_82_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_1",
+      "target": "text_82_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_1",
+      "target": "text_82_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_1",
+      "target": "text_82_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_1",
+      "target": "text_82_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_1",
+      "target": "text_82_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_1",
+      "target": "text_82_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_82_node_7",
+      "target": "text_82_node_9",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_31_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Osama bin Laden被暗杀",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊拉克巴比伦省希拉城发生自杀式汽车炸弹袭击，造成24名警察死亡",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_3",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊拉克外长 Zebari 在突尼斯访问期间表示基地组织可能对 bin Laden 被暗杀发动报复",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊拉克 AQ 分支通过宗教论坛发布声明，宣称对希拉城袭击负责并威胁血债血偿",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "SITE 监测组在英文论坛发布声明，确认 AQ 分支对希拉城袭击的官方责任声明",
+      "source_text": "text_31"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_31_node_1",
+      "target": "text_31_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_31_node_2",
+      "target": "text_31_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_31_node_3",
+      "target": "text_31_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_31_node_4",
+      "target": "text_31_node_5",
+      "relation": "before"
+    }
+  ]
+}

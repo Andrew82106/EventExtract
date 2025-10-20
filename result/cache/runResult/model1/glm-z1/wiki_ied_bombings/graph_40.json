@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_40_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年10月9日，土耳其发起Operation Peace Spring军事行动，目标清除北部叙利亚恐怖分子，确保边境安全及难民返回",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年10月22日，土耳其与俄罗斯达成协议，要求YPG/PKK撤出距土叙边境30公里区域，启动联合巡逻",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年11月10日，PKB/YPG在叙利亚Tal Abyad发动汽车炸弹袭击，造成8人死亡、20人受伤",
+      "source_text": "text_40"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_40_node_2",
+      "target": "text_40_node_3",
+      "relation": "before"
+    }
+  ]
+}

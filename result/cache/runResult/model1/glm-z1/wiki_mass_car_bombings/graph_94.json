@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_94_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式袭击发生在巴基斯坦Khyber地区警察车队经过的市场附近",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_2",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "Destroy",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致至少17人死亡（含13名警察）并损坏多辆民用车辆",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_3",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "Destroy",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成车队及附近民房严重损毁",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤者被紧急送往Peshawar地区医院",
+      "source_text": "text_94"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_94_node_1",
+      "target": "text_94_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_2",
+      "target": "text_94_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_94_node_3",
+      "target": "text_94_node_4",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "nodes": [
+    {
+      "id": "text_44_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生在贝鲁特东部的Melki超市附近，一辆装有440磅 nail-studded TNT的汽车被远程引爆，造成地面出现3英尺深、12英尺宽的坑洞",
+      "support_text": "Fifteen people, several of them children, were killed Wednesday when a Mercedes packed with 440 pounds of nail-studded TNT and mortar shells exploded outside an apartment block in a Christian neighborhood in East Beirut.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸8小时后从超市地下室挖出15具尸体，消防员和基督教民兵在浓烟中连续4小时施救，多名被困人员因吸入烟雾窒息死亡",
+      "support_text": "Fifteen bodies were dug from the basement storeroom eight hours after the blast, and a search for other victims continued well after nightfall.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后两小时内，消防员和民兵通过枪击疏通交通，造成2名平民中枪受伤",
+      "support_text": "Screaming Christian militiamen fired rifles to clear a path through traffic for ambulances. The police said two people were wounded by the gunfire.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援人员确认超市废墟中大量遗体严重烧焦无法辨认，警方通报30名伤者处于危重状态",
+      "support_text": "Rescuers said many bodies were charred beyond recognition. The police had said earlier that 30 of the wounded were in serious condition.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生前一周（5月22日）基督教 Sinn al-Fil区发生另一起汽车炸弹袭击，造成48人死亡",
+      "support_text": "On May 22, a car bomb killed 48 people and wounded 120 in the Christian Sinn al-Fil district.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "本月早些时候东贝鲁特Phalange党旧址外发生汽车炸弹袭击，未造成伤亡",
+      "support_text": "Another car bomb exploded last month outside a former Phalange Party office in East Beirut, but caused no casualties.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "基督教民兵与穆斯林武装的七日停火被打破，双方在第七日持续进行火箭炮和炮击战",
+      "support_text": "Fighting Flared a Week Ago The threat of retaliation today by the Lebanese Forces seemed likely to touch off an...",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "基督教广播电台公开宣称报复，将穆斯林武装称为『犯罪脏战』，并警告报复力度将与其罪行相当",
+      "support_text": "The Lebanese Forces militia branded their Moslem foes ''criminals who want a dirty war''. The radio added, ''Our revenge will be as powerful as their crimes''.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "穆斯林总理Rashid Karami将袭击者斥为『没有血液的野兽』",
+      "support_text": "Prime Minister Rashid Karami, a Moslem, described the bombers as ''wild beasts who have no blood running in their veins''.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "贝鲁特西部穆斯林区因持续炮击（夜间居民躲藏于地下设施）暂未报告伤亡",
+      "support_text": "In the mostly Moslem western part of the city... the shelling began late at night when residents huddle in basements and bunkers.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援人员在浓烟中持续四小时艰难进入地下储藏室",
+      "support_text": "Fifteen bodies were dug from the basement storeroom eight hours after the blast, and a search for other victims continued well after nightfall.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救援人员最终成功抵达地下储藏室",
+      "support_text": "救援人员最终成功抵达地下储藏室",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "大量男性和儿童从阳台和窗户呼救",
+      "support_text": "Scores of men, women and children screamed for help from balconies and windows",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "消防员和基督徒民兵攀爬梯子以救援幸存者",
+      "support_text": "消防员和基督徒民兵攀爬梯子以救援幸存者",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤者踉跄穿过烟雾",
+      "support_text": "伤者踉跄穿过烟雾",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "爆炸物专家检查了汽车残骸",
+      "support_text": "explosives experts examined the remains of the auto",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸、绑架和街头战斗摧毁了贝鲁特西部",
+      "support_text": "explosions, kidnappings, street battles destroyed the western part of the city",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "报复威胁引发新一轮暴力浪潮",
+      "support_text": "The threat of retaliation today by the Lebanese Forces seemed likely to touch off an...",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_19",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认至少51人死亡",
+      "support_text": "警方确认至少51人死亡",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_20",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方报告260余人受伤",
+      "support_text": "警方报告260余人受伤",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总统无力阻止持续冲突",
+      "support_text": "总统无力阻止持续冲突",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_22",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "汽车炸弹袭击与教派争端关联",
+      "support_text": "汽车炸弹袭击与教派争端关联",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "穆斯林领导人强化基督教势力",
+      "support_text": "穆斯林领导人强化基督教势力",
+      "source_text": "text_44"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_44_node_1",
+      "target": "text_44_node_2",
+      "relation": "before",
+      "support_text": "Fifteen bodies were dug from the basement storeroom eight hours after the blast..."
+    },
+    {
+      "source": "text_44_node_1",
+      "target": "text_44_node_3",
+      "relation": "before",
+      "support_text": "Screaming Christian militiamen fired rifles to clear a path through traffic for ambulances."
+    },
+    {
+      "source": "text_44_node_1",
+      "target": "text_44_node_8",
+      "relation": "before",
+      "support_text": "The Lebanese Forces militia branded their Moslem foes ''criminals who want a dirty war''."
+    },
+    {
+      "source": "text_44_node_1",
+      "target": "text_44_node_9",
+      "relation": "before",
+      "support_text": "Prime Minister Rashid Karami, a Moslem, described the bombers as ''wild beasts who have no blood running in their veins''."
+    },
+    {
+      "source": "text_44_node_1",
+      "target": "text_44_node_10",
+      "relation": "before",
+      "support_text": "In the mostly Moslem western part of the city... the shelling began late at night when residents huddle in basements and bunkers."
+    },
+    {
+      "source": "text_44_node_1",
+      "target": "text_44_node_14",
+      "relation": "before",
+      "support_text": "爆炸发生后两小时内，消防员和民兵通过枪击疏通交通"
+    },
+    {
+      "source": "text_44_node_1",
+      "target": "text_44_node_16",
+      "relation": "before",
+      "support_text": "爆炸发生在贝鲁特东部的Melki超市附近..."
+    },
+    {
+      "source": "text_44_node_2",
+      "target": "text_44_node_4",
+      "relation": "before",
+      "support_text": "Rescuers said many bodies were charred beyond recognition."
+    },
+    {
+      "source": "text_44_node_2",
+      "target": "text_44_node_11",
+      "relation": "before",
+      "support_text": "救援人员持续到深夜后仍在搜索其他受害者"
+    },
+    {
+      "source": "text_44_node_2",
+      "target": "text_44_node_15",
+      "relation": "before",
+      "support_text": "爆炸8小时后从超市地下室挖出15具尸体"
+    },
+    {
+      "source": "text_44_node_5",
+      "target": "text_44_node_1",
+      "relation": "before",
+      "support_text": "On May 22, a car bomb killed 48 people and wounded 120 in the Christian Sinn al-Fil district."
+    },
+    {
+      "source": "text_44_node_6",
+      "target": "text_44_node_1",
+      "relation": "before",
+      "support_text": "Another car bomb exploded last month outside a former Phalange Party office in East Beirut, but caused no casualties."
+    },
+    {
+      "source": "text_44_node_7",
+      "target": "text_44_node_1",
+      "relation": "before",
+      "support_text": "Fighting Flared a Week Ago... as fighting entered its seventh day."
+    },
+    {
+      "source": "text_44_node_11",
+      "target": "text_44_node_12",
+      "relation": "before",
+      "support_text": "救援人员佩戴安全头盔，在浓烟中持续四小时艰难进入地下储藏室"
+    },
+    {
+      "source": "text_44_node_17",
+      "target": "text_44_node_10",
+      "relation": "before",
+      "support_text": "贝鲁特西部因持续炮击暂未报告伤亡"
+    },
+    {
+      "source": "text_44_node_17",
+      "target": "text_44_node_8",
+      "relation": "before",
+      "support_text": "基督教广播电台公开宣称报复"
+    }
+  ]
+}

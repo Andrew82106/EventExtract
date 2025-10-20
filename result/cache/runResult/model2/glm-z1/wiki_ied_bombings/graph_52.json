@@ -1,0 +1,192 @@
+{
+  "nodes": [
+    {
+      "id": "text_52_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "7/11恐怖袭击五周年后，孟买发生连环爆炸，至少18人死亡、百余人受伤",
+      "support_text": "Two days after the fifth anniversary of the 7/11 serial bombings, three explosions shook Mumbai on Wednesday, killing at least 18 people and injuring more than hundred.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "甘地于爆炸次日（周四）在奥里萨邦召开新闻发布会，称已阻止99%恐怖袭击但无法完全杜绝",
+      "support_text": "Addressing a press conference at Bhubaneswar, the Congress MP called for efforts to stop terrorist attacks in the country. Rahul said that 99 per cent of the terror attacks had been stopped in the country...",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "甘地强调情报工作成效显著，并对比美国阿富汗遭遇的恐怖袭击",
+      "support_text": "He further said, 'We work towards defeating it, but it is very difficult to stop all the attacks. Even in US they are being attacked in Afghanistan.'",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "甘地赞扬政府应对爆炸事件的快速反应，称采取'高度组织化措施'",
+      "support_text": "Referring to Wednesday's attack, Gandhi said the response of the government was prompt. 'We are responding to it in a quite organised fashion.'",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "甘地开始两日奥里萨邦访问，旨在加强国大党基层建设",
+      "support_text": "Rahul is on a two-day visit to Orissa beginning Wednesday to strengthen the grassroots base of the party.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "BJP批评甘地言论削弱反恐决心，呼吁政府承认应对失误",
+      "support_text": "BJP said the statement was unfortunate, adding, it would embolden the terror groups. 'This will demoralise people. Instead, the government should have admitted it was a lapse...",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "L.K.阿德瓦尼对比美国9/11后反恐力度，质疑印度政府效能",
+      "support_text": "Senior party leader L.K. Advani said, 'I will not comment on Rahul Gandhi. My party will. But in the US, after 9/11, nothing of that sort has happened. They are seen as bigger enemy (of terrorists) than India - attacks in India can be stopped.'",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Anurag Thakur指责甘地缺乏铁腕反恐立场，损害政府威信",
+      "support_text": "BJP MP and Yuva Morcha leader Anurag Thakur said, 'This is an unfortunate statement coming from a young leader like Rahul Gandhi. This proves that the Congress doesn't want to fight terror with iron hand.'",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shiv Sena以'侮辱遇难者'为由要求对甘地提起叛国诉讼",
+      "support_text": "Shiv Sena said it was wrong for Congress leader Rahul Gandhi to equate Mumbai terror attacks to those in Afghanistan. 'We elect you to protect us. When you compare the Mumbai attacks to those in Iran, Iraq and Afghanistan, it is an insult to those killed in these attacks,' Sena MP Sanjay Raut said on Thursday.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖分子袭击美国事件",
+      "support_text": "semantic_description字段中的原始描述",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国遭袭击事件",
+      "support_text": "semantic_description字段中的原始描述",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Advani发表声明（关于Rahul Gandhi和恐怖袭击）",
+      "support_text": "Senior party leader L.K. Advani said, 'I will not comment on Rahul Gandhi. My party will. But in the US, after 9/11, nothing of that sort has happened. They are seen as bigger enemy (of terrorists) than India - attacks in India can be stopped.'",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "不评论Rahul Gandhi",
+      "support_text": "说话者（I）不评论Rahul Gandhi",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Congress计划用强硬手段打击恐怖主义",
+      "support_text": "语义描述字段中的原始描述",
+      "source_text": "text_52"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_52_node_1",
+      "target": "text_52_node_2",
+      "relation": "before",
+      "support_text": "Two days after the fifth anniversary of the 7/11 serial bombings, three explosions shook Mumbai on Wednesday..."
+    },
+    {
+      "source": "text_52_node_2",
+      "target": "text_52_node_6",
+      "relation": "before",
+      "support_text": "BJP said the statement was unfortunate, adding, it would embolden the terror groups."
+    },
+    {
+      "source": "text_52_node_2",
+      "target": "text_52_node_9",
+      "relation": "before",
+      "support_text": "Shiv Sena said it was wrong for Congress leader Rahul Gandhi to equate Mumbai terror attacks to those in Afghanistan."
+    },
+    {
+      "source": "text_52_node_2",
+      "target": "text_52_node_7",
+      "relation": "before",
+      "support_text": "Senior party leader L.K. Advani said, 'I will not comment on Rahul Gandhi. My party will. But in the US, after 9/11..."
+    },
+    {
+      "source": "text_52_node_2",
+      "target": "text_52_node_8",
+      "relation": "before",
+      "support_text": "BJP MP and Yuva Morcha leader Anurag Thakur said, 'This is an unfortunate statement coming from a young leader like Rahul Gandhi..."
+    },
+    {
+      "source": "text_52_node_3",
+      "target": "text_52_node_2",
+      "relation": "before",
+      "support_text": "He further said, 'We work towards defeating it, but it is very difficult to stop all the attacks. Even in US they are being attacked in Afghanistan.'"
+    },
+    {
+      "source": "text_52_node_4",
+      "target": "text_52_node_2",
+      "relation": "before",
+      "support_text": "Referring to Wednesday's attack, Gandhi said the response of the government was prompt. 'We are responding to it in a quite organised fashion.'"
+    },
+    {
+      "source": "text_52_node_5",
+      "target": "text_52_node_2",
+      "relation": "before",
+      "support_text": "Rahul is on a two-day visit to Orissa beginning Wednesday to strengthen the grassroots base of the party."
+    },
+    {
+      "source": "text_52_node_10",
+      "target": "text_52_node_2",
+      "relation": "before",
+      "support_text": "根据temporal_order=1添加的时序关系"
+    },
+    {
+      "source": "text_52_node_11",
+      "target": "text_52_node_2",
+      "relation": "before",
+      "support_text": "根据temporal_order=1添加的时序关系"
+    }
+  ]
+}

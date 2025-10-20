@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_141_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年10月23日，伊朗支持的‘伊斯兰抵抗运动’（真主党）在黎巴嫩贝鲁特美国海军基地发动自杀式爆炸袭击，造成241名美国人死亡",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_2",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国法院裁定伊朗需支付2.6亿美元赔偿，用于补偿1983年爆炸案中的受害者",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "爆炸案幸存者表示，法院裁决是‘赢得了一场战斗’，感到欣慰",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗否认对爆炸案负责，但美国司法机构认定其通过真主党实施袭击",
+      "source_text": "text_141"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_141_node_1",
+      "target": "text_141_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_141_node_2",
+      "target": "text_141_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_141_node_2",
+      "target": "text_141_node_4",
+      "relation": "before"
+    }
+  ]
+}

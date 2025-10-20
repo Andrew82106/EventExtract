@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "text_98_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度总统帕蒂尔和副总统安萨里谴责孟买恐怖袭击",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_2",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "帕蒂尔向遇难者家属致哀并祝愿伤者康复",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "安萨里谴责袭击破坏国家稳定并呼吁民众团结",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_4",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "曼莫汉·辛格总理与马哈拉施特拉邦首席部长钱德拉文特·查万通话",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_5",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "辛格要求内政部长帕拉格·昌德曼采取必要措施",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_6",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度人民党资深领袖拉贾·维克拉马辛哈与查万联系获取进展",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度人民党强烈谴责袭击并要求政府坚定打击恐怖主义",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "国大党主席索尼娅·甘地谴责恐怖袭击并呼吁民众警惕",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_9",
+      "event_type": "ManufactureAssemble",
+      "event_subtype": "Unspecified",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度人民党主席尼廷·加德卡里要求建立有效反恐基础设施",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_10",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "加德卡里批评政府拖延处理阿法兹·古鲁案件",
+      "source_text": "text_98"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_98_node_1",
+      "target": "text_98_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_1",
+      "target": "text_98_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_2",
+      "target": "text_98_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_3",
+      "target": "text_98_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_4",
+      "target": "text_98_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_5",
+      "target": "text_98_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_5",
+      "target": "text_98_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_5",
+      "target": "text_98_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_6",
+      "target": "text_98_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_7",
+      "target": "text_98_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_8",
+      "target": "text_98_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_98_node_9",
+      "target": "text_98_node_10",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "nodes": [
+    {
+      "id": "text_11_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1974年10月5日，IRA在吉尔福德的两家酒吧引爆炸弹，造成5人死亡、65人受伤。",
+      "support_text": "The Guildford pub bombings occurred on 5 October 1974 when a subgroup of the Provisional Irish Republican Army (IRA) detonated two 6-pound gelignite bombs at two pubs in Guildford, Surrey, England. Four soldiers and one civilian were killed. Sixty-five people were wounded.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1974年10月11日，同一IRA单位制造了军人俱乐部和胜利服务俱乐部爆炸案，造成1人受伤。",
+      "support_text": "",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1974年10月22日，布鲁克斯俱乐部遭到炸弹袭击，3名工作人员受伤。",
+      "support_text": "",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1974年10月24日，哈罗公学发生爆炸，但无人受伤。",
+      "support_text": "",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1974年11月7日，IRA在伍尔维奇的国王手臂酒吧引爆一枚炸弹，造成2人死亡。",
+      "support_text": "A similar bomb to those used in Guildford, with the addition of shrapnel, was thrown into the Kings Arms pub in Woolwich on 7 November 1974. Gunner Richard Dunne and Alan Horsley, a sales clerk, died in that explosion.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "1974年11月，受系列爆炸案影响，《预防恐怖主义法》被迅速通过。",
+      "support_text": "The bombings contributed to the speedy and unchallenged passing of the Prevention of Terrorism Acts in November 1974, which were then misused by the Metropolitan Police to force false confessions from the \"Guildford Four\".",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "1974年12月，警方逮捕了后来被称为“吉尔福德四人组”的四人。",
+      "support_text": "In December 1974 the police arrested three men and a woman, later known as the Guildford Four.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_8",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "随后，警方逮捕了“吉尔福德四人组”的亲属，即“马圭尔七人组”。",
+      "support_text": "A few days after the Guildford Four were arrested, the Metropolitan Police arrested Annie Maguire and her family, including Gerry Conlon's father, Patrick \"Giuseppe\" Conlon – the \"Maguire Seven\".",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1975年2月，在“巴尔科姆街四人组”的审判中，他们声明“吉尔福德四人组”是无辜的。",
+      "support_text": "During the trial of the \"Balcombe Street Four\" in February 1977, the four IRA members instructed their lawyers to \"draw attention to the fact that four totally innocent people were serving massive sentences\" for three bombings in Woolwich and Guildford.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1975年8月27日，同一IRA单位在Caterham Arms酒吧引爆炸弹，造成30多人受伤。",
+      "support_text": "On August 27, 1975 the same IRA unit detonated a bomb in Surrey at the Caterham Arms pub which injured over 30 people, Surrey police said it was \"a carbon copy of the Guildford bombs\".",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_12",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "1975年12月，被称为“巴尔科姆街帮派”的IRA成员在围困后被捕。",
+      "support_text": "...who police arrested in December 1975 after the Balcombe Street siege leading to their trial and conviction for other murders and offences.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_14",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "多年以后，所有针对“吉尔福德四人组”和“马圭尔七人组”的错误定罪均被推翻。",
+      "support_text": "All the convictions were overturned years later in the appeal courts after it was proved the Guildford Four's convictions had been based on confessions obtained by torture (as were some Maguire Seven confessions), whilst evidence specifically clearing the Four was not reported by the police.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "1993年，基于这些事件的电影《以父之名》上映。",
+      "support_text": "The 1993 movie In the Name of the Father is based on these events.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRA将吉尔福德的酒吧选为袭击目标。",
+      "support_text": "The pubs were targeted by the IRA subgroup.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "七星级酒店酒吧在第一次爆炸后被疏散了。",
+      "support_text": "七星级酒店酒吧在第一次爆炸后被疏散了。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "酒吧老板奥布莱恩和他的妻子在酒吧里搜寻第二个装置。",
+      "support_text": "酒吧老板奥布莱恩和他的妻子在酒吧里搜寻第二个装置。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "五名员工和一名顾客在爆炸发生的瞬间走到了外面。",
+      "support_text": "五名员工和一名顾客在爆炸发生的瞬间走到了外面。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "这支爱尔兰共和军活跃服务单位变得被称为巴尔科姆街帮。",
+      "support_text": "这支爱尔兰共和军活跃服务单位变得被称为巴尔科姆街帮。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴尔科姆街围困事件导致了他们的审判和定罪。",
+      "support_text": "巴尔科姆街围困事件导致了他们的审判和定罪。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴尔科姆街帮成员因其他谋杀和罪行被定罪。",
+      "support_text": "巴尔科姆街帮成员因其他谋杀和罪行被定罪。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伦敦警察厅滥用了《预防恐怖主义法》。",
+      "support_text": "The bombings contributed to the speedy and unchallenged passing of the Prevention of Terrorism Acts in November 1974, which were then misused by the Metropolitan Police to force false confessions from the \"Guildford Four\".",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伦敦警察厅强迫“吉尔福德四人组”做出虚假供述。",
+      "support_text": "The bombings contributed to the speedy and unchallenged passing of the Prevention of Terrorism Acts in November 1974, which were then misused by the Metropolitan Police to force false confessions from the \"Guildford Four\".",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "康伦拜访了他的姨妈安妮·马圭尔。",
+      "support_text": "康伦拜访了他的姨妈安妮·马圭尔。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_sentence_1",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "吉尔福德四人组被判处终身监禁。",
+      "support_text": "吉尔福德四人组被判处终身监禁。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_provide_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "马圭尔七人组被指控提供了制造炸弹的材料和其他支持。",
+      "support_text": "马圭尔七人组被指控提供了制造炸弹的材料和其他支持。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_convict_1",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "马圭尔七人组因提供爆炸物和其他支持被错误定罪。",
+      "support_text": "马圭尔七人组因提供爆炸物和其他支持被错误定罪。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_hold_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "吉尔福德四人组被监禁了十五年。",
+      "support_text": "吉尔福德四人组被监禁了十五年。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_die_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "朱塞佩·康伦在他监禁的第三年年末去世。",
+      "support_text": "朱塞佩·康伦在他监禁的第三年年末去世。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_charge_1",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "“巴尔科姆街四人组”从未因吉尔福德和伍尔维奇的爆炸罪行被起诉，尽管他们是真正的作案者。",
+      "support_text": "The Balcombe Street Four were never charged with the Guildford and Woolwich bombings, despite being the actual perpetrators.",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_verify_work_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名遇难平民在酒吧工作。",
+      "support_text": "一名遇难平民在酒吧工作。",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_new_node_verify_convict_1",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "吉尔福德四人案中的两人（帕特里克·阿姆斯特朗和保罗·希尔）因这次袭击而被定罪。",
+      "support_text": "吉尔福德四人案中的两人（帕特里克·阿姆斯特朗和保罗·希尔）因这次袭击而被定罪。",
+      "source_text": "text_11"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_11_node_1",
+      "target": "text_11_node_2",
+      "relation": "before",
+      "support_text": ""
+    },
+    {
+      "source": "text_11_node_1",
+      "target": "text_11_new_node_2",
+      "relation": "before",
+      "support_text": "疏散行为发生在第一次爆炸之后。"
+    },
+    {
+      "source": "text_11_node_1",
+      "target": "text_11_new_node_5",
+      "relation": "before",
+      "support_text": "命名事件发生在该单位实施首次袭击之后。"
+    },
+    {
+      "source": "text_11_node_1",
+      "target": "text_11_new_node_10",
+      "relation": "before",
+      "support_text": "康伦的拜访发生在吉尔福德爆炸案之后，但在大规模逮捕之前。"
+    },
+    {
+      "source": "text_11_node_2",
+      "target": "text_11_node_3",
+      "relation": "before",
+      "support_text": ""
+    },
+    {
+      "source": "text_11_node_3",
+      "target": "text_11_node_4",
+      "relation": "before",
+      "support_text": ""
+    },
+    {
+      "source": "text_11_node_4",
+      "target": "text_11_node_5",
+      "relation": "before",
+      "support_text": ""
+    },
+    {
+      "source": "text_11_node_5",
+      "target": "text_11_node_6",
+      "relation": "before",
+      "support_text": "The bombings contributed to the speedy and unchallenged passing of the Prevention of Terrorism Acts in November 1974"
+    },
+    {
+      "source": "text_11_node_6",
+      "target": "text_11_node_7",
+      "relation": "before",
+      "support_text": "...in November 1974, which were then misused by the Metropolitan Police to force false confessions from the \"Guildford Four\". In December 1974 the police arrested three men and a woman, later known as the Guildford Four."
+    },
+    {
+      "source": "text_11_node_6",
+      "target": "text_11_new_node_8",
+      "relation": "before",
+      "support_text": "...in November 1974, which were then misused by the Metropolitan Police..."
+    },
+    {
+      "source": "text_11_node_7",
+      "target": "text_11_node_8",
+      "relation": "before",
+      "support_text": "A few days after the Guildford Four were arrested, the Metropolitan Police arrested Annie Maguire and her family..."
+    },
+    {
+      "source": "text_11_node_7",
+      "target": "text_11_new_node_sentence_1",
+      "relation": "before",
+      "support_text": "逮捕（node_7）发生在定罪判决（new_node_sentence_1）之前。"
+    },
+    {
+      "source": "text_11_node_7",
+      "target": "text_11_new_node_verify_convict_1",
+      "relation": "before",
+      "support_text": "逮捕（node_7）发生在定罪（new_node_verify_convict_1）之前。"
+    },
+    {
+      "source": "text_11_node_8",
+      "target": "text_11_node_10",
+      "relation": "before",
+      "support_text": ""
+    },
+    {
+      "source": "text_11_node_8",
+      "target": "text_11_new_node_provide_1",
+      "relation": "before",
+      "support_text": "逮捕（node_8）发生在指控（new_node_provide_1）之前。"
+    },
+    {
+      "source": "text_11_node_9",
+      "target": "text_11_node_14",
+      "relation": "before",
+      "support_text": "During the trial of the \"Balcombe Street Four\" in February 1977... All the convictions were overturned years later in the appeal courts..."
+    },
+    {
+      "source": "text_11_node_9",
+      "target": "text_11_new_node_7",
+      "relation": "before",
+      "support_text": "审判（node_9）发生在定罪（new_node_7）之前。"
+    },
+    {
+      "source": "text_11_node_10",
+      "target": "text_11_node_12",
+      "relation": "before",
+      "support_text": ""
+    },
+    {
+      "source": "text_11_node_12",
+      "target": "text_11_node_9",
+      "relation": "before",
+      "support_text": "...who police arrested in December 1975 after the Balcombe Street siege leading to their trial..."
+    },
+    {
+      "source": "text_11_node_12",
+      "target": "text_11_new_node_6",
+      "relation": "before",
+      "support_text": "逮捕（node_12）发生在围困导致审判（new_node_6）之前。"
+    },
+    {
+      "source": "text_11_node_14",
+      "target": "text_11_node_15",
+      "relation": "before",
+      "support_text": ""
+    },
+    {
+      "source": "text_11_new_node_1",
+      "target": "text_11_node_1",
+      "relation": "before",
+      "support_text": "选择目标的行为发生在实际攻击之前。"
+    },
+    {
+      "source": "text_11_new_node_2",
+      "target": "text_11_new_node_3",
+      "relation": "before",
+      "support_text": "根据时间顺序，疏散后开始搜寻第二个装置。"
+    },
+    {
+      "source": "text_11_new_node_3",
+      "target": "text_11_new_node_4",
+      "relation": "before",
+      "support_text": "根据提供的时间顺序，搜寻发生在人员走出的瞬间之前。"
+    },
+    {
+      "source": "text_11_new_node_5",
+      "target": "text_11_node_2",
+      "relation": "before",
+      "support_text": "命名后，该单位继续其活动。"
+    },
+    {
+      "source": "text_11_new_node_6",
+      "target": "text_11_node_9",
+      "relation": "before",
+      "support_text": "围困导致审判（new_node_6）发生在审判期间（node_9）之前。"
+    },
+    {
+      "source": "text_11_new_node_6",
+      "target": "text_11_new_node_7",
+      "relation": "before",
+      "support_text": "根据temporal_order，事件'lead' (order=4) 发生在 'convict' (order=6) 之前。"
+    },
+    {
+      "source": "text_11_new_node_8",
+      "target": "text_11_new_node_9",
+      "relation": "before",
+      "support_text": "...misused... to force false confessions..."
+    },
+    {
+      "source": "text_11_new_node_9",
+      "target": "text_11_node_7",
+      "relation": "before",
+      "support_text": "...misused... to force false confessions from the \"Guildford Four\". In December 1974 the police arrested three men and a woman, later known as the Guildford Four."
+    },
+    {
+      "source": "text_11_new_node_10",
+      "target": "text_11_node_7",
+      "relation": "before",
+      "support_text": "康伦的拜访发生在“吉尔福德四人组”（包括康伦本人）被捕之前。"
+    },
+    {
+      "source": "text_11_new_node_sentence_1",
+      "target": "text_11_new_node_provide_1",
+      "relation": "before",
+      "support_text": "根据temporal_order，对吉尔福德四人组的判决（order=3）发生在对马圭尔七人组的指控（order=4）之前。"
+    },
+    {
+      "source": "text_11_new_node_sentence_1",
+      "target": "text_11_new_node_hold_1",
+      "relation": "before",
+      "support_text": "定罪判决（new_node_sentence_1）是监禁（new_node_hold_1）的前提。"
+    },
+    {
+      "source": "text_11_new_node_provide_1",
+      "target": "text_11_new_node_convict_1",
+      "relation": "before",
+      "support_text": "根据temporal_order，指控（order=4）发生在定罪（order=5）之前。"
+    },
+    {
+      "source": "text_11_new_node_hold_1",
+      "target": "text_11_new_node_die_1",
+      "relation": "before",
+      "support_text": "朱塞佩·康伦的去世（new_node_die_1）发生在被监禁期间（new_node_hold_1）。"
+    },
+    {
+      "source": "text_11_new_node_charge_1",
+      "target": "text_11_node_9",
+      "relation": "before",
+      "support_text": "根据事件的逻辑顺序，未被起诉的事件发生在1977年的审判之前。"
+    },
+    {
+      "source": "text_11_new_node_verify_work_1",
+      "target": "text_11_new_node_verify_convict_1",
+      "relation": "before",
+      "support_text": "根据temporal_order，'work'事件(order=1)发生在'convict'事件(order=4)之前。"
+    }
+  ]
+}

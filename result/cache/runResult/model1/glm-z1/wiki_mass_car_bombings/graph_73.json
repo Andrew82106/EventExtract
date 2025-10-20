@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_73_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴格达东部al-Amin市场附近发生炸弹爆炸",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸造成2人死亡、7人受伤",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救护车赶赴现场并转移伤者至附近医院",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "遗体移交法医部门处理",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "安全部队封锁事件现场并禁止接近",
+      "source_text": "text_73"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_73_node_1",
+      "target": "text_73_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_73_node_2",
+      "target": "text_73_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_73_node_3",
+      "target": "text_73_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_73_node_4",
+      "target": "text_73_node_5",
+      "relation": "before"
+    }
+  ]
+}

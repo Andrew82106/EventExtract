@@ -1,0 +1,222 @@
+{
+  "nodes": [
+    {
+      "id": "text_133_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年3月，车臣武装分子绑架俄罗斯内政部长根纳季·什皮古诺夫",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年8月，俄罗斯军队入侵达吉斯坦",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年9月4日，布扬纳克市公寓楼爆炸",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年9月9日和13日，莫斯科发生两次公寓楼爆炸",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "1999年9月13日，俄罗斯议会主席谢列兹尼奥夫宣布伏尔加东岸市发生爆炸",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年9月16日，伏尔加东岸市实际发生公寓楼爆炸",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "1999年9月22日，雷扎诺夫市发现可疑爆炸装置并成功拆除",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年9月23日，普京赞扬雷扎诺夫市民并下令空袭 Grozny，第二次车臣战争爆发",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "1999年9月24日，FSB负责人帕特鲁舍夫声明雷扎诺夫事件为反恐演习",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年完成布扬纳克市爆炸案官方调查，7人被判刑",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_11",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年3月，议员谢奇科奇金两次要求议会调查遭否决",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年成立科瓦廖夫独立调查委员会，遭政府压制",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_13",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年科瓦廖夫委员会成员尤申科夫和谢奇科奇金遭暗示身亡",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_14",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年委员会调查员特列帕申因泄密被判刑4年",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_15",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年完成莫斯科和伏尔加东岸市爆炸案调查",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_16",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年法院认定戈奇亚耶夫策划莫斯科和伏尔加东岸市爆炸，其仍逍遥法外",
+      "source_text": "text_133"
+    },
+    {
+      "id": "text_133_node_17",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年五名嫌疑人被处决，六人因恐怖主义罪名被判刑",
+      "source_text": "text_133"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_133_node_1",
+      "target": "text_133_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_2",
+      "target": "text_133_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_3",
+      "target": "text_133_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_4",
+      "target": "text_133_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_5",
+      "target": "text_133_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_6",
+      "target": "text_133_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_7",
+      "target": "text_133_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_8",
+      "target": "text_133_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_9",
+      "target": "text_133_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_10",
+      "target": "text_133_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_11",
+      "target": "text_133_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_12",
+      "target": "text_133_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_13",
+      "target": "text_133_node_14",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_14",
+      "target": "text_133_node_15",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_15",
+      "target": "text_133_node_16",
+      "relation": "before"
+    },
+    {
+      "source": "text_133_node_16",
+      "target": "text_133_node_17",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_10_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年4月19日，Alfred P. Murrah联邦大楼爆炸事件导致168人死亡、650人受伤",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "建立Oklahoma City国家纪念公园，作为公共/私人合作项目纪念受害者及其家属、幸存者和救援人员",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "建议至少一小时参观户外纪念广场，并参与公园讲解员活动",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "参观位于广场旁的国家纪念博物馆，了解暴力影响及爆炸事件背景",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "",
+      "description": "提供Junior Ranger计划，通过公共服务活动帮助儿童培养希望与责任感",
+      "source_text": "text_10"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_2",
+      "target": "text_10_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_10_node_4",
+      "target": "text_10_node_5",
+      "relation": "before"
+    }
+  ]
+}

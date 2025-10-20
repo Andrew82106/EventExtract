@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "id": "text_154_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "27人在大马士革安全建筑遭遇 twin bombings，造成27人死亡、140人受伤",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "首枚炸弹于7:30 AM袭击空军情报局（位于基督徒聚居区al-Qassaa）",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "第二枚炸弹几乎同时袭击刑事安全部门",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "下午第三次爆炸在难民营Yarmouk附近军事巴士旁，导致2名自杀式炸弹袭击者死亡",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸发生两天后正值叙利亚一年前反政府起义一周年（已致8,000人死亡）",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自12月以来连续发生多起袭击，包括2月10日阿勒颇自杀式爆炸（28人死亡）",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "过去三个月大马士革发生6起针对安全建筑的自杀式袭击",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚政府指控恐怖组织 destabilize 国家",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "反对派称政府故意制造袭击以抹黑叛军",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "美国情报官员推测袭击者系伊拉克分支al-Qaeda",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_11",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "安南呼吁国际社会推动叙利亚和平解决",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_12",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "安南计划下周派遣技术团队讨论外国监察员入驻",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_13",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "",
+      "description": "阿拉伯联盟谴责袭击，要求立即停止暴力并推动对话过渡",
+      "source_text": "text_154"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_154_node_1",
+      "target": "text_154_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_154_node_2",
+      "target": "text_154_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_154_node_3",
+      "target": "text_154_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_154_node_4",
+      "target": "text_154_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_154_node_5",
+      "target": "text_154_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_154_node_6",
+      "target": "text_154_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_154_node_7",
+      "target": "text_154_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_154_node_8",
+      "target": "text_154_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_154_node_9",
+      "target": "text_154_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_154_node_10",
+      "target": "text_154_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_154_node_11",
+      "target": "text_154_node_12",
+      "relation": "before"
+    },
+    {
+      "source": "text_154_node_12",
+      "target": "text_154_node_13",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "text_188_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "挪威民众在奥斯陆大教堂举行纪念服务，民众静候献花并聆听内部仪式",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在乌托亚岛事件中反应迟缓，首次接报后耗时一小时抵达现场",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Breivik律师承认其策划奥斯陆爆炸案和乌托亚岛枪击案但拒绝承担刑事责任",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Breivik强调其行动是为推动社会变革并塑造反伊斯兰革命者形象",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "学者Bjorgo分析Breivik的极端主义思想，指出其试图通过暴力引发大众追随",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Breivik申请周一上午公开审理，警方申请延长其拘留时间配合调查",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_7",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "Breivik提交《2083——欧洲独立宣言》，主张通过文化保守对抗伊斯兰扩张",
+      "source_text": "text_188"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_188_node_2",
+      "target": "text_188_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_188_node_3",
+      "target": "text_188_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_188_node_3",
+      "target": "text_188_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_188_node_4",
+      "target": "text_188_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_188_node_6",
+      "target": "text_188_node_7",
+      "relation": "before"
+    }
+  ]
+}

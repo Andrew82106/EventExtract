@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_61_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年以来，土耳其与叙利亚反对派盟友在北部叙利亚发动三次军事行动，控制包括al-Bab在内的边境地区",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "上个月，土耳其发动军事行动，旨在将YPG-led SDF势力从幼发拉底河以东地区 pushed back，并建立30公里安全区",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周六，al-Bab巴士终点站遭汽车炸弹袭击，造成至少10人死亡、15人受伤",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Anadolu通讯社报告袭击导致至少18人死亡、30人受伤，涉及两辆载弹车辆",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "土耳其国防部指责PKK/YPG恐怖分子袭击平民，但无责任方声明",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "PKK被土耳其、美国、欧盟列为恐怖组织",
+      "source_text": "text_61"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_61_node_1",
+      "target": "text_61_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_2",
+      "target": "text_61_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_3",
+      "target": "text_61_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_4",
+      "target": "text_61_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_61_node_5",
+      "target": "text_61_node_6",
+      "relation": "before"
+    }
+  ]
+}

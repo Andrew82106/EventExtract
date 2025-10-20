@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_78_node_1",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年伊斯兰国附属组织策划击落俄罗斯客机，导致226人死亡",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "过去一年间，极端分子对开罗等城市教堂发动连环爆炸，致多名基督徒死亡",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2017年11月24日，西奈半岛 Bir al-Abd 镇 al-Rawdah 清真寺遭武装分子袭击",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "袭击当天极端分子使用4辆越野车突袭清真寺，实施枪击和 RPG 攻击",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "武装分子用燃烧车辆封锁清真寺出口，阻止信徒逃离",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "",
+      "description": "袭击造成至少235人死亡、109人受伤，武装分子随后逃逸",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "埃及政府自2014年起持续在西奈半岛开展反恐军事行动",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_8",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "",
+      "description": "埃及自2017年持续实施国家紧急状态，期间逮捕大量疑似伊斯兰主义者",
+      "source_text": "text_78"
+    },
+    {
+      "id": "text_78_node_9",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "总统 el-Sissi 宣布将严惩袭击事件，但未公布具体反恐新措施",
+      "source_text": "text_78"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_78_node_1",
+      "target": "text_78_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_3",
+      "target": "text_78_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_4",
+      "target": "text_78_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_5",
+      "target": "text_78_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_6",
+      "target": "text_78_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_7",
+      "target": "text_78_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_7",
+      "target": "text_78_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_78_node_8",
+      "target": "text_78_node_3",
+      "relation": "before"
+    }
+  ]
+}

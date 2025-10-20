@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "text_10_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年阿根廷布宜诺斯艾利斯AMIA犹太慈善中心遭爆炸袭击，造成85人死亡",
+      "support_text": "The bombing of the Argentine-Israelite Mutual Aid (AMIA) organization killed 85 people, the deadliest attack of its kind on Argentine soil.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_2",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年阿根廷与伊朗签署备忘录，设立联合调查委员会",
+      "support_text": "Kirchner, her former foreign minister Hector Timerman and others in her 2007-2015 administration are accused of abuse of power and obstruction for signing a memorandum of understanding with Iran in 2012 that would have established a 'truth commission' to investigate the bombing.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年阿根廷法院裁定与伊朗的联合调查协议违宪",
+      "support_text": "In 2014, an Argentine court declared the agreement to be unconstitutional.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年检察官Alberto Nisman以涉嫌包庇伊朗为由对基什内尔等提起指控",
+      "support_text": "The case against them was opened in January 2015, on the basis of charges brought by Alberto Nisman, a prosecutor who was found dead in mysterious circumstances four days later.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年1月Nisman提出指控四天后离奇死亡，尸检确认遭谋杀",
+      "support_text": "Nisman proposed charges four days later and was found dead in mysterious circumstances. A judge recently ruled that Nisman was murdered and did not commit suicide.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年8月法官Claudio Bonadio重启案件调查",
+      "support_text": "While the case languished after Nisman’s death, but Bonadio reactivated it in August 2016.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年案件由初级法院转交上级法院进行公开审理",
+      "support_text": "Judge Claudio Bonadio has closed the investigative phase of the case, referring it to a higher level court for a public trial.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "基什内尔等被正式起诉涉嫌滥用职权包庇伊朗",
+      "support_text": "Kirchner, her former foreign minister Hector Timerman and others in her 2007-2015 administration are accused of abuse of power and obstruction...",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "基什内尔否认指控并接受公开审判以自证清白",
+      "support_text": "Kirchner, who has denounced the charges against her as a political persecution, nonetheless has said she welcomes an open trial to prove her innocence.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗官方持续否认参与1994年AMIA爆炸事件",
+      "support_text": "Iran, for its part, has denied involvement in the AMIA attack.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "备忘录试图掩盖伊朗和黑塞堡在袭击中的参与",
+      "support_text": "the memorandum of understanding tried to cover up Iran and Hezbollah's involvement in the attack",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "基尔纳克谴责对她的指控",
+      "support_text": "基尔纳克谴责指控",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_13",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "基尔纳克接受伊朗石油和贸易利益",
+      "support_text": "基尔纳克接受石油和贸易利益",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_14",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "基尔纳克批准交易以使AMIA bombing嫌疑人逃避起诉",
+      "support_text": "基尔纳克批准交易以使AMIA bombing嫌疑人逃避起诉",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_15",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "交易使AMIA bombing嫌疑人规避起诉",
+      "support_text": "交易使AMIA bombing嫌疑人规避起诉",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_16",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "AMIA bombing嫌疑人通过交易规避起诉",
+      "support_text": "AMIA bombing嫌疑人通过交易规避起诉",
+      "source_text": "text_10"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_2",
+      "relation": "before",
+      "support_text": "The bombing of the Argentine-Israelite Mutual Aid (AMIA) organization killed 85 people, the deadliest attack of its kind on Argentine soil."
+    },
+    {
+      "source": "text_10_node_2",
+      "target": "text_10_node_3",
+      "relation": "before",
+      "support_text": "In 2014, an Argentine court declared the agreement to be unconstitutional."
+    },
+    {
+      "source": "text_10_node_2",
+      "target": "text_10_node_10",
+      "relation": "before",
+      "support_text": "Iran, for its part, has denied involvement in the AMIA attack."
+    },
+    {
+      "source": "text_10_node_2",
+      "target": "text_10_node_11",
+      "relation": "before",
+      "support_text": "the memorandum of understanding signed in 2012 aimed to obscure Iran and Hezbollah's participation in the AMIA bombing"
+    },
+    {
+      "source": "text_10_node_4",
+      "target": "text_10_node_5",
+      "relation": "before",
+      "support_text": "Nisman proposed charges four days later and was found dead in mysterious circumstances."
+    },
+    {
+      "source": "text_10_node_5",
+      "target": "text_10_node_6",
+      "relation": "before",
+      "support_text": "While the case languished after Nisman’s death, but Bonadio reactivated it in August 2016."
+    },
+    {
+      "source": "text_10_node_6",
+      "target": "text_10_node_7",
+      "relation": "before",
+      "support_text": "Judge Claudio Bonadio has closed the investigative phase of the case, referring it to a higher level court for a public trial."
+    },
+    {
+      "source": "text_10_node_7",
+      "target": "text_10_node_8",
+      "relation": "before",
+      "support_text": "Kirchner, her former foreign minister Hector Timerman and others in her 2007-2015 administration are accused of abuse of power and obstruction..."
+    },
+    {
+      "source": "text_10_node_8",
+      "target": "text_10_node_9",
+      "relation": "before",
+      "support_text": "Kirchner, who has denounced the charges against her as a political persecution, nonetheless has said she welcomes an open trial to prove her innocence."
+    }
+  ]
+}

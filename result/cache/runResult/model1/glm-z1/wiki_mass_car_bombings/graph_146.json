@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_146_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1998年8月7日，内罗毕和达累斯萨拉姆遭受恐怖袭击，造成数百人丧生、数千人受伤及重大财产损失",
+      "source_text": "text_146"
+    },
+    {
+      "id": "text_146_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "8月13日，安理会开会讨论恐怖主义对和平与安全的威胁",
+      "source_text": "text_146"
+    },
+    {
+      "id": "text_146_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "安理会审议并一致通过第1189号决议，要求各国合作追捕恐怖分子",
+      "source_text": "text_146"
+    },
+    {
+      "id": "text_146_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "安理会举行一分钟默哀，纪念袭击受害者",
+      "source_text": "text_146"
+    },
+    {
+      "id": "text_146_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "肯尼亚、坦桑尼亚和美国代表及安理会主席发表讲话",
+      "source_text": "text_146"
+    },
+    {
+      "id": "text_146_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "安理会感谢国际援助并呼吁支持受灾国重建和防灾准备",
+      "source_text": "text_146"
+    },
+    {
+      "id": "text_146_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "GrantAllowPassage",
+      "description": "会议于5:14开始，5:26结束",
+      "source_text": "text_146"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_146_node_1",
+      "target": "text_146_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_146_node_2",
+      "target": "text_146_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_146_node_3",
+      "target": "text_146_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_146_node_4",
+      "target": "text_146_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_146_node_5",
+      "target": "text_146_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_146_node_6",
+      "target": "text_146_node_7",
+      "relation": "before"
+    }
+  ]
+}

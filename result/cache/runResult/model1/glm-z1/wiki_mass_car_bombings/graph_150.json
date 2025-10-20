@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "text_150_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1985年4月18日，美国大使馆在贝鲁特遭汽车炸弹袭击",
+      "source_text": "text_150"
+    },
+    {
+      "id": "text_150_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "同日，法国大使馆在贝鲁特遭汽车炸弹袭击",
+      "source_text": "text_150"
+    },
+    {
+      "id": "text_150_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "",
+      "description": "事件导致美法外交人员及平民共82人死亡",
+      "source_text": "text_150"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_150_node_1",
+      "target": "text_150_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_150_node_2",
+      "target": "text_150_node_3",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_18_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国（IS）于2013年占领了叙利亚城市巴卜。",
+      "support_text": "Ankara-backed militias seized the city after defeating IS jihadists, who had captured it in 2013.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其支持的民兵于2016年底击败伊斯兰国后夺取了巴卜市的控制权。",
+      "support_text": "Al-Bab is located in the Aleppo governorate some 30 km south of Syria’s border with Turkey and has remained under Turkish control since late 2016. Ankara-backed militias seized the city after defeating IS jihadists...",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其对巴卜市的控制阻止了库尔德民兵连接其东西部控制区的战略意图。",
+      "support_text": "That Turkish takeover denied the Kurdish militias a chance to seize the city for themselves, which would otherwise have connected Kurdish-controlled areas to the east and to the west of the city.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一枚汽车炸弹在土耳其控制的叙利亚城市巴卜市汽车站附近爆炸。",
+      "support_text": "The deadly explosion went off near a bus terminal on Saturday, causing the deaths and significant damage in the area.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸造成至少18人死亡、28人受伤，并导致现场严重破坏。",
+      "support_text": "A car bomb that blew up in the Turkey-controlled Syrian city of al-Bab has killed at least 18 people and left 28 others injured, Turkish media are reporting.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其政府指责库尔德YPG民兵发动了此次袭击。",
+      "support_text": "Ankara is accusing Kurdish militias of being behind the attack.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其国防部称，此次袭击的手段与恐怖组织伊斯兰国（IS）相似，并认为YPG与IS无异。",
+      "support_text": "The Turkish Defense Ministry has accused the “inhumane and uncivilized” Kurdish YPG militias for the bombing, saying the tactics showed that they were not different from the terrorist group Islamic State (IS, formerly ISIS/ISIL).",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_new_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "土耳其媒体正在报道这起爆炸事件及其后果。",
+      "support_text": "A car bomb that blew up in the Turkey-controlled Syrian city of al-Bab has killed at least 18 people and left 28 others injured, Turkish media are reporting.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_new_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "该部拒绝立即解释其归责的依据。",
+      "support_text": "该部拒绝立即解释其归责的依据。",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_new_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "PKK/YPG恐怖分子持续以无辜平民为目标。",
+      "support_text": "PKK/YPG恐怖分子持续以无辜平民为目标。",
+      "source_text": "text_18"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_2",
+      "relation": "before",
+      "support_text": "Ankara-backed militias seized the city after defeating IS jihadists, who had captured it in 2013."
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_node_3",
+      "relation": "before",
+      "support_text": "That Turkish takeover denied the Kurdish militias a chance to seize the city for themselves..."
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_node_4",
+      "relation": "before",
+      "support_text": "A car bomb that blew up in the Turkey-controlled Syrian city of al-Bab..."
+    },
+    {
+      "source": "text_18_node_4",
+      "target": "text_18_node_5",
+      "relation": "before",
+      "support_text": "The deadly explosion went off near a bus terminal on Saturday, causing the deaths and significant damage in the area."
+    },
+    {
+      "source": "text_18_node_4",
+      "target": "text_18_node_6",
+      "relation": "before",
+      "support_text": "A car bomb that blew up in the Turkey-controlled Syrian city of al-Bab has killed at least 18 people and left 28 others injured, Turkish media are reporting. Ankara is accusing Kurdish militias of being behind the attack."
+    },
+    {
+      "source": "text_18_node_5",
+      "target": "text_18_new_node_1",
+      "relation": "before",
+      "support_text": "A car bomb that blew up in the Turkey-controlled Syrian city of al-Bab has killed at least 18 people and left 28 others injured, Turkish media are reporting."
+    },
+    {
+      "source": "text_18_node_6",
+      "target": "text_18_node_7",
+      "relation": "before",
+      "support_text": "Ankara is accusing Kurdish militias of being behind the attack. The Turkish Defense Ministry has accused the “inhumane and uncivilized” Kurdish YPG militias for the bombing..."
+    },
+    {
+      "source": "text_18_node_7",
+      "target": "text_18_new_node_2",
+      "relation": "before",
+      "support_text": "在土耳其国防部指责YPG民兵后，该部拒绝立即解释其归责的依据。"
+    }
+  ]
+}

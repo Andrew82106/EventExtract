@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_143_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "伊拉克全境发生27起袭击，造成107人死亡、214人受伤，为两年来最致命一天",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "Taji镇连环路边炸弹与汽车炸弹袭击后发生自杀爆炸，导致42人死亡、40人受伤",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "巴格达萨德尔城政府证件局外汽车炸弹袭击致12人死亡、22人受伤",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "巴格达胡塞尼耶与亚尔穆克区两起爆炸造成4人死亡、24人受伤",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "北部的Tarmiyah镇汽车炸弹袭击造成9人受伤",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "迪亚拉省检查站枪击与炸弹袭击导致11人死亡、40人受伤",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "摩苏尔市及周边地区发生汽车炸弹、路边炸弹和枪击三起袭击",
+      "source_text": "text_143"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_143_node_1",
+      "target": "text_143_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_143_node_2",
+      "target": "text_143_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_143_node_3",
+      "target": "text_143_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_143_node_4",
+      "target": "text_143_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_143_node_5",
+      "target": "text_143_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_143_node_6",
+      "target": "text_143_node_7",
+      "relation": "before"
+    }
+  ]
+}

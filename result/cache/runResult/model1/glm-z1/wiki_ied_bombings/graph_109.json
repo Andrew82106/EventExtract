@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_109_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "1974年11月21日，IRA在伯明翰两间酒吧安放炸弹，导致21人死亡、182人受伤",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "同日一名爱尔兰口音男子向当地报纸报警，但警方处理延迟导致伤亡扩大",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_3",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "1980年代6名男子因爆炸案被错误定罪但未被平反",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "2023年Michael Christopher Hayes公开道歉，承认参与并致歉受害者家属",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_5",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "2023年大陪审团重启调查，称有大量证据未听取",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "",
+      "description": "受害者家属对Hayes的道歉表示不满",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_7",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "Hayes在1974年被捕但获释，自述为IRA活跃成员",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_8",
+      "event_type": "Justice",
+      "event_subtype": "",
+      "event_sub_subtype": "",
+      "description": "2023年警方重申调查开放，但未透露嫌疑人身份",
+      "source_text": "text_109"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_109_node_1",
+      "target": "text_109_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_109_node_2",
+      "target": "text_109_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_109_node_3",
+      "target": "text_109_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_109_node_4",
+      "target": "text_109_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_109_node_5",
+      "target": "text_109_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_109_node_6",
+      "target": "text_109_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_109_node_7",
+      "target": "text_109_node_3",
+      "relation": "before"
+    }
+  ]
+}

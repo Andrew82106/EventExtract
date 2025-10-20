@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": "text_25_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "印度孟买西部郊区通勤火车和车站发生七起爆炸，时间间隔11分钟，造成至少174人死亡、380人受伤",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_2",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "",
+      "description": "救援人员在爆炸现场持续搜救，国际红十字会证实仍有遗体有待发掘",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "",
+      "description": "目击者描述爆炸导致乘客惊慌逃窜，部分人从列车坠落轨道并严重受伤",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "",
+      "description": "新德里警方在爆炸后逮捕一名与事件相关的嫌疑人",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_5",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "",
+      "description": "印度总理曼莫汉·辛格谴责袭击为'懦弱的恐怖主义行为'并承诺加强反恐",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "美国官员将怀疑指向与克什米尔相关的两个伊斯兰极端组织：虔诚军和穆罕默德军",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "",
+      "description": "安全专家指出袭击时间与即将召开的八国峰会存在关联，并分析为有组织的跨国恐怖行动",
+      "source_text": "text_25"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_25_node_1",
+      "target": "text_25_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_25_node_1",
+      "target": "text_25_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_25_node_1",
+      "target": "text_25_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_25_node_2",
+      "target": "text_25_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_25_node_3",
+      "target": "text_25_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_25_node_4",
+      "target": "text_25_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_25_node_5",
+      "target": "text_25_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_25_node_6",
+      "target": "text_25_node_7",
+      "relation": "before"
+    }
+  ]
+}

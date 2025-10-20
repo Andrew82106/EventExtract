@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "text_180_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1987年5月8日，IRA分子攻击Loughgall RUC警局，SAS伏击队击毙8名IRA成员及1名无辜路人",
+      "source_text": "text_180"
+    },
+    {
+      "id": "text_180_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Anthony Hughes与弟弟Oliver无意中驶入SAS伏击圈，Anthony被15发子弹击中身亡，Oliver身中14弹幸存",
+      "source_text": "text_180"
+    },
+    {
+      "id": "text_180_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Oliver在2010年因长期伤势去世，享年62岁且未获任何官方道歉",
+      "source_text": "text_180"
+    },
+    {
+      "id": "text_180_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年英国国防部首次向Hughes家人道歉，但被拒绝因认为推卸部分责任",
+      "source_text": "text_180"
+    },
+    {
+      "id": "text_180_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年2月，英国政府再次正式道歉，确认Anthony和Oliver完全无辜",
+      "source_text": "text_180"
+    },
+    {
+      "id": "text_180_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "Anna Soubry签署国防大臣致歉信，明确表示两人无任何过错",
+      "source_text": "text_180"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_180_node_1",
+      "target": "text_180_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_180_node_2",
+      "target": "text_180_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_180_node_3",
+      "target": "text_180_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_180_node_4",
+      "target": "text_180_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_180_node_5",
+      "target": "text_180_node_6",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "text_12_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS于2014年1月开始统治拉卡市，并持续了近四年。",
+      "support_text": "...during their rule of the city that began in January 2014 and lasted for nearly four years.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国支持的叙利亚民主军于2017年10月占领了拉卡。",
+      "support_text": "Blasts have occurred since US-backed fighters of the Syrian Democratic Forces captured Raqqa in October 2017.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "经过多次攻势，ISIS于3月23日被宣布已被消灭。",
+      "support_text": "Several offensives with US-led coalition backing chipped away at ISIS until it was declared eliminated on March 23.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "4月9日，ISIS在拉卡实施了一起造成13人死亡的双重爆炸袭击。",
+      "support_text": "On April 9, a double bombing claimed by ISIS killed 13 people, mostly civilians, in the militant group's former bastion.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周六，拉卡发生两起爆炸，造成10人死亡。",
+      "support_text": "Two explosions killed 10 people in Raqqa on Saturday in the latest attacks to hit the city in northern Syria, opposition activists reported.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "开斋饭结束了白天的斋戒。",
+      "support_text": "the meal after sunset (iftar) breaks day-long fasting",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "反对派活动人士报道了这起爆炸事件。",
+      "support_text": "opposition activists reported the explosion event",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_3",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "ISIS武装分子在他们统治期间展示了被绞死的尸体或头颅。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "一名自杀式袭击者当时正驾驶着一辆车。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伏击和打了就跑的袭击在两个国家持续发生。",
+      "support_text": "Ambushes and hit-and-run attacks have continued in both countries, with ISIS militants still scattered in the Syrian desert.",
+      "source_text": "text_12"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_12_node_1",
+      "target": "text_12_node_2",
+      "relation": "before",
+      "support_text": "Blasts have occurred since US-backed fighters of the Syrian Democratic Forces captured Raqqa in October 2017."
+    },
+    {
+      "source": "text_12_node_2",
+      "target": "text_12_node_3",
+      "relation": "before",
+      "support_text": "Blasts have occurred since US-backed fighters of the Syrian Democratic Forces captured Raqqa in October 2017. Several offensives with US-led coalition backing chipped away at ISIS until it was declared eliminated on March 23."
+    },
+    {
+      "source": "text_12_node_3",
+      "target": "text_12_node_4",
+      "relation": "before",
+      "support_text": "until it was declared eliminated on March 23. Ambushes and hit-and-run attacks have continued in both countries, with ISIS militants still scattered in the Syrian desert. On April 9, a double bombing claimed by ISIS killed 13 people..."
+    },
+    {
+      "source": "text_12_node_3",
+      "target": "text_12_new_node_5",
+      "relation": "before",
+      "support_text": "Several offensives with US-led coalition backing chipped away at ISIS until it was declared eliminated on March 23. Ambushes and hit-and-run attacks have continued in both countries..."
+    },
+    {
+      "source": "text_12_node_4",
+      "target": "text_12_node_5",
+      "relation": "before",
+      "support_text": "Two explosions killed 10 people in Raqqa on Saturday in the latest attacks to hit the city..."
+    },
+    {
+      "source": "text_12_node_5",
+      "target": "text_12_new_node_2",
+      "relation": "before",
+      "support_text": "Two explosions killed 10 people in Raqqa on Saturday..., opposition activists reported"
+    },
+    {
+      "source": "text_12_new_node_1",
+      "target": "text_12_node_5",
+      "relation": "before",
+      "support_text": "The attacks occurred after iftar"
+    },
+    {
+      "source": "text_12_new_node_3",
+      "target": "text_12_new_node_4",
+      "relation": "before",
+      "support_text": "根据temporal_order，'display'事件(temporal_order: 2)发生在'drive'事件(temporal_order: 3)之前。"
+    },
+    {
+      "source": "text_12_new_node_5",
+      "target": "text_12_node_4",
+      "relation": "before",
+      "support_text": "Ambushes and hit-and-run attacks have continued in both countries... On April 9, a double bombing claimed by ISIS killed 13 people..."
+    }
+  ]
+}

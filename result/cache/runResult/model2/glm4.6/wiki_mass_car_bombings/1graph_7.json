@@ -1,0 +1,858 @@
+{
+  "nodes": [
+    {
+      "id": "text_7_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1978年，以色列入侵黎巴嫩。",
+      "support_text": "Invasion? They played that card in 1978 and 1982 and left a thousand soldiers dead on the field before they withdrew in 2000.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "1982年，美国战舰“新泽西号”抵达黎巴嫩海岸进行炮舰外交。",
+      "support_text": "In 1982, an unusual sight appeared on the Mediterranean horizon. Like the death ship in Star Wars, a World War II battleship threatened the Lebanese shore. US naval spokesmen claimed the USS New Jersey was the most fearsome artillery platform on the high seas. The Reagan administration had re-commissioned her and a few other seagoing dinosaurs to pursue gunboat diplomacy from Nicaragua to Iran.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1982年，以色列再次入侵黎巴嫩。",
+      "support_text": "Invasion? They played that card in 1978 and 1982 and left a thousand soldiers dead on the field before they withdrew in 2000.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1983年12月14日，“新泽西号”向德鲁兹山区开火，但未造成预期的毁灭性打击。",
+      "support_text": "When the New Jersey unleashed its Volkswagens on 14 December 1983, we saw flames a mile away shoot out of its muzzles. What we didn't see was much destruction - not by Lebanese standards anyway. A few houses in the Druze hills of the Shouf were demolished. Hundreds of people, mostly Shiites and Druze, died. The summit of Mount Lebanon remained intact. There were no flying Volkswagens, no football fields.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "炮击后，黎巴嫩人不再惧怕“新泽西号”和美国，并继续袭击美国目标。",
+      "support_text": "The Lebanese, faced with a bluff called, lost their fear of the New Jersey and, indeed, of the United States. They continued blowing up American embassies and military barracks.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1984年2月，“新泽西号”在掩护美国海军陆战队从贝鲁特撤退时，击杀了一名叙利亚将军。",
+      "support_text": "By February 1984, the New Jersey killed a Syrian army general while covering the \"redeployment\" of the Marines from Beirut.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1993年，以色列在黎巴嫩发动了“问责行动”。",
+      "support_text": "在所提供的文本中未找到",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "1996年，以色列在黎巴嫩发动了“愤怒的葡萄”行动。",
+      "support_text": "在所提供的文本中未找到",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2000年，以色列从黎巴嫩撤军。",
+      "support_text": "Invasion? They played that card in 1978 and 1982 and left a thousand soldiers dead on the field before they withdrew in 2000.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_10",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年，以色列为换回一名被俘士兵而释放了400名囚犯。",
+      "support_text": "在所提供的文本中未找到",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年7月15日，以色列总理为停止黎巴嫩行动提出初步条件。",
+      "support_text": "在所提供的文本中未找到",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年7月21日，以色列增加停止向真主党供应武器的新条件。",
+      "support_text": "在所提供的文本中未找到",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列在黎巴嫩的未命名行动摧毁了其基础设施，同时其行动目标不断扩大。",
+      "support_text": "在所提供的文本中未找到",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "黎巴嫩人民已经忍受了七年内战、叙利亚占领和两次以色列入侵。",
+      "support_text": "The Lebanese, who had already endured seven years of civil war, Syrian occupation and two Israeli invasions.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "新泽西号的提前宣传给黎巴嫩人民留下了深刻印象。",
+      "support_text": "The New Jersey's advance propaganda impressed the Lebanese...",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "海军方面称，新泽西号的火炮能发射巨型弹头并摧毁大片区域。",
+      "support_text": "The Navy would say that the sixteen-inch guns... would send payloads... to clear areas...",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "（为什么是大众汽车而不是小福特）这个问题从未得到解释。",
+      "support_text": "Why a Volkswagen rather than a small Ford, was never explained.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_18",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "黎巴嫩人或美国人踢某种足球（用于比较的假设性事件）。",
+      "support_text": "...if the Lebanese or the Americans played the kind of football that sent a ball into a net instead of over a net...",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "一位海军陆战队军官指向黎巴嫩山的山顶。",
+      "support_text": "A Marine officer I knew pointed at the summit of Mount Lebanon...",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "那位军官告诉我，如果新泽西号开火，那座山将不复存在。",
+      "support_text": "He told me that if the New Jersey fired at that summit, there would be no more Mount Lebanon.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "我们看到了远处火焰喷射的景象。",
+      "support_text": "we saw flames a mile away shoot out of its muzzles.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_22",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "数百人（主要是什叶派和德鲁兹派）在袭击中死亡。",
+      "support_text": "Hundreds of people, mostly Shiites and Druze, died.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国国务卿乔治·舒尔茨欺骗法、英、意盟军，使其加入黎巴嫩的多国部队。",
+      "support_text": "美国国务卿乔治·舒尔茨欺骗了法、英、意盟军，使其加入黎巴嫩的多国部队。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_24",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "法、英、意盟军加入黎巴嫩的多国部队。",
+      "support_text": "法、英、意盟军加入了美国在黎巴嫩的部队。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_25",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "海军陆战队接到命令进行重新部署。",
+      "support_text": "海军陆战队接到命令。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_26",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国发言人坚称重新部署不意味着撤退。",
+      "support_text": "美国发言人坚称重新部署不意味着撤退。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_27",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "新泽西号战舰于1991年被封存。",
+      "support_text": "新泽西号战舰于1991年被封存退役。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_28",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "PreventPassage",
+      "description": "美国将伊拉克军队赶出科威特。",
+      "support_text": "美国将伊拉克军队赶出科威特。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_29",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国邀请叙利亚介入以结束战争。",
+      "support_text": "美国邀请叙利亚介入以结束战争。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_30",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚结束战争。",
+      "support_text": "叙利亚（在美国邀请下）结束战争。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_31",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国人在黎巴嫩犯下了最大的军事错误。",
+      "support_text": "美国人在黎巴嫩犯下了最大的军事错误。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_32",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国人犯下的军事错误是使用了新泽西号战舰。",
+      "support_text": "美国人犯下的军事错误是使用了新泽西号战舰。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_33",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿兹米·比沙拉在《Al Ahram Weekly》上撰写了文章。",
+      "support_text": "阿兹米·比沙拉在《Al Ahram Weekly》上撰写了文章。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_34",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "抵抗力量没有扮演受害者的角色。",
+      "support_text": "抵抗力量没有扮演受害者的角色。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_35",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "抵抗力量没有寻求国际社会对受害者的同情。",
+      "support_text": "抵抗力量没有寻求国际社会对受害者的同情。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_36",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "宾特朱拜勒这个地方过去曾生产鞋子。",
+      "support_text": "宾特朱拜勒这个地方过去曾生产鞋子。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_37",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列几乎将宾特朱拜勒的居民清空。",
+      "support_text": "以色列几乎将宾特朱拜勒的居民清空。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_38",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "八、九名以色列士兵在周三死亡。",
+      "support_text": "八、九名以色列士兵在周三死亡。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_39",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列可能会提供给他们更多的目标。",
+      "support_text": "以色列可能会提供给他们更多的目标。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_40",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "以色列想要带走另外400名囚犯。",
+      "support_text": "以色列想要带走另外400名囚犯。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_41",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "迅速释放1200名被拘留者将能解决问题。",
+      "support_text": "迅速释放1200名被拘留者将能解决问题。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_42",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "黎巴嫩政府将决定执行联合国安理会第1559号决议。",
+      "support_text": "黎巴嫩政府将决定执行联合国安理会第1559号决议。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_43",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "黎巴嫩政府将执行联合国安理会第1559号决议。",
+      "support_text": "黎巴嫩政府将执行联合国安理会第1559号决议。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_44",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "其他民兵组织多年前已在叙利亚的压力下解除了武装。",
+      "support_text": "其他民兵组织多年前已在叙利亚的压力下解除了武装。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_45",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "停火协议将被执行。",
+      "support_text": "停火协议将被执行。",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_46",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "一支驻扎在以色列北部的部队保护黎巴嫩。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_47",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "（行动结束后的）喘息期可能会持续一年左右。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_48",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "将会发生其他危机。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_49",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "将会爆发其他战争。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_50",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "你认为土地掠夺已经结束。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_51",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "你应该去询问巴勒斯坦人（相关情况）。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_52",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴勒斯坦人的财产被（以色列定居者）用栅栏围起来。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_53",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴勒斯坦人的财产被（以色列定居者）没收。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_54",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "你认为以色列会满足于让当地人自生自灭。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_55",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列让当地人独自生活。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_56",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地人设法在这种状况下生活。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_57",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "你应该去询问内盖夫沙漠的贝都因人（相关情况）。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_58",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "贝都因人在以色列军队中服役。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_59",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "（有人）使用孟山都公司的除草剂摧毁他们的庄稼。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_60",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "（他们被胁迫）从而放弃他们的祖传土地。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_61",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "定居者（通过逐步夺取）来救赎这片土地。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_new_node_62",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿拉伯人得到的（作为交换）是子弹和炸弹。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_2",
+      "relation": "before",
+      "support_text": "The New Jersey's advance propaganda impressed the Lebanese, who had already endured seven years of civil war, Syrian occupation and two Israeli invasions."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_3",
+      "relation": "before",
+      "support_text": "Invasion? They played that card in 1978 and 1982 and left a thousand soldiers dead on the field before they withdrew in 2000."
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_4",
+      "relation": "before",
+      "support_text": "文本中明确指出“新泽西号”于1982年抵达，并于1983年12月14日开火，建立了明确的时序关系。"
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_new_node_14",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (4 -> 5)"
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_node_4",
+      "relation": "before",
+      "support_text": "文本中明确指出以色列于1982年入侵，“新泽西号”于1983年12月14日开火，建立了明确的时序关系。"
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_new_node_23",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order和语义逻辑，以色列1982年入侵后，美国开始其外交和军事行动。"
+    },
+    {
+      "source": "text_7_node_4",
+      "target": "text_7_node_5",
+      "relation": "before",
+      "support_text": "The Lebanese, faced with a bluff called, lost their fear of the New Jersey and, indeed, of the United States. They continued blowing up American embassies and military barracks."
+    },
+    {
+      "source": "text_7_node_4",
+      "target": "text_7_new_node_25",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order和语义逻辑，炮击后海军陆战队接到重新部署命令。"
+    },
+    {
+      "source": "text_7_node_5",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "文本中事件5之后紧接着描述了“到1984年2月”发生的事件6，表明了时间顺序。"
+    },
+    {
+      "source": "text_7_node_6",
+      "target": "text_7_node_9",
+      "relation": "before",
+      "support_text": "文本从1984年的事件跳转到1991年，再提及2000年的撤军，建立了明确的时序关系。"
+    },
+    {
+      "source": "text_7_node_6",
+      "target": "text_7_new_node_27",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order和语义逻辑，1984年的重新部署后，新泽西号于1991年被封存。"
+    },
+    {
+      "source": "text_7_new_node_14",
+      "target": "text_7_new_node_15",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (5 -> 6)"
+    },
+    {
+      "source": "text_7_new_node_15",
+      "target": "text_7_new_node_16",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (6 -> 7)"
+    },
+    {
+      "source": "text_7_new_node_16",
+      "target": "text_7_new_node_17",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (7 -> 8)"
+    },
+    {
+      "source": "text_7_new_node_17",
+      "target": "text_7_new_node_18",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (8 -> 9)"
+    },
+    {
+      "source": "text_7_new_node_18",
+      "target": "text_7_new_node_19",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (9 -> 10)"
+    },
+    {
+      "source": "text_7_new_node_19",
+      "target": "text_7_new_node_20",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (10 -> 11)"
+    },
+    {
+      "source": "text_7_new_node_21",
+      "target": "text_7_new_node_22",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (2 -> 3)"
+    },
+    {
+      "source": "text_7_new_node_23",
+      "target": "text_7_new_node_24",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order和语义逻辑，欺骗盟军导致其加入。"
+    },
+    {
+      "source": "text_7_new_node_24",
+      "target": "text_7_node_4",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order和语义逻辑，盟军加入后，新泽西号开火。"
+    },
+    {
+      "source": "text_7_new_node_25",
+      "target": "text_7_new_node_26",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order和语义逻辑，接到命令后，发言人对此进行解释。"
+    },
+    {
+      "source": "text_7_new_node_26",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order和语义逻辑，发言人的声明发生在海军陆战队重新部署期间。"
+    },
+    {
+      "source": "text_7_new_node_27",
+      "target": "text_7_new_node_28",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order和语义逻辑，1991年之后发生了海湾战争。"
+    },
+    {
+      "source": "text_7_new_node_28",
+      "target": "text_7_new_node_29",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order和语义逻辑，海湾战争后，美国邀请叙利亚介入。"
+    },
+    {
+      "source": "text_7_new_node_29",
+      "target": "text_7_new_node_30",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order和语义逻辑，美国的邀请导致叙利亚结束战争。"
+    },
+    {
+      "source": "text_7_new_node_30",
+      "target": "text_7_new_node_31",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order和语义逻辑，战争结束后，回顾并定义其为军事错误。"
+    },
+    {
+      "source": "text_7_new_node_31",
+      "target": "text_7_new_node_32",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order和语义逻辑，定义错误后，具体说明错误的内容。"
+    },
+    {
+      "source": "text_7_new_node_33",
+      "target": "text_7_new_node_34",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (6 -> 7)，撰写文章的事件发生在抵抗力量扮演角色的事件之前。"
+    },
+    {
+      "source": "text_7_new_node_34",
+      "target": "text_7_new_node_35",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (7 -> 8)，关于抵抗力量角色的描述发生在关于其寻求同情的行为之前。"
+    },
+    {
+      "source": "text_7_new_node_36",
+      "target": "text_7_new_node_37",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (1 -> 3)"
+    },
+    {
+      "source": "text_7_new_node_37",
+      "target": "text_7_new_node_38",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (3 -> 4)"
+    },
+    {
+      "source": "text_7_new_node_38",
+      "target": "text_7_new_node_39",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (4 -> 5)"
+    },
+    {
+      "source": "text_7_new_node_40",
+      "target": "text_7_new_node_41",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (1 -> 2)"
+    },
+    {
+      "source": "text_7_new_node_41",
+      "target": "text_7_new_node_42",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (2 -> 4)"
+    },
+    {
+      "source": "text_7_new_node_42",
+      "target": "text_7_new_node_43",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (4 -> 5)"
+    },
+    {
+      "source": "text_7_new_node_43",
+      "target": "text_7_new_node_45",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (5 -> 7)"
+    },
+    {
+      "source": "text_7_new_node_44",
+      "target": "text_7_new_node_41",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (1 -> 2)"
+    },
+    {
+      "source": "text_7_new_node_46",
+      "target": "text_7_new_node_47",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (1 -> 4)"
+    },
+    {
+      "source": "text_7_new_node_47",
+      "target": "text_7_new_node_48",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (4 -> 5)"
+    },
+    {
+      "source": "text_7_new_node_47",
+      "target": "text_7_new_node_49",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (4 -> 5)"
+    },
+    {
+      "source": "text_7_new_node_50",
+      "target": "text_7_new_node_51",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (1 -> 2)"
+    },
+    {
+      "source": "text_7_new_node_51",
+      "target": "text_7_new_node_52",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (2 -> 3)"
+    },
+    {
+      "source": "text_7_new_node_53",
+      "target": "text_7_new_node_54",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (3 -> 4)"
+    },
+    {
+      "source": "text_7_new_node_56",
+      "target": "text_7_new_node_57",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (4 -> 5)"
+    },
+    {
+      "source": "text_7_new_node_57",
+      "target": "text_7_new_node_58",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (5 -> 6)"
+    },
+    {
+      "source": "text_7_new_node_58",
+      "target": "text_7_new_node_59",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (6 -> 7)"
+    },
+    {
+      "source": "text_7_new_node_59",
+      "target": "text_7_new_node_60",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (7 -> 8)"
+    },
+    {
+      "source": "text_7_new_node_60",
+      "target": "text_7_new_node_61",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (8 -> 9)"
+    },
+    {
+      "source": "text_7_new_node_61",
+      "target": "text_7_new_node_62",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order (9 -> 10)"
+    }
+  ]
+}

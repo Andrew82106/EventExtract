@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_169_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1986年美国空袭利比亚导致卡扎菲四岁养女 Hannah 死亡",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_2",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "1988年12月洛克比空难造成270人死亡",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年利比亚情报官阿卜杜拉西特·阿里·迈格拉希因策划空难被定罪",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年BBC纪录片《Conspiracy Files》播出并调查四大线索",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_5",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "纪录片披露神秘来电预警空难并追踪相关人物",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_6",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "纪录片采访巴勒斯坦嫌疑人及被洗清的关联者",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_7",
+      "event_type": "Contact",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "纪录片罕见采访巴勒斯坦组织PFLP-GC领导人阿布德·贾希勒",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "纪录片探讨CIA参与秘密毒品行动导致炸弹误植理论",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "纪录片重审利比亚官方指控及政治报复动机",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "FBI调查负责人明确否认利比亚证据被篡改",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家属质疑调查结果受政治操控未获公开",
+      "source_text": "text_169"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_169_node_1",
+      "target": "text_169_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_169_node_2",
+      "target": "text_169_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_169_node_3",
+      "target": "text_169_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_169_node_4",
+      "target": "text_169_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_169_node_5",
+      "target": "text_169_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_169_node_6",
+      "target": "text_169_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_169_node_7",
+      "target": "text_169_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_169_node_8",
+      "target": "text_169_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_169_node_9",
+      "target": "text_169_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_169_node_10",
+      "target": "text_169_node_11",
+      "relation": "before"
+    }
+  ]
+}

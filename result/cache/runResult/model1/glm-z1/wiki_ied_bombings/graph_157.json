@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_157_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "10月26日周三晚孟买发生三次串联爆炸，时间分别为18:30、18:45、19:00（IST），袭击地点依次为Zaveri Bazaar、Opera House和Kabutarkhana",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "7:30 PM BJP批评Rahul Gandhi对孟买爆炸事件的言论可能纵容恐怖主义",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "8:00 PM Home Ministry官员Bansal表示过早指认恐怖组织不合适",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "",
+      "description": "8:30 PM反对党RJD和SP领袖批评Chidambaram否认情报失误的言论",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "",
+      "description": "9:30 PM PM宣布对遇难者家属每人发放20万卢比抚恤金",
+      "source_text": "text_157"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_157_node_1",
+      "target": "text_157_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_157_node_2",
+      "target": "text_157_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_157_node_3",
+      "target": "text_157_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_157_node_4",
+      "target": "text_157_node_5",
+      "relation": "before"
+    }
+  ]
+}

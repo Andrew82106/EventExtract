@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_17_node_1",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "Demotion",
+      "description": "Jin Ruchao于1983年被No.3棉花厂以'滋事'为由解雇",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2023年周五Shijiazhuang发生四次住宅区爆炸，造成108人死亡",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方承认爆炸案可能涉及多人，并确认扁平化大型住宅区",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "中国警方将爆炸案悬赏金额提高至10万人民币（12,000美元）",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "《文汇报》周二报道警方逮捕一名涉嫌向Jin出售100公斤炸药的女子",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "《文汇报》周二披露Jin与所有爆炸目标存在关联",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shijiazhuang警方拒绝就Jin当前藏匿情况置评",
+      "source_text": "text_17"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_4",
+      "target": "text_17_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_5",
+      "target": "text_17_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_17_node_6",
+      "target": "text_17_node_7",
+      "relation": "before"
+    }
+  ]
+}

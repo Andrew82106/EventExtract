@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "text_88_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Omagh爆炸案由Real IRA于1998年8月实施，造成29人死亡、200余人受伤",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家属从北爱尔兰飞抵伦敦，在Cock Tavern外举行和平 vigil",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_3",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "32 County Sovereignty Movement在伦敦酒吧举办筹款活动，宣称用于支持共和派囚犯",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "家属携带蜡烛和照片进入酒吧，在筹款活动室内举牌抗议",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家属发表演讲，谴责筹款资金可能用于购买武器和维持暴力政治议程",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "家属在抗议现场展示受害者照片，强调反对通过暴力达成政治目标",
+      "source_text": "text_88"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_88_node_1",
+      "target": "text_88_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_2",
+      "target": "text_88_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_3",
+      "target": "text_88_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_4",
+      "target": "text_88_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_4",
+      "target": "text_88_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_88_node_5",
+      "target": "text_88_node_6",
+      "relation": "before"
+    }
+  ]
+}

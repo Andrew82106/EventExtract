@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_7_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击前塔利班在全国范围内发动多起针对安全部队的致命袭击",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年7月1日早晨，卡车炸弹在喀布尔Wazir Akbar Khan地区爆炸",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "五名武装分子进入附近建筑，对撤离的阿富汗安全人员进行枪击",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_3",
+      "event_type": "DamageDestroyDisableDismantle",
+      "event_subtype": "Destroy",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致45人死亡（含5名攻击者），116人受伤（含26名儿童、5名妇女）",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗卫生部发言人Wahidullah Mayar确认伤亡数字",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿富汗内政部发言人Nasrat Rahimi报告攻击细节",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班宣称对爆炸负责",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国驻军阿富汗第18年，暴力持续增加",
+      "source_text": "text_7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_7_node_8",
+      "target": "text_7_node_1",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_4",
+      "target": "text_7_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_5",
+      "target": "text_7_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_7_node_6",
+      "target": "text_7_node_7",
+      "relation": "before"
+    }
+  ]
+}

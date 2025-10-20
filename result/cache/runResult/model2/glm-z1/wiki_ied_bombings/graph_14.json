@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "text_14_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Carlos the Jackal (Ilich Ramirez Sanchez) was born into a wealthy Venezuelan family and studied in Moscow before joining the Popular Front for the Liberation of Palestine",
+      "support_text": "Carlos was born into a wealthy Venezuelan family, and studied in Moscow before joining the Popular Front for the Liberation of Palestine.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_2",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Carlos converted to Islam in 1975 and was convicted in France for a triple murder that same year",
+      "support_text": "Carlos was already serving life in a Paris prison for a triple murder in 1975.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "In March 1982, Carlos carried out a train bombing between Paris and Toulouse, killing 5 and injuring 28",
+      "support_text": "The first bombing, in March 1982, was on a train between Paris and Toulouse, killing five people and wounding 28.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "A month later in April 1982, Carlos bombed an anti-Syrian newspaper in Paris, killing 1 and injuring 60",
+      "support_text": "followed a month later by the car bombing of an anti-Syrian newspaper in Paris. One passer-by was killed and 60 injured.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "On New Year's Eve 1983, Carlos bombed a TGV train between Marseille and Paris, killing 3 and injuring 13",
+      "support_text": "On New Year's Eve 1983, Carlos bombed a TGV train between Marseille and Paris, killing 3 and injuring 13.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The same day, Carlos bombed a Marseille train station, killing 2 people",
+      "support_text": "and a bomb at a Marseille train station, killing two.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Carlos was arrested by French special forces in Sudan in 1994 after becoming infamous for attacks and hostage-takings",
+      "support_text": "Carlos was captured by French special forces in Sudan in 1994.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "In December 2011, Carlos was permanently sentenced to life imprisonment in France for the 1980s attacks following fresh evidence discovery",
+      "support_text": "Self-styled revolutionary 'Carlos the Jackal' has been convicted in France of organising four deadly attacks in the 1980s and sentenced to life in prison.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Carlos策划了四起致命袭击",
+      "support_text": "Self-styled revolutionary 'Carlos the Jackal' has been convicted in France of organising four deadly attacks in the 1980s and sentenced to life in prison.",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_10",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "Carlos the Jackal被法国法庭以组织致命袭击罪名进行审判",
+      "support_text": "他被审判",
+      "source_text": "text_14"
+    },
+    {
+      "id": "text_14_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "第一次爆炸后一个月发生汽车炸弹袭击",
+      "support_text": "第一次爆炸后一个月发生汽车炸弹袭击",
+      "source_text": "text_14"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_14_node_1",
+      "target": "text_14_node_2",
+      "relation": "before",
+      "support_text": "Carlos was already serving life in a Paris prison for a triple murder in 1975."
+    },
+    {
+      "source": "text_14_node_2",
+      "target": "text_14_node_3",
+      "relation": "before",
+      "support_text": "Carlos was already serving life in a Paris prison for a triple murder in 1975."
+    },
+    {
+      "source": "text_14_node_3",
+      "target": "text_14_node_4",
+      "relation": "before",
+      "support_text": "followed a month later by the car bombing of an anti-Syrian newspaper in Paris."
+    },
+    {
+      "source": "text_14_node_3",
+      "target": "text_14_node_11",
+      "relation": "before",
+      "support_text": "第一次爆炸后一个月发生汽车炸弹袭击"
+    },
+    {
+      "source": "text_14_node_4",
+      "target": "text_14_node_5",
+      "relation": "before",
+      "support_text": "the other two bombings took place on New Year's Eve 1983"
+    },
+    {
+      "source": "text_14_node_5",
+      "target": "text_14_node_7",
+      "relation": "before",
+      "support_text": "By that time he had earned global notoriety as a mastermind of deadly bomb attacks, assassinations and hostage-takings."
+    },
+    {
+      "source": "text_14_node_7",
+      "target": "text_14_node_8",
+      "relation": "before",
+      "support_text": "Self-styled revolutionary 'Carlos the Jackal' has been convicted in France of organising four deadly attacks in the 1980s and sentenced to life in prison."
+    },
+    {
+      "source": "text_14_node_7",
+      "target": "text_14_node_10",
+      "relation": "before",
+      "support_text": "在1994年被捕后开始审判程序"
+    },
+    {
+      "source": "text_14_node_9",
+      "target": "text_14_node_3",
+      "relation": "before",
+      "support_text": " Carlos策划了四起致命袭击，其中首起发生在1982年3月的巴黎至图卢兹火车爆炸案"
+    }
+  ]
+}

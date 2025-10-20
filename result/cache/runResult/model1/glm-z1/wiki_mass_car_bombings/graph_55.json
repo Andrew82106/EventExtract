@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "text_55_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2009年8月18日：自杀式爆炸袭击西方军事车队，导致10人死亡",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2009年10月8日：自杀 bomber 攻击印度使馆，造成至少17人死亡",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年10月24日：袭击联合国嘉宾，6名联合国员工和3名阿富汗人死亡",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2009年12月15日：酒店附近发生自杀袭击，6人死亡",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2010年1月18日：塔利班袭击政府目标和购物中心，导致12人死亡",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2010年2月26日：喀布尔外国人区发生爆炸和枪击事件，17人死亡",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2010年3月14日：议会附近发生自杀式汽车炸弹袭击，18人死亡（含5名美军）",
+      "source_text": "text_55"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_2",
+      "target": "text_55_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_3",
+      "target": "text_55_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_4",
+      "target": "text_55_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_5",
+      "target": "text_55_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_6",
+      "target": "text_55_node_7",
+      "relation": "before"
+    }
+  ]
+}

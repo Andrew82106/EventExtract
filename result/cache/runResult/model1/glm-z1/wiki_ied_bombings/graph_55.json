@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "text_55_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1:45 PM，Shikarpur市中央Imambargah（卡尔巴拉清真寺）在周五祈祷期间发生爆炸，造成61人死亡、50人重伤",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸导致清真寺部分倒塌，伤者被掩埋在瓦砾下，数百人自发参与救援",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者称现场血肉横飞、焦臭刺鼻，伤者被紧急送往医院",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方初步调查爆炸由自杀式袭击者或6-7公斤爆炸物引发",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sindh省卫生部长确认死亡人数增至61人，其中54人送医，7人分别在Sukkur和Larkana死亡",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_6",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shikarpur医院接收大量伤员，电视画面显示混乱的救援场景",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_7",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "1.5公里外另一清真寺居民称感受到地面震动",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shia组织官员称爆炸时400人正在祈祷",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jundullah恐怖组织宣称对袭击负责，该组织曾针对Balochistan哈扎拉什叶派和伊朗进行破坏活动",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_10",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shikarpur当地居民称军警增派救护车应对救援车辆不足问题",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_11",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "Sindh信息部长宣布实施全城紧急状态，医院进入应急响应",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者描述城市处于封锁状态，警察和边防部队加强巡逻",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_13",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "多名居民报告亲属伤亡，包括1人失去5名未成年子女",
+      "source_text": "text_55"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_2",
+      "target": "text_55_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_2",
+      "target": "text_55_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_3",
+      "target": "text_55_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_4",
+      "target": "text_55_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_5",
+      "target": "text_55_node_13",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_6",
+      "target": "text_55_node_10",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_8",
+      "target": "text_55_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_10",
+      "target": "text_55_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_55_node_11",
+      "target": "text_55_node_12",
+      "relation": "before"
+    }
+  ]
+}

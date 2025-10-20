@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_191_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年4月19日，麦克维伊和尼科尔斯策划的卡车炸弹袭击俄克拉荷马联邦大楼，造成168人死亡",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年5月，麦克维伊在爆炸后不到两小时被捕",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_3",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年，美国司法部启动史上最大规模调查，收集3.5吨证据和1亿条信息",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1997年，得州发生未遂天然气厂爆炸计划，4名嫌疑人参与",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年6月11日，麦克维伊因谋杀罪被处决",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年1月，迈克尔·福特在服刑85%后获释",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年后美国仇恨团体数量上升33%",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2005年美国登记803个仇恨团体，较1999年增长32%",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "南方贫困法律中心报告显示60起国内恐袭未遂案",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "路易斯·弗里指出1995年恐袭揭示国内极端右翼威胁",
+      "source_text": "text_191"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_191_node_1",
+      "target": "text_191_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_191_node_2",
+      "target": "text_191_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_191_node_3",
+      "target": "text_191_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_191_node_4",
+      "target": "text_191_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_191_node_5",
+      "target": "text_191_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_191_node_6",
+      "target": "text_191_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_191_node_7",
+      "target": "text_191_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_191_node_8",
+      "target": "text_191_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_191_node_10",
+      "target": "text_191_node_1",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_159_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1月15日晚上，以色列人拥有的Mifgash-Israel餐厅发生爆炸，造成25人受伤",
+      "source_text": "text_159"
+    },
+    {
+      "id": "text_159_node_2",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致5名伤者住院，包括一名情况危急的婴儿女孩",
+      "source_text": "text_159"
+    },
+    {
+      "id": "text_159_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "西德新闻社接到匿名电话指控爆炸系巴勒斯坦人民阵线所为",
+      "source_text": "text_159"
+    },
+    {
+      "id": "text_159_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "柏林警察以涉嫌参与爆炸为由拘留6名巴勒斯坦人",
+      "source_text": "text_159"
+    },
+    {
+      "id": "text_159_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "因缺乏证据，柏林警察释放被拘留的6名巴勒斯坦人",
+      "source_text": "text_159"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_159_node_1",
+      "target": "text_159_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_159_node_2",
+      "target": "text_159_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_159_node_3",
+      "target": "text_159_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_159_node_4",
+      "target": "text_159_node_5",
+      "relation": "before"
+    }
+  ]
+}

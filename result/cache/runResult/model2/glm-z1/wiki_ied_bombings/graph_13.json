@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "text_13_node_1",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "Mumbai Police sent an SMS to all cellphone users in Mumbai after the serial blasts, instructing people to stay indoors and watch news channels",
+      "support_text": "All cellphone users in Mumbai got this message from the Mumbai Police right after the serial blasts this evening. The SMS said, \"Bomb blasts reported at Zaveri Bazaar, Dadar. Please be careful. Stay indoors. Watch news channels.\"",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Home Minister P Chidambaram announced that his office would brief the public through media updates every two hours",
+      "support_text": "The Home Minister P Chidambaram also said this evening that his office will brief the people through the media every two hours.",
+      "source_text": "text_13"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_2",
+      "relation": "before",
+      "support_text": "right after the serial blasts this evening"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "id": "text_34_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰国利用装满炸药的冷藏卡车在巴格达卡拉达区发动自杀式爆炸",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "同日巴格达沙卜区发生路边炸弹袭击，造成2人死亡",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "周一统计显示卡拉达区死亡人数升至175人，伤200人，仍有37人失踪",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣称对卡拉达区爆炸负责，称这是其在伊拉克最致命的袭击",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "阿巴迪总理访问卡拉达区时遭民众扔掷物品抗议",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "",
+      "description": "阿巴迪政府宣布撤换持续使用的无效爆炸物探测器",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "",
+      "description": "阿巴迪领导的政府军去年5月发起 Falluja 攻势，上周收复该市",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "阿巴迪去年12月宣布击败伊斯兰国，但此次袭击显示其仍具渗透能力",
+      "source_text": "text_34"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_34_node_2",
+      "target": "text_34_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_34_node_3",
+      "target": "text_34_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_34_node_4",
+      "target": "text_34_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_34_node_5",
+      "target": "text_34_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_34_node_8",
+      "target": "text_34_node_7",
+      "relation": "before"
+    }
+  ]
+}

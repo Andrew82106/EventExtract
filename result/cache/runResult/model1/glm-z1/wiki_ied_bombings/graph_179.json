@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "text_179_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2011年9月20日，土耳其安卡拉基齐莱区发生汽车炸弹袭击，造成3人死亡、15人受伤",
+      "source_text": "text_179"
+    },
+    {
+      "id": "text_179_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2020年5月1日，涉嫌策划2011年安卡拉爆炸案的嫌疑人被逮捕",
+      "source_text": "text_179"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_179_node_1",
+      "target": "text_179_node_2",
+      "relation": "before"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_72_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周二 rush hour（6:30-7:00 PM）孟买西港通勤铁路发生八次爆炸，造成至少200人死亡、700余人受伤",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_2",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤者Raphod在爆炸中距炸弹3米处受伤，头部被碎片击中，经历短暂黑暗和粉尘覆盖",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Raphod与同伴在完全损毁的车厢中艰难逃离轨道，目睹女士优先车厢发生恐慌",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "Raphod头部缝合后接受三小时观察治疗，因剧烈头痛暂停工作",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "强调孟买通勤铁路作为日均600万乘客的全球最拥挤铁路系统，是城市不可替代的生存基础",
+      "source_text": "text_72"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_72_node_1",
+      "target": "text_72_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_72_node_2",
+      "target": "text_72_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_72_node_3",
+      "target": "text_72_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_72_node_4",
+      "target": "text_72_node_5",
+      "relation": "before"
+    }
+  ]
+}

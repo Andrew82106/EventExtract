@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "text_38_node_1",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "马邦警方逮捕至少350名穆斯林聚居区随机挑选的年轻男子进行问询",
+      "support_text": "Mumbai, July 13 The anti-terrorism squad of the Maharashtra police has rounded up at least 350 persons in different parts of the state",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方拘留多个地区的前禁运组织SIMI活动分子",
+      "support_text": "The police decided to detain former activists of the banned Students Islamic Movement of India",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "在 Aurangabad 收获包含43公斤RDX的武器弹药库",
+      "support_text": "a huge cache of arms and ammunition, including 43 kg of RDX, were recovered from Aurangabad",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "成立7支专项调查组追踪爆炸嫌疑人",
+      "support_text": "The Maharashtra Government had set up seven teams to track down the bombing suspects",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "通过Matunga等火车站至巴基斯坦/迪拜的通话记录锁定目标",
+      "support_text": "The police had been looking out for persons who made telephone calls to Pakistan around the time of explosions",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "对 STD亭主进行询问以获取通话者特征",
+      "support_text": "Owners of STD booths were being questioned to obtain a description of those who made the phone calls",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "根据4名目击者描述制作嫌疑人素描（未向媒体公开）",
+      "support_text": "Four persons had come forward to provide descriptions",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "法医专家质疑马邦警方关于爆炸物使用RDX的声明",
+      "support_text": "Earlier claims by the Mumbai police that RDX was used in the blasts were being questioned by forensic experts",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方持续寻找可能提前离开住所的人",
+      "support_text": "The police had been looking out for persons who made telephone calls to Pakistan around the time of explosions",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "齐亚布丁·安萨里协调多个伊斯兰运动组织成员",
+      "support_text": "语义描述：齐亚布丁·安萨里协调多个伊斯兰运动组织成员",
+      "source_text": "text_38"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_38_node_1",
+      "target": "text_38_node_2",
+      "relation": "before",
+      "support_text": "The police decided to detain former activists of the banned Students Islamic Movement of India"
+    },
+    {
+      "source": "text_38_node_2",
+      "target": "text_38_node_3",
+      "relation": "before",
+      "support_text": "since a huge cache of arms and ammunition, including 43 kg of RDX, were recovered from Aurangabad"
+    },
+    {
+      "source": "text_38_node_3",
+      "target": "text_38_node_4",
+      "relation": "before",
+      "support_text": "The Maharashtra Government had set up seven teams to track down the bombing suspects"
+    },
+    {
+      "source": "text_38_node_3",
+      "target": "text_38_node_8",
+      "relation": "before",
+      "support_text": "Earlier claims by the Mumbai police that RDX was used in the blasts were being questioned by forensic experts"
+    },
+    {
+      "source": "text_38_node_4",
+      "target": "text_38_node_5",
+      "relation": "before",
+      "support_text": "The police had been looking out for persons who made telephone calls to Pakistan around the time of explosions"
+    },
+    {
+      "source": "text_38_node_5",
+      "target": "text_38_node_6",
+      "relation": "before",
+      "support_text": "Owners of STD booths were being questioned to obtain a description of those who made the phone calls"
+    },
+    {
+      "source": "text_38_node_6",
+      "target": "text_38_node_7",
+      "relation": "before",
+      "support_text": "Four persons had come forward to provide descriptions"
+    },
+    {
+      "source": "text_38_node_7",
+      "target": "text_38_node_8",
+      "relation": "before",
+      "support_text": "Earlier claims by the Mumbai police that RDX was used in the blasts were being questioned by forensic experts"
+    },
+    {
+      "source": "text_38_node_9",
+      "target": "text_38_node_5",
+      "relation": "before",
+      "support_text": "基于语义描述的时序关联"
+    },
+    {
+      "source": "text_38_node_10",
+      "target": "text_38_node_2",
+      "relation": "before",
+      "support_text": "根据语义描述的时序关联，协调行动发生在被捕前"
+    }
+  ]
+}

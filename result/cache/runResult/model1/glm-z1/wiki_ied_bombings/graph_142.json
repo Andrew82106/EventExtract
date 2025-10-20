@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_142_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2004年3月11日，马德里四列通勤火车遭背包炸弹袭击，造成191人死亡、1800人受伤",
+      "source_text": "text_142"
+    },
+    {
+      "id": "text_142_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "28名被告在审判前被押送至马德里法院，现场部署直升机和数百名警察",
+      "source_text": "text_142"
+    },
+    {
+      "id": "text_142_node_3",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "审判持续五个月，包括数百证人作证、40余名律师辩论及被告绝食抗议",
+      "source_text": "text_142"
+    },
+    {
+      "id": "text_142_node_4",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官宣布21人 guilty、7人 acquitted，其中摩洛哥人Mohamed因证据不足被释放",
+      "source_text": "text_142"
+    },
+    {
+      "id": "text_142_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "三主犯各获近4万年刑期，但因西班牙法律上限改为40年",
+      "source_text": "text_142"
+    },
+    {
+      "id": "text_142_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "四名主犯被 acquittal of murder 但 convicted of恐怖组织关联等次要罪名",
+      "source_text": "text_142"
+    },
+    {
+      "id": "text_142_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "14名被告被 convicted of恐怖组织关联等次要罪名",
+      "source_text": "text_142"
+    },
+    {
+      "id": "text_142_node_8",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官宣布赔偿受害者，金额从30,000欧元至1,500,000欧元不等",
+      "source_text": "text_142"
+    },
+    {
+      "id": "text_142_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者协会代表批评刑期过轻，认为未体现受害者损失严重性",
+      "source_text": "text_142"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_142_node_1",
+      "target": "text_142_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_142_node_2",
+      "target": "text_142_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_142_node_3",
+      "target": "text_142_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_142_node_4",
+      "target": "text_142_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_142_node_5",
+      "target": "text_142_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_142_node_6",
+      "target": "text_142_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_142_node_7",
+      "target": "text_142_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_142_node_8",
+      "target": "text_142_node_9",
+      "relation": "before"
+    }
+  ]
+}

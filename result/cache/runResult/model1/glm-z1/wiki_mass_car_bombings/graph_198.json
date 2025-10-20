@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "text_198_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "IRA于1993年在伦敦金融城Bishopsgate安放自制炸弹，造成1死40余人受伤",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸导致圣埃德蒙堡教堂倒塌、伦敦地铁利物浦街站损毁，直接经济损失超1亿英镑",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认炸弹由IRA制造，使用与一年前波罗的海交易所炸弹相同的自制装置",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "安全人员雷蒙德·费耶斯等目击者证实IRA重复袭击同一区域",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者身份确认为自由摄影师埃德·亨蒂，其作品记录金融城重建过程",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府实施金融城安全封锁，建立道路检查站",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRA对一个月前沃林顿儿童炸弹袭击事件公开道歉",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_8",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRA袭击后伦敦保险业面临危机，劳合社等机构因巨额赔付濒临破产",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "IRA在伦敦金融城完成首次爆炸后，两周内对修复中的波罗的海交易所实施二次袭击",
+      "source_text": "text_198"
+    },
+    {
+      "id": "text_198_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRA持续在金融城制造恐慌，单月内发动至少3次针对金融核心区的袭击",
+      "source_text": "text_198"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_198_node_1",
+      "target": "text_198_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_1",
+      "target": "text_198_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_2",
+      "target": "text_198_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_2",
+      "target": "text_198_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_2",
+      "target": "text_198_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_3",
+      "target": "text_198_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_3",
+      "target": "text_198_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_3",
+      "target": "text_198_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_198_node_9",
+      "target": "text_198_node_10",
+      "relation": "before"
+    }
+  ]
+}

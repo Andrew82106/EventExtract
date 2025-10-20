@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {
+      "id": "text_103_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "7月13日Zaveri Bazaar、Opera House和Dadar发生三次爆炸，造成130人受伤",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "7月13日Avinash Tamka因Zaveri Bazaar爆炸后在Bombay Hospital的ICU死亡",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "7月14日Babulal Das因Opera House爆炸后在Saifee Hospital死亡，死亡总数升至19人",
+      "source_text": "text_103"
+    },
+    {
+      "id": "text_103_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后仍有20名重伤者在各医院接受治疗",
+      "source_text": "text_103"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_103_node_1",
+      "target": "text_103_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_1",
+      "target": "text_103_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_2",
+      "target": "text_103_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_103_node_3",
+      "target": "text_103_node_4",
+      "relation": "before"
+    }
+  ]
+}

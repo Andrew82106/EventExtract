@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_119_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其于2022年10月9日发动跨境军事行动，针对叙利亚东北部库尔德YPG武装",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "PreventPassage",
+      "description": "特朗普政府于2022年10月从叙东北部撤出美军，导致土耳其发动地面进攻",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其支持的武装控制了叙土边境城镇Tel Abyad和Serekaniye",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "YPG因与PKK关联被土耳其定性为恐怖组织，其与美国的反恐联盟被打破",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "上周六（具体日期未明）Tel Abyad主街发生汽车炸弹袭击，造成至少10人死亡25人受伤",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_6",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "爆炸导致民宅和商铺严重损毁，社交媒体视频显示现场浓烟和废墟",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "当地市政机构指控YPG和PKK实施袭击，土国防部称死亡3人伤20人",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "库尔德SDF部队否认袭击平民，指责土耳其雇佣兵通过爆炸驱离剩余库尔德居民",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "SDF发言人Mustafa Bali在社交媒体披露土耳其武装持续在边境城镇制造恐袭",
+      "source_text": "text_119"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_119_node_1",
+      "target": "text_119_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_119_node_2",
+      "target": "text_119_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_119_node_3",
+      "target": "text_119_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_119_node_4",
+      "target": "text_119_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_119_node_5",
+      "target": "text_119_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_119_node_5",
+      "target": "text_119_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_119_node_5",
+      "target": "text_119_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_119_node_7",
+      "target": "text_119_node_9",
+      "relation": "before"
+    }
+  ]
+}

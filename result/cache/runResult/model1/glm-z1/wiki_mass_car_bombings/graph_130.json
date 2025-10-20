@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_130_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2016年2月28日，萨德尔城市场发生双自杀炸弹袭击，造成70人死亡",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2016年3月6日，Hilla检查站入口处发生卡车炸弹袭击，导致47人死亡",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2016年5月11日，巴格达什叶派城区汽车炸弹袭击，造成93人死亡，其中市场内64人",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2016年11月17日（根据上下文推断），ISIS分子与安全部队交火，一名自杀式袭击者在前往卡尔巴拉途中引爆炸弹，导致8名平民死亡",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "2016年11月24日，ISIS在伊拉克希尔拉附近发动卡车炸弹袭击，77名什叶派朝圣者死亡，40人受伤",
+      "source_text": "text_130"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_130_node_1",
+      "target": "text_130_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_130_node_2",
+      "target": "text_130_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_130_node_3",
+      "target": "text_130_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_130_node_4",
+      "target": "text_130_node_5",
+      "relation": "before"
+    }
+  ]
+}

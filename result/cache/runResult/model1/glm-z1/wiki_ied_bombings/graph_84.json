@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_84_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "佩什瓦尔Marhaba酒店一楼遭遇炸弹袭击，导致四层建筑部分坍塌",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸发生时酒店正处于午餐高峰期， reception lobby区域受损严重",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "幸存者描述酒店内出现大量尸体和肢体残骸，街道也布满爆炸物残留",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗裔餐厅老板及其两名儿子等6人确认死亡，7名员工遇难",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "至少1名妇女和1名儿童在爆炸中丧生，1条断腿和波斯语警告信被发现",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "当地居民使用救护车和手推车实施初步救援，伤者被送往Lady Reading医院",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "省级警察局长称事件为恐怖袭击，初步怀疑系自杀式爆炸",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_8",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸导致附近建筑受损，电视画面显示酒店内部严重损毁",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_9",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查发现爆炸物残留物和疑似袭击者遗体的断腿残肢",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "酒店因地处商业区且靠近阿富汗旅客聚集区，成为袭击目标",
+      "source_text": "text_84"
+    },
+    {
+      "id": "text_84_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "佩什瓦尔过去一年发生多起爆炸，部分与政府军事行动及阿富汗情报机构有关",
+      "source_text": "text_84"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_84_node_1",
+      "target": "text_84_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_2",
+      "target": "text_84_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_3",
+      "target": "text_84_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_3",
+      "target": "text_84_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_4",
+      "target": "text_84_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_6",
+      "target": "text_84_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_7",
+      "target": "text_84_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_7",
+      "target": "text_84_node_11",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_8",
+      "target": "text_84_node_9",
+      "relation": "before"
+    },
+    {
+      "source": "text_84_node_10",
+      "target": "text_84_node_1",
+      "relation": "before"
+    }
+  ]
+}

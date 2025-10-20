@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "text_27_node_1",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Timothy McVeigh于1995年4月22日被逮捕，当时仍涉嫌俄克拉荷马城爆炸案",
+      "support_text": "Timothy McVeigh is apprehended April 22, 1995",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "NBC Nightly News报道了Timothy McVeigh的逮捕情况",
+      "support_text": "NBC Nightly News reports on the apprehension of Timothy McVeigh",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "发布《McVeigh Tapes: Confessions of an American Terrorist》纪录片",
+      "support_text": "Hear his never-before chilling confession, on The McVeigh Tapes: Confessions of an American Terrorist",
+      "source_text": "text_27"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_27_node_1",
+      "target": "text_27_node_2",
+      "relation": "before",
+      "support_text": "NBC Nightly News reports on the apprehension of Timothy McVeigh"
+    },
+    {
+      "source": "text_27_node_2",
+      "target": "text_27_node_3",
+      "relation": "before",
+      "support_text": "Hear his never-before chilling confession"
+    }
+  ]
+}

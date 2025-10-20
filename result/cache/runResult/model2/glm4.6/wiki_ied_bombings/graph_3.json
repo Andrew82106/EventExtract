@@ -1,0 +1,513 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "午餐时间，白沙瓦的Marhaba酒店大堂发生爆炸。",
+      "support_text": "Police say the blast happened at lunchtime in the reception lobby when the hotel was crowded with diners.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致酒店部分损毁，有人员被困在内部。",
+      "support_text": "The ground-floor blast demolished parts of the four-storey Marhaba hotel near a busy market, trapping people inside.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "官方称爆炸造成多达30人受伤。",
+      "support_text": "Up to 30 people were injured, officials said.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救护车和手推车被用来将伤者送往医院。",
+      "support_text": "Ambulances and hand-pushed carts were used to ferry them to hospital.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者在现场发现大量尸体和残肢。",
+      "support_text": "\"I lost my senses, and when I came round and ran to see, there were dead bodies and body parts everywhere, even out in the street,\"",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "当地民众帮助救援人员救出幸存者并搬运尸体。",
+      "support_text": "Local people helped get survivors out of the building and retrieve bodies.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认遇难者中包括餐厅老板、其亲属、员工以及一名妇女和一名儿童。",
+      "support_text": "He said the Afghan owner of the restaurant, his two sons and two other relatives were among the dead. Seven employees had also been killed. Provincial police chief Sharif Virk said at least one woman and a child were also among the dead.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官方推测此次袭击为自杀式炸弹袭击。",
+      "support_text": "Mr Virk and other senior police and government officials have said they believe the attack was carried out by a suicide bomber.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "在现场发现一条疑似袭击者的断腿，上面绑着一张警告纸条。",
+      "support_text": "They say that a severed leg, possibly that of the alleged bomber, was found at the scene of the blast with a note in Pashto tied to it warning \"American spies\" of a similar fate.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "白沙瓦发生了多次近期的袭击。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "白沙瓦经历或目睹了多次近期的袭击。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方称爆炸事件发生了。",
+      "support_text": "Police say the blast happened at lunchtime in the reception lobby when the hotel was crowded with diners.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "穆罕默德·易卜拉欣向BBC讲述了他死里逃生的经历。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "另一人讲述了该地区的恐慌以及死伤者被送往医院的情况。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈桑·汗说他幸存下来是因为当时正在给客人送食物。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_7",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈桑·汗在爆炸中幸存了下来。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_8",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈桑·汗当时正在为客人送食物。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_9",
+      "event_type": "Life",
+      "event_subtype": "Illness",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈桑·汗恢复了知觉。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "哈桑·汗向美联社讲述了现场的惨状。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_11",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "市中心拥挤区域的附近建筑物也遭受了损坏。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "电视画面展示了酒店内破碎的窗户和扭曲的风扇。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "该事件被定性为恐怖主义。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "尚未指明任何嫌疑人。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "没有任何组织声称发动了袭击。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "断腿和字条等物证未曾向记者展示。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_17",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "（设想）一张纸片在爆炸后能被完整地找到（即未损坏）。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府对武装分子发动了打击行动。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_19",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地武装分子为报复政府的打击而采取复仇行动。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "一些爆炸事件被归咎于巴基斯坦附近部落地区的当地武装分子。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "另一些爆炸事件被归咎于阿富汗情报机构。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_22",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式袭击的目标是内政部长。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_23",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式袭击导致近30人死亡。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_24",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡拉奇的暴力事件导致超过40人死亡。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_25",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "记者报道称，没有迹象表明周二的爆炸与卡拉奇的暴力事件有关。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_new_node_26",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "有说法称，一些爆炸是武装分子为报复政府而采取的复仇行动。",
+      "support_text": "原始意义段内容",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_2",
+      "relation": "before",
+      "support_text": "The ground-floor blast demolished parts of the four-storey Marhaba hotel near a busy market, trapping people inside."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_3",
+      "relation": "before",
+      "support_text": "The lunchtime blast caused massive destruction... Up to 30 people were injured, officials said."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_5",
+      "relation": "before",
+      "support_text": "\"I was entering the hotel when suddenly [there was] a huge bomb blast cracking everything around.\" ... \"I lost my senses, and when I came round and ran to see, there were dead bodies and body parts everywhere...\""
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_6",
+      "relation": "before",
+      "support_text": "The ground-floor blast demolished parts... Local people helped get survivors out of the building and retrieve bodies."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_9",
+      "relation": "before",
+      "support_text": "Police say the blast happened... They say that a severed leg... was found at the scene of the blast..."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_new_node_1",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order推断：事件1（具体袭击）发生在事件2（多次袭击的概括）之前。"
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_new_node_3",
+      "relation": "before",
+      "support_text": "警方称爆炸事件发生了，该认知行为发生在爆炸（node_1）之后。"
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_new_node_8",
+      "relation": "before",
+      "support_text": "爆炸（node_1）发生在哈桑·汗送食物（new_node_8, temporal_order=2）之前。"
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_new_node_4",
+      "relation": "before",
+      "support_text": "爆炸（node_1）发生在向BBC讲述（new_node_4, temporal_order=4）之前。"
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_new_node_5",
+      "relation": "before",
+      "support_text": "爆炸（node_1）发生在另一人讲述（new_node_5, temporal_order=4）之前。"
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_6",
+      "relation": "before",
+      "support_text": "...trapping people inside. Local people helped get survivors out of the building and retrieve bodies."
+    },
+    {
+      "source": "text_3_node_3",
+      "target": "text_3_node_4",
+      "relation": "before",
+      "support_text": "Up to 30 people were injured, officials said. Ambulances and hand-pushed carts were used to ferry them to hospital."
+    },
+    {
+      "source": "text_3_node_5",
+      "target": "text_3_node_7",
+      "relation": "before",
+      "support_text": "...there were dead bodies and body parts everywhere... Provincial police chief Sharif Virk said at least one woman and a child were also among the dead."
+    },
+    {
+      "source": "text_3_node_7",
+      "target": "text_3_new_node_24",
+      "relation": "before",
+      "support_text": "根据temporal_order：白沙瓦爆炸导致的死亡(4)发生在卡拉奇暴力事件(6)之前。"
+    },
+    {
+      "source": "text_3_node_8",
+      "target": "text_3_new_node_16",
+      "relation": "before",
+      "support_text": "根据temporal_order推断：官员表态（temporal_order=5）发生在物证未展示（temporal_order=4和6）之后，但此事件与官员表态后的情况相关，建立关联。"
+    },
+    {
+      "source": "text_3_node_9",
+      "target": "text_3_node_8",
+      "relation": "before",
+      "support_text": "They say that a severed leg... was found at the scene of the blast... Mr Virk and other senior police and government officials have said they believe the attack was carried out by a suicide bomber."
+    },
+    {
+      "source": "text_3_node_9",
+      "target": "text_3_new_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order推断：发现证据（temporal_order=2）发生在定性为恐怖主义（temporal_order=3）之前。"
+    },
+    {
+      "source": "text_3_node_9",
+      "target": "text_3_new_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order推断：发现证据（temporal_order=2）发生在尚未指明嫌疑人（temporal_order=3）之前。"
+    },
+    {
+      "source": "text_3_node_9",
+      "target": "text_3_new_node_15",
+      "relation": "before",
+      "support_text": "根据temporal_order推断：发现证据（temporal_order=2）发生在无人声称负责（temporal_order=3）之前。"
+    },
+    {
+      "source": "text_3_node_9",
+      "target": "text_3_new_node_17",
+      "relation": "before",
+      "support_text": "根据temporal_order推断：发现证据（temporal_order=2）发生在对物证状态的设想（temporal_order=7）之前。"
+    },
+    {
+      "source": "text_3_new_node_1",
+      "target": "text_3_new_node_2",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order推断：事件2发生在事件3之前。"
+    },
+    {
+      "source": "text_3_new_node_1",
+      "target": "text_3_node_7",
+      "relation": "before",
+      "support_text": "白沙瓦的系列爆炸事件(2)导致了具体的伤亡结果(4)。"
+    },
+    {
+      "source": "text_3_new_node_7",
+      "target": "text_3_new_node_9",
+      "relation": "before",
+      "support_text": "幸存（new_node_7, temporal_order=2）发生在恢复知觉（new_node_9, temporal_order=3）之前。"
+    },
+    {
+      "source": "text_3_new_node_8",
+      "target": "text_3_new_node_7",
+      "relation": "before",
+      "support_text": "送食物（new_node_8, temporal_order=2）发生在幸存（new_node_7, temporal_order=2）之前。"
+    },
+    {
+      "source": "text_3_new_node_9",
+      "target": "text_3_new_node_6",
+      "relation": "before",
+      "support_text": "恢复知觉（new_node_9, temporal_order=3）发生在讲述幸存原因（new_node_6, temporal_order=4）之前。"
+    },
+    {
+      "source": "text_3_new_node_9",
+      "target": "text_3_new_node_10",
+      "relation": "before",
+      "support_text": "恢复知觉（new_node_9, temporal_order=3）发生在向美联社讲述（new_node_10, temporal_order=4）之前。"
+    },
+    {
+      "source": "text_3_new_node_11",
+      "target": "text_3_new_node_12",
+      "relation": "before",
+      "support_text": "根据动词事件的temporal_order推断：事件1（suffer）发生在事件2（show）之前。"
+    },
+    {
+      "source": "text_3_new_node_18",
+      "target": "text_3_new_node_19",
+      "relation": "before",
+      "support_text": "根据temporal_order：政府的打击(1)发生在武装分子的复仇行动(2)之前，且具有因果关系。"
+    },
+    {
+      "source": "text_3_new_node_19",
+      "target": "text_3_new_node_20",
+      "relation": "before",
+      "support_text": "根据temporal_order：武装分子的复仇行动(2)是其被归咎(3)的原因。"
+    },
+    {
+      "source": "text_3_new_node_19",
+      "target": "text_3_new_node_26",
+      "relation": "before",
+      "support_text": "根据temporal_order：复仇行动(2)是后续相关说法(8)的基础。"
+    },
+    {
+      "source": "text_3_new_node_22",
+      "target": "text_3_new_node_23",
+      "relation": "before",
+      "support_text": "根据temporal_order和事件逻辑：袭击目标(5)和袭击后果(5, 死亡)紧密相连。"
+    },
+    {
+      "source": "text_3_new_node_24",
+      "target": "text_3_new_node_25",
+      "relation": "before",
+      "support_text": "根据temporal_order：卡拉奇的暴力事件(6)是记者报道(8)的背景。"
+    }
+  ]
+}

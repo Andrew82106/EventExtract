@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_39_node_1",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在甘托克市Kyongsa场地周边例行巡逻时发现疑似压力锅炸弹",
+      "support_text": "Policemen stumbled upon the suspected bomb during a routine combing exercise in the area at around 8 am before the arrival of the Chief Minister.",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "爆炸物初步检查显示压力锅部分打开，内部有电线和钟表",
+      "support_text": "The pressure cooker had its lid partially opened and contained wires and a clock inside it, Sikkim DIG, Police, Akshay Sachdeva told UNI.",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方封锁现场并派遣警犬和特制爆炸物团队前往调查",
+      "support_text": "The spot was cordoned off by the police. '' We have dispatched sniffer dogs and a special explosive team to Geyzing and awaiting confirmation from them on whether the object was actually a bomb or a dummy'', said Mr Sachdeva.",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "位于爆炸物现场的附近学校宣布停课",
+      "support_text": "The school near the Kyongsa ground was closed down for today.",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "等待Geyzing确认物体性质",
+      "support_text": "We have dispatched sniffer dogs and a special explosive team to Geyzing and awaiting confirmation from them on whether the object was actually a bomb or a dummy",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "首席部长会议按计划进行",
+      "support_text": "首席部长会议按计划进行",
+      "source_text": "text_39"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_39_node_1",
+      "target": "text_39_node_2",
+      "relation": "before",
+      "support_text": "Three hours before Sikkim Chief Minister Pawan Chamling was scheduled to address a public meeting"
+    },
+    {
+      "source": "text_39_node_2",
+      "target": "text_39_node_3",
+      "relation": "before",
+      "support_text": "Sikkim DIG, Police, Akshay Sachdeva told UNI"
+    },
+    {
+      "source": "text_39_node_3",
+      "target": "text_39_node_4",
+      "relation": "before",
+      "support_text": "Meanwhile, the Chief Minister's public meeting went ahead as scheduled"
+    },
+    {
+      "source": "text_39_node_3",
+      "target": "text_39_node_5",
+      "relation": "before",
+      "support_text": "Sikkim DIG, Police, Akshay Sachdeva told UNI"
+    },
+    {
+      "source": "text_39_node_3",
+      "target": "text_39_node_6",
+      "relation": "before",
+      "support_text": "Meanwhile, the Chief Minister's public meeting went ahead as scheduled"
+    }
+  ]
+}

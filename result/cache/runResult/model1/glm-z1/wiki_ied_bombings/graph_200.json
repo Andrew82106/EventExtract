@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "text_200_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年7月19日，一辆汽车炸弹在喀布尔大学外爆炸，造成8人死亡、33人受伤",
+      "source_text": "text_200"
+    }
+  ],
+  "edges": []
+}

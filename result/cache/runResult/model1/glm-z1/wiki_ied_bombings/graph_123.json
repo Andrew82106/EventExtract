@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "text_123_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "汽车炸弹在摩加迪沙购物中心附近爆炸，造成11人死亡、10人受伤",
+      "source_text": "text_123"
+    },
+    {
+      "id": "text_123_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "目击者描述爆炸导致建筑倒塌，4具尸体从瓦砾中清理，3人现场死亡",
+      "source_text": "text_123"
+    },
+    {
+      "id": "text_123_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "",
+      "description": "目击者回忆爆炸瞬间现场混乱，多人受伤并发出求救声",
+      "source_text": "text_123"
+    },
+    {
+      "id": "text_123_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "警方确认爆炸系恐怖分子利用载有炸药的车辆实施",
+      "source_text": "text_123"
+    },
+    {
+      "id": "text_123_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "al-Shabab被指为摩加迪沙袭击幕后黑手，该组织长期针对西方支持政府",
+      "source_text": "text_123"
+    },
+    {
+      "id": "text_123_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "独立事件：al-Shabab在博萨索港杀害马耳他籍港口经理",
+      "source_text": "text_123"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_123_node_1",
+      "target": "text_123_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_123_node_1",
+      "target": "text_123_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_123_node_1",
+      "target": "text_123_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_123_node_1",
+      "target": "text_123_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_123_node_2",
+      "target": "text_123_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_123_node_3",
+      "target": "text_123_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_123_node_4",
+      "target": "text_123_node_5",
+      "relation": "before"
+    }
+  ]
+}

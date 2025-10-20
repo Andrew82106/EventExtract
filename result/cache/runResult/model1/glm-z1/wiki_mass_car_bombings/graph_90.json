@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "text_90_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRA于1994年8月启动为期18个月的停火协议",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "IRA成员James McArdle参与1996年2月在伦敦南码头附近放置价值150万英镑的卡车炸弹",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹袭击导致2人死亡、150人受伤，并终结IRA的18个月停火协议",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "McArdle于1995年10月至1996年2月期间参与爆炸阴谋",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRA首次派McArdle驾驶改装货柜车至英格兰 Carlisle进行身份验证",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRA第二次派McArdle驾驶货柜车携带自制爆炸物进入伦敦",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Dismantle",
+      "description": "袭击小组在Essex河岸垃圾场丢弃证据并遗弃载具",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "伦敦沃尔威治皇家法院于文本所述日期定罪McArdle",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_id_9",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "陪审团继续审理McArdle两项谋杀指控（涉及Bashir和Jeffries）",
+      "source_text": "text_90"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_90_node_1",
+      "target": "text_90_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_2",
+      "target": "text_90_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_3",
+      "target": "text_90_node_8",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_4",
+      "target": "text_90_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_5",
+      "target": "text_90_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_6",
+      "target": "text_90_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_7",
+      "target": "text_90_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_90_node_8",
+      "target": "text_90_id_9",
+      "relation": "before"
+    }
+  ]
+}

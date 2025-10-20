@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "text_149_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周四（具体日期未提及）发生俄克拉荷马城汽车炸弹袭击",
+      "source_text": "text_149"
+    },
+    {
+      "id": "text_149_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "国际社会（包括盟友和对手）一致谴责袭击",
+      "source_text": "text_149"
+    },
+    {
+      "id": "text_149_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "各国领导人向克林顿总统致信并发声明表达对民众的哀悼",
+      "source_text": "text_149"
+    },
+    {
+      "id": "text_149_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊斯兰抵抗运动（哈马斯）领袖Saiyed abu Musameh公开声明反对袭击",
+      "source_text": "text_149"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_149_node_1",
+      "target": "text_149_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_149_node_2",
+      "target": "text_149_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_149_node_3",
+      "target": "text_149_node_4",
+      "relation": "before"
+    }
+  ]
+}

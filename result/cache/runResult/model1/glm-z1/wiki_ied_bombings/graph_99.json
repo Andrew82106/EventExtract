@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_99_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "巴基斯坦穆尔坦市约3000名逊尼派穆斯林聚集纪念被暗杀的极端组织领导人",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "集会结束后汽车炸弹在场地附近爆炸，两分钟后摩托车炸弹二次爆炸",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "",
+      "description": "爆炸导致至少39人死亡、100余人受伤，现场发现燃烧的汽车残骸和血迹",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "",
+      "description": "医院外的逊尼派抗议者攻击救护车并焚烧轮胎，医院内伤员挤满急诊室",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "",
+      "description": "官员确认使用遥控装置的 Suzuki 小型车炸弹，排除自杀袭击可能",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "",
+      "description": "部署1000名警察和士兵维持秩序，防止逊尼派与什叶派冲突升级",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "",
+      "description": "警方初步判定为sectarian恐怖袭击，尚在调查中",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "",
+      "description": "两周前东部城市什叶派清真寺发生自杀袭击致31人死亡",
+      "source_text": "text_99"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_99_node_1",
+      "target": "text_99_node_2",
+      "relation": "before"
+    },
+    {
+      "source": "text_99_node_2",
+      "target": "text_99_node_3",
+      "relation": "before"
+    },
+    {
+      "source": "text_99_node_3",
+      "target": "text_99_node_4",
+      "relation": "before"
+    },
+    {
+      "source": "text_99_node_4",
+      "target": "text_99_node_5",
+      "relation": "before"
+    },
+    {
+      "source": "text_99_node_5",
+      "target": "text_99_node_6",
+      "relation": "before"
+    },
+    {
+      "source": "text_99_node_6",
+      "target": "text_99_node_7",
+      "relation": "before"
+    },
+    {
+      "source": "text_99_node_8",
+      "target": "text_99_node_1",
+      "relation": "before"
+    }
+  ]
+}
