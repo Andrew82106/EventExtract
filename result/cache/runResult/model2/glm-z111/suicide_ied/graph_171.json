@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "text_171_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Akram Khan Durrani遭遇炸弹袭击，造成2人死亡3人受伤",
+      "support_text": "A bomb blast near the convoy of Federal Minister for Housing and Works Akram Khan Durrani in the Nermikhel area left two people dead and three injured.",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_2",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "部长的车队一辆救护车受损，其本人幸免于难",
+      "support_text": "an ambulance in the convoy was damaged.",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "卫生部门员工Ihsan Khan当场死亡，另一名死者身份未确认",
+      "support_text": "An employee of the health department, Ihsan Khan, died on the spot.",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "伤者Mohammad Rauf、Shireen Khan和司机Abid被送医治疗",
+      "support_text": "Mohammad Rauf, Shireen Khan and driver Abid were injured and taken to District Headquarters Hospital.",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸系遥控引爆的简易爆炸装置造成",
+      "support_text": "Police said the blast had been caused by an improvised explosive device on the road was detonated by remote control.",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Durrani系JUI-F资深领导人，返家途中刚参加该党欢迎新成员集会",
+      "support_text": "was going home after addressing a gathering organised to welcome workers of other parties joining the JUI-F.",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方封锁现场并展开搜查，未发现嫌疑人",
+      "support_text": "Personnel of the police other law-enforcement agencies cordoned off the area and carried out a search but no arrests were made.",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸地点邻近北瓦济斯坦地区",
+      "support_text": "The area where the explosion took place is adjacent to North Waziristan.",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "Durrani曾在2007年担任省首席部长时遭遇过暗杀未遂",
+      "support_text": "He had survived an attempt on his life in 2007 when he was chief minister of Khyber Pakhtunkhwa.",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "目前尚无任何组织宣称对袭击负责",
+      "support_text": "No group has claimed responsibility for the attack.",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "警方报告爆炸事件",
+      "support_text": "Police said the blast had been caused by an improvised explosive device on the road was detonated by remote control.",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_12",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "联邦部长发表讲话",
+      "support_text": "was going home after addressing a gathering organised to welcome workers of other parties joining the JUI-F.",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Akram Khan Durrani勉强逃脱炸弹袭击",
+      "support_text": "Akram Khan Durrani勉强逃脱炸弹袭击",
+      "source_text": "text_171"
+    },
+    {
+      "id": "text_171_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "某团体宣称对袭击负责",
+      "support_text": "某团体宣称对袭击负责",
+      "source_text": "text_171"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_171_node_1",
+      "target": "text_171_node_2",
+      "relation": "before",
+      "support_text": "an ambulance in the convoy was damaged."
+    },
+    {
+      "source": "text_171_node_1",
+      "target": "text_171_node_3",
+      "relation": "before",
+      "support_text": "An employee of the health department, Ihsan Khan, died on the spot."
+    },
+    {
+      "source": "text_171_node_1",
+      "target": "text_171_node_4",
+      "relation": "before",
+      "support_text": "Mohammad Rauf, Shireen Khan and driver Abid were injured and taken to District Headquarters Hospital."
+    },
+    {
+      "source": "text_171_node_1",
+      "target": "text_171_node_7",
+      "relation": "before",
+      "support_text": "Personnel of the police other law-enforcement agencies cordoned off the area and carried out a search but no arrests were made."
+    },
+    {
+      "source": "text_171_node_5",
+      "target": "text_171_node_1",
+      "relation": "before",
+      "support_text": "Police said the blast had been caused by an improvised explosive device on the road was detonated by remote control."
+    },
+    {
+      "source": "text_171_node_6",
+      "target": "text_171_node_1",
+      "relation": "before",
+      "support_text": "was going home after addressing a gathering organised to welcome workers of other parties joining the JUI-F."
+    },
+    {
+      "source": "text_171_node_7",
+      "target": "text_171_node_8",
+      "relation": "before",
+      "support_text": "The area where the explosion took place is adjacent to North Waziristan."
+    },
+    {
+      "source": "text_171_node_7",
+      "target": "text_171_node_10",
+      "relation": "before",
+      "support_text": "No group has claimed responsibility for the attack."
+    },
+    {
+      "source": "text_171_node_9",
+      "target": "text_171_node_1",
+      "relation": "before",
+      "support_text": "He had survived an attempt on his life in 2007 when he was chief minister of Khyber Pakhtunkhwa."
+    },
+    {
+      "source": "text_171_node_11",
+      "target": "text_171_node_12",
+      "relation": "before",
+      "support_text": "根据temporal_order 4 < 5，体现警方报告在部长讲话前发生"
+    },
+    {
+      "source": "text_171_node_13",
+      "target": "text_171_node_1",
+      "relation": "before",
+      "support_text": "根据temporal_order 2 < 1，体现逃脱发生在炸弹袭击前"
+    },
+    {
+      "source": "text_171_node_14",
+      "target": "text_171_node_1",
+      "relation": "after",
+      "support_text": "根据temporal_order 5 > 1，体现宣称发生在炸弹袭击后"
+    }
+  ]
+}

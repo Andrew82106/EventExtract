@@ -1,0 +1,249 @@
+{
+  "nodes": [
+    {
+      "id": "text_31_node_1",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "埃及周日逮捕一名试图在以色列实施自杀式袭击的潜在袭击者",
+      "support_text": "Egyptian security forces on Sunday arrested a would-be suicide bomber in north Sinai, who had left a note for his parents saying that he intended to carry out a suicide attack inside Israel.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周一早晨伊斯兰圣战组织成员在Eilat面包店自杀式爆炸致3人死亡",
+      "support_text": "Islamic Jihad suicide bomber blew himself up in a bakery in the southern resort city of Eilat, killing three people Monday morning.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击前七分钟以色列军方预备役中将Waltinsky因怀疑袭击者可疑报警",
+      "support_text": "Waltinsky then telephoned the police station in the town and said that he suspected the man was a terrorist. Two patrol cars rushed to the scene, but seven minutes after Waltinsky made the call, the bomber carried out the attack.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认爆炸装置重量4-8公斤并封锁现场",
+      "support_text": "Police believe that the explosive device weighed between 4-8 kilograms. Police cordoned off the area.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "哈马斯谴责袭击称其为对以色列政策的'自然回应'",
+      "support_text": "Hamas movement said the attack was a 'natural response' to Israel's policies.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "伊斯兰圣战组织声称袭击者从加沙经约旦走私进入以色列",
+      "support_text": "Islamic Jihad said the bomber... reached Eilat via Jordan, after seven months of preparation.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "以色列军方确认袭击者经埃及西奈半岛进入以色列",
+      "support_text": "the Islamic Jihad suicide bomber... entered Israel through the border with Egypt, several dozen kilometers northwest of Eilat.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方和军方推测Eilat可能存在更多袭击者",
+      "support_text": "Eilat police chief Bruno Stein said they believed there could be more bombers in the city.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认三名遇难者身份包括Haim El-Maliach等",
+      "support_text": "three people and the bomber were killed.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰圣战称袭击者经七个月准备其家人确认执行任务",
+      "support_text": "seven months of preparation.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "以色列总理Olmert与Eilat市长通话",
+      "support_text": "Prime Minister Ehud Olmert said he had spoken to Eilat Mayor Meir Yitzhak Halevi.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列媒体确认爆炸由炸弹引发排除气体泄漏",
+      "support_text": "the explosion had been caused by a bomb, and not a gas leak.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "该袭击成为伊斯兰圣战在Eilat的首个自杀式爆炸事件",
+      "support_text": "This was the first ever suicide bombing in the city.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列将应急响应级别提升至最高",
+      "support_text": "emergency services raised their alert level to the highest.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "军方确认袭击者提前数日步行进入Eilat",
+      "support_text": "he entered Israel several days ago, and made his way to Eilat on foot.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "以色列平民无意中驾驶炸弹袭击者接近袭击现场",
+      "support_text": "以色列平民无意中驾驶炸弹袭击者接近袭击现场",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "以色列平民向警方报告",
+      "support_text": "以色列平民向警方报告",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_18",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "以色列国防军高级军官向《哈雷特兹》报报道",
+      "support_text": "以色列国防军高级军官向《哈雷特兹》报报道",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_19",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "炸弹袭击者离开加沙北部",
+      "support_text": "炸弹袭击者离开加沙北部",
+      "source_text": "text_31"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_31_node_2",
+      "target": "text_31_node_9",
+      "relation": "before",
+      "support_text": "three people and the bomber were killed."
+    },
+    {
+      "source": "text_31_node_3",
+      "target": "text_31_node_2",
+      "relation": "before",
+      "support_text": "seven minutes after Waltinsky made the call, the bomber carried out the attack."
+    },
+    {
+      "source": "text_31_node_4",
+      "target": "text_31_node_8",
+      "relation": "before",
+      "support_text": "Police cordoned off the area, and Eilat police chief Bruno Stein said they believed there could be more bombers in the city."
+    },
+    {
+      "source": "text_31_node_4",
+      "target": "text_31_node_12",
+      "relation": "before",
+      "support_text": "Police believe that the explosive device weighed between 4-8 kilograms."
+    },
+    {
+      "source": "text_31_node_7",
+      "target": "text_31_node_6",
+      "relation": "before",
+      "support_text": "entered Israel through the border with Egypt"
+    },
+    {
+      "source": "text_31_node_7",
+      "target": "text_31_node_15",
+      "relation": "before",
+      "support_text": "Based on the examination of the bomber's body, it appears he entered Israel several days ago, and made his way to Eilat on foot."
+    },
+    {
+      "source": "text_31_node_13",
+      "target": "text_31_node_2",
+      "relation": "before",
+      "support_text": "This was the first ever suicide bombing in the city."
+    },
+    {
+      "source": "text_31_node_14",
+      "target": "text_31_node_8",
+      "relation": "before",
+      "support_text": "emergency services raised their alert level to the highest."
+    },
+    {
+      "source": "text_31_node_16",
+      "target": "text_31_node_2",
+      "relation": "before",
+      "support_text": "炸弹袭击者接近现场后七分钟发生爆炸"
+    },
+    {
+      "source": "text_31_node_17",
+      "target": "text_31_node_3",
+      "relation": "before",
+      "support_text": "平民报告后军方开始调查"
+    },
+    {
+      "source": "text_31_node_18",
+      "target": "text_31_node_5",
+      "relation": "before",
+      "support_text": "军方报道后哈马斯发表声明"
+    },
+    {
+      "source": "text_31_node_19",
+      "target": "text_31_node_6",
+      "relation": "before",
+      "support_text": "炸弹袭击者离开加沙北部后经约旦走私进入以色列"
+    }
+  ]
+}

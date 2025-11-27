@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "id": "text_22_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "奎塔自杀式爆炸：周五早间，奎塔警察检查站遭自杀式袭击，至少14人死亡（含10名警察），由Jamaat-ur-Ahrar宣称负责",
+      "support_text": "Earlier on Friday, a suicide bombing at a police checkpoint in Quetta, in Balochistan province, killed at least 14 people, at least 10 of whom were police officers, the AFP news agency said.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡拉奇路边餐厅袭击：周五，武装分子在卡拉奇路边餐厅袭击警察，造成4人死亡",
+      "support_text": "In yet another incident on Friday, armed men in the port city of Karachi, in Sindh province, attacked police officers at a roadside restaurant and killed four of them before fleeing, Asif Ahmed, a senior police officer, told the Associated Press news agency.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "帕拉奇纳尔市场连环爆炸：周五最后周五（斋月结束前），帕拉奇纳尔市场发生两次爆炸，至少67人死亡，总死亡人数达85人，官方宣布进入紧急状态",
+      "support_text": "The number of people killed in twin bombings in the northwestern Pakistani city of Parachinar has risen to at least 67, bringing the overall death toll from three separate attacks across the country on Friday to 85, officials said. Al Jazeera’s Kamal Hyder, reporting from the capital Islamabad, said a state of emergency was declared in Parachinar following the double bombing.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总理安全部署：尼瓦兹·谢里夫总理宣布全国加强安全措施，称将严惩恐怖分子",
+      "support_text": "Nawaz Sharif, Pakistan’s prime minister, ordered security to be tightened across the country after the attacks. “Terrorists are attacking soft targets and no Muslim can ever imagine to commit such horrific act,” he said in a statement.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "专家批评政策：Zoha Waseem批评巴基斯坦反恐政策‘被动且侵犯人权’，加剧社会矛盾",
+      "support_text": "Zoha Waseem, a researcher at King’s College in London, criticised what she called Pakistan’s “ad hoc” and “reactionary response to terrorism”, saying it only served to increase the appeal of armed groups.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_6",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤者救治情况：帕拉奇纳尔当地官员称爆炸幸存者多处于危重状态，需持续救治",
+      "support_text": "Shahid Khan, a local government official, said the toll could rise as many of the victims remained in critical condition on Saturday. More than 200 people were wounded in the rush-hour attacks on Parachinar’s Toori Bazar, he told local media.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "高级警官向媒体透露事件经过",
+      "support_text": "Asif Ahmed, a senior police officer, told the Associated Press news agency.",
+      "source_text": "text_22"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_2",
+      "relation": "before",
+      "support_text": "Earlier on Friday... killed four of them before fleeing"
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_3",
+      "relation": "before",
+      "support_text": "bringing the overall death toll from three separate attacks across the country on Friday to 85"
+    },
+    {
+      "source": "text_22_node_3",
+      "target": "text_22_node_5",
+      "relation": "before",
+      "support_text": "after the attacks... increase the appeal of armed groups."
+    },
+    {
+      "source": "text_22_node_3",
+      "target": "text_22_node_6",
+      "relation": "before",
+      "support_text": "Shahid Khan... on Saturday. More than 200 people were wounded..."
+    },
+    {
+      "source": "text_22_node_4",
+      "target": "text_22_node_5",
+      "relation": "before",
+      "support_text": "after the attacks... said it only served to increase the appeal of armed groups."
+    }
+  ]
+}

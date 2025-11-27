@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "id": "text_182_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月21日，25岁的罗马尼亚游客Mircea Varga在以色列耶路撒冷Kiryat Menahem社区乘坐No.20 Egged公交车",
+      "support_text": "Mircea Varga Nov 21, 2002 - Mircea Varga, 25, a tourist from Romania, was one of 11 people killed in a suicide bombing on a No. 20 Egged bus in the Kiryat Menahem neighborhood of Jerusalem.",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "7:00 A.M.在Mexico Street上车时，Mircea Varga与携带5公斤炸弹的袭击者同车",
+      "support_text": "The bomber... boarded the bus at approximately 7:00 A.M. on Mexico street in Kiryat Menahem.",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "公交车行至下一站点前，袭击者在车前部引爆炸弹",
+      "support_text": "Before it reached the next stop, the terrorist... set off the bomb",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸造成11人死亡、50人受伤，Mircea Varga成为遇难者之一",
+      "support_text": "killing 11 people and wounding about 50",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Mircea Varga五周前从罗马尼亚赴以色列，与在以色列工作的姐姐Luciana同住",
+      "support_text": "Mircea Varga arrived in Israel five weeks ago from Romania.",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸当日Luciana要求Mircea独自乘车，两人原计划共同通勤",
+      "support_text": "on the morning of the bombing Luciana asked him to go on without her",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Mircea遗体被运回罗马尼亚边境城市Moldava安葬，留下父母和三个兄弟姐妹",
+      "support_text": "Mircea Varga was buried in his home town in Romania, on the border with Moldava.",
+      "source_text": "text_182"
+    },
+    {
+      "id": "text_182_node_8",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mircea Varga开始在耶路撒冷工作以偿还罗马尼亚的债务",
+      "support_text": "Mircea Varga began working in Jerusalem to repay his debts to Romania",
+      "source_text": "text_182"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_182_node_3",
+      "target": "text_182_node_4",
+      "relation": "before",
+      "support_text": "Before it reached the next stop, the terrorist... set off the bomb"
+    },
+    {
+      "source": "text_182_node_4",
+      "target": "text_182_node_7",
+      "relation": "before",
+      "support_text": "He is survived by his parents and three siblings"
+    },
+    {
+      "source": "text_182_node_5",
+      "target": "text_182_node_1",
+      "relation": "before",
+      "support_text": "Mircea Varga arrived in Israel five weeks ago from Romania."
+    },
+    {
+      "source": "text_182_node_5",
+      "target": "text_182_node_8",
+      "relation": "before",
+      "support_text": "Mircea Varga arrived in Israel five weeks ago from Romania."
+    },
+    {
+      "source": "text_182_node_6",
+      "target": "text_182_node_3",
+      "relation": "before",
+      "support_text": "on the morning of the bombing Luciana asked him to go on without her"
+    }
+  ]
+}

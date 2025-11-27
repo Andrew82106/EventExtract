@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_39_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "MUIS及新加坡穆斯林社区谴责斯里兰卡复活节爆炸袭击中的无辜伤亡",
+      "support_text": "MUIS and the Singapore Muslim community strongly condemn the killing of innocent lives in the bombings in Sri Lanka on Easter Sunday today.",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "对袭击宗教场所及和平信徒的暴行表示深表痛心与哀悼",
+      "support_text": "We are deeply saddened to see another act of terror on places of worship and on peaceful worshippers.",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "重申伊斯兰教倡导宗教和谐、尊重信仰场所及保护生命价值观",
+      "support_text": "Islam is a religion that calls for peace and harmonious relations between communities of different faiths.",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "向斯里兰卡人民致以慰问与祈祷，表达共同面对困难的立场",
+      "support_text": "Our thoughts and prayers are with the people of Sri Lanka in these difficult and trying times.",
+      "source_text": "text_39"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_39_node_1",
+      "target": "text_39_node_2",
+      "relation": "before",
+      "support_text": "We are deeply saddened to see another act of terror on places of worship and on peaceful worshippers."
+    },
+    {
+      "source": "text_39_node_2",
+      "target": "text_39_node_3",
+      "relation": "before",
+      "support_text": "Islam is a religion that calls for peace and harmonious relations between communities of different faiths."
+    },
+    {
+      "source": "text_39_node_3",
+      "target": "text_39_node_4",
+      "relation": "before",
+      "support_text": "Our thoughts and prayers are with the people of Sri Lanka in these difficult and trying times."
+    }
+  ]
+}

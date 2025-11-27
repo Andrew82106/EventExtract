@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "text_111_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗核科学家近期遭受系列袭击",
+      "support_text": "there is a view among some analysts that this attack could be a response to a series of recent attacks on Iranian nuclear scientists.",
+      "source_text": "text_111"
+    },
+    {
+      "id": "text_111_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列发动针对该事件的袭击",
+      "support_text": "The BBC's Jon Donnison, in Jerusalem, says the attack could be part of a covert but violent war between Israel and Iran",
+      "source_text": "text_111"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_111_node_1",
+      "target": "text_111_node_2",
+      "relation": "before",
+      "support_text": "there is a view among some analysts that this attack could be a response to a series of recent attacks on Iranian nuclear scientists"
+    }
+  ]
+}

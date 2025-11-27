@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "text_80_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2012年7月18日，博格达斯机场发生自杀式爆炸袭击，造成5名以色列人和1名保加利亚司机死亡",
+      "support_text": "Sofia continues to work around the clock to find the perpetrators of a bombing that killed five Israelis and a local bus driver at the Burgas airport in July, Bulgaria’s president and foreign minister said Monday while on a visit to Jerusalem.",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚当局发布电脑合成炸弹袭击者图像，但未破获案件，调查仍在进行",
+      "support_text": "Bulgarian authorities released a computer-generated image of the bomber two weeks after the attack, and different hypotheses about the bomber’s nationality or possible accomplices were floated, but no arrests have been made and investigators are still not even sure whether the bombing was indeed a suicide attack or whether the bomb was detonated remotely.",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列总理内塔尼亚胡指责伊朗及其代理组织黎巴嫩真主党策划袭击，获国内官员和美国安全社区确认",
+      "support_text": "Israel has accused Iran and its proxy Hezbollah of being behind the July 18 attack, in which a bomb was detonated on a bus full of Israelis who had just landed in the Black Sea resort. Prime Minister Benjamin Netanyahu called it the latest in a series of attacks and attempted attacks on Israeli and Jewish interests abroad backed by the Islamic Republic. His assessment, backed by defense officials, was later corroborated by senior figures in the American security community.",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚总统普列文列夫和外交部长斯拉夫诺夫访问耶路撒冷，获以色列总统佩雷斯高度赞扬",
+      "support_text": "Bulgaria’s president and foreign minister said Monday while on a visit to Jerusalem. During their meeting, President Shimon Peres praised Bulgarian counterpart Rosen Plevneliev and Foreign Minister Nikolay Mladenov’s response to the terror attack three months ago.",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "以色列国会议长里夫林邀请遇袭保加利亚司机家属访问耶路撒冷，强化两国人民纽带",
+      "support_text": "During his meeting with Plevneliev and Mladenov, Rivlin offered to bring the family of the bus driver slain in the bombing to Israel. “Welcome to Israel and to its ancient capital, Jerusalem,” Peres said.",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_6",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列与保加利亚签署安全合作协议，包括加强以色列游客安保措施",
+      "support_text": "Israel and Bulgaria have signed a number of accords aimed at boosting security cooperation between the countries since the terror attack. Transportation Minister Yisrael Katz and his Bulgarian counterpart, Ivaylo Moskovski, signed a series of measures regarding collaboration on security issues, including an agreement to heighten security measures for Israeli visitors.",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列和保加利亚联合打击恐怖主义行动",
+      "support_text": "语义描述：以色列和保加利亚共同打击恐怖和邪恶",
+      "source_text": "text_80"
+    },
+    {
+      "id": "text_80_node_8",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚当局尚未对炸弹袭击者进行逮捕行动",
+      "support_text": "no arrests have been made and investigators are still not even sure whether the bombing was indeed a suicide attack or whether the bomb was detonated remotely",
+      "source_text": "text_80"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_80_node_1",
+      "target": "text_80_node_2",
+      "relation": "before",
+      "support_text": "Bulgarian authorities released a computer-generated image of the bomber two weeks after the attack"
+    },
+    {
+      "source": "text_80_node_1",
+      "target": "text_80_node_4",
+      "relation": "before",
+      "support_text": "Bulgaria’s president and foreign minister said Monday while on a visit to Jerusalem"
+    },
+    {
+      "source": "text_80_node_2",
+      "target": "text_80_node_3",
+      "relation": "before",
+      "support_text": "His assessment, backed by defense officials, was later corroborated by senior figures in the American security community"
+    },
+    {
+      "source": "text_80_node_2",
+      "target": "text_80_node_8",
+      "relation": "before",
+      "support_text": "Bulgarian authorities released a computer-generated image of the bomber two weeks after the attack"
+    },
+    {
+      "source": "text_80_node_3",
+      "target": "text_80_node_6",
+      "relation": "before",
+      "support_text": "since the terror attack"
+    },
+    {
+      "source": "text_80_node_3",
+      "target": "text_80_node_7",
+      "relation": "before",
+      "support_text": "以色列指责伊朗策划袭击后，两国开始联合打击"
+    },
+    {
+      "source": "text_80_node_4",
+      "target": "text_80_node_5",
+      "relation": "before",
+      "support_text": "During his meeting with Plevneliev and Mladenov, Rivlin offered to bring the family of the bus driver slain in the bombing to Israel"
+    },
+    {
+      "source": "text_80_node_4",
+      "target": "text_80_node_6",
+      "relation": "before",
+      "support_text": "Transportation Minister Yisrael Katz and his Bulgarian counterpart, Ivaylo Moskovski, signed a series of measures regarding collaboration on security issues"
+    }
+  ]
+}

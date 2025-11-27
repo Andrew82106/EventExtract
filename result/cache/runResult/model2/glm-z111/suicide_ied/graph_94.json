@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "text_94_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年9月2日，喀布尔国际组织住宅区遭拖拉机炸弹袭击，致16人死亡119人受伤，包括5名尼泊尔人、2名英国人和1名罗马尼亚外交官",
+      "support_text": "On the evening of 2 September 2019, a bomb on a tractor killed 16 people and injured 119 others at a housing compound used by international organisations in Kabul, Afghanistan.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年9月5日，喀布尔市中心安全区域发生自杀式汽车炸弹袭击，造成至少12人死亡（含1名美国军人、1名罗马尼亚士兵）及40余人受伤",
+      "support_text": "On 5 September 2019, at least 12 people, including an American service member and a Romanian soldier, were killed and more than 40 injured when a suicide car bomber exploded in a heavily fortified area of central Kabul...",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年9月2日，喀布尔国际组织住宅区袭击中25名其他外国居民受伤",
+      "support_text": "25名其他外国居民在袭击中受伤",
+      "source_text": "text_94"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_94_node_1",
+      "target": "text_94_node_2",
+      "relation": "before",
+      "support_text": "On the evening of 2 September 2019... On 5 September 2019..."
+    }
+  ]
+}

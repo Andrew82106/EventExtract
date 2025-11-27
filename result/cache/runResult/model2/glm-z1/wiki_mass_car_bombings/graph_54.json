@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "text_54_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克发生三次袭击，造成29人死亡、128人受伤",
+      "support_text": "At least 29 Iraqis were killed and 128 more were wounded in three separate attacks in Iraq.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_2",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "Lateral",
+      "description": "伊斯兰国任命新领导人阿卜杜拉·纳赛尔·利德安·阿卜杜勒·苏莱曼",
+      "support_text": "The Islamic State of Iraq has named al-Nasser Lideen Allah Abu Suleiman its new leader.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴格达省选举投票重计未发现欺诈行为",
+      "support_text": "Also, no fraud was detected during a recount of Baghdad province ballots.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔尔法尔足球比赛现场发生三辆汽车自杀式爆炸，致25人死亡、108人受伤",
+      "support_text": "A triple suicide bombing left at least 25 dead and as many as 108 wounded during a Tal Afar soccer game.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "希尔拉地区未完工什叶派清真寺外发生汽车炸弹袭击，20名 worshippers 受伤",
+      "support_text": "Twenty worshippers were wounded when a car bomb exploded outside a Shi’ite mosque that is partially under construction north of Hilla in Jbala.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "摩苏尔发生针对裁缝的枪击事件",
+      "support_text": "In Mosul, gunmen killed a tailor.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "达班迪坎边境伊朗士兵误捕伊拉克边防警卫，已开始谈判",
+      "support_text": "In the border town of Darbandikhan, Iranian soldiers detained an Iraqi border guard during an incident of mistaken identity.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉特巴地区成功排除四枚路边炸弹",
+      "support_text": "Four roadside bombs were defused in Rutba.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "希比布地区查获武器库并逮捕11名嫌疑人",
+      "support_text": "A weapons cache was recovered in Hibhib.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "迪亚拉省逮捕18名嫌疑人，2人主动投降",
+      "support_text": "Eleven suspects were arrested across Diyala province.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_11",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴士拉省逮捕18名嫌疑人，其中5人涉及苏维拉事件",
+      "support_text": "Eighteen suspects were detained across Basra province.",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "新领袖取代前任领袖",
+      "support_text": "新领袖警告发起针对什叶派的新行动",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军空袭击毙埃及指挥官",
+      "support_text": "美军空袭击毙埃及指挥官",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军发动空袭",
+      "support_text": "美军发动空袭",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_15",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "新领袖警告发起针对什叶派的新行动",
+      "support_text": "新领袖警告发起针对什叶派的新行动",
+      "source_text": "text_54"
+    },
+    {
+      "id": "text_54_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "其他炸弹袭击者引爆自杀背心",
+      "support_text": "其他炸弹袭击者引爆自杀背心",
+      "source_text": "text_54"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_54_node_1",
+      "target": "text_54_node_2",
+      "relation": "before",
+      "support_text": "At least 29 Iraqis were killed and 128 more were wounded in three separate attacks in Iraq. The Islamic State in Iraq, meanwhile, has threatened new attacks after naming its new leader."
+    },
+    {
+      "source": "text_54_node_2",
+      "target": "text_54_node_3",
+      "relation": "before",
+      "support_text": "The Islamic State of Iraq, meanwhile, has threatened new attacks after naming its new leader. Also, no fraud was detected during a recount of Baghdad province ballots."
+    },
+    {
+      "source": "text_54_node_2",
+      "target": "text_54_node_4",
+      "relation": "before",
+      "support_text": "The Islamic State in Iraq, meanwhile, has threatened new attacks after naming its new leader. A triple suicide bombing left at least 25 dead and as many as 108 wounded during a Tal Afar soccer game."
+    },
+    {
+      "source": "text_54_node_4",
+      "target": "text_54_node_5",
+      "relation": "before",
+      "support_text": "A triple suicide bombing left at least 25 dead and as many as 108 wounded during a Tal Afar soccer game. Twenty worshippers were wounded when a car bomb exploded outside a Shi’ite mosque that is partially under construction north of Hilla in Jbala."
+    },
+    {
+      "source": "text_54_node_5",
+      "target": "text_54_node_6",
+      "relation": "before",
+      "support_text": "Twenty worshippers were wounded when a car bomb exploded outside a Shi’ite mosque that is partially under construction north of Hilla in Jbala. In Mosul, gunmen killed a tailor."
+    },
+    {
+      "source": "text_54_node_6",
+      "target": "text_54_node_7",
+      "relation": "before",
+      "support_text": "In Mosul, gunmen killed a tailor. In the border town of Darbandikhan, Iranian soldiers detained an Iraqi border guard during an incident of mistaken identity."
+    },
+    {
+      "source": "text_54_node_7",
+      "target": "text_54_node_8",
+      "relation": "before",
+      "support_text": "In the border town of Darbandikhan, Iranian soldiers detained an Iraqi border guard during an incident of mistaken identity. Four roadside bombs were defused in Rutba."
+    },
+    {
+      "source": "text_54_node_8",
+      "target": "text_54_node_9",
+      "relation": "before",
+      "support_text": "Four roadside bombs were defused in Rutba. A weapons cache was recovered in Hibhib."
+    },
+    {
+      "source": "text_54_node_9",
+      "target": "text_54_node_10",
+      "relation": "before",
+      "support_text": "A weapons cache was recovered in Hibhib. Eleven suspects were arrested across Diyala province."
+    },
+    {
+      "source": "text_54_node_10",
+      "target": "text_54_node_11",
+      "relation": "before",
+      "support_text": "Eleven suspects were arrested across Diyala province. Two more surrendered. Eighteen suspects were detained across Basra province."
+    },
+    {
+      "source": "text_54_node_16",
+      "target": "text_54_node_4",
+      "relation": "before",
+      "support_text": "其他炸弹袭击者引爆自杀背心发生在三辆汽车自杀式爆炸之前"
+    }
+  ]
+}

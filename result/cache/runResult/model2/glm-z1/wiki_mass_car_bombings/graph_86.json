@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "text_86_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Omagh炸弹袭击导致29人死亡，由Real IRA策划",
+      "support_text": "families of many of the 29 murdered in the 'Real IRA' massacre gathered in Belfast",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家属在贝尔法斯特观看纪录片《Omagh》",
+      "support_text": "Mr McCombe, whose wife Ann died in the car bomb attack on the Co Tyrone town nearly six years ago, said: \"It was a very powerful, brilliant film true to every fact.\"",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "纪录片由Guy Hibbert和Paul Greengrass联合创作，Pete Travis执导",
+      "support_text": "Jointly written by Guy Hibbert and Paul Greengrass, Omagh was directed by Pete Travis and produced by Ed Guiney along with Greengrass",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_4",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "纪录片由RTÉ和Channel 4于当月后期首播并计划影院上映",
+      "support_text": "It is due to be screened on RTÉ and Channel 4 later this month before going on general cinema release",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家属发起1000万英镑民事诉讼指控五名嫌疑人",
+      "support_text": "the families are taking a £10 million sterling civil action against the five men they suspect of plotting and carrying out the attack",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "电影题为'Omagh'",
+      "support_text": "电影题为'Omagh'",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "家属宣布电影是必要的",
+      "support_text": "家属宣布电影是必要的",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家属表示电影可能让凶手被抓获",
+      "support_text": "受害者家属表示电影可能让凶手被抓获",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_9",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "电影可能导致凶手被抓获",
+      "support_text": "电影可能导致凶手被抓获",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_10",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "凶手被抓获",
+      "support_text": "凶手被抓获",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "戏剧记录了未解决的搜索和持续的斗争",
+      "support_text": "the drama chronicles the unresolved search for the perpetrators of the bombing and the persistent struggle of the families",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "家庭持续寻找炸弹袭击者",
+      "support_text": "the families are conducting a persistent search for the perpetrators",
+      "source_text": "text_86"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_86_node_1",
+      "target": "text_86_node_2",
+      "relation": "before",
+      "support_text": "families of many of the 29 murdered in the 'Real IRA' massacre gathered in Belfast"
+    },
+    {
+      "source": "text_86_node_1",
+      "target": "text_86_node_3",
+      "relation": "before",
+      "support_text": "Mr McCombe, whose wife Ann died in the car bomb attack on the Co Tyrone town nearly six years ago"
+    },
+    {
+      "source": "text_86_node_1",
+      "target": "text_86_node_6",
+      "relation": "before",
+      "support_text": "电影题为'Omagh'发生在贝尔法斯特聚集事件之后"
+    },
+    {
+      "source": "text_86_node_3",
+      "target": "text_86_node_4",
+      "relation": "before",
+      "support_text": "Jointly written by Guy Hibbert and Paul Greengrass, Omagh was directed by Pete Travis and produced by Ed Guiney along with Greengrass"
+    },
+    {
+      "source": "text_86_node_4",
+      "target": "text_86_node_5",
+      "relation": "before",
+      "support_text": "It is due to be screened on RTÉ and Channel 4 later this month before going on general cinema release"
+    },
+    {
+      "source": "text_86_node_6",
+      "target": "text_86_node_7",
+      "relation": "before",
+      "support_text": "宣布电影必要性发生在电影命名之后"
+    },
+    {
+      "source": "text_86_node_7",
+      "target": "text_86_node_8",
+      "relation": "before",
+      "support_text": "家属表态发生在宣布必要性之后"
+    },
+    {
+      "source": "text_86_node_8",
+      "target": "text_86_node_9",
+      "relation": "before",
+      "support_text": "电影可能影响发生在家属表态之后"
+    },
+    {
+      "source": "text_86_node_9",
+      "target": "text_86_node_10",
+      "relation": "before",
+      "support_text": "抓获凶手发生在电影可能影响之后"
+    },
+    {
+      "source": "text_86_node_12",
+      "target": "text_86_node_11",
+      "relation": "before",
+      "support_text": "根据temporal_order 1→2的时序要求"
+    }
+  ]
+}

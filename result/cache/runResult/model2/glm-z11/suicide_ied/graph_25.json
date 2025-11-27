@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "text_25_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年5月，一名自杀式袭击者在马哈茂德·法希姆军事学院附近发动袭击，造成6人死亡",
+      "support_text": "在2019年5月，一名自杀式袭击者在马哈茂德·法希姆军事学院附近发动袭击，造成6人死亡",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2020年2月11日，一名自杀式袭击者在喀布尔西部马哈茂德·法希姆军事学院附近的警察检查站发动袭击，导致7人死亡",
+      "support_text": "2020年2月11日，一名自杀式袭击者在喀布尔西部马哈茂德·法希姆军事学院附近的警察检查站发动袭击，导致7人死亡",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "另外十二人（含五名平民）受伤",
+      "support_text": "另外十二人（含五名平民）受伤",
+      "source_text": "text_25"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_25_node_1",
+      "target": "text_25_node_2",
+      "relation": "before",
+      "support_text": "在2019年5月... ==References=="
+    },
+    {
+      "source": "text_25_node_2",
+      "target": "text_25_node_3",
+      "relation": "before",
+      "support_text": "根据temporal_order字段和事件时间顺序推断"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "nodes": [
+    {
+      "id": "text_12_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年11月，Al-Qaeda恐怖分子在摩加迪沙首次会面，计划袭击肯尼亚以色列目标",
+      "support_text": "In November 2001, the terrorists first met in Mogadishu, Somalia, to discuss a possible strike against Israeli interests in Kenya.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年4月，恐怖分子确定以色列航空公司飞机和Paradise酒店为袭击目标",
+      "support_text": "By April 2002, the terrorists had singled out the Israeli-owned aircraft and the Paradise Hotel as their targets.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年5月至9月，恐怖分子通过闭路电视监控Paradise酒店周边环境",
+      "support_text": "Over the next five months, the terrorists conducted video surveillance of the hotel’s grounds.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月15日，恐怖分子购买绿色皮卡（Pajero）作为运输工具",
+      "support_text": "The terrorists assembled the bombs in a rented house in Tudor, Mombasa. They packed the bombs into their SUV, which was bought on November 15, 2002.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年底，恐怖分子在蒙巴萨Tudor出租屋组装爆炸装置",
+      "support_text": "The terrorists assembled the bombs in a rented house in Tudor, Mombasa.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_6",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "2002年12月，恐怖分子从也门走私两枚苏联制SA-7B防空导弹至肯尼亚",
+      "support_text": "They made arrangements to smuggle two shoulder-fired Soviet-made SA-7B SAMs into Kenya from Yemen.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年8月40日，恐怖分子向以色列航空 Arkia Airlines发射SA-7B导弹未击中",
+      "support_text": "At 8.40am that day, other terrorists fired a missile at an Israeli Arkia Airlines jet as it took off from Mombasa’s Moi International Airport.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年8月40日，恐怖分子在Paradise酒店实施自杀式袭击，造成15人死亡",
+      "support_text": "Suddenly, one of the men jumped out, slipped under the barrier, and ran towards the reception desk, detonating explosives that were strapped to his body.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "多国情报机构联合调查发现攻击筹备始于2001年11月",
+      "support_text": "Investigations by American, Israeli, and Kenyan intelligence service teams into the hotel bombing revealed that preparations for the attack had started a year earlier.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "澳大利亚、英国、加拿大、美国等暂停驻肯使馆并发布旅行警告",
+      "support_text": "Australia, Britain, Canada, and the US temporarily shut their embassies and issued travel advisories against Kenya.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国暂停对肯尼亚的所有航班运营一个月",
+      "support_text": "The United Kingdom suspended flights to Kenya for a month.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_12",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚旅游业因恐怖袭击声誉受损，但最终恢复部分形象",
+      "support_text": "Kenya eventually managed to shed the negative publicity that the bombing earned the tourism industry.",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "恐怖分子抵达酒店入口",
+      "support_text": "恐怖分子抵达酒店入口",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "三人向守卫告知来意",
+      "support_text": "三人向守卫告知来意",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "三人曾到访酒店探望某人",
+      "support_text": "三人曾到访酒店探望某人",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "守卫建议三人等待审批",
+      "support_text": "守卫建议三人等待审批",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "两人驾车通过屏障",
+      "support_text": "语义描述：两人驾车通过屏障",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_18",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "两人驾车撞入酒店接待处",
+      "support_text": "语义描述：两人驾车撞入酒店接待处",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_19",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两人引爆车内装载的炸弹",
+      "support_text": "语义描述：两人引爆车内装载的炸弹",
+      "source_text": "text_12"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_12_node_1",
+      "target": "text_12_node_2",
+      "relation": "before",
+      "support_text": "By April 2002, the terrorists had singled out the targets."
+    },
+    {
+      "source": "text_12_node_1",
+      "target": "text_12_node_9",
+      "relation": "before",
+      "support_text": "Investigations by American, Israeli, and Kenyan intelligence service teams into the hotel bombing revealed that preparations for the attack had started a year earlier."
+    },
+    {
+      "source": "text_12_node_2",
+      "target": "text_12_node_3",
+      "relation": "before",
+      "support_text": "Over the next five months, the terrorists conducted video surveillance."
+    },
+    {
+      "source": "text_12_node_3",
+      "target": "text_12_node_6",
+      "relation": "before",
+      "support_text": "They made arrangements to smuggle two shoulder-fired Soviet-made SA-7B SAMs into Kenya from Yemen."
+    },
+    {
+      "source": "text_12_node_4",
+      "target": "text_12_node_5",
+      "relation": "before",
+      "support_text": "They packed the bombs into their SUV, which was bought on November 15, 2002."
+    },
+    {
+      "source": "text_12_node_5",
+      "target": "text_12_node_8",
+      "relation": "before",
+      "support_text": "Suddenly, one of the men jumped out, slipped under the barrier, and ran towards the reception desk, detonating explosives that were strapped to his body."
+    },
+    {
+      "source": "text_12_node_6",
+      "target": "text_12_node_4",
+      "relation": "before",
+      "support_text": "The terrorists assembled the bombs in a rented house in Tudor, Mombasa."
+    },
+    {
+      "source": "text_12_node_7",
+      "target": "text_12_node_8",
+      "relation": "before",
+      "support_text": "At 8.40am that day, other terrorists fired a missile at an Israeli Arkia Airlines jet as it took off from Mombasa’s Moi International Airport."
+    },
+    {
+      "source": "text_12_node_8",
+      "target": "text_12_node_10",
+      "relation": "before",
+      "support_text": "Australia, Britain, Canada, and the US temporarily shut their embassies and issued travel advisories against Kenya."
+    },
+    {
+      "source": "text_12_node_10",
+      "target": "text_12_node_11",
+      "relation": "before",
+      "support_text": "The United Kingdom suspended flights to Kenya for a month."
+    },
+    {
+      "source": "text_12_node_11",
+      "target": "text_12_node_12",
+      "relation": "before",
+      "support_text": "Kenya eventually managed to shed the negative publicity that the bombing earned the tourism industry."
+    },
+    {
+      "source": "text_12_node_17",
+      "target": "text_12_node_18",
+      "relation": "before",
+      "support_text": "两人驾车通过屏障后撞入酒店接待处"
+    },
+    {
+      "source": "text_12_node_18",
+      "target": "text_12_node_19",
+      "relation": "before",
+      "support_text": "撞入酒店后引爆车内炸弹"
+    }
+  ]
+}

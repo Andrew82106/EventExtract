@@ -1,0 +1,486 @@
+{
+  "nodes": [
+    {
+      "id": "text_77_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年9月9日莫斯科公寓爆炸，Alyona Morozova母亲在爆炸中丧生",
+      "support_text": "Alyona Morozova didn't hear the bomb blast that took her mother's life. In the center of an explosion, a physicist explained to her later, there is silence: Sound waves spread out beyond the blast itself.",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "爆炸后Alyona在废墟中寻找母亲并联系姐姐Tatyana，通过CNN找到在美国的Tatyana",
+      "support_text": "She crawled through the dark to the windowsill, then waited. Some time later -- she doesn't know how long -- a blinding fire-truck searchlight landed on her. Even as she searched for two hours through the rubble for her mother, Alyona realized she had to call her sister in the United States.",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "9月13日Kashirskoye Shosse公寓再次爆炸，9月16日Volgodonsk卡车炸弹袭击，总死亡人数达300人",
+      "support_text": "Four days later, an apartment building on Kashirskoye Shosse was bombed. On Sept. 16, a truck bomb tore the facade off an apartment building in Volgodonsk, Rostov region. About 300 people were killed in total.",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "姐妹移居美国，Alyona进入科罗拉多大学，但一年后开始怀疑官方恐怖袭击解释",
+      "support_text": "Alyona joined Tatyana in the United States, then enrolled in the University of Colorado. It was not until almost a year later that the Morozova sisters began to doubt this second version of events, too.",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "导演Nekrasov邀请Tatyana回俄拍摄纪录片《Disbelief》，Alyona接受采访但拒绝离美",
+      "support_text": "When director Andrei Nekrasov told Alyona and Tatyana that he was planning a documentary questioning the circumstances of the bombings, and that he wanted them to return to Russia with a film crew, only Tatyana accepted.",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年9月23日《Disbelief》在莫斯科首映，随后举办追思会",
+      "support_text": "On Wednesday, almost exactly five years after the first apartment bombing shook Russia, 'Disbelief' (Nedoveriye)... will play in a small theater in north Moscow followed by a midnight service.",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "纪录片在瑞士等8国上映，瑞士收视率创纪录，Nekrasov被比作'俄罗斯迈克尔·摩尔'",
+      "support_text": "The movie will play in eight countries this week. When it was shown on television in Switzerland last month, it got the kind of ratings normally reserved for a blockbuster thriller.",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Berezovsky资助的《Assassination of Russia》在Sundance电影节首映，引发观众强烈反应",
+      "support_text": "Comparing titles is telling. 'Disbelief' has... The Berezovsky-backed film is called 'The Assassination of Russia,' and is based on a book called 'The FSB Blow Up Russia.'",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "9月22日Ryazan事件中FSB被曝用糖粉制造虚假恐袭，但未改变公众对第二次车臣战争的支持",
+      "support_text": "As Russians panicked and organized vigilante squads to watch buildings, three sacks stuffed with white powder and connected to what appeared to be a detonator were discovered in a Ryazan basement on Sept. 22... The powder was sugar.",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "导演Nekrasov的纪录片被盗窃，瑞士记者称其像'俄罗斯迈克尔·摩尔'",
+      "support_text": "Nekrasov's documents were stolen from his jacket pocket on the day he was to fly out of Moscow. 'I felt like getting out of my car and screaming, 'What do you want from me?'",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Tatyana认为电话是玩笑",
+      "support_text": "Tatyana认为电话是玩笑",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Tatyana飞往莫斯科",
+      "support_text": "Tatyana飞往莫斯科",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "他们仍将爆炸归咎于气体泄漏",
+      "support_text": "他们仍将爆炸归咎于气体泄漏",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "有人指控车臣分离主义分子",
+      "support_text": "有人指控车臣分离主义分子",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "姐妹们不相信（指控）",
+      "support_text": "姐妹们不相信（指控）",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Andrei Nekrasov计划拍摄质疑爆炸事件真相的纪录片",
+      "support_text": "Andrei Nekrasov计划拍摄质疑爆炸事件真相的纪录片",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Tatyana接受导演的请求，同意返回俄罗斯并携带电影团队",
+      "support_text": "Tatyana接受导演的请求，同意返回俄罗斯并携带电影团队",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_18",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "电影将在小剧院上演",
+      "support_text": "电影将在小剧院上演",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "电影将在10月发行",
+      "support_text": "电影将在10月发行",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_20",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Trepashkin因泄露国家机密被定罪",
+      "support_text": "Trepashkin因泄露国家机密被定罪",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "人权组织称这是压制调查的企图",
+      "support_text": "人权组织称这是压制调查的企图",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_22",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nekrasov的电影在俄罗斯放映过一次",
+      "support_text": "Nekrasov的电影在俄罗斯放映过一次",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援人员在废墟中被浓烟和火势阻碍",
+      "support_text": "救援人员因废墟中的浓烟和持续燃烧的火势受阻",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_24",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Trepashkin被逮捕",
+      "support_text": "Trepashkin被逮捕",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nekrasov注意到一辆怪车跟随",
+      "support_text": "Nekrasov注意到一辆怪车跟随",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_26",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "怪车跟随Nekrasov",
+      "support_text": "怪车跟随Nekrasov",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_27",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "嘴巴变干",
+      "support_text": "嘴巴变干",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_28",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "计划参加周三放映",
+      "support_text": "计划参加周三放映",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_30",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "超过一千名居民被强制撤离家园",
+      "support_text": "超过一千名居民被强制撤离家园",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_31",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地警方宣布初步检测显示粉末为黑索金",
+      "support_text": "当地警方宣布初步检测显示粉末为黑索金",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_32",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "警方紧急疏散整栋建筑",
+      "support_text": "警方紧急疏散整栋建筑",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_33",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖袭击被成功化解",
+      "support_text": "恐怖袭击被成功化解",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_34",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "证据表明嫌疑人是安全特工",
+      "support_text": "证据表明嫌疑人是安全特工",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_35",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "FSB负责人震惊国家",
+      "support_text": "FSB负责人震惊国家",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_36",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "特工在麻袋中植入物品",
+      "support_text": "特工在麻袋中植入物品",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_37",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "电影使用电视画面",
+      "support_text": "电影使用电视画面",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_38",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "电影将官员塑造成邪恶形象",
+      "support_text": "电影将官员塑造成邪恶形象",
+      "source_text": "text_77"
+    },
+    {
+      "id": "text_77_node_39",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "证据被销毁",
+      "support_text": "证据被销毁",
+      "source_text": "text_77"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_77_node_1",
+      "target": "text_77_node_2",
+      "relation": "before",
+      "support_text": "Even as she searched for two hours through the rubble for her mother, Alyona realized she had to call her sister in the United States."
+    },
+    {
+      "source": "text_77_node_1",
+      "target": "text_77_node_18",
+      "relation": "before",
+      "support_text": "根据temporal_order 1→2的时序关系"
+    },
+    {
+      "source": "text_77_node_1",
+      "target": "text_77_node_23",
+      "relation": "before",
+      "support_text": "爆炸后Alyona在废墟中寻找母亲并联系姐姐Tatyana"
+    },
+    {
+      "source": "text_77_node_2",
+      "target": "text_77_node_3",
+      "relation": "before",
+      "support_text": "Four days later, an apartment building on Kashirskoye Shosse was bombed."
+    },
+    {
+      "source": "text_77_node_3",
+      "target": "text_77_node_4",
+      "relation": "before",
+      "support_text": "It was not until almost a year later that the Morozova sisters began to doubt this second version of events, too."
+    },
+    {
+      "source": "text_77_node_3",
+      "target": "text_77_node_9",
+      "relation": "before",
+      "support_text": "As Russians panicked and organized vigilante squads to watch buildings, three sacks stuffed with white powder..."
+    },
+    {
+      "source": "text_77_node_4",
+      "target": "text_77_node_5",
+      "relation": "before",
+      "support_text": "When director Andrei Nekrasov told Alyona and Tatyana that he was planning a documentary..."
+    },
+    {
+      "source": "text_77_node_4",
+      "target": "text_77_node_34",
+      "relation": "before",
+      "support_text": "姐妹开始怀疑后证据被分析"
+    },
+    {
+      "source": "text_77_node_4",
+      "target": "text_77_node_35",
+      "relation": "before",
+      "support_text": "怀疑后FSB负责人震惊"
+    },
+    {
+      "source": "text_77_node_5",
+      "target": "text_77_node_6",
+      "relation": "before",
+      "support_text": "On Wednesday, almost exactly five years after the first apartment bombing shook Russia..."
+    },
+    {
+      "source": "text_77_node_5",
+      "target": "text_77_node_8",
+      "relation": "before",
+      "support_text": "Comparing titles is telling. 'Disbelief' has... The Berezovsky-backed film is called 'The Assassination of Russia,'..."
+    },
+    {
+      "source": "text_77_node_5",
+      "target": "text_77_node_17",
+      "relation": "before",
+      "support_text": "告知计划后，Tatyana接受请求并执行返回"
+    },
+    {
+      "source": "text_77_node_5",
+      "target": "text_77_node_36",
+      "relation": "before",
+      "support_text": "拍摄前特工准备植入物品"
+    },
+    {
+      "source": "text_77_node_6",
+      "target": "text_77_node_7",
+      "relation": "before",
+      "support_text": "The movie will play in eight countries this week."
+    },
+    {
+      "source": "text_77_node_6",
+      "target": "text_77_node_37",
+      "relation": "before",
+      "support_text": "电影上映后使用电视画面"
+    },
+    {
+      "source": "text_77_node_7",
+      "target": "text_77_node_10",
+      "relation": "before",
+      "support_text": "Nekrasov's documents were stolen from his jacket pocket on the day he was to fly out of Moscow."
+    },
+    {
+      "source": "text_77_node_7",
+      "target": "text_77_node_38",
+      "relation": "before",
+      "support_text": "瑞士高收视率后塑造官员形象"
+    },
+    {
+      "source": "text_77_node_9",
+      "target": "text_77_node_39",
+      "relation": "before",
+      "support_text": "糖粉事件后证据被销毁"
+    },
+    {
+      "source": "text_77_node_16",
+      "target": "text_77_node_5",
+      "relation": "before",
+      "support_text": "Andrei Nekrasov首先计划拍摄纪录片，随后告知Alyona和Tatyana"
+    },
+    {
+      "source": "text_77_node_18",
+      "target": "text_77_node_19",
+      "relation": "before",
+      "support_text": "根据temporal_order 2→3的时序关系"
+    },
+    {
+      "source": "text_77_node_20",
+      "target": "text_77_node_21",
+      "relation": "before",
+      "support_text": "Trepashkin被定罪后，人权组织质疑调查"
+    },
+    {
+      "source": "text_77_node_21",
+      "target": "text_77_node_22",
+      "relation": "before",
+      "support_text": "调查压制企图导致电影在俄罗斯放映"
+    },
+    {
+      "source": "text_77_node_22",
+      "target": "text_77_node_7",
+      "relation": "before",
+      "support_text": "俄罗斯首映后电影扩展至八国"
+    }
+  ]
+}

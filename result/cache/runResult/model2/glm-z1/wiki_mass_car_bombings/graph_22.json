@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_22_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周二喀布尔发生自杀式爆炸，造成4名高排名北约军官死亡（含2名美国中将、1名加拿大中将、2名美国少将）",
+      "support_text": "The suicide bomber who struck in Kabul on Tuesday killed four high-ranking NATO officers who had been on a brief visit, military officials confirmed Thursday.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周三巴格拉姆美军基地遭自杀式袭击与武装分子协同攻击，5名美军受伤但未造成死亡",
+      "support_text": "On Wednesday, Taliban suicide bombers in concert with armed insurgents orchestrated a failed attempt to break into the main American military base at Bagram, north of Kabul.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "周四确认周二袭击细节，并报告坎大哈省北约车队遭第三次自杀式袭击（未造成伤亡）",
+      "support_text": "Also Thursday, for the third consecutive day, a Taliban suicide bomber attacked a NATO military target, but the police there said no soldiers were killed.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_new_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "周二喀布尔自杀式爆炸事件中确认的受害者名单",
+      "support_text": "military officials confirmed the victims included two Chinese generals, one American general, one Canadian general, and two American lieutenants",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_new_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗战争推翻塔利班政权",
+      "support_text": "the Afghan war ousted the Taliban",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_new_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗战争开始",
+      "support_text": "the Afghan war began",
+      "source_text": "text_22"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_2",
+      "relation": "before",
+      "support_text": "On Wednesday, Taliban suicide bombers in concert with armed insurgents orchestrated a failed attempt to break into the main American military base at Bagram, north of Kabul."
+    },
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_3",
+      "relation": "before",
+      "support_text": "Also Thursday, for the third consecutive day, a Taliban suicide bomber attacked a NATO military target, but the police there said no soldiers were killed."
+    },
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_new_node_4",
+      "relation": "before",
+      "support_text": "周二事件后军方通过周四确认的受害者名单"
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_3",
+      "relation": "before",
+      "support_text": "Also Thursday, for the third consecutive day, a Taliban suicide bomber attacked a NATO military target, but the police there said no soldiers were killed."
+    },
+    {
+      "source": "text_22_new_node_6",
+      "target": "text_22_node_1",
+      "relation": "before",
+      "support_text": "战争开始后发生喀布尔自杀式爆炸"
+    }
+  ]
+}

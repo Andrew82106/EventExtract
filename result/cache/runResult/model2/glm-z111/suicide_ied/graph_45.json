@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "text_45_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "2019年4月29日，伊斯兰国（ISIS）发布视频，声称展示其领导人阿卜杜拉·阿卜杜拉·巴格达迪接受该组织媒体Al-Furqan采访",
+      "support_text": "This image made from video posted April 29, 2019, on a militant website purports to show the leader of Islamic State, Abu Bakr al-Baghdadi, being interviewed by his group's Al-Furqan media outlet.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年9月，美国在叙利亚伊德利卜省发动突袭，击毙阿卜杜拉·巴格达迪的弟弟阿卜杜拉·哈马扎",
+      "support_text": "Al-Baghdadi's aide, a Saudi, was killed hours after the raid, also in northwestern Syria, in a U.S. strike.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年10月，土耳其在阿勒颇省阿扎镇逮捕65岁的阿卜杜拉·巴格达迪姐姐拉希米亚·阿沃德，其丈夫、女儿及5名子女同行",
+      "support_text": "The Turkish official said the 65-year-old known as Rasmiya Awad is suspected of being affiliated with the extremist group. He did not elaborate. Awad was captured in a raid Monday evening on a trailer container she was living in with her family near the town of Azaz in Aleppo province.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年10月，美国突袭导致阿卜杜拉·巴格达迪助手（沙特籍）在叙利亚西北部死亡",
+      "support_text": "Al-Baghdadi's aide, a Saudi, was killed hours after the raid, also in northwestern Syria, in a U.S. strike.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年10月，ISIS宣布巴格达迪继任者，但继任者身份及组织架构变化细节未公开",
+      "support_text": "The group named a successor to al-Baghdadi days later, but little is known about him or how the group's structure has been affected by the successive blows.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年9月，巴格达迪在伊德利卜省被美军击毙，成为ISIS领土收缩后的关键转折点",
+      "support_text": "Al-Baghdadi, an Iraqi from Samarra, was killed in a U.S. raid in the nearby province of Idlib last month. The raid was a major blow to the group, which has lost territories it held in Syria and Iraq in a series of military defeats by the U.S.-led coalition and Syrian and Iraqi allies.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "高级土耳其官员将逮捕行动称为情报的'金矿'",
+      "support_text": "高级土耳其官员将逮捕行动称为情报的'金矿'",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其在阿勒颇省阿扎镇对阿卜杜拉·巴格达迪姐姐实施突袭并逮捕",
+      "support_text": "2023年10月，土耳其在阿勒颇省阿扎镇逮捕65岁的阿卜杜拉·巴格达迪姐姐拉希米亚·阿沃德，其丈夫、女儿及5名子女同行",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其对相关地区实施军事管理",
+      "support_text": "土耳其管理该地区",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其对IS分子和库尔德战士实施驱赶行动",
+      "support_text": "土耳其驱赶IS分子和库尔德战士",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "盟友叙利亚集团对地区实施管理",
+      "support_text": "盟友叙利亚集团管理该地区",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_new_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "IS成员通过走私路线逃往叙利亚西北部",
+      "support_text": "IS members escape via smuggling routes to northwestern Syria",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_new_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "其他成员躲入叙利亚或伊拉克的沙漠",
+      "support_text": "Other members hide in deserts of Syria or Iraq",
+      "source_text": "text_45"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_45_node_1",
+      "target": "text_45_node_6",
+      "relation": "before",
+      "support_text": "This image made from video posted April 29, 2019, on a militant website purports to show the leader of Islamic State, Abu Bakr al-Baghdadi, being interviewed by his group's Al-Furqan media outlet."
+    },
+    {
+      "source": "text_45_node_3",
+      "target": "text_45_node_7",
+      "relation": "before",
+      "support_text": "根据语义描述中事件发生时间与node_3的2023年10月逮捕行动存在逻辑关联"
+    },
+    {
+      "source": "text_45_node_4",
+      "target": "text_45_node_5",
+      "relation": "before",
+      "support_text": "The group named a successor to al-Baghdadi days later, but little is known about him or how the group's structure has been affected by the successive blows."
+    },
+    {
+      "source": "text_45_node_5",
+      "target": "text_45_node_3",
+      "relation": "before",
+      "support_text": "The Turkish official said the 65-year-old known as Rasmiya Awad is suspected of being affiliated with the extremist group. He did not elaborate. Awad was captured in a raid Monday evening on a trailer container she was living in with her family near the town of Azaz in Aleppo province."
+    },
+    {
+      "source": "text_45_node_6",
+      "target": "text_45_node_4",
+      "relation": "before",
+      "support_text": "Al-Baghdadi's aide, a Saudi, was killed hours after the raid, also in northwestern Syria, in a U.S. strike."
+    },
+    {
+      "source": "text_45_node_6",
+      "target": "text_45_node_2",
+      "relation": "before",
+      "support_text": "Al-Baghdadi, an Iraqi from Samarra, was killed in a U.S. raid in the nearby province of Idlib last month. The raid was a major blow to the group, which has lost territories it held in Syria and Iraq in a series of military defeats by the U.S.-led coalition and Syrian and Iraqi allies."
+    },
+    {
+      "source": "text_45_node_6",
+      "target": "text_45_node_8",
+      "relation": "before",
+      "support_text": "巴格达迪被美军击毙后，土耳其于2023年10月实施相关行动"
+    },
+    {
+      "source": "text_45_node_8",
+      "target": "text_45_node_9",
+      "relation": "before",
+      "support_text": "突袭逮捕后土耳其开始对地区实施管理"
+    },
+    {
+      "source": "text_45_node_9",
+      "target": "text_45_node_10",
+      "relation": "before",
+      "support_text": "管理期间对IS分子和库尔德战士实施驱赶"
+    },
+    {
+      "source": "text_45_node_10",
+      "target": "text_45_node_11",
+      "relation": "before",
+      "support_text": "驱赶行动后盟友叙利亚集团接手管理"
+    },
+    {
+      "source": "text_45_new_node_12",
+      "target": "text_45_new_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order字段，escape事件（order 1）应早于melt事件（order 2）"
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "nodes": [
+    {
+      "id": "text_46_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年4月19日早晨，Charlie Hanger正常巡逻 Noble County 的农村道路",
+      "support_text": "Wednesday, April 19, 1995, was a cool spring morning. He woke up as usual, put on his state trooper uniform and went to work at 7 a.m. to patrol the rural roads of Noble County.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "接获 Oklahoma Highway Patrol 命令，前往 Oklahoma City 处理紧急事件",
+      "support_text": "Then he saw the TV and noticed that one-third of the Murrah building was gone, calling it a “terrible sight.” Hanger was asked to respond, so with lights and sirens, he drove south on Interstate 35.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "通过电视发现 Murrah 大楼爆炸，确认三分之一的建筑被毁",
+      "support_text": "Then he saw the TV and noticed that one-third of the Murrah building was gone, calling it a “terrible sight.”",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "根据指示返回北向 I-35 高速公路，途中遇到需要帮助的两位女性",
+      "support_text": "Not too far from Perry, he was told to stay in his area. He turned around and went northbound on I-35 and stopped to assist two women who had car trouble on the highway.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "McVeigh 下车时暴露携带武器，Hanger 持枪控制并搜查车辆",
+      "support_text": "Hanger didn’t approach the car. “I stood behind my door for cover as I was trained,” Hanger said, and ordered the driver out of the car. McVeigh sat sideways on the edge of the seat with his feet on the ground for a few seconds and walked towards Hanger.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "发现 McVeigh 携带装填 Black Talon 子弹的 Glock 手枪和自杀式枪套",
+      "support_text": "Hanger told McVeigh he stopped him for no tag; McVeigh said he had just purchased the car. Hanger, who thought the car was stolen, asked for proof of insurance or a bill of sale, but McVeigh had none, so Hanger asked for his drivers license. As McVeigh reached into his right rear pocket, Hanger could see a bulge under the man’s windbreaker that looked like a weapon.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "查获 McVeigh 车辆登记信息异常（密歇根地址，关联共犯 Terry Nichols）",
+      "support_text": "Hanger took McVeigh’s license, which had a Michigan address, and told him to use both hands to slowly unzip his jacket and pull it back. “He looks me in the eye and says, 'I have a weapon,’” Hanger said.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hanger卸下McVeigh的武器",
+      "support_text": "Upon further inquiry, Hanger learned what McVeigh meant. He had a .45 caliber Glock pistol in a suicide holster. Hanger removed McVeigh’s weapon, along with a knife and magazine he was carrying and tossed them onto the shoulder of the highway.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "将 McVeigh 关押至 Noble County 狱，全程未察觉其身份",
+      "support_text": "Hanger nudged McVeigh with his pistol and said, “So is mine.” Upon further inquiry, Hanger learned what McVeigh meant. He had a .45 caliber Glock pistol in a suicide holster.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hanger 在新闻发布会上披露逮捕过程，强调交通执法的偶然性与必然性",
+      "support_text": "Hanger said this situation shows that routine traffic enforcement works. It helps with traffic safety and gives police probable cause to see what else a driver is doing. “Alert officers all over our communities and our highways are stopping these criminals by being there,” Hanger said.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "McVeigh将车辆靠边停车",
+      "support_text": "McVeigh sat sideways on the edge of the seat with his feet on the ground for a few seconds and walked towards Hanger.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "McVeigh因手铐过紧扭动挣扎",
+      "support_text": "McVeigh sat sideways on the edge of the seat with his feet on the ground for a few seconds and walked towards Hanger.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Hanger声称McVeigh的手铐过于紧绷",
+      "support_text": "Hanger claimed that McVeigh's hands were tightly cuffed.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hanger主动松开McVeigh的手铐",
+      "support_text": "Hanger loosened the handcuffs after confirming McVeigh's identity.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Hanger将McVeigh重新安置在安全巡逻车内",
+      "support_text": "Hanger transferred McVeigh to a secure patrol vehicle.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "McVeigh最初拒绝回答Hanger关于亲属问题的询问",
+      "support_text": "McVeigh initially refused to answer Hanger's questions about his next of kin.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_18",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nichols因参与1995年4月19日爆炸案被判处终身监禁",
+      "support_text": "Nichols was sentenced to life in prison for his role in the Oklahoma City bombing.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hanger询问McVeigh驾驶执照",
+      "support_text": "Hanger询问关于McVeigh在4月19日上午10:20-10:25驾驶执照事件",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_20",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hanger逮捕McVeigh",
+      "support_text": "Hanger逮捕McVeigh",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_21",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Hanger向OHP告知逮捕情况",
+      "support_text": "Hanger向OHP告知逮捕McVeigh的情况",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "OHP询问McVeigh是否在狱中",
+      "support_text": "OHP询问McVeigh是否仍在狱中",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "McVeigh被阻止进入队列",
+      "support_text": "McVeigh被阻止进入队列",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hanger与FBI agents交谈",
+      "support_text": "Hanger与FBI agents交谈",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "FBI agents询问是否查看车辆",
+      "support_text": "FBI agents询问是否查看车辆",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "FBI agents查看车辆",
+      "support_text": "FBI agents查看车辆",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_27",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院被警戒带包围",
+      "support_text": "法院被警戒带包围",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_28",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "确定McVeigh为Oklahoma City爆炸嫌疑人",
+      "support_text": "确定McVeigh为Oklahoma City爆炸嫌疑人",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_29",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "信封被密封在McVeigh的车中",
+      "support_text": "信封被密封在McVeigh的车中",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_30",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "信封包含《Turner Diaries》摘录和爆炸蓝图",
+      "support_text": "信封包含《Turner Diaries》摘录和爆炸蓝图",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_31",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "McVeigh策划大楼爆炸",
+      "support_text": "McVeigh策划大楼爆炸",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_32",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "McVeigh拒绝携带信封入狱",
+      "support_text": "McVeigh拒绝携带信封入狱",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_33",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "信封将牵连McVeigh",
+      "support_text": "信封将牵连McVeigh",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_34",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Hanger获得起立鼓掌",
+      "support_text": "Hanger获得起立鼓掌",
+      "source_text": "text_46"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_46_node_1",
+      "target": "text_46_node_2",
+      "relation": "before",
+      "support_text": "Then he saw the TV and noticed that one-third of the Murrah building was gone, calling it a “terrible sight.” Hanger was asked to respond, so with lights and sirens, he drove south on Interstate 35."
+    },
+    {
+      "source": "text_46_node_2",
+      "target": "text_46_node_3",
+      "relation": "before",
+      "support_text": "Then he saw the TV and noticed that one-third of the Murrah building was gone, calling it a “terrible sight.”"
+    },
+    {
+      "source": "text_46_node_3",
+      "target": "text_46_node_4",
+      "relation": "before",
+      "support_text": "Hanger was asked to respond, so with lights and sirens, he drove south on Interstate 35."
+    },
+    {
+      "source": "text_46_node_4",
+      "target": "text_46_node_5",
+      "relation": "before",
+      "support_text": "Not too far from Perry, he was told to stay in his area. He turned around and went northbound on I-35 and stopped to assist two women who had car trouble on the highway."
+    },
+    {
+      "source": "text_46_node_7",
+      "target": "text_46_node_8",
+      "relation": "before",
+      "support_text": "Hanger told McVeigh he stopped him for no tag; McVeigh said he had just purchased the car. Hanger, who thought the car was stolen, asked for proof of insurance or a bill of sale, but McVeigh had none, so Hanger asked for his drivers license."
+    },
+    {
+      "source": "text_46_node_7",
+      "target": "text_46_node_17",
+      "relation": "before",
+      "support_text": "警员在车后座右侧地板发现军用物资店名片"
+    },
+    {
+      "source": "text_46_node_8",
+      "target": "text_46_node_9",
+      "relation": "before",
+      "support_text": "Upon further inquiry, Hanger learned what McVeigh meant. He had a .45 caliber Glock pistol in a suicide holster."
+    },
+    {
+      "source": "text_46_node_9",
+      "target": "text_46_node_10",
+      "relation": "before",
+      "support_text": "Hanger nudged McVeigh with his pistol and said, “So is mine.”"
+    },
+    {
+      "source": "text_46_node_9",
+      "target": "text_46_node_11",
+      "relation": "before",
+      "support_text": "Hanger removed McVeigh’s weapon, along with a knife and magazine he was carrying and tossed them onto the shoulder of the highway."
+    },
+    {
+      "source": "text_46_node_10",
+      "target": "text_46_node_12",
+      "relation": "before",
+      "support_text": "Hanger said this situation shows that routine traffic enforcement works. It helps with traffic safety and gives police probable cause to see what else a driver is doing."
+    },
+    {
+      "source": "text_46_node_17",
+      "target": "text_46_node_18",
+      "relation": "before",
+      "support_text": "便条载明需要更多TNT（每根10美元）"
+    },
+    {
+      "source": "text_46_node_18",
+      "target": "text_46_node_19",
+      "relation": "before",
+      "support_text": "警员将名片塞入后座"
+    }
+  ]
+}

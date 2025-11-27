@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_118_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周一早晨在Chaman Levies总部附近发生爆炸",
+      "support_text": "A police officer was killed and 18 others including four police personnel wounded in an explosion near Levies Headquarters in Chaman on Monday morning.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式袭击者骑摩托车冲撞DPO Sajid Khan的巡逻车队",
+      "support_text": "The suicide bomber targeted DPO Sajid Khan’s convoy, killing him and injuring over 20 people. The vehicle of DPO was badly damaged in the explosion.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致DPO Sajid Khan死亡，其车辆严重损毁",
+      "support_text": "DPO Chaman Sajid Khan Mohmand was killed in the bombing at Eidgah in Chaman.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成包括4名警员在内的至少20人受伤",
+      "support_text": "18 others including four police personnel wounded...injuring over 20 people.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认袭击为自杀式爆炸，发现袭击者头部和腿部",
+      "support_text": "According to the security sources, head and legs of the bombers have been found.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "伤员及DPO遗体由直升机转运至医院",
+      "support_text": "Body of the DPO and wounded people have been shifted to hospital on board a helicopter.",
+      "source_text": "text_118"
+    },
+    {
+      "id": "text_118_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "消息来源陈述炸弹客的驾驶行为",
+      "support_text": "the sources said the bomber was riding a motorbike which he rammed into the DPO’s vehicle",
+      "source_text": "text_118"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_118_node_1",
+      "target": "text_118_node_3",
+      "relation": "before",
+      "support_text": "DPO Chaman Sajid Khan Mohmand was killed in the bombing at Eidgah in Chaman."
+    },
+    {
+      "source": "text_118_node_1",
+      "target": "text_118_node_4",
+      "relation": "before",
+      "support_text": "18 others including four police personnel wounded...injuring over 20 people."
+    },
+    {
+      "source": "text_118_node_2",
+      "target": "text_118_node_1",
+      "relation": "before",
+      "support_text": "The suicide bomber targeted DPO Sajid Khan’s convoy, killing him and injuring over 20 people."
+    },
+    {
+      "source": "text_118_node_3",
+      "target": "text_118_node_5",
+      "relation": "before",
+      "support_text": "According to the security sources, head and legs of the bombers have been found."
+    },
+    {
+      "source": "text_118_node_4",
+      "target": "text_118_node_6",
+      "relation": "before",
+      "support_text": "Body of the DPO and wounded people have been shifted to hospital on board a helicopter."
+    },
+    {
+      "source": "text_118_node_5",
+      "target": "text_118_node_7",
+      "relation": "before",
+      "support_text": "According to the security sources, head and legs of the bombers have been found."
+    }
+  ]
+}

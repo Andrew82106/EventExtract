@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "id": "text_21_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班持续在阿富汗夺取领土，迫使美军直接参与战斗",
+      "support_text": "Taliban forces have continued seizing territory across Afghanistan, dragging more American troops directly into the fight",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "北约军队在阿富汗的重点任务仍为训练和顾问工作",
+      "support_text": "commanders’ continued insistence that the focus of the NATO force in the country remains on training and advising",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "奥巴马政府推迟原定2015年撤军计划，维持至少9800名美军至2016年",
+      "support_text": "the Obama administration even reversed plans to begin withdrawing troops this year, choosing to leave 9,800 American troops in Afghanistan through at least 2016",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年10月12日，塔利班自杀式袭击美军车队，造成6名美军死亡",
+      "support_text": "a Taliban suicide bomber on a motorcycle drove into a military convoy near Bagram Air Base on Monday, killing six American service members",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击中包括纽约警察局国民警卫队侦探Joseph Lemm",
+      "support_text": "Among the dead was Detective Joseph Lemm, 45, a New York police detective serving in the Air National Guard",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年全年已有至少15名美军在非主战场遇袭身亡",
+      "support_text": "with at least 15 service members killed this year before the attack on Monday",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "美国官员对外界发表声明",
+      "support_text": "语义描述：美国官员表示；原始支持文本：美国官员表示",
+      "source_text": "text_21"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_21_node_1",
+      "target": "text_21_node_3",
+      "relation": "before",
+      "support_text": "the attack came as Taliban forces have continued seizing territory across Afghanistan"
+    },
+    {
+      "source": "text_21_node_3",
+      "target": "text_21_node_4",
+      "relation": "before",
+      "support_text": "the attack came as Taliban forces have continued seizing territory across Afghanistan"
+    },
+    {
+      "source": "text_21_node_3",
+      "target": "text_21_node_7",
+      "relation": "before",
+      "support_text": "语义描述：美国官员表示；原始支持文本："
+    },
+    {
+      "source": "text_21_node_4",
+      "target": "text_21_node_6",
+      "relation": "before",
+      "support_text": "with at least 15 service members killed this year before the attack on Monday"
+    },
+    {
+      "source": "text_21_node_4",
+      "target": "text_21_node_5",
+      "relation": "before",
+      "support_text": "Among the dead was Detective Joseph Lemm, 45, a New York police detective serving in the Air National Guard"
+    }
+  ]
+}

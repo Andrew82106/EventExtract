@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "text_60_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al Shabaab于1月15日攻占肯尼亚边境Ceel Cadde基地，宣称杀害超100名士兵并俘虏非盟维和人员",
+      "support_text": "Al Shabaab, which is aligned with al Qaeda, said its fighters killed more than 100 Kenyan soldiers when they overrun the base in Ceel Cadde, near the Kenyan border, on Jan.15.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "肯尼亚军方证实使用与1998年美国使馆炸弹同等威力卡车炸弹发动自杀式袭击",
+      "support_text": "Al Shabaab struck the base with a truck bomb which was as powerful as the one used by al Qaeda in 1998 to destroy the U.S. Embassy in Nairobi",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "Al Shabaab发布处决肯尼亚士兵的子弹头颅照片，否认自身伤亡",
+      "support_text": "Al Shabaab on Wednesday published gruesome photos which purport to show the bullet-riddled bodies of dozens of Kenyan soldiers",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "肯尼亚空军周末空袭摧毁两个Al Shabaab训练营",
+      "support_text": "The strikes over the weekend targetted two Al Shabaab camps where the militants were hiding",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "KDF指挥官Mwathethe宣布击毙袭击策划者Mwalimu Janow",
+      "support_text": "It is believed Mwalimu Janow... was killed",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "灵柩照片曝光引发舆论压力，迫使肯尼亚政府承诺继续维和行动",
+      "support_text": "newspaper pictures of coffins draped with Kenyan flags bringing back dead soldiers has increased pressure on President Uhuru Kenyatta",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚总统Uhuru Kenyatta拒绝撤军，重申维和承诺",
+      "support_text": "Kenyatta said Kenya was committed to bringing stability to Somalia",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_8",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "肯尼亚国防军总司令（KDF chief）发表声明",
+      "support_text": "肯尼亚国防军总司令声明",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "军方尚未公布死亡人数",
+      "support_text": "语义描述：军方尚未公布死亡人数；主体：Army officials；对象：the death toll",
+      "source_text": "text_60"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_2",
+      "relation": "before",
+      "support_text": "Al Shabaab struck the base with a truck bomb"
+    },
+    {
+      "source": "text_60_node_2",
+      "target": "text_60_node_4",
+      "relation": "before",
+      "support_text": "The strikes over the weekend targetted two Al Shabaab camps"
+    },
+    {
+      "source": "text_60_node_3",
+      "target": "text_60_node_6",
+      "relation": "before",
+      "support_text": "newspaper pictures of coffins... increased pressure"
+    },
+    {
+      "source": "text_60_node_3",
+      "target": "text_60_node_9",
+      "relation": "before",
+      "support_text": "Al Shabaab发布处决肯尼亚士兵的子弹头颅照片"
+    },
+    {
+      "source": "text_60_node_4",
+      "target": "text_60_node_5",
+      "relation": "before",
+      "support_text": "Mwathethe announced the killing"
+    },
+    {
+      "source": "text_60_node_4",
+      "target": "text_60_node_3",
+      "relation": "before",
+      "support_text": "Al Shabaab on Wednesday published gruesome photos"
+    },
+    {
+      "source": "text_60_node_5",
+      "target": "text_60_node_8",
+      "relation": "before",
+      "support_text": "指挥官击毙事件后总司令发表声明"
+    },
+    {
+      "source": "text_60_node_6",
+      "target": "text_60_node_7",
+      "relation": "before",
+      "support_text": "Kenyatta said Kenya was committed"
+    }
+  ]
+}

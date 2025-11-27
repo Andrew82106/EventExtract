@@ -1,0 +1,138 @@
+{
+  "nodes": [
+    {
+      "id": "text_143_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式爆炸袭击Lal Shahbaz Qalandar清真寺，造成至少72人死亡、250人受伤，数千人参与苏菲仪式",
+      "support_text": "DADU: At least 72 people, including 20 children and nine women, were killed and scores of others were wounded when a suicide bomber ripped through Lal Shahbaz Qalandar Shrine in Sehwan Sharif on Thursday, officials said.",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方证实爆炸发生在仪式现场，伤者被转移至Liauqat Medical College等医院",
+      "support_text": "The explosion took place at the spot where the dhamaal (Sufi ritual) was being performed, within the premises of the shrine.",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "应急部门宣布对海得拉巴、贾姆舒尔和谢赫万地区所有医院实施紧急状态",
+      "support_text": "Hyderabad Commissioner Qazi Shahid Pervaiz said emergency has been declared in all hospitals of Hyderabad, Jamshoro and Sehwan Sharif.",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Edhi基金会调度周边城市救护车运输伤者，救援人员称死亡人数可能达60-65人",
+      "support_text": "Edhi Foundation chief Faisal Edhi said that all ambulances from the nearby cities were sent to Sehwan Sharif to transport the injured to hospitals.",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_5",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "总理夏里夫谴责袭击，称其威胁巴基斯坦的包容性未来和真纳精神",
+      "support_text": "“The attack on the shrines of Lal Shahbaz Qalandar represents an attack on the progressive, inclusive future of Pakistan; one where every man woman and child is entitled to life, liberty and property in the pursuit of happiness no matter their religion,” a statement by PM Sharif said.",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "伊斯兰国家武装力量（ISPR）宣布调派海军直升机和C-130军机进行伤员转运",
+      "support_text": "ISPR says that night flying naval helicopter and C 130 aircraft of Pakistan Air Force (PAF) are being sent for quick evacuation of people injured in a suicide blast at Lal Shahbaz Qalandar shrine in Sehwan Sharif.",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "军方在爆炸现场部署陆军和边防部队参与救援行动",
+      "support_text": "He said armed forces have placed all required resources for rescue effort. 'Army and Rangers are doing rescue effort at site,' he added.",
+      "source_text": "text_143"
+    },
+    {
+      "id": "text_143_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "文本提及2022年11月Shah Noorani清真寺自杀爆炸案造成52人死亡",
+      "support_text": "This is not the first time a Sufi shrine has been hit by terrorists. In November last year, a suicide blast at Shah Noorani shrine killed 52 people and injured more than 100.",
+      "source_text": "text_143"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_143_node_1",
+      "target": "text_143_node_2",
+      "relation": "before",
+      "support_text": "The explosion took place at the spot where the dhamaal (Sufi ritual) was being performed, within the premises of the shrine."
+    },
+    {
+      "source": "text_143_node_1",
+      "target": "text_143_node_3",
+      "relation": "before",
+      "support_text": "Hyderabad Commissioner Qazi Shahid Pervaiz said emergency has been declared in all hospitals of Hyderabad, Jamshoro and Sehwan Sharif."
+    },
+    {
+      "source": "text_143_node_1",
+      "target": "text_143_node_4",
+      "relation": "before",
+      "support_text": "Edhi Foundation chief Faisal Edhi said that all ambulances from the nearby cities were sent to Sehwan Sharif to transport the injured to hospitals."
+    },
+    {
+      "source": "text_143_node_1",
+      "target": "text_143_node_5",
+      "relation": "before",
+      "support_text": "‘The attack on the shrines of Lal Shahbaz Qalandar represents an attack on the progressive, inclusive future of Pakistan…’ a statement by PM Sharif said."
+    },
+    {
+      "source": "text_143_node_1",
+      "target": "text_143_node_6",
+      "relation": "before",
+      "support_text": "ISPR says that night flying naval helicopter and C 130 aircraft of Pakistan Air Force (PAF) are being sent for quick evacuation of people injured in a suicide blast at Lal Shahbaz Qalandar shrine in Sehwan Sharif."
+    },
+    {
+      "source": "text_143_node_1",
+      "target": "text_143_node_7",
+      "relation": "before",
+      "support_text": "He said armed forces have placed all required resources for rescue effort. 'Army and Rangers are doing rescue effort at site,' he added."
+    },
+    {
+      "source": "text_143_node_2",
+      "target": "text_143_node_3",
+      "relation": "before",
+      "support_text": "Senior police officer Shabbir Sethar told Reuters from a local hospital that the death toll was likely to rise. 'At least 72 are dead and over 150 have been injured,' Sethar said by telephone"
+    },
+    {
+      "source": "text_143_node_3",
+      "target": "text_143_node_4",
+      "relation": "before",
+      "support_text": "The injured were shifted to Liauqat Medical College, Jamshoro and other hospitals of Dadu and Hyderabad."
+    },
+    {
+      "source": "text_143_node_3",
+      "target": "text_143_node_5",
+      "relation": "before",
+      "support_text": "‘The attack on one of us, is an attack on all,’ he said."
+    },
+    {
+      "source": "text_143_node_8",
+      "target": "text_143_node_1",
+      "relation": "before",
+      "support_text": "This is not the first time a Sufi shrine has been hit by terrorists. In November last year, a suicide blast at Shah Noorani shrine killed 52 people and injured more than 100."
+    }
+  ]
+}

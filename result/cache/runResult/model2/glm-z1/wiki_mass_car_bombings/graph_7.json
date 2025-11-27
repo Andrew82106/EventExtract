@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "text_7_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六发生卡车炸弹袭击，与油罐车相撞，造成街道毁灭性破坏",
+      "support_text": "Arriving at the scene of Saturday’s explosion, what he remembered as a bustling intersection crowded with street hawkers, vegetable sellers, and hotel guests had been transformed into a post-apocalyptic scene: the carbonised bodies of those killed in the explosion were strewn across the street, the Safari Hotel was rubble, and heat from the fire raging in the explosion’s aftermath could be felt 100 metres from the scene.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "第一次爆炸后出现火势失控和100米外可感高温的灾后场景",
+      "support_text": "the carbonised bodies of those killed in the explosion were strewn across the street, the Safari Hotel was rubble, and heat from the fire raging in the explosion’s aftermath could be felt 100 metres from the scene.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "30分钟后300米外发生第二次汽车炸弹爆炸",
+      "support_text": "Roughly 30 minutes later, another car bomb exploded less than 300 metres from the site of the first blast, sending more victims to the six hospitals nearby that were already jammed with casualties.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "救援力量在爆炸现场发现300人遇难和大量伤员",
+      "support_text": "According to the Somali government. The number of fatalities will probably increase as more bodies are found in the debris.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Farmaajo总统自2023年2月上任后实施严格安检措施",
+      "support_text": "Since Mohamed Abdullahi Mohamed (known as “Farmaajo”) took office as president in February, national security has been his government’s priority.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年8月美军与索马里军联合行动误杀10名平民",
+      "support_text": "In August a joint raid by Somali and American soldiers led to the deaths of ten civilians in Bariire.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸暴露安全漏洞，载弹卡车未被两个检查站检查",
+      "support_text": "the truck carrying explosives was stopped at two checkpoints on its way into the city, but was allowed to continue without an inspection of its cargo.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "地区州总统集体拒绝参加联邦制宪会议转而在Kismayo集会",
+      "support_text": "Only a week before the attack, the presidents of Somalia’s regional states refused to attend a constitutional convention with the federal government in Mogadishu, opting instead to have a meeting of regional presidents in Kismayo.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "专家指出爆炸证明恐怖组织仍能有效打击摩加迪沙",
+      "support_text": "According to sources close to the government, the truck carrying explosives was stopped at two checkpoints on its way into the city, but was allowed to continue without an inspection of its cargo.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_10",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府统计显示超过300人遇难，后续可能发现更多焦尸",
+      "support_text": "The attack was the deadliest in the already turbulent history of Somalia’s capital. It was particularly devastating because a truck loaded with a mixture of homemade and military explosives detonated next to a fuel tanker on a busy intersection of the city’s Kilometre Five district.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Ahmed驾驶救护车执行救援任务",
+      "support_text": "Ahmed驾驶救护车",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Hassan发表关于灾情的评论",
+      "support_text": "Hassan发表关于灾情的评论",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "爆炸导致更多受害者被送往附近六家医院",
+      "support_text": "爆炸导致更多受害者被送往附近六家医院",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "附近六家医院因伤员涌入而拥堵",
+      "support_text": "附近六家医院因伤员涌入而拥堵",
+      "source_text": "text_7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_2",
+      "relation": "before",
+      "support_text": "the carbonised bodies of those killed in the explosion were strewn across the street, the Safari Hotel was rubble, and heat from the fire raging in the explosion’s aftermath could be felt 100 metres from the scene."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_3",
+      "relation": "before",
+      "support_text": "Roughly 30 minutes later, another car bomb exploded less than 300 metres from the site of the first blast, sending more victims to the six hospitals nearby that were already jammed with casualties."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_9",
+      "relation": "before",
+      "support_text": "According to sources close to the government, the truck carrying explosives was stopped at two checkpoints on its way into the city, but was allowed to continue without an inspection of its cargo."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_10",
+      "relation": "before",
+      "support_text": "The attack was the deadliest in the already turbulent history of Somalia’s capital. It was particularly devastating because a truck loaded with a mixture of homemade and military explosives detonated next to a fuel tanker on a busy intersection of the city’s Kilometre Five district."
+    },
+    {
+      "source": "text_7_node_3",
+      "target": "text_7_node_4",
+      "relation": "before",
+      "support_text": "According to the Somali government. The number of fatalities will probably increase as more bodies are found in the debris."
+    },
+    {
+      "source": "text_7_node_5",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "Since Mohamed Abdullahi Mohamed (known as “Farmaajo”) took office as president in February, national security has been his government’s priority."
+    },
+    {
+      "source": "text_7_node_7",
+      "target": "text_7_node_1",
+      "relation": "before",
+      "support_text": "the truck carrying explosives was stopped at two checkpoints on its way into the city, but was allowed to continue without an inspection of its cargo."
+    },
+    {
+      "source": "text_7_node_8",
+      "target": "text_7_node_1",
+      "relation": "before",
+      "support_text": "Only a week before the attack, the presidents of Somalia’s regional states refused to attend a constitutional convention with the federal government in Mogadishu, opting instead to have a meeting of regional presidents in Kismayo."
+    },
+    {
+      "source": "text_7_node_8",
+      "target": "text_7_node_7",
+      "relation": "before",
+      "support_text": "Only a week before the attack, the presidents of Somalia’s regional states refused to attend a constitutional convention with the federal government in Mogadishu, opting instead to have a meeting of regional presidents in Kismayo."
+    }
+  ]
+}

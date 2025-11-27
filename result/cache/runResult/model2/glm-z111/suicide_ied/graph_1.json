@@ -1,0 +1,249 @@
+{
+  "nodes": [
+    {
+      "id": "text_1_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年1月al-Shabaab对肯尼亚国防军El Adde基地发动突袭",
+      "support_text": "A couple of weeks ago al-Shabaab's media wing, al-Katāi’b Media, released an hours-long video purportedly of a surprise attack on Kenyan peacekeepers in Somalia that took place in January, 2016.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "突袭发生时KDF新部署部队未完成熟悉化训练",
+      "support_text": "These elements arrived in Somalia en masse, rather than sequentially by company or platoon and without the benefit of a 'left seat – right seat' familiarization process conducted with an outgoing unit.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击造成143具烧毁尸体，伤亡估计超百人",
+      "support_text": "One KDF spokesman reported DNA samples were taken from 143 bodies at the scene, most of which were burned beyond recognition.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "al-Shabaab发布两版袭击视频，原始长版已消失",
+      "support_text": "Two versions of the video were seen on the internet in the past few weeks. The one you see below appears to be an edited version of the longer original footage, which is no longer easily located online.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "视频显示追击幸存者及处决伤兵，包含大量暴力画面",
+      "support_text": "Both depict fighting, pursuit of fleeing survivors and the execution of captured and wounded KDF soldiers.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "KDF总司令召开记者会披露攻击细节及初期应对",
+      "support_text": "The Chief of Kenyan Defense Forces, General Samson Mwathe, held a press conference shortly after the attack, describing events and the immediate response.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认袭击始于VBIED爆炸，存在单/多车炸弹争议",
+      "support_text": "This and other reports indicate the attack was initiated by three vehicle borne improvised explosive device detonations (VBIED). Some analysts, however, believe there was only one VBIED...",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "KDF因通讯中断延误反应，空中支援遭防空火力拦截",
+      "support_text": "News of the attack apparently did not reach higher KDF headquarters for at least an hour and a half... attackers destroyed communications systems...",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "4天后KDF重新夺回基地，仍有车辆燃烧",
+      "support_text": "The aftermath — relief forces of the KDF secure El Adde 4 days after the attack. The camp and vehicles are still burning.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析认为部分视频拍摄于次日以增强宣传效果",
+      "support_text": "Regardless of the video's veracity, it is the worst attack on any AMISOM contingent since the AU mission began... some analysts to believe much of the filming was actually done the morning after the attack...",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "此袭击成为AMISOM成立以来最严重针对 peacekeepers事件",
+      "support_text": "This wasn't the first attack on AMISOM personnel in Somalia, but it's been the worst attack on any AMISOM contingent since the AU mission began...",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_12",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "提及2015年乌干达及2016年布隆迪AMISOM人员伤亡事件",
+      "support_text": "A large number of African Union peacekeepers from Uganda were killed in September 2015, and dozens from Burundi the preceding June.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚国内出现撤军呼声，总统拒绝执行",
+      "support_text": "Predictably, news of the attack resulted in calls for the withdrawal of Kenyan peacekeepers by parts of the Kenyan public and media, but the president has refused these demands.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "AMISOM官网未发布相关声明",
+      "support_text": "Oddly, the AMISOM website has published neither statement nor news about the attack.",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚士兵独立发起了保护国家的军事行动（Operation Linda Nchi）",
+      "support_text": "肯尼亚士兵被正式整合到AMISOM的作战序列中",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "肯尼亚士兵被正式整合到AMISOM的作战序列中",
+      "support_text": "肯尼亚士兵独立发起了保护国家的军事行动（Operation Linda Nchi）",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "报告指出袭击由三次车载简易爆炸物（VBIED）发起",
+      "support_text": "reports indicate the attack was initiated by three vehicle borne improvised explosive device detonations (VBIED)",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析家认为实际只有一辆VBIED",
+      "support_text": "analysts believe there was only one VBIED",
+      "source_text": "text_1"
+    },
+    {
+      "id": "text_1_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析家建议声称的多车炸弹图像实为同一爆炸的不同视角拍摄",
+      "support_text": "analysts suggest the claimed multiple car bomb images were different angles of a single explosion",
+      "source_text": "text_1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_2",
+      "relation": "before",
+      "support_text": "These elements arrived in Somalia en masse, rather than sequentially by company or platoon and without the benefit of a 'left seat – right seat' familiarization process conducted with an outgoing unit."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_3",
+      "relation": "before",
+      "support_text": "One KDF spokesman reported DNA samples were taken from 143 bodies at the scene, most of which were burned beyond recognition."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_4",
+      "relation": "before",
+      "support_text": "Two versions of the video were seen on the internet in the past few weeks."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_5",
+      "relation": "before",
+      "support_text": "Both depict fighting, pursuit of fleeing survivors and the execution of captured and wounded KDF soldiers."
+    },
+    {
+      "source": "text_1_node_1",
+      "target": "text_1_node_6",
+      "relation": "before",
+      "support_text": "The Chief of Kenyan Defense Forces, General Samson Mwathe, held a press conference shortly after the attack..."
+    },
+    {
+      "source": "text_1_node_7",
+      "target": "text_1_node_8",
+      "relation": "before",
+      "support_text": "News of the attack apparently did not reach higher KDF headquarters for at least an hour and a half..."
+    },
+    {
+      "source": "text_1_node_8",
+      "target": "text_1_node_9",
+      "relation": "before",
+      "support_text": "They discovered attackers had dispersed into the bush and surrounding villages..."
+    },
+    {
+      "source": "text_1_node_9",
+      "target": "text_1_node_10",
+      "relation": "before",
+      "support_text": "Regardless of the video's veracity, it is the worst attack on any AMISOM contingent since the AU mission began..."
+    },
+    {
+      "source": "text_1_node_10",
+      "target": "text_1_node_11",
+      "relation": "before",
+      "support_text": "This wasn't the first attack on AMISOM personnel in Somalia, but it's been the worst attack on any AMISOM contingent since the AU mission began..."
+    },
+    {
+      "source": "text_1_node_11",
+      "target": "text_1_node_12",
+      "relation": "before",
+      "support_text": "A large number of African Union peacekeepers from Uganda were killed in September 2015..."
+    },
+    {
+      "source": "text_1_node_11",
+      "target": "text_1_node_13",
+      "relation": "before",
+      "support_text": "Predictably, news of the attack resulted in calls for the withdrawal of Kenyan peacekeepers by parts of the Kenyan public and media..."
+    },
+    {
+      "source": "text_1_node_11",
+      "target": "text_1_node_14",
+      "relation": "before",
+      "support_text": "Oddly, the AMISOM website has published neither statement nor news about the attack."
+    }
+  ]
+}

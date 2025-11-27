@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "text_196_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "2016年在线招募者从喀拉拉邦和卡纳图尔招募两批人加入ISIS，通过科伦坡安全屋送往阿富汗和叙利亚，NIA调查脱党事件",
+      "support_text": "An online jihadi recruiter had persuaded two groups of people from Kasaragod and Kannur to join the IS in Afghan and Syria in 2016 and moved them to their destinations via a safe-house in Colombo. The NIA had investigated the defections.",
+      "source_text": "text_196"
+    },
+    {
+      "id": "text_196_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "2016年科摩蒂耶附属组织被调查，涉及2016年谋杀案",
+      "support_text": "But an affiliate organisation of theirs at Coimbatore in Tamil Nadu had faced investigation in 2016 on the charge of orchestrating the murder of a Hindu Munnani worker.",
+      "source_text": "text_196"
+    },
+    {
+      "id": "text_196_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年NTJ策划复活节爆炸案，Hashim被炸死",
+      "support_text": "An officer said the international probe into the terror attacks had thrown up evidence that the Palakkad duo had direct contact with Hashim. The Kasaragod pair communicated with Hashim indirectly through their Palakkad partners.",
+      "source_text": "text_196"
+    },
+    {
+      "id": "text_196_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸案后ISIS在线宣称NTJ为卫星组织，称Hashim为烈士，并提到另一名关联人可能访问过泰米尔纳德邦",
+      "support_text": "After the blasts, online propagandists for the Islamic State (IS) claimed the NJT to be its satellite organisation and hailed the bombers as martyrs, including Hashim. They said another unnamed associate of Hashim, possibly one of the seven bombers, had visited Tamil Nadu.",
+      "source_text": "text_196"
+    },
+    {
+      "id": "text_196_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "NIA检查Palakkad和Kasaragod住所，以及两个关联人的住所",
+      "support_text": "The National Investigation Agency (NIA) had on Sunday inspected their homes in Palakkad and that of two of their close associates in Kasaragod.",
+      "source_text": "text_196"
+    },
+    {
+      "id": "text_196_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "国际调查发现Palakkad两人与Hashim直接联系，Kasaragod两人通过Palakkad间接联系",
+      "support_text": "He said the international probe into the terror attacks had thrown up evidence that the Palakkad duo had direct contact with Hashim. The Kasaragod pair communicated with Hashim indirectly through their Palakkad partners.",
+      "source_text": "text_196"
+    },
+    {
+      "id": "text_196_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全机构分析通信时间线，确定联系时间和性质",
+      "support_text": "Security agencies appeared to be analysing the time line of their communications in a bid to understand the nature of the contacts and when they occurred last.",
+      "source_text": "text_196"
+    },
+    {
+      "id": "text_196_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查发现其中一人是钟表商，有定时器维修经验，但未涉及非法活动",
+      "support_text": "An officer pointedly noted that one of the persons the NIA had questioned was a clock merchant with considerable experience in repairing and assembling timer devices.",
+      "source_text": "text_196"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_196_node_3",
+      "target": "text_196_node_4",
+      "relation": "before",
+      "support_text": "After the blasts, online propagandists for the Islamic State (IS) claimed the NJT to be its satellite organisation and hailed the bombers as martyrs, including Hashim. They said another unnamed associate of Hashim, possibly one of the seven bombers, had visited Tamil Nadu."
+    },
+    {
+      "source": "text_196_node_3",
+      "target": "text_196_node_5",
+      "relation": "before",
+      "support_text": "The National Investigation Agency (NIA) had on Sunday inspected their homes in Palakkad and that of two of their close associates in Kasaragod."
+    },
+    {
+      "source": "text_196_node_3",
+      "target": "text_196_node_6",
+      "relation": "before",
+      "support_text": "He said the international probe into the terror attacks had thrown up evidence that the Palakkad duo had direct contact with Hashim. The Kasaragod pair communicated with Hashim indirectly through their Palakkad partners."
+    },
+    {
+      "source": "text_196_node_4",
+      "target": "text_196_node_5",
+      "relation": "before",
+      "support_text": "The National Investigation Agency (NIA) had on Sunday inspected their homes in Palakkad and that of two of their close associates in Kasaragod."
+    },
+    {
+      "source": "text_196_node_5",
+      "target": "text_196_node_6",
+      "relation": "before",
+      "support_text": "Security agencies appeared to be analysing the time line of their communications in a bid to understand the nature of the contacts and when they occurred last."
+    },
+    {
+      "source": "text_196_node_6",
+      "target": "text_196_node_7",
+      "relation": "before",
+      "support_text": "Security agencies appeared to be analysing the time line of their communications in a bid to understand the nature of the contacts and when they occurred last."
+    },
+    {
+      "source": "text_196_node_7",
+      "target": "text_196_node_8",
+      "relation": "before",
+      "support_text": "An officer pointedly noted that one of the persons the NIA had questioned was a clock merchant with considerable experience in repairing and assembling timer devices."
+    }
+  ]
+}

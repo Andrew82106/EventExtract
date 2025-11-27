@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "id": "text_8_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "7月13日周五，自杀式袭击针对巴基斯坦Balochistan省Balochistan Awami Party（BAP）领导人Siraj Raisani的竞选集会，造成130人死亡（含Raisani）、200人重伤",
+      "support_text": "A suicide bomber targetted the political corner meeting of the Balochistan Awami Party (BAP) leader Siraj Raisani on Friday, killing at least 130 people including Raisani and injuring over 200.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "7月14日周日，联合国安理会（UNSC）与联合国秘书长António Guterres联合谴责袭击并致哀",
+      "support_text": "The UNSC & the UNSG condemned the #Mastung blast and conveyed condolences to the families & Govt of Pakistan, for the horrific terrorist attack which claimed more than 120 precious lives yesterday.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "7月14日周日，德国总理默克尔发表声明支持巴基斯坦反恐，承诺提供协助",
+      "support_text": "German Chancellor Angela Merkel on Saturday lent Berlin’s full support to Islamabad in the fight against terrorism following the Mastung attack...",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "7月14日周日，巴基斯坦外交部发言人Dr Mohammad Faisal重申联合国及秘书长对事件的立场",
+      "support_text": "Dr Mohammad Faisal, the spokesperson for the ministry of foreign affairs said that the United Nations Security Council and the secretary general António Guterres denounced the Mastung blast and conveyed their condolences...",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "7月14日周日，巴基斯坦驻联合国代表Maleeha Lodhi强调伊斯兰堡持续反恐努力",
+      "support_text": "Pakistan's envoy to the United Nations Maleeha Lodhi also said that 'Islamabad continues to valiantly fight terrorism everyday'.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "专家评估该袭击为7月25日大选前针对选举活动的最致命袭击，加剧安全担忧",
+      "support_text": "Experts have called the incident the deadliest in a string of attacks on electioneering that have heightened security fears ahead of the July 25 voting.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "默克尔向代理总理Nasirul Mulk发送慰问电报",
+      "support_text": "默克尔向代理总理Nasirul Mulk发送慰问电报",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "向受害者家属传达慰问信息",
+      "support_text": "向受害者家属传达慰问信息",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰堡打击恐怖主义",
+      "support_text": "伊斯兰堡打击恐怖主义",
+      "source_text": "text_8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_2",
+      "relation": "before",
+      "support_text": "The UNSC & the UNSG condemned the #Mastung blast and conveyed condolences to the families & Govt of Pakistan, for the horrific terrorist attack which claimed more than 120 precious lives yesterday."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_3",
+      "relation": "before",
+      "support_text": "German Chancellor Angela Merkel on Saturday lent Berlin’s full support to Islamabad in the fight against terrorism following the Mastung attack..."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_4",
+      "relation": "before",
+      "support_text": "Dr Mohammad Faisal, the spokesperson for the ministry of foreign affairs said that the United Nations Security Council and the secretary general António Guterres denounced the Mastung blast and conveyed their condolences..."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_5",
+      "relation": "before",
+      "support_text": "Pakistan's envoy to the United Nations Maleeha Lodhi also said that 'Islamabad continues to valiantly fight terrorism everyday'."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_6",
+      "relation": "before",
+      "support_text": "Experts have called the incident the deadliest in a string of attacks on electioneering that have heightened security fears ahead of the July 25 voting."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_7",
+      "relation": "before",
+      "support_text": "在袭击事件后默克尔发送慰问电报"
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_8",
+      "relation": "before",
+      "support_text": "在袭击事件后向受害者家属传达信息"
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_9",
+      "relation": "before",
+      "support_text": "7月13日自杀式袭击后伊斯兰堡开始系统打击恐怖主义"
+    },
+    {
+      "source": "text_8_node_2",
+      "target": "text_8_node_4",
+      "relation": "before",
+      "support_text": "Dr Mohammad Faisal, the spokesperson for the ministry of foreign affairs said that the United Nations Security Council and the secretary general António Guterres denounced the Mastung blast and conveyed their condolences..."
+    },
+    {
+      "source": "text_8_node_3",
+      "target": "text_8_node_4",
+      "relation": "before",
+      "support_text": "Dr Mohammad Faisal, the spokesperson for the ministry of foreign affairs said that the United Nations Security Council and the secretary general António Guterres denounced the Mastung blast and conveyed their condolences..."
+    },
+    {
+      "source": "text_8_node_4",
+      "target": "text_8_node_5",
+      "relation": "before",
+      "support_text": "Pakistan's envoy to the United Nations Maleeha Lodhi also said that 'Islamabad continues to valiantly fight terrorism everyday'."
+    }
+  ]
+}

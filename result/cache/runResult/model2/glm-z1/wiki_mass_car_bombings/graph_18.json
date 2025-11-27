@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "id": "text_18_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2011年12月23日，大马士革两起汽车炸弹袭击军用机构外，致44死166伤，多数为平民",
+      "support_text": "On 23 December 2011, two seemingly coordinated bombings occurred in the Syrian capital of Damascus. The alleged suicide car bombs exploded outside Syrian military intelligence agency buildings, killing 44 people and injuring 166.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "同日阿拉伯观察团抵达叙利亚监督政府",
+      "support_text": "On the same day as the attacks, an Arab League team of observers arrived in Syria to monitor the government's activities and push towards a solution of the nine-month uprising against the government.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击现场出现第二次爆炸伴随枪击，200米外窗户损毁",
+      "support_text": "When guards at a nearby General Security Directorate compound went to inspect the first blast, the driver of another vehicle rammed the main gates and detonated the bomb it was carrying. According to a Syrian journalist who lives in Kfar Sousa, gunfire was heard immediately following the blasts and windows up to 200 m (670 ft) away were shattered.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "次日加拿大外长否认叙利亚政府指控的Al-Qaeda关联",
+      "support_text": "Canadian Foreign Minister John Baird dismissed the Syrian claim as propaganda.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "反对派指控政府策划袭击，政府官员陪同观察团访问现场",
+      "support_text": "Officials from the visiting team later visited the sites of both explosions. Government officials escorted the team to the scene of the explosions.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年1月确认袭击由Jabhat al-Nusra实施（含伊拉克女性自杀式袭击者）",
+      "support_text": "commentator Jamie Dettmer stated that the Al-Nusra Front perpetrated the attack, and that the U.S. National Counterterrorism Center assumed it to be carried out by two female suicide bombers from Iraq.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚情报部门否认参与并指责指控转移注意力",
+      "support_text": "The Abdullah Azzam Brigades... called the regime's blame on al-Qaeda an attempt to deflect attention from its own brutal crackdown on protesters.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "前黎巴嫩总理称政府操控袭击制造舆论压力",
+      "support_text": "Saad Hariri claimed the bombings were 'engineered' by the Syrian government.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "自由叙利亚军指控政府借机争取阿拉伯观察团支持",
+      "support_text": "The Free Syrian Army (FSA)... accused the government of perpetrating the attack to gain sympathy from the Arab League and its observers.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚全国委员会认定政府全责并捏造外部威胁假象",
+      "support_text": "the Syrian regime, alone, bears all the direct responsibility for the two terrorist explosions... wanted to create the impression 'that it faces danger coming from abroad'.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2011年12月28日阿兹姆旅否认参与并指责政府转移矛盾焦点",
+      "support_text": "The Abdullah Azzam Brigades... called the regime's blame on al-Qaeda an attempt to deflect attention from its own brutal crackdown on protesters.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "穆斯林兄弟会副指导指控叙利亚情报伪造袭击证据",
+      "support_text": "Mohammed Tayfour... said Syrian intelligence created a fake MB website and published a fake statement.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_new_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "政府官员重申长期声明",
+      "support_text": "语义描述：政府官员重申长期声明\n原始意义段内容：政府官员重申长期声明",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "官方媒体发布伤亡情况报道",
+      "support_text": "al-Ikhbariya al-Suriya等媒体向公众通报了爆炸事件造成的伤亡人数",
+      "source_text": "text_18"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_3",
+      "relation": "before",
+      "support_text": "When guards at a nearby General Security Directorate compound went to inspect the first blast, the driver of another vehicle rammed the main gates and detonated the bomb it was carrying."
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_2",
+      "relation": "before",
+      "support_text": "On the same day as the attacks, an Arab League team of observers arrived in Syria..."
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_4",
+      "relation": "before",
+      "support_text": "According to Syrian state media, most of the dead were civilians. The attacks took place during the Syrian uprising."
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_6",
+      "relation": "before",
+      "support_text": "In January 2013, commentator Jamie Dettmer stated that the Al-Nusra Front perpetrated the attack..."
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_7",
+      "relation": "before",
+      "support_text": "The Abdullah Azzam Brigades... called the regime's blame on al-Qaeda an attempt to deflect attention from its own brutal crackdown on protesters."
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_8",
+      "relation": "before",
+      "support_text": "Saad Hariri claimed the bombings were 'engineered' by the Syrian government."
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_9",
+      "relation": "before",
+      "support_text": "The Free Syrian Army (FSA)... accused the government of perpetrating the attack to gain sympathy from the Arab League and its observers."
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_10",
+      "relation": "before",
+      "support_text": "According to Syrian state media, most of the dead were civilians. The Syrian government blamed Islamist militants, while the Syrian opposition accused the government of staging the attacks..."
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_11",
+      "relation": "before",
+      "support_text": "The Abdullah Azzam Brigades... called the regime's blame on al-Qaeda an attempt to deflect attention from its own brutal crackdown on protesters."
+    },
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_12",
+      "relation": "before",
+      "support_text": "Mohammed Tayfour... said Syrian intelligence created a fake MB website and published a fake statement."
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_node_5",
+      "relation": "before",
+      "support_text": "Officials from the visiting team later visited the sites of both explosions."
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_new_node_13",
+      "relation": "before",
+      "support_text": "阿拉伯观察团抵达叙利亚监督政府后，官员重申长期声明"
+    },
+    {
+      "source": "text_18_node_3",
+      "target": "text_18_new_node_14",
+      "relation": "before",
+      "support_text": "首次爆炸及后续撞击事件发生后，官方媒体开始发布伤亡情况"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "nodes": [
+    {
+      "id": "text_21_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "banned Tehreek-e-Taliban Pakistan声称对袭击负责",
+      "support_text": "Meanwhile, the banned Tehreek-e-Taliban Pakistan claimed responsibility of the attack.",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式袭击者进入 DIG 办公楼，携带自杀背心、手榴弹和步枪",
+      "support_text": "Three suicide bombers stormed into the offices of a senior police officer in a central Balochistan district on Tuesday afternoon...",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击者先在DIG入口处引爆手榴弹",
+      "support_text": "The attackers detonated a hand grenade at the entrance to the complex of DIG in Loralai before storming inside...",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方击毙一名袭击者，该袭击者随后自杀",
+      "support_text": "The police on duty responded and shot one of three attackers at the entrance to the complex who blew himself up",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "FC Balochistan和Army部队疏散约800名正在参加警察招录考试的考生",
+      "support_text": "FC Balochistan and Army troops were called in, who safely evacuated around 800 candidates",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "军方消灭两名藏匿在房间内的自杀式袭击者",
+      "support_text": "After evacuating the candidates, the troops started the operation to take out the two suicide bombers hiding in the room. They were subsequently shot dead",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致9人死亡（含3名警察、5名警务职员、1名考生）和21人受伤（含12名警察、9名考生）",
+      "support_text": "Nine persons, including three policemen, five civil employees of police and one civilian candidate embraced shahadat. 21 people, among them 12 policemen and 9 civilian candidates, were also wounded",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Loralai Civil Hospital接收10具尸体和21名伤者，重伤员转至Combined Military Hospital",
+      "support_text": "Medical Superintendent Loralai Civil Hospital Dr Faheem said 10 bodies and 21 injured were brought to the hospital. Those critically injured were shifted to the Combined Military Hospital",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Balochistan首席部长和其他官员谴责袭击并要求彻查",
+      "support_text": "Provincial Home Minister Mir Zia Langove, provincial ministers, as well as Balochistan Chief Minister Jam Kamal Khan condemned the attack.",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Balochistan首席部长承诺采取果断反恐行动",
+      "support_text": "The chief minister called for the attack’s inquiry report, and vowed to take decisive action against terrorists.",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Earlier this month, at least four members of the security forces were killed in an attack on a Frontier Corps training base in Loralai",
+      "support_text": "Earlier this month, at least four members of the security forces were killed in an attack on a Frontier Corps training base in Loralai.",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "执勤警察对袭击事件进行感官观察",
+      "support_text": "执勤警察回应了袭击事件",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "剩余两名自杀式炸弹客向目标开火",
+      "support_text": "剩余两名自杀式炸弹客向目标开火",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "剩余两名自杀式炸弹客进入侧房间",
+      "support_text": "剩余两名自杀式炸弹客进入其中一个侧房间",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "FC Balochistan和Army troops被调用协助",
+      "support_text": "FC Balochistan和Army troops被调用协助",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "部队清除了现场",
+      "support_text": "部队清除了现场",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致10人死亡（含9名警察）",
+      "support_text": "袭击导致10人（含9名警察）死亡",
+      "source_text": "text_21"
+    },
+    {
+      "id": "text_21_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nasir Shah声明袭击已致10人死亡",
+      "support_text": "洛拉莱警察局警长Nasir Shah声明袭击已致10人死亡",
+      "source_text": "text_21"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_21_node_2",
+      "target": "text_21_node_3",
+      "relation": "before",
+      "support_text": "Three suicide bombers stormed into the offices...before storming inside..."
+    },
+    {
+      "source": "text_21_node_2",
+      "target": "text_21_node_1",
+      "relation": "before",
+      "support_text": "Meanwhile, the banned Tehreek-e-Taliban Pakistan claimed responsibility of the attack."
+    },
+    {
+      "source": "text_21_node_3",
+      "target": "text_21_node_4",
+      "relation": "before",
+      "support_text": "The police on duty responded and shot one of three attackers at the entrance to the complex who blew himself up"
+    },
+    {
+      "source": "text_21_node_4",
+      "target": "text_21_node_5",
+      "relation": "before",
+      "support_text": "FC Balochistan and Army troops were called in, who safely evacuated around 800 candidates"
+    },
+    {
+      "source": "text_21_node_4",
+      "target": "text_21_node_13",
+      "relation": "before",
+      "support_text": "开枪后剩余两人开火"
+    },
+    {
+      "source": "text_21_node_5",
+      "target": "text_21_node_6",
+      "relation": "before",
+      "support_text": "After evacuating the candidates, the troops started the operation..."
+    },
+    {
+      "source": "text_21_node_6",
+      "target": "text_21_node_7",
+      "relation": "before",
+      "support_text": "Nine persons...and 21 people...were also wounded"
+    },
+    {
+      "source": "text_21_node_6",
+      "target": "text_21_node_16",
+      "relation": "before",
+      "support_text": "执行消除行动后完成现场清理"
+    },
+    {
+      "source": "text_21_node_7",
+      "target": "text_21_node_8",
+      "relation": "before",
+      "support_text": "Medical Superintendent Loralai Civil Hospital Dr Faheem said 10 bodies and 21 injured were brought to the hospital"
+    },
+    {
+      "source": "text_21_node_8",
+      "target": "text_21_node_9",
+      "relation": "before",
+      "support_text": "Provincial Home Minister Mir Zia Langove...condemned the attack."
+    },
+    {
+      "source": "text_21_node_9",
+      "target": "text_21_node_10",
+      "relation": "before",
+      "support_text": "The chief minister called for the attack’s inquiry report..."
+    },
+    {
+      "source": "text_21_node_10",
+      "target": "text_21_node_11",
+      "relation": "before",
+      "support_text": "Earlier this month, at least four members of the security forces were killed..."
+    },
+    {
+      "source": "text_21_node_12",
+      "target": "text_21_node_4",
+      "relation": "before",
+      "support_text": "执勤警察回应后立即开枪"
+    },
+    {
+      "source": "text_21_node_13",
+      "target": "text_21_node_14",
+      "relation": "before",
+      "support_text": "开火后进入侧房间"
+    },
+    {
+      "source": "text_21_node_15",
+      "target": "text_21_node_6",
+      "relation": "before",
+      "support_text": "调用部队后开始行动"
+    },
+    {
+      "source": "text_21_node_17",
+      "target": "text_21_node_18",
+      "relation": "before",
+      "support_text": "袭击导致伤亡后警方负责人作出声明"
+    }
+  ]
+}

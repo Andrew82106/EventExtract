@@ -1,0 +1,297 @@
+{
+  "nodes": [
+    {
+      "id": "text_112_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "伊斯兰堡基督徒与穆斯林在拉合尔Gulshan Iqbal公园庆祝复活节",
+      "support_text": "Islamabad, Pakistan (CNN) On Easter Sunday, a crisp spring day, some of the city's Christian population mingled with their Muslim neighbors, celebrating in a neighborhood park",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式爆炸在公园内发生，造成至少69人死亡、341人受伤",
+      "support_text": "Then, the sound of tragedy. Without warning, a blast tore through the park, killing indiscriminately",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者声称系巴基斯坦塔利班分支Jamat-ul-Ahrar所为",
+      "support_text": "claimed by a splinter group of the Pakistani Taliban, known as Jamat-ul-Ahrar",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "目击者描述爆炸导致人群恐慌，大量伤亡者被堵在公园入口",
+      "support_text": "Everyone panicked, running to all directions. Many of them were blocked at the gate of the park. Dead bodies can be found everywhere",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救援人员从现场抬出大量尸体，伤者颈部和胸部遭受铁质物体贯穿伤",
+      "support_text": "Rescue workers remove a body from the site of the blast. The object hit her looks like a piece of hard iron, and it burnt her in the neck",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉合尔公园因安全原因关闭至周一",
+      "support_text": "Parks in the city remained closed into Monday, for security reasons",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_7",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "巴基斯坦总理纳瓦兹·谢里夫强烈谴责袭击",
+      "support_text": "Pakistan's Prime Minister Muhammad Nawaz Sharif strongly condemned the blast",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦军方召开高规格会议，决定加强旁遮普省反恐行动",
+      "support_text": "The two main military operations... with General Asim Bajwa tweeting that the Chief of Army Staff chaired a high-level security mtng at GHQ today",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度总理莫迪与谢里夫通话表示哀悼，谴责袭击针对妇女儿童",
+      "support_text": "Indian Prime Minister Narendra Modi... called Sharif on Sunday to express his grief",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国、澳大利亚政府也谴责袭击，称系恐怖主义全球威胁",
+      "support_text": "The United States and Australian governments also condemned the attack. 'This cowardly act...'",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦国内爆发支持Qadri的抗议活动，要求修改法律",
+      "support_text": "Blasphemy law protests erupted again Sunday, almost a month after a former bodyguard who assassinated a moderate politician was executed",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年3月拉合尔Nishtar colony地区发生另一起针对基督徒的自杀袭击",
+      "support_text": "In March last year, suicide bombers attacked a Christian community, also in Lahore, setting off two blasts that killed at least 14 people",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦政府发言人向CNN通报拉合尔公园自杀袭击事件",
+      "support_text": "当地政府发言人向CNN通报袭击事件",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "妇女对家庭成员死亡做出反应",
+      "support_text": "一名妇女对家庭成员的死亡做出反应",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "巴基斯坦救援人员和官员在爆炸现场聚集",
+      "support_text": "巴基斯坦救援人员和官员在爆炸现场聚集",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦前政府抵抗恐怖袭击行动",
+      "support_text": "语义描述：巴基斯坦前政府曾抵抗该行动 | 主体：Nawaz Sharif's government | 对象：operation",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦恐怖行动转向新方向",
+      "support_text": "语义描述：巴基斯坦内部恐怖行动转向新方向 | 主体：Pakistan's internal terror operations | 对象：a new turn",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "抗议再次爆发",
+      "support_text": "语义描述：抗议再次爆发 | 主体：protests | 对象：无",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_19",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "保镖刺杀政治家",
+      "support_text": "语义描述：保镖刺杀政治家 | 主体：bodyguard | 对象：politician",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_20",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "保镖被处决",
+      "support_text": "语义描述：保镖被处决 | 主体：bodyguard | 对象：无",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_21",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Qadri在拉瓦尔品第监狱被绞死",
+      "support_text": "语义描述：Qadri在拉瓦尔品第监狱被绞死 | 主体：Qadri | 对象：Rawalpindi prison",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_22",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Julie Bishop重申立场",
+      "support_text": "语义描述：Julie Bishop重申立场 | 主体：Julie Bishop | 对象：sentiment",
+      "source_text": "text_112"
+    },
+    {
+      "id": "text_112_node_23",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "巴基斯坦塔利班警告会有更多袭击",
+      "support_text": "语义描述：巴基斯坦塔利班警告会有更多袭击 | 主体：The Pakistani Taliban | 对象：(more attacks)",
+      "source_text": "text_112"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_112_node_1",
+      "target": "text_112_node_2",
+      "relation": "before",
+      "support_text": "Then, the sound of tragedy. Without warning, a blast tore through the park"
+    },
+    {
+      "source": "text_112_node_2",
+      "target": "text_112_node_3",
+      "relation": "before",
+      "support_text": "claimed by a splinter group of the Pakistani Taliban"
+    },
+    {
+      "source": "text_112_node_2",
+      "target": "text_112_node_4",
+      "relation": "before",
+      "support_text": "Everyone panicked, running to all directions"
+    },
+    {
+      "source": "text_112_node_2",
+      "target": "text_112_node_7",
+      "relation": "before",
+      "support_text": "Pakistan's Prime Minister Muhammad Nawaz Sharif strongly condemned the blast"
+    },
+    {
+      "source": "text_112_node_2",
+      "target": "text_112_node_9",
+      "relation": "before",
+      "support_text": "Indian Prime Minister Narendra Modi... called Sharif on Sunday"
+    },
+    {
+      "source": "text_112_node_2",
+      "target": "text_112_node_13",
+      "relation": "before",
+      "support_text": "巴基斯坦政府发言人向CNN通报袭击事件"
+    },
+    {
+      "source": "text_112_node_3",
+      "target": "text_112_node_23",
+      "relation": "before",
+      "support_text": "巴基斯坦塔利班分支Jamat-ul-Ahrar声称袭击 |巴基斯坦塔利班警告后续行动"
+    },
+    {
+      "source": "text_112_node_4",
+      "target": "text_112_node_5",
+      "relation": "before",
+      "support_text": "Rescue workers remove a body from the site of the blast"
+    },
+    {
+      "source": "text_112_node_5",
+      "target": "text_112_node_6",
+      "relation": "before",
+      "support_text": "Parks in the city remained closed into Monday"
+    },
+    {
+      "source": "text_112_node_7",
+      "target": "text_112_node_8",
+      "relation": "before",
+      "support_text": "General Asim Bajwa tweeting that the Chief of Army Staff chaired a high-level security mtng"
+    },
+    {
+      "source": "text_112_node_9",
+      "target": "text_112_node_10",
+      "relation": "before",
+      "support_text": "The United States and Australian governments also condemned the attack"
+    },
+    {
+      "source": "text_112_node_12",
+      "target": "text_112_node_11",
+      "relation": "before",
+      "support_text": "Blasphemy law protests erupted again Sunday, almost a month after..."
+    },
+    {
+      "source": "text_112_node_16",
+      "target": "text_112_node_2",
+      "relation": "before",
+      "support_text": "语义描述中的抵抗行动应早于爆炸事件"
+    },
+    {
+      "source": "text_112_node_17",
+      "target": "text_112_node_3",
+      "relation": "before",
+      "support_text": "行动转向应早于袭击者身份声明"
+    }
+  ]
+}

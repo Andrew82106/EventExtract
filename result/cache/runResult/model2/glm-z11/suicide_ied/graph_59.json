@@ -1,0 +1,336 @@
+{
+  "nodes": [
+    {
+      "id": "text_59_node_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年5月22日22:31，曼彻斯特体育馆发生爆炸，22人死亡",
+      "support_text": "Fire crews desperate to help victims of the Manchester Arena bombing were held back by their bosses for two hours amid mistakes that brought the service ‘to the brink of failure’.",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后10分钟内，警察和急救人员抵达现场，但消防部门因内部延误未能及时响应",
+      "support_text": "While paramedics and armed police were on the scene of last May’s attack within ten minutes, the fire service was in ‘paralysis’.",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "消防指挥官彼得·奥利里因未参与联合指挥中心且未及时传达信息，导致救援延迟近两小时",
+      "support_text": "Lord Kerslake’s review concludes the actions of then-chief officer Peter O’Reilly ‘played a key role’ in the delays.",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Vodafone紧急热线因服务器故障完全瘫痪，迫使家属自行寻找医院获取信息",
+      "support_text": "Vodafone, which holds the national Home Office contract for emergency post-disaster hotlines, experienced a ‘catastrophic’ technical failure on the night that meant no fully-functioning phone number could be set up for desperate people in search of information.",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "市政部门在事件后迅速组织市民支持活动，包括血捐和慈善音乐会",
+      "support_text": "The people of Manchester did a fantastic job of boosting the morale of those affected.",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "媒体过度侵扰受害者家属，包括在医院和家中拍摄私人时刻",
+      "support_text": "their experiences include frustrations with delayed mental health treatment and press intrusion.",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "急救人员使用广告牌和护栏制作临时担架，成功转移伤者",
+      "support_text": "paramedics and armed police were on the scene of last May’s attack within ten minutes.",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国运输警察和铁路员工未遵守常规安全规程，直接参与现场救援",
+      "support_text": "British Transport Police, rail staff, arena security, paramedics and members of the public, who ran straight into danger despite not yet knowing whether the arena’s foyer was safe to enter.",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "市政设立临时安置点（埃蒂哈德球场），为家属提供基本生活支持",
+      "support_text": "the report praises GMP’s duty officer, who made a ‘life or death’ decision to keep first responders at the scene rather than evacuate.",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "医院因缺乏心理健康服务，导致受害者及儿童等待心理治疗数月",
+      "support_text": "their experiences include frustrations with delayed mental health treatment.",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "机组人员之前听到爆炸声",
+      "support_text": "机组人员之前听到爆炸声",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_12",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "机组人员被派往Beswick车站",
+      "support_text": "机组人员被派往Beswick车站",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_13",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "Lateral",
+      "description": "机组人员被再次派回城镇",
+      "support_text": "机组人员被再次派回城镇",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "审查认定服务内沟通和程序问题为主要责任",
+      "support_text": "Lord Kerslake’s review concludes 'poor communication and poor procedures' within the service were more broadly at fault",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "描绘了非凡的英雄主义画面",
+      "support_text": "描绘了非凡的英雄主义画面",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_16",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "Greater Manchester Police快速部署武装警员",
+      "support_text": "Greater Manchester Police快速部署武装警员",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Greater Manchester Police因快速响应被赞扬",
+      "support_text": "Greater Manchester Police因快速响应被赞扬",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "报告揭示了失败对人类的影响",
+      "support_text": "报告揭示了失败对人类的影响",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "报告声称员工和分包商对警方需求缺乏了解",
+      "support_text": "报告声称员工和分包商对警方需求缺乏了解",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_20",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Vodafone CEO为技术故障事件公开道歉",
+      "support_text": "Vodafone CEO为技术故障事件公开道歉",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Vodafone CEO承诺技术故障不再发生",
+      "support_text": "Vodafone CEO承诺技术故障不再发生",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "审查报告揭示技术故障对紧急信息寻求者的负面影响",
+      "support_text": "审查报告揭示技术故障对紧急信息寻求者的负面影响",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "许多家庭在袭击后的数小时和数日内报告了被媒体追赶的感受",
+      "support_text": "许多家庭在袭击后的数小时和数日内报告了被媒体追赶的感受",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "报告将曼彻斯特晚报单独挑出来进行表扬",
+      "support_text": "报告将曼彻斯特晚报单独挑出来进行表扬",
+      "source_text": "text_59"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_59_node_1",
+      "target": "text_59_node_2",
+      "relation": "before",
+      "support_text": "While paramedics and armed police were on the scene of last May’s attack within ten minutes, the fire service was in ‘paralysis’."
+    },
+    {
+      "source": "text_59_node_2",
+      "target": "text_59_node_3",
+      "relation": "before",
+      "support_text": "Lord Kerslake’s review concludes the actions of then-chief officer Peter O’Reilly ‘played a key role’ in the delays."
+    },
+    {
+      "source": "text_59_node_2",
+      "target": "text_59_node_7",
+      "relation": "before",
+      "support_text": "paramedics and armed police were on the scene of last May’s attack within ten minutes."
+    },
+    {
+      "source": "text_59_node_2",
+      "target": "text_59_node_8",
+      "relation": "before",
+      "support_text": "British Transport Police, rail staff, arena security, paramedics and members of the public, who ran straight into danger despite not yet knowing whether the arena’s foyer was safe to enter."
+    },
+    {
+      "source": "text_59_node_3",
+      "target": "text_59_node_14",
+      "relation": "before",
+      "support_text": "审查同时指出前首席官员的关键作用与系统性问题"
+    },
+    {
+      "source": "text_59_node_3",
+      "target": "text_59_node_9",
+      "relation": "before",
+      "support_text": "消防指挥官彼得·奥利里的行动导致救援延迟后，审查报告赞扬GMP值班官员的决策"
+    },
+    {
+      "source": "text_59_node_4",
+      "target": "text_59_node_20",
+      "relation": "before",
+      "support_text": "Vodafone紧急热线因服务器故障完全瘫痪后，CEO公开道歉"
+    },
+    {
+      "source": "text_59_node_5",
+      "target": "text_59_node_9",
+      "relation": "before",
+      "support_text": "The people of Manchester did a fantastic job of boosting the morale of those affected."
+    },
+    {
+      "source": "text_59_node_6",
+      "target": "text_59_node_10",
+      "relation": "before",
+      "support_text": "their experiences include frustrations with delayed mental health treatment."
+    },
+    {
+      "source": "text_59_node_6",
+      "target": "text_59_node_23",
+      "relation": "before",
+      "support_text": "媒体过度侵扰受害者家属导致其报告被媒体追赶感受"
+    },
+    {
+      "source": "text_59_node_9",
+      "target": "text_59_node_14",
+      "relation": "before",
+      "support_text": "值班官员的决策为后续系统性问题审查提供直接依据"
+    },
+    {
+      "source": "text_59_node_11",
+      "target": "text_59_node_12",
+      "relation": "before",
+      "support_text": "爆炸发生前机组人员已听到爆炸声"
+    },
+    {
+      "source": "text_59_node_12",
+      "target": "text_59_node_13",
+      "relation": "before",
+      "support_text": "Beswick车站任务完成后机组人员被派回城镇"
+    },
+    {
+      "source": "text_59_node_16",
+      "target": "text_59_node_2",
+      "relation": "before",
+      "support_text": "爆炸后10分钟内，警察和急救人员抵达现场"
+    },
+    {
+      "source": "text_59_node_17",
+      "target": "text_59_node_5",
+      "relation": "before",
+      "support_text": "市政部门在事件后迅速组织市民支持活动"
+    },
+    {
+      "source": "text_59_node_18",
+      "target": "text_59_node_19",
+      "relation": "before",
+      "support_text": "根据temporal_order 1和2的时序关系"
+    },
+    {
+      "source": "text_59_node_20",
+      "target": "text_59_node_21",
+      "relation": "before",
+      "support_text": "CEO道歉后承诺技术故障不再发生"
+    },
+    {
+      "source": "text_59_node_21",
+      "target": "text_59_node_22",
+      "relation": "before",
+      "support_text": "CEO承诺后审查报告揭示负面影响"
+    },
+    {
+      "source": "text_59_node_23",
+      "target": "text_59_node_24",
+      "relation": "before",
+      "support_text": "媒体侵扰事件后出现对曼彻斯特晚报的单独表扬"
+    }
+  ]
+}

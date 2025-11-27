@@ -1,0 +1,258 @@
+{
+  "nodes": [
+    {
+      "id": "text_174_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "斯里兰卡复活节当天发生连环爆炸，造成至少290人死亡、500多人受伤，包括1名日本女性死亡",
+      "support_text": "One Japanese national was killed and four others injured in terrorist attacks in Sri Lanka on Easter Sunday, Chief Cabinet Secretary Yoshihide Suga said Monday. The attacks left at least 290 dead and more than 500 injured.",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "日本内阁官房长官岸田文雄确认1名日本女性死亡，4名日本人受伤",
+      "support_text": "The dead Japanese national was a woman identified as Kaori Takahashi... according to a Kyodo News report quoting unnamed government sources.",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "日本首相安倍晋三谴责袭击，表示将与国际合作打击恐怖主义",
+      "support_text": "Prime Minister Shinzo Abe told reporters that Tokyo 'never tolerates' such violence, and is 'determined to combat terrorism' by cooperating with the Sri Lankan government and internationally.",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_4",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kyodo新闻报道1名日本使馆工作人员和1名KDDI员工受伤，KDDI确认员工在酒店受伤",
+      "support_text": "One of the four injured was reportedly a worker at the Japanese Embassy in Colombo... according to Kyodo News. A spokesperson for KDDI Corp. confirmed to The Japan Times that one of their workers was injured at a local hotel.",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯里兰卡国防部长将爆炸定性为宗教极端主义恐怖袭击",
+      "support_text": "Defence Minister Ruwan Wijewardene described the blasts as a terrorist attack by religious extremists...",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "岸田文雄拒绝公开5名日本受害者身份，需等待家属同意",
+      "support_text": "Suga declined to identify any of the five Japanese victims, saying the government had yet to gain the consent of their families.",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "日本外务省公布在斯里兰卡有767名日本居民，其中365人在科伦坡",
+      "support_text": "According to the Foreign Ministry, a total of 767 Japanese were living in Sri Lanka as of October 2017...",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "日本政府派遣特别调查团队收集受害者及袭击者信息",
+      "support_text": "Japan’s government has dispatched a special unit to Sri Lanka to gather information related to the victims and attackers...",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "日本JTB旅行社确认所有游客安全，考虑取消或调整黄金周行程",
+      "support_text": "Major Japanese travel agency JTB Corp. said it had confirmed by Sunday night the safety of all tourists staying in Sri Lanka via its tours.",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯里兰卡Yathra旅行社报告多个黄金周行程被取消，考虑调整路线",
+      "support_text": "The Tokyo office of Sri Lankan travel agency Yathra Travels Ltd. has already seen several cancellations among the roughly 100 people who had signed up for tours during the holiday period.",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kyodo新闻补充报道袭击对日本企业及旅游业的影响",
+      "support_text": "Information from Kyodo added",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "日本首相安倍晋三向记者报道",
+      "support_text": "Prime Minister Shinzo Abe told reporters that Tokyo 'never tolerates' such violence, and is 'determined to combat terrorism' by cooperating with the Sri Lankan government and internationally.",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_13",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "受伤员工被住院治疗",
+      "support_text": "受伤员工被住院治疗",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_14",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤者恢复语言能力",
+      "support_text": "伤者恢复语言能力",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_15",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤者恢复行走能力",
+      "support_text": "伤者恢复行走能力",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "员工曾赴斯里兰卡商务访问",
+      "support_text": "员工曾赴斯里兰卡商务访问",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "至少35名外国人被统计在死亡名单中",
+      "support_text": "语义描述：至少35名外国人被统计在死亡名单中；原始文本：One Japanese national was killed and four others injured in terrorist attacks in Sri Lanka on Easter Sunday, Chief Cabinet Secretary Yoshihide Suga said Monday. The attacks left at least 290 dead and more than 500 injured.",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地警方逮捕了13名与周日爆炸案相关的嫌疑人",
+      "support_text": "语义描述：当地警方逮捕了13名与周日爆炸案相关的嫌疑人；原始文本：需补充具体逮捕细节",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯里兰卡当地日本社区遭受严重损害被政府注意到",
+      "support_text": "政府注意到斯里兰卡当地日本社区遭受的严重损害",
+      "source_text": "text_174"
+    },
+    {
+      "id": "text_174_node_20",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "旅游业在结束26年内战之后持续恢复",
+      "support_text": "旅游业在结束26年内战之后持续恢复",
+      "source_text": "text_174"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_174_node_1",
+      "target": "text_174_node_2",
+      "relation": "before",
+      "support_text": "Chief Cabinet Secretary Yoshihide Suga said Monday."
+    },
+    {
+      "source": "text_174_node_1",
+      "target": "text_174_node_3",
+      "relation": "before",
+      "support_text": "Prime Minister Shinzo Abe told reporters that Tokyo 'never tolerates' such violence"
+    },
+    {
+      "source": "text_174_node_1",
+      "target": "text_174_node_5",
+      "relation": "before",
+      "support_text": "Defence Minister Ruwan Wijewardene described the blasts as a terrorist attack"
+    },
+    {
+      "source": "text_174_node_1",
+      "target": "text_174_node_12",
+      "relation": "before",
+      "support_text": "Prime Minister Shinzo Abe told reporters that Tokyo 'never tolerates' such violence"
+    },
+    {
+      "source": "text_174_node_2",
+      "target": "text_174_node_6",
+      "relation": "before",
+      "support_text": "Suga declined to identify any of the five Japanese victims"
+    },
+    {
+      "source": "text_174_node_4",
+      "target": "text_174_node_6",
+      "relation": "before",
+      "support_text": "according to a Kyodo News report quoting unnamed government sources"
+    },
+    {
+      "source": "text_174_node_7",
+      "target": "text_174_node_8",
+      "relation": "before",
+      "support_text": "According to the Foreign Ministry, a total of 767 Japanese were living in Sri Lanka"
+    },
+    {
+      "source": "text_174_node_8",
+      "target": "text_174_node_9",
+      "relation": "before",
+      "support_text": "Japan’s government has dispatched a special unit to Sri Lanka"
+    },
+    {
+      "source": "text_174_node_9",
+      "target": "text_174_node_10",
+      "relation": "before",
+      "support_text": "Major Japanese travel agency JTB Corp. said it had confirmed by Sunday night"
+    },
+    {
+      "source": "text_174_node_10",
+      "target": "text_174_node_11",
+      "relation": "before",
+      "support_text": "The Tokyo office of Sri Lankan travel agency Yathra Travels Ltd. has already seen several cancellations"
+    },
+    {
+      "source": "text_174_node_16",
+      "target": "text_174_node_1",
+      "relation": "before",
+      "support_text": "员工在爆炸事件前已赴斯里兰卡商务访问"
+    },
+    {
+      "source": "text_174_node_17",
+      "target": "text_174_node_18",
+      "relation": "before",
+      "support_text": "根据temporal_order 2 < 3，建立统计事件在前、逮捕事件在后的时序关系"
+    }
+  ]
+}

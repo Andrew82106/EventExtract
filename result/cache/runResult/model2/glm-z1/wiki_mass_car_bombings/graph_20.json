@@ -1,0 +1,234 @@
+{
+  "nodes": [
+    {
+      "id": "text_20_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸发生在莫斯科 Manezh 购物中心地下底层，距离克里姆林宫西北墙50米处",
+      "support_text": "He was speaking at the scene of the blast, just 50m from the north-west wall of the Kremlin. The explosion happened in an amusement arcade on the bottom floor of the underground Manezh shopping and restaurant complex.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者称爆炸伴随巨大爆炸声和浓烟，窗户碎片飞溅",
+      "support_text": "One eyewitness, Alexander Okropildze, told the Reuters news agency: \"There was a big bang and smoke. We saw windows fly out.\"",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯紧急部否认4人死亡传闻，确认无人员伤亡",
+      "support_text": "Russia's ministry of emergency situations refuted earlier reports that four people had died in the explosion, saying no-one had lost their lives.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "专家团队在红场现场勘查，提取线索",
+      "support_text": "Teams of specialists were still at the scene near Red Square early on Wednesday, looking for clues.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "普京要求尽快调查爆炸原因",
+      "support_text": "Russian Prime Minister Vladimir Putin has ordered an investigation \"as quickly as possible\", Tass reported.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方和内务军加强克里姆林宫及红场周边安保",
+      "support_text": "Tight security Security was tightened soon after the blast and police reinforcements and interior ministry troops took up position around Red Square and the Kremlin.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "购物中心被紧急疏散，顾客逃离现场",
+      "support_text": "Fire officials evacuated the shopping centre as shoppers and diners fled the scene following the incident.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "安全部门确认炸弹在地面形成直径约3米的孔洞",
+      "support_text": "Security service agents said the bomb blew a hole in the ground",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_10",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "市长暗示车臣分离主义势力可能制造袭击",
+      "support_text": "The mayor said people would speculate that it was the work of radical Islamic separatists from Chechnya fighting for independence.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "BBC分析爆炸靠近叶利钦办公室，或与议会选举政治斗争有关",
+      "support_text": "BBC's Paul Anderson in Moscow says the proximity of the blast to the offices of President Yeltsin has given rise to suggestions that it may have been connected to the political battles currently being waged ahead of parliamentary elections later this year.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "媒体推测受害者卷入商业竞争对手暴力冲突",
+      "support_text": "Russian media also say the victims could have been caught up in the violent settling of scores between business rivals.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Luzhkov称炸弹制造者为'野兽'",
+      "support_text": "'Beasts' Mr Luzhkov, who oversaw the construction of the shopping centre as one of the main focal points of his campaign to modernise the city, said the people who planted the alleged bomb were \"beasts\".",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "披露Manezh购物中心1997年开业，为莫斯科850周年庆典项目",
+      "support_text": "This was the second major explosion to rock the Russian capital this year as part of Moscow's 850th anniversary celebrations.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "补充今年4月莫斯科酒店爆炸致11人受伤的背景信息",
+      "support_text": "Eleven people were injured in an explosion at Moscow's Intourist hotel in April.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "叶利钦因炸弹袭击事件感到愤怒",
+      "support_text": "语义描述：叶利钦因炸弹袭击事件感到愤怒",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "叶利钦对伤亡者表达同情",
+      "support_text": "语义描述：叶利钦对伤亡者表达同情",
+      "source_text": "text_20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_2",
+      "relation": "before",
+      "support_text": "One eyewitness, Alexander Okropildze, told the Reuters news agency: \"There was a big bang and smoke. We saw windows fly out.\""
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_3",
+      "relation": "before",
+      "support_text": "Russia's ministry of emergency situations refuted earlier reports that four people had died in the explosion, saying no-one had lost their lives."
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_4",
+      "relation": "before",
+      "support_text": "Teams of specialists were still at the scene near Red Square early on Wednesday, looking for clues."
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_5",
+      "relation": "before",
+      "support_text": "Russian Prime Minister Vladimir Putin has ordered an investigation \"as quickly as possible\", Tass reported."
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_7",
+      "relation": "before",
+      "support_text": "Tight security Security was tightened soon after the blast and police reinforcements and interior ministry troops took up position around Red Square and the Kremlin."
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_8",
+      "relation": "before",
+      "support_text": "Fire officials evacuated the shopping centre as shoppers and diners fled the scene following the incident."
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_16",
+      "relation": "before",
+      "support_text": "炸弹袭击事件发生（node_1）→叶利钦感到愤怒（node_16）"
+    },
+    {
+      "source": "text_20_node_5",
+      "target": "text_20_node_11",
+      "relation": "before",
+      "support_text": "BBC's Paul Anderson in Moscow says the proximity of the blast to the offices of President Yeltsin has given rise to suggestions that it may have been connected to the political battles currently being waged ahead of parliamentary elections later this year."
+    },
+    {
+      "source": "text_20_node_5",
+      "target": "text_20_node_13",
+      "relation": "before",
+      "support_text": "'Beasts' Mr Luzhkov... said the people who planted the alleged bomb were \"beasts\"."
+    },
+    {
+      "source": "text_20_node_8",
+      "target": "text_20_node_9",
+      "relation": "before",
+      "support_text": "Security service agents said the bomb blew a hole in the ground"
+    },
+    {
+      "source": "text_20_node_8",
+      "target": "text_20_node_10",
+      "relation": "before",
+      "support_text": "The mayor said people would speculate that it was the work of radical Islamic separatists from Chechnya fighting for independence."
+    },
+    {
+      "source": "text_20_node_11",
+      "target": "text_20_node_12",
+      "relation": "before",
+      "support_text": "Russian media also say the victims could have been caught up in the violent settling of scores between business rivals."
+    },
+    {
+      "source": "text_20_node_14",
+      "target": "text_20_node_15",
+      "relation": "before",
+      "support_text": "This was the second major explosion to rock the Russian capital this year as part of Moscow's 850th anniversary celebrations."
+    },
+    {
+      "source": "text_20_node_16",
+      "target": "text_20_node_17",
+      "relation": "before",
+      "support_text": "叶利钦感到愤怒（node_16）→对伤亡者表达同情（node_17）"
+    }
+  ]
+}

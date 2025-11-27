@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "text_68_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2023年4月3日圣彼得堡地铁发生爆炸，造成15人死亡、约24人受伤",
+      "support_text": "The attack on April 3 tore through an underground train traveling between metro stations in Russia's second-largest city, killing 15 and wounding around two dozen.",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后三周（约4月26日）， SITE Intelligence Group披露组织声称对此负责",
+      "support_text": "More than three weeks after a bomb blast killed 15 people on a metro train in the Russian city of St. Petersburg, a group has claimed responsibility for the attack, a monitoring group said Tuesday.",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "由 SITE Intelligence Group报告，自称‘伊玛目沙米尔旅’的组织宣称为爆炸负责",
+      "support_text": "According to the SITE Intelligence Group, a little-known organization called the Imam Shamil Battalion said it had carried out the attack.",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "该组织声称袭击指令来自基地组织领导人艾曼·扎瓦赫里",
+      "support_text": "The group also said the bomber acted on instructions from al-Qaeda leader Ayman al-Zawahiri.",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "声明通过毛里塔尼亚新闻机构ANI发布，该机构常被西非北非极端组织使用",
+      "support_text": "The claim was originally published by the Mauritanian news agency ANI, which is often used by West and North African jihadist groups to release statements.",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式袭击者阿克巴尔季诺·达尔季洛夫身份曝光，系俄罗斯籍吉尔吉斯斯坦出生人员",
+      "support_text": "The alleged suicide bomber, Akbarjon Djalilov, was a Russian national born in Kyrgyzstan.",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "‘伊玛目沙米尔旅’声明将爆炸定性为对俄罗斯干预穆斯林国家（叙利亚、利比亚、车臣）的回应",
+      "support_text": "The statement from the Imam Shamil Battalion said the bombing served as a message to Russia for its alleged violence against Muslim countries, citing Syria and Libya as well as the Russian republic of Chechnya.",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_8",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "声明警告俄罗斯‘阿富汗败局未吸取教训’，暗示后续将发动更多袭击",
+      "support_text": "To the Russian government, which apparently has not taken a lesson from its defeat in Afghanistan, we say: This operation is only the beginning, and what is to come will make you forget it, Allah permitting.",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后俄罗斯进入高度戒备状态，因持续应对北高加索伊斯兰主义叛乱",
+      "support_text": "Russia has been on edge since the attack in St. Petersburg, as it fights a lingering Islamist insurgency in the North Caucasus.",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "未来袭击俄罗斯的声明",
+      "support_text": "声明警告俄罗斯‘阿富汗败局未吸取教训’，暗示后续将发动更多袭击",
+      "source_text": "text_68"
+    },
+    {
+      "id": "text_68_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "忘记袭击的后果",
+      "support_text": "what is to come will make you forget it",
+      "source_text": "text_68"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_68_node_1",
+      "target": "text_68_node_2",
+      "relation": "before",
+      "support_text": "More than three weeks after a bomb blast killed 15 people on a metro train in the Russian city of St. Petersburg, a group has claimed responsibility for the attack, a monitoring group said Tuesday."
+    },
+    {
+      "source": "text_68_node_1",
+      "target": "text_68_node_9",
+      "relation": "before",
+      "support_text": "Russia has been on edge since the attack in St. Petersburg, as it fights a lingering Islamist insurgency in the North Caucasus."
+    },
+    {
+      "source": "text_68_node_2",
+      "target": "text_68_node_3",
+      "relation": "before",
+      "support_text": "According to the SITE Intelligence Group, a little-known organization called the Imam Shamil Battalion said it had carried out the attack."
+    },
+    {
+      "source": "text_68_node_3",
+      "target": "text_68_node_4",
+      "relation": "before",
+      "support_text": "The group also said the bomber acted on instructions from al-Qaeda leader Ayman al-Zawahiri."
+    },
+    {
+      "source": "text_68_node_4",
+      "target": "text_68_node_5",
+      "relation": "before",
+      "support_text": "The claim was originally published by the Mauritanian news agency ANI, which is often used by West and North African jihadist groups to release statements."
+    },
+    {
+      "source": "text_68_node_5",
+      "target": "text_68_node_6",
+      "relation": "before",
+      "support_text": "The alleged suicide bomber, Akbarjon Djalilov, was a Russian national born in Kyrgyzstan."
+    },
+    {
+      "source": "text_68_node_5",
+      "target": "text_68_node_7",
+      "relation": "before",
+      "support_text": "The statement from the Imam Shamil Battalion said the bombing served as a message to Russia for its alleged violence against Muslim countries, citing Syria and Libya as well as the Russian republic of Chechnya."
+    },
+    {
+      "source": "text_68_node_7",
+      "target": "text_68_node_8",
+      "relation": "before",
+      "support_text": "To the Russian government, which apparently has not taken a lesson from its defeat in Afghanistan, we say: This operation is only the beginning, and what is to come will make you forget it, Allah permitting."
+    },
+    {
+      "source": "text_68_node_8",
+      "target": "text_68_node_10",
+      "relation": "before",
+      "support_text": "暗示后续将发动更多袭击"
+    }
+  ]
+}

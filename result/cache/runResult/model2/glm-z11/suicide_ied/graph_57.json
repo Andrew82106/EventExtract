@@ -1,0 +1,234 @@
+{
+  "nodes": [
+    {
+      "id": "text_57_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦拉合尔市Gulshan-e-Iqbal公园停车场发生自杀式爆炸，袭击者携带装满钢珠的爆炸背心",
+      "support_text": "A suicide bomber set off an explosive vest packed with ball bearings in a parking lot just feet away from amusement park rides in Gulshan-e-Iqbal Park...",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸造成70人死亡、300余人受伤，多数为妇女儿童，现场邻近游乐园设施",
+      "support_text": "killing at least 70 people and wounding more than 300 others, most of them women and children...",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织Jamaat-ul-Ahrar（巴基斯坦塔利班分支）宣称对爆炸负责，称针对基督徒庆祝复活节",
+      "support_text": "A splinter group of the Pakistani Taliban claimed responsibility for the blast, which it said was aimed at Christians celebrating the Easter holiday...",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "拉合尔医院因伤员涌入陷入混乱，救护车资源不足导致伤者转乘出租车和机动三轮车",
+      "support_text": "Victims jammed Lahore’s hospitals, spilling into the corridors where doctors and medical staff raced to treat them. Many more victims arrived at medical facilities in taxis or motorized rickshaws...",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴军方封锁现场，电视画面显示血腥画面和警察护送悲痛家长离开",
+      "support_text": "Pakistani soldiers cordoned off the area as television images showed bloodied bodies being covered in bags and distraught parents being led from the park by police officers...",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴首席部长宣布进入三天官方哀悼期，军方谴责袭击为‘野蛮行为’",
+      "support_text": "The chief minister of Punjab state announced three days of official mourning. Pakistani security officials condemned the 'savage' attack...",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "该袭击成为2014年巴军营学校屠杀事件（143人死亡）后最严重平民袭击",
+      "support_text": "It was deadliest attack in Pakistan since the December 2014 massacre at an army-run school that left 143 people dead...",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jamaat-ul-Ahrar在2014年脱离原塔利班联盟，2014年曾在拉合尔边境地区发动60人死亡袭击",
+      "support_text": "The group that claimed responsibility for Sunday’s blast, the Jamaat-ul-Ahrar faction of the Pakistani Taliban, split with the federation in 2014 and is believed to have carried out a major attack in Lahore later that year...",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年该组织在佩夏瓦大学发动袭击，造成21名学生死亡",
+      "support_text": "In January, a separate splinter faction of the Pakistani Taliban claimed responsibility for a raid on a university in the northeastern town of Peshawar that killed 21...",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦基督徒占比不足2%，2013年曾遭教堂自杀式爆炸袭击（75人死亡）",
+      "support_text": "Christians, who make up less than 2% of Pakistan’s 182 million people, have frequently been targeted by Pakistani extremist groups. In 2013, 75 Christians were killed in a suicide bombing at a church...",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "白宫谴责袭击并致哀，强调公园长期作为城市宁静象征",
+      "support_text": "The White House, in a statement, condemned the attack on 'what has long been a scenic and placid park.'",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_12",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴国内自2003年以来已有超过21000名平民死于武装冲突",
+      "support_text": "Since 2003, more than 21,000 Pakistani civilians have been killed in militant violence...",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_13",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "massacre事件标志着巴基斯坦新的暴力转折点",
+      "support_text": "massacre event marks Pakistan's new violent turning point",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦塔利班持续发动袭击",
+      "support_text": "Pakistani Taliban continues to launch attacks",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦塔利班发动大胆袭击",
+      "support_text": "Pakistani Taliban launches bold attacks",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jamaat-ul-Ahrar声称对周日爆炸负责",
+      "support_text": "Jamaat-ul-Ahrar claims responsibility for Sunday's blast",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jamaat-ul-Ahrar与联邦分裂",
+      "support_text": "Jamaat-ul-Ahrar splits with the federation",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "分裂派别声称对大学袭击负责",
+      "support_text": "splinter faction claims responsibility for university attack",
+      "source_text": "text_57"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_57_node_1",
+      "target": "text_57_node_2",
+      "relation": "before",
+      "support_text": "killing at least 70 people and wounding more than 300 others..."
+    },
+    {
+      "source": "text_57_node_1",
+      "target": "text_57_node_3",
+      "relation": "before",
+      "support_text": "A splinter group of the Pakistani Taliban claimed responsibility for the blast..."
+    },
+    {
+      "source": "text_57_node_1",
+      "target": "text_57_node_4",
+      "relation": "before",
+      "support_text": "Victims jammed Lahore’s hospitals..."
+    },
+    {
+      "source": "text_57_node_1",
+      "target": "text_57_node_5",
+      "relation": "before",
+      "support_text": "Pakistani soldiers cordoned off the area..."
+    },
+    {
+      "source": "text_57_node_1",
+      "target": "text_57_node_6",
+      "relation": "before",
+      "support_text": "The chief minister of Punjab state announced three days of official mourning..."
+    },
+    {
+      "source": "text_57_node_1",
+      "target": "text_57_node_7",
+      "relation": "before",
+      "support_text": "It was deadliest attack in Pakistan since the December 2014 massacre..."
+    },
+    {
+      "source": "text_57_node_1",
+      "target": "text_57_node_11",
+      "relation": "before",
+      "support_text": "The White House, in a statement..."
+    },
+    {
+      "source": "text_57_node_8",
+      "target": "text_57_node_3",
+      "relation": "before",
+      "support_text": "split with the federation in 2014..."
+    },
+    {
+      "source": "text_57_node_8",
+      "target": "text_57_node_9",
+      "relation": "before",
+      "support_text": "In January, a separate splinter faction..."
+    },
+    {
+      "source": "text_57_node_10",
+      "target": "text_57_node_3",
+      "relation": "before",
+      "support_text": "Christians, who make up less than 2%..."
+    },
+    {
+      "source": "text_57_node_12",
+      "target": "text_57_node_1",
+      "relation": "before",
+      "support_text": "Since 2003, more than 21,000 Pakistani civilians..."
+    }
+  ]
+}

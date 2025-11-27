@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "id": "text_48_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2009年12月，Jundallah极端组织在伊朗东南部发动自杀式袭击，造成40人死亡，包括6名革命卫队指挥官",
+      "support_text": "In 2009, more than 40 people, including six Guard commanders, were killed in a suicide attack by Sunni extremists in Sistan and Baluchistan province.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年，Jaish al-Adl极端组织在巴基斯坦边境成立，持续实施针对伊朗边防军的袭击",
+      "support_text": "Jaish al-Adl, a Sunni extremist group whose members have joined Jaish al-Adl, claimed responsibility for that attack.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年，伊斯兰国袭击德黑兰议会和霍梅尼陵墓，伊朗随后向叙利亚发射导弹报复",
+      "support_text": "Iran fired ballistic missiles into Syria over a bloody Islamic State attack on Tehran targeting parliament and the shrine of Ayatollah Ruhollah Khomeini.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年5月，特朗普政府宣布退出伊核协议，加剧两国紧张关系",
+      "support_text": "Trump withdrew the U.S. from the accord last May.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年2月13日，Jaish al-Adl宣称发动针对伊朗革命卫队巴士的自杀式袭击，造成27人死亡",
+      "support_text": "A suicide car bomber claimed by an al-Qaida-linked group attacked a bus carrying members of Iran’s elite Revolutionary Guard paramilitary force Wednesday, killing at least 27 people.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "2019年2月13日，伊朗官方媒体IRNA和革命卫队网站分别发布20死20伤、27死13伤的伤亡更新",
+      "support_text": "The state-run IRNA news agency, citing what it described as an 'informed source,' offered initial casualty figures of 20 dead and 20 wounded. The Revolutionary Guard later reported on its website that 27 were killed and 13 wounded.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年2月13日，伊朗将袭击与两天前的华沙反伊朗会议及伊斯兰革命40周年纪念关联",
+      "support_text": "Tehran immediately linked the attack... to an ongoing U.S.-led conference in Warsaw... just two days after the nation marked the 40th anniversary of its 1979 Islamic Revolution.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年9月，伊朗向伊拉克库尔德分离主义者据点发射导弹作为报复",
+      "support_text": "Iran fired missiles into Iraq targeting a base of an Iranian Kurdish separatist group after an attack on a border post.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年10月，伊朗对叙利亚东部发动导弹和无人机打击，报复军事阅兵遇袭事件",
+      "support_text": "Iran fired six ballistic missiles as well as drone bombers in October toward eastern Syria, targeting militants it blamed for an attack on a military parade that killed at least 24 people.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年2月13日，伊朗外长扎里夫指责华沙会议与袭击存在关联",
+      "support_text": "Iran’s Foreign Minister Mohammad Javad Zarif directly linked the meeting to the attack Wednesday. 'Is it no coincidence that Iran is hit by terror on the very day that #WarsawCircus begins?' Zarif wrote on Twitter.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年2月13日，伊朗最高领袖哈梅内伊宣布彻底拒绝与美国谈判",
+      "support_text": "Khamenei, who earlier approved President Hassan Rouhani’s outreach to the West during the nuclear deal negotiations, dismissed any future dealings with the U.S. 'About the United States, the resolution of any issues is not imaginable and negotiations with it will bring nothing but material and spiritual harm,' Khamenei said in a statement.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年，沙特王储暗示计划在伊朗境内引发冲突，并公开支持对抗伊朗",
+      "support_text": "Saudi Crown Prince Mohammed bin Salman for instance in a 2017 interview suggested the kingdom knew it was a 'main target of Iran.' 'We are not waiting until there becomes a battle in Saudi Arabia, so we will work so that it becomes a battle for them in Iran and not in Saudi Arabia,' he said then.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年，伊朗经济因制裁和袭击频发陷入困境，国内爆发抗议活动",
+      "support_text": "Iran’s already-weakened economy has been further challenged. There have been sporadic protests in the country as well, incidents applauded by Trump amid Washington’s maximalist approach to Tehran.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "2019年2月13日，伊朗官方媒体IRNA和革命卫队网站发布20死20伤、27死13伤的伤亡更新",
+      "support_text": "The state-run IRNA news agency, citing what it described as an 'informed source,' offered initial casualty figures of 20 dead and 20 wounded. The Revolutionary Guard later reported on its website that 27 were killed and 13 wounded.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "图像显示爆炸撕裂公交车",
+      "support_text": "图像显示爆炸撕裂公交车",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "五名被绑架者被送回伊朗",
+      "support_text": "五名被绑架者被送回伊朗",
+      "source_text": "text_48"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_48_node_3",
+      "target": "text_48_node_9",
+      "relation": "before",
+      "support_text": "Iran fired six ballistic missiles as well as drone bombers in October toward eastern Syria, targeting militants it blamed for an attack on a military parade that killed at least 24 people."
+    },
+    {
+      "source": "text_48_node_4",
+      "target": "text_48_node_5",
+      "relation": "before",
+      "support_text": "Trump withdrew the U.S. from the accord last May. Since then, the United Nations says Iran has kept up its side of the bargain..."
+    },
+    {
+      "source": "text_48_node_5",
+      "target": "text_48_node_6",
+      "relation": "before",
+      "support_text": "The state-run IRNA news agency, citing what it described as an 'informed source,' offered initial casualty figures of 20 dead and 20 wounded. The Revolutionary Guard later reported on its website that 27 were killed and 13 wounded."
+    },
+    {
+      "source": "text_48_node_5",
+      "target": "text_48_node_7",
+      "relation": "before",
+      "support_text": "Tehran immediately linked the attack... to an ongoing U.S.-led conference in Warsaw... just two days after the nation marked the 40th anniversary of its 1979 Islamic Revolution."
+    },
+    {
+      "source": "text_48_node_5",
+      "target": "text_48_node_10",
+      "relation": "before",
+      "support_text": "Iran’s Foreign Minister Mohammad Javad Zarif directly linked the meeting to the attack Wednesday. 'Is it no coincidence that Iran is hit by terror on the very day that #WarsawCircus begins?' Zarif wrote on Twitter."
+    },
+    {
+      "source": "text_48_node_5",
+      "target": "text_48_node_11",
+      "relation": "before",
+      "support_text": "Khamenei, who earlier approved President Hassan Rouhani’s outreach to the West during the nuclear deal negotiations, dismissed any future dealings with the U.S."
+    },
+    {
+      "source": "text_48_node_5",
+      "target": "text_48_node_13",
+      "relation": "before",
+      "support_text": "Iran’s already-weakened economy has been further challenged. There have been sporadic protests in the country as well, incidents applauded by Trump amid Washington’s maximalist approach to Tehran."
+    },
+    {
+      "source": "text_48_node_5",
+      "target": "text_48_node_14",
+      "relation": "before",
+      "support_text": "该事件与node_5描述的同一时间点自杀式袭击存在语义关联"
+    },
+    {
+      "source": "text_48_node_5",
+      "target": "text_48_node_15",
+      "relation": "before",
+      "support_text": "该事件与node_5描述的同一时间点自杀式袭击存在语义关联"
+    },
+    {
+      "source": "text_48_node_12",
+      "target": "text_48_node_11",
+      "relation": "before",
+      "support_text": "Saudi Crown Prince Mohammed bin Salman for instance in a 2017 interview suggested the kingdom knew it was a 'main target of Iran.' 'We are not waiting until there becomes a battle in Saudi Arabia, so we will work so that it becomes a battle for them in Iran and not in Saudi Arabia,' he said then."
+    }
+  ]
+}

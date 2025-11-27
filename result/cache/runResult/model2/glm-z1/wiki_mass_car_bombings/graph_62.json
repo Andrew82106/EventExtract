@@ -1,0 +1,387 @@
+{
+  "nodes": [
+    {
+      "id": "text_62_node_1",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年Mualana Masoud Azhar在印度被捕获",
+      "support_text": "Mualana Masoud Azhar was captured in India in 1994 after taking western hostages in Kashmir.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年12月ISI与基地组织合作劫持Air India航班，要求释放Azhar",
+      "support_text": "In December 1999 a group of terrorists hijacked an Air India jet flying from Nepal to India and diverted it to Afghanistan. They demanded the release of Azhar and his colleagues in return for the passengers and crew. And they got it, thanks to help from the Pakistani intelligence service ISI and al Qaeda leader Osama bin Laden.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年12月JEM与 LET 联合袭击印度议会大厦",
+      "support_text": "In December 2001, JEM terrorists working with terrorists from another ISI-backed group, Lashkar e Tayyiba (LET), attacked the Indian parliament building in New Delhi.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年LET袭击印度孟买，JEM暂时低调",
+      "support_text": "Azhar kept a low profile for several years after LET’s 2008 attack on Mumbai.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年Azhar公开呼吁对美印发动袭击",
+      "support_text": "Modi’s visit was the first by an Indian prime minister in more than a decade. It was also Sharif’s birthday and the birthday of Pakistan’s founder, Muhammad Jinnah.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2023年12月31日JEM恐怖分子入侵印度边境",
+      "support_text": "On Dec. 31, a team of terrorists infiltrated across the Pakistani border into India.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2024年1月6日JEM袭击印度Pathankot空军基地，造成7名士兵死亡",
+      "support_text": "On Saturday they assaulted the Pathankot air base, one of India’s largest air force installations near the border.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2024年1月7日阿富汗玛扎尔沙里夫印度领事馆遭枪击",
+      "support_text": "On Sunday, the Indian Consulate in Mazar-e Sharif in northern Afghanistan was also attacked by gunmen.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1999年巴基斯坦军方政变推翻Nawaz Sharif",
+      "support_text": "An army coup in 1999 sent him into exile in Saudi Arabia for a decade.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2023年12月25日Modi首次访问巴基斯坦",
+      "support_text": "Modi’s visit was the first by an Indian prime minister in more than a decade.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_11",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "2024年1月15日印巴计划重启正式外交谈判",
+      "support_text": "So far New Delhi has not canceled the planned talks scheduled for later this month.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_12",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国长期将JEM列为恐怖组织但持续支持巴基斯坦军方",
+      "support_text": "Washington put JEM on the terrorist sanctions list years ago—but it continues to coddle the Pakistani army.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦情报机构与恐怖组织合作升级暴力冲突",
+      "support_text": "巴基斯坦情报机构能发动更多袭击",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "两国核武器国家发动四次战争",
+      "support_text": "两国已发动四次战争",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦极端组织 Jaish e Muhammad 发动袭击",
+      "support_text": "巴基斯坦极端组织 Jaish e Muhammad 发动袭击",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "JEM由Mualana Masoud Azhar创建",
+      "support_text": "JEM由Mualana Masoud Azhar创建",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_17",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "劫机者释放阿齐兹及其同事",
+      "support_text": "劫机者成功实现释放要求",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "劫机者成功实现释放要求",
+      "support_text": "劫机者成功实现释放要求",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印方官员与恐怖分子进行人质谈判",
+      "support_text": "印方官员与恐怖分子进行人质谈判",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_20",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "JEM从ISI处接收训练和武器",
+      "support_text": "JEM从ISI处接收训练和武器",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "JEM与al Qaeda建立密切合作关系",
+      "support_text": "JEM与al Qaeda建立密切合作关系",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_22",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISI由军官组成",
+      "support_text": "ISI由军官组成",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦军方控制间谍",
+      "support_text": "巴基斯坦军方控制间谍",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦军方通过引用印度的威胁证明预算和核计划",
+      "support_text": "巴基斯坦军方通过引用印度的威胁证明预算和核计划",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦军方引用印度的威胁",
+      "support_text": "巴基斯坦军方引用印度的威胁",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_26",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "任何紧张减少可能使军方失去对国家安全政策的控制",
+      "support_text": "任何紧张减少可能使军方失去对国家安全政策的控制",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_27",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度接受沙尔夫总理的公开谴责",
+      "support_text": "印度接受沙尔夫总理的公开谴责",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_28",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度承诺向政府提供证明JEM角色的证据",
+      "support_text": "印度承诺向政府提供证明JEM角色的证据",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_29",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击中捕获手机",
+      "support_text": "袭击中捕获手机",
+      "source_text": "text_62"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_62_node_1",
+      "target": "text_62_node_2",
+      "relation": "before",
+      "support_text": "Mualana Masoud Azhar was captured in India in 1994 after taking western hostages in Kashmir."
+    },
+    {
+      "source": "text_62_node_2",
+      "target": "text_62_node_3",
+      "relation": "before",
+      "support_text": "In December 1999 a group of terrorists hijacked an Air India jet... thanks to help from the Pakistani intelligence service ISI and al Qaeda leader Osama bin Laden."
+    },
+    {
+      "source": "text_62_node_2",
+      "target": "text_62_node_13",
+      "relation": "before",
+      "support_text": "1999年ISI与基地组织合作劫持Air India航班后，巴基斯坦情报机构持续升级暴力冲突"
+    },
+    {
+      "source": "text_62_node_2",
+      "target": "text_62_node_17",
+      "relation": "before",
+      "support_text": "劫机者释放阿齐兹及其同事发生在1999年劫持事件之后"
+    },
+    {
+      "source": "text_62_node_2",
+      "target": "text_62_node_20",
+      "relation": "before",
+      "support_text": "ISI与al Qaeda合作劫持Air India航班（1999）后，JEM从ISI处接收训练和武器"
+    },
+    {
+      "source": "text_62_node_2",
+      "target": "text_62_node_21",
+      "relation": "before",
+      "support_text": "ISI与al Qaeda合作劫持Air India航班（1999）后，JEM与al Qaeda建立密切合作关系"
+    },
+    {
+      "source": "text_62_node_3",
+      "target": "text_62_node_4",
+      "relation": "before",
+      "support_text": "Azhar kept a low profile for several years after LET’s 2008 attack on Mumbai."
+    },
+    {
+      "source": "text_62_node_4",
+      "target": "text_62_node_5",
+      "relation": "before",
+      "support_text": "Azhar reappeared publicly in 2014, giving fiery calls for more attacks on India and the United States."
+    },
+    {
+      "source": "text_62_node_5",
+      "target": "text_62_node_6",
+      "relation": "before",
+      "support_text": "On Dec. 31, a team of terrorists infiltrated across the Pakistani border into India."
+    },
+    {
+      "source": "text_62_node_6",
+      "target": "text_62_node_7",
+      "relation": "before",
+      "support_text": "On Saturday they assaulted the Pathankot air base, one of India’s largest air force installations near the border."
+    },
+    {
+      "source": "text_62_node_6",
+      "target": "text_62_node_8",
+      "relation": "before",
+      "support_text": "On Sunday, the Indian Consulate in Mazar-e Sharif in northern Afghanistan was also attacked by gunmen."
+    },
+    {
+      "source": "text_62_node_8",
+      "target": "text_62_node_15",
+      "relation": "before",
+      "support_text": "根据temporal_order 2，该事件应晚于node_8"
+    },
+    {
+      "source": "text_62_node_9",
+      "target": "text_62_node_10",
+      "relation": "before",
+      "support_text": "An army coup in 1999 sent him into exile in Saudi Arabia for a decade."
+    },
+    {
+      "source": "text_62_node_10",
+      "target": "text_62_node_11",
+      "relation": "before",
+      "support_text": "Modi’s visit was the first by an Indian prime minister in more than a decade."
+    },
+    {
+      "source": "text_62_node_11",
+      "target": "text_62_node_12",
+      "relation": "before",
+      "support_text": "Washington put JEM on the terrorist sanctions list years ago—but it continues to coddle the Pakistani army."
+    },
+    {
+      "source": "text_62_node_13",
+      "target": "text_62_node_7",
+      "relation": "before",
+      "support_text": "巴基斯坦情报机构升级暴力冲突后导致2024年Pathankot基地袭击"
+    },
+    {
+      "source": "text_62_node_14",
+      "target": "text_62_node_13",
+      "relation": "before",
+      "support_text": "两国核武器国家发动四次战争后触发巴基斯坦情报机构升级暴力冲突"
+    },
+    {
+      "source": "text_62_node_16",
+      "target": "text_62_node_1",
+      "relation": "before",
+      "support_text": "JEM创建事件早于1994年被捕事件"
+    },
+    {
+      "source": "text_62_node_17",
+      "target": "text_62_node_18",
+      "relation": "before",
+      "support_text": "劫机者成功实现释放要求发生在释放事件之后"
+    },
+    {
+      "source": "text_62_node_18",
+      "target": "text_62_node_19",
+      "relation": "before",
+      "support_text": "人质谈判发生在释放要求实现之后"
+    }
+  ]
+}

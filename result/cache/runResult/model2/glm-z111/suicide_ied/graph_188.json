@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "text_188_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2015年5月22日，曼彻斯特音乐厅发生恐怖袭击，造成22人死亡",
+      "support_text": "The families of the 22 people killed in the May attack outside an Ariana Grande concert in Manchester, England will receive $324,000 each from the We Love Manchester Emergency Fund, Billboard reports.",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_2",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击后成立We Love Manchester应急基金，通过公众捐赠和格莱姆斯的慈善演唱会筹集超过2300万美元",
+      "support_text": "The fund was established in the aftermath of the attack and has raised more than $23 million both through public donations and from the proceeds of Grande’s One Love Manchester benefit concert.",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "2015年6月举办格莱姆斯主持的One Love Manchester全明星慈善演唱会，包括Coldplay等艺人演出",
+      "support_text": "Grande hosted the all-star show in June, just weeks after the May 22nd attack. The concert featured performances from the pop star, as well as Justin Bieber, Katy Perry, Miley Cyrus, Coldplay, Pharrell and more.",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_4",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "格莱姆斯通过重发2015年单曲《One Last Time》和翻唱《Somewhere Over the Rainbow》为受害者筹款",
+      "support_text": "Along with donating the proceeds from the One Love Manchester concert, Grande raised additional money for the bombing victims through a re-release of her 2015 single, 'One Last Time.' The pop star also donated all the proceeds from her live cover of The Wizard of Oz classic, 'Somewhere Over the Rainbow,' which she performed at One Love Manchester.",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "基金向受害者家属每人发放32.4万美元，并已提供9万美元基础补助和免费心理咨询",
+      "support_text": "The payments will ensure the families benefit from the phenomenal outpouring of public support following the attack. Per We Love Manchester, the families of the victims have already been able to claim about $90,000, as well as access to free counseling.",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_6",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "格莱姆斯因后续公益行动被授予曼彻斯特荣誉市民称号",
+      "support_text": "In June, Grande was named the first honorary citizen of Manchester following her 'great many selfless acts and demonstrations of community spirit' in the aftermath of the attack.",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "基金会启动剩余资金分配方案，需评估袭击的长期影响",
+      "support_text": "We will issue an update as soon as we know more.",
+      "source_text": "text_188"
+    },
+    {
+      "id": "text_188_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "2015年5月曼彻斯特恐袭后，Billboard报道We Love Manchester应急基金成立及后续进展",
+      "support_text": "The families of the 22 people killed in the May attack outside an Ariana Grande concert in Manchester, England will receive $324,000 each from the We Love Manchester Emergency Fund, Billboard reports.",
+      "source_text": "text_188"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_188_node_1",
+      "target": "text_188_node_2",
+      "relation": "before",
+      "support_text": "The fund was established in the aftermath of the attack and has raised more than $23 million both through public donations and from the proceeds of Grande’s One Love Manchester benefit concert."
+    },
+    {
+      "source": "text_188_node_1",
+      "target": "text_188_node_8",
+      "relation": "before",
+      "support_text": "The fund was established in the aftermath of the attack and has raised more than $23 million both through public donations and from the proceeds of Grande’s One Love Manchester benefit concert."
+    },
+    {
+      "source": "text_188_node_2",
+      "target": "text_188_node_3",
+      "relation": "before",
+      "support_text": "Grande hosted the all-star show in June, just weeks after the May 22nd attack."
+    },
+    {
+      "source": "text_188_node_2",
+      "target": "text_188_node_5",
+      "relation": "before",
+      "support_text": "The payments will ensure the families benefit from the phenomenal outpouring of public support following the attack."
+    },
+    {
+      "source": "text_188_node_3",
+      "target": "text_188_node_4",
+      "relation": "before",
+      "support_text": "Along with donating the proceeds from the One Love Manchester concert, Grande raised additional money..."
+    },
+    {
+      "source": "text_188_node_3",
+      "target": "text_188_node_6",
+      "relation": "before",
+      "support_text": "In June, Grande was named the first honorary citizen of Manchester following her 'great many selfless acts and demonstrations of community spirit' in the aftermath of the attack."
+    },
+    {
+      "source": "text_188_node_5",
+      "target": "text_188_node_7",
+      "relation": "before",
+      "support_text": "We will issue an update as soon as we know more."
+    }
+  ]
+}

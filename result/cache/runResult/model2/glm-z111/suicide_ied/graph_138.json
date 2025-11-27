@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "text_138_node_1",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年穆夫提·阿卜杜勒·哈纳恩因试图刺杀谢赫·哈西娜被缺席判处终身监禁",
+      "support_text": "since 2003 when he was sentenced in absentia to life in jail for attempting to kill then Prime Minister Sheikh Hasina",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年2月政府将Jamaatul Mujahideen和Jagrata Muslim Janata Bangladesh列为非法组织",
+      "support_text": "Jamaatul Mujahideen and another group called Jagrata Muslim Janata Bangladesh were banned in February this year",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2023年8月全国爆发超过400起自制炸弹袭击事件，造成2人死亡、100余人受伤",
+      "support_text": "More than 400 home-made bombs exploded across the country in August",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2023年8月恰蒂哥尔港及昌德布尔、拉什米普尔等地法院发生连环爆炸，导致至少3人死亡、16人受伤",
+      "support_text": "Bombs went off in quick succession in the port of Chittagong and the eastern towns of Chandpur and Lakshmipur",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年8月17日昌德布尔法院爆炸致1死5伤，两名嫌疑人被捕",
+      "support_text": "A 60-year-old man was killed and five others injured in the courtroom blast at Chandpur",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年8月17日拉什米普尔法院爆炸致1死5伤，炸弹袭击法官",
+      "support_text": "One person was killed and five others were injured in two bomb blasts at a court building in Lakshmipur",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年8月17日恰蒂哥尔港法院爆炸致2人轻微受伤",
+      "support_text": "two people received minor injuries after two explosions at court premises in Chittagong",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年8月18日警方逮捕6名涉事嫌疑人，含Harkat-ul-Jihad-al-Islami前领导人",
+      "support_text": "Police say they have arrested six suspects in connection with the latest bomb attacks",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年8月17日确认爆炸事件发生在30分钟内，涉及3个地区法院",
+      "support_text": "Judge targeted Police said Monday's blasts took place within the space of 30 minutes around midday",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年8月政府指控Jamaatul Mujahideen为爆炸主谋，累计逮捕超300人",
+      "support_text": "Wave of arrests No group said it carried out the August bombings, but the government blamed another banned Islamic group, Jamaatul Mujahideen, for the attacks",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "昌布尔警察局长向BBC透露爆炸事件细节",
+      "support_text": "昌布尔警察局长向BBC透露",
+      "source_text": "text_138"
+    },
+    {
+      "id": "text_138_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方发现呼吁实施伊斯兰统治的传单",
+      "support_text": "警方发现呼吁实施伊斯兰统治的传单",
+      "source_text": "text_138"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_138_node_1",
+      "target": "text_138_node_8",
+      "relation": "before",
+      "support_text": "since 2003 when he was sentenced in absentia to life in jail for attempting to kill then Prime Minister Sheikh Hasina"
+    },
+    {
+      "source": "text_138_node_2",
+      "target": "text_138_node_3",
+      "relation": "before",
+      "support_text": "Jamaatul Mujahideen and another group called Jagrata Muslim Janata Bangladesh were banned in February this year"
+    },
+    {
+      "source": "text_138_node_3",
+      "target": "text_138_node_4",
+      "relation": "before",
+      "support_text": "More than 400 home-made bombs exploded across the country in August"
+    },
+    {
+      "source": "text_138_node_4",
+      "target": "text_138_node_5",
+      "relation": "before",
+      "support_text": "Bombs went off in quick succession in the port of Chittagong and the eastern towns of Chandpur and Lakshmipur"
+    },
+    {
+      "source": "text_138_node_4",
+      "target": "text_138_node_6",
+      "relation": "before",
+      "support_text": "Bombs went off in quick succession in the port of Chittagong and the eastern towns of Chandpur and Lakshmipur"
+    },
+    {
+      "source": "text_138_node_4",
+      "target": "text_138_node_7",
+      "relation": "before",
+      "support_text": "Bombs went off in quick succession in the port of Chittagong and the eastern towns of Chandpur and Lakshmipur"
+    },
+    {
+      "source": "text_138_node_5",
+      "target": "text_138_node_8",
+      "relation": "before",
+      "support_text": "Police say they have arrested six suspects in connection with the latest bomb attacks"
+    },
+    {
+      "source": "text_138_node_6",
+      "target": "text_138_node_8",
+      "relation": "before",
+      "support_text": "Police say they have arrested six suspects in connection with the latest bomb attacks"
+    },
+    {
+      "source": "text_138_node_7",
+      "target": "text_138_node_8",
+      "relation": "before",
+      "support_text": "Police say they have arrested six suspects in connection with the latest bomb attacks"
+    },
+    {
+      "source": "text_138_node_8",
+      "target": "text_138_node_10",
+      "relation": "before",
+      "support_text": "Police said some confessed to being members of the group and carrying out the attacks"
+    },
+    {
+      "source": "text_138_node_9",
+      "target": "text_138_node_4",
+      "relation": "before",
+      "support_text": "Judge targeted Police said Monday's blasts took place within the space of 30 minutes around midday"
+    },
+    {
+      "source": "text_138_node_9",
+      "target": "text_138_node_5",
+      "relation": "before",
+      "support_text": "Judge targeted Police said Monday's blasts took place within the space of 30 minutes around midday"
+    },
+    {
+      "source": "text_138_node_9",
+      "target": "text_138_node_6",
+      "relation": "before",
+      "support_text": "Judge targeted Police said Monday's blasts took place within the space of 30 minutes around midday"
+    },
+    {
+      "source": "text_138_node_11",
+      "target": "text_138_node_8",
+      "relation": "before",
+      "support_text": "昌布尔警察局长向BBC透露后，警方逮捕相关嫌疑人"
+    },
+    {
+      "source": "text_138_node_12",
+      "target": "text_138_node_8",
+      "relation": "before",
+      "support_text": "警方发现传单后逮捕相关嫌疑人"
+    }
+  ]
+}

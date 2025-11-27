@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "text_34_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "六名自杀式袭击者在喀布尔Intercontinental Hotel发动袭击，造成四次爆炸和枪战",
+      "support_text": "At least six suicide bombers attacked a major hotel frequented by Westerners in Afghanistan's capital late on Tuesday, a senior police officer said, with fighting continuing as police cleared the building.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在清剿过程中击伤三名警察，并切断酒店及周边电力供应",
+      "support_text": "Mohammad Zahir, the head of the Kabul police crime unit, said three police officers had been wounded as they cleared the hotel on the city's western outskirts.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者报告袭击持续约两小时，期间听到四次爆炸和间歇性枪声",
+      "support_text": "Reuters witnesses heard four blasts over the course of about two hours, with intermittent bursts of gunfire heard during the late-night attack on the Intercontinental Hotel.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部宣布所有袭击者被击毙，并确认六名平民死亡（多为酒店员工）",
+      "support_text": "The Afghan Interior Ministry said on Wednesday that all of the insurgents who attacked the hotel had been killed. Later on Wednesday, the Interior Ministry said that at least six Afghan civilians were killed during the attack.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部披露两名袭击者被警方击毙，四名袭击者自爆身亡",
+      "support_text": "Sediq Sediqqi said at least two of the attackers were shot dead and four blew themselves up at the hotel.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生在周三即将开始的北约过渡责任会议前一天",
+      "support_text": "The attack came the night before the start of a conference about the gradual transition of civil and military responsibility from foreign forces to Afghans.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "会议实际在政府建筑举行，而非目标酒店",
+      "support_text": "The hotel was not one of the venues to be used by the conference or its delegates, an Afghan government official said.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班承认参与袭击，但称伤亡数字可能被夸大",
+      "support_text": "Taliban spokesman Zabihullah Mujahid said several fighters from the Islamist group had attacked the hotel. Mujahid, who spoke to Reuters by telephone from an undisclosed location, said heavy casualties had been inflicted. The Taliban often exaggerate the number of casualties in attacks against Western and Afghan government targets.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在袭击后设置路障封锁现场，阻止人员接近",
+      "support_text": "Police threw up roadblocks immediately after the blast, stopping people from approaching the area.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "酒店位于喀布尔西郊，当时正举办婚礼，配备重型防御工事",
+      "support_text": "The hotel, built on a hillside in western Kabul with heavy fortifications all around it, is often used for conferences and by Westerners visiting the city. Police source said that a wedding party was underway when the attack happened.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "自2008年以来，附近Serena酒店曾遭多次火箭袭击",
+      "support_text": "The last major attack on a similar hotel used by foreigners was in January 2008, when several Taliban gunmen killed six people in a commando-style attack on the nearby Serena hotel. The Serena has been hit in several random rocket attacks since then.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "北约计划从2014年底开始逐步撤离，并提前移交七省安全责任",
+      "support_text": "Violence has flared across Afghanistan since the Taliban announced the start of a spring offensive at the beginning of May, although Kabul has been relatively quiet. The increase in violence comes as NATO-led forces prepare to hand security responsibility to Afghans in seven areas from next month, at the start of a gradual transition process that will end with all foreign troops leaving Afghanistan by the end of 2014.",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "闪光弹照亮了酒店上方的天空",
+      "support_text": "语义描述：闪光弹照亮了酒店上方的天空",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "电视画面显示警察向空中发射了信号弹",
+      "support_text": "语义描述：电视画面显示警察向空中发射了信号弹",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察向空中发射了信号弹",
+      "support_text": "语义描述：警察向空中发射了信号弹",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "其他警员进入酒店内部",
+      "support_text": "语义描述：其他警员进入酒店内部",
+      "source_text": "text_34"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_3",
+      "relation": "before",
+      "support_text": "Reuters witnesses heard four blasts over the course of about two hours, with intermittent bursts of gunfire heard during the late-night attack on the Intercontinental Hotel."
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_5",
+      "relation": "before",
+      "support_text": "Sediq Sediqqi said at least two of the attackers were shot dead and four blew themselves up at the hotel."
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_9",
+      "relation": "before",
+      "support_text": "Police threw up roadblocks immediately after the blast, stopping people from approaching the area."
+    },
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_10",
+      "relation": "before",
+      "support_text": "The hotel, built on a hillside in western Kabul with heavy fortifications all around it, is often used for conferences and by Westerners visiting the city."
+    },
+    {
+      "source": "text_34_node_5",
+      "target": "text_34_node_4",
+      "relation": "before",
+      "support_text": "Later on Wednesday, the Interior Ministry said that at least six Afghan civilians were killed during the attack."
+    },
+    {
+      "source": "text_34_node_6",
+      "target": "text_34_node_7",
+      "relation": "before",
+      "support_text": "The attack came the night before the start of a conference about the gradual transition of civil and military responsibility from foreign forces to Afghans."
+    },
+    {
+      "source": "text_34_node_11",
+      "target": "text_34_node_1",
+      "relation": "before",
+      "support_text": "The last major attack on a similar hotel used by foreigners was in January 2008, when several Taliban gunmen killed six people in a commando-style attack on the nearby Serena hotel."
+    },
+    {
+      "source": "text_34_node_12",
+      "target": "text_34_node_6",
+      "relation": "before",
+      "support_text": "The attack came the night before the start of a conference about the gradual transition of civil and military responsibility from foreign forces to Afghans."
+    }
+  ]
+}

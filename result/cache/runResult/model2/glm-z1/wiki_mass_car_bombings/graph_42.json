@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_42_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "科莫尔伯勒市 Hindu 国民主义选举集会前发生多起炸弹袭击，造成50人死亡、200人受伤",
+      "support_text": "the death toll from multiple bombings that preceded a Hindu nationalist election rally in the city on Saturday had reached 50, with more than 200 wounded.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方未指认袭击者但怀疑受禁穆斯林极端组织实施攻击",
+      "support_text": "Although the police did not identify any group or groups as having set off the bombs, officials in Coimbatore said they suspected that the attackers were members of militant Muslim groups, two of which were banned shortly after the explosions on Saturday.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周日突袭穆斯林社区期间发生爆炸，6名被围捕的嫌疑人死亡",
+      "support_text": "Today, a police raid in a Muslim neighborhood of Coimbatore resulted in another bomb explosion, this time with six people dead, who were said by the police to have been suspects who set off the blast after being surrounded.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "泰米尔纳德邦展开大规模逮捕行动，共逮捕500余人（科莫尔伯勒市逮捕200人）",
+      "support_text": "Altogether, more than 500 people, mostly Muslims, were arrested in a police crackdown across Tamil Nadu state, and 200 in Coimbatore, which lies about 275 miles southwest of Madras, the Tamil Nadu capital.",
+      "source_text": "text_42"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_42_node_1",
+      "target": "text_42_node_2",
+      "relation": "before",
+      "support_text": "shortly after the explosions on Saturday"
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_3",
+      "relation": "before",
+      "support_text": "Today"
+    },
+    {
+      "source": "text_42_node_3",
+      "target": "text_42_node_4",
+      "relation": "before",
+      "support_text": "in a police crackdown across Tamil Nadu state"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "text_32_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年10月23日，伊朗支持的黎巴嫩真主党在贝鲁特美国海军陆战队兵营发动自杀式卡车爆炸，造成241名美军死亡",
+      "support_text": "October 23, 1983 suicide truck bombing... killed 241 American servicemen",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年，241名幸存伤员及其家属分别提起两起诉讼，指控伊朗为恐怖袭击主谋",
+      "support_text": "Two separate suits were filed in 2001; Lamberth considered the two together",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_3",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年伊朗被正式送达诉讼文件但未提出异议，法院进入缺席审理程序",
+      "support_text": "Iran was served with the lawsuits in 2002 but failed to file any responses",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年12月，法院因联邦法律限制对伊朗的诉讼程序，暂缓执行缺席判决",
+      "support_text": "the court entered default judgments... required to study the matter further under federal law",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年 bench trial（庭审）确认真主党在1983年完全受伊朗政府控制并执行爆炸任务",
+      "support_text": "From the subsequent bench trial, Lamberth concluded that Hezbollah was formed under the auspices of the Iranian government",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院认定美军在黎巴嫩执行的是和平keeping任务，而非战斗行动",
+      "support_text": "the bulk of the evidence pointed clearly to a peacekeeping mission operating on stringent peacetime rules of engagement",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官Lamberth裁定伊朗对爆炸事件承担国家恐怖主义责任，判决受害者有权获得司法救济",
+      "support_text": "Lamberth ordered that the plaintiffs... have a 'right to obtain judicial relief' from Iran",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院委托特别委员会处理赔偿金额计算，暂缓决定惩罚性赔偿",
+      "support_text": "the court will determine compensatory damages after reviewing reports submitted by 'special masters'",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官强调无法消除受害者创伤，但可通过惩罚施暴者实现部分正义",
+      "support_text": "Lamberth wrote that the court had no power to 'heal the pain that has become a permanent part of the lives'",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官Lamberth在2003年庭审中陈述1983年贝鲁特爆炸案细节",
+      "support_text": "法官陈述爆炸案细节（原语义描述）",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院确定补偿性损害",
+      "support_text": "the court will determine compensatory damages after reviewing reports submitted by 'special masters'",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院审查提交的报告",
+      "support_text": "法院审查提交的报告",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "特别大师提交报告",
+      "support_text": "特别大师提交报告",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院任命特别大师",
+      "support_text": "法院任命特别大师",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_15",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Correspondence",
+      "description": "Lamberth撰写关于进入默认判决的声明",
+      "support_text": "Lamberth wrote that the court had no power to 'heal the pain that has become a permanent part of the lives'",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hezbollah持续18年对抗以色列对南部黎巴嫩的占领",
+      "support_text": "Hezbollah持续18年对抗以色列对南部黎巴嫩的占领",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_17",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1996年根据美国法律正式提出对伊朗的起诉",
+      "support_text": "根据1996年美国法律提出起诉",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_18",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国国会通过法律授权起诉被国务院认定的恐怖主义支持国",
+      "support_text": "法律允许美国起诉被国务院认定的恐怖主义支持国",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "国务院正式将某国列为恐怖主义支持国",
+      "support_text": "国务院认定国家为恐怖主义支持国",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "某国被国际组织正式命名为恐怖主义支持国",
+      "support_text": "国家被命名为恐怖主义支持国",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国政府评估是否扣押外国资产用于赔偿判决",
+      "support_text": "美国政府犹豫是否扣押外国资产以支付判决",
+      "source_text": "text_32"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_32_node_1",
+      "target": "text_32_node_2",
+      "relation": "before",
+      "support_text": "Two separate suits were filed in 2001"
+    },
+    {
+      "source": "text_32_node_1",
+      "target": "text_32_node_16",
+      "relation": "before",
+      "support_text": "1983年爆炸事件是持续对抗的起点"
+    },
+    {
+      "source": "text_32_node_2",
+      "target": "text_32_node_3",
+      "relation": "before",
+      "support_text": "Iran was served with the lawsuits in 2002"
+    },
+    {
+      "source": "text_32_node_3",
+      "target": "text_32_node_4",
+      "relation": "before",
+      "support_text": "the court entered default judgments... required to study the matter further"
+    },
+    {
+      "source": "text_32_node_4",
+      "target": "text_32_node_5",
+      "relation": "before",
+      "support_text": "From the subsequent bench trial"
+    },
+    {
+      "source": "text_32_node_5",
+      "target": "text_32_node_6",
+      "relation": "before",
+      "support_text": "As pointed out during trial"
+    },
+    {
+      "source": "text_32_node_5",
+      "target": "text_32_node_10",
+      "relation": "before",
+      "support_text": "2003年 bench trial确认真主党受伊朗控制（node_5 support_text）"
+    },
+    {
+      "source": "text_32_node_6",
+      "target": "text_32_node_7",
+      "relation": "before",
+      "support_text": "Lamberth ordered that the plaintiffs... have a 'right to obtain judicial relief'"
+    },
+    {
+      "source": "text_32_node_7",
+      "target": "text_32_node_8",
+      "relation": "before",
+      "support_text": "the court will determine compensatory damages after reviewing reports"
+    },
+    {
+      "source": "text_32_node_7",
+      "target": "text_32_node_9",
+      "relation": "before",
+      "support_text": "Lamberth wrote that the court had no power to 'heal the pain'"
+    },
+    {
+      "source": "text_32_node_7",
+      "target": "text_32_node_15",
+      "relation": "before",
+      "support_text": "Lamberth ordered that the plaintiffs... have a 'right to obtain judicial relief'"
+    },
+    {
+      "source": "text_32_node_12",
+      "target": "text_32_node_11",
+      "relation": "before",
+      "support_text": "根据temporal_order 3→4"
+    },
+    {
+      "source": "text_32_node_13",
+      "target": "text_32_node_12",
+      "relation": "before",
+      "support_text": "根据temporal_order 2→3"
+    },
+    {
+      "source": "text_32_node_14",
+      "target": "text_32_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order 1→2"
+    },
+    {
+      "source": "text_32_node_16",
+      "target": "text_32_node_5",
+      "relation": "before",
+      "support_text": "持续对抗最终在2003年庭审中确认"
+    }
+  ]
+}

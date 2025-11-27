@@ -1,0 +1,279 @@
+{
+  "nodes": [
+    {
+      "id": "text_55_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴基斯坦周一遭遇多起恐怖袭击，包括阿富汗驻巴总领事馆遇袭、斯瓦特河谷检查站自杀式爆炸，以及伊斯兰堡豪华马酒店遭炸弹袭击",
+      "support_text": "Gunmen took the Afghan consul-general hostage after killing his driver, and suicide bombers killed nine policemen at a checkpoint in the valley of Swat, northwest of the capital. The bombing of the deluxe Marriott hotel, in which at least 53 died and more than 260 were wounded, was still shrouded in mystery.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "未注册的极端组织Fadayeen Islam通过视频宣称对马酒店爆炸负责，并谎称有250名美军参与",
+      "support_text": "A little known terrorist group called Fadayeen Islam — 'Islamic Commandos' — took responsibility in a tape given to a Dubai-based television news channel, and claimed that there'd been 250 U.S. Marines and NATO officials at the hotel.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国官员匿名推测袭击系基地组织或关联势力所为，并称马酒店为软目标",
+      "support_text": "U.S. officials said they thought that al Qaida or extremists allied with the terrorist group were responsible for the attack and that the Marriott was a 'soft target'.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦内政部长称马酒店原计划举办军政高层晚宴，因安全原因临时取消",
+      "support_text": "Rehman Malik, the powerful chief of the Interior Ministry, said that a dinner hosted by the speaker of the parliament for the government and military top brass was supposed to have taken place at the Marriott but that security fears led to a late change.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国反恐官员匿名分析称大规模爆炸需长期策划，质疑巴基斯坦官员的临时解释",
+      "support_text": "It would have taken considerable time to plan the operation, amass the huge amount of explosives used and construct the bomb.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "巴总统扎尔迪访问纽约，计划与布什会谈以争取美国支持",
+      "support_text": "Pakistan's president, Asif Ali Zardari, who took office only this month, arrived in New York Monday, where he will hold talks with President Bush Tuesday.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴国内反美情绪因美导弹袭击和地面行动激增，扎尔迪谴责美军越境",
+      "support_text": "Our orders are clear: not to allow any incursion of anybody in Pakistan. American troops are coming, without letting us know, without Pakistan's permission. They are violating the United Nations charter.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴军方称击退两架进入部落地区的美军直升机，双方均否认事件",
+      "support_text": "Pakistani troops and tribesmen had opened fire on two U.S. military helicopters that had entered the area, forcing them to retreat.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗国防部长提议与巴建立跨境联合军事力量打击极端势力",
+      "support_text": "Afghan Defense Minister Abdul Rahim Wardak said in Washington that his country wanted to set up a joint military force with Pakistan that would have the power to operate on both sides of the countries' border.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "极端主义袭击震动巴基斯坦",
+      "support_text": "巴基斯坦周一遭遇多起恐怖袭击，包括阿富汗驻巴总领事馆遇袭、斯瓦特河谷检查站自杀式爆炸，以及伊斯兰堡豪华马酒店遭炸弹袭击",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军被部署在高度脆弱的地点",
+      "support_text": "美军被部署在高度脆弱的地点",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸事件标志着激进分子战争的新阶段",
+      "support_text": "爆炸事件标志着激进分子战争的新阶段",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "国家滑向混乱状态",
+      "support_text": "国家滑向混乱状态",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军在巴基斯坦部落地区发动跨境打击",
+      "support_text": "Gunmen took the Afghan consul-general hostage after killing his driver, and suicide bombers killed nine policemen at a checkpoint in the valley of Swat, northwest of the capital. The bombing of the deluxe Marriott hotel, in which at least 53 died and more than 260 were wounded, was still shrouded in mystery.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "炸弹袭击接近击中巴基斯坦政军领导层",
+      "support_text": "炸弹袭击接近击中巴基斯坦政军领导层",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_16",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "议会议长为政军高层举办了晚宴",
+      "support_text": "议会议长为政军高层举办了晚宴",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军特种部队发动地面进攻（对应assault事件）",
+      "support_text": "语义描述：美军特种部队发动地面进攻",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "反美情绪导致政府局势动荡（对应destabilize事件）",
+      "support_text": "语义描述：反美情绪导致政府局势动荡",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_19",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军部队秘密进入巴基斯坦（对应come事件）",
+      "support_text": "语义描述：美军部队秘密进入巴基斯坦",
+      "source_text": "text_55"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_2",
+      "relation": "before",
+      "support_text": "Fadayeen Islam took responsibility in a tape given to a Dubai-based television news channel"
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_3",
+      "relation": "before",
+      "support_text": "U.S. officials said they thought that al Qaida or extremists allied with the terrorist group were responsible for the attack"
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_4",
+      "relation": "before",
+      "support_text": "security fears led to a late change"
+    },
+    {
+      "source": "text_55_node_2",
+      "target": "text_55_node_3",
+      "relation": "before",
+      "support_text": "claimed that there'd been 250 U.S. Marines and NATO officials at the hotel"
+    },
+    {
+      "source": "text_55_node_4",
+      "target": "text_55_node_5",
+      "relation": "before",
+      "support_text": "It would have taken considerable time to plan the operation"
+    },
+    {
+      "source": "text_55_node_6",
+      "target": "text_55_node_7",
+      "relation": "before",
+      "support_text": "Zardari said in an interview with NBC that was broadcast Monday"
+    },
+    {
+      "source": "text_55_node_6",
+      "target": "text_55_node_8",
+      "relation": "before",
+      "support_text": "Some American officials think that Pakistani officials are floating these allegations as part of an effort to neutralize a popular perception"
+    },
+    {
+      "source": "text_55_node_6",
+      "target": "text_55_node_9",
+      "relation": "before",
+      "support_text": "Afghan Defense Minister Abdul Rahim Wardak said in Washington"
+    },
+    {
+      "source": "text_55_node_7",
+      "target": "text_55_node_8",
+      "relation": "before",
+      "support_text": "American troops are coming, without letting us know, without Pakistan's permission"
+    },
+    {
+      "source": "text_55_node_8",
+      "target": "text_55_node_14",
+      "relation": "before",
+      "support_text": "Pakistani troops and tribesmen had opened fire on two U.S. military helicopters that had entered the area, forcing them to retreat."
+    },
+    {
+      "source": "text_55_node_10",
+      "target": "text_55_node_2",
+      "relation": "before",
+      "support_text": "Fadayeen Islam took responsibility in a tape given to a Dubai-based television news channel"
+    },
+    {
+      "source": "text_55_node_10",
+      "target": "text_55_node_3",
+      "relation": "before",
+      "support_text": "U.S. officials said they thought that al Qaida or extremists allied with the terrorist group were responsible for the attack"
+    },
+    {
+      "source": "text_55_node_10",
+      "target": "text_55_node_4",
+      "relation": "before",
+      "support_text": "security fears led to a late change"
+    },
+    {
+      "source": "text_55_node_11",
+      "target": "text_55_node_12",
+      "relation": "before",
+      "support_text": "美军部署与爆炸事件存在因果关系"
+    },
+    {
+      "source": "text_55_node_12",
+      "target": "text_55_node_13",
+      "relation": "before",
+      "support_text": "爆炸事件引发国家滑向混乱状态"
+    },
+    {
+      "source": "text_55_node_15",
+      "target": "text_55_node_16",
+      "relation": "before",
+      "support_text": "炸弹袭击接近击中巴基斯坦政军领导层后触发晚宴"
+    },
+    {
+      "source": "text_55_node_16",
+      "target": "text_55_node_4",
+      "relation": "before",
+      "support_text": "晚宴举办触发安全担忧导致时间推迟"
+    }
+  ]
+}

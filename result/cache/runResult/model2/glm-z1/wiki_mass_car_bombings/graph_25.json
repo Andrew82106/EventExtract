@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_25_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年7月18日，伊朗支持的黎巴嫩真主党在布宜诺斯艾利斯AMIA犹太慈善协会总部发动爆炸袭击，造成85人死亡、300人受伤",
+      "support_text": "Prosecutors formally charged Iran and the Shiite militia Hezbollah Wednesday in the 1994 bombing of a Jewish charities office in Argentina, which killed 85 people and injured 300.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷检察官阿尔贝托·尼曼斯在周三正式指控伊朗和真主党为此次袭击负责，并证明袭击决策由伊朗最高领导层下达",
+      "support_text": "Prosecutors called for the arrest of top Iranian authorities at the time, including then-president Ali Rafsanjani.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "指控要求逮捕包括时任伊朗总统阿里·拉菲桑贾尼在内的多名伊朗高层人员",
+      "support_text": "Prosecutors called for the arrest of top Iranian authorities at the time, including then-president Ali Rafsanjani.",
+      "source_text": "text_25"
+    },
+    {
+      "id": "text_25_node_4",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "该事件发生后超过十一年间，阿根廷最严重的恐怖袭击案件仍未有任何人被审判",
+      "support_text": "No one has been tried for the crime in more than a decade since Argentina's worst-ever terror attack.",
+      "source_text": "text_25"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_25_node_1",
+      "target": "text_25_node_2",
+      "relation": "before",
+      "support_text": "Prosecutors formally charged Iran and the Shiite militia Hezbollah Wednesday in the 1994 bombing..."
+    },
+    {
+      "source": "text_25_node_1",
+      "target": "text_25_node_3",
+      "relation": "before",
+      "support_text": "Prosecutors called for the arrest of top Iranian authorities at the time..."
+    },
+    {
+      "source": "text_25_node_1",
+      "target": "text_25_node_4",
+      "relation": "before",
+      "support_text": "No one has been tried for the crime in more than a decade since Argentina's worst-ever terror attack."
+    }
+  ]
+}

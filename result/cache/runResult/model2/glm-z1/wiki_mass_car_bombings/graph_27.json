@@ -1,0 +1,384 @@
+{
+  "nodes": [
+    {
+      "id": "text_27_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊拉克巴格达及多个城市发生系列袭击，针对警察检查站、市场、市长办公室和纺织厂",
+      "support_text": "BAGHDAD — A series of attacks in Baghdad and other cities across Iraq on Monday struck police and army checkpoints, as well as markets, a mayor’s office and a textile factory.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击始于巴格达凌晨5点解除宵禁后，武装分子伪装成市政清洁工突袭10个检查站",
+      "support_text": "The attacks began as the nightly curfew lifted in Baghdad at 5 a.m.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "法卢贾、Samarra、Tamimya和Suwayra等地发生汽车炸弹袭击，其中市场爆炸致11人死亡",
+      "support_text": "Bombings soon followed in Falluja, Samarra, Tarmiya and Suwayra, where a parked car exploded in a market, killing 11 and wounding 60.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "晚间的Mahmudiya和Basra遭遇连环爆炸，Basra死亡人数达20人",
+      "support_text": "On Monday evening a bomb struck in Mahmudiya, and three more exploded in Basra...",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hilla纺织厂停车场发生两辆汽车炸弹同步爆炸，造成41人死亡、150人受伤",
+      "support_text": "Two bombs hidden in parked cars exploded almost simultaneously in the parking lot of the Hilla Textile Factory...",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致当天死亡人数突破101人，创年内新高并超过上月清真寺爆炸案伤亡",
+      "support_text": "The attacks, which killed at least 101 people and wounded hundreds more, occurred amid a protracted dispute over the results of the country’s election more than two months ago.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织伊斯兰国承认损失两名 AQI指挥官，但未对本次袭击负责",
+      "support_text": "The Islamic State of Iraq... acknowledged the loss of the two leaders... and vowed to keep waging war...",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴格达多个检查站发生交火，武装分子使用伪造制服和消音器突袭",
+      "support_text": "Gunmen, dressed as municipal street cleaners, ambushed 10 police and army checkpoints across the city...",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "北部边境检查站遭自杀式袭击，造成2名库尔德士兵死亡",
+      "support_text": "A suicide car bomber also struck one of 15 checkpoints controlled by American, Iraqi and Kurdish forces...",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Samara和Tamimya地区发生针对伊朗朝圣者和农民的爆炸事件",
+      "support_text": "Improvised bombs near Samarra wounded Iranian pilgrims and farmers.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Tamimya市长办公室遭袭致3人死亡，市长本人受伤送医",
+      "support_text": "The bombing in Tarmiya struck near the office of the town’s mayor, killing three and wounding 13.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织通过袭击凸显在安全措施加强背景下仍能实施全国性攻击",
+      "support_text": "The attacks underscored the ability of Iraq’s various extremist groups to mount catastrophic attacks throughout the country despite increased security...",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克官员Adel Abdul Mahdi呼吁加速组建新政府以应对恐怖威胁",
+      "support_text": "One of Iraq’s two vice presidents, Adel Abdul Mahdi, called for speeding the formation of a new government...",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "前议员Bahaa al-Araji批评军队纪律涣散和将领政治化倾向",
+      "support_text": "A member of the departing Parliament’s security committee, Bahaa al-Araji, pointedly blamed the security forces for unclear loyalties...",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "选举结果争议持续超过两个月，巴格达地区仍进行选票 recount",
+      "support_text": "The attacks occurred amid a protracted dispute over the results of the country’s election more than two months ago.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "亲Allawi派系指责Maliki派系拆除纺织厂安全屏障",
+      "support_text": "In Hilla, another supporter of Mr. Allawi’s alliance, Hassan al-Fatlawi, blamed the local provincial council... for removing security barriers.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Suwayra市场袭击者被指有意破坏政治进程",
+      "support_text": "A security officer described the attack as an effort to deepen the country’s political turmoil.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击持续至宵禁解除后",
+      "support_text": "袭击持续发生",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_19",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "枪手杀害9名士兵和官员",
+      "support_text": "枪手杀害9名士兵和官员",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "枪手使多人受伤",
+      "support_text": "枪手使多人受伤",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_21",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致60人受伤",
+      "support_text": "爆炸导致60人受伤",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_22",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "最严重的袭击发生在Hilla",
+      "support_text": "最严重的袭击发生在Hilla",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_23",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤亡人数因工人下班离开而增加",
+      "support_text": "伤亡人数因工人下班离开而增加",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_24",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "周一被确认为当年最血腥的一天",
+      "support_text": "周一死亡人数突破101人，创年内新高并超过上月清真寺爆炸案伤亡",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "周一死亡人数超过上月炸弹袭击死亡人数",
+      "support_text": "袭击导致当天死亡人数突破101人，创年内新高并超过上月清真寺爆炸案伤亡",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "检查点点缀街道和交叉路口",
+      "support_text": "检查点点缀街道和交叉路口",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_27",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "枪手接近正在坐着的守卫和正在使用洗手间的守卫",
+      "support_text": "枪手接近正在坐着的守卫和正在使用洗手间的守卫",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_28",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "枪手射击正在坐着的守卫和正在使用洗手间的守卫",
+      "support_text": "枪手射击正在坐着的守卫和正在使用洗手间的守卫",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_29",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "士兵Ali defiantly表示",
+      "support_text": "士兵Ali defiantly表示",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_30",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "他们不想政府成立",
+      "support_text": "他们不想政府成立",
+      "source_text": "text_27"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_27_node_1",
+      "target": "text_27_node_2",
+      "relation": "before",
+      "support_text": "The attacks began as the nightly curfew lifted in Baghdad at 5 a.m."
+    },
+    {
+      "source": "text_27_node_2",
+      "target": "text_27_node_8",
+      "relation": "before",
+      "support_text": "Gunmen, dressed as municipal street cleaners, ambushed 10 police and army checkpoints across the city..."
+    },
+    {
+      "source": "text_27_node_2",
+      "target": "text_27_node_3",
+      "relation": "before",
+      "support_text": "Bombings soon followed in Falluja, Samarra, Tarmiya and Suwayra..."
+    },
+    {
+      "source": "text_27_node_3",
+      "target": "text_27_node_10",
+      "relation": "before",
+      "support_text": "Improvised bombs near Samarra wounded Iranian pilgrims and farmers."
+    },
+    {
+      "source": "text_27_node_5",
+      "target": "text_27_node_6",
+      "relation": "before",
+      "support_text": "The attacks, which killed at least 101 people and wounded hundreds more, occurred amid a protracted dispute..."
+    },
+    {
+      "source": "text_27_node_5",
+      "target": "text_27_node_22",
+      "relation": "before",
+      "support_text": "Hilla纺织厂停车场发生两辆汽车炸弹同步爆炸"
+    },
+    {
+      "source": "text_27_node_6",
+      "target": "text_27_node_7",
+      "relation": "before",
+      "support_text": "The attacks underscored the ability of Iraq’s various extremist groups to mount catastrophic attacks throughout the country despite increased security..."
+    },
+    {
+      "source": "text_27_node_13",
+      "target": "text_27_node_1",
+      "relation": "before",
+      "support_text": "One of Iraq’s two vice presidents, Adel Abdul Mahdi, called for speeding the formation of a new government..."
+    },
+    {
+      "source": "text_27_node_15",
+      "target": "text_27_node_1",
+      "relation": "before",
+      "support_text": "The attacks occurred amid a protracted dispute over the results of the country’s election more than two months ago."
+    },
+    {
+      "source": "text_27_node_15",
+      "target": "text_27_node_17",
+      "relation": "before",
+      "support_text": "A security officer described the attack as an effort to deepen the country’s political turmoil."
+    },
+    {
+      "source": "text_27_node_16",
+      "target": "text_27_node_5",
+      "relation": "before",
+      "support_text": "In Hilla, another supporter of Mr. Allawi’s alliance, Hassan al-Fatlawi, blamed the local provincial council... for removing security barriers."
+    },
+    {
+      "source": "text_27_node_18",
+      "target": "text_27_node_2",
+      "relation": "before",
+      "support_text": "袭击持续至宵禁解除后"
+    },
+    {
+      "source": "text_27_node_19",
+      "target": "text_27_node_8",
+      "relation": "before",
+      "support_text": "枪手杀害9名士兵和官员"
+    },
+    {
+      "source": "text_27_node_20",
+      "target": "text_27_node_8",
+      "relation": "before",
+      "support_text": "枪手使多人受伤"
+    },
+    {
+      "source": "text_27_node_21",
+      "target": "text_27_node_3",
+      "relation": "before",
+      "support_text": "爆炸导致60人受伤"
+    },
+    {
+      "source": "text_27_node_22",
+      "target": "text_27_node_23",
+      "relation": "before",
+      "support_text": "伤亡人数因工人下班离开而增加"
+    },
+    {
+      "source": "text_27_node_24",
+      "target": "text_27_node_25",
+      "relation": "before",
+      "support_text": "周一死亡人数突破101人（语义描述1）与超过上月伤亡（语义描述2）存在时间递进关系"
+    },
+    {
+      "source": "text_27_node_30",
+      "target": "text_27_node_13",
+      "relation": "before",
+      "support_text": "他们不想政府成立与Adel Abdul Mahdi呼吁加速组建新政府存在逻辑关联"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_52_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周二早晨，自杀式袭击者在吉尔吉斯斯坦首都比什凯克的中国大使馆 compound 内引爆",
+      "support_text": "A suicide bomber blew himself up inside the Chinese Embassy’s compound in Bishkek, the capital of Kyrgyzstan, on Tuesday morning, wounding three Kyrgyz staff members, according to local officials.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击者驾驶 Mitsubishi Delica 车冲撞大使馆大门，车辆在进入 compound 约160英尺处爆炸",
+      "support_text": "The attacker rammed the gates of the embassy with a Mitsubishi Delica that exploded about 160 feet into the compound.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击者当场死亡，导致3名吉尔吉斯斯坦工作人员受伤",
+      "support_text": "The driver died on the scene. 'This was a suicide bomber, three people got injured, they were hospitalized'",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "副总理 Zhenish Razakov 向媒体确认袭击为自杀式爆炸，受伤人员已送医",
+      "support_text": "Zhenish Razakov, the country’s deputy prime minister, told journalists in a video that was released by a local news website.",
+      "source_text": "text_52"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_52_node_1",
+      "target": "text_52_node_3",
+      "relation": "before",
+      "support_text": "wounding three Kyrgyz staff members, according to local officials."
+    },
+    {
+      "source": "text_52_node_2",
+      "target": "text_52_node_1",
+      "relation": "before",
+      "support_text": "The attacker rammed the gates of the embassy with a Mitsubishi Delica that exploded about 160 feet into the compound."
+    },
+    {
+      "source": "text_52_node_3",
+      "target": "text_52_node_4",
+      "relation": "before",
+      "support_text": "they were hospitalized"
+    }
+  ]
+}

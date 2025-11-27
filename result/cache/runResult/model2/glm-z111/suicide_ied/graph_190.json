@@ -1,0 +1,222 @@
+{
+  "nodes": [
+    {
+      "id": "text_190_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "8月18日，喀布尔拥挤婚礼派对遭自杀式爆炸，造成至少63人死亡、182人受伤",
+      "support_text": "Kabul, Afghanistan — The death toll from a late-night suicide bombing at a crowded wedding party in the Afghan capital rose to at least 63 on Sunday, including women and children, officials said.",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生地是喀布尔西区的什叶派哈扎拉社区聚居区",
+      "support_text": "The blast occurred in a western Kabul neighborhood that is home to many of the country's minority Shiite Hazara community.",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织伊斯兰国（ISIS）宣布对爆炸负责，称袭击针对什叶派集会",
+      "support_text": "A statement by the militant group posted on an IS-linked website on Sunday said a Pakistani IS fighter seeking martyrdom targeted a large Shiite gathering in Kabul.",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "目击者称爆炸发生在婚礼厅舞台附近，导致大量儿童和年轻人死亡",
+      "support_text": "The bomber detonated his explosives near the stage where musicians were playing and 'all the youths, children and all the people who were there were killed,' said eyewitness Gul Mohammad.",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸造成婚礼厅严重损毁，遗留下血迹座椅、损毁音响和遗弃鞋履",
+      "support_text": "Amid the carnage were blood-covered chairs, crushed music speakers and a pile of abandoned shoes.",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "8月7日同一路段发生塔利班汽车炸弹袭击，造成14人死亡、145人受伤",
+      "support_text": "On Aug. 7, a Taliban car bomb aimed at Afghan security forces detonated his explosives on the same road, killing 14 people and wounding 145 — most of them women, children and other civilians.",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "欧盟和美国谴责此次袭击为极端残暴行为",
+      "support_text": "Messages of shock poured in on Sunday. 'Such acts are beyond condemnation,' the European Union mission to Afghanistan said. 'An act of extreme depravity,' U.S. Ambassador John Bass said.",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗总统宣布全国哀悼日，谴责袭击者并批评塔利班纵容极端分子",
+      "support_text": "President Ashraf Ghani said Sunday on Twitter, declaring a day of mourning and calling the attack 'inhumane.'",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国与塔利班接近达成和平协议，但政府被排除在谈判之外",
+      "support_text": "But many Afghans fear that terror attacks inside the country will continue, and their pleas for peace — and for details on the talks — have increased in recent days.",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "喀布尔居民对持续暴力感到愤怒，质疑和平进程可行性",
+      "support_text": "Kabul residents were outraged as there appears to be no end to violence even as the U.S. and the Taliban say they are nearing a deal to end their 18-year conflict.",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "11月某次婚礼集会遭自杀式袭击，造成55人死亡",
+      "support_text": "In November, at least 55 people were killed when a suicide bomber sneaked into a Kabul wedding hall where hundreds of Muslim religious scholars and clerics had gathered to mark the birthday of the Prophet Muhammad.",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部发言人确认伤亡人数",
+      "support_text": "意义段中关于内政部发言人确认伤亡人数的原始内容",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_13",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "家人开始埋葬死者",
+      "support_text": "意义段中关于家人开始埋葬死者的原始内容",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班谴责袭击",
+      "support_text": "意义段中关于塔利班谴责袭击的原始内容",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班否认参与",
+      "support_text": "意义段中关于塔利班否认参与的原始内容",
+      "source_text": "text_190"
+    },
+    {
+      "id": "text_190_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国未宣称对喀布尔婚礼袭击负责",
+      "support_text": "伊斯兰国未在事件发生后发布任何宣称对喀布尔婚礼袭击负责的声明",
+      "source_text": "text_190"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_190_node_1",
+      "target": "text_190_node_3",
+      "relation": "before",
+      "support_text": "A statement by the militant group posted on an IS-linked website on Sunday said a Pakistani IS fighter seeking martyrdom targeted a large Shiite gathering in Kabul."
+    },
+    {
+      "source": "text_190_node_1",
+      "target": "text_190_node_7",
+      "relation": "before",
+      "support_text": "Messages of shock poured in on Sunday. 'Such acts are beyond condemnation,' the European Union mission to Afghanistan said. 'An act of extreme depravity,' U.S. Ambassador John Bass said."
+    },
+    {
+      "source": "text_190_node_1",
+      "target": "text_190_node_8",
+      "relation": "before",
+      "support_text": "President Ashraf Ghani said Sunday on Twitter, declaring a day of mourning and calling the attack 'inhumane.'"
+    },
+    {
+      "source": "text_190_node_1",
+      "target": "text_190_node_10",
+      "relation": "before",
+      "support_text": "Kabul residents were outraged as there appears to be no end to violence even as the U.S. and the Taliban say they are nearing a deal to end their 18-year conflict."
+    },
+    {
+      "source": "text_190_node_1",
+      "target": "text_190_node_9",
+      "relation": "before",
+      "support_text": "But many Afghans fear that terror attacks inside the country will continue, and their pleas for peace — and for details on the talks — have increased in recent days."
+    },
+    {
+      "source": "text_190_node_1",
+      "target": "text_190_node_11",
+      "relation": "before",
+      "support_text": "In November, at least 55 people were killed when a suicide bomber sneaked into a Kabul wedding hall where hundreds of Muslim religious scholars and clerics had gathered to mark the birthday of the Prophet Muhammad."
+    },
+    {
+      "source": "text_190_node_1",
+      "target": "text_190_node_12",
+      "relation": "before",
+      "support_text": "爆炸发生后内政部发言人确认伤亡人数"
+    },
+    {
+      "source": "text_190_node_1",
+      "target": "text_190_node_14",
+      "relation": "before",
+      "support_text": "事件发生后的谴责行为"
+    },
+    {
+      "source": "text_190_node_3",
+      "target": "text_190_node_16",
+      "relation": "before",
+      "support_text": "伊斯兰国在未宣称对喀布尔袭击负责前已宣称对其他袭击负责"
+    },
+    {
+      "source": "text_190_node_6",
+      "target": "text_190_node_1",
+      "relation": "before",
+      "support_text": "On Aug. 7, a Taliban car bomb aimed at Afghan security forces detonated his explosives on the same road, killing 14 people and wounding 145 — most of them women, children and other civilians."
+    },
+    {
+      "source": "text_190_node_12",
+      "target": "text_190_node_13",
+      "relation": "before",
+      "support_text": "确认伤亡后家人开始埋葬死者"
+    },
+    {
+      "source": "text_190_node_14",
+      "target": "text_190_node_15",
+      "relation": "before",
+      "support_text": "谴责与否认的时序逻辑"
+    }
+  ]
+}

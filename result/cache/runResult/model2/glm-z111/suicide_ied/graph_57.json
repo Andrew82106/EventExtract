@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "text_57_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年5月22日，英国士兵Lee Rigby在伦敦伍尔西遇害，此事件四周年纪念成为2017年曼彻斯特恐袭背景",
+      "support_text": "The Manchester attack took place on the fourth anniversary of the killing of Fusilier Lee Rigby in Woolwich, which was inspired by al-Qaeda propaganda on avenging civilian casualties in the Middle East.",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年5月23日晚，Ariana Grande演唱会期间发生自杀式爆炸，22人死亡、数十人受伤",
+      "support_text": "A suicide bomber killed 22 people and injured dozens more at an Ariana Grande concert on Monday night.",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "ISIS通过阿拉伯语声明宣称对袭击负责，称实施者系'哈里发战士'",
+      "support_text": "Isis has claimed responsibility for the Manchester Arena attack, hailing the bomber as a 'soldier of the caliphate'.",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_4",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "ISIS通过中央媒体发布恐袭声明，声称袭击造成百余人伤亡",
+      "support_text": "The terrorist group released a statement in Arabic through its central media body praising the atrocity, claiming more than 100 people were killed or wounded.",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS最新版宣传杂志《Rumiyah》将演唱会场馆列为'理想袭击目标'",
+      "support_text": "The most recent edition of its Rumiyah propaganda magazine listed concert halls among 'ideal target locations' for attacks.",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "现场发现使用自制TATP炸药的证据，皇家物流部队部署拆弹机器人",
+      "support_text": "Explosive devices using homemade triacetone triperoxide (TATP) have become a signature of the group’s largest European attacks in Paris and Brussels, and has been discovered in several foiled plots.",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "曼彻斯特警方封锁现场并疏散人群，急救人员紧急救治伤员",
+      "support_text": "Police deploy at scene of explosion in Manchester, England, at a concert in Manchester Arena AFP/Getty Images",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国政府确认事件为恐怖袭击，启动重大事故调查程序",
+      "support_text": "British police said early May 23 there were 'a number of confirmed fatalities' after reports of at least one explosion during a pop concert by US singer Ariana Grande.",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "全球媒体发布37张现场影像记录事件经过，包括爆炸瞬间、救援及民众悼念画面",
+      "support_text": "Manchester explosion in pictures 37 show all Manchester explosion in pictures 1/37",
+      "source_text": "text_57"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_57_node_1",
+      "target": "text_57_node_2",
+      "relation": "before",
+      "support_text": "The Manchester attack took place on the fourth anniversary of the killing of Fusilier Lee Rigby in Woolwich..."
+    },
+    {
+      "source": "text_57_node_2",
+      "target": "text_57_node_3",
+      "relation": "before",
+      "support_text": "Isis has claimed responsibility for the Manchester Arena attack..."
+    },
+    {
+      "source": "text_57_node_2",
+      "target": "text_57_node_4",
+      "relation": "before",
+      "support_text": "The terrorist group released a statement in Arabic through its central media body..."
+    },
+    {
+      "source": "text_57_node_2",
+      "target": "text_57_node_6",
+      "relation": "before",
+      "support_text": "Explosive devices using homemade triacetone triperoxide (TATP) have become a signature..."
+    },
+    {
+      "source": "text_57_node_2",
+      "target": "text_57_node_7",
+      "relation": "before",
+      "support_text": "Police deploy at scene of explosion in Manchester, England, at a concert in Manchester Arena AFP/Getty Images"
+    },
+    {
+      "source": "text_57_node_2",
+      "target": "text_57_node_8",
+      "relation": "before",
+      "support_text": "British police said early May 23 there were 'a number of confirmed fatalities'..."
+    },
+    {
+      "source": "text_57_node_2",
+      "target": "text_57_node_9",
+      "relation": "before",
+      "support_text": "Manchester explosion in pictures 37 show all Manchester explosion in pictures 1/37"
+    },
+    {
+      "source": "text_57_node_5",
+      "target": "text_57_node_2",
+      "relation": "before",
+      "support_text": "The most recent edition of its Rumiyah propaganda magazine listed concert halls among 'ideal target locations' for attacks."
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "nodes": [
+    {
+      "id": "text_43_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "8月19日发生自杀式爆炸袭击，造成32人死亡55人受伤，袭击者约20岁",
+      "support_text": "Thirty-two people, seven policemen and two health officials among them, were killed and 55 others injured when a suicide bomber blew himself up near the emergency ward of the District Headquarters Hospital here on Tuesday.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击前当地民众聚集抗议什叶派领袖巴西特·阿里遇害事件",
+      "support_text": "The attack was carried out when a large number of people had gathered there to protest against the murder of local Shia leader Basit Ali earlier in the day.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者头部和腿部残骸在爆炸现场被发现，急诊科完全损毁",
+      "support_text": "The bomber’s head and legs have been found, police sources said. The emergency ward was completely destroyed by the explosion.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_4",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "10-12名伤者处于危重状态，包括警察、医护人员和记者",
+      "support_text": "10 to 12 of the injured were in critical condition. Some of the injured, including several policemen, health workers and two journalists, were taken to the Combined Military Hospital and private hospitals.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "14名遇难者中包含一个家庭全体成员",
+      "support_text": "The deceased included 14 members of a family.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者被证实为太阳组织（TTP）成员",
+      "support_text": "The Tehrik-i-Taliban Pakistan has claimed responsibility for the attack.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "太阳组织声明袭击针对政府官员而非特定教派",
+      "support_text": "Taliban spokesman Maulvi Omar told Dawn on phone they had targeted police and other government officials and 'did not intend to attack any specific religious sect (the Shia),'",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击后全城商铺关闭，市民担忧教派冲突升级",
+      "support_text": "all shops, markets and business centres were closed for fear of an eruption of sectarian clashes in the area.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "军警封锁区域并加强巡逻，实施宵禁和禁止摩托车骑行",
+      "support_text": "Army and police cordoned off the area and started patrolling.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地政府召开紧急会议部署反教派冲突预案",
+      "support_text": "the city’s civil and military administrations, which had been convened to prepare a plan to cope with possible sectarian strife in the sensitive district.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "什叶派社区宣布从8月20日起实施3天哀悼期",
+      "support_text": "The Shia community decided to observe a three-day mourning from Wednesday in Dera Ismail Khan for the innocent people killed in the blast.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_12",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "首批14名遇难者于8月19日晚举行葬礼",
+      "support_text": "Four victims of the blasts were laid to rest in a graveyard in Kotli Imam while funeral prayers for 20 others were offered in Chah Syed Munawar Shah late on Tuesday night.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "紧张局势催生针对杀戮行为",
+      "support_text": "紧张局势催生针对杀戮行为",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸动机显现为教派冲突",
+      "support_text": "爆炸动机显现为教派冲突",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸明显针对什叶派抗议者",
+      "support_text": "爆炸明显针对什叶派抗议者",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察官员声明爆炸动机",
+      "support_text": "警察官员声明爆炸动机",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "地方政府调用增援以加强警察力量",
+      "support_text": "地方政府调用增援以加强警察力量",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在多个地点设立路障",
+      "support_text": "警方在多个地点设立路障",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "实施第144条款以加强管控",
+      "support_text": "实施第144条款以加强管控",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_20",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "禁止摩托车后座载人",
+      "support_text": "禁止摩托车后座载人",
+      "source_text": "text_43"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_3",
+      "relation": "before",
+      "support_text": "The emergency ward was completely destroyed by the explosion."
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_4",
+      "relation": "before",
+      "support_text": "10 to 12 of the injured were in critical condition."
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_5",
+      "relation": "before",
+      "support_text": "The deceased included 14 members of a family."
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_6",
+      "relation": "before",
+      "support_text": "The Tehrik-i-Taliban Pakistan has claimed responsibility for the attack."
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_8",
+      "relation": "before",
+      "support_text": "all shops, markets and business centres were closed for fear of an eruption of sectarian clashes in the area."
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_11",
+      "relation": "before",
+      "support_text": "The Shia community decided to observe a three-day mourning from Wednesday in Dera Ismail Khan for the innocent people killed in the blast."
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_12",
+      "relation": "before",
+      "support_text": "Four victims of the blasts were laid to rest in a graveyard in Kotli Imam while funeral prayers for 20 others were offered in Chah Syed Munawar Shah late on Tuesday night."
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_14",
+      "relation": "before",
+      "support_text": "爆炸动机显现为教派冲突"
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_16",
+      "relation": "before",
+      "support_text": "警察官员声明爆炸动机"
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_17",
+      "relation": "before",
+      "support_text": "地方政府调用增援以加强警察力量"
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_18",
+      "relation": "before",
+      "support_text": "警方在多个地点设立路障"
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_19",
+      "relation": "before",
+      "support_text": "实施第144条款以加强管控"
+    },
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_20",
+      "relation": "before",
+      "support_text": "禁止摩托车后座载人"
+    },
+    {
+      "source": "text_43_node_2",
+      "target": "text_43_node_1",
+      "relation": "before",
+      "support_text": "The attack was carried out when a large number of people had gathered there to protest against the murder of local Shia leader Basit Ali earlier in the day."
+    },
+    {
+      "source": "text_43_node_2",
+      "target": "text_43_node_13",
+      "relation": "before",
+      "support_text": "紧张局势催生针对杀戮行为"
+    },
+    {
+      "source": "text_43_node_6",
+      "target": "text_43_node_7",
+      "relation": "before",
+      "support_text": "Taliban spokesman Maulvi Omar told Dawn on phone they had targeted police and other government officials and 'did not intend to attack any specific religious sect (the Shia),'"
+    },
+    {
+      "source": "text_43_node_8",
+      "target": "text_43_node_9",
+      "relation": "before",
+      "support_text": "Army and police cordoned off the area and started patrolling."
+    },
+    {
+      "source": "text_43_node_9",
+      "target": "text_43_node_10",
+      "relation": "before",
+      "support_text": "the city’s civil and military administrations, which had been convened to prepare a plan to cope with possible sectarian strife in the sensitive district."
+    },
+    {
+      "source": "text_43_node_14",
+      "target": "text_43_node_15",
+      "relation": "before",
+      "support_text": "爆炸明显针对什叶派抗议者"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "nodes": [
+    {
+      "id": "text_81_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "1993年4月19日，美国得克萨斯州沃克奥克索斯（Branch Davidian） compounds遭遇政府围困，造成约80人死亡",
+      "support_text": "Bitter vengeance for Waco Prosecutors said the bombing was a twisted attempt to avenge the deaths of about 80 people in a government siege at the Branch Davidian compound in Waco, Texas, exactly two years earlier.",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年4月19日，麦凯（McVeigh）在俄克拉荷马城联邦大楼前引爆载有铵油炸药的卡车，造成168人死亡，包括19名儿童",
+      "support_text": "Six years before the Sept. 11, 2001, terrorist attacks, a cargo truck packed with two tons of ammonium nitrate and fuel oil was detonated in front of the nine-story Alfred P. Murrah Federal Building on April 19, 1995, killing 168 people — including 19 children — and injuring hundreds more.",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1997年，得克萨斯州一名天然气处理厂爆炸阴谋案涉及四名嫌疑人，计划炸毁设施",
+      "support_text": "One of the great lessons of the Oklahoma City bombing is that the domestic radical right poses extremely serious threats. [...] There were 803 organized hate groups in the U.S. in 2005, including the Ku Klux Klan, neo-Nazis and other white supremacists, up from 602 just six years earlier, according to the SPLC.",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年后，美国极右翼仇恨团体数量较2000年增长33%，显示国内恐怖主义威胁上升",
+      "support_text": "The number of organized hate groups in the U.S. has risen 33 percent since 2000 and the potential for another domestic terrorist attack is on the rise, said Mark Potok.",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年1月，军友迈克尔·福特（Fortier）因合作作证获释，已服刑约85%的12年刑期",
+      "support_text": "Another Army buddy, Michael Fortier, pleaded guilty to not telling authorities in advance about the bomb plot and agreed to testify against McVeigh and Nichols. Fortier was released from a federal prison in January after serving about 85 percent of a 12-year sentence.",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年6月11日，麦凯因联邦谋杀罪被执行死刑",
+      "support_text": "McVeigh, apprehended less than two hours after the bombing, was convicted of federal murder charges and executed on June 11, 2001.",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年，蒂尔尼（Nichols）因联邦和州级爆炸罪被判终身监禁",
+      "support_text": "Nichols, who met McVeigh in the Army, was convicted on federal and state bombing charges and is serving multiple life prison sentences.",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2005年，南方贫困法律中心报告美国有803个极右翼仇恨团体，包括白人至上主义者",
+      "support_text": "There were 803 organized hate groups in the U.S. in 2005, including the Ku Klux Klan, neo-Nazis and other white supremacists, up from 602 just six years earlier, according to the SPLC.",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "外国硬名字的人实施的恐怖袭击",
+      "support_text": "恐怖袭击由外国硬名字的人实施",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Coverdale认为恐怖袭击仅在国外发生",
+      "support_text": "Coverdale认为恐怖袭击仅在国外发生",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "专家们担心 lessons 被遗忘",
+      "support_text": "专家们担心 lessons 被遗忘",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "忘记 lessons",
+      "support_text": "忘记 lessons",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "国家关注国际威胁",
+      "support_text": "国家关注国际威胁",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "路易斯·弗里兰评论1995年俄克拉荷马城爆炸事件",
+      "support_text": "路易斯·弗里兰评论事件，提及爆炸导致更多人受伤",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bitter vengeance复仇行动声称1995年4月19日的炸弹袭击是针对Waco检方的报复",
+      "support_text": "Bitter vengeance for Waco Prosecutors said the bombing was a twisted attempt to avenge the deaths of about 80 people in a government siege at the Branch Davidian compound in Waco, Texas, exactly two years earlier.",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "FBI agents在1995年4月19日事件后进行了28,000次采访",
+      "support_text": "FBI agents conducted 28,000 interviews",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "FBI agents收集了3.5吨证据和近十亿信息",
+      "support_text": "FBI agents collected 3.5 tons of evidence and almost one billion pieces of information",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年4月，Nichols在陆军服役期间与McVeigh建立联系",
+      "support_text": "Nichols在陆军中与McVeigh相识",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "执法部门挫败了60起国内恐怖阴谋",
+      "support_text": "执法部门挫败了60起国内恐怖阴谋",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "另一场国内恐怖袭击的可能性正在上升",
+      "support_text": "另一场国内恐怖袭击的可能性正在上升",
+      "source_text": "text_81"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_81_node_1",
+      "target": "text_81_node_2",
+      "relation": "before",
+      "support_text": "exactly two years earlier"
+    },
+    {
+      "source": "text_81_node_2",
+      "target": "text_81_node_3",
+      "relation": "before",
+      "support_text": "Six years before the Sept. 11, 2001, terrorist attacks"
+    },
+    {
+      "source": "text_81_node_2",
+      "target": "text_81_node_14",
+      "relation": "after",
+      "support_text": "爆炸事件后路易斯·弗里兰发表评论"
+    },
+    {
+      "source": "text_81_node_2",
+      "target": "text_81_node_16",
+      "relation": "after",
+      "support_text": "事件后立即展开调查"
+    },
+    {
+      "source": "text_81_node_3",
+      "target": "text_81_node_4",
+      "relation": "before",
+      "support_text": "since 2000"
+    },
+    {
+      "source": "text_81_node_4",
+      "target": "text_81_node_8",
+      "relation": "before",
+      "support_text": "in 2005"
+    },
+    {
+      "source": "text_81_node_5",
+      "target": "text_81_node_6",
+      "relation": "before",
+      "support_text": "released from a federal prison in January"
+    },
+    {
+      "source": "text_81_node_6",
+      "target": "text_81_node_7",
+      "relation": "before",
+      "support_text": "executed on June 11, 2001"
+    },
+    {
+      "source": "text_81_node_7",
+      "target": "text_81_node_8",
+      "relation": "before",
+      "support_text": "up from 602 just six years earlier"
+    },
+    {
+      "source": "text_81_node_15",
+      "target": "text_81_node_2",
+      "relation": "before",
+      "support_text": "exactly two years earlier"
+    },
+    {
+      "source": "text_81_node_16",
+      "target": "text_81_node_17",
+      "relation": "before",
+      "support_text": "调查阶段收集证据"
+    }
+  ]
+}

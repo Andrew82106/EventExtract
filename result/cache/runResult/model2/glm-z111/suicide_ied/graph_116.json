@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "text_116_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1985年4月9日黎巴嫩女性Sana Mheidali执行首次已知女性自杀袭击，袭击以色列士兵",
+      "support_text": "Sana'a Mehaidli, a member of the Syrian Social Nationalist Party (SSNP), detonated an explosive-laden vehicle, which killed two Israeli soldiers and injured two more.",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2005年5月起统计显示女性自杀袭击占比2%，造成107人死亡",
+      "support_text": "Women have been responsible for 14 of 667 suicide attacks since May 2005, or 2 percent. They have caused at least 107 deaths, or 5 percent of the 2,065 people killed during this time period.",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2005年11月9日伊拉克女性Sajida al-Rishawi在约旦失败引爆自杀炸弹",
+      "support_text": "Sajida al-Rishawi... tried unsuccessfully to detonate her explosives belt in an Amman, Jordan hotel on Nov. 9. 2005.",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2005年12月7日伊拉克迪亚拉省女性自杀袭击造成15人死亡",
+      "support_text": "On Dec. 7, a woman attacked the offices of a Diyala-based Sunni group fighting al-Qaida in Iraq, killing 15 people and wounding 35.",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2007年6月伊拉克全国伤亡下降55%",
+      "support_text": "even as Iraqi casualties are down by 55 percent nationwide since June 2007, according to an AP count.",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年1月4日MSBC报道指出女性自杀袭击激增",
+      "support_text": "It goes against religious taboos in Iraq to involve women in fighting, but three recent suicide bombings carried out by women could indicate insurgents are growing increasingly desperate.",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_7",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "Lateral",
+      "description": "2008年10月美军在巴格达郊区培训20名女性安保人员",
+      "support_text": "We know it's a tactic that al-Qaida in Iraq is trying to use,",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年11月4日迪亚拉省女性袭击美军造成12人受伤",
+      "support_text": "On Nov. 4, a woman detonated an explosives vest next to a U.S. patrol in Diyala's regional capital, Baqouba, 35 miles northeast of Baghdad, wounding seven U.S. troops and five Iraqis.",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年12月7日迪亚拉省女性袭击逊尼派组织致18人死亡",
+      "support_text": "On Dec. 7, a woman attacked the offices of a Diyala-based Sunni group fighting al-Qaida in Iraq, killing 15 people and wounding 35.",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年12月31日巴古拜市女性袭击警察导致9人受伤",
+      "support_text": "on Dec. 31, a bomber in Baqouba detonated her suicide vest close to a police patrol, wounding five policemen and four civilians.",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_11",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年12月美军逮捕3名涉训女性自杀袭击者",
+      "support_text": "There are no military reports before August indicating suspicion of al-Qaida in Iraq training women attackers. The first known suicide attack by a woman was carried out in Lebanon on April 9, 1985.",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克激进分子将女性纳入战斗参与者",
+      "support_text": "基地组织伊拉克分支开始系统化招募女性作为自杀袭击者",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "美军确认基地组织伊拉克分支女性招募计划",
+      "support_text": "通过情报分析发现基地组织在伊拉克招募女性的系统性证据",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_node_14",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "基地组织伊拉克分支启动女性自杀袭击者培养项目",
+      "support_text": "基地组织伊拉克分支开始针对性招募和培训女性作为自杀袭击者",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_new_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "武装分子迫使美军撤离伊拉克",
+      "support_text": "武装分子迫使美军撤离伊拉克",
+      "source_text": "text_116"
+    },
+    {
+      "id": "text_116_new_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子动摇什叶派",
+      "support_text": "武装分子动摇什叶派",
+      "source_text": "text_116"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_116_node_1",
+      "target": "text_116_node_2",
+      "relation": "before",
+      "support_text": "Since May 2005"
+    },
+    {
+      "source": "text_116_node_2",
+      "target": "text_116_node_3",
+      "relation": "before",
+      "support_text": "On Nov. 9. 2005"
+    },
+    {
+      "source": "text_116_node_3",
+      "target": "text_116_node_4",
+      "relation": "before",
+      "support_text": "On Dec. 7"
+    },
+    {
+      "source": "text_116_node_5",
+      "target": "text_116_node_6",
+      "relation": "before",
+      "support_text": "since June 2007"
+    },
+    {
+      "source": "text_116_node_6",
+      "target": "text_116_node_7",
+      "relation": "before",
+      "support_text": "in October"
+    },
+    {
+      "source": "text_116_node_7",
+      "target": "text_116_node_8",
+      "relation": "before",
+      "support_text": "On Nov. 4"
+    },
+    {
+      "source": "text_116_node_8",
+      "target": "text_116_node_9",
+      "relation": "before",
+      "support_text": "On Dec. 7"
+    },
+    {
+      "source": "text_116_node_9",
+      "target": "text_116_node_10",
+      "relation": "before",
+      "support_text": "on Dec. 31"
+    },
+    {
+      "source": "text_116_node_10",
+      "target": "text_116_node_11",
+      "relation": "before",
+      "support_text": "There are no military reports before August"
+    }
+  ]
+}

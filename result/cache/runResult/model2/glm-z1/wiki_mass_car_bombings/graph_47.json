@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "text_47_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年9月22日， Ryazan公寓楼因炸弹威胁被疏散并拆除，次日联邦安全局称其为模拟训练",
+      "support_text": "where local authorities evacuated an apartment building and defused a bomb, only to be told a day later by national authorities that the bomb was a fake and had been planted by the government as a 'training exercise.'",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "9月同月发生四次恐怖袭击，导致近300人死亡",
+      "support_text": "The Ryazan training exercise came after four previous terrorist attacks that same month left nearly 300 people dead.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "联邦安全局宣布Ryazan事件为模拟训练，引发公众混乱与媒体质疑",
+      "support_text": "The announcement by the Federal Security Services that the Ryazan incident was a training exercise caused confusion and outrage at the time;",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "《Novaya Gazeta》连续三次报道指控联邦当局伪造Ryazan事件，暗示与车臣战争选举有关",
+      "support_text": "some media have since insisted that something darker was going on. Leading that charge has been Novaya Gazeta, an independent twice-weekly newspaper.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年4月8日，国家杜马以133-104票否决向总检察长发送Ryazan事件调查查询",
+      "support_text": "On Friday the Duma voted that proposal down, 133-104.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "《Novaya Gazeta》暗示Boris Berezovsky通过旗下媒体操纵事件，并指控其策划系列爆炸",
+      "support_text": "suggesting that the hand behind the Ryazan incident - and indeed, all of September's apartment blasts - was that of Boris Berezovsky, the Duma deputy who owns major stakes in Kommersant newspaper, ORT television and the Sibneft oil company.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "NTV记者Yevgeny Kiselyov接受BBC采访，质疑联邦安全局涉爆，但未指明具体政客",
+      "support_text": "Kiselyov said he did not believe the Russian special services were behind the bombings, and instead he suggested they could be the work of a wealthy Russian politician. He did not say who.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_8",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地当局几乎抓到Ryazan事件相关责任人",
+      "support_text": "当地当局几乎抓到责任人",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Yury Shchekochikhin 倡导议会向联邦检察官提出关于 Ryazan 事件的问题",
+      "support_text": "副主编倡导议会提出关于雷扎诺事件的问题给联邦检察官",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "Novaya Gazeta 发表评论称议会不愿了解真相",
+      "support_text": "《新报》发表评论称议会不愿了解真相",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Boris Berezovsky 拥有《公报》报业、《俄罗斯电视》和西伯利亚石油公司的主要股份",
+      "support_text": "Boris Berezovsky 拥有《公报》报业、《俄罗斯电视》和西伯利亚石油公司的主要股份",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "基斯耶洛夫通过采访表示",
+      "support_text": "基斯耶洛夫表示",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "基斯耶洛夫质疑联邦安全局涉爆",
+      "support_text": "基斯耶洛夫不相信俄罗斯特别部门",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "基斯耶洛夫未指明具体政客",
+      "support_text": "基斯耶洛夫未说明是谁",
+      "source_text": "text_47"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_47_node_1",
+      "target": "text_47_node_3",
+      "relation": "before",
+      "support_text": "only to be told a day later by national authorities that the bomb was a fake..."
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_1",
+      "relation": "before",
+      "support_text": "The Ryazan training exercise came after four previous terrorist attacks that same month left nearly 300 people dead."
+    },
+    {
+      "source": "text_47_node_3",
+      "target": "text_47_node_4",
+      "relation": "before",
+      "support_text": "caused confusion and outrage at the time; and some media have since insisted that something darker was going on."
+    },
+    {
+      "source": "text_47_node_4",
+      "target": "text_47_node_6",
+      "relation": "before",
+      "support_text": "The newspaper has in three separate reports suggested that the bomb in Ryazan was real; that it was planted by the federal authorities..."
+    },
+    {
+      "source": "text_47_node_4",
+      "target": "text_47_node_10",
+      "relation": "before",
+      "support_text": "Novaya Gazeta 三次报道后发表评论"
+    },
+    {
+      "source": "text_47_node_5",
+      "target": "text_47_node_1",
+      "relation": "before",
+      "support_text": "The Moscow Times Tuesday, Apr. 4, 2000. Duma Vote Kills Query On Ryazan"
+    },
+    {
+      "source": "text_47_node_5",
+      "target": "text_47_node_8",
+      "relation": "before",
+      "support_text": "Duma投票否决调查后，当地当局几乎抓到责任人"
+    },
+    {
+      "source": "text_47_node_5",
+      "target": "text_47_node_9",
+      "relation": "before",
+      "support_text": "Duma投票否决调查后，Yury Shchekochikhin 倡导议会提出问题"
+    },
+    {
+      "source": "text_47_node_6",
+      "target": "text_47_node_7",
+      "relation": "before",
+      "support_text": "This weekend the BBC aired an interview with NTV's Yevgeny Kiselyov."
+    },
+    {
+      "source": "text_47_node_6",
+      "target": "text_47_node_12",
+      "relation": "before",
+      "support_text": "基斯耶洛夫在Boris Berezovsky相关报道后发表声明"
+    },
+    {
+      "source": "text_47_node_6",
+      "target": "text_47_node_13",
+      "relation": "before",
+      "support_text": "基斯耶洛夫在Boris Berezovsky相关报道后质疑联邦安全局"
+    },
+    {
+      "source": "text_47_node_6",
+      "target": "text_47_node_14",
+      "relation": "before",
+      "support_text": "基斯耶洛夫在Boris Berezovsky相关报道后未指明具体政客"
+    }
+  ]
+}

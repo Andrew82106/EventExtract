@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "text_154_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "钱明奇因房屋被强拆导致200万损失，十年维权未果后产生极端想法",
+      "support_text": "the trail of internet activity he has left behind tells of a man who has been actively trying to seek redress for the loss of his property which he says was illegally demolished by authorities, causing him to lose over RMB2 million",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "钱明奇通过自学互联网，在新浪微博等平台创建多个账号，持续发布维权内容",
+      "support_text": "Teaching himself how to use the internet, Qian also created multiple profiles on other microblog platforms, following lawyers, reporters, human rights defenders, academics, police departments and anyone else he thought might be able to help him",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "钱明奇微博发布2018年5月25日预告性帖子，称将在江西制造'爆炸新闻'并指控习东森",
+      "support_text": "In a recent posting (see right) timed May 25 just past midnight, he told his followers to be on the lookout for 'explosive news' that was going to happen soon in Jiangxi",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年3月17日钱明奇在抚州市政府建筑连续实施三起爆炸，致2死10伤",
+      "support_text": "The explosions took place one after the other between 9:18 a.m. and 9:45 a.m. — the first at the carpark of the prosecutors’ office, the second inside an administration building and the third near a food and drug administration office",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "钱明奇微博单日新增2.5万关注，网友悼念其并质疑平台删除其历史内容",
+      "support_text": "His profile on Sina Weibo alone attracted over 25,000 followers overnight. Many have pored through his postings in an attempt to look into what went through his mind in the last few months",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_6",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "疑似前警察'鹰公子'因维权无果发表遗言式微博，后经妻子劝阻未实施自杀",
+      "support_text": "netizens on Weibo wondered aloud if a former policeman @羽蓝公子 would become a Qian Mingqi-copycat when he sent an open tweet to his lawyers that appeared to contain his last words",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "更多细节被揭示",
+      "support_text": "the trail of internet activity he has left behind tells of a man who has been actively trying to seek redress for the loss of his property which he says was illegally demolished by authorities, causing him to lose over RMB2 million",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_new_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "钱明奇在社交媒体简介中描述个人经历",
+      "support_text": "Qian在简介中描述自己",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_new_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Qian关注专业人士以寻求帮助",
+      "support_text": "关注可能帮助他的专业人士",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_new_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "钱明奇通过社交媒体发布事件原因陈述",
+      "support_text": "Qian在帖子中陈述事件原因",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_new_node_11",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "钱明奇恳求公众分享帖子以伸张正义",
+      "support_text": "Qian恳求公众分享帖子以伸张正义",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_new_node_12",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "自焚事件发生在福州（Yihuang县）",
+      "support_text": "自焚事件发生在福州（Yihuang县）",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_new_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "Qian通过微博与Zhong家庭建立联系",
+      "support_text": "Qian通过微博与Zhong家庭建立联系",
+      "source_text": "text_154"
+    },
+    {
+      "id": "text_154_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Qian因目睹不公加剧了绝望感",
+      "support_text": "Qian因目睹不公加剧了绝望感",
+      "source_text": "text_154"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_154_node_1",
+      "target": "text_154_new_node_9",
+      "relation": "before",
+      "support_text": "被迫维权后开始关注专业人士"
+    },
+    {
+      "source": "text_154_node_1",
+      "target": "text_154_new_node_13",
+      "relation": "before",
+      "support_text": "维权未果后通过微博与Zhong家庭建立联系"
+    },
+    {
+      "source": "text_154_node_2",
+      "target": "text_154_node_3",
+      "relation": "before",
+      "support_text": "Teaching himself how to use the internet, Qian also created multiple profiles on other microblog platforms..."
+    },
+    {
+      "source": "text_154_node_3",
+      "target": "text_154_node_4",
+      "relation": "before",
+      "support_text": "In a recent posting (see right) timed May 25 just past midnight, he told his followers to be on the lookout for 'explosive news' that was going to happen soon in Jiangxi"
+    },
+    {
+      "source": "text_154_node_3",
+      "target": "text_154_new_node_10",
+      "relation": "before",
+      "support_text": "在预告爆炸新闻后发布事件原因陈述"
+    },
+    {
+      "source": "text_154_node_4",
+      "target": "text_154_node_5",
+      "relation": "before",
+      "support_text": "The explosions took place one after the other between 9:18 a.m. and 9:45 a.m."
+    },
+    {
+      "source": "text_154_node_4",
+      "target": "text_154_node_6",
+      "relation": "before",
+      "support_text": "netizens on Weibo wondered aloud if a former policeman @羽蓝公子 would become a Qian Mingqi-copycat when he sent an open tweet to his lawyers that appeared to contain his last words"
+    },
+    {
+      "source": "text_154_new_node_8",
+      "target": "text_154_node_2",
+      "relation": "before",
+      "support_text": "在创建社交媒体账号前进行自我描述"
+    },
+    {
+      "source": "text_154_new_node_10",
+      "target": "text_154_new_node_11",
+      "relation": "before",
+      "support_text": "在陈述原因后发出分享请求"
+    },
+    {
+      "source": "text_154_new_node_13",
+      "target": "text_154_new_node_14",
+      "relation": "before",
+      "support_text": "建立联系后因目睹不公加剧绝望感"
+    },
+    {
+      "source": "text_154_new_node_14",
+      "target": "text_154_node_3",
+      "relation": "before",
+      "support_text": "绝望感加剧后发布爆炸预告"
+    }
+  ]
+}

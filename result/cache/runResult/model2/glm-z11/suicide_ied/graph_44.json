@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "text_44_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2003年11月伊斯坦布尔英国领事馆遭汽车炸弹袭击，导致领事Roger Short及2名平民死亡",
+      "support_text": "Roger Short, the consul general in Istanbul, was killed in the attack on the Charles Barry-designed Italianate Palace in the heart of Istanbul in November 2003.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "al-Qaeda关联组织宣称对袭击负责，但存在其无法获取爆炸物及规避安保的质疑",
+      "support_text": "Although an al-Qaeda linked group claimed responsibility for the attack at the time, there have always been questions over its ability to source bomb making materials and evade security controls in a country with a powerful security force.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "军方策划的'Operation Sledgehammer'行动在爆炸案8个月前启动，旨在颠覆政府并引发军事政变",
+      "support_text": "Investigators claim the bombings were part of 'Operation Sledgehammer' which had been formulated by senior military figures eight months earlier to destabilise Turkey and trigger a military intervention to overthrow the government.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "35名前军方高层因涉嫌参与该行动被捕，包括原陆军、海军及土耳其第1军指挥官",
+      "support_text": "Prosecutors have arrested 35 ex-military figures in recent weeks on suspicion of being part of the plot which is also said to have involved plans to provoke Greece into shooting down a Turkish fighter jet.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "DNA检测确认领事馆袭击车辆驾驶者为曾参与犹太教堂袭击的激进分子Feridun Ugurlu",
+      "support_text": "DNA tests proved that the driver of the vehicle used to blow up the consulate was Feridun Ugurlu, a militant who had previously been named as an accomplice in the synagogue attacks.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其政府以参与袭击罪起诉69人，指控其策划领事馆、汇丰银行及犹太教堂连环爆炸",
+      "support_text": "Turkey put 69 people on trial after the attacks on charges of carrying out the car bombings.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "埃尔多安政府宣布推动1982年军政府宪法改革，削弱军方对司法系统的控制权",
+      "support_text": "Mr Erdogan yesterday announced he was planning to introduce sweeping changes to the military-imposed constitution from 1982.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国外交部重申不要求重启2003年袭击调查，认可原调查结论",
+      "support_text": "The UK was content with both the conduct and the outcome of the investigation into the 2003 bombing of the British Consulate and HSBC building in Istanbul.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "男子策划与基地组织合作",
+      "support_text": "语义描述：男子策划与基地组织合作",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "希腊击落土耳其战机",
+      "support_text": "语义描述：希腊击落土耳其战机",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "教士表示报告内容",
+      "support_text": "语义描述：教士表示报告内容",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "报告揭示阴谋者的残暴性",
+      "support_text": "语义描述：报告揭示阴谋者的残暴性",
+      "source_text": "text_44"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_44_node_1",
+      "target": "text_44_node_2",
+      "relation": "before",
+      "support_text": "Although an al-Qaeda linked group claimed responsibility for the attack at the time"
+    },
+    {
+      "source": "text_44_node_1",
+      "target": "text_44_node_5",
+      "relation": "before",
+      "support_text": "DNA tests proved that the driver of the vehicle used to blow up the consulate was Feridun Ugurlu"
+    },
+    {
+      "source": "text_44_node_1",
+      "target": "text_44_node_6",
+      "relation": "before",
+      "support_text": "Turkey put 69 people on trial after the attacks on charges of carrying out the car bombings"
+    },
+    {
+      "source": "text_44_node_1",
+      "target": "text_44_node_11",
+      "relation": "before",
+      "support_text": "事件发生顺序：袭击事件先于教士表态"
+    },
+    {
+      "source": "text_44_node_3",
+      "target": "text_44_node_1",
+      "relation": "before",
+      "support_text": "which had been formulated by senior military figures eight months earlier"
+    },
+    {
+      "source": "text_44_node_3",
+      "target": "text_44_node_4",
+      "relation": "before",
+      "support_text": "which had been formulated by senior military figures eight months earlier"
+    },
+    {
+      "source": "text_44_node_4",
+      "target": "text_44_node_6",
+      "relation": "before",
+      "support_text": "Prosecutors have arrested 35 ex-military figures in recent weeks on suspicion of being part of the plot"
+    },
+    {
+      "source": "text_44_node_4",
+      "target": "text_44_node_10",
+      "relation": "before",
+      "support_text": "Prosecutors have arrested 35 ex-military figures on suspicion of being part of the plot which involved plans to provoke Greece into shooting down a Turkish fighter jet."
+    },
+    {
+      "source": "text_44_node_5",
+      "target": "text_44_node_12",
+      "relation": "before",
+      "support_text": "DNA检测结果支持报告揭示阴谋者残暴性"
+    },
+    {
+      "source": "text_44_node_6",
+      "target": "text_44_node_7",
+      "relation": "before",
+      "support_text": "Turkey put 69 people on trial after the attacks on charges of carrying out the car bombings"
+    },
+    {
+      "source": "text_44_node_7",
+      "target": "text_44_node_8",
+      "relation": "before",
+      "support_text": "Mr Erdogan yesterday announced he was planning to introduce sweeping changes to the military-imposed constitution from 1982"
+    },
+    {
+      "source": "text_44_node_9",
+      "target": "text_44_node_2",
+      "relation": "before",
+      "support_text": "语义描述中未明确时间关系，但根据temporal_order=1推测应早于node_2"
+    }
+  ]
+}

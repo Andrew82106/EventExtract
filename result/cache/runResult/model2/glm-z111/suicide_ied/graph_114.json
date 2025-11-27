@@ -1,0 +1,375 @@
+{
+  "nodes": [
+    {
+      "id": "text_114_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年8月，美国启动Operation Inherent Resolve反恐行动",
+      "support_text": "the U.S.-led effort begun in 2014 to combat Islamic State terrorists in Iraq and Syria.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年4月，美国士兵在叙利亚参与反恐行动期间死亡",
+      "support_text": "Since 2016, four U.S. troops had been killed in Syria before the latest attack.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年3月，美国士兵在叙利亚参与反恐行动期间死亡",
+      "support_text": "Since 2016, four U.S. troops had been killed in Syria before the latest attack.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年10月，美国士兵在叙利亚参与反恐行动期间死亡",
+      "support_text": "Since 2016, four U.S. troops had been killed in Syria before the latest attack.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年9月，特朗普宣布击败伊斯兰国",
+      "support_text": "less than a month after President Donald Trump declared victory over Islamic State militants in the region.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2023年10月，特朗普宣布从叙利亚撤出2,000名美军",
+      "support_text": "Trump announced that the 2,000 U.S. troops in Syria would be withdrawn.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年10月15日，伊斯兰国宣称的自杀式爆炸在叙利亚曼比季市场发生",
+      "support_text": "A suicide bomber triggered a fiery explosion Wednesday that killed four U.S. citizens at a market in northern Syria...",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_8",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸造成16人死亡，包括2名美军士兵、2名平民及叙利亚民主力量成员",
+      "support_text": "a total of 16 people were killed in the midday explosion, including fighters with Syrian Democratic Forces.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军中央司令部确认爆炸与伊斯兰国有关",
+      "support_text": "the military's Operation Inherent Resolve said in a statement.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚人权观察组确认爆炸为自杀式袭击且伤亡达16人",
+      "support_text": "The Syrian Observatory for Human Rights... said the cause of the explosion was a suicide bomb outside a restaurant.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "白宫宣布已向特朗普通报事件，并慰问受害者家属",
+      "support_text": "The White House said Trump was fully briefed on the situation.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "特朗普重申‘伊斯兰国已失败’的言论",
+      "support_text": "Vice President Mike Pence repeated Trump's claims about the Islamic State.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国国防部确认1名平民为雇员，1名为承包商",
+      "support_text": "U.S. Central Command said one of the civilians was employed by the Defense Department.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军在爆炸现场发现袭击者伪装成平民的爆炸装置",
+      "support_text": "A senior Kurdish security official told NBC News the U.S. forces were on foot... a man wearing civilian clothing that covered the hidden explosives.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "特朗普团队因撤军时间表存在分歧多次调整计划",
+      "support_text": "a messy plan for U.S. withdrawal, a decision Trump's senior advisers disagreed with before offering an evolving timetable",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "参议员格莱姆公开反对特朗普的叙利亚撤军计划",
+      "support_text": "Sen. Lindsey Graham... called on the president to rethink his plans.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "美军装备从叙利亚撤出，撤军进入实施阶段",
+      "support_text": "officials announced last week that equipment had been removed from U.S. facilities in Syria.",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_18",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年10月15日，爆炸导致四名美国公民死亡",
+      "support_text": "a total of 16 people were killed in the midday explosion, including four U.S. citizens",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "军事官员报告死亡情况",
+      "support_text": "military officials reported the death toll",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "五角大楼声明强调伊斯兰国仍是致命威胁",
+      "support_text": "轰炸事件强调了五角大楼关于伊斯兰国仍是致命威胁的声明",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_21",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Operation Inherent Resolve 宣布伤亡情况",
+      "support_text": "Operation Inherent Resolve 宣布了伤亡情况",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_22",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016-2023年间叙利亚民主力量部队与美国士兵协同作战事件",
+      "support_text": "语义描述内容",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_23",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年10月15日叙利亚民主力量部队与伊斯兰国交火事件",
+      "support_text": "语义描述内容",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Vice President Mike Pence表示哈里发国已崩溃且极端组织已被击败",
+      "support_text": "副总统表示哈里发国已崩溃且极端组织已被击败",
+      "source_text": "text_114"
+    },
+    {
+      "id": "text_114_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈里发国已崩溃",
+      "support_text": "哈里发国已崩溃",
+      "source_text": "text_114"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_114_node_1",
+      "target": "text_114_node_5",
+      "relation": "before",
+      "support_text": "the U.S.-led effort begun in 2014 to combat Islamic State terrorists in Iraq and Syria."
+    },
+    {
+      "source": "text_114_node_2",
+      "target": "text_114_node_7",
+      "relation": "before",
+      "support_text": "Since 2016, four U.S. troops had been killed in Syria before the latest attack"
+    },
+    {
+      "source": "text_114_node_3",
+      "target": "text_114_node_7",
+      "relation": "before",
+      "support_text": "Since 2016, four U.S. troops had been killed in Syria before the latest attack"
+    },
+    {
+      "source": "text_114_node_4",
+      "target": "text_114_node_7",
+      "relation": "before",
+      "support_text": "Since 2016, four U.S. troops had been killed in Syria before the latest attack"
+    },
+    {
+      "source": "text_114_node_5",
+      "target": "text_114_node_6",
+      "relation": "before",
+      "support_text": "less than a month after President Donald Trump declared victory over Islamic State militants in the region."
+    },
+    {
+      "source": "text_114_node_5",
+      "target": "text_114_node_24",
+      "relation": "before",
+      "support_text": "在特朗普宣布击败伊斯兰国后"
+    },
+    {
+      "source": "text_114_node_6",
+      "target": "text_114_node_7",
+      "relation": "before",
+      "support_text": "Trump announced that the 2,000 U.S. troops in Syria would be withdrawn."
+    },
+    {
+      "source": "text_114_node_6",
+      "target": "text_114_node_17",
+      "relation": "before",
+      "support_text": "officials announced last week that equipment had been removed"
+    },
+    {
+      "source": "text_114_node_6",
+      "target": "text_114_node_16",
+      "relation": "before",
+      "support_text": "Sen. Lindsey Graham... called on the president to rethink his plans"
+    },
+    {
+      "source": "text_114_node_7",
+      "target": "text_114_node_8",
+      "relation": "before",
+      "support_text": "a total of 16 people were killed in the midday explosion"
+    },
+    {
+      "source": "text_114_node_7",
+      "target": "text_114_node_9",
+      "relation": "before",
+      "support_text": "the military's Operation Inherent Resolve said in a statement"
+    },
+    {
+      "source": "text_114_node_7",
+      "target": "text_114_node_10",
+      "relation": "before",
+      "support_text": "The Syrian Observatory for Human Rights... said the cause of the explosion"
+    },
+    {
+      "source": "text_114_node_7",
+      "target": "text_114_node_12",
+      "relation": "before",
+      "support_text": "Vice President Mike Pence repeated Trump's claims about the Islamic State"
+    },
+    {
+      "source": "text_114_node_7",
+      "target": "text_114_node_14",
+      "relation": "before",
+      "support_text": "A senior Kurdish security official told NBC News the U.S. forces were on foot"
+    },
+    {
+      "source": "text_114_node_7",
+      "target": "text_114_node_18",
+      "relation": "before",
+      "support_text": "爆炸导致四名美国公民死亡"
+    },
+    {
+      "source": "text_114_node_14",
+      "target": "text_114_node_11",
+      "relation": "before",
+      "support_text": "库尔德安全高官向NBC News报告后，白宫向特朗普汇报事件"
+    },
+    {
+      "source": "text_114_node_15",
+      "target": "text_114_node_6",
+      "relation": "before",
+      "support_text": "a messy plan for U.S. withdrawal, a decision Trump's senior advisers disagreed with before offering an evolving timetable"
+    },
+    {
+      "source": "text_114_node_18",
+      "target": "text_114_node_19",
+      "relation": "before",
+      "support_text": "军事官员报告死亡情况"
+    },
+    {
+      "source": "text_114_node_20",
+      "target": "text_114_node_7",
+      "relation": "before",
+      "support_text": "轰炸事件发生在爆炸前"
+    },
+    {
+      "source": "text_114_node_21",
+      "target": "text_114_node_7",
+      "relation": "before",
+      "support_text": "伤亡声明发布于爆炸前"
+    },
+    {
+      "source": "text_114_node_22",
+      "target": "text_114_node_7",
+      "relation": "before",
+      "support_text": "协同作战事件发生在自杀式爆炸事件之前"
+    },
+    {
+      "source": "text_114_node_23",
+      "target": "text_114_node_7",
+      "relation": "before",
+      "support_text": "交火事件发生在自杀式爆炸事件之前"
+    },
+    {
+      "source": "text_114_node_24",
+      "target": "text_114_node_7",
+      "relation": "before",
+      "support_text": "在爆炸事件前"
+    },
+    {
+      "source": "text_114_node_25",
+      "target": "text_114_node_24",
+      "relation": "before",
+      "support_text": "哈里发国崩溃是后续声明的基础"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年6月28日，ISIS成员在伊斯坦布尔阿塔图尔克国际机场发动自杀式袭击，造成44人死亡",
+      "support_text": "Three terrorists armed with bombs and guns attacked the main international terminal, opening fire and eventually detonating their devices.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其官员证实ISIS高层参与袭击策划，3名来自俄罗斯、乌兹别克斯坦和吉尔吉斯斯坦的袭击者1个月前从叙利亚拉卡进入土耳其",
+      "support_text": "Turkish officials have strong evidence that ISIS leadership was involved in the planning of the Istanbul airport terrorist attack, a senior government source told CNN on Thursday.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯坦布尔法蒂赫区一处公寓内发现嫌疑人护照，警方通过监控视频锁定3名嫌疑人特征",
+      "support_text": "Police showed residents of Fatih this image of three suspects. Among the pictures was a screen grab from surveillance video at the airport that shows three men wearing thick jackets and carrying bags.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "机场袭击采用'inghimasi'战术：先开枪扫射再引爆炸弹，两枚炸弹分别位于国际航站楼和安检口",
+      "support_text": "The tactic -- to enter shooting, and then detonate explosives -- is called 'inghimasi'.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "6月29日死亡 toll 更新：3岁巴勒斯坦男孩因伤势过重死亡，土耳其国内新增1名遇难者",
+      "support_text": "The death toll rose to 44 when a 3-year-old Palestinian boy hurt in the attack died.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "吉尔吉斯斯坦外交部否认袭击者国籍指控，称土耳其官方正在核实身份",
+      "support_text": "Kyrgyzstan's foreign ministry disputed reports that one of the attackers was from that country.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "6月29日伊斯坦布尔和伊兹密尔共拘留22名关联人员，其中3人为外国人",
+      "support_text": "JUST WATCHED Anatomy of an explosion Replay More Videos ... MUST WATCH Anatomy of an explosion 01:11 Thirteen were taken into custody in Istanbul and nine in the coastal city of Izmir, the official said.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "CNN分析师指出：袭击者来自前苏联国家，ISIS境内有2,000-7,000名俄语系战斗人员",
+      "support_text": "Estimates of Russian fighters involved with ISIS range from 2,000 to 7,000.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯坦布尔机场成为今年土耳其第8起自杀式袭击目标，累计死亡人数达140人",
+      "support_text": "The airport attack marked the eighth suicide bombing in Turkey this year.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其因打击ISIS和PKK导致旅游业受创，2016年游客量约3.94亿人次",
+      "support_text": "The violence has also rattled Turkey's tourism industry, a key sector of the national economy. About 39.4 million people visit each year.",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bekir Yar Emlak owner向警方透露照片显示曾住在公寓的男子可能是嫌疑人",
+      "support_text": "男子向警方透露照片显示曾住在公寓的男子可能是嫌疑人",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "One man陈述自己震惊的消息",
+      "support_text": "男子陈述自己震惊的消息",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_13",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "Mustafa Elsan陈述被展示攻击者图片",
+      "support_text": "埃尔桑陈述被展示攻击者图片",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Mustafa Elsan观察到吸烟者",
+      "support_text": "埃尔桑观察到吸烟者",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "其他邻居询问是否漏气",
+      "support_text": "其他邻居询问是否漏气",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "国家媒体披露被拘留者中包含3名外国人",
+      "support_text": "state media disclosed that three foreign nationals were among those taken into custody",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_2",
+      "relation": "before",
+      "support_text": "Turkish officials have strong evidence that ISIS leadership was involved in the planning of the Istanbul airport terrorist attack, a senior government source told CNN on Thursday."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "The death toll rose to 44 when a 3-year-old Palestinian boy hurt in the attack died."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_9",
+      "relation": "before",
+      "support_text": "The airport attack marked the eighth suicide bombing in Turkey this year."
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_10",
+      "relation": "before",
+      "support_text": "The violence has also rattled Turkey's tourism industry, a key sector of the national economy. About 39.4 million people visit each year."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "Police showed residents of Fatih this image of three suspects."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "Kyrgyzstan's foreign ministry disputed reports that one of the attackers was from that country."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_7",
+      "relation": "before",
+      "support_text": "JUST WATCHED Anatomy of an explosion Replay More Videos ... MUST WATCH Anatomy of an explosion 01:11 Thirteen were taken into custody in Istanbul and nine in the coastal city of Izmir, the official said."
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_8",
+      "relation": "before",
+      "support_text": "Estimates of Russian fighters involved with ISIS range from 2,000 to 7,000."
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "The tactic -- to enter shooting, and then detonate explosives -- is called 'inghimasi'."
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_8",
+      "relation": "before",
+      "support_text": "CNN分析师指出：袭击者来自前苏联国家，ISIS境内有2,000-7,000名俄语系战斗人员"
+    },
+    {
+      "source": "text_2_node_7",
+      "target": "text_2_node_16",
+      "relation": "before",
+      "support_text": "媒体披露基于警方拘留行动的后续信息"
+    }
+  ]
+}

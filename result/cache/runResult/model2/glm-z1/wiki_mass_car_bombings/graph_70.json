@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "text_70_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1982年11月11日，黎巴嫩提尔以色列总部遭自杀式汽车炸弹袭击，造成75名以色列士兵及14-27名囚犯死亡，以色列政府坚称是事故，但有证据显示为Hezbollah所为",
+      "support_text": "On November 11, 1982, a Peugeot car packed with explosives struck the seven-story building being used by the Israeli military to govern Tyre.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年11月4日，提尔以色列军基地Shin Bet大楼遭自杀式皮卡炸弹袭击，导致28名以色列人和32名囚犯死亡，以色列归咎于Hezbollah",
+      "support_text": "On November 4, 1983, a suicide bomber drove a pickup truck filled with explosives into a Shin Bet building at an army base in Tyre.",
+      "source_text": "text_70"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_2",
+      "relation": "before",
+      "support_text": "Almost a year later, a nearly identical bombing happened in Tyre."
+    }
+  ]
+}

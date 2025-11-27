@@ -1,0 +1,249 @@
+{
+  "nodes": [
+    {
+      "id": "text_167_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Daallo Airlines航班在摩加迪沙机场起飞后发生爆炸和火灾，机舱出现大洞",
+      "support_text": "An explosion and fire blew a gaping hole in a commercial airliner, forcing it to make an emergency landing at Mogadishu's international airport late Tuesday...",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "飞行员确认听到爆炸声并判断为炸弹袭击",
+      "support_text": "The pilot said he thought it was a bomb. An aviation expert... said the damage was consistent with an explosive device.",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "航空安全专家通过机舱损伤照片分析爆炸装置可能性",
+      "support_text": "Goglia said there are only two things that could have caused a hole... a bomb or a pressurization blowout...",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "15英里外发现15英里外坠落的严重烧伤老人遗体",
+      "support_text": "Eyewitnesses claim the badly burned body of an elderly man fell to earth about 15 miles away...",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "机组人员安全降落并开始紧急撤离74名乘客和机组",
+      "support_text": "74 passengers and crew of the plane were evacuated after the plane made a safe landing...",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "摩加迪沙航空官员确认两人轻微受伤但未确认全员安全",
+      "support_text": "Somali aviation official Ali Mohamoud said two people were slightly injured as 74 passengers and crew... were evacuated...",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "塞尔维亚飞行员详细描述驾驶舱失压但成功返航",
+      "support_text": "Vodopivec said... the flight controls were not damaged so I could return and land at the airport...",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国驻索马里副大使在社交媒体记录机舱内爆炸和结构损毁",
+      "support_text": "Awale Kullane... wrote 'heard a loud noise and couldn't see anything but smoke for a few seconds.'",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "前美国国家运输安全委员会专家分析黑烟和机舱剥离痕迹",
+      "support_text": "Goglia said the photos appear to show black soot around the aircraft skin that is peeled back...",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "乘客目击爆炸后机舱出现火舌和氧气面罩启动",
+      "support_text": "Passengers also posted a video showing some passengers putting on oxygen masks inside the plane.",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "乘客拍摄视频记录紧急撤离过程和机舱内部情况",
+      "support_text": "Passengers also posted a video showing some passengers putting on oxygen masks inside the plane.",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_12",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "飞行控制系统被爆炸和火灾严重损坏",
+      "support_text": "An explosion and fire blew a gaping hole in a commercial airliner, forcing it to make an emergency landing...",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "紧急事件安全结束并完成全员撤离",
+      "support_text": "74 passengers and crew of the plane were evacuated after the plane made a safe landing...",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_node_14",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "两种可能原因（bomb/pressurization blowout）导致飞机孔洞形成",
+      "support_text": "Goglia said there are only two things that could have caused a hole... a bomb or a pressurization blowout...",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_new_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Mohamed Ali向美联社讲述爆炸事件",
+      "support_text": "Mohamed Ali向美联社讲述爆炸事件",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_new_node_16",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "乘客从飞机跌落",
+      "support_text": "乘客从飞机跌落",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_new_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mohamed Ali确认乘客跌落报告",
+      "support_text": "Mohamed Ali确认乘客跌落报告",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_new_node_18",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "乘客发布视频",
+      "support_text": "乘客发布视频",
+      "source_text": "text_167"
+    },
+    {
+      "id": "text_167_new_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "视频展示乘客佩戴氧气面罩",
+      "support_text": "视频展示乘客佩戴氧气面罩",
+      "source_text": "text_167"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_167_node_1",
+      "target": "text_167_node_5",
+      "relation": "before",
+      "support_text": "74 passengers and crew of the plane were evacuated after the plane made a safe landing"
+    },
+    {
+      "source": "text_167_node_1",
+      "target": "text_167_node_7",
+      "relation": "before",
+      "support_text": "Vodopivec said... the flight controls were not damaged so I could return and land at the airport"
+    },
+    {
+      "source": "text_167_node_1",
+      "target": "text_167_node_10",
+      "relation": "before",
+      "support_text": "Mohamed Ali said they heard a bang before flames opened a gaping hole"
+    },
+    {
+      "source": "text_167_node_1",
+      "target": "text_167_node_8",
+      "relation": "before",
+      "support_text": "Kullane... wrote 'heard a loud noise and couldn't see anything but smoke for a few seconds.'"
+    },
+    {
+      "source": "text_167_node_1",
+      "target": "text_167_node_9",
+      "relation": "before",
+      "support_text": "Goglia said the photos appear to show black soot around the aircraft skin..."
+    },
+    {
+      "source": "text_167_node_1",
+      "target": "text_167_node_12",
+      "relation": "before",
+      "support_text": "爆炸和火灾导致飞行控制系统损坏"
+    },
+    {
+      "source": "text_167_node_1",
+      "target": "text_167_node_14",
+      "relation": "before",
+      "support_text": "两种可能原因导致飞机孔洞形成"
+    },
+    {
+      "source": "text_167_node_2",
+      "target": "text_167_node_3",
+      "relation": "before",
+      "support_text": "An aviation expert... said the damage was consistent with an explosive device"
+    },
+    {
+      "source": "text_167_node_5",
+      "target": "text_167_node_6",
+      "relation": "before",
+      "support_text": "Ali Mohamoud said two people were slightly injured as 74 passengers and crew... were evacuated"
+    },
+    {
+      "source": "text_167_node_5",
+      "target": "text_167_node_13",
+      "relation": "before",
+      "support_text": "紧急撤离完成后事件正式结束"
+    },
+    {
+      "source": "text_167_node_7",
+      "target": "text_167_node_10",
+      "relation": "before",
+      "support_text": "Vodopivec said... flames opened a gaping hole in the plane's side"
+    },
+    {
+      "source": "text_167_node_8",
+      "target": "text_167_node_11",
+      "relation": "before",
+      "support_text": "Passengers also posted a video showing some passengers putting on oxygen masks inside the plane"
+    }
+  ]
+}

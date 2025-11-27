@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "text_166_node_1",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "克罗地亚国防军（HVO）在波黑战争末期逮捕并引渡至埃及的Talaat Fouad Qasim，其系al-Gama'a al-Islamiyya重要成员",
+      "support_text": "In the last days of the Bosnian War, the Croatian Defense Council (HVO)...Croatia. Because of that and because Croatia had de facto controlled the Croatian Defence Council...",
+      "source_text": "text_166"
+    },
+    {
+      "id": "text_166_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "克罗地亚因控制HVO并协助引渡Qasim，决定实施恐怖袭击",
+      "support_text": "Because of that and because Croatia had de facto controlled the Croatian Defence Council...a decision was made to commit a terrorist attack in Croatia.",
+      "source_text": "text_166"
+    },
+    {
+      "id": "text_166_node_3",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年10月20日11:21 CEPT，载有TNT的Fiat 131 Mirafiori冲撞里耶卡警察局停车场墙壁",
+      "support_text": "At 11:21 a.m. Central European Time, a Fiat 131 Mirafiori entered the parking lot...the wall at the end of the parking lot.",
+      "source_text": "text_166"
+    },
+    {
+      "id": "text_166_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "车辆因倒车困难加速冲撞警察局楼梯，11:22当地时间（10:22 UTC）爆炸",
+      "support_text": "Due to the 90-degree turn needed to enter the lot, the vehicle moved slowly...the stairs leading to the police station and exploded.",
+      "source_text": "text_166"
+    },
+    {
+      "id": "text_166_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方调查发现车体含高爆炸药TNT，并提取加拿大护照残片",
+      "support_text": "The police investigation found out the car was loaded with highly-explosive TNT. The police also found a part of a Canadian passport inside the remains...",
+      "source_text": "text_166"
+    },
+    {
+      "id": "text_166_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "al-Gama'a al-Islamiyya次日宣称对袭击负责，要求引渡Qasim",
+      "support_text": "The next day, representatives of the al-Gama'a al-Islamiyya terrorist organization...requesting extradition of Qasim.",
+      "source_text": "text_166"
+    },
+    {
+      "id": "text_166_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击未造成其他死亡，因车辆动力不足未能摧毁警察局墙体",
+      "support_text": "The other apparent miscalculation involved the size of the parking lot...only 29 injuries were recorded (including two unaware bystanders).",
+      "source_text": "text_166"
+    },
+    {
+      "id": "text_166_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致地面形成大型坑洞，损毁周边建筑及车辆",
+      "support_text": "The bomb also carved a large crater in the ground, battering nearby buildings and destroying vehicles.",
+      "source_text": "text_166"
+    },
+    {
+      "id": "text_166_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美克联合调查确认Hassan al-Sharif Mahmud Saad为袭击策划者，其此前在意大利居住",
+      "support_text": "With the help of the CIA, officials examined the video footage...Hassan al-Sharif Mahmud Saad had organized this attack.",
+      "source_text": "text_166"
+    },
+    {
+      "id": "text_166_node_10",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Saad计划12月对北约发动袭击，但袭击未遂后3天在波黑被克罗地亚国防军击毙",
+      "support_text": "Saad was planning a new terrorist attack...he was killed in central Bosnia in a firefight with Croatian Defense Council forces.",
+      "source_text": "text_166"
+    },
+    {
+      "id": "text_166_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Saad当年搬到 bosnia",
+      "support_text": "Saad当年搬到 bosnia",
+      "source_text": "text_166"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_166_node_1",
+      "target": "text_166_node_2",
+      "relation": "before",
+      "support_text": "Because of that and because Croatia had de facto controlled the Croatian Defence Council...a decision was made to commit a terrorist attack in Croatia."
+    },
+    {
+      "source": "text_166_node_2",
+      "target": "text_166_node_3",
+      "relation": "before",
+      "support_text": "Because of that and because Croatia had de facto controlled the Croatian Defence Council...a decision was made to commit a terrorist attack in Croatia."
+    },
+    {
+      "source": "text_166_node_3",
+      "target": "text_166_node_4",
+      "relation": "before",
+      "support_text": "Due to the 90-degree turn needed to enter the lot, the vehicle moved slowly...the stairs leading to the police station and exploded."
+    },
+    {
+      "source": "text_166_node_4",
+      "target": "text_166_node_5",
+      "relation": "before",
+      "support_text": "The police investigation found out the car was loaded with highly-explosive TNT. The police also found a part of a Canadian passport inside the remains..."
+    },
+    {
+      "source": "text_166_node_4",
+      "target": "text_166_node_6",
+      "relation": "before",
+      "support_text": "The next day, representatives of the al-Gama'a al-Islamiyya terrorist organization...requesting extradition of Qasim."
+    },
+    {
+      "source": "text_166_node_4",
+      "target": "text_166_node_7",
+      "relation": "before",
+      "support_text": "The other apparent miscalculation involved the size of the parking lot...only 29 injuries were recorded (including two unaware bystanders)."
+    },
+    {
+      "source": "text_166_node_4",
+      "target": "text_166_node_8",
+      "relation": "before",
+      "support_text": "The bomb also carved a large crater in the ground, battering nearby buildings and destroying vehicles."
+    },
+    {
+      "source": "text_166_node_6",
+      "target": "text_166_node_9",
+      "relation": "before",
+      "support_text": "With the help of the CIA, officials examined the video footage...Hassan al-Sharif Mahmud Saad had organized this attack."
+    },
+    {
+      "source": "text_166_node_9",
+      "target": "text_166_node_10",
+      "relation": "before",
+      "support_text": "Saad was planning a new terrorist attack...he was killed in central Bosnia in a firefight with Croatian Defense Council forces."
+    },
+    {
+      "source": "text_166_node_11",
+      "target": "text_166_node_10",
+      "relation": "before",
+      "support_text": "Saad在波黑被击毙前曾居住于该地区"
+    }
+  ]
+}

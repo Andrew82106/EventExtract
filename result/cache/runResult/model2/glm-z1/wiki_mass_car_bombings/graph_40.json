@@ -1,0 +1,273 @@
+{
+  "nodes": [
+    {
+      "id": "text_40_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1996年6月11日莫斯科地铁发生爆炸，4人死亡12人受伤",
+      "support_text": "June 11, 1996 - A bomb explodes on the Moscow metro, killing four people and injuring 12.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1996年7月11日莫斯科市中心一辆电车爆炸，5人受伤",
+      "support_text": "July 11/12, 1996 - A bomb blows the front off a trolleybus in central Moscow during the morning rush hour, injuring five people.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1996年7月12日类似袭击导致30人受伤",
+      "support_text": "In a similar attack the next day, about 30 people are injured.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年8月31日曼еж广场地下商场爆炸，29人受伤",
+      "support_text": "Aug. 31, 1999 - A bomb explodes in an amusement arcade in the three-storey underground Manezh Square shopping complex...",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年9月9日莫斯科 southeast 公寓爆炸，94人死亡200余人受伤",
+      "support_text": "Sept. 9, 1999 - A powerful bomb destroys an apartment block in southeast Moscow...",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年9月13日莫斯科八层公寓楼爆炸，118人死亡",
+      "support_text": "Sept. 13, 1999 - A bomb destroys an eight-storey block of flats in Moscow...",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2000年8月8日莫斯科市中心地下通道爆炸，13人死亡",
+      "support_text": "Aug. 8, 2000 - An explosion rips through an underpass in central Moscow...",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2001年2月5日莫斯科地铁站内爆炸，9人受伤",
+      "support_text": "Feb. 5, 2001 - A small bomb explodes in one of Moscow’s busiest underground railway stations...",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年10月19日莫斯科西南区爆炸，1人死亡7人受伤",
+      "support_text": "Oct. 19, 2002 - A bomb explodes in a crowded district of southwestern Moscow...",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2003年7月5日莫斯科Tushino机场摇滚节女性自杀袭击，15人死亡60人受伤",
+      "support_text": "July 5, 2003 - Two female bombers kill 15 people when they blow themselves up at an open-air rock festival...",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2003年12月9日莫斯科市中心爆炸致6人死亡",
+      "support_text": "Dec. 9, 2003 - An explosion in central Moscow kills six people.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2004年2月6日莫斯科地铁晨间通勤爆炸，39人死亡100余人受伤",
+      "support_text": "Feb. 6, 2004 - A powerful explosion, apparently set off by a suicide bomber, rips through a packed underground train...",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年8月31日莫斯科市中心自杀袭击致10人死亡51人受伤",
+      "support_text": "Aug. 31, 2004 - A suicide bomb attack in central Moscow kills 10 people and injures 51.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年8月21日莫斯科郊区市场爆炸致10人死亡",
+      "support_text": "Aug 21, 2006 - A bomb kills 10 people in a suburban Moscow market.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年3月29日莫斯科地铁两处爆炸，Lubyanka站23人死亡，Park Kultury站14人死亡，总计37人死亡33人受伤",
+      "support_text": "March 29, 2010 - At least two blasts strike Moscow metro stations during rush hour, killing 37 people and wounding 33.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "莫斯科内务部官员从文化公园地铁站走出",
+      "support_text": "莫斯科内务部官员从文化公园地铁站走出",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员对恐怖袭击的定性",
+      "support_text": "官员称该事件为恐怖主义行为",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员对恐怖袭击的详细描述",
+      "support_text": "官员将事件描述为恐怖袭击",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员加强安全措施",
+      "support_text": "官员加强安全措施",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "车臣战士被指控袭击",
+      "support_text": "车臣战士被指控袭击",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "分裂地区的官员和军阀否认责任",
+      "support_text": "分裂地区的官员和军阀否认责任",
+      "source_text": "text_40"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_2",
+      "relation": "before",
+      "support_text": "Following is a timeline of bomb blasts in Moscow: June 11, 1996 - ... July 11/12, 1996 - ..."
+    },
+    {
+      "source": "text_40_node_2",
+      "target": "text_40_node_3",
+      "relation": "before",
+      "support_text": "In a similar attack the next day, about 30 people are injured."
+    },
+    {
+      "source": "text_40_node_4",
+      "target": "text_40_node_5",
+      "relation": "before",
+      "support_text": "Aug. 31, 1999 - ... Sept. 9, 1999 - ..."
+    },
+    {
+      "source": "text_40_node_5",
+      "target": "text_40_node_6",
+      "relation": "before",
+      "support_text": "Sept. 9, 1999 - ... Sept. 13, 1999 - ..."
+    },
+    {
+      "source": "text_40_node_6",
+      "target": "text_40_node_7",
+      "relation": "before",
+      "support_text": "Sept. 13, 1999 - ... Aug. 8, 2000 - ..."
+    },
+    {
+      "source": "text_40_node_7",
+      "target": "text_40_node_8",
+      "relation": "before",
+      "support_text": "Aug. 8, 2000 - ... Feb. 5, 2001 - ..."
+    },
+    {
+      "source": "text_40_node_8",
+      "target": "text_40_node_9",
+      "relation": "before",
+      "support_text": "Feb. 5, 2001 - ... Oct. 19, 2002 - ..."
+    },
+    {
+      "source": "text_40_node_9",
+      "target": "text_40_node_10",
+      "relation": "before",
+      "support_text": "Oct. 19, 2002 - ... July 5, 2003 - ..."
+    },
+    {
+      "source": "text_40_node_10",
+      "target": "text_40_node_11",
+      "relation": "before",
+      "support_text": "July 5, 2003 - ... Dec. 9, 2003 - ..."
+    },
+    {
+      "source": "text_40_node_11",
+      "target": "text_40_node_12",
+      "relation": "before",
+      "support_text": "Dec. 9, 2003 - ... Feb. 6, 2004 - ..."
+    },
+    {
+      "source": "text_40_node_12",
+      "target": "text_40_node_13",
+      "relation": "before",
+      "support_text": "Feb. 6, 2004 - ... Aug. 31, 2004 - ..."
+    },
+    {
+      "source": "text_40_node_13",
+      "target": "text_40_node_14",
+      "relation": "before",
+      "support_text": "Aug. 31, 2004 - ... Aug 21, 2006 - ..."
+    },
+    {
+      "source": "text_40_node_14",
+      "target": "text_40_node_15",
+      "relation": "before",
+      "support_text": "Aug 21, 2006 - ... March 29, 2010 - ..."
+    }
+  ]
+}

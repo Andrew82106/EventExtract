@@ -1,0 +1,330 @@
+{
+  "nodes": [
+    {
+      "id": "text_92_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2020年2月14日，巴基斯坦基于组织 Jaish-e-Mohammad 的自杀袭击在印控克什米尔造成至少40名印军死亡",
+      "support_text": "The suicide attack which has been claimed by Pakistan-based terrorist group Jaish-e-Mohammad",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2月12日黎明，印度空军Mirage 2000战机首次突破停火协议，深入巴基斯坦开伯尔普赫图克瓦省巴拉克特地区执行空袭",
+      "support_text": "Indian Air Force (IAF) Mirage 2000 fighter aircraft crossed deep into Pakistan on Tuesday morning",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "印度指控空袭摧毁巴方在巴拉克特地区的武装分子营地，巴方否认并称袭击目标为空地",
+      "support_text": "India says that the air strikes targeted a militant camp near Balakot... Pakistan has disputed this claim, saying the strikes hit an empty area",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴方最初宣称仅遭少量印军战机入侵后撤，随后改口称空袭未造成实际损害",
+      "support_text": "Pakistan first stated that this was a limited incursion by a few Indian air force fighters... The Pakistani army's public relations chief then switched tack",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度确认巴拉克特实际位于巴控领土且距印控区仅5-6公里，驳斥巴方地理混淆说",
+      "support_text": "India confirmed that the actual location of Balakot was in Pakistani-administered territory",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_6",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "巴方威胁向联合国申诉，但维持有限否认姿态以减轻后续报复压力",
+      "support_text": "Pakistan has warned of retaliation and threatened to take the issue to the United Nations",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度宣布已达成军事目标，同时将军队置于高度戒备状态",
+      "support_text": "India has indicated that it has achieved its aims... The Indian military has been placed on alert",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴方通过双重巴拉克特地名混淆策略，为后续军事回应保留解释空间",
+      "support_text": "There are two towns by the name of Balakot... This obfuscation is made possible by the fact that there are two towns by the name of Balakot",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "印度政府声明空袭具有震慑效果，但避免明确宣战",
+      "support_text": "India government declared the air strikes had a deterrent effect but avoided explicit war declaration",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴方持续否认深度渗透指控，同时通过舆论战降低军事回应必要性",
+      "support_text": "Pakistan has continued to deny the deep incursion allegations while using public relations to reduce the necessity of military response",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "基于动词'escalate'的事件描述：邻国之间紧张局势升级",
+      "support_text": "邻国之间紧张局势升级",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "基于动词'provoke'的事件描述：空袭由杀害事件引发",
+      "support_text": "空袭由杀害事件引发",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "基于动词'vowed'的事件描述：印度领导人曾誓言报复",
+      "support_text": "Indian leaders, including Prime Minister Narendra Modi, had vowed revenge",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "基于动词'arose'的事件描述：2011年美军未经许可进入巴基斯坦引发的担忧产生",
+      "support_text": "此事件应加强外界对2011年美军未经许可进入巴基斯坦的担忧",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "基于动词'flew'的事件描述：美军直升机未经检测飞入巴基斯坦",
+      "support_text": "美军直升机未经检测飞入巴基斯坦",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "基于动词'killed'的事件描述：海军特种部队在阿巴丹击毙本·拉登",
+      "support_text": "海军特种部队在阿巴丹击毙本·拉登",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "基于动词'flew'的事件描述：直升机携带本·拉登遗体飞离",
+      "support_text": "直升机携带本·拉登遗体飞离",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "基于动词'reinforce'的事件描述：加强外界对2011年美军未经许可进入巴基斯坦的担忧",
+      "support_text": "此事件应加强外界对2011年美军未经许可进入巴基斯坦的担忧",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_19",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "巴基斯坦警告报复",
+      "support_text": "巴基斯坦警告报复",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_20",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "居民报告听到爆炸声",
+      "support_text": "居民报告听到爆炸声",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "人员休假被限制",
+      "support_text": "人员休假被限制",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_22",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "空军在空域巡逻",
+      "support_text": "空军在空域巡逻",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_23",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度海军曾参与重大演习",
+      "support_text": "印度海军曾参与重大演习",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_24",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度海军转为战斗模式",
+      "support_text": "印度海军转为战斗模式",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "克什米尔安全部队被显著加强",
+      "support_text": "克什米尔安全部队被显著加强",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_new_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度政府为可能由巴基斯坦支持的激进活动做准备",
+      "support_text": "印度政府为可能由巴基斯坦支持的激进活动做准备",
+      "source_text": "text_92"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_92_node_1",
+      "target": "text_92_node_2",
+      "relation": "before",
+      "support_text": "Indian leaders, including Prime Minister Narendra Modi, had vowed revenge. Tuesday's air strikes are the first launched across the LoC"
+    },
+    {
+      "source": "text_92_node_2",
+      "target": "text_92_node_3",
+      "relation": "before",
+      "support_text": "India says that the air strikes targeted a militant camp near Balakot... Pakistan has disputed this claim"
+    },
+    {
+      "source": "text_92_node_2",
+      "target": "text_92_new_node_20",
+      "relation": "before",
+      "support_text": "空袭后居民报告爆炸声"
+    },
+    {
+      "source": "text_92_node_3",
+      "target": "text_92_node_4",
+      "relation": "before",
+      "support_text": "The Pakistani army's public relations chief then switched tack"
+    },
+    {
+      "source": "text_92_node_4",
+      "target": "text_92_node_5",
+      "relation": "before",
+      "support_text": "India confirmed that the actual location of Balakot was in Pakistani-administered territory"
+    },
+    {
+      "source": "text_92_node_5",
+      "target": "text_92_node_6",
+      "relation": "before",
+      "support_text": "Pakistan has warned of retaliation and threatened to take the issue to the United Nations"
+    },
+    {
+      "source": "text_92_node_6",
+      "target": "text_92_node_7",
+      "relation": "before",
+      "support_text": "India has indicated that it has achieved its aims"
+    },
+    {
+      "source": "text_92_node_7",
+      "target": "text_92_node_9",
+      "relation": "before",
+      "support_text": "India government declared the air strikes had a deterrent effect"
+    },
+    {
+      "source": "text_92_node_8",
+      "target": "text_92_node_10",
+      "relation": "before",
+      "support_text": "This obfuscation is made possible by the fact that there are two towns by the name of Balakot"
+    },
+    {
+      "source": "text_92_new_node_13",
+      "target": "text_92_node_2",
+      "relation": "before",
+      "support_text": "印度领导人曾誓言报复，空袭作为报复行动"
+    },
+    {
+      "source": "text_92_new_node_14",
+      "target": "text_92_new_node_15",
+      "relation": "before",
+      "support_text": "担忧产生后触发美军直升机入侵"
+    },
+    {
+      "source": "text_92_new_node_15",
+      "target": "text_92_new_node_16",
+      "relation": "before",
+      "support_text": "入侵行动导致击毙本·拉登"
+    },
+    {
+      "source": "text_92_new_node_16",
+      "target": "text_92_new_node_17",
+      "relation": "before",
+      "support_text": "击毙后遗体撤离行动"
+    },
+    {
+      "source": "text_92_new_node_17",
+      "target": "text_92_new_node_18",
+      "relation": "before",
+      "support_text": "遗体撤离后担忧被强化"
+    },
+    {
+      "source": "text_92_new_node_19",
+      "target": "text_92_node_6",
+      "relation": "before",
+      "support_text": "巴基斯坦警告报复触发后续行动"
+    }
+  ]
+}

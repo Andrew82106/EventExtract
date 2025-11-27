@@ -1,0 +1,258 @@
+{
+  "nodes": [
+    {
+      "id": "text_75_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mughniyeh被美以列为通缉犯，涉嫌1980年代黎巴嫩西方人质事件",
+      "support_text": "Mughniyeh is widely believed to be behind a wave of Western hostage-taking in Lebanon during the 1980s.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mughniyeh在黎巴嫩卡法尔苏萨区遭自杀式爆炸身亡，现场遭叙利亚警方封锁",
+      "support_text": "Syrian police kept media and other onlookers well away from the scene of the overnight blast in the well-to-do Kafar Soussa district.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hezbollah通过Manar电视台宣布Mughniyeh为烈士，宣布举行葬礼",
+      "support_text": "Hezbollah-owned Manar TV in Beirut announced the death saying: \"With all pride we declare a great jihadist leader of the Islamic resistance in Lebanon joining the martyrs... the brother commander hajj Imad Mughniyeh\".",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚政府确认Mughniyeh死亡并启动调查，谴责袭击为恐怖主义",
+      "support_text": "Later, the Syrian government confirmed Mughniyeh had been killed and said investigations were still underway to find the perpetrators.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗谴责以色列并称其为'国家恐怖主义'，Hezbollah宣布葬礼日期",
+      "support_text": "Iran also condemned the killing, praising Mughniyeh as a martyr and describing the attack as \"yet another brazen example of organised state terrorism by the Zionist regime\".",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列总理办公室否认参与刺杀，称恐怖组织试图嫁祸",
+      "support_text": "The Israeli prime minister's office later issued a statement rejecting \"the attempt by terror groups to attribute to it any involvement\" in the killing.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国国务院称Mughniyeh为'冷血杀手'，摩萨德前局长称其死亡是'世界胜利'",
+      "support_text": "A former head of Israel's Mossad secret service, Danny Yatom, called the killing \"a big achievement for the free world against terrorist organisations\".",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mughniyeh被指控1985年劫持TWA客机致美国海军 diver死亡",
+      "support_text": "Mughniyeh was among several suspects indicted in the US for the 1985 hijacking of a TWA airliner in which a US Navy diver was killed.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mughniyeh被指控策划1992年以色列驻阿根廷使馆爆炸案致29人死亡",
+      "support_text": "Israel believes he was involved in planning the 1992 bombing of Israel's embassy in Argentina in which 29 people were killed.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mughniyeh被指控策划1994年布宜诺斯艾利斯犹太中心爆炸案致95人死亡",
+      "support_text": "the blast at a Buenos Aires Jewish centre two years later that killed 95.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hezbollah成立于1982年黎以战争期间，由什叶派教士组建",
+      "support_text": "Hezbollah was founded in 1982 by a group of Shia Muslim clerics after the Israeli invasion of Lebanon.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hezbollah在2006年黎以战争期间成为重要军事力量",
+      "support_text": "Hezbollah has emerged in recent years as a major political and military force in Lebanon, after military successes against Israel.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hezbollah在1983年策划贝鲁特自杀式爆炸案，造成数百名美法军人死亡",
+      "support_text": "Shia militants who went on to become members are thought to have planned some of the most high-profile kidnappings and attacks of the 1980s, including the 1983 suicide bombings in Beirut that killed hundreds of US and French service personnel.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "多方来源描述穆格尼耶的职务",
+      "support_text": "多方来源描述穆格尼耶的职务",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "叙利亚政府表示调查仍在进行",
+      "support_text": "Later, the Syrian government confirmed Mughniyeh had been killed and said investigations were still underway to find the perpetrators.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "暗杀前总理拉菲克·哈里里",
+      "support_text": "语义描述：暗杀前总理拉菲克·哈里里",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mughniyeh被美国指控",
+      "support_text": "Mughniyeh was among several suspects indicted in the US for the 1985 hijacking of a TWA airliner in which a US Navy diver was killed.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mughniyeh袭击以色列使馆",
+      "support_text": "Mughniyeh was involved in planning the 1992 bombing of Israel's embassy in Argentina in which 29 people were killed.",
+      "source_text": "text_75"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_75_node_2",
+      "target": "text_75_node_3",
+      "relation": "before",
+      "support_text": "Hezbollah-owned Manar TV in Beirut announced the death saying: \"With all pride we declare a great jihadist leader of the Islamic resistance in Lebanon joining the martyrs... the brother commander hajj Imad Mughniyeh\"."
+    },
+    {
+      "source": "text_75_node_2",
+      "target": "text_75_node_4",
+      "relation": "before",
+      "support_text": "Later, the Syrian government confirmed Mughniyeh had been killed and said investigations were still underway to find the perpetrators."
+    },
+    {
+      "source": "text_75_node_2",
+      "target": "text_75_node_14",
+      "relation": "before",
+      "support_text": "多方来源描述穆格尼耶的职务"
+    },
+    {
+      "source": "text_75_node_4",
+      "target": "text_75_node_5",
+      "relation": "before",
+      "support_text": "Iran also condemned the killing, praising Mughniyeh as a martyr and describing the attack as \"yet another brazen example of organised state terrorism by the Zionist regime\"."
+    },
+    {
+      "source": "text_75_node_4",
+      "target": "text_75_node_6",
+      "relation": "before",
+      "support_text": "The Israeli prime minister's office later issued a statement rejecting \"the attempt by terror groups to attribute to it any involvement\" in the killing."
+    },
+    {
+      "source": "text_75_node_4",
+      "target": "text_75_node_7",
+      "relation": "before",
+      "support_text": "A former head of Israel's Mossad secret service, Danny Yatom, called the killing \"a big achievement for the free world against terrorist organisations\"."
+    },
+    {
+      "source": "text_75_node_8",
+      "target": "text_75_node_2",
+      "relation": "before",
+      "support_text": "Mughniyeh was among several suspects indicted in the US for the 1985 hijacking of a TWA airliner in which a US Navy diver was killed."
+    },
+    {
+      "source": "text_75_node_9",
+      "target": "text_75_node_2",
+      "relation": "before",
+      "support_text": "Israel believes he was involved in planning the 1992 bombing of Israel's embassy in Argentina in which 29 people were killed."
+    },
+    {
+      "source": "text_75_node_10",
+      "target": "text_75_node_2",
+      "relation": "before",
+      "support_text": "the blast at a Buenos Aires Jewish centre two years later that killed 95."
+    },
+    {
+      "source": "text_75_node_11",
+      "target": "text_75_node_13",
+      "relation": "before",
+      "support_text": "Hezbollah was founded in 1982 by a group of Shia Muslim clerics after the Israeli invasion of Lebanon."
+    },
+    {
+      "source": "text_75_node_13",
+      "target": "text_75_node_2",
+      "relation": "before",
+      "support_text": "Shia militants who went on to become members are thought to have planned some of the most high-profile kidnappings and attacks of the 1980s, including the 1983 suicide bombings in Beirut that killed hundreds of US and French service personnel."
+    },
+    {
+      "source": "text_75_node_13",
+      "target": "text_75_node_12",
+      "relation": "before",
+      "support_text": "Hezbollah has emerged in recent years as a major political and military force in Lebanon, after military successes against Israel."
+    },
+    {
+      "source": "text_75_node_16",
+      "target": "text_75_node_2",
+      "relation": "before",
+      "support_text": "根据temporal_order=4确定时序关系"
+    },
+    {
+      "source": "text_75_node_17",
+      "target": "text_75_node_2",
+      "relation": "before",
+      "support_text": "美国指控Mughniyeh的劫持事件早于其卡法尔苏萨区死亡事件"
+    },
+    {
+      "source": "text_75_node_18",
+      "target": "text_75_node_2",
+      "relation": "before",
+      "support_text": "以色列使馆袭击事件早于卡法尔苏萨区死亡事件"
+    }
+  ]
+}

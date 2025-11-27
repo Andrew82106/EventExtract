@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "text_140_node_1",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daallo航空客机从摩加迪沙机场起飞后15分钟在11000英尺高度发生爆炸",
+      "support_text": "The explosion happened about 15 minutes after the plane, with 75 passengers on board, took off from the airport and was at 11,000 feet (3,500 meters) ascending toward 31,000 feet.",
+      "source_text": "text_140"
+    },
+    {
+      "id": "text_140_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致机舱严重损毁，飞机紧急迫降回机场",
+      "support_text": "We immediately demanded an emergency return to the airport because that was the only solution.",
+      "source_text": "text_140"
+    },
+    {
+      "id": "text_140_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "至少20人因涉事被捕，包括机场安检疏漏中的两名男子",
+      "support_text": "At least 20 people, including the two men in the CCTV footage who handed over the laptop to the suspected bomber, were arrested in connection with the explosion in the aircraft.",
+      "source_text": "text_140"
+    },
+    {
+      "id": "text_140_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认笔记本电脑状装置为爆炸物，系自杀炸弹客携带",
+      "support_text": "It is believed the laptop-like device was the bomb that caused the explosion.",
+      "source_text": "text_140"
+    },
+    {
+      "id": "text_140_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "1名乘客（Abdullahi Borle）在爆炸中丧生",
+      "support_text": "According to Somali officials who did not give further details, Abdullahi Abdisalam Borle was killed.",
+      "source_text": "text_140"
+    },
+    {
+      "id": "text_140_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "疑犯遗体在机场附近发现，初步确认为自杀式袭击者",
+      "support_text": "A man's body was found in the town of Balad, 30 kilometers (about 18 miles) north of Mogadishu, according to police who said he might have been blown from the plane.",
+      "source_text": "text_140"
+    },
+    {
+      "id": "text_140_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daallo航空宣布暂停摩加迪沙机场运营",
+      "support_text": "Daallo Airlines, which is based in Dubai, has temporarily suspended its operations in Somalia's capital following the incident.",
+      "source_text": "text_140"
+    },
+    {
+      "id": "text_140_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "飞行员披露机场安检存在严重漏洞：无关人员可自由进出机坪",
+      "support_text": "When we park (the plane) there, some 20 to 30 people come to the tarmac... No one has a badge or those yellow vests. They enter and leave the plane, and no one knows who is who.",
+      "source_text": "text_140"
+    },
+    {
+      "id": "text_140_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府宣布将加强机场安保措施应对恐怖威胁",
+      "support_text": "Somalia's government has said it will tighten security at the airport to prevent other threats.",
+      "source_text": "text_140"
+    },
+    {
+      "id": "text_140_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "机长Vlatko Vodopivec向AP进行安全状态汇报",
+      "support_text": "机长Vlatko Vodopivec向AP进行安全状态汇报",
+      "source_text": "text_140"
+    },
+    {
+      "id": "text_140_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当乘客离机时，相关方可向机内投放任何物品",
+      "support_text": "当乘客离机时，相关方可向机内投放任何物品",
+      "source_text": "text_140"
+    },
+    {
+      "id": "text_140_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "飞行员提及飞机遭枪击事件",
+      "support_text": "Pilot Vodopivec mentioned the plane was struck by gunfire",
+      "source_text": "text_140"
+    },
+    {
+      "id": "text_140_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "飞机遭枪击中事件",
+      "support_text": "The plane was struck by gunfire",
+      "source_text": "text_140"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_140_node_1",
+      "target": "text_140_node_2",
+      "relation": "before",
+      "support_text": "We immediately demanded an emergency return to the airport because that was the only solution."
+    },
+    {
+      "source": "text_140_node_1",
+      "target": "text_140_node_4",
+      "relation": "before",
+      "support_text": "It is believed the laptop-like device was the bomb that caused the explosion."
+    },
+    {
+      "source": "text_140_node_1",
+      "target": "text_140_node_5",
+      "relation": "before",
+      "support_text": "According to Somali officials who did not give further details, Abdullahi Abdisalam Borle was killed."
+    },
+    {
+      "source": "text_140_node_1",
+      "target": "text_140_node_10",
+      "relation": "before",
+      "support_text": "爆炸发生后，机长向AP进行安全状态汇报"
+    },
+    {
+      "source": "text_140_node_2",
+      "target": "text_140_node_3",
+      "relation": "before",
+      "support_text": "At least 20 people, including the two men in the CCTV footage who handed over the laptop to the suspected bomber, were arrested in connection with the explosion in the aircraft."
+    },
+    {
+      "source": "text_140_node_2",
+      "target": "text_140_node_7",
+      "relation": "before",
+      "support_text": "Daallo Airlines, which is based in Dubai, has temporarily suspended its operations in Somalia's capital following the incident."
+    },
+    {
+      "source": "text_140_node_2",
+      "target": "text_140_node_8",
+      "relation": "before",
+      "support_text": "When we park (the plane) there, some 20 to 30 people come to the tarmac... No one has a badge or those yellow vests. They enter and leave the plane, and no one knows who is who."
+    },
+    {
+      "source": "text_140_node_2",
+      "target": "text_140_node_9",
+      "relation": "before",
+      "support_text": "Somalia's government has said it will tighten security at the airport to prevent other threats."
+    },
+    {
+      "source": "text_140_node_5",
+      "target": "text_140_node_6",
+      "relation": "before",
+      "support_text": "A man's body was found in the town of Balad, 30 kilometers (about 18 miles) north of Mogadishu, according to police who said he might have been blown from the plane."
+    },
+    {
+      "source": "text_140_node_10",
+      "target": "text_140_node_11",
+      "relation": "before",
+      "support_text": "安全状态汇报后，相关方开始向机内投放物品"
+    },
+    {
+      "source": "text_140_node_11",
+      "target": "text_140_node_8",
+      "relation": "before",
+      "support_text": "投放物品操作影响机坪安检漏洞"
+    },
+    {
+      "source": "text_140_node_13",
+      "target": "text_140_node_12",
+      "relation": "before",
+      "support_text": "枪击事件（strike）在飞行员提及（mention）之前发生"
+    }
+  ]
+}

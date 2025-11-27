@@ -1,0 +1,621 @@
+{
+  "nodes": [
+    {
+      "id": "text_110_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2012年7月18日，以色列游客乘坐的巴士在保加利亚布尔加斯机场发生爆炸，造成7人死亡（含司机）和32人受伤",
+      "support_text": "The 2012 Burgas bus bombing was a terrorist attack carried out by a suicide bomber on a passenger bus transporting Israeli tourists at the Burgas Airport in Burgas, Bulgaria, on 18 July 2012.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年7月19日，保加利亚内政部长Tsvetan Tsvetanov首次确认爆炸为恐怖袭击，并称袭击者使用伪造美国驾照",
+      "support_text": "On 19 July, Tsvetanov stated that the suspected attacker is seen on security camera tape near the bus for about an hour before the blast and that he had a fake driver's license from the U.S. state of Michigan.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年8月12日，调查确认袭击者为自杀式炸弹袭击者，排除其他犯罪理论",
+      "support_text": "On 12 August, a probe into the attack concluded that the perpetrator was a suicide bomber, which disproved other possible theories, such as being a deluded drug smuggler.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年2月，保加利亚内政部长Tsvetanov首次公开指控黎巴嫩真主党为幕后黑手",
+      "support_text": "In February 2013, Tsvetan Tsvetanov, the Bulgarian Interior Minister, said there was 'well-grounded' evidence that Hezbollah was behind the attack.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年6月5日，保加利亚新外长Kristian Vigenin表示尚无黎巴嫩真主党直接参与证据，但继续调查",
+      "support_text": "On 5 June 2013, new Bulgarian Foreign Affairs Minister Kristian Vigenin stated that: 'There is no conclusive evidence for the implication of Hezbollah in the July 2012 bombing in Burgas. The authorities continue to gather evidence.'",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年6月21日，保加利亚欧盟代表透露发现新证据指向真主党关联人员伪造文件",
+      "support_text": "Two weeks later a Bulgarian representative to the European Union revealed that investigators discovered new evidence that implicates Hezbollah operatives were connected to the terrorist attacks.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年7月5日，保加利亚新内政部长Tsvetlin Yovchev再次确认真主党责任",
+      "support_text": "On 5 July 2013, the newly appointed Bulgarian Interior Minister Tsvetlin Yovchev stated: 'there are clear signs that say Hezbollah is behind the Burgas bombing.'",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年7月25日，保加利亚发布真主党两嫌疑人照片（澳大利亚公民Malid Farah和加拿大公民Hassan al-Haj）",
+      "support_text": "On 25 July 2013, the Bulgarian Interior Ministry released photographs of two Hezbollah operatives suspected in the bombing: Australian citizen Malid Farah (also known as 'Hussein Hussein'), and Canadian citizen Hassan al-Haj.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年8月，欧盟正式将真主党军事分支列为恐怖组织",
+      "support_text": "In 2013, and partly in response to the bombing, the EU unanimously voted to list the military branch of Hezbollah as a terrorist organization.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年7月18日，保加利亚通过DNA鉴定确认袭击者为黎巴嫩-法国双重国籍者Mohamad Hassan El-Husseini",
+      "support_text": "On 18 July 2014, Bulgaria announced that they identified the bomber as a dual Lebanese-French citizen named Mohamad Hassan El-Husseini.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "2012年8月16日，保加利亚发布计算机复原的疑似帮凶图像",
+      "support_text": "On 16 August, the Bulgarian authorities released a computer-generated image of a suspected accomplice, saying that 'There is data that the man is related to the terrorist attack at the airport.'",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年8月21日，保加利亚发现疑似真主党关联人员使用伪造美国驾照的线索",
+      "support_text": "On 21 August, a man from Plovdiv, a southern Bulgarian, said that he recognized the suspected accomplice, who he said he worked with for five years, and said that the accomplice is a Bulgarian who has been involved with people who preach Islamic extremism.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年8月28日，黎巴嫩《Al-Jumhuriya》报纸称保加利亚倾向于指控真主党，但官方否认",
+      "support_text": "In late August, on behalf of the Bulgarian government, Interpol attempted to recruit the help of member nations to identify one of the suspects in the investigation, and posted on its website an image of the alleged accomplice, urging anyone who had information about his identity to notify the authorities.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年10月，保加利亚调查称袭击由至少5名外国帮凶协助，策划时间长达18个月",
+      "support_text": "In October, Tsvetanov announced that the terrorist responsible for the attack had a maximum of five accomplices, all of which were foreign, and that the terrorist attack was plotted outside of Bulgaria for a year and a half.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年9月，以色列总理内塔尼亚胡公开指控伊朗支持真主党策划袭击",
+      "support_text": "Immediately following the attack, Israeli Prime Minister Benjamin Netanyahu accused Hezbollah of carrying out the attack with the backing of Iran.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年10月，美国纽约警方报告将Burgas爆炸与同年伊朗/真主党策划的9起袭击关联",
+      "support_text": "On 19 July, The New York Times reported that United States officials identified the suicide bomber as a member of Hezbollah. An unnamed senior official told The New York Times that the bomber had a fake Michigan driver's license, but there are no indications that he had any connection to the United States.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年9月，保加利亚-以色列启动反恐联合行动，加强针对犹太社区的安保",
+      "support_text": "On 19 July, The New York Times reported that United States officials identified the suicide bomber as a member of Hezbollah.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年9月，以色列航空公司在全球加强安全措施，航班延误达5-6小时",
+      "support_text": "On 19 July, The New York Times reported that United States officials identified the suicide bomber as a member of Hezbollah.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_19",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年9月，保加利亚与以色列举行联合政府会议，承诺加强安全合作",
+      "support_text": "On 19 July, The New York Times reported that United States officials identified the suicide bomber as a member of Hezbollah.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_20",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2012年9月，保加利亚总理博里斯索夫访问以色列，与以色列政府共同悼念遇难者",
+      "support_text": "On 19 July, The New York Times reported that United States officials identified the suicide bomber as a member of Hezbollah.",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚领导人赶赴爆炸现场",
+      "support_text": "保加利亚领导人赶赴现场",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "外交部表示相信爆炸是恐怖袭击",
+      "support_text": "外交部表示相信爆炸是恐怖袭击",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚官员争论爆炸由男性自杀式炸弹手实施",
+      "support_text": "保加利亚官员争论爆炸由男性自杀式炸弹手实施",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_24",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "幸存者描述人们被抛到空中、尖叫哭泣以及看到肢体",
+      "support_text": "幸存者描述人们被抛到空中、尖叫哭泣以及看到肢体",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "幸存者回忆看到肢体",
+      "support_text": "幸存者回忆看到肢体",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_26",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者称爆炸从车前开始并引燃火势",
+      "support_text": "目击者称爆炸从车前开始并引燃火势",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_27",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸将火势引向车内",
+      "support_text": "爆炸将火势引向车内",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_28",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "乘客跳窗逃生",
+      "support_text": "乘客跳窗逃生",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_29",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹被装入男子背包",
+      "support_text": "炸弹被装入男子背包",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_30",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "男子在机场被监控拍摄",
+      "support_text": "男子在机场被监控拍摄",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_31",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸由3公斤TNT炸药引发",
+      "support_text": "爆炸由3公斤TNT炸药引发",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_32",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "部长称炸弹被携带并引爆",
+      "support_text": "部长称炸弹被携带并引爆",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_33",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "部长补充说明爆炸原因",
+      "support_text": "部长补充说明爆炸原因",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_34",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚总理博里斯索夫声称恐怖袭击的责任方是经过周密策划的团体",
+      "support_text": "保加利亚总理博里斯索夫声称恐怖袭击的责任方是经过周密策划的团体",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_35",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "经过周密策划的团体在保加利亚停留至少一个月（在恐怖袭击前）",
+      "support_text": "经过周密策划的团体在保加利亚停留至少一个月（在恐怖袭击前）",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_36",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖袭击参与者使用租赁车辆",
+      "support_text": "恐怖袭击参与者使用租赁车辆",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_37",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖袭击参与者分散在不同城市以避免被发现",
+      "support_text": "恐怖袭击参与者分散在不同城市以避免被发现",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_38",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖袭击者严格遵循阴谋规则行动",
+      "support_text": "恐怖袭击者严格遵循阴谋规则行动",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_39",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "官员认为某人在欧洲国家通过申根区飞入保加利亚",
+      "support_text": "官员认为某人在欧洲国家通过申根区飞入保加利亚",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_40",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "某人可能从欧洲国家飞入保加利亚",
+      "support_text": "某人可能从欧洲国家飞入保加利亚",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_41",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗否认对2012年Burgas恐怖袭击负责",
+      "support_text": "伊朗否认对袭击负责",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_42",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚中右翼政府被社会民主党政府取代",
+      "support_text": "Bulgaria 中右翼政府被社会民主党政府取代",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_43",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "全球政府和超国家组织谴责Burgas恐怖袭击",
+      "support_text": "全球政府和超国家组织谴责 Burgas 恐怖袭击",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_44",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Kristalina Georgieva表达震惊与悲伤",
+      "support_text": "Kristalina Georgieva 表达震惊与悲伤",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_45",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Boyko Borisov致电Benjamin Netanyahu",
+      "support_text": "Boyko Borisov 致电 Benjamin Netanyahu",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_46",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nickolay Mladenov谴责袭击",
+      "support_text": "Nickolay Mladenov 谴责袭击",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_47",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bulgarian Parliament通过声明",
+      "support_text": "Bulgarian Parliament 通过声明",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_48",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bulgarian Parliament敦促相关机构采取行动",
+      "support_text": "Bulgarian Parliament 敦促相关机构采取行动",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_49",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "相关机构逮捕恐怖袭击实施者",
+      "support_text": "相关机构逮捕恐怖袭击实施者",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_50",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "相关机构对恐怖袭击实施者绳之以法",
+      "support_text": "相关机构对恐怖袭击实施者绳之以法",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_51",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sarafovo机场关闭",
+      "support_text": "Sarafovo机场关闭",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_52",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "航班改道至Varna机场",
+      "support_text": "航班改道至Varna机场",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_53",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "El Al取消从特拉维夫到索菲亚的航班",
+      "support_text": "El Al取消从特拉维夫到索菲亚的航班",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_54",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "在本古里安机场为受害者举行军事服务",
+      "support_text": "在本古里安机场为受害者举行军事服务",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_55",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "摩萨德和内盖夫部队协助保加利亚当局识别袭击者",
+      "support_text": "摩萨德和内盖夫部队协助保加利亚当局识别袭击者",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_56",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "国际刑警组织派遣专家团队到保加利亚调查恐怖袭击",
+      "support_text": "国际刑警组织派遣专家团队到保加利亚调查恐怖袭击",
+      "source_text": "text_110"
+    },
+    {
+      "id": "text_110_node_57",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "国际刑警组织调查恐怖袭击",
+      "support_text": "国际刑警组织调查恐怖袭击",
+      "source_text": "text_110"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_110_node_1",
+      "target": "text_110_node_2",
+      "relation": "before",
+      "support_text": "On 19 July, Tsvetanov stated that the suspected attacker is seen on security camera tape near the bus for about an hour before the blast and that he had a fake driver's license from the U.S. state of Michigan."
+    },
+    {
+      "source": "text_110_node_2",
+      "target": "text_110_node_3",
+      "relation": "before",
+      "support_text": "On 12 August, a probe into the attack concluded that the perpetrator was a suicide bomber, which disproved other possible theories, such as being a deluded drug smuggler."
+    },
+    {
+      "source": "text_110_node_3",
+      "target": "text_110_node_4",
+      "relation": "before",
+      "support_text": "In February 2013, Tsvetan Tsvetanov, the Bulgarian Interior Minister, said there was 'well-grounded' evidence that Hezbollah was behind the attack."
+    },
+    {
+      "source": "text_110_node_4",
+      "target": "text_110_node_5",
+      "relation": "before",
+      "support_text": "On 5 June 2013, new Bulgarian Foreign Affairs Minister Kristian Vigenin stated that: 'There is no conclusive evidence for the implication of Hezbollah in the July 2012 bombing in Burgas. The authorities continue to gather evidence.'"
+    },
+    {
+      "source": "text_110_node_5",
+      "target": "text_110_node_6",
+      "relation": "before",
+      "support_text": "Two weeks later a Bulgarian representative to the European Union revealed that investigators discovered new evidence that implicates Hezbollah operatives were connected to the terrorist attacks."
+    },
+    {
+      "source": "text_110_node_6",
+      "target": "text_110_node_7",
+      "relation": "before",
+      "support_text": "On 5 July 2013, the newly appointed Bulgarian Interior Minister Tsvetlin Yovchev stated: 'there are clear signs that say Hezbollah is behind the Burgas bombing.'"
+    },
+    {
+      "source": "text_110_node_7",
+      "target": "text_110_node_8",
+      "relation": "before",
+      "support_text": "On 25 July 2013, the Bulgarian Interior Ministry released photographs of two Hezbollah operatives suspected in the bombing: Australian citizen Malid Farah (also known as 'Hussein Hussein'), and Canadian citizen Hassan al-Haj."
+    },
+    {
+      "source": "text_110_node_8",
+      "target": "text_110_node_9",
+      "relation": "before",
+      "support_text": "In 2013, and partly in response to the bombing, the EU unanimously voted to list the military branch of Hezbollah as a terrorist organization."
+    },
+    {
+      "source": "text_110_node_9",
+      "target": "text_110_node_10",
+      "relation": "before",
+      "support_text": "On 18 July 2014, Bulgaria announced that they identified the bomber as a dual Lebanese-French citizen named Mohamad Hassan El-Husseini."
+    },
+    {
+      "source": "text_110_node_11",
+      "target": "text_110_node_12",
+      "relation": "before",
+      "support_text": "On 21 August, a man from Plovdiv, a southern Bulgarian, said that he recognized the suspected accomplice, who he said he worked with for five years, and said that the accomplice is a Bulgarian who has been involved with people who preach Islamic extremism."
+    },
+    {
+      "source": "text_110_node_12",
+      "target": "text_110_node_13",
+      "relation": "before",
+      "support_text": "In late August, on behalf of the Bulgarian government, Interpol attempted to recruit the help of member nations to identify one of the suspects in the investigation, and posted on its website an image of the alleged accomplice, urging anyone who had information about his identity to notify the authorities."
+    },
+    {
+      "source": "text_110_node_13",
+      "target": "text_110_node_14",
+      "relation": "before",
+      "support_text": "In October, Tsvetanov announced that the terrorist responsible for the attack had a maximum of five accomplices, all of which were foreign, and that the terrorist attack was plotted outside of Bulgaria for a year and a half."
+    },
+    {
+      "source": "text_110_node_15",
+      "target": "text_110_node_16",
+      "relation": "before",
+      "support_text": "On 19 July, The New York Times reported that United States officials identified the suicide bomber as a member of Hezbollah."
+    },
+    {
+      "source": "text_110_node_16",
+      "target": "text_110_node_17",
+      "relation": "before",
+      "support_text": "On 19 July, The New York Times reported that United States officials identified the suicide bomber as a member of Hezbollah."
+    },
+    {
+      "source": "text_110_node_17",
+      "target": "text_110_node_18",
+      "relation": "before",
+      "support_text": "On 19 July, The New York Times reported that United States officials identified the suicide bomber as a member of Hezbollah."
+    },
+    {
+      "source": "text_110_node_18",
+      "target": "text_110_node_19",
+      "relation": "before",
+      "support_text": "On 19 July, The New York Times reported that United States officials identified the suicide bomber as a member of Hezbollah."
+    },
+    {
+      "source": "text_110_node_19",
+      "target": "text_110_node_20",
+      "relation": "before",
+      "support_text": "On 19 July, The New York Times reported that United States officials identified the suicide bomber as a member of Hezbollah."
+    }
+  ]
+}

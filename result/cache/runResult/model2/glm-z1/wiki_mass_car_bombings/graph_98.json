@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "text_98_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1992年以色列驻布宜诺斯艾利斯使馆遭汽车炸弹袭击，29人死亡，案件至今未破",
+      "support_text": "The 1992 bombing of the Israeli embassy in Buenos Aires - in which 29 people died - has also never been solved.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年阿根廷最大犹太社区遭遇汽车炸弹袭击，85人死亡、200余人受伤",
+      "support_text": "The explosion - the result of a car bomb - left 85 people dead, more than 200 injured...",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年9月针对1994年袭击的审判在强化安保的特别法庭正式开庭",
+      "support_text": "More than 1,200 witnesses have testified in a specially fortified court since the trial opened in September 2001.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年8月英国逮捕伊朗前驻阿根廷大使索莱曼普尔，引发伊朗与阿根廷、英国的外交争端",
+      "support_text": "Britain is holding a former Iranian diplomat The former ambassador, Hade Soleimanpour, was arrested in the UK on 21 August...",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷前总统梅内姆否认掩盖真相，但承认存在瑞士秘密银行账户",
+      "support_text": "Menem denies a cover-up The politician, Carlos Menem, denies the accusation - but admitted he had a secret Swiss bank account...",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_6",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年新总统基什内尔公开1994年案件情报档案，解除情报人员作证禁令",
+      "support_text": "He opened Argentine intelligence files on the case shortly after taking office in the spring. He also effectively lifted a decree...",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷司法系统认定伊朗通过驻阿使馆支持袭击者，伊朗予以否认",
+      "support_text": "The accusation is that the Iranian embassy in Buenos Aires aided those who planned the attack - allegedly Middle Eastern guerrillas backed by Iran.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "5名受审阿根廷人被指控提供实施1994年袭击的汽车",
+      "support_text": "Five of the Argentines on trial are accused of knowingly providing the attackers with the vehicle used in the bombing.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "累计1200余名证人参与1994年案件审理，持续两年未宣判",
+      "support_text": "More than nine years later, the community still feels it has not received justice. Warrants Israel and the United States agree...",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_10",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年袭击的AMIA犹太社区中心完成重建",
+      "support_text": "The AMIA centre has been rebuilt.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷司法系统认定伊朗通过驻阿使馆支持袭击者",
+      "support_text": "The accusation is that the Iranian embassy in Buenos Aires aided those who planned the attack - allegedly Middle Eastern guerrillas backed by Iran.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nestor Kirchner称未结案调查是国耻",
+      "support_text": "Kirchner称未结案调查是国耻",
+      "source_text": "text_98"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_98_node_1",
+      "target": "text_98_node_2",
+      "relation": "before",
+      "support_text": "The explosion - the result of a car bomb - left 85 people dead, more than 200 injured..."
+    },
+    {
+      "source": "text_98_node_2",
+      "target": "text_98_node_3",
+      "relation": "before",
+      "support_text": "More than nine years later, the community still feels it has not received justice..."
+    },
+    {
+      "source": "text_98_node_3",
+      "target": "text_98_node_9",
+      "relation": "before",
+      "support_text": "More than 1,200 witnesses have testified in a specially fortified court since the trial opened in September 2001."
+    },
+    {
+      "source": "text_98_node_5",
+      "target": "text_98_node_6",
+      "relation": "before",
+      "support_text": "Following a report in the New York Times."
+    },
+    {
+      "source": "text_98_node_5",
+      "target": "text_98_node_12",
+      "relation": "before",
+      "support_text": "Following a report in the New York Times."
+    },
+    {
+      "source": "text_98_node_6",
+      "target": "text_98_node_7",
+      "relation": "before",
+      "support_text": "Warrants Israel and the United States agree - and the Argentine judge who has been handling the case for nine years may do so as well."
+    },
+    {
+      "source": "text_98_node_7",
+      "target": "text_98_node_4",
+      "relation": "before",
+      "support_text": "sparking diplomatic rows between Iran and Argentina and between Iran and the UK."
+    },
+    {
+      "source": "text_98_node_7",
+      "target": "text_98_node_11",
+      "relation": "before",
+      "support_text": "Following a report in the New York Times."
+    },
+    {
+      "source": "text_98_node_8",
+      "target": "text_98_node_3",
+      "relation": "before",
+      "support_text": "Five of the Argentines on trial are accused of knowingly providing the attackers with the vehicle used in the bombing."
+    },
+    {
+      "source": "text_98_node_9",
+      "target": "text_98_node_10",
+      "relation": "before",
+      "support_text": "More than nine years later, the community still feels it has not received justice."
+    }
+  ]
+}

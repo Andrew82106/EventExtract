@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "text_63_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2012年7月22日，Breivik在奥斯陆政府区实施爆炸并开枪扫射，造成77人死亡",
+      "support_text": "Breivik has admitted killing 77 people and wounding more than 240 others when he bombed central Oslo and then opened fire at a youth camp on Utoeya.",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "17:25当地时间，尤特亚岛枪击事件开始，10分钟内警方接到枪击报案",
+      "support_text": "As early as 17:25 local time, shootings were reported on Utoeya Within five minutes, police were contacted by a boat captain offering his vessel",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "17:55两名当地警察抵达湖岸，因等待精英部队未立即采取行动",
+      "support_text": "The first local police patrol arrived at 17:55, but the two officers did not try to find a boat despite guidelines recommending an immediate response to gun attacks",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "18:27精英部队使用临时船只抵达尤特亚岛，延误35分钟到达核心区域",
+      "support_text": "They could have reached the island at 18:15, the commission suggests Most of the dead were young activists who were taking part in a summer camp on Utoeya",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "8月13日，独立调查报告指出警方存在严重反应迟缓问题",
+      "support_text": "Among the most damaging of the report's conclusions is that a two-man local police team reached the lake shore at Utvika first, but chose to wait for better-trained colleagues rather than find a boat and cross to Utoeya themselves",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "报告揭示警方未及时跟进10分钟后收到的 Breivik特征描述",
+      "support_text": "A pedestrian made a phone-call 10 minutes after the Oslo bomb went off, giving police a good description of a man carrying a pistol and wearing protective clothing. The operator passed the message on but the tip-off was not followed up for some two hours",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "8月13日，政府确认未实施全国性紧急警报和交通管制",
+      "support_text": "Although it was clear that a terrorist attack had been carried out, the inquiry says no immediate nationwide alert was given, no roadblocks or observation posts were set up",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "8月24日，Breivik审判日期最终确定",
+      "support_text": "A verdict in Breivik's trial is due on 24 August",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查报告建议加强安保措施以预防类似袭击",
+      "support_text": "More security and emergency measures to prevent further attacks and 'mitigate adverse effects' should have been implemented on 22 July",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府总理Stoltenberg公开承认警方失误但未要求辞职",
+      "support_text": "Jens Stoltenberg said he deeply regretted the mistakes that had been made and took responsibility for what had happened but stopped short of saying there would be ministerial resignations",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "官员试图寻找船只",
+      "support_text": "officers did not try to find a boat despite guidelines recommending an immediate response to gun attacks",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Delta队被迫放弃救生艇",
+      "support_text": "Delta team was forced to abandon dinghy",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Delta队着陆于Utoeya",
+      "support_text": "Delta team landed on Utoeya",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_14",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "死者是年轻活动家",
+      "support_text": "Most of the dead were young activists",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_15",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "活动家参加夏令营",
+      "support_text": "activists taking part in a summer camp",
+      "source_text": "text_63"
+    },
+    {
+      "id": "text_63_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "工党运营夏令营",
+      "support_text": "Labour Party running summer camp",
+      "source_text": "text_63"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_63_node_1",
+      "target": "text_63_node_2",
+      "relation": "before",
+      "support_text": "Breivik has admitted killing 77 people and wounding more than 240 others when he bombed central Oslo and then opened fire at a youth camp on Utoeya."
+    },
+    {
+      "source": "text_63_node_2",
+      "target": "text_63_node_3",
+      "relation": "before",
+      "support_text": "Within five minutes, police were contacted by a boat captain offering his vessel"
+    },
+    {
+      "source": "text_63_node_3",
+      "target": "text_63_node_4",
+      "relation": "before",
+      "support_text": "The first local police patrol arrived at 17:55"
+    },
+    {
+      "source": "text_63_node_3",
+      "target": "text_63_node_11",
+      "relation": "before",
+      "support_text": "officers did not try to find a boat"
+    },
+    {
+      "source": "text_63_node_4",
+      "target": "text_63_node_5",
+      "relation": "before",
+      "support_text": "Among the most damaging of the report's conclusions is that a two-man local police team reached the lake shore at Utvika first"
+    },
+    {
+      "source": "text_63_node_4",
+      "target": "text_63_node_12",
+      "relation": "before",
+      "support_text": "Delta team was forced to abandon dinghy"
+    },
+    {
+      "source": "text_63_node_4",
+      "target": "text_63_node_15",
+      "relation": "before",
+      "support_text": "summer camp participants"
+    },
+    {
+      "source": "text_63_node_5",
+      "target": "text_63_node_6",
+      "relation": "before",
+      "support_text": "A pedestrian made a phone-call 10 minutes after the Oslo bomb went off"
+    },
+    {
+      "source": "text_63_node_5",
+      "target": "text_63_node_9",
+      "relation": "before",
+      "support_text": "More security and emergency measures to prevent further attacks and 'mitigate adverse effects' should have been implemented on 22 July"
+    },
+    {
+      "source": "text_63_node_6",
+      "target": "text_63_node_7",
+      "relation": "before",
+      "support_text": "Although it was clear that a terrorist attack had been carried out"
+    },
+    {
+      "source": "text_63_node_7",
+      "target": "text_63_node_8",
+      "relation": "before",
+      "support_text": "A verdict in Breivik's trial is due on 24 August"
+    },
+    {
+      "source": "text_63_node_8",
+      "target": "text_63_node_10",
+      "relation": "before",
+      "support_text": "A verdict in Breivik's trial is due on 24 August"
+    },
+    {
+      "source": "text_63_node_12",
+      "target": "text_63_node_13",
+      "relation": "before",
+      "support_text": "after abandoning dinghy"
+    },
+    {
+      "source": "text_63_node_13",
+      "target": "text_63_node_14",
+      "relation": "before",
+      "support_text": "after landing on Utoeya"
+    },
+    {
+      "source": "text_63_node_15",
+      "target": "text_63_node_16",
+      "relation": "before",
+      "support_text": "Labour Party operation"
+    }
+  ]
+}

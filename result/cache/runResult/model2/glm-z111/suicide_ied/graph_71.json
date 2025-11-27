@@ -1,0 +1,264 @@
+{
+  "nodes": [
+    {
+      "id": "text_71_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗上周举行全国和解会议，支持与塔利班和平谈判计划",
+      "support_text": "Last week, Afghanistan held a national peace council and endorsed a plan to seek peace with the Taliban.",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "上周一北约在阿富汗阵亡10名士兵，创数月最严重单日伤亡",
+      "support_text": "On Monday, Nato's International Security Assistance Force (Isaf) lost 10 soldiers on its deadliest day in months.",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_3",
+      "event_type": "Disaster",
+      "event_subtype": "Crash",
+      "event_sub_subtype": "Unspecified",
+      "description": "周三早些时候四名北约士兵在赫尔曼德省直升机遭火箭弹击落",
+      "support_text": "In earlier violence on Wednesday, four American Nato soldiers were killed when their helicopter was shot down in neighbouring Helmand province.",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "周三晚坎大哈省婚礼地点发生爆炸，造成39人死亡73人受伤",
+      "support_text": "An explosion in Kandahar province... killed at least 39 people... the blast ripped through a wedding party on Wednesday evening, leaving another 70 more wounded.",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸现场确认发生在男性区域，新郎及亲友均受伤",
+      "support_text": "The explosion was reported to have taken place in an area reserved for men. The groom was one of those wounded in the attack, according to his brother.",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "本周累计北约士兵死亡人数超过20人",
+      "support_text": "More than 20 Nato soldiers have died this week.",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "坎大哈被明确列为北约下一步军事打击重点区域",
+      "support_text": "Kandahar is set to be the next focus of Nato's military drive against the Taliban.",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "婚礼被目标锁定",
+      "support_text": "婚礼被目标锁定",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "某个人安放了装置",
+      "support_text": "某个人安放了装置",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "没有人承认安放装置",
+      "support_text": "没有人承认安放装置",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_11",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "电视台呼吁人们参与献血",
+      "support_text": "电视台呼吁人们参与献血",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_12",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "电视台帮助受伤者",
+      "support_text": "电视台帮助受伤者",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "AFP报道了该事件",
+      "support_text": "AFP报道了该事件",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Karzai's plan to seek peace with the Taliban",
+      "support_text": "计划寻求与塔利班和平",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "和平委员会支持赦免和就业激励措施",
+      "support_text": "和平委员会支持赦免和就业激励措施",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "和平委员会促使武装分子放弃武器",
+      "support_text": "和平委员会促使武装分子放弃武器",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子放弃武器",
+      "support_text": "武装分子放弃武器",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班发动战斗推翻美国支持的政府并驱逐外国军队",
+      "support_text": "塔利班正在发动战斗以推翻美国支持的政府并驱逐13万外国军队",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班试图推翻美国支持的政府",
+      "support_text": "塔利班试图推翻美国支持的政府",
+      "source_text": "text_71"
+    },
+    {
+      "id": "text_71_node_20",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班试图驱逐13万外国军队",
+      "support_text": "塔利班试图驱逐13万外国军队",
+      "source_text": "text_71"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_71_node_1",
+      "target": "text_71_node_7",
+      "relation": "before",
+      "support_text": "Last week, Afghanistan held a national peace council... Kandahar is set to be the next focus of Nato's military drive."
+    },
+    {
+      "source": "text_71_node_2",
+      "target": "text_71_node_6",
+      "relation": "before",
+      "support_text": "Last week... On Monday, Nato's International Security Assistance Force (Isaf) lost 10 soldiers... More than 20 Nato soldiers have died this week."
+    },
+    {
+      "source": "text_71_node_3",
+      "target": "text_71_node_4",
+      "relation": "before",
+      "support_text": "In earlier violence on Wednesday, four American Nato soldiers were killed when their helicopter was shot down in neighbouring Helmand province."
+    },
+    {
+      "source": "text_71_node_3",
+      "target": "text_71_node_6",
+      "relation": "before",
+      "support_text": "four American Nato soldiers were killed... More than 20 Nato soldiers have died this week."
+    },
+    {
+      "source": "text_71_node_4",
+      "target": "text_71_node_7",
+      "relation": "before",
+      "support_text": "An explosion in Kandahar province... Kandahar is set to be the next focus of Nato's military drive."
+    },
+    {
+      "source": "text_71_node_8",
+      "target": "text_71_node_4",
+      "relation": "before",
+      "support_text": "婚礼被目标锁定发生在爆炸前"
+    },
+    {
+      "source": "text_71_node_9",
+      "target": "text_71_node_4",
+      "relation": "before",
+      "support_text": "装置安放发生在爆炸前"
+    },
+    {
+      "source": "text_71_node_10",
+      "target": "text_71_node_9",
+      "relation": "before",
+      "support_text": "装置安放后无人承认"
+    },
+    {
+      "source": "text_71_node_14",
+      "target": "text_71_node_15",
+      "relation": "before",
+      "support_text": "计划寻求与塔利班和平后，和平委员会支持赦免和就业激励措施"
+    },
+    {
+      "source": "text_71_node_15",
+      "target": "text_71_node_16",
+      "relation": "before",
+      "support_text": "和平委员会支持赦免和就业激励措施后，促使武装分子放弃武器"
+    },
+    {
+      "source": "text_71_node_16",
+      "target": "text_71_node_17",
+      "relation": "before",
+      "support_text": "和平委员会促使武装分子放弃武器后，武装分子放弃武器"
+    },
+    {
+      "source": "text_71_node_18",
+      "target": "text_71_node_20",
+      "relation": "before",
+      "support_text": "发动战斗后实施驱逐行动"
+    },
+    {
+      "source": "text_71_node_19",
+      "target": "text_71_node_18",
+      "relation": "before",
+      "support_text": "推翻政府是发动战斗的前置条件"
+    }
+  ]
+}

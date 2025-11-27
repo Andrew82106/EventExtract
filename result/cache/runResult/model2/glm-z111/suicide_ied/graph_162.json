@@ -1,0 +1,237 @@
+{
+  "nodes": [
+    {
+      "id": "text_162_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其航空因天气原因取消前往摩加迪沙的航班",
+      "support_text": "Turkish Airlines canceled its flight to Mogadishu last week due to bad weather and said the company will not make any further comment.",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daallo航空接手载有74名乘客的航班，其中包括携带爆炸物的自杀式袭击者",
+      "support_text": "Daallo picked up the 70 stranded Turkish Airlines passengers to fly them to Djibouti, including the suicide bomber. In total, the flight had 74 passengers.",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致机舱被撕开1米宽缺口，袭击者被吸出机舱，飞机紧急迫降摩加迪沙",
+      "support_text": "The bomber was sucked out of the plane through the 1-metre-wide hole when the blast ripped open the pressurized cabin in flight, officials said.",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查发现袭击者通过机场工作人员交接藏有笔记本电脑的炸弹",
+      "support_text": "CCTV footage released by the Somali National Intelligence Agency (NISA) appears to show two airport workers inside the terminal handing the suicide bomber a laptop, according to the government spokesman.",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_5",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "摩加迪沙机场逮捕多名工作人员并启动安全调查",
+      "support_text": "Somali officials said an investigation had been launched and arrests made, including airport workers.",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daallo航空确认将提升在索马里的运营，继续执行国际航班",
+      "support_text": "We have been there for 25 years, he said. \"Our efforts to keep Somalia linked to the rest of the world will continue.\"",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国官员指认基地组织关联的Al Shabaab为爆炸责任方",
+      "support_text": "U.S. officials said on Monday the United States suspects Islamist militant group al Shabaab, which has links to al Qaeda, was responsible for the blast.",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "摩加迪沙机场加强安检并引入新技术防范类似袭击",
+      "support_text": "security at the airport has been stepped up and that the government was seeking new technologies to improve screenings.",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "袭击者强迫飞机紧急降落",
+      "support_text": "语义描述：袭击者强迫飞机紧急降落；支持文本：事件发生时飞机因爆炸导致机舱受损，被迫紧急迫降",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "飞机停放在机场",
+      "support_text": "语义描述：飞机停放在机场；支持文本：Daallo航空接手载有74名乘客的航班后停放在摩加迪沙机场",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daallo总裁星期一表示",
+      "support_text": "语义描述：Daallo总裁星期一表示；支持文本：Daallo航空确认将提升在索马里的运营，继续执行国际航班",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "乘客（袭击者）使用土耳其航空登机牌登机",
+      "support_text": "乘客（袭击者）使用土耳其航空登机牌登机",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "多数乘客原计划乘坐土耳其航空航班",
+      "support_text": "多数乘客原计划乘坐土耳其航空航班",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "Mohamed Yassin向路透社披露信息",
+      "support_text": "Mohamed Yassin向路透社披露信息",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daallo驾驶航班将70名乘客飞往吉布提",
+      "support_text": "Daallo picked up the 70 stranded Turkish Airlines passengers to fly them to Djibouti, including the suicide bomber. In total, the flight had 74 passengers.",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查启动",
+      "support_text": "语义描述：调查启动；支持文本：已识别动词事件'launch'的语义描述",
+      "source_text": "text_162"
+    },
+    {
+      "id": "text_162_node_17",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者与航空或机场人员有联系",
+      "support_text": "语义描述：袭击者与航空或机场人员有联系；支持文本：已识别动词事件'have'的语义描述",
+      "source_text": "text_162"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_162_node_1",
+      "target": "text_162_node_2",
+      "relation": "before",
+      "support_text": "Turkish Airlines canceled its flight to Mogadishu last week due to bad weather"
+    },
+    {
+      "source": "text_162_node_2",
+      "target": "text_162_node_3",
+      "relation": "before",
+      "support_text": "Daallo picked up the 70 stranded Turkish Airlines passengers to fly them to Djibouti, including the suicide bomber"
+    },
+    {
+      "source": "text_162_node_2",
+      "target": "text_162_node_15",
+      "relation": "before",
+      "support_text": "Daallo接手载有74名乘客的航班后执行飞往吉布提的航班"
+    },
+    {
+      "source": "text_162_node_3",
+      "target": "text_162_node_4",
+      "relation": "before",
+      "support_text": "The blast ripped open the pressurized cabin in flight"
+    },
+    {
+      "source": "text_162_node_4",
+      "target": "text_162_node_5",
+      "relation": "before",
+      "support_text": "CCTV footage released by the Somali National Intelligence Agency (NISA) appears to show"
+    },
+    {
+      "source": "text_162_node_5",
+      "target": "text_162_node_7",
+      "relation": "before",
+      "support_text": "U.S. officials said on Monday the United States suspects"
+    },
+    {
+      "source": "text_162_node_7",
+      "target": "text_162_node_8",
+      "relation": "before",
+      "support_text": "security at the airport has been stepped up"
+    },
+    {
+      "source": "text_162_node_8",
+      "target": "text_162_node_6",
+      "relation": "before",
+      "support_text": "We have been there for 25 years"
+    },
+    {
+      "source": "text_162_node_12",
+      "target": "text_162_node_2",
+      "relation": "before",
+      "support_text": "登机后航班被接手"
+    },
+    {
+      "source": "text_162_node_13",
+      "target": "text_162_node_1",
+      "relation": "before",
+      "support_text": "原计划航班被取消前存在"
+    },
+    {
+      "source": "text_162_node_14",
+      "target": "text_162_node_5",
+      "relation": "before",
+      "support_text": "披露信息后启动调查"
+    },
+    {
+      "source": "text_162_node_16",
+      "target": "text_162_node_5",
+      "relation": "before",
+      "support_text": "根据temporal_order 1→2，新增调查启动（node_16）与索马里官员宣布调查（node_5）的时序关系"
+    },
+    {
+      "source": "text_162_node_17",
+      "target": "text_162_node_4",
+      "relation": "before",
+      "support_text": "根据temporal_order 5→6，新增袭击者关联（node_17）与CCTV录像分析（node_4）的时序关系"
+    }
+  ]
+}

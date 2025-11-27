@@ -1,0 +1,405 @@
+{
+  "nodes": [
+    {
+      "id": "text_119_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Richard Reid attempted to board AA Flight 63 from Paris to Miami on Friday without answering all security questions and was initially denied entry",
+      "support_text": "Sources in France said that Reid attempted Friday to board an American Airlines Paris-to-Miami flight, but authorities at Charles de Gaulle Airport in Paris would not let him aboard when he did not answer all their questions.",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_2",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "French authorities reissued Reid's ticket after verifying his British passport and transferred him to American Airlines",
+      "support_text": "allowed American Airlines to reissue the man's ticket for Flight 63 the next day",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid ignited a match in his mouth during the flight and attempted to set fire to his shoes' inner tongue",
+      "support_text": "a flight attendant smelled what she thought was a burnt match at about 11 a.m., 90 minutes into the flight... he put a match into his mouth",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Flight attendants and passengers subdued Reid after he bit one attendant and struggled with multiple crew members",
+      "support_text": "Moutardier then threw the water into the passenger's face. At that point, several other passengers joined in",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_5",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Passengers sedated Reid with medical kits twice before the plane landed safely at Logan International Airport",
+      "support_text": "two doctors among the passengers obtained sedatives from a medical kit on the plane and injected them into Reid -- repeating the process twice more",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "The FAA issued a security directive mandating random shoe inspections for all flights following the incident",
+      "support_text": "as a result of Saturday's events, the Federal Aviation Administration issued a security directive",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_7",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid was arraigned in U.S. District Court on Monday facing charges of interfering with flight crew duties",
+      "support_text": "Richard C. Reid, 28, has been charged with interfering with the performance of the duties of flight crew members by assault or intimidation",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_8",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "U.S. Magistrate Judith Dein approved Reid's continued custody until the evidentiary hearing scheduled for Friday",
+      "support_text": "U.S. Magistrate Judith Dein approved a request by U.S. attorneys for Reid to remain in custody until the pending trial",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "FBI identified Reid's shoes contained 10 ounces of unknown explosive material (Semtex/PETN/RDX pending analysis)",
+      "support_text": "FBI's preliminary analysis of Reid's shoes showed they contained 'two functional improvised explosive devices'... about 10 ounces of an explosive substance",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_10",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "Reid made statements during restraint including 'It will happen the way it was written to happen'",
+      "support_text": "Reid added: 'It will happen the way it's supposed to happen. The way it was written to happen'",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "The Boeing 767 with 197 people aboard was escorted by fighter jets to a safe landing in Boston",
+      "support_text": "The Boeing 767 carrying 183 passengers and a crew of about 14 landed safely at 12:50 p.m. EST, escorted by U.S. fighter jets",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Richard Reid attempted to board AA Flight 63 from Paris to Miami on Friday without answering all security questions and was initially denied entry",
+      "support_text": "Sources in France said that Reid attempted Friday to board an American Airlines Paris-to-Miami flight, but authorities at Charles de Gaulle Airport in Paris would not let him aboard when he did not answer all their questions.",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "American Airlines Flight 63 was diverted to Boston's Logan International Airport following Reid's attack",
+      "support_text": "The Boeing 767 carrying 183 passengers and a crew of about 14 landed safely at 12:50 p.m. EST, escorted by U.S. fighter jets",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Reid安静地走进法庭",
+      "support_text": "Reid安静地走进法庭",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "Reid对是否作证问题耸肩回应",
+      "support_text": "Reid对是否作证问题耸肩回应",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid用'yeah'澄清之前的耸肩动作",
+      "support_text": "Reid用'yeah'澄清之前的耸肩动作",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid对问题回答'yes'",
+      "support_text": "Reid对问题回答'yes'",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid理解自身权利和指控内容",
+      "support_text": "Reid理解自身权利和指控内容",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府官员声明鞋子含有约10盎司爆炸物",
+      "support_text": "政府官员声明鞋子含有约10盎司爆炸物",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析员确定爆炸物类型（Semtex/PETN/RDX）",
+      "support_text": "分析员确定爆炸物类型（Semtex/PETN/RDX）",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid的行为引发乘务组进一步怀疑",
+      "support_text": "Reid未回答安全问题时引发乘务组警觉",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_22",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "Moutardier通过对讲机向船长发出警报",
+      "support_text": "Moutardier通过对讲机向船长发出警报",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Moutardier看到Reid",
+      "support_text": "Moutardier看到Reid",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Moutardier注意到鞋内露出导线",
+      "support_text": "Moutardier注意到鞋内露出导线",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Moutardier试图抓住鞋子",
+      "support_text": "Moutardier试图抓住鞋子",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_26",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid将Moutardier推入隔板",
+      "support_text": "Reid将Moutardier推入隔板",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_27",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Moutardier推倒Reid使其摔倒",
+      "support_text": "Moutardier推倒Reid使其摔倒",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_28",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Moutardier跑向取水",
+      "support_text": "Moutardier跑向取水",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_29",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Cristina Jones加入混乱场面",
+      "support_text": "Cristina Jones加入混乱场面",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_30",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid咬伤Cristina Jones的拇指",
+      "support_text": "Reid咬伤Cristina Jones的拇指",
+      "source_text": "text_119"
+    },
+    {
+      "id": "text_119_node_5a",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "乘客Reid被用安全带固定在座位上",
+      "support_text": "事件语义描述",
+      "source_text": "text_119"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_119_node_1",
+      "target": "text_119_node_2",
+      "relation": "before",
+      "support_text": "allowed American Airlines to reissue the man's ticket for Flight 63 the next day"
+    },
+    {
+      "source": "text_119_node_1",
+      "target": "text_119_node_21",
+      "relation": "before",
+      "support_text": "未回答问题触发后续怀疑"
+    },
+    {
+      "source": "text_119_node_1",
+      "target": "text_119_node_5a",
+      "relation": "before",
+      "support_text": "Reid未回答安全问题时被安全带固定"
+    },
+    {
+      "source": "text_119_node_2",
+      "target": "text_119_node_3",
+      "relation": "before",
+      "support_text": "a flight attendant smelled what she thought was a burnt match at about 11 a.m., 90 minutes into the flight"
+    },
+    {
+      "source": "text_119_node_3",
+      "target": "text_119_node_4",
+      "relation": "before",
+      "support_text": "Moutardier then threw the water into the passenger's face. At that point, several other passengers joined in"
+    },
+    {
+      "source": "text_119_node_3",
+      "target": "text_119_node_9",
+      "relation": "before",
+      "support_text": "FBI's preliminary analysis of Reid's shoes showed"
+    },
+    {
+      "source": "text_119_node_3",
+      "target": "text_119_node_19",
+      "relation": "before",
+      "support_text": "在Reid点燃鞋舌期间，政府官员声明鞋子含有爆炸物"
+    },
+    {
+      "source": "text_119_node_4",
+      "target": "text_119_node_5",
+      "relation": "before",
+      "support_text": "two doctors among the passengers obtained sedatives from a medical kit on the plane and injected them into Reid"
+    },
+    {
+      "source": "text_119_node_4",
+      "target": "text_119_node_6",
+      "relation": "before",
+      "support_text": "as a result of Saturday's events"
+    },
+    {
+      "source": "text_119_node_4",
+      "target": "text_119_node_10",
+      "relation": "before",
+      "support_text": "Reid added: 'It will happen the way it's supposed to happen'"
+    },
+    {
+      "source": "text_119_node_5",
+      "target": "text_119_node_11",
+      "relation": "before",
+      "support_text": "before the plane landed in Boston"
+    },
+    {
+      "source": "text_119_node_5",
+      "target": "text_119_node_13",
+      "relation": "before",
+      "support_text": "before the plane landed in Boston"
+    },
+    {
+      "source": "text_119_node_7",
+      "target": "text_119_node_8",
+      "relation": "before",
+      "support_text": "U.S. Magistrate Judith Dein approved a request"
+    },
+    {
+      "source": "text_119_node_11",
+      "target": "text_119_node_6",
+      "relation": "before",
+      "support_text": "as a result of Saturday's events"
+    },
+    {
+      "source": "text_119_node_14",
+      "target": "text_119_node_15",
+      "relation": "before",
+      "support_text": "Reid进入法庭后开始回应"
+    },
+    {
+      "source": "text_119_node_15",
+      "target": "text_119_node_16",
+      "relation": "before",
+      "support_text": "耸肩动作引发后续澄清"
+    },
+    {
+      "source": "text_119_node_16",
+      "target": "text_119_node_17",
+      "relation": "before",
+      "support_text": "澄清后立即回答问题"
+    },
+    {
+      "source": "text_119_node_17",
+      "target": "text_119_node_18",
+      "relation": "before",
+      "support_text": "回答问题后理解指控"
+    },
+    {
+      "source": "text_119_node_19",
+      "target": "text_119_node_20",
+      "relation": "before",
+      "support_text": "政府官员声明后，分析员开始确定爆炸物类型"
+    },
+    {
+      "source": "text_119_node_5a",
+      "target": "text_119_node_3",
+      "relation": "before",
+      "support_text": "安全带固定后Reid点燃鞋舌"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "text_70_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年9月19日，哈马斯在特拉维夫商业区丹公交4路实施自杀式爆炸，造成6死70伤",
+      "support_text": "The Allenby Street bus bombing was a suicide bombing that occurred on September 19, 2002 on a Dan bus in the center of Tel Aviv's business district. Six people were killed in the attack and approximately 70 were injured. Hamas claimed responsibility for the attack.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列政府指控阿拉法特及巴勒斯坦领导层，发动军事行动包围拉马拉尔的阿布·祖拜达 compound，持续至2004年",
+      "support_text": "After an emergency meeting of the security cabinet, convened in wake of the bombing, Israel launched a military operation in the West Bank in which tanks and armored vehicles began a siege on the compound of Yasser Arafat in Ramallah.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_3",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者约尼·杰斯纳的器官捐献给巴勒斯坦女孩亚斯敏·阿布·拉米拉，手术成功",
+      "support_text": "Among the victims was Yoni Jesner, a Jewish teenager who attended Har Etzion yeshiva in Gush Etzion. Jesner sustained a critical head injury, and his parents signed their consent to detaching him from life support and donating his organs. Yasmin Abu Ramila, a 7-year old Palestinian girl from East Jerusalem, was the recipient of his kidney.",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "以色列、巴勒斯坦、欧盟及美国领导人就事件发表官方声明",
+      "support_text": "Israeli officials stated that the attack indicated that the Palestinian leadership was still unable or unwilling to rein in militants attacking Israeli targets. Palestinian National Authority - PNA officials condemned the attack and asked all Palestinian groups to denounce it. Hamas spokesman Ismail Abu Shanab stated that he expected to see \"a series of operations against the Zionist enemy...\" EU officials called on Israel to show restraint... US President George Bush strongly condemned the attack...",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全内阁召集紧急会议",
+      "support_text": "安全内阁召集紧急会议",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "坦克和装甲车开始封锁阿拉法特总部",
+      "support_text": "坦克和装甲车开始封锁阿拉法特总部",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "阿拉法特前往巴黎医院",
+      "support_text": "阿拉法特前往巴黎医院",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以军摧毁穆卡塔아",
+      "support_text": "以军摧毁穆卡塔아",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "严厉以色列报复将破坏巴勒斯坦改革努力",
+      "support_text": "严厉以色列报复将破坏巴勒斯坦改革努力",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击由阿拉法特反对者宣称",
+      "support_text": "袭击由阿拉法特反对者宣称",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "各党派拒绝暴力",
+      "support_text": "各党派拒绝暴力",
+      "source_text": "text_70"
+    },
+    {
+      "id": "text_70_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "各党派停止暴力",
+      "support_text": "各党派停止暴力",
+      "source_text": "text_70"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_2",
+      "relation": "before",
+      "support_text": "After an emergency meeting of the security cabinet, convened in wake of the bombing, Israel launched a military operation..."
+    },
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_3",
+      "relation": "before",
+      "support_text": "Among the victims was Yoni Jesner, a Jewish teenager who attended Har Etzion yeshiva in Gush Etzion..."
+    },
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_4",
+      "relation": "before",
+      "support_text": "Israeli officials stated that the attack indicated that the Palestinian leadership was still unable or unwilling to rein in militants attacking Israeli targets."
+    },
+    {
+      "source": "text_70_node_1",
+      "target": "text_70_node_5",
+      "relation": "before",
+      "support_text": "在炸弹袭击后，安全内阁召开紧急会议"
+    },
+    {
+      "source": "text_70_node_2",
+      "target": "text_70_node_3",
+      "relation": "before",
+      "support_text": "Among the victims was Yoni Jesner, a Jewish teenager who attended Har Etzion yeshiva in Gush Etzion..."
+    },
+    {
+      "source": "text_70_node_2",
+      "target": "text_70_node_4",
+      "relation": "before",
+      "support_text": "Israeli officials stated that the attack indicated that the Palestinian leadership was still unable or unwilling to rein in militants attacking Israeli targets."
+    },
+    {
+      "source": "text_70_node_3",
+      "target": "text_70_node_4",
+      "relation": "before",
+      "support_text": "Among the victims was Yoni Jesner, a Jewish teenager who attended Har Etzion yeshiva in Gush Etzion..."
+    },
+    {
+      "source": "text_70_node_5",
+      "target": "text_70_node_6",
+      "relation": "before",
+      "support_text": "安全内阁召集会议后，坦克和装甲车开始封锁"
+    },
+    {
+      "source": "text_70_node_6",
+      "target": "text_70_node_7",
+      "relation": "before",
+      "support_text": "阿拉法特封锁期间撤离至巴黎医院"
+    },
+    {
+      "source": "text_70_node_7",
+      "target": "text_70_node_8",
+      "relation": "before",
+      "support_text": "阿拉法特撤离后，以军发动攻击"
+    }
+  ]
+}

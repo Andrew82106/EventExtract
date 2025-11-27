@@ -1,0 +1,393 @@
+{
+  "nodes": [
+    {
+      "id": "text_148_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "4月14日 Easter Sunday Sri Lanka发生连环爆炸，目标包括3座教堂和4家酒店，造成321人死亡",
+      "support_text": "Sri Lankan police detained a Syrian among 40 people being questioned about the Easter Sunday attacks on churches and hotels, government and military sources said on Tuesday, as the toll from the coordinated bomb attacks rose to 321.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daesh通过 Amaq新闻 agency 宣称其成员实施爆炸，并暗示与基督徒和美-led联盟成员有关",
+      "support_text": "Daesh terror group on Tuesday said its 'fighters' were responsible for the deadly Easter bombings in Sri Lanka, the group's Amaq news agency said.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sri Lankan警方拘留40名嫌疑人，包括1名叙利亚籍人员",
+      "support_text": "Sri Lankan police detained a Syrian among 40 people being questioned about the Easter Sunday attacks on churches and hotels, government and military sources said on Tuesday.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国确认45名儿童在爆炸中遇难，伤亡总数达364人",
+      "support_text": "The total now is 45 children who died, UNICEF spokesman Christophe Boulierac told reporters in Geneva, stressing that others 'are wounded and are now fighting for their lives,' meaning the toll among minors from the Sunday attacks could rise.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国情报部门指出爆炸具有Daesh标志性特征",
+      "support_text": "U.S. intelligence sources said the attacks bore some of the hallmarks of the Daesh terrorist group.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "National Thowfeek Jamaath组织被指为幕后黑手，其领导人Zahran Hashmi三年前已因极端言论被关注",
+      "support_text": "Mohammed Zahran or Zahran Hashmi, became known to Muslim leaders three years ago for his incendiary speeches online.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度政府3月向斯里兰卡发出教堂袭击预警，但未采取行动",
+      "support_text": "warnings about growing radicalism in this island nation off the coast of India date to at least 2007, while Muslim leaders say their repeated warnings about the group and its leader drew no visible reaction from officials responsible for public security.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯里兰卡总理Wickremesinghe被排除在核心安全会议之外，因与总统Sirisena存在政敌关系",
+      "support_text": "Wickremesinghe had not been informed about the warning and had been shut out of top security meetings because of a feud with President Maithripala Sirisena.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "美国FBI派员协助调查，提供实验室检测和数据库分析支持",
+      "support_text": "Federal Bureau of Investigation (FBI) agents were being sent to Sri Lanka to assist in the investigation.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "英国反恐专家团队抵达斯里兰卡",
+      "support_text": "Counter-terrorism officials from Britain were also due to arrive on Tuesday.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_11",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "特朗普宣布向斯里兰卡提供司法协助",
+      "support_text": "U.S. President Donald Trump called Prime Minister Ranil Wickremesinghe on Monday to pledge U.S. support in bringing the perpetrators to justice.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯里兰卡宣布全国哀悼日，实施宵禁和紧急状态法",
+      "support_text": "Sri Lankan government imposed an emergency law at midnight on Monday, giving police extensive powers to detain and interrogate suspects without court orders. An overnight curfew has also been imposed since Sunday.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "中国驻斯使馆发布旅行警告，撤侨行动启动",
+      "support_text": "China's embassy in Sri Lanka warned Chinese nationals against traveling to Sri Lanka in the near term because of 'huge security risks.' China is a major investor in Sri Lanka. The embassy said one Chinese national was killed, five wounded and five were missing.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "The purported leader拟定了发布视频的计划",
+      "support_text": "语义描述：拟定领导人开始发布视频",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "The purported leader发布视频",
+      "support_text": "语义描述：领导人发布视频",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "The purported leader呼吁消除非穆斯林群体",
+      "support_text": "语义描述：领导人呼吁消除非穆斯林",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "faith leaders要求清除非穆斯林",
+      "support_text": "语义描述：要求消除非穆斯林",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查引出叙利亚等消息源",
+      "support_text": "语义描述：调查引出叙利亚等消息源",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "消息源向路透社透露",
+      "support_text": "语义描述：消息源向路透社透露",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "两次后续爆炸在下午发生",
+      "support_text": "语义描述：两次后续爆炸在下午发生",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_21",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹袭击导致和平局面彻底崩溃",
+      "support_text": "炸弹袭击导致和平局面彻底崩溃",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_22",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹袭击终结了相对平静的局势",
+      "support_text": "炸弹袭击终结了相对平静的局势",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_23",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国承诺对斯里兰卡爆炸袭击事件进行司法追责",
+      "support_text": "U.S. President Donald Trump called Prime Minister Ranil Wickremesinghe on Monday to pledge U.S. support in bringing the perpetrators to justice.",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_24",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击携带Daesh恐怖组织的特征",
+      "support_text": "袭击携带Daesh恐怖组织的特征",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "CNN画面显示炸弹携带者",
+      "support_text": "CNN画面显示炸弹携带者",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_26",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "男子轻拍孩子头",
+      "support_text": "男子轻拍孩子头",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_27",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "男子进入教堂",
+      "support_text": "男子进入教堂",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_28",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sirisena 解雇 Wickremesinghe",
+      "support_text": "Sirisena 解雇 Wickremesinghe",
+      "source_text": "text_148"
+    },
+    {
+      "id": "text_148_node_29",
+      "event_type": "Personnel",
+      "event_subtype": "ChangePosition",
+      "event_sub_subtype": "Lateral",
+      "description": "Sirisena 在压力下重新任命 Wickremesinghe",
+      "support_text": "Sirisena 在压力下重新任命 Wickremesinghe",
+      "source_text": "text_148"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_2",
+      "relation": "before",
+      "support_text": "Daesh terror group on Tuesday said its 'fighters' were responsible for the deadly Easter bombings in Sri Lanka"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_3",
+      "relation": "before",
+      "support_text": "Sri Lankan police detained a Syrian among 40 people being questioned about the Easter Sunday attacks"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_4",
+      "relation": "before",
+      "support_text": "The total now is 45 children who died"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_5",
+      "relation": "before",
+      "support_text": "U.S. intelligence sources said the attacks bore some of the hallmarks of the Daesh terrorist group"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_8",
+      "relation": "before",
+      "support_text": "Wickremesinghe had not been informed about the warning and had been shut out of top security meetings"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_12",
+      "relation": "before",
+      "support_text": "Sri Lankan government imposed an emergency law at midnight on Monday"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_9",
+      "relation": "before",
+      "support_text": "Federal Bureau of Investigation (FBI) agents were being sent to Sri Lanka"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_10",
+      "relation": "before",
+      "support_text": "Counter-terrorism officials from Britain were also due to arrive on Tuesday"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_11",
+      "relation": "before",
+      "support_text": "U.S. President Donald Trump called Prime Minister Ranil Wickremesinghe on Monday"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_13",
+      "relation": "before",
+      "support_text": "China's embassy in Sri Lanka warned Chinese nationals against traveling to Sri Lanka"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_14",
+      "relation": "before",
+      "support_text": "炸弹袭击事件后，拟领导人开始筹备视频发布"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_18",
+      "relation": "before",
+      "support_text": "语义描述：调查引出叙利亚等消息源"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_20",
+      "relation": "before",
+      "support_text": "语义描述：两次后续爆炸在下午发生"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_21",
+      "relation": "before",
+      "support_text": "炸弹袭击导致和平局面彻底崩溃"
+    },
+    {
+      "source": "text_148_node_1",
+      "target": "text_148_node_22",
+      "relation": "before",
+      "support_text": "炸弹袭击终结了相对平静的局势"
+    },
+    {
+      "source": "text_148_node_7",
+      "target": "text_148_node_1",
+      "relation": "before",
+      "support_text": "warnings about growing radicalism in this island nation off the coast of India date to at least 2007, while Muslim leaders say their repeated warnings about the group and its leader drew no visible reaction from officials responsible for public security."
+    },
+    {
+      "source": "text_148_node_7",
+      "target": "text_148_node_6",
+      "relation": "before",
+      "support_text": "warnings about growing radicalism in this island nation off the coast of India date to at least 2007"
+    },
+    {
+      "source": "text_148_node_14",
+      "target": "text_148_node_15",
+      "relation": "before",
+      "support_text": "视频筹备完成后进行发布"
+    },
+    {
+      "source": "text_148_node_15",
+      "target": "text_148_node_16",
+      "relation": "before",
+      "support_text": "视频发布后发出消除非穆斯林的呼吁"
+    },
+    {
+      "source": "text_148_node_16",
+      "target": "text_148_node_17",
+      "relation": "before",
+      "support_text": "宗教领袖根据呼吁发起清除行动"
+    },
+    {
+      "source": "text_148_node_18",
+      "target": "text_148_node_19",
+      "relation": "before",
+      "support_text": "语义描述：消息源向路透社透露"
+    }
+  ]
+}

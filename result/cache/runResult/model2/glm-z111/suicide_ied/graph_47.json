@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "text_47_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年黎巴嫩什叶派武装分子对美国使馆和海军陆战队基地实施爆炸袭击",
+      "support_text": "The bombings of the US embassy and US Marine barracks, both in 1983, are believed to have been carried out by Lebanese Shia militias",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_2",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "上述武装分子两年后（1985年）组建了Hezbollah组织",
+      "support_text": "that went on to form Hezbollah two years later",
+      "source_text": "text_47"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_47_node_1",
+      "target": "text_47_node_2",
+      "relation": "before",
+      "support_text": "that went on to form Hezbollah two years later"
+    }
+  ]
+}

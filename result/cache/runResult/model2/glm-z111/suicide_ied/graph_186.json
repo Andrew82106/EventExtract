@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "text_186_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯里兰卡发生连环爆炸，造成至少137人死亡",
+      "support_text": "COLOMBO: Sri Lanka's Prime Minister Ranil Wickremesinghe condemned a string of blasts that killed at least 137 people on Sunday (Apr 21) as 'cowardly' and said the government was working to 'contain the situation.'",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "总理拉尼·维克拉马辛哈谴责袭击为'懦夫行为'并呼吁全国团结",
+      "support_text": "I strongly condemn the cowardly attacks on our people today, I call upon all Sri Lankans during this tragic time to remain united and strong... The government is taking immediate steps to contain this situation.",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "总统马欣达·拉贾帕克萨宣布召开紧急会议并启动救援行动",
+      "support_text": "Emergency meeting called in a few minutes. Rescue operations underway",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "经济改革部长哈希·德Silva报告现场情况，称酒店和教堂遭袭区域伤亡惨重",
+      "support_text": "I saw many body parts strewn all over, there were many casualties including foreigners. Please stay calm and indoors.",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "教皇方济各在复活节演讲中哀悼袭击受害者并表达对基督教徒的支持",
+      "support_text": "I learned with sadness the news of the attacks which today, Easter Sunday, brought mourning and pain.",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总理拉尼·维克拉马辛哈再次强调避免传播未经证实的信息",
+      "support_text": "Please avoid propagating unverified reports and speculation.",
+      "source_text": "text_186"
+    },
+    {
+      "id": "text_186_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "总理拉尼·维克拉马辛哈通过推文发表声明",
+      "support_text": "I strongly condemn the cowardly attacks on our people today, I call upon all Sri Lankans during this tragic time to remain united and strong...",
+      "source_text": "text_186"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_186_node_1",
+      "target": "text_186_node_2",
+      "relation": "before",
+      "support_text": "Prime Minister Wickremesinghe condemned blasts that killed at least 137 people on Sunday (Apr 21)"
+    },
+    {
+      "source": "text_186_node_1",
+      "target": "text_186_node_3",
+      "relation": "before",
+      "support_text": "Minister de Silva said he had been to two attacked hotels and was at St Anthony's Shrine scene"
+    },
+    {
+      "source": "text_186_node_1",
+      "target": "text_186_node_4",
+      "relation": "before",
+      "support_text": "Minister de Silva described 'horrible scenes' and mentioned 'many casualties including foreigners'"
+    },
+    {
+      "source": "text_186_node_1",
+      "target": "text_186_node_5",
+      "relation": "before",
+      "support_text": "Pope Francis expressed sadness at attacks during Easter vigil Mass on Apr 20"
+    },
+    {
+      "source": "text_186_node_1",
+      "target": "text_186_node_7",
+      "relation": "before",
+      "support_text": "Prime Minister Wickremesinghe condemned blasts that killed at least 137 people on Sunday (Apr 21)"
+    },
+    {
+      "source": "text_186_node_2",
+      "target": "text_186_node_6",
+      "relation": "before",
+      "support_text": "Prime Minister Wickremesinghe repeated request to avoid unverified reports"
+    },
+    {
+      "source": "text_186_node_3",
+      "target": "text_186_node_4",
+      "relation": "before",
+      "support_text": "Minister de Silva reported scenes after emergency meeting and rescue operations"
+    }
+  ]
+}

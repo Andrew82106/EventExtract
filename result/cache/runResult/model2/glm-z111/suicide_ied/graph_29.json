@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "text_29_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式爆炸袭击在Peshawar YakaToot的ANP候选人Haroon Bilour集会现场发生，致14人死亡、35人受伤",
+      "support_text": "a suicide blast claimed at least 14 lives... moments after Bilour arrived at the venue",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Peshawar CCPO Qazi Jamil初步报告死亡11人，后更新为14人，并披露使用8公斤TNT炸药",
+      "support_text": "Immediately after the explosion, Qazi Jamil... put the death toll from the blast at 11... over the new couple of hours, rose to 14",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸被确认是自杀袭击，爆炸物在Haroon Bilour抵达会场并准备演讲时引爆",
+      "support_text": "Bomb Disposal Squad (BDS) confirmed that the blast was a suicide attack",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "Lady Reading医院证实35名伤者入院，5人重伤，Haroon Bilour经抢救无效死亡，其子Danial安全",
+      "support_text": "Zulfiqar Ali Babakhel...confirmed the death toll from the blast... 35 wounded people were brought to the hospital",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦选举委员会谴责袭击为安全漏洞，要求省级政府加强候选人安保",
+      "support_text": "Chief Election Commissioner (CEC) Justice... condemned the terrorist attack and termed it a 'weakness of security institutions'",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "各主要政党领袖谴责袭击，包括PTI、PPP、PML-N、PSP等",
+      "support_text": "Caretaker Prime Minister Nasirul Mulk and the heads of various political parties denounced the attack on the ANP corner meeting",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹袭击者利用烟花表演作为掩护",
+      "support_text": "语义描述：炸弹袭击者利用烟花表演作为掩护",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Geo News 报道了警方信息",
+      "support_text": "语义描述：Geo News 报道了警方信息",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Bilour 在会议上发表讲话",
+      "support_text": "语义描述：Bilour 在会议上发表讲话",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "支持者参与烟花表演",
+      "support_text": "语义描述：支持者参与烟花表演",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "支持者展示烟花",
+      "support_text": "语义描述：支持者展示烟花",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_12",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "ANP候选人被安排参选7月25日的PK-78选区选举",
+      "support_text": "ANP candidate was scheduled to contest the July 25 elections",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "发言人Zulfiqar Ali Babakhel向媒体发表声明",
+      "support_text": "语义描述：发言人向媒体发表声明",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "发言人向媒体发布最新伤亡信息",
+      "support_text": "语义描述：发言人向媒体通知",
+      "source_text": "text_29"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_29_node_1",
+      "target": "text_29_node_2",
+      "relation": "before",
+      "support_text": "Immediately after the explosion, Qazi Jamil..."
+    },
+    {
+      "source": "text_29_node_1",
+      "target": "text_29_node_3",
+      "relation": "before",
+      "support_text": "moments after Bilour arrived at the venue"
+    },
+    {
+      "source": "text_29_node_1",
+      "target": "text_29_node_4",
+      "relation": "before",
+      "support_text": "Haroon Bilour was rushed to the hospital in a critical condition"
+    },
+    {
+      "source": "text_29_node_2",
+      "target": "text_29_node_3",
+      "relation": "before",
+      "support_text": "Qazi Jamil put the death toll from the blast at 11"
+    },
+    {
+      "source": "text_29_node_3",
+      "target": "text_29_node_5",
+      "relation": "before",
+      "support_text": "condemned the terrorist attack"
+    },
+    {
+      "source": "text_29_node_3",
+      "target": "text_29_node_6",
+      "relation": "before",
+      "support_text": "denounced the attack on the ANP corner meeting"
+    },
+    {
+      "source": "text_29_node_6",
+      "target": "text_29_node_13",
+      "relation": "before",
+      "support_text": "语义描述：发言人向媒体发表声明（根据temporal_order 6）"
+    },
+    {
+      "source": "text_29_node_12",
+      "target": "text_29_node_1",
+      "relation": "before",
+      "support_text": " moments after Bilour arrived at the venue"
+    },
+    {
+      "source": "text_29_node_13",
+      "target": "text_29_node_14",
+      "relation": "before",
+      "support_text": "语义描述：发言人向媒体发布最新伤亡信息（根据temporal_order 7）"
+    }
+  ]
+}

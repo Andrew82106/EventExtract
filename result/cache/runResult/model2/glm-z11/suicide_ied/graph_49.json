@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "text_49_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2015年1月，同一酒店发生自杀式爆炸，造成5人死亡。",
+      "support_text": "Five people were killed in a suicide bombing at the same hotel in January 2015.",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年2月26日，自杀式爆炸发生在摩加迪沙索马里青年联盟酒店外，随后同伴有冲突，警方击毙4名武装分子，共造成14人死亡（含自杀者）及16人受伤，Al-Shabaab宣称对此负责。",
+      "support_text": "A suicide bomber detonated a truck at a checkpoint outside the Somali Youth League hotel at 7:45pm on 26 February 2016 in Mogadishu, Somalia. It was followed by his accomplices clashing with the hotel's security guards. The police said that they ended the attack by killing the four insurgent gunmen. Five militants, including the suicide bomber, as well at 14 civilians were killed. Al-Shabaab claimed responsibility.",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方报告了结束攻击的事件",
+      "support_text": "The police said that they ended the attack by killing the four insurgent gunmen",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察结束攻击",
+      "support_text": "警方击毙4名武装分子，共造成14人死亡（含自杀者）及16人受伤",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "五名激进分子和14名平民被杀害",
+      "support_text": "Five militants, including the suicide bomber, as well as 14 civilians were killed",
+      "source_text": "text_49"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_49_node_1",
+      "target": "text_49_node_2",
+      "relation": "before",
+      "support_text": "Five people were killed in a suicide bombing at the same hotel in January 2015. ==References=="
+    }
+  ]
+}

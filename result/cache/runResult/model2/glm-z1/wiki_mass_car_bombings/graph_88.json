@@ -1,0 +1,264 @@
+{
+  "nodes": [
+    {
+      "id": "text_88_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Oklahoma City启动十周年纪念仪式，包括9:02 CDT开始的168秒沉默",
+      "support_text": "the ceremony will begin right about the top of the hour... 9:02 a.m. local time... 168 seconds of silence",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "家属在教堂举行仪式后前往纪念广场，为168个受害者座椅放置鲜花和纪念品",
+      "support_text": "families' names will be read, and then the families who have gathered will get up from the church, walk across the street and go to the chair",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "儿童幸存者宣读纪念使命声明，声明强调铭记受害者、幸存者和受影响者",
+      "support_text": "children who survived the daycare center bombing... will read a mission statement during the service",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "前州长Frank Keating回顾救援工作，宣读受害者名单并提及9/11纽约消防员牺牲",
+      "support_text": "the former governor, too, Frank Keating, will all make special speeches during this ceremony",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "副总统Dick Cheney演讲，回顾事件影响并强调美国团结与正义",
+      "support_text": "the vice president, Dick Cheney; the former president, Bill Clinton; the former governor, too, Frank Keating, will all make special speeches during this ceremony",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "现任州长Brad Henry演讲，强调Oklahoma City复苏与纪念意义",
+      "support_text": "the former president, Bill Clinton; the former governor, too, Frank Keating, will all make special speeches during this ceremony",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "前总统Bill Clinton演讲，以树木象征重生并呼吁铭记历史",
+      "support_text": "the vice president, Dick Cheney; the former president, Bill Clinton; the former governor, too, Frank Keating, will all make special speeches during this ceremony",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "幸存者Ernestine Clark分享十年友谊与互助，提及跨地区纪念活动",
+      "support_text": "we were talking with a gentleman who lost his daughter... after the interview, he got up and he said",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "博物馆开放受害者照片展览，强调纪念的持续与社区责任",
+      "support_text": "a new exhibit that opened up just this week and it's titled 'Forever Changed and Changing Forever'",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "SOLEDAD O'BRIEN欢迎观众入场",
+      "support_text": "SOLEDAD欢迎观众",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "切换至Bill Hemmer的专题报道",
+      "support_text": "切换到Bill Hemmer的报道",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Bill Hemmer讲述历史事件",
+      "support_text": "Bill Hemmer讲述历史",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Bill Hemmer展示民众情绪照片",
+      "support_text": "Bill Hemmer展示民众情绪",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Bill Hemmer引导仪式流程讲解",
+      "support_text": "Bill Hemmer引导讲解仪式流程",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "要员将聚集在纪念堂",
+      "support_text": "要员将聚集在纪念堂",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "家属将聚集在纪念堂",
+      "support_text": "家属将聚集在纪念堂",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_18",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "家属将从教堂起身",
+      "support_text": "家属将从教堂起身",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_19",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "家属将步行穿过街道",
+      "support_text": "家属将步行穿过街道",
+      "source_text": "text_88"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_88_node_1",
+      "target": "text_88_node_2",
+      "relation": "before",
+      "support_text": "and then the families who have gathered will get up from the church, walk across the street and go to the chair"
+    },
+    {
+      "source": "text_88_node_1",
+      "target": "text_88_node_11",
+      "relation": "before",
+      "support_text": "仪式开始前观众入场"
+    },
+    {
+      "source": "text_88_node_2",
+      "target": "text_88_node_3",
+      "relation": "before",
+      "support_text": "children who survived the daycare center bombing... will read a mission statement during the service"
+    },
+    {
+      "source": "text_88_node_3",
+      "target": "text_88_node_4",
+      "relation": "before",
+      "support_text": "the former governor, too, Frank Keating, will all make special speeches during this ceremony"
+    },
+    {
+      "source": "text_88_node_4",
+      "target": "text_88_node_5",
+      "relation": "before",
+      "support_text": "the vice president, Dick Cheney; the former president, Bill Clinton; the former governor, too, Frank Keating, will all make special speeches during this ceremony"
+    },
+    {
+      "source": "text_88_node_5",
+      "target": "text_88_node_6",
+      "relation": "before",
+      "support_text": "the vice president, Dick Cheney; the former president, Bill Clinton; the former governor, too, Frank Keating, will all make special speeches during this ceremony"
+    },
+    {
+      "source": "text_88_node_6",
+      "target": "text_88_node_7",
+      "relation": "before",
+      "support_text": "the vice president, Dick Cheney; the former president, Bill Clinton; the former governor, too, Frank Keating, will all make special speeches during this ceremony"
+    },
+    {
+      "source": "text_88_node_7",
+      "target": "text_88_node_8",
+      "relation": "before",
+      "support_text": "we were talking with a gentleman who lost his daughter... after the interview, he got up and he said"
+    },
+    {
+      "source": "text_88_node_8",
+      "target": "text_88_node_10",
+      "relation": "before",
+      "support_text": "a new exhibit that opened up just this week and it's titled 'Forever Changed and Changing Forever'"
+    },
+    {
+      "source": "text_88_node_11",
+      "target": "text_88_node_12",
+      "relation": "before",
+      "support_text": "观众入场后切换报道"
+    },
+    {
+      "source": "text_88_node_12",
+      "target": "text_88_node_13",
+      "relation": "before",
+      "support_text": "报道切换后开始历史讲解"
+    },
+    {
+      "source": "text_88_node_13",
+      "target": "text_88_node_14",
+      "relation": "before",
+      "support_text": "历史讲解后展示民众情绪"
+    },
+    {
+      "source": "text_88_node_14",
+      "target": "text_88_node_15",
+      "relation": "before",
+      "support_text": "情绪展示后引导流程讲解"
+    },
+    {
+      "source": "text_88_node_16",
+      "target": "text_88_node_17",
+      "relation": "before",
+      "support_text": "要员聚集后家属开始聚集"
+    },
+    {
+      "source": "text_88_node_17",
+      "target": "text_88_node_18",
+      "relation": "before",
+      "support_text": "家属聚集后开始起身"
+    },
+    {
+      "source": "text_88_node_18",
+      "target": "text_88_node_19",
+      "relation": "before",
+      "support_text": "起身后开始步行"
+    }
+  ]
+}

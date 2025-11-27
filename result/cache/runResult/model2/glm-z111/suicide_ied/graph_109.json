@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "text_109_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年，21岁Jesse Aliganga高中毕业后加入美国海军陆战队",
+      "support_text": "Nathan joined the Marines in 1994, shortly after graduating from high school in Tallahassee, Florida, where his family still lives.",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_2",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年1月，Aliganga开始首次3年服役，完成Parris Island基础训练",
+      "support_text": "His original enlistment was in January 1995. His training included recruit training at Parris Island...",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_3",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995-1998年间，先后完成Camp Lejeune战斗训练、Twenty-Nine Palms通信专家培训及Biloxi Keesler空军基地培训",
+      "support_text": "Nathan's training included combat training at Camp Lejeune, training as a communications specialist at the Marine Air Ground Combat Center in Twenty-Nine Palms, and the Keesler Air Force Base in Biloxi.",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_4",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "1998年2月，完成Quantico海军陆战队安全警卫学校后派驻肯尼亚内罗毕",
+      "support_text": "Nathan was sent to Nairobi in late February 1998, when he completed Marine Security Guard School at Quantico.",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_5",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "1998年7月，Aliganga成功晋升为海军陆战队军士",
+      "support_text": "Nathan wanted to become sergeant before the end of his first four-year tour of duty with the Marines, in July 1998.",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1998年8月7日，Aliganga在内罗毕美国大使馆遇汽车炸弹袭击身亡，同批11名美国人遇难",
+      "support_text": "Marine Sergeant Jesse Nathanael Aliganga, 21, killed by a car-bomb explosion along with eleven fellow Americans as he guarded the U.S. Embassy in Nairobi, Kenya on Friday, August 7, 1998.",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后美国使馆误将Aliganga军衔列为下士，后更正为军士",
+      "support_text": "Despite the initial U.S. Embassy press release that erroneously listed him as 'Corporal Nathan Aliganga', it was Sergeant Jesse Nathanael Aliganga who died in Kenya.",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Aliganga母亲在Quantico举行纪念仪式，获颁 Purple Heart奖章",
+      "support_text": "At a memorial service at Quantico, Virginia, Nathan's mother was given her son's Purple Heart Medal.",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "家人计划将Aliganga遗体安葬于阿灵顿国家公墓",
+      "support_text": "Burial is planned in Arlington National Cemetery.",
+      "source_text": "text_109"
+    },
+    {
+      "id": "text_109_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "家人回忆Aliganga高中时期通过严格训练从微胖体型转变为军旅硬汉",
+      "support_text": "Nathan's sister, Leah Colston, 26, of Tallahassee, Florida, recalled how he was a little prone to putting on weight. Then he joined the Marines and when he came back from basic training the next year her little brother Nathan was slim and had toughened up so that she barely recognized him.",
+      "source_text": "text_109"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_109_node_1",
+      "target": "text_109_node_2",
+      "relation": "before",
+      "support_text": "Nathan joined the Marines in 1994, shortly after graduating from high school in Tallahassee, Florida, where his family still lives. His original enlistment was in January 1995."
+    },
+    {
+      "source": "text_109_node_2",
+      "target": "text_109_node_3",
+      "relation": "before",
+      "support_text": "His original enlistment was in January 1995. His training included recruit training at Parris Island, combat training at Camp Lejeune, training as a communications specialist at the Marine Air Ground Combat Center in Twenty-Nine Palms, and the Keesler Air Force Base in Biloxi."
+    },
+    {
+      "source": "text_109_node_3",
+      "target": "text_109_node_4",
+      "relation": "before",
+      "support_text": "Nathan was sent to Nairobi in late February 1998, when he completed Marine Security Guard School at Quantico, Virginia."
+    },
+    {
+      "source": "text_109_node_4",
+      "target": "text_109_node_5",
+      "relation": "before",
+      "support_text": "Nathan wanted to become sergeant before the end of his first four-year tour of duty with the Marines, in July 1998."
+    },
+    {
+      "source": "text_109_node_5",
+      "target": "text_109_node_6",
+      "relation": "before",
+      "support_text": "Nathan wanted to become sergeant before the end of his first four-year tour of duty with the Marines, in July 1998. Marine Sergeant Jesse Nathanael Aliganga, 21, killed by a car-bomb explosion along with eleven fellow Americans as he guarded the U.S. Embassy in Nairobi, Kenya on Friday, August 7, 1998."
+    },
+    {
+      "source": "text_109_node_6",
+      "target": "text_109_node_7",
+      "relation": "before",
+      "support_text": "Despite the initial U.S. Embassy press release that erroneously listed him as 'Corporal Nathan Aliganga', it was Sergeant Jesse Nathanael Aliganga who died in Kenya."
+    },
+    {
+      "source": "text_109_node_6",
+      "target": "text_109_node_8",
+      "relation": "before",
+      "support_text": "At a memorial service at Quantico, Virginia, Nathan's mother was given her son's Purple Heart Medal."
+    },
+    {
+      "source": "text_109_node_8",
+      "target": "text_109_node_9",
+      "relation": "before",
+      "support_text": "Burial is planned in Arlington National Cemetery."
+    },
+    {
+      "source": "text_109_node_10",
+      "target": "text_109_node_1",
+      "relation": "before",
+      "support_text": "Nathan's sister, Leah Colston, 26, of Tallahassee, Florida, recalled how he was a little prone to putting on weight. Then he joined the Marines and when he came back from basic training the next year her little brother Nathan was slim and had toughened up so that she barely recognized him."
+    }
+  ]
+}

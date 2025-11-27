@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "text_75_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年11月13日，北苏门答腊棉兰警察总部遭遇自杀式爆炸，印尼警方确认逮捕74名恐怖嫌疑人",
+      "support_text": "Indonesian Police Chief General Idham Aziz confirmed the arrests of 74 terror suspects after a suicide bombing targeted the Medan Police Headquarters in North Sumatra on Nov 13, 2019.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "11月16日，Densus 88在德尔伊省突袭行动中击毙2名试图拒捕的恐怖分子",
+      "support_text": "The two suspects were gunned down when they attacked the Densus 88 and local police personnel to skirt arrest, he noted.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖分子通过社交媒体接受极端思想洗脑，将政府及警察人员视为‘异教徒’目标",
+      "support_text": "The perpetrators of the two crimes belonged to the same group Jamaah Ansharut Daulah (JAD) and were indoctrinated into terrorism through social media. They targeted the government and police personnel, who were perceived as 'thaghut,' or those against the rules of Allah, by them.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "国会委员会听证会上，警方披露袭击前退役将军 Wiranto及棉兰爆炸案系同一组织（JAD）所为",
+      "support_text": "Based on the cases of attack against (retired) General Wiranto and the Medan bombing, the perpetrators are members of the JAD group,\" he remarked during a hearing with Commission III of the House of Representatives (DPR) here on Wednesday.",
+      "source_text": "text_75"
+    },
+    {
+      "id": "text_75_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "JAD组织成员被证实为两起案件的直接实施者，其成员分布覆盖苏门答腊、爪哇等8个省份",
+      "support_text": "Of the 74 suspects, 30 were detained in North Sumatra; 11 in West Java; five in Pekanbaru, Riau Province; five in Banten Province; four in East Kalimantan; three in Jakarta; two each in Aceh and East Java; and one in South Sulawesi.",
+      "source_text": "text_75"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_75_node_1",
+      "target": "text_75_node_2",
+      "relation": "before",
+      "support_text": "on November 16, North Sumatra Police Chief Inspector General Agus Andrianto stated."
+    },
+    {
+      "source": "text_75_node_1",
+      "target": "text_75_node_4",
+      "relation": "before",
+      "support_text": "after a suicide bombing targeted the Medan Police Headquarters in North Sumatra on Nov 13, 2019"
+    },
+    {
+      "source": "text_75_node_2",
+      "target": "text_75_node_4",
+      "relation": "before",
+      "support_text": "after the incident"
+    },
+    {
+      "source": "text_75_node_3",
+      "target": "text_75_node_5",
+      "relation": "before",
+      "support_text": "The perpetrators of the two crimes belonged to the same group"
+    },
+    {
+      "source": "text_75_node_4",
+      "target": "text_75_node_3",
+      "relation": "before",
+      "support_text": "Based on the cases of attack against (retired) General Wiranto and the Medan bombing"
+    },
+    {
+      "source": "text_75_node_4",
+      "target": "text_75_node_5",
+      "relation": "before",
+      "support_text": "the perpetrators are members of the JAD group"
+    }
+  ]
+}

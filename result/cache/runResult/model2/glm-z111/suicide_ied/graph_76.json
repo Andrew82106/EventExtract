@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "text_76_node_1",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "周四印度公民 Kulbhashan Yadav 提交认罪及减刑请求",
+      "support_text": "On Thursday, Kulbhashan Yadav, an Indian national who has been convicted and sentenced to death by a military court for funding and planning attacks in Balochistan for the Indian spy agency RAW, submitted a confession and mercy petition to Pakistan’s army chief, the Pakistani military said.",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦成立特别安全部队（SSD）保障中巴经济走廊",
+      "support_text": "Pakistan has established a Special Security Division comprising 15,000 troops to secure the CPEC corridor and projects associated with it.",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2022年8月奎达警察学院遭自杀式袭击致60人死亡",
+      "support_text": "In August last year, at least 74 people were killed in a suicide attack on the city’s Civil Hospital, while another 60 were killed in an attack on a police academy two months later.",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年2月奎达 Saryab 桥炸弹袭击致13人受伤",
+      "support_text": "In February, two bomb disposal squad members were killed and 11 others wounded in an explosion under Quetta’s Saryab bridge, local media reported.",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "周五早晨奎达省警察总部附近发生自杀式爆炸致12死14伤",
+      "support_text": "Suicide attack near provincial police chief’s office kills at least 12 people and wounds 14 others... The explosion on Friday morning struck a police checkpoint near a complex that is housing the Balochistan police chief’s office...",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jamaat-ur-Ahrar 宣布对爆炸袭击负责",
+      "support_text": "Jamaat-ur-Ahrar, a faction of the Pakistan Taliban, has claimed responsibility for the attack in a statement sent out its spokesperson Asad Mansoor.",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al Jazeera 报道指出 IG 办公室可能是袭击目标",
+      "support_text": "Al Jazeera’s Kamal Hyder, reporting from Islamabad, said the Inspector General’s office was the likely target of the attack.",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "奎达省多次遭 Baloch 分离主义武装及极端组织袭击",
+      "support_text": "Quetta, the provincial capital of Balochistan province, has seen frequent attacks targeting government buildings and security forces, as well as civilians.",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Separatists绑架两名中国公民",
+      "support_text": "Earlier this month, two Chinese citizens were kidnapped and killed in the province.",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Separatists杀害两名中国公民",
+      "support_text": "Earlier this month, two Chinese citizens were kidnapped and killed in the province.",
+      "source_text": "text_76"
+    },
+    {
+      "id": "text_76_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局指控印度制造不稳定",
+      "support_text": "当局指控印度制造不稳定",
+      "source_text": "text_76"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_76_node_2",
+      "target": "text_76_node_1",
+      "relation": "before",
+      "support_text": "Earlier this month, two Chinese citizens were kidnapped and killed in the province. Pakistan has established a Special Security Division comprising 15,000 troops to secure the CPEC corridor and projects associated with it."
+    },
+    {
+      "source": "text_76_node_3",
+      "target": "text_76_node_4",
+      "relation": "before",
+      "support_text": "In August last year, at least 74 people were killed in a suicide attack on the city’s Civil Hospital, while another 60 were killed in an attack on a police academy two months later."
+    },
+    {
+      "source": "text_76_node_4",
+      "target": "text_76_node_5",
+      "relation": "before",
+      "support_text": "Quetta, the provincial capital of Balochistan province, has seen frequent attacks targeting government buildings and security forces, as well as civilians."
+    },
+    {
+      "source": "text_76_node_5",
+      "target": "text_76_node_6",
+      "relation": "before",
+      "support_text": "Jamaat-ur-Ahrar, a faction of the Pakistan Taliban, has claimed responsibility for the attack in a statement sent out its spokesperson Asad Mansoor."
+    },
+    {
+      "source": "text_76_node_5",
+      "target": "text_76_node_7",
+      "relation": "before",
+      "support_text": "Al Jazeera’s Kamal Hyder, reporting from Islamabad, said the Inspector General’s office was the likely target of the attack."
+    },
+    {
+      "source": "text_76_node_5",
+      "target": "text_76_node_8",
+      "relation": "before",
+      "support_text": "Quetta, the provincial capital of Balochistan province, has seen frequent attacks targeting government buildings and security forces, as well as civilians."
+    },
+    {
+      "source": "text_76_node_8",
+      "target": "text_76_node_1",
+      "relation": "before",
+      "support_text": "Earlier this month, two Chinese citizens were kidnapped and killed in the province. Pakistan has established a Special Security Division comprising 15,000 troops to secure the CPEC corridor and projects associated with it."
+    },
+    {
+      "source": "text_76_node_9",
+      "target": "text_76_node_10",
+      "relation": "before",
+      "support_text": "Kidnap occurred before killing as per the temporal_order=2."
+    },
+    {
+      "source": "text_76_node_11",
+      "target": "text_76_node_1",
+      "relation": "before",
+      "support_text": "指控发生在定罪事件之前"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "text_40_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sana新闻 agency 报道在苏韦达市场发生一起自杀袭击",
+      "support_text": "State news agency Sana earlier reported one suicide attack at a market in Suweida",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队在阻止袭击者自爆前击毙两人",
+      "support_text": "security forces had killed two other attackers before they could blow themselves up",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子对苏韦达东北部三个村庄发动袭击",
+      "support_text": "Militants also attacked three villages north-east of the city",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sana新闻 agency 报道在苏韦达市场发生一起自杀袭击",
+      "support_text": "State news agency Sana earlier reported one suicide attack at a market in Suweida",
+      "source_text": "text_40"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_2",
+      "relation": "before",
+      "support_text": "security forces had killed two other attackers before they could blow themselves up"
+    },
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_4",
+      "relation": "before",
+      "support_text": "报道方陈述事件发生在自杀袭击事件之后"
+    }
+  ]
+}

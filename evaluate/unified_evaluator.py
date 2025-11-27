@@ -774,6 +774,117 @@ class UnifiedEvaluator:
         # 创建Excel写入器
         with pd.ExcelWriter(xlsx_file, engine='openpyxl') as writer:
             
+            # ========== 第一个工作表：全合并汇总 ==========
+            # 找到最高层级（所有图合并）的结果
+            max_level = max(results['levels'].keys())
+            all_merged_data = results['levels'][max_level]['average']
+            
+            # 创建汇总数据
+            summary_data = []
+            for hierarchy_level in [1, 2, 3]:
+                level_name = f'level{hierarchy_level}'
+                hierarchy_desc = ['只Type', 'Type.Subtype', 'Type.Subtype.Sub_subtype'][hierarchy_level-1]
+                
+                # 事件类型指标
+                summary_data.append({
+                    '层级': hierarchy_desc,
+                    '指标类型': '事件类型',
+                    'F1': all_merged_data[level_name]['event_types']['f1'],
+                    'Precision': all_merged_data[level_name]['event_types']['precision'],
+                    'Recall': all_merged_data[level_name]['event_types']['recall'],
+                    '预测数量': all_merged_data[level_name]['event_types'].get('predicted_count', 0),
+                    'GT数量': all_merged_data[level_name]['event_types'].get('gt_count', 0),
+                    '交集数量': all_merged_data[level_name]['event_types'].get('intersection_count', 0)
+                })
+                
+                # 序列2指标
+                summary_data.append({
+                    '层级': hierarchy_desc,
+                    '指标类型': '序列(长度2)',
+                    'F1': all_merged_data[level_name]['sequences_len2']['f1'],
+                    'Precision': all_merged_data[level_name]['sequences_len2']['precision'],
+                    'Recall': all_merged_data[level_name]['sequences_len2']['recall'],
+                    '预测数量': all_merged_data[level_name]['sequences_len2'].get('predicted_count', 0),
+                    'GT数量': all_merged_data[level_name]['sequences_len2'].get('gt_count', 0),
+                    '交集数量': all_merged_data[level_name]['sequences_len2'].get('intersection_count', 0)
+                })
+                
+                # 序列3指标
+                summary_data.append({
+                    '层级': hierarchy_desc,
+                    '指标类型': '序列(长度3)',
+                    'F1': all_merged_data[level_name]['sequences_len3']['f1'],
+                    'Precision': all_merged_data[level_name]['sequences_len3']['precision'],
+                    'Recall': all_merged_data[level_name]['sequences_len3']['recall'],
+                    '预测数量': all_merged_data[level_name]['sequences_len3'].get('predicted_count', 0),
+                    'GT数量': all_merged_data[level_name]['sequences_len3'].get('gt_count', 0),
+                    '交集数量': all_merged_data[level_name]['sequences_len3'].get('intersection_count', 0)
+                })
+            
+            # 写入汇总表（第一个工作表）
+            df_summary = pd.DataFrame(summary_data)
+            df_summary.to_excel(writer, sheet_name='全合并汇总', index=False)
+            
+            # ========== 第二个工作表：最优图数量组合 ==========
+            optimal_data = []
+            
+            for hierarchy_level in [1, 2, 3]:
+                level_name = f'level{hierarchy_level}'
+                hierarchy_desc = ['只Type', 'Type.Subtype', 'Type.Subtype.Sub_subtype'][hierarchy_level-1]
+                
+                # 收集所有层级的数据（图数量 -> 指标值）
+                level_data_map = {}
+                for level in sorted(results['levels'].keys()):
+                    level_data = results['levels'][level]
+                    avg = level_data['average']
+                    
+                    level_data_map[level] = {
+                        'EM': avg[level_name]['event_types']['f1'],
+                        'ESM2': avg[level_name]['sequences_len2']['f1'],
+                        'ESM3': avg[level_name]['sequences_len3']['f1']
+                    }
+                
+                # 找出EM最大值对应的图数量
+                em_max_level = max(level_data_map.keys(), key=lambda x: level_data_map[x]['EM'])
+                em_max_data = level_data_map[em_max_level]
+                optimal_data.append({
+                    '层级': hierarchy_desc,
+                    '最大指标': 'EM',
+                    '图数量': em_max_level,
+                    'EM (F1)': em_max_data['EM'],
+                    'ESM2 (F1)': em_max_data['ESM2'],
+                    'ESM3 (F1)': em_max_data['ESM3']
+                })
+                
+                # 找出ESM2最大值对应的图数量
+                esm2_max_level = max(level_data_map.keys(), key=lambda x: level_data_map[x]['ESM2'])
+                esm2_max_data = level_data_map[esm2_max_level]
+                optimal_data.append({
+                    '层级': hierarchy_desc,
+                    '最大指标': 'ESM2',
+                    '图数量': esm2_max_level,
+                    'EM (F1)': esm2_max_data['EM'],
+                    'ESM2 (F1)': esm2_max_data['ESM2'],
+                    'ESM3 (F1)': esm2_max_data['ESM3']
+                })
+                
+                # 找出ESM3最大值对应的图数量
+                esm3_max_level = max(level_data_map.keys(), key=lambda x: level_data_map[x]['ESM3'])
+                esm3_max_data = level_data_map[esm3_max_level]
+                optimal_data.append({
+                    '层级': hierarchy_desc,
+                    '最大指标': 'ESM3',
+                    '图数量': esm3_max_level,
+                    'EM (F1)': esm3_max_data['EM'],
+                    'ESM2 (F1)': esm3_max_data['ESM2'],
+                    'ESM3 (F1)': esm3_max_data['ESM3']
+                })
+            
+            # 写入最优组合表（第二个工作表）
+            df_optimal = pd.DataFrame(optimal_data)
+            df_optimal.to_excel(writer, sheet_name='最优图数量组合', index=False)
+            
+            # ========== 其余工作表：各层级详细数据 ==========
             # 为每个层级和指标类型创建工作表
             for hierarchy_level in [1, 2, 3]:
                 level_name = f'level{hierarchy_level}'
@@ -844,40 +955,60 @@ class UnifiedEvaluator:
         self.logger.printLog(f"Excel文件已保存到: {xlsx_file}")
 
 
-def main():
+def main(choice):
     """主函数 - 参数硬编码"""
     
     # ==================== 配置参数 ====================
     
     # 图文件目录（可以是单个路径或路径列表）
     # GRAPHS_DIR = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/model2/suicide_ied"
-    
-    # suicide_ied多目录合并评测示例：
-    GRAPHS_DIR = [
-        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model1/glm-4-flash/suicide_ied",
-        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm4.6/suicide_ied",
-        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm-z1/suicide_ied",
-        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model1/glm-z1/suicide_ied",
-        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model1/glm4.6/suicide_ied",
-    ]
-
-    # 限制目录中文件最大数量
-    MAX_FILE_COUNT = [
-        0,
-        1000,
-        1000,
-        0,
-        1000
-    ]
-
-    # wiki_mass_car_bombings多目录合并评测示例：
-    """GRAPHS_DIR = [
-        "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm4.6/wiki_mass_car_bombings"
-    ]
-
-    MAX_FILE_COUNT = [
-        1000
-    ]"""
+    if choice == 1:
+        GRAPHS_DIR = [
+            "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model1/glm-4-flash/suicide_ied",
+            "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm4.6/suicide_ied",
+            "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm-z1/suicide_ied",
+            "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm-z11/suicide_ied",
+            "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model1/glm-z1/suicide_ied",
+            "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model1/glm4.6/suicide_ied",
+        ]
+        MAX_FILE_COUNT = [
+            1000,
+            1000,
+            1000,
+            1000,
+            1000,
+            1000
+        ]
+        # 攻击类型
+        ATTACK_TYPE = "suicide_ied"
+    elif choice == 2:
+        GRAPHS_DIR = [
+            "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm4.6/wiki_mass_car_bombings",
+            "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm-z1/wiki_mass_car_bombings",
+            "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model1/glm-z1/wiki_mass_car_bombings",
+        ]
+        MAX_FILE_COUNT = [
+            1000,
+            1000,
+            1000
+        ]
+        # 攻击类型
+        ATTACK_TYPE = "wiki_mass_car_bombings"
+    elif choice == 3:
+        GRAPHS_DIR = [
+            "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model1/glm-z1/wiki_ied_bombings",
+            "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm-z1/wiki_ied_bombings",
+            "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/cache/runResult/model2/glm4.6/wiki_ied_bombings",
+        ]
+        MAX_FILE_COUNT = [
+            1000,
+            1000,
+            1000
+        ]
+        # 攻击类型
+        ATTACK_TYPE = "wiki_ied_bombings"
+    else:
+        raise ValueError(f"Invalid choice: {choice}")
 
     assert len(GRAPHS_DIR) == len(MAX_FILE_COUNT)
     
@@ -889,8 +1020,6 @@ def main():
     # 输出目录
     OUTPUT_DIR = "/Users/andrewlee/Nutstore Files/我的坚果云/情报杂志/code/result/unified_evaluation"
     
-    # 攻击类型
-    ATTACK_TYPE = "wiki_mass_car_bombings"
     
     # 递进式评测参数
     MAX_LEVEL = None  # None表示测试到全合并，或指定具体数字如20
@@ -919,5 +1048,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    main(1)
+    main(2)
+    main(3)
 

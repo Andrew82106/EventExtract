@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_180_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴格达发生汽车炸弹爆炸，至少40人死亡",
+      "support_text": "A fatal car bomb explosion in Iraq's capital Baghdad has killed at least 40 people according to local police sources.",
+      "source_text": "text_180"
+    },
+    {
+      "id": "text_180_node_2",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸造成超过60人受伤",
+      "support_text": "The car was loaded with explosives and blew up near a shopping mall today leaving more than 60 injured, reports DPA.",
+      "source_text": "text_180"
+    },
+    {
+      "id": "text_180_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸地点位于巴格达某购物中心附近",
+      "support_text": "The car was loaded with explosives and blew up near a shopping mall today",
+      "source_text": "text_180"
+    },
+    {
+      "id": "text_180_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "初步调查显示袭击者身份未明，但类似事件常被归因于ISIS",
+      "support_text": "There was no initial indication on who was behind the blast. However this is common in Baghdad, where deadly bombing attacks are often thought to be carried out by ISIS.",
+      "source_text": "text_180"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_180_node_1",
+      "target": "text_180_node_2",
+      "relation": "before",
+      "support_text": "The car was loaded with explosives and blew up near a shopping mall today leaving more than 60 injured, reports DPA."
+    },
+    {
+      "source": "text_180_node_1",
+      "target": "text_180_node_3",
+      "relation": "before",
+      "support_text": "The car was loaded with explosives and blew up near a shopping mall today"
+    },
+    {
+      "source": "text_180_node_2",
+      "target": "text_180_node_4",
+      "relation": "before",
+      "support_text": "There was no initial indication on who was behind the blast. However this is common in Baghdad, where deadly bombing attacks are often thought to be carried out by ISIS."
+    }
+  ]
+}

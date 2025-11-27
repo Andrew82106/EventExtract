@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "text_67_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "第一次炸弹袭击发生在摩加迪沙萨菲亚酒店外，造成231人死亡、275人受伤，该酒店位于政府机构集中区域",
+      "support_text": "Police said a truck bomb exploded outside the Safari Hotel at the K5 intersection, which is lined with government offices, restaurants and kiosks, flattening buildings and setting vehicles on fire.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "两小时后，麦地那区发生第二次爆炸事件",
+      "support_text": "A separate blast struck the Medina district two hours later.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "参议员Abshir Abdi Ahmed汇总医院数据，确认死亡人数并指出大量遗体未身份确认",
+      "support_text": "Abshir Abdi Ahmed said the toll comes from doctors at hospitals he has visited in Mogadishu.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "红会声明4名志愿者死亡，警告失踪人员可能增加",
+      "support_text": "The Red Cross said four volunteers with the Somali Red Crescent Society are among the dead and warned 'this figure may rise as there are a number of volunteers still missing.'",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "救援人员使用火炬搜索萨菲亚酒店废墟下的幸存者",
+      "support_text": "Overnight, rescue workers with torch lights searched for survivors trapped under the rubble of the largely destroyed Safari Hotel.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_6",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "总统宣布实施三天全国哀悼，并呼吁民众献血救助伤者",
+      "support_text": "President Mohamed Abdullahi Mohamed declared three days of mourning and joined thousands of people who responded to a desperate plea by hospitals to donate blood for the wounded victims.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府将袭击归咎于与基地组织关联的青年党，总理谴责袭击针对平民",
+      "support_text": "Somalia’s government blamed the al-Qaida-linked al-Shabaab extremist group for the attack it called a 'national disaster.'",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国与Somalia信息部长共同谴责袭击，强调反恐合作",
+      "support_text": "American and Somali information ministers condemned the attack, emphasizing counterterrorism cooperation.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认卡车炸弹爆炸细节",
+      "support_text": "Police said the toll comes from doctors at hospitals he has visited in Mogadishu.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_11",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "医院因高伤亡人数而挣扎应对",
+      "support_text": "医院因高伤亡人数而挣扎应对",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员担心死亡人数会继续上升",
+      "support_text": "官员担心死亡人数会继续上升",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_13",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "许多人因伤口在医院去世",
+      "support_text": "许多人因伤口在医院去世",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸前外立的防爆墙",
+      "support_text": "语义描述：爆炸前外立的防爆墙",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸摧毁了金属大门和防爆墙",
+      "support_text": "语义描述：爆炸摧毁了金属大门和防爆墙",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "索马里军方撤离受伤男子",
+      "support_text": "索马里军方撤离受伤男子",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_17",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "人群捐赠血液",
+      "support_text": "人群捐赠血液",
+      "source_text": "text_67"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_67_node_1",
+      "target": "text_67_node_2",
+      "relation": "before",
+      "support_text": "A separate blast struck the Medina district two hours later."
+    },
+    {
+      "source": "text_67_node_1",
+      "target": "text_67_node_3",
+      "relation": "before",
+      "support_text": "Abshir Abdi Ahmed said the toll comes from doctors at hospitals he has visited in Mogadishu."
+    },
+    {
+      "source": "text_67_node_1",
+      "target": "text_67_node_4",
+      "relation": "before",
+      "support_text": "The Red Cross said four volunteers with the Somali Red Crescent Society are among the dead..."
+    },
+    {
+      "source": "text_67_node_1",
+      "target": "text_67_node_5",
+      "relation": "before",
+      "support_text": "Overnight, rescue workers with torch lights searched for survivors trapped under the rubble..."
+    },
+    {
+      "source": "text_67_node_1",
+      "target": "text_67_node_6",
+      "relation": "before",
+      "support_text": "President Mohamed Abdullahi Mohamed declared three days of mourning..."
+    },
+    {
+      "source": "text_67_node_1",
+      "target": "text_67_node_8",
+      "relation": "before",
+      "support_text": "Somalia’s government blamed the al-Qaida-linked al-Shabaab extremist group for the attack..."
+    },
+    {
+      "source": "text_67_node_1",
+      "target": "text_67_node_10",
+      "relation": "before",
+      "support_text": "Police said the toll comes from doctors at hospitals he has visited in Mogadishu."
+    },
+    {
+      "source": "text_67_node_1",
+      "target": "text_67_node_15",
+      "relation": "before",
+      "support_text": "爆炸摧毁了金属大门和防爆墙"
+    },
+    {
+      "source": "text_67_node_3",
+      "target": "text_67_node_4",
+      "relation": "before",
+      "support_text": "Many of the bodies in hospital mortuaries have not yet been identified, he said."
+    },
+    {
+      "source": "text_67_node_3",
+      "target": "text_67_node_5",
+      "relation": "before",
+      "support_text": "Many died at hospitals from their wounds, Police Captain Mohamed Hussein said."
+    },
+    {
+      "source": "text_67_node_4",
+      "target": "text_67_node_5",
+      "relation": "before",
+      "support_text": "死亡人数持续上升"
+    },
+    {
+      "source": "text_67_node_6",
+      "target": "text_67_node_17",
+      "relation": "before",
+      "support_text": "人群回应医院献血呼吁发生在捐赠行为之前"
+    },
+    {
+      "source": "text_67_node_8",
+      "target": "text_67_node_9",
+      "relation": "before",
+      "support_text": "However, al-Shabaab, which often targets high-profile areas of the capital with bombings, had yet to claim the attack."
+    },
+    {
+      "source": "text_67_node_14",
+      "target": "text_67_node_1",
+      "relation": "before",
+      "support_text": "防爆墙在爆炸前被建立"
+    },
+    {
+      "source": "text_67_node_16",
+      "target": "text_67_node_6",
+      "relation": "before",
+      "support_text": "索马里军方撤离受伤男子发生在总统宣布哀悼之前"
+    }
+  ]
+}

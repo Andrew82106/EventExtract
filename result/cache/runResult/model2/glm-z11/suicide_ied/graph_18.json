@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "id": "text_18_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "美国官员在 Amber Rudd 警告停止泄露后数小时内向记者披露曼彻斯特爆炸案调查细节",
+      "support_text": "US officials disclosed fresh details of the investigation into the Manchester bombing to journalists within hours of Amber Rudd warning them to stop the leaking.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国记者 Richard Engel 在周二早间率先发布未由英国官方确认的爆炸案关键信息，包括 Abedi 家庭成员曾警告英国官员",
+      "support_text": "American reporter Richard Engel, of NBC, tweeted details not released by the UK. Engel said US intelligence officers told him family members of the the killer, Salman Abedi, had warned UK security officials about him...",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "法国内政部长 Gérard Collomb 在周三向媒体透露 Abedi 曾到访利比亚和叙利亚，信息超出英国警方公开范围",
+      "support_text": "French interior minister, Gérard Collomb, then told French television on Wednesday that Abedi had been in Libya and possibly Syria...",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国 home secretary Amber Rudd 在采访中公开批评美国和法国的泄露行为，要求其停止类似事件",
+      "support_text": "She described the leaks as irritating and said she had made it clear to the US that it should not happen again.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国众议员 Chris Coons 对特朗普政府泄露敏感情报提出质疑，暗示可能影响盟友信任",
+      "support_text": "Chris Coons, a Democratic member of the Senate foreign affairs committee, said questions were being raised about whether the Trump administration understood what it meant to treat highly classified intelligence responsibly.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国警方在媒体提前曝光 Abedi 名字后数小时才正式确认其身份",
+      "support_text": "The UK had not been planning to release the name on Tuesday. Facebook Twitter Pinterest Tributes to the victims in St Ann’s Square in Manchester. Photograph: Andy Rain/EPA The UK’s reluctance to identify the assailant was evident because it took hours after his name was circulating in the US media before Greater Manchester police confirmed it.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国安全专家和法美同行对情报泄露表示愤怒，认为可能破坏跨国反恐合作机制",
+      "support_text": "UK security professionals are almost certainly appalled by what has happened, as will be their counterparts in the US and France.",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "来自美国（及法国）的持续细节披露阻碍了英国警方调查",
+      "support_text": "steady drip of details from US and France hindered British police investigation",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国警方试图控制信息发布以配合行动",
+      "support_text": "British police tried to control information release to coordinate operations",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "家庭成员描述Abedi的危险性",
+      "support_text": "家庭成员描述Abedi的危险性",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Engel报道情报官员关于Abedi携带银行卡和身份确认的信息",
+      "support_text": "Engel报道情报官员关于Abedi携带银行卡和身份确认的信息",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "情报官员陈述Abedi携带银行卡和身份被确认的情况",
+      "support_text": "情报官员陈述Abedi携带银行卡和身份被确认的情况",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国反恐专家需要保持对嫌疑犯姓名的秘密",
+      "support_text": "专家们需要保持秘密",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国反恐专家需要保持秘密",
+      "support_text": "专家们需要保持秘密",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国反恐专家确保有意外元素",
+      "support_text": "确保有意外元素",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "华盛顿官员向记者提供死亡人数、自杀炸弹袭击和凶手姓名的信息",
+      "support_text": "华盛顿官员向记者提供死亡人数、自杀炸弹袭击和凶手姓名的信息",
+      "source_text": "text_18"
+    },
+    {
+      "id": "text_18_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "英国警方披露了曼彻斯特爆炸案调查细节",
+      "support_text": "英国警方披露了该信息",
+      "source_text": "text_18"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_18_node_1",
+      "target": "text_18_node_2",
+      "relation": "before",
+      "support_text": "within hours of Amber Rudd warning them to stop the leaking"
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_node_3",
+      "relation": "before",
+      "support_text": "then told French television on Wednesday"
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_node_6",
+      "relation": "before",
+      "support_text": "it took hours after his name was circulating in the US media"
+    },
+    {
+      "source": "text_18_node_2",
+      "target": "text_18_node_10",
+      "relation": "before",
+      "support_text": "temporal_order 2 < temporal_order 3"
+    },
+    {
+      "source": "text_18_node_3",
+      "target": "text_18_node_4",
+      "relation": "before",
+      "support_text": "Adding an image of western security services as uncoordinated and amateurish"
+    },
+    {
+      "source": "text_18_node_4",
+      "target": "text_18_node_5",
+      "relation": "before",
+      "support_text": "I am hearing real questions raised about whether this administration"
+    },
+    {
+      "source": "text_18_node_4",
+      "target": "text_18_node_7",
+      "relation": "before",
+      "support_text": "UK security professionals are almost certainly appalled"
+    },
+    {
+      "source": "text_18_node_5",
+      "target": "text_18_node_7",
+      "relation": "before",
+      "support_text": "as will be their counterparts in the US and France"
+    },
+    {
+      "source": "text_18_node_8",
+      "target": "text_18_node_9",
+      "relation": "before",
+      "support_text": "temporal_order 2 < temporal_order 3"
+    },
+    {
+      "source": "text_18_node_10",
+      "target": "text_18_node_11",
+      "relation": "before",
+      "support_text": "temporal_order 3 < temporal_order 5"
+    },
+    {
+      "source": "text_18_node_11",
+      "target": "text_18_node_12",
+      "relation": "before",
+      "support_text": "temporal_order 5 < temporal_order 7"
+    },
+    {
+      "source": "text_18_node_17",
+      "target": "text_18_node_2",
+      "relation": "before",
+      "support_text": "英国警方披露后美国记者率先发布关键信息"
+    }
+  ]
+}

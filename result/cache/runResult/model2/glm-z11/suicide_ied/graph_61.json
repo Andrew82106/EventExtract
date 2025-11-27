@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "id": "text_61_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "黎巴嫩萨ida市东部郊区发生炸弹袭击，造成1人死亡、10人受伤，袭击对象为什叶派聚居区的公寓楼",
+      "support_text": "A Lebanese man was killed and 10 other people wounded Thursday night in a bomb attack in an eastern suburb of the southern city of Saida, police said.",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "黎巴嫩总理拉菲克·哈里里在巴黎与法国总统希拉克会谈，呼吁欧盟在伊拉克问题上达成共识",
+      "support_text": "Lebanese Prime Minister Rafiq Hariri on Wednesday urged European Union states to overcome their differences on the Iraq crisis, following talks in Paris with French President Jacques Chirac.",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列外交部指控伊朗和黎巴嫩真主党参与1994年布宜诺斯艾利斯以色列使馆爆炸案",
+      "support_text": "Israel has evidence of Tehran's involvement not only in the 1994 bombing of a Jewish community centre, but also in a 1992 attack on the Israeli embassy.",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗回应以色列指控，再次否认真主党参与1992年和1994年对以色列目标的袭击",
+      "support_text": "Hezbollah again denied involvement in two deadly bombings of Jewish targets in Buenos Aires in the 1990s.",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克什叶派难民乌姆·穆罕默德公开支持对伊拉克开战，希望推翻萨达姆政权",
+      "support_text": "Umm Mohammed said she supports the war, only the Americans can get rid of Saddam.",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "法国总统希拉克与英国首相布莱尔在欧盟峰会上就伊拉克军事行动问题展开博弈",
+      "support_text": "Chirac looked set for a showdown with British Prime Minister Tony Blair on the issue at the two-day summit.",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_7",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国宣布将发布《中东和平路线图》，要求巴勒斯坦任命具有实权的总理分享权力",
+      "support_text": "US President George W. Bush announced Friday he would publish the long-awaited 'roadmap'.",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "警方发布伤亡报告",
+      "support_text": "A Lebanese man was killed and 10 other people wounded Thursday night in a bomb attack in an eastern suburb of the southern city of Saida, police said.",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列持续指控黎巴嫩真主党参与爆炸案",
+      "support_text": "声明称以色列持续指控黎巴嫩真主党",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_10",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列支持阿根廷对伊朗高官发布逮捕令",
+      "support_text": "以色列支持阿根廷对伊朗高官发布逮捕令",
+      "source_text": "text_61"
+    },
+    {
+      "id": "text_61_node_11",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷发布对伊朗高官的逮捕令",
+      "support_text": "阿根廷发布对伊朗高官的逮捕令",
+      "source_text": "text_61"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_61_node_2",
+      "target": "text_61_node_1",
+      "relation": "before",
+      "support_text": "Lebanese Prime Minister Rafiq Hariri on Wednesday urged... (March 19) while node_1 occurred on March 20."
+    },
+    {
+      "source": "text_61_node_3",
+      "target": "text_61_node_4",
+      "relation": "before",
+      "support_text": "Israel's accusations (March 19) prompted Hezbollah's denial (March 19) later in the same day."
+    },
+    {
+      "source": "text_61_node_3",
+      "target": "text_61_node_9",
+      "relation": "before",
+      "support_text": "以色列指控（node_3）与声明（node_9）存在时序关联"
+    },
+    {
+      "source": "text_61_node_5",
+      "target": "text_61_node_2",
+      "relation": "before",
+      "support_text": "Umm Mohammed's statement occurred on March 17, preceding Hariri's Paris talks on March 19."
+    },
+    {
+      "source": "text_61_node_6",
+      "target": "text_61_node_2",
+      "relation": "before",
+      "support_text": "Chirac's planned summit confrontation (March 19) occurred before Hariri's Wednesday talks."
+    },
+    {
+      "source": "text_61_node_7",
+      "target": "text_61_node_1",
+      "relation": "before",
+      "support_text": "Bush's roadmap announcement (March 20) coincided with the Saida bombing on the same day."
+    },
+    {
+      "source": "text_61_node_8",
+      "target": "text_61_node_1",
+      "relation": "before",
+      "support_text": "警方发布伤亡报告（node_8）与炸弹袭击（node_1）发生在同一时间（March 20），需补充时序关联"
+    },
+    {
+      "source": "text_61_node_11",
+      "target": "text_61_node_10",
+      "relation": "before",
+      "support_text": "阿根廷逮捕令（node_11）与以色列支持（node_10）存在时序关联"
+    }
+  ]
+}

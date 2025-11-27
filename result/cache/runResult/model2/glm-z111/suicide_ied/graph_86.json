@@ -1,0 +1,393 @@
+{
+  "nodes": [
+    {
+      "id": "text_86_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚民主力量（SDF）培养摩尔的情报合作",
+      "support_text": "SDF leader Gen. Mazloum Abdi told NBC News on Monday that one of his organization’s informants had helped lead the Americans to Baghdadi’s compound",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "摩尔被移交美国情报部门并接受多周背景审查",
+      "support_text": "SDF leaders then handed control of the agent to U.S. intelligence operatives, who spent weeks vetting him until they were sure he was genuine",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国官员确认摩尔提供关键情报但多次行动计划被取消",
+      "support_text": "One U.S. official said he was a Sunni Arab who turned against the Islamic State because one of his relatives had been killed by the group",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "夏季启动长达数月的情报突破行动",
+      "support_text": "A months-long effort to exploit the intelligence breakthrough began in the summer",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "突袭前最后一个月确认摩尔情报有效性",
+      "support_text": "It was assessed for quite a while that the person might have the key to the lock... That only really seriously became clear within the last couple of weeks",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年10月26日美军突袭巴里沙镇ISIS据点",
+      "support_text": "The mole’s detailed knowledge... proved to be critical in the Oct. 26 raid that ended with the death of the world’s most-wanted terrorist",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "摩尔的线人情报帮助锁定巴里沙镇高安全系数的地下 compound",
+      "support_text": "The informant’s tips lead to an opportunity to act... the focus of the manhunt shifted to Idlib over the summer... U.S. officials narrowed their focus to the town of Barisha",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "Delta Force与75th Ranger Regiment联合突击队实施突袭",
+      "support_text": "The assault force surrounded the compound and did a 'call out'... Baghdadi remained inside, fleeing with three of his children into the tunnel",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "军犬追击导致ISIS头目引爆自杀背心",
+      "support_text": "The dogs chased the militant leader as he tried to flee... Baghdadi detonated his suicide belt after one of the U.S. team’s military dogs charged him",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "摩尔的线人情报包含Baghdadi携带自杀背心等关键细节",
+      "support_text": "The informant provided essential personal details about the reclusive terrorist leader, including the fact that he always traveled with a suicide belt",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "突袭后摩尔及其家人撤离叙利亚",
+      "support_text": "The informant was exfiltrated from the region two days later with his family",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "通过现场DNA测试和物证确认Baghdadi身份",
+      "support_text": "personal items, including underwear, were taken from the compound for DNA testing to confirm Baghdadi’s presence in the building",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "SDF承认其线人参与突袭并提取DNA样本",
+      "support_text": "SDF leader Gen. Mazloum Abdi told NBC News on Monday that one of his organization’s informants had helped lead the Americans to Baghdadi’s compound",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军高层回避SDF直接参与并强调为纯美军行动",
+      "support_text": "I’m not going to comment on what may or may not have happened with the SDF on the objective... The actions on the objective... was a U.S.-only operation",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "线人在叙利亚伊德利卜巴格达迪复合体发动袭击",
+      "support_text": "线人在叙利亚伊德利卜的巴格达迪复合体发动袭击",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员向线人陈述信息",
+      "support_text": "官员向线人陈述信息",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "男子参与协助巴格达迪移动",
+      "support_text": "语义描述：男子参与协助巴格达迪移动",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_18",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "男子迁移至化合物",
+      "support_text": "语义描述：男子迁移至化合物",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_19",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "携带自杀背心移动",
+      "support_text": "语义描述：携带自杀背心移动",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_20",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "护送巴格达迪家庭成员就医",
+      "support_text": "语义描述：护送巴格达迪家庭成员就医",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员叙述了事件经过",
+      "support_text": "官员叙述了事件经过",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员命令居民投降",
+      "support_text": "官员命令居民投降",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_23",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "大批儿童和成人从化合物中冲出",
+      "support_text": "大批儿童和成人从化合物中冲出",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_24",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "巴格达迪带着三个孩子逃入隧道",
+      "support_text": "巴格达迪带着三个孩子逃入隧道",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "进攻部队将巴格达迪围困在隧道中",
+      "support_text": "进攻部队将巴格达迪围困在隧道中",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_26",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "指挥官决定不回收巴格达迪尸体",
+      "support_text": "指挥官决定不回收巴格达迪尸体",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_27",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "指挥官试图回收被炸身亡者尸体",
+      "support_text": "指挥官试图回收被炸身亡者尸体",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_28",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "官员陈述现场情况",
+      "support_text": "官员陈述现场情况",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_29",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员计划挖掘尸体",
+      "support_text": "官员计划挖掘尸体",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_30",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "官员说明指挥官不回收尸体",
+      "support_text": "官员说明指挥官不回收尸体",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_31",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员重复计划挖掘尸体",
+      "support_text": "官员重复计划挖掘尸体",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_32",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "官员重复陈述危险情况",
+      "support_text": "官员重复陈述危险情况",
+      "source_text": "text_86"
+    },
+    {
+      "id": "text_86_node_33",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员重复强调挖掘困难",
+      "support_text": "官员重复强调挖掘困难",
+      "source_text": "text_86"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_86_node_1",
+      "target": "text_86_node_2",
+      "relation": "before",
+      "support_text": "SDF leaders then handed control of the agent to U.S. intelligence operatives"
+    },
+    {
+      "source": "text_86_node_2",
+      "target": "text_86_node_3",
+      "relation": "before",
+      "support_text": "One U.S. official said he was a Sunni Arab who turned against the Islamic State"
+    },
+    {
+      "source": "text_86_node_4",
+      "target": "text_86_node_5",
+      "relation": "before",
+      "support_text": "A months-long effort to exploit the intelligence breakthrough began in the summer"
+    },
+    {
+      "source": "text_86_node_5",
+      "target": "text_86_node_6",
+      "relation": "before",
+      "support_text": "That only really seriously became clear within the last couple of weeks"
+    },
+    {
+      "source": "text_86_node_6",
+      "target": "text_86_node_11",
+      "relation": "before",
+      "support_text": "The informant was exfiltrated from the region two days later"
+    },
+    {
+      "source": "text_86_node_6",
+      "target": "text_86_node_12",
+      "relation": "before",
+      "support_text": "personal items, including underwear, were taken from the compound"
+    },
+    {
+      "source": "text_86_node_6",
+      "target": "text_86_node_13",
+      "relation": "before",
+      "support_text": "SDF leader Gen. Mazloum Abdi told NBC News on Monday"
+    },
+    {
+      "source": "text_86_node_7",
+      "target": "text_86_node_6",
+      "relation": "before",
+      "support_text": "The informant’s tips lead to an opportunity to act"
+    },
+    {
+      "source": "text_86_node_7",
+      "target": "text_86_node_8",
+      "relation": "before",
+      "support_text": "The assault force surrounded the compound"
+    },
+    {
+      "source": "text_86_node_8",
+      "target": "text_86_node_9",
+      "relation": "before",
+      "support_text": "The dogs chased the militant leader as he tried to flee"
+    },
+    {
+      "source": "text_86_node_10",
+      "target": "text_86_node_9",
+      "relation": "before",
+      "support_text": "The informant provided essential personal details"
+    },
+    {
+      "source": "text_86_node_10",
+      "target": "text_86_node_15",
+      "relation": "before",
+      "support_text": "线人提供关键情报（含自杀背心细节）后发动袭击"
+    },
+    {
+      "source": "text_86_node_12",
+      "target": "text_86_node_13",
+      "relation": "before",
+      "support_text": "personal items, including underwear, were taken from the compound"
+    },
+    {
+      "source": "text_86_node_13",
+      "target": "text_86_node_14",
+      "relation": "before",
+      "support_text": "I’m not going to comment on what may or may not have happened with the SDF"
+    },
+    {
+      "source": "text_86_node_15",
+      "target": "text_86_node_8",
+      "relation": "before",
+      "support_text": "线人袭击后美军突击队包围复合体"
+    }
+  ]
+}

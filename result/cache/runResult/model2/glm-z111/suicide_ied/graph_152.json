@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "text_152_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "德国当局紧急调查Abedi在德期间是否接触他人",
+      "support_text": "German authorities are urgently checking whether Abedi met with anyone in Germany, the usually well informed Focus magazine quoted unnamed “security sources” as saying.",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "北威州警方确认Abedi未离开杜塞尔多夫机场 transit 区域",
+      "support_text": "Police in the state of North Rhine-Westphalia told the BBC he is not believed to have leaved the airport transit area.",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿贝迪四天前经过德国",
+      "support_text": "阿贝迪四天前经过德国",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿卜迪曾与德国的某人会面",
+      "support_text": "German authorities are urgently checking whether Abedi met with anyone in Germany, the usually well informed Focus magazine quoted unnamed “security sources” as saying.",
+      "source_text": "text_152"
+    },
+    {
+      "id": "text_152_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "焦点杂志引用了未具名的安全消息来源的话",
+      "support_text": "Focus magazine quoted unnamed 'security sources' regarding Abedi's activities.",
+      "source_text": "text_152"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_152_node_2",
+      "target": "text_152_node_1",
+      "relation": "before",
+      "support_text": "German authorities are urgently checking whether Abedi met with anyone in Germany, the usually well informed Focus magazine quoted unnamed “security sources” as saying."
+    },
+    {
+      "source": "text_152_node_4",
+      "target": "text_152_node_5",
+      "relation": "before",
+      "support_text": "根据temporal_order 1和3的时序逻辑"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "nodes": [
+    {
+      "id": "text_23_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS宣称对2017年5月22日曼彻斯特体育馆袭击负责，称袭击者为‘哈里发国士兵’",
+      "support_text": "Isis has claimed responsibility for the Manchester Arena attack, hailing the bomber as a 'soldier of the caliphate'.",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "ISIS通过多语言声明赞扬袭击，声称造成100名‘十字军’伤亡，并指责英国‘亵渎穆斯林土地’",
+      "support_text": "The terrorist group released statements in several languages through its central media body praising the atrocity, claiming more than 100 'crusaders' were killed or wounded at the 'shameless' concert.",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "曼彻斯特警方确认袭击发生在Ariana Grande演唱会结束后，22人死亡、数十人受伤",
+      "support_text": "The blast killed 22 people and injured dozens more at an Ariana Grande concert on Monday night.",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Greater Manchester Police证实袭击者为携带自制爆炸装置的‘独狼’，袭击者当场死亡",
+      "support_text": "Ian Hopkins, the Chief Constable of Greater Manchester Police, said investigators believe the attack was carried out by a lone suicide bomber ‘carrying’ a homemade device.",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS声明称袭击非自杀式，未将袭击者称为‘殉教者’，并暗示与组织有直接联系",
+      "support_text": "It suggested the atrocity was not a suicide attack, despite police statements saying the perpetrator died at the scene, and did not name him as a 'martyr'.",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "支持者传播未经验证的英文视频，但分析发现旗帜与ISIS标志不符且未提及组织名称",
+      "support_text": "The group's supporters had been circulating an unverified video claiming to show a masked English-speaking militant claiming responsibility for the Manchester attack. analysts pointed out that a flag positioned behind the man was not the symbol most commonly associated with Isis, which he did not refer to by its usual name.",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Theresa May总理将袭击定性为‘扭曲而畸形’，感谢救援人员并确认警方已锁定嫌疑人",
+      "support_text": "Theresa May calls Manchester bombing ‘warped and twisted’",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "至少一名23岁男子在曼彻斯特被捕，MI5总监谴责袭击‘令人厌恶’",
+      "support_text": "At least one 23-year-old man was arrested in Manchester, MI5 director condemned the attack ‘as abhorrent’.",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "视频展示蒙面英语武装分子",
+      "support_text": "视频展示蒙面英语武装分子",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "旗帜放置在男子后方",
+      "support_text": "旗帜放置在男子后方",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "视频的拍摄时间不明确",
+      "support_text": "视频的拍摄时间不明确",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ian Hopkins表示调查人员相信袭击由独狼自杀式袭击者实施",
+      "support_text": "Ian Hopkins, the Chief Constable of Greater Manchester Police, said investigators believe the attack was carried out by a lone suicide bomber ‘carrying’ a homemade device.",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查人员相信袭击由独狼自杀式袭击者实施",
+      "support_text": "investigators believe the attack was carried out by a lone suicide bomber ‘carrying’ a homemade device",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Ian Hopkins进行了专业表演",
+      "support_text": "Ian Hopkins进行了专业表演",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "MI5 DG发表正式声明",
+      "support_text": "MI5 DG发表正式声明",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "MI5员工对恐怖袭击感到震惊",
+      "support_text": "MI5员工对恐怖袭击感到震惊",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_17",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "al-Qaeda杀害Fusilier Lee Rigby",
+      "support_text": "al-Qaeda杀害Fusilier Lee Rigby",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "al-Qaeda受中东平民伤亡启发策划曼彻斯特袭击",
+      "support_text": "al-Qaeda受中东平民伤亡启发策划曼彻斯特袭击",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS定期发布详细恐怖袭击指导",
+      "support_text": "ISIS定期发布详细恐怖袭击指导",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "国家针对其叙利亚和伊拉克武装分子",
+      "support_text": "国家针对其叙利亚和伊拉克武装分子",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rumiyah杂志将音乐会场所列为理想袭击目标",
+      "support_text": "Rumiyah杂志将音乐会场所列为理想袭击目标",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析师警告该组织可能转向大型人群目标",
+      "support_text": "分析师警告该组织可能转向大型人群目标",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "该组织可能转向软目标",
+      "support_text": "该组织可能转向软目标",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_24",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自制TATP爆炸装置成为该组织欧洲最大袭击的标志",
+      "support_text": "自制TATP爆炸装置成为该组织欧洲最大袭击的标志",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "自制TATP爆炸装置在多次未遂阴谋中被发现",
+      "support_text": "自制TATP爆炸装置在多次未遂阴谋中被发现",
+      "source_text": "text_23"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_23_node_1",
+      "target": "text_23_node_2",
+      "relation": "before",
+      "support_text": "The terrorist group released statements in several languages through its central media body praising the atrocity..."
+    },
+    {
+      "source": "text_23_node_1",
+      "target": "text_23_node_5",
+      "relation": "before",
+      "support_text": "It suggested the atrocity was not a suicide attack..."
+    },
+    {
+      "source": "text_23_node_1",
+      "target": "text_23_node_7",
+      "relation": "before",
+      "support_text": "Theresa May calls Manchester bombing ‘warped and twisted’"
+    },
+    {
+      "source": "text_23_node_1",
+      "target": "text_23_node_6",
+      "relation": "before",
+      "support_text": "The group's supporters had been circulating an unverified video claiming to show a masked English-speaking militant claiming responsibility for the Manchester attack."
+    },
+    {
+      "source": "text_23_node_3",
+      "target": "text_23_node_1",
+      "relation": "before",
+      "support_text": "Greater Manchester Police have confirmed 19 fatalities and at least 50 injured."
+    },
+    {
+      "source": "text_23_node_3",
+      "target": "text_23_node_4",
+      "relation": "before",
+      "support_text": "Ian Hopkins, the Chief Constable of Greater Manchester Police, said investigators believe the attack was carried out by a lone suicide bomber ‘carrying’ a homemade device."
+    },
+    {
+      "source": "text_23_node_7",
+      "target": "text_23_node_8",
+      "relation": "before",
+      "support_text": "At least one 23-year-old man was arrested in Manchester, MI5 director condemned the attack ‘as abhorrent’."
+    },
+    {
+      "source": "text_23_node_13",
+      "target": "text_23_node_12",
+      "relation": "before",
+      "support_text": "根据temporal_order 1→2的时序逻辑"
+    },
+    {
+      "source": "text_23_node_14",
+      "target": "text_23_node_1",
+      "relation": "before",
+      "support_text": "Ian Hopkins的表演事件应早于ISIS宣称责任"
+    },
+    {
+      "source": "text_23_node_15",
+      "target": "text_23_node_2",
+      "relation": "before",
+      "support_text": "MI5 DG声明应早于ISIS多语言声明"
+    },
+    {
+      "source": "text_23_node_16",
+      "target": "text_23_node_3",
+      "relation": "before",
+      "support_text": "MI5员工震惊应早于袭击事件确认"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "nodes": [
+    {
+      "id": "text_157_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nehmad家族于上周六参加耶路撒冷儿子成年礼，Gafnit因预感不安未前往",
+      "support_text": "Gafnit had a premonition, a bad feeling.",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shabbat结束后Nehmad家族在Mahane Israel参加 havdalah仪式，Shauli两次往返取酒",
+      "support_text": "When the Shabbat ended, and guests started to leave Mahane Israel, the Nehmad family gathered on the street outside for the havdalah ceremony.",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "第二次取酒返回时遭遇恐怖袭击，Shauli当场死亡，Eli重伤失臂",
+      "support_text": "Shauli twice ran to fetch some wine. The explosion went off as he was returning the second time.",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shlomi用身体保护Ronit家人，但与妻子Gafnit及两个女儿Shiraz、Liran共同遇难",
+      "support_text": "Shimon Ilan said yesterday that he ran to Lidor, who was lying on the road. 'I hugged him and said `don't die, don't die, your father loves you.'",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ezra返回家中协助尸体识别，通过指纹确认七名遇难者身份",
+      "support_text": "Ezra Nehmad returned to his home in Rishon Letzion, stunned and disconsolate. A policeman came with him, to take fingerprints for use in identifying the corpses.",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rabbi Ezran在葬礼发表政治性悼词，谴责与恐怖分子谈判",
+      "support_text": "Rishon Letzion's chief rabbi, Rabbi Yosef Ezran, declared: 'Where are the bleeding hearts who have called for talks with the murderers. Government of Israel: wake up! We are doing business with cursed monsters.'",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "市长Nitzan将恐怖分子比作野兽，呼吁加强军事打击",
+      "support_text": "市长Nitzan said: 'The terrorist calls himself a person, [but] he is an animal. When we learn how to deal with predatory animals as though they should be hunted down, we'll know how to deal with the nest of vipers which has raised them.'",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "卫生部长Dahan称遇难者为被提前剪除的‘最美丽花朵’",
+      "support_text": "In his eulogy for the seven victims, Health Minister Nissim Dahan exclaimed: 'They cut off the most beautiful flowers before their time was due.'",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nehmad家族在Rishon Letzion的墓地举行集体葬礼，依次安葬七名恐袭受害者",
+      "support_text": "他们依次在Rishon Letzion的墓地埋葬了死者",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "数百名家庭成员等聚集在墓地周围的树丛和墓穴之间",
+      "support_text": "数百名家庭成员等聚集在墓地周围的树丛和墓穴之间",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nehmad家族前往耶路撒冷参加成年礼",
+      "support_text": "Nehmad family attended the bar mitzvah in Jerusalem last Saturday",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ezra Nehmad要求Shauli取酒",
+      "support_text": "Ezra Nehmad asked Shauli to bring wine",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_13",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shimon Ilan接受腿部手术",
+      "support_text": "Shimon Ilan接受腿部手术",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Shimon Ilan通过轮椅出院",
+      "support_text": "Shimon Ilan通过轮椅出院",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_15",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shimon Ilan腿部受伤",
+      "support_text": "Shimon Ilan腿部受伤",
+      "source_text": "text_157"
+    },
+    {
+      "id": "text_157_node_16",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shimon Ilan因Shlomi保护获救",
+      "support_text": "Shimon Ilan因Shlomi保护获救",
+      "source_text": "text_157"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_157_node_1",
+      "target": "text_157_node_2",
+      "relation": "before",
+      "support_text": "Gafnit had a premonition, a bad feeling."
+    },
+    {
+      "source": "text_157_node_2",
+      "target": "text_157_node_3",
+      "relation": "before",
+      "support_text": "Shauli twice ran to fetch some wine. The explosion went off as he was returning the second time."
+    },
+    {
+      "source": "text_157_node_2",
+      "target": "text_157_node_12",
+      "relation": "before",
+      "support_text": "取酒行动发生在仪式期间"
+    },
+    {
+      "source": "text_157_node_3",
+      "target": "text_157_node_4",
+      "relation": "before",
+      "support_text": "Shimon Ilan said yesterday that he ran to Lidor, who was lying on the road. 'I hugged him and said `don't die, don't die, your father loves you.'"
+    },
+    {
+      "source": "text_157_node_3",
+      "target": "text_157_node_5",
+      "relation": "before",
+      "support_text": "Ezra Nehmad returned to his home in Rishon Letzion, stunned and disconsolate. A policeman came with him, to take fingerprints for use in identifying the corpses."
+    },
+    {
+      "source": "text_157_node_3",
+      "target": "text_157_node_9",
+      "relation": "before",
+      "support_text": "恐袭发生后需进行埋葬仪式"
+    },
+    {
+      "source": "text_157_node_4",
+      "target": "text_157_node_15",
+      "relation": "before",
+      "support_text": "腿部受伤发生在拥抱和呼救之后"
+    },
+    {
+      "source": "text_157_node_5",
+      "target": "text_157_node_6",
+      "relation": "before",
+      "support_text": "Rishon Letzion's chief rabbi, Rabbi Yosef Ezran, declared: 'Where are the bleeding hearts who have called for talks with the murderers. Government of Israel: wake up! We are doing business with cursed monsters.'"
+    },
+    {
+      "source": "text_157_node_6",
+      "target": "text_157_node_7",
+      "relation": "before",
+      "support_text": "市长Nitzan said: 'The terrorist calls himself a person, [but] he is an animal. When we learn how to deal with predatory animals as though they should be hunted down, we'll know how to deal with the nest of vipers which has raised them.'"
+    },
+    {
+      "source": "text_157_node_7",
+      "target": "text_157_node_8",
+      "relation": "before",
+      "support_text": "In his eulogy for the seven victims, Health Minister Nissim Dahan exclaimed: 'They cut off the most beautiful flowers before their time was due.'"
+    },
+    {
+      "source": "text_157_node_9",
+      "target": "text_157_node_10",
+      "relation": "before",
+      "support_text": "埋葬完成后家庭成员聚集"
+    },
+    {
+      "source": "text_157_node_11",
+      "target": "text_157_node_2",
+      "relation": "before",
+      "support_text": "前往耶路撒冷后Shabbat结束"
+    },
+    {
+      "source": "text_157_node_13",
+      "target": "text_157_node_14",
+      "relation": "before",
+      "support_text": "术后通过轮椅出院"
+    },
+    {
+      "source": "text_157_node_15",
+      "target": "text_157_node_13",
+      "relation": "before",
+      "support_text": "受伤后接受手术"
+    }
+  ]
+}

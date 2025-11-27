@@ -1,0 +1,468 @@
+{
+  "nodes": [
+    {
+      "id": "text_22_node_1",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "伦敦两辆装满汽油和气瓶的奔驰车在市中心被发现未爆炸",
+      "support_text": "Two Mercedes containing petrol, gas cylinders and nails were found outside the Tiger Tiger club in London's Haymarket and a nearby street on Friday.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_2",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "吉普车撞入格拉斯哥机场正门并引发火灾",
+      "support_text": "A Jeep containing gas cylinders was driven into Glasgow Airport a day after two car bombs were found in London.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "格拉斯哥机场袭击者中一人在皇家亚历山大医院重伤",
+      "support_text": "One of the two suspects held at Glasgow Airport on Saturday suffered severe burns and remains in a critical condition.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名嫌疑人于周六夜间在切斯特郡M6高速公路被捕",
+      "support_text": "Two of those held by police are a 26-year-old man and 27-year-old woman who were arrested on the M6 near Sandbach, Cheshire, on Saturday night.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "第三名嫌疑人于周日早晨在利物浦被捕",
+      "support_text": "Another 26-year-old man arrested in Liverpool on Sunday remains in custody at a Merseyside police station.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "格拉斯哥机场袭击车辆登记号L808 RDT被公布",
+      "support_text": "Strathclyde Police issued the registration number of the Jeep used in the attempted attack on Glasgow Airport - L808 RDT.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "皇家亚历山大医院车辆实施可控爆炸",
+      "support_text": "A controlled explosion was carried out on a car at the hospital where a suspect is being treated.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国提升至最高反恐警戒级别",
+      "support_text": "The UK moved to its highest level of terror alert after the Jeep Cherokee crashed into the main doors of Glasgow Airport's main terminal.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": " Merseyside警方在利物浦搜查两处地址",
+      "support_text": "Merseyside Police have been searching two addresses in the Liverpool area.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Staffordshire警方在纽卡斯尔-Unter-Lyme搜查一处地址",
+      "support_text": "Staffordshire Police said its officers had been searching an address in Newcastle-under-Lyme with the West Midlands Counter Terrorism Unit and Met personnel.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "格拉斯哥机场完全恢复开放",
+      "support_text": "Glasgow Airport was fully opened on Sunday afternoon, almost 24 hours after the incident.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国多个机场加强安保措施",
+      "support_text": "A number of airports have taken extra measures, including Heathrow, Edinburgh, Newcastle, Birmingham, Manchester and Blackpool.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "温布顿网球锦标赛实施道路封锁",
+      "support_text": "Road blocks have been set up in front of the gates to the All England Club.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国交通警察加强全国通勤安保",
+      "support_text": "British Transport Police would 'do everything we possibly can to make people safe in their journeys to work tomorrow across the country'.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "布朗首相确认与基地组织关联",
+      "support_text": "Prime Minister Gordon Brown told Andrew Marr on BBC One's Sunday AM it was 'clear that we are dealing, in general terms, with people who are associated with al-Qaeda'.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "设立反恐热线和公众信息反馈渠道",
+      "support_text": "Police have urged anyone with information to phone the confidential Anti-Terrorism hotline number on 0800789321.",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "副警监Peter Clarke表示绝对有信心揭露攻击者的方法和网络细节",
+      "support_text": "Deputy Assistant Commissioner Peter Clarke said he was 'absolutely confident' of uncovering details of the attackers' methods and network",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "BBC确认被捕男子身份为Dr Mohammed Asha",
+      "support_text": "BBC确认被捕男子身份为Dr Mohammed Asha",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_19",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "两名被捕者被带到伦敦帕丁顿警局接受问询",
+      "support_text": "两名被捕者被带到伦敦帕丁顿警局接受问询",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "格拉斯哥附近村庄的房屋被警方搜查",
+      "support_text": "格拉斯哥附近村庄的房屋被警方搜查",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Clarke确认新信息每小时都在更新",
+      "support_text": "语义描述：Clarke确认新信息每小时都在更新",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖分子策划袭击行动",
+      "support_text": "语义描述：恐怖分子策划袭击行动",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "格拉斯哥警方呼吁提供可疑车辆近期目击信息",
+      "support_text": "格拉斯哥警方呼吁提供可疑车辆近期目击信息",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方推断爆炸事件与机场袭击企图存在关联",
+      "support_text": "警方推断爆炸事件与机场袭击企图存在关联",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_25",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸事件被确认与未遂的机场炸弹袭击有关联",
+      "support_text": "爆炸事件被确认与未遂的机场炸弹袭击有关联",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_26",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "执法部门在休斯顿和伦弗鲁郡相关地址展开搜查",
+      "support_text": "执法部门在休斯顿和伦弗鲁郡相关地址展开搜查",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_27",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "警方每小时接收约100通公众来电",
+      "support_text": "警方每小时接收约100通公众来电",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_28",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "警长表示警方正接收公众来电",
+      "support_text": "警长表示警方正接收公众来电",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_29",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "未遂的机场袭击事件发生",
+      "support_text": "未遂的机场袭击事件发生",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_30",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "袭击装置未爆炸",
+      "support_text": "袭击装置未爆炸",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_31",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "希思罗机场终端关闭一段时间",
+      "support_text": "希思罗机场终端关闭一段时间",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_32",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "可疑包裹被宣布安全",
+      "support_text": "可疑包裹被宣布安全",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_33",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "副警监 Andy Trotter 发表声明",
+      "support_text": "语义描述：副警监 Andy Trotter 发表声明",
+      "source_text": "text_22"
+    },
+    {
+      "id": "text_22_node_34",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "内政大臣 Jacqui Smith 发表声明",
+      "support_text": "语义描述：内政大臣 Jacqui Smith 发表声明",
+      "source_text": "text_22"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_22_node_1",
+      "target": "text_22_node_2",
+      "relation": "before",
+      "support_text": "A Jeep containing gas cylinders was driven into Glasgow Airport a day after two car bombs were found in London."
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_3",
+      "relation": "before",
+      "support_text": "One of the two suspects held at Glasgow Airport on Saturday suffered severe burns and remains in a critical condition."
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_4",
+      "relation": "before",
+      "support_text": "Two of those held by police are a 26-year-old man and 27-year-old woman who were arrested on the M6 near Sandbach, Cheshire, on Saturday night."
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_5",
+      "relation": "before",
+      "support_text": "Another 26-year-old man arrested in Liverpool on Sunday remains in custody at a Merseyside police station."
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_6",
+      "relation": "before",
+      "support_text": "Strathclyde Police issued the registration number of the Jeep used in the attempted attack on Glasgow Airport - L808 RDT."
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_7",
+      "relation": "before",
+      "support_text": "A controlled explosion was carried out on a car at the hospital where a suspect is being treated."
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_8",
+      "relation": "before",
+      "support_text": "The UK moved to its highest level of terror alert after the Jeep Cherokee crashed into the main doors of Glasgow Airport's main terminal."
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_11",
+      "relation": "before",
+      "support_text": "Glasgow Airport was fully opened on Sunday afternoon, almost 24 hours after the incident."
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_17",
+      "relation": "before",
+      "support_text": "新信息每小时都在逐步公开与袭击事件存在时间关联"
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_18",
+      "relation": "before",
+      "support_text": "BBC确认被捕男子身份发生在袭击事件后"
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_23",
+      "relation": "before",
+      "support_text": "格拉斯哥机场袭击事件后警方发起呼吁"
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_24",
+      "relation": "before",
+      "support_text": "爆炸事件后警方完成关联推断"
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_25",
+      "relation": "before",
+      "support_text": "爆炸事件后确认关联性"
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_26",
+      "relation": "before",
+      "support_text": "机场袭击后展开跨区域搜查"
+    },
+    {
+      "source": "text_22_node_2",
+      "target": "text_22_node_27",
+      "relation": "before",
+      "support_text": "警方在袭击事件后加强公众联系"
+    },
+    {
+      "source": "text_22_node_4",
+      "target": "text_22_node_19",
+      "relation": "before",
+      "support_text": "被捕者被带到警局接受问询的后续动作"
+    },
+    {
+      "source": "text_22_node_4",
+      "target": "text_22_node_28",
+      "relation": "before",
+      "support_text": "逮捕事件后警长发表声明"
+    },
+    {
+      "source": "text_22_node_8",
+      "target": "text_22_node_9",
+      "relation": "before",
+      "support_text": "Merseyside Police have been searching two addresses in the Liverpool area."
+    },
+    {
+      "source": "text_22_node_8",
+      "target": "text_22_node_10",
+      "relation": "before",
+      "support_text": "Staffordshire Police said its officers had been searching an address in Newcastle-under-Lyme with the West Midlands Counter Terrorism Unit and Met personnel."
+    },
+    {
+      "source": "text_22_node_8",
+      "target": "text_22_node_12",
+      "relation": "before",
+      "support_text": "A number of airports have taken extra measures, including Heathrow, Edinburgh, Newcastle, Birmingham, Manchester and Blackpool."
+    },
+    {
+      "source": "text_22_node_8",
+      "target": "text_22_node_13",
+      "relation": "before",
+      "support_text": "Road blocks have been set up in front of the gates to the All England Club."
+    },
+    {
+      "source": "text_22_node_8",
+      "target": "text_22_node_14",
+      "relation": "before",
+      "support_text": "British Transport Police would 'do everything we possibly can to make people safe in their journeys to work tomorrow across the country'."
+    },
+    {
+      "source": "text_22_node_8",
+      "target": "text_22_node_15",
+      "relation": "before",
+      "support_text": "Prime Minister Gordon Brown told Andrew Marr on BBC One's Sunday AM it was 'clear that we are dealing, in general terms, with people who are associated with al-Qaeda'."
+    },
+    {
+      "source": "text_22_node_8",
+      "target": "text_22_node_16",
+      "relation": "before",
+      "support_text": "Police have urged anyone with information to phone the confidential Anti-Terrorism hotline number on 0800789321."
+    },
+    {
+      "source": "text_22_node_8",
+      "target": "text_22_node_33",
+      "relation": "before",
+      "support_text": "英国提升至最高反恐警戒级别后副警监 Andy Trotter 发表声明"
+    },
+    {
+      "source": "text_22_node_8",
+      "target": "text_22_node_34",
+      "relation": "before",
+      "support_text": "英国提升至最高反恐警戒级别后内政大臣 Jacqui Smith 发表声明"
+    }
+  ]
+}

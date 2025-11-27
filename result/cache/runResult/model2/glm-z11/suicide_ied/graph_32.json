@@ -1,0 +1,492 @@
+{
+  "nodes": [
+    {
+      "id": "text_32_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年1月15日，Al-Shabaab分子在肯尼亚El Adde军事基地发动自杀式爆炸和大规模袭击，导致肯尼亚士兵死亡",
+      "support_text": "On January 15, a massive blast shattered the dawn calm at El Adde military base. A suicide bomber had detonated a truck loaded with explosives...",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击持续整天，约300名Al-Shabaab分子使用AK-47、火箭筒等武器对驻军发动密集攻击",
+      "support_text": "The raid lasted the entire day; thousands upon thousands of bullets fired by some 300 Al-Shabaab militants in a brutal assault...",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚政府最初称士兵在协助反恐行动，后承认141名士兵死亡，但未举行全国哀悼",
+      "support_text": "By the time the sun set, as many as 141 Kenyan soldiers were dead ... Kenya's government is yet to release official figures.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "Al-Shabaab发布48分钟宣传视频，展示袭击过程并指控肯尼亚政府隐瞒真相",
+      "support_text": "Al-Shabaab released a flashy, high-definition video three months after the attack. It shows tracer rounds lighting up the sky as a massive firefight for the base begins...",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚军方开始秘密归还士兵遗体，部分家属通过DNA检测确认身份",
+      "support_text": "More coffins, more bodies have been quietly handed over, one by one, to the soldiers' grieving families ... Corporal James Saitoti Kuronoi's remains were subjected to seven DNA tests...",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府以国家安全为由引用法律，逮捕试图传播袭击影像的博主",
+      "support_text": "One local blogger who tweeted a photograph showing of the aftermath of the attack was promptly arrested.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析人士批评政府透明度不足，导致Al-Shabaab的恐怖叙事占据主导",
+      "support_text": "Analysts say the KDF's lack of transparency has only provided more fodder for Al-Shabaab's ideological battle.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚总统Uhuru Kenyatta仅向4名确认死亡士兵家属致哀，未公布完整伤亡名单",
+      "support_text": "Uhuru Kenyatta paid tribute to the four acknowledged casualties ... but no official information released by the government.",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚士兵帮助击退索马里国家军队基地的袭击",
+      "support_text": "肯尼亚士兵帮助击退对索马里国家军队基地的袭击",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "谣言加剧导致信息控制",
+      "support_text": "谣言加剧",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_11",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "时间持续流逝",
+      "support_text": "时间持续流逝",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "士兵遗体被正式安葬，Kuronoi等家属参与仪式",
+      "support_text": "身体被放入坟墓",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "八名兄弟姐妹在葬礼上互相紧握",
+      "support_text": "兄弟姐妹互相紧握",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "当地媒体发布30次El Adde葬礼报道",
+      "support_text": "当地媒体报道了与El Adde相关的30次葬礼",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "媒体未覆盖更多葬礼服务",
+      "support_text": "当地媒体未能覆盖更多服务",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Kuronoi向外界发送照片",
+      "support_text": "Kuronoi发送了照片",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Kuronoi与家人定期通话",
+      "support_text": "Kuronoi与家人定期通话",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_18",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "媒体声称存在更多未被覆盖的服务",
+      "support_text": "当地媒体报道称有更多未被覆盖的服务",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "杰克奎琳·库龙诺伊向外界披露家庭经历数周不确定性",
+      "support_text": "杰克奎琳·库龙诺伊表示家庭经历了数周的的不确定性",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_20",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Correspondence",
+      "description": "她向CNN透露正在寻找某人",
+      "support_text": "她向CNN透露正在寻找某人",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_21",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sergeant Juma Zahoro 服役于肯尼亚国防军情报单位",
+      "support_text": "Sergeant Juma Zahoro 服役于肯尼亚国防军情报单位",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_22",
+      "event_type": "Personnel",
+      "event_subtype": "EndPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sergeant Juma Zahoro 接近服役第十年",
+      "support_text": "Sergeant Juma Zahoro 接近服役第十年",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Zahoro 家人在清真寺为遗体举行祈祷",
+      "support_text": "Zahoro 家人在清真寺为遗体举行祈祷",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "数百人参加葬礼",
+      "support_text": "数百人参加葬礼",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_25",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "Mwalim Rama 向聚集者建议年轻人不要因袭击而推迟参军",
+      "support_text": "Mwalim Rama 向聚集者建议年轻人不要因袭击而推迟参军",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_26",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "在48分钟影片中铺陈枪声配乐",
+      "support_text": "在48分钟影片中铺陈枪声配乐",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_27",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚士兵站立准备投降",
+      "support_text": "肯尼亚士兵站立准备投降",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_28",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "士兵试图从燃烧坦克舱口爬出",
+      "support_text": "士兵试图从燃烧坦克舱口爬出",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_29",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "士兵高举手臂表示投降",
+      "support_text": "士兵高举手臂表示投降",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_30",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "敌军逼近投降士兵",
+      "support_text": "敌军逼近投降士兵",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_31",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子突破屏障",
+      "support_text": "武装分子突破屏障",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_32",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全分析师因轻松感而惊讶",
+      "support_text": "安全分析师因轻松感而惊讶",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_33",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "外交官向CNN告知",
+      "support_text": "外交官向CNN告知",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_34",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "200名基地组织成员白天穿越田野",
+      "support_text": "200名基地组织成员白天穿越田野",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_35",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "被告知在敌对环境中应做之事",
+      "support_text": "被告知在敌对环境中应做之事",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_36",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "真相被肯尼亚公众隐藏",
+      "support_text": "真相被肯尼亚公众隐藏",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_37",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Patrick Gathara发表 quoted statement",
+      "support_text": "Patrick Gathara发表 quoted statement 的言论",
+      "source_text": "text_32"
+    },
+    {
+      "id": "text_32_node_38",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "他们的家人以士兵、儿子、丈夫和父亲的身份记住James Saitoti Kuronoi等士兵",
+      "support_text": "他们的家人以士兵、儿子、丈夫和父亲的身份记住这些人",
+      "source_text": "text_32"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_32_node_1",
+      "target": "text_32_node_2",
+      "relation": "before",
+      "support_text": "The raid lasted the entire day; thousands upon thousands of bullets fired by some 300 Al-Shabaab militants in a brutal assault..."
+    },
+    {
+      "source": "text_32_node_1",
+      "target": "text_32_node_3",
+      "relation": "before",
+      "support_text": "By the time the sun set, as many as 141 Kenyan soldiers were dead -- some shot at point-blank range."
+    },
+    {
+      "source": "text_32_node_3",
+      "target": "text_32_node_4",
+      "relation": "before",
+      "support_text": "The only clues to what happened at El Adde -- and just how many Kenyan troops died there -- remains shrouded in mystery."
+    },
+    {
+      "source": "text_32_node_3",
+      "target": "text_32_node_5",
+      "relation": "before",
+      "support_text": "More coffins, more bodies have been quietly handed over, one by one, to the soldiers' grieving families..."
+    },
+    {
+      "source": "text_32_node_3",
+      "target": "text_32_node_8",
+      "relation": "before",
+      "support_text": "Kenyan President Uhuru Kenyatta paid tribute to the four acknowledged casualties from the raid as they were brought home."
+    },
+    {
+      "source": "text_32_node_4",
+      "target": "text_32_node_6",
+      "relation": "before",
+      "support_text": "One local blogger who tweeted a photograph showing of the aftermath of the attack was promptly arrested."
+    },
+    {
+      "source": "text_32_node_5",
+      "target": "text_32_node_7",
+      "relation": "before",
+      "support_text": "Information surrounding the attack needed to be handled 'carefully' and 'meticulously,' Cabinet Secretary for Defense Rachael Omamo explained..."
+    },
+    {
+      "source": "text_32_node_5",
+      "target": "text_32_node_19",
+      "relation": "before",
+      "support_text": "DNA检测确认身份后家属开始披露信息"
+    },
+    {
+      "source": "text_32_node_5",
+      "target": "text_32_node_38",
+      "relation": "before",
+      "support_text": "部分家属通过DNA检测确认身份后开始纪念"
+    },
+    {
+      "source": "text_32_node_9",
+      "target": "text_32_node_2",
+      "relation": "before",
+      "support_text": "肯尼亚士兵帮助击退袭击后继续应对持续攻击"
+    },
+    {
+      "source": "text_32_node_10",
+      "target": "text_32_node_6",
+      "relation": "before",
+      "support_text": "谣言加剧导致政府逮捕传播影像的博主"
+    },
+    {
+      "source": "text_32_node_11",
+      "target": "text_32_node_3",
+      "relation": "before",
+      "support_text": "时间流逝导致伤亡确认延迟"
+    },
+    {
+      "source": "text_32_node_12",
+      "target": "text_32_node_13",
+      "relation": "before",
+      "support_text": "遗体安葬后家属举行集体纪念活动"
+    },
+    {
+      "source": "text_32_node_13",
+      "target": "text_32_node_14",
+      "relation": "before",
+      "support_text": "家属纪念活动引发媒体关注"
+    },
+    {
+      "source": "text_32_node_14",
+      "target": "text_32_node_15",
+      "relation": "before",
+      "support_text": "媒体报道后出现信息管控"
+    },
+    {
+      "source": "text_32_node_16",
+      "target": "text_32_node_18",
+      "relation": "before",
+      "support_text": "照片传播引发后续媒体报道"
+    },
+    {
+      "source": "text_32_node_17",
+      "target": "text_32_node_18",
+      "relation": "before",
+      "support_text": "定期通话成为媒体报道素材"
+    },
+    {
+      "source": "text_32_node_19",
+      "target": "text_32_node_20",
+      "relation": "before",
+      "support_text": "披露家庭信息后向CNN传递新信息"
+    },
+    {
+      "source": "text_32_node_24",
+      "target": "text_32_node_2",
+      "relation": "before",
+      "support_text": "处决式杀害发生在持续攻击期间"
+    },
+    {
+      "source": "text_32_node_25",
+      "target": "text_32_node_30",
+      "relation": "before",
+      "support_text": "投降触发敌军逼近"
+    },
+    {
+      "source": "text_32_node_28",
+      "target": "text_32_node_30",
+      "relation": "before",
+      "support_text": "从坦克爬出为后续逼近创造条件"
+    },
+    {
+      "source": "text_32_node_34",
+      "target": "text_32_node_6",
+      "relation": "before",
+      "support_text": "政府以国家安全为由逮捕试图传播袭击影像的博主"
+    },
+    {
+      "source": "text_32_node_35",
+      "target": "text_32_node_18",
+      "relation": "before",
+      "support_text": "照片传播引发后续媒体报道"
+    },
+    {
+      "source": "text_32_node_36",
+      "target": "text_32_node_37",
+      "relation": "before",
+      "support_text": "抨击言论后发表正式声明"
+    }
+  ]
+}

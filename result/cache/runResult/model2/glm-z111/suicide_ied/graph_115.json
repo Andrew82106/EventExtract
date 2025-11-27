@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "text_115_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周六（具体日期未提及）在Pishin Stop的FC总部附近发生自杀式袭击",
+      "support_text": "Share: QUETTA - At least 15 people, including eight security men, were martyred and 25 others sustained injuries in a suicide attack on a security vehicle near FC headquarters at Pishin Stop on Saturday.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "调查报告显示袭击者使用20-25公斤级爆炸背心，袭击目标为FC在岗车辆",
+      "support_text": "“A suicide bomber on a motorcycle hit an FC vehicle at Pishin Stop,” said the bomb disposal squad’s initial investigation report. It added the bomber used a 20kg to 25kg explosive vest in the attack.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国组织宣称对袭击负责",
+      "support_text": "Islamic State group claimed the responsibility for the attack.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISPR证实15人死亡（含7名平民）及25人受伤，爆炸引发多车起火",
+      "support_text": "“At least seven civilians among 15 were martyred in the attack on a security vehicle in Quetta,” the Inter-Services Public Relations said in a press release. ISPR statement said the explosion targeted an on-duty vehicle and set several other vehicles on fire.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸波及周边车辆、人力车和摩托车，摧毁附近建筑窗户",
+      "support_text": "The blast instantly engulfed vehicles, rickshaws and motorcycles at Pishin Stop. It also smashed windows of nearby buildings and houses.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": " FC和警察封锁现场，救援队与消防队赶赴并转移伤员至Quetta Civil Hospital",
+      "support_text": "Heavy contingents of Frontier Corps and police reached the scene and cordoned off the area. Rescue teams along with fire brigade also rushed to the spot and shifted the injured to Civil Hospital Quetta.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "13名死者30名伤者被送医，医院启动紧急状态并招募医护人员",
+      "support_text": "As many as 13 dead bodies and 30 injured were shifted to Civil Hospital Quetta,” a doctor said. Health Minister Mir Saleh Baloch placed Quetta Civil Hospital under emergency to efficiently deal with the disaster.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "8名重伤员转至Combined Military Hospital",
+      "support_text": "Later, eight injured were shifted to Combined Military Hospital in view of their critical condition.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Home Minister Sarfraz Bugti确认死亡人数并现场指挥灭火",
+      "support_text": "Bugti said firefighters were working to put out the blaze. The home minister visited the blast site.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Pishin Stop地理位置被揭示，毗邻FC总部、医学院等关键设施",
+      "support_text": "Pishin Stop, surrounded by FC headquarters, Law College, Heart Hospital and Ayub Stadium, falls into the heart of Quetta city.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "总统、 Army Chief及前总理Nawaz Sharif谴责袭击",
+      "support_text": "President Mamnoon Hussain, Chief of Army Staff Qamar Javed Bajwa and deposed prime minister Nawaz Sharif condemned the attack.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "军方高层称袭击系破坏独立日庆典",
+      "support_text": "The army chief said it was an attempt to mar the celebrations.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国Khurasan省分支确认袭击，承认与巴基斯坦极端组织合作历史",
+      "support_text": "The Islamic State Khorasan Province... released a statement claiming the attack... A suicide motorbike bomber was behind the blast... The local affiliate has been known to work with Pakistani militant groups in previous attacks.",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹拆除调查报告指出袭击事件",
+      "support_text": "炸弹拆除调查报告指出袭击事件",
+      "source_text": "text_115"
+    },
+    {
+      "id": "text_115_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查报告补充炸弹重量信息",
+      "support_text": "调查报告补充炸弹重量信息",
+      "source_text": "text_115"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_115_node_1",
+      "target": "text_115_node_2",
+      "relation": "before",
+      "support_text": "said the bomb disposal squad’s initial investigation report. It added the bomber used a 20kg to 25kg explosive vest in the attack."
+    },
+    {
+      "source": "text_115_node_1",
+      "target": "text_115_node_5",
+      "relation": "before",
+      "support_text": "The blast instantly engulfed vehicles, rickshaws and motorcycles at Pishin Stop. It also smashed windows of nearby buildings and houses."
+    },
+    {
+      "source": "text_115_node_1",
+      "target": "text_115_node_6",
+      "relation": "before",
+      "support_text": "Heavy contingents of Frontier Corps and police reached the scene and cordoned off the area."
+    },
+    {
+      "source": "text_115_node_1",
+      "target": "text_115_node_10",
+      "relation": "before",
+      "support_text": "Pishin Stop, surrounded by FC headquarters, Law College, Heart Hospital and Ayub Stadium, falls into the heart of Quetta city."
+    },
+    {
+      "source": "text_115_node_2",
+      "target": "text_115_node_3",
+      "relation": "before",
+      "support_text": "Islamic State group claimed the responsibility for the attack."
+    },
+    {
+      "source": "text_115_node_2",
+      "target": "text_115_node_14",
+      "relation": "before",
+      "support_text": "said the bomb disposal squad’s initial investigation report. It added the bomber used a 20kg to 25kg explosive vest in the attack."
+    },
+    {
+      "source": "text_115_node_3",
+      "target": "text_115_node_11",
+      "relation": "before",
+      "support_text": "President Mamnoon Hussain, Chief of Army Staff Qamar Javed Bajwa and deposed prime minister Nawaz Sharif condemned the attack."
+    },
+    {
+      "source": "text_115_node_3",
+      "target": "text_115_node_13",
+      "relation": "before",
+      "support_text": "The Islamic State Khorasan Province... released a statement claiming the attack... The local affiliate has been known to work with Pakistani militant groups in previous attacks."
+    },
+    {
+      "source": "text_115_node_4",
+      "target": "text_115_node_9",
+      "relation": "before",
+      "support_text": "Bugti said firefighters were working to put out the blaze."
+    },
+    {
+      "source": "text_115_node_5",
+      "target": "text_115_node_6",
+      "relation": "before",
+      "support_text": "Rescue teams along with fire brigade also rushed to the spot"
+    },
+    {
+      "source": "text_115_node_6",
+      "target": "text_115_node_7",
+      "relation": "before",
+      "support_text": "As many as 13 dead bodies and 30 injured were shifted to Civil Hospital Quetta"
+    },
+    {
+      "source": "text_115_node_7",
+      "target": "text_115_node_8",
+      "relation": "before",
+      "support_text": "Later, eight injured were shifted to Combined Military Hospital"
+    },
+    {
+      "source": "text_115_node_11",
+      "target": "text_115_node_12",
+      "relation": "before",
+      "support_text": "The army chief said it was an attempt to mar the celebrations."
+    },
+    {
+      "source": "text_115_node_14",
+      "target": "text_115_node_15",
+      "relation": "before",
+      "support_text": "It added the bomber used a 20kg to 25kg explosive vest in the attack."
+    }
+  ]
+}

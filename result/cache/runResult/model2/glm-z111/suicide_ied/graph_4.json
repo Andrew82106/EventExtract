@@ -1,0 +1,291 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚媒体指控吉迪恩·格赫扎利为以色列游客爆炸案凶手",
+      "support_text": "Bulgarian media have reportedly identified the man responsible for blowing up the bus with Israeli tourists on Wednesday as Mehdi Ghezali, a jihadist who spent two years in Guantanamo.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国官员否认格赫扎利与爆炸案有关",
+      "support_text": "US officials responded there is 'no evidence' that it was him.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "ABC电视台报道保加利亚官方否认格赫扎利涉案",
+      "support_text": "ABC reporting that Bulgarian officials denied that Ghezali was behind the attack.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "斯德哥尔摩安全部门证实未发现格赫扎利与袭击关联",
+      "support_text": "TT says it has received similar refutals from security services in Stockholm.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "NBC确认美国官方未掌握格赫扎利与恐袭证据",
+      "support_text": "NBC later said that US officials also had no information linking Ghezali with the terrorist act.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚警方通过机场监控比对确认袭击者身份",
+      "support_text": "local police matched up airport CCTV footage with the remnants near the bus carrying Israeli tourists that was destroyed in the explosion.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "发现袭击者携带伪造的杰奎·菲利普·马丁美国驾照",
+      "support_text": "likely suicide bomber was carrying a US driving license bearing the name Jacque Felipe Martin that authorities believe to be a forgery.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "格赫扎利被披露为33岁伊斯兰主义者，曾两次被引渡回瑞典",
+      "support_text": "Mehdi Ghezali is a 33 year-old Islamist, who was arrested in Pakistan in 2001 and subsequently spent two years in detention in Guantanamo.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_9",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年巴基斯坦逮捕格赫扎利，2003年被关押在关塔那摩",
+      "support_text": "Mehdi Ghezali was arrested in Pakistan in 2001 and subsequently spent two years in detention in Guantanamo.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_10",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年巴基斯坦再次逮捕格赫扎利，经引渡回保加利亚后获释",
+      "support_text": "Mehdi Ghezali was arrested again by Pakistani authorities on the Afghanistan border in 2009, but once again set free upon extradition back to his homeland.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者伪装成度假游客，在机场观察以色列游客后实施爆炸",
+      "support_text": "The suspect – a long-haired man in shorts wearing two rucksacks – looked no different than the thousands of other holidaymakers at the popular Black Sea resort. He roamed the airport for an hour, apparently waiting for the tourists arriving from Tel Aviv to go through customs before approaching their transfer bus and detonating his bomb.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "造成5名以色列人、保加利亚司机及袭击者当场死亡",
+      "support_text": "Five Israelis, the Bulgarian driver and the bomber were instantly killed.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2名重伤游客在索非亚接受治疗，30名伤者由以色列军机转运",
+      "support_text": "Two more tourists remain in serious condition in the capital Sofia, while an Israeli military plane has flown around thirty others who were wounded back to Israel.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚内政部长暗示袭击者可能获得境内后勤支持",
+      "support_text": "Interior Minister Tsvetan Tsvetanov said the bomber had spent between four days and a week in the country. 'We cannot exclude the possibility that he had logistical support on Bulgarian territory.'",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方从爆炸残留物提取袭击者DNA进行国际比对",
+      "support_text": "Police have taken a DNA sample from the skin of the terrorist to see if it is listed in any international criminal databases.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列总理本雅明·内塔尼亚胡指控伊朗策划此次袭击",
+      "support_text": "Benjamin Netanyahu. 'All signs point to Iran. This is an Iranian terror offensive that is spreading throughout the world,' said Prime Minister Benjamin Netanyahu.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以国防部长巴拉克指认黎巴嫩真主党为直接执行者",
+      "support_text": "Ehud Barak. The Lebanese Islamist organization enjoys ideological and financial ties with Tehran. 'Israel will do all it can to find those responsible and punish them, both those who carried it out directly and those who dispatched them,' promised Barak.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗电视台驳斥以色列的指控为'荒谬且煽动性'",
+      "support_text": "Iranian TV branded the accusations ‘sensationalist’ and ‘ridiculous.’",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚外长强调需进一步调查后再指认责任方",
+      "support_text": "Bulgarian Foreign Minister Nikolay Mladenov said further investigations will be necessary before a definitive perpetrator of the attack is found. 'It is wrong and a mistake to point fingers at this stage of the investigation at any country or organization,' stated Mladenov.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "国家发行了经过独立验证的声明",
+      "support_text": "国家发行了经过独立验证的声明",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_21",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸摧毁了载有以色列游客的巴士",
+      "support_text": "explosion destroyed the bus carrying Israeli tourists",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "US officials responded there is 'no evidence' that it was him."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "ABC reporting that Bulgarian officials denied that Ghezali was behind the attack."
+    },
+    {
+      "source": "text_4_node_3",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "TT says it has received similar refutals from security services in Stockholm."
+    },
+    {
+      "source": "text_4_node_4",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "NBC later said that US officials also had no information linking Ghezali with the terrorist act."
+    },
+    {
+      "source": "text_4_node_9",
+      "target": "text_4_node_8",
+      "relation": "before",
+      "support_text": "Mehdi Ghezali is a 33 year-old Islamist, who was arrested in Pakistan in 2001 and subsequently spent two years in detention in Guantanamo."
+    },
+    {
+      "source": "text_4_node_9",
+      "target": "text_4_node_10",
+      "relation": "before",
+      "support_text": "Mehdi Ghezali was arrested again by Pakistani authorities on the Afghanistan border in 2009, but once again set free upon extradition back to his homeland."
+    },
+    {
+      "source": "text_4_node_11",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "local police matched up airport CCTV footage with the remnants near the bus carrying Israeli tourists that was destroyed in the explosion."
+    },
+    {
+      "source": "text_4_node_11",
+      "target": "text_4_node_7",
+      "relation": "before",
+      "support_text": "likely suicide bomber was carrying a US driving license bearing the name Jacque Felipe Martin that authorities believe to be a forgery."
+    },
+    {
+      "source": "text_4_node_11",
+      "target": "text_4_node_12",
+      "relation": "before",
+      "support_text": "Five Israelis, the Bulgarian driver and the bomber were instantly killed."
+    },
+    {
+      "source": "text_4_node_11",
+      "target": "text_4_node_14",
+      "relation": "before",
+      "support_text": "Interior Minister Tsvetan Tsvetanov said the bomber had spent between four days and a week in the country."
+    },
+    {
+      "source": "text_4_node_11",
+      "target": "text_4_node_16",
+      "relation": "before",
+      "support_text": "Benjamin Netanyahu. 'All signs point to Iran. This is an Iranian terror offensive that is spreading throughout the world,' said Prime Minister Benjamin Netanyahu."
+    },
+    {
+      "source": "text_4_node_12",
+      "target": "text_4_node_13",
+      "relation": "before",
+      "support_text": "Two more tourists remain in serious condition in the capital Sofia, while an Israeli military plane has flown around thirty others who were wounded back to Israel."
+    },
+    {
+      "source": "text_4_node_14",
+      "target": "text_4_node_15",
+      "relation": "before",
+      "support_text": "Police have taken a DNA sample from the skin of the terrorist to see if it is listed in any international criminal databases."
+    },
+    {
+      "source": "text_4_node_16",
+      "target": "text_4_node_17",
+      "relation": "before",
+      "support_text": "Ehud Barak. The Lebanese Islamist organization enjoys ideological and financial ties with Tehran. 'Israel will do all it can to find those responsible and punish them, both those who carried it out directly and those who dispatched them,' promised Barak."
+    },
+    {
+      "source": "text_4_node_17",
+      "target": "text_4_node_18",
+      "relation": "before",
+      "support_text": "Iranian TV branded the accusations ‘sensationalist’ and ‘ridiculous.’"
+    },
+    {
+      "source": "text_4_node_18",
+      "target": "text_4_node_19",
+      "relation": "before",
+      "support_text": "Bulgarian Foreign Minister Nikolay Mladenov said further investigations will be necessary before a definitive perpetrator of the attack is found."
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "text_20_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国（IS）在阿富汗乔尔桑省库什蒂帕区袭击国际红十字会（ICRC）车队，造成6名当地员工死亡，2名工作人员被劫持",
+      "support_text": " Authorities in northern Afghanistan say Islamic State terrorists have killed at least six local employees of theInternational Committee of the Red Cross. Jowzjan province government spokesman Reza Ghafoori told VOA Wednesday’s attack occurred in the Qushtipa district and the assailants also took away two ICRC workers.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国援助阿富汗特使团（UNAMA）周三谴责周二发生在喀布尔最高法院外的自杀式爆炸袭击，造成22人死亡、40人受伤",
+      "support_text": "The United Nations Assistance Mission in Afghanistan, UNAMA, Wednesday condemned the suicide attack outside the court building as 'nothing short of an atrocity' and called for those responsible must be brought to justice.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣称对周二喀布尔自杀式爆炸袭击负责，并称袭击者来自塔吉克斯坦",
+      "support_text": "IS has also claimed responsibility for Tuesday's suicide bombing in Kabul and identified the bomber as Tajik.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国报告显示2015年以来阿富汗司法人员遭袭达74起，导致89人死亡、214人受伤",
+      "support_text": "Since the beginning of 2015 alone, UNAMA has documented 74 attacks targeting judges, prosecutors and judicial staff, which have resulted in 89 dead and 214 injured.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国在阿富汗针对什叶派穆斯林少数群体的袭击导致2016年平民伤亡同比激增近10倍",
+      "support_text": "The number of civilian casualties caused by IS terrorists in Afghanistan increased nearly 10 times in 2016 compared to the previous year, according to a UNAMA report released earlier this week.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "人权观察组织将伊斯兰国对ICRC人员的袭击定性为‘骇人犯罪’",
+      "support_text": "Amnesty International called the attack 'a horrific crime'",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班否认参与袭击ICRC，称袭击行为违法并承诺追查凶手",
+      "support_text": "The Taliban has denied involvement in the incident, saying attacking ICRC is a crime. 'We will find and punish the offenders,' a spokesman added.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "国际红十字会（ICRC）高层谴责袭击行为，表示事件对阿富汗业务影响尚不明确",
+      "support_text": " 'This is a despicable act. Nothing can justify the murder of our colleagues and dear friends,' said the head of the ICRC delegation in Afghanistan, Monica Zanarelli. She added that it would be premature to for the charity to determine the impact of the 'appalling incident' on its operations in Afghanistan",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_9",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "团队向Shibergan以南地区交付牲畜物资",
+      "support_text": "团队向Shibergan以南地区交付牲畜物资",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "IS试图在阿富汗建立立足点",
+      "support_text": "IS试图在阿富汗建立立足点",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_11",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "超过200人被杀害",
+      "support_text": "超过200人被杀害",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_12",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "700人受伤",
+      "support_text": "700人受伤",
+      "source_text": "text_20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_2",
+      "relation": "before",
+      "support_text": "The United Nations Assistance Mission in Afghanistan, UNAMA, Wednesday condemned the suicide attack outside the court building as 'nothing short of an atrocity' and called for those responsible must be brought to justice."
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_5",
+      "relation": "before",
+      "support_text": "The number of civilian casualties caused by IS terrorists in Afghanistan increased nearly 10 times in 2016 compared to the previous year, according to a UNAMA report released earlier this week."
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_6",
+      "relation": "before",
+      "support_text": "Amnesty International called the attack 'a horrific crime'"
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_7",
+      "relation": "before",
+      "support_text": "The Taliban has denied involvement in the incident, saying attacking ICRC is a crime. 'We will find and punish the offenders,' a spokesman added."
+    },
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_8",
+      "relation": "before",
+      "support_text": " 'This is a despicable act. Nothing can justify the murder of our colleagues and dear friends,' said the head of the ICRC delegation in Afghanistan, Monica Zanarelli."
+    },
+    {
+      "source": "text_20_node_3",
+      "target": "text_20_node_2",
+      "relation": "before",
+      "support_text": "IS has also claimed responsibility for Tuesday's suicide bombing in Kabul and identified the bomber as Tajik."
+    },
+    {
+      "source": "text_20_node_4",
+      "target": "text_20_node_5",
+      "relation": "before",
+      "support_text": "Since the beginning of 2015 alone, UNAMA has documented 74 attacks targeting judges, prosecutors and judicial staff, which have resulted in 89 dead and 214 injured."
+    },
+    {
+      "source": "text_20_node_9",
+      "target": "text_20_node_1",
+      "relation": "before",
+      "support_text": "团队向Shibergan以南地区交付牲畜物资（temporal_order=4）"
+    },
+    {
+      "source": "text_20_node_10",
+      "target": "text_20_node_5",
+      "relation": "before",
+      "support_text": "IS试图在阿富汗建立立足点（temporal_order=1）"
+    },
+    {
+      "source": "text_20_node_11",
+      "target": "text_20_node_5",
+      "relation": "before",
+      "support_text": "超过200人被杀害（temporal_order=8）"
+    },
+    {
+      "source": "text_20_node_12",
+      "target": "text_20_node_5",
+      "relation": "before",
+      "support_text": "700人受伤（temporal_order=9）"
+    }
+  ]
+}

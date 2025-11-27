@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "id": "text_27_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2018年7月1日，贾拉拉巴德市中心发生自杀式爆炸袭击，造成20人死亡、20人受伤，主要受害者为锡克教徒和印度教徒",
+      "support_text": "On 1 July 2018, a suicide bomber detonated in the center of the eastern Afghan city of Jalalabad, killing 20 people, mainly Sikhs and Hindus, and injuring 20 others.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国组织宣称对此次爆炸袭击负责，指控其针对阿富汗特种部队",
+      "support_text": "The Islamic State group claimed responsibility for the attack, saying it targeted Afghan Special Forces.",
+      "source_text": "text_27"
+    },
+    {
+      "id": "text_27_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国在后续声明中声称在贾拉拉巴德开展军事行动，导致60名阿富汗士兵和'多神教徒'伤亡",
+      "support_text": "In a further statement they said that 60 Afghan soldiers and 'polytheists' were killed and wounded in an operation in the city of Jalalabad.",
+      "source_text": "text_27"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_27_node_1",
+      "target": "text_27_node_2",
+      "relation": "before",
+      "support_text": "The Islamic State group claimed responsibility for the attack, saying it targeted Afghan Special Forces."
+    },
+    {
+      "source": "text_27_node_1",
+      "target": "text_27_node_3",
+      "relation": "before",
+      "support_text": "爆炸导致20名其他人受伤后，伊斯兰国声称在贾拉拉巴德开展军事行动，导致60名阿富汗士兵和'多神教徒'伤亡"
+    },
+    {
+      "source": "text_27_node_2",
+      "target": "text_27_node_3",
+      "relation": "before",
+      "support_text": "In a further statement they said that 60 Afghan soldiers and 'polytheists' were killed and wounded in an operation in the city of Jalalabad."
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "text_69_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年10月19日下午5:30，南非比勒陀利亚Nedbank Square建筑外发生汽车炸弹爆炸，造成16人死亡、130余人受伤",
+      "support_text": "1983: Car bomb in South Africa kills 16 At least 16 people have been killed and more than 130 people injured in a car bomb explosion in South Africa's capital city, Pretoria.",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_2",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸产生数百英尺高的浓烟，蓝色阿尔法罗密欧汽车残骸与人体碎片散落现场",
+      "support_text": "Bled to death A huge pall of smoke rose hundreds of feet into the air as debris and bodies were strewn around the scene of the explosion.",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "炸弹专家到场排查第二枚炸弹，爆炸导致玻璃金属碎片飞溅伤及大量行人",
+      "support_text": "Bomb disposal experts were called to the scene to search for a possible second bomb.",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "比勒陀利亚警察局长证实部分遇难者为南非空军人员，包括黑人和白人",
+      "support_text": "South Africa's Minister for Law and Order, Louis le Grange, who visited the scene immediately, blamed the attack on the ANC.",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "南非内政部长路易斯·勒·格朗杰现场指责非国大实施恐怖袭击",
+      "support_text": "He said: 'I have no doubt who is responsible for this despicable attack.'",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "非国大代理主席奥利维尔·坦博称Nedbank Square是合法目标但未承认责任",
+      "support_text": "Oliver Tambo... said the Nedbank Square building was a legitimate target.",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察局长指出部分重伤者因严重 mutilation 无法身份识别",
+      "support_text": "General Mike Gedenhuys... said: 'Many of the victims are so badly mutilated they have not yet been identified.'",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "国防部长马努斯·马兰将事件定性为共产主义势力针对南非的恐怖犯罪",
+      "support_text": "General Magnus Malan... described the explosion as a 'cowardly, criminal deed in the Communist war being raged against South Africa'.",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_9",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府数据显示过去五年非洲因恐怖主义死亡超4万平民、8.3万军人",
+      "support_text": "South Africa has nearly five million whites, 21 million blacks, nearly one million Indians and about 2.5 million people of mixed race.",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "南非种族构成：白人490万、黑人2100万、印度裔100万、混血250万",
+      "support_text": "The government's apartheid system denies citizenship rights to black people except in 10 remote homelands.",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "非国大警告将升级针对白人少数统治的斗争行动",
+      "support_text": "The ANC has warned it intends to step up its campaign to bring an end to white minority rule.",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方用铁丝网封锁周边区域",
+      "support_text": "Police sealed off the surrounding area with a barbed-wire fence as emergency personnel sifted through the rubble looking for bodies.",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "紧急人员筛选瓦砾寻找尸体",
+      "support_text": "紧急人员筛选瓦砾寻找尸体",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "玻璃和金属被抛射到空中",
+      "support_text": "爆炸产生数百英尺高的浓烟，蓝色阿尔法罗密欧汽车残骸与人体碎片散落现场",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "商铺橱窗和窗户被炸毁",
+      "support_text": "炸弹爆炸导致玻璃金属碎片飞溅伤及大量行人",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_16",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "部分伤者因失血死亡",
+      "support_text": "爆炸产生数百英尺高的浓烟，蓝色阿尔法罗密欧汽车残骸与人体碎片散落现场",
+      "source_text": "text_69"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_69_node_1",
+      "target": "text_69_node_2",
+      "relation": "before",
+      "support_text": "It is understood the bomb had been placed in a blue Alfa Romeo car outside the multi-storey building, which houses the South African air force headquarters. It exploded at the height of the city's rush-hour as hundreds of people were leaving work for the weekend."
+    },
+    {
+      "source": "text_69_node_1",
+      "target": "text_69_node_15",
+      "relation": "before",
+      "support_text": "炸弹专家到场排查第二枚炸弹，爆炸导致玻璃金属碎片飞溅伤及大量行人"
+    },
+    {
+      "source": "text_69_node_2",
+      "target": "text_69_node_3",
+      "relation": "before",
+      "support_text": "More than 20 ambulances attended the scene and took the dead and injured to three hospitals in and around Pretoria. Police sealed off the surrounding area with a barbed-wire fence as emergency personnel sifted through the rubble looking for bodies."
+    },
+    {
+      "source": "text_69_node_2",
+      "target": "text_69_node_14",
+      "relation": "before",
+      "support_text": "爆炸产生数百英尺高的浓烟，蓝色阿尔法罗密欧汽车残骸与人体碎片散落现场"
+    },
+    {
+      "source": "text_69_node_3",
+      "target": "text_69_node_4",
+      "relation": "before",
+      "support_text": "General Mike Gedenhuys, Police Commissioner, said: 'Many of the victims are so badly mutilated they have not yet been identified.'"
+    },
+    {
+      "source": "text_69_node_4",
+      "target": "text_69_node_5",
+      "relation": "before",
+      "support_text": "He said: 'I have no doubt who is responsible for this despicable attack.' He said the explosion was the 'biggest and ugliest' terrorist incident since anti-government violence began in South Africa 20 years ago."
+    },
+    {
+      "source": "text_69_node_5",
+      "target": "text_69_node_6",
+      "relation": "before",
+      "support_text": "Oliver Tambo... said the Nedbank Square building was a legitimate target."
+    },
+    {
+      "source": "text_69_node_6",
+      "target": "text_69_node_7",
+      "relation": "before",
+      "support_text": "General Magnus Malan... described the explosion as a 'cowardly, criminal deed in the Communist war being raged against South Africa'."
+    },
+    {
+      "source": "text_69_node_7",
+      "target": "text_69_node_8",
+      "relation": "before",
+      "support_text": "South Africa has nearly five million whites, 21 million blacks, nearly one million Indians and about 2.5 million people of mixed race."
+    },
+    {
+      "source": "text_69_node_8",
+      "target": "text_69_node_9",
+      "relation": "before",
+      "support_text": "The ANC has warned it intends to step up its campaign to bring an end to white minority rule."
+    },
+    {
+      "source": "text_69_node_15",
+      "target": "text_69_node_16",
+      "relation": "before",
+      "support_text": "部分伤者因失血死亡"
+    }
+  ]
+}

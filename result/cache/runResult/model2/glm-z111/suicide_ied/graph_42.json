@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_42_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年8月市场附近公交站发生女性自杀式爆炸，致12人死亡",
+      "support_text": "The Central market has been a target of terrorist attacks twice: in 1999, when car explosion killed 52 people, and in 2008, when a female suicide bomber detonated bombs attached to herself at the bus stop near the market, claiming lives of 12 people and injuring 41.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年9月9日市场发生自杀式汽车炸弹袭击，造成17人死亡、160余人受伤",
+      "support_text": "The 2010 Vladikavkaz bombing took place at the Central market in Vladikavaz, North Ossetia–Alania, Russia on 9 September 2010 when a suicide car bomber detonated his explosives killing at least 17 and injuring more than 160.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸现场附近发现并成功拆解第二辆汽车炸弹",
+      "support_text": "A second bomb discovered in a car near the site of the first explosion was successfully defused.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查发现袭击者头颅遗骸",
+      "support_text": "The remains of the suicide attacker's decapitated corpse were discovered.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄总统谴责袭击为'恐怖行径'，总理呼吁穆斯林群体参与反极端主义",
+      "support_text": "Russia's president, Dmitry Medvedev, condemned the attack as 'monstrous'. The prime minister, Vladimir Putin, said the attack was designed to 'sow enmity between our citizens'.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认4名亚美尼亚人（含1名俄罗斯公民）死亡，多人受伤",
+      "support_text": "At least 4 ethnic Armenians, including 1 Armenian citizen, were among the dead. Armenians were also among the injured.",
+      "source_text": "text_42"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_42_node_1",
+      "target": "text_42_node_2",
+      "relation": "before",
+      "support_text": "The Central market has been a target of terrorist attacks twice: in 1999, when car explosion killed 52 people, and in 2008, when a female suicide bomber detonated bombs attached to herself at the bus stop near the market, claiming lives of 12 people and injuring 41."
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_3",
+      "relation": "before",
+      "support_text": "A second bomb discovered in a car near the site of the first explosion was successfully defused."
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_6",
+      "relation": "before",
+      "support_text": "killing at least 17 and injured more than 160."
+    },
+    {
+      "source": "text_42_node_3",
+      "target": "text_42_node_4",
+      "relation": "before",
+      "support_text": "The remains of the suicide attacker's decapitated corpse were discovered."
+    },
+    {
+      "source": "text_42_node_4",
+      "target": "text_42_node_5",
+      "relation": "before",
+      "support_text": "Russia's president, Dmitry Medvedev, condemned the attack as 'monstrous'. The prime minister, Vladimir Putin, said the attack was designed to 'sow enmity between our citizens'."
+    }
+  ]
+}

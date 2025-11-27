@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "text_66_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年4月19日，俄克拉荷马联邦大楼遭恐怖袭击爆炸，促使总统要求司法部启动安全评估",
+      "support_text": "prepared at the direction of the President after the April 19 bombing of the Oklahoma City federal building.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_2",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "1995年6月28日，司法部发布联邦建筑安全升级报告，提出52项新安全标准",
+      "support_text": "The study proposes new minimum security standards for federal buildings, and recommends that each federal facility be upgraded to meet those standards to the extent feasible.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查显示联邦建筑普遍存在安全漏洞，多数建筑因历史设计未考虑恐怖袭击风险",
+      "support_text": "the survey concluded that typical federal facilities lack some of the elements needed to meet the new minimum security standards, recommended in light of the changed environment of heightened risk.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_4",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "报告统计显示，1995年6月28日前两个月内200个联邦建筑收到炸弹威胁",
+      "support_text": "in the last two months alone, 200 federal buildings have received bomb threats.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "将联邦建筑划分为5个安全等级（Level 1-5），俄克拉荷马大楼为Level 4",
+      "support_text": "Federal sites were divided into five security levels ranging from a Level 1... to a Level 5...",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "针对Level 4以上建筑提出具体升级要求，包括监控系统、防弹玻璃等",
+      "support_text": "the report calls for such things as controls over facility parking, perimeter monitoring by closed-circuit television, intrusion-detection systems...",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "建议由GSA负责实施安全升级，并升级联邦保护服务",
+      "support_text": "the report also recommends reemphasizing the General Servie Administration's primary responsibility for implementing federal facility security, upgrading of the Federal Protective Service...",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "估算Level 4新建建筑安全升级成本约250万美元（占3.3%），改造成本最高达300万美元",
+      "support_text": "the report estimates that the minimum security features recommended for a typical Level 4 building would add about $2.5 million to the cost of new construction...",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "要求建立建筑级安全委员会和跨部门Interagency Security Committee",
+      "support_text": "the report recommended that security issues first be addressed by building-level security committees...",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "约100万联邦文职员工在政府通用服务管理局租赁或拥有的空间工作",
+      "support_text": "约100万联邦文职员工在政府通用服务管理局租赁或拥有的空间工作",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_11",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府通用服务管理局租赁空间",
+      "support_text": "政府通用服务管理局租赁空间",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府通用服务管理局拥有空间",
+      "support_text": "政府通用服务管理局拥有空间",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "在为期两个月的审查中包含这些地点",
+      "support_text": "在为期两个月的审查中包含这些地点",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "报告建议安全委员会优先处理安全问题",
+      "support_text": "the report recommends that security issues first be addressed by building-level security committees...",
+      "source_text": "text_66"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_66_node_1",
+      "target": "text_66_node_2",
+      "relation": "before",
+      "support_text": "prepared at the direction of the President after the April 19 bombing of the Oklahoma City federal building."
+    },
+    {
+      "source": "text_66_node_2",
+      "target": "text_66_node_7",
+      "relation": "before",
+      "support_text": "the report also recommends reemphasizing the General Servie Administration's primary responsibility for implementing federal facility security..."
+    },
+    {
+      "source": "text_66_node_2",
+      "target": "text_66_node_8",
+      "relation": "before",
+      "support_text": "the report estimates that the minimum security features recommended for a typical Level 4 building would add about $2.5 million..."
+    },
+    {
+      "source": "text_66_node_2",
+      "target": "text_66_node_11",
+      "relation": "before",
+      "support_text": "政府通用服务管理局租赁空间"
+    },
+    {
+      "source": "text_66_node_2",
+      "target": "text_66_node_12",
+      "relation": "before",
+      "support_text": "政府通用服务管理局拥有空间"
+    },
+    {
+      "source": "text_66_node_4",
+      "target": "text_66_node_2",
+      "relation": "before",
+      "support_text": "in the last two months alone, 200 federal buildings have received bomb threats."
+    },
+    {
+      "source": "text_66_node_5",
+      "target": "text_66_node_6",
+      "relation": "before",
+      "support_text": "Federal sites were divided into five security levels ranging from a Level 1... to a Level 5..."
+    },
+    {
+      "source": "text_66_node_6",
+      "target": "text_66_node_8",
+      "relation": "before",
+      "support_text": "the report estimates that the minimum security features recommended for a typical Level 4 building would add about $2.5 million..."
+    },
+    {
+      "source": "text_66_node_9",
+      "target": "text_66_node_7",
+      "relation": "before",
+      "support_text": "the report recommended that security issues first be addressed by building-level security committees..."
+    },
+    {
+      "source": "text_66_node_11",
+      "target": "text_66_node_10",
+      "relation": "before",
+      "support_text": "约100万联邦文职员工在政府通用服务管理局租赁或拥有的空间工作"
+    },
+    {
+      "source": "text_66_node_13",
+      "target": "text_66_node_7",
+      "relation": "before",
+      "support_text": "在为期两个月的审查中包含这些地点"
+    },
+    {
+      "source": "text_66_node_14",
+      "target": "text_66_node_9",
+      "relation": "before",
+      "support_text": "基于语义描述的时序逻辑，建议添加优先级约束"
+    }
+  ]
+}

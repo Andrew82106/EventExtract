@@ -1,0 +1,252 @@
+{
+  "nodes": [
+    {
+      "id": "text_38_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Wednesday a suicide bomber detonated at a Kabul sports hall in a Shia neighborhood",
+      "support_text": "An hour after a suicide bomber blew himself up at a sports hall in a heavily Shia neighbourhood on Wednesday, a car packed with explosives detonated as journalists and security forces gathered at the scene, police said.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "An hour later a car bomb exploded at the same site while journalists and security forces were present",
+      "support_text": "a car packed with explosives detonated as journalists and security forces gathered at the scene, police said.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Tolo News reported two of its journalists were killed in the attack",
+      "support_text": "Tolo News, Afghanistan’s largest private broadcaster, said two of its journalists were killed in the attack.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "NAI stated at least four journalists were wounded in the second explosion",
+      "support_text": "NAI said at least four journalists were wounded in the second explosion.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Afghan President Ashraf Ghani condemned the attacks as crimes against humanity",
+      "support_text": "The Afghan president, Ashraf Ghani, said in a statement: ‘An attack on civilians and media workers of the country is an attack on freedom of speech and a crime against humanity.’",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Pahlawan Shir confirmed over 30 people died, including wrestlers, and located a critical injured coach",
+      "support_text": "Pahlawan Shir, the director of the wrestling club, said: ‘I was outside when the first explosion happened, which has killed over 30 people, many of them wrestlers. I was searching for my coach, I have finally found him in the … hospital. He is in a critical condition.’",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_7",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Interior Ministry officials confirmed at least 20 casualties",
+      "support_text": "A spokesman for the interior ministry said at least 20 people were killed. An Afghan security source confirmed the numbers.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Witnesses described the bomber killing guards before detonating inside the wrestling club",
+      "support_text": "People who claimed to have witnessed the attack said the bomber killed the guards at the club before blowing himself up inside.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mohammad Hanif documented casualties via Facebook, noting athletes were among victims",
+      "support_text": "Mohammad Hanif said on Facebook: ‘The bomber detonated inside where a large number of athletes had gathered. There are a lot of dead and wounded.’",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "The attack marked the deadliest against Kabul's Shia population since 15 August",
+      "support_text": "It was the deadliest on Kabul’s Shia population since 15 August, when a suicide bomber blew himself up in an education centre, killing dozens of students.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS claimed responsibility for the 15 August education center bombing that killed students",
+      "support_text": "ISIS said it was behind that attack, which drew international condemnation.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "April 30 saw twin explosions in Kabul killing 9 journalists and 16 others",
+      "support_text": "On 30 April. Nine journalists and 16 other people were killed in twin explosions in Kabul.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Taliban announced Jalaluddin Haqqani's death, linked to prior Kabul attacks",
+      "support_text": "On Tuesday the Taliban announced the death of Jalaluddin Haqqani, who founded the eponymous militant group widely suspected of being behind some of the attacks in Kabul claimed by Isis.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "记者和安保人员聚集现场",
+      "support_text": "An hour after a suicide bomber blew himself up at a sports hall in a heavily Shia neighbourhood on Wednesday, a car packed with explosives detonated as journalists and security forces gathered at the scene, police said.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "警方发布事件说明",
+      "support_text": "police said.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "对记者发动袭击",
+      "support_text": "对记者发动袭击",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国经常针对阿富汗少数族裔什叶派人口发动攻击",
+      "support_text": "伊斯兰国经常针对阿富汗少数族裔什叶派人口发动攻击",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者正在备考大学入学考试",
+      "support_text": "受害者正在备考大学入学考试",
+      "source_text": "text_38"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_38_node_1",
+      "target": "text_38_node_2",
+      "relation": "before",
+      "support_text": "An hour after a suicide bomber blew himself up at a sports hall in a heavily Shia neighbourhood on Wednesday, a car packed with explosives detonated as journalists and security forces gathered at the scene, police said."
+    },
+    {
+      "source": "text_38_node_1",
+      "target": "text_38_node_14",
+      "relation": "before",
+      "support_text": "journalists and security forces gathered at the scene"
+    },
+    {
+      "source": "text_38_node_2",
+      "target": "text_38_node_3",
+      "relation": "before",
+      "support_text": "Tolo News, Afghanistan’s largest private broadcaster, said two of its journalists were killed in the attack."
+    },
+    {
+      "source": "text_38_node_2",
+      "target": "text_38_node_4",
+      "relation": "before",
+      "support_text": "NAI said at least four journalists were wounded in the second explosion."
+    },
+    {
+      "source": "text_38_node_2",
+      "target": "text_38_node_5",
+      "relation": "before",
+      "support_text": "The Afghan president, Ashraf Ghani, said in a statement: ‘An attack on civilians and media workers of the country is an attack on freedom of speech and a crime against humanity.’"
+    },
+    {
+      "source": "text_38_node_2",
+      "target": "text_38_node_8",
+      "relation": "before",
+      "support_text": "People who claimed to have witnessed the attack said the bomber killed the guards at the club before blowing himself up inside."
+    },
+    {
+      "source": "text_38_node_2",
+      "target": "text_38_node_9",
+      "relation": "before",
+      "support_text": "Mohammad Hanif said on Facebook: ‘The bomber detonated inside where a large number of athletes had gathered. There are a lot of dead and wounded.’"
+    },
+    {
+      "source": "text_38_node_2",
+      "target": "text_38_node_15",
+      "relation": "before",
+      "support_text": "police said."
+    },
+    {
+      "source": "text_38_node_2",
+      "target": "text_38_node_16",
+      "relation": "before",
+      "support_text": "Tolo News reported two of its journalists were killed in the attack."
+    },
+    {
+      "source": "text_38_node_10",
+      "target": "text_38_node_11",
+      "relation": "before",
+      "support_text": "It was the deadliest on Kabul’s Shia population since 15 August, when a suicide bomber blew himself up in an education centre, killing dozens of students. Isis said it was behind that attack, which drew international condemnation."
+    },
+    {
+      "source": "text_38_node_11",
+      "target": "text_38_node_17",
+      "relation": "before",
+      "support_text": "ISIS said it was behind that attack, which drew international condemnation."
+    },
+    {
+      "source": "text_38_node_12",
+      "target": "text_38_node_13",
+      "relation": "before",
+      "support_text": "On Tuesday the Taliban announced the death of Jalaluddin Haqqani, who founded the eponymous militant group widely suspected of being behind some of the attacks in Kabul claimed by Isis."
+    },
+    {
+      "source": "text_38_node_14",
+      "target": "text_38_node_2",
+      "relation": "before",
+      "support_text": "car packed with explosives detonated"
+    },
+    {
+      "source": "text_38_node_18",
+      "target": "text_38_node_2",
+      "relation": "before",
+      "support_text": "炸弹爆炸事件发生前受害者正在备考"
+    }
+  ]
+}

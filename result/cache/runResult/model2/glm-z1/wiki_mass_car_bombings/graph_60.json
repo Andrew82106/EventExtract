@@ -1,0 +1,324 @@
+{
+  "nodes": [
+    {
+      "id": "text_60_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "一周前伊拉克军队完全收复法鲁杰市",
+      "support_text": "which came a week after Iraqi forces recaptured the city of Fallujah from IS",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周日清晨伊斯兰国宣称的自杀式爆炸袭击巴格达Karrada区",
+      "support_text": "a suicide bombing claimed by the Islamic State jihadist group in the upmarket Karrada district early on Sunday",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总理阿巴迪宣布废除假炸弹探测器并加强首都安检措施",
+      "support_text": "Abadi announced a series of security changes including scrapping the fake detectors",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全官员确认爆炸死亡人数升至213人，伤者超过200人",
+      "support_text": "security and medical officials told AFP the number of dead had risen to at least 213",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "民众在爆炸现场表达愤怒，批评政府安全措施无效",
+      "support_text": "As Iraqis mourned, security and medical officials told AFP the number of dead had risen to at least 213",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣称爆炸由伊拉克籍成员执行，作为持续反伊行动的一部分",
+      "support_text": "IS claimed the attack in a statement saying it was carried out by an Iraqi as part of ongoing security operations",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "持续搜索尸体",
+      "support_text": "the grim search continued",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "提供对烈士家庭的慰问",
+      "support_text": "offer condolences to 'the families of the martyrs, who fell in this place because of the failed government'",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_9",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "烈士在此地牺牲",
+      "support_text": "families of the martyrs, who fell in this place because of the failed government",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克开始全国哀悼",
+      "support_text": "Iraq marked three days of national mourning",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国攻占巴格达北部和西部大片地区",
+      "support_text": "伊斯兰国攻占巴格达北部和西部大片地区",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴格达首都炸弹袭击数量减少",
+      "support_text": "巴格达首都炸弹袭击数量减少",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织因其他行动被牵制",
+      "support_text": "极端组织因其他行动被牵制",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "组织对伊拉克平民发动反攻",
+      "support_text": "组织对伊拉克平民发动反攻",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "阿巴迪周日访问现场",
+      "support_text": "阿巴迪周日访问现场",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "男子向总理车队投掷石块",
+      "support_text": "男子向总理车队投掷石块",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "男子咒骂阿巴迪",
+      "support_text": "男子咒骂阿巴迪",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_18",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "男子因欺诈被监禁",
+      "support_text": "男子因欺诈被监禁",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "命令加速巴格达入口的扫描设备安装",
+      "support_text": "命令加速巴格达入口的扫描设备安装",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_20",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "加速安装扫描设备",
+      "support_text": "加速安装扫描设备",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "指示安保人员禁止在检查站使用手机",
+      "support_text": "指示安保人员禁止在检查站使用手机",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "呼吁增加空中侦察和协调",
+      "support_text": "呼吁增加空中侦察和协调",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "士兵和警察在巴格达市中心检查站携带假探测器",
+      "support_text": "士兵和警察在巴格达市中心检查站携带假探测器",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_24",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "极端分子试图逃离 Fallujah 地区",
+      "support_text": "极端分子试图逃离 Fallujah 地区",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_25",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "IS 的失败被空袭进一步加剧",
+      "support_text": "IS 的失败被空袭进一步加剧",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_26",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "空袭摧毁数百辆车辆",
+      "support_text": "空袭摧毁数百辆车辆",
+      "source_text": "text_60"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_2",
+      "relation": "before",
+      "support_text": "which came a week after Iraqi forces recaptured the city of Fallujah from IS"
+    },
+    {
+      "source": "text_60_node_2",
+      "target": "text_60_node_4",
+      "relation": "before",
+      "support_text": "security and medical officials told AFP the number of dead had risen to at least 213"
+    },
+    {
+      "source": "text_60_node_2",
+      "target": "text_60_node_5",
+      "relation": "before",
+      "support_text": "As Iraqis mourned, security and medical officials told AFP the number of dead had risen to at least 213"
+    },
+    {
+      "source": "text_60_node_2",
+      "target": "text_60_node_6",
+      "relation": "before",
+      "support_text": "But Iraqis are furious at the government's inability to keep residents safe, even as its forces on the battlefield push back IS outside the capital"
+    },
+    {
+      "source": "text_60_node_2",
+      "target": "text_60_node_3",
+      "relation": "before",
+      "support_text": "Abadi announced a series of security changes including scrapping the fake detectors"
+    },
+    {
+      "source": "text_60_node_2",
+      "target": "text_60_node_7",
+      "relation": "before",
+      "support_text": "security and medical officials told AFP the number of dead had risen to at least 213"
+    },
+    {
+      "source": "text_60_node_2",
+      "target": "text_60_node_10",
+      "relation": "before",
+      "support_text": "As Iraq marked three days of national mourning..."
+    },
+    {
+      "source": "text_60_node_2",
+      "target": "text_60_node_18",
+      "relation": "before",
+      "support_text": "男子因欺诈被监禁发生在自杀式爆炸事件后"
+    },
+    {
+      "source": "text_60_node_6",
+      "target": "text_60_node_8",
+      "relation": "before",
+      "support_text": "Inam al-Zubaidi said she came to the site to offer condolences..."
+    },
+    {
+      "source": "text_60_node_6",
+      "target": "text_60_node_9",
+      "relation": "before",
+      "support_text": "families of the martyrs, who fell in this place..."
+    },
+    {
+      "source": "text_60_node_18",
+      "target": "text_60_node_19",
+      "relation": "before",
+      "support_text": "监禁事件后立即执行设备安装命令"
+    },
+    {
+      "source": "text_60_node_19",
+      "target": "text_60_node_20",
+      "relation": "before",
+      "support_text": "命令发出后加速设备安装"
+    },
+    {
+      "source": "text_60_node_20",
+      "target": "text_60_node_21",
+      "relation": "before",
+      "support_text": "设备安装加速后实施安保人员管控"
+    },
+    {
+      "source": "text_60_node_21",
+      "target": "text_60_node_22",
+      "relation": "before",
+      "support_text": "安保管控后推动空中侦察协调"
+    }
+  ]
+}

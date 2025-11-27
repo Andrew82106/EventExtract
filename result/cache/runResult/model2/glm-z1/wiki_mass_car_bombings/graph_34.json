@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "text_34_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡扎伊总统从华盛顿返回并与奥巴马会面，讨论坎大哈攻势",
+      "support_text": "where he had met with President Obama and other senior American officials. Among the topics discussed in Washington was the Kandahar offensive",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "8 a.m.，袭击者在喀布尔 Dar-ul-Aman Road美军车队中引爆炸弹",
+      "support_text": "The bomber struck at 8 a.m., when the streets were filled with traffic. The American convoy... moving down Dar-ul-Aman Road",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击成为喀布尔近几周最严重的一次",
+      "support_text": "It was the worst attack in Kabul in weeks",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班宣称杀死美军和北约士兵但未提及平民伤亡",
+      "support_text": "The Taliban were quick to congratulate themselves for killing the American and NATO soldiers, their statement made no mention of the dead and wounded Afghan civilians",
+      "source_text": "text_34"
+    },
+    {
+      "id": "text_34_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "联合国、北约和美国使馆谴责塔利班",
+      "support_text": "The attack was condemned by the United Nations, NATO and the American Embassy",
+      "source_text": "text_34"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_34_node_1",
+      "target": "text_34_node_2",
+      "relation": "before",
+      "support_text": "when Nizamuddin... Tuesday morning, when President Hamid Karzai was preparing to meet... hours after his return from Washington"
+    },
+    {
+      "source": "text_34_node_2",
+      "target": "text_34_node_3",
+      "relation": "before",
+      "support_text": "It was the worst attack in Kabul in weeks"
+    },
+    {
+      "source": "text_34_node_2",
+      "target": "text_34_node_4",
+      "relation": "before",
+      "support_text": "The Taliban were quick to congratulate themselves for killing the American and NATO soldiers"
+    },
+    {
+      "source": "text_34_node_2",
+      "target": "text_34_node_5",
+      "relation": "before",
+      "support_text": "The attack was condemned by the United Nations, NATO and the American Embassy"
+    }
+  ]
+}

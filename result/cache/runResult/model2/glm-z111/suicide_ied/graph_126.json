@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "text_126_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "莫斯科机场发生自杀式爆炸事件，造成至少35人死亡",
+      "support_text": "World leaders on Monday condemned a suicide bombing that killed at least 35 people at a Moscow airport",
+      "source_text": "text_126"
+    },
+    {
+      "id": "text_126_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "澳大利亚总理Julia Gillard谴责袭击为'不公正且针对无辜的暴力行为'",
+      "support_text": "Australia Prime Minister Julia Gillard condemned the attack",
+      "source_text": "text_126"
+    },
+    {
+      "id": "text_126_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "奥巴马总统称莫斯科机场袭击为'outrageous'",
+      "support_text": "US President Barack Obama called the attack 'outrageous'",
+      "source_text": "text_126"
+    },
+    {
+      "id": "text_126_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国秘书长对莫斯科机场袭击表示'appalled'",
+      "support_text": "UN chief said he was 'appalled' by the attack",
+      "source_text": "text_126"
+    },
+    {
+      "id": "text_126_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "奥巴马谴责莫斯科机场袭击为不当行为",
+      "support_text": "奥巴马谴责该不当行为",
+      "source_text": "text_126"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_126_node_1",
+      "target": "text_126_node_4",
+      "relation": "before",
+      "support_text": "World leaders on Monday condemned a suicide bombing that killed at least 35 people at a Moscow airport"
+    },
+    {
+      "source": "text_126_node_1",
+      "target": "text_126_node_5",
+      "relation": "before",
+      "support_text": "World leaders on Monday condemned the attack"
+    },
+    {
+      "source": "text_126_node_1",
+      "target": "text_126_node_6",
+      "relation": "before",
+      "support_text": "World leaders on Monday condemned the attack"
+    },
+    {
+      "source": "text_126_node_1",
+      "target": "text_126_node_7",
+      "relation": "before",
+      "support_text": "World leaders on Monday condemned a suicide bombing that killed at least 35 people at a Moscow airport"
+    }
+  ]
+}

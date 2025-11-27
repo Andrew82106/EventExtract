@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "text_183_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2020年5月17日凌晨，阿富汗东部洛加尔省Mohammad Agha区的安全检查站遭塔利班武装分子袭击",
+      "support_text": "Militants attacks on a security checkpoint in Afghanistan's eastern Logar province left eight security personnel dead on Sunday, provincial government spokesman Didar Ahmad Lawang said.",
+      "source_text": "text_183"
+    },
+    {
+      "id": "text_183_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成8名安全人员死亡、5人受伤",
+      "support_text": "a group of Taliban insurgents stormed a security checkpoint in Mohammad Agha district in the wee hours of Sunday, killing eight security personnel and wounding five others.",
+      "source_text": "text_183"
+    },
+    {
+      "id": "text_183_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击目标检查站位于Aynak铜矿附近",
+      "support_text": "the targeted checkpoint was close to the Aynak copper mine.",
+      "source_text": "text_183"
+    },
+    {
+      "id": "text_183_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官方未明确伤亡人员具体身份（警察或军队）",
+      "support_text": "the official, however, didn't specify if the victims were police or army soldiers, saying the targeted checkpoint was close to the Aynak copper mine.",
+      "source_text": "text_183"
+    },
+    {
+      "id": "text_183_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "截至发稿时，塔利班尚未对事件作出回应",
+      "support_text": "Taliban militants have not made comments yet.",
+      "source_text": "text_183"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_183_node_1",
+      "target": "text_183_node_2",
+      "relation": "before",
+      "support_text": "Militants attacks on a security checkpoint in Afghanistan's eastern Logar province left eight security personnel dead on Sunday, provincial government spokesman Didar Ahmad Lawang said."
+    },
+    {
+      "source": "text_183_node_1",
+      "target": "text_183_node_3",
+      "relation": "before",
+      "support_text": "a group of Taliban insurgents stormed a security checkpoint in Mohammad Agha district in the wee hours of Sunday, killing eight security personnel and wounding five others."
+    },
+    {
+      "source": "text_183_node_2",
+      "target": "text_183_node_4",
+      "relation": "before",
+      "support_text": "the official, however, didn't specify if the victims were police or army soldiers, saying the targeted checkpoint was close to the Aynak copper mine."
+    },
+    {
+      "source": "text_183_node_4",
+      "target": "text_183_node_5",
+      "relation": "before",
+      "support_text": "Taliban militants have not made comments yet."
+    }
+  ]
+}

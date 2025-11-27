@@ -1,0 +1,237 @@
+{
+  "nodes": [
+    {
+      "id": "text_2_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "3月7日伊拉克举行选举但无明确结果，导致政治真空",
+      "support_text": "the March 7 election which produced no outright winner",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "6月13日极端分子袭击中央银行，18人死亡",
+      "support_text": "gunmen and suicide bombers laid siege to the central bank in Baghdad, killing 18 people",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "6月20日两辆装满炸药的汽车在Trade Bank外爆炸，致26人死亡",
+      "support_text": "Two suicide bombers detonated cars laden with explosives outside the Trade Bank of Iraq",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "政治合并预期挤压投票领先的跨党派联盟，可能引发暴力",
+      "support_text": "a merger of the main Shi’ite-led coalitions in the new parliament is expected to squeeze out the vote leader",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "美国计划8月结束作战行动，但政治不确定性可能影响撤军",
+      "support_text": "U.S. intentions to end combat operations in August ahead of a full U.S. withdrawal",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端分子试图利用选举后的政治真空，加剧sectarian冲突",
+      "support_text": "exploit a political vacuum that followed the March 7 election",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "基地组织相关极端分子被指为袭击幕后黑手",
+      "support_text": "Security officials blamed the June 13 central bank attack on Sunni Islamist insurgents linked to al Qaeda",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "最新袭击引发对国家稳定的担忧",
+      "support_text": "the latest attack triggered concerns about the nation’s stability",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_9",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "53人因爆炸受伤",
+      "support_text": "the blasts",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者引发了对恐怖分子利用政治真空的恐惧",
+      "support_text": "袭击者引发了对恐怖分子利用政治真空的恐惧",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "银行员工分析安全措施不足的潜在风险",
+      "support_text": "银行员工表示若没有保安保护且窗户不具备防弹玻璃材质，损失和伤亡会更严重",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "银行员工要求匿名处理",
+      "support_text": "银行员工请求不透露身份",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "保安实施银行安保措施",
+      "support_text": "保安保护银行及其窗户",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "银行窗户采用防弹材质",
+      "support_text": "窗户由防弹玻璃构成",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "消息来源表示",
+      "support_text": "消息来源表示",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "逊尼派伊斯兰极端组织试图证明自身实力",
+      "support_text": "逊尼派伊斯兰极端组织试图证明自身实力",
+      "source_text": "text_2"
+    },
+    {
+      "id": "text_2_new_node_17",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "逊尼派伊斯兰极端组织的伊拉克领导人被杀害",
+      "support_text": "逊尼派伊斯兰极端组织的伊拉克领导人被杀害",
+      "source_text": "text_2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "exploit a political vacuum that followed the March 7 election"
+    },
+    {
+      "source": "text_2_node_1",
+      "target": "text_2_node_4",
+      "relation": "before",
+      "support_text": "the March 7 election which produced no outright winner"
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_3",
+      "relation": "before",
+      "support_text": "a week earlier, gunmen and suicide bombers laid siege to the central bank"
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_7",
+      "relation": "before",
+      "support_text": "Security officials blamed the June 13 central bank attack on Sunni Islamist insurgents linked to al Qaeda"
+    },
+    {
+      "source": "text_2_node_2",
+      "target": "text_2_node_8",
+      "relation": "before",
+      "support_text": "袭击事件与后续担忧存在因果关系"
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_5",
+      "relation": "before",
+      "support_text": "U.S. intentions to end combat operations in August ahead of a full U.S. withdrawal"
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_7",
+      "relation": "before",
+      "support_text": "Security officials blamed the June 13 central bank attack on Sunni Islamist insurgents linked to al Qaeda"
+    },
+    {
+      "source": "text_2_node_3",
+      "target": "text_2_node_9",
+      "relation": "before",
+      "support_text": "Two suicide bombers detonated cars laden with explosives outside the Trade Bank of Iraq"
+    },
+    {
+      "source": "text_2_node_6",
+      "target": "text_2_node_10",
+      "relation": "before",
+      "support_text": "极端分子试图利用选举后的政治真空，加剧sectarian冲突"
+    },
+    {
+      "source": "text_2_node_7",
+      "target": "text_2_new_node_15",
+      "relation": "before",
+      "support_text": "Security officials blamed the June 13 central bank attack on Sunni Islamist insurgents linked to al Qaeda"
+    },
+    {
+      "source": "text_2_new_node_15",
+      "target": "text_2_node_6",
+      "relation": "before",
+      "support_text": "利用政治真空与选举后真空逻辑一致"
+    },
+    {
+      "source": "text_2_new_node_16",
+      "target": "text_2_node_7",
+      "relation": "before",
+      "support_text": "证明实力与被归因袭击存在因果关系"
+    },
+    {
+      "source": "text_2_new_node_17",
+      "target": "text_2_node_1",
+      "relation": "before",
+      "support_text": "temporal_order=1应早于3月7日选举"
+    }
+  ]
+}

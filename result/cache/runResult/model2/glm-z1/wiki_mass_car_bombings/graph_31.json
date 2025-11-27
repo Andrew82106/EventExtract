@@ -1,0 +1,372 @@
+{
+  "nodes": [
+    {
+      "id": "text_31_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年4月15日15:30（UTC+3），叙利亚反对派控制区Al-Rashideen检查站附近发生公交车队爆炸事件，造成超过100人死亡",
+      "support_text": "Summary On April 15, 2017, an explosion rocked a convoy of buses carrying evacuees near Syria’s opposition-held Al-Rashideen leading to more than 100 deaths.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后国际媒体最初误传为运送零食的救援车爆炸，但Ahmad Makiya于4月16日发布视频显示实际为蓝色现代汽车载有炸弹",
+      "support_text": "A video showing the moments before the explosion indicate that instead of the aid vehicle a blue Hyundai Porter carried the bomb; The Hyundai Porter has some distinctive characteristics, including what appears to be a ‘signature’ of the workshop where it was likely upgraded with a cage, and a sloppy painted yellow-green-red colour scheme on the side.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bellingcat发起数字调查，发现叙利亚多地存在与爆炸车辆相似的蓝色现代波特货车",
+      "support_text": "Bellingcat launched a digital hunt for similar Porters in Syria. Many similar trucks have been found, though no exact match has been found up to date.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查发现目标车辆具有独特特征：W77标志、混乱的绿黄红三色涂装、驾驶室围栏改造痕迹",
+      "support_text": "The Hyundai Porter has some distinctive characteristics, including what appears to be a ‘signature’ of the workshop where it was likely upgraded with a cage, and a sloppy painted yellow-green-red colour scheme on the side; The W77 sign on the side of the truck, which may refer to the workshop that makes steel cages for pick-up trucks like the Porter, a local source told Bellingcat.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "通过对比分析排除部分疑似车辆，确认W77标志与叙利亚多地 workshops有关联，但未锁定具体归属",
+      "support_text": "Bellingcat has not found any evidence to indicate that the type of vehicle, the vehicle’s colour scheme or the markings had any particular meaning, such as indicating that it belonged to a particular group; The W77 sign and a similar 77W sign can be spotted on several blue Hyundai Porters in Syria, though no exact match has been found up to date.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查发现类似三色涂装出现在Jinah和Jisr al-Shugur两辆波特货车，但未明确其象征意义",
+      "support_text": "The Porter’s Side: W77 and the Colour Scheme ‘W77′ and ’77W’: A Workshop’s Signature? The W77 sign can also be spotted on a Kia truck shown in footage from Al-Bab in the Aleppo governorate. Besides, a W77 sign has also been spotted on a vehicle used as a ‘technical’ by Jabhat al-Nusra militants.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "最终形成开放调查结论：车辆特征与多方势力存在重叠，需进一步数字协作确认责任方",
+      "support_text": "This is an investigation with open ends, remaining questions are listed at the end of this article. You are welcome to join the digital pursuit of the vehicle by commenting under this article, contacting me via christiaantriebert@bellingcat.com or @trbrtc on Twitter.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hyundai Porter在 workshops 进行改装升级",
+      "support_text": "语义描述：Hyundai Porter被升级改装；支持文本：workshop where it was likely upgraded with a cage",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "视频呈现两个独立事件（爆炸前与爆炸后场景）",
+      "support_text": "视频呈现两个独立事件：爆炸前救援车与爆炸后实际载有炸弹的蓝色现代波特货车",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_10",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "红新月会车辆分发零食给儿童和成人",
+      "support_text": "红新月会车辆分发零食给儿童和成人",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "蓝色平板卡车加速驶向该场景",
+      "support_text": "蓝色平板卡车加速驶向爆炸场景",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "爆炸后残骸在后续影像中被发现",
+      "support_text": "爆炸后残骸在后续影像中被发现",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "残骸外观表明车辆并非爆炸原因",
+      "support_text": "残骸外观表明车辆并非爆炸原因",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "缺乏平板卡车残骸暗示其为爆炸源头",
+      "support_text": "缺乏平板卡车残骸暗示其为爆炸源头",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "研究者追踪叙利亚的现代汽车公司Porter车型",
+      "support_text": "语义描述：研究者追踪叙利亚的现代汽车公司Porter车型；支持文本：研究者追踪叙利亚的现代汽车公司Porter车型",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Ibaa News发布包含Hyundai Porter影像的媒体视频",
+      "support_text": "语义描述：Ibaa News发布包含Hyundai Porter影像的媒体视频；支持文本：Ibaa News发布包含Hyundai Porter影像的媒体视频",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "UNICEF摄影师拍摄卡车（Ain Issa附近）",
+      "support_text": "语义描述：UNICEF摄影师拍摄卡车；支持文本：卡车（Ain Issa附近）",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "拍摄Handarat地区进攻照片",
+      "support_text": "语义描述：拍摄Handarat地区进攻照片；支持文本：照片（Handarat地区）",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "照片通过Nusra社交媒体传播",
+      "support_text": "语义描述：照片通过Nusra社交媒体传播；支持文本：Nusra社交媒体渠道",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_20",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "视频被公开（对应动词'come'）",
+      "support_text": "视频被公开",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_21",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "美军轰炸清真寺（对应动词'bomb'）",
+      "support_text": "美军轰炸清真寺",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "人权观察等机构开始调查案件（对应动词'begin'）",
+      "support_text": "人权观察等机构开始调查案件",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_23",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "五角大楼发布建筑图像（对应动词'release'）",
+      "support_text": "五角大楼发布建筑图像",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_24",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "进行比例分析（对应动词'make'）",
+      "support_text": "进行比例分析",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_25",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "视频在推特发布（对应动词'publish'）",
+      "support_text": "视频在推特发布",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "读者通过评论和协作帮助团队完成开源拼图调查",
+      "support_text": "语义描述：读者帮助团队在开源调查中找到缺失的拼图；支持文本：通过评论参与数字追踪",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_27",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "我们邀请读者参与数字追踪行动",
+      "support_text": "语义描述：我们邀请读者参与数字追踪行动",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_28",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "读者加入数字追踪行动",
+      "support_text": "语义描述：读者加入数字追踪行动",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_29",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "专家对文章草案提供反馈",
+      "support_text": "语义描述：专家对文章草案提供反馈",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_30",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "推用户标记包含Hyundai Porters的开源内容",
+      "support_text": "语义描述：推用户标记了包含Hyundai Porters的开源内容",
+      "source_text": "text_31"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_31_node_1",
+      "target": "text_31_node_2",
+      "relation": "before",
+      "support_text": "A video showing the moments before the explosion indicate that instead of the aid vehicle a blue Hyundai Porter carried the bomb"
+    },
+    {
+      "source": "text_31_node_2",
+      "target": "text_31_node_3",
+      "relation": "before",
+      "support_text": "Bellingcat launched a digital hunt for similar Porters in Syria"
+    },
+    {
+      "source": "text_31_node_3",
+      "target": "text_31_node_4",
+      "relation": "before",
+      "support_text": "Many similar trucks have been found, though no exact match has been found up to date"
+    },
+    {
+      "source": "text_31_node_4",
+      "target": "text_31_node_5",
+      "relation": "before",
+      "support_text": "Bellingcat has not found any evidence to indicate that the type of vehicle... had any particular meaning"
+    },
+    {
+      "source": "text_31_node_5",
+      "target": "text_31_node_6",
+      "relation": "before",
+      "support_text": "The W77 sign and a similar 77W sign can be spotted on several blue Hyundai Porters in Syria"
+    },
+    {
+      "source": "text_31_node_6",
+      "target": "text_31_node_7",
+      "relation": "before",
+      "support_text": "This is an investigation with open ends, remaining questions are listed at the end of this article"
+    },
+    {
+      "source": "text_31_node_8",
+      "target": "text_31_node_2",
+      "relation": "before",
+      "support_text": "改装升级事件发生在视频拍摄之前"
+    },
+    {
+      "source": "text_31_node_15",
+      "target": "text_31_node_16",
+      "relation": "before",
+      "support_text": "研究者追踪事件应早于Ibaa News发布事件"
+    },
+    {
+      "source": "text_31_node_16",
+      "target": "text_31_node_2",
+      "relation": "before",
+      "support_text": "Ibaa News发布事件应早于Ahmad Makiya视频发布事件"
+    },
+    {
+      "source": "text_31_node_17",
+      "target": "text_31_node_2",
+      "relation": "before",
+      "support_text": "UNICEF摄影师拍摄卡车事件早于爆炸事件"
+    },
+    {
+      "source": "text_31_node_18",
+      "target": "text_31_node_3",
+      "relation": "before",
+      "support_text": "Handarat地区进攻照片拍摄早于Bellingcat调查"
+    },
+    {
+      "source": "text_31_node_19",
+      "target": "text_31_node_2",
+      "relation": "before",
+      "support_text": "Nusra社交媒体传播早于Ahmad Makiya视频发布"
+    },
+    {
+      "source": "text_31_node_27",
+      "target": "text_31_node_28",
+      "relation": "before",
+      "support_text": "邀请行动早于参与行动"
+    },
+    {
+      "source": "text_31_node_28",
+      "target": "text_31_node_26",
+      "relation": "before",
+      "support_text": "参与行动早于协作成果"
+    },
+    {
+      "source": "text_31_node_29",
+      "target": "text_31_node_26",
+      "relation": "before",
+      "support_text": "专家反馈早于协作成果"
+    },
+    {
+      "source": "text_31_node_30",
+      "target": "text_31_node_26",
+      "relation": "before",
+      "support_text": "标记行动早于协作成果"
+    }
+  ]
+}

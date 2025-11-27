@@ -1,0 +1,279 @@
+{
+  "nodes": [
+    {
+      "id": "text_82_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰抵抗运动（Izz ad-Din al-Qassam Brigades）成员在特拉维夫4路公交车上实施自杀爆炸，导致5人死亡、40人受伤",
+      "support_text": "Five people have been killed and many more injured in a Palestinian suicide attack on a bus in the Israeli city of Tel Aviv. The explosion happened near the city's main synagogue on Allenby Street - one of Tel Aviv's busiest shopping districts - just after 1300 local time (1000 GMT).",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_2",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "Hamas通过传真宣称对此次爆炸负责，称其为针对7月哈马斯领导人Sheikh Salah Shahada被导弹袭击的报复",
+      "support_text": "Hamas sent a fax to the AFP news agency saying Thursday's attack was its latest act of retaliation for the killing of its leader, Sheikh Salah Shahada.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "以军坦克进入拉马兰拉阿法特总部 compound，对巴勒斯坦领导层所在地实施包围和炮击",
+      "support_text": "Hours later Israeli tanks entered Yasser Arafat's Ramallah compound, opening fire.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "周四西岸拉马兰拉一名10岁巴勒斯坦男孩因外出购买香烟遭以军坦克误击身亡",
+      "support_text": "Earlier on Thursday, a 10-year-old Palestinian child was killed by Israeli tank fire in the West Bank town of Ramallah.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊斯兰圣战组织声称在周三对以色列北部警员实施自杀爆炸，系六周内首起针对以色列的致命自杀袭击",
+      "support_text": "Another group, Islamic Jihad, says it carried out a suicide bombing on Wednesday which killed an Israeli policeman in the north of the country.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "巴勒斯坦方面谴责袭击平民行为，指出过去六周以军已造成71名平民死亡",
+      "support_text": "Palestinians say that, in response, Israeli tanks have opened fire on the headquarters of Palestinian leader Yasser Arafat in the city of Ramallah. It is the second bomb attack in two days.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "国际观察者指出此次袭击削弱了法塔赫 factions的立场，该派别主张停止针对以色列本土的袭击",
+      "support_text": "Observers say the attack is a setback for Palestinian leader Yasser Arafat and his Fatah faction which has been arguing that attacks within Israel, which many see as counter-productive, should stop.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列指责巴勒斯坦安全部队未阻止此类袭击，并宣布重启西岸占领及宵禁措施",
+      "support_text": "Israel has accused Palestinian security forces of 'not lifting a finger' to stop such attacks. The army move came as Israeli Prime Minister Ariel Sharon called an emergency cabinet meeting and curfews were reported to have been reimposed on a number of West Bank cities.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴勒斯坦总统府工作人员称总部遭多辆坦克包围，两名安保人员受伤但阿法特本人安全",
+      "support_text": "Tanks and jeeps are inside [Yasser Arafat's] compound and surrounding our office from all sides. There is fierce shooting. Two of our men have been injured but the president is fine.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列总理沙龙召开紧急内阁会议，国际社会呼吁重启由国际领导人提出的和平计划",
+      "support_text": "International leaders are urging a restart of the peace plan proposed by international leaders.",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴勒斯坦援助人员遭到激烈射击",
+      "support_text": "巴勒斯坦援助人员遭到激烈射击",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "西岸和加沙地带的暴力持续",
+      "support_text": "语义描述：西岸和加沙地带的暴力持续",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "母亲表示",
+      "support_text": "母亲表示",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_14",
+      "event_type": "Life",
+      "event_subtype": "Illness",
+      "event_sub_subtype": "Unspecified",
+      "description": "一名英国学生被描述为情况危急",
+      "support_text": "语义描述：一名英国学生被描述为情况危急",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救护车在午间繁忙交通中疾驰",
+      "support_text": "语义描述：救护车在午间繁忙交通中疾驰",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "紧急工人将血迹斑斑的伤者推车间移动",
+      "support_text": "语义描述：紧急工人将血迹斑斑的伤者推车间移动",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者听到爆炸声",
+      "support_text": "语义描述：目击者听到爆炸声",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者看到大量烟雾",
+      "support_text": "语义描述：目击者看到大量烟雾",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_19",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "警察迅速赶到",
+      "support_text": "语义描述：警察迅速赶到",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_20",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "人们出来提供急救",
+      "support_text": "语义描述：人们出来提供急救",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_21",
+      "event_type": "Life",
+      "event_subtype": "Consume",
+      "event_sub_subtype": "Unspecified",
+      "description": "试图给伤者送水",
+      "support_text": "语义描述：试图给伤者送水",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "抵抗行动将升级",
+      "support_text": "语义描述：抵抗行动将升级",
+      "source_text": "text_82"
+    },
+    {
+      "id": "text_82_new_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "抵抗将升级阿卜杜勒·阿齐兹·拉尼西",
+      "support_text": "语义描述：抵抗将升级阿卜杜勒·阿齐兹·拉尼西",
+      "source_text": "text_82"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_82_node_1",
+      "target": "text_82_node_2",
+      "relation": "before",
+      "support_text": "Hamas sent a fax to the AFP news agency saying Thursday's attack was its latest act of retaliation..."
+    },
+    {
+      "source": "text_82_node_1",
+      "target": "text_82_node_6",
+      "relation": "before",
+      "support_text": "Palestinians say that, in response, Israeli tanks have opened fire on the headquarters of Palestinian leader Yasser Arafat..."
+    },
+    {
+      "source": "text_82_node_1",
+      "target": "text_82_node_7",
+      "relation": "before",
+      "support_text": "Observers say the attack is a setback for Palestinian leader Yasser Arafat..."
+    },
+    {
+      "source": "text_82_node_2",
+      "target": "text_82_node_3",
+      "relation": "before",
+      "support_text": "Hours later Israeli tanks entered Yasser Arafat's Ramallah compound, opening fire."
+    },
+    {
+      "source": "text_82_node_3",
+      "target": "text_82_node_4",
+      "relation": "before",
+      "support_text": "Earlier on Thursday, a 10-year-old Palestinian child was killed by Israeli tank fire..."
+    },
+    {
+      "source": "text_82_node_3",
+      "target": "text_82_node_8",
+      "relation": "before",
+      "support_text": "Israel has accused Palestinian security forces of 'not lifting a finger' to stop such attacks."
+    },
+    {
+      "source": "text_82_node_3",
+      "target": "text_82_node_9",
+      "relation": "before",
+      "support_text": "Tanks and jeeps are inside [Yasser Arafat's] compound and surrounding our office from all sides."
+    },
+    {
+      "source": "text_82_node_3",
+      "target": "text_82_new_node_12",
+      "relation": "before",
+      "support_text": "以军坦克进入拉马兰拉阿法特总部 compound，对巴勒斯坦领导层所在地实施包围和炮击"
+    },
+    {
+      "source": "text_82_node_5",
+      "target": "text_82_node_1",
+      "relation": "before",
+      "support_text": "Another group, Islamic Jihad, says it carried out a suicide bombing on Wednesday which killed an Israeli policeman in the north of the country."
+    },
+    {
+      "source": "text_82_node_8",
+      "target": "text_82_node_10",
+      "relation": "before",
+      "support_text": "Prime Minister Ariel Sharon called an emergency cabinet meeting..."
+    },
+    {
+      "source": "text_82_new_node_11",
+      "target": "text_82_node_1",
+      "relation": "before",
+      "support_text": "巴勒斯坦解放组织战士乘坐公交车后实施自杀爆炸"
+    }
+  ]
+}

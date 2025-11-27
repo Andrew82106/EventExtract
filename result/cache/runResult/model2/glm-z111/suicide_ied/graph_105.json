@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "text_105_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1998年东非美国使馆爆炸案导致224人死亡",
+      "support_text": "A former aide of Osama Bin Laden has been sentenced to life in prison for aiding in the bombing of US embassies in east Africa in 1998 that killed 224 people.",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Khalid Al-Fawwaz在伦敦被捕（与爆炸案同年）",
+      "support_text": "Khalid Al-Fawwaz was arrested in London the same year as the bombings",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Fawwaz被引渡至美国（被捕14年后，2012年）",
+      "support_text": "was extradited to the US 14 years later",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Fawwaz因四项共谋指控于2012年2月被定罪",
+      "support_text": "Al-Fawwaz was convicted in February of four conspiracy charges",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Manhattan陪审团在受保护的法院宣读终身监禁判决",
+      "support_text": "The sentence was read out by a Manhattan jury at a heavily guarded downtown courthouse",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_6",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "检方指控Al-Fawwaz是基地组织与西方的桥梁",
+      "support_text": "called Al-Fawwaz 'bin Laden's bridge to the West'",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "辩方律师辩称其身份为政治异见者而非恐怖分子",
+      "support_text": "My goal was reform, not rebellion",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "检方声称该男子在伦敦运营办公室",
+      "support_text": "Prosecutors claimed he operated an office in London where he disseminated Bin Laden's fatwas",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "该男子向媒体机构传播本·拉登的宗教 decrees",
+      "support_text": "该男子向媒体机构传播本·拉登的宗教 decrees",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Fawwaz被指控利用办公室发送通信设备到基地组织领导人",
+      "support_text": "Prosecutors claimed he operated an office in London where he disseminated Bin Laden's fatwas and sent communications equipment to al-Qaeda leaders",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "Al-Fawwaz向基地组织领导人发送通信设备（包括卫星电话）",
+      "support_text": "Al-Fawwaz sent communications equipment, including a satellite phone, to al-Qaeda leaders",
+      "source_text": "text_105"
+    },
+    {
+      "id": "text_105_new_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "al-Nawwaz向在场受害者发表陈述",
+      "support_text": "al-Nawwaz向在场受害者发表陈述",
+      "source_text": "text_105"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_105_node_2",
+      "target": "text_105_node_3",
+      "relation": "before",
+      "support_text": "Khalid Al-Fawwaz was arrested in London the same year as the bombings, and was extradited to the US 14 years later"
+    },
+    {
+      "source": "text_105_node_2",
+      "target": "text_105_node_8",
+      "relation": "before",
+      "support_text": "Khalid Al-Fawwaz was arrested in London the same year as the bombings, and later operated an office there"
+    },
+    {
+      "source": "text_105_node_3",
+      "target": "text_105_node_4",
+      "relation": "before",
+      "support_text": "Al-Fawwaz was extradited to the US 14 years later"
+    },
+    {
+      "source": "text_105_node_4",
+      "target": "text_105_node_5",
+      "relation": "before",
+      "support_text": "The sentence was read out by a Manhattan jury at a heavily guarded downtown courthouse"
+    },
+    {
+      "source": "text_105_node_5",
+      "target": "text_105_node_7",
+      "relation": "before",
+      "support_text": "said al-Nawwaz to the victims present in the courtroom"
+    },
+    {
+      "source": "text_105_node_5",
+      "target": "text_105_new_node_12",
+      "relation": "before",
+      "support_text": "陪审团宣读终身监禁判决后al-Nawwaz向在场受害者发表陈述"
+    },
+    {
+      "source": "text_105_node_6",
+      "target": "text_105_node_4",
+      "relation": "before",
+      "support_text": "called Al-Fawwaz 'bin Laden's bridge to the West'"
+    },
+    {
+      "source": "text_105_node_8",
+      "target": "text_105_node_9",
+      "relation": "before",
+      "support_text": "在伦敦运营办公室期间向媒体机构传播宗教 decrees"
+    },
+    {
+      "source": "text_105_node_8",
+      "target": "text_105_node_10",
+      "relation": "before",
+      "support_text": "在伦敦运营办公室期间向基地组织领导人发送通信设备"
+    },
+    {
+      "source": "text_105_node_9",
+      "target": "text_105_node_3",
+      "relation": "before",
+      "support_text": "传播行为导致其被引渡至美国"
+    },
+    {
+      "source": "text_105_node_10",
+      "target": "text_105_node_11",
+      "relation": "before",
+      "support_text": "发送通信设备导致其被指控"
+    }
+  ]
+}

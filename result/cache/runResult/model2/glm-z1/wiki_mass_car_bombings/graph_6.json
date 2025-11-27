@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_6_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1998年8月15日，Real IRA在北爱尔兰奥马戈镇发动爆炸，造成29人死亡、数百人受伤，成为北爱尔兰冲突史上最严重单一事件",
+      "support_text": "Twentynine people were killed when the Real IRA bomb ripped through the County Tyrone town on 15 August 1998.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸发生四个月后（1998年12月），IRA宣布停火，但遭两党共同谴责",
+      "support_text": "The Real IRA called a ceasefire shortly after the attack, which was widely condemned on both sides of the political divide.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家属成立奥马戈支持与自助小组，指控爆炸违反《日内瓦公约》第57条",
+      "support_text": "Relatives of those who died in the Omagh bombing are to pursue the killers through the international courts. The Omagh Support and Self-Help Group believes the explosion breached international law and the Geneva Convention.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1998年8月爆炸案受害者来自四个不同国家，家属认为国际法庭能增强诉讼可信度",
+      "support_text": "They believe the fact that victims came from four different countries adds weight to their claim.",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "迈克尔·加勒格尔（Aidan Gallagher父亲）在BBC Ulster采访中要求IRA配合调查",
+      "support_text": "Speaking on BBC Radio Ulster on Monday, Michael Gallagher, whose son Aidan was killed in the bomb, said: \"The republican movement refused to co-operate and those people hold the key to solving this mystery.\"",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "维克托·巴克尔（James Barker父亲）公开质疑IRA领导人 Adams 和 McGuinness",
+      "support_text": "Victor Barker, the father of 12-year-old victim James Barker, said the republican movement must help catch the murderers. \"If Mr Adams and Mr McGuinness really are men of peace, why can't they come forward and ensure that information is given to bring these people to justice?\"",
+      "source_text": "text_6"
+    },
+    {
+      "id": "text_6_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "受害者遗骸在2001年Good Friday重新安葬于英格兰南部新居附近",
+      "support_text": "The Barker family has announced plans to rebury their son, James. His remains will be dug up on Good Friday and reinterred near the family's new home in the south of England.",
+      "source_text": "text_6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_6_node_1",
+      "target": "text_6_node_2",
+      "relation": "before",
+      "support_text": "The Real IRA called a ceasefire shortly after the attack, which was widely condemned on both sides of the political divide."
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_3",
+      "relation": "before",
+      "support_text": "Relatives of those who died in the Omagh bombing are to pursue the killers through the international courts. The Omagh Support and Self-Help Group believes the explosion breached international law and the Geneva Convention."
+    },
+    {
+      "source": "text_6_node_2",
+      "target": "text_6_node_7",
+      "relation": "before",
+      "support_text": "The Barker family has announced plans to rebury their son, James. His remains will be dug up on Good Friday and reinterred near the family's new home in the south of England."
+    },
+    {
+      "source": "text_6_node_3",
+      "target": "text_6_node_4",
+      "relation": "before",
+      "support_text": "They believe the fact that victims came from four different countries adds weight to their claim."
+    },
+    {
+      "source": "text_6_node_3",
+      "target": "text_6_node_5",
+      "relation": "before",
+      "support_text": "Speaking on BBC Radio Ulster on Monday, Michael Gallagher, whose son Aidan was killed in the bomb, said: \"The republican movement refused to co-operate and those people hold the key to solving this mystery.\""
+    },
+    {
+      "source": "text_6_node_5",
+      "target": "text_6_node_6",
+      "relation": "before",
+      "support_text": "Victor Barker, the father of 12-year-old victim James Barker, said the republican movement must help catch the murderers. \"If Mr Adams and Mr McGuinness really are men of peace, why can't they come forward and ensure that information is given to bring these people to justice?\""
+    }
+  ]
+}

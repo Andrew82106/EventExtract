@@ -1,0 +1,1657 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-27">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="english_label" type="string" />
+      <attribute id="1" title="weight" type="double" />
+      <attribute id="2" title="normalized_weight" type="double" />
+      <attribute id="3" title="category" type="string" />
+      <attribute id="4" title="full_type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Movement &gt; Transportation &gt; Unspecified" label="运输/移动">
+        <attvalues>
+          <attvalue for="0" value="Transportation" />
+          <attvalue for="1" value="0.3867924528301887" />
+          <attvalue for="2" value="0.22465753424657536" />
+          <attvalue for="3" value="Movement" />
+          <attvalue for="4" value="Movement &gt; Transportation &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Conflict &gt; Attack &gt; DetonateExplode" label="攻击/袭击&#10;(引爆/爆炸)">
+        <attvalues>
+          <attvalue for="0" value="Attack" />
+          <attvalue for="1" value="1.3867924528301887" />
+          <attvalue for="2" value="0.8054794520547945" />
+          <attvalue for="3" value="Conflict" />
+          <attvalue for="4" value="Conflict &gt; Attack &gt; DetonateExplode" />
+        </attvalues>
+      </node>
+      <node id="Conflict &gt; Attack &gt; Unspecified" label="攻击/袭击">
+        <attvalues>
+          <attvalue for="0" value="Attack" />
+          <attvalue for="1" value="1.3820754716981132" />
+          <attvalue for="2" value="0.8027397260273973" />
+          <attvalue for="3" value="Conflict" />
+          <attvalue for="4" value="Conflict &gt; Attack &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Cognitive &gt; IdentifyCategorize &gt; Unspecified" label="识别/分类">
+        <attvalues>
+          <attvalue for="0" value="IdentifyCategorize" />
+          <attvalue for="1" value="1.721698113207547" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="Cognitive" />
+          <attvalue for="4" value="Cognitive &gt; IdentifyCategorize &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; Prevarication &gt; Broadcast" label="推诿/撒谎&#10;(广播/声明)">
+        <attvalues>
+          <attvalue for="0" value="Prevarication" />
+          <attvalue for="1" value="0.07075471698113207" />
+          <attvalue for="2" value="0.04109589041095891" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; Prevarication &gt; Broadcast" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; Contact &gt; Unspecified" label="接触/联络">
+        <attvalues>
+          <attvalue for="0" value="Contact" />
+          <attvalue for="1" value="0.11320754716981132" />
+          <attvalue for="2" value="0.06575342465753425" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; Contact &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Cognitive &gt; Research &gt; Unspecified" label="调查/研究">
+        <attvalues>
+          <attvalue for="0" value="Research" />
+          <attvalue for="1" value="0.5424528301886793" />
+          <attvalue for="2" value="0.31506849315068497" />
+          <attvalue for="3" value="Cognitive" />
+          <attvalue for="4" value="Cognitive &gt; Research &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Cognitive &gt; Inspection &gt; SensoryObserve" label="视察/检查&#10;(观察/目击)">
+        <attvalues>
+          <attvalue for="0" value="Inspection" />
+          <attvalue for="1" value="0.5613207547169812" />
+          <attvalue for="2" value="0.326027397260274" />
+          <attvalue for="3" value="Cognitive" />
+          <attvalue for="4" value="Cognitive &gt; Inspection &gt; SensoryObserve" />
+        </attvalues>
+      </node>
+      <node id="Personnel &gt; ChangePosition &gt; ChangeJobLocation" label="职位变动&#10;(ChangeJobLocation)">
+        <attvalues>
+          <attvalue for="0" value="ChangePosition" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Personnel" />
+          <attvalue for="4" value="Personnel &gt; ChangePosition &gt; ChangeJobLocation" />
+        </attvalues>
+      </node>
+      <node id="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Destroy" label="损毁/拆除&#10;(Destroy)">
+        <attvalues>
+          <attvalue for="0" value="DamageDestroyDisableDismantle" />
+          <attvalue for="1" value="0.07547169811320754" />
+          <attvalue for="2" value="0.043835616438356165" />
+          <attvalue for="3" value="ArtifactExistence" />
+          <attvalue for="4" value="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Destroy" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; Prevarication &gt; Unspecified" label="推诿/撒谎">
+        <attvalues>
+          <attvalue for="0" value="Prevarication" />
+          <attvalue for="1" value="0.1509433962264151" />
+          <attvalue for="2" value="0.08767123287671233" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; Prevarication &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Transaction &gt; ExchangeBuySell &gt; Unspecified" label="交易/买卖">
+        <attvalues>
+          <attvalue for="0" value="ExchangeBuySell" />
+          <attvalue for="1" value="0.09905660377358491" />
+          <attvalue for="2" value="0.05753424657534247" />
+          <attvalue for="3" value="Transaction" />
+          <attvalue for="4" value="Transaction &gt; ExchangeBuySell &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Life &gt; Die &gt; Unspecified" label="死亡">
+        <attvalues>
+          <attvalue for="0" value="Die" />
+          <attvalue for="1" value="0.35377358490566035" />
+          <attvalue for="2" value="0.2054794520547945" />
+          <attvalue for="3" value="Life" />
+          <attvalue for="4" value="Life &gt; Die &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Control &gt; ImpedeInterfereWith &gt; Unspecified" label="阻碍/干扰">
+        <attvalues>
+          <attvalue for="0" value="ImpedeInterfereWith" />
+          <attvalue for="1" value="1.580188679245283" />
+          <attvalue for="2" value="0.9178082191780823" />
+          <attvalue for="3" value="Control" />
+          <attvalue for="4" value="Control &gt; ImpedeInterfereWith &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Conflict &gt; Defeat &gt; Unspecified" label="击败/挫败">
+        <attvalues>
+          <attvalue for="0" value="Defeat" />
+          <attvalue for="1" value="0.19339622641509435" />
+          <attvalue for="2" value="0.11232876712328768" />
+          <attvalue for="3" value="Conflict" />
+          <attvalue for="4" value="Conflict &gt; Defeat &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; Convict &gt; Unspecified" label="定罪">
+        <attvalues>
+          <attvalue for="0" value="Convict" />
+          <attvalue for="1" value="0.07547169811320754" />
+          <attvalue for="2" value="0.043835616438356165" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; Convict &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; Contact &gt; Correspondence" label="通信">
+        <attvalues>
+          <attvalue for="0" value="Contact" />
+          <attvalue for="1" value="0.12735849056603774" />
+          <attvalue for="2" value="0.07397260273972603" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; Contact &gt; Correspondence" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; Acquit &gt; Unspecified" label="无罪释放">
+        <attvalues>
+          <attvalue for="0" value="Acquit" />
+          <attvalue for="1" value="0.08962264150943396" />
+          <attvalue for="2" value="0.052054794520547946" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; Acquit &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Transaction &gt; Donation &gt; Unspecified" label="捐赠">
+        <attvalues>
+          <attvalue for="0" value="Donation" />
+          <attvalue for="1" value="0.0660377358490566" />
+          <attvalue for="2" value="0.038356164383561646" />
+          <attvalue for="3" value="Transaction" />
+          <attvalue for="4" value="Transaction &gt; Donation &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; InvestigateCrime &gt; Unspecified" label="调查犯罪">
+        <attvalues>
+          <attvalue for="0" value="InvestigateCrime" />
+          <attvalue for="1" value="0.06132075471698113" />
+          <attvalue for="2" value="0.03561643835616438" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; InvestigateCrime &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; Prevarication &gt; Correspondence" label="推诿/撒谎&#10;(通信)">
+        <attvalues>
+          <attvalue for="0" value="Prevarication" />
+          <attvalue for="1" value="0.014150943396226415" />
+          <attvalue for="2" value="0.008219178082191782" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; Prevarication &gt; Correspondence" />
+        </attvalues>
+      </node>
+      <node id="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; DisableDefuse" label="损毁/拆除&#10;(DisableDefuse)">
+        <attvalues>
+          <attvalue for="0" value="DamageDestroyDisableDismantle" />
+          <attvalue for="1" value="0.02830188679245283" />
+          <attvalue for="2" value="0.016438356164383564" />
+          <attvalue for="3" value="ArtifactExistence" />
+          <attvalue for="4" value="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; DisableDefuse" />
+        </attvalues>
+      </node>
+      <node id="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Damage" label="损毁/拆除&#10;(Damage)">
+        <attvalues>
+          <attvalue for="0" value="DamageDestroyDisableDismantle" />
+          <attvalue for="1" value="0.05188679245283019" />
+          <attvalue for="2" value="0.030136986301369868" />
+          <attvalue for="3" value="ArtifactExistence" />
+          <attvalue for="4" value="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Damage" />
+        </attvalues>
+      </node>
+      <node id="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" label="制造/组装">
+        <attvalues>
+          <attvalue for="0" value="ManufactureAssemble" />
+          <attvalue for="1" value="0.06132075471698113" />
+          <attvalue for="2" value="0.03561643835616438" />
+          <attvalue for="3" value="ArtifactExistence" />
+          <attvalue for="4" value="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="GenericCrime &gt; GenericCrime &gt; GenericCrime" label="一般犯罪&#10;(一般犯罪)">
+        <attvalues>
+          <attvalue for="0" value="GenericCrime" />
+          <attvalue for="1" value="0.018867924528301886" />
+          <attvalue for="2" value="0.010958904109589041" />
+          <attvalue for="3" value="GenericCrime" />
+          <attvalue for="4" value="GenericCrime &gt; GenericCrime &gt; GenericCrime" />
+        </attvalues>
+      </node>
+      <node id="Personnel &gt; StartPosition &gt; Unspecified" label="上任">
+        <attvalues>
+          <attvalue for="0" value="StartPosition" />
+          <attvalue for="1" value="0.02358490566037736" />
+          <attvalue for="2" value="0.013698630136986302" />
+          <attvalue for="3" value="Personnel" />
+          <attvalue for="4" value="Personnel &gt; StartPosition &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" label="教学/训练">
+        <attvalues>
+          <attvalue for="0" value="TeachingTrainingLearning" />
+          <attvalue for="1" value="0.05188679245283019" />
+          <attvalue for="2" value="0.030136986301369868" />
+          <attvalue for="3" value="Cognitive" />
+          <attvalue for="4" value="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; ChargeIndict &gt; Unspecified" label="指控/起诉">
+        <attvalues>
+          <attvalue for="0" value="ChargeIndict" />
+          <attvalue for="1" value="0.10377358490566038" />
+          <attvalue for="2" value="0.060273972602739735" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; ChargeIndict &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; Sentence &gt; Unspecified" label="判决">
+        <attvalues>
+          <attvalue for="0" value="Sentence" />
+          <attvalue for="1" value="0.10849056603773585" />
+          <attvalue for="2" value="0.06301369863013699" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; Sentence &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; Contact &gt; Broadcast" label="广播/声明">
+        <attvalues>
+          <attvalue for="0" value="Contact" />
+          <attvalue for="1" value="0.37735849056603776" />
+          <attvalue for="2" value="0.21917808219178084" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; Contact &gt; Broadcast" />
+        </attvalues>
+      </node>
+      <node id="Life &gt; Consume &gt; Unspecified" label="Consume">
+        <attvalues>
+          <attvalue for="0" value="Consume" />
+          <attvalue for="1" value="0.014150943396226415" />
+          <attvalue for="2" value="0.008219178082191782" />
+          <attvalue for="3" value="Life" />
+          <attvalue for="4" value="Life &gt; Consume &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; ThreatenCoerce &gt; Broadcast" label="威胁/胁迫&#10;(广播/声明)">
+        <attvalues>
+          <attvalue for="0" value="ThreatenCoerce" />
+          <attvalue for="1" value="0.04716981132075472" />
+          <attvalue for="2" value="0.027397260273972605" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; ThreatenCoerce &gt; Broadcast" />
+        </attvalues>
+      </node>
+      <node id="Movement &gt; Transportation &gt; IllegalTransportation" label="非法运输">
+        <attvalues>
+          <attvalue for="0" value="Transportation" />
+          <attvalue for="1" value="0.05660377358490566" />
+          <attvalue for="2" value="0.03287671232876713" />
+          <attvalue for="3" value="Movement" />
+          <attvalue for="4" value="Movement &gt; Transportation &gt; IllegalTransportation" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; RequestCommand &gt; Broadcast" label="请求/命令&#10;(广播/声明)">
+        <attvalues>
+          <attvalue for="0" value="RequestCommand" />
+          <attvalue for="1" value="0.04716981132075472" />
+          <attvalue for="2" value="0.027397260273972605" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; RequestCommand &gt; Broadcast" />
+        </attvalues>
+      </node>
+      <node id="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" label="示威&#10;(DemonstrateWithViolence)">
+        <attvalues>
+          <attvalue for="0" value="Demonstrate" />
+          <attvalue for="1" value="0.0660377358490566" />
+          <attvalue for="2" value="0.038356164383561646" />
+          <attvalue for="3" value="Conflict" />
+          <attvalue for="4" value="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; RequestCommand &gt; Unspecified" label="请求/命令">
+        <attvalues>
+          <attvalue for="0" value="RequestCommand" />
+          <attvalue for="1" value="0.08018867924528301" />
+          <attvalue for="2" value="0.04657534246575343" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; RequestCommand &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; ArrestJailDetain &gt; Unspecified" label="逮捕/拘留">
+        <attvalues>
+          <attvalue for="0" value="ArrestJailDetain" />
+          <attvalue for="1" value="0.17452830188679244" />
+          <attvalue for="2" value="0.10136986301369863" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; ArrestJailDetain &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; ReleaseParole &gt; Unspecified" label="释放/假释">
+        <attvalues>
+          <attvalue for="0" value="ReleaseParole" />
+          <attvalue for="1" value="0.02358490566037736" />
+          <attvalue for="2" value="0.013698630136986302" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; ReleaseParole &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Movement &gt; Transportation &gt; Evacuation" label="疏散/撤离">
+        <attvalues>
+          <attvalue for="0" value="Transportation" />
+          <attvalue for="1" value="0.42924528301886794" />
+          <attvalue for="2" value="0.24931506849315072" />
+          <attvalue for="3" value="Movement" />
+          <attvalue for="4" value="Movement &gt; Transportation &gt; Evacuation" />
+        </attvalues>
+      </node>
+      <node id="Life &gt; Injure &gt; Unspecified" label="受伤">
+        <attvalues>
+          <attvalue for="0" value="Injure" />
+          <attvalue for="1" value="0.13679245283018868" />
+          <attvalue for="2" value="0.07945205479452055" />
+          <attvalue for="3" value="Life" />
+          <attvalue for="4" value="Life &gt; Injure &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; Prevarication &gt; Meet" label="推诿/撒谎&#10;(会面)">
+        <attvalues>
+          <attvalue for="0" value="Prevarication" />
+          <attvalue for="1" value="0.03773584905660377" />
+          <attvalue for="2" value="0.021917808219178082" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; Prevarication &gt; Meet" />
+        </attvalues>
+      </node>
+      <node id="Transaction &gt; AidBetweenGovernments &gt; Unspecified" label="政府援助">
+        <attvalues>
+          <attvalue for="0" value="AidBetweenGovernments" />
+          <attvalue for="1" value="0.0330188679245283" />
+          <attvalue for="2" value="0.019178082191780823" />
+          <attvalue for="3" value="Transaction" />
+          <attvalue for="4" value="Transaction &gt; AidBetweenGovernments &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Movement &gt; Transportation &gt; PreventPassage" label="PreventPassage">
+        <attvalues>
+          <attvalue for="0" value="Transportation" />
+          <attvalue for="1" value="0.018867924528301886" />
+          <attvalue for="2" value="0.010958904109589041" />
+          <attvalue for="3" value="Movement" />
+          <attvalue for="4" value="Movement &gt; Transportation &gt; PreventPassage" />
+        </attvalues>
+      </node>
+      <node id="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Unspecified" label="损毁/拆除">
+        <attvalues>
+          <attvalue for="0" value="DamageDestroyDisableDismantle" />
+          <attvalue for="1" value="0.02830188679245283" />
+          <attvalue for="2" value="0.016438356164383564" />
+          <attvalue for="3" value="ArtifactExistence" />
+          <attvalue for="4" value="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; Contact &gt; Meet" label="会面">
+        <attvalues>
+          <attvalue for="0" value="Contact" />
+          <attvalue for="1" value="0.2783018867924528" />
+          <attvalue for="2" value="0.16164383561643836" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; Contact &gt; Meet" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; RequestCommand &gt; Correspondence" label="请求/命令&#10;(通信)">
+        <attvalues>
+          <attvalue for="0" value="RequestCommand" />
+          <attvalue for="1" value="0.02358490566037736" />
+          <attvalue for="2" value="0.013698630136986302" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; RequestCommand &gt; Correspondence" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; ThreatenCoerce &gt; Correspondence" label="威胁/胁迫&#10;(通信)">
+        <attvalues>
+          <attvalue for="0" value="ThreatenCoerce" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; ThreatenCoerce &gt; Correspondence" />
+        </attvalues>
+      </node>
+      <node id="Movement &gt; Transportation &gt; GrantAllowPassage" label="GrantAllowPassage">
+        <attvalues>
+          <attvalue for="0" value="Transportation" />
+          <attvalue for="1" value="0.014150943396226415" />
+          <attvalue for="2" value="0.008219178082191782" />
+          <attvalue for="3" value="Movement" />
+          <attvalue for="4" value="Movement &gt; Transportation &gt; GrantAllowPassage" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; TrialHearing &gt; Unspecified" label="TrialHearing">
+        <attvalues>
+          <attvalue for="0" value="TrialHearing" />
+          <attvalue for="1" value="0.08962264150943396" />
+          <attvalue for="2" value="0.052054794520547946" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; TrialHearing &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Disaster &gt; Crash &gt; Unspecified" label="坠毁/碰撞">
+        <attvalues>
+          <attvalue for="0" value="Crash" />
+          <attvalue for="1" value="0.009433962264150943" />
+          <attvalue for="2" value="0.005479452054794521" />
+          <attvalue for="3" value="Disaster" />
+          <attvalue for="4" value="Disaster &gt; Crash &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Personnel &gt; ChangePosition &gt; Unspecified" label="职位变动">
+        <attvalues>
+          <attvalue for="0" value="ChangePosition" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Personnel" />
+          <attvalue for="4" value="Personnel &gt; ChangePosition &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Life &gt; Illness &gt; Unspecified" label="Illness">
+        <attvalues>
+          <attvalue for="0" value="Illness" />
+          <attvalue for="1" value="0.014150943396226415" />
+          <attvalue for="2" value="0.008219178082191782" />
+          <attvalue for="3" value="Life" />
+          <attvalue for="4" value="Life &gt; Illness &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Medical &gt; Diagnosis &gt; Unspecified" label="Diagnosis">
+        <attvalues>
+          <attvalue for="0" value="Diagnosis" />
+          <attvalue for="1" value="0.014150943396226415" />
+          <attvalue for="2" value="0.008219178082191782" />
+          <attvalue for="3" value="Medical" />
+          <attvalue for="4" value="Medical &gt; Diagnosis &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Conflict &gt; Demonstrate &gt; Unspecified" label="示威">
+        <attvalues>
+          <attvalue for="0" value="Demonstrate" />
+          <attvalue for="1" value="0.14150943396226415" />
+          <attvalue for="2" value="0.08219178082191782" />
+          <attvalue for="3" value="Conflict" />
+          <attvalue for="4" value="Conflict &gt; Demonstrate &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Medical &gt; Intervention &gt; Unspecified" label="医疗干预">
+        <attvalues>
+          <attvalue for="0" value="Intervention" />
+          <attvalue for="1" value="0.06132075471698113" />
+          <attvalue for="2" value="0.03561643835616438" />
+          <attvalue for="3" value="Medical" />
+          <attvalue for="4" value="Medical &gt; Intervention &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; ThreatenCoerce &gt; Meet" label="威胁/胁迫&#10;(会面)">
+        <attvalues>
+          <attvalue for="0" value="ThreatenCoerce" />
+          <attvalue for="1" value="0.02830188679245283" />
+          <attvalue for="2" value="0.016438356164383564" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; ThreatenCoerce &gt; Meet" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; RequestCommand &gt; Meet" label="请求/命令&#10;(会面)">
+        <attvalues>
+          <attvalue for="0" value="RequestCommand" />
+          <attvalue for="1" value="0.02830188679245283" />
+          <attvalue for="2" value="0.016438356164383564" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; RequestCommand &gt; Meet" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; ThreatenCoerce &gt; Unspecified" label="威胁/胁迫">
+        <attvalues>
+          <attvalue for="0" value="ThreatenCoerce" />
+          <attvalue for="1" value="0.02358490566037736" />
+          <attvalue for="2" value="0.013698630136986302" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; ThreatenCoerce &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Personnel &gt; ChangePosition &gt; Lateral" label="职位变动&#10;(Lateral)">
+        <attvalues>
+          <attvalue for="0" value="ChangePosition" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Personnel" />
+          <attvalue for="4" value="Personnel &gt; ChangePosition &gt; Lateral" />
+        </attvalues>
+      </node>
+      <node id="Disaster &gt; FireExplosion &gt; Unspecified" label="FireExplosion">
+        <attvalues>
+          <attvalue for="0" value="FireExplosion" />
+          <attvalue for="1" value="0.009433962264150943" />
+          <attvalue for="2" value="0.005479452054794521" />
+          <attvalue for="3" value="Disaster" />
+          <attvalue for="4" value="Disaster &gt; FireExplosion &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Personnel &gt; EndPosition &gt; Unspecified" label="离任">
+        <attvalues>
+          <attvalue for="0" value="EndPosition" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Personnel" />
+          <attvalue for="4" value="Personnel &gt; EndPosition &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Conflict &gt; Attack" label="攻击/袭击">
+        <attvalues>
+          <attvalue for="0" value="Attack" />
+          <attvalue for="1" value="0.28773584905660377" />
+          <attvalue for="2" value="0.16712328767123288" />
+          <attvalue for="3" value="Conflict" />
+          <attvalue for="4" value="Conflict &gt; Attack" />
+        </attvalues>
+      </node>
+      <node id="Cognitive &gt; Inspection" label="视察/检查">
+        <attvalues>
+          <attvalue for="0" value="Inspection" />
+          <attvalue for="1" value="0.05188679245283019" />
+          <attvalue for="2" value="0.030136986301369868" />
+          <attvalue for="3" value="Cognitive" />
+          <attvalue for="4" value="Cognitive &gt; Inspection" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; Prevarication" label="推诿/撒谎">
+        <attvalues>
+          <attvalue for="0" value="Prevarication" />
+          <attvalue for="1" value="0.0660377358490566" />
+          <attvalue for="2" value="0.038356164383561646" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; Prevarication" />
+        </attvalues>
+      </node>
+      <node id="Cognitive &gt; Research" label="调查/研究">
+        <attvalues>
+          <attvalue for="0" value="Research" />
+          <attvalue for="1" value="0.05188679245283019" />
+          <attvalue for="2" value="0.030136986301369868" />
+          <attvalue for="3" value="Cognitive" />
+          <attvalue for="4" value="Cognitive &gt; Research" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; RequestCommand" label="请求/命令">
+        <attvalues>
+          <attvalue for="0" value="RequestCommand" />
+          <attvalue for="1" value="0.04716981132075472" />
+          <attvalue for="2" value="0.027397260273972605" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; RequestCommand" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; Contact" label="接触/联络">
+        <attvalues>
+          <attvalue for="0" value="Contact" />
+          <attvalue for="1" value="0.08018867924528301" />
+          <attvalue for="2" value="0.04657534246575343" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; Contact" />
+        </attvalues>
+      </node>
+      <node id="Control &gt; ImpedeInterfereWith" label="阻碍/干扰">
+        <attvalues>
+          <attvalue for="0" value="ImpedeInterfereWith" />
+          <attvalue for="1" value="0.009433962264150943" />
+          <attvalue for="2" value="0.005479452054794521" />
+          <attvalue for="3" value="Control" />
+          <attvalue for="4" value="Control &gt; ImpedeInterfereWith" />
+        </attvalues>
+      </node>
+      <node id="Movement &gt; Transportation" label="运输/移动">
+        <attvalues>
+          <attvalue for="0" value="Transportation" />
+          <attvalue for="1" value="0.05188679245283019" />
+          <attvalue for="2" value="0.030136986301369868" />
+          <attvalue for="3" value="Movement" />
+          <attvalue for="4" value="Movement &gt; Transportation" />
+        </attvalues>
+      </node>
+      <node id="ArtifactExistence &gt; DamageDestroyDisableDismantle" label="损毁/拆除">
+        <attvalues>
+          <attvalue for="0" value="DamageDestroyDisableDismantle" />
+          <attvalue for="1" value="0.02830188679245283" />
+          <attvalue for="2" value="0.016438356164383564" />
+          <attvalue for="3" value="ArtifactExistence" />
+          <attvalue for="4" value="ArtifactExistence &gt; DamageDestroyDisableDismantle" />
+        </attvalues>
+      </node>
+      <node id="Cognitive &gt; IdentifyCategorize" label="识别/分类">
+        <attvalues>
+          <attvalue for="0" value="IdentifyCategorize" />
+          <attvalue for="1" value="0.13679245283018868" />
+          <attvalue for="2" value="0.07945205479452055" />
+          <attvalue for="3" value="Cognitive" />
+          <attvalue for="4" value="Cognitive &gt; IdentifyCategorize" />
+        </attvalues>
+      </node>
+      <node id="ArtifactExistence &gt; ManufactureAssemble" label="制造/组装">
+        <attvalues>
+          <attvalue for="0" value="ManufactureAssemble" />
+          <attvalue for="1" value="0.014150943396226415" />
+          <attvalue for="2" value="0.008219178082191782" />
+          <attvalue for="3" value="ArtifactExistence" />
+          <attvalue for="4" value="ArtifactExistence &gt; ManufactureAssemble" />
+        </attvalues>
+      </node>
+      <node id="Conflict &gt; Demonstrate" label="示威">
+        <attvalues>
+          <attvalue for="0" value="Demonstrate" />
+          <attvalue for="1" value="0.0330188679245283" />
+          <attvalue for="2" value="0.019178082191780823" />
+          <attvalue for="3" value="Conflict" />
+          <attvalue for="4" value="Conflict &gt; Demonstrate" />
+        </attvalues>
+      </node>
+      <node id="Conflict &gt; Defeat" label="击败/挫败">
+        <attvalues>
+          <attvalue for="0" value="Defeat" />
+          <attvalue for="1" value="0.03773584905660377" />
+          <attvalue for="2" value="0.021917808219178082" />
+          <attvalue for="3" value="Conflict" />
+          <attvalue for="4" value="Conflict &gt; Defeat" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; Unspecified" label="未指定">
+        <attvalues>
+          <attvalue for="0" value="Unspecified" />
+          <attvalue for="1" value="0.04716981132075472" />
+          <attvalue for="2" value="0.027397260273972605" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Conflict &gt; Unspecified" label="未指定">
+        <attvalues>
+          <attvalue for="0" value="Unspecified" />
+          <attvalue for="1" value="0.02358490566037736" />
+          <attvalue for="2" value="0.013698630136986302" />
+          <attvalue for="3" value="Conflict" />
+          <attvalue for="4" value="Conflict &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Contact" label="">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0.02830188679245283" />
+          <attvalue for="2" value="0.016438356164383564" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact" />
+        </attvalues>
+      </node>
+      <node id="DamageDestroyDisableDismantle" label="">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0.018867924528301886" />
+          <attvalue for="2" value="0.010958904109589041" />
+          <attvalue for="3" value="DamageDestroyDisableDismantle" />
+          <attvalue for="4" value="DamageDestroyDisableDismantle" />
+        </attvalues>
+      </node>
+      <node id="Life" label="">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0.009433962264150943" />
+          <attvalue for="2" value="0.005479452054794521" />
+          <attvalue for="3" value="Life" />
+          <attvalue for="4" value="Life" />
+        </attvalues>
+      </node>
+      <node id="Control" label="">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Control" />
+          <attvalue for="4" value="Control" />
+        </attvalues>
+      </node>
+      <node id="ArtifactExistence" label="">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="ArtifactExistence" />
+          <attvalue for="4" value="ArtifactExistence" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; Unspecified" label="未指定">
+        <attvalues>
+          <attvalue for="0" value="Unspecified" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Cognitive &gt; TeachingTrainingLearning" label="教学/训练">
+        <attvalues>
+          <attvalue for="0" value="TeachingTrainingLearning" />
+          <attvalue for="1" value="0.02358490566037736" />
+          <attvalue for="2" value="0.013698630136986302" />
+          <attvalue for="3" value="Cognitive" />
+          <attvalue for="4" value="Cognitive &gt; TeachingTrainingLearning" />
+        </attvalues>
+      </node>
+      <node id="Personnel &gt; ChangePosition" label="职位变动">
+        <attvalues>
+          <attvalue for="0" value="ChangePosition" />
+          <attvalue for="1" value="0.0330188679245283" />
+          <attvalue for="2" value="0.019178082191780823" />
+          <attvalue for="3" value="Personnel" />
+          <attvalue for="4" value="Personnel &gt; ChangePosition" />
+        </attvalues>
+      </node>
+      <node id="Transaction &gt; Donation" label="捐赠">
+        <attvalues>
+          <attvalue for="0" value="Donation" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Transaction" />
+          <attvalue for="4" value="Transaction &gt; Donation" />
+        </attvalues>
+      </node>
+      <node id="Conflict" label="">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0.018867924528301886" />
+          <attvalue for="2" value="0.010958904109589041" />
+          <attvalue for="3" value="Conflict" />
+          <attvalue for="4" value="Conflict" />
+        </attvalues>
+      </node>
+      <node id="Life &gt; Die" label="死亡">
+        <attvalues>
+          <attvalue for="0" value="Die" />
+          <attvalue for="1" value="0.018867924528301886" />
+          <attvalue for="2" value="0.010958904109589041" />
+          <attvalue for="3" value="Life" />
+          <attvalue for="4" value="Life &gt; Die" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; InvestigateCrime" label="调查犯罪">
+        <attvalues>
+          <attvalue for="0" value="InvestigateCrime" />
+          <attvalue for="1" value="0.014150943396226415" />
+          <attvalue for="2" value="0.008219178082191782" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; InvestigateCrime" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; ArrestJailDetain" label="逮捕/拘留">
+        <attvalues>
+          <attvalue for="0" value="ArrestJailDetain" />
+          <attvalue for="1" value="0.014150943396226415" />
+          <attvalue for="2" value="0.008219178082191782" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; ArrestJailDetain" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; ThreatenCoerce" label="威胁/胁迫">
+        <attvalues>
+          <attvalue for="0" value="ThreatenCoerce" />
+          <attvalue for="1" value="0.018867924528301886" />
+          <attvalue for="2" value="0.010958904109589041" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; ThreatenCoerce" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; TrialHearing" label="TrialHearing">
+        <attvalues>
+          <attvalue for="0" value="TrialHearing" />
+          <attvalue for="1" value="0.009433962264150943" />
+          <attvalue for="2" value="0.005479452054794521" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; TrialHearing" />
+        </attvalues>
+      </node>
+      <node id="Medical &gt; Intervention" label="医疗干预">
+        <attvalues>
+          <attvalue for="0" value="Intervention" />
+          <attvalue for="1" value="0.009433962264150943" />
+          <attvalue for="2" value="0.005479452054794521" />
+          <attvalue for="3" value="Medical" />
+          <attvalue for="4" value="Medical &gt; Intervention" />
+        </attvalues>
+      </node>
+      <node id="DamageDestroyDisableDismantle &gt; DisableDefuse &gt; Unspecified" label="DisableDefuse">
+        <attvalues>
+          <attvalue for="0" value="DisableDefuse" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="DamageDestroyDisableDismantle" />
+          <attvalue for="4" value="DamageDestroyDisableDismantle &gt; DisableDefuse &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Life &gt; Injure" label="受伤">
+        <attvalues>
+          <attvalue for="0" value="Injure" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Life" />
+          <attvalue for="4" value="Life &gt; Injure" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; SensoryObserve" label="观察/目击">
+        <attvalues>
+          <attvalue for="0" value="SensoryObserve" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Contact" />
+          <attvalue for="4" value="Contact &gt; SensoryObserve" />
+        </attvalues>
+      </node>
+      <node id="ManufactureAssemble &gt; Unspecified &gt; Unspecified" label="未指定">
+        <attvalues>
+          <attvalue for="0" value="Unspecified" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="ManufactureAssemble" />
+          <attvalue for="4" value="ManufactureAssemble &gt; Unspecified &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Personnel &gt; ChangePosition &gt; Demotion" label="职位变动&#10;(Demotion)">
+        <attvalues>
+          <attvalue for="0" value="ChangePosition" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Personnel" />
+          <attvalue for="4" value="Personnel &gt; ChangePosition &gt; Demotion" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; Convict" label="定罪">
+        <attvalues>
+          <attvalue for="0" value="Convict" />
+          <attvalue for="1" value="0.009433962264150943" />
+          <attvalue for="2" value="0.005479452054794521" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; Convict" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; Acquit" label="无罪释放">
+        <attvalues>
+          <attvalue for="0" value="Acquit" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; Acquit" />
+        </attvalues>
+      </node>
+      <node id="Life &gt; Consume" label="Consume">
+        <attvalues>
+          <attvalue for="0" value="Consume" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Life" />
+          <attvalue for="4" value="Life &gt; Consume" />
+        </attvalues>
+      </node>
+      <node id="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Dismantle" label="损毁/拆除&#10;(Dismantle)">
+        <attvalues>
+          <attvalue for="0" value="DamageDestroyDisableDismantle" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="ArtifactExistence" />
+          <attvalue for="4" value="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Dismantle" />
+        </attvalues>
+      </node>
+      <node id="DamageDestroyDisableDismantle &gt; Destroy &gt; Unspecified" label="Destroy">
+        <attvalues>
+          <attvalue for="0" value="Destroy" />
+          <attvalue for="1" value="0.009433962264150943" />
+          <attvalue for="2" value="0.005479452054794521" />
+          <attvalue for="3" value="DamageDestroyDisableDismantle" />
+          <attvalue for="4" value="DamageDestroyDisableDismantle &gt; Destroy &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; ChargeIndict" label="指控/起诉">
+        <attvalues>
+          <attvalue for="0" value="ChargeIndict" />
+          <attvalue for="1" value="0.009433962264150943" />
+          <attvalue for="2" value="0.005479452054794521" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; ChargeIndict" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; Sentence" label="判决">
+        <attvalues>
+          <attvalue for="0" value="Sentence" />
+          <attvalue for="1" value="0.0047169811320754715" />
+          <attvalue for="2" value="0.0027397260273972603" />
+          <attvalue for="3" value="Justice" />
+          <attvalue for="4" value="Justice &gt; Sentence" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="0" weight="0.02358490566037736" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="1" weight="0.03773584905660377" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Personnel &gt; ChangePosition &gt; ChangeJobLocation" id="2" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="3" weight="0.02830188679245283" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="4" weight="0.04716981132075472" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Unspecified" id="5" weight="0.009433962264150943" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="6" weight="0.018867924528301886" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Justice &gt; Sentence &gt; Unspecified" id="7" weight="0.009433962264150943" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" id="8" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Contact &gt; Contact &gt; Meet" id="9" weight="0.009433962264150943" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Life &gt; Injure &gt; Unspecified" id="10" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Life &gt; Consume &gt; Unspecified" id="11" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; DisableDefuse" id="12" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; Unspecified" id="13" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Personnel &gt; StartPosition &gt; Unspecified" id="14" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Life &gt; Die &gt; Unspecified" id="15" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Broadcast" id="16" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" id="17" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Contact &gt; Contact &gt; Correspondence" id="18" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="ArtifactExistence &gt; ManufactureAssemble" id="19" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Destroy" id="20" weight="0.05660377358490566" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="21" weight="0.33962264150943394" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; DisableDefuse" id="22" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="23" weight="0.12735849056603774" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; Contact &gt; Broadcast" id="24" weight="0.07547169811320754" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; ThreatenCoerce &gt; Broadcast" id="25" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; RequestCommand &gt; Broadcast" id="26" weight="0.02830188679245283" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Life &gt; Die &gt; Unspecified" id="27" weight="0.08962264150943396" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Life &gt; Injure &gt; Unspecified" id="28" weight="0.04716981132075472" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Movement &gt; Transportation &gt; Evacuation" id="29" weight="0.05660377358490566" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="30" weight="0.08962264150943396" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Movement &gt; Transportation &gt; Unspecified" id="31" weight="0.0330188679245283" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" id="32" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Transaction &gt; Donation &gt; Unspecified" id="33" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Cognitive &gt; Research &gt; Unspecified" id="34" weight="0.0660377358490566" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Movement &gt; Transportation &gt; GrantAllowPassage" id="35" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Justice &gt; TrialHearing &gt; Unspecified" id="36" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; Contact &gt; Unspecified" id="37" weight="0.018867924528301886" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Justice &gt; ArrestJailDetain &gt; Unspecified" id="38" weight="0.02358490566037736" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Justice &gt; ChargeIndict &gt; Unspecified" id="39" weight="0.03773584905660377" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Justice &gt; Convict &gt; Unspecified" id="40" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" id="41" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; Contact &gt; Meet" id="42" weight="0.02830188679245283" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; Prevarication &gt; Unspecified" id="43" weight="0.018867924528301886" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; Contact &gt; Correspondence" id="44" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; Prevarication &gt; Broadcast" id="45" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Justice &gt; Sentence &gt; Unspecified" id="46" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Conflict &gt; Defeat &gt; Unspecified" id="47" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Damage" id="48" weight="0.018867924528301886" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; ThreatenCoerce &gt; Unspecified" id="49" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; ThreatenCoerce &gt; Meet" id="50" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Transaction &gt; AidBetweenGovernments &gt; Unspecified" id="51" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Movement &gt; Transportation &gt; IllegalTransportation" id="52" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Disaster &gt; FireExplosion &gt; Unspecified" id="53" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Movement &gt; Transportation &gt; PreventPassage" id="54" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Transaction &gt; ExchangeBuySell &gt; Unspecified" id="55" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Life &gt; Die" id="56" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Conflict &gt; Demonstrate &gt; Unspecified" id="57" weight="0.0330188679245283" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Medical &gt; Intervention &gt; Unspecified" id="58" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; RequestCommand &gt; Unspecified" id="59" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Personnel &gt; ChangePosition" id="60" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; RequestCommand" id="61" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Conflict &gt; Unspecified" id="62" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Unspecified" id="63" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Justice &gt; InvestigateCrime" id="64" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Dismantle" id="65" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="DamageDestroyDisableDismantle &gt; Destroy &gt; Unspecified" id="66" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="67" weight="0.16037735849056603" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="68" weight="0.03773584905660377" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Life &gt; Die &gt; Unspecified" id="69" weight="0.05188679245283019" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="70" weight="0.1509433962264151" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" id="71" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Contact &gt; Contact &gt; Broadcast" id="72" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Movement &gt; Transportation &gt; Unspecified" id="73" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Unspecified" id="74" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Movement &gt; Transportation &gt; Evacuation" id="75" weight="0.04716981132075472" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Conflict &gt; Defeat &gt; Unspecified" id="76" weight="0.02830188679245283" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Movement &gt; Transportation &gt; IllegalTransportation" id="77" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Justice &gt; ArrestJailDetain &gt; Unspecified" id="78" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Contact &gt; Contact &gt; Meet" id="79" weight="0.05660377358490566" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="80" weight="0.08962264150943396" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Life &gt; Injure &gt; Unspecified" id="81" weight="0.018867924528301886" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Transaction &gt; ExchangeBuySell &gt; Unspecified" id="82" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Contact &gt; Prevarication &gt; Meet" id="83" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; Unspecified" id="84" weight="0.018867924528301886" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Personnel &gt; ChangePosition &gt; Lateral" id="85" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Justice &gt; Sentence &gt; Unspecified" id="86" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Meet" id="87" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" id="88" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Personnel &gt; EndPosition &gt; Unspecified" id="89" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Contact &gt; Prevarication &gt; Unspecified" id="90" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Conflict &gt; Unspecified" id="91" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Contact &gt; Prevarication" id="92" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Contact &gt; Contact &gt; Correspondence" id="93" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Personnel &gt; ChangePosition" id="94" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Justice &gt; TrialHearing &gt; Unspecified" id="95" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Contact &gt; ThreatenCoerce &gt; Broadcast" id="96" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Justice &gt; ReleaseParole &gt; Unspecified" id="97" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Contact &gt; ThreatenCoerce &gt; Unspecified" id="98" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Personnel &gt; ChangePosition &gt; Demotion" id="99" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Contact &gt; Unspecified" id="100" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Destroy" id="101" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Justice &gt; Convict &gt; Unspecified" id="102" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Contact &gt; Prevarication &gt; Broadcast" id="103" weight="0.018867924528301886" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Contact &gt; Prevarication &gt; Unspecified" id="104" weight="0.02358490566037736" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="105" weight="0.08018867924528301" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="106" weight="0.05660377358490566" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Transaction &gt; ExchangeBuySell &gt; Unspecified" id="107" weight="0.018867924528301886" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Contact &gt; Contact &gt; Correspondence" id="108" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="109" weight="0.08962264150943396" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Movement &gt; Transportation &gt; Unspecified" id="110" weight="0.02830188679245283" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="111" weight="0.12264150943396226" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Justice &gt; Convict &gt; Unspecified" id="112" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Transaction &gt; Donation &gt; Unspecified" id="113" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Contact &gt; Contact &gt; Unspecified" id="114" weight="0.014150943396226415" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Justice &gt; ChargeIndict &gt; Unspecified" id="115" weight="0.014150943396226415" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Justice &gt; Sentence &gt; Unspecified" id="116" weight="0.014150943396226415" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="117" weight="0.0330188679245283" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Contact &gt; Contact &gt; Broadcast" id="118" weight="0.0330188679245283" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Conflict &gt; Defeat &gt; Unspecified" id="119" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Unspecified" id="120" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Movement &gt; Transportation &gt; Evacuation" id="121" weight="0.03773584905660377" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Justice &gt; InvestigateCrime &gt; Unspecified" id="122" weight="0.014150943396226415" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Broadcast" id="123" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Life &gt; Die &gt; Unspecified" id="124" weight="0.014150943396226415" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Movement &gt; Transportation &gt; IllegalTransportation" id="125" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Contact &gt; ThreatenCoerce &gt; Broadcast" id="126" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Contact &gt; Prevarication &gt; Meet" id="127" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Contact &gt; Contact &gt; Meet" id="128" weight="0.03773584905660377" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Life &gt; Injure &gt; Unspecified" id="129" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Medical &gt; Diagnosis &gt; Unspecified" id="130" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Damage" id="131" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Justice &gt; ArrestJailDetain &gt; Unspecified" id="132" weight="0.0330188679245283" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Meet" id="133" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; Unspecified" id="134" weight="0.014150943396226415" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Contact &gt; ThreatenCoerce &gt; Meet" id="135" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" id="136" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Medical &gt; Intervention &gt; Unspecified" id="137" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Personnel &gt; ChangePosition" id="138" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" id="139" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" id="140" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Broadcast" target="Contact &gt; Contact &gt; Unspecified" id="141" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Broadcast" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="142" weight="0.014150943396226415" />
+      <edge source="Contact &gt; Prevarication &gt; Broadcast" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="143" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Broadcast" target="Conflict &gt; Attack &gt; Unspecified" id="144" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Broadcast" target="Conflict &gt; Defeat &gt; Unspecified" id="145" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Broadcast" target="Justice &gt; TrialHearing" id="146" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Broadcast" target="Conflict &gt; Attack &gt; DetonateExplode" id="147" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Broadcast" target="Justice &gt; InvestigateCrime &gt; Unspecified" id="148" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="149" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="150" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Unspecified" target="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" id="151" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="152" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Unspecified" target="Movement &gt; Transportation &gt; Unspecified" id="153" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="154" weight="0.018867924528301886" />
+      <edge source="Contact &gt; Contact &gt; Unspecified" target="Transaction &gt; AidBetweenGovernments &gt; Unspecified" id="155" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="156" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; Unspecified" id="157" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Unspecified" target="Movement &gt; Transportation &gt; GrantAllowPassage" id="158" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Unspecified" target="Medical &gt; Intervention &gt; Unspecified" id="159" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="160" weight="0.02358490566037736" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="161" weight="0.02358490566037736" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="162" weight="0.04716981132075472" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="163" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Justice &gt; TrialHearing &gt; Unspecified" id="164" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Contact &gt; Contact &gt; Unspecified" id="165" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Transaction &gt; Donation &gt; Unspecified" id="166" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="167" weight="0.018867924528301886" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Contact &gt; Contact &gt; Meet" id="168" weight="0.02830188679245283" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Justice &gt; Acquit &gt; Unspecified" id="169" weight="0.014150943396226415" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Contact &gt; Contact &gt; Broadcast" id="170" weight="0.014150943396226415" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Transaction &gt; ExchangeBuySell &gt; Unspecified" id="171" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Movement &gt; Transportation &gt; Evacuation" id="172" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Life &gt; Die &gt; Unspecified" id="173" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Justice &gt; ChargeIndict &gt; Unspecified" id="174" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Contact &gt; Prevarication &gt; Unspecified" id="175" weight="0.014150943396226415" />
+      <edge source="Cognitive &gt; Research &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Unspecified" id="176" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="177" weight="0.09433962264150944" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Conflict &gt; Attack &gt; Unspecified" id="178" weight="0.014150943396226415" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Conflict &gt; Attack &gt; DetonateExplode" id="179" weight="0.04245283018867924" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; DisableDefuse" id="180" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Justice &gt; InvestigateCrime &gt; Unspecified" id="181" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Life &gt; Die &gt; Unspecified" id="182" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="183" weight="0.04245283018867924" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Contact &gt; RequestCommand &gt; Unspecified" id="184" weight="0.014150943396226415" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Justice &gt; Convict &gt; Unspecified" id="185" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Contact &gt; Contact &gt; Meet" id="186" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Life &gt; Injure &gt; Unspecified" id="187" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Contact &gt; Contact &gt; Broadcast" id="188" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Medical &gt; Diagnosis &gt; Unspecified" id="189" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Movement &gt; Transportation &gt; Unspecified" id="190" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Cognitive &gt; Research &gt; Unspecified" id="191" weight="0.02358490566037736" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Movement &gt; Transportation &gt; Evacuation" id="192" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" id="193" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Medical &gt; Intervention &gt; Unspecified" id="194" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Contact &gt; Prevarication" id="195" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Justice &gt; ArrestJailDetain &gt; Unspecified" id="196" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="DamageDestroyDisableDismantle &gt; DisableDefuse &gt; Unspecified" id="197" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Contact &gt; Prevarication &gt; Unspecified" id="198" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Contact &gt; SensoryObserve" id="199" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Conflict &gt; Unspecified" id="200" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" id="201" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Destroy" target="Life &gt; Die &gt; Unspecified" id="202" weight="0.018867924528301886" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Destroy" target="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" id="203" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Destroy" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="204" weight="0.02358490566037736" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Destroy" target="Medical &gt; Intervention &gt; Unspecified" id="205" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Destroy" target="Life &gt; Injure &gt; Unspecified" id="206" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Destroy" target="Cognitive &gt; Research &gt; Unspecified" id="207" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Unspecified" target="Justice &gt; Convict &gt; Unspecified" id="208" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Unspecified" target="Contact &gt; Contact &gt; Broadcast" id="209" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Prevarication &gt; Unspecified" target="Contact &gt; Contact &gt; Correspondence" id="210" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Prevarication &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="211" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Unspecified" target="Movement &gt; Transportation &gt; Unspecified" id="212" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Unspecified" id="213" weight="0.014150943396226415" />
+      <edge source="Contact &gt; Prevarication &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="214" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Unspecified" target="Conflict &gt; Defeat &gt; Unspecified" id="215" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; Unspecified" id="216" weight="0.018867924528301886" />
+      <edge source="Contact &gt; Prevarication &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Correspondence" id="217" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="218" weight="0.009433962264150943" />
+      <edge source="Transaction &gt; ExchangeBuySell &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="219" weight="0.014150943396226415" />
+      <edge source="Transaction &gt; ExchangeBuySell &gt; Unspecified" target="Transaction &gt; AidBetweenGovernments &gt; Unspecified" id="220" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; ExchangeBuySell &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="221" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; ExchangeBuySell &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="222" weight="0.02358490566037736" />
+      <edge source="Transaction &gt; ExchangeBuySell &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="223" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; ExchangeBuySell &gt; Unspecified" target="Contact &gt; Contact &gt; Meet" id="224" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; ExchangeBuySell &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="225" weight="0.009433962264150943" />
+      <edge source="Transaction &gt; ExchangeBuySell &gt; Unspecified" target="Justice &gt; ChargeIndict &gt; Unspecified" id="226" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; ExchangeBuySell &gt; Unspecified" target="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" id="227" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="228" weight="0.05660377358490566" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Justice &gt; Convict &gt; Unspecified" id="229" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="GenericCrime &gt; GenericCrime &gt; GenericCrime" id="230" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="231" weight="0.02830188679245283" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="232" weight="0.04245283018867924" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Contact &gt; Contact &gt; Broadcast" id="233" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Conflict &gt; Defeat &gt; Unspecified" id="234" weight="0.009433962264150943" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Transaction &gt; ExchangeBuySell &gt; Unspecified" id="235" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Broadcast" id="236" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="237" weight="0.009433962264150943" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="238" weight="0.014150943396226415" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="239" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Justice &gt; Unspecified" id="240" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Justice &gt; ArrestJailDetain" id="241" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Movement &gt; Transportation" id="242" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Die &gt; Unspecified" target="Medical &gt; Intervention &gt; Unspecified" id="243" weight="0.0047169811320754715" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="244" weight="0.10377358490566038" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Movement &gt; Transportation &gt; Unspecified" id="245" weight="0.05188679245283019" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="246" weight="0.02830188679245283" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Contact &gt; Contact &gt; Unspecified" id="247" weight="0.0047169811320754715" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="GenericCrime &gt; GenericCrime &gt; GenericCrime" id="248" weight="0.0047169811320754715" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="249" weight="0.02830188679245283" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Justice &gt; Sentence &gt; Unspecified" id="250" weight="0.018867924528301886" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Contact &gt; Contact &gt; Correspondence" id="251" weight="0.02358490566037736" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Conflict &gt; Defeat &gt; Unspecified" id="252" weight="0.02830188679245283" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="253" weight="0.09433962264150944" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Broadcast" id="254" weight="0.009433962264150943" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="255" weight="0.09905660377358491" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; DisableDefuse" id="256" weight="0.0047169811320754715" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Contact &gt; Contact &gt; Broadcast" id="257" weight="0.03773584905660377" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Movement &gt; Transportation &gt; Evacuation" id="258" weight="0.018867924528301886" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Movement &gt; Transportation &gt; PreventPassage" id="259" weight="0.009433962264150943" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Life &gt; Die &gt; Unspecified" id="260" weight="0.018867924528301886" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Justice &gt; ReleaseParole &gt; Unspecified" id="261" weight="0.0047169811320754715" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Unspecified" id="262" weight="0.0047169811320754715" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Contact &gt; Contact &gt; Meet" id="263" weight="0.018867924528301886" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Transaction &gt; ExchangeBuySell &gt; Unspecified" id="264" weight="0.018867924528301886" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Correspondence" id="265" weight="0.0047169811320754715" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Contact &gt; Prevarication &gt; Broadcast" id="266" weight="0.0047169811320754715" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Justice &gt; ArrestJailDetain &gt; Unspecified" id="267" weight="0.014150943396226415" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Disaster &gt; Crash &gt; Unspecified" id="268" weight="0.009433962264150943" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Contact &gt; ThreatenCoerce &gt; Broadcast" id="269" weight="0.0047169811320754715" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" id="270" weight="0.014150943396226415" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Life &gt; Injure &gt; Unspecified" id="271" weight="0.009433962264150943" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Justice &gt; Acquit &gt; Unspecified" id="272" weight="0.009433962264150943" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Transaction &gt; Donation &gt; Unspecified" id="273" weight="0.0047169811320754715" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Movement &gt; Transportation &gt; IllegalTransportation" id="274" weight="0.009433962264150943" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Transaction &gt; AidBetweenGovernments &gt; Unspecified" id="275" weight="0.009433962264150943" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Medical &gt; Intervention &gt; Unspecified" id="276" weight="0.0047169811320754715" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Contact &gt; Prevarication &gt; Meet" id="277" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="278" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Life &gt; Die &gt; Unspecified" id="279" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="280" weight="0.02358490566037736" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Contact &gt; Contact &gt; Meet" id="281" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Movement &gt; Transportation &gt; Unspecified" id="282" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="283" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="284" weight="0.02358490566037736" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="285" weight="0.018867924528301886" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; Unspecified" id="286" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Movement &gt; Transportation &gt; Evacuation" id="287" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Contact &gt; Prevarication &gt; Unspecified" id="288" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Broadcast" id="289" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Contact" id="290" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Justice &gt; ChargeIndict &gt; Unspecified" id="291" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="292" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Unspecified" id="293" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Convict &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="294" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Convict &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="295" weight="0.014150943396226415" />
+      <edge source="Justice &gt; Convict &gt; Unspecified" target="Justice &gt; Sentence &gt; Unspecified" id="296" weight="0.009433962264150943" />
+      <edge source="Justice &gt; Convict &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="297" weight="0.009433962264150943" />
+      <edge source="Justice &gt; Convict &gt; Unspecified" target="Justice &gt; Acquit &gt; Unspecified" id="298" weight="0.014150943396226415" />
+      <edge source="Justice &gt; Convict &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Unspecified" id="299" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Convict &gt; Unspecified" target="Contact &gt; Prevarication &gt; Unspecified" id="300" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Convict &gt; Unspecified" target="Contact &gt; Unspecified" id="301" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Convict &gt; Unspecified" target="Movement &gt; Transportation" id="302" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Convict &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="303" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Convict &gt; Unspecified" target="Justice &gt; TrialHearing &gt; Unspecified" id="304" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Life &gt; Die &gt; Unspecified" id="305" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="306" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Contact &gt; Prevarication &gt; Broadcast" id="307" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Transaction &gt; Donation &gt; Unspecified" id="308" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="309" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Contact &gt; Prevarication &gt; Meet" id="310" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Movement &gt; Transportation &gt; Unspecified" id="311" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Life &gt; Illness &gt; Unspecified" id="312" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="313" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Contact &gt; RequestCommand &gt; Broadcast" id="314" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Movement &gt; Transportation &gt; Evacuation" id="315" weight="0.014150943396226415" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" id="316" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Justice &gt; ChargeIndict &gt; Unspecified" id="317" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Justice &gt; InvestigateCrime" id="318" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Contact &gt; RequestCommand &gt; Unspecified" id="319" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Correspondence" target="Contact &gt; RequestCommand &gt; Correspondence" id="320" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Acquit &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="321" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Acquit &gt; Unspecified" target="Justice &gt; Sentence &gt; Unspecified" id="322" weight="0.009433962264150943" />
+      <edge source="Justice &gt; Acquit &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="323" weight="0.009433962264150943" />
+      <edge source="Justice &gt; Acquit &gt; Unspecified" target="Transaction &gt; Donation &gt; Unspecified" id="324" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; Donation &gt; Unspecified" target="Justice &gt; InvestigateCrime &gt; Unspecified" id="325" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; Donation &gt; Unspecified" target="Contact &gt; Contact &gt; Unspecified" id="326" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; Donation &gt; Unspecified" target="Movement &gt; Transportation &gt; Evacuation" id="327" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; Donation &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="328" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; Donation &gt; Unspecified" target="Movement &gt; Transportation &gt; Unspecified" id="329" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; Donation &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="330" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; Donation &gt; Unspecified" target="Contact &gt; Contact &gt; Broadcast" id="331" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; Donation &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; Unspecified" id="332" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; InvestigateCrime &gt; Unspecified" target="Contact &gt; Prevarication &gt; Correspondence" id="333" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; InvestigateCrime &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="334" weight="0.009433962264150943" />
+      <edge source="Justice &gt; InvestigateCrime &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="335" weight="0.014150943396226415" />
+      <edge source="Justice &gt; InvestigateCrime &gt; Unspecified" target="Life &gt; Die &gt; Unspecified" id="336" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; InvestigateCrime &gt; Unspecified" target="Contact &gt; ThreatenCoerce &gt; Broadcast" id="337" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; InvestigateCrime &gt; Unspecified" target="Justice &gt; ChargeIndict &gt; Unspecified" id="338" weight="0.009433962264150943" />
+      <edge source="Justice &gt; InvestigateCrime &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Unspecified" id="339" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; InvestigateCrime &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="340" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; InvestigateCrime &gt; Unspecified" target="Justice &gt; TrialHearing &gt; Unspecified" id="341" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; InvestigateCrime &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="342" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; InvestigateCrime &gt; Unspecified" target="Justice &gt; ArrestJailDetain &gt; Unspecified" id="343" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Correspondence" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="344" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; DisableDefuse" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="345" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; DisableDefuse" target="Conflict &gt; Attack &gt; Unspecified" id="346" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; DisableDefuse" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="347" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Damage" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="348" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Damage" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="349" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Damage" target="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" id="350" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Damage" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="351" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Damage" target="Contact &gt; Contact &gt; Broadcast" id="352" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Damage" target="Movement &gt; Transportation &gt; Evacuation" id="353" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" target="GenericCrime &gt; GenericCrime &gt; GenericCrime" id="354" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="355" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="356" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" target="Justice &gt; Sentence &gt; Unspecified" id="357" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" target="Personnel &gt; ChangePosition &gt; Unspecified" id="358" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" target="Movement &gt; Transportation &gt; Unspecified" id="359" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="360" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" target="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" id="361" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="362" weight="0.0047169811320754715" />
+      <edge source="GenericCrime &gt; GenericCrime &gt; GenericCrime" target="Contact &gt; Contact &gt; Unspecified" id="363" weight="0.0047169811320754715" />
+      <edge source="GenericCrime &gt; GenericCrime &gt; GenericCrime" target="Justice &gt; ChargeIndict &gt; Unspecified" id="364" weight="0.0047169811320754715" />
+      <edge source="GenericCrime &gt; GenericCrime &gt; GenericCrime" target="Justice &gt; Sentence &gt; Unspecified" id="365" weight="0.0047169811320754715" />
+      <edge source="GenericCrime &gt; GenericCrime &gt; GenericCrime" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="366" weight="0.0047169811320754715" />
+      <edge source="Personnel &gt; StartPosition &gt; Unspecified" target="Life &gt; Die &gt; Unspecified" id="367" weight="0.0047169811320754715" />
+      <edge source="Personnel &gt; StartPosition &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="368" weight="0.009433962264150943" />
+      <edge source="Personnel &gt; StartPosition &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="369" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" target="Life &gt; Die &gt; Unspecified" id="370" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" target="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" id="371" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="372" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" target="Contact &gt; Prevarication &gt; Unspecified" id="373" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" target="Contact &gt; Contact &gt; Broadcast" id="374" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" target="Contact &gt; Unspecified" id="375" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ChargeIndict &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="376" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ChargeIndict &gt; Unspecified" target="Justice &gt; Acquit &gt; Unspecified" id="377" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ChargeIndict &gt; Unspecified" target="Justice &gt; TrialHearing &gt; Unspecified" id="378" weight="0.009433962264150943" />
+      <edge source="Justice &gt; ChargeIndict &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="379" weight="0.014150943396226415" />
+      <edge source="Justice &gt; ChargeIndict &gt; Unspecified" target="Contact &gt; Contact &gt; Meet" id="380" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ChargeIndict &gt; Unspecified" target="Contact &gt; Prevarication &gt; Unspecified" id="381" weight="0.014150943396226415" />
+      <edge source="Justice &gt; ChargeIndict &gt; Unspecified" target="Contact &gt; Unspecified" id="382" weight="0.009433962264150943" />
+      <edge source="Justice &gt; ChargeIndict &gt; Unspecified" target="Justice &gt; Convict &gt; Unspecified" id="383" weight="0.009433962264150943" />
+      <edge source="Justice &gt; ChargeIndict &gt; Unspecified" target="Justice &gt; InvestigateCrime &gt; Unspecified" id="384" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ChargeIndict &gt; Unspecified" target="Justice &gt; ArrestJailDetain &gt; Unspecified" id="385" weight="0.009433962264150943" />
+      <edge source="Justice &gt; Sentence &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="386" weight="0.018867924528301886" />
+      <edge source="Justice &gt; Sentence &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="387" weight="0.0330188679245283" />
+      <edge source="Justice &gt; Sentence &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="388" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Sentence &gt; Unspecified" target="Contact &gt; Contact &gt; Meet" id="389" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Sentence &gt; Unspecified" target="Justice &gt; TrialHearing &gt; Unspecified" id="390" weight="0.014150943396226415" />
+      <edge source="Justice &gt; Sentence &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Correspondence" id="391" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Sentence &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="392" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="393" weight="0.02358490566037736" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Transaction &gt; ExchangeBuySell &gt; Unspecified" id="394" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="395" weight="0.02358490566037736" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Contact &gt; Prevarication &gt; Unspecified" id="396" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Conflict &gt; Attack &gt; DetonateExplode" id="397" weight="0.014150943396226415" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Cognitive &gt; Research &gt; Unspecified" id="398" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Justice &gt; Sentence &gt; Unspecified" id="399" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Contact &gt; ThreatenCoerce &gt; Broadcast" id="400" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="401" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Conflict &gt; Attack &gt; Unspecified" id="402" weight="0.02358490566037736" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Movement &gt; Transportation &gt; Evacuation" id="403" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Transaction &gt; Donation &gt; Unspecified" id="404" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Movement &gt; Transportation &gt; Unspecified" id="405" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Contact &gt; Prevarication" id="406" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Consume &gt; Unspecified" target="Life &gt; Die &gt; Unspecified" id="407" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Consume &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="408" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Consume &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="409" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Consume &gt; Unspecified" target="Contact &gt; Contact &gt; Unspecified" id="410" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Broadcast" target="Movement &gt; Transportation &gt; IllegalTransportation" id="411" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Broadcast" target="Conflict &gt; Attack &gt; DetonateExplode" id="412" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Broadcast" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="413" weight="0.009433962264150943" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Broadcast" target="Contact &gt; Contact &gt; Broadcast" id="414" weight="0.009433962264150943" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Broadcast" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="415" weight="0.009433962264150943" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Broadcast" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="416" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Broadcast" target="Justice &gt; Convict &gt; Unspecified" id="417" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Broadcast" target="Life &gt; Injure &gt; Unspecified" id="418" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Broadcast" target="Conflict &gt; Attack &gt; Unspecified" id="419" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; IllegalTransportation" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="420" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; IllegalTransportation" target="Conflict &gt; Attack &gt; DetonateExplode" id="421" weight="0.009433962264150943" />
+      <edge source="Movement &gt; Transportation &gt; IllegalTransportation" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="422" weight="0.009433962264150943" />
+      <edge source="Movement &gt; Transportation &gt; IllegalTransportation" target="Conflict &gt; Defeat &gt; Unspecified" id="423" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; IllegalTransportation" target="ManufactureAssemble &gt; Unspecified &gt; Unspecified" id="424" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Broadcast" target="Movement &gt; Transportation &gt; Evacuation" id="425" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Broadcast" target="Transaction &gt; Donation &gt; Unspecified" id="426" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Broadcast" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="427" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Broadcast" target="Contact" id="428" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" target="Movement &gt; Transportation &gt; PreventPassage" id="429" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" target="Conflict &gt; Attack &gt; DetonateExplode" id="430" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="431" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" target="Contact &gt; Unspecified" id="432" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" target="Control &gt; ImpedeInterfereWith" id="433" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Unspecified" target="Justice &gt; ArrestJailDetain &gt; Unspecified" id="434" weight="0.009433962264150943" />
+      <edge source="Contact &gt; RequestCommand &gt; Unspecified" target="Contact &gt; Prevarication &gt; Broadcast" id="435" weight="0.009433962264150943" />
+      <edge source="Contact &gt; RequestCommand &gt; Unspecified" target="Transaction &gt; ExchangeBuySell &gt; Unspecified" id="436" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Unspecified" target="Justice &gt; ChargeIndict &gt; Unspecified" id="437" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="438" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="439" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Unspecified" target="Medical &gt; Intervention &gt; Unspecified" id="440" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Unspecified" target="Movement &gt; Transportation &gt; Unspecified" id="441" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Unspecified" target="Justice &gt; InvestigateCrime &gt; Unspecified" id="442" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Unspecified" target="Contact &gt; Contact &gt; Meet" id="443" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="444" weight="0.009433962264150943" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="445" weight="0.014150943396226415" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Justice &gt; ReleaseParole &gt; Unspecified" id="446" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="447" weight="0.009433962264150943" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Movement &gt; Transportation &gt; Unspecified" id="448" weight="0.009433962264150943" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="449" weight="0.014150943396226415" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Life &gt; Die &gt; Unspecified" id="450" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Contact &gt; Contact &gt; Broadcast" id="451" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="452" weight="0.009433962264150943" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Movement &gt; Transportation &gt; Evacuation" id="453" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Justice &gt; TrialHearing &gt; Unspecified" id="454" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Justice &gt; InvestigateCrime &gt; Unspecified" id="455" weight="0.009433962264150943" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Contact &gt; Unspecified" id="456" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Movement &gt; Transportation &gt; IllegalTransportation" id="457" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="458" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ArrestJailDetain &gt; Unspecified" target="Contact &gt; Prevarication &gt; Broadcast" id="459" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ReleaseParole &gt; Unspecified" target="Transaction &gt; ExchangeBuySell &gt; Unspecified" id="460" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ReleaseParole &gt; Unspecified" target="Justice &gt; Sentence &gt; Unspecified" id="461" weight="0.009433962264150943" />
+      <edge source="Justice &gt; ReleaseParole &gt; Unspecified" target="Contact &gt; Prevarication &gt; Unspecified" id="462" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="463" weight="0.0330188679245283" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="464" weight="0.04245283018867924" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="465" weight="0.02358490566037736" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Conflict &gt; Attack &gt; DetonateExplode" id="466" weight="0.014150943396226415" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Contact &gt; Prevarication &gt; Unspecified" id="467" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Transaction &gt; AidBetweenGovernments &gt; Unspecified" id="468" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Justice &gt; ReleaseParole &gt; Unspecified" id="469" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Contact &gt; Contact &gt; Broadcast" id="470" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" id="471" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Life &gt; Die &gt; Unspecified" id="472" weight="0.014150943396226415" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Contact &gt; ThreatenCoerce &gt; Meet" id="473" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Cognitive &gt; Research &gt; Unspecified" id="474" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Conflict &gt; Attack &gt; Unspecified" id="475" weight="0.018867924528301886" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Transaction &gt; Donation &gt; Unspecified" id="476" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Contact &gt; RequestCommand &gt; Broadcast" id="477" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Justice &gt; ArrestJailDetain &gt; Unspecified" id="478" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Contact &gt; Contact &gt; Meet" id="479" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Justice &gt; Acquit &gt; Unspecified" id="480" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Conflict &gt; Unspecified" id="481" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Unspecified" id="482" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Medical &gt; Intervention &gt; Unspecified" id="483" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; Evacuation" target="Contact &gt; Contact &gt; Correspondence" id="484" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Injure &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="485" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Injure &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="486" weight="0.014150943396226415" />
+      <edge source="Life &gt; Injure &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="487" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Injure &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="488" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Injure &gt; Unspecified" target="Contact &gt; Contact &gt; Meet" id="489" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Injure &gt; Unspecified" target="Movement &gt; Transportation &gt; Evacuation" id="490" weight="0.009433962264150943" />
+      <edge source="Life &gt; Injure &gt; Unspecified" target="Contact &gt; Contact &gt; Unspecified" id="491" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Meet" target="Movement &gt; Transportation &gt; Evacuation" id="492" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication &gt; Meet" target="Conflict &gt; Attack &gt; Unspecified" id="493" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; AidBetweenGovernments &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="494" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; AidBetweenGovernments &gt; Unspecified" target="Contact &gt; Contact &gt; Correspondence" id="495" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; AidBetweenGovernments &gt; Unspecified" target="Movement &gt; Transportation &gt; Unspecified" id="496" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; PreventPassage" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="497" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; PreventPassage" target="Conflict &gt; Attack &gt; DetonateExplode" id="498" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="499" weight="0.009433962264150943" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="500" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Unspecified" target="Contact &gt; Unspecified" id="501" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Unspecified" target="Conflict &gt; Demonstrate" id="502" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Unspecified" target="Life &gt; Injure &gt; Unspecified" id="503" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Personnel &gt; StartPosition &gt; Unspecified" id="504" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Conflict &gt; Attack &gt; Unspecified" id="505" weight="0.018867924528301886" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="506" weight="0.014150943396226415" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="507" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="508" weight="0.018867924528301886" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Contact &gt; RequestCommand &gt; Meet" id="509" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Cognitive &gt; Research &gt; Unspecified" id="510" weight="0.02830188679245283" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Life &gt; Injure &gt; Unspecified" id="511" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Movement &gt; Transportation &gt; Evacuation" id="512" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="ArtifactExistence &gt; ManufactureAssemble &gt; Unspecified" id="513" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Movement &gt; Transportation &gt; Unspecified" id="514" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Life &gt; Die &gt; Unspecified" id="515" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Contact &gt; Prevarication &gt; Unspecified" id="516" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Conflict &gt; Demonstrate &gt; Unspecified" id="517" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Contact &gt; Prevarication &gt; Meet" id="518" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Conflict &gt; Demonstrate" id="519" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Cognitive &gt; IdentifyCategorize" id="520" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact &gt; Meet" target="Life &gt; Consume" id="521" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Correspondence" target="Contact &gt; Contact &gt; Unspecified" id="522" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Correspondence" target="Contact &gt; Prevarication &gt; Unspecified" id="523" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Correspondence" target="Movement &gt; Transportation &gt; Evacuation" id="524" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation &gt; GrantAllowPassage" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="525" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; TrialHearing &gt; Unspecified" target="Justice &gt; Convict &gt; Unspecified" id="526" weight="0.014150943396226415" />
+      <edge source="Justice &gt; TrialHearing &gt; Unspecified" target="Justice &gt; Acquit &gt; Unspecified" id="527" weight="0.009433962264150943" />
+      <edge source="Justice &gt; TrialHearing &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="528" weight="0.014150943396226415" />
+      <edge source="Justice &gt; TrialHearing &gt; Unspecified" target="Justice &gt; Sentence &gt; Unspecified" id="529" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; TrialHearing &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="530" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; TrialHearing &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="531" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; TrialHearing &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="532" weight="0.009433962264150943" />
+      <edge source="Justice &gt; TrialHearing &gt; Unspecified" target="Justice &gt; ReleaseParole &gt; Unspecified" id="533" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; TrialHearing &gt; Unspecified" target="Contact &gt; Prevarication &gt; Broadcast" id="534" weight="0.0047169811320754715" />
+      <edge source="Disaster &gt; Crash &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="535" weight="0.0047169811320754715" />
+      <edge source="Personnel &gt; ChangePosition &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="536" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Illness &gt; Unspecified" target="Movement &gt; Transportation &gt; Unspecified" id="537" weight="0.009433962264150943" />
+      <edge source="Medical &gt; Diagnosis &gt; Unspecified" target="Life &gt; Illness &gt; Unspecified" id="538" weight="0.0047169811320754715" />
+      <edge source="Medical &gt; Diagnosis &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="539" weight="0.0047169811320754715" />
+      <edge source="Medical &gt; Diagnosis &gt; Unspecified" target="Medical &gt; Intervention &gt; Unspecified" id="540" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Demonstrate &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="541" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Demonstrate &gt; Unspecified" target="Contact &gt; Contact &gt; Meet" id="542" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Demonstrate &gt; Unspecified" target="Contact &gt; RequestCommand" id="543" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Demonstrate &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="544" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Demonstrate &gt; Unspecified" target="Contact &gt; Unspecified" id="545" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Demonstrate &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="546" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Demonstrate &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="547" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Demonstrate &gt; Unspecified" target="Contact &gt; Contact &gt; Correspondence" id="548" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Demonstrate &gt; Unspecified" target="Transaction &gt; Donation &gt; Unspecified" id="549" weight="0.0047169811320754715" />
+      <edge source="Medical &gt; Intervention &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="550" weight="0.009433962264150943" />
+      <edge source="Medical &gt; Intervention &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="551" weight="0.0047169811320754715" />
+      <edge source="Medical &gt; Intervention &gt; Unspecified" target="Contact &gt; Contact &gt; Broadcast" id="552" weight="0.0047169811320754715" />
+      <edge source="Medical &gt; Intervention &gt; Unspecified" target="Conflict &gt; Defeat &gt; Unspecified" id="553" weight="0.0047169811320754715" />
+      <edge source="Medical &gt; Intervention &gt; Unspecified" target="Life &gt; Die &gt; Unspecified" id="554" weight="0.0047169811320754715" />
+      <edge source="Medical &gt; Intervention &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" id="555" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Meet" target="Contact &gt; RequestCommand &gt; Meet" id="556" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Meet" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="557" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Meet" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="558" weight="0.014150943396226415" />
+      <edge source="Contact &gt; RequestCommand &gt; Meet" target="Transaction &gt; ExchangeBuySell &gt; Unspecified" id="559" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand &gt; Meet" target="Life &gt; Injure &gt; Unspecified" id="560" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="561" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Unspecified" target="Contact &gt; Prevarication &gt; Broadcast" id="562" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; ThreatenCoerce &gt; Unspecified" target="Justice &gt; ArrestJailDetain &gt; Unspecified" id="563" weight="0.0047169811320754715" />
+      <edge source="Personnel &gt; ChangePosition &gt; Lateral" target="Cognitive &gt; Research &gt; Unspecified" id="564" weight="0.0047169811320754715" />
+      <edge source="Personnel &gt; ChangePosition &gt; Lateral" target="Conflict &gt; Attack &gt; Unspecified" id="565" weight="0.0047169811320754715" />
+      <edge source="Disaster &gt; FireExplosion &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="566" weight="0.0047169811320754715" />
+      <edge source="Disaster &gt; FireExplosion &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="567" weight="0.0047169811320754715" />
+      <edge source="Disaster &gt; FireExplosion &gt; Unspecified" target="Contact &gt; RequestCommand &gt; Meet" id="568" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack" target="Cognitive &gt; Inspection" id="569" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack" target="Contact &gt; RequestCommand" id="570" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack" target="Conflict &gt; Demonstrate" id="571" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Attack" target="DamageDestroyDisableDismantle" id="572" weight="0.018867924528301886" />
+      <edge source="Conflict &gt; Attack" target="Transaction &gt; Donation" id="573" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack" target="Cognitive &gt; Research" id="574" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack" target="Cognitive &gt; IdentifyCategorize" id="575" weight="0.018867924528301886" />
+      <edge source="Conflict &gt; Attack" target="Life &gt; Die" id="576" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Attack" target="Medical &gt; Intervention" id="577" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack" target="Contact &gt; ThreatenCoerce" id="578" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Attack" target="Contact &gt; Contact" id="579" weight="0.014150943396226415" />
+      <edge source="Conflict &gt; Attack" target="Life &gt; Injure" id="580" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack" target="Conflict &gt; Defeat" id="581" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack" target="Justice &gt; Convict" id="582" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack" target="ArtifactExistence &gt; DamageDestroyDisableDismantle" id="583" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Attack" target="Justice &gt; ArrestJailDetain" id="584" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Attack" target="Justice &gt; Sentence" id="585" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection" target="Contact &gt; Prevarication" id="586" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection" target="Conflict &gt; Attack" id="587" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; Inspection" target="Cognitive &gt; Research" id="588" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; Inspection" target="Movement &gt; Transportation" id="589" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection" target="ArtifactExistence &gt; DamageDestroyDisableDismantle" id="590" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection" target="Contact" id="591" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Inspection" target="Cognitive &gt; IdentifyCategorize" id="592" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication" target="Cognitive &gt; Research" id="593" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Prevarication" target="ArtifactExistence &gt; ManufactureAssemble" id="594" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication" target="Justice &gt; Convict &gt; Unspecified" id="595" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication" target="Conflict &gt; Demonstrate &gt; Unspecified" id="596" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication" target="Cognitive &gt; IdentifyCategorize" id="597" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication" target="ArtifactExistence &gt; DamageDestroyDisableDismantle" id="598" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Prevarication" target="Contact &gt; Contact" id="599" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Prevarication" target="Medical &gt; Intervention" id="600" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Research" target="Contact &gt; RequestCommand" id="601" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; Research" target="Cognitive &gt; IdentifyCategorize" id="602" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Research" target="Cognitive &gt; Inspection" id="603" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; Research" target="Life &gt; Injure" id="604" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; Research" target="Conflict" id="605" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand" target="Contact &gt; Contact" id="606" weight="0.009433962264150943" />
+      <edge source="Contact &gt; RequestCommand" target="Control &gt; ImpedeInterfereWith" id="607" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand" target="Movement &gt; Transportation" id="608" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand" target="Cognitive &gt; IdentifyCategorize" id="609" weight="0.009433962264150943" />
+      <edge source="Contact &gt; RequestCommand" target="Cognitive &gt; TeachingTrainingLearning" id="610" weight="0.009433962264150943" />
+      <edge source="Contact &gt; RequestCommand" target="Contact &gt; ThreatenCoerce" id="611" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; RequestCommand" target="Conflict &gt; Demonstrate" id="612" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact" target="Cognitive &gt; IdentifyCategorize" id="613" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact" target="Cognitive &gt; Inspection" id="614" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact" target="Conflict &gt; Demonstrate" id="615" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact" target="Justice &gt; ArrestJailDetain" id="616" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact" target="Conflict &gt; Attack" id="617" weight="0.009433962264150943" />
+      <edge source="Contact &gt; Contact" target="Personnel &gt; ChangePosition" id="618" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Contact" target="Movement &gt; Transportation" id="619" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation" target="ArtifactExistence &gt; DamageDestroyDisableDismantle" id="620" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation" target="Cognitive &gt; TeachingTrainingLearning" id="621" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation" target="Personnel &gt; ChangePosition" id="622" weight="0.0047169811320754715" />
+      <edge source="Movement &gt; Transportation" target="Cognitive &gt; IdentifyCategorize" id="623" weight="0.009433962264150943" />
+      <edge source="Movement &gt; Transportation" target="Conflict &gt; Attack" id="624" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle" target="Cognitive &gt; IdentifyCategorize" id="625" weight="0.014150943396226415" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle" target="Life &gt; Die" id="626" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle" target="Contact &gt; Contact" id="627" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle" target="Contact &gt; Prevarication" id="628" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle" target="Conflict &gt; Attack" id="629" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="Contact &gt; Prevarication" id="630" weight="0.018867924528301886" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="Contact &gt; Contact" id="631" weight="0.014150943396226415" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="Cognitive &gt; TeachingTrainingLearning" id="632" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="Conflict &gt; Attack" id="633" weight="0.02358490566037736" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="Justice &gt; InvestigateCrime" id="634" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="Conflict &gt; Demonstrate &gt; Unspecified" id="635" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="ArtifactExistence &gt; ManufactureAssemble" id="636" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="Cognitive &gt; Inspection" id="637" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="Contact &gt; RequestCommand" id="638" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="Cognitive &gt; Research" id="639" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="Conflict" id="640" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="Conflict &gt; Defeat" id="641" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; IdentifyCategorize" target="Conflict &gt; Attack &gt; Unspecified" id="642" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; ManufactureAssemble" target="Cognitive &gt; Inspection" id="643" weight="0.009433962264150943" />
+      <edge source="ArtifactExistence &gt; ManufactureAssemble" target="Contact &gt; Contact" id="644" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Demonstrate" target="Conflict &gt; Defeat" id="645" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Demonstrate" target="Movement &gt; Transportation" id="646" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Demonstrate" target="Cognitive &gt; TeachingTrainingLearning" id="647" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Demonstrate" target="Conflict &gt; Attack" id="648" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat" target="Contact &gt; Prevarication" id="649" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat" target="Movement &gt; Transportation" id="650" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat" target="ArtifactExistence &gt; DamageDestroyDisableDismantle" id="651" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat" target="Cognitive &gt; IdentifyCategorize" id="652" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Defeat" target="Conflict &gt; Attack" id="653" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Unspecified" target="Contact &gt; Prevarication &gt; Meet" id="654" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="655" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" id="656" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Unspecified" target="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Unspecified" id="657" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; Unspecified" id="658" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; Unspecified" target="Cognitive &gt; TeachingTrainingLearning &gt; Unspecified" id="659" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Unspecified" target="Contact &gt; Prevarication &gt; Unspecified" id="660" weight="0.0047169811320754715" />
+      <edge source="Conflict &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="661" weight="0.009433962264150943" />
+      <edge source="Conflict &gt; Unspecified" target="Conflict &gt; Demonstrate &gt; DemonstrateWithViolence" id="662" weight="0.0047169811320754715" />
+      <edge source="Contact" target="Life" id="663" weight="0.0047169811320754715" />
+      <edge source="Contact" target="Cognitive &gt; IdentifyCategorize" id="664" weight="0.0047169811320754715" />
+      <edge source="DamageDestroyDisableDismantle" target="Life" id="665" weight="0.009433962264150943" />
+      <edge source="Life" target="Control" id="666" weight="0.0047169811320754715" />
+      <edge source="Control" target="Contact" id="667" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence" target="Conflict &gt; Attack" id="668" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Unspecified" target="Justice &gt; InvestigateCrime &gt; Unspecified" id="669" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; TeachingTrainingLearning" target="Contact &gt; RequestCommand" id="670" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; TeachingTrainingLearning" target="Movement &gt; Transportation" id="671" weight="0.009433962264150943" />
+      <edge source="Cognitive &gt; TeachingTrainingLearning" target="Personnel &gt; ChangePosition" id="672" weight="0.0047169811320754715" />
+      <edge source="Cognitive &gt; TeachingTrainingLearning" target="Conflict &gt; Attack" id="673" weight="0.0047169811320754715" />
+      <edge source="Personnel &gt; ChangePosition" target="Contact &gt; RequestCommand" id="674" weight="0.0047169811320754715" />
+      <edge source="Personnel &gt; ChangePosition" target="Conflict &gt; Attack" id="675" weight="0.0047169811320754715" />
+      <edge source="Personnel &gt; ChangePosition" target="Cognitive &gt; Research &gt; Unspecified" id="676" weight="0.0047169811320754715" />
+      <edge source="Personnel &gt; ChangePosition" target="Contact &gt; RequestCommand &gt; Unspecified" id="677" weight="0.0047169811320754715" />
+      <edge source="Transaction &gt; Donation" target="Movement &gt; Transportation" id="678" weight="0.0047169811320754715" />
+      <edge source="Conflict" target="Conflict &gt; Attack &gt; Unspecified" id="679" weight="0.018867924528301886" />
+      <edge source="Conflict" target="Conflict &gt; Attack &gt; DetonateExplode" id="680" weight="0.009433962264150943" />
+      <edge source="Conflict" target="Conflict &gt; Defeat &gt; Unspecified" id="681" weight="0.0047169811320754715" />
+      <edge source="Conflict" target="Conflict &gt; Attack" id="682" weight="0.0047169811320754715" />
+      <edge source="Conflict" target="Cognitive &gt; Inspection" id="683" weight="0.0047169811320754715" />
+      <edge source="Life &gt; Die" target="Conflict &gt; Attack" id="684" weight="0.009433962264150943" />
+      <edge source="Justice &gt; InvestigateCrime" target="Contact &gt; Prevarication &gt; Correspondence" id="685" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; InvestigateCrime" target="Contact &gt; Contact &gt; Meet" id="686" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ArrestJailDetain" target="Cognitive &gt; IdentifyCategorize" id="687" weight="0.009433962264150943" />
+      <edge source="Justice &gt; ArrestJailDetain" target="Contact &gt; Prevarication" id="688" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; ThreatenCoerce" target="Conflict &gt; Attack" id="689" weight="0.009433962264150943" />
+      <edge source="Justice &gt; TrialHearing" target="Contact" id="690" weight="0.009433962264150943" />
+      <edge source="Medical &gt; Intervention" target="Cognitive &gt; Inspection" id="691" weight="0.0047169811320754715" />
+      <edge source="DamageDestroyDisableDismantle &gt; DisableDefuse &gt; Unspecified" target="Contact &gt; RequestCommand" id="692" weight="0.0047169811320754715" />
+      <edge source="Contact &gt; SensoryObserve" target="Conflict &gt; Defeat &gt; Unspecified" id="693" weight="0.0047169811320754715" />
+      <edge source="ManufactureAssemble &gt; Unspecified &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="694" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Convict" target="Justice &gt; Acquit" id="695" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Convict" target="Justice &gt; ChargeIndict" id="696" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Acquit" target="Justice &gt; TrialHearing" id="697" weight="0.0047169811320754715" />
+      <edge source="ArtifactExistence &gt; DamageDestroyDisableDismantle &gt; Dismantle" target="Conflict &gt; Attack &gt; Unspecified" id="698" weight="0.0047169811320754715" />
+      <edge source="DamageDestroyDisableDismantle &gt; Destroy &gt; Unspecified" target="Medical &gt; Intervention &gt; Unspecified" id="699" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; ChargeIndict" target="Conflict &gt; Attack" id="700" weight="0.0047169811320754715" />
+      <edge source="Justice &gt; Sentence" target="Conflict &gt; Attack" id="701" weight="0.0047169811320754715" />
+    </edges>
+  </graph>
+</gexf>

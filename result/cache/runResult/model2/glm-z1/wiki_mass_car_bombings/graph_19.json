@@ -1,0 +1,192 @@
+{
+  "nodes": [
+    {
+      "id": "text_19_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年4月19日， Oklahoma City联邦大楼遭卡车炸弹袭击，造成168人死亡",
+      "support_text": "a 4,000-pound truck bomb ripped open the Alfred P. Murrah Federal Building, killing 168 people",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_2",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "1997年6月，同案犯Timothy McVeigh因11项罪名被判死刑",
+      "support_text": "In June, Nichols's Army buddy Timothy J. McVeigh... sentenced to death",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_3",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "1997年12月29日，Terry Nichols量刑阶段庭审开始，由匿名陪审团重新审理",
+      "support_text": "Prosecutors Seek Death For Nichols By Lois Romano... penalty phase of the trial",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "陪审团在先前审判中做出矛盾裁决：有罪于共谋但无罪于8名执法人员死亡",
+      "support_text": "The anonymous jury... acquitted Nichols of first-degree murder in the deaths of eight law enforcement officials",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "量刑阶段证人出庭，受害者家属描述爆炸创伤与生活影响",
+      "support_text": "Several jurors wept as mothers and sons... described in gut-wrenching detail the devastation",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "检察官Patrick Ryan强调Nichols预谋性并列举19名儿童受害者姓名",
+      "support_text": "Patrick Ryan... recited the names of the 19 young children killed",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "辩护律师Michael Tigar举证Nichols狱中育儿行为并质疑其主观恶意",
+      "support_text": "Tigar told jurors how Nichols has spent the past 32 months... greeting cards for them",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "陪审团成员在先前遴选时表达对死刑的保留态度",
+      "support_text": "A school bus driver who sits on the jury also seemed uneasy... open-minded",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "陪审团在量刑阶段被说服接受对尼科尔斯的死刑判决",
+      "support_text": "convince陪审团接受处决",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "陪审团正式判处尼科尔斯死刑",
+      "support_text": "陪审团处决尼科尔斯",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Terry L. Nichols密谋炸毁俄克拉荷马联邦大楼",
+      "support_text": "尼科尔斯密谋炸毁俄克拉荷马联邦大楼",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_12",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "律师Tigar反驳陪审团提出的承诺",
+      "support_text": "律师Tigar反驳陪审团提出的承诺",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "尼科尔斯紧绷下巴",
+      "support_text": "尼科尔斯紧绷下巴",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "尼科尔斯强忍泪水",
+      "support_text": "尼科尔斯强忍泪水",
+      "source_text": "text_19"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_19_node_1",
+      "target": "text_19_node_2",
+      "relation": "before",
+      "support_text": "Timothy McVeigh, who detonated the truck bomb... while Nichols was at home"
+    },
+    {
+      "source": "text_19_node_2",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "In June... sentenced to death. In Nichols's case... penalty phase"
+    },
+    {
+      "source": "text_19_node_3",
+      "target": "text_19_node_4",
+      "relation": "before",
+      "support_text": "the anonymous jury... last Tuesday convicted Nichols of conspiracy"
+    },
+    {
+      "source": "text_19_node_3",
+      "target": "text_19_node_5",
+      "relation": "before",
+      "support_text": "Prosecutors Seek Death For Nichols... began its high-stakes effort"
+    },
+    {
+      "source": "text_19_node_3",
+      "target": "text_19_node_6",
+      "relation": "before",
+      "support_text": "Prosecutor Patrick Ryan... implored jurors to condemn Nichols"
+    },
+    {
+      "source": "text_19_node_3",
+      "target": "text_19_node_7",
+      "relation": "before",
+      "support_text": "Nichols's chief attorney, Michael Tigar... opening statement for this penalty phase"
+    },
+    {
+      "source": "text_19_node_3",
+      "target": "text_19_node_9",
+      "relation": "before",
+      "support_text": "convince陪审团接受处决"
+    },
+    {
+      "source": "text_19_node_8",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "A school bus driver who sits on the jury... open-minded"
+    },
+    {
+      "source": "text_19_node_9",
+      "target": "text_19_node_10",
+      "relation": "before",
+      "support_text": "陪审团处决尼科尔斯"
+    },
+    {
+      "source": "text_19_node_11",
+      "target": "text_19_node_1",
+      "relation": "before",
+      "support_text": "尼科尔斯密谋炸毁俄克拉荷马联邦大楼"
+    }
+  ]
+}

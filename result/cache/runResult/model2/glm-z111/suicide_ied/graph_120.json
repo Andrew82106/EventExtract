@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "text_120_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2003年8月19日联合国总部在巴格达遭自杀式袭击，21名工作人员死亡，包括秘书长助理维埃拉·德梅洛",
+      "support_text": "The top UN envoy Sergio Vieira de Mello was killed along with 21 others and within weeks, most of the 600 UN staff were withdrawn from Iraq.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "联合国于2003年底因安全威胁从巴格达撤离绝大多数600名工作人员",
+      "support_text": "four years ago, in the wake of a massive attack on its headquarters.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊拉克驻联合国大使巴亚提强调联合国需发挥关键作用，呼吁特使具备足够权威",
+      "support_text": "We are aware that these challenges should be addressed by the government and the people of Iraq, but we cannot achieve it without the assistance of the international community, represented by the United Nations.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "安理会投票前一天的2007年3月修订草案，伊拉克删除涉及武装冲突的表述，强调保护平民",
+      "support_text": "The vote had been delayed by a day to allow the Iraqis to make revisions to the draft. The final text puts more focus on Iraqi sovereignty, human rights and humanitarian issues.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国驻联合国大使卡里法兹重申将保障联合国在伊安全，承诺满足安保需求",
+      "support_text": "Mr Khalilzad says the US will play its part in protecting the UN In the day preceding the US invasion of Iraq, President George W Bush had predicted that the UN would meet the fate of the now defunct League of Nations, if it did not help confront Saddam Hussein.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国安全措施从2003年后的常规升级演变为2007年更严格的安保方案",
+      "support_text": "Since that time, we have had to go to quite regular and quite stringent security methods to protect our people.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国员工工会公开反对重返巴格达，要求确保安全前提下的自愿派驻",
+      "support_text": "We would love to help the people of Iraq but the situation is not ready. UN staffers, when they go to a mission they mingle with the people to find out what their needs are, but at the moment we cannot do that.",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_8",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "工作人员数量从65增至95",
+      "support_text": "工作人员数量从65增至95",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克人声明新的表述替代原有内容",
+      "support_text": "the Iraqis declared a revised text to replace the original content",
+      "source_text": "text_120"
+    },
+    {
+      "id": "text_120_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国官员假设联合国旗帜能提供保护",
+      "support_text": "联合国官员假设联合国旗帜能提供保护",
+      "source_text": "text_120"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_120_node_1",
+      "target": "text_120_node_2",
+      "relation": "before",
+      "support_text": "four years ago, in the wake of a massive attack on its headquarters."
+    },
+    {
+      "source": "text_120_node_2",
+      "target": "text_120_node_6",
+      "relation": "before",
+      "support_text": "Since that time, we have had to go to quite regular and quite stringent security methods to protect our people."
+    },
+    {
+      "source": "text_120_node_4",
+      "target": "text_120_node_5",
+      "relation": "before",
+      "support_text": "The vote had been delayed by a day to allow the Iraqis to make revisions to the draft. The final text puts more focus on Iraqi sovereignty, human rights and humanitarian issues."
+    },
+    {
+      "source": "text_120_node_4",
+      "target": "text_120_node_9",
+      "relation": "before",
+      "support_text": "伊拉克在安理会投票前一天的2007年3月修订草案后提出新表述"
+    },
+    {
+      "source": "text_120_node_5",
+      "target": "text_120_node_6",
+      "relation": "before",
+      "support_text": "Mr Khalilzad says the US will play its part in protecting the UN In the day preceding the US invasion of Iraq, President George W Bush had predicted that the UN would meet the fate of the now defunct League of Nations, if it did not help confront Saddam Hussein."
+    },
+    {
+      "source": "text_120_node_6",
+      "target": "text_120_node_7",
+      "relation": "before",
+      "support_text": "We would love to help the people of Iraq but the situation is not ready. UN staffers, when they go to a mission they mingle with the people to find out what their needs are, but at the moment we cannot do that."
+    }
+  ]
+}

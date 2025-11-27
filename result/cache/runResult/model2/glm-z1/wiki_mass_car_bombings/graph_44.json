@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "text_44_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "88人死于 volleyball 比赛现场自杀式爆炸，42人受伤",
+      "support_text": "At least 88 people have been killed after a suspected suicide bomb attack at a volleyball match.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致房屋倒塌，部分人员被困瓦砾下",
+      "support_text": "It is understood some people were trapped under rubble after a house collapsed.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方确认袭击为塔利班关联势力所为，但具体过程尚无定论",
+      "support_text": "Local police have said 42 people were wounded. It is understood some people were trapped under rubble after a house collapsed.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者称袭击者驾车冲入场地自爆",
+      "support_text": "Eye witnesses say they saw the bomber drive a vehicle onto the playing field and blow himself up.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生时现场有青少年、老年人及儿童等观众",
+      "support_text": "The bomber struck as young men in a village near the town of Lakki Marwat were playing volleyball in front of a crowd of spectators, including elderly residents and children.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击与当天巴基斯坦反暴力抗议活动同步发生",
+      "support_text": "The bombing has occurred on a day of protests against violence in Pakistan.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡拉奇因宗教集会自杀式爆炸（43人死亡）引发全城罢工",
+      "support_text": "Pakistan's commercial capital Karachi nearly shut down as religious and political leaders called for a strike to denounce bloodshed after a suicide bomber killed 43 people at a religious procession this week.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡拉奇证券交易所因罢工关闭，街道近乎空无一空",
+      "support_text": "Karachi's streets were nearly empty today. The stock exchange, which normally operates on the first day of the year, was closed.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部长称极端分子是巴基斯坦和伊斯兰教的敌人",
+      "support_text": "Interior Minister Rehman Malik said militant groups were harming Pakistan. 'They are hired assassins. They are enemies of Pakistan. They are enemies of Islam,' he told reporters.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班在阿富汗边境至城市扩大暴力活动范围，包括军事机构周边",
+      "support_text": "an attack on a mosque near the headquarters of the powerful military.",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子试图推翻政府",
+      "support_text": "语义描述：武装分子试图推翻政府",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子推行其品牌伊斯兰教",
+      "support_text": "语义描述：武装分子推行其品牌伊斯兰教",
+      "source_text": "text_44"
+    },
+    {
+      "id": "text_44_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡拉奇大屠杀展示其势力范围扩大",
+      "support_text": "语义描述：卡拉奇大屠杀展示其势力范围扩大",
+      "source_text": "text_44"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_44_node_3",
+      "target": "text_44_node_2",
+      "relation": "before",
+      "support_text": "Local police have said 42 people were wounded. It is understood some people were trapped under rubble after a house collapsed."
+    },
+    {
+      "source": "text_44_node_4",
+      "target": "text_44_node_1",
+      "relation": "before",
+      "support_text": "Eye witnesses say they saw the bomber drive a vehicle onto the playing field and blow himself up."
+    },
+    {
+      "source": "text_44_node_5",
+      "target": "text_44_node_1",
+      "relation": "before",
+      "support_text": "The bomber struck as young men... were playing volleyball in front of a crowd of spectators."
+    },
+    {
+      "source": "text_44_node_6",
+      "target": "text_44_node_7",
+      "relation": "before",
+      "support_text": "The bombing has occurred on a day of protests against violence in Pakistan."
+    },
+    {
+      "source": "text_44_node_7",
+      "target": "text_44_node_8",
+      "relation": "before",
+      "support_text": "Karachi's streets were nearly empty today. The stock exchange... was closed."
+    },
+    {
+      "source": "text_44_node_9",
+      "target": "text_44_node_7",
+      "relation": "before",
+      "support_text": "Interior Minister Rehman Malik said militant groups were harming Pakistan."
+    },
+    {
+      "source": "text_44_node_10",
+      "target": "text_44_node_7",
+      "relation": "before",
+      "support_text": "an attack on a mosque near the headquarters of the powerful military."
+    }
+  ]
+}

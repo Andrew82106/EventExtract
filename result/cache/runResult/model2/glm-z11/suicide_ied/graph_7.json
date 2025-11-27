@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "text_7_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "10:30GMT（4:30PM新加坡时间）伊斯坦布尔塔克西姆广场发生自杀式爆炸，冲击波导致周边办公楼窗户破裂",
+      "support_text": "A SUICIDE bomb ripped through crowds of shoppers and cafe-goers in the heart of Istanbul on Sunday, injuring 32 people as an extended unilateral ceasefire by the separatist PKK came to an end. The blast targetted riot police patrolling the busy Taksim Square in the centre of Turkey's economic capital, police chief Huseyin Capkin said.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸前自杀式袭击者试图进入巡逻警车但未成功，仅袭击者本人死亡",
+      "support_text": "'He tried to get into a police bus but didn't succeed,' he said.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "现场发现17名平民和15名警察受伤，总计32人受伤",
+      "support_text": "32 people had been injured in the blast, 17 civilians and 15 police officers.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯坦布尔警察局长确认系自杀袭击，并封锁现场实施警戒",
+      "support_text": "'We think it was a suicide attack,' he said. Turkish television showed footage of police taking away the lifeless body of a man from the scene, as well as dazed and injured people receiving first aid.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_5",
+      "event_type": "Medical",
+      "event_subtype": "Diagnosis",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其电视播放现场画面：警方抬走袭击者遗体，伤者接受急救",
+      "support_text": "Turkish television showed footage of police taking away the lifeless body of a man from the scene, as well as dazed and injured people receiving first aid.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯坦布尔省长公布伤亡数据，关闭Istiklal步行街等主要街道",
+      "support_text": "streets including the pedestrianised historic Istiklal were closed off, the CNN-Turk and NTV channels reported.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "埃尔多安总理在马丁省谴责袭击，重申反对任何破坏稳定的行为",
+      "support_text": "Prime Minister Recep Tayyip Erdogan condemned what he called a 'terrorist' attack during a tour of majority-Kurd southeastern Turkey.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部长表示尚无法确定袭击者身份，但指出PKK和极端左翼组织有类似历史记录",
+      "support_text": "Interior Minister Besir Atalay said it was too early to say who was behind the attack, but the separatist rebel Kurdistan Workers' Party (PKK) and extreme left-wing groups have carried out bomb attacks in the past in Istanbul.",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "停火协议结束",
+      "support_text": "unilateral ceasefire by the separatist PKK came to an end",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯坦布尔警察局长确认受伤者无危险，仅有的死亡是炸弹袭击者",
+      "support_text": "警察局长声明受伤者无危险，仅有的死亡是炸弹袭击者",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "警察和救护车匆忙赶往现场",
+      "support_text": "警察和救护车匆忙赶往现场",
+      "source_text": "text_7"
+    },
+    {
+      "id": "text_7_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察立即设置安全警戒线",
+      "support_text": "警察立即设置安全警戒线",
+      "source_text": "text_7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_4",
+      "relation": "before",
+      "support_text": "'We think it was a suicide attack,' he said."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_3",
+      "relation": "before",
+      "support_text": "32 people had been injured in the blast, 17 civilians and 15 police officers."
+    },
+    {
+      "source": "text_7_node_1",
+      "target": "text_7_node_10",
+      "relation": "before",
+      "support_text": "根据temporal_order 3的时序要求"
+    },
+    {
+      "source": "text_7_node_2",
+      "target": "text_7_node_1",
+      "relation": "before",
+      "support_text": "'He tried to get into a police bus but didn't succeed,' he said."
+    },
+    {
+      "source": "text_7_node_4",
+      "target": "text_7_node_5",
+      "relation": "before",
+      "support_text": "Turkish television showed footage of police taking away the lifeless body of a man from the scene..."
+    },
+    {
+      "source": "text_7_node_4",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "streets including the pedestrianised historic Istiklal were closed off..."
+    },
+    {
+      "source": "text_7_node_5",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "streets including the pedestrianised historic Istiklal were closed off..."
+    },
+    {
+      "source": "text_7_node_6",
+      "target": "text_7_node_7",
+      "relation": "before",
+      "support_text": "Prime Minister Recep Tayyip Erdogan condemned what he called a 'terrorist' attack..."
+    },
+    {
+      "source": "text_7_node_7",
+      "target": "text_7_node_8",
+      "relation": "before",
+      "support_text": "Interior Minister Besir Atalay said it was too early to say who was behind the attack..."
+    },
+    {
+      "source": "text_7_node_9",
+      "target": "text_7_node_1",
+      "relation": "before",
+      "support_text": "ceasefire ended before the suicide bomb attack"
+    },
+    {
+      "source": "text_7_node_12",
+      "target": "text_7_node_6",
+      "relation": "before",
+      "support_text": "根据temporal_order 1的时序要求"
+    }
+  ]
+}

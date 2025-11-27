@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    {
+      "id": "text_52_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "3月前帕拉奇纳尔市场发生爆炸致24人死亡、90人受伤",
+      "support_text": "Earlier in March, at least 24 people were killed and more than 90 injured in a bombing outside an imambargah located in a busy Parachinar market.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "本月早些时候奎达发生自杀式汽车炸弹袭击致13人死亡（含6名警察）",
+      "support_text": "Earlier in the day, a suicide car bomb blew up in Quetta and killed at least 13 people, including six policeman.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五帕拉奇纳尔Turi市场附近发生连环爆炸，首次爆炸后救援人员遇袭引发二次爆炸",
+      "support_text": "The back-to-back explosions occurred as people were busy shopping for Iftar and Eid in the Turi Bazaar area... The second explosion took place as people rushed to provide aid and rescue the wounded from the first explosion.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府最初确认爆炸造成45人死亡、300人受伤",
+      "support_text": "Political administration confirmed earlier that 45 people were killed and at least 300 were injured in the explosions.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地官员描述两次爆炸时间关联性，并预警死亡人数可能上升",
+      "support_text": "Local official Nasrullah Khan said the first blast detonated as the market was crowded with shoppers. 'When people rushed to the site... to rescue the wounded, a second blast took place,' he said, adding that officials fear the death toll would increase.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六早晨死亡人数升至72人，其中22人于周六上午死亡",
+      "support_text": "The death from Friday's twin blasts in Parachinar has soared to 72, rescue sources said, with over 300 others wounded. Among the injured, 22 passed away Saturday morning.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部门在袭击区域设立检查站并划定红色警戒区",
+      "support_text": "Shahid Turi, a local lawmaker from the area, also confirmed the death toll. 'The entire area has check posts set-up and the area is declared as a Red Zone. Turi market is a bit outside of the zone,' said Turi.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_8",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "医院报告20名重伤患者，启动紧急医疗响应",
+      "support_text": "Hospital officials confirmed that at least 20 of the wounded were in critical condition. 'Army helicopters dispatched' The Army has dispatched two helicopters to evacuate the injured to Peshawar, said a statement released from the Inter-Services Public Relations (ISPR).",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "军方派遣直升机将伤员转移至佩什瓦尔",
+      "support_text": "The Army has dispatched two helicopters to evacuate the injured to Peshawar, said a statement released from the Inter-Services Public Relations (ISPR).",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "救援行动包括伤员转运、现场警戒和嫌疑人搜捕",
+      "support_text": "Rescue services reached the spot of the explosions and started shifting the wounded to hospitals. A cordon was placed around the site of the attack and a search operation has been initiated in the area after the bombings.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "多国政要谴责袭击，称系针对穆斯林国家的恐怖行为",
+      "support_text": "Prime Minister Nawaz Sharif strongly condemned the terrorist attack in Parachinar... PTI Chairman Imran Khan also strongly condemned the twin blasts in Parachinar... Pakistan People's Party Chairman Bilawal Bhutto said his thoughts and prayers are for the bereaved families.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "巴基斯坦军方发布声明",
+      "support_text": "语义描述：巴基斯坦军方发布声明",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "军方媒体补充救援进展信息",
+      "support_text": "语义描述：军方媒体补充救援进展信息",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "军方及地方部队抵达袭击现场",
+      "support_text": "语义描述：军方及地方部队抵达袭击现场",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员在帕拉希纳尔的医院实施紧急状态",
+      "support_text": "官员在帕拉希纳尔的医院实施紧急状态",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "医院消息来源称已将20具尸体转移至当地医院",
+      "support_text": "医院消息来源称已将20具尸体转移至当地医院",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "医院消息来源称已将5具尸体转移至中央Imambargah",
+      "support_text": "医院消息来源称已将5具尸体转移至中央Imambargah",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "在爆炸区域启动搜索行动",
+      "support_text": "在爆炸区域启动搜索行动",
+      "source_text": "text_52"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_52_node_2",
+      "target": "text_52_node_3",
+      "relation": "before",
+      "support_text": "Earlier in the day, a suicide car bomb blew up in Quetta and killed at least 13 people, including six policeman."
+    },
+    {
+      "source": "text_52_node_3",
+      "target": "text_52_node_6",
+      "relation": "before",
+      "support_text": "The death from Friday's twin blasts in Parachinar has soared to 72, rescue sources said, with over 300 others wounded. Among the injured, 22 passed away Saturday morning."
+    },
+    {
+      "source": "text_52_node_3",
+      "target": "text_52_node_4",
+      "relation": "before",
+      "support_text": "Political administration confirmed earlier that 45 people were killed and at least 300 were injured in the explosions."
+    },
+    {
+      "source": "text_52_node_3",
+      "target": "text_52_node_5",
+      "relation": "before",
+      "support_text": "Local official Nasrullah Khan said the first blast detonated as the market was crowded with shoppers. 'When people rushed to the site... to rescue the wounded, a second blast took place,' he said, adding that officials fear the death toll would increase."
+    },
+    {
+      "source": "text_52_node_3",
+      "target": "text_52_node_7",
+      "relation": "before",
+      "support_text": "Shahid Turi, a local lawmaker from the area, also confirmed the death toll. 'The entire area has check posts set-up and the area is declared as a Red Zone. Turi market is a bit outside of the zone,' said Turi."
+    },
+    {
+      "source": "text_52_node_3",
+      "target": "text_52_node_11",
+      "relation": "before",
+      "support_text": "Prime Minister Nawaz Sharif strongly condemned the terrorist attack in Parachinar..."
+    },
+    {
+      "source": "text_52_node_3",
+      "target": "text_52_node_12",
+      "relation": "before",
+      "support_text": "语义描述：巴基斯坦军方发布声明"
+    },
+    {
+      "source": "text_52_node_4",
+      "target": "text_52_node_6",
+      "relation": "before",
+      "support_text": "The death from Friday's twin blasts in Parachinar has soared to 72, rescue sources said, with over 300 others wounded."
+    },
+    {
+      "source": "text_52_node_6",
+      "target": "text_52_node_8",
+      "relation": "before",
+      "support_text": "Hospital officials confirmed that at least 20 of the wounded were in critical condition."
+    },
+    {
+      "source": "text_52_node_8",
+      "target": "text_52_node_9",
+      "relation": "before",
+      "support_text": "The Army has dispatched two helicopters to evacuate the injured to Peshawar, said a statement released from the Inter-Services Public Relations (ISPR)."
+    },
+    {
+      "source": "text_52_node_9",
+      "target": "text_52_node_10",
+      "relation": "before",
+      "support_text": "Rescue services reached the spot of the explosions and started shifting the wounded to hospitals. A cordon was placed around the site of the attack and a search operation has been initiated in the area after the bombings."
+    },
+    {
+      "source": "text_52_node_12",
+      "target": "text_52_node_13",
+      "relation": "before",
+      "support_text": "语义描述：军方媒体补充救援进展信息"
+    },
+    {
+      "source": "text_52_node_13",
+      "target": "text_52_node_14",
+      "relation": "before",
+      "support_text": "语义描述：军方及地方部队抵达袭击现场"
+    },
+    {
+      "source": "text_52_node_15",
+      "target": "text_52_node_7",
+      "relation": "before",
+      "support_text": "官员在帕拉希纳尔的医院实施紧急状态"
+    },
+    {
+      "source": "text_52_node_16",
+      "target": "text_52_node_8",
+      "relation": "before",
+      "support_text": "医院消息来源称已将20具尸体转移至当地医院"
+    },
+    {
+      "source": "text_52_node_17",
+      "target": "text_52_node_9",
+      "relation": "before",
+      "support_text": "医院消息来源称已将5具尸体转移至中央Imambargah"
+    },
+    {
+      "source": "text_52_node_18",
+      "target": "text_52_node_10",
+      "relation": "before",
+      "support_text": "在爆炸区域启动搜索行动"
+    }
+  ]
+}

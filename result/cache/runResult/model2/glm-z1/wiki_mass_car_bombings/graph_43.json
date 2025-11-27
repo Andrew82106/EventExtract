@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "text_43_node_1",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年5月2日，俄罗斯联邦安全局通过哈萨克斯坦国家安全委员会在哈萨克斯坦阿斯塔纳逮捕恐怖分子Ziyavudinov",
+      "support_text": "during investigation operations against the organizers and perpetrators of the residential building explosions in Russian cities one more, sixth, participant of the terrorist act in the Dagestan city of Buinaksk was detained on May 2, 2001, in Almaty, Republic of Kazakhstan.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_2",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年5月23日，哈萨克斯坦根据引渡协议将Ziyavudinov移交俄罗斯",
+      "support_text": "After required legal actions under the operating interstate agreements, on May 23, 2001, the detainee was extradited from Kazakhstan to the Russian Federation",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2001年5月24日，Ziyavudinov被送往莫斯科列福托沃预审拘留中心供审讯",
+      "support_text": "on May 24, 2001, ... delivered to Lefortovo, a pre-trial detention center in Moscow",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ziyavudinov此前使用伪造证件试图在哈萨克斯坦合法化身份被识破",
+      "support_text": "Using forged documents under an assumed name, the terrorist tried to naturalize in Kazakhstan. His exact residence address was established by the Federal Security Service of Russia. Data on his whereabouts was then handed over to Kazakhstan's National Security Committee, whose officers did the arrest.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "移交关于Ziyavudinov行踪的数据给哈萨克斯坦国家安全委员会",
+      "support_text": "Data on his whereabouts was then handed over to Kazakhstan's National Security Committee, whose officers did the arrest.",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ziyavudinov作为被引渡人在法律程序中作证关于其犯罪参与",
+      "support_text": "该被引渡人在作证关于其犯罪参与",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院将五名同谋带到法庭受审",
+      "support_text": "法院将五名同谋带到法庭受审",
+      "source_text": "text_43"
+    },
+    {
+      "id": "text_43_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院判处五名同谋长期监禁",
+      "support_text": "法院判处五名同谋长期监禁",
+      "source_text": "text_43"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_43_node_1",
+      "target": "text_43_node_2",
+      "relation": "before",
+      "support_text": "After required legal actions under the operating interstate agreements, on May 23, 2001, the detainee was extradited from Kazakhstan to the Russian Federation"
+    },
+    {
+      "source": "text_43_node_2",
+      "target": "text_43_node_3",
+      "relation": "before",
+      "support_text": "on May 24, 2001, ... delivered to Lefortovo, a pre-trial detention center in Moscow"
+    },
+    {
+      "source": "text_43_node_2",
+      "target": "text_43_node_6",
+      "relation": "before",
+      "support_text": "在完成引渡程序后，Ziyavudinov在俄罗斯司法程序中作证"
+    },
+    {
+      "source": "text_43_node_2",
+      "target": "text_43_node_7",
+      "relation": "before",
+      "support_text": "引渡完成后法院将同谋带到法庭"
+    },
+    {
+      "source": "text_43_node_4",
+      "target": "text_43_node_1",
+      "relation": "before",
+      "support_text": "Using forged documents under an assumed name, the terrorist tried to naturalize in Kazakhstan. His exact residence address was established by the Federal Security Service of Russia. Data on his whereabouts was then handed over to Kazakhstan's National Security Committee, whose officers did the arrest."
+    },
+    {
+      "source": "text_43_node_4",
+      "target": "text_43_node_5",
+      "relation": "before",
+      "support_text": "在哈萨克斯坦合法化身份被识破后，俄罗斯联邦安全局将行踪数据移交哈萨克斯坦国家安全委员会"
+    },
+    {
+      "source": "text_43_node_7",
+      "target": "text_43_node_8",
+      "relation": "before",
+      "support_text": "判决前需完成庭审运输"
+    }
+  ]
+}

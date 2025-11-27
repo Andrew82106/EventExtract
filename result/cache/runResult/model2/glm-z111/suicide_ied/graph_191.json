@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "text_191_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1992年7月阿根廷以色列大使馆遭汽车炸弹袭击，造成29人死亡",
+      "support_text": "The 1992 bombing of the Israeli embassy in Buenos Aires, which killed 29 people, also remains unsolved.",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1994年7月18日阿根廷犹太社区中心AMIA遭大规模爆炸袭击，85人死亡300人受伤",
+      "support_text": "The blast, on 18 July 1994, reduced the seven-storey Jewish-Argentine Mutual Association (AMIA) community centre to rubble.",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷检方指控前伊朗总统拉夫桑贾尼等8人策划并指使黎巴嫩真主党实施AMIA袭击",
+      "support_text": "Argentine prosecutors are calling for the arrest of former Iranian President Hashemi Rafsanjani and seven others.",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗外交部将指控定性为'犹太复国主义阴谋'，同时否认参与并指责以色列在巴勒斯坦犯下暴行",
+      "support_text": "The Iranian foreign ministry described the move as 'a Zionist plot'.",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "真主党与伊朗均否认涉事，称1994年袭击系伊朗情报机构策划的恐怖行动",
+      "support_text": "Hezbollah and Iran both deny that they were involved in the blast.",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_6",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿根廷警方曾查获用于袭击的改装卡车，但相关嫌疑人未被定罪",
+      "support_text": "Minor figures have been named, including a policeman who sold the van used in the attack, but no-one has been convicted.",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年11月阿根廷检方披露FBI与阿根廷情报合作，指认已故黎巴嫩真主党成员伊布拉希姆·赫苏恩·伯罗为袭击策划者",
+      "support_text": "Last November, an Argentine prosecutor said a member of Hezbollah was behind the attack and had been identified in a joint operation by Argentine intelligence and the FBI.",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "真主党回应称伯罗早在1993年已死于与以色列的战斗，质疑阿根廷指控可信度",
+      "support_text": "Hezbollah said that the man, Ibrahim Hussein Berro, had died in southern Lebanon while fighting Israel.",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Hoseyni在电台发表讲话",
+      "support_text": "Hoseyni在电台发表讲话",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hoseyni发表声明指责犹太复国主义",
+      "support_text": "Hoseyni发表声明指责犹太复国主义",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "指控转移国际关注以掩盖罪行",
+      "support_text": "指控转移国际关注以掩盖罪行",
+      "source_text": "text_191"
+    },
+    {
+      "id": "text_191_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "案件被传闻标记",
+      "support_text": "案件被传闻标记",
+      "source_text": "text_191"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_191_node_1",
+      "target": "text_191_node_2",
+      "relation": "before",
+      "support_text": "The 1992 bombing... also remains unsolved."
+    },
+    {
+      "source": "text_191_node_2",
+      "target": "text_191_node_3",
+      "relation": "before",
+      "support_text": "Argentine prosecutors are calling for the arrest... 1994年7月18日"
+    },
+    {
+      "source": "text_191_node_3",
+      "target": "text_191_node_4",
+      "relation": "before",
+      "support_text": "The Iranian foreign ministry described the move as 'a Zionist plot'."
+    },
+    {
+      "source": "text_191_node_3",
+      "target": "text_191_node_5",
+      "relation": "before",
+      "support_text": "Hezbollah and Iran both deny that they were involved in the blast."
+    },
+    {
+      "source": "text_191_node_3",
+      "target": "text_191_node_6",
+      "relation": "before",
+      "support_text": "Minor figures have been named, including a policeman who sold the van used in the attack..."
+    },
+    {
+      "source": "text_191_node_7",
+      "target": "text_191_node_8",
+      "relation": "before",
+      "support_text": "Last November, an Argentine prosecutor said a member of Hezbollah was behind the attack..."
+    },
+    {
+      "source": "text_191_node_9",
+      "target": "text_191_node_3",
+      "relation": "before",
+      "support_text": "Hoseyni在电台发表讲话后引发国际关注"
+    },
+    {
+      "source": "text_191_node_10",
+      "target": "text_191_node_4",
+      "relation": "before",
+      "support_text": "Hoseyni声明后伊朗外交部定性指控"
+    },
+    {
+      "source": "text_191_node_11",
+      "target": "text_191_node_5",
+      "relation": "before",
+      "support_text": "指控转移国际关注后真主党否认"
+    },
+    {
+      "source": "text_191_node_12",
+      "target": "text_191_node_3",
+      "relation": "before",
+      "support_text": "案件被传闻标记后引发后续指控"
+    }
+  ]
+}

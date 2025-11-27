@@ -1,0 +1,300 @@
+{
+  "nodes": [
+    {
+      "id": "text_23_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年11月23日萨德尔城六个汽车炸弹袭击，造成超过200人死亡",
+      "support_text": "23 November 2006: More than 200 people killed as six car bombs detonate in the Sadr City neighbourhood of Baghdad",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2007年8月14日针对雅兹迪社区的自杀式爆炸，造成超过500人死亡",
+      "support_text": "14 August 2007: Multiple suicide bombings targeting the Yazidi community in northern Iraq kill more than 500 people",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年8月19日绿区附近两个汽车炸弹袭击，至少155人死亡",
+      "support_text": "19 August 2009: Two car bombs near the Green Zone in Baghdad kill at least 155 people",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年6月12日Camp Speicher大屠杀，1700名军事新兵被IS杀害",
+      "support_text": "12 June 2014: Up to 1,700 military recruits are killed by IS at a former US base, an incident known as the Camp Speicher massacre",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年8月14日IS在北纬省杀害数百名雅兹迪男子和男孩",
+      "support_text": "August 14, 2014: IS kill hundreds of minority Yazidi men and boys in Nineveh province, north-west of Baghdad",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年3月7日Karrada区IS使用新型混合化学炸弹袭击，造成292人死亡",
+      "support_text": "On 3 July, 292 Iraqis lost their lives here... This biggest single attack on civilians since the Iraq war of 2003",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年7月3日Karrada区爆炸后伊拉克政府最终撤除失效安检设备",
+      "support_text": "Prime Minister Haider al-Abadi finally ordered their removal from checkpoints... the biggest single attack on civilians since the Iraq war of 2003",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_8",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "瓦西菲将生活元素转化为文明与美丽之场",
+      "support_text": "瓦西菲将生活元素转化为文明与美丽之场",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡里姆·瓦西菲声明要对抗恐怖分子将生活变成战场的策略",
+      "support_text": "作曲家兼指挥家卡里姆·瓦西菲声明要对抗恐怖分子将生活变成战场的策略",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "大提琴的哀婉旋律飘荡在伊拉克曾吸引人购物社交的黑窟窿式建筑群中",
+      "support_text": "大提琴的哀婉旋律飘荡在伊拉克曾吸引人购物社交的黑窟窿式建筑群中",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "专家拼凑攻击细节",
+      "support_text": "专家正在拼凑攻击的精确细节",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "VBIED战术被广泛用于自杀式爆炸",
+      "support_text": "VBIED战术被广泛用于自杀式爆炸",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "装置存在炸弹放置和化学配比差异",
+      "support_text": "此装置在炸弹放置方式和化学配比上存在差异",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "专家确认化学配比首次在伊拉克实战使用",
+      "support_text": "专家确认化学配比首次在伊拉克实战使用",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "首爆产生高温",
+      "support_text": "首爆产生高温",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸未形成大型坑洞",
+      "support_text": "爆炸未形成大型坑洞",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸引发二次火灾",
+      "support_text": "爆炸引发二次火灾",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_18",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤亡因安全缺陷扩大",
+      "support_text": "伤亡因安全缺陷扩大",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "店主控诉缺乏逃生通道",
+      "support_text": "店主控诉缺乏逃生通道",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_20",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "首层出口被改造成商铺",
+      "support_text": "首层出口被改造成商铺",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "缺乏逃生通道导致伤亡最高",
+      "support_text": "缺乏逃生通道导致伤亡最高",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "烈火困住被困居民",
+      "support_text": "烈火困住被困居民",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_23",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "火焰吞噬周边建筑",
+      "support_text": "火焰吞噬周边建筑",
+      "source_text": "text_23"
+    },
+    {
+      "id": "text_23_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "家属走近质问救援人员",
+      "support_text": "家属走近质问救援人员",
+      "source_text": "text_23"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_23_node_1",
+      "target": "text_23_node_6",
+      "relation": "before",
+      "support_text": "But he has played his cello at other major bomb sites in Baghdad as an affirmation of Iraqis' determination to fight back"
+    },
+    {
+      "source": "text_23_node_1",
+      "target": "text_23_node_11",
+      "relation": "before",
+      "support_text": "专家正在拼凑攻击的精确细节"
+    },
+    {
+      "source": "text_23_node_2",
+      "target": "text_23_node_6",
+      "relation": "before",
+      "support_text": "the attack was so-called Islamic State's worst anywhere in the world"
+    },
+    {
+      "source": "text_23_node_2",
+      "target": "text_23_node_12",
+      "relation": "before",
+      "support_text": "VBIED战术被广泛用于自杀式爆炸"
+    },
+    {
+      "source": "text_23_node_3",
+      "target": "text_23_node_6",
+      "relation": "before",
+      "support_text": "But the scene of the deadliest ever attack carried out by so-called Islamic State (IS) anywhere in the world is still a makeshift shrine"
+    },
+    {
+      "source": "text_23_node_3",
+      "target": "text_23_node_13",
+      "relation": "before",
+      "support_text": "此装置在炸弹放置方式和化学配比上存在差异"
+    },
+    {
+      "source": "text_23_node_4",
+      "target": "text_23_node_6",
+      "relation": "before",
+      "support_text": "the biggest single attack on civilians since the Iraq war of 2003"
+    },
+    {
+      "source": "text_23_node_5",
+      "target": "text_23_node_6",
+      "relation": "before",
+      "support_text": "the biggest single attack on civilians since the Iraq war of 2003"
+    },
+    {
+      "source": "text_23_node_6",
+      "target": "text_23_node_7",
+      "relation": "before",
+      "support_text": "In the wake of this bombing, Prime Minister Haider al-Abadi finally ordered their removal from checkpoints"
+    },
+    {
+      "source": "text_23_node_6",
+      "target": "text_23_node_14",
+      "relation": "before",
+      "support_text": "专家确认化学配比首次在伊拉克实战使用"
+    },
+    {
+      "source": "text_23_node_8",
+      "target": "text_23_node_6",
+      "relation": "before",
+      "support_text": "瓦西菲将生活元素转化为文明与美丽之场"
+    },
+    {
+      "source": "text_23_node_9",
+      "target": "text_23_node_6",
+      "relation": "before",
+      "support_text": "作曲家兼指挥家卡里姆·瓦西菲声明要对抗恐怖分子将生活变成战场的策略"
+    },
+    {
+      "source": "text_23_node_10",
+      "target": "text_23_node_6",
+      "relation": "before",
+      "support_text": "大提琴的哀婉旋律飘荡在伊拉克曾吸引人购物社交的黑窟窿式建筑群中"
+    }
+  ]
+}

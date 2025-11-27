@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "text_35_node_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚发生恐怖袭击，导致五名以色列人丧生",
+      "support_text": "Interpol will send a team of experts to Bulgaria to investigate the Burgas terror attack where five Israelis were killed",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "保加利亚Focus新闻 agency报道Interpol派遣专家团队前往调查",
+      "support_text": "Bulgaria's Focus news agency reported",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Interpol秘书长Ronald Noble谴责此次恐怖袭击",
+      "support_text": "Interpol Secretary General Ronald Noble condemned the attack",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Noble指出袭击者使用的伪造美国身份证件可能对调查至关重要",
+      "support_text": "He says the information about the fake US ID papers of the perpetrator could be indispensable and crucial if it is found in the organization’s database",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "Interpol数据库包含250万份丢失或被盗的真实美国护照信息",
+      "support_text": "The database includes information on 2.5 million lost or stolen authentic US passports",
+      "source_text": "text_35"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_35_node_1",
+      "target": "text_35_node_2",
+      "relation": "before",
+      "support_text": "Bulgaria's Focus news agency reported"
+    },
+    {
+      "source": "text_35_node_2",
+      "target": "text_35_node_3",
+      "relation": "before",
+      "support_text": "Interpol Secretary General Ronald Noble condemned the attack"
+    },
+    {
+      "source": "text_35_node_3",
+      "target": "text_35_node_4",
+      "relation": "before",
+      "support_text": "He says the information about the fake US ID papers of the perpetrator could be indispensable and crucial if it is found in the organization’s database"
+    },
+    {
+      "source": "text_35_node_4",
+      "target": "text_35_node_5",
+      "relation": "before",
+      "support_text": "The database includes information on 2.5 million lost or stolen authentic US passports"
+    }
+  ]
+}

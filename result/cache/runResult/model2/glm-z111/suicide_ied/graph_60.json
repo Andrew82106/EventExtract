@@ -1,0 +1,348 @@
+{
+  "nodes": [
+    {
+      "id": "text_60_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年2月16日，巴基斯坦信德省谢尔万市的拉什沙巴扎昆达拉苏菲圣祠发生自杀式爆炸，造成至少88人死亡、343人受伤",
+      "support_text": "SEHWAN/KARACHI: At least 88 people were martyred Thursday when a suicide bomber attacked the crowded Sufi shrine of Lal Shahbaz Qalandar in Sehwan, injuring up to 343 others, DG Health Services Sindh-Hyderabad said on Friday.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生在集体礼拜活动期间，袭击者使用装有力士球轴承的自杀背心，爆炸物含至少8公斤炸药和坚果",
+      "support_text": "Earlier, Deputy Inspector-General (DIG) Hyderabad Khadim Hussain Rind said more than 300 people were injured in the explosion, the latest in a series of terrorist attacks in the country, he further informed that the suicide blast occurred at the main gate of the shrine by a bomber who covered himself with a Burka. An initial investigation report by bomb disposal squad confirmed that the incident was due to suicide bombing with the explosives of at least eight kilograms. Nut-bolts were used in the bomb along with the dynamite.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "爆炸后7名重伤员经C-130运输机转送卡拉奇接受治疗，另有6人自行前往医院",
+      "support_text": "Seven critically injured patients braving head wounds arrived from C-130 jet to Karachi. According to rescue sources, the injured were immediately shifted to a private hospital. Earlier, six other patients arrived in the metropolis on self-help basis.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "反恐官员澄清自杀袭击者为男性，爆炸现场发现男性苏菲信徒长发",
+      "support_text": "Suicide bomber was not a female: CTD official Raja Umar Khattab Senior Counter-terrorism department (CTD) official Raja Umar Khattab dispelled initial reports that the suicide bomber was a female. He said that evidence suggested that the suicide bomber was a male. The long hair found at the blast site, he added, most likely belonged to one of the dervish at the shrine.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦军方宣布立即关闭与阿富汗的边境",
+      "support_text": "Hours after the bombing, the ISPR announced the closure of the Pakistan-Afghanistan border with immediate effect due to security reasons.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "陆军参谋长巴贾瓦号召全国保持冷静，承诺立即报复并取消对恐怖分子的克制",
+      "support_text": "Chief of Army Staff General Qamar Javed Bajwa appealed to the nation to stay calm. 'Your security forces shall not allow hostile powers to succeed. We stand for our nation,' he said in a statement tweeted out by DG ISPR Major General Asif Ghafoor.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "海军医院在卡拉奇进入高度戒备，准备接收伤员",
+      "support_text": "CNS placed all Naval Hospitals at Karachi on high alert. Ready to receive injured through night capable heli.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "信德省首席部长承认当地医疗资源不足，已调度70具尸体并协调周边地区救护车",
+      "support_text": "The Sindh government announced a three-day mourning for victims of Lal Shahbaz Qalandar blast. Governor Sindh Muhammad Zubair condemned the cowardly attack saying it is a part of recent wave of attacks. Prime Minister Nawaz Sharif decried the attack on the Sufi shrine. 'The past few days have been hard, and my heart is with the victims,' Sharif said.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦总理谢里夫谴责袭击，称这是对巴基斯坦未来的攻击",
+      "support_text": "Prime Minister Nawaz Sharif decried the attack on the Sufi shrine. 'The past few days have been hard, and my heart is with the victims,' Sharif said. 'But we can't let these events divide us, or scare us. We must stand united in this struggle for the Pakistani identity, and universal humanity.'",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府宣布为受害者举行3天哀悼，省督谴责袭击是近期恐袭浪潮的一部分",
+      "support_text": "The Sindh government announced a three-day mourning for victims of Lal Shahbaz Qalandar blast. Governor Sindh Muhammad Zubair condemned the cowardly attack saying it is a part of recent wave of attacks.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "文本提及过去一周发生5起恐袭：2月12日记者车遭袭，2月13日拉合尔自杀爆炸，2月15日 KP地区连环袭击",
+      "support_text": "Recent Ts acts are being exec on directions from hostile powers and from sanctuaries in Afghanistan. We shall defend and respond. — Maj Gen Asif Ghafoor (@OfficialDGISPR) February 16, 2017 #Sehwan. CNS placed all Naval Hospitals at Karachi on high alert. Ready to receive injured through night capable heli. — Maj Gen Asif Ghafoor (@OfficialDGISPR) February 16, 2017 #Sehwan. CNS placed all Naval Hospitals at Karachi on high alert. Ready to receive injured through night capable heli. — Maj Gen Asif Ghafoor (@OfficialDGISPR) February 16, 2017 #Sehwan.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "苏菲圣祠始建于14世纪，以和平与宽容著称，每年吸引全国信徒参加苏菲节日",
+      "support_text": "The shrine of Sufi saint Lal Shahbaz Qalandar, a place welcome to all regardless of their creed, caste or greed, was built in 1356 in honour of one of Sindh’s most revered poet, philosopher and Sufi saint. It is believed that the saint, originally from Persia, resided in Sindh during the 13th century.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "文本补充2016年11月胡布地区舒赫拉尼圣祠遭自杀袭击致52人死亡的案例",
+      "support_text": "Additional Deputy Commissioner Lasbella Tariq Mengal had said that 500 to 600 people were in the shrine at the time of the blast.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "信德-海得拉巴卫生服务总监DG Health Services Sindh-Hyderabad发布伤亡报告",
+      "support_text": "SEHWAN/KARACHI: At least 88 people were martyred Thursday when a suicide bomber attacked the crowded Sufi shrine of Lal Shahbaz Qalandar in Sehwan, injuring up to 343 others, DG Health Services Sindh-Hyderabad said on Friday.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "来自全省大量人群聚集于圣祠",
+      "support_text": "来自全省大量人群聚集于圣祠",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "信徒们涌入圣祠",
+      "support_text": "信徒们涌入圣祠",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "信徒参与集体舞蹈和祈祷",
+      "support_text": "信徒参与集体舞蹈和祈祷",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "排爆小组确认事件原因为自杀式爆炸",
+      "support_text": "initial investigation report by bomb disposal squad confirmed that the incident was due to suicide bombing with the explosives of at least eight kilograms.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daesh声称对袭击负责",
+      "support_text": "Recent Ts acts are being exec on directions from hostile powers and from sanctuaries in Afghanistan.",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "IG Sindh AD Khuwaja发言称需谨慎处理并调查案件",
+      "support_text": "发言称需谨慎处理并调查案件",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方调查以确认责任方",
+      "support_text": "警方调查以确认责任方",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "需谨慎对待此消息",
+      "support_text": "需谨慎对待此消息",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查此案",
+      "support_text": "调查此案",
+      "source_text": "text_60"
+    },
+    {
+      "id": "text_60_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "法医车辆收集爆炸现场证据",
+      "support_text": "法医车辆收集证据",
+      "source_text": "text_60"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_2",
+      "relation": "before",
+      "support_text": "On Thursday, the powerful blast took place inside the premises of the shrine as a dhamaal was taking place."
+    },
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_3",
+      "relation": "before",
+      "support_text": "Seven critically injured patients braving head wounds arrived from C-130 jet to Karachi."
+    },
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_4",
+      "relation": "before",
+      "support_text": "Suicide bomber was not a female: CTD official Raja Umar Khattab Senior Counter-terrorism department (CTD) official Raja Umar Khattab dispelled initial reports that the suicide bomber was a female."
+    },
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_5",
+      "relation": "before",
+      "support_text": "Hours after the bombing, the ISPR announced the closure of the Pakistan-Afghanistan border with immediate effect due to security reasons."
+    },
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_6",
+      "relation": "before",
+      "support_text": "Chief of Army Staff General Qamar Javed Bajwa appealed to the nation to stay calm."
+    },
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_7",
+      "relation": "before",
+      "support_text": "CNS placed all Naval Hospitals at Karachi on high alert."
+    },
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_8",
+      "relation": "before",
+      "support_text": "The Sindh government announced a three-day mourning for victims of Lal Shahbaz Qalandar blast."
+    },
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_9",
+      "relation": "before",
+      "support_text": "Prime Minister Nawaz Sharif decried the attack on the Sufi shrine."
+    },
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_10",
+      "relation": "before",
+      "support_text": "Governor Sindh Muhammad Zubair condemned the cowardly attack saying it is a part of recent wave of attacks."
+    },
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_20",
+      "relation": "before",
+      "support_text": "爆炸发生后7名重伤员经C-130运输机转送卡拉奇接受治疗"
+    },
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_21",
+      "relation": "before",
+      "support_text": "爆炸发生后7名重伤员经C-130运输机转送卡拉奇接受治疗"
+    },
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_22",
+      "relation": "before",
+      "support_text": "爆炸发生后7名重伤员经C-130运输机转送卡拉奇接受治疗"
+    },
+    {
+      "source": "text_60_node_1",
+      "target": "text_60_node_23",
+      "relation": "before",
+      "support_text": "爆炸发生后7名重伤员经C-130运输机转送卡拉奇接受治疗"
+    },
+    {
+      "source": "text_60_node_11",
+      "target": "text_60_node_1",
+      "relation": "before",
+      "support_text": "Recent Ts acts are being exec on directions from hostile powers and from sanctuaries in Afghanistan."
+    },
+    {
+      "source": "text_60_node_13",
+      "target": "text_60_node_1",
+      "relation": "before",
+      "support_text": "Additional Deputy Commissioner Lasbella Tariq Mengal had said that 500 to 600 people were in the shrine at the time of the blast."
+    },
+    {
+      "source": "text_60_node_15",
+      "target": "text_60_node_1",
+      "relation": "before",
+      "support_text": "爆炸前来自全省大量人群聚集于圣祠"
+    },
+    {
+      "source": "text_60_node_16",
+      "target": "text_60_node_1",
+      "relation": "before",
+      "support_text": "爆炸前信徒们涌入圣祠"
+    },
+    {
+      "source": "text_60_node_17",
+      "target": "text_60_node_1",
+      "relation": "before",
+      "support_text": "爆炸前信徒参与集体舞蹈和祈祷"
+    },
+    {
+      "source": "text_60_node_18",
+      "target": "text_60_node_1",
+      "relation": "before",
+      "support_text": "爆炸发生后7名重伤员经C-130运输机转送卡拉奇接受治疗"
+    },
+    {
+      "source": "text_60_node_18",
+      "target": "text_60_node_24",
+      "relation": "before",
+      "support_text": "排爆小组确认事件原因为自杀式爆炸后，法医车辆开始收集证据"
+    },
+    {
+      "source": "text_60_node_19",
+      "target": "text_60_node_1",
+      "relation": "before",
+      "support_text": "文本提及过去一周发生5起恐袭"
+    }
+  ]
+}

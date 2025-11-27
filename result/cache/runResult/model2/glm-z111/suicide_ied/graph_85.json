@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "id": "text_85_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2018年12月6日，伊朗东南部查巴哈尔警察总部遭自杀式汽车炸弹袭击，造成4名警察死亡、42人受伤",
+      "support_text": "Four policemen were killed and 42 other people were wounded in a suicide car bomb attack on a police headquarters in Iran’s southeast on Thursday.",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击发生时，安保人员阻止了载有炸弹的车辆并朝司机开火，随后炸弹在警察总部附近爆炸",
+      "support_text": "Police stopped the explosive-laden car and started firing at the driver … who then set off the explosion near the police headquarters in Chabahar",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗副省长Rahmdel Bameri证实袭击使用载有炸弹的车辆，并描述了爆炸过程",
+      "support_text": "Rahmdel Bameri, governor of Sistan-Baluchestan province, said a bomb-filled vehicle was used to target the police station by the suicide attacker",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "现场视频显示爆炸产生大量浓烟，社交媒体传播了袭击后影像",
+      "support_text": "Images posted online showed thick smoke rising from the sky in the area where the attack took place",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织Ansar al-Furqan宣称对袭击负责，该组织属于逊尼派武装团体",
+      "support_text": "SITE Intelligence Group reported that Sunni armed group Ansar al-Furqan claimed responsibility for the attack",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗外长扎里夫指责外国势力策划袭击，但未点名具体国家",
+      "support_text": "Foreign-backed terrorists kill & wound innocents in Chabahar. As we've made clear in the past, such crimes won't go unpunished",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "扎里夫表示伊朗曾于2010年截获从阿联酋出发的极端分子，承诺将追查恐怖分子及其支持者",
+      "support_text": "In 2010, our security services intercepted & captured extremists en route from UAE",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗自2010年以来在查巴哈尔地区多次遭遇武装袭击，包括2017年ISIL对德黑兰议会和霍梅尼陵墓的袭击",
+      "support_text": "Suicide bombings are rare in Iran, but armed groups have carried out several attacks on Iranian security forces in the Sistan-Baluchestan province in recent years. Another coordinated assault by fighters from the Islamic State of Iraq and the Levant (ISIL) group on June 7, 2017, targeted the parliament in Tehran and the shrine of Ayatollah Ruhollah Khomeini",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年9月，伊朗西南部阿瓦兹军事游行遭枪击，造成25人死亡，促使伊朗加强边境安全",
+      "support_text": "Iran has stepped up security in border areas after gunmen in September opened fire on a military parade in Iran’s southwestern city of Ahvaz",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_10",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "查巴哈尔位于伊朗与巴基斯坦边境，是伊朗与印度联合开发的港口项目核心区域",
+      "support_text": "The southeastern port city in Iran’s Sistan-Baluchestan province is located near the border with Pakistan. The city hosts the operation of a joint port project between Iran and India by the Gulf of Oman",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度外交部谴责袭击，称必须迅速追查责任方，强调恐怖主义无任何正当理由",
+      "support_text": "The Indian foreign ministry condemned Thursday’s “despicable terrorist attack”. “The perpetrators behind this dastardly attack should be brought to justice expeditiously. There can be no justification for any act of terror,” the ministry said",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年12月6日，查巴哈尔清真寺附近发生自杀式爆炸，造成41人死亡、90人受伤",
+      "support_text": "In December 2010, at least 41 people were killed and 90 others were wounded following a suicide attack near a mosque in Chabahar",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_13",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "官方确认袭击导致超过40人受伤",
+      "support_text": "官方表示超过40人在袭击中受伤",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Press TV报道安全与地方官员的声明",
+      "support_text": "Press TV根据安全与地方官员的陈述进行报道",
+      "source_text": "text_85"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_85_node_1",
+      "target": "text_85_node_2",
+      "relation": "before",
+      "support_text": "Police stopped the explosive-laden car and started firing at the driver … who then set off the explosion near the police headquarters in Chabahar"
+    },
+    {
+      "source": "text_85_node_1",
+      "target": "text_85_node_3",
+      "relation": "before",
+      "support_text": "Rahmdel Bameri, governor of Sistan-Baluchestan province, said a bomb-filled vehicle was used to target the police station by the suicide attacker"
+    },
+    {
+      "source": "text_85_node_1",
+      "target": "text_85_node_4",
+      "relation": "before",
+      "support_text": "Images posted online showed thick smoke rising from the sky in the area where the attack took place"
+    },
+    {
+      "source": "text_85_node_1",
+      "target": "text_85_node_5",
+      "relation": "before",
+      "support_text": "SITE Intelligence Group reported that Sunni armed group Ansar al-Furqan claimed responsibility for the attack"
+    },
+    {
+      "source": "text_85_node_1",
+      "target": "text_85_node_6",
+      "relation": "before",
+      "support_text": "Foreign-backed terrorists kill & wound innocents in Chabahar. As we've made clear in the past, such crimes won't go unpunished"
+    },
+    {
+      "source": "text_85_node_1",
+      "target": "text_85_node_7",
+      "relation": "before",
+      "support_text": "In 2010, our security services intercepted & captured extremists en route from UAE"
+    },
+    {
+      "source": "text_85_node_1",
+      "target": "text_85_node_11",
+      "relation": "before",
+      "support_text": "The Indian foreign ministry condemned Thursday’s “despicable terrorist attack”. “The perpetrators behind this dastardly attack should be brought to justice expeditiously. There can be no justification for any act of terror,” the ministry said"
+    },
+    {
+      "source": "text_85_node_1",
+      "target": "text_85_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order 3确定时序关系"
+    },
+    {
+      "source": "text_85_node_3",
+      "target": "text_85_node_14",
+      "relation": "before",
+      "support_text": "Press TV基于官员陈述进行报道"
+    },
+    {
+      "source": "text_85_node_8",
+      "target": "text_85_node_1",
+      "relation": "before",
+      "support_text": "Suicide bombings are rare in Iran, but armed groups have carried out several attacks on Iranian security forces in the Sistan-Baluchestan province in recent years"
+    },
+    {
+      "source": "text_85_node_9",
+      "target": "text_85_node_1",
+      "relation": "before",
+      "support_text": "Iran has stepped up security in border areas after gunmen in September opened fire on a military parade in Iran’s southwestern city of Ahvaz"
+    },
+    {
+      "source": "text_85_node_10",
+      "target": "text_85_node_1",
+      "relation": "before",
+      "support_text": "The southeastern port city in Iran’s Sistan-Baluchestan province is located near the border with Pakistan. The city hosts the operation of a joint port project between Iran and India by the Gulf of Oman"
+    },
+    {
+      "source": "text_85_node_12",
+      "target": "text_85_node_1",
+      "relation": "before",
+      "support_text": "In December 2010, at least 41 people were killed and 90 others were wounded following a suicide attack near a mosque in Chabahar"
+    }
+  ]
+}

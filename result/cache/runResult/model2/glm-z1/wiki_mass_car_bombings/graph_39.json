@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "text_39_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年2月28日萨德尔城市场发生连环汽车炸弹袭击，致70人死亡",
+      "support_text": "Deadliest bombings in Iraq in 2016 28 February: Twin suicide bomb attacks hit market in Sadr City, killing 70",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年3月6日希拉检查站遭卡车炸弹袭击，造成47人死亡",
+      "support_text": "6 March: Truck bomb at checkpoint at entrance to Hilla kills 47",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年5月11日巴格达多区域遭汽车炸弹袭击，共93人死亡",
+      "support_text": "11 May: Car bombs in Baghdad kill 93 people, including 64 in market in Shia district of Sadr City",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年11月19日安全部队与6名ISIS分子交火，1人自杀式爆炸致8名平民死亡",
+      "support_text": "Last week six IS militants were confronted by security forces while on their way to Karbala , official said. Five were shot dead but the sixth blew himself up, killing eight civilians.",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年11月24日ISIS在希尔拉发动卡车炸弹袭击，77名什叶派朝圣者死亡",
+      "support_text": "Some 77 people, most of them Shia pilgrims from Iran and Afghanistan, have been killed in a truck bomb attack in Iraq, officials say. The blast struck at a petrol station and restaurant near Hilla, some 100 km (60 miles) south of Baghdad. Busloads of pilgrims had stopped there on their way home from commemorating Arbaeen in the holy city of Karbala.",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_6",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "40人遭受受伤",
+      "support_text": "40 people were injured",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国声称发动袭击",
+      "support_text": "Islamic State claimed to carry out the attack",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "记者Orla Guerin报道了该战术",
+      "support_text": "语义描述：记者报道了该战术；主体：Orla Guerin；对象：报道内容",
+      "source_text": "text_39"
+    },
+    {
+      "id": "text_39_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克军队猛攻摩苏尔",
+      "support_text": "语义描述：伊拉克军队当前猛攻摩苏尔；主体：Iraqi forces；对象：Mosul",
+      "source_text": "text_39"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_39_node_1",
+      "target": "text_39_node_2",
+      "relation": "before",
+      "support_text": "Deadliest bombings in Iraq in 2016 28 February... 6 March..."
+    },
+    {
+      "source": "text_39_node_2",
+      "target": "text_39_node_3",
+      "relation": "before",
+      "support_text": "6 March... 11 May..."
+    },
+    {
+      "source": "text_39_node_4",
+      "target": "text_39_node_5",
+      "relation": "before",
+      "support_text": "Last week six IS militants were confronted by security forces... killed eight civilians."
+    },
+    {
+      "source": "text_39_node_8",
+      "target": "text_39_node_9",
+      "relation": "before",
+      "support_text": "根据temporal_order 1和2添加的时序关系"
+    }
+  ]
+}

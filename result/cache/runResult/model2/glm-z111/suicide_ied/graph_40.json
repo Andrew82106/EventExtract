@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "text_40_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴基斯坦西南部Mastung地区选举集会遭遇自杀式爆炸",
+      "support_text": "Turkey on Saturday condemned Friday's bombing targeting an election rally in southwest Pakistan.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸造成至少128人死亡、数百人受伤",
+      "support_text": "At least 128 people were killed and hundreds injured when a suspected suicide bomber detonated himself in an election rally...",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "土耳其总统发言人谴责袭击并声援巴基斯坦",
+      "support_text": "presidential spokesperson Ibrahim Kalın told Anadolu Agency.",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地医院实施紧急管理并调配医疗资源",
+      "support_text": "Hospitals in the area have been placed under 'emergency' management after being overwhelmed...",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴政府部署额外安保力量并加强敏感区域管控",
+      "support_text": "extra security forces had been deployed in 'sensitive areas'",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴安装临时政府并宣布7月25日选举为哀悼日",
+      "support_text": "A caretaker government has been installed ahead of the July 25 election",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全分析家指出袭击显示恐怖组织协调行动",
+      "support_text": "Security analyst Rahimullah Yusufzai termed the blasts a 'wave of terror'",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_8",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "选举前一周连环袭击已致154人死亡",
+      "support_text": "the attack was by far the deadliest of a series of blasts...have killed at least 154 people",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "回顾2014年Peshawar学校恐袭事件背景",
+      "support_text": "Violence has dropped significantly since the country's deadliest-ever militant attack...",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴军方加强边境地区反恐行动改善安全",
+      "support_text": "military intensified operations against militants in the tribal areas...",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴俾斯坦 home minister 取消医生和 paramedics的假期",
+      "support_text": "巴俾斯坦 home minister 取消医生和 paramedics的假期",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警告政客保持警惕",
+      "support_text": "警告政客保持警惕",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击事件突显了持续的安全挑战",
+      "support_text": "袭击事件突显了持续的安全挑战",
+      "source_text": "text_40"
+    },
+    {
+      "id": "text_40_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "暴力显著下降",
+      "support_text": "暴力显著下降",
+      "source_text": "text_40"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_2",
+      "relation": "before",
+      "support_text": "when a suspected suicide bomber detonated himself in an election rally..."
+    },
+    {
+      "source": "text_40_node_1",
+      "target": "text_40_node_3",
+      "relation": "before",
+      "support_text": "Turkey on Saturday condemned Friday's bombing..."
+    },
+    {
+      "source": "text_40_node_2",
+      "target": "text_40_node_4",
+      "relation": "before",
+      "support_text": "Hospitals in the area have been placed under 'emergency' management..."
+    },
+    {
+      "source": "text_40_node_4",
+      "target": "text_40_node_5",
+      "relation": "before",
+      "support_text": "with around 150 also wounded in the blast..."
+    },
+    {
+      "source": "text_40_node_5",
+      "target": "text_40_node_6",
+      "relation": "before",
+      "support_text": "provincial home secretary Haider Shako added..."
+    },
+    {
+      "source": "text_40_node_6",
+      "target": "text_40_node_7",
+      "relation": "before",
+      "support_text": "prime minister Nasirul Mulk declared Sunday would be a day of mourning"
+    },
+    {
+      "source": "text_40_node_8",
+      "target": "text_40_node_1",
+      "relation": "before",
+      "support_text": "the attack was by far the deadliest of a series of blasts..."
+    },
+    {
+      "source": "text_40_node_9",
+      "target": "text_40_node_10",
+      "relation": "before",
+      "support_text": "Violence has dropped significantly since the country's deadliest-ever militant attack..."
+    },
+    {
+      "source": "text_40_node_10",
+      "target": "text_40_node_9",
+      "relation": "before",
+      "support_text": "military intensified operations against militants in the tribal areas..."
+    }
+  ]
+}

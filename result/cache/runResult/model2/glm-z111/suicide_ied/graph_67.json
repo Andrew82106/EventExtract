@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "text_67_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2010年12月，Chabahar清真寺附近发生自杀袭击，造成41人死亡、90人受伤。",
+      "support_text": "In December 2010, at least 41 people were killed and 90 others wounded following a suicide attack near a mosque in Chabahar.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年6月7日，ISIS袭击德黑兰议会和霍梅尼陵墓，导致18人死亡、50人受伤。",
+      "support_text": "Another coordinated assault by fighters from the Islamic State of Iraq and the Levant (ISIL) group on June 7, 2017, targeted the parliament in Tehran and the shrine of Ayatollah Ruhollah Khomeini, the leader of Iran’s 2019 Islamic Revolution, killing at least 18 people and wounding more than 50.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年9月，Ahvaz军事游行遭武装分子袭击，25人死亡，包括伊斯兰革命卫队成员。",
+      "support_text": "Security in border areas Iran has stepped up security in border areas after gunmen in September opened fire on a military parade in Iran’s southwestern city of Ahvaz, killing 25 people, almost half members of Iran’s elite Islamic Revolutionary Guard Corps.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2018年12月6日，Ansar al-Furqan在Chabahar警察总部发动自杀式爆炸，造成至少2人死亡、48人受伤，并声称对此负责。",
+      "support_text": "Attack by armed group on police headquarters in the port city of Chabahar also wounded 48 people. Iranian security forces have detained 10 people suspected of links to a suicide car bomb attack that killed at least two policemen earlier this week, police chief Hossein Ashtari said. ‘Good clues have been obtained and hopefully with the public’s cooperation … we will get to the main leads,’ Ashtari was quoted by the state news agency IRNA as saying on Sunday. More suspects have been identified and are being sought, Ashtari added.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年12月6日，伊朗安全部队拘留10名涉嫌与袭击相关的嫌疑人，并继续追捕更多武装分子。",
+      "support_text": "police chief Hossein Ashtari said. ‘Good clues have been obtained and hopefully with the public’s cooperation … we will get to the main leads,’ Ashtari was quoted by the state news agency IRNA as saying on Sunday. More suspects have been identified and are being sought, Ashtari added.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方/相关机构通过调查获得线索并锁定主要方向",
+      "support_text": "‘Good clues have been obtained and hopefully with the public’s cooperation … we will get to the main leads,’ Ashtari was quoted by the state news agency IRNA as saying on Sunday.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "IRNA报道Ashtari的声明",
+      "support_text": "Attack by armed group on police headquarters in the port city of Chabahar also wounded 48 people. Iranian security forces have detained 10 people suspected of links to a suicide car bomb attack that killed at least two policemen earlier this week, police chief Hossein Ashtari said. ‘Good clues have been obtained and hopefully with the public’s cooperation … we will get to the main leads,’ Ashtari was quoted by the state news agency IRNA as saying on Sunday. More suspects have been identified and are being sought, Ashtari added.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方识别更多嫌疑人",
+      "support_text": "More suspects have been identified and are being sought, Ashtari added.",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国机构及伊朗媒体报道了袭击事件",
+      "support_text": "美国机构及伊朗媒体报道了袭击事件",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_new_node_10",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度将增强阿富汗和中亚的陆路贸易联系",
+      "support_text": "印度将增强阿富汗和中亚的陆路贸易联系",
+      "source_text": "text_67"
+    },
+    {
+      "id": "text_67_new_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度绕过地区对手巴基斯坦",
+      "support_text": "印度绕过地区对手巴基斯坦",
+      "source_text": "text_67"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_67_node_3",
+      "target": "text_67_node_4",
+      "relation": "before",
+      "support_text": "Security in border areas Iran has stepped up security in border areas after gunmen in September opened fire on a military parade in Iran’s southwestern city of Ahvaz, killing 25 people, almost half members of Iran’s elite Islamic Revolutionary Guard Corps."
+    },
+    {
+      "source": "text_67_node_4",
+      "target": "text_67_node_5",
+      "relation": "before",
+      "support_text": "More suspects have been identified and are being sought, Ashtari added."
+    },
+    {
+      "source": "text_67_node_4",
+      "target": "text_67_node_9",
+      "relation": "after",
+      "support_text": "袭击事件发生后，美国机构及伊朗媒体进行报道"
+    },
+    {
+      "source": "text_67_node_9",
+      "target": "text_67_new_node_10",
+      "relation": "before",
+      "support_text": "在2018年12月6日事件后，印度开展新贸易策略"
+    },
+    {
+      "source": "text_67_new_node_10",
+      "target": "text_67_new_node_11",
+      "relation": "before",
+      "support_text": "贸易联系增强后实施地缘战略调整"
+    }
+  ]
+}

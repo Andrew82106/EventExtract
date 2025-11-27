@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    {
+      "id": "text_45_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年4月19日9:02，美国俄克拉荷马城阿尔弗雷德·P·默拉联邦大楼遭恐怖袭击，造成168人死亡",
+      "support_text": "AT 9:02 A.M., APRIL 19, 1995...the Alfred P. Murrah Federal Building in Oklahoma City was bombed in what would be the single most destructive terrorist act in U.S. history.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "游客在遗址周围触摸纪念物、留言、拍摄，但保持沉默和肃穆",
+      "support_text": "Visitors walk along those fences and sidestep the rubble...Some take pictures or videos, but almost no one poses or waves for the cameras.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "居民对媒体过度关注和游客围观感到困扰，部分人无法接受遗址成为旅游景点",
+      "support_text": "Mike Hixson...says: 'I still can't bear to stop and see it up close. How people can come up and stare at it as part of their vacation is beyond me.'",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "遗址周边建筑受损情况被详细记录，包括Ryder运货车的停放位置导致的破坏范围",
+      "support_text": "The Ryder moving truck that carried the bomb was parked at the front of the building...But to the east and west, and especially to the north...the damage is still astonishing.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "居民对爆炸冲击的集体心理反应，包括Edmond居民听到爆炸声和Okie文化认同的冲击",
+      "support_text": "Residents in Edmond...heard and felt the blast...I still can't believe something like this could happen here.",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "市政府试图平衡历史形象与创伤记忆，筹备土地奔跑周年纪念活动",
+      "support_text": "Ask people when they went on vacation...and they will say a couple of weeks before the bombing, or a month after. Later this month, Oklahoma will celebrate the 107th anniversary of the Great Land Run of 1889...",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_8",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "临时纪念设施建立，包括Heartland礼拜堂和超过20万件捐赠物品的收藏",
+      "support_text": "An open-air 'Heartland Chapel' has been erected...More than 200,000 items of tribute A committee has been formed to develop a permanent memorial...",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "1996年4月19日9:02举行精确周年纪念仪式，幸存者与救援人员共同参与后续活动",
+      "support_text": "The precise anniversary will be observed at 9:02 a.m. Central Time. Later, they will go to the Myriad Convention Center...",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "城市修复工作启动，包括建筑拆除和纪念园区规划，救援人员表示创伤需要时间愈合",
+      "support_text": "Charles Eschmann...says: 'The city is beginning to heal...Time heals all wounds, isn't that what they say?'",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "《纽约时报》对袭击地点展开深度调查",
+      "support_text": "《纽约时报》对袭击地点展开深度调查",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "建筑物吸收大部分冲击力",
+      "support_text": "语义描述：建筑物吸收了大部分冲击力",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_13",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "多个建筑仅剩空壳结构",
+      "support_text": "语义描述：多个建筑仅剩空壳结构",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "窗户被加固覆盖",
+      "support_text": "语义描述：窗户被加固覆盖",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_15",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "300栋建筑遭受部分损毁",
+      "support_text": "语义描述：300栋建筑遭受部分损毁",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "遗址被新草皮覆盖",
+      "support_text": "遗址被新草皮覆盖",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "中心立有单个花圈",
+      "support_text": "中心立有单个花圈",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "祭坛前摆放纪念品",
+      "support_text": "祭坛前摆放纪念品",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_19",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "纪念品被转移至历史仓库",
+      "support_text": "纪念品被转移至历史仓库",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_20",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "预计3000名幸存者和遇难者家属将参观遗址",
+      "support_text": "预计3000名幸存者和遇难者家属将参观遗址",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "补充说明未经历创伤",
+      "support_text": "补充说明未经历创伤",
+      "source_text": "text_45"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_45_node_1",
+      "target": "text_45_node_5",
+      "relation": "before",
+      "support_text": "The Ryder moving truck that carried the bomb was parked at the front of the building...the damage is still astonishing."
+    },
+    {
+      "source": "text_45_node_1",
+      "target": "text_45_node_3",
+      "relation": "before",
+      "support_text": "Nearly one year after the bombing...people are drawn to the site."
+    },
+    {
+      "source": "text_45_node_1",
+      "target": "text_45_node_11",
+      "relation": "before",
+      "support_text": "袭击事件发生后，媒体机构展开后续调查"
+    },
+    {
+      "source": "text_45_node_4",
+      "target": "text_45_node_10",
+      "relation": "before",
+      "support_text": "Mike Hixson...says: 'How people can come up and stare at it as part of their vacation is beyond me.'"
+    },
+    {
+      "source": "text_45_node_5",
+      "target": "text_45_node_10",
+      "relation": "before",
+      "support_text": "Charles Eschmann...says: 'The city is beginning to heal...'"
+    },
+    {
+      "source": "text_45_node_6",
+      "target": "text_45_node_7",
+      "relation": "before",
+      "support_text": "I still can't believe something like this could happen here."
+    },
+    {
+      "source": "text_45_node_7",
+      "target": "text_45_node_9",
+      "relation": "before",
+      "support_text": "Later this month, Oklahoma will celebrate the 107th anniversary of the Great Land Run of 1889..."
+    },
+    {
+      "source": "text_45_node_8",
+      "target": "text_45_node_9",
+      "relation": "before",
+      "support_text": "The precise anniversary will be observed at 9:02 a.m. Central Time."
+    },
+    {
+      "source": "text_45_node_9",
+      "target": "text_45_node_10",
+      "relation": "before",
+      "support_text": "Later, they will go to the Myriad Convention Center..."
+    },
+    {
+      "source": "text_45_node_16",
+      "target": "text_45_node_17",
+      "relation": "before",
+      "support_text": "覆盖草皮后设置"
+    },
+    {
+      "source": "text_45_node_17",
+      "target": "text_45_node_18",
+      "relation": "before",
+      "support_text": "设置花圈后布置"
+    },
+    {
+      "source": "text_45_node_18",
+      "target": "text_45_node_19",
+      "relation": "before",
+      "support_text": "布置纪念品后转移"
+    },
+    {
+      "source": "text_45_node_19",
+      "target": "text_45_node_20",
+      "relation": "before",
+      "support_text": "转移纪念品后进行参观"
+    },
+    {
+      "source": "text_45_node_20",
+      "target": "text_45_node_21",
+      "relation": "before",
+      "support_text": "预计参观后进行补充说明"
+    }
+  ]
+}

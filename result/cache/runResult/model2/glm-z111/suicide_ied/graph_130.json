@@ -1,0 +1,243 @@
+{
+  "nodes": [
+    {
+      "id": "text_130_node_1",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "1993年法国总理Balladur批准DCN向巴基斯坦出售潜艇，SOFMA获得6.25%合法佣金",
+      "support_text": "1993 Edouard Balladur is French prime minister under then President Francois Mitterrand. The French Naval Construction Executive (DCN) is looking to sell French submarines to Pakistan. As France is competing with Germany for the contracts, SOFMA, the company responsible for the export of French military hardware, is offered a 6.25 percent commission on any future sales.",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_2",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年巴基斯坦与法国签署5.41亿法郎潜艇采购合同",
+      "support_text": "1994 In September 1994 a contract is signed between Pakistan and France for the purchase of submarines for a total of 5.41 billion francs (826 billion euros).",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_3",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "1995年SOFMA计划获取3380万法郎佣金，Lebanese商人通过Mercor Finance获得2160万法郎佣金并立即变现54百万法郎，同时Balladur竞选账户收到1000万法郎现金",
+      "support_text": "1995 SOFMA looks to pocket 338 million francs, while two Lebanese businessmen, through off-shore company Mercor Finance, look set to receive a four percent commission (216 million francs) to be shared with Pakistani intermediaries for securing the deal. According to left-leaning French daily Liberation in an April 2010 report , the Lebanese businessmen sold their commission contract to a Spanish bank in June 1995 for an immediate down-payment of 54 million francs, with the rest to be paid once the DCN contract with Pakistan was concluded. Almost simultaneously, 10 million francs in cash (mostly in 500-franc notes) is paid into Balladur’s campaign fund account (one fifth of the total funds), according to the Liberation report.",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "1996年Chirac当选总统后启动调查，确认存在潜艇销售佣金回扣并暂停Mercor付款（实际持续至2001年）",
+      "support_text": "1996 Jacques Chirac wins the party nomination and is elected president. On discovering the scale of the sales and commissions to be paid, he orders an immediate inquiry led by Defence Minister Charles Millon.",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年卡拉奇发生自杀袭击致14名法国工程师死亡（11名法国公民）",
+      "support_text": "2002 A suicide bomber in Karachi, Pakistan kills 14 people, of whom 11 are French naval engineers working for DCN.",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "2007年反恐法官Bruguiere被替换，Trevidic和Van Ruymbeke接手调查并发现佣金暂停关联",
+      "support_text": "2007 Anti-terrorism judge Jean-Louis Bruguiere, assigned to lead the investigation into the bombing, is replaced by two investigating magistrates, Marc Trevidic and Renaud Van Ruymbeke. Marc Trevidic opens a new direction in the investigation, namely that the attack was linked to the halting of commission payments.",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年Le Point披露2002年内部报告指出袭击与佣金资金链有关",
+      "support_text": "2008 Weekly French news magazine Le Point reveals that a 2002 report by a former agent of the DST (French homeland defence and intelligence agency) concluded that the attacks were ‘financially motivated’.",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_8",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年6月Mediapart指控Sarkozy通过Luxembourg Heine公司处理佣金资金并用于政党竞选",
+      "support_text": "2010 – June French investigative news website Mediapart claims that, according to the Luxembourg authorities, Sarkozy (as budget minister in 1994) set up off-shore company Heine to handle transactions to Mercor Finance in the submarines deal.",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_9",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年8月受害者家属起诉Heine公司伪证案，但检察官以时间过久拒绝受理",
+      "support_text": "2010 – August The families of the 2002 bombing victims start civil proceedings against Jean-Marie Boivin, former administrator of the Heine offshore fund set up in Luxembourg in 1994, for perjury. The case is handled by Ruymbeke. But Paris prosecutor Jean-Claude Marin says that allegations of corruption by politicians in the 1990s are too old to be investigated.",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "2010年10月Ruymbeke宣布将调查Balladur竞选资金与佣金回扣关联",
+      "support_text": "2010 – October Ruymbeke announces that he will, after all, investigate the corruption allegations - in particular, the allegations that kickbacks from the submarine sales were used to fund Balladur’s 1995 election campaign.",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_11",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年11月议会拒绝提供证人证词，揭露记者监视事件，Sarkozy被指控监督监视，DCN前高官披露佣金通过Cedel/Clearstream公司，受害者家属要求Sarkozy等作证",
+      "support_text": "2010 – November On November 10, Bernard Accoyer, speaker for France’s National Assembly, refuses to hand Tredivic the testimony of some 60 people – including Balladur - who gave evidence to a parliamentary inquiry into the affair, citing France’s constitutional separation of power between parliament and the judiciary. News website Mediapart says that two of its journalists working on the Karachi file are under constant surveillance by the French security services. The satirical newspaper Canard Enchaine claims, in the same week and in a separate case, that Sarkozy is supervising the surveillance of journalists personally. The Elysee Palace denounces these claims as ‘utterly ridiculous’. On November 17, in an interview with Mediapart, Gerard-Philippe Menayas, former financial director of the DCN, says that the payment of commissions from the submarine sales passed through a Luxembourg company called Cedel, later known as Clearstream.",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "法国与德国在潜艇销售合同上的竞争",
+      "support_text": "1993年法国总理Balladur批准DCN向巴基斯坦出售潜艇，SOFMA获得6.25%合法佣金。法国是竞争德国以获得该合同的主要国家。",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "夏尔·米隆在2010年11月确认1996年潜艇销售佣金调查结论",
+      "support_text": "2010年11月夏尔·米隆确认1996年潜艇销售佣金调查结论，该结论指出佣金支付持续至2001年",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "1996年反恐法官让-路易·布鲁吉耶被指派调查2002年卡拉奇自杀袭击事件",
+      "support_text": "1996 Jacques Chirac wins the party nomination and is elected president. On discovering the scale of the sales and commissions to be paid, he orders an immediate inquiry led by Defence Minister Charles Millon.",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "法国调查新闻网站声称卢森堡当局说法",
+      "support_text": "法国调查新闻网站声称卢森堡当局说法",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "网站转述卢森堡警方观点",
+      "support_text": "网站转述卢森堡警方观点",
+      "source_text": "text_130"
+    },
+    {
+      "id": "text_130_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "萨科齐将指控描述为荒诞故事",
+      "support_text": "萨科齐将指控描述为荒诞故事",
+      "source_text": "text_130"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_130_node_1",
+      "target": "text_130_node_2",
+      "relation": "before",
+      "support_text": "1993 Edouard Balladur is French prime minister under then President Francois Mitterrand. The French Naval Construction Executive (DCN) is looking to sell French submarines to Pakistan."
+    },
+    {
+      "source": "text_130_node_1",
+      "target": "text_130_node_12",
+      "relation": "before",
+      "support_text": "1993年法国与德国的竞争直接导致DCN向巴基斯坦的潜艇销售决策"
+    },
+    {
+      "source": "text_130_node_2",
+      "target": "text_130_node_3",
+      "relation": "before",
+      "support_text": "1994 In September 1994 a contract is signed between Pakistan and France for the purchase of submarines for a total of 5.41 billion francs (826 billion euros)."
+    },
+    {
+      "source": "text_130_node_3",
+      "target": "text_130_node_4",
+      "relation": "before",
+      "support_text": "1996 Jacques Chirac wins the party nomination and is elected president. On discovering the scale of the sales and commissions to be paid, he orders an immediate inquiry led by Defence Minister Charles Millon."
+    },
+    {
+      "source": "text_130_node_4",
+      "target": "text_130_node_5",
+      "relation": "before",
+      "support_text": "2002 A suicide bomber in Karachi, Pakistan kills 14 people, of whom 11 are French naval engineers working for DCN."
+    },
+    {
+      "source": "text_130_node_4",
+      "target": "text_130_node_14",
+      "relation": "before",
+      "support_text": "1996年Chirac当选总统后启动调查，确认存在潜艇销售佣金回扣并暂停Mercor付款（实际持续至2001年）"
+    },
+    {
+      "source": "text_130_node_5",
+      "target": "text_130_node_6",
+      "relation": "before",
+      "support_text": "2007 Anti-terrorism judge Jean-Louis Bruguiere, assigned to lead the investigation into the bombing, is replaced by two investigating magistrates, Marc Trevidic and Renaud Van Ruymbeke."
+    },
+    {
+      "source": "text_130_node_6",
+      "target": "text_130_node_7",
+      "relation": "before",
+      "support_text": "2008 Weekly French news magazine Le Point reveals that a 2002 report by a former agent of the DST (French homeland defence and intelligence agency) concluded that the attacks were ‘financially motivated’."
+    },
+    {
+      "source": "text_130_node_7",
+      "target": "text_130_node_8",
+      "relation": "before",
+      "support_text": "2010 – June French investigative news website Mediapart claims that, according to the Luxembourg authorities, Sarkozy (as budget minister in 1994) set up off-shore company Heine to handle transactions to Mercor Finance in the submarines deal."
+    },
+    {
+      "source": "text_130_node_8",
+      "target": "text_130_node_10",
+      "relation": "before",
+      "support_text": "2010 – October Ruymbeke announces that he will, after all, investigate the corruption allegations - in particular, the allegations that kickbacks from the submarine sales were used to fund Balladur’s 1995 election campaign."
+    },
+    {
+      "source": "text_130_node_9",
+      "target": "text_130_node_10",
+      "relation": "before",
+      "support_text": "2010 – August The families of the 2002 bombing victims start civil proceedings against Jean-Marie Boivin, former administrator of the Heine offshore fund set up in Luxembourg in 1994, for perjury."
+    },
+    {
+      "source": "text_130_node_10",
+      "target": "text_130_node_11",
+      "relation": "before",
+      "support_text": "2010 – November On November 10, Bernard Accoyer, speaker for France’s National Assembly, refuses to hand Tredivic the testimony of some 60 people – including Balladur - who gave evidence to a parliamentary inquiry into the affair."
+    },
+    {
+      "source": "text_130_node_10",
+      "target": "text_130_node_13",
+      "relation": "before",
+      "support_text": "2010年10月Ruymbeke宣布将调查Balladur竞选资金与佣金回扣关联，导致2010年11月米隆确认调查结论"
+    },
+    {
+      "source": "text_130_node_14",
+      "target": "text_130_node_6",
+      "relation": "before",
+      "support_text": "2007年反恐法官Bruguiere被替换，Trevidic和Van Ruymbeke接手调查并发现佣金暂停关联"
+    }
+  ]
+}

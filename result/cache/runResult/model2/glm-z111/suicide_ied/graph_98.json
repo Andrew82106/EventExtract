@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "text_98_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年8月18日，喀布尔一场婚礼派对遭自杀式爆炸袭击，造成63人死亡、182人受伤",
+      "support_text": "KABUL, Afghanistan — At least 63 people, including women and children, were killed after a suicide bomber struck at a crowded wedding party in the Afghan capital on Saturday. Another 182 people were injured in the late-night blast.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生时婚礼仪式即将开始，新郎Mirwais描述现场惨状并称无法承受悲痛",
+      "support_text": "The groom, identified only as Mirwais, told Afghan news channel TOLOnews that the blast went off as the marriage ceremony was about to get underway. 'I won’t ever be able to forget this however much I try,' Mirwais said in the interview on Sunday.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "爆炸现场遗留血迹、损毁音响设备及遗弃鞋履，安全部门正在调查",
+      "support_text": "Amid the carnage were blood-covered chairs, crushed music speakers and a pile of abandoned shoes. Afghan security officials inspect the scene after a suicide bomb blast at a wedding reception in Kabul, Afghanistan, on Aug. 18, 2019.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织‘伊斯兰国’宣称对袭击负责，但未被NBC证实",
+      "support_text": "The so-called Islamic State's local affiliate claimed it was responsible.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗总统Ghani在爆炸前谴责塔利班，宣布全国哀悼并慰问受害者家属",
+      "support_text": "Afghan President Ashraf Ghani didn't mince words. 'Taliban cannot absolve themselves of blame, for they provide platform for terrorists,' Ghani said on Twitter before the ISIS claim of responsibility.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班发言人Zabihullah Mujahid否认参与袭击，称针对平民的暴行不可接受",
+      "support_text": "Taliban spokesman Zabihullah Mujahid on Sunday sought to emphasize the claim that his group condemned the attack.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦政府谴责袭击，强调反恐需地区协作",
+      "support_text": "Pakistan government also denounced the bombing, saying in a statement it 'strongly condemns the heinous bomb attack targeting civilians.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸前一周（8月7日）喀布尔警察局遭塔利班汽车炸弹袭击，致14死145伤",
+      "support_text": "On Aug. 7, a Taliban suicide car bomber targeted a police station, killing 14 people and wounding 145, most of them civilians.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "美国特使Zalmay Khalilzad在8月报告和平谈判取得进展，计划9月1日达成协议",
+      "support_text": "U.S. envoy Zalmay Khalilzad reported 'excellent progress' in talks to negotiate a peace deal and said he was hoping for a final agreement by Sept. 1.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "特朗普政府计划在2020年11月大选前从阿富汗撤军，引发对谈判效果的担忧",
+      "support_text": "NBC News reported earlier this month that President Donald Trump had told his advisers he wanted to pull all U.S. troops out of Afghanistan by the November 2020 presidential election.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_11",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后塔利班高层Hafiz Ahmadullah在巴基斯坦遇袭身亡，但谈判未中断",
+      "support_text": "Hafiz Ahmadullah — a brother of Taliban leader Haibatullah Akhundzada — was killed in a bomb attack on a mosque in Pakistan on Friday.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗政府等待特朗普与国家安全团队8月16日会谈结果",
+      "support_text": "Seddiqi, the presidential spokesman, said Saturday that his government was waiting to hear the results of Trump's meeting Friday with his national security team about the negotiations.",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织对自杀袭击者进行爆炸技能培训",
+      "support_text": "训练人类（隐含自杀袭击者）",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "要求人类在婚礼内引爆自己",
+      "support_text": "要求人类在婚礼内引爆自己",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "总统发言人通过Twitter发布爆炸事件声明",
+      "support_text": "总统发言人通过Twitter发布消息",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "塔利班承诺不使阿富汗成为恐怖主义据点",
+      "support_text": "塔利班承诺不使阿富汗成为恐怖主义据点",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_17",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班同意停火并与阿富汗政府谈判",
+      "support_text": "塔利班同意停火并与阿富汗政府谈判",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班与阿富汗政府进行和平谈判",
+      "support_text": "塔利班与阿富汗政府进行和平谈判",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班解雇阿富汗政府",
+      "support_text": "塔利班解雇阿富汗政府",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_20",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "NBC News报道了特朗普关于从阿富汗撤军的声明",
+      "support_text": "NBC News报道了特朗普关于从阿富汗撤军的声明",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "特朗普向顾问透露撤军计划",
+      "support_text": "特朗普向顾问透露撤军计划",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "谈判可能不会阻止冲突",
+      "support_text": "谈判可能不会阻止冲突",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "谈判可能导致美国参与结束",
+      "support_text": "谈判可能导致美国参与结束",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_24",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦清真寺遭遇炸弹袭击",
+      "support_text": "巴基斯坦清真寺遭遇炸弹袭击",
+      "source_text": "text_98"
+    },
+    {
+      "id": "text_98_node_25",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "塔利班成员向NBC确认谈判继续",
+      "support_text": "塔利班成员向NBC确认谈判继续",
+      "source_text": "text_98"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_98_node_1",
+      "target": "text_98_node_2",
+      "relation": "before",
+      "support_text": "The groom, identified only as Mirwais, told Afghan news channel TOLOnews that the blast went off as the marriage ceremony was about to get underway."
+    },
+    {
+      "source": "text_98_node_1",
+      "target": "text_98_node_3",
+      "relation": "before",
+      "support_text": "Amid the carnage were blood-covered chairs, crushed music speakers and a pile of abandoned shoes."
+    },
+    {
+      "source": "text_98_node_4",
+      "target": "text_98_node_6",
+      "relation": "before",
+      "support_text": "Taliban spokesman Zabihullah Mujahid on Sunday sought to emphasize the claim that his group condemned the attack."
+    },
+    {
+      "source": "text_98_node_5",
+      "target": "text_98_node_1",
+      "relation": "before",
+      "support_text": "Afghan President Ashraf Ghani didn't mince words. 'Taliban cannot absolve themselves of blame, for they provide platform for terrorists,' Ghani said on Twitter before the ISIS claim of responsibility."
+    },
+    {
+      "source": "text_98_node_5",
+      "target": "text_98_node_4",
+      "relation": "before",
+      "support_text": "Afghan President Ashraf Ghani didn't mince words. 'Taliban cannot absolve themselves of blame, for they provide platform for terrorists,' Ghani said on Twitter before the ISIS claim of responsibility."
+    },
+    {
+      "source": "text_98_node_6",
+      "target": "text_98_node_7",
+      "relation": "before",
+      "support_text": "Pakistan government also denounced the bombing, saying in a statement it 'strongly condemns the heinous bomb attack targeting civilians."
+    },
+    {
+      "source": "text_98_node_8",
+      "target": "text_98_node_1",
+      "relation": "before",
+      "support_text": "Saturday's blast was the second major attack in the capital this month. On Aug. 7, a Taliban suicide car bomber targeted a police station, killing 14 people and wounding 145, most of them civilians."
+    },
+    {
+      "source": "text_98_node_9",
+      "target": "text_98_node_10",
+      "relation": "before",
+      "support_text": "NBC News reported earlier this month that President Donald Trump had told his advisers he wanted to pull all U.S. troops out of Afghanistan by the November 2020 presidential election."
+    },
+    {
+      "source": "text_98_node_11",
+      "target": "text_98_node_12",
+      "relation": "before",
+      "support_text": "Seddiqi, the presidential spokesman, said Saturday that his government was waiting to hear the results of Trump's meeting Friday with his national security team about the negotiations."
+    }
+  ]
+}

@@ -1,0 +1,741 @@
+{
+  "nodes": [
+    {
+      "id": "text_87_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "6:45 a.m. 市长Ronald Norick主持马拉赫大楼祈祷早餐会，1,200名官员参与",
+      "support_text": "6:45 a.m. - Mayor Ronald Norick co-sponsors a prayer breakfast at the Myriad Convention Center.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "7:45 a.m. 居民Jannie Coverdale带孩子前往大楼日托中心",
+      "support_text": "7:45 a.m. - Jannie Coverdale... walks the kids to the federal day care center on the second floor of the Murrah building.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "8:45-8:55 a.m. IRS员工Nancy Ingram和FDIC员工Susan Walton进入信用合作社",
+      "support_text": "8:45 to 8:55 a.m. - Susan Walton... arrives at the building and makes her way to the credit union on the third floor... Nancy Ingram... enters the credit union.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "8:59 a.m. VA员工Dianne Dooley接到同事迟到通知",
+      "support_text": "8:59 a.m. - A co-worker calls Dianne Dooley... talks to him for about two minutes.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "9:02 a.m. 炸弹在第三楼信用合作社引爆，摧毁北面外墙并引发大规模坍塌",
+      "support_text": "9:02 a.m. - As Dooley pushes open a door... the bomb exploded.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "9:04 a.m. 警察Larry Dellinger抵达现场开始初期救援",
+      "support_text": "9:04 a.m. - Highway patrolman Larry Dellinger arrives on the south side of the building.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "9:07 a.m. 爆炸冲击波导致玻璃持续坠落五分钟",
+      "support_text": "9:07 a.m. - Glass blown into the air is still falling.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "9:19 a.m. 警察应急响应队正式激活",
+      "support_text": "9:19 a.m. - The police department's Emergency Response Team... is activated.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_9",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "9:20 a.m. 受伤的Dianne Dooley被送医治疗",
+      "support_text": "9:20 a.m. - Dianne Dooley... arrives at the hospital with a shattered right wrist.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "9:30 a.m. 副警长向Jannie Coverdale通报爆炸事件",
+      "support_text": "9:30 a.m. - A deputy U.S. marshal tells Jannie Coverdale... someone exploded a bomb at the Murrah Building.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "9:32 a.m. 现场已集结69名警察参与救援",
+      "support_text": "9:32 a.m. - A total of 69 OKC police and highway patrol officers have helped in the rescue by this time.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_12",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "9:45 a.m. Dianne Dooley接受手腕和手掌手术",
+      "support_text": "9:45 a.m. - Dianne Dooley goes into surgery, and specialists begin repairing her mangled right hand.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "10:00 a.m. VA心理学家Paul Heath确认大楼遭轰炸",
+      "support_text": "10:00 a.m. - VA psychologist Paul Heath... realized it had been bombed.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "10:28 a.m. 救援发现疑似第二枚炸弹，全员撤离",
+      "support_text": "10:28 a.m. - Rescuers find what they think is a second bomb. All rescuers are ordered to leave the building.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "10:29 a.m. Dellinger团队坚持继续救援Nancy Ingram",
+      "support_text": "10:29 a.m. - Highway patrolman Dellinger and other rescuers... refuse to leave the building.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_16",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "10:30 a.m. 涉事者Timothy McVeigh因无牌驾驶被捕",
+      "support_text": "10:30 a.m. - Timothy McVeigh is pulled over by an Oklahoma Highway patrolman... He is arrested.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "10:35-11:15 a.m. Dellinger团队成功解救被埋Nancy Ingram",
+      "support_text": "10:35 a.m. to 11:15 a.m. - Sometime during this period Dellinger and the others are able to lift a huge piece of concrete wall off of Ingram's feet.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "11:22 a.m. 炸弹 squad确认无第二枚炸弹",
+      "support_text": "11:22 a.m. - The bomb squad reports that there is no second bomb.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "11:23 a.m. 多部门联合指挥中心正式成立",
+      "support_text": "11:23 a.m. - A main command post is established with agency heads... all meeting there.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_20",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "11:45 a.m. 野战医院在邮局设立完成",
+      "support_text": "11:45 a.m. - A field hospital is set up in the post office across street.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "11:55 a.m. 警察设立受害者家属支持中心",
+      "support_text": "11:55 a.m. - An OKC police chaplain sets up support center.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Early afternoon 州长Keating宣布进入州级灾难状态",
+      "support_text": "Early afternoon - Oklahoma Gov. Keating officially declares a state disaster.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2 p.m. 州长与救援指挥团队会商",
+      "support_text": "2 p.m. - Gov. Keating goes to site and meets with those leading the rescue operation.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_24",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Mid-afternoon Dellinger成功救出地下室被困女性",
+      "support_text": "Mid-afternoon - Larry Dellinger helps free a woman trapped in the basement.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_25",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "3:05 p.m. 总统克林顿举行首次白宫记者会",
+      "support_text": "3:05 p.m. - President Clinton addresses White House reporters.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "4:30 p.m. 克林顿宣布联邦灾难区并启动FEMA援助",
+      "support_text": "4:30 p.m. - President Clinton declares the site... a federal disaster area.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_27",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "5:00 p.m. 炸弹残留物证据回收行动开始",
+      "support_text": "5:00 p.m. - Federal and local bomb squads start evidence recovery.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_28",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "7:00 p.m. 救援人员发现最后幸存者Brandi Liggons",
+      "support_text": "7:00 p.m. - Rescuers find Brandi Liggons, 15, trapped in the rubble.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_29",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "9-10 p.m. 15岁少女Brandi Liggons被成功救出",
+      "support_text": "9 to 10 p.m. - Liggons is brought out of the building.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_30",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "11:00 p.m. 累计死亡人数升至31人（含12名儿童）",
+      "support_text": "11:00 p.m. - The death toll is at 31, including 12 children.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_31",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡车装载燃油和化肥",
+      "support_text": "卡车装载燃油和化肥",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_32",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "卡车被开往城市",
+      "support_text": "卡车被开往城市",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_33",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡车停放在大楼北侧",
+      "support_text": "卡车停放在大楼北侧",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_34",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "40英里外的人感受到震动",
+      "support_text": "40英里外的人感受到震动",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_35",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "冲击波击碎所有商业区窗户",
+      "support_text": "冲击波击碎所有商业区窗户",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_36",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "168人（含19名儿童和2名救援员）因爆炸死亡",
+      "support_text": "168人（含19名儿童和2名救援员）因爆炸死亡",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_37",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "近600人受伤",
+      "support_text": "近600人受伤",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_38",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Patti Hall按压空气清新剂喷雾器",
+      "support_text": "Patti Hall按压空气清新剂喷雾器",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_39",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "高温气浪以7000mph速度撕裂卡车金属壁",
+      "support_text": "高温气浪以7000mph速度撕裂卡车金属壁",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_40",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Martha Washington感到房屋震动",
+      "support_text": "Martha Washington感到房屋震动",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_41",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Martha Washington听到爆炸声",
+      "support_text": "Martha Washington听到爆炸声",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_42",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹冲击波剥离建筑北侧",
+      "support_text": "炸弹冲击波剥离建筑北侧",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_43",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "冲击波将人员与水泥抛入地下室",
+      "support_text": "冲击波将人员与水泥抛入地下室",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_44",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Dooley被抛到地面",
+      "support_text": "Dooley被抛到地面",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_45",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Shaw从二楼坠落",
+      "support_text": "Shaw从二楼坠落",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_46",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shaw被困在瓦砾中",
+      "support_text": "Shaw被困在瓦砾中",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_47",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hall和Walton被水泥和管道掩埋",
+      "support_text": "Hall和Walton被水泥和管道掩埋",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_50",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "人员已安全撤离",
+      "support_text": "人员已安全撤离",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_51",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "警员开始帮助人员",
+      "support_text": "警员开始帮助人员",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_52",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "警员开始抵达",
+      "support_text": "警员开始抵达",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_48",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "保罗·希思看到建筑损毁的北部区域",
+      "support_text": "保罗·希思看到建筑损毁的北部区域",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_49",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方清空建筑周边四条街区",
+      "support_text": "警方清空建筑周边四条街区",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_53",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "简要汇报救援和调查进展",
+      "support_text": "简要汇报救援和调查进展",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_54",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "命令提供联邦资源",
+      "support_text": "命令提供联邦资源",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_55",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "被拒绝进入建筑",
+      "support_text": "被拒绝进入建筑",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_56",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "在此等待至周六",
+      "support_text": "在此等待至周六",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_57",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "希望找到幸存者",
+      "support_text": "希望找到幸存者",
+      "source_text": "text_87"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_87_node_1",
+      "target": "text_87_node_2",
+      "relation": "before",
+      "support_text": "7:45 a.m. - Jannie Coverdale... walks the kids to the federal day care center."
+    },
+    {
+      "source": "text_87_node_2",
+      "target": "text_87_node_3",
+      "relation": "before",
+      "support_text": "8:45 to 8:55 a.m. - Susan Walton... arrives at the building."
+    },
+    {
+      "source": "text_87_node_3",
+      "target": "text_87_node_4",
+      "relation": "before",
+      "support_text": "8:59 a.m. - A co-worker calls Dianne Dooley."
+    },
+    {
+      "source": "text_87_node_4",
+      "target": "text_87_node_5",
+      "relation": "before",
+      "support_text": "9:02 a.m. - As Dooley pushes open a door... the bomb exploded."
+    },
+    {
+      "source": "text_87_node_5",
+      "target": "text_87_node_6",
+      "relation": "before",
+      "support_text": "9:04 a.m. - Highway patrolman Larry Dellinger arrives."
+    },
+    {
+      "source": "text_87_node_5",
+      "target": "text_87_node_7",
+      "relation": "before",
+      "support_text": "9:07 a.m. - Glass blown into the air is still falling."
+    },
+    {
+      "source": "text_87_node_6",
+      "target": "text_87_node_8",
+      "relation": "before",
+      "support_text": "9:19 a.m. - The police department's Emergency Response Team... is activated."
+    },
+    {
+      "source": "text_87_node_6",
+      "target": "text_87_node_50",
+      "relation": "before",
+      "support_text": "9:04 a.m. 警察Larry Dellinger抵达现场开始初期救援"
+    },
+    {
+      "source": "text_87_node_8",
+      "target": "text_87_node_9",
+      "relation": "before",
+      "support_text": "9:20 a.m. - Dianne Dooley... arrives at the hospital."
+    },
+    {
+      "source": "text_87_node_9",
+      "target": "text_87_node_10",
+      "relation": "before",
+      "support_text": "9:30 a.m. - A deputy U.S. marshal tells Jannie Coverdale."
+    },
+    {
+      "source": "text_87_node_9",
+      "target": "text_87_node_50",
+      "relation": "before",
+      "support_text": "9:20 a.m. 受伤的Dianne Dooley被送医治疗"
+    },
+    {
+      "source": "text_87_node_10",
+      "target": "text_87_node_11",
+      "relation": "before",
+      "support_text": "9:32 a.m. - A total of 69 OKC police... have helped in the rescue."
+    },
+    {
+      "source": "text_87_node_11",
+      "target": "text_87_node_12",
+      "relation": "before",
+      "support_text": "9:45 a.m. - Dianne Dooley goes into surgery."
+    },
+    {
+      "source": "text_87_node_12",
+      "target": "text_87_node_13",
+      "relation": "before",
+      "support_text": "10:00 a.m. - VA psychologist Paul Heath... realized it had been bombed."
+    },
+    {
+      "source": "text_87_node_12",
+      "target": "text_87_node_47",
+      "relation": "before",
+      "support_text": "9:45 a.m. - Dianne Dooley goes into surgery, and specialists begin repairing her mangled right hand."
+    },
+    {
+      "source": "text_87_node_13",
+      "target": "text_87_node_14",
+      "relation": "before",
+      "support_text": "10:28 a.m. - Rescuers find what they think is a second bomb."
+    },
+    {
+      "source": "text_87_node_13",
+      "target": "text_87_node_48",
+      "relation": "before",
+      "support_text": "10:00 a.m. - VA psychologist Paul Heath... realized it had been bombed."
+    },
+    {
+      "source": "text_87_node_14",
+      "target": "text_87_node_15",
+      "relation": "before",
+      "support_text": "10:29 a.m. - Highway patrolman Dellinger... refuse to leave the building."
+    },
+    {
+      "source": "text_87_node_15",
+      "target": "text_87_node_16",
+      "relation": "before",
+      "support_text": "10:30 a.m. - Timothy McVeigh is pulled over by an Oklahoma Highway patrolman."
+    },
+    {
+      "source": "text_87_node_15",
+      "target": "text_87_node_50",
+      "relation": "before",
+      "support_text": "10:29 a.m. - Highway patrolman Dellinger and other rescuers refuse to leave the building."
+    },
+    {
+      "source": "text_87_node_16",
+      "target": "text_87_node_17",
+      "relation": "before",
+      "support_text": "10:35 a.m. to 11:15 a.m. - Sometime during this period Dellinger and the others are able to lift a huge piece of concrete wall."
+    },
+    {
+      "source": "text_87_node_16",
+      "target": "text_87_node_49",
+      "relation": "before",
+      "support_text": "10:30 a.m. - Timothy McVeigh is pulled over by an Oklahoma Highway patrolman."
+    },
+    {
+      "source": "text_87_node_17",
+      "target": "text_87_node_18",
+      "relation": "before",
+      "support_text": "11:22 a.m. - The bomb squad reports that there is no second bomb."
+    },
+    {
+      "source": "text_87_node_18",
+      "target": "text_87_node_19",
+      "relation": "before",
+      "support_text": "11:23 a.m. - A main command post is established with agency heads... all meeting there."
+    },
+    {
+      "source": "text_87_node_19",
+      "target": "text_87_node_20",
+      "relation": "before",
+      "support_text": "11:45 a.m. - A field hospital is set up in the post office across street."
+    },
+    {
+      "source": "text_87_node_20",
+      "target": "text_87_node_21",
+      "relation": "before",
+      "support_text": "11:55 a.m. - An OKC police chaplain sets up support center."
+    },
+    {
+      "source": "text_87_node_21",
+      "target": "text_87_node_22",
+      "relation": "before",
+      "support_text": "Early afternoon - Oklahoma Gov. Keating officially declares a state disaster."
+    },
+    {
+      "source": "text_87_node_22",
+      "target": "text_87_node_23",
+      "relation": "before",
+      "support_text": "2 p.m. - Gov. Keating goes to site and meets with those leading the rescue operation."
+    },
+    {
+      "source": "text_87_node_23",
+      "target": "text_87_node_24",
+      "relation": "before",
+      "support_text": "Mid-afternoon - Larry Dellinger helps free a woman trapped in the basement."
+    },
+    {
+      "source": "text_87_node_24",
+      "target": "text_87_node_25",
+      "relation": "before",
+      "support_text": "3:05 p.m. - President Clinton addresses White House reporters."
+    },
+    {
+      "source": "text_87_node_25",
+      "target": "text_87_node_26",
+      "relation": "before",
+      "support_text": "4:30 p.m. - President Clinton declares the site... a federal disaster area."
+    },
+    {
+      "source": "text_87_node_26",
+      "target": "text_87_node_27",
+      "relation": "before",
+      "support_text": "5:00 p.m. - Federal and local bomb squads start evidence recovery."
+    },
+    {
+      "source": "text_87_node_27",
+      "target": "text_87_node_28",
+      "relation": "before",
+      "support_text": "7:00 p.m. - Rescuers find Brandi Liggons, 15, trapped in the rubble."
+    },
+    {
+      "source": "text_87_node_28",
+      "target": "text_87_node_29",
+      "relation": "before",
+      "support_text": "9 to 10 p.m. - Liggons is brought out of the building."
+    },
+    {
+      "source": "text_87_node_29",
+      "target": "text_87_node_30",
+      "relation": "before",
+      "support_text": "11:00 p.m. - The death toll is at 31, including 12 children."
+    },
+    {
+      "source": "text_87_node_50",
+      "target": "text_87_node_51",
+      "relation": "before",
+      "support_text": "人员已安全撤离"
+    },
+    {
+      "source": "text_87_node_51",
+      "target": "text_87_node_52",
+      "relation": "before",
+      "support_text": "警员开始帮助人员"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-27">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="english_label" type="string" />
+      <attribute id="1" title="weight" type="double" />
+      <attribute id="2" title="category" type="string" />
+      <attribute id="3" title="full_type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Cognitive &gt; IdentifyCategorize &gt; Unspecified" label="识别/分类">
+        <attvalues>
+          <attvalue for="0" value="IdentifyCategorize" />
+          <attvalue for="1" value="7.7894736842105265" />
+          <attvalue for="2" value="Cognitive" />
+          <attvalue for="3" value="Cognitive &gt; IdentifyCategorize &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Control &gt; ImpedeInterfereWith &gt; Unspecified" label="阻碍/干扰">
+        <attvalues>
+          <attvalue for="0" value="ImpedeInterfereWith" />
+          <attvalue for="1" value="5.105263157894737" />
+          <attvalue for="2" value="Control" />
+          <attvalue for="3" value="Control &gt; ImpedeInterfereWith &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Conflict &gt; Attack &gt; DetonateExplode" label="攻击/袭击&#10;(引爆/爆炸)">
+        <attvalues>
+          <attvalue for="0" value="Attack" />
+          <attvalue for="1" value="2.8421052631578947" />
+          <attvalue for="2" value="Conflict" />
+          <attvalue for="3" value="Conflict &gt; Attack &gt; DetonateExplode" />
+        </attvalues>
+      </node>
+      <node id="Cognitive &gt; Inspection &gt; SensoryObserve" label="视察/检查&#10;(观察/目击)">
+        <attvalues>
+          <attvalue for="0" value="Inspection" />
+          <attvalue for="1" value="2.210526315789474" />
+          <attvalue for="2" value="Cognitive" />
+          <attvalue for="3" value="Cognitive &gt; Inspection &gt; SensoryObserve" />
+        </attvalues>
+      </node>
+      <node id="Conflict &gt; Attack &gt; Unspecified" label="攻击/袭击">
+        <attvalues>
+          <attvalue for="0" value="Attack" />
+          <attvalue for="1" value="1.736842105263158" />
+          <attvalue for="2" value="Conflict" />
+          <attvalue for="3" value="Conflict &gt; Attack &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Movement &gt; Transportation &gt; Unspecified" label="运输/移动">
+        <attvalues>
+          <attvalue for="0" value="Transportation" />
+          <attvalue for="1" value="1.5263157894736843" />
+          <attvalue for="2" value="Movement" />
+          <attvalue for="3" value="Movement &gt; Transportation &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Cognitive &gt; Research &gt; Unspecified" label="调查/研究">
+        <attvalues>
+          <attvalue for="0" value="Research" />
+          <attvalue for="1" value="1.2105263157894737" />
+          <attvalue for="2" value="Cognitive" />
+          <attvalue for="3" value="Cognitive &gt; Research &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Contact &gt; Contact &gt; Broadcast" label="广播/声明">
+        <attvalues>
+          <attvalue for="0" value="Contact" />
+          <attvalue for="1" value="1.0526315789473684" />
+          <attvalue for="2" value="Contact" />
+          <attvalue for="3" value="Contact &gt; Contact &gt; Broadcast" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; TrialHearing &gt; Unspecified" label="TrialHearing">
+        <attvalues>
+          <attvalue for="0" value="TrialHearing" />
+          <attvalue for="1" value="0.8947368421052632" />
+          <attvalue for="2" value="Justice" />
+          <attvalue for="3" value="Justice &gt; TrialHearing &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Justice &gt; ChargeIndict &gt; Unspecified" label="指控/起诉">
+        <attvalues>
+          <attvalue for="0" value="ChargeIndict" />
+          <attvalue for="1" value="0.7368421052631579" />
+          <attvalue for="2" value="Justice" />
+          <attvalue for="3" value="Justice &gt; ChargeIndict &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Transaction &gt; ExchangeBuySell &gt; Unspecified" label="交易/买卖">
+        <attvalues>
+          <attvalue for="0" value="ExchangeBuySell" />
+          <attvalue for="1" value="0.7368421052631579" />
+          <attvalue for="2" value="Transaction" />
+          <attvalue for="3" value="Transaction &gt; ExchangeBuySell &gt; Unspecified" />
+        </attvalues>
+      </node>
+      <node id="Movement &gt; Transportation &gt; Evacuation" label="疏散/撤离">
+        <attvalues>
+          <attvalue for="0" value="Transportation" />
+          <attvalue for="1" value="0.6842105263157895" />
+          <attvalue for="2" value="Movement" />
+          <attvalue for="3" value="Movement &gt; Transportation &gt; Evacuation" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Justice &gt; TrialHearing &gt; Unspecified" id="0" weight="0.3684210526315789" />
+      <edge source="Cognitive &gt; IdentifyCategorize &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="1" weight="0.21052631578947367" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="2" weight="1.0526315789473684" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Transaction &gt; ExchangeBuySell &gt; Unspecified" id="3" weight="0.2631578947368421" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Justice &gt; TrialHearing &gt; Unspecified" id="4" weight="0.15789473684210525" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Justice &gt; ChargeIndict &gt; Unspecified" id="5" weight="0.15789473684210525" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="6" weight="0.15789473684210525" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Movement &gt; Transportation &gt; Evacuation" id="7" weight="0.10526315789473684" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Contact &gt; Contact &gt; Broadcast" id="8" weight="0.10526315789473684" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Conflict &gt; Attack &gt; Unspecified" id="9" weight="0.10526315789473684" />
+      <edge source="Control &gt; ImpedeInterfereWith &gt; Unspecified" target="Cognitive &gt; Research &gt; Unspecified" id="10" weight="0.10526315789473684" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="11" weight="1.2105263157894737" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="12" weight="0.631578947368421" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="13" weight="0.3684210526315789" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Movement &gt; Transportation &gt; Evacuation" id="14" weight="0.2631578947368421" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Contact &gt; Contact &gt; Broadcast" id="15" weight="0.21052631578947367" />
+      <edge source="Conflict &gt; Attack &gt; DetonateExplode" target="Cognitive &gt; Research &gt; Unspecified" id="16" weight="0.15789473684210525" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="17" weight="0.8947368421052632" />
+      <edge source="Cognitive &gt; Inspection &gt; SensoryObserve" target="Cognitive &gt; Research &gt; Unspecified" id="18" weight="0.2631578947368421" />
+      <edge source="Conflict &gt; Attack &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="19" weight="0.3157894736842105" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Conflict &gt; Attack &gt; DetonateExplode" id="20" weight="0.3684210526315789" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Cognitive &gt; Inspection &gt; SensoryObserve" id="21" weight="0.21052631578947367" />
+      <edge source="Movement &gt; Transportation &gt; Unspecified" target="Control &gt; ImpedeInterfereWith &gt; Unspecified" id="22" weight="0.15789473684210525" />
+      <edge source="Contact &gt; Contact &gt; Broadcast" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="23" weight="0.21052631578947367" />
+      <edge source="Justice &gt; ChargeIndict &gt; Unspecified" target="Cognitive &gt; IdentifyCategorize &gt; Unspecified" id="24" weight="0.2631578947368421" />
+    </edges>
+  </graph>
+</gexf>

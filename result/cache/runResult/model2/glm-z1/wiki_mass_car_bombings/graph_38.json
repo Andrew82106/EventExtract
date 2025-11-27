@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "text_38_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴塞罗那Hipercor百货公司停车场发生汽车炸弹爆炸，造成15人死亡、39人受伤",
+      "support_text": "A car bomb exploded in a department store parking garage here today, killing 15 people and wounding 39, the authorities said.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "匿名电话称爆炸由巴斯克分离主义组织ETA负责，由西班牙新闻 agency EFE报道",
+      "support_text": "A telephone caller said the Basque separatist organization E.T.A. was responsible, the Spanish news agency EFE reported.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "此次爆炸是ETA自1968年暴力独立运动开始以来宣称的最致命袭击",
+      "support_text": "The bombing is the deadliest to be claimed by E.T.A. since it began its violent campaign for independence in 1968.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "ETA此前宣称制造的死亡事件总数接近600起，受害者主要为警察和军人",
+      "support_text": "Before today, the Basque group had taken responsibility for killing nearly 600 people, but most of their victims were police officers, Civil Guards and military officers.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "西班牙首相费利佩·冈萨雷斯中断巴西访问紧急回国应对事件",
+      "support_text": "Prime Minister Felipe Gonzalez cut short a visit to Brazil to return to Spain.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致停车场天花板坍塌并引发火灾，浓烟弥漫多楼层",
+      "support_text": "The explosion caused a ceiling to collapse in a shopping area of the Hipercor department store in central Barcelona and started a fire that filled several levels of the parking garage with smoke.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴塞罗那民事总督宣布7人遇难，包括5名男性、5名女性和3名儿童",
+      "support_text": "The civil governor of Barcelona, Ferran Cardenal, said seven men, five women and three children were killed.",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "冈萨雷斯向记者陈述事件",
+      "support_text": "冈萨雷斯向记者陈述",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府试图改变策略",
+      "support_text": "政府试图改变策略",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府试图迫使对方政府改变策略",
+      "support_text": "政府试图迫使对方政府改变策略",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府拒绝向无差别暴力让步",
+      "support_text": "政府拒绝向无差别暴力让步",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府继续打击恐怖主义",
+      "support_text": "政府继续打击恐怖主义",
+      "source_text": "text_38"
+    },
+    {
+      "id": "text_38_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府进行反恐行动",
+      "support_text": "政府进行反恐行动",
+      "source_text": "text_38"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_38_node_1",
+      "target": "text_38_node_2",
+      "relation": "before",
+      "support_text": "A telephone caller said the Basque separatist organization E.T.A. was responsible, the Spanish news agency EFE reported."
+    },
+    {
+      "source": "text_38_node_1",
+      "target": "text_38_node_3",
+      "relation": "before",
+      "support_text": "The bombing is the deadliest to be claimed by E.T.A. since it began its violent campaign for independence in 1968."
+    },
+    {
+      "source": "text_38_node_1",
+      "target": "text_38_node_6",
+      "relation": "before",
+      "support_text": "The explosion caused a ceiling to collapse in a shopping area of the Hipercor department store in central Barcelona and started a fire that filled several levels of the parking garage with smoke."
+    },
+    {
+      "source": "text_38_node_4",
+      "target": "text_38_node_3",
+      "relation": "before",
+      "support_text": "Before today, the Basque group had taken responsibility for killing nearly 600 people, but most of their victims were police officers, Civil Guards and military officers."
+    },
+    {
+      "source": "text_38_node_5",
+      "target": "text_38_node_7",
+      "relation": "before",
+      "support_text": "The civil governor of Barcelona, Ferran Cardenal, said seven men, five women and three children were killed."
+    },
+    {
+      "source": "text_38_node_5",
+      "target": "text_38_node_8",
+      "relation": "before",
+      "support_text": "冈萨雷斯在回国后向记者陈述"
+    },
+    {
+      "source": "text_38_node_6",
+      "target": "text_38_node_7",
+      "relation": "before",
+      "support_text": "The explosion caused a ceiling to collapse in a shopping area of the Hipercor department store in central Barcelona and started a fire that filled several levels of the parking garage with smoke."
+    },
+    {
+      "source": "text_38_node_8",
+      "target": "text_38_node_9",
+      "relation": "before",
+      "support_text": "陈述后政府开始调整策略"
+    },
+    {
+      "source": "text_38_node_9",
+      "target": "text_38_node_10",
+      "relation": "before",
+      "support_text": "尝试调整策略后转为强制措施"
+    },
+    {
+      "source": "text_38_node_10",
+      "target": "text_38_node_11",
+      "relation": "before",
+      "support_text": "强制措施引发拒绝暴力对话"
+    },
+    {
+      "source": "text_38_node_11",
+      "target": "text_38_node_12",
+      "relation": "before",
+      "support_text": "拒绝暴力后持续反恐行动"
+    },
+    {
+      "source": "text_38_node_12",
+      "target": "text_38_node_13",
+      "relation": "before",
+      "support_text": "持续打击恐怖主义升级为系统性行动"
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "nodes": [
+    {
+      "id": "text_19_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "1998年2月，本·拉登发布针对美国的 Fatwa，为后续袭击提供意识形态动机",
+      "support_text": "According to the 9/11 Commission Report claims that preparations began shortly after bin Laden issued his February 1998 fatwa.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1998年5月，基地组织成员在肯尼亚购买别墅并购买两辆改装卡车用于制造炸弹",
+      "support_text": "In May 1998, a villa in Nairobi was purchased by one of the bombers to enable a bomb to be built in the garage. Sheikh Ahmed Salim Swedan purchased a beige Toyota Dyna truck in Nairobi and a 1987 Nissan Atlas refrigeration truck in Dar es Salaam.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "GrantAllowPassage",
+      "description": "1998年6-7月，美国与阿尔巴尼亚合作将4名埃及伊斯兰抵抗运动成员引渡至埃及接受审讯",
+      "support_text": "Between June and July, Ahmad Isma'il 'Uthman Saleh, Ahmad Ibrahim al-Sayyid al-Naggar, Shawqi Salama Mustafa Atiya and Mohamed Hassan Tita were all renditioned from Albania to Egypt, with the co-operation of the United States.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1998年8月7日，东非两座美国使馆遭卡车炸弹袭击，造成253人死亡（肯尼亚213人，坦桑尼亚11人）",
+      "support_text": "On August 7 between 10:30 a.m. and 10:40 a.m. local time (3:30–3:40 a.m. EDT), suicide bombers in trucks laden with explosives parked outside the embassies in Dar es Salaam and Nairobi, and almost simultaneously detonated.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击后美国发动「无限打击」行动，对苏丹和阿富汗目标实施导弹袭击",
+      "support_text": "President Bill Clinton ordered Operation Infinite Reach, a series of cruise missile strikes on targets in Sudan and Afghanistan on August 20, 1998, announcing the planned strike in a prime time address on U.S. television.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国安理会通过第1189号决议，谴责使馆袭击并要求成员国合作打击恐怖主义",
+      "support_text": "The United Nations Security Council passed Resolution 1189 condemning the attacks on the embassies.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_7",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚加入美国反恐援助计划，双边反恐合作机制正式启动",
+      "support_text": "The U.S. government also rapidly and permanently increased the monetary aid to Kenya. Immediate changes included a $42 million grant targeted specifically towards Kenyan victims.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年，受害者代表向苏丹提起外交主权豁免法诉讼，指控其庇护袭击者",
+      "support_text": "In 2001, lead plaintiff James Owens and others filed a civil lawsuit against Sudan, for its role in the attack, under the Foreign Sovereign Immunities Act with the recently-added 1996 amendments for state-sponsored terrorism.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年，美国国会修订《外国主权豁免法》，使1998年诉讼具备法律追溯效力",
+      "support_text": "Congress amended the Foreign Sovereign Immunities Act in 2008 to correct this and to allow its provisions to retroactively apply to existing lawsuits, including Owens' case.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2020年，美国最高法院裁定对苏丹的惩罚性赔偿可追溯至1998年案件",
+      "support_text": "By 2014, the district court awarded the plaintiffs over $10 billion. Sudan, which had not appeared during the initial lawsuit, appealed the judgment... Congress amended the Foreign Sovereign Immunities Act in 2008... In 2020, the U.S. Supreme Court ruled that the punitive damages against Sudan could be retroactively applied to the 1998 case.",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击与埃及伊斯兰圣战分子有关联",
+      "support_text": "袭击与埃及伊斯兰圣战分子有关联",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击首次引起美国公众对基地组织的注意",
+      "support_text": "袭击首次引起美国公众对基地组织的注意",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致FBI将本拉登列入通缉名单",
+      "support_text": "袭击导致FBI将本拉登列入通缉名单",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "FBI将本拉登列入十大通缉犯名单",
+      "support_text": "FBI将本拉登列入十大通缉犯名单",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "FBI将袭击与阿塞拜疆联系起来",
+      "support_text": "FBI将袭击与阿塞拜疆联系起来",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "本拉登向巴库联系人拨打电话",
+      "support_text": "本拉登向巴库联系人拨打电话",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Fazul等人被认定为爆炸案主谋",
+      "support_text": "Fazul等人被认定为爆炸案主谋",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "六根金属棒被用于制作卡车尾部的炸弹笼",
+      "support_text": "六根金属棒被用于制作卡车尾部的炸弹笼",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_19",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "KK Mohamed租赁达累斯萨拉姆的213号房屋",
+      "support_text": "KK Mohamed租赁达累斯萨拉姆的213号房屋",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_20",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "白色 Suzuki Samurai 运输藏于米袋中的炸弹组件",
+      "support_text": "白色 Suzuki Samurai 运输藏于米袋中的炸弹组件",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_21",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Mohammed Odeh监督内罗毕和达累斯萨拉姆的巨型炸弹制造",
+      "support_text": "Mohammed Odeh监督内罗毕和达累斯萨拉姆的巨型炸弹制造",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "将炸药装入二十个特制木箱",
+      "support_text": "将炸药装入二十个特制木箱",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_23",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Mushin Musa Matwalli Atwah连接炸弹导线至卡车电池和引信开关",
+      "support_text": "Mushin Musa Matwalli Atwah连接炸弹导线至卡车电池和引信开关",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_24",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "TNT被固定在氧气罐和气体罐上",
+      "support_text": "TNT被固定在氧气罐和气体罐上",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_25",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "内罗毕爆炸导致4000人受伤",
+      "support_text": "内罗毕爆炸导致4000人受伤",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_26",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "达累斯萨拉姆爆炸导致85人受伤",
+      "support_text": "达累斯萨拉姆爆炸导致85人受伤",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_27",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "地震读数分析爆炸物能量",
+      "support_text": "地震读数分析爆炸物能量",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_28",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Azzam驾驶丰田Dyna驶向内罗毕使馆",
+      "support_text": "Azzam驾驶丰田Dyna驶向内罗毕使馆",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_29",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "安保人员Bwaku被要求立即开门",
+      "support_text": "安保人员Bwaku被要求立即开门",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_30",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "拒绝开门后安保人员Bwaku遭枪击",
+      "support_text": "拒绝开门后安保人员Bwaku遭枪击",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_31",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Owhali向使馆安保投掷催泪弹",
+      "support_text": "Al-Owhali向使馆安保投掷催泪弹",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_32",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Al-Owhali下车逃离",
+      "support_text": "Al-Owhali下车逃离",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_33",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bwaku向海军基地请求支援",
+      "support_text": "Bwaku向海军基地请求支援",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_34",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致Ufundi大楼倒塌",
+      "support_text": "爆炸导致Ufundi大楼倒塌",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_35",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸热流引燃通勤巴士",
+      "support_text": "爆炸热流引燃通勤巴士",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_36",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "本拉登提供袭击解释",
+      "support_text": "本拉登提供袭击解释",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_37",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "随后有更多原告加入诉讼，最终超过700方参与",
+      "support_text": "随后有更多原告加入诉讼，最终超过700方参与",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_38",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年地方法院向原告裁决超过100亿美元",
+      "support_text": "2014年地方法院向原告裁决超过100亿美元",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_39",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "苏丹主张其未理解美国民事诉讼系统",
+      "support_text": "苏丹主张其未理解美国民事诉讼系统",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_40",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "苏丹质疑2008年法律修订的追溯性",
+      "support_text": "苏丹质疑2008年法律修订的追溯性",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_41",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "上诉法院驳回苏丹关于未出庭的论点",
+      "support_text": "上诉法院驳回苏丹关于未出庭的论点",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_42",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "上诉法院维持苏丹对轰炸事件的责任认定",
+      "support_text": "上诉法院维持苏丹对轰炸事件的责任认定",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_43",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "上诉法院裁定4.3亿美元惩罚性赔偿不可追溯适用",
+      "support_text": "上诉法院裁定4.3亿美元惩罚性赔偿不可追溯适用",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_44",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "原告向最高法院申诉要求重审",
+      "support_text": "原告向最高法院申诉要求重审",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_45",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "最高法院裁定4.3亿美元惩罚性赔偿可追溯适用",
+      "support_text": "最高法院裁定4.3亿美元惩罚性赔偿可追溯适用",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_46",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查人员对1998年东非美国使馆袭击案件展开调查",
+      "support_text": "语义描述：调查人员对案件展开调查",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_47",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "检方向法院提交1998年东非美国使馆袭击案正式起诉书",
+      "support_text": "语义描述：检方向法院提交正式起诉书",
+      "source_text": "text_19"
+    },
+    {
+      "id": "text_19_node_48",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "检方对21名涉嫌策划1998年东非美国使馆袭击案的嫌疑人正式指控",
+      "support_text": "语义描述：检方对21名嫌疑人正式指控",
+      "source_text": "text_19"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_19_node_1",
+      "target": "text_19_node_3",
+      "relation": "before",
+      "support_text": "Between June and July... with the co-operation of the United States"
+    },
+    {
+      "source": "text_19_node_1",
+      "target": "text_19_node_2",
+      "relation": "before",
+      "support_text": "According to the 9/11 Commission Report claims that preparations began shortly after bin Laden issued his February 1998 fatwa."
+    },
+    {
+      "source": "text_19_node_2",
+      "target": "text_19_node_4",
+      "relation": "before",
+      "support_text": "In May 1998, a villa in Nairobi was purchased by one of the bombers..."
+    },
+    {
+      "source": "text_19_node_3",
+      "target": "text_19_node_4",
+      "relation": "before",
+      "support_text": "Between June and July... were all renditioned from Albania to Egypt"
+    },
+    {
+      "source": "text_19_node_4",
+      "target": "text_19_node_5",
+      "relation": "before",
+      "support_text": "President Bill Clinton ordered Operation Infinite Reach... on August 20, 1998"
+    },
+    {
+      "source": "text_19_node_4",
+      "target": "text_19_node_6",
+      "relation": "before",
+      "support_text": "The United Nations Security Council passed Resolution 1189 condemning the attacks on the embassies."
+    },
+    {
+      "source": "text_19_node_4",
+      "target": "text_19_node_7",
+      "relation": "before",
+      "support_text": "The U.S. government also rapidly and permanently increased the monetary aid to Kenya."
+    },
+    {
+      "source": "text_19_node_5",
+      "target": "text_19_node_6",
+      "relation": "before",
+      "support_text": "the United Nations Security Council passed Resolution 1189..."
+    },
+    {
+      "source": "text_19_node_7",
+      "target": "text_19_node_8",
+      "relation": "before",
+      "support_text": "Within months following the bombings, the United States Department of State Bureau of Diplomatic Security added Kenya to its Antiterrorism Assistance Program (ATA)..."
+    },
+    {
+      "source": "text_19_node_8",
+      "target": "text_19_node_9",
+      "relation": "before",
+      "support_text": "Congress amended the Foreign Sovereign Immunities Act in 2008 to correct this and to allow its provisions to retroactively apply to existing lawsuits, including Owens' case."
+    },
+    {
+      "source": "text_19_node_9",
+      "target": "text_19_node_10",
+      "relation": "before",
+      "support_text": "In 2020, the U.S. Supreme Court ruled that the punitive damages against Sudan could be retroactively applied to the 1998 case."
+    }
+  ]
+}

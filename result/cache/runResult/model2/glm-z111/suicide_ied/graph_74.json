@@ -1,0 +1,372 @@
+{
+  "nodes": [
+    {
+      "id": "text_74_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "土耳其外长称伊斯坦布尔两处犹太教堂爆炸系有国际联系的恐怖袭击",
+      "support_text": "Foreign Minister Abdullah Gul said 'it looks as if this is a terror attack which has international links.'",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部长表示暂未确认责任方，正在调查所有可能性",
+      "support_text": "Abdulkadir Aksu told reporters that 'no organization has claimed responsibility yet' and investigators are 'considering every possibility.'",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "媒体援引极端组织伊斯兰大东方突击队声称对爆炸负责",
+      "support_text": "Turkish media reported a claim of responsibility from the Islamic Great Eastern Raiders Front.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "警方确认两枚炸弹成分相同，均装在汽车内并近距离引爆",
+      "support_text": "Police investigators said the bombs were similar -- both contained potassium chloride and sodium nitrate -- and both were packed into station wagons.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全措施有效阻止爆炸波及教堂内部，多数伤亡为路过行人",
+      "support_text": "Officials credited tight security around the buildings for keeping the bombers from inflicting more damage inside the synagogues.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "监控录像记录到可疑车辆在爆炸前停放在教堂附近",
+      "support_text": "A surveillance camera taped a man parking a station wagon in the street. Moments later, the vehicle exploded.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Neve Shalom教堂举行成年礼仪式时遭遇爆炸，首席拉比之子受伤",
+      "support_text": "One bomb detonated about a meter from the Neve Shalom synagogue... a bar mitzvah ceremony was being held.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "该教堂曾于1986年被巴勒斯坦组织袭击，安全等级较高",
+      "support_text": "Security at Neve Shalom has been tight since it was the target of a deadly attack in 1986.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Bet Israel教堂后部遭遇第二次爆炸，引发火灾和结构损毁",
+      "support_text": "The second car bomb detonated near the Beth Israel Synagogue... caused structural damage and started fires.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_10",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯坦布尔犹太社区领袖称袭击造成6人死亡，包括8岁女孩和85岁老人",
+      "support_text": "Avi Alkas called the blasts 'a severe blow to our community,' which lost six people, including an 8-year-old girl and an 85-year-old grandmother.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "布什总统致电埃尔多安表达哀悼，重申反恐合作承诺",
+      "support_text": "Soon after the attacks, President Bush called Turkish Prime Minister Recep Tayyip Erdogan to express his condolences.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "以色列总理办公室表示将全力配合调查，强调反恐无差别性",
+      "support_text": "Prime Minister Ariel Sharon's office said it 'has absolute faith and confidence that the security and law authorities know how to catch those responsible.'",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "法国、英国、希腊等国谴责袭击，多国领导人发声支持土耳其",
+      "support_text": "France, Britain and Greece decried the Istanbul bombings.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_14",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国、以色列提供援助，土耳其与以色列军事贸易关系持续深化",
+      "support_text": "Both Israel and the United States offered to assist Turkey in any way.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸案呈现有国际联系的协调恐怖袭击特征",
+      "support_text": "爆炸案呈现有国际联系的协调恐怖袭击特征",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_16",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致至少20人死亡",
+      "support_text": "袭击导致至少20人死亡",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成超过300人受伤",
+      "support_text": "袭击造成超过300人受伤",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击震动伊斯坦布尔犹太教堂",
+      "support_text": "袭击震动伊斯坦布尔犹太教堂",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局推测袭击系境外恐怖分子所为",
+      "support_text": "当局推测袭击系境外恐怖分子所为",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖分子实施跨境协调袭击",
+      "support_text": "恐怖分子实施跨境协调袭击",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方调查人员表示炸弹相似",
+      "support_text": "警方调查人员表示炸弹相似",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹含有钾盐和硝酸盐",
+      "support_text": "炸弹含有钾盐和硝酸盐",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_23",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "警察向CNN Turk进行事件报告",
+      "support_text": "警察向CNN Turk报告",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_24",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "多数人通过后门撤离",
+      "support_text": "多数人通过后门撤离",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "火灾被迅速扑灭",
+      "support_text": "火灾被迅速扑灭",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_26",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "8岁女孩与85岁祖母在清真寺进行祈祷仪式",
+      "support_text": "女孩和祖母在清真寺祈祷",
+      "source_text": "text_74"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_74_node_1",
+      "target": "text_74_node_2",
+      "relation": "before",
+      "support_text": "Abdulkadir Aksu told reporters that 'no organization has claimed responsibility yet' and investigators are 'considering every possibility.'"
+    },
+    {
+      "source": "text_74_node_1",
+      "target": "text_74_node_3",
+      "relation": "before",
+      "support_text": "Turkish media reported a claim of responsibility from the Islamic Great Eastern Raiders Front."
+    },
+    {
+      "source": "text_74_node_1",
+      "target": "text_74_node_11",
+      "relation": "before",
+      "support_text": "Soon after the attacks, President Bush called Turkish Prime Minister Recep Tayyip Erdogan to express his condolences."
+    },
+    {
+      "source": "text_74_node_1",
+      "target": "text_74_node_23",
+      "relation": "before",
+      "support_text": "警察向CNN Turk报告"
+    },
+    {
+      "source": "text_74_node_3",
+      "target": "text_74_node_4",
+      "relation": "before",
+      "support_text": "Police investigators said the bombs were similar -- both contained potassium chloride and sodium nitrate -- and both were packed into station wagons."
+    },
+    {
+      "source": "text_74_node_6",
+      "target": "text_74_node_7",
+      "relation": "before",
+      "support_text": "A surveillance camera taped a man parking a station wagon in the street. Moments later, the vehicle exploded."
+    },
+    {
+      "source": "text_74_node_6",
+      "target": "text_74_node_9",
+      "relation": "before",
+      "support_text": "A surveillance camera taped a man parking a station wagon in the street. Moments later, the vehicle exploded."
+    },
+    {
+      "source": "text_74_node_7",
+      "target": "text_74_node_5",
+      "relation": "before",
+      "support_text": "Officials credited tight security around the buildings for keeping the bombers from inflicting more damage inside the synagogues."
+    },
+    {
+      "source": "text_74_node_7",
+      "target": "text_74_node_4",
+      "relation": "before",
+      "support_text": "Police investigators said the bombs were similar -- both contained potassium chloride and sodium nitrate -- and both were packed into station wagons."
+    },
+    {
+      "source": "text_74_node_7",
+      "target": "text_74_node_10",
+      "relation": "before",
+      "support_text": "Avi Alkas called the blasts 'a severe blow to our community,' which lost six people, including an 8-year-old girl and an 85-year-old grandmother."
+    },
+    {
+      "source": "text_74_node_7",
+      "target": "text_74_node_26",
+      "relation": "before",
+      "support_text": "成年礼仪式在爆炸前举行"
+    },
+    {
+      "source": "text_74_node_8",
+      "target": "text_74_node_7",
+      "relation": "before",
+      "support_text": "Security at Neve Shalom has been tight since it was the target of a deadly attack in 1986."
+    },
+    {
+      "source": "text_74_node_9",
+      "target": "text_74_node_5",
+      "relation": "before",
+      "support_text": "Officials credited tight security around the buildings for keeping the bombers from inflicting more damage inside the synagogues."
+    },
+    {
+      "source": "text_74_node_9",
+      "target": "text_74_node_4",
+      "relation": "before",
+      "support_text": "Police investigators said the bombs were similar -- both contained potassium chloride and sodium nitrate -- and both were packed into station wagons."
+    },
+    {
+      "source": "text_74_node_9",
+      "target": "text_74_node_10",
+      "relation": "before",
+      "support_text": "Avi Alkas called the blasts 'a severe blow to our community,' which lost six people, including an 8-year-old girl and an 85-year-old grandmother."
+    },
+    {
+      "source": "text_74_node_9",
+      "target": "text_74_node_25",
+      "relation": "before",
+      "support_text": "第二次爆炸引发火灾和结构损毁，随后火灾被迅速扑灭"
+    },
+    {
+      "source": "text_74_node_11",
+      "target": "text_74_node_12",
+      "relation": "before",
+      "support_text": "Prime Minister Ariel Sharon's office said it 'has absolute faith and confidence that the security and law authorities know how to catch those responsible.'"
+    },
+    {
+      "source": "text_74_node_12",
+      "target": "text_74_node_13",
+      "relation": "before",
+      "support_text": "France, Britain and Greece decried the Istanbul bombings."
+    },
+    {
+      "source": "text_74_node_13",
+      "target": "text_74_node_14",
+      "relation": "before",
+      "support_text": "Both Israel and the United States offered to assist Turkey in any way."
+    },
+    {
+      "source": "text_74_node_21",
+      "target": "text_74_node_4",
+      "relation": "before",
+      "support_text": "警方调查人员表示炸弹相似"
+    },
+    {
+      "source": "text_74_node_22",
+      "target": "text_74_node_4",
+      "relation": "before",
+      "support_text": "炸弹含有钾盐和硝酸盐"
+    },
+    {
+      "source": "text_74_node_23",
+      "target": "text_74_node_24",
+      "relation": "before",
+      "support_text": "多数人通过后门撤离"
+    }
+  ]
+}

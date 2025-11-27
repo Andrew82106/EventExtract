@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_52_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Breivik于2011年7月25日发布1500页宣言，提出区分文化基督教与宗教基督教",
+      "support_text": "July 25, 2011 12:37 AM EDT Anders Behring Breivik placed himself potentially outside of religious Christianity in a 1,500 page manifesto he has reportedly admitted to writing.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "宣言明确表示 Breivik及部分群体认同基督教作为文化、社会及道德框架，但无个人宗教信仰",
+      "support_text": "A majority of so called agnostics and atheists in Europe are cultural conservative Christians without even knowing it. If you have a personal relationship with Jesus Christ and God then you are a religious Christian.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Breivik在宣言中解释其自我定位为非宗教基督徒，强调受世俗环境与实用主义影响",
+      "support_text": "I'm not going to pretend I'm a very religious person as that would be a lie. I've always been very pragmatic and influenced by my secular surroundings and environment.",
+      "source_text": "text_52"
+    },
+    {
+      "id": "text_52_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Breivik在宣言中为其'殉教行动'进行辩护",
+      "support_text": "Later in the manifesto, when attempting to justify his 'martyrdom operation' Breivik did not see himself as being religious",
+      "source_text": "text_52"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_52_node_1",
+      "target": "text_52_node_2",
+      "relation": "before",
+      "support_text": "This makes us Christian"
+    },
+    {
+      "source": "text_52_node_1",
+      "target": "text_52_node_3",
+      "relation": "before",
+      "support_text": "Later in the manifesto, when attempting to justify his 'martyrdom operation' Breivik did not see himself as being religious"
+    },
+    {
+      "source": "text_52_node_1",
+      "target": "text_52_node_4",
+      "relation": "before",
+      "support_text": "宣言发布后，Breivik开始系统化为其'殉教行动'辩护"
+    }
+  ]
+}

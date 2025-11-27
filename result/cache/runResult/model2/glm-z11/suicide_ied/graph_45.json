@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "text_45_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "阿富汗首都喀布尔发生两次自杀式袭击",
+      "support_text": "double suicide attacks in the Afghan capital",
+      "source_text": "text_45"
+    },
+    {
+      "id": "text_45_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "喀布尔警方发言人更新伤亡统计为25人死亡、45人受伤",
+      "support_text": "Kabul police spokesman raises casualty toll from double suicide attacks in the Afghan capital to 25 killed, 45 wounded",
+      "source_text": "text_45"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_45_node_1",
+      "target": "text_45_node_2",
+      "relation": "before",
+      "support_text": "raises casualty toll from double suicide attacks in the Afghan capital"
+    }
+  ]
+}

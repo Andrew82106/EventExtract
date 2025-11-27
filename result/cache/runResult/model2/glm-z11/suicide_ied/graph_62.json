@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "text_62_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "NIA在六个月前调查泰米尔纳德邦的伊斯兰国支持者时，发现斯里兰卡连环爆炸案阴谋并通知印度政府",
+      "support_text": "While examining an Islamic State (IS) sympathiser in Tamil Nadu six months ago, investigators got to know of the terror plot and alerted the authorities concerned to pass on the information to Sri Lanka.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "印度情报局（IB）于4月22日向媒体确认已向斯里兰卡传递爆炸案情报",
+      "support_text": "Confirming this to The Hindu on April 22, a senior police officer said there was clear information on the plan to trigger blasts which was communicated to Sri Lanka through diplomatic channels.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "IB发布警报称恐怖分子可能通过泰米尔纳德邦、喀拉拉邦和皮杜切里邦海岸潜入印度",
+      "support_text": "The officer also said that the Intelligence Bureau had sounded an alert on the likelihood of the terror suspects escaping to India through the coasts of Tamil Nadu, Kerala and Puducherry.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度海岸安全部门与海军、海岸警卫队加强协作，监控可疑船只和人员",
+      "support_text": "Coastal security agencies are working in close coordination with the Indian Navy and Coast Guard to keep tabs on suspicious boats, suspects and strangers.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "近期挫败两起针对南部印度重要设施的恐怖计划，逮捕斯里兰卡关联的嫌疑人并查获敏感设施影像",
+      "support_text": "In the recent past, plots aimed at vital installations in southern India have been intercepted and neutralised by intelligence agencies. In two such cases, suspects working at the behest of their handlers in Sri Lanka were arrested and visuals of sensitive establishments recovered.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "调查人员对泰米尔纳德邦的伊斯兰国同情者进行审查",
+      "support_text": "While examining an Islamic State (IS) sympathiser in Tamil Nadu six months ago, investigators got to know of the terror plot and alerted the authorities concerned to pass on the information to Sri Lanka.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "高级警官向《印度教徒报》确认调查结果",
+      "support_text": "Confirming this to The Hindu on April 22, a senior police officer said there was clear information on the plan to trigger blasts which was communicated to Sri Lanka through diplomatic channels.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "装备情报机器",
+      "support_text": "语义描述：装备情报机器\n原始意义段内容：装备情报机器",
+      "source_text": "text_62"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_62_node_1",
+      "target": "text_62_node_2",
+      "relation": "before",
+      "support_text": "Confirming this to The Hindu on April 22, a senior police officer said there was clear information on the plan to trigger blasts which was communicated to Sri Lanka through diplomatic channels."
+    },
+    {
+      "source": "text_62_node_1",
+      "target": "text_62_node_6",
+      "relation": "before",
+      "support_text": "While examining an Islamic State (IS) sympathiser in Tamil Nadu six months ago, investigators got to know of the terror plot and alerted the authorities concerned to pass on the information to Sri Lanka."
+    },
+    {
+      "source": "text_62_node_2",
+      "target": "text_62_node_3",
+      "relation": "before",
+      "support_text": "The officer also said that the Intelligence Bureau had sounded an alert on the likelihood of the terror suspects escaping to India through the coasts of Tamil Nadu, Kerala and Puducherry."
+    },
+    {
+      "source": "text_62_node_3",
+      "target": "text_62_node_4",
+      "relation": "before",
+      "support_text": "Coastal security agencies are working in close coordination with the Indian Navy and Coast Guard to keep tabs on suspicious boats, suspects and strangers."
+    },
+    {
+      "source": "text_62_node_3",
+      "target": "text_62_node_8",
+      "relation": "before",
+      "support_text": "语义描述：装备情报机器需在发出警报后实施"
+    },
+    {
+      "source": "text_62_node_4",
+      "target": "text_62_node_5",
+      "relation": "before",
+      "support_text": "In the recent past, plots aimed at vital installations in southern India have been intercepted and neutralised by intelligence agencies."
+    },
+    {
+      "source": "text_62_node_6",
+      "target": "text_62_node_7",
+      "relation": "before",
+      "support_text": "Confirming this to The Hindu on April 22, a senior police officer said there was clear information on the plan to trigger blasts which was communicated to Sri Lanka through diplomatic channels."
+    }
+  ]
+}

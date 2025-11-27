@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "id": "text_30_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年4月19日，塔利班分子在喀布尔袭击政府VIP保护队，造成64人死亡、347人受伤",
+      "support_text": "On the morning of 19 April 2016, Taliban militants attacked a security team responsible for protecting government VIPs in Kabul, Afghanistan. The initial attack killed 64 people and wounded 347.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "同日，自杀式爆炸导致国家安全局第10部门训练教室天花板坍塌，情报官员受波及",
+      "support_text": "Local broadcaster TOLOnews reported that the attack involved a suicide bomber detonating a vehicle laden with 'hundreds of kilograms of explosives' and the militants then making their way into the compound of 'Department 10' of the National Directorate of Security (NDS) and opening fire. The bomb that detonated caused a ceiling to collapse in a classroom where elite intelligence officers were being trained.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "同日，武装分子与安保部队在目标地点展开持续两小时交火",
+      "support_text": "The local broadcast station said that a two-hour gun battle ensued between the militants and security forces.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年4月20日，阿富汗内政部正式确认64名平民死亡、347人受伤",
+      "support_text": "On 20 April 2016, Sediq Sediqi, a spokesman for the Afghani Interior Ministry, said that despite the target, most of the victims were civilians. Ismail Kawasi, spokesman for the Public Health Ministry, said that 327 wounded have been brought to area hospitals. On 20 April 2016, Sediqi confirmed in a tweet that 64 'innocent Afghans' were killed and 347 wounded.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "同日，塔利班发言人Zabihullah Mujahid宣称对袭击负责并声称 kills 92名安全人员",
+      "support_text": "Afghan Taliban spokesman Zabihullah Mujahid claimed responsibility for the attack. He said as many as 92 security staff and soldiers were killed. It came after the group announced its annual spring offensive Operation Omari.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "国内反应：总统Ghani指责塔利班因实力衰退转向非对称战术，议会谴责政府安保不力",
+      "support_text": "President Ashraf Ghani issued a statement saying that the attack proved that the Taliban were growing weak and therefore resorting to asymmetric warfare. Shortly after the attack, women's rights activist Wazhma Frogh wrote on Twitter that the attacks took place near schools and that parents were attempting to protect their children. Some parliamentarians strongly condemned President Ashraf Ghani for failing to provide security from the terrorist attacks.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_7",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "国际反应：联合国安理会要求对袭击者追责，美国要求塔利班停止伤害平民并寻求和平，印度总理Modi表达哀悼与支持",
+      "support_text": "* : Prime Minister Narendra Modi tweeted that his condolences and that his prayers were with those affected by the attacks. * : Foreign Ministry statemented condemning the attack, they expressed condolences. In addition, they told they supported the Government of Afghanistan for the fight against terrorism. * : White House spokesman Josh Earnest called for the Taliban to cease activities that harmed civilians, and to instead 'pursue a pathway of peace'. The Embassy of the United States, Kabul said the attack underscored the harm the Taliban continued to inflict on the Afghan people.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_8",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "该单位人员伤亡占总体伤亡的一半",
+      "support_text": "该单位人员伤亡占总体伤亡的一半",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班宣布年度春季攻势Operation Omari",
+      "support_text": "塔利班宣布年度春季攻势Operation Omari",
+      "source_text": "text_30"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_30_node_1",
+      "target": "text_30_node_2",
+      "relation": "before",
+      "support_text": "Local broadcaster TOLOnews reported that the attack involved a suicide bomber detonating a vehicle laden with 'hundreds of kilograms of explosives' and the militants then making their way into the compound of 'Department 10' of the National Directorate of Security (NDS) and opening fire."
+    },
+    {
+      "source": "text_30_node_1",
+      "target": "text_30_node_4",
+      "relation": "before",
+      "support_text": "On 20 April 2016, Sediq Sediqi, a spokesman for the Afghani Interior Ministry, said that despite the target, most of the victims were civilians."
+    },
+    {
+      "source": "text_30_node_2",
+      "target": "text_30_node_3",
+      "relation": "before",
+      "support_text": "The local broadcast station said that a two-hour gun battle ensued between the militants and security forces."
+    },
+    {
+      "source": "text_30_node_2",
+      "target": "text_30_node_4",
+      "relation": "before",
+      "support_text": "On 20 April 2016, Sediq Sediqi, a spokesman for the Afghani Interior Ministry, said that despite the target, most of the victims were civilians."
+    },
+    {
+      "source": "text_30_node_3",
+      "target": "text_30_node_4",
+      "relation": "before",
+      "support_text": "On 20 April 2016, Sediq Sediqi, a spokesman for the Afghani Interior Ministry, said that despite the target, most of the victims were civilians."
+    },
+    {
+      "source": "text_30_node_4",
+      "target": "text_30_node_5",
+      "relation": "before",
+      "support_text": "Afghan Taliban spokesman Zabihullah Mujahid claimed responsibility for the attack. He said as many as 92 security staff and soldiers were killed."
+    },
+    {
+      "source": "text_30_node_4",
+      "target": "text_30_node_6",
+      "relation": "before",
+      "support_text": "President Ashraf Ghani issued a statement saying that the attack proved that the Taliban were growing weak and therefore resorting to asymmetric warfare."
+    },
+    {
+      "source": "text_30_node_4",
+      "target": "text_30_node_7",
+      "relation": "before",
+      "support_text": "* : Prime Minister Narendra Modi tweeted that his condolences and that his prayers were with those affected by the attacks."
+    },
+    {
+      "source": "text_30_node_5",
+      "target": "text_30_node_6",
+      "relation": "before",
+      "support_text": "Some parliamentarians strongly condemned President Ashraf Ghani for failing to provide security from the terrorist attacks."
+    },
+    {
+      "source": "text_30_node_5",
+      "target": "text_30_node_7",
+      "relation": "before",
+      "support_text": "* : White House spokesman Josh Earnest called for the Taliban to cease activities that harmed civilians, and to instead 'pursue a pathway of peace'."
+    },
+    {
+      "source": "text_30_node_9",
+      "target": "text_30_node_5",
+      "relation": "before",
+      "support_text": "Zabihullah Mujahid claimed responsibility for the attack. He said as many as 92 security staff and soldiers were killed. It came after the group announced its annual spring offensive Operation Omari."
+    }
+  ]
+}

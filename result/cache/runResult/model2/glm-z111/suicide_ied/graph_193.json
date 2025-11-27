@@ -1,0 +1,288 @@
+{
+  "nodes": [
+    {
+      "id": "text_193_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "哈迪上月逃亡至阿德恩，试图恢复在分裂国家的权威",
+      "support_text": "Hadi last month escaped house arrest by Houthi rebels... fled to Aden in a bid to re-establish his authority in the politically fractured nation.",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "3月19日阿德恩机场遭袭击，总统宫遭导弹攻击",
+      "support_text": "The fighting forced the airport's closure... an unidentified warplane launched a missile at the presidential palace.",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "同周突尼斯国家博物馆遭23人死亡的屠杀事件",
+      "support_text": "the massacre at the national museum in Tunisia, killing 23.",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "3月20日萨那两座关联胡塞武装的清真寺遭自杀式爆炸",
+      "support_text": "Suicide bombers attacked two mosques... during midday prayers at the Badr and al-Hashoosh mosques.",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣称对萨那袭击负责并称系‘冰山一角’",
+      "support_text": "The Yemeni branch of Islamic State is claiming responsibility... calling the bombings 'just the tip of the iceberg.'",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "白宫称无明确证据证实ISIS责任，但指出其宣传意图",
+      "support_text": "White House spokesman Josh Earnest would not confirm the claims... saying there was no clear evidence yet tying the group to the attacks.",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国官员分析ISIS可能‘相当自由’宣称责任",
+      "support_text": "one U.S. official told VOA Friday Islamic State seems to be 'quite liberal' in taking responsibility for such attacks.",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daveed Gartenstein-Ross认为多起袭击存在协调可能",
+      "support_text": "Given the rapid succession of the attacks, one should have a strong hypothesis that there’s coordination.",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国要求也门各方停火并寻求政治解决方案",
+      "support_text": "The U.S. State Department called upon all actors within the country to halt unilateral and offensive military actions.",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "联合国秘书长呼吁也门各方立即停止敌对行动",
+      "support_text": "Ban Ki-moon... called on all sides in the ongoing fighting in Yemen to 'immediately cease all hostile actions and exercise maximum restraint.'",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国安理会谴责阿德恩机场和总统宫袭击",
+      "support_text": "The U.N. Security Council condemned Thursday's attacks on the international airport in Aden... and an airstrike Thursday on the presidential palace.",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_12",
+      "event_type": "Medical",
+      "event_subtype": "Diagnosis",
+      "event_sub_subtype": "Unspecified",
+      "description": "MSF报告称阿德恩医院接收63名伤者，12人需紧急手术",
+      "support_text": "MSF has received 63 wounded victims of recent clashes there... 12 requiring urgent surgery.",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "多国支持哈迪重建权威，谴责胡塞武装",
+      "support_text": "The United Nations, Arab Gulf nations and several western countries... supporting Hadi.",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "也门分支发布网络声明",
+      "support_text": "The Yemeni branch of Islamic State is claiming responsibility... calling the bombings 'just the tip of the iceberg.'",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织声称负责突尼斯国家博物馆屠杀",
+      "support_text": "The extremists claimed responsibility for this week's massacre at the national museum in Tunisia.",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员敦促谨慎关联也门和突尼斯袭击",
+      "support_text": "官员敦促谨慎关联也门和突尼斯袭击",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "亲前领导人部队与哈迪民兵在城市中心区域交战",
+      "support_text": "语义描述：亲前领导人部队与哈迪民兵交战\n主语：Security forces loyal to Ali Abdullah Saleh\n宾语：militia loyal to President Hadi",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_18",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "4名亲前领导人战士和2名民兵在冲突中死亡",
+      "support_text": "语义描述：4名亲前领导人战士和2名民兵在冲突中死亡\n主语：pro-Saleh fighters (4) and militiamen (2)",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_19",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "双方在城市其他区域发生冲突",
+      "support_text": "语义描述：双方在城市其他区域发生冲突\n主语：two sides\n宾语：other parts of the city",
+      "source_text": "text_193"
+    },
+    {
+      "id": "text_193_node_20",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "冲突各方便利化医疗物资通行",
+      "support_text": "冲突各方便利化医疗物资通行",
+      "source_text": "text_193"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_193_node_1",
+      "target": "text_193_node_13",
+      "relation": "before",
+      "support_text": "The United Nations, Arab Gulf nations and several western countries... supporting Hadi."
+    },
+    {
+      "source": "text_193_node_1",
+      "target": "text_193_node_17",
+      "relation": "before",
+      "support_text": "哈迪逃亡至阿德恩后引发后续冲突"
+    },
+    {
+      "source": "text_193_node_2",
+      "target": "text_193_node_4",
+      "relation": "before",
+      "support_text": "The fighting forced the airport's closure... an unidentified warplane launched a missile at the presidential palace."
+    },
+    {
+      "source": "text_193_node_2",
+      "target": "text_193_node_12",
+      "relation": "before",
+      "support_text": "MSF has received 63 wounded victims of recent clashes there."
+    },
+    {
+      "source": "text_193_node_3",
+      "target": "text_193_node_4",
+      "relation": "before",
+      "support_text": "the massacre at the national museum in Tunisia, killing 23."
+    },
+    {
+      "source": "text_193_node_3",
+      "target": "text_193_node_15",
+      "relation": "before",
+      "support_text": "the massacre at the national museum in Tunisia, killing 23."
+    },
+    {
+      "source": "text_193_node_4",
+      "target": "text_193_node_5",
+      "relation": "before",
+      "support_text": "The Yemeni branch of Islamic State is claiming responsibility."
+    },
+    {
+      "source": "text_193_node_5",
+      "target": "text_193_node_6",
+      "relation": "before",
+      "support_text": "White House spokesman Josh Earnest would not confirm the claims."
+    },
+    {
+      "source": "text_193_node_5",
+      "target": "text_193_node_7",
+      "relation": "before",
+      "support_text": "one U.S. official told VOA Friday Islamic State seems to be 'quite liberal' in taking responsibility."
+    },
+    {
+      "source": "text_193_node_5",
+      "target": "text_193_node_8",
+      "relation": "before",
+      "support_text": "Given the rapid succession of the attacks, one should have a strong hypothesis that there’s coordination."
+    },
+    {
+      "source": "text_193_node_9",
+      "target": "text_193_node_10",
+      "relation": "before",
+      "support_text": "The U.S. State Department called upon all actors within the country to halt unilateral and offensive military actions."
+    },
+    {
+      "source": "text_193_node_9",
+      "target": "text_193_node_20",
+      "relation": "before",
+      "support_text": "美国要求也门各方停火并寻求政治解决方案 → 冲突各方便利化医疗物资通行"
+    },
+    {
+      "source": "text_193_node_10",
+      "target": "text_193_node_11",
+      "relation": "before",
+      "support_text": "Ban Ki-moon... called on all sides in the ongoing fighting in Yemen to 'immediately cease all hostile actions and exercise maximum restraint.'"
+    },
+    {
+      "source": "text_193_node_16",
+      "target": "text_193_node_5",
+      "relation": "before",
+      "support_text": "基于temporal_order 1 < 4的时序关系"
+    },
+    {
+      "source": "text_193_node_17",
+      "target": "text_193_node_18",
+      "relation": "before",
+      "support_text": "战斗导致人员伤亡"
+    },
+    {
+      "source": "text_193_node_17",
+      "target": "text_193_node_19",
+      "relation": "before",
+      "support_text": "主战场扩展至其他区域"
+    },
+    {
+      "source": "text_193_node_19",
+      "target": "text_193_node_4",
+      "relation": "before",
+      "support_text": "多区域冲突引发后续袭击"
+    }
+  ]
+}

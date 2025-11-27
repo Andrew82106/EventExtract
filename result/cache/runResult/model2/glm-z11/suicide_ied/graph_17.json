@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "text_17_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦拉合尔两座教堂在周日遭遇袭击",
+      "support_text": "WASHINGTON: The United States strongly condemned on Monday the latest attack near two churches in Lahore",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "美国国务院发言人贾尼丝·普西在华盛顿周一谴责袭击",
+      "support_text": "Jen Psaki said at a briefing in Washington",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_3",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国重申向巴基斯坦提供反极端主义协助",
+      "support_text": "reiterated its offer to help Pakistan deal with militancy",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "美国驻巴基斯坦基督教领袖谴责袭击并呼吁加强宗教场所保护",
+      "support_text": "Leaders of the Pakistani Christian community in the United States also condemned the attack and urged the government to provide complete protection",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国支持宗教自由并强调这是基本人权",
+      "support_text": "We support the right of every person to practise religion without fear of intimidation, death, coercion or any form of reprisal",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦基督教领袖安珠姆·巴蒂指出政府十年未采取教堂保护措施",
+      "support_text": "extremists had been targeting churches across Pakistan for more than a decade and yet the government had not taken any concrete step",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "另一位基督教领袖维克多·吉指出极端主义持续针对宗教场所",
+      "support_text": "extremists had been targeting churches across Pakistan for more than a decade",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "美国基督教社区计划在华盛顿举行集会声援巴基斯坦少数族裔",
+      "support_text": "Pakistan Christians in the United States are planning to hold a large demonstration",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦裔美国基督徒通过集会与媒体报道突出显示少数群体宗教苦难",
+      "support_text": "巴基斯坦裔美国基督徒通过集会与媒体报道突出显示少数群体宗教苦难",
+      "source_text": "text_17"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_2",
+      "relation": "before",
+      "support_text": "the latest attack near two churches in Lahore"
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_3",
+      "relation": "before",
+      "support_text": "reiterated its offer to help Pakistan deal with militancy"
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_4",
+      "relation": "before",
+      "support_text": "Leaders of the Pakistani Christian community in the United States also condemned the attack"
+    },
+    {
+      "source": "text_17_node_3",
+      "target": "text_17_node_5",
+      "relation": "before",
+      "support_text": "This is a basic human right both in Pakistan and throughout the world"
+    },
+    {
+      "source": "text_17_node_5",
+      "target": "text_17_node_6",
+      "relation": "before",
+      "support_text": "Anjum Bhatti, a Pakistani Christian leader in the United States, said that the extremists had been targeting churches across Pakistan for more than a decade"
+    },
+    {
+      "source": "text_17_node_6",
+      "target": "text_17_node_7",
+      "relation": "before",
+      "support_text": "extremists had been targeting churches across Pakistan for more than a decade"
+    },
+    {
+      "source": "text_17_node_7",
+      "target": "text_17_node_8",
+      "relation": "before",
+      "support_text": "Pakistan Christians in the United States are planning to hold a large demonstration"
+    },
+    {
+      "source": "text_17_node_8",
+      "target": "text_17_node_9",
+      "relation": "before",
+      "support_text": "巴基斯坦基督教社区计划在华盛顿举行集会声援巴基斯坦少数族裔"
+    }
+  ]
+}

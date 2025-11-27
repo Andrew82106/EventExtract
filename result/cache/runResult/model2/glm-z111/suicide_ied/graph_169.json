@@ -1,0 +1,222 @@
+{
+  "nodes": [
+    {
+      "id": "text_169_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年7月13日 Mastung村发生自杀式爆炸袭击，造成重大伤亡",
+      "support_text": "Surprisingly, the main story of the day was not Mastung. Let us recap: A suicide bomber, camouflaged as a political worker, blew himself up with 15kg explosives, ripping through an election rally in Dringarh village of District Mastung...",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "袭击发生时当地媒体优先报道前总理纳瓦兹·谢里夫回国事件",
+      "support_text": "Initially Mastung got only a mention not even a proper news report. Nawaz Sharif was not to blame. It was us, then media.",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸伤亡人数上升后媒体逐步转移报道焦点但仍未充分覆盖",
+      "support_text": "It was when the number of casualties started to rise that the media eventually moved its focus away from Nawaz Sharif.",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "谢里夫被拘留后爆炸死亡人数突破100人",
+      "support_text": "By the time Sharif had been locked up in his cell and probably gone to sleep, the death toll at Mastung had crossed one hundred.",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Balochistan居民Salma Jafar通过社交媒体质疑媒体报道的地域偏见",
+      "support_text": "My friend Salma Jafar, who hails from Balochistan, took to social media to lodge her protest. Her question was simple - would the media have reacted differently if the attack had taken place in any other part of the country.",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "文章指出媒体编辑判断失误和过度依赖传统报道模式的问题",
+      "support_text": "Where did we go wrong? Possibly this was a case of bad judgment by news managers, nothing else. There was no conspiracy. No one was on the take. No one benefitted from not giving coverage to the Mastung blast.",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析Balochistan因人口稀少导致广告商和媒体关注度不足的深层原因",
+      "support_text": "This is true if we look at our ratings system based on which the TV channels also work on their programming. Given how sparse Balochistan is in terms of population, advertisers do not see it as a priority area in terms of their ratings.",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "结论强调社交媒体成为补充传统媒体报道的重要渠道",
+      "support_text": "Many news managers, however, do not take social media as seriously as they should. Possibly this is also part of the weakness of the system we live in.",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "少数频道派遣团队前往马斯坦地区",
+      "support_text": "语义描述：少数频道派遣团队前往马斯坦地区",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "团队对马斯坦地区事件进行报道",
+      "support_text": "语义描述：团队对马斯坦地区事件进行报道",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "使用当地字符串人员提供素材",
+      "support_text": "语义描述：使用当地字符串人员提供素材",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "向媒体提供拍摄素材",
+      "support_text": "语义描述：向媒体提供拍摄素材",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "提交新闻报道",
+      "support_text": "语义描述：提交新闻报道",
+      "source_text": "text_169"
+    },
+    {
+      "id": "text_169_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "查看评级系统",
+      "support_text": "Given how sparse Balochistan is in terms of population, advertisers do not see it as a priority area in terms of their ratings.",
+      "source_text": "text_169"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_169_node_1",
+      "target": "text_169_node_2",
+      "relation": "before",
+      "support_text": "Initially Mastung got only a mention not even a proper news report."
+    },
+    {
+      "source": "text_169_node_2",
+      "target": "text_169_node_3",
+      "relation": "before",
+      "support_text": "It was when the number of casualties started to rise that the media eventually moved its focus away from Nawaz Sharif."
+    },
+    {
+      "source": "text_169_node_2",
+      "target": "text_169_node_9",
+      "relation": "before",
+      "support_text": "根据temporal_order=3，媒体转移焦点前派遣团队"
+    },
+    {
+      "source": "text_169_node_3",
+      "target": "text_169_node_4",
+      "relation": "before",
+      "support_text": "By the time Sharif had been locked up in his cell and probably gone to sleep, the death toll at Mastung had crossed one hundred."
+    },
+    {
+      "source": "text_169_node_4",
+      "target": "text_169_node_5",
+      "relation": "before",
+      "support_text": "Many have commented that the coverage shows what priority Balochistan is given in the larger scheme of things."
+    },
+    {
+      "source": "text_169_node_5",
+      "target": "text_169_node_6",
+      "relation": "before",
+      "support_text": "Possibly this was a case of bad judgment by news managers, nothing else."
+    },
+    {
+      "source": "text_169_node_6",
+      "target": "text_169_node_7",
+      "relation": "before",
+      "support_text": "Possibly this is also part of the weakness of the system we live in."
+    },
+    {
+      "source": "text_169_node_6",
+      "target": "text_169_node_14",
+      "relation": "before",
+      "support_text": "媒体编辑判断失误后引发对评级系统的反思"
+    },
+    {
+      "source": "text_169_node_7",
+      "target": "text_169_node_8",
+      "relation": "before",
+      "support_text": "Social media also comes into play here. It is one way for news managers to see what story is getting how much traction in cyberspace."
+    },
+    {
+      "source": "text_169_node_9",
+      "target": "text_169_node_10",
+      "relation": "before",
+      "support_text": "派遣团队后进行报道"
+    },
+    {
+      "source": "text_169_node_10",
+      "target": "text_169_node_3",
+      "relation": "before",
+      "support_text": "报道后焦点转移"
+    },
+    {
+      "source": "text_169_node_10",
+      "target": "text_169_node_11",
+      "relation": "before",
+      "support_text": "报道后使用当地人员"
+    },
+    {
+      "source": "text_169_node_11",
+      "target": "text_169_node_12",
+      "relation": "before",
+      "support_text": "使用素材后提供素材"
+    },
+    {
+      "source": "text_169_node_12",
+      "target": "text_169_node_13",
+      "relation": "before",
+      "support_text": "提供素材后提交报道"
+    },
+    {
+      "source": "text_169_node_14",
+      "target": "text_169_node_7",
+      "relation": "before",
+      "support_text": "评级系统分析引发电视台节目制作决策"
+    }
+  ]
+}

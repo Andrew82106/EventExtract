@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "text_194_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗塔利班宣布启动春季攻势\"Operation Omari\"",
+      "support_text": "Taliban has stepped up attacks since announcing the start of its spring offensive dubbed 'Operation Omari' a week ago.",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "喀布尔政府安全部队驻地发生自杀式爆炸，袭击者携带爆炸车辆",
+      "support_text": "a suicide bomber detonated a vehicle laden with explosives near the compound of a government secret service unit",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装分子冲入政府安全部队驻地引发持续两小时枪战",
+      "support_text": "Militants then rushed into the building, sparking a gunfight with security forces that lasted more than two hours",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成至少28人死亡、300余人受伤，多数为平民",
+      "support_text": "At least 28 people were killed and more than 300 wounded",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国特别代表称袭击可能构成战争罪",
+      "support_text": "the attack 'may amount to war crimes'",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班发言人Zabihullah Mujahid宣称对袭击负责",
+      "support_text": "Taliban spokesman Zabihullah Mujahid claimed responsibility for the assault",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "喀布尔警察局长确认1名袭击者死于交火",
+      "support_text": "at least one of the attackers was killed in a gun battle",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "北约驻阿指挥官称塔利班已无法正面作战",
+      "support_text": "insurgents are unable to meet Afghan forces on the battlefield",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国使馆谴责袭击并呼吁保障平民安全",
+      "support_text": "condemned the 'senseless act of violence'... victimize parents taking their children to school",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "北方巴尔赫省代理省长号召民众对抗塔利班",
+      "support_text": "encouraged residents to launch a massive public uprising",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Atta Mohammad Noor鼓励居民发动针对塔利班的大规模公共起义",
+      "support_text": "语义描述：鼓励居民发动针对塔利班的大规模公共起义",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Pajhwok新闻服务报道了针对塔利班的大规模公共起义事件",
+      "support_text": "语义描述：报道了针对塔利班的大规模公共起义事件",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_13",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "塔利班警告攻击事件",
+      "support_text": "语义描述：塔利班警告攻击事件",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班加强攻击行动",
+      "support_text": "语义描述：塔利班加强攻击行动",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "警察指挥官Obaidullah Tarakhail向AP报告",
+      "support_text": "语义描述：警察指挥官向AP报告",
+      "source_text": "text_194"
+    },
+    {
+      "id": "text_194_node_16",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Unspecified",
+      "description": "周围被厚烟和尘土覆盖",
+      "support_text": "语义描述：周围被厚烟和尘土覆盖",
+      "source_text": "text_194"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_194_node_1",
+      "target": "text_194_node_2",
+      "relation": "before",
+      "support_text": "since announcing the start of its spring offensive"
+    },
+    {
+      "source": "text_194_node_1",
+      "target": "text_194_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order 1早于事件3"
+    },
+    {
+      "source": "text_194_node_2",
+      "target": "text_194_node_3",
+      "relation": "before",
+      "support_text": "Militants then rushed into the building"
+    },
+    {
+      "source": "text_194_node_3",
+      "target": "text_194_node_4",
+      "relation": "before",
+      "support_text": "that lasted more than two hours"
+    },
+    {
+      "source": "text_194_node_4",
+      "target": "text_194_node_5",
+      "relation": "before",
+      "support_text": "left dozens dead and wounded hundreds more"
+    },
+    {
+      "source": "text_194_node_5",
+      "target": "text_194_node_6",
+      "relation": "before",
+      "support_text": "the attack 'may amount to war crimes'"
+    },
+    {
+      "source": "text_194_node_6",
+      "target": "text_194_node_7",
+      "relation": "before",
+      "support_text": "claimed responsibility for the assault"
+    },
+    {
+      "source": "text_194_node_7",
+      "target": "text_194_node_8",
+      "relation": "before",
+      "support_text": "said the insurgents are unable to meet Afghan forces"
+    },
+    {
+      "source": "text_194_node_8",
+      "target": "text_194_node_9",
+      "relation": "before",
+      "support_text": "condemned the 'senseless act of violence'"
+    },
+    {
+      "source": "text_194_node_9",
+      "target": "text_194_node_10",
+      "relation": "before",
+      "support_text": "called for peace and security"
+    },
+    {
+      "source": "text_194_node_10",
+      "target": "text_194_node_11",
+      "relation": "before",
+      "support_text": "根据temporal_order 2应早于事件3"
+    },
+    {
+      "source": "text_194_node_11",
+      "target": "text_194_node_12",
+      "relation": "before",
+      "support_text": "根据temporal_order 2早于3的时序关系"
+    },
+    {
+      "source": "text_194_node_13",
+      "target": "text_194_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order 1早于事件3"
+    },
+    {
+      "source": "text_194_node_15",
+      "target": "text_194_node_2",
+      "relation": "before",
+      "support_text": "根据temporal_order 1应早于事件2"
+    },
+    {
+      "source": "text_194_node_16",
+      "target": "text_194_node_3",
+      "relation": "before",
+      "support_text": "根据temporal_order 3应早于事件3"
+    }
+  ]
+}

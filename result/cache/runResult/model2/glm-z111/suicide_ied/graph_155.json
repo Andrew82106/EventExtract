@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "text_155_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年10月，库班尼被ISIS围困引发土耳其东南部骚乱",
+      "support_text": "Turkish President Recep Tayyip Erdoğan claimed he was not prepared to launch operations against ISIL unless it was also against the forces of Bashar Al Assad.",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年1月，库班尼被YPG收复，ISIS承诺报复",
+      "support_text": "Kobanî was retaken from ISIL forces in late January 2015, with the Kurdish People's Protection Units (YPG) taking full control of the city.",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年6月，土耳其与约旦威胁入侵叙利亚，允许美国使用基地",
+      "support_text": "During late June and early July 2015, the Turkish and Jordanian governments made threats to invade Syria and set up buffer zones.",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年7月20日，苏鲁奇爆炸事件导致33人死亡、104人受伤",
+      "support_text": "The Suruç bombing took place in the Suruç district of Şanlıurfa Province in Turkey at approximately 12:00 local time on 20 July 2015...",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年7月21日，ISIS宣称对苏鲁奇爆炸负责",
+      "support_text": "The next day, ISIL (the Islamic State of Iraq and the Levant) claimed responsibility for the attack.",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年7月24日，土耳其与ISIS在基利斯交火，启动空袭行动",
+      "support_text": "This led to Turkey launching Operation Martyr Yalçın, a series of airstrikes against mostly Kurdish militant positions in Northern Iraq and Syria.",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年7月26日，Ceylanpınar两名警察遭PKK报复杀害",
+      "support_text": "The PKK blamed the Turkish government for the attack, saying the government is conspiring with ISIL. This anger of the PKK contributed to PKK revenge attacks (see section Aftermath).",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_8",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年7月20日苏鲁奇爆炸事件导致104人受伤并被报告",
+      "support_text": "The Suruç bombing took place in the Suruç district of Şanlıurfa Province in Turkey at approximately 12:00 local time on 20 July 2015, resulting in 33 deaths and 104 injuries.",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_9",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "学生发表声明",
+      "support_text": "学生发表声明",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "空袭导致土耳其与ISIL冲突升级",
+      "support_text": "空袭导致土耳其与ISIL冲突升级",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "大规模行动开始打击PKK等目标",
+      "support_text": "行动逮捕大量PKK成员",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_12",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "行动逮捕大量PKK成员",
+      "support_text": "行动逮捕大量PKK成员",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "至少一名警察被确认隶属于反恐特勤队",
+      "support_text": "语义描述内容",
+      "source_text": "text_155"
+    },
+    {
+      "id": "text_155_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "PKK声称对Suruç地区的事件负责",
+      "support_text": "语义描述内容",
+      "source_text": "text_155"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_155_node_2",
+      "target": "text_155_node_1",
+      "relation": "before",
+      "support_text": "Kobanî was retaken from ISIL forces in late January 2015, with the Kurdish People's Protection Units (YPG) taking full control of the city."
+    },
+    {
+      "source": "text_155_node_3",
+      "target": "text_155_node_4",
+      "relation": "before",
+      "support_text": "During late June and early July 2015, the Turkish and Jordanian governments made threats to invade Syria and set up buffer zones."
+    },
+    {
+      "source": "text_155_node_4",
+      "target": "text_155_node_5",
+      "relation": "before",
+      "support_text": "The next day, ISIL (the Islamic State of Iraq and the Levant) claimed responsibility for the attack."
+    },
+    {
+      "source": "text_155_node_4",
+      "target": "text_155_node_8",
+      "relation": "before",
+      "support_text": "爆炸事件发生后报告受伤情况"
+    },
+    {
+      "source": "text_155_node_4",
+      "target": "text_155_node_9",
+      "relation": "before",
+      "support_text": "爆炸事件发生后学生发表声明"
+    },
+    {
+      "source": "text_155_node_4",
+      "target": "text_155_node_14",
+      "relation": "before",
+      "support_text": "Suruç爆炸事件发生后，PKK声称对此负责"
+    },
+    {
+      "source": "text_155_node_5",
+      "target": "text_155_node_6",
+      "relation": "before",
+      "support_text": "This led to Turkey launching Operation Martyr Yalçın, a series of airstrikes against mostly Kurdish militant positions in Northern Iraq and Syria."
+    },
+    {
+      "source": "text_155_node_6",
+      "target": "text_155_node_7",
+      "relation": "before",
+      "support_text": "The PKK blamed the Turkish government for the attack, saying the government is conspiring with ISIL. This anger of the PKK contributed to PKK revenge attacks (see section Aftermath)."
+    },
+    {
+      "source": "text_155_node_6",
+      "target": "text_155_node_10",
+      "relation": "before",
+      "support_text": "空袭导致冲突升级"
+    },
+    {
+      "source": "text_155_node_6",
+      "target": "text_155_node_11",
+      "relation": "before",
+      "support_text": "大规模行动开始"
+    },
+    {
+      "source": "text_155_node_11",
+      "target": "text_155_node_12",
+      "relation": "before",
+      "support_text": "逮捕行动实施"
+    }
+  ]
+}

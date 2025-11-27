@@ -1,0 +1,381 @@
+{
+  "nodes": [
+    {
+      "id": "text_33_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "喀布尔外交区发生汽车炸弹袭击，造成至少80人死亡、350人受伤",
+      "support_text": "At least 80 people have been killed and over 350 injured in a powerful car bomb blast that ripped through a diplomatic district in Afghanistan’s capital, Kabul, an Afghan health official has said, as cited by Reuters.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗内政部发布初步伤亡统计称64人死亡，但承认死亡人数可能上升",
+      "support_text": "However, the Afghan Interior Ministry said 64 people were killed, according to AFP.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援行动持续进行，伤者被送往医院，消防员扑灭周边建筑大火",
+      "support_text": "Several hours after the attack, AFP reported that ambulances were still taking the wounded to hospital and rescuers were retrieving bodies from the rubble while firefighters struggle to extinguish flames in adjacent buildings.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度大使馆确认人员安全但建筑受损，日本大使馆2名员工轻微受伤",
+      "support_text": "The Indian embassy has said its staff is safe, though the building was damaged in the blast. Two employees of the Japanese embassy were mildly injured, suffering cuts, according to AFP.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "德国大使馆一名安保人员死亡，馆员全部安全",
+      "support_text": "The German Foreign Ministry issued a statement saying that a local security officer guarding the embassy premises has been killed in the blast.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_6",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "法国大使馆建筑受损但无员工伤亡",
+      "support_text": "France’s foreign minister, Marielle de Sarnez, said the French embassy in Kabul has been damaged, but there are 'no signs' at this stage indicating that there were victims among the employees.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "现场发现汽车炸弹残骸，摧毁50辆以上车辆",
+      "support_text": "The blast destroyed more than 50 vehicles in the area, Pajhwok News reports.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者称爆炸震碎周边建筑窗户，社交媒体流传现场浓烟照片",
+      "support_text": "Eyewitnesses on social media said the blast was so strong it shattered all windows in nearby buildings. Photos posted on Twitter showed a thick pillar of smoke rising from the site of the explosion.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗总统谴责袭击，称恐怖分子在斋月期间持续杀害平民",
+      "support_text": "Afghanistan’s President Ashraf Ghani condemned the devastating attack, which happened just days into the Muslim holy month of Ramadan.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "北约秘书长声援阿富汗反恐斗争，法国外长确认使馆受损",
+      "support_text": "Jens Stoltenberg said #NATO stands w/ Afghanistan in the fight against terrorism. France’s foreign minister...the French embassy in Kabul has been damaged.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班否认参与袭击，谴责针对平民的暴行",
+      "support_text": "Taliban spokesman Zabihullah Mujahid said the insurgent movement had no involvement in the attack...Taliban condemns indiscriminate attacks that cause civilian casualties.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国驻阿部队人数为8000人，负责训练阿富汗军队",
+      "support_text": "The US has 8,000 troops in Afghanistan to train Afghan forces and render support during counter-insurgency operations.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_13",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿富汗卫生部官员向Reuters报道",
+      "support_text": "an Afghan health official has said, as cited by Reuters.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿富汗内政部向AFP声明",
+      "support_text": "the Afghan Interior Ministry said 64 people were killed, according to AFP.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "发言人Ismael Kawoosi向法新社（AFP）透露信息",
+      "support_text": "发言人Ismael Kawoosi向法新社透露信息，支持文本来自意义段",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_16",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿富汗内政部呼吁Kabul居民献血",
+      "support_text": "内政部呼吁居民献血，支持文本来自意义段",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_17",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "门被从铰链上撕裂",
+      "support_text": "门被从铰链上撕裂",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_18",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "照片发布到推特",
+      "support_text": "照片发布到推特",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "德国外交部发布声明",
+      "support_text": "The German Foreign Ministry issued a statement saying that a local security officer guarding the embassy premises has been killed in the blast.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_20",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "印度使馆报告设施受损",
+      "support_text": "印度使馆报告设施受损",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_21",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "印度使馆设施被损坏",
+      "support_text": "印度使馆设施被损坏",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_22",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "记者办公室在爆炸中被损坏",
+      "support_text": "记者办公室在爆炸中被损坏",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "发言人声称塔利班谴责无差别袭击",
+      "support_text": "发言人声称塔利班谴责无差别袭击",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_24",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班宣布春季攻势",
+      "support_text": "塔利班宣布春季攻势",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_25",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班承诺攻击美训练部队和外国军队",
+      "support_text": "塔利班承诺攻击美训练部队和外国军队",
+      "source_text": "text_33"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_2",
+      "relation": "before",
+      "support_text": "However, the Afghan Interior Ministry said 64 people were killed, according to AFP."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_3",
+      "relation": "before",
+      "support_text": "Several hours after the attack, AFP reported that ambulances were still taking the wounded to hospital..."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_7",
+      "relation": "before",
+      "support_text": "The blast destroyed more than 50 vehicles in the area, Pajhwok News reports."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_8",
+      "relation": "before",
+      "support_text": "Eyewitnesses on social media said the blast was so strong it shattered all windows in nearby buildings."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_9",
+      "relation": "before",
+      "support_text": "Afghanistan’s President Ashraf Ghani condemned the devastating attack..."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_10",
+      "relation": "before",
+      "support_text": "Jens Stoltenberg said #NATO stands w/ Afghanistan in the fight against terrorism."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_11",
+      "relation": "before",
+      "support_text": "Taliban spokesman Zabihullah Mujahid said the insurgent movement had no involvement in the attack..."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_13",
+      "relation": "before",
+      "support_text": "as cited by Reuters."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_14",
+      "relation": "before",
+      "support_text": "according to AFP."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_17",
+      "relation": "before",
+      "support_text": "temporal_order 2要求添加"
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_19",
+      "relation": "before",
+      "support_text": "德国外交部声明发布于汽车炸弹爆炸事件后"
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_20",
+      "relation": "before",
+      "support_text": "temporal_order 3要求添加"
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_21",
+      "relation": "before",
+      "support_text": "temporal_order 4要求添加"
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_22",
+      "relation": "before",
+      "support_text": "temporal_order 6要求添加"
+    },
+    {
+      "source": "text_33_node_2",
+      "target": "text_33_node_3",
+      "relation": "before",
+      "support_text": "The death toll is likely to rise, local officials said."
+    },
+    {
+      "source": "text_33_node_3",
+      "target": "text_33_node_4",
+      "relation": "before",
+      "support_text": "The Indian embassy has said its staff is safe, though the building was damaged in the blast."
+    },
+    {
+      "source": "text_33_node_3",
+      "target": "text_33_node_5",
+      "relation": "before",
+      "support_text": "The German Foreign Ministry issued a statement saying that a local security officer...has been killed in the blast."
+    },
+    {
+      "source": "text_33_node_3",
+      "target": "text_33_node_6",
+      "relation": "before",
+      "support_text": "France’s foreign minister...the French embassy in Kabul has been damaged."
+    },
+    {
+      "source": "text_33_node_3",
+      "target": "text_33_node_8",
+      "relation": "before",
+      "support_text": "Eyewitnesses on social media said the blast was so strong it shattered all windows in nearby buildings."
+    },
+    {
+      "source": "text_33_node_5",
+      "target": "text_33_node_10",
+      "relation": "before",
+      "support_text": "Jens Stoltenberg said #NATO stands w/ Afghanistan in the fight against terrorism."
+    },
+    {
+      "source": "text_33_node_9",
+      "target": "text_33_node_10",
+      "relation": "before",
+      "support_text": "Jens Stoltenberg said #NATO stands w/ Afghanistan in the fight against terrorism."
+    },
+    {
+      "source": "text_33_node_11",
+      "target": "text_33_node_10",
+      "relation": "before",
+      "support_text": "Jens Stoltenberg said #NATO stands w/ Afghanistan in the fight against terrorism."
+    },
+    {
+      "source": "text_33_node_15",
+      "target": "text_33_node_16",
+      "relation": "before",
+      "support_text": "根据temporal_order 2和3的时序关系添加"
+    },
+    {
+      "source": "text_33_node_17",
+      "target": "text_33_node_18",
+      "relation": "before",
+      "support_text": "temporal_order 3要求添加"
+    },
+    {
+      "source": "text_33_node_18",
+      "target": "text_33_node_8",
+      "relation": "before",
+      "support_text": "temporal_order 6要求添加"
+    }
+  ]
+}

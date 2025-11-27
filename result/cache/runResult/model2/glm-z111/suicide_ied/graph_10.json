@@ -1,0 +1,192 @@
+{
+  "nodes": [
+    {
+      "id": "text_10_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年12月，ANP领导人Bashir Ahmad Bilour在巴基斯坦俾路支省普什图瓦尔遭自杀式炸弹袭击身亡",
+      "support_text": "In December 2012, Bashir Ahmad Bilour, leader of ANP and Haroon Bilour's father, was killed by a suicide bomber.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年4月16日，TTP在ANP选举集会发动自杀袭击，目标为Haroon Bilour但未成功",
+      "support_text": "On 16 April 2013, a suicide attack claimed by Tehreek-i-Taliban Pakistan (TTP) on ANP election rally that targeted Haroon Bilour, killed 15 people. However, Haroon Bilour was not at the rally.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年7月10日晚，Haroon Bilour在Peshawar Yaka Toot地区ANP集会现场遭遇自杀式爆炸",
+      "support_text": "On late night 10 July 2018, Haroon Bilour arrived at Yakatoot area in Peshawar where ANP workers had gathered for a corner meeting. As his vehicle arrived, a loud explosion occurred.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后8小时，Lady Reading医院确认死亡人数从13人上升至21人",
+      "support_text": "Initially the death toll was 13 but later it rose to 21 according to Lady Reading Hospital officials.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "7月12日，ANP支持者在Bilour住宅外抗议政府安保不力",
+      "support_text": "ANP supporters gathered outside his residence and shouted slogans against government for his 'failure to provide security'.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "选举委员会宣布推迟PK-78选区原定选举",
+      "support_text": "Following the incident, the Election Commission of Pakistan postponed the polls for PK-78, constituency from which Bilour was to contest election.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "7月11日，KPK警察部署9个警力单位加强城市管控",
+      "support_text": "Nine units of Police and Quick Reaction Forces (QRF) were deployed at all entry and exit points of the city.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "TTP正式宣称对2018年7月10日爆炸负责",
+      "support_text": "Tehreek-i-Taliban Pakistan (TTP) claimed responsibility for the bombing calling the assassination of Bilour 'a revenge of previous government'.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_9",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Haroon Bilour因爆炸受伤后在医院死亡",
+      "support_text": "As his vehicle arrived, a loud explosion occurred. Bilour suffered serious injuries and was shifted to hospital where he succumbed to his wounds.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Bilour的遗体被转移到Bilour House",
+      "support_text": "As his vehicle arrived, a loud explosion occurred. Bilour suffered serious injuries and was shifted to hospital where he succumbed to his wounds.",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "IG KPK Mohammad Tahir组建七人调查团队",
+      "support_text": "语义描述：IG KPK Mohammad Tahir组建七人调查团队",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "IG KPK Mohammad Tahir指示团队提交报告",
+      "support_text": "语义描述：IG KPK Mohammad Tahir指示团队提交报告",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在城市内开展突袭行动",
+      "support_text": "语义描述：警方在城市内开展突袭行动",
+      "source_text": "text_10"
+    },
+    {
+      "id": "text_10_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "塔利班警告安全部队将遭进一步袭击",
+      "support_text": "语义描述：塔利班警告安全部队将遭进一步袭击",
+      "source_text": "text_10"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_10_node_1",
+      "target": "text_10_node_2",
+      "relation": "before",
+      "support_text": "The leaders of Awami National Party (ANP) have frequently been ambushed by militants. In December 2012, Bashir Ahmad Bilour, leader of ANP and Haroon Bilour's father, was killed by a suicide bomber."
+    },
+    {
+      "source": "text_10_node_2",
+      "target": "text_10_node_3",
+      "relation": "before",
+      "support_text": "The motive behind the assault was to kill the ANP leader Haroon Bilour. Bilour was to contest the next elections from PK-78."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_4",
+      "relation": "before",
+      "support_text": "As his vehicle arrived, a loud explosion occurred. Bilour suffered serious injuries and was shifted to hospital where he succumbed to his wounds."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_5",
+      "relation": "before",
+      "support_text": "On 12 July 2018, two days after the attack, another person succumbed to his injuries, bringing the number of deaths to 22."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_6",
+      "relation": "before",
+      "support_text": "Following the incident, the Election Commission of Pakistan postponed the polls for PK-78, constituency from which Bilour was to contest election."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_7",
+      "relation": "before",
+      "support_text": "The attack left 22 people dead and wounded 75 others. Tehreek-i-Taliban Pakistan claimed responsibility for the attack."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_8",
+      "relation": "before",
+      "support_text": "Tehreek-i-Taliban Pakistan (TTP) claimed responsibility for the bombing calling the assassination of Bilour 'a revenge of previous government'."
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_9",
+      "relation": "before",
+      "support_text": "爆炸导致Haroon Bilour死亡"
+    },
+    {
+      "source": "text_10_node_3",
+      "target": "text_10_node_10",
+      "relation": "before",
+      "support_text": "爆炸后8小时，Lady Reading医院确认死亡人数从13人上升至21人"
+    },
+    {
+      "source": "text_10_node_7",
+      "target": "text_10_node_5",
+      "relation": "before",
+      "support_text": "On 12 July 2018, two days after the attack, another person succumbed to his injuries, bringing the number of deaths to 22."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_20_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2020年5月11日，Daesh在喀布尔北部地区发动路边炸弹袭击，造成4人受伤",
+      "support_text": "four roadside bombs exploded in a northern district of Kabul, wounding four civilians including a child.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2020年5月12日早间，武装分子袭击喀布尔巴奇尼国营医院，造成14人死亡",
+      "support_text": "Gunmen stormed a maternity hospital in the western part of the Afghan capital, setting off a gun battle with the police and several people were reported wounded.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2020年5月12日约一小时后，东部Nangarhar省葬礼发生自杀式爆炸，致24人死亡",
+      "support_text": "Around an hour after the Kabul assault, a suicide bomber killed at least 24 people at the funeral of a local police commander in eastern Nangarhar province, according to provincial spokesman Ataullah Khogyani.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daesh在2020年3月袭击喀布尔锡克庙，造成25人死亡",
+      "support_text": "In March at least 25 people were killed by a gunman at a Sikh temple in Kabul in an attack later claimed by the group.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daesh在2017年3月伪装成医生袭击喀布尔大型医院，杀害数十人",
+      "support_text": "Daesh was also responsible for an infamous attack in March 2017 on one of the country's largest hospitals, when gunmen disguised as doctors stormed the Kabul building and killed dozens.",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "医生逃离被武装分子袭击的医院",
+      "support_text": "医生逃离医院",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "医生向AFP发布声明",
+      "support_text": "医生向AFP讲述",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "医生与AFP的接触事件",
+      "support_text": "医生向AFP讲述",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班否认参与2020年5月11日喀布尔北部地区路边炸弹袭击",
+      "support_text": "塔利班否认参与任何袭击",
+      "source_text": "text_20"
+    },
+    {
+      "id": "text_20_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "SITE情报组声称2020年5月12日喀布尔巴奇尼国营医院袭击事件",
+      "support_text": "SITE情报组声称了此次爆炸事件",
+      "source_text": "text_20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_20_node_1",
+      "target": "text_20_node_2",
+      "relation": "before",
+      "support_text": "The latest violence comes a day after roadside bombs explode in Kabul Afghan women sit in an ambulance after being rescued by security forces during an attack and gunfire at a hospital in Kabul, Afghanistan May 12, 2020."
+    },
+    {
+      "source": "text_20_node_2",
+      "target": "text_20_node_3",
+      "relation": "before",
+      "support_text": "Around an hour after the Kabul assault, a suicide bomber killed at least 24 people at the funeral of a local police commander in eastern Nangarhar province, according to provincial spokesman Ataullah Khogyani."
+    },
+    {
+      "source": "text_20_node_2",
+      "target": "text_20_node_6",
+      "relation": "before",
+      "support_text": "武装分子袭击医院后，医生开始逃离"
+    },
+    {
+      "source": "text_20_node_5",
+      "target": "text_20_node_4",
+      "relation": "before",
+      "support_text": "Daesh was also responsible for an infamous attack in March 2017 on one of the country's largest hospitals, when gunmen disguised as doctors stormed the Kabul building and killed dozens."
+    },
+    {
+      "source": "text_20_node_6",
+      "target": "text_20_node_7",
+      "relation": "before",
+      "support_text": "医生逃离后发表声明"
+    },
+    {
+      "source": "text_20_node_7",
+      "target": "text_20_node_8",
+      "relation": "before",
+      "support_text": "声明发布后与AFP完成接触"
+    },
+    {
+      "source": "text_20_node_9",
+      "target": "text_20_node_1",
+      "relation": "before",
+      "support_text": "事件发生时间早于node_1的炸弹袭击"
+    },
+    {
+      "source": "text_20_node_10",
+      "target": "text_20_node_2",
+      "relation": "before",
+      "support_text": "事件发生时间早于node_2的医院袭击"
+    }
+  ]
+}

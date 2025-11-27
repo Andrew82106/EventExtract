@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_29_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "埃及驻伊斯兰堡使馆遭遇自杀式爆炸，造成16人死亡、60人受伤",
+      "support_text": "a suicide bombing of the Egyptian Embassy in Islamabad that killed 16 people on Sunday",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦内政部长宣布逮捕10名阿拉伯和阿富汗嫌疑人",
+      "support_text": "The Pakistani police have arrested 10 Arab and Afghan suspects in connection with a suicide bombing of the Egyptian Embassy in Islamabad that killed 16 people on Sunday, the Interior Minister said today",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "被捕的8名阿拉伯嫌疑人中包括6名埃及人和2名约旦人，部分已接受审问",
+      "support_text": "Of the eight Arab men who were held, six are Egyptians and two Jordanians, said the Interior Minister, Naseerullah Khan Babar",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员拒绝透露爆炸调查细节，但提及三个埃及激进组织宣称对此负责",
+      "support_text": "But he declined to give details of inquiries into the bombing, for which three militant Islamic groups in Egypt took responsibility",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_5",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方拘留另外2名阿富汗嫌疑人，并正在寻找4名失踪的埃及使馆阿富汗雇员",
+      "support_text": "He said two more Afghans had possibly been detained and that the police were also looking for four of the five Afghan employees of the Egyptian Embassy who were missing after the bombing",
+      "source_text": "text_29"
+    },
+    {
+      "id": "text_29_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "第五名失踪的阿富汗雇员在爆炸中死亡",
+      "support_text": "The fifth Afghan was killed",
+      "source_text": "text_29"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_29_node_1",
+      "target": "text_29_node_2",
+      "relation": "before",
+      "support_text": "in connection with a suicide bombing of the Egyptian Embassy in Islamabad that killed 16 people on Sunday"
+    },
+    {
+      "source": "text_29_node_2",
+      "target": "text_29_node_3",
+      "relation": "before",
+      "support_text": "Of the eight Arab men who were held, six are Egyptians and two Jordanians, said the Interior Minister"
+    },
+    {
+      "source": "text_29_node_2",
+      "target": "text_29_node_5",
+      "relation": "before",
+      "support_text": "He said two more Afghans had possibly been detained"
+    },
+    {
+      "source": "text_29_node_3",
+      "target": "text_29_node_4",
+      "relation": "before",
+      "support_text": "But he declined to give details of inquiries into the bombing"
+    },
+    {
+      "source": "text_29_node_5",
+      "target": "text_29_node_6",
+      "relation": "before",
+      "support_text": "The fifth Afghan was killed"
+    }
+  ]
+}

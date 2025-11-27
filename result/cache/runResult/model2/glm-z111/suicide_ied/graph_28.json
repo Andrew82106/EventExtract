@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "text_28_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗首都喀布尔两起汽车炸弹袭击，造成至少25人死亡、49人受伤，Daesh宣称对此负责",
+      "support_text": "Two back-to-back bomb blasts have hit near government buildings in the Afghan capital, Kabul, during the morning rush hour, leaving at least 25 people dead and 49 others injured. The first bomb attack was carried out by an assailant on a motorcycle, who blew himself up in the Shashdarak area close to the buildings of Afghanistan’s National Directorate of Security in the heart of Kabul, officials said.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Daesh上周袭击喀布尔西部投票中心，导致60人死亡",
+      "support_text": "which came only a week after the Takfiri terror group killed some 60 people in a bomb attack targeting a voter registration center in the west of Kabul.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班上周发动春季攻势‘Khandaq’，拒绝与喀布尔政府和平谈判",
+      "support_text": "Last week, the local Taliban militant group launched its so-called spring offensive in an apparent rejection of the Kabul government’s offer of peace talks.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "坎大哈省Daman地区发生汽车炸弹袭击，11名儿童死亡，警方怀疑系塔利班所为",
+      "support_text": "Elsewhere, at least 11 school children were killed when an assailant blew off an explosives-laden car near a mosque in the Daman district of Kandahar Province.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗面临持续安全威胁，计划于7月举行延迟的立法选举",
+      "support_text": "The latest rise in attacks comes as Afghanistan is preparing to hold long-delayed legislative elections in July.",
+      "source_text": "text_28"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_28_node_2",
+      "target": "text_28_node_1",
+      "relation": "before",
+      "support_text": "which came only a week after the Takfiri terror group killed some 60 people in a bomb attack targeting a voter registration center in the west of Kabul."
+    },
+    {
+      "source": "text_28_node_3",
+      "target": "text_28_node_1",
+      "relation": "before",
+      "support_text": "Last week, the local Taliban militant group launched its so-called spring offensive in an apparent rejection of the Kabul government’s offer of peace talks."
+    }
+  ]
+}

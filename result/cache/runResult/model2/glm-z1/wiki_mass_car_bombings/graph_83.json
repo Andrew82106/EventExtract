@@ -1,0 +1,288 @@
+{
+  "nodes": [
+    {
+      "id": "text_83_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "一周前，伊拉克军队宣布费卢杰被完全解放，削弱了伊斯兰国在安巴尔省的据点",
+      "support_text": "The attacks came just a little over a week after Iraqi forces declared Fallujah 'fully liberated', marking a major victory against IS.",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "午夜，伊斯兰国宣称负责的卡车炸弹袭击在巴格达市中心发生，造成115人死亡、187人受伤",
+      "support_text": "A suicide truck bomb in downtown Baghdad killed 115 people and wounded nearly 200 others... The attack, claimed by the Islamic State group, was the deadliest in months...",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "同一天稍后，巴格达Shaab社区发生路边炸弹袭击，导致5人死亡、16人受伤，未明确宣称责任",
+      "support_text": "Elsewhere in Baghdad, a roadside bomb went off in the mostly Shiite Shaab neighborhood, killing five people and wounding 16...",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "袭击后，伊拉克总理和议员访问爆炸现场",
+      "support_text": "Hours after the Baghdad bombing, Iraqi Prime Minister Haider al-Abadi and lawmakers visited the blast site.",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "同一天，愤怒的群众抗议总理，向其车队投掷物品",
+      "support_text": "Eyewitnesses said the crowd pelted al-Abadi's car with rocks, shoes and jerry cans.",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国和白宫谴责袭击，呼吁加强安全措施",
+      "support_text": "The U.N. envoy... described the Karada attack as 'a cowardly and heinous act of unparalleled proportions'... The White House also condemned the bombings.",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击后，政府部队收复摩苏尔周边七个村庄，以切断补给线",
+      "support_text": "government forces retook seven villages south of the IS-held city of Mosul as part of a small-scale operation started in March...",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端分子攻占费卢杰",
+      "support_text": "极端分子攻占费卢杰",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "人们认为费卢杰是袭击的策源地",
+      "support_text": "人们认为费卢杰是袭击的策源地",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_10",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "几十人因烧伤死亡",
+      "support_text": "几十人因烧伤死亡",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_11",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "几十人因窒息死亡",
+      "support_text": "几十人因窒息死亡",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方表示几十人因烧伤或窒息死亡",
+      "support_text": "警方表示几十人因烧伤或窒息死亡",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国发表声明称爆炸目标针对什叶派穆斯林",
+      "support_text": "伊斯兰国发表声明称爆炸目标针对什叶派穆斯林",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸目标明确针对什叶派穆斯林的袭击",
+      "support_text": "爆炸目标针对什叶派穆斯林",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "没有哪个团体声称对袭击负责",
+      "support_text": "语义描述：没有哪个团体声称对袭击负责",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "医疗官员确认了两次袭击的伤亡数字",
+      "support_text": "医疗官员确认了两次袭击的伤亡数字",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_17",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "所有官员发言",
+      "support_text": "所有官员发言",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_18",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "视频片段被上传至社交媒体",
+      "support_text": "视频片段被上传至社交媒体",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "愤怒的人群称al-Abadi为‘小偷’",
+      "support_text": "愤怒的人群称al-Abadi为‘小偷’",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_20",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "愤怒的人群朝总理车队喊叫",
+      "support_text": "愤怒的人群朝总理车队喊叫",
+      "source_text": "text_83"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_83_node_1",
+      "target": "text_83_node_2",
+      "relation": "before",
+      "support_text": "The attacks came just a little over a week after Iraqi forces declared Fallujah 'fully liberated', marking a major victory against IS."
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_3",
+      "relation": "before",
+      "support_text": "Elsewhere in Baghdad, a roadside bomb went off in the mostly Shiite Shaab neighborhood..."
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_4",
+      "relation": "before",
+      "support_text": "Hours after the Baghdad bombing, Iraqi Prime Minister Haider al-Abadi and lawmakers visited the blast site."
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_5",
+      "relation": "before",
+      "support_text": "Eyewitnesses said the crowd pelted al-Abadi's car with rocks, shoes and jerry cans."
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_6",
+      "relation": "before",
+      "support_text": "The U.N. envoy... described the Karada attack as 'a cowardly and heinous act of unparalleled proportions'..."
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_7",
+      "relation": "before",
+      "support_text": "government forces retook seven villages south of the IS-held city of Mosul as part of a small-scale operation started in March..."
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_10",
+      "relation": "before",
+      "support_text": "卡车炸弹袭击后发生烧伤事件"
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_11",
+      "relation": "before",
+      "support_text": "卡车炸弹袭击后发生窒息事件"
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_13",
+      "relation": "before",
+      "support_text": "伊斯兰国宣称负责的卡车炸弹袭击在巴格达市中心发生"
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_18",
+      "relation": "before",
+      "support_text": "视频片段被上传至社交媒体发生在卡车炸弹袭击后"
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_19",
+      "relation": "before",
+      "support_text": "人群称al-Abadi为‘小偷’发生在卡车炸弹袭击后"
+    },
+    {
+      "source": "text_83_node_2",
+      "target": "text_83_node_20",
+      "relation": "before",
+      "support_text": "人群朝总理车队喊叫发生在卡车炸弹袭击后"
+    },
+    {
+      "source": "text_83_node_8",
+      "target": "text_83_node_2",
+      "relation": "before",
+      "support_text": "极端分子攻占费卢杰后，伊斯兰国宣称负责的卡车炸弹袭击在巴格达市中心发生"
+    },
+    {
+      "source": "text_83_node_9",
+      "target": "text_83_node_2",
+      "relation": "before",
+      "support_text": "人们认为费卢杰是袭击的策源地后，伊斯兰国宣称负责的卡车炸弹袭击在巴格达市中心发生"
+    },
+    {
+      "source": "text_83_node_10",
+      "target": "text_83_node_12",
+      "relation": "before",
+      "support_text": "烧伤事件后警方发布声明"
+    },
+    {
+      "source": "text_83_node_13",
+      "target": "text_83_node_14",
+      "relation": "before",
+      "support_text": "伊斯兰国声明爆炸目标后实施针对什叶派穆斯林的袭击"
+    },
+    {
+      "source": "text_83_node_16",
+      "target": "text_83_node_17",
+      "relation": "before",
+      "support_text": "医疗官员确认伤亡数字后，所有官员发言"
+    }
+  ]
+}

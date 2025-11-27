@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_72_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2001年俄克拉荷马城爆炸案导致6名现役军人死亡",
+      "support_text": "six active-duty military personnel killed in the Oklahoma City bombing",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2009年 fort Hood 军营遭陆军少校恐怖袭击致人员伤亡",
+      "support_text": "the 2009 shooting at Fort Hood, Texas, by an Army major with ties to an Islamic terrorist group",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2020年国会通过法案扩大紫心勋章适用范围至外国恐怖主义相关伤亡",
+      "support_text": "Congress last year expanded eligibility for the Purple Heart to service members killed or wounded in an act inspired or motivated by a foreign terrorist organization",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2021年众议员Russell计划在国防法案中提出为俄城爆炸案受害者追授紫心勋章",
+      "support_text": "he plans to offer the proposal Wednesday as an amendment to the defense bill",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_5",
+      "event_type": "Justice",
+      "event_subtype": "InvestigateCrime",
+      "event_sub_subtype": "Unspecified",
+      "description": "Russell认为六名被杀害的现役军人应获紫心勋章",
+      "support_text": "Russell认为六名被杀害的现役军人应获紫心勋章",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Russell在采访中陈述事实",
+      "support_text": "Russell在采访中陈述事实",
+      "source_text": "text_72"
+    },
+    {
+      "id": "text_72_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "被俄克拉荷马城爆炸案定罪的人",
+      "support_text": "被俄克拉荷马城爆炸案定罪的人",
+      "source_text": "text_72"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_72_node_1",
+      "target": "text_72_node_2",
+      "relation": "before",
+      "support_text": "It was clearly a horrific act of terror."
+    },
+    {
+      "source": "text_72_node_1",
+      "target": "text_72_node_7",
+      "relation": "after",
+      "support_text": "爆炸案发生（node_1）后定罪（node_7）的时序关系"
+    },
+    {
+      "source": "text_72_node_2",
+      "target": "text_72_node_3",
+      "relation": "before",
+      "support_text": "That allowed for the awarding of Purple Hearts to those killed or wounded in the 2009 shooting at Fort Hood, Texas..."
+    },
+    {
+      "source": "text_72_node_3",
+      "target": "text_72_node_4",
+      "relation": "before",
+      "support_text": "(The proposal) is in the spirit of tradition of those who have lost their lives in an act of duty."
+    },
+    {
+      "source": "text_72_node_5",
+      "target": "text_72_node_4",
+      "relation": "before",
+      "support_text": "Russell认为六名被杀害的现役军人应获紫心勋章（语义关联）"
+    },
+    {
+      "source": "text_72_node_6",
+      "target": "text_72_node_4",
+      "relation": "before",
+      "support_text": "Russell在采访中陈述事实（语义关联）"
+    }
+  ]
+}

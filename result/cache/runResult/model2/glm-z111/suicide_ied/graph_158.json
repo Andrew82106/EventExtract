@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "text_158_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五傍晚在奎达省首府的卫星镇清真寺附近发生爆炸，造成15名烈士（包括副警监）和20人受伤",
+      "support_text": "Deputy Superintendent of Police (DSP), prayer leader among 15 were martyred and 20 other sustained injuries in the blast inside the mosque when they were offering Maghrib prayer there near Ghausabad area.",
+      "source_text": "text_158"
+    },
+    {
+      "id": "text_158_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "周六反恐部门对爆炸事件立案（FIR），指控预谋杀人及蓄意伤害",
+      "support_text": "Share: QUETTA - Counter Terrorism Department (CTD) on Saturday has registered First Information Report (FIR) of Satellite Town blast in provincial capital against unknown attackers",
+      "source_text": "text_158"
+    },
+    {
+      "id": "text_158_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸中牺牲的副警监Aman Ullah举行葬礼，由警方高层和家属参加",
+      "support_text": "Funeral prayer of martyred DSP Aman Ullah was offered which was attended by government stakeholders, Inspector General of Police Balochistan Mohsin Hassan Butt, police officials and a large number of his relatives.",
+      "source_text": "text_158"
+    },
+    {
+      "id": "text_158_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "爆炸现场调查持续进行，收集证据",
+      "support_text": "police sources said investigation was being continued to collect evidences from the site of blast.",
+      "source_text": "text_158"
+    },
+    {
+      "id": "text_158_node_5",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "8名伤者经初步处理后出院，12人接受治疗（6人状况危重）",
+      "support_text": "According to civil hospital sources, eight of them injured were discharged after provision of first medical aid over their stable condition and 12 of them are being treated, six of them were reported to be in serious condition.",
+      "source_text": "text_158"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_158_node_1",
+      "target": "text_158_node_2",
+      "relation": "before",
+      "support_text": "Share: QUETTA - Counter Terrorism Department (CTD) on Saturday has registered First Information Report (FIR) of Satellite Town blast in provincial capital against unknown attackers"
+    },
+    {
+      "source": "text_158_node_1",
+      "target": "text_158_node_4",
+      "relation": "before",
+      "support_text": "police sources said investigation was being continued to collect evidences from the site of blast."
+    },
+    {
+      "source": "text_158_node_1",
+      "target": "text_158_node_5",
+      "relation": "before",
+      "support_text": "According to civil hospital sources, eight of them injured were discharged after provision of first medical aid over their stable condition"
+    },
+    {
+      "source": "text_158_node_2",
+      "target": "text_158_node_4",
+      "relation": "before",
+      "support_text": "police sources said investigation was being continued to collect evidences from the site of blast."
+    },
+    {
+      "source": "text_158_node_2",
+      "target": "text_158_node_3",
+      "relation": "before",
+      "support_text": "Funeral prayer of martyred DSP Aman Ullah was offered which was attended by government stakeholders..."
+    }
+  ]
+}

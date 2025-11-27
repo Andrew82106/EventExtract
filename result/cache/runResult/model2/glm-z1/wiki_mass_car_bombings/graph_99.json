@@ -1,0 +1,246 @@
+{
+  "nodes": [
+    {
+      "id": "text_99_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "卡车炸弹在摩加迪沙Safari Hotel附近爆炸，造成大量人员伤亡",
+      "support_text": "Police said a truck bomb exploded outside the Safari Hotel at the K5 intersection, which is lined with government offices, restaurants and kiosks, flattening buildings and setting vehicles on fire.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸两小时后，摩加迪沙Medina区发生另一起爆炸",
+      "support_text": "A separate blast struck the Medina district two hours later.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "参议员Abshir Abdi Ahmed通报死亡人数达231人，伤者超275人，部分尸体未确认身份",
+      "support_text": "Abshir Abdi Ahmed said the toll comes from doctors at hospitals he has visited in Mogadishu. Many of the bodies in hospital mortuaries have not yet been identified, he said.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "红会确认4名索马里红新月志愿者死亡，并警告失踪人员可能增加",
+      "support_text": "The Red Cross said four volunteers with the Somali Red Crescent Society are among the dead and warned 'this figure may rise as there are a number of volunteers still missing.'",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "救援人员用火炬搜索Safari Hotel废墟下的幸存者",
+      "support_text": "Overnight, rescue workers with torch lights searched for survivors trapped under the rubble of the largely destroyed Safari Hotel.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "索马里政府指责基地组织关联的al-Shabaab实施袭击",
+      "support_text": "Somali government blamed the al-Qaida-linked al-Shabaab extremist group for the attack it called a 'national disaster.'",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总统宣布实施三天全国哀悼，并呼吁民众献血救治伤员",
+      "support_text": "President Mohamed Abdullahi Mohamed declared three days of mourning and joined thousands of people who responded to a desperate plea by hospitals to donate blood for the wounded victims.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "索马里信息部长称此次爆炸是首都史上最严重袭击",
+      "support_text": "It is the single deadliest attack ever in the Horn of Africa nation.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "美国谴责袭击，承诺加强反恐合作与无人机打击",
+      "support_text": "The US condemned the attack, promising to strengthen counterterrorism cooperation and drone strikes.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析学者Dr. Ashraf指出袭击可能是伊斯兰武装应对近期失利的反击",
+      "support_text": "Dr Afzal Ashraf... the attack was likely a response to recent losses suffered by Islamist groups.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "al-Shabaab尚未对此次袭击发表声明",
+      "support_text": "However, al-Shabaab, which often targets high-profile areas of the capital with bombings, had yet to claim the attack.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abshir Abdi Ahmed访问了摩加迪沙的医院",
+      "support_text": "Abshir Abdi Ahmed said the toll comes from doctors at hospitals he has visited in Mogadishu.",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "索马里武装部队撤离受伤同事",
+      "support_text": "索马里武装部队撤离受伤同事",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "阿卜杜拉博士向《独立报》告知袭击",
+      "support_text": "阿卜杜拉博士向《独立报》告知袭击",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_15",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰极端组织遭受近期损失",
+      "support_text": "伊斯兰极端组织遭受近期损失",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_16",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察局长 Mohamed Hussein 宣布伤者因伤口在医院死亡的情况",
+      "support_text": "Police Captain Mohamed Hussein announced that伤者因伤口在医院死亡的情况",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_new_node_17",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "he向索马里人呼吁捐赠",
+      "support_text": "I am appealing all Somali people to come forward and donate",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_new_node_18",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "愤怒的抗议者走上街头",
+      "support_text": "愤怒的抗议者走上街头",
+      "source_text": "text_99"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_99_node_1",
+      "target": "text_99_node_2",
+      "relation": "before",
+      "support_text": "A separate blast struck the Medina district two hours later."
+    },
+    {
+      "source": "text_99_node_1",
+      "target": "text_99_node_3",
+      "relation": "before",
+      "support_text": "Abshir Abdi Ahmed said the toll comes from doctors at hospitals he has visited in Mogadishu."
+    },
+    {
+      "source": "text_99_node_1",
+      "target": "text_99_node_5",
+      "relation": "before",
+      "support_text": "Overnight, rescue workers with torch lights searched for survivors trapped under the rubble..."
+    },
+    {
+      "source": "text_99_node_1",
+      "target": "text_99_node_12",
+      "relation": "before",
+      "support_text": "卡车炸弹在摩加迪沙Safari Hotel附近爆炸，造成大量人员伤亡"
+    },
+    {
+      "source": "text_99_node_1",
+      "target": "text_99_new_node_18",
+      "relation": "before",
+      "support_text": "卡车炸弹在摩加迪沙Safari Hotel附近爆炸，造成大量人员伤亡"
+    },
+    {
+      "source": "text_99_node_3",
+      "target": "text_99_node_4",
+      "relation": "before",
+      "support_text": "The Red Cross said four volunteers with the Somali Red Crescent Society are among the dead..."
+    },
+    {
+      "source": "text_99_node_3",
+      "target": "text_99_node_6",
+      "relation": "before",
+      "support_text": "Somali government blamed the al-Qaida-linked al-Shabaab extremist group for the attack..."
+    },
+    {
+      "source": "text_99_node_3",
+      "target": "text_99_node_7",
+      "relation": "before",
+      "support_text": "President Mohamed Abdullahi Mohamed declared three days of mourning..."
+    },
+    {
+      "source": "text_99_node_3",
+      "target": "text_99_node_8",
+      "relation": "before",
+      "support_text": "It is the single deadliest attack ever in the Horn of Africa nation."
+    },
+    {
+      "source": "text_99_node_3",
+      "target": "text_99_new_node_17",
+      "relation": "before",
+      "support_text": "参议员Abshir Abdi Ahmed通报死亡人数达231人，伤者超275人，部分尸体未确认身份"
+    },
+    {
+      "source": "text_99_node_6",
+      "target": "text_99_node_9",
+      "relation": "before",
+      "support_text": "The US condemned the attack, promising to strengthen counterterrorism cooperation..."
+    },
+    {
+      "source": "text_99_node_6",
+      "target": "text_99_node_10",
+      "relation": "before",
+      "support_text": "Dr Afzal Ashraf... the attack was likely a response to recent losses..."
+    },
+    {
+      "source": "text_99_node_6",
+      "target": "text_99_node_11",
+      "relation": "before",
+      "support_text": "However, al-Shabaab... had yet to claim the attack."
+    }
+  ]
+}

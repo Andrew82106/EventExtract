@@ -1,0 +1,363 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mughniyeh被广泛认为在1980年代策划针对西方的绑架事件",
+      "support_text": "Mughniyeh is widely believed to be behind a wave of Western hostage-taking in Lebanon during the 1980s.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "1985年Mughniyeh因TWA航班劫机案被美国起诉",
+      "support_text": "Mughniyeh was among several suspects indicted in the US for the 1985 hijacking of a TWA airliner in which a US Navy diver was killed.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1992年以色列驻阿根廷大使馆爆炸案中Mughniyeh被指控策划",
+      "support_text": "Israel believes he was involved in planning the 1992 bombing of Israel's embassy in Argentina in which 29 people were killed.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1994年布宜诺斯艾利斯犹太中心爆炸案中Mughniyeh被指控策划",
+      "support_text": "the blast at a Buenos Aires Jewish centre two years later that killed 95.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年Mughniyeh被列入美国FBI通缉名单",
+      "support_text": "the FBI Most Wanted list since 2001",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年Hezbollah与以色列爆发黎巴嫩战争",
+      "support_text": "Hezbollah battled Israel in the 2006 Lebanon war",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mughniyeh在贝鲁特卡法尔苏萨区爆炸中死亡",
+      "support_text": "Hezbollah-owned Manar TV in Beirut announced the death saying: 'With all pride we declare a great jihadist leader of the Islamic resistance in Lebanon joining the martyrs... the brother commander hajj Imad Mughniyeh'.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "叙利亚政府确认Mughniyeh死亡并启动调查",
+      "support_text": "Later, the Syrian government confirmed Mughniyeh had been killed and said investigations were still underway to find the perpetrators.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗和Hezbollah称Mughniyeh为烈士并谴责以色列",
+      "support_text": "Iran also condemned the killing, praising Mughniyeh as a martyr and describing the attack as 'yet another brazen example of organised state terrorism by the Zionist regime'.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Hezbollah宣布为Mughniyeh举行葬礼和纪念活动",
+      "support_text": "Hezbollah said a funeral service would be held in its stronghold in the southern suburbs of Beirut on Thursday.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国国务院谴责Mughniyeh并称其死亡是正义",
+      "support_text": "The US State Department described Mughniyeh as a 'cold-blooded killer, a mass murderer and a terrorist responsible for countless innocent lives lost'.",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "以色列总理办公室否认参与但前Mossad主管赞扬行动",
+      "support_text": "the Israeli prime minister's office later issued a statement rejecting 'the attempt by terror groups to attribute to it any involvement' in the killing. a former head of Israel's Mossad secret service, Danny Yatom, called the killing 'a big achievement for the free world against terrorist organisations.'",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mughniyeh被描述为Hezbollah伊斯兰抵抗军秘密军事翼的特种作战或情报负责人",
+      "support_text": "Mughniyeh被描述为Hezbollah伊斯兰抵抗军秘密军事翼的特种作战或情报负责人",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_14",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "记者报道Mughniyeh之死对Hezbollah及其伊朗和叙利亚支持者来说是重大打击",
+      "support_text": "记者报道Mughniyeh之死对Hezbollah及其伊朗和叙利亚支持者来说是重大打击",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "安全人员搬运尸体",
+      "support_text": "安全人员搬运尸体",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Reuters报道了居民和目击者的话",
+      "support_text": "Reuters报道了居民和目击者的话",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "伊朗表示调查仍在进行",
+      "support_text": "伊朗表示调查仍在进行",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_18",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "伊朗谴责MQ组织头目被杀害",
+      "support_text": "伊朗谴责MQ组织头目被杀害",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗将袭击描述为有组织的国家恐怖主义",
+      "support_text": "伊朗将袭击描述为有组织的国家恐怖主义",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_20",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "纪念哈里里遇刺三周年的大规模集会",
+      "support_text": "纪念哈里里遇刺三周年",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_21",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "前总理Rafik Hariri遇刺事件",
+      "support_text": "哈里里遇刺",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_22",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府支持者与反对派冲突事件",
+      "support_text": "政府支持者与反对派发生冲突",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列政府未明确否认暗杀行为",
+      "support_text": "语义描述：以色列政府未明确否认暗杀行为；节点说明：需补充政府否认态度的官方表态",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列政府被指控暗杀多国敌人",
+      "support_text": "语义描述：以色列政府被指控暗杀多国敌人；节点说明：需补充多国指控的第三方证据",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_node_25",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "以色列政府暗杀Mughniyeh",
+      "support_text": "语义描述：以色列政府暗杀Mughniyeh；节点说明：需补充暗杀行动的战术细节",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_5_node_1",
+      "target": "text_5_node_2",
+      "relation": "before",
+      "support_text": "Mughniyeh is widely believed to be behind a wave of Western hostage-taking in Lebanon during the 1980s."
+    },
+    {
+      "source": "text_5_node_2",
+      "target": "text_5_node_3",
+      "relation": "before",
+      "support_text": "Mughniyeh was among several suspects indicted in the US for the 1985 hijacking of a TWA airliner in which a US Navy diver was killed."
+    },
+    {
+      "source": "text_5_node_3",
+      "target": "text_5_node_4",
+      "relation": "before",
+      "support_text": "the blast at a Buenos Aires Jewish centre two years later that killed 95."
+    },
+    {
+      "source": "text_5_node_5",
+      "target": "text_5_node_6",
+      "relation": "before",
+      "support_text": "the FBI Most Wanted list since 2001"
+    },
+    {
+      "source": "text_5_node_6",
+      "target": "text_5_node_7",
+      "relation": "before",
+      "support_text": "Hezbollah battled Israel in the 2006 Lebanon war"
+    },
+    {
+      "source": "text_5_node_6",
+      "target": "text_5_node_13",
+      "relation": "before",
+      "support_text": "Mughniyeh之死发生在2008年2月21日黎巴嫩卡法尔苏萨区爆炸事件中"
+    },
+    {
+      "source": "text_5_node_7",
+      "target": "text_5_node_8",
+      "relation": "before",
+      "support_text": "Later, the Syrian government confirmed Mughniyeh had been killed and said investigations were still underway to find the perpetrators."
+    },
+    {
+      "source": "text_5_node_7",
+      "target": "text_5_node_12",
+      "relation": "before",
+      "support_text": "the Israeli prime minister's office later issued a statement rejecting 'the attempt by terror groups to attribute to it any involvement' in the killing. a former head of Israel's Mossad secret service, Danny Yatom, called the killing 'a big achievement for the free world against terrorist organisations.'"
+    },
+    {
+      "source": "text_5_node_7",
+      "target": "text_5_node_11",
+      "relation": "before",
+      "support_text": "The US State Department described Mughniyeh as a 'cold-blooded killer, a mass murderer and a terrorist responsible for countless innocent lives lost'."
+    },
+    {
+      "source": "text_5_node_7",
+      "target": "text_5_node_15",
+      "relation": "before",
+      "support_text": "Mughniyeh在贝鲁特卡法尔苏萨区爆炸中死亡"
+    },
+    {
+      "source": "text_5_node_8",
+      "target": "text_5_node_9",
+      "relation": "before",
+      "support_text": "Iran also condemned the killing, praising Mughniyeh as a martyr and describing the attack as 'yet another brazen example of organised state terrorism by the Zionist regime'."
+    },
+    {
+      "source": "text_5_node_8",
+      "target": "text_5_node_17",
+      "relation": "before",
+      "support_text": "伊朗表示调查仍在进行与叙利亚政府确认死亡存在时序关联"
+    },
+    {
+      "source": "text_5_node_8",
+      "target": "text_5_node_18",
+      "relation": "before",
+      "support_text": "伊朗谴责MQ组织头目被杀害与叙利亚政府确认死亡存在时序关联"
+    },
+    {
+      "source": "text_5_node_8",
+      "target": "text_5_node_19",
+      "relation": "before",
+      "support_text": "伊朗将袭击描述为有组织的国家恐怖主义与叙利亚政府确认死亡存在时序关联"
+    },
+    {
+      "source": "text_5_node_9",
+      "target": "text_5_node_10",
+      "relation": "before",
+      "support_text": "Hezbollah said a funeral service would be held in its stronghold in the southern suburbs of Beirut on Thursday."
+    },
+    {
+      "source": "text_5_node_13",
+      "target": "text_5_node_14",
+      "relation": "before",
+      "support_text": "记者在Mughniyeh死亡后立即报道相关影响"
+    },
+    {
+      "source": "text_5_node_15",
+      "target": "text_5_node_16",
+      "relation": "before",
+      "support_text": "安全人员搬运尸体后目击者被采访"
+    },
+    {
+      "source": "text_5_node_21",
+      "target": "text_5_node_20",
+      "relation": "before",
+      "support_text": "哈里里遇刺事件导致三周年纪念活动"
+    },
+    {
+      "source": "text_5_node_21",
+      "target": "text_5_node_22",
+      "relation": "before",
+      "support_text": "遇刺事件引发后续政治冲突"
+    },
+    {
+      "source": "text_5_node_24",
+      "target": "text_5_node_23",
+      "relation": "before",
+      "support_text": "多国指控推动政府回应"
+    },
+    {
+      "source": "text_5_node_25",
+      "target": "text_5_node_23",
+      "relation": "before",
+      "support_text": "暗杀事件发生前政府未明确否认指控"
+    },
+    {
+      "source": "text_5_node_25",
+      "target": "text_5_node_24",
+      "relation": "before",
+      "support_text": "暗杀行动引发多国指控"
+    }
+  ]
+}

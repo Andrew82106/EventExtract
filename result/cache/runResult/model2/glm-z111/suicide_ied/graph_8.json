@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "text_8_node_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "0940（0740 GMT）红海度假村Lehamim面包店发生爆炸，店主及两名员工死亡",
+      "support_text": " explosion hit the Lehamim bakery in a residential area at 0940 (0740 GMT), killing the owner and two employees.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "三个巴勒斯坦组织（伊斯兰抵抗运动、阿克萨烈士旅、伊斯兰旅）宣称对爆炸负责",
+      "support_text": "Three Palestinian militant groups said they were behind the attack",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者据称从加沙经约旦进入以色列实施爆炸",
+      "support_text": "Militants said the bomber entered Israel via Jordan",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者描述袭击者穿着黑色外套携带背包进入高温的Eilat地区",
+      "support_text": "I saw a man with a black coat and a bag. For Eilat, where it is hot, it is strange to see someone walking with a coat.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者背包内携带爆炸物引发大规模爆炸，建筑剧烈震动",
+      "support_text": "Police said the bomber had entered the shop carrying the explosives in a backpack.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "三个组织声称七个月前策划袭击并警告后续行动",
+      "support_text": "The groups said the attack was planned seven months ago and warned of more to come.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列总理奥姆ert宣布持续打击巴勒斯坦武装分子",
+      "support_text": "Olmert vowed to continue fighting Palestinian militants.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "法塔赫发言人阿布·拉布谴责袭击损害巴勒斯坦形象",
+      "support_text": "Yasser Abed Rabbo condemned the attack.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈马斯称爆炸是针对以色列在约旦河西岸行动的'自然反应'",
+      "support_text": "Hamas described the bombing as a 'natural reaction'.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "联合国中东特使德索托谴责袭击针对平民且无正当理由",
+      "support_text": "De Soto said it was an attack on ordinary people.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "文本提及2006年特拉维夫餐厅自杀袭击造成10名以色列人死亡",
+      "support_text": "The last suicide attack killed 10 Israelis at a Tel Aviv restaurant.",
+      "source_text": "text_8"
+    },
+    {
+      "id": "text_8_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方对炸弹袭击者进入商店的声明",
+      "support_text": "警方表示炸弹袭击者进入商店",
+      "source_text": "text_8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_2",
+      "relation": "before",
+      "support_text": "Three Palestinian militant groups said they were behind the attack"
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_7",
+      "relation": "before",
+      "support_text": "Olmert vowed to continue fighting Palestinian militants."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_8",
+      "relation": "before",
+      "support_text": "Yasser Abed Rabbo condemned the attack."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_9",
+      "relation": "before",
+      "support_text": "Hamas described the bombing as a 'natural reaction'."
+    },
+    {
+      "source": "text_8_node_1",
+      "target": "text_8_node_10",
+      "relation": "before",
+      "support_text": "De Soto said it was an attack on ordinary people."
+    },
+    {
+      "source": "text_8_node_3",
+      "target": "text_8_node_5",
+      "relation": "before",
+      "support_text": "Militants said the bomber entered Israel via Jordan"
+    },
+    {
+      "source": "text_8_node_4",
+      "target": "text_8_node_1",
+      "relation": "before",
+      "support_text": "I saw a man with a black coat and a bag... Seconds later, I heard a huge blast."
+    },
+    {
+      "source": "text_8_node_5",
+      "target": "text_8_node_4",
+      "relation": "before",
+      "support_text": "Police said the bomber had entered the shop carrying the explosives in a backpack."
+    },
+    {
+      "source": "text_8_node_6",
+      "target": "text_8_node_3",
+      "relation": "before",
+      "support_text": "The groups said the attack was planned seven months ago and warned of more to come."
+    },
+    {
+      "source": "text_8_node_11",
+      "target": "text_8_node_1",
+      "relation": "before",
+      "support_text": "The last suicide attack killed 10 Israelis at a Tel Aviv restaurant."
+    },
+    {
+      "source": "text_8_node_12",
+      "target": "text_8_node_5",
+      "relation": "before",
+      "support_text": "警方声明与炸弹进入商店事件存在因果关系"
+    }
+  ]
+}

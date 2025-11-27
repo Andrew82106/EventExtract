@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "id": "text_37_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "两年前安巴尔省当地部落与政府合作对抗逊尼派极端组织，实现相对平静",
+      "support_text": "Until two years ago, the Sunni insurgency was strong in Anbar province. But local Sunni tribes and their followers then turned against the militants, and began co-operating with the Iraqi government and US forces against them.",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "拉马迪省首府发生 twin suicide blasts，造成25人死亡并重伤省级官员",
+      "support_text": "A week before that, twin suicide blasts in the provincial capital Ramadi killed 25 people and severely injured regional governor Qassim Mohammed.",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "希特镇发生针对警察的袭击，导致8人死亡",
+      "support_text": "The bombing comes a week after attacks targeting police killed eight people in the town of Hit in the same province.",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "上周安巴尔省发生四次爆炸事件，导致7人死亡，目标包括反恐高级官员Maj Walid Suleiman",
+      "support_text": "Last Thursday, seven people died in four explosions, which appeared to have been caused by bombs planted at the houses of prominent policemen.",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "当前萨克拉维耶警察局附近发生自杀式爆炸，造成7人死亡（含2名警察）、6人受伤（含1名小女孩）",
+      "support_text": "Seven people have died as a suicide bomber blew up a truck near a police station in western Iraq... The bombing comes a week after attacks targeting police killed eight people in the town of Hit in the same province.",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全官员确认安巴尔省近期发生的系列爆炸事件",
+      "support_text": "安全官员确认事件：Seven people's deaths and truck explosion",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Mohammad Jassim向路透社通报爆炸事件",
+      "support_text": "发言人向路透社通报事件",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_8",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "AFP报道受伤女孩事件",
+      "support_text": "法新社报道受伤女孩事件",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_9",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者杀害了八名平民",
+      "support_text": "袭击者杀害了八名平民",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "暴力持续上升（持续冲突事件）",
+      "support_text": "暴力持续上升",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克为三月大选做准备",
+      "support_text": "伊拉克为三月大选做准备",
+      "source_text": "text_37"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_37_node_1",
+      "target": "text_37_node_2",
+      "relation": "before",
+      "support_text": "Until two years ago... After a period of relative calm, the province is against suffering from mounting violence."
+    },
+    {
+      "source": "text_37_node_2",
+      "target": "text_37_node_3",
+      "relation": "before",
+      "support_text": "A week before that... The bombing comes a week after attacks targeting police killed eight people..."
+    },
+    {
+      "source": "text_37_node_3",
+      "target": "text_37_node_4",
+      "relation": "before",
+      "support_text": "The bombing comes a week after attacks targeting police killed eight people... Last Thursday, seven people died in four explosions..."
+    },
+    {
+      "source": "text_37_node_3",
+      "target": "text_37_node_9",
+      "relation": "before",
+      "support_text": "根据node_3支持文本中‘一周前 attacks targeting police killed eight people’与当前事件的时序关联"
+    },
+    {
+      "source": "text_37_node_4",
+      "target": "text_37_node_5",
+      "relation": "before",
+      "support_text": "Last Thursday... The bombing comes a week after attacks targeting police killed eight people..."
+    },
+    {
+      "source": "text_37_node_5",
+      "target": "text_37_node_6",
+      "relation": "before",
+      "support_text": "在当前萨克拉维耶警察局附近发生自杀式爆炸事件后，安全官员确认了该事件"
+    },
+    {
+      "source": "text_37_node_6",
+      "target": "text_37_node_7",
+      "relation": "before",
+      "support_text": "安全官员确认事件后，发言人Mohammad Jassim向路透社通报"
+    },
+    {
+      "source": "text_37_node_7",
+      "target": "text_37_node_8",
+      "relation": "before",
+      "support_text": "路透社通报后，法新社跟进报道受伤女孩事件"
+    }
+  ]
+}

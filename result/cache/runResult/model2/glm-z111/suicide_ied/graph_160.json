@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "text_160_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Quetta发生摩托车爆炸事件，造成2人死亡、14人受伤，其中包括2名安全部队人员",
+      "support_text": "Two people were killed and another 14 injured on Tuesday after a motorcycle parked close to a Frontier Corps (FC) vehicle blew up in Quetta, medical and police officials said.",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸地点位于McConaghey Road的Liaquat Bazar附近，由DawnNewsTV报道",
+      "support_text": "The explosion occurred on McConaghey Road, close to Liaquat Bazar, DawnNewsTV reported.",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hizbul Ahrar（塔利班分支）通过AP News宣称对爆炸负责",
+      "support_text": "Hizbul Ahrar — an offshoot of the Tehreek-i-Taliban Pakistan (TTP) — claimed responsibility for the attack, according to AP News.",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "受害者名单公布，包括2名遇难者（ Muhammad Akram）和13名伤者",
+      "support_text": "Two bodies were brought to the hospital while another 14 injured — including 2 security forces personnel — have been admitted to the facility's trauma wing.",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_5",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "总理Imran Khan谴责事件，要求提供最佳医疗救治并祈祷伤者康复",
+      "support_text": "Prime Minister Imran Khan strongly condemned the blast and expressed his deep grief and sorrow over the loss of precious human lives.",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Balochistan首席部长Jam Kamal谴责袭击，承诺加强安保并追究恐怖分子责任",
+      "support_text": "Balochistan Chief Minister Jam Kamal also condemned the tragic incident and sought a detailed report.",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Balochistan内政部长Mir Zia Langove和Quetta DIG Police Abdul Razzaq Cheema到医院慰问伤者",
+      "support_text": "Meanwhile, Balochistan Home Minister Mir Zia Langove and Quetta DIG Police Abdul Razzaq Cheema visited the hospital to inquire after the wounded.",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Cheema表示 crime scene已保护，调查进行中，计划周三重新勘验现场",
+      "support_text": "Following the visit, while speaking to the media, Langove said that the terrorists had 'targeted the security forces'. 'Our security forces have rendered precious sacrifices for peace and security in the province.' DIG Cheema said that the crime scene was secured and that investigations are underway. 'We are in the process of gathering evidence.' He said the crime scene will once more be examined in the light of day on Wednesday. 'It is too early to comment on the nature of the blast,' added the senior officer.",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "该事件发生在Quetta传统暴力高发区，此前11月曾发生FC人员遇袭事件",
+      "support_text": "In November, at least two Frontier Corps (FC) personnel were martyred and five others injured in an explosion in Quetta’s Kuchlak area. The FC personnel were on routine patrol in the area when an improvised explosive device (IED) detonated.",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "医疗和警方官员确认爆炸事件",
+      "support_text": "医疗和警方官员确认爆炸事件",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "PM Media Office发布声明",
+      "support_text": "PM Media Office issued a statement",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖分子试图颠覆和平",
+      "support_text": "恐怖分子试图颠覆和平",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "实施者针对平民发动恐怖袭击",
+      "support_text": "实施者针对平民发动恐怖袭击",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_14",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "执法机构将实施者绳之以法",
+      "support_text": "执法机构将实施者绳之以法",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "首席部长宣布加强安保措施",
+      "support_text": "首席部长宣布加强安保措施",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "首席部长指示秘书处理伤者",
+      "support_text": "首席部长指示秘书处理伤者",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "首席部长向遇难者家属致哀",
+      "support_text": "首席部长向遇难者家属致哀",
+      "source_text": "text_160"
+    },
+    {
+      "id": "text_160_node_18",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Langove向媒体发表讲话",
+      "support_text": "Langove said that the terrorists had 'targeted the security forces'.",
+      "source_text": "text_160"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_160_node_1",
+      "target": "text_160_node_2",
+      "relation": "before",
+      "support_text": "The explosion occurred on McConaghey Road, close to Liaquat Bazar, DawnNewsTV reported."
+    },
+    {
+      "source": "text_160_node_1",
+      "target": "text_160_node_3",
+      "relation": "before",
+      "support_text": "Hizbul Ahrar — an offshoot of the Tehreek-i-Taliban Pakistan (TTP) — claimed responsibility for the attack, according to AP News."
+    },
+    {
+      "source": "text_160_node_1",
+      "target": "text_160_node_4",
+      "relation": "before",
+      "support_text": "Two bodies were brought to the hospital while another 14 injured — including 2 security forces personnel — have been admitted to the facility's trauma wing."
+    },
+    {
+      "source": "text_160_node_1",
+      "target": "text_160_node_5",
+      "relation": "before",
+      "support_text": "Prime Minister Imran Khan strongly condemned the blast and expressed his deep grief and sorrow over the loss of precious human lives."
+    },
+    {
+      "source": "text_160_node_1",
+      "target": "text_160_node_6",
+      "relation": "before",
+      "support_text": "Balochistan Chief Minister Jam Kamal also condemned the tragic incident and sought a detailed report."
+    },
+    {
+      "source": "text_160_node_1",
+      "target": "text_160_node_10",
+      "relation": "before",
+      "support_text": "医疗和警方官员确认爆炸事件"
+    },
+    {
+      "source": "text_160_node_1",
+      "target": "text_160_node_11",
+      "relation": "before",
+      "support_text": "PM Media Office issued a statement"
+    },
+    {
+      "source": "text_160_node_2",
+      "target": "text_160_node_3",
+      "relation": "before",
+      "support_text": "Hizbul Ahrar — an offshoot of the Tehreek-i-Taliban Pakistan (TTP) — claimed responsibility for the attack, according to AP News."
+    },
+    {
+      "source": "text_160_node_5",
+      "target": "text_160_node_7",
+      "relation": "before",
+      "support_text": "Meanwhile, Balochistan Home Minister Mir Zia Langove and Quetta DIG Police Abdul Razzaq Cheema visited the hospital to inquire after the wounded."
+    },
+    {
+      "source": "text_160_node_7",
+      "target": "text_160_node_8",
+      "relation": "before",
+      "support_text": "Following the visit, while speaking to the media, Langove said that the terrorists had 'targeted the security forces'."
+    },
+    {
+      "source": "text_160_node_7",
+      "target": "text_160_node_18",
+      "relation": "before",
+      "support_text": "Following the visit, while speaking to the media..."
+    },
+    {
+      "source": "text_160_node_9",
+      "target": "text_160_node_1",
+      "relation": "before",
+      "support_text": "In November, at least two Frontier Corps (FC) personnel were martyred and five others injured in an explosion in Quetta’s Kuchlak area."
+    }
+  ]
+}

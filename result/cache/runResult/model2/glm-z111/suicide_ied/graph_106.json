@@ -1,0 +1,321 @@
+{
+  "nodes": [
+    {
+      "id": "text_106_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "警方于周一晚10:35接报曼彻斯特竞技场发生爆炸",
+      "support_text": "Greater Manchester Police said they were called to the Manchester Arena in England just before 10:35 p.m. local time on Monday.",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "初步统计22人死亡59人受伤，事件被定性为可能恐怖袭击",
+      "support_text": "22 dead, 59 injured after reports of explosion at Ariana Grande concert at Manchester Arena: Police",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "爆炸发生在演唱会结束后的场馆外厅，目击者听到巨响后人群慌乱逃生",
+      "support_text": "The explosion happened inside of the arena’s foyer area after the concert finished, according to witnesses, who reported hearing a loud bang as they exited the arena.",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "曼彻斯特维多利亚车站被紧急疏散，火车服务暂停",
+      "support_text": "Manchester Victoria station has been evacuated and trains are unable to run.",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国运输警察在全国铁路枢纽及列车加强武装巡逻",
+      "support_text": "British Transport Police department said extra officers would be patrol at 'key railway stations as well as on trains around the country’ in the wake of the attack.",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国首相与工党领袖宣布暂停大选竞选活动",
+      "support_text": "May and Corbyn have agreed that all national campaigning in the General Election were 'suspended until further notice' in the aftermath of the incident.",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国执法部门获知初步推测为自杀式爆炸",
+      "support_text": "U.S. law enforcement officials have been informed that the leading theory is that the Manchester Arena incident was the work of a suicide bomber.",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "6家医院接收伤者，警长呼吁公众保持警惕",
+      "support_text": "The wounded are being treated at six different hospitals, Greater Manchester Police Chief Constable Ian Hopkins said in a press conference.",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "美国国务院表示关注事件并慰问受害者",
+      "support_text": "The U.S. State Department said that it was monitoring the situation closely.",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "Ariana Grande通过社交媒体宣布自己安全但心碎",
+      "support_text": "Grande's manager, Scooter Braun, echoed her tweet, writing, 'Our hearts are broken.'",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "竞技场方确认爆炸发生在场馆外部并致歉",
+      "support_text": "Manchester Arena confirmed that there had been an incident but said it occurred outside the venue.",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_12",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "Greater Manchester Police通报了接警时间",
+      "support_text": "Greater Manchester Police said they were called to the Manchester Arena in England just before 10:35 p.m. local time on Monday.",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当局要求人们避开该区域",
+      "support_text": " Authorities are telling people to avoid the area. At the moment, the incident is being treated as a 'terrorist incident until police know otherwise,' police said.",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "执法人员谨慎表示信息是初步的",
+      "support_text": "执法人员谨慎表示信息是初步的",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "高级执法人员被调查简报",
+      "support_text": "高级执法人员被调查简报",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "我们正在尽力做所有能做的",
+      "support_text": "我们正在尽力做所有能做的",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "收集关于事件发生的信息",
+      "support_text": "收集关于事件发生的信息",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "助理首席警监Robin Smith表示通勤者将看到更多警员",
+      "support_text": "助理首席警监Robin Smith表示通勤者将看到更多警员",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "通勤者预期在行程中看到更多警员",
+      "support_text": "通勤者预期在行程中看到更多警员",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "包括武装和未武装警员",
+      "support_text": "包括武装和未武装警员",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国国内事务部发言人召开高级会议",
+      "support_text": "英国国内事务部发言人召开高级会议",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_22",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "英国首相梅就曼彻斯特事件发表声明",
+      "support_text": "英国首相梅就曼彻斯特事件发表声明",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "英国外交部密切监视事件进展",
+      "support_text": "英国外交部密切监视事件进展",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_24",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "美国国务院官员发表声明",
+      "support_text": "美国国务院官员发表声明",
+      "source_text": "text_106"
+    },
+    {
+      "id": "text_106_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "伦敦美国使馆密切监视局势",
+      "support_text": "伦敦美国使馆密切监视局势",
+      "source_text": "text_106"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_106_node_1",
+      "target": "text_106_node_5",
+      "relation": "before",
+      "support_text": "British Transport Police department said extra officers would be patrol at 'key railway stations as well as on trains around the country’ in the wake of the attack."
+    },
+    {
+      "source": "text_106_node_1",
+      "target": "text_106_node_6",
+      "relation": "before",
+      "support_text": "May is set to hold an emergency COBRA meeting at 9 a.m. local time."
+    },
+    {
+      "source": "text_106_node_1",
+      "target": "text_106_node_7",
+      "relation": "before",
+      "support_text": "U.S. law enforcement officials have been informed that the leading theory is that the Manchester Arena incident was the work of a suicide bomber."
+    },
+    {
+      "source": "text_106_node_2",
+      "target": "text_106_node_8",
+      "relation": "before",
+      "support_text": "The wounded are being treated at six different hospitals."
+    },
+    {
+      "source": "text_106_node_3",
+      "target": "text_106_node_1",
+      "relation": "before",
+      "support_text": " Authorities are telling people to avoid the area. At the moment, the incident is being treated as a 'terrorist incident until police know otherwise,' police said."
+    },
+    {
+      "source": "text_106_node_3",
+      "target": "text_106_node_2",
+      "relation": "before",
+      "support_text": "Eyewitness Karen Ford told the BBC, 'The lights had come up everyone was just getting out and walking towards the stairs, when all of a sudden this huge sound, which sounded like an explosion went off.'"
+    },
+    {
+      "source": "text_106_node_3",
+      "target": "text_106_node_4",
+      "relation": "before",
+      "support_text": "Manchester Victoria station has been evacuated and trains are unable to run."
+    },
+    {
+      "source": "text_106_node_3",
+      "target": "text_106_node_11",
+      "relation": "before",
+      "support_text": "Manchester Arena confirmed that there had been an incident but said it occurred outside the venue."
+    },
+    {
+      "source": "text_106_node_5",
+      "target": "text_106_node_18",
+      "relation": "before",
+      "support_text": "英国运输警察部门先宣布增加警力巡逻，随后助理首席警监Robin Smith具体说明"
+    },
+    {
+      "source": "text_106_node_7",
+      "target": "text_106_node_9",
+      "relation": "before",
+      "support_text": "The U.S. State Department said that it was monitoring the situation closely."
+    },
+    {
+      "source": "text_106_node_8",
+      "target": "text_106_node_10",
+      "relation": "before",
+      "support_text": "Grande's manager, Scooter Braun, echoed her tweet, writing, 'Our hearts are broken.'"
+    },
+    {
+      "source": "text_106_node_12",
+      "target": "text_106_node_1",
+      "relation": "before",
+      "support_text": "The police report (node_1) temporally follows the official statement (node_12) based on temporal_order 2 vs 4."
+    },
+    {
+      "source": "text_106_node_13",
+      "target": "text_106_node_1",
+      "relation": "before",
+      "support_text": "Evacuation orders (node_13) precede the explosion confirmation (node_1) as per temporal_order 6."
+    },
+    {
+      "source": "text_106_node_18",
+      "target": "text_106_node_19",
+      "relation": "before",
+      "support_text": "官方表态后通勤者产生预期"
+    },
+    {
+      "source": "text_106_node_19",
+      "target": "text_106_node_20",
+      "relation": "before",
+      "support_text": "预期产生后具体分类警员类型"
+    }
+  ]
+}

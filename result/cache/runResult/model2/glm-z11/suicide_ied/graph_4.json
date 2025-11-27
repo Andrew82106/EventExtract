@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "索马里首都附近工地发生自杀式汽车炸弹袭击，造成至少2人死亡、20余人受伤",
+      "support_text": "At least two people have been killed and more than 20 wounded as a suicide car bomber targeted a construction site along a major road outside Somalia’s capital, police said.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致6名土耳其公民受伤，其中2人情况危重",
+      "support_text": "Six Turkish nationals were among the wounded, with two in serious condition, Turkey’s health minister Fahrettin Koca said.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "索马里警方确认袭击目标为正在施工的土耳其建筑工人",
+      "support_text": "Somali police Colonel Abdi Abdullahi said. The Turkish construction workers appeared to be the bomber’s target.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸发生时现场有索马里警察保护土耳其工人施工",
+      "support_text": "Most of the casualties were police officers providing security for the Turkish workers constructing a highway between capital Mogadishu and the agricultural town of Afgoye, 18 miles north.",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "At least two people have been killed and more than 20 wounded as a suicide car bomber targeted a construction site along a major road outside Somalia’s capital, police said."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "Somali police Colonel Abdi Abdullahi said. The Turkish construction workers appeared to be the bomber’s target."
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "Most of the casualties were police officers providing security for the Turkish workers constructing a highway between capital Mogadishu and the agricultural town of Afgoye, 18 miles north."
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "Six Turkish nationals were among the wounded, with two in serious condition, Turkey’s health minister Fahrettin Koca said."
+    }
+  ]
+}

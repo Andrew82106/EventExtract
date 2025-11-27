@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_33_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式炸弹袭击奎达反脊灰中心，造成至少15人死亡",
+      "support_text": "A suicide bomber killed at least 15 people close to a polio eradication centre in Quetta on Wednesday, the latest militant attack on the anti-polio campaign in the country.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致12名警察、1名 paramilitary军官和2名平民死亡",
+      "support_text": "The latest attack killed at least 12 policemen, one paramilitary officer and two civilians, and wounded 25 others, officials said.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "救援人员与目击者向Geo News报告爆炸地点",
+      "support_text": "Rescue workers and eyewitnesses told Geo News that the blast took place near a police van outside a polio vaccination centre in the area.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Balochistan警察局长确认自杀式爆炸，护送队伍已抵达",
+      "support_text": "Ahsan Mehboob, police chief in Balochistan, told Reuters. 'It was a suicide blast, we have gathered evidence from the scene,' he said.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸物含约5公斤炸药，25人受伤",
+      "support_text": "They estimated the bomb contained about five kilograms of explosives.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "伤者被送至Civil Hospital Quetta，8人重伤并宣布紧急状态",
+      "support_text": "The injured were shifted to Civil Hospital Quetta, where a state of emergency was declared.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_8",
+      "event_type": "Disaster",
+      "event_subtype": "FireExplosion",
+      "event_sub_subtype": "Unspecified",
+      "description": "两辆警车在爆炸中损毁",
+      "support_text": "Two police vehicles were also damaged in the explosion.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "WHO指出巴基斯坦与阿富汗是仅有的脊灰流行国家",
+      "support_text": "The World Health Organization (WHO) says. Pakistan and neighbouring Afghanistan are the only two countries in the world where polio remains endemic.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦疫苗团队频繁遭塔利班等组织袭击",
+      "support_text": "Teams in Pakistan working to immunise children against the virus are often targeted by Taliban and other militant groups.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "高官从爆炸地点找到炸弹碎片",
+      "support_text": "高官从爆炸地点找到炸弹碎片",
+      "source_text": "text_33"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_2",
+      "relation": "before",
+      "support_text": "The latest attack killed at least 12 policemen, one paramilitary officer and two civilians, and wounded 25 others, officials said."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_3",
+      "relation": "before",
+      "support_text": "Rescue workers and eyewitnesses told Geo News that the blast took place near a police van outside a polio vaccination centre in the area."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_4",
+      "relation": "before",
+      "support_text": "Ahsan Mehboob, police chief in Balochistan, told Reuters. 'It was a suicide blast, we have gathered evidence from the scene,' he said."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_8",
+      "relation": "before",
+      "support_text": "Two police vehicles were also damaged in the explosion."
+    },
+    {
+      "source": "text_33_node_2",
+      "target": "text_33_node_7",
+      "relation": "before",
+      "support_text": "The injured were shifted to Civil Hospital Quetta, where a state of emergency was declared."
+    },
+    {
+      "source": "text_33_node_4",
+      "target": "text_33_node_6",
+      "relation": "before",
+      "support_text": "They estimated the bomb contained about five kilograms of explosives."
+    },
+    {
+      "source": "text_33_node_4",
+      "target": "text_33_node_11",
+      "relation": "before",
+      "support_text": "高官从爆炸地点找到炸弹碎片"
+    },
+    {
+      "source": "text_33_node_10",
+      "target": "text_33_node_1",
+      "relation": "before",
+      "support_text": "Teams in Pakistan working to immunise children against the virus are often targeted by Taliban and other militant groups."
+    }
+  ]
+}

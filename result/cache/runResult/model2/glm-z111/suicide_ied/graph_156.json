@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "id": "text_156_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2014年9月，叙利亚和库尔德人因与伊斯兰国（ISIS）及库尔德YPG的战斗逃至土耳其苏鲁菊避难所",
+      "support_text": "Since September 2014, thousands of Syrians and Kurds from Kobane have found refuge in Suruc after fleeing from the fierce fighting between Islamic State (IS) militants and members of the Kurdish YPG in Kobane.",
+      "source_text": "text_156"
+    },
+    {
+      "id": "text_156_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年1月，库尔德YPG在联军空中支援下收复被伊斯兰国（ISIS）占领的科布嫩",
+      "support_text": "Aided by coalition air strikes, the YPG had forced IS from Kobane in January, but as recently as last month militants launched a new offence against the town from the Turkish border.",
+      "source_text": "text_156"
+    },
+    {
+      "id": "text_156_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年（根据文本中'last month'推测），伊斯兰国（ISIS）等激进分子从土耳其边境再次进攻科布嫩",
+      "support_text": "as recently as last month militants launched a new offence against the town from the Turkish border.",
+      "source_text": "text_156"
+    },
+    {
+      "id": "text_156_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年某日，土耳其苏鲁菊文化中心花园发生爆炸，导致27人死亡、100余人受伤",
+      "support_text": "The blast occurred in the garden of the Amara Cultural Centre, where at least 300 members of the Federation of Socialist Youth Associations (SGDF) were staying as part of a summer expedition to help build the nearby Syrian Kurdish town of Kobane. The blast occurred just as the youth group were being filmed and chanting in solidarity with their mission to rebuild Kobane.",
+      "source_text": "text_156"
+    },
+    {
+      "id": "text_156_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "苏鲁菊文化中心爆炸后不久，科布嫩旧迫击炮仓库发生第二次爆炸",
+      "support_text": "Moments after the explosion in Suruc, a second explosion detonated in Kobane at an old mortar warehouse.",
+      "source_text": "text_156"
+    },
+    {
+      "id": "text_156_node_6",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "青年夏令营帮助重建科巴嫩的捐赠活动",
+      "support_text": "The blast occurred in the garden of the Amara Cultural Centre, where at least 300 members of the Federation of Socialist Youth Associations (SGDF) were staying as part of a summer expedition to help build the nearby Syrian Kurdish town of Kobane.",
+      "source_text": "text_156"
+    },
+    {
+      "id": "text_156_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "青年团体被拍摄活动",
+      "support_text": "The blast occurred just as the youth group were being filmed and chanting in solidarity with their mission to rebuild Kobane.",
+      "source_text": "text_156"
+    },
+    {
+      "id": "text_156_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "青年团体合唱支持活动",
+      "support_text": "The blast occurred just as the youth group were being filmed and chanting in solidarity with their mission to rebuild Kobane.",
+      "source_text": "text_156"
+    },
+    {
+      "id": "text_156_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "重建科巴嫩的使命执行",
+      "support_text": "The blast occurred just as the youth group were being filmed and chanting in solidarity with their mission to rebuild Kobane.",
+      "source_text": "text_156"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_156_node_1",
+      "target": "text_156_node_2",
+      "relation": "before",
+      "support_text": "Since September 2014... in January"
+    },
+    {
+      "source": "text_156_node_2",
+      "target": "text_156_node_3",
+      "relation": "before",
+      "support_text": "Aided by coalition air strikes... in January, but as recently as last month"
+    },
+    {
+      "source": "text_156_node_4",
+      "target": "text_156_node_5",
+      "relation": "before",
+      "support_text": "Moments after the explosion in Suruc, a second explosion detonated"
+    },
+    {
+      "source": "text_156_node_6",
+      "target": "text_156_node_7",
+      "relation": "before",
+      "support_text": "同时进行的活动"
+    },
+    {
+      "source": "text_156_node_7",
+      "target": "text_156_node_8",
+      "relation": "before",
+      "support_text": "同时进行的活动"
+    },
+    {
+      "source": "text_156_node_8",
+      "target": "text_156_node_9",
+      "relation": "before",
+      "support_text": "同时进行的活动"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "text_131_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS在什拉特东部发动屠杀，造成12人死亡（含妇女儿童）",
+      "support_text": "The Islamic State committed a new massacre at the eastern coast of Sharqat, killing 12 people, including women and children, Al Sumaria News reported on Sunday.",
+      "source_text": "text_131"
+    },
+    {
+      "id": "text_131_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS追逐试图渡河的船只导致翻覆，10人（含妇女儿童）溺亡",
+      "support_text": "The boat flipped and ten people, including women and children, drowned.",
+      "source_text": "text_131"
+    },
+    {
+      "id": "text_131_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS袭击逃离控制区的家庭，造成2人死亡",
+      "support_text": "ISIS also attacked families who were trying to flee from ISIS-held areas, killing two persons.",
+      "source_text": "text_131"
+    },
+    {
+      "id": "text_131_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "什拉特东部仍处于ISIS控制下，伊拉克安全部队计划发起大规模反攻",
+      "support_text": "The eastern part of the district is still under the control of ISIS, while the security forces are now preparing to launch an extensive attack to liberate this part of the district.",
+      "source_text": "text_131"
+    },
+    {
+      "id": "text_131_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "阿尔·苏马里亚新闻社报道了伊斯兰国在什拉特东部的屠杀事件",
+      "support_text": "Al Sumaria News reported on Sunday that ISIS committed a new massacre at the eastern coast of Sharqat, killing 12 people, including women and children.",
+      "source_text": "text_131"
+    },
+    {
+      "id": "text_131_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队解放什拉特东部地区",
+      "support_text": "security forces are now preparing to launch an extensive attack to liberate this part of the district",
+      "source_text": "text_131"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_131_node_1",
+      "target": "text_131_node_2",
+      "relation": "before",
+      "support_text": "adding that, 'The boat flipped and ten people, including women and children, drowned.'"
+    },
+    {
+      "source": "text_131_node_1",
+      "target": "text_131_node_5",
+      "relation": "before",
+      "support_text": "adding that, 'The boat flipped and ten people, including women and children, drowned.'"
+    },
+    {
+      "source": "text_131_node_2",
+      "target": "text_131_node_3",
+      "relation": "before",
+      "support_text": "ISIS also attacked families who were trying to flee from ISIS-held areas, killing two persons,"
+    },
+    {
+      "source": "text_131_node_3",
+      "target": "text_131_node_4",
+      "relation": "before",
+      "support_text": "The eastern part of the district is still under the control of ISIS, while the security forces are now preparing to launch an extensive attack to liberate this part of the district."
+    },
+    {
+      "source": "text_131_node_4",
+      "target": "text_131_node_6",
+      "relation": "before",
+      "support_text": "while the security forces are now preparing to launch an extensive attack to liberate this part of the district"
+    },
+    {
+      "source": "text_131_node_5",
+      "target": "text_131_node_2",
+      "relation": "before",
+      "support_text": "ISIS also attacked families who were trying to flee from ISIS-held areas, killing two persons,"
+    }
+  ]
+}

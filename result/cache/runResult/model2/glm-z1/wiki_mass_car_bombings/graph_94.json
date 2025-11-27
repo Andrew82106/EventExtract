@@ -1,0 +1,363 @@
+{
+  "nodes": [
+    {
+      "id": "text_94_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2023年8月12日早晨，自杀式袭击者在喀布尔外交区用卡车炸弹制造爆炸，造成90人死亡、400人受伤",
+      "support_text": "A suicide attacker struck the fortified heart of the Afghan capital with a massive truck bomb Wednesday, killing 90 people and wounding 400.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致加拿大等8国驻阿使馆受损，其中加拿大使馆一楼严重损毁",
+      "support_text": "The explosion also damaged several embassies, including Canada's.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班通过邮件明确否认袭击责任，ISIS尚未宣称",
+      "support_text": "The Taliban flatly denied any involvement in an email to news outlets and condemned all attacks against civilians.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗政府通过乌莱玛委员会公布伤亡数据，确认9名使馆安保人员死亡",
+      "support_text": "The number of dead and wounded was provided by the Afghan government's media centre, citing a statement from the Afghan Ulema Council.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Freelance记者描述爆炸坑直径4.5米，摧毁周边手机公司总部和电视台",
+      "support_text": "The crater left by the explosion was about 4½ metres wide and three metres deep, freelance reporter Jennifer Glasse told CBC News.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "国际记者组织确认2名媒体工作者死亡，包括BBC司机和TOLO TV员工",
+      "support_text": "The statement said: 'TOLO TV's staff member Aziz Navin was killed along with BBC Kabul's staff driver Nazeer Ahamad.'",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗内政部谴责袭击，称其违背人道主义价值观",
+      "support_text": "Afghanistan's ministry of interior affairs says it 'condemns in the strongest terms the terrorist attack' that killed so many.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "乌莱玛委员会批评袭击发生在斋月，违背伊斯兰教义",
+      "support_text": "The Afghan Ulema Council said, 'carrying out such attacks in the holy month of Ramadan is completely against humanity.'",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_9",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "加尼总统谴责袭击，强调即使在斋月也不会停止平民杀害",
+      "support_text": "President Ashraf Ghani also strongly condemned the attack. A statement from his office said that 'the terrorists... are not stopping the killing of our innocent people.'",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_10",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦外交部报告部分外交官住宅受损，3名人员受伤",
+      "support_text": "Pakistan's ministry of foreign affairs said 'the blast has caused damage to the residences of some Pakistani diplomats and staff, living in the close vicinity, and inflicted minor injuries to some.'",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_11",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国确认11名安保人员受伤，无生命危险",
+      "support_text": "The U.S. State Department said 11 U.S. citizens working as security contractors were wounded, but none have life-threatening injuries.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_12",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "日本2名使馆员工轻微受伤，使馆窗户受损",
+      "support_text": "Japan's foreign ministry says two of its embassy employees, both Japanese nationals who were inside the embassy complex, were slightly injured.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "德国使馆严重损毁，中国、法国使馆也有破坏",
+      "support_text": "The German Embassy was heavily damaged. Damage was also reported at the embassies of China, France and Japan.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_14",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "北约Mission和美军使馆在1公里外安全，赞扬阿安全部队应对",
+      "support_text": "The alliance praised 'the courage of Afghan Security Forces, especially the police and first responders' following the attack.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸摧毁50余辆车辆，1公里外建筑窗户碎裂",
+      "support_text": "The blast was so powerful that more than 50 vehicles were either damaged or destroyed. Residents described a mushroom cloud over Kabul and windows were shattered in shops, restaurants and other buildings up to a kilometre from the blast site.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "当地居民互助救援，意大利医院接收大量伤员",
+      "support_text": "Local TV footage showed shocked residents soaked in blood stumbling about, then being ferried away to hospitals. Passersby stopped and helped the wounded.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班5月宣布春季攻势，计划建立政治基础",
+      "support_text": "Last month, the Afghan Taliban announced the beginning of their spring offensive, promising to build their political base in the country while focusing military assaults on the international coalition and Afghan security forces.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国驻阿8,000名士兵持续训练阿军并打击恐袭",
+      "support_text": "The United States now has more than 8,000 troops in Afghanistan, training local forces and conducting counterterrorism operations.",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "加拿大总理特鲁多对爆炸事件受害者表达哀悼",
+      "support_text": "加拿大总理特鲁多对受害者表达哀悼",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "加拿大官员及使馆人员安全确认",
+      "support_text": "加拿大官员及使馆人员被确认安全",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_21",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "加拿大与阿富汗持续合作重建",
+      "support_text": "加拿大人与阿富汗人持续合作重建",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "居民描述蘑菇云现象",
+      "support_text": "语义描述：居民描述蘑菇云现象",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_23",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "自杀式爆炸导致男子受伤",
+      "support_text": "语义描述：自杀式爆炸导致男子受伤",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_24",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "受伤男子离开现场",
+      "support_text": "语义描述：受伤男子离开现场",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_25",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "塔利班发动军事袭击",
+      "support_text": "语义描述：塔利班发动军事袭击",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_26",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿富汗军队持续对抗塔利班",
+      "support_text": "语义描述：阿富汗军队持续对抗塔利班",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_27",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国挫败塔利班攻势",
+      "support_text": "语义描述：美国挫败塔利班攻势",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_28",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班占领关键地区",
+      "support_text": "语义描述：塔利班占领关键地区",
+      "source_text": "text_94"
+    },
+    {
+      "id": "text_94_node_29",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美英部队激烈争夺Helmand省",
+      "support_text": "语义描述：美英部队激烈争夺Helmand省",
+      "source_text": "text_94"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_94_node_1",
+      "target": "text_94_node_2",
+      "relation": "before",
+      "support_text": "The explosion also damaged several embassies, including Canada's."
+    },
+    {
+      "source": "text_94_node_1",
+      "target": "text_94_node_5",
+      "relation": "before",
+      "support_text": "The explosion went off just outside of the headquarters of a major cellphone company and a popular television station."
+    },
+    {
+      "source": "text_94_node_1",
+      "target": "text_94_node_15",
+      "relation": "before",
+      "support_text": "The blast was so powerful that more than 50 vehicles were either damaged or destroyed."
+    },
+    {
+      "source": "text_94_node_1",
+      "target": "text_94_node_18",
+      "relation": "before",
+      "support_text": "The United States now has more than 8,000 troops in Afghanistan..."
+    },
+    {
+      "source": "text_94_node_2",
+      "target": "text_94_node_13",
+      "relation": "before",
+      "support_text": "Damage was also reported at the embassies of China, France and Japan."
+    },
+    {
+      "source": "text_94_node_3",
+      "target": "text_94_node_4",
+      "relation": "before",
+      "support_text": "The number of dead and wounded was provided by the Afghan government's media centre..."
+    },
+    {
+      "source": "text_94_node_5",
+      "target": "text_94_node_6",
+      "relation": "before",
+      "support_text": "Jennifer Glasse told CBC News about the crater dimensions."
+    },
+    {
+      "source": "text_94_node_6",
+      "target": "text_94_node_7",
+      "relation": "before",
+      "support_text": "The International Federation of Journalists and its affiliate... condemned the brutal attack."
+    },
+    {
+      "source": "text_94_node_7",
+      "target": "text_94_node_8",
+      "relation": "before",
+      "support_text": "The Afghan Ulema Council said, 'carrying out such attacks in the holy month of Ramadan..."
+    },
+    {
+      "source": "text_94_node_8",
+      "target": "text_94_node_9",
+      "relation": "before",
+      "support_text": "President Ashraf Ghani also strongly condemned the attack."
+    },
+    {
+      "source": "text_94_node_9",
+      "target": "text_94_node_10",
+      "relation": "before",
+      "support_text": "Pakistan's ministry of foreign affairs said 'the blast has caused damage to the residences..."
+    },
+    {
+      "source": "text_94_node_10",
+      "target": "text_94_node_11",
+      "relation": "before",
+      "support_text": "The U.S. State Department said 11 U.S. citizens working as security contractors were wounded."
+    },
+    {
+      "source": "text_94_node_11",
+      "target": "text_94_node_12",
+      "relation": "before",
+      "support_text": "Japan's foreign ministry says two of its embassy employees..."
+    },
+    {
+      "source": "text_94_node_13",
+      "target": "text_94_node_14",
+      "relation": "before",
+      "support_text": "The alliance praised 'the courage of Afghan Security Forces..."
+    },
+    {
+      "source": "text_94_node_15",
+      "target": "text_94_node_16",
+      "relation": "before",
+      "support_text": "Residents described a mushroom cloud over Kabul and windows were shattered..."
+    },
+    {
+      "source": "text_94_node_17",
+      "target": "text_94_node_1",
+      "relation": "before",
+      "support_text": "Last month, the Afghan Taliban announced the beginning of their spring offensive..."
+    }
+  ]
+}

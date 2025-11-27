@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    {
+      "id": "text_5_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "参议员约翰·科恩伦（参议院印度小组委员会共同主席）发表致辞，对伤亡士兵及其家属表示哀悼，并重申对印度作为全球反恐关键盟友的支持",
+      "support_text": "I send my deepest condolences to the soldiers injured and killed in this senseless attack, to their families, and to India, a critical ally in the global war on terror",
+      "source_text": "text_5"
+    },
+    {
+      "id": "text_5_new_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端伊斯兰恐怖组织杀害了40多名印度军事警察",
+      "support_text": "已分类的动词事件列表中的语义描述",
+      "source_text": "text_5"
+    }
+  ],
+  "edges": []
+}

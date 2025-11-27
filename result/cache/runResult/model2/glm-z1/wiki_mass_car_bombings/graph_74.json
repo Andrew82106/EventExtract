@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "text_74_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方在奥斯陆实施大规模封锁",
+      "support_text": "Even as the police locked down a large area of the city after the blasts",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伪装成警察的嫌疑人进入乌托亚岛青年营地",
+      "support_text": "the suspect, dressed as a police officer, entered the youth camp on the island of Utoya",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "嫌疑人谎称例行检查实施恐怖袭击",
+      "support_text": "He said it was a routine check in connection with the terror attack in Oslo",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "至少80人遇害，包括16岁以下青少年",
+      "support_text": "Of the at least 80 people killed on the island",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "受惊青年跳入水中逃生，因岛屿远离大陆难以撤离",
+      "support_text": "Terrified youths jumped into the water to escape",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者先在岛上开枪，随后对水中逃生的受害者继续射击",
+      "support_text": "He first shot people on the island, after which he started shooting people in the water",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "15岁幸存者证实袭击者分阶段实施屠杀",
+      "support_text": "He first shot people on the island",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "警方在电视上报道",
+      "support_text": "警方在电视上报道",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "Bjorn Jarle Roberg-Larsen通过电话与岛上的青少年交谈",
+      "support_text": "Bjorn Jarle Roberg-Larsen通过电话与岛上的青少年交谈",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Bjorn Jarle Roberg-Larsen发表声明",
+      "support_text": "Kids have started to swim...scared to death.",
+      "source_text": "text_74"
+    },
+    {
+      "id": "text_74_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "其他人在躲藏",
+      "support_text": "其他人在躲藏",
+      "source_text": "text_74"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_74_node_1",
+      "target": "text_74_node_2",
+      "relation": "before",
+      "support_text": "Even as the police locked down a large area of the city after the blasts, the suspect, dressed as a police officer, entered the youth camp on the island of Utoya"
+    },
+    {
+      "source": "text_74_node_2",
+      "target": "text_74_node_3",
+      "relation": "before",
+      "support_text": "He said it was a routine check in connection with the terror attack in Oslo"
+    },
+    {
+      "source": "text_74_node_3",
+      "target": "text_74_node_6",
+      "relation": "before",
+      "support_text": "He said it was a routine check in connection with the terror attack in Oslo"
+    },
+    {
+      "source": "text_74_node_4",
+      "target": "text_74_node_7",
+      "relation": "before",
+      "support_text": "He first shot people on the island"
+    },
+    {
+      "source": "text_74_node_5",
+      "target": "text_74_node_6",
+      "relation": "before",
+      "support_text": "Terrified youths jumped into the water to escape"
+    },
+    {
+      "source": "text_74_node_6",
+      "target": "text_74_node_4",
+      "relation": "before",
+      "support_text": "Of the at least 80 people killed on the island"
+    },
+    {
+      "source": "text_74_node_6",
+      "target": "text_74_node_7",
+      "relation": "before",
+      "support_text": "He first shot people on the island"
+    },
+    {
+      "source": "text_74_node_9",
+      "target": "text_74_node_5",
+      "relation": "before",
+      "support_text": "Bjorn Jarle Roberg-Larsen通过电话与岛上的青少年交谈发生在青年跳入水中逃生之前"
+    },
+    {
+      "source": "text_74_node_10",
+      "target": "text_74_node_8",
+      "relation": "before",
+      "support_text": "Bjorn Jarle Roberg-Larsen发表声明发生在警方电视报道之前"
+    },
+    {
+      "source": "text_74_node_11",
+      "target": "text_74_node_6",
+      "relation": "before",
+      "support_text": "其他人在躲藏发生在袭击者继续射击受害者之前"
+    }
+  ]
+}

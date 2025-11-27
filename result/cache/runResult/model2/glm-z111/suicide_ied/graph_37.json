@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "id": "text_37_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "五角大楼于周五声明指出黎巴嫩真主党标志与布加勒斯特恐怖袭击存在关联",
+      "support_text": "The Pentagon said Friday that there were 'distinctive Hezbollah markings' linked to the Burgas terror attack which claimed the lives of five Israelis.",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "五角大楼发言人补充说明美国无法确定该袭击的最终责任方",
+      "support_text": "Nevertheless, the Pentagon's spokesperson said that the US cannot 'decisively state' who was behind the attack.",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴格达斯恐怖袭击导致五名以色列人丧生",
+      "support_text": "the Burgas terror attack which claimed the lives of five Israelis",
+      "source_text": "text_37"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_37_node_1",
+      "target": "text_37_node_2",
+      "relation": "before",
+      "support_text": "Nevertheless, the Pentagon's spokesperson said that the US cannot 'decisively state' who was behind the attack."
+    },
+    {
+      "source": "text_37_node_1",
+      "target": "text_37_node_3",
+      "relation": "before",
+      "support_text": "The Pentagon said Friday that there were 'distinctive Hezbollah markings' linked to the Burgas terror attack which claimed the lives of five Israelis."
+    },
+    {
+      "source": "text_37_node_3",
+      "target": "text_37_node_2",
+      "relation": "before",
+      "support_text": "Nevertheless, the Pentagon's spokesperson said that the US cannot 'decisively state' who was behind the attack."
+    }
+  ]
+}

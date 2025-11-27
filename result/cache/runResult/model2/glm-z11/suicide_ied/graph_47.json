@@ -1,0 +1,474 @@
+{
+  "nodes": [
+    {
+      "id": "text_47_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Richard Reid attempted to board American Airlines Flight 63 from Paris to Miami on December 22, 2001, but was initially denied entry at Charles de Gaulle Airport due to incomplete answers",
+      "support_text": "Sources in France said that Reid attempted Friday to board an American Airlines Paris-to-Miami flight, but authorities at Charles de Gaulle Airport in Paris would not let him aboard when he did not answer all their questions.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "GrantAllowPassage",
+      "description": "Reid was allowed to re-board Flight 63 after French authorities verified his British passport and reissued his ticket",
+      "support_text": "He was turned over to French National Police, who concluded his British passport was genuine and allowed American Airlines to reissue the man's ticket for Flight 63 the next day, sources said.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "During the flight, flight attendant Hermis Moutardier detected a burnt match smell and confronted Reid who lit a match in his mouth",
+      "support_text": "A flight attendant smelled what she thought was a burnt match at about 11 a.m., 90 minutes into the flight. A passenger directed the flight attendant, Hermis Moutardier, to Reid, who was seated in row 29 in the coach section.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid attempted to ignite his shoes' inner tongue with a second match while flight attendants and passengers struggled to subdue him",
+      "support_text": "Reid lit a match in his mouth, according to a criminal complaint the FBI filed. Moutardier then saw him light another match, and he appeared to be trying to set fire to the inner tongue of his sneaker.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid bit flight attendant Cristina Jones during the struggle and was eventually subdued by passengers using sedatives",
+      "support_text": "When a second flight attendant, Cristina Jones, joined the fracas, Reid bit her on the thumb, the affidavit said.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Flight 63 was diverted to Boston Logan International Airport and landed safely at 12:50 PM EST",
+      "support_text": "The plane was diverted to Boston's Logan International Airport, where it landed safely.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "U.S. Magistrate Judith Dein approved extended custody for Reid due to flight risk and dangerousness during the January 1, 2002 hearing",
+      "support_text": "At Monday's brief hearing, Reid was read his rights but did not enter a plea because he does not have an attorney yet. U.S. Magistrate Judith Dein approved a request by U.S. attorneys for Reid to remain in custody until the pending trial because of the dangerousness of the situation and his risk of flight.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "FBI analysis confirmed Reid's shoes contained two functional IEDs with approximately 10 ounces of explosive material",
+      "support_text": "The FBI's preliminary analysis of Reid's shoes showed they contained 'two functional improvised explosive devices,' federal authorities said Sunday.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "The FAA mandated random shoe inspections for all flights following the incident",
+      "support_text": "As a result of Saturday's events, the Federal Aviation Administration issued a security directive Sunday ordering airlines to add random shoe inspections to the random baggage checks already carried out.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid's identity confusion emerged as French authorities identified him as Abdel Raheem while U.S. officials linked him to Tariq Raja",
+      "support_text": "Though the man's passport identified him as Richard Colvin Reid, a French Border Police spokesman said the FBI identified him as Tariq Raja, born August 12, 1973, in Sri Lanka.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "British and French authorities confirmed Reid's British citizenship despite conflicting passport information",
+      "support_text": "New Scotland Yard and French authorities said he is a British citizen.",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_13",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid被法庭正式定罪",
+      "support_text": "语义描述：Reid被法庭定罪 | 主体：Reid | 对象：法庭/司法系统",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_14",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid面临监禁、缓刑和罚款",
+      "support_text": "语义描述：Reid面临监禁、缓刑和罚款 | 主体：Reid | 对象：监禁（20年）、缓刑（3年）、罚款（25万美元）",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_15",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "监禁之后将执行缓刑和罚款",
+      "support_text": "语义描述：监禁之后将执行缓刑和罚款 | 主体：监禁 | 对象：缓刑（3年）和罚款（25万美元）",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Reid被关押在普利茅斯矫正设施",
+      "support_text": "语义描述：Reid被关押在普利茅斯矫正设施 | 主体：Reid | 对象：普利茅斯矫正设施",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_17",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "戴恩法官安排了证据听证会",
+      "support_text": "语义描述：戴恩法官安排了证据听证会 | 主体：Judith Dein | 对象：an evidentiary hearing",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_18",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "里德穿着橙色囚服，戴着手铐和脚镣，安静地走进法庭",
+      "support_text": "语义描述：里德穿着橙色囚服，戴着手铐和脚镣，安静地走进法庭 | 主体：Reid | 对象：法庭",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "里德对是否要说出真相作出耸肩回应",
+      "support_text": "语义描述：里德对是否要说出真相作出耸肩回应 | 主体：Reid | 对象：是否要说出真相",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "里德用'yeah'澄清了之前的耸肩动作",
+      "support_text": "语义描述：里德用'yeah'澄清了之前的耸肩动作 | 主体：Reid | 对象：耸肩动作",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "里德对关于权利和指控的提问回答'yes'",
+      "support_text": "语义描述：里德对关于权利和指控的提问回答'yes' | 主体：Reid | 对象：问题",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "航空公司将随机鞋检添加到现有行李检查中",
+      "support_text": "语义描述：航空公司将随机鞋检添加到现有行李检查中 | 主体：airlines | 对象：random shoe inspections, random baggage checks",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "FBI通过行李检查发现可疑物品",
+      "support_text": "语义描述：Reid的行李检查引发更多怀疑 | 主体：he | 对象：further suspicions",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_24",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Moutardier通过对讲机向船长发出警报",
+      "support_text": "Moutardier通过对讲机向船长发出警报",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Moutardier注意到鞋中露出导线",
+      "support_text": "Moutardier注意到鞋中露出导线",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_26",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Moutardier试图抓住鞋子",
+      "support_text": "Moutardier试图抓住鞋子",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_27",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Reid将Moutardier推入隔舱",
+      "support_text": "Reid将Moutardier推入隔舱",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_28",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Moutardier将Reid推倒在地",
+      "support_text": "Moutardier将Reid推倒在地",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_29",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Moutardier向乘客呼救",
+      "support_text": "Moutardier向乘客呼救",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_30",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "Moutardier取水",
+      "support_text": "Moutardier取水",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_31",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "Moutardier将水泼向乘客脸部",
+      "support_text": "Moutardier将水泼向乘客脸部",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_32",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "其他乘客加入混乱场面",
+      "support_text": "其他乘客加入混乱场面",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_33",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国执法机构确认该男子与恐怖组织无关联",
+      "support_text": "语义描述：美国执法机构发现该男子与任何恐怖组织无关联 | 主体：U.S. law enforcement authorities | 对象：no connection",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_34",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法国内政部发言人声明Reid改名为Abdel Raheem",
+      "support_text": "语义描述：法国内政部发言人声明Reid改名为Abdel Raheem | 主体：French Ministry of Interior spokesman | 对象：Reid had adopted the name of Abdel Raheem",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_35",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "护照将男子身份识别为Richard Colvin Reid",
+      "support_text": "语义描述：护照将男子身份识别为Richard Colvin Reid | 主体：the man's passport | 对象：him",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_36",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "斯里兰卡外长部发布声明",
+      "support_text": "语义描述：斯里兰卡外长部发布声明 | 主体：Srli Lanka's foreign ministry | 对象：a statement",
+      "source_text": "text_47"
+    },
+    {
+      "id": "text_47_node_37",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "护照将男子身份识别为Richard Colvin Reid",
+      "support_text": "语义描述：护照将男子身份识别为Richard Colvin Reid | 主体：the man's passport | 对象：him",
+      "source_text": "text_47"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_47_node_1",
+      "target": "text_47_node_2",
+      "relation": "before",
+      "support_text": "He was turned over to French National Police, who concluded his British passport was genuine and allowed American Airlines to reissue the man's ticket for Flight 63 the next day, sources said."
+    },
+    {
+      "source": "text_47_node_2",
+      "target": "text_47_node_3",
+      "relation": "before",
+      "support_text": "A flight attendant smelled what she thought was a burnt match at about 11 a.m., 90 minutes into the flight."
+    },
+    {
+      "source": "text_47_node_3",
+      "target": "text_47_node_4",
+      "relation": "before",
+      "support_text": "Reid lit a match in his mouth, according to a criminal complaint the FBI filed."
+    },
+    {
+      "source": "text_47_node_4",
+      "target": "text_47_node_5",
+      "relation": "before",
+      "support_text": "When a second flight attendant, Cristina Jones, joined the fracas, Reid bit her on the thumb, the affidavit said."
+    },
+    {
+      "source": "text_47_node_5",
+      "target": "text_47_node_6",
+      "relation": "before",
+      "support_text": "The plane was diverted to Boston's Logan International Airport, where it landed safely."
+    },
+    {
+      "source": "text_47_node_6",
+      "target": "text_47_node_8",
+      "relation": "before",
+      "support_text": "At Monday's brief hearing, Reid was read his rights but did not enter a plea because he does not have an attorney yet."
+    },
+    {
+      "source": "text_47_node_6",
+      "target": "text_47_node_9",
+      "relation": "before",
+      "support_text": "The FBI's preliminary analysis of Reid's shoes showed they contained 'two functional improvised explosive devices,' federal authorities said Sunday."
+    },
+    {
+      "source": "text_47_node_6",
+      "target": "text_47_node_10",
+      "relation": "before",
+      "support_text": "As a result of Saturday's events, the Federal Aviation Administration issued a security directive Sunday ordering airlines to add random shoe inspections..."
+    },
+    {
+      "source": "text_47_node_6",
+      "target": "text_47_node_11",
+      "relation": "before",
+      "support_text": "Though the man's passport identified him as Richard Colvin Reid, a French Border Police spokesman said the FBI identified him as Tariq Raja..."
+    },
+    {
+      "source": "text_47_node_6",
+      "target": "text_47_node_12",
+      "relation": "before",
+      "support_text": "New Scotland Yard and French authorities said he is a British citizen."
+    },
+    {
+      "source": "text_47_node_6",
+      "target": "text_47_node_23",
+      "relation": "before",
+      "support_text": "航班安全检查导致行李复查"
+    },
+    {
+      "source": "text_47_node_8",
+      "target": "text_47_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order 1，定罪事件应早于后续司法处置"
+    },
+    {
+      "source": "text_47_node_8",
+      "target": "text_47_node_17",
+      "relation": "before",
+      "support_text": "根据temporal_order 4，听证会安排在1月1日保释听证会之后"
+    },
+    {
+      "source": "text_47_node_10",
+      "target": "text_47_node_22",
+      "relation": "before",
+      "support_text": "根据temporal_order 3，航空公司执行该操作发生在FAA发布指令之后"
+    },
+    {
+      "source": "text_47_node_13",
+      "target": "text_47_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order 2，定罪后面临具体刑罚"
+    },
+    {
+      "source": "text_47_node_14",
+      "target": "text_47_node_15",
+      "relation": "before",
+      "support_text": "根据temporal_order 3，监禁结束后执行缓刑和罚款"
+    },
+    {
+      "source": "text_47_node_15",
+      "target": "text_47_node_16",
+      "relation": "before",
+      "support_text": "根据temporal_order 4，缓刑执行与关押设施关联"
+    },
+    {
+      "source": "text_47_node_18",
+      "target": "text_47_node_19",
+      "relation": "before",
+      "support_text": "根据temporal_order 1，进入法庭早于耸肩回应"
+    },
+    {
+      "source": "text_47_node_19",
+      "target": "text_47_node_20",
+      "relation": "before",
+      "support_text": "根据temporal_order 2，耸肩回应早于澄清动作"
+    },
+    {
+      "source": "text_47_node_20",
+      "target": "text_47_node_21",
+      "relation": "before",
+      "support_text": "根据temporal_order 3，澄清动作早于回答提问"
+    },
+    {
+      "source": "text_47_node_24",
+      "target": "text_47_node_3",
+      "relation": "before",
+      "support_text": "根据temporal_order 1，警报事件早于检测烧焦气味"
+    },
+    {
+      "source": "text_47_node_25",
+      "target": "text_47_node_9",
+      "relation": "before",
+      "support_text": "根据temporal_order 3，导线观察早于FBI分析"
+    },
+    {
+      "source": "text_47_node_26",
+      "target": "text_47_node_4",
+      "relation": "before",
+      "support_text": "根据temporal_order 3，抓取动作早于点燃鞋舌"
+    },
+    {
+      "source": "text_47_node_27",
+      "target": "text_47_node_5",
+      "relation": "before",
+      "support_text": "根据temporal_order 4，推入隔舱早于咬伤空乘"
+    }
+  ]
+}

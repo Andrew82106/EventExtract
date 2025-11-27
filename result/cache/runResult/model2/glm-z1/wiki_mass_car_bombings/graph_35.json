@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "id": "text_35_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2023年10月以来巴基斯坦遭遇自杀式爆炸袭击，造成600多人死亡",
+      "support_text": "The New Year's Day attack on the northwest village of Shah Hasan Khel was one of the deadliest in a surge of bombings that has taken more than 600 lives across Pakistan since October.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2024年1月1日Shah Hasan Khel村发生自杀式爆炸，袭击民兵会议但爆炸发生在排球场",
+      "support_text": "The New Year's Day attack on the northwest village of Shah Hasan Khel was one of the deadliest in a surge of bombings that has taken more than 600 lives across Pakistan since October. Police believe the attacker meant to set off his 250 kilograms of explosives at a meeting of tribesmen in charge of the local anti-Taliban militia. Instead, the blast went off at a nearby volleyball court.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸摧毁30多栋土坯房，村庄被尘土、烟雾和焦糊味笼罩",
+      "support_text": "The explosion levelled three dozen mud-brick homes and covered the village with dust, smoke and the smell of burning flesh.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_4",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "50岁长老Mushtaq Khan表示Pashtun传统要求以复仇回应恐怖袭击",
+      "support_text": "\"Such attacks will only strengthen our resolve – being Pashtun, revenge is the only answer to the gruesome killings,\" said Mushtaq Khan, 50, head of the tribal council.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_5",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "步枪持有可能的长老Raham Dil Khan重申民兵委员会反对一切恐怖主义",
+      "support_text": "\"One thing is very clear: The committee will stand against every type of terrorism,\" said Raham Dil Khan, a rifle-toting elder.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "过去两年巴基斯坦西北部村庄自发建立民兵对抗塔利班",
+      "support_text": "Across Pakistan's northwest, where the police force is thin, various villages and tribes have taken security into their own hands over the past two years by setting up citizen militias to fend off the Taliban.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府鼓励的'拉什卡尔'民兵在巴焦尔地区协助军队击退激进分子",
+      "support_text": "The government has encouraged such 'lashkars,' and in some areas they have proven key to reducing militant activity. In the Bajur region, for instance, the militias helped turn the tide against militants during an army offensive.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "斯瓦特山谷平民积极防止被军队镇压的激进分子卷土重来",
+      "support_text": "Civilians in the Swat Valley are active to prevent militants suppressed by the army from staging a comeback.",
+      "source_text": "text_35"
+    },
+    {
+      "id": "text_35_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "基于普什图传统的民兵运动鼓励复仇，类似美国伊拉克反恐案例",
+      "support_text": "The militia movement has its roots in Pashtun tribal traditions that go back generations and encourage vengeance. It has been compared to largely successful U.S. efforts to persuade Sunni tribesmen to turn on Al Qaeda in Iraq.",
+      "source_text": "text_35"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_35_node_1",
+      "target": "text_35_node_2",
+      "relation": "before",
+      "support_text": "The New Year's Day attack on the northwest village of Shah Hasan Khel was one of the deadliest in a surge of bombings that has taken more than 600 lives across Pakistan since October."
+    },
+    {
+      "source": "text_35_node_2",
+      "target": "text_35_node_3",
+      "relation": "before",
+      "support_text": "The explosion levelled three dozen mud-brick homes and covered the village with dust, smoke and the smell of burning flesh."
+    },
+    {
+      "source": "text_35_node_3",
+      "target": "text_35_node_4",
+      "relation": "before",
+      "support_text": "\"Such attacks will only strengthen our resolve – being Pashtun, revenge is the only answer to the gruesome killings,\" said Mushtaq Khan, 50, head of the tribal council."
+    },
+    {
+      "source": "text_35_node_3",
+      "target": "text_35_node_5",
+      "relation": "before",
+      "support_text": "\"One thing is very clear: The committee will stand against every type of terrorism,\" said Raham Dil Khan, a rifle-toting elder."
+    },
+    {
+      "source": "text_35_node_6",
+      "target": "text_35_node_7",
+      "relation": "before",
+      "support_text": "The government has encouraged such 'lashkars,' and in some areas they have proven key to reducing militant activity."
+    },
+    {
+      "source": "text_35_node_6",
+      "target": "text_35_node_8",
+      "relation": "before",
+      "support_text": "Civilians in the Swat Valley are active to prevent militants suppressed by the army from staging a comeback."
+    },
+    {
+      "source": "text_35_node_6",
+      "target": "text_35_node_9",
+      "relation": "before",
+      "support_text": "The militia movement has its roots in Pashtun tribal traditions that go back generations and encourage vengeance."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "text_42_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2019年4月21日，斯里兰卡发生恐怖袭击，导致近300人死亡、500人受伤，袭击目标包括科伦坡、Negombo和Batticaloa的3座教堂及3家酒店",
+      "support_text": "St. Anthony's Shrine in Colombo, one of the targets of Sri Lanka's terrorist attacks on April 21, 2019. (ANSA) Pope Francis pledged his closeness and solidarity with Sri Lanka again on Monday after the deadly terrorist attacks on Easter Sunday.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年4月21日，斯里兰卡科伦坡大主教卡迪沙哈拉姆（Cardinal Malcolm Ranjith）谴责袭击为'bestial and inhuman'，并呼吁国际医疗援助",
+      "support_text": "Card. Ranjith described the attacks as 'bestial and inhuman' and extended his condolences to the families of the dead and wounded. He also called on health professionals to help save lives and tend to the injured.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "2019年4月21日，缅甸天主教亚洲主教会议主席卡迪萨博（Cardinal Charles Bo）致信卡迪沙哈拉姆，表达哀悼与精神支持",
+      "support_text": "Cardinal Charles Bo of Myanmar in a letter to Cardinal Ranjith.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "2019年4月21日，印度天主教 bishops conference主席卡迪奥斯瓦德（Cardinal Oswald Gracias）致信卡迪沙哈拉姆，对袭击表示痛心",
+      "support_text": "Cardinal Oswald Gracias, the president of the Catholic Bishops Conference of India (CBCI), wrote to Card. Ranjith on April 21.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "2019年4月22日，教皇方济各在梵蒂冈圣彼得广场发表讲话，重申对斯里兰卡人民的支持，呼吁国际社会谴责恐怖主义",
+      "support_text": "Pope Francis Speaking to a large crowd in Rome’s St. Peter’s Square at midday on Easter Monday.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "2019年4月22日，亚洲其他19个主教会议通过卡迪萨博致信，承诺为斯里兰卡提供集体祈祷与援助",
+      "support_text": "the president of the Federation of 19 bishops conferences of Asia concluded pledging the prayers of the bishops and their faithful for Sri Lanka.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "教皇方济各与马尔科姆·拉尼希枢机和科伦坡大主教建立密切关系",
+      "support_text": "Pope Francis pledged his closeness and solidarity with Sri Lanka again on Monday after the deadly terrorist attacks on Easter Sunday.",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "教皇方济各为斯里兰卡受害者及伤者举行集体祈祷",
+      "support_text": "教皇为众多受害者和伤者祈祷",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_9",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "教皇方济各敦促国际社会提供紧急援助",
+      "support_text": "教皇敦促国际社会提供所需帮助",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "国际社会集体谴责恐怖袭击",
+      "support_text": "国际社会谴责这些恐怖和人性罪行",
+      "source_text": "text_42"
+    },
+    {
+      "id": "text_42_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "某团体声称对斯里兰卡爆炸事件负责",
+      "support_text": "某团体声称对爆炸负责",
+      "source_text": "text_42"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_42_node_1",
+      "target": "text_42_node_2",
+      "relation": "before",
+      "support_text": "the deadly terrorist attacks on Easter Sunday"
+    },
+    {
+      "source": "text_42_node_1",
+      "target": "text_42_node_3",
+      "relation": "before",
+      "support_text": "the previous day, Easter Sunday"
+    },
+    {
+      "source": "text_42_node_1",
+      "target": "text_42_node_4",
+      "relation": "before",
+      "support_text": "on April 21"
+    },
+    {
+      "source": "text_42_node_1",
+      "target": "text_42_node_5",
+      "relation": "before",
+      "support_text": "the previous day, Easter Sunday"
+    },
+    {
+      "source": "text_42_node_1",
+      "target": "text_42_node_11",
+      "relation": "before",
+      "support_text": "爆炸事件发生前某团体声称负责"
+    },
+    {
+      "source": "text_42_node_2",
+      "target": "text_42_node_5",
+      "relation": "before",
+      "support_text": "the previous day, Easter Sunday"
+    },
+    {
+      "source": "text_42_node_3",
+      "target": "text_42_node_6",
+      "relation": "before",
+      "support_text": "the president of the Federation... concluded"
+    },
+    {
+      "source": "text_42_node_4",
+      "target": "text_42_node_6",
+      "relation": "before",
+      "support_text": "the president of the Federation... concluded"
+    },
+    {
+      "source": "text_42_node_5",
+      "target": "text_42_node_6",
+      "relation": "before",
+      "support_text": "the president of the Federation... concluded"
+    }
+  ]
+}

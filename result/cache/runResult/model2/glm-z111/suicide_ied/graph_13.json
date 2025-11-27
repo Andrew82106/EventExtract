@@ -1,0 +1,456 @@
+{
+  "nodes": [
+    {
+      "id": "text_13_node_1",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "2000年初，帕巴蒂布尔村民捕获携带12枚汽油弹的10-12名JMB成员，他们正参与训练，后被判刑一年后释放",
+      "support_text": "Local people captured some 10 to 12 JMB men with 12 petrol bombs in their possession in a village of Parbatipur in Dinajpur and handed them over to police in early 2000. The JMB team led by its ehsar member Shahabul were in the village to take part in a training session on petrol bombs. They were freed after serving a year in jail as the case was dismissed.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2001年中期，朗格马蒂酒店发生炸弹意外，JMB成员Nasrullah死亡，Galib受伤，后者被捕后获保释",
+      "support_text": "In mid 2001, a bomb went off by mistake in a hotel room in Rangamati in which JMB majlish-e-sura member Nasrullah was killed, and another ehsar member Shamim Hossain Galib was injured. Galib was arrested but freed on bail after about five months.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年中期，沙塔基拉同时发生影院和马戏团定时炸弹袭击，造成多人伤亡",
+      "support_text": "In mid 2002, a number of people were killed and scores were injured in two separate but simultaneous time-bomb blasts at a cinema hall and a circus tent in the district.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年12月7日，迈门辛格四座影院连环爆炸，19人死亡，Salahuddin指挥",
+      "support_text": "On December 7, 2002, nineteen people were killed and 100 others were injured in a series of near simultaneous bomb blasts in four cinema halls in Mymensingh. Salahuddin led the attack.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2003年12月8日，Netrokona文化组织办公室自杀式爆炸致8人死亡",
+      "support_text": "On December 8, 2003, a suicide bomb explosion occurred at a cultural organization office in Netrokona, killing eight people.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年2月27日，JMB袭击诗人Humayun Azad，使用刀具造成重伤",
+      "support_text": "On February 27, 2004, JMB operatives Shahid, Shahidullah, Mamun and Habil, and some local people took part in the attack on Prof Humayun Azad.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2004年12月，JMB在多个地区发动传统戏剧Jatra舞台连环爆炸",
+      "support_text": "In 2004, JMB carried out at least nine bomb blasts at Jatra stages in various districts including Gaibandha, Bogra, Sherpur, Tangail and Rajshahi.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2004年12月，JMB在吉大港、拉姆吉普尔等法院实施炸弹袭击，造成多人伤亡",
+      "support_text": "In December 2004, JMB carried out bomb attacks on different courts in Chittagong, Lakshmipur, Gazipur and Chandpur.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2005年8月17日，全国63个地区同步发生JMB炸弹袭击，104人受伤",
+      "support_text": "On August 17, 2005, JMB carried out a countrywide series of near simultaneous bomb blasts in 63 districts (except Munshiganj), killing two people and injuring 104 others.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2005年11月14日，Jhalakati自杀式爆炸杀死两名地方法官",
+      "support_text": "On November 14, 2005, JMB carried out a suicide bomb attack at Quarter village area under Jhalakathi Sadar upazila killing two district judges and injuring three others.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2005年11月29日，加济普尔律师协会办公室自杀式爆炸致7人死亡",
+      "support_text": "On November 29, 2005, a suicide bomb attack was carried out by JMB in a room of the office of the district's lawyers association housed in the court building, killing seven and injuring many.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "JMB杀害至少64人（含Prof Mohammad Yunus、两位Jhalakathi法官）",
+      "support_text": "JMB杀害至少64人，包括Prof Mohammad Yunus和两位Jhalakathi法官",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_13",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织在拉贾沙希分区杀害至少22人",
+      "support_text": "该极端组织在拉贾沙希分区杀害至少22人",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "JMB将阻碍其建立伊斯兰国家的人视为障碍",
+      "support_text": "JMB将阻碍其建立伊斯兰国家的人视为障碍",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "JMB对Prof Mohammad Yunus教授的生命的袭击企图",
+      "support_text": "JMB对Prof Mohammad Yunus教授的生命的袭击企图",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "JMB成员发动对Tarapad Poddar的袭击",
+      "support_text": "JMB成员发动对Tarapad Poddar的袭击",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地居民将人质移交警方",
+      "support_text": "当地居民将人质移交警方",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_18",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方逮捕Khaled Saifullah",
+      "support_text": "语义描述：警方逮捕Khaled Saifullah；事件类型：Justice；子类型：ArrestJailDetain；子子类型：Unspecified",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_19",
+      "event_type": "Justice",
+      "event_subtype": "ReleaseParole",
+      "event_sub_subtype": "Unspecified",
+      "description": "Khaled Saifullah被保释",
+      "support_text": "语义描述：Khaled Saifullah被保释；事件类型：Justice；子类型：ReleaseParole；子子类型：Unspecified",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "JMB分子在唐吉岭袭击当地非政府组织",
+      "support_text": "JMB分子在唐吉岭袭击当地非政府组织",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "JMB成员Shahabul领导团队进行汽油弹训练",
+      "support_text": "Local people captured some 10 to 12 JMB men with 12 petrol bombs in their possession in a village of Parbatipur in Dinajpur and handed them over to police in early 2000. The JMB team led by its ehsar member Shahabul were in the village to take part in a training session on petrol bombs.",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_22",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Prof Humayun Azad 到达 Bangla Academy 附近",
+      "support_text": "Prof Humayun Azad 到达 Bangla Academy 附近",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_23",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hafiz Mahmud带领成员执行袭击",
+      "support_text": "Hafiz Mahmud带领成员执行袭击",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_24",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "JMB发动袭击（袭击对象是Manir Khan）",
+      "support_text": "JMB发动袭击（袭击对象是Manir Khan）",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_25",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "JMB刺杀作家Manir Khan",
+      "support_text": "JMB刺杀作家Manir Khan",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_26",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Rajahi分区JMB首领Abdul Awal领导的大规模袭击",
+      "support_text": "Rajahi分区JMB首领Abdul Awal领导了大部分袭击",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_27",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ataur Rahman Sunny领导的Tangail地区袭击",
+      "support_text": "Ataur Rahman Sunny领导了Tangail地区的袭击",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_28",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "计划未被实施",
+      "support_text": "语义描述：计划未被实施；事件类型：Cognitive；子类型：IdentifyCategorize；子子类型：Unspecified",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_29",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "JMB计划杀害美国公民和和平队成员",
+      "support_text": "JMB计划杀害美国公民和和平队成员",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_30",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "和平队成员离开该地区",
+      "support_text": "和平队成员离开该地区",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_31",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "JMB对吉大港地方法院发动自杀袭击",
+      "support_text": "JMB对吉大港地方法院发动自杀袭击",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_32",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "在自杀袭击中多人受伤",
+      "support_text": "在自杀袭击中多人受伤",
+      "source_text": "text_13"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_2",
+      "relation": "before",
+      "support_text": "Local people captured some 10 to 12 JMB men... early 2000. The JMB team led by its ehsar member Shahabul were in the village to take part in a training session on petrol bombs. They were freed after serving a year in jail as the case was dismissed."
+    },
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_12",
+      "relation": "before",
+      "support_text": "2000年初事件后发生大规模屠杀"
+    },
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_16",
+      "relation": "before",
+      "support_text": "2000年初事件后发生大规模屠杀"
+    },
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_21",
+      "relation": "before",
+      "support_text": "根据支持文本，2000年初事件后发生大规模屠杀"
+    },
+    {
+      "source": "text_13_node_2",
+      "target": "text_13_node_3",
+      "relation": "before",
+      "support_text": "In mid 2001, a bomb went off by mistake... Galib was arrested but freed on bail after about five months. In mid 2002, a number of people were killed and scores were injured in two separate but simultaneous time-bomb blasts..."
+    },
+    {
+      "source": "text_13_node_3",
+      "target": "text_13_node_4",
+      "relation": "before",
+      "support_text": "In mid 2002, a number of people were killed and scores were injured in two separate but simultaneous time-bomb blasts... On December 7, 2002, nineteen people were killed and 100 others were injured in a series of near simultaneous bomb blasts..."
+    },
+    {
+      "source": "text_13_node_4",
+      "target": "text_13_node_5",
+      "relation": "before",
+      "support_text": "On December 7, 2002, nineteen people were killed and 100 others were injured in a series of near simultaneous bomb blasts... On December 8, 2003, a suicide bomb explosion occurred at a cultural organization office..."
+    },
+    {
+      "source": "text_13_node_5",
+      "target": "text_13_node_6",
+      "relation": "before",
+      "support_text": "On December 8, 2003, a suicide bomb explosion occurred at a cultural organization office in Netrokona, killing eight people. On February 27, 2004, JMB operatives Shahid, Shahidullah, Mamun and Habil, and some local people took part in the attack on Prof Humayun Azad."
+    },
+    {
+      "source": "text_13_node_5",
+      "target": "text_13_node_22",
+      "relation": "before",
+      "support_text": "根据语义描述，Prof Humayun Azad 到达 Bangla Academy 附近应发生在2003年12月8日的文化组织办公室自杀式爆炸事件之前"
+    },
+    {
+      "source": "text_13_node_6",
+      "target": "text_13_node_7",
+      "relation": "before",
+      "support_text": "On February 27, 2004, JMB operatives Shahid, Shahidullah, Mamun and Habil, and some local people took part in the attack on Prof Humayun Azad. In 2004, JMB carried out at least nine bomb blasts at Jatra stages in various districts..."
+    },
+    {
+      "source": "text_13_node_7",
+      "target": "text_13_node_8",
+      "relation": "before",
+      "support_text": "In 2004, JMB carried out at least nine bomb blasts at Jatra stages in various districts including Gaibandha, Bogra, Sherpur, Tangail and Rajshahi. In December 2004, JMB carried out bomb attacks on different courts in Chittagong, Lakshmipur, Gazipur and Chandpur."
+    },
+    {
+      "source": "text_13_node_7",
+      "target": "text_13_node_20",
+      "relation": "before",
+      "support_text": "根据支持文本，2004年12月JMB在Tangail发动Jatra舞台袭击（node_7）后，应补充该次针对NGO的袭击（node_20）"
+    },
+    {
+      "source": "text_13_node_8",
+      "target": "text_13_node_9",
+      "relation": "before",
+      "support_text": "In December 2004, JMB carried out bomb attacks on different courts in Chittagong, Lakshmipur, Gazipur and Chandpur. On August 17, 2005, JMB carried out a countrywide series of near simultaneous bomb blasts in 63 districts (except Munshiganj), killing two people and injuring 104 others."
+    },
+    {
+      "source": "text_13_node_8",
+      "target": "text_13_node_31",
+      "relation": "before",
+      "support_text": "根据temporal_order 1→3的时序关系，三个炸弹袭击应早于自杀袭击"
+    },
+    {
+      "source": "text_13_node_9",
+      "target": "text_13_node_10",
+      "relation": "before",
+      "support_text": "On August 17, 2005, JMB carried out a countrywide series of near simultaneous bomb blasts in 63 districts (except Munshiganj)... On November 14, 2005, JMB carried out a suicide bomb attack at Quarter village area under Jhalakathi Sadar upazila killing two district judges..."
+    },
+    {
+      "source": "text_13_node_10",
+      "target": "text_13_node_11",
+      "relation": "before",
+      "support_text": "On November 14, 2005, JMB carried out a suicide bomb attack at Quarter village area under Jhalakathi Sadar upazila killing two district judges and injuring three others. On November 29, 2005, a suicide bomb attack was carried out by JMB in a room of the office of the district's lawyers association..."
+    },
+    {
+      "source": "text_13_node_12",
+      "target": "text_13_node_13",
+      "relation": "before",
+      "support_text": "64人屠杀后分区针对性袭击"
+    },
+    {
+      "source": "text_13_node_13",
+      "target": "text_13_node_14",
+      "relation": "before",
+      "support_text": "暴力镇压后转为系统性阻碍"
+    },
+    {
+      "source": "text_13_node_15",
+      "target": "text_13_node_12",
+      "relation": "before",
+      "support_text": "袭击企图导致Prof Mohammad Yunus教授最终被杀害"
+    },
+    {
+      "source": "text_13_node_16",
+      "target": "text_13_node_17",
+      "relation": "before",
+      "support_text": "袭击后移交人质"
+    },
+    {
+      "source": "text_13_node_18",
+      "target": "text_13_node_19",
+      "relation": "before",
+      "support_text": "根据temporal_order 4→5的时序关系，逮捕事件应在前于保释事件"
+    },
+    {
+      "source": "text_13_node_26",
+      "target": "text_13_node_7",
+      "relation": "before",
+      "support_text": "根据支持文本，Abdul Awal的领导活动应早于2004年12月的Jatra舞台袭击"
+    },
+    {
+      "source": "text_13_node_27",
+      "target": "text_13_node_20",
+      "relation": "before",
+      "support_text": "根据支持文本，Ataur Rahman Sunny的领导活动应早于2004年12月Tangail地区NGO袭击"
+    },
+    {
+      "source": "text_13_node_28",
+      "target": "text_13_node_1",
+      "relation": "before",
+      "support_text": "根据temporal_order 2和事件时间逻辑，该计划识别应早于2000年初的JMB成员被捕事件"
+    },
+    {
+      "source": "text_13_node_29",
+      "target": "text_13_node_1",
+      "relation": "before",
+      "support_text": "根据temporal_order 1→2的时序关系，计划事件应早于2000年初JMB成员被捕事件"
+    },
+    {
+      "source": "text_13_node_30",
+      "target": "text_13_node_22",
+      "relation": "before",
+      "support_text": "根据语义描述，和平队成员离开应早于Prof Humayun Azad到达Bangla Academy事件"
+    },
+    {
+      "source": "text_13_node_31",
+      "target": "text_13_node_32",
+      "relation": "before",
+      "support_text": "根据temporal_order 3→5的时序关系，自杀袭击应早于多人受伤"
+    }
+  ]
+}

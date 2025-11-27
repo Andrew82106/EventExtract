@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "text_51_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Quetta的Satellite Town地区Ghousabad社区Maghrib祷告结束后发生爆炸",
+      "support_text": "the blast took place shortly after Maghrib prayers in the densely populated Ghousabad neighbourhood of Satellite Town area.",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸已造成15人死亡、多人受伤，包括代警监Haji Amanullah",
+      "support_text": "the death toll in a blast... has risen to 15",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "执法部门封锁现场并启动调查",
+      "support_text": "Law enforcement agencies have cordoned off the area and an investigation into the matter has been initiated",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "军方抵达现场开展联合搜救行动",
+      "support_text": "FC Bln troops reached Qta blast site. Area cordoned off. A joint search operation with police in progress.",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "奎达所有医院宣布进入紧急状态",
+      "support_text": "Emergency has been declared at all hospitals in Quetta",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "伤员被紧急转移至医院救治",
+      "support_text": "Injured being evacuated to hospital",
+      "source_text": "text_51"
+    },
+    {
+      "id": "text_51_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "《Express Tribune》报道了死亡人数上升事件",
+      "support_text": "《Express Tribune》报道了死亡人数上升事件",
+      "source_text": "text_51"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_51_node_1",
+      "target": "text_51_node_2",
+      "relation": "before",
+      "support_text": "the death toll in a blast... has risen to 15"
+    },
+    {
+      "source": "text_51_node_1",
+      "target": "text_51_node_3",
+      "relation": "before",
+      "support_text": "Law enforcement agencies have cordoned off the area"
+    },
+    {
+      "source": "text_51_node_2",
+      "target": "text_51_node_3",
+      "relation": "before",
+      "support_text": "an investigation into the matter has been initiated"
+    },
+    {
+      "source": "text_51_node_2",
+      "target": "text_51_node_7",
+      "relation": "before",
+      "support_text": "报道事件发生在死亡人数上升后"
+    },
+    {
+      "source": "text_51_node_3",
+      "target": "text_51_node_4",
+      "relation": "before",
+      "support_text": "FC Bln troops reached Qta blast site"
+    },
+    {
+      "source": "text_51_node_4",
+      "target": "text_51_node_6",
+      "relation": "before",
+      "support_text": "Injured being evacuated to hospital"
+    },
+    {
+      "source": "text_51_node_4",
+      "target": "text_51_node_5",
+      "relation": "before",
+      "support_text": "Emergency has been declared at all hospitals in Quetta"
+    },
+    {
+      "source": "text_51_node_6",
+      "target": "text_51_node_5",
+      "relation": "before",
+      "support_text": "Emergency has been declared at all hospitals in Quetta"
+    }
+  ]
+}

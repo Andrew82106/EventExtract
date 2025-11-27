@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "text_122_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五下午马斯坦地区副议长穆拉纳·阿卜杜勒·加福尔·海德里车队遭自杀式袭击",
+      "support_text": "他的车队在周五下午马斯坦地区遭到自杀式袭击",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "袭击造成至少25人死亡、35人受伤，包括副议长和其司机死亡",
+      "support_text": "至少25人死亡和35人受伤，包括副议长和其司机死亡",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_3",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "副议长经初步检查确认受轻伤，称被碎裂车窗玻璃击中",
+      "support_text": "副议长经初步检查确认受轻伤，称被碎裂车窗玻璃击中",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "伤者被紧急转移至马斯坦医院，重伤员转送奎达医院",
+      "support_text": "伤者被紧急转移至马斯坦医院，重伤员转送奎达医院",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "奎达和马斯坦两所医院进入紧急状态",
+      "support_text": "奎达和马斯坦两所医院进入紧急状态",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "执法部门抵达现场实施区域封锁并展开搜查",
+      "support_text": "执法部门抵达现场实施区域封锁并展开搜查",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "警方发布伤亡事件声明",
+      "support_text": "警方发布伤亡事件声明",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_8",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "海德里参加公共会议",
+      "support_text": "海德里参加公共会议",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "初步评估建议这是一起自杀袭击",
+      "support_text": "初步评估建议这是一起自杀袭击",
+      "source_text": "text_122"
+    },
+    {
+      "id": "text_122_node_10",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "补充说明毛拉纳·加富尔·海德里受伤而司机在爆炸中死亡",
+      "support_text": "补充说明毛拉纳·加富尔·海德里受伤而司机在爆炸中死亡",
+      "source_text": "text_122"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_122_node_1",
+      "target": "text_122_node_2",
+      "relation": "before",
+      "support_text": "他的车队在周五下午马斯坦地区遭到自杀式袭击"
+    },
+    {
+      "source": "text_122_node_2",
+      "target": "text_122_node_3",
+      "relation": "before",
+      "support_text": "至少25人死亡和35人受伤，包括副议长和其司机死亡"
+    },
+    {
+      "source": "text_122_node_2",
+      "target": "text_122_node_4",
+      "relation": "before",
+      "support_text": "伤者被紧急转移至马斯坦医院"
+    },
+    {
+      "source": "text_122_node_4",
+      "target": "text_122_node_5",
+      "relation": "before",
+      "support_text": "奎达和马斯坦两所医院进入紧急状态"
+    },
+    {
+      "source": "text_122_node_4",
+      "target": "text_122_node_6",
+      "relation": "before",
+      "support_text": "伤者被紧急转移至马斯坦医院"
+    },
+    {
+      "source": "text_122_node_8",
+      "target": "text_122_node_1",
+      "relation": "before",
+      "support_text": "海德里参加公共会议后于周五下午遭遇袭击"
+    },
+    {
+      "source": "text_122_node_8",
+      "target": "text_122_node_9",
+      "relation": "before",
+      "support_text": "海德里参加公共会议后进行初步评估"
+    },
+    {
+      "source": "text_122_node_9",
+      "target": "text_122_node_10",
+      "relation": "before",
+      "support_text": "初步评估后补充伤亡细节"
+    }
+  ]
+}

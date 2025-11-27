@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年3月31日，Yala省繁忙购物中心发生卡车炸弹袭击",
+      "support_text": "The first attack involved a truck bomb that ripped through a busy shopping district in Yala.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "同日约20分钟后，Yala省救援现场发生摩托车炸弹爆炸，造成多数伤亡",
+      "support_text": "About 20 minutes later, a second bomb planted in a motorcycle exploded as rescuers convened at the site of the original bombing.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "随后Yala省汽车炸弹引燃周边建筑，导致11人死亡110人受伤",
+      "support_text": "Later, a third explosion from a device placed in a car set fire to nearby buildings.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "同日Hat Yai市Lee Gardens Plaza酒店地下室发生汽车炸弹爆炸，误判为气体泄漏后确认为袭击，致4人死亡416人受伤",
+      "support_text": "Following the bombings in Songkhla, an explosion in the basement Lee Gardens Plaza Hotel damaged that building and an adjacent McDonald's in Hat Yai...",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2012年3月31日，Songkhla省发生卡车炸弹袭击",
+      "support_text": "宋卡发生了轰炸",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "最初报道爆炸原因是气体泄漏",
+      "support_text": "最初报道爆炸原因是气体泄漏",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "后来归因于汽车炸弹",
+      "support_text": "后来归因于汽车炸弹",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "被视为对武装冲突的升级",
+      "support_text": "被视为对武装冲突的升级",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_2",
+      "relation": "before",
+      "support_text": "About 20 minutes later, a second bomb planted in a motorcycle exploded as rescuers convened at the site of the original bombing."
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_5",
+      "relation": "before",
+      "support_text": "宋卡轰炸事件发生在Yala省卡车炸弹袭击之前"
+    },
+    {
+      "source": "text_3_node_1",
+      "target": "text_3_node_6",
+      "relation": "before",
+      "support_text": "卡车炸弹袭击后首次报道气体泄漏"
+    },
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_3",
+      "relation": "before",
+      "support_text": "Later, a third explosion from a device placed in a car set fire to nearby buildings."
+    },
+    {
+      "source": "text_3_node_3",
+      "target": "text_3_node_4",
+      "relation": "before",
+      "support_text": "Following the bombings in Songkhla, an explosion in the basement Lee Gardens Plaza Hotel damaged that building and an adjacent McDonald's in Hat Yai..."
+    },
+    {
+      "source": "text_3_node_5",
+      "target": "text_3_node_4",
+      "relation": "before",
+      "support_text": "Songkhla轰炸事件导致后续Hat Yai酒店爆炸"
+    },
+    {
+      "source": "text_3_node_6",
+      "target": "text_3_node_7",
+      "relation": "before",
+      "support_text": "气体泄漏报道后修正为汽车炸弹"
+    },
+    {
+      "source": "text_3_node_7",
+      "target": "text_3_node_8",
+      "relation": "before",
+      "support_text": "汽车炸弹归因后升级为武装冲突"
+    }
+  ]
+}

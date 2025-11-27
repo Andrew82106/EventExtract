@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "text_189_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周二早晨喀布尔政府安全建筑遭遇Taliban自杀车炸弹袭击，造成至少28人死亡320人受伤",
+      "support_text": "A Taliban suicide bomb and gun assault on a government security building during Tuesday morning rush hour in central Kabul killed at least 28 people and wounded more than 320",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "总统Ghani强烈谴责袭击，总统官邸距爆炸现场仅数百米",
+      "support_text": "President Ashraf Ghani condemned the assault 'in the strongest possible terms' in a statement from the presidential palace, located only a few hundred meters away from the scene of the blast",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "傍晚喀布尔发生第二次爆炸，系简易爆炸装置引发但无严重伤亡",
+      "support_text": "With nerves on edge in Kabul, a second explosion hit the city in the evening but no serious casualties were reported from the blast",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_4",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者描述爆炸后现场混乱，3名重伤男孩和1名失踪人员被目击",
+      "support_text": "Witnesses described chaotic scenes after the blast. 'I was here when a huge explosion happened,' said Amir... 'I saw three boys with severe head injuries... my brother is missing'",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部长证实袭击中包含自杀式爆炸和枪战，1名试图翻墙闯入者被击毙",
+      "support_text": "Police chief Abdul Rahman Rahimi said civilians and members of the Afghan security forces were among those killed... one attacker had tried to slip into the NDS building through a destroyed wall after the blast, but he was discovered and killed",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Taliban通过Pashto网站宣称袭击NDS Department 10（政府高官保护部门），声称92名安全人员死亡",
+      "support_text": "Taliban said on their Pashto-language website that they had carried out the suicide bombing on 'Department 10', an NDS unit responsible for protecting government ministers and VIPs",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察局长披露袭击中平民和军警均伤亡，爆炸物位于NDS办公室外墙",
+      "support_text": "Police chief Abdul Rahman Rahimi said civilians and members of the Afghan security forces were among those killed and wounded in the morning blast, when a suicide car-bomber blew himself up outside the wall of a National Directorate of Security (NDS) office",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_8",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "美国使馆和北约驻阿使命声明未受爆炸影响",
+      "support_text": "The U.S. embassy and the NATO mission both said they were not affected by the blast",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Taliban宣布春季攻势始于4月12日，已引发坎大哈周边激烈战斗",
+      "support_text": "Taliban announced the beginning of their spring offensive on April 12, and fighting has raged around the symbolically important northern city of Kunduz since then",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_10",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "联合国报告指出城市战导致今年妇女儿童伤亡激增",
+      "support_text": "The U.N. report said urban warfare had caused a spike in the number of deaths and injuries among women and children in Afghanistan this year",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_11",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "美国使馆批评Taliban袭击平民，呼吁保障阿富汗和平安全",
+      "support_text": "The U.S. embassy said the attack underscored the harm the Taliban continued to inflict on the Afghan people... Afghanistan deserves peace and security, not attacks that victimize parents taking their children to school",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "内政部发言人Sediq Sediqqi报告伤亡情况",
+      "support_text": "Interior Minister spokesman Sediq Sediqqi reported on casualties",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击事件引发阿富汗和西方对局势恶化的担忧加剧",
+      "support_text": "该袭击事件加剧了阿富汗和西方对局势恶化的担忧",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "袭击者滑入NDS大楼",
+      "support_text": "袭击者滑入NDS大楼",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者被发现",
+      "support_text": "袭击者被发现",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉希米表示袭击者曾试图滑入NDS大楼",
+      "support_text": "拉希米表示袭击者曾试图滑入NDS大楼",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_17",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "浓烟从大使馆附近区域升起",
+      "support_text": "浓烟从大使馆附近区域升起",
+      "source_text": "text_189"
+    },
+    {
+      "id": "text_189_node_18",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "大使馆化合物响起警报",
+      "support_text": "大使馆化合物响起警报",
+      "source_text": "text_189"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_189_node_1",
+      "target": "text_189_node_2",
+      "relation": "before",
+      "support_text": "President Ashraf Ghani condemned the assault 'in the strongest possible terms' in a statement from the presidential palace"
+    },
+    {
+      "source": "text_189_node_1",
+      "target": "text_189_node_3",
+      "relation": "before",
+      "support_text": "With nerves on edge in Kabul, a second explosion hit the city in the evening"
+    },
+    {
+      "source": "text_189_node_1",
+      "target": "text_189_node_5",
+      "relation": "before",
+      "support_text": "Police chief Abdul Rahman Rahimi said civilians and members of the Afghan security forces were among those killed and wounded in the morning blast"
+    },
+    {
+      "source": "text_189_node_1",
+      "target": "text_189_node_6",
+      "relation": "before",
+      "support_text": "Taliban said on their Pashto-language website that they had carried out the suicide bombing on 'Department 10'"
+    },
+    {
+      "source": "text_189_node_1",
+      "target": "text_189_node_7",
+      "relation": "before",
+      "support_text": "Police chief Abdul Rahman Rahimi said civilians and members of the Afghan security forces were among those killed and wounded in the morning blast"
+    },
+    {
+      "source": "text_189_node_1",
+      "target": "text_189_node_8",
+      "relation": "before",
+      "support_text": "The U.S. embassy and the NATO mission both said they were not affected by the blast"
+    },
+    {
+      "source": "text_189_node_1",
+      "target": "text_189_node_10",
+      "relation": "before",
+      "support_text": "The U.S. embassy said the attack underscored the harm the Taliban continued to inflict on the Afghan people"
+    },
+    {
+      "source": "text_189_node_1",
+      "target": "text_189_node_11",
+      "relation": "before",
+      "support_text": "The U.S. embassy said the attack underscored the harm the Taliban continued to inflict on the Afghan people"
+    },
+    {
+      "source": "text_189_node_1",
+      "target": "text_189_node_17",
+      "relation": "before",
+      "support_text": "Taliban自杀车炸弹袭击发生前"
+    },
+    {
+      "source": "text_189_node_3",
+      "target": "text_189_node_12",
+      "relation": "before",
+      "support_text": "报告发生在第二次爆炸之后"
+    },
+    {
+      "source": "text_189_node_9",
+      "target": "text_189_node_1",
+      "relation": "before",
+      "support_text": "Taliban announced the beginning of their spring offensive on April 12"
+    },
+    {
+      "source": "text_189_node_17",
+      "target": "text_189_node_18",
+      "relation": "before",
+      "support_text": "浓烟升起后立即触发警报"
+    }
+  ]
+}

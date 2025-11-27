@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "text_177_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2010年7月，Al-Shabaab在乌干达坎帕拉发动爆炸袭击，报复乌干达支持非洲联盟AMISOM部队。",
+      "support_text": "In July 2010, Al-Shabaab also claimed responsibility for a bombing in Kampala, Uganda, in retaliation for Uganda's support to, and presence in, AMISOM.",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2011年夏季，东非干旱导致Somali地区食物短缺，迫使数万人逃往埃塞俄比亚和肯尼亚避难。",
+      "support_text": "During the summer of 2011, the East African region faced a drought and shortage of food supplies, particularly in the Somali region, forcing tens of thousands of people to cross the borders into Ethiopia and Kenya for refuge.",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2011年8月，非洲联盟AMISOM部队干预Somali地区，迫使Al-Shabaab撤出该区域。",
+      "support_text": "after an AMISOM intervention to bring aid to the country during a season of drought",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2011年10月4日，Al-Shabaab自杀式袭击摩加迪沙过渡联邦政府部-ministerial complex，造成100人死亡、110余人受伤。",
+      "support_text": "The 2011 Mogadishu bombing occurred on 4 October 2011, when a suicide bomber drove a truck into the gate of the Transitional Federal Government's ministerial complex in Mogadishu, Somalia.",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2011年10月4日，Al-Shabaab在摩加迪沙南部和西部同时发动袭击。",
+      "support_text": "On the same day, Al-Shabaab simultaneously launched attacks in the south and west of Somalia.",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后，土耳其外交部声明学生排队等待土耳其奖学金，并澄清事件经过。",
+      "support_text": "Turkey, which also increased its involvement in Somalia with a pledge to re-open its embassy in Mogadishu, released a statement clarifying the events that took place.",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_7",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "爆炸后，联合国、土耳其和白宫谴责袭击，呼吁保护平民。",
+      "support_text": "it is incomprehensible that innocents are being senselessly targeted. The secretary-general is appalled by the vicious suicide bomb attack targeting government offices and ministries in Mogadishu today.",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后，Somali总统和官员谴责袭击，称其为懦夫行为。",
+      "support_text": "I am extremely shocked and saddened by this cruel and inhumane act of violence against the most vulnerable in our society",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Shabaab威胁驱逐援助团体",
+      "support_text": "Al-Shabaab threatened to expel aid groups",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Shabaab驱逐援助团体",
+      "support_text": "Al-Shabaab expelled aid groups",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2010年7月，Al-Shabaab在乌干达坎帕拉安全检查站发动爆炸袭击，报复乌干达支持非洲联盟AMISOM部队。",
+      "support_text": "袭击发生在安全检查站",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "目击者听到爆炸声",
+      "support_text": "目击者听到爆炸声",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击针对150名准备前往苏丹受训的索马里青年",
+      "support_text": "袭击针对150名准备前往苏丹受训的索马里青年",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_14",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致多数学生和家长的死亡",
+      "support_text": "袭击导致多数学生和家长的死亡",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "学生在考试",
+      "support_text": "学生在考试",
+      "source_text": "text_177"
+    },
+    {
+      "id": "text_177_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "其他报道称学生在考试",
+      "support_text": "其他报道称学生在考试",
+      "source_text": "text_177"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_177_node_1",
+      "target": "text_177_node_4",
+      "relation": "before",
+      "support_text": "the largest since Al-Shabaab launched an insurgency in Somalia in early 2007"
+    },
+    {
+      "source": "text_177_node_1",
+      "target": "text_177_node_11",
+      "relation": "before",
+      "support_text": "同一事件链中的后续节点"
+    },
+    {
+      "source": "text_177_node_2",
+      "target": "text_177_node_3",
+      "relation": "before",
+      "support_text": "after an AMISOM intervention to bring aid to the country during a season of drought"
+    },
+    {
+      "source": "text_177_node_3",
+      "target": "text_177_node_4",
+      "relation": "before",
+      "support_text": "It also follows the withdrawal of Al-Shabaab's forces from the area in August after an AMISOM intervention to bring aid to the country during a season of drought"
+    },
+    {
+      "source": "text_177_node_3",
+      "target": "text_177_node_9",
+      "relation": "before",
+      "support_text": "Al-Shabaab威胁驱逐援助团体发生在AMISOM干预撤出之后"
+    },
+    {
+      "source": "text_177_node_4",
+      "target": "text_177_node_5",
+      "relation": "before",
+      "support_text": "On the same day, Al-Shabaab simultaneously launched attacks in the south and west of Somalia"
+    },
+    {
+      "source": "text_177_node_4",
+      "target": "text_177_node_6",
+      "relation": "before",
+      "support_text": "Turkey, which also increased its involvement in Somalia with a pledge to re-open its embassy in Mogadishu, released a statement clarifying the events that took place"
+    },
+    {
+      "source": "text_177_node_4",
+      "target": "text_177_node_7",
+      "relation": "before",
+      "support_text": "it is incomprehensible that innocents are being senselessly targeted. The secretary-general is appalled by the vicious suicide bomb attack targeting government offices and ministries in Mogadishu today"
+    },
+    {
+      "source": "text_177_node_4",
+      "target": "text_177_node_8",
+      "relation": "before",
+      "support_text": "I am extremely shocked and saddened by this cruel and inhumane act of violence against the most vulnerable in our society"
+    },
+    {
+      "source": "text_177_node_4",
+      "target": "text_177_node_15",
+      "relation": "before",
+      "support_text": "袭击后学生开始考试"
+    },
+    {
+      "source": "text_177_node_9",
+      "target": "text_177_node_10",
+      "relation": "before",
+      "support_text": "驱逐行动在威胁之后实施"
+    },
+    {
+      "source": "text_177_node_11",
+      "target": "text_177_node_12",
+      "relation": "before",
+      "support_text": "爆炸发生后目击者感知"
+    },
+    {
+      "source": "text_177_node_11",
+      "target": "text_177_node_13",
+      "relation": "before",
+      "support_text": "同一袭击的针对目标扩展"
+    },
+    {
+      "source": "text_177_node_13",
+      "target": "text_177_node_14",
+      "relation": "before",
+      "support_text": "袭击结果链"
+    },
+    {
+      "source": "text_177_node_15",
+      "target": "text_177_node_16",
+      "relation": "before",
+      "support_text": "学生考试后媒体报道"
+    }
+  ]
+}

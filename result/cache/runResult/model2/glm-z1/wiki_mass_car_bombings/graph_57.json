@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_57_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年10月23日，黎巴嫩贝鲁特海军陆战队营地遭炸弹袭击，造成241名美国人死亡",
+      "support_text": "1983 bombing of Marine barracks in Beirut, Lebanon, killed 241 Americans",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_2",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国法院判定伊朗需支付2.6亿美元赔偿，用于弥补对美军民的袭击损失",
+      "support_text": "Iran must pay $2.6 billion for attack on U.S. Marines, judge rules",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_3",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院法官强调该判决将提高国家支持恐怖主义的成本",
+      "support_text": "Judge on $2.6B ruling: \"The cost of state-sponsored terrorism just went up\"",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击幸存者表示判决带来胜利感和阶段性胜利",
+      "support_text": "\"This is a sense of victory, of winning a battle,\" survivor told AP",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国媒体指出伊朗否认对1983年袭击负责，但将责任归咎于真主党",
+      "support_text": "Hezbollah is blamed in the attack; Iran has denied responsibility, AP reports",
+      "source_text": "text_57"
+    },
+    {
+      "id": "text_57_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Broadcast",
+      "description": "美联社报道了上述指控与否认事件",
+      "support_text": "美联社报道了上述指控与否认事件",
+      "source_text": "text_57"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_57_node_1",
+      "target": "text_57_node_2",
+      "relation": "before",
+      "support_text": "1983 bombing of Marine barracks in Beirut, Lebanon, killed 241 Americans"
+    },
+    {
+      "source": "text_57_node_2",
+      "target": "text_57_node_3",
+      "relation": "before",
+      "support_text": "Judge on $2.6B ruling: \"The cost of state-sponsored terrorism just went up\""
+    },
+    {
+      "source": "text_57_node_2",
+      "target": "text_57_node_5",
+      "relation": "before",
+      "support_text": "Hezbollah is blamed in the attack; Iran has denied responsibility, AP reports"
+    },
+    {
+      "source": "text_57_node_3",
+      "target": "text_57_node_4",
+      "relation": "before",
+      "support_text": "\"This is a sense of victory, of winning a battle,\" survivor told AP"
+    },
+    {
+      "source": "text_57_node_5",
+      "target": "text_57_node_6",
+      "relation": "before",
+      "support_text": "AP reports the above accusation and denial events"
+    }
+  ]
+}

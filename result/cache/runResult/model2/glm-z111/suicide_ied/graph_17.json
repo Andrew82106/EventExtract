@@ -1,0 +1,399 @@
+{
+  "nodes": [
+    {
+      "id": "text_17_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1998年8月7日，美国驻肯尼亚内罗毕使馆遭汽车炸弹袭击，造成250人死亡，1000人受伤",
+      "support_text": "This bombing follows an earlier attack on the US embassy in the Kenyan capital Nairobi in 1998. That bomb killed 250 people and maimed a further 1,000, mostly Kenyans.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月28日，肯尼亚莫巴萨以色列 owned天堂酒店遭自杀式汽车炸弹袭击，并伴随以色列客机导弹攻击未遂",
+      "support_text": "US and Israeli sources have pointed the finger of blame at Al Qaeda for the November 28 bombing of the Israeli-owned Paradise Hotel in Mombassa, Kenya and the attempted missile attack on an Israeli passenger jet laden with returning Israeli holidaymakers.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月28日，以色列贝特谢安Likud党总部遭枪击事件，造成6人死亡，43人受伤",
+      "support_text": "The Mombassa bombing coincided with a gun attack on a Likud party office in Beit She’an, Israel the same day where primary elections were being held to select a new leader for the party.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月29日，Al Qaeda通过互联网网站宣称对莫巴萨袭击负责",
+      "support_text": "The Monday after the attack a message appeared on an Islamist Internet site, purportedly from Al Qaeda, claiming responsibility for the Mombassa attacks.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月28日，以色列客机在起飞时遭遇导弹攻击，未受损伤",
+      "support_text": "Some 20 minutes previously an Arika Airlines Boeing 757-300 reported that missiles had been fired at it as it took off from Mombassa en route for Tel Aviv.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月28日，肯尼亚警方从现场回收两枚未使用的萨姆-7导弹",
+      "support_text": "Police later recovered two unused Sam 7 missiles from the scene.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月28日，以色列总理沙龙通过安全会议调整选举策略，最终赢得 Likud党领袖选举",
+      "support_text": "Right up until the afternoon of November 28, Sharon seems to have thought that a low turnout threatened his position and that Netanyahu would win.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月28日，英国、澳大利亚等政府提前发布肯尼亚恐怖袭击预警，但以色列政府否认收到相关情报",
+      "support_text": "warnings had appeared on the Internet. “Militant groups who sympathise with Al Qaeda warned one week ago that there would be an attack on Kenya and they mentioned Israelis,” he said.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年12月2日，以色列军方承认曾收到肯尼亚威胁情报但未采取行动",
+      "support_text": "But four days after the blast, Brigadier-General Yossi Kuperwasser admitted that the Israeli military intelligence were aware of a threat in Kenya.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月28日，德国空军在莫巴萨附近海域加强军事巡逻",
+      "support_text": "Meanwhile the German air force is patrolling the skies off Mombassa monitoring all shipping between Kenya, Somalia and Pakistan.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月28日，美国在非洲东海岸建立多个军事基地，包括莫巴萨机场",
+      "support_text": "US military personnel even have a base at Mombassa airport, where they are said to provide “logistical support” to Kenyan security forces.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年11月28日，美国指控索马里Al Ittihad al Islamiya组织与基地组织关联，但缺乏直接证据",
+      "support_text": "US forces are currently engaged in exercises with the Kenyan military north of Mombassa, codenamed Edged Mallet.",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "绿色皮卡车撞过酒店大门",
+      "support_text": "绿色皮卡车撞过酒店大门",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "绿色皮卡车驶入酒店大堂",
+      "support_text": "绿色皮卡车驶入酒店大堂",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "给予以色列政府机会",
+      "support_text": "给予以色列政府机会",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "将巴勒斯坦自杀式爆炸与美国的战略目标联系起来",
+      "support_text": "将巴勒斯坦自杀式爆炸与美国的战略目标联系起来",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_17",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Broadcast",
+      "description": "宣布以色列成为基地组织目标",
+      "support_text": "宣布以色列成为基地组织目标",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "向美国提供合作追捕袭击者",
+      "support_text": "向美国提供合作追捕袭击者",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "合作追捕袭击者",
+      "support_text": "合作追捕袭击者",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_20",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列战机安装了诱饵弹",
+      "support_text": "专家建议飞机安装了诱饵弹",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "专家建议飞机安装了诱饵弹",
+      "support_text": "专家建议飞机安装了诱饵弹",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al Ittihad首次在《华盛顿邮报》出现",
+      "support_text": "Al Ittihad首次在《华盛顿邮报》出现",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "《华盛顿邮报》声称美国视该组织为基地附属",
+      "support_text": "《华盛顿邮报》声称美国视该组织为基地附属",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国将组织视为基地附属",
+      "support_text": "美国将组织视为基地附属",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_25",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "《华盛顿邮报》指控本·拉登派遣下属",
+      "support_text": "《华盛顿邮报》指控本·拉登派遣下属",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_26",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "本·拉登派遣下属到索马里",
+      "support_text": "本·拉登派遣下属到索马里",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_27",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "下属协助族长杀害士兵",
+      "support_text": "下属协助族长杀害士兵",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_28",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "基地成员逃离到索马里",
+      "support_text": "基地成员逃离到索马里",
+      "source_text": "text_17"
+    },
+    {
+      "id": "text_17_new_node_29",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "基地成员与Al Ittihad共同建立训练基地",
+      "support_text": "基地成员与Al Ittihad共同建立训练基地",
+      "source_text": "text_17"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_17_node_1",
+      "target": "text_17_node_2",
+      "relation": "before",
+      "support_text": "This bombing follows an earlier attack on the US embassy in the Kenyan capital Nairobi in 1998."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_3",
+      "relation": "before",
+      "support_text": "The Mombassa bombing coincided with a gun attack on a Likud party office in Beit She’an, Israel the same day where primary elections were being held to select a new leader for the party."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_4",
+      "relation": "before",
+      "support_text": "The Monday after the attack a message appeared on an Islamist Internet site, purportedly from Al Qaeda, claiming responsibility for the Mombassa attacks."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_6",
+      "relation": "before",
+      "support_text": "Police later recovered two unused Sam 7 missiles from the scene."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_7",
+      "relation": "before",
+      "support_text": "Right up until the afternoon of November 28, Sharon seems to have thought that a low turnout threatened his position and that Netanyahu would win."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_9",
+      "relation": "before",
+      "support_text": "But four days after the blast, Brigadier-General Yossi Kuperwasser admitted that the Israeli military intelligence were aware of a threat in Kenya."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_10",
+      "relation": "before",
+      "support_text": "Meanwhile the German air force is patrolling the skies off Mombassa monitoring all shipping between Kenya, Somalia and Pakistan."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_11",
+      "relation": "before",
+      "support_text": "US military personnel even have a base at Mombassa airport, where they are said to provide “logistical support” to Kenyan security forces."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_node_12",
+      "relation": "before",
+      "support_text": "US forces are currently engaged in exercises with the Kenyan military north of Mombassa, codenamed Edged Mallet."
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_new_node_15",
+      "relation": "before",
+      "support_text": "以色列政府获得行动机会"
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_new_node_16",
+      "relation": "before",
+      "support_text": "爆炸事件与战略目标关联"
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_new_node_17",
+      "relation": "before",
+      "support_text": "以色列被宣布为基地目标"
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_new_node_18",
+      "relation": "before",
+      "support_text": "以色列向美国提供合作"
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_new_node_19",
+      "relation": "before",
+      "support_text": "合作追捕行动启动"
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_new_node_20",
+      "relation": "before",
+      "support_text": "以色列战机安装诱饵弹发生在莫巴萨袭击事件期间"
+    },
+    {
+      "source": "text_17_node_2",
+      "target": "text_17_new_node_21",
+      "relation": "before",
+      "support_text": "专家建议发生在莫巴萨袭击事件前"
+    },
+    {
+      "source": "text_17_node_5",
+      "target": "text_17_node_2",
+      "relation": "before",
+      "support_text": "Some 20 minutes previously an Arika Airlines Boeing 757-300 reported that missiles had been fired at it as it took off from Mombassa en route for Tel Aviv."
+    },
+    {
+      "source": "text_17_node_8",
+      "target": "text_17_node_2",
+      "relation": "before",
+      "support_text": "warnings had appeared on the Internet. “Militant groups who sympathise with Al Qaeda warned one week ago that there would be an attack on Kenya and they mentioned Israelis,” he said."
+    },
+    {
+      "source": "text_17_node_13",
+      "target": "text_17_node_2",
+      "relation": "before",
+      "support_text": "绿色皮卡车撞过酒店大门发生在2002年11月28日莫巴萨袭击事件前"
+    },
+    {
+      "source": "text_17_node_14",
+      "target": "text_17_node_2",
+      "relation": "before",
+      "support_text": "绿色皮卡车驶入酒店大堂发生在2002年11月28日莫巴萨袭击事件前"
+    },
+    {
+      "source": "text_17_new_node_25",
+      "target": "text_17_new_node_26",
+      "relation": "before",
+      "support_text": "撤销指控后重新提出指控"
+    },
+    {
+      "source": "text_17_new_node_26",
+      "target": "text_17_new_node_27",
+      "relation": "before",
+      "support_text": "指控重新提出后发生资金转移"
+    }
+  ]
+}

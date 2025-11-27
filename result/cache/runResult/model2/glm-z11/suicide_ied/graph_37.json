@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "text_37_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "7:35am，哈扎尔甘吉蔬菜市场发生自杀式爆炸，造成至少20人死亡、数十人重伤",
+      "support_text": "the blast occurred at around 7:35am",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "爆炸导致大部分受害者（蔬菜摊贩）被转移至博兰医学综合中心和市立医院，现场被安全部队封锁",
+      "support_text": "the most of the victims were vegetable vendors, who were shifted to Bolan Medical Complex and Civil Hospital",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_3",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "市立医院接收11具遗体，博兰医学综合中心接收3名伤者",
+      "support_text": "According to the Medical Superintendent (MS) 11 bodies were brought to the Civil Hospital, while three victims were shifted to BMC hospital",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方 DIG 宣布初步伤亡数据：16人死亡、30人受伤，其中8名为哈扎拉社区成员",
+      "support_text": "Quetta Deputy Inspector General (DIG) of Police Abdul Razzaq Cheema had confirmed that explosion left 16 people dead and 30 injured. Out of 16 dead, eight belonged to Hazara community",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认爆炸由隐藏在蔬菜中的简易爆炸装置（IED）引发",
+      "support_text": "has said to be caused by improvised explosive device (IED) that had been hidden among the vegetables in the market",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "4名联邦部队（FC）人员确认受伤",
+      "support_text": "Meanwhile, four FC personnel are also among the injured",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "总理伊姆兰·汗谴责事件，要求提交调查报告并确保伤者获得最佳治疗",
+      "support_text": "Prime Minister Imran Khan has condemned the blast at the Hazargunji and summoned a report on it",
+      "source_text": "text_37"
+    },
+    {
+      "id": "text_37_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Medical Superintendent (MS) 将11具尸体运送到Civil Hospital",
+      "support_text": "According to the Medical Superintendent (MS) 11 bodies were brought to the Civil Hospital",
+      "source_text": "text_37"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_37_node_1",
+      "target": "text_37_node_2",
+      "relation": "before",
+      "support_text": "the blast occurred at around 7:35am"
+    },
+    {
+      "source": "text_37_node_1",
+      "target": "text_37_node_5",
+      "relation": "before",
+      "support_text": "the blast occurred at around 7:35am"
+    },
+    {
+      "source": "text_37_node_2",
+      "target": "text_37_node_3",
+      "relation": "before",
+      "support_text": "the most of the victims were vegetable vendors, who were shifted to Bolan Medical Complex and Civil Hospital"
+    },
+    {
+      "source": "text_37_node_3",
+      "target": "text_37_node_4",
+      "relation": "before",
+      "support_text": "According to the Medical Superintendent (MS) 11 bodies were brought to the Civil Hospital..."
+    },
+    {
+      "source": "text_37_node_3",
+      "target": "text_37_node_8",
+      "relation": "before",
+      "support_text": "根据支持文本中的时序逻辑，运送尸体发生在医院接收伤者之后"
+    },
+    {
+      "source": "text_37_node_4",
+      "target": "text_37_node_5",
+      "relation": "before",
+      "support_text": "Quetta Deputy Inspector General (DIG) of Police Abdul Razzaq Cheema had confirmed that explosion left 16 people dead and 30 injured"
+    },
+    {
+      "source": "text_37_node_4",
+      "target": "text_37_node_6",
+      "relation": "before",
+      "support_text": "Meanwhile, four FC personnel are also among the injured"
+    },
+    {
+      "source": "text_37_node_6",
+      "target": "text_37_node_7",
+      "relation": "before",
+      "support_text": "Prime Minister Imran Khan has condemned the blast at the Hazargunji and summoned a report on it"
+    }
+  ]
+}

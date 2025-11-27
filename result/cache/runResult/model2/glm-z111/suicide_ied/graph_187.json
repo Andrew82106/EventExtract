@@ -1,0 +1,345 @@
+{
+  "nodes": [
+    {
+      "id": "text_187_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Seven people killed and over 30 injured when a bomb detonates on an Israeli tour bus at Burgas airport",
+      "support_text": "Seven people were killed in an attack on an Israeli tour bus at the Sarafovo International Airport in the Bulgarian vacation city of Burgas on Wednesday afternoon. A bomb was placed in the bus, detonating to murderous effect.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Explosion damages two nearby buses and closes Burgas airport, redirecting flights to Varna",
+      "support_text": "The impact was so strong as to damage two other buses nearby, also with Israelis on board... Burgas airport was subsequently closed and all flights were redirected to Varna.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Israeli officials attribute attack to Iran's Islamic Revolutionary Guards Corps",
+      "support_text": "Israeli officials, from the prime minister on down, said Iran was to blame for the attack. Foreign Minister Avigdor Liberman specified that Iran’s Islamic Revolutionary Guards Corps was responsible.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_4",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "Israeli medical teams deployed to Burgas, 10 Israelis undergo surgery",
+      "support_text": "Israeli medical teams were flying out to Burgas late Wednesday. Ten Israelis were in surgery in Bulgaria late Thursday.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bulgarian charter flight arrives with 150 Israeli passengers, explosion occurs during transfer",
+      "support_text": "A Bulgarian charter plane with 150 passengers from Tel Aviv to Burgas landed at 4:50 p.m. local time... The explosion occurred a short time later — apparently in the second of the four buses in the convoy.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": " US and EU condemn attack, Obama offers condolences",
+      "support_text": "The White House condemned the attack... The EU also issued a statement condemning the attack.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Netanyahu and Barak confirm Iran and Hezbollah's responsibility, vow military response",
+      "support_text": "Prime Minister Benjamin Netanyahu said, 'All the signs point to Iran...' Defense Minister Ehud Barak, too, placed the blame squarely on Iran and Hezbollah.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Ayalon proposes UN sanctions and grounding of Iranian flights",
+      "support_text": "Deputy Foreign Minister Danny Ayalon told Channel 2 News that Israel would not only 'submit a complaint about Iran to the UN Security Council' but push for sanctions against the country...",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_9",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Eyewitness accounts describe chaotic aftermath with casualties and rescue efforts",
+      "support_text": "Aron Katz, an Israeli eyewitness, said that a few moments after they got on the bus, 'we heard a really loud boom, and felt the bus shake, and we ran off the bus.' Katz noted that he saw several couples on the bus, some with young children.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bulgarian officials arrive at scene, confirm no prior intelligence warnings",
+      "support_text": "Foreign Minister Liberman spoke to his Bulgarian counterpart, Nickolay Mladenov, after the explosion. Mladenov and Israeli ambassador to Bulgaria Shaul Camisa Raz made their way immediately to the site... Bulgaria had not received any prior intelligence from Israel about a possible attack.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Iran and Hezbollah named prime suspects, Hezbollah claims revenge for Imad Mughniyeh's assassination",
+      "support_text": "Iran and its proxy, Lebanese-based terror group Hezbollah, were the immediate prime suspects in the attack... Hezbollah’s Al-Manar TV station was broadcasting details of the bombing... Hezbollah leader Hassan Nasrallah made no mention of the Bulgaria terror attack in a speech he gave in Beirut late Wednesday.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_12",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Hezbollah's Al-Manar TV broadcasts attack details, Nasrallah avoids mentioning incident",
+      "support_text": "Hezbollah’s Al-Manar TV station was broadcasting details of the bombing, with excited commentary, on Wednesday evening... Nasrallah made no mention of the Bulgaria terror attack in a speech he gave in Beirut late Wednesday.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": " Israel cancels flights to Bulgaria, boosts Ben-Gurion Airport security",
+      "support_text": "Israel canceled all commercial planes to Bulgaria and upgraded security for all flights in and out of Ben-Gurion Airport.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "ZAKA and MDA arrange repatriation of wounded to Israel",
+      "support_text": "Israeli emergency service ZAKA and Magen David Adom (MDA) were sending planes to Burgas, and MDA said it would try to fly the wounded home to Israel for treatment.",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bulgaria's last week foiled Hezbollah plot in Cyprus, attack timing unclear",
+      "support_text": "Last week, a suspected Hezbollah attack on Israeli tourists in Cyprus was foiled by Cypriot authorities. It was unclear whether Wednesday’s attack was related...",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_16",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "初步调查显示炸弹被放置在车辆行李箱或固定在公交车侧面",
+      "support_text": "初步调查显示炸弹被放置在车辆行李箱或固定在公交车侧面",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "外长利伯曼明确指定伊朗革命卫队负责",
+      "support_text": "外长利伯曼明确指定伊朗革命卫队负责",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_18",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "以色列医疗队飞往布尔加斯",
+      "support_text": "语义描述：以色列医疗队飞往布尔加斯",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤亡情况被理解为以色列人",
+      "support_text": "语义描述：伤亡情况被理解为以色列人",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "有说法称一名死者是保加利亚人",
+      "support_text": "语义描述：有说法称一名死者是保加利亚人",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_21",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "乘客登上前往酒店的大巴",
+      "support_text": "保加利亚包机从特拉维夫飞往布尔加斯降落，爆炸发生前乘客已登上大巴",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_22",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "前反恐局负责人向 Channel 2 新闻台陈述观点",
+      "support_text": "前反恐局负责人向 Channel 2 新闻台陈述观点",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "补充说明伊朗存在直飞航班",
+      "support_text": "补充说明伊朗存在直飞航班",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_24",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Channel 10 解释伊朗代理人针对以色列人的行动",
+      "support_text": "Channel 10 解释伊朗代理人针对以色列人的行动",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_25",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗代理人针对泰国和印度的以色列人发动针对行动",
+      "support_text": "伊朗代理人针对泰国和印度的以色列人发动针对行动",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_26",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "布尔加斯成为以色列游客的热门目的地",
+      "support_text": "布尔加斯成为以色列游客的热门目的地",
+      "source_text": "text_187"
+    },
+    {
+      "id": "text_187_node_27",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其与以色列关系发生重大破裂",
+      "support_text": "土耳其与以色列关系发生重大破裂",
+      "source_text": "text_187"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_187_node_1",
+      "target": "text_187_node_2",
+      "relation": "before",
+      "support_text": "The impact was so strong as to damage two other buses nearby, also with Israelis on board."
+    },
+    {
+      "source": "text_187_node_1",
+      "target": "text_187_node_4",
+      "relation": "before",
+      "support_text": "Israeli medical teams were flying out to Burgas late Wednesday."
+    },
+    {
+      "source": "text_187_node_1",
+      "target": "text_187_node_9",
+      "relation": "before",
+      "support_text": "Aron Katz, an Israeli eyewitness, said that a few moments after they got on the bus, 'we heard a really loud boom, and felt the bus shake, and we ran off the bus.'"
+    },
+    {
+      "source": "text_187_node_2",
+      "target": "text_187_node_13",
+      "relation": "before",
+      "support_text": "Burgas airport was subsequently closed and all flights were redirected to Varna."
+    },
+    {
+      "source": "text_187_node_3",
+      "target": "text_187_node_7",
+      "relation": "before",
+      "support_text": "Israeli officials, from the prime minister on down, said Iran was to blame for the attack. Foreign Minister Avigdor Liberman specified that Iran’s Islamic Revolutionary Guards Corps was responsible."
+    },
+    {
+      "source": "text_187_node_4",
+      "target": "text_187_node_14",
+      "relation": "before",
+      "support_text": "MDA said it would try to fly the wounded home to Israel for treatment."
+    },
+    {
+      "source": "text_187_node_5",
+      "target": "text_187_node_1",
+      "relation": "before",
+      "support_text": "A Bulgarian charter plane with 150 passengers from Tel Aviv to Burgas landed at 4:50 p.m. local time, and its passengers boarded buses to take them from the terminal to their hotels. The explosion occurred a short time later — apparently in the second of the four buses in the convoy."
+    },
+    {
+      "source": "text_187_node_5",
+      "target": "text_187_node_6",
+      "relation": "before",
+      "support_text": "The White House condemned the attack 'on innocent people, especially children, in the strongest possible terms.'"
+    },
+    {
+      "source": "text_187_node_5",
+      "target": "text_187_node_21",
+      "relation": "before",
+      "support_text": "包机降落（node_5）后乘客立即登上大巴（node_21）"
+    },
+    {
+      "source": "text_187_node_7",
+      "target": "text_187_node_8",
+      "relation": "before",
+      "support_text": "Deputy Foreign Minister Danny Ayalon told Channel 2 News that Israel would not only 'submit a complaint about Iran to the UN Security Council' but push for sanctions against the country..."
+    },
+    {
+      "source": "text_187_node_10",
+      "target": "text_187_node_11",
+      "relation": "before",
+      "support_text": "Foreign Minister Liberman spoke to his Bulgarian counterpart, Nickolay Mladenov, after the explosion... Bulgaria had not received any prior intelligence from Israel about a possible attack."
+    },
+    {
+      "source": "text_187_node_11",
+      "target": "text_187_node_12",
+      "relation": "before",
+      "support_text": "Hezbollah’s Al-Manar TV station was broadcasting details of the bombing, with excited commentary, on Wednesday evening..."
+    },
+    {
+      "source": "text_187_node_13",
+      "target": "text_187_node_14",
+      "relation": "before",
+      "support_text": "ZAKA and MDA were sending planes to Burgas..."
+    },
+    {
+      "source": "text_187_node_15",
+      "target": "text_187_node_5",
+      "relation": "before",
+      "support_text": "Last week, a suspected Hezbollah attack on Israeli tourists in Cyprus was foiled by Cypriot authorities. It was unclear whether Wednesday’s attack was related..."
+    },
+    {
+      "source": "text_187_node_16",
+      "target": "text_187_node_1",
+      "relation": "before",
+      "support_text": "初步调查显示炸弹被放置在车辆行李箱或固定在公交车侧面（事件发生时间早于炸弹引爆）"
+    },
+    {
+      "source": "text_187_node_17",
+      "target": "text_187_node_7",
+      "relation": "before",
+      "support_text": "外长利伯曼指定责任（事件发生时间早于Netanyahu和Barak的军事响应声明）"
+    }
+  ]
+}

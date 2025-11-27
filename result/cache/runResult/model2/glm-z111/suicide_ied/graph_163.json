@@ -1,0 +1,321 @@
+{
+  "nodes": [
+    {
+      "id": "text_163_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "美国军事力量于2012年2月从伊拉克撤出，移交安全责任给伊拉克政府",
+      "support_text": "The attacks occurred about eight months following the withdrawal of the United States military forces from the area, leaving the security of the country in the hands of the Iraqi security forces.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国在2012年6月至7月发布声明，宣布启动新‘攻势’",
+      "support_text": "Several major attacks took place in the months of June and July, following a statement released by Islamic State of Iraq to announce the start of a new 'offensive'.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2012年8月16日巴格达扎法拉尼耶游乐园附近发生汽车炸弹袭击，27人死亡、75人受伤",
+      "support_text": "The deadliest blast happened near an amusement park in Zaafaraniya, claiming 27 lives and injuring 75, most of them women and children.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "同日巴格达Husseiniya区政府建筑附近汽车炸弹爆炸，7人死亡、42人受伤",
+      "support_text": "Two car bombs exploded next to a government building in the Husseiniya district, killing 7 and injuring 42.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "萨德尔城军事检查站附近汽车炸弹爆炸，16人死亡、49人受伤",
+      "support_text": "a car bomb was detonated close to a military checkpoint in Sadr City, killing at least 16 and leaving 49 wounded.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "摩苏达区 checkpoint 枪击事件致10名士兵死亡",
+      "support_text": "Gunmen using silencers shot 10 soldiers dead at a checkpoint in Mushada, northwest of Baghdad, injuring at least 10 others.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "柯克卢克发生7次爆炸和枪击，8人死亡、29人受伤",
+      "support_text": "At least seven explosions and several shootings killed 8 and wounded 29 in Kirkuk.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "道古克反恐办公室自杀式汽车炸弹袭击，11名官员死亡",
+      "support_text": "a suicide car bombing killed 11 officers and injured 31 others at an anti-terrorism office in Daquq.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔尔阿法尔茶馆自杀式爆炸致7人死亡",
+      "support_text": "A suicide bombing at a tea shop in Tal Afar killed 7 and injured 25.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "摩苏尔袭击致9人死亡",
+      "support_text": "Attacks in Mosul killed another nine people and injured 27.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "代亚拉省三次袭击致10人死亡",
+      "support_text": "Ten people were killed and 9 injured in three separate incidents in Diyala Governorate near Baqubah.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "库特汽车炸弹袭击致7人死亡、70人受伤",
+      "support_text": "A car bomb in Kut killed at least 7 and injured more than 70 others.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_13",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "萨布尔区四名警察在袭击中死亡",
+      "support_text": "Four police officers were killed and six injured in attacks around Fallujah.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴亚吉市场枪击致2名平民死亡",
+      "support_text": "Gunmen killed two civilians at a market in Baaj.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_15",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "图兹Khurmatu炸弹袭击致1人死亡",
+      "support_text": "a bomb in Tuz Khurmatu killed a woman and injured 4 others.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "其他地区（Badush等）炸弹袭击致4人死亡、24人受伤",
+      "support_text": "Bombings also took place in Badush, Abu Ghraib, Al Wajehiya, Hawija, Ramadi and Iskandariya, killing 4 and leaving 24 injured.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克政府官员称袭击系基地组织及其盟友策划，试图引发教派冲突",
+      "support_text": "An unnamed official for the current Iraqi government believed the attacks were made by al-Qaeda and their allies, as part of a larger scheme to ignite 'a bloody sectarian war'.",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自2009年以来最致命的袭击事件",
+      "support_text": "袭击成为自2009年以来最致命的",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_19",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致超过400人受伤",
+      "support_text": "超过400人因袭击受伤",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致至少128人死亡",
+      "support_text": "至少128人被袭击杀害",
+      "source_text": "text_163"
+    },
+    {
+      "id": "text_163_new_node_21",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "在巴格达及多个省份之间，数小时内发生多次袭击事件",
+      "support_text": "在伊拉克巴格达和多个省份之间，多次袭击在数小时内相继发生",
+      "source_text": "text_163"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_163_node_1",
+      "target": "text_163_node_2",
+      "relation": "before",
+      "support_text": "The attacks occurred about eight months following the withdrawal of the United States military forces from the area"
+    },
+    {
+      "source": "text_163_node_2",
+      "target": "text_163_node_3",
+      "relation": "before",
+      "support_text": "Several major attacks took place in the months of June and July, following a statement released by Islamic State of Iraq to announce the start of a new 'offensive'"
+    },
+    {
+      "source": "text_163_node_2",
+      "target": "text_163_new_node_21",
+      "relation": "before",
+      "support_text": "伊斯兰国在2012年6月至7月发布声明后，巴格达及多个省份在数小时内发生多次袭击"
+    },
+    {
+      "source": "text_163_node_2",
+      "target": "text_163_node_5",
+      "relation": "before",
+      "support_text": "伊斯兰国在2012年6月至7月发布声明后，萨德尔城军事检查站附近汽车炸弹爆炸事件发生"
+    },
+    {
+      "source": "text_163_node_3",
+      "target": "text_163_node_4",
+      "relation": "before",
+      "support_text": "Two car bombs exploded next to a government building in the Husseiniya district"
+    },
+    {
+      "source": "text_163_node_4",
+      "target": "text_163_node_5",
+      "relation": "before",
+      "support_text": "In the evening, a car bomb was detonated close to a military checkpoint in Sadr City"
+    },
+    {
+      "source": "text_163_node_5",
+      "target": "text_163_node_6",
+      "relation": "before",
+      "support_text": "Gunmen using silencers shot 10 soldiers dead at a checkpoint in Mushada"
+    },
+    {
+      "source": "text_163_node_6",
+      "target": "text_163_node_7",
+      "relation": "before",
+      "support_text": "At least seven explosions and several shootings killed 8 and wounded 29 in Kirkuk"
+    },
+    {
+      "source": "text_163_node_7",
+      "target": "text_163_node_8",
+      "relation": "before",
+      "support_text": "while a suicide car bombing killed 11 officers and injured 31 others at an anti-terrorism office in Daquq"
+    },
+    {
+      "source": "text_163_node_8",
+      "target": "text_163_node_9",
+      "relation": "before",
+      "support_text": "A suicide bombing at a tea shop in Tal Afar killed 7 and injured 25"
+    },
+    {
+      "source": "text_163_node_9",
+      "target": "text_163_node_10",
+      "relation": "before",
+      "support_text": "Attacks in Mosul killed another nine people and injured 27"
+    },
+    {
+      "source": "text_163_node_10",
+      "target": "text_163_node_11",
+      "relation": "before",
+      "support_text": "Ten people were killed and 9 injured in three separate incidents in Diyala Governorate"
+    },
+    {
+      "source": "text_163_node_11",
+      "target": "text_163_node_12",
+      "relation": "before",
+      "support_text": "A car bomb in Kut killed at least 7 and injured more than 70 others"
+    },
+    {
+      "source": "text_163_node_12",
+      "target": "text_163_node_13",
+      "relation": "before",
+      "support_text": "Four police officers were killed and six injured in attacks around Fallujah"
+    },
+    {
+      "source": "text_163_node_13",
+      "target": "text_163_node_14",
+      "relation": "before",
+      "support_text": "Gunmen killed two civilians at a market in Baaj"
+    },
+    {
+      "source": "text_163_node_14",
+      "target": "text_163_node_15",
+      "relation": "before",
+      "support_text": "and a bomb in Tuz Khurmatu killed a woman and injured 4 others"
+    },
+    {
+      "source": "text_163_node_15",
+      "target": "text_163_node_16",
+      "relation": "before",
+      "support_text": "Bombings also took place in Badush, Abu Ghraib, Al Wajehiya, Hawija, Ramadi and Iskandariya"
+    },
+    {
+      "source": "text_163_node_16",
+      "target": "text_163_node_17",
+      "relation": "before",
+      "support_text": "An unnamed official for the current Iraqi government believed the attacks were made by al-Qaeda and their allies"
+    },
+    {
+      "source": "text_163_node_19",
+      "target": "text_163_node_18",
+      "relation": "before",
+      "support_text": "伤亡事件先于最致命性判定"
+    },
+    {
+      "source": "text_163_node_20",
+      "target": "text_163_node_19",
+      "relation": "before",
+      "support_text": "死亡事件先于受伤事件发生"
+    },
+    {
+      "source": "text_163_new_node_21",
+      "target": "text_163_node_3",
+      "relation": "before",
+      "support_text": "巴格达扎法拉尼耶游乐园附近汽车炸弹袭击是首次发生的具体事件"
+    }
+  ]
+}

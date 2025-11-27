@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "text_28_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Omagh遇难者家属展现的道德水准远高于官方处理",
+      "support_text": "From the start, Omagh victims' families have behaved with a decency lacking from the official handling of the case.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "关键DNA样本因管理不善丢失且车辆腐烂一年后仍被找回",
+      "support_text": "The collection of DNA samples was bungled. Some evidence was lost. The remains of the red Vauxhall car used in the attack were lost for a year, only to be found decaying in a police car park.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方对证据处理过程谎报并暴露系统性管理缺陷",
+      "support_text": "Police officers lied about how they had handled forensic samples, and forensic scientists neglected to use even basic precautions such as hats and masks when handling evidence.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nuala O'Loan调查发现警方的领导力存在根本性缺失",
+      "support_text": "She found that a failure of leadership ran through the police's handling of the atrocity.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "前警务主管Ronnie Flanagan公开否认调查报告真实性",
+      "support_text": "Instead of accepting this, the then head of policing in Northern Ireland, Sir Ronnie Flanagan, dismissed her report.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方工会试图通过法律途径阻止调查报告公开",
+      "support_text": "The Police Association for Northern Ireland attempted to block the report in court.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院判决确认调查报告结论并驳斥Flanagan的极端言论",
+      "support_text": "Yesterday's miserable outcome shows that Ms O'Loan was right and Sir Ronnie was wrong.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家属代表Michael Gallagher承认司法救济途径已穷尽",
+      "support_text": "Michael Gallagher, whose son Aidan was one of those killed, accepted that they have little chance now of securing it.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官对低拷贝数DNA证据在司法程序中的可靠性提出质疑",
+      "support_text": "Mr Justice Weir's ruling also has implications for other attempts to use the form of DNA evidence rejected yesterday. Low copy number DNA profiling depends on tiny samples. Yesterday the judge questioned its reliability in criminal trials, even when forensic samples are handled well.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_10",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "司法系统对低标准证据的依赖可能引发连锁法律风险",
+      "support_text": "There must be an urgent study into the use of the technique, before other cases collapse.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "要求对未能利用线人情报进行跨境调查的失职行为展开调查",
+      "support_text": "The families, who question why intelligence from informers was not used in the Omagh trial, want a cross-border inquiry into the whole disaster.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "官方对系统性失职的失职行为进行报告",
+      "support_text": "failings were reported before",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方对调查发现的错误进行纠正",
+      "support_text": "police correct errors exposed by investigation",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_14",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "其他案件因技术问题导致崩溃",
+      "support_text": "There must be an urgent study into the use of the technique, before other cases collapse.",
+      "source_text": "text_28"
+    },
+    {
+      "id": "text_28_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "情报在奥马格审判中未被使用",
+      "support_text": "情报在奥马格审判中未被使用",
+      "source_text": "text_28"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_28_node_1",
+      "target": "text_28_node_2",
+      "relation": "before",
+      "support_text": "The case against Mr Hoey rested on forensic evidence that was shown to be of a disgracefully low standard."
+    },
+    {
+      "source": "text_28_node_2",
+      "target": "text_28_node_3",
+      "relation": "before",
+      "support_text": "Police officers lied about how they had handled forensic samples, and forensic scientists neglected to use even basic precautions such as hats and masks when handling evidence."
+    },
+    {
+      "source": "text_28_node_3",
+      "target": "text_28_node_4",
+      "relation": "before",
+      "support_text": "It is worse that the police seem to have made little effort to correct errors exposed by the investigation of the ombudsman, Nuala O'Loan."
+    },
+    {
+      "source": "text_28_node_4",
+      "target": "text_28_node_5",
+      "relation": "before",
+      "support_text": "Instead of accepting this, the then head of policing in Northern Ireland, Sir Ronnie Flanagan, dismissed her report."
+    },
+    {
+      "source": "text_28_node_5",
+      "target": "text_28_node_6",
+      "relation": "before",
+      "support_text": "The Police Association for Northern Ireland attempted to block the report in court."
+    },
+    {
+      "source": "text_28_node_6",
+      "target": "text_28_node_7",
+      "relation": "before",
+      "support_text": "Yesterday's miserable outcome shows that Ms O'Loan was right and Sir Ronnie was wrong."
+    },
+    {
+      "source": "text_28_node_7",
+      "target": "text_28_node_8",
+      "relation": "before",
+      "support_text": "Michael Gallagher, whose son Aidan was one of those killed, accepted that they have little chance now of securing it."
+    },
+    {
+      "source": "text_28_node_7",
+      "target": "text_28_node_9",
+      "relation": "before",
+      "support_text": "Mr Justice Weir's ruling also has implications for other attempts to use the form of DNA evidence rejected yesterday."
+    },
+    {
+      "source": "text_28_node_7",
+      "target": "text_28_node_11",
+      "relation": "before",
+      "support_text": "The families, who question why intelligence from informers was not used in the Omagh trial, want a cross-border inquiry into the whole disaster."
+    },
+    {
+      "source": "text_28_node_9",
+      "target": "text_28_node_10",
+      "relation": "before",
+      "support_text": "There must be an urgent study into the use of the technique, before other cases collapse."
+    },
+    {
+      "source": "text_28_node_10",
+      "target": "text_28_node_14",
+      "relation": "before",
+      "support_text": "司法系统对低标准证据的依赖可能引发连锁法律风险"
+    },
+    {
+      "source": "text_28_node_12",
+      "target": "text_28_node_3",
+      "relation": "before",
+      "support_text": "failings were reported before police made little effort to correct errors"
+    },
+    {
+      "source": "text_28_node_13",
+      "target": "text_28_node_3",
+      "relation": "before",
+      "support_text": "police correct errors exposed by investigation before making little effort"
+    },
+    {
+      "source": "text_28_node_15",
+      "target": "text_28_node_11",
+      "relation": "before",
+      "support_text": "家庭质疑情报未被使用（temporal_order=1）→要求跨境调查（temporal_order=2）"
+    }
+  ]
+}

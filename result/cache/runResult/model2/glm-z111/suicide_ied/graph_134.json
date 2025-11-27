@@ -1,0 +1,177 @@
+{
+  "nodes": [
+    {
+      "id": "text_134_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2月13日，巴基斯坦籍自杀式袭击者在伊朗东南部锡斯坦-俾路支斯坦省对IRGC部队实施爆炸，造成27人死亡",
+      "support_text": "a suicide bomber drove an explosives-laden vehicle into a bus that was transporting IRGC troops in Sistan-Baluchistan Province",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2月18日，伊朗安全部队在案件中逮捕3名伊朗籍嫌疑人，其中2人来自俾路支斯坦省",
+      "support_text": "the guards on February 18 announced three arrests in the case",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2月19日，伊朗IRGC指挥官确认袭击者为巴基斯坦籍的哈菲兹·穆罕默德-阿里，并揭露另一名巴基斯坦籍策划者",
+      "support_text": "Brigadier General Mohammad Pakpour said on February 19 that another alleged member of the militant cell that planned the February 13 attack was also Pakistani",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_4",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "2月19日，巴基斯坦外长表示已将伊朗嫌疑人移交伊朗，承诺全面合作打击恐怖主义",
+      "support_text": "Pakistani Foreign Minister Shah Mehmood Qureshi said on February 19 that his country had handed over Iranian suspects",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者所属的逊尼派武装组织Jaish al Adl宣称对事件负责，指控伊朗政府压迫俾路支族权益",
+      "support_text": "The Sunni group Jaish al Adl claimed responsibility for the bombing",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "DemonstrateWithViolence",
+      "description": "伊朗指责巴基斯坦为武装分子提供庇护所，并控诉沙特煽动逊尼派少数族裔暴力活动",
+      "support_text": "Tehran has repeatedly said that militant groups operate from safe havens in Pakistan and called on the neighboring country to crack down on them. Tehran has also accused Saudi Arabia of inciting members of Iran's Sunni Muslim minority to violence",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_7",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "媒体引用了伊朗伊斯兰革命卫队高级指挥官的话",
+      "support_text": "媒体引用了伊朗伊斯兰革命卫队高级指挥官的话",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "被指控的武装细胞成员策划了2月13日的袭击",
+      "support_text": "被指控的武装细胞成员策划了2月13日的袭击",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "逊尼派Jaish al Adl声称致力于为巴洛克族争取更多权利和更好的生活条件",
+      "support_text": "逊尼派Jaish al Adl声称其致力于为巴洛克族争取更多权利和更好的生活条件",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "逊尼派Jaish al Adl致力于为巴洛克族争取更多权利和更好的生活条件",
+      "support_text": "逊尼派Jaish al Adl致力于为巴洛克族争取更多权利和更好的生活条件",
+      "source_text": "text_134"
+    },
+    {
+      "id": "text_134_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴士正在运输IRGC士兵",
+      "support_text": "巴士正在运输IRGC士兵",
+      "source_text": "text_134"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_134_node_1",
+      "target": "text_134_node_2",
+      "relation": "before",
+      "support_text": "the attack occurred on February 13, and the arrests were announced on February 18"
+    },
+    {
+      "source": "text_134_node_1",
+      "target": "text_134_node_11",
+      "relation": "before",
+      "support_text": "巴士运输事件发生在爆炸事件之前（temporal_order 2对应transport事件）"
+    },
+    {
+      "source": "text_134_node_2",
+      "target": "text_134_node_3",
+      "relation": "before",
+      "support_text": "Brigadier General Mohammad Pakpour announced three arrests on February 18 and provided further details on February 19"
+    },
+    {
+      "source": "text_134_node_2",
+      "target": "text_134_node_4",
+      "relation": "before",
+      "support_text": "Pakistani Foreign Minister Shah Mehmood Qureshi responded to the February 18 arrests by confirming suspect handover on February 19"
+    },
+    {
+      "source": "text_134_node_3",
+      "target": "text_134_node_4",
+      "relation": "before",
+      "support_text": "General Pakpour's February 19 disclosure about Pakistani suspects preceded Qureshi's announcement of cooperation"
+    },
+    {
+      "source": "text_134_node_3",
+      "target": "text_134_node_5",
+      "relation": "before",
+      "support_text": "Jaish al Adl's responsibility claim followed confirmation of Pakistani involvement by Iranian authorities"
+    },
+    {
+      "source": "text_134_node_3",
+      "target": "text_134_node_9",
+      "relation": "before",
+      "support_text": "伊朗官方确认巴基斯坦策划者（node_3）后，Jaish al Adl正式声明立场（node_9）"
+    },
+    {
+      "source": "text_134_node_4",
+      "target": "text_134_node_6",
+      "relation": "before",
+      "support_text": "Iran's subsequent accusations against Pakistan and Saudi Arabia occurred after receiving suspects from Pakistan"
+    },
+    {
+      "source": "text_134_node_5",
+      "target": "text_134_node_6",
+      "relation": "before",
+      "support_text": "Tehran's broader conflict statements followed confirmation of Jaish al Adl's involvement"
+    },
+    {
+      "source": "text_134_node_7",
+      "target": "text_134_node_3",
+      "relation": "before",
+      "support_text": "基于temporal_order 2与3的时序关系"
+    },
+    {
+      "source": "text_134_node_8",
+      "target": "text_134_node_1",
+      "relation": "before",
+      "support_text": "策划发生在袭击执行前（2月13日袭击实际发生时间）"
+    },
+    {
+      "source": "text_134_node_9",
+      "target": "text_134_node_10",
+      "relation": "before",
+      "support_text": "声明立场（node_9）后启动具体行动（node_10）"
+    }
+  ]
+}

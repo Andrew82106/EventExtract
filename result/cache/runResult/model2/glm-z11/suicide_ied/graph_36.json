@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "text_36_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "圣彼得堡地铁发生爆炸，至少11人死亡、51人受伤，爆炸发生在Sennaya Ploshchad至Tekhnologichesky Institut站间的隧道中",
+      "support_text": "Moscow (CNN) At least 11 people were killed in a blast on the St. Petersburg metro Monday, three state-run Russian news agencies said. The explosion tore through a train as it was traveling between two stations in Russia's second-largest city.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_2",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "DisableDefuse",
+      "description": "第二个未引爆的爆炸装置在Revolutionary Square站发现并拆除，装置藏于灭火器中，威力约为1公斤TNT",
+      "support_text": "A second, larger device was found and defused at another station, Russia's Anti-Terrorism Committee said. ... It carried about a kilogram of TNT, the reports said.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "圣彼得堡地铁系统因恐袭全面关闭，日均承载的230万乘客被迫中断出行",
+      "support_text": "No group has claimed responsibility for the attack, which led to the shutdown of the city's metro system. ... The entire metro system was shut down.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "地铁乘务员未立即停车，继续运行至下一站，协助乘客和救援人员疏散",
+      "support_text": "The train conductor possibly saved lives, the committee said, because rather than stop the train after the blast, he continued on to the next station...",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "乘客和目击者描述爆炸后现场混乱，伤者互相救助，部分伤者因严重失血和创伤无法移动",
+      "support_text": "Passengers described the horror in the aftermath of the blast. 'In the metro car, everyone expected death... People were crawling while bleeding. They had such a look in their eyes.'",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯反恐委员会确认爆炸由未知的爆炸装置引发，启动调查并扣押涉案物品",
+      "support_text": "Russian's Anti-Terrorism Committee said. ... So far, we say it was an unidentified explosive device as investigators and the Federal Security Service's bomb specialists are to establish the exact cause...",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "普京在事发当天访问圣彼得堡，献花悼念并谴责为恐怖袭击，与特朗普通话表达哀悼",
+      "support_text": "President Vladimir Putin, who had been in St. Petersburg earlier in the day, laid roses at a makeshift memorial... Trump spoke briefly with Putin on Monday, according to a senior administration official.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_8",
+      "event_type": "Medical",
+      "event_subtype": "Diagnosis",
+      "event_sub_subtype": "Unspecified",
+      "description": "卫生部长报告4名伤者处于危急状态，伤者主要在Dzhanelidze研究所接受治疗",
+      "support_text": "Four of the injured are in critical condition , Health Minister Veronika Skvortsova said from the Dzhanelidze Research Institute of Emergency Medicine...",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "初步调查显示爆炸导致两次冲击波，伤者遗体散落站台，消防和医疗队紧急响应",
+      "support_text": "In the confusion, initial reports suggested there were two blasts. ... Photographs show the facade of one of the cars ripped off and passengers running from the Tekhnologichesky Institute station as it filled with smoke.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查人员对目击者、地铁员工进行询问，确认伤亡数字并排除其他事故可能",
+      "support_text": " Investigators are seizing items relative to the investigation, questioning witnesses and metro employees and working to confirm the number of dead and injured...",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_new_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯总理梅德韦杰夫将爆炸事件定性为恐怖主义行为",
+      "support_text": "梅德韦杰夫将袭击定性为恐怖主义行为",
+      "source_text": "text_36"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_node_2",
+      "relation": "before",
+      "support_text": "A second, larger device was found and defused at another station, Russia's Anti-Terrorism Committee said."
+    },
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_node_3",
+      "relation": "before",
+      "support_text": "No group has claimed responsibility for the attack, which led to the shutdown of the city's metro system."
+    },
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_node_4",
+      "relation": "before",
+      "support_text": "The train conductor possibly saved lives, the committee said, because rather than stop the train after the blast..."
+    },
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_node_5",
+      "relation": "before",
+      "support_text": "Passengers described the horror in the aftermath of the blast."
+    },
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_node_6",
+      "relation": "before",
+      "support_text": "Russian's Anti-Terrorism Committee said. ... So far, we say it was an unidentified explosive device..."
+    },
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_node_7",
+      "relation": "before",
+      "support_text": "President Vladimir Putin, who had been in St. Petersburg earlier in the day..."
+    },
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_node_9",
+      "relation": "before",
+      "support_text": "In the confusion, initial reports suggested there were two blasts."
+    },
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_new_node_11",
+      "relation": "before",
+      "support_text": "梅德韦杰夫在事件发生后作出定性"
+    },
+    {
+      "source": "text_36_node_6",
+      "target": "text_36_node_10",
+      "relation": "before",
+      "support_text": " Investigators are seizing items relative to the investigation, questioning witnesses..."
+    },
+    {
+      "source": "text_36_node_7",
+      "target": "text_36_node_3",
+      "relation": "before",
+      "support_text": "No group has claimed responsibility for the attack, which led to the shutdown of the city's metro system."
+    }
+  ]
+}

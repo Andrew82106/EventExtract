@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "text_26_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abedi在Didsbury清真寺的成长经历：被描述为 promising young man，青少年时期前与父亲共同参与宗教活动",
+      "support_text": "The religious leader—who saw Abedi, his brothers and conservative father regularly at the site, popular with Manchester’s large Libyan community—said Salman came from a disciplined and well-behaved family. 'They were some lovely kids, they were always with their dad and I was always so impressed with them,' he says.",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "Abedi家庭背景：父亲Ramadan是利比亚流亡者，2011年革命期间返回利比亚",
+      "support_text": "Salman’s father Ramadan, a Libyan exile to Britain, returned to the North African nation in 2011 during the revolution that toppled Muammar el-Qaddafi.",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abedi青少年时期转变：开始变得 withdrawn 和 aggressive，健身房内表现出攻击性",
+      "support_text": "But he added that Salman, the second youngest of four children, had become at intervals withdrawn and then hot-tempered in his teenage years. He described how at the gym he attended at the local Hough End Leisure Centre, he was known to be a hostile character. 'He didn't like to talk to anybody but when he did he was really very aggressive,' the mosque manager said.",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方调查进展：在Fallowfield地区发现爆炸物并实施 controlled explosion，逮捕23岁关联嫌疑人",
+      "support_text": "On Tuesday heavily armed officers were pictured by residents in the area as police forensic experts collected evidence from a local address. Greater Manchester Police later carried out a controlled explosion in the Fallowfield area. They also confirmed the arrest of a 23-year-old man in the south of the city in connection with the attack.",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS宣称责任：通过 SITE 智能监测组确认ISIS以 'Khilafah'名义宣称袭击",
+      "support_text": "ISIS has claimed responsibility for the suicide bomb attack. In a statement posted on Twitter by jihadist monitoring group SITE intelligence, ISIS referred to the suicide bomber as a 'soldier of the Khilafah'...",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "英国政府回应：首相府拒绝确认Abedi与伊斯兰极端主义直接关联",
+      "support_text": "The office for the British Prime Minister Theresa May has refused to say whether the bomber was linked to Islamist extremism.",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生时间：2017年5月22日Ariana Grande演唱会期间实施自杀式爆炸，致22人死亡",
+      "support_text": "Salman Abedi used to be a 'lovely kid' when he first attended the mosque with his father... Salman Abedi detonated an improvised explosive device as fans streamed out of an Ariana Grande concert.",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹袭击者被关联到伊斯兰极端主义",
+      "support_text": "炸弹袭击者被关联到伊斯兰极端主义",
+      "source_text": "text_26"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_26_node_1",
+      "target": "text_26_node_3",
+      "relation": "before",
+      "support_text": "But he added that Salman, the second youngest of four children, had become at intervals withdrawn and then hot-tempered in his teenage years."
+    },
+    {
+      "source": "text_26_node_2",
+      "target": "text_26_node_3",
+      "relation": "before",
+      "support_text": "He described how at the gym he attended at the local Hough End Leisure Centre, he was known to be a hostile character."
+    },
+    {
+      "source": "text_26_node_3",
+      "target": "text_26_node_7",
+      "relation": "before",
+      "support_text": "Salman Abedi detonated an improvised explosive device as fans streamed out of an Ariana Grande concert."
+    },
+    {
+      "source": "text_26_node_5",
+      "target": "text_26_node_6",
+      "relation": "before",
+      "support_text": "The office for the British Prime Minister Theresa May has refused to say whether the bomber was linked to Islamist extremism."
+    },
+    {
+      "source": "text_26_node_5",
+      "target": "text_26_node_8",
+      "relation": "before",
+      "support_text": "ISIS通过SITE确认ISIS以 'Khilafah'名义宣称袭击"
+    },
+    {
+      "source": "text_26_node_7",
+      "target": "text_26_node_4",
+      "relation": "before",
+      "support_text": "On Tuesday heavily armed officers were pictured by residents in the area as police forensic experts collected evidence from a local address."
+    },
+    {
+      "source": "text_26_node_7",
+      "target": "text_26_node_5",
+      "relation": "before",
+      "support_text": "ISIS has claimed responsibility for the suicide bomb attack."
+    }
+  ]
+}

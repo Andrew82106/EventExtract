@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "text_46_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Quetta Hazarganji市场发生自杀式爆炸，造成至少20人死亡（含2名儿童、FC官员及8名哈扎拉成员）、48人受伤，现场遗留残肢和浓烟",
+      "support_text": "Following the horrific explosion at fruit and vegetable market in Quetta’s Hazarganji area which left at least 20 people including two children, a Frontier Corps official and eight members of the Hazara community dead injured 48 others, Hazara community staged a protest demonstration at the city’s Western Bypass against the killings.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致市场附近汽车及商铺受损，安全部队封锁现场并转移伤者至Bolan Medical Complex",
+      "support_text": "People in large numbers were present when the blast took place near a car and damaged adjacent shops as well. The security forces and bomb disposal squad cordoned off the area. Rescue teams reached the incident spot and shifted the victims to the Bolan Medical Complex.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈扎拉社区因安全缺失及针对族群袭击举行抗议，要求加强安保",
+      "support_text": "Hazara community staged a protest demonstration at the city’s Western Bypass against the killings. The protesters were of the view that the Hazara community was being targeted but they weren’t provided effective security.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "省Home Minister Zia Lango抵达抗议现场但未能与哈扎拉社区达成共识",
+      "support_text": "Provincial Home Minister Zia Lango reached the site but the dialogues with the Hazara community failed once again.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_5",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "医院启动紧急状态，呼吁献血救助伤者，确认伤者伤势危重",
+      "support_text": "Emergency was imposed in all hospitals of Quetta and people were requested to donate blood to save lives. The hospital sources informed that the injured were in serious condition.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方确认炸弹藏于土豆袋内，调查团队收集证据并展开搜查",
+      "support_text": "The police confirmed that the bomb was hidden inside sacks of potatoes. The investigation teams collected evidences from the targeted area and security forces conducted search operation in locality.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "总理Imran Khan谴责袭击，要求提交报告并保障伤者医疗资源",
+      "support_text": "Prime Minister Imran Khan condemned the incident and summoned report from the concerned authorities. He further directed to provide best medical facilities to the wounded.",
+      "source_text": "text_46"
+    },
+    {
+      "id": "text_46_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "Balochistan首席部长Jam Kamal称袭击破坏和平，誓言严惩凶手",
+      "support_text": "Balochistan Chief Minister Jam Kamal said the attack was conducted to sabotage the peaceful atmosphere. While expressing solidarity with the victims, the chief minister said those who are responsible for this heinous activity are inhumane and deserve no mercy.",
+      "source_text": "text_46"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_46_node_1",
+      "target": "text_46_node_2",
+      "relation": "before",
+      "support_text": "People in large numbers were present when the blast took place near a car and damaged adjacent shops as well."
+    },
+    {
+      "source": "text_46_node_1",
+      "target": "text_46_node_3",
+      "relation": "before",
+      "support_text": "Following the horrific explosion... Hazara community staged a protest demonstration"
+    },
+    {
+      "source": "text_46_node_1",
+      "target": "text_46_node_5",
+      "relation": "before",
+      "support_text": "The hospital sources informed that the injured were in serious condition"
+    },
+    {
+      "source": "text_46_node_1",
+      "target": "text_46_node_6",
+      "relation": "before",
+      "support_text": "The police confirmed that the bomb was hidden inside sacks of potatoes"
+    },
+    {
+      "source": "text_46_node_1",
+      "target": "text_46_node_7",
+      "relation": "before",
+      "support_text": "Prime Minister Imran Khan condemned the incident"
+    },
+    {
+      "source": "text_46_node_1",
+      "target": "text_46_node_8",
+      "relation": "before",
+      "support_text": "Balochistan Chief Minister Jam Kamal said the attack was conducted to sabotage the peaceful atmosphere"
+    },
+    {
+      "source": "text_46_node_3",
+      "target": "text_46_node_4",
+      "relation": "before",
+      "support_text": "Provincial Home Minister Zia Lango reached the site but the dialogues with the Hazara community failed once again"
+    }
+  ]
+}

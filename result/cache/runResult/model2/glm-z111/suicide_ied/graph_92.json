@@ -1,0 +1,279 @@
+{
+  "nodes": [
+    {
+      "id": "text_92_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年5月12日，巴基斯坦俾路支省马斯坦地区，参议院副议长Ghafoor Haideri车队遭汽车炸弹袭击，造成至少25人死亡、35人受伤",
+      "support_text": "A bomb exploded next to a convoy of the deputy chairman of the Pakistan Senate, Senator Ghafoor Haideri, in Mastung, Pakistan May 12, 2017. Television footage showed a vehicle mangled by the blast.",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "同日，伊斯兰国（ISIS）宣称对此负责，其 Amaq新闻机构称袭击者为佩戴爆炸背心的自杀式袭击者",
+      "support_text": "Islamic State claimed responsibility for the bombing. The group's Amaq news agency said a bomber wearing an explosive vest carried out the attack.",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "同日，前ISIS关联组织谴责此次袭击",
+      "support_text": "A former local Islamic State affiliate. condemned Friday's suicide attack.",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Haideri在爆炸后立即表示自己是目标，并称车队中有大量人员伤亡",
+      "support_text": "Senator Abdul Ghafoor Haideri, the deputy chairman of the upper house of parliament, told Reuters minutes after the explosion he believed he was the target and he had sustained minor injuries.",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地卫生部门确认死亡人数升至25人，10人重伤",
+      "support_text": "District health official Sher Ahmed Satakzai said the death toll had risen to 25 and 10 were in critical condition in hospital.",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "马斯坦警察确认袭击为自杀式爆炸，Haideri司机死亡",
+      "support_text": "Mastung police official Ghazanfar Ali Shah said the convoy appeared to have been hit by a suicide bomber, adding Haideri's driver was among those killed.",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_7",
+      "event_type": "Medical",
+      "event_subtype": "Diagnosis",
+      "event_sub_subtype": "Unspecified",
+      "description": "Haideri因伤住院治疗",
+      "support_text": "Haideri is being treated in hospital.",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Lashkar-e-Jangvi Al Alami谴责袭击，称与ISIS因政策分歧分裂",
+      "support_text": "Lashkar-e-Jangvi Al Alami... condemned Friday's suicide attack, spokesman Ali Bin Sufyan told Reuters. Sufyan said the two groups have now split due to 'policy changes'.",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_9",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "俾路支省长期存在分离主义运动，要求更多资源分配",
+      "support_text": "Separatist militants in Baluchistan have waged a campaign against the central government for decades, demanding a greater share of the gas-rich province's resources.",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国无人机2016年在该省击毙ISIS头目Mullah Akhtar Mansour",
+      "support_text": "A U.S. drone strike killed Taliban leader Mullah Akhtar Mansour last year in Baluchistan.",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年12月俾路支省发生多起袭击，造成超180人死亡",
+      "support_text": "The province was rocked by a series of attacks late last year that claimed over 180 lives.",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年1月俾路支省律师遭袭击，司法报告批评安全措施不足",
+      "support_text": "A judicial report released after an attack on the province's lawyers left more than 70 dead criticized security provisions in the region and called for increased clampdowns on extremists.",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "士兵和安保人员守护一辆汽车",
+      "support_text": "士兵和安保人员守护一辆汽车",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "安保人员收集证据",
+      "support_text": "安保人员收集证据",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "安保人员调查犯罪现场",
+      "support_text": "安保人员调查犯罪现场",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_16",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "参议员向宗教学校学生分发毕业证书",
+      "support_text": "参议员向宗教学校学生分发毕业证书",
+      "source_text": "text_92"
+    },
+    {
+      "id": "text_92_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Lashkar-e-Jangvi与伊斯兰国联合实施攻击",
+      "support_text": "Lashkar-e-Jangvi与伊斯兰国联合实施攻击",
+      "source_text": "text_92"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_92_node_1",
+      "target": "text_92_node_2",
+      "relation": "before",
+      "support_text": "Islamic State claimed responsibility for the bombing."
+    },
+    {
+      "source": "text_92_node_1",
+      "target": "text_92_node_4",
+      "relation": "before",
+      "support_text": "Senator Abdul Ghafoor Haideri... told Reuters minutes after the explosion."
+    },
+    {
+      "source": "text_92_node_1",
+      "target": "text_92_node_6",
+      "relation": "before",
+      "support_text": "Mastung police official Ghazanfar Ali Shah said the convoy appeared to have been hit by a suicide bomber."
+    },
+    {
+      "source": "text_92_node_2",
+      "target": "text_92_node_3",
+      "relation": "before",
+      "support_text": "A former local Islamic State affiliate. condemned Friday's suicide attack."
+    },
+    {
+      "source": "text_92_node_2",
+      "target": "text_92_node_8",
+      "relation": "before",
+      "support_text": "Lashkar-e-Jangvi Al Alami... condemned Friday's suicide attack."
+    },
+    {
+      "source": "text_92_node_4",
+      "target": "text_92_node_7",
+      "relation": "before",
+      "support_text": "Haideri is being treated in hospital."
+    },
+    {
+      "source": "text_92_node_6",
+      "target": "text_92_node_5",
+      "relation": "before",
+      "support_text": "District health official Sher Ahmed Satakzai said the death toll had risen to 25."
+    },
+    {
+      "source": "text_92_node_9",
+      "target": "text_92_node_10",
+      "relation": "before",
+      "support_text": "Separatist militants in Baluchistan have waged a campaign against the central government for decades, demanding a greater share of the gas-rich province's resources."
+    },
+    {
+      "source": "text_92_node_9",
+      "target": "text_92_node_11",
+      "relation": "before",
+      "support_text": "Separatist militants in Baluchistan have waged a campaign against the central government for decades, demanding a greater share of the gas-rich province's resources."
+    },
+    {
+      "source": "text_92_node_9",
+      "target": "text_92_node_12",
+      "relation": "before",
+      "support_text": "Separatist militants in Baluchistan have waged a campaign against the central government for decades, demanding a greater share of the gas-rich province's resources."
+    },
+    {
+      "source": "text_92_node_10",
+      "target": "text_92_node_1",
+      "relation": "before",
+      "support_text": "A U.S. drone strike killed Taliban leader Mullah Akhtar Mansour last year in Baluchistan."
+    },
+    {
+      "source": "text_92_node_10",
+      "target": "text_92_node_11",
+      "relation": "before",
+      "support_text": "A U.S. drone strike killed Taliban leader Mullah Akhtar Mansour last year in Baluchistan."
+    },
+    {
+      "source": "text_92_node_11",
+      "target": "text_92_node_1",
+      "relation": "before",
+      "support_text": "The province was rocked by a series of attacks late last year that claimed over 180 lives."
+    },
+    {
+      "source": "text_92_node_11",
+      "target": "text_92_node_12",
+      "relation": "before",
+      "support_text": "The province was rocked by a series of attacks late last year that claimed over 180 lives."
+    },
+    {
+      "source": "text_92_node_12",
+      "target": "text_92_node_1",
+      "relation": "before",
+      "support_text": "A judicial report released after an attack on the province's lawyers left more than 70 dead criticized security provisions in the region and called for increased clampdowns on extremists."
+    },
+    {
+      "source": "text_92_node_13",
+      "target": "text_92_node_1",
+      "relation": "before",
+      "support_text": "在汽车炸弹袭击发生前，士兵和安保人员正在守护目标车辆"
+    },
+    {
+      "source": "text_92_node_14",
+      "target": "text_92_node_6",
+      "relation": "before",
+      "support_text": "安保人员收集证据后确认袭击性质"
+    },
+    {
+      "source": "text_92_node_15",
+      "target": "text_92_node_6",
+      "relation": "before",
+      "support_text": "安保人员调查犯罪现场后确认袭击性质"
+    },
+    {
+      "source": "text_92_node_16",
+      "target": "text_92_node_17",
+      "relation": "before",
+      "support_text": "分发毕业证书事件发生在联合攻击事件之前"
+    },
+    {
+      "source": "text_92_node_17",
+      "target": "text_92_node_4",
+      "relation": "before",
+      "support_text": "联合攻击事件发生在发言人向路透社报道事件之前"
+    }
+  ]
+}

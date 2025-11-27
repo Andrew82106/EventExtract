@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "text_33_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "卡车炸弹在摩加迪沙Zoobe Junction爆炸，造成400人死亡、数百人受伤",
+      "support_text": "On Oct. 14, a truck carrying about two tons of homemade explosives blew up near Zoobe Junction, one of the busiest streets in Mogadishu, the Somali capital.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "幸存者家属在废墟中数小时寻找失联亲人",
+      "support_text": "Families wandered for hours searching for their loved ones in the rubble.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_3",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "民众自发排队献血，医疗人员全力救治伤员",
+      "support_text": "Hundreds of citizens lined up at hospitals for hours to donate blood. Doctors, nurses and ambulance drivers did all they could to rescue the wounded.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "民众聚集指责伊斯兰国青年党（Shabab）为制造者",
+      "support_text": "Grieving and angry Somalis gathered on Zoobe Junction blamed Islamist Shabab militants for the atrocity.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其、美国、英国等多国领导人与联合国谴责袭击",
+      "support_text": "Leaders from Turkey, the United States, Britain, Canada, France and the United Nations condemned the attack.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "分析指出Somalia需国际协作与专业装备对抗Shabab",
+      "support_text": "To defeat Shabab terrorism, Somalia requires expertise and equipment that it lacks, and it needs a new paradigm of cooperation between Somali security services and our international partners.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Shabab因伤亡惨重未公开承认责任",
+      "support_text": "The toll in the Oct. 14 bombing was so high, however, that the Shabab didn’t dare to claim responsibility and admit its murderous conduct even to its own members and sympathizers.",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "卡车炸弹爆炸引发冲击波传播数英里",
+      "support_text": "爆炸引发的冲击波传播数英里",
+      "source_text": "text_33"
+    },
+    {
+      "id": "text_33_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "索马里击败沙布卜恐怖主义",
+      "support_text": "To defeat Shabab terrorism, Somalia requires expertise and equipment that it lacks, and it needs a new paradigm of cooperation between Somali security services and our international partners.",
+      "source_text": "text_33"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_2",
+      "relation": "before",
+      "support_text": "More than 400 people were killed — nearly 150 of them burned beyond recognition — and hundreds wounded."
+    },
+    {
+      "source": "text_33_node_1",
+      "target": "text_33_node_8",
+      "relation": "before",
+      "support_text": "爆炸导致冲击波传播数英里"
+    },
+    {
+      "source": "text_33_node_2",
+      "target": "text_33_node_3",
+      "relation": "before",
+      "support_text": "Hundreds of citizens lined up at hospitals for hours to donate blood."
+    },
+    {
+      "source": "text_33_node_3",
+      "target": "text_33_node_4",
+      "relation": "before",
+      "support_text": "Grieving and angry Somalis gathered on Zoobe Junction blamed Islamist Shabab militants for the atrocity."
+    },
+    {
+      "source": "text_33_node_4",
+      "target": "text_33_node_5",
+      "relation": "before",
+      "support_text": "Leaders from Turkey, the United States, Britain, Canada, France and the United Nations condemned the attack."
+    },
+    {
+      "source": "text_33_node_5",
+      "target": "text_33_node_6",
+      "relation": "before",
+      "support_text": "But condemnation isn’t going to help Somalia battle the Shabab and its bomb makers."
+    },
+    {
+      "source": "text_33_node_6",
+      "target": "text_33_node_7",
+      "relation": "before",
+      "support_text": "There is no doubt about the Shabab, which has links with Al Qaeda, being the perpetrator."
+    },
+    {
+      "source": "text_33_node_7",
+      "target": "text_33_node_9",
+      "relation": "before",
+      "support_text": "Shabab因伤亡惨重未公开承认责任"
+    }
+  ]
+}

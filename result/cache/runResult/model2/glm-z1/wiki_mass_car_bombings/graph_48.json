@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "id": "text_48_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度为2月14日克什米尔恐袭中牺牲的40名CRPF人员举行哀悼",
+      "support_text": "India is mourning the death of 40 Central Reserve Police Force (CRPF) personnel who were killed in a Pulwama Terror Attacks in Kashmir on February 14.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_2",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度民众自发为烈士家属捐款并表达哀悼",
+      "support_text": "As Indians are donating money and helping the martyrs’ families",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿杰·德格万宣布停止在巴基斯坦上映电影《Total Dhamaal》",
+      "support_text": "After Ajay Devgn decided to not release ‘Total Dhamaal’ in Pakistan",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "其他印度影人宣布停止与巴基斯坦艺术家合作",
+      "support_text": "now Salman Khan’s upcoming production ‘Notebook’ and Shahid Kapoor‘s next ‘Kabir Singh’ won’t release in Pakistan either.",
+      "source_text": "text_48"
+    },
+    {
+      "id": "text_48_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "萨姆·汗的《Notebook》和沙伊德·卡普尔的《Kabir Singh》决定不登陆巴基斯坦市场",
+      "support_text": "now Salman Khan’s upcoming production ‘Notebook’ and Shahid Kapoor‘s next ‘Kabir Singh’ won’t release in Pakistan either.",
+      "source_text": "text_48"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_48_node_1",
+      "target": "text_48_node_2",
+      "relation": "before",
+      "support_text": "As Indians are donating money and helping the martyrs’ families"
+    },
+    {
+      "source": "text_48_node_2",
+      "target": "text_48_node_3",
+      "relation": "before",
+      "support_text": "After Ajay Devgn decided to not release ‘Total Dhamaal’ in Pakistan"
+    },
+    {
+      "source": "text_48_node_3",
+      "target": "text_48_node_4",
+      "relation": "before",
+      "support_text": "now Salman Khan’s upcoming production ‘Notebook’ and Shahid Kapoor‘s next ‘Kabir Singh’ won’t release in Pakistan either."
+    }
+  ]
+}

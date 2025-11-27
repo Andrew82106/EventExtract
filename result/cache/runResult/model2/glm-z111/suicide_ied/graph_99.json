@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "text_99_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2014年1月，Konduga村发生屠杀事件",
+      "support_text": "Konduga had suffered previous attacks, including massacres in January 2014",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2014年2月，Konduga村发生第三次自杀式爆炸袭击",
+      "support_text": "including massacres in January 2014 and in February 2014",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2018年2月，Konduga村发生第三次自杀式爆炸袭击",
+      "support_text": "a triple suicide bombing in February 2018",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年7月，Konduga村清真寺发生自杀式爆炸",
+      "support_text": "a suicide bombing at a mosque in July 2018",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年6月16日，博尔诺州孔杜加村发生三次自杀式爆炸，造成30人死亡、40人受伤",
+      "support_text": "On the evening of 16 June 2019, three suicide bombers detonated their explosives in Konduga village...",
+      "source_text": "text_99"
+    },
+    {
+      "id": "text_99_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年7月27日，博尔诺州Nganzai地区发生大规模枪击事件，致65人死亡",
+      "support_text": "On 27 July 2019, a group returning from a funeral in Nganzai...",
+      "source_text": "text_99"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_99_node_1",
+      "target": "text_99_node_2",
+      "relation": "before",
+      "support_text": "Konduga had suffered previous attacks, including massacres in January 2014 and in February 2014"
+    },
+    {
+      "source": "text_99_node_2",
+      "target": "text_99_node_3",
+      "relation": "before",
+      "support_text": "Konduga had suffered previous attacks, including massacres in January 2014 and in February 2014, a triple suicide bombing in February 2018"
+    },
+    {
+      "source": "text_99_node_3",
+      "target": "text_99_node_4",
+      "relation": "before",
+      "support_text": "Konduga had suffered previous attacks, including massacres in January 2014 and in February 2014, a triple suicide bombing in February 2018 and a suicide bombing at a mosque in July 2018"
+    },
+    {
+      "source": "text_99_node_5",
+      "target": "text_99_node_6",
+      "relation": "before",
+      "support_text": "On 27 July 2019, a group returning from a funeral in Nganzai..."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "text_81_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五发生Hazarganji自杀式炸弹袭击，造成21人死亡（含10名Hazara和2名FC人员）",
+      "support_text": "Hazarganji suicide bomb attack on Friday in which 21 persons were killed including 10 Hazaras and two Frontier Corps personnel.",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hazara社区自周六起在Quetta Western Bypass持续四天静坐抗议，要求逮捕袭击者并加强安保",
+      "support_text": "protesting at the Quetta’s Western Bypass in Quetta for the past four days against Hazarganji attack on Friday",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "周一夜间抗议结束，因获得省首席部长Jam Kamal和内政部长Sheharyar Afridi的承诺",
+      "support_text": "ended their four-day-long sit-in on Monday night after receiving assurances from CM Balochistan Jam Kamal and State Minister for Interior Sheharyar Afridi",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Sheharyar Afridi与Zulfiqar Bukhari访问Hazara Town的Imambargah，向遇难者家属致哀",
+      "support_text": "visited the Imambargah located in Hazara Town on Monday to condole with the bereaved family members",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Afridi向媒体表态联邦政府与Hazara社区站在一起，将采取措施终结针对该社区的暴力",
+      "support_text": "Afridi said that the federal government stands in solidarity with the Hazara community and was taking steps to end violence against them. Addressing to media after his meeting with Hazara community members, Afridi said",
+      "source_text": "text_81"
+    },
+    {
+      "id": "text_81_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Hazara社区遭遇系统性杀害事件",
+      "support_text": "Hazara community experiencing systematic killing event",
+      "source_text": "text_81"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_81_node_1",
+      "target": "text_81_node_2",
+      "relation": "before",
+      "support_text": "protesting against the Hazarganji suicide bomb attack"
+    },
+    {
+      "source": "text_81_node_1",
+      "target": "text_81_node_6",
+      "relation": "before",
+      "support_text": "炸弹袭击导致系统性杀害的因果关联"
+    },
+    {
+      "source": "text_81_node_2",
+      "target": "text_81_node_3",
+      "relation": "before",
+      "support_text": "ended their four-day-long sit-in on Monday night"
+    },
+    {
+      "source": "text_81_node_4",
+      "target": "text_81_node_5",
+      "relation": "before",
+      "support_text": "Addressing to media after his meeting with Hazara community members"
+    }
+  ]
+}

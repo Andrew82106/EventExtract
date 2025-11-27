@@ -1,0 +1,249 @@
+{
+  "nodes": [
+    {
+      "id": "text_4_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "ANP集会自杀袭击：庆祝NWFP更名时，一名自杀式袭击者在集会现场引爆炸弹，导致45人死亡",
+      "support_text": "Forty-five people were killed and over 100 others injured when a suicide bomber set off explosives strapped to his body at a rally organised by the ANP to celebrate the renaming of NWFP in Timergara, about 170km from Peshawar.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国领事馆遭汽车炸弹和RPG袭击：五名自杀式袭击者使用火箭弹和汽车炸弹攻击领事馆外围，造成51人死亡",
+      "support_text": "Militants attacked a US Consulate in Peshawar with car bombs and grenades, hours after a suicide attack on a political rally in the region.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "领事馆排爆行动：安全人员成功拆解三个未爆的自杀式背心，发现高质TNT炸药",
+      "support_text": "Two of the bombers still had live suicide jackets on them and BDS personnel later untangled wires and prima-cords and defused the bombs.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "TTP宣称责任：TTP发言人声称袭击是对军事行动的报复，并威胁继续针对美国",
+      "support_text": "TTP spokesman Azam Tariq called reporters in Miramshah, the headquarters of North Waziristan, and said the attack was a reaction to military operations and drone attacks in the tribal region.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_5",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "ANP集会伤亡统计：医院接收36具尸体、80余名伤者，37人被空运至Peshawar",
+      "support_text": "Thirty-seven critically injured people were later airlifted to Peshawar.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "领事馆周边二次爆炸：两辆汽车炸弹在领事馆附近引发爆炸，造成更多伤亡",
+      "support_text": "two car bombs exploded — one at a checkpoint in Peshawar, about 50 metres from the US Consulate, and the other laden with about 100kg of explosives close to the consulate gate.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "ANP安全批评：ANP工人指责现场警察和安保存在严重疏忽",
+      "support_text": "The injured ANP workers criticised what they called negligence of police and security personnel deployed at the function and termed the incident a security lapse.",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府及安全官员报告了自杀式爆炸事件",
+      "support_text": "政府及安全官员报告了自杀式爆炸事件",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "情报官员向《黎明报》透露信息",
+      "support_text": "语义描述中的支持文本内容",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式袭击者进入双厢皮卡车",
+      "support_text": "语义描述中的支持文本内容",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "首名袭击者使用自动步枪开火",
+      "support_text": "语义描述中的支持文本内容",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_12",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "遇难者包含1名警察和2名保安",
+      "support_text": "语义描述中的支持文本内容",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_13",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "领事馆无人受伤",
+      "support_text": "语义描述中的支持文本内容",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "地方政府和医院管理局宣布进入紧急状态",
+      "support_text": "地方政府和医院管理局宣布进入紧急状态",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "地方政府和医院管理局封锁通往Timergara医院的所有路线",
+      "support_text": "地方政府和医院管理局封锁通往Timergara医院的所有路线",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_16",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "地区 DIG 和其他官员访问医院",
+      "support_text": "地区 DIG 和其他官员访问医院",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "恐怖分子退守被击溃",
+      "support_text": "恐怖分子退守被击溃",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖分子开始针对公共场合的无辜平民发动袭击",
+      "support_text": "恐怖分子开始针对公共场合的无辜平民发动袭击",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_19",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方与军队与袭击者发生交火",
+      "support_text": "语义描述中的支持文本内容",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_20",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "领事馆附近的安全屏障被损毁",
+      "support_text": "语义描述中的支持文本内容",
+      "source_text": "text_4"
+    },
+    {
+      "id": "text_4_node_21",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "西北边境省部长称两袭击者趁乱逃脱",
+      "support_text": "语义描述中的支持文本内容",
+      "source_text": "text_4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_2",
+      "relation": "before",
+      "support_text": "hours after a suicide attack on a political rally in the region"
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_5",
+      "relation": "before",
+      "support_text": "37 critically injured people were later airlifted to Peshawar"
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_7",
+      "relation": "before",
+      "support_text": "ANP workers criticised what they called negligence of police and security personnel deployed at the function"
+    },
+    {
+      "source": "text_4_node_1",
+      "target": "text_4_node_8",
+      "relation": "before",
+      "support_text": "政府及安全官员报告了自杀式爆炸事件"
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_3",
+      "relation": "before",
+      "support_text": "The explosion left a seven-feet-long and four-feet-wide crater"
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_4",
+      "relation": "before",
+      "support_text": "Tehrik-i-Taliban Pakistan has claimed responsibility for the attack"
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_6",
+      "relation": "before",
+      "support_text": "shells from rocket-propelled grenades and hand-grenades were left lying in the area"
+    },
+    {
+      "source": "text_4_node_2",
+      "target": "text_4_node_13",
+      "relation": "before",
+      "support_text": "领事馆遭汽车炸弹和RPG袭击"
+    },
+    {
+      "source": "text_4_node_5",
+      "target": "text_4_node_12",
+      "relation": "before",
+      "support_text": "医院接收36具尸体、80余名伤者"
+    }
+  ]
+}

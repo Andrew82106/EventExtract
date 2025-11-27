@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "text_16_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "汽车炸弹在巴基斯坦费萨拉巴德市加油站爆炸，引发气体罐连锁爆炸",
+      "support_text": "a car bomb tore through a gas station in the Pakistani city of Faisalabad. The bomb caused several gas cylinders at the station to explode, destroying cars and buildings.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致至少20人死亡、120人受伤，死亡人数可能上升",
+      "support_text": "at least 20 people have been killed and more than 120 injured after a car bomb tore through a gas station... Police said that the number of dead could rise as many of the injured were in a critical condition.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者描述爆炸如同地震，现场出现金属残骸和浓烟",
+      "support_text": "The blast was so large that, according to witnesses, it reduced the station to a heap of twisted metal and rubble. A security guard at the nearby office of Pakistan International Airlines said: 'The earth moved as in an earthquake, and there was thick smoke all around.'",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "救援人员使用重型机械清理废墟，寻找被困幸存者",
+      "support_text": "Heavy diggers and cranes have been brought in because there are believed to be survivors still trapped in the debris.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦塔利班宣称对袭击负责，指控为报复成员在押期间死亡",
+      "support_text": "The Pakistani Taliban said they carried out the attack, saying it was to avenge the death in custody of one of their members.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "费萨拉巴德市专员证实爆炸由汽车炸弹在气体罐附近引发，非自杀袭击",
+      "support_text": "'It was not a suicide attack,' Faisalabad city commissioner Tahir Husain said. 'The bomb exploded near the gas cylinders that triggered a bigger blast.'",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "总理吉拉尼对事件表示哀悼，谴责暴力行为",
+      "support_text": "Prime Minister Yousuf Raza Gilani has expressed his sorrow over the deaths.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员初步推测塔利班为袭击者，但未正式宣布责任归属",
+      "support_text": "officials have indicated they believe the Taliban are responsible.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "费萨拉巴德作为纺织业中心，近年首次遭恐怖袭击",
+      "support_text": "this is the first bombing in Faisalabad in recent years.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "该市位于旁遮普省，当地塔利班势力近期增强",
+      "support_text": "the city is in Pakistan's Punjab province where pro-Taliban militant groups have been increasing in strength.",
+      "source_text": "text_16"
+    },
+    {
+      "id": "text_16_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班过去多次针对安全机构发动大规模袭击",
+      "support_text": "The Pakistani Taliban have launched attacks on security establishments with devastating effect on a number of occasions in the past few years.",
+      "source_text": "text_16"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_2",
+      "relation": "before",
+      "support_text": "after a car bomb tore through a gas station"
+    },
+    {
+      "source": "text_16_node_1",
+      "target": "text_16_node_9",
+      "relation": "before",
+      "support_text": "this is the first bombing in Faisalabad in recent years"
+    },
+    {
+      "source": "text_16_node_2",
+      "target": "text_16_node_3",
+      "relation": "before",
+      "support_text": "According to witnesses, it reduced the station to a heap of twisted metal"
+    },
+    {
+      "source": "text_16_node_3",
+      "target": "text_16_node_4",
+      "relation": "before",
+      "support_text": "Heavy diggers and cranes have been brought in because there are believed to be survivors"
+    },
+    {
+      "source": "text_16_node_4",
+      "target": "text_16_node_5",
+      "relation": "before",
+      "support_text": "The Pakistani Taliban said they carried out the attack"
+    },
+    {
+      "source": "text_16_node_5",
+      "target": "text_16_node_6",
+      "relation": "before",
+      "support_text": "'It was not a suicide attack,' Faisalabad city commissioner Tahir Husain said"
+    },
+    {
+      "source": "text_16_node_5",
+      "target": "text_16_node_8",
+      "relation": "before",
+      "support_text": "officials have indicated they believe the Taliban are responsible"
+    },
+    {
+      "source": "text_16_node_6",
+      "target": "text_16_node_7",
+      "relation": "before",
+      "support_text": "Prime Minister Yousuf Raza Gilani has expressed his sorrow"
+    },
+    {
+      "source": "text_16_node_9",
+      "target": "text_16_node_10",
+      "relation": "before",
+      "support_text": "the city is in Pakistan's Punjab province"
+    },
+    {
+      "source": "text_16_node_10",
+      "target": "text_16_node_11",
+      "relation": "before",
+      "support_text": "The Pakistani Taliban have launched attacks on security establishments"
+    }
+  ]
+}

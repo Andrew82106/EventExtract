@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "text_56_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2007年6月30日，袭击者驾驶载有燃气罐的汽车冲入格拉斯哥机场航站楼，引发火灾",
+      "support_text": "The attack saw a blazing Jeep filled with gas canisters driven into the terminal building on 30 June 2007.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "Sgt Torquil Campbell和Pc Stewart Ferguson使用灭火器扑灭火焰，并制服袭击者",
+      "support_text": "Pc Ferguson used a fire extinguisher to try to douse the flames and then used it on one of the bombers to stop him attacking colleagues.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Stephen Clarkson用身体压制并制服袭击者",
+      "support_text": "Stephen Clarkson punched one of the suspects to the ground before using his bodyweight to restrain him until he was handcuffed.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Michael Kerr在帮助制服嫌疑人时受伤，包括面部受击和腿骨折",
+      "support_text": "Mr Kerr... was punched in the face and also suffered a broken leg after going to help a police officer tackle a suspect.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mr Lambie使用灭火器扑灭火并制服袭击者",
+      "support_text": "Mr Lambie helped evacuate people before he tackled the fire with an extinguisher.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mr McIlveen被CS气体致盲，但协助制服袭击者并引导Pc Kerr",
+      "support_text": "Mr McIlveen... was temporarily blinded when CS gas was used to subdue the attackers. He recovered and later led Mr Kerr to safety.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "机场工作人员和公众疏散并协助制服袭击者",
+      "support_text": "The response... included community solidarity by emergency service workers, staff from Glasgow Airport and members of the public.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_8",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Kafeel Ahmed被捕后因严重烧伤死亡",
+      "support_text": "Two men - Kafeel Ahmed and Bilal Abdulla - were arrested... Ahmed later died from serious burns sustained in the attack.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "Bilal Abdulla被判刑",
+      "support_text": "Abdulla was jailed for a minimum of 32 years for his role.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警员费尔森使用灭火器攻击恐怖分子",
+      "support_text": "Pc Ferguson used a fire extinguisher to try to douse the flames and then used it on one of the bombers to stop him attacking colleagues.",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_11",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "军士坎贝尔受伤",
+      "support_text": "军士坎贝尔受伤",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "麦当劳先生击打嫌疑人",
+      "support_text": "麦当劳先生击打嫌疑人",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "克拉克森先生击倒嫌疑人",
+      "support_text": "克拉克森先生击倒嫌疑人",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_14",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "克拉克森先生腿部受伤",
+      "support_text": "克拉克森先生腿部受伤",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_15",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "兰比先生逮捕男子",
+      "support_text": "兰比先生逮捕男子",
+      "source_text": "text_56"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_2",
+      "relation": "before",
+      "support_text": "Sgt Campbell tackled suspects at the airport during the attack, along with Pc Ferguson"
+    },
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_3",
+      "relation": "before",
+      "support_text": "Stephen Clarkson, who was working at one of the check-in desks, evacuated people before striking a suspect"
+    },
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_4",
+      "relation": "before",
+      "support_text": "Mr Kerr... after going to help a police officer tackle a suspect"
+    },
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_5",
+      "relation": "before",
+      "support_text": "Mr Lambie helped evacuate people before he tackled the fire"
+    },
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_6",
+      "relation": "before",
+      "support_text": "Mr McIlveen... led Mr Kerr to safety"
+    },
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_7",
+      "relation": "before",
+      "support_text": "emergency service workers, staff from Glasgow Airport and members of the public"
+    },
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_11",
+      "relation": "before",
+      "support_text": "军士坎贝尔受伤发生在袭击事件后"
+    },
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_12",
+      "relation": "before",
+      "support_text": "麦当劳先生击打发生在袭击事件后"
+    },
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_13",
+      "relation": "before",
+      "support_text": "克拉克森先生击倒发生在袭击事件后"
+    },
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_14",
+      "relation": "before",
+      "support_text": "克拉克森先生腿部受伤发生在袭击事件后"
+    },
+    {
+      "source": "text_56_node_2",
+      "target": "text_56_node_8",
+      "relation": "before",
+      "support_text": "Ahmed later died from serious burns sustained in the attack"
+    },
+    {
+      "source": "text_56_node_2",
+      "target": "text_56_node_10",
+      "relation": "before",
+      "support_text": "警员费尔森在扑灭火焰后使用灭火器攻击恐怖分子"
+    },
+    {
+      "source": "text_56_node_5",
+      "target": "text_56_node_15",
+      "relation": "before",
+      "support_text": "兰比先生逮捕发生在处理火情后"
+    },
+    {
+      "source": "text_56_node_8",
+      "target": "text_56_node_9",
+      "relation": "before",
+      "support_text": "Abdulla was jailed for a minimum of 32 years"
+    }
+  ]
+}

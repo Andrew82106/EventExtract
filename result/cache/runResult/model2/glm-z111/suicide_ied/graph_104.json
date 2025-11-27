@@ -1,0 +1,339 @@
+{
+  "nodes": [
+    {
+      "id": "text_104_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2017年5月22日，曼彻斯特体育馆发生恐怖袭击，造成22人死亡，包括警察局前警员埃琳·麦伊弗及其丈夫受伤",
+      "support_text": "The family of an off-duty police officer killed in the Manchester Arena attack have said she would want people to continue their lives without fear. DC Elaine McIver, 43, from the Cheshire force, an officer for 20 years, was attending the concert while off duty with her husband and two children.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "袭击当晚，埃琳·麦伊弗的家人宣布她鼓励公众不要因恐袭恐惧，继续生活",
+      "support_text": "Her brother was seriously injured. Mciver was 'an effervescent and outgoing personality', her family said. Her husband, Paul, remains critically ill.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "5月23日，曼彻斯特警方确认最后一名遇难者为15岁利物浦少女梅根·赫里利",
+      "support_text": "The last of the 22 victims was named as 15-year-old Megan Hurley, from Halewood in Liverpool.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "5月23日，14岁巴里岛少女埃莉·麦克卢德经确认遇难",
+      "support_text": "On Friday, her parents paid tribute to her, calling her 'beautiful, intelligent, popular and talented daughter'.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "5月23日，曼彻斯特警方宣布所有22名遇难者身份已确认",
+      "support_text": "Eilidh MacLeod, 14 Eilidh MacLeod Eilidh and her friend, Laura MacIntyre, from Barra, an island of just 1,000 people in the Outer Hebrides, had been missing since the explosion at the Ariana Grande concert on Monday night.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "5月24日，波兰夫妇安杰尔ika·基斯和马林在袭击中遇难",
+      "support_text": "It was the worst terrorist incident in the UK since the 7 July attacks in 2005.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "5月24日，警方公布首批遇难者名单，包括14岁切斯特少女内尔·琼斯和51岁学校接待员简·特韦德尔",
+      "support_text": "Many families announced the news of their loss on social media. Others paid tribute in statements issued through the police.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "5月24日，简·特韦德尔丈夫证实其遇难，并感谢警方提供的紧急支持",
+      "support_text": "The victims included a primary schoolgirl, teenagers, mothers, fathers and young men. Nine girls and young women, aged from eight to 19, were among the dead.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "5月24日，马廷·赫特的伴侣在社交媒体发帖悼念",
+      "support_text": "Postmortem examinations will be carried out over the next four days.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "5月24日，玛丽亚·凯里通过Instagram发文悼念马廷·赫特",
+      "support_text": "McIver’s family said she was a woman who loved life. 'Despite what has happened to her, she would want us all to carry on regardless and not be frightened by fear tactics.'",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_11",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "5月24日，Kelly Brewster的家人证实其因保护侄女在袭击中遇难",
+      "support_text": "The couple were 'perfect for each other and were meant to be', their families said in a joint statement.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "5月24日，8岁遇难者萨菲·罗斯·鲁索斯的母校举行纪念集会",
+      "support_text": "Eilidh MacLeod, 14 Eilidh MacLeod Eilidh and her friend, Laura MacIntyre, from Barra, an island of just 1,000 people in the Outer Hebrides, had been missing since the explosion at the Ariana Grande concert on Monday night.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_13",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "5月24日，格洛丽亚·卡兰德的家人通过社交媒体确认其遇难",
+      "support_text": "The victims included a primary schoolgirl, teenagers, mothers, fathers and young men. Nine girls and young women, aged from eight to 19, were among the dead.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_14",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "5月24日，约翰·阿特金森的家人发起筹款页面，为其举行葬礼",
+      "support_text": "The couple were 'perfect for each other and were meant to be', their families said in a joint statement.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_15",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "5月24日，Wendy Fawell的家人在约克郡举行悼念活动",
+      "support_text": "The couple were 'perfect for each other and were meant to be', their families said in a joint statement.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_16",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "5月24日，埃琳·麦伊弗的丈夫保罗仍在重症监护",
+      "support_text": "The couple were 'perfect for each other and were meant to be', their families said in a joint statement.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "家人向警员埃琳·麦伊弗致敬",
+      "support_text": "Her family paid tribute to her, calling her 'beautiful, intelligent, popular and talented daughter'.",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_18",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年5月22日，曼彻斯特体育馆音乐会中，Courtney Boyle和Philip Tron被杀害",
+      "support_text": "Courtoney Boyle和Philip Tron在音乐会中被杀害",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Courtoney Boyle的母亲对杀害事件的评价",
+      "support_text": "Courtoney Boyle的母亲说...（对被杀害事件的评价）",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_20",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Olivia Campbell（15岁）、Kelly Brewster（32岁）、Martyn Hett（29岁）死亡",
+      "support_text": "Olivia Campbell（15岁）、Kelly Brewster（32岁）、Martyn Hett（29岁）也死亡",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "确认Lisa Lees死亡",
+      "support_text": "确认Lisa Lees死亡",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_22",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "Lee Hunter在Facebook上写下悼念内容",
+      "support_text": "Lee Hunter在Facebook上写下悼念内容",
+      "source_text": "text_104"
+    },
+    {
+      "id": "text_104_node_23",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "India Lees发表悼念言论",
+      "support_text": "India Lees发表悼念言论",
+      "source_text": "text_104"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_104_node_1",
+      "target": "text_104_node_2",
+      "relation": "before",
+      "support_text": "The family of an off-duty police officer killed in the Manchester Arena attack have said she would want people to continue their lives without fear."
+    },
+    {
+      "source": "text_104_node_1",
+      "target": "text_104_node_3",
+      "relation": "before",
+      "support_text": "It was the worst terrorist incident in the UK since the 7 July attacks in 2005."
+    },
+    {
+      "source": "text_104_node_1",
+      "target": "text_104_node_18",
+      "relation": "before",
+      "support_text": "音乐会袭击事件发生前"
+    },
+    {
+      "source": "text_104_node_2",
+      "target": "text_104_node_3",
+      "relation": "before",
+      "support_text": "Her brother was seriously injured. Mciver was 'an effervescent and outgoing personality', her family said."
+    },
+    {
+      "source": "text_104_node_2",
+      "target": "text_104_node_17",
+      "relation": "before",
+      "support_text": "家人在袭击当晚宣布致敬后继续后续悼念活动"
+    },
+    {
+      "source": "text_104_node_3",
+      "target": "text_104_node_5",
+      "relation": "before",
+      "support_text": "The last of the 22 victims was named as 15-year-old Megan Hurley, from Halewood in Liverpool."
+    },
+    {
+      "source": "text_104_node_5",
+      "target": "text_104_node_6",
+      "relation": "before",
+      "support_text": "Eilidh MacLeod, 14 Eilidh MacLeod Eilidh and her friend, Laura MacIntyre, from Barra, an island of just 1,000 people in the Outer Hebrides, had been missing since the explosion at the Ariana Grande concert on Monday night."
+    },
+    {
+      "source": "text_104_node_5",
+      "target": "text_104_node_7",
+      "relation": "before",
+      "support_text": "Many families announced the news of their loss on social media. Others paid tribute in statements issued through the police."
+    },
+    {
+      "source": "text_104_node_7",
+      "target": "text_104_node_8",
+      "relation": "before",
+      "support_text": "The victims included a primary schoolgirl, teenagers, mothers, fathers and young men. Nine girls and young women, aged from eight to 19, were among the dead."
+    },
+    {
+      "source": "text_104_node_8",
+      "target": "text_104_node_9",
+      "relation": "before",
+      "support_text": "Postmortem examinations will be carried out over the next four days."
+    },
+    {
+      "source": "text_104_node_9",
+      "target": "text_104_node_10",
+      "relation": "before",
+      "support_text": "McIver’s family said she was a woman who loved life. 'Despite what has happened to her, she would want us all to carry on regardless and not be frightened by fear tactics.'"
+    },
+    {
+      "source": "text_104_node_10",
+      "target": "text_104_node_11",
+      "relation": "before",
+      "support_text": "The couple were 'perfect for each other and were meant to be', their families said in a joint statement."
+    },
+    {
+      "source": "text_104_node_11",
+      "target": "text_104_node_12",
+      "relation": "before",
+      "support_text": "The couple were 'perfect for each other and were meant to be', their families said in a joint statement."
+    },
+    {
+      "source": "text_104_node_12",
+      "target": "text_104_node_13",
+      "relation": "before",
+      "support_text": "The victims included a primary schoolgirl, teenagers, mothers, fathers and young men. Nine girls and young women, aged from eight to 19, were among the dead."
+    },
+    {
+      "source": "text_104_node_13",
+      "target": "text_104_node_14",
+      "relation": "before",
+      "support_text": "The couple were 'perfect for each other and were meant to be', their families said in a joint statement."
+    },
+    {
+      "source": "text_104_node_14",
+      "target": "text_104_node_15",
+      "relation": "before",
+      "support_text": "The couple were 'perfect for each other and were meant to be', their families said in a joint statement."
+    },
+    {
+      "source": "text_104_node_15",
+      "target": "text_104_node_16",
+      "relation": "before",
+      "support_text": "The couple were 'perfect for each other and were meant to be', their families said in a joint statement."
+    },
+    {
+      "source": "text_104_node_18",
+      "target": "text_104_node_20",
+      "relation": "before",
+      "support_text": "其他受害者死亡前"
+    },
+    {
+      "source": "text_104_node_20",
+      "target": "text_104_node_19",
+      "relation": "before",
+      "support_text": "家属评价前"
+    },
+    {
+      "source": "text_104_node_21",
+      "target": "text_104_node_22",
+      "relation": "before",
+      "support_text": "Lisa Lees死亡确认后Lee Hunter撰写悼念"
+    },
+    {
+      "source": "text_104_node_22",
+      "target": "text_104_node_23",
+      "relation": "before",
+      "support_text": "Lee Hunter撰写后India Lees发表言论"
+    }
+  ]
+}

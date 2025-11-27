@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "text_24_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年3月25日，伊拉克巴比伦省阿斯里耶村足球比赛颁奖时发生自杀式爆炸",
+      "support_text": "A suicide bomber blew himself up in a crowd after a local football game in the village of al-Asriya, near Iskandariya in the Babil Governorate, in a mixed Sunni-Shiite area on 25 March 2016. The bombing occurred as trophies were being presented after a football tournament. According to eyewitnesses, the bomber went through the crowd to approach the centre and blew himself up during the mayor's presentation of the awards.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致市长Ahmed Shaker死亡，其因伤后在医院不治身亡",
+      "support_text": "The Mayor Ahmed Shaker was among those killed in the explosion; he succumbed to his wounds in a hospital.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "事件造成至少41人死亡、105人受伤，其中包含17名10-16岁儿童",
+      "support_text": "The bombing killed at least 41 people and wounded more than 105. Many of the victims were young boys; according to an Iraqi official, at least 17 boys between the ages of 10 and 16 were killed.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国宣称对袭击负责，指控目标为亲伊武装组织成员",
+      "support_text": "The Islamic State of Iraq and the Levant claimed responsibility for attack, claiming those targeted were members of the Popular Mobilization Forces.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者称袭击者混入人群接近颁奖中心并引爆装置",
+      "support_text": "According to eyewitnesses, the bomber went through the crowd to approach the centre and blew himself up during the mayor's presentation of the awards.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴比伦省宣布实施三天全国哀悼",
+      "support_text": "Three days of mourning were declared in the Babil Governorate following the attack.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "联合国秘书长潘基文在访问期间谴责袭击",
+      "support_text": "Secretary General Ban Ki-moon, who was visiting Iraq at the time, condemned the attack.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "国际足联与亚足联谴责利用体育场馆实施暴力行为",
+      "support_text": "FIFA: Gianni Infantino, President of FIFA, said \"it is a very sad day, when people, going to a match together, become the victims of such violence.\" Asian Football Confederation: AFC condemned the bombing by issuing a statement that said \"Using football and sport stadiums as a stage for these heinous acts of violence is a cowardly, completely unjust and indiscriminate act.\"",
+      "source_text": "text_24"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_2",
+      "relation": "before",
+      "support_text": "The Mayor Ahmed Shaker was among those killed in the explosion; he succumbed to his wounds in a hospital."
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_3",
+      "relation": "before",
+      "support_text": "The bombing killed at least 41 people and wounded more than 105. Many of the victims were young boys; according to an Iraqi official, at least 17 boys between the ages of 10 and 16 were killed."
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_4",
+      "relation": "before",
+      "support_text": "The Islamic State of Iraq and the Levant claimed responsibility for attack, claiming those targeted were members of the Popular Mobilization Forces."
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_6",
+      "relation": "before",
+      "support_text": "Three days of mourning were declared in the Babil Governorate following the attack."
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_7",
+      "relation": "before",
+      "support_text": "Secretary General Ban Ki-moon, who was visiting Iraq at the time, condemned the attack."
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_8",
+      "relation": "before",
+      "support_text": "FIFA: Gianni Infantino, President of FIFA, said \"it is a very sad day, when people, going to a match together, become the victims of such violence.\" Asian Football Confederation: AFC condemned the bombing by issuing a statement that said \"Using football and sport stadiums as a stage for these heinous acts of violence is a cowardly, completely unjust and indiscriminate act.\""
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_1",
+      "relation": "before",
+      "support_text": "According to eyewitnesses, the bomber went through the crowd to approach the centre and blew himself up during the mayor's presentation of the awards."
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "id": "text_12_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国支持黎巴嫩军队，反对派在苏克-阿尔-加尔布击败美支持部队",
+      "support_text": "The United States had just given the Lebanese Army a great deal of military equipment. The opposition forces confronted the Lebanese Army in Suq al-Gharb and were defeating the U.S.-backed forces",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "McFarlane请求USS新泽西号在9月19日提供炮火支援，美国直接参战",
+      "support_text": "McFarlane decided to call for the USS New Jersey off the coast of Lebanon to provide gunfire support for its beleaguered allies",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "法国在9月23日对贝卡谷地进行空袭",
+      "support_text": "the French conducted an air strike on 23 September in the Bekaa Valley",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1983年10月23日，美国驻贝鲁特军营遭自杀式炸弹袭击",
+      "support_text": "The 1983 bombing, in which suicide bombers driving explosives-laden trucks killed 241 U.S. military personnel...",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国未提高海军陆战队警惕级别，导致责任牵连",
+      "support_text": "The United States chose not to raise the alert level for the Marines participating as part of the multinational peacekeeping force in Beirut because it thought that would imply that the Marines were also implicated in the attack",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "国家安全委员会成员决定教训反对派，引发报复",
+      "support_text": "The attitude among some at the National Security Council was that it was time to teach the Lebanese opposition forces -- read: Muslims -- a lesson",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "State Department官员对炮击苏克-阿尔-加尔布感到震惊，预见到报复",
+      "support_text": "We were shocked by the shelling at Suq al-Gharb, one former senior member told me. 'We were left speechless.' They knew there would be retaliation for this American act of war",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Geraghty回忆反对炮击，执行后失去中立，预示报复",
+      "support_text": "American support removed any lingering doubts of our neutrality, and I stated to my staff at the time that we were going to pay in blood for this decision",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Baer指出基督徒绑架伊朗外交官，伊朗归咎美国",
+      "support_text": "Lebanese Christian forces kidnapped the Iranian chargé d'affaires, a senior Iranian Revolutionary Guard Corps officer",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军与贝鲁特南部什叶派冲突，成为参战方，报复导致平民伤亡",
+      "support_text": "Clashes between the Marines and the Lebanese Shiites living in Beirut's southern suburbs also turned the United States into a combatant in the Lebanese civil war",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "McFarlane决定调用USS New Jersey军舰",
+      "support_text": "McFarlane decided to call for the USS New Jersey off the coast of Lebanon to provide gunfire support for its beleaguered allies",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国军舰炮击反对派战士",
+      "support_text": "the U.S. warships shelled the opposition fighters",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "反对派对苏克-阿尔-加尔布发动炮击",
+      "support_text": "反对派对苏克-阿尔-加尔布发动炮击",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "State Department members were left speechless by the shelling",
+      "support_text": "We were shocked by the shelling at Suq al-Gharb, one former senior member told me. 'We were left speechless.'",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Geraghty指挥海军陆战队执行任务",
+      "support_text": "Geraghty指挥海军陆战队",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Geraghty撰写战略分析文章",
+      "support_text": "Geraghty撰写文章",
+      "source_text": "text_12"
+    },
+    {
+      "id": "text_12_new_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "Geraghty向员工正式声明立场",
+      "support_text": "Geraghty向员工声明",
+      "source_text": "text_12"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_12_node_1",
+      "target": "text_12_node_2",
+      "relation": "before",
+      "support_text": "McFarlane decided to call for the USS New Jersey off the coast of Lebanon..."
+    },
+    {
+      "source": "text_12_node_2",
+      "target": "text_12_node_3",
+      "relation": "before",
+      "support_text": "the French conducted an air strike on 23 September in the Bekaa Valley"
+    },
+    {
+      "source": "text_12_node_2",
+      "target": "text_12_node_8",
+      "relation": "before",
+      "support_text": "American support removed any lingering doubts of our neutrality..."
+    },
+    {
+      "source": "text_12_node_2",
+      "target": "text_12_new_node_12",
+      "relation": "before",
+      "support_text": "temporal_order 2要求在node_2之后"
+    },
+    {
+      "source": "text_12_node_3",
+      "target": "text_12_node_4",
+      "relation": "before",
+      "support_text": "The 1983 bombing, in which suicide bombers driving explosives-laden trucks killed 241 U.S. military personnel..."
+    },
+    {
+      "source": "text_12_node_5",
+      "target": "text_12_node_6",
+      "relation": "before",
+      "support_text": "The attitude among some at the National Security Council was that it was time to teach..."
+    },
+    {
+      "source": "text_12_node_6",
+      "target": "text_12_node_7",
+      "relation": "before",
+      "support_text": "They knew there would be retaliation for this American act of war"
+    },
+    {
+      "source": "text_12_node_8",
+      "target": "text_12_node_4",
+      "relation": "before",
+      "support_text": "the Marines were going to pay in blood for this decision"
+    },
+    {
+      "source": "text_12_node_9",
+      "target": "text_12_node_10",
+      "relation": "before",
+      "support_text": "Clashes between the Marines and the Lebanese Shiites living in Beirut's southern suburbs..."
+    },
+    {
+      "source": "text_12_new_node_11",
+      "target": "text_12_node_2",
+      "relation": "before",
+      "support_text": "temporal_order 1要求在node_2之前"
+    },
+    {
+      "source": "text_12_new_node_13",
+      "target": "text_12_node_2",
+      "relation": "before",
+      "support_text": "temporal_order 1要求在node_2之前"
+    },
+    {
+      "source": "text_12_new_node_14",
+      "target": "text_12_node_7",
+      "relation": "before",
+      "support_text": "与node_7的temporal_order 3保持顺序"
+    }
+  ]
+}

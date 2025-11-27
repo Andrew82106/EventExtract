@@ -1,0 +1,381 @@
+{
+  "nodes": [
+    {
+      "id": "text_184_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年3月27日，巴基斯坦拉合尔Gulshan-e-Iqbal公园发生自杀式爆炸袭击，造成至少70人死亡，包括29名儿童",
+      "support_text": "More than 70 have been reported killed in Lahore in a suicide bombing. More than 70 have been reported killed in Lahore, Pakistan, after an alleged suicide-bomb attack.",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "3月28日巴基斯坦启动三天哀悼期，拉合尔关闭学校与市场，官方确认死亡人数达70人",
+      "support_text": "the country started a three-day mourning period. schools and markets closed and little traffic.",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "军方在旁遮普省展开五次突袭，逮捕恐怖分子及关联人员，缴获大批武器弹药",
+      "support_text": "Security forces arrested a 'number of terrorist suspects and facilitators' in at least five separate raids... a huge cache of arms and ammunition was recovered.",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方调查发现爆炸装置由自杀式背心实施，怀疑存在同伙，确认14名基督徒和44名穆斯林死亡",
+      "support_text": "Police in Lahore said Monday that they were investigating whether the suicide bomber... 14 were Christian, 44 were Muslim.",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "梵蒂冈谴责袭击为‘可憎暴行’，呼吁保护少数族裔",
+      "support_text": "Pope Francis on Monday decried the Easter bombing as 'vile and abominable' and called for Pakistan's religious minorities to be protected.",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "总理纳瓦兹·谢里夫取消华盛顿核峰会行程，前往拉合尔医院慰问伤者",
+      "support_text": "Prime Minister Nawaz Sharif arrived in Lahore... canceling a trip to Washington.",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "‘伊斯兰促进会’宣称对袭击负责，称目标为庆祝复活节的基督徒",
+      "support_text": "Jamaat ul-Ahrar claimed responsibility for the attack... saying 'It was our people who attacked the Christians in Lahore, celebrating Easter.'",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "受害者家属在爆炸现场发现残骸，包括儿童鞋履和珠宝，部分遇难者身份未明",
+      "support_text": "Objects were left like small grace notes — a jeweled sandal, mangled reading glasses, a child's shoe. Some were clearly still in shock.",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰教徒在伊斯兰堡抗议处决刺客，军队介入维持秩序",
+      "support_text": "Thousands of Muslim demonstrators protesting the execution of Islamist assassin Mumtaz Qadri... army was deployed to protect government buildings.",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击引发对巴基斯坦政府反恐不力的质疑，终结2015年相对平静的反恐局面",
+      "support_text": "horror. That calm period now seems to be over. horrified Pakistanis are again asking what their government can do to protect them from extremist violence.",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "妇女试图安慰失去儿子的母亲",
+      "support_text": "语义描述：妇女试图安慰失去儿子的母亲",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_12",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "母亲因儿子在自杀式爆炸中丧生",
+      "support_text": "语义描述：母亲因儿子在自杀式爆炸中丧生",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_13",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "基督徒在复活节聚集",
+      "support_text": "语义描述：基督徒在复活节聚集",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_14",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "死亡人数在袭击后上升",
+      "support_text": "语义描述：死亡人数在袭击后上升",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_15",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦启动三天哀悼期，官方确认死亡人数达70人",
+      "support_text": "3月28日巴基斯坦启动三天哀悼期，拉合尔关闭学校与市场，官方确认死亡人数达70人",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_16",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "巴基斯坦人再次询问政府如何保护他们免受极端主义暴力",
+      "support_text": "语义描述：巴基斯坦人再次询问政府如何保护他们免受极端主义暴力",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员发誓追捕伊斯兰极端分子",
+      "support_text": "语义描述：官员发誓追捕伊斯兰极端分子",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_18",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰极端分子杀害穆斯林",
+      "support_text": "语义描述：伊斯兰极端分子杀害穆斯林",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致欢乐场景转化为混乱恐怖的景象",
+      "support_text": "欢乐场景被转化为混乱恐怖的景象",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_new_node_20",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班或其分支之前针对巴基斯坦最脆弱群体",
+      "support_text": "语义描述：塔利班或其分支之前针对巴基斯坦最脆弱群体",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_new_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警察封锁血迹斑斑区域",
+      "support_text": "警察封锁了血迹斑斑的区域",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_new_node_22",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "屠杀现场残留极少",
+      "support_text": "几乎没有残留的屠杀现场",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_new_node_23",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "67名伤者因伤留医",
+      "support_text": "67人因伤留在医院",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_new_node_24",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "医生陈述伤者情况",
+      "support_text": "医生陈述了伤者情况",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_new_node_25",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "政客和电视主播在床铺间穿梭移动",
+      "support_text": "政客和电视主播在床铺间穿梭移动",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_new_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸幸存者被标注为‘爆炸受害者’",
+      "support_text": "爆炸幸存者被标注为‘爆炸受害者’",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_new_node_27",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "床铺被标记为‘未知身份’",
+      "support_text": "床铺被标记为‘未知身份’",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_new_node_28",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "家庭成员在爆炸中遇难",
+      "support_text": "家庭成员在爆炸中遇难",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_new_node_29",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "Zeeshan Taaj腿部受伤",
+      "support_text": "Zeeshan Taaj腿部受伤",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_new_node_30",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "朋友试图安慰Zeeshan Taaj",
+      "support_text": "朋友试图安慰Zeeshan Taaj",
+      "source_text": "text_184"
+    },
+    {
+      "id": "text_184_new_node_31",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "朋友用床单包扎伤口",
+      "support_text": "朋友用床单包扎伤口",
+      "source_text": "text_184"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_184_node_1",
+      "target": "text_184_node_2",
+      "relation": "before",
+      "support_text": "as the country started a three-day mourning period"
+    },
+    {
+      "source": "text_184_node_1",
+      "target": "text_184_node_15",
+      "relation": "before",
+      "support_text": "as the country started a three-day mourning period"
+    },
+    {
+      "source": "text_184_node_1",
+      "target": "text_184_node_19",
+      "relation": "before",
+      "support_text": "爆炸冲击人群后引发场景转化"
+    },
+    {
+      "source": "text_184_node_2",
+      "target": "text_184_node_3",
+      "relation": "before",
+      "support_text": "According to Lt. Gen. Asim Bajwa... Punjab province"
+    },
+    {
+      "source": "text_184_node_2",
+      "target": "text_184_node_4",
+      "relation": "before",
+      "support_text": "Police in Lahore said Monday that they were investigating"
+    },
+    {
+      "source": "text_184_node_2",
+      "target": "text_184_node_5",
+      "relation": "before",
+      "support_text": "Vatican's website"
+    },
+    {
+      "source": "text_184_node_2",
+      "target": "text_184_node_6",
+      "relation": "before",
+      "support_text": "arrived in Lahore to visit the wounded"
+    },
+    {
+      "source": "text_184_node_3",
+      "target": "text_184_node_9",
+      "relation": "before",
+      "support_text": "Thousands of Muslim demonstrators protesting"
+    },
+    {
+      "source": "text_184_node_4",
+      "target": "text_184_node_7",
+      "relation": "before",
+      "support_text": "claimed responsibility for the attack"
+    },
+    {
+      "source": "text_184_node_7",
+      "target": "text_184_node_17",
+      "relation": "before",
+      "support_text": "claimed responsibility for the attack"
+    },
+    {
+      "source": "text_184_node_9",
+      "target": "text_184_node_10",
+      "relation": "before",
+      "support_text": "horror. That calm period now seems to be over"
+    },
+    {
+      "source": "text_184_node_10",
+      "target": "text_184_node_16",
+      "relation": "before",
+      "support_text": "horrified Pakistanis are again asking what their government can do to protect them from extremist violence"
+    },
+    {
+      "source": "text_184_node_11",
+      "target": "text_184_node_13",
+      "relation": "before",
+      "support_text": "comfort事件（1）在gather事件（4）前"
+    },
+    {
+      "source": "text_184_node_12",
+      "target": "text_184_node_11",
+      "relation": "before",
+      "support_text": "lose事件（2）在comfort事件（1）前"
+    },
+    {
+      "source": "text_184_node_13",
+      "target": "text_184_node_14",
+      "relation": "before",
+      "support_text": "gather事件（4）在rose事件（5）前"
+    },
+    {
+      "source": "text_184_node_17",
+      "target": "text_184_node_18",
+      "relation": "before",
+      "support_text": "官员发誓追捕伊斯兰极端分子"
+    }
+  ]
+}

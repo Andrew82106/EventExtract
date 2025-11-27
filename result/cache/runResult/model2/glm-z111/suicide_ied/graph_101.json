@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "id": "text_101_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴基斯坦PTI候选人选举办公室在Razmak地区遭遇爆炸，造成至少10人受伤",
+      "support_text": "Earlier this month, at least 10 people were injured in a blast at the election office of a Pakistan Tehreek-i-Insaf (PTI) candidate in Razmak tehsil of North Waziristan tribal district.",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "MMA候选人Sherin Malik在Bannu省Takhti Kheil地区竞选时，其车队因摩托车携带的遥控炸弹爆炸受伤",
+      "support_text": "MMA’s candidate from the PK-89 constituency, Sherin Malik was campaigning for elections in Takhti Kheil area of Bannu when a blast occurred targeting his convoy.",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸导致MMA领袖及6名随行人员受伤，送医治疗且暂无武装组织宣称负责",
+      "support_text": "The MMA leader along with six other people suffered injuries and were rushed to nearby DHQ hospital. There has been no immediate claim by any militant groups for the blast.",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "DawnNewsTV报道了炸弹袭击事件",
+      "support_text": "DawnNewsTV报道了炸弹袭击事件",
+      "source_text": "text_101"
+    },
+    {
+      "id": "text_101_node_5",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸物被植入摩托车",
+      "support_text": "语义描述：爆炸物被植入摩托车",
+      "source_text": "text_101"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_101_node_1",
+      "target": "text_101_node_2",
+      "relation": "before",
+      "support_text": "Earlier this month"
+    },
+    {
+      "source": "text_101_node_2",
+      "target": "text_101_node_3",
+      "relation": "before",
+      "support_text": "when a blast occurred targeting his convoy"
+    },
+    {
+      "source": "text_101_node_5",
+      "target": "text_101_node_2",
+      "relation": "before",
+      "support_text": "语义描述中的temporal_order为1，需体现爆炸物植入与车队爆炸的先后关系"
+    }
+  ]
+}

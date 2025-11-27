@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "text_127_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "ISIS自杀式炸弹袭击在伊斯坦布尔市中心发生，造成10人死亡15人受伤",
+      "support_text": "ISTANBUL — An ISIS suicide bomber killed 10 people and wounded 15 more Tuesday when he set off a deadly blast in the heart of Istanbul, Turkish officials said.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者为28岁叙利亚籍恐怖分子，受害者主要为外国人",
+      "support_text": "The attacker was a Syrian national in his late 20s and all his victims were foreigners, Turkish Prime Minister Ahmet Davutoğlu said.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其官员证实袭击地点靠近德国泉水和蓝色清真寺",
+      "support_text": "Tuesday's explosion struck close to a monument called the German Fountain, between the Blue Mosque and the Haghia Sofia — the city's famous landmark-turned-museum and one of Istanbul's most popular tourist destinations.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "德国政府未确认伤亡国别但承认本国公民受影响",
+      "support_text": "The German government would not confirm those reports but said their nationals were among those affected by the blast and the possibility of casualties could not be excluded.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "默克尔在记者会上谴责恐袭并提及巴黎、突尼斯等类似事件",
+      "support_text": "German Chancellor Angela Merkel told a news conference. 'Today Istanbul was hit; Paris has been hit, Tunisia has been hit, Ankara has been hit before,'",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国学者塔斯帕纳尔分析袭击可能针对土耳其旅游业",
+      "support_text": "Ömer Taşpınar, a professor of National Security Strategy at the U.S. National War College in Washington, said Turkey's economy may have been a target. 'With tourism revenues affected, Turkey will pay a heavy financial price,' he said.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "社交媒体出现大量民众查询亲友安危的动态",
+      "support_text": "After the explosion, there was a flood of activity on social media as worried people checked on the fates of their friends and loved ones.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列护士伊格bare亚描述爆炸现场情况并目击伤亡",
+      "support_text": " Majd Egbareia, a 28-year-old nurse from Israel on vacation with his family, was praying in the nearby Blue Mosque when the blast shook the square. 'It was one big blast, one massive blast … it sounded like something you only hear in the movies,' Egbareia told NBC News.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "白宫谴责袭击并表达哀悼",
+      "support_text": "This heinous attack occurred in Istanbul’s historic heart, and struck Turks and foreign tourists alike,' their statement read. 'Our thoughts and prayers are with the families and loved ones of all those who have been killed and with those injured.'",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "英国、欧盟等国际机构发表谴责声明",
+      "support_text": "British Foreign Secretary Philip Hammond called the blast 'shocking' and the European Union's migration commissioner Dimitris Avramopoulos tweeted to 'deplore and condemn the attack.'",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其副总理称袭击者不在监控名单",
+      "support_text": "Turkey's deputy prime minister, Numan Kurtulmus, said the bomber was not on the country's watch list of suspected militants.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯坦布尔2016年10月发生ISIS双车炸弹袭击致百人伤亡",
+      "support_text": "A double suicide bombing blamed on ISIS killed more than 100 people in the Turkish capital Ankara in October.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "土耳其加强反恐措施并挫败新年庆祝活动炸弹阴谋",
+      "support_text": "Since then, Turkey has stepped up its efforts to tackle the militants. Last month, Turkish officials reported they had detained two suspected ISIS militants and foiled a plot to bomb the New Year's Eve celebrations in Ankara.",
+      "source_text": "text_127"
+    },
+    {
+      "id": "text_127_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔斯帕纳尔分析袭击对埃尔多安政治策略的负面影响",
+      "support_text": "Taspinar, who has studied ISIS and its strategic goals, said the attack could be very politically damaging for Turkish President Recep Tayyip Erdogan at a critically important time. 'Erdogan's strategy is to deflect attention to PKK, the real enemy he wants to fight,' he said of the Kurdistan Workers’ Party, which some governments, including Washington, have designated as a terrorist organization.",
+      "source_text": "text_127"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_127_node_1",
+      "target": "text_127_node_2",
+      "relation": "before",
+      "support_text": "Tuesday when he set off a deadly blast"
+    },
+    {
+      "source": "text_127_node_1",
+      "target": "text_127_node_3",
+      "relation": "before",
+      "support_text": "Tuesday's explosion struck close to a monument called the German Fountain"
+    },
+    {
+      "source": "text_127_node_1",
+      "target": "text_127_node_5",
+      "relation": "before",
+      "support_text": "German Chancellor Angela Merkel told a news conference"
+    },
+    {
+      "source": "text_127_node_1",
+      "target": "text_127_node_6",
+      "relation": "before",
+      "support_text": "Ömer Taşpınar, a professor of National Security Strategy at the U.S. National War College in Washington, said"
+    },
+    {
+      "source": "text_127_node_1",
+      "target": "text_127_node_7",
+      "relation": "before",
+      "support_text": "After the explosion, there was a flood of activity on social media"
+    },
+    {
+      "source": "text_127_node_1",
+      "target": "text_127_node_8",
+      "relation": "before",
+      "support_text": " Majd Egbareia, a 28-year-old nurse from Israel on vacation with his family, was praying in the nearby Blue Mosque when the blast shook the square"
+    },
+    {
+      "source": "text_127_node_1",
+      "target": "text_127_node_9",
+      "relation": "before",
+      "support_text": "This heinous attack occurred in Istanbul’s historic heart"
+    },
+    {
+      "source": "text_127_node_1",
+      "target": "text_127_node_10",
+      "relation": "before",
+      "support_text": "British Foreign Secretary Philip Hammond called the blast 'shocking'"
+    },
+    {
+      "source": "text_127_node_1",
+      "target": "text_127_node_11",
+      "relation": "before",
+      "support_text": "Turkey's deputy prime minister, Numan Kurtulmus, said"
+    },
+    {
+      "source": "text_127_node_12",
+      "target": "text_127_node_13",
+      "relation": "before",
+      "support_text": "Since then, Turkey has stepped up its efforts to tackle the militants"
+    },
+    {
+      "source": "text_127_node_14",
+      "target": "text_127_node_6",
+      "relation": "before",
+      "support_text": "Taspinar, who has studied ISIS and its strategic goals, said"
+    }
+  ]
+}

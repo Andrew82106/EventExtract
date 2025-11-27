@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "id": "text_66_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2013年以来，俾路支省针对哈扎拉什叶派穆斯林的系统性袭击（509人死亡）",
+      "support_text": "Since 2013, more than 509 Shia Muslims – mainly ethnic Hazaras – have been killed in a campaign of targeted shootings and bombings in Balochistan province, according to government data.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2017年10月，奎达市哈扎拉社区一辆运送蔬菜的卡车遭枪击（5人死亡）",
+      "support_text": "In October 2017, unidentified gunmen opened fire on a van bound for the fruit and vegetable market, killing the driver and four others, police say.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年10月27日，奎达市哈扎拉市场发生爆炸（20死40伤，ISIS宣称负责）",
+      "support_text": "At least 20 people have been killed and another 40 wounded as an explosion ripped through a market in Quetta, a provincial official says, the latest attack to target the city’s minority Hazara community.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸后警方封锁现场并调查是否为自杀式袭击或装置",
+      "support_text": "Cheema said police would not know whether the bomb was planted or a suicide attack until investigating teams, who had cordoned off the site, completed their analysis.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_5",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "官方确认7名哈扎拉居民和1名 paramilitary 士兵死亡",
+      "support_text": "At least seven members of the Hazara community and one paramilitary soldier were among those killed, he said.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方承认未收到市场遭袭的具体威胁警告",
+      "support_text": "There had been no warning the market might be attacked. 'There are a lot of general security threats issued, but for this place, there was no specific threat.'",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "奎达市哈扎拉社区长期被限制在两个安全区，每日由警方护送外出购物",
+      "support_text": "The city’s Hazara residents now live in two heavily protected enclaves... Every morning, police guard a convoy that leaves the Hazara enclave to visit markets.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_8",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈扎拉人日常采购蔬菜",
+      "support_text": "奎达市哈扎拉社区每日由警方护送外出购物，包括前往市场采购蔬菜",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "奎达警察局长向半岛电视台透露爆炸调查进展",
+      "support_text": "Cheema said police would not know whether the bomb was planted or a suicide attack until investigating teams... completed their analysis.",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹被设置在土豆袋中",
+      "support_text": "炸弹被设置在土豆袋中",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_11",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "炸弹被种植",
+      "support_text": "炸弹被种植",
+      "source_text": "text_66"
+    },
+    {
+      "id": "text_66_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击被关联到Ahle Sunnat Wal Jammat (ASWJ) Sunni Muslim political party及Lashkar-e-Jhangvi (LeJ) armed group",
+      "support_text": "语义描述：袭击被关联到Ahle Sunnat Wal Jammat政党及Lashkar-e-Jhangvi武装团体",
+      "source_text": "text_66"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_66_node_2",
+      "target": "text_66_node_3",
+      "relation": "before",
+      "support_text": "This is not the first time vegetable traders have been targeted by attackers. In October 2017, unidentified gunmen opened fire on a van bound for the fruit and vegetable market..."
+    },
+    {
+      "source": "text_66_node_3",
+      "target": "text_66_node_4",
+      "relation": "before",
+      "support_text": "The explosion took place... Announcing the death toll, provincial minister Zia Langove said: 'Four or five [of the wounded] are in critical condition.' The explosion took place as Hazaras... were buying vegetables early on Friday morning."
+    },
+    {
+      "source": "text_66_node_3",
+      "target": "text_66_node_12",
+      "relation": "before",
+      "support_text": "根据语义描述，袭击关联需早于2023年10月27日的市场爆炸事件"
+    },
+    {
+      "source": "text_66_node_4",
+      "target": "text_66_node_5",
+      "relation": "before",
+      "support_text": "Cheema said police would not know whether the bomb was planted or a suicide attack until investigating teams, who had cordoned off the site, completed their analysis."
+    },
+    {
+      "source": "text_66_node_5",
+      "target": "text_66_node_6",
+      "relation": "before",
+      "support_text": "At least seven members of the Hazara community and one paramilitary soldier were among those killed, he said. 'There had been no warning the market might be attacked.'"
+    },
+    {
+      "source": "text_66_node_7",
+      "target": "text_66_node_3",
+      "relation": "before",
+      "support_text": "The explosion took place as Hazaras... were buying vegetables early on Friday morning. 'Members of the Hazara community go to the market every day to shop, and we provide them with a security escort..."
+    },
+    {
+      "source": "text_66_node_8",
+      "target": "text_66_node_3",
+      "relation": "before",
+      "support_text": "爆炸发生时哈扎拉人正在采购蔬菜"
+    },
+    {
+      "source": "text_66_node_10",
+      "target": "text_66_node_3",
+      "relation": "before",
+      "support_text": "根据语义描述，炸弹设置在土豆袋中应早于市场爆炸事件"
+    },
+    {
+      "source": "text_66_node_11",
+      "target": "text_66_node_3",
+      "relation": "before",
+      "support_text": "根据语义描述，炸弹种植应早于市场爆炸事件"
+    }
+  ]
+}

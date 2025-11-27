@@ -1,0 +1,147 @@
+{
+  "nodes": [
+    {
+      "id": "text_24_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2019年9月3日阿富汗绿村复合体遭卡车炸弹袭击，造成至少30人死亡、100人受伤",
+      "support_text": "Afghan municipal workers clean the scene of a truck bomb blast that targeted Green Village compound which houses sensitive installations, in Kabul, Afghanistan, 03 September 2019. EPA-EFE/HEDAYATULLAH AMID",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "罗马尼亚外交官在袭击中牺牲，其安全职责身份获官方确认",
+      "support_text": "Romanian leaders have paid tribute to the 43-year-old Romanian diplomat killed in Kabul in a suspected Taliban terror attack on the compound that hosts the embassy in Afghanistan. Another Romanian embassy staffer was seriously injured in the attack, which started on Monday night and lasted several hours.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "罗马尼亚 interior 部长在Facebook称牺牲外交官为英雄",
+      "support_text": "Interior Minister Miahi Fifor said on Facebook on Wednesday, confirming his diplomatic status. “The Romanian diplomat who died defending the embassy headquarters is a true hero, who deserves our full recognition for his supreme sacrifice,”",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "罗马尼亚总理在Facebook谴责袭击并重申反恐决心",
+      "support_text": "Prime Minister Viorica Dancila condemned the attack in a message posted on her Facebook page. “This atrociously cruel action in which various foreign citizens have been killed and more than 100 people have been injured doesn’t shake our determination and doesn’t dissuade us from our commitment, together with our international partners, in the battle against terrorism,”",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "罗马尼亚外长披露袭击系塔利班使用卡车炸弹与机枪实施",
+      "support_text": "Speaking on Romanian news channel Antena 3 last night, Romania’s Foreign Minister, Ramona Manescu, explained that the attack was carried out with car bombs and machine guns, “as Taliban terrorists usually act”.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "袭击幸存者伤员被送往欧洲接受专业治疗",
+      "support_text": "Another Romanian embassy staffer was seriously injured in the attack, which started on Monday night and lasted several hours. He was expected to be transported to Europe to receive specialized treatment for his injuries.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_7",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "罗马尼亚自2002年起累计向阿富汗部署26,000名士兵，其中181人受伤、26人死亡",
+      "support_text": "Since it started deploying troops in Afghanistan as part of an international coalition in 2002, Romania has sent the country more than 26,000 soldiers. According to government statistics, 181 of them have been injured and 26 have died as a result of violent actions over this period in Afghanistan.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "美国宣布计划从阿富汗撤出14,000名 troops，并与塔利班达成不提供极端组织基地的协议",
+      "support_text": "The latest violence occurs as the US announced plans to withdraw its approximately 14,000 troops from Afghanistan, following an agreement reached with the Taliban that they will not allow the country to be used as a base for Al-Qaeda or other extremist groups planning terror attacks in the West.",
+      "source_text": "text_24"
+    },
+    {
+      "id": "text_24_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "罗马尼亚外交代表属于使馆安保体系",
+      "support_text": "外交代表属于使馆安保体系",
+      "source_text": "text_24"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_2",
+      "relation": "before",
+      "support_text": "which started on Monday night and lasted several hours"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_3",
+      "relation": "before",
+      "support_text": "on Wednesday"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_4",
+      "relation": "before",
+      "support_text": "on Wednesday"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_5",
+      "relation": "before",
+      "support_text": "Speaking on Romanian news channel Antena 3 last night"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_6",
+      "relation": "before",
+      "support_text": "which started on Monday night"
+    },
+    {
+      "source": "text_24_node_1",
+      "target": "text_24_node_8",
+      "relation": "before",
+      "support_text": "the latest violence occurs as the US announced"
+    },
+    {
+      "source": "text_24_node_2",
+      "target": "text_24_node_3",
+      "relation": "before",
+      "support_text": "Romanian leaders have paid tribute to the 43-year-old Romanian diplomat killed"
+    },
+    {
+      "source": "text_24_node_2",
+      "target": "text_24_node_4",
+      "relation": "before",
+      "support_text": "Romanian leaders have paid tribute to the 43-year-old Romanian diplomat killed"
+    },
+    {
+      "source": "text_24_node_2",
+      "target": "text_24_node_9",
+      "relation": "before",
+      "support_text": "罗马尼亚外交官在袭击中牺牲，其安全职责身份获官方确认"
+    },
+    {
+      "source": "text_24_node_5",
+      "target": "text_24_node_6",
+      "relation": "before",
+      "support_text": "He was expected to be transported to Europe to receive specialized treatment"
+    }
+  ]
+}

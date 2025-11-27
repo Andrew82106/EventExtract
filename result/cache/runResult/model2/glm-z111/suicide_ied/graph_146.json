@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_146_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Salman Abedi于2017年5月18日至22日期间携带蓝色大行李箱在曼彻斯特街道活动",
+      "support_text": "Hours before he set off a bomb believed to be hidden in a backpack, Manchester Arena suicide attacker Salman Abedi walked city streets toting a bright blue suitcase.",
+      "source_text": "text_146"
+    },
+    {
+      "id": "text_146_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方于2017年5月22日发布Abedi携行李箱照片并公开调查请求",
+      "support_text": "Greater Manchester Police on Monday released two photos and asked for the public's help in their investigation of the May 22 attack.",
+      "source_text": "text_146"
+    },
+    {
+      "id": "text_146_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警方确认行李箱曾在至少两个曼彻斯特社区出现",
+      "support_text": "Police said the attacker had the suitcase in at least two Manchester neighborhoods.",
+      "source_text": "text_146"
+    },
+    {
+      "id": "text_146_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方声明行李箱内容无危险但提醒公众保持警惕",
+      "support_text": "'We have no reason to believe the case and its contents contain anything dangerous, but would ask people to be cautious,' said Jackson.",
+      "source_text": "text_146"
+    },
+    {
+      "id": "text_146_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Salman Abedi设置炸弹",
+      "support_text": "Hours before he set off a bomb believed to be hidden in a backpack, Manchester Arena suicide attacker Salman Abedi walked city streets toting a bright blue suitcase.",
+      "source_text": "text_146"
+    },
+    {
+      "id": "text_146_node_6",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Salman Abedi在曼彻斯特竞技场炸弹袭击中造成22人死亡",
+      "support_text": "The suicide bombing at Manchester Arena killed 22 people.",
+      "source_text": "text_146"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_146_node_1",
+      "target": "text_146_node_2",
+      "relation": "before",
+      "support_text": "Hours before he set off a bomb believed to be hidden in a backpack, Manchester Arena suicide attacker Salman Abedi walked city streets toting a bright blue suitcase."
+    },
+    {
+      "source": "text_146_node_1",
+      "target": "text_146_node_5",
+      "relation": "before",
+      "support_text": "同一段落中'Abedi walked city streets toting a bright blue suitcase'与'set off a bomb'存在明确的before时序关系"
+    },
+    {
+      "source": "text_146_node_2",
+      "target": "text_146_node_3",
+      "relation": "before",
+      "support_text": "Police said the attacker had the suitcase in at least two Manchester neighborhoods."
+    },
+    {
+      "source": "text_146_node_3",
+      "target": "text_146_node_4",
+      "relation": "before",
+      "support_text": "'We have no reason to believe the case and its contents contain anything dangerous, but would ask people to be cautious,' said Jackson."
+    },
+    {
+      "source": "text_146_node_5",
+      "target": "text_146_node_6",
+      "relation": "before",
+      "support_text": "炸弹爆炸（node_5）与死亡事件（node_6）存在直接的因果关系和时间顺序"
+    }
+  ]
+}

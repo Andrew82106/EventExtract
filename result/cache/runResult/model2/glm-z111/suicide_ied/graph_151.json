@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "text_151_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2001年5月，哈马斯分子在以色列哈沙隆购物中心发动爆炸袭击",
+      "support_text": "at the Hasharon Mall in May 2001",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2002年4月复活节期间，哈马斯分子在以色列内塔尼亚的Park Hotel实施爆炸",
+      "support_text": "during Passover 2002 and at the Hasharon Mall in May 2001",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年5月，以色列国防军在对哈马斯的‘铁盾行动’中逮捕赛义德",
+      "support_text": "arrested by Israel Defense Forces soldiers during Operation Defensive Shield in May 2002",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "赛义德在审讯中被要求命令哈马斯成员将氰化物交给以色列",
+      "support_text": "during his interrogation he was asked by security authorities to have Hamas operatives hand over the cyanide to Israel",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "赛义德因在叙利亚接收爆炸物和资金被追加定罪",
+      "support_text": "was also convicted last month of receiving explosive materials from Hamas operatives in Syria",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "赛义德因多项恐怖主义罪名被以色列法院判处终身监禁",
+      "support_text": "Prosecutor Zamira Goldner will ask the court to give Al-Sayed consecutive life sentences",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院裁决揭示 Tarik Zeidan 购买氰化物并给其叔叔 Al-Sayed 下毒的经过",
+      "support_text": "法院裁决揭示 Tarik Zeidan 购买氰化物并给其叔叔 Al-Sayed 下毒的经过",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Tarik Zeidan 将氰化物交给其叔叔 Al-Sayed",
+      "support_text": "Tarik Zeidan 将氰化物交给其叔叔 Al-Sayed",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_9",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈马斯操作员向以色列交出氰化物",
+      "support_text": "哈马斯操作员向以色列交出氰化物",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "证词揭示了安全部队试图捕获由Al-Sayed命名的哈马斯人员",
+      "support_text": "证词揭示了安全部队试图捕获由Al-Sayed命名的哈马斯人员",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "阿卜杜拉·赛义德命名了哈马斯人员",
+      "support_text": "阿卜杜拉·赛义德命名了哈马斯人员",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_12",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈马斯人员至今逃避被捕获",
+      "support_text": "哈马斯人员至今逃避被捕获",
+      "source_text": "text_151"
+    },
+    {
+      "id": "text_151_node_13",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "Al-Sayed为恐怖活动融资",
+      "support_text": "Al-Sayed为恐怖活动融资",
+      "source_text": "text_151"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_151_node_1",
+      "target": "text_151_node_2",
+      "relation": "before",
+      "support_text": "at the Hasharon Mall in May 2001 and during Passover 2002"
+    },
+    {
+      "source": "text_151_node_2",
+      "target": "text_151_node_3",
+      "relation": "before",
+      "support_text": "during Passover 2002 and at the Hasharon Mall in May 2001"
+    },
+    {
+      "source": "text_151_node_3",
+      "target": "text_151_node_4",
+      "relation": "before",
+      "support_text": "during his interrogation he was asked by security authorities"
+    },
+    {
+      "source": "text_151_node_3",
+      "target": "text_151_node_13",
+      "relation": "before",
+      "support_text": "根据temporal_order=2与铁盾行动逮捕时间顺序"
+    },
+    {
+      "source": "text_151_node_4",
+      "target": "text_151_node_9",
+      "relation": "before",
+      "support_text": "根据temporal_order=2和temporal_order=3的时序顺序"
+    },
+    {
+      "source": "text_151_node_5",
+      "target": "text_151_node_6",
+      "relation": "before",
+      "support_text": "was also convicted last month of receiving explosive materials"
+    },
+    {
+      "source": "text_151_node_7",
+      "target": "text_151_node_8",
+      "relation": "before",
+      "support_text": "根据 temporal_order=1 和 temporal_order=3 的时序顺序"
+    },
+    {
+      "source": "text_151_node_10",
+      "target": "text_151_node_4",
+      "relation": "before",
+      "support_text": "根据temporal_order=3与审讯时间顺序"
+    },
+    {
+      "source": "text_151_node_11",
+      "target": "text_151_node_3",
+      "relation": "before",
+      "support_text": "根据temporal_order=1与node_3的逮捕时间顺序"
+    },
+    {
+      "source": "text_151_node_12",
+      "target": "text_151_node_5",
+      "relation": "after",
+      "support_text": "根据evade事件的持续性和node_5的定罪时间"
+    }
+  ]
+}

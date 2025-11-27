@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "text_108_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生在Potiskum教堂入口处",
+      "support_text": "as they were entering the church in Potiskum",
+      "source_text": "text_108"
+    },
+    {
+      "id": "text_108_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "至少五名进入教堂的朝圣者在此袭击中丧生",
+      "support_text": "At least five worshippers were killed",
+      "source_text": "text_108"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_108_node_1",
+      "target": "text_108_node_2",
+      "relation": "before",
+      "support_text": "as they were entering the church in Potiskum"
+    }
+  ]
+}

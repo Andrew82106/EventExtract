@@ -1,0 +1,330 @@
+{
+  "nodes": [
+    {
+      "id": "text_129_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克官员通过走私者获取巴格达迪家庭成员信息",
+      "support_text": "Iraqi officials say that in mid-September they identified a Syrian man who had been used to smuggle the wives of two of Baghdadi’s brothers, Ahmad and Jumah, to Idlib province via Turkey. The same smuggler had earlier helped move Baghdadi’s children from Iraq.",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "情报机构制定以凯拉·穆勒命名的猎杀计划",
+      "support_text": "The operation was given the name Kayla Mueller, US national security adviser Robert O’Brien revealed on Sunday, in honour of the Arizona aid worker enslaved by Baghdadi and who later died in Raqqa.",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "技术手段确认巴格达迪藏身于伊德利卜省巴里沙村",
+      "support_text": "One man was Abu Mohammed al-Halabi, the leader of a rival Salafi jihadi group, Hurras al-Dein... It was a small hamlet named Barisha, not far from the Turkish border.",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军协调俄罗斯、土耳其及叙利亚库尔德武装参与行动",
+      "support_text": "Russia, which controls the airspace over Idlib was given notice, so too Turkey with which the US has been at odds in recent weeks. Syrian Kurds in the north-east of the country were also briefed.",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "凌晨1点特种部队突袭巴里沙村遭遇激烈交火",
+      "support_text": "The attack force arrived just after 1am and faced a barrage of gunfire from the ground. In the fierce clashes that followed, at least nine members of Isis were killed in addition to Baghdadi.",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴格达迪被迫进入隧道并用自杀式背心同归于尽",
+      "support_text": "The cornered Isis leader is believed to have dropped through a hatch into a tunnel network... He ignited his vest, killing himself and the three children.",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法医通过DNA比对确认巴格达迪身份",
+      "support_text": "Test results gave certain immediate and totally positive identification, it was him.",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_8",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "美军携带战利品返回埃尔多拉并向特朗普汇报成果",
+      "support_text": "Crossing briefly into Turkey, then into northeastern Syria... the troops unloaded their booty – delivering Donald Trump a prize he sorely needed after a miserable month for the US across the Middle East.",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "士兵将巴格达迪残骸用密封袋固定",
+      "support_text": "士兵将巴格达迪残骸用密封袋固定",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "一组士兵护送10名儿童到邻居家中",
+      "support_text": "一组士兵护送10名儿童到邻居家中",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "另一组士兵将残骸碎片搬运至八架待命攻击直升机",
+      "support_text": "另一组士兵将残骸碎片搬运至八架待命攻击直升机",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "直升机群起飞返回埃布尔",
+      "support_text": "巴格达迪被迫进入隧道并用自杀式背心同归于尽后，美军携带战利品返回埃尔多拉并向特朗普汇报成果",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴格达迪领导该组织超过六年",
+      "support_text": "巴格达迪领导该组织超过六年",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "组织投下阴影",
+      "support_text": "组织投下阴影",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_15",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "情报被转交给CIA",
+      "support_text": "It was a break like no other, and was soon passed to the CIA. By mid-October, a plan to catch or kill Baghdadi was in full swing.",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "亚利桑那援助工作者被巴格达迪奴役",
+      "support_text": "The same smuggler had earlier helped move Baghdadi’s children from Iraq. The operation was given the name Kayla Mueller... who later died in Raqqa.",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_17",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "亚利桑那援助工作者在拉卡去世",
+      "support_text": "the Arizona aid worker enslaved by Baghdadi and who later died in Raqqa.",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_18",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "他在整个生涯中定期进行流亡活动",
+      "support_text": "他在整个生涯中定期进行流亡活动",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_19",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "他在东西部叙利亚和伊拉克之间频繁迁移",
+      "support_text": "他在东西部叙利亚和伊拉克之间频繁迁移",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_20",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "他在伊德利卜省一个小区域定居",
+      "support_text": "他在伊德利卜省一个小区域定居",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_21",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Correspondence",
+      "description": "伊拉克官员向华盛顿提供更新实时信息",
+      "support_text": "伊拉克官员向华盛顿提供更新实时信息",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_22",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊拉克官员声称他们提供了信息",
+      "support_text": "伊拉克官员声称他们提供了信息",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "美伊官员信心增强",
+      "support_text": "巴格达迪在Barisha村庄的房屋间移动",
+      "source_text": "text_129"
+    },
+    {
+      "id": "text_129_new_node_24",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "巴格达迪在Barisha村庄的房屋间移动",
+      "support_text": "巴格达迪在Barisha村庄的房屋间移动",
+      "source_text": "text_129"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_129_node_1",
+      "target": "text_129_node_2",
+      "relation": "before",
+      "support_text": "It was a break like no other, and was soon passed to the CIA. By mid-October, a plan to catch or kill Baghdadi was in full swing."
+    },
+    {
+      "source": "text_129_node_2",
+      "target": "text_129_node_3",
+      "relation": "before",
+      "support_text": "By early last week, US and Iraqi officials were growing more confident that Baghdadi was indeed in Idlib province, moving between homes in a hamlet named Barisha..."
+    },
+    {
+      "source": "text_129_node_3",
+      "target": "text_129_node_4",
+      "relation": "before",
+      "support_text": "The attack force arrived just after 1am and faced a barrage of gunfire from the ground."
+    },
+    {
+      "source": "text_129_node_4",
+      "target": "text_129_node_5",
+      "relation": "before",
+      "support_text": "The cornered Isis leader is believed to have dropped through a hatch into a tunnel network."
+    },
+    {
+      "source": "text_129_node_5",
+      "target": "text_129_node_6",
+      "relation": "before",
+      "support_text": "He ignited his vest, killing himself and the three children."
+    },
+    {
+      "source": "text_129_node_5",
+      "target": "text_129_node_10",
+      "relation": "before",
+      "support_text": "突袭后护送儿童撤离"
+    },
+    {
+      "source": "text_129_node_6",
+      "target": "text_129_node_7",
+      "relation": "before",
+      "support_text": "Test results gave certain immediate and totally positive identification, it was him."
+    },
+    {
+      "source": "text_129_node_7",
+      "target": "text_129_node_8",
+      "relation": "before",
+      "support_text": "Crossing briefly into Turkey, then into northeastern Syria... the troops unloaded their booty – delivering Donald Trump a prize he sorely needed after a miserable month for the US across the Middle East."
+    },
+    {
+      "source": "text_129_node_9",
+      "target": "text_129_node_5",
+      "relation": "before",
+      "support_text": "在突袭行动前固定残骸"
+    },
+    {
+      "source": "text_129_node_10",
+      "target": "text_129_node_11",
+      "relation": "before",
+      "support_text": "儿童撤离后搬运残骸碎片"
+    },
+    {
+      "source": "text_129_new_node_16",
+      "target": "text_129_node_5",
+      "relation": "before",
+      "support_text": "奴役事件发生在突袭行动之前"
+    },
+    {
+      "source": "text_129_new_node_17",
+      "target": "text_129_node_6",
+      "relation": "before",
+      "support_text": "援助工作者死亡事件早于巴格达迪自杀事件"
+    },
+    {
+      "source": "text_129_new_node_18",
+      "target": "text_129_node_1",
+      "relation": "before",
+      "support_text": "流亡活动为后续情报收集提供基础"
+    },
+    {
+      "source": "text_129_new_node_19",
+      "target": "text_129_node_3",
+      "relation": "before",
+      "support_text": "迁移行为导致目标区域锁定"
+    },
+    {
+      "source": "text_129_new_node_20",
+      "target": "text_129_node_4",
+      "relation": "before",
+      "support_text": "定居行为为突袭提供地理坐标"
+    },
+    {
+      "source": "text_129_new_node_22",
+      "target": "text_129_node_8",
+      "relation": "before",
+      "support_text": "信息声明为后续汇报提供依据"
+    },
+    {
+      "source": "text_129_new_node_23",
+      "target": "text_129_node_3",
+      "relation": "before",
+      "support_text": "信心增强后锁定巴里沙村位置"
+    },
+    {
+      "source": "text_129_new_node_24",
+      "target": "text_129_node_5",
+      "relation": "before",
+      "support_text": "移动行为触发突袭行动"
+    }
+  ]
+}

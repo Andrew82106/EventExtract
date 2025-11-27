@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "text_50_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国在伊拉克发动五天连续袭击，已造成超过120人死亡",
+      "support_text": "the fifth straight day of attacks in Iraq by the extremist group that have left more than 120 people dead",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生在巴格达北部某天然气厂，该厂生产烹饪用天然气",
+      "support_text": "A natural-gas plant north of Baghdad",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "黎明时分，一辆汽车炸弹在工厂入口处爆炸",
+      "support_text": "A car bomb exploded at dawn at the gate of the state-owned plant",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "八名自杀式袭击者进入工厂并与安保人员交火",
+      "support_text": "Eight suicide bombers then entered the facility and clashed with security forces",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者引爆自杀式背心，导致至少12人死亡",
+      "support_text": "before blowing themselves up",
+      "source_text": "text_50"
+    },
+    {
+      "id": "text_50_new_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员报道了袭击事件",
+      "support_text": "官员报道了袭击事件",
+      "source_text": "text_50"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_50_node_1",
+      "target": "text_50_node_2",
+      "relation": "before",
+      "support_text": "A team of Islamic State bombers assaulted a natural-gas plant north of Baghdad"
+    },
+    {
+      "source": "text_50_node_3",
+      "target": "text_50_node_4",
+      "relation": "before",
+      "support_text": "Eight suicide bombers then entered the facility"
+    },
+    {
+      "source": "text_50_node_4",
+      "target": "text_50_node_5",
+      "relation": "before",
+      "support_text": "before blowing themselves up"
+    },
+    {
+      "source": "text_50_node_5",
+      "target": "text_50_new_node_6",
+      "relation": "after",
+      "support_text": "官员报道了袭击事件"
+    }
+  ]
+}

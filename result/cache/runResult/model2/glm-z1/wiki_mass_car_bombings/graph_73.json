@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "text_73_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爱尔兰警方在炸毁现场同日发布声明，称袭击目标为商业设施并致歉",
+      "support_text": "In a statement released in Dublin on the same day that Prince Charles visited the scene of the bombing, the organisation said that the targets had been \"commercial\". It added: \"We offer our apologies to these civilians.\"",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_node_2",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "警方披露三次40分钟预警，强调爆炸地点距离法院300-400码",
+      "support_text": "The group said it issued three warnings - \"40 minute warnings on each of them\". \"The location was 300-400 yards from the courthouse. \"At no time was it said it was near the courthouse,\" it added.",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mo Mowlam强烈谴责声明为‘可耻的道歉’，指责恐怖分子全责",
+      "support_text": "Dr Mowlam condemned the statement as a \"pathetic attempt to apologise for and excuse mass murder\". She added: \"Responsibility for this atrocity rests entirely with the bombers.\"",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "爱尔兰及北爱尔兰安全部门将爆炸责任指向真实爱尔兰共和军",
+      "support_text": "Security officials in Dublin and in Northern Ireland pointed the finger of blame at the Real IRA for last Saturday's explosion in the immediate aftermath of the blast.",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "保守党要求政府禁止依据《贝尔法斯特协议》提前释放真伊共和军成员",
+      "support_text": "The Conservatives have called on the government to ensure no members of the Real IRA are freed from jail early as part of the Good Friday Agreement. It would be insensitive to release prisoners in the immediate aftermath of the Omagh bombing, he said.",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Lilley建议全面取缔武器流通以促进北爱尔兰和平与安全",
+      "support_text": "Mr Lilley said: \"The sooner we take arms out of existence and circulation and availability to these groups, the better that must be for peace, security and confidence in the province.\"",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_new_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "查尔斯王子访问爆炸现场",
+      "support_text": "查尔斯王子访问爆炸现场",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_new_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "组织补充对平民的道歉",
+      "support_text": "组织补充对平民的道歉",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_new_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "组织向平民提供正式道歉",
+      "support_text": "组织向平民提供正式道歉",
+      "source_text": "text_73"
+    },
+    {
+      "id": "text_73_new_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "组织补充否认袭击地点接近法院",
+      "support_text": "组织补充否认袭击地点接近法院",
+      "source_text": "text_73"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_73_node_1",
+      "target": "text_73_node_2",
+      "relation": "before",
+      "support_text": "It added: \"We offer our apologies to these civilians.\" The group said it issued three warnings - \"40 minute warnings on each of them\"."
+    },
+    {
+      "source": "text_73_node_1",
+      "target": "text_73_node_3",
+      "relation": "before",
+      "support_text": "Dr Mowlam condemned the statement as a \"pathetic attempt to apologise\""
+    },
+    {
+      "source": "text_73_node_1",
+      "target": "text_73_node_4",
+      "relation": "before",
+      "support_text": "Security officials... pointed the finger of blame at the Real IRA"
+    },
+    {
+      "source": "text_73_node_4",
+      "target": "text_73_node_5",
+      "relation": "before",
+      "support_text": "The Conservatives have called on the government to ensure no members of the Real IRA are freed"
+    },
+    {
+      "source": "text_73_node_4",
+      "target": "text_73_node_6",
+      "relation": "before",
+      "support_text": "Mr Lilley said: \"The sooner we take arms out of existence...\""
+    }
+  ]
+}

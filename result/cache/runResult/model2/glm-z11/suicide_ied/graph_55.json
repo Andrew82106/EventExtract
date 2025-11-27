@@ -1,0 +1,264 @@
+{
+  "nodes": [
+    {
+      "id": "text_55_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周日自杀式爆炸袭击发生在拉合尔Gulshan-e-Iqbal公园，造成72人死亡（含29名儿童）、370人受伤",
+      "support_text": "Sunday’s suicide bomb attack on Gulshan-e-Iqbal park rose to 72, including 29 children. Around 370 more were injured Sunday when explosives packed with ball-bearings ripped through the crowds near a children’s play area in the park",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "仍有5具遗体未完成身份确认",
+      "support_text": "They have yet to identify five bodies.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_3",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "172名重伤者仍在医院接受治疗",
+      "support_text": "172 people who suffered serious injuries remain under treatment in various hospitals.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方登记案件并指控4名未知名嫌疑人",
+      "support_text": "Authorities registered the FIR for Sunday’s attack. The report was lodged against four unidentified suspects on the complaint of Allama Iqbal Town SHO Nasrullah Khan.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查团队发布嫌疑人素描",
+      "support_text": "The investigation team also released a sketch of the suspected attacker.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "反恐部门突袭穆扎法加赫的嫌疑人住所并拘留两人",
+      "support_text": "A counter-terrorism department (CTD) team raided the house in Muzaffargarh which was listed on a CNIC card recovered from the blast site. Officials detained two relatives of the card holder from the house for questioning.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "另一突袭行动在Ichhra地点查获嫌疑人个人物品",
+      "support_text": "Another team raided a location in Ichhra, a temporary residence mentioned on the card, and seized belongings of the suspected bomber including a laptop.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "拉合尔主要市场和娱乐场所因袭击关闭",
+      "support_text": "Most major markets and recreational places in Lahore remained closed on Monday as the city mourned Sunday’s attack.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "商人协会承诺支持军方打击极端组织",
+      "support_text": "Traders’ associations vowed to extend full support to the armed forces in its ongoing crackdown against extremist outfits.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_10",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "公园管理局取消所有活动并关闭公共公园",
+      "support_text": "The Parks and Horticulture Authority (PHA) cancelled all its events including the ongoing Spring Festival. All public parks kept by the authority also remained closed on Monday.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_11",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "全城医院出现献血热潮，穆斯林和基督徒共同参与",
+      "support_text": "The response to calls for blood donation was overwhelming on Monday as well. Long queues were witnessed at all hospitals where the injured were admitted.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_12",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "PTI主席伊姆兰访问伤者并呼吁全面执行国家反恐计划",
+      "support_text": "PTI chairman Imran also visited the injured as he called for hunting down terrorists across all provinces under the National Action Plan (NAP).",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊姆兰批评政府改革不力及军队政治化问题",
+      "support_text": "He also lashed out against the government for failing to introduce adequate reforms and to depoliticise the force.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_14",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员Khan在医院访问时遭遇媒体和党工人员闯入事件",
+      "support_text": "Khan, who arrived in the city on Monday afternoon, went to Jinnah Hospital -- which is treating the largest number of injured from Sunday’s attack. But his visit was marred by chaos as party workers and media men tried to force their way into the ward.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "受灾家庭在复活节星期一为逝者举行葬礼",
+      "support_text": "Anguished families held funeral services for their dead on Easter Monday",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "受灾家庭为逝者举行安葬仪式",
+      "support_text": "Anguished families conducted burial ceremonies for their deceased",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "许多人曾聚集在公园庆祝复活节",
+      "support_text": "Many people gathered in the park to celebrate Easter",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_18",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "武装部队打击极端组织",
+      "support_text": "语义描述：武装部队打击极端组织",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "执法和情报机构加强监控",
+      "support_text": "语义描述：执法和情报机构加强监控",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_20",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "执法和情报机构预防未来袭击",
+      "support_text": "语义描述：执法和情报机构预防未来袭击",
+      "source_text": "text_55"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_4",
+      "relation": "before",
+      "support_text": "Authorities registered the FIR for Sunday’s attack."
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_8",
+      "relation": "before",
+      "support_text": "Most major markets and recreational places in Lahore remained closed on Monday as the city mourned Sunday’s attack."
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_10",
+      "relation": "before",
+      "support_text": "Traders’ associations vowed to extend full support to the armed forces in its ongoing crackdown against extremist outfits."
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_11",
+      "relation": "before",
+      "support_text": "The Parks and Horticulture Authority (PHA) cancelled all its events including the ongoing Spring Festival. All public parks kept by the authority also remained closed on Monday."
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_12",
+      "relation": "before",
+      "support_text": "The response to calls for blood donation was overwhelming on Monday as well. Long queues were witnessed at all hospitals where the injured were admitted."
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_18",
+      "relation": "before",
+      "support_text": "武装部队打击极端组织是周日袭击事件后的后续行动"
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_19",
+      "relation": "before",
+      "support_text": "加强监控是袭击事件后的防控措施"
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_20",
+      "relation": "before",
+      "support_text": "预防未来袭击是袭击事件后的长期防控策略"
+    },
+    {
+      "source": "text_55_node_4",
+      "target": "text_55_node_5",
+      "relation": "before",
+      "support_text": "The investigation team also released a sketch of the suspected attacker."
+    },
+    {
+      "source": "text_55_node_5",
+      "target": "text_55_node_6",
+      "relation": "before",
+      "support_text": "A counter-terrorism department (CTD) team raided the house in Muzaffargarh which was listed on a CNIC card recovered from the blast site."
+    },
+    {
+      "source": "text_55_node_6",
+      "target": "text_55_node_7",
+      "relation": "before",
+      "support_text": "Another team raided a location in Ichhra, a temporary residence mentioned on the card, and seized belongings of the suspected bomber including a laptop."
+    },
+    {
+      "source": "text_55_node_12",
+      "target": "text_55_node_13",
+      "relation": "before",
+      "support_text": "PTI chairman Imran also visited the injured as he called for hunting down terrorists across all provinces under the National Action Plan (NAP)."
+    },
+    {
+      "source": "text_55_node_13",
+      "target": "text_55_node_14",
+      "relation": "before",
+      "support_text": "Khan, who arrived in the city on Monday afternoon, went to Jinnah Hospital -- which is treating the largest number of injured from Sunday’s attack."
+    }
+  ]
+}

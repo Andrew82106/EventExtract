@@ -1,0 +1,147 @@
+{
+  "nodes": [
+    {
+      "id": "text_85_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周一在卡拉奇针对什叶派游行的自杀式爆炸造成至少40人死亡",
+      "support_text": "The attack was the second this week in Pakistan to inflict major civilian casualties following Monday's suicide bombing in Karachi targeting a Shiite procession which left at least 40 people dead.",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五在巴基斯坦Lakki Marwat地区男子排球场发生自杀式汽车炸弹袭击，致75死60伤",
+      "support_text": "A suicide car bomb exploded Friday in the middle of a group of men playing volleyball in northwest Pakistan, killing 75 and wounding 60, district police officials told CNN.",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五上午8:50在North Waziristan发生疑似美军无人机导弹袭击，造成4人死亡",
+      "support_text": "Earlier Friday in the nearby district of North Waziristan, a suspected U.S. drone attack killed four people, a Pakistani intelligence official said.",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周五上午10:00在Bajaur agency发生遥控爆炸事件，造成5名平民死亡",
+      "support_text": "A remote-controlled explosive struck a car and killed five civilians, according to a representative from the Frontier Corps and a political administration official. It happened around 10 a.m. in the Salar Zar subdivision, in the Bajaur agency of the North West Frontier Province.",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "警方向CNN报告事件",
+      "support_text": "district police officials told CNN.",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "八座房屋倒塌",
+      "support_text": "八座房屋倒塌",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警长认为超过600磅炸药被使用",
+      "support_text": "警长认为超过600磅炸药被使用",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "军方清剿激进分子",
+      "support_text": "语义描述：军方清剿激进分子；主体：the military；对象：militants",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "激进分子威胁社区",
+      "support_text": "语义描述：激进分子威胁社区；主体：militants；对象：threats",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "导弹向载有武装分子的汽车发射",
+      "support_text": "导弹向载有武装分子的汽车发射",
+      "source_text": "text_85"
+    },
+    {
+      "id": "text_85_node_11",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击中另一人受伤",
+      "support_text": "袭击中另一人受伤",
+      "source_text": "text_85"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_85_node_1",
+      "target": "text_85_node_2",
+      "relation": "before",
+      "support_text": "The attack was the second this week in Pakistan to inflict major civilian casualties following Monday's suicide bombing in Karachi targeting a Shiite procession which left at least 40 people dead."
+    },
+    {
+      "source": "text_85_node_2",
+      "target": "text_85_node_5",
+      "relation": "before",
+      "support_text": "district police officials told CNN."
+    },
+    {
+      "source": "text_85_node_3",
+      "target": "text_85_node_4",
+      "relation": "before",
+      "support_text": "It happened around 10 a.m. in the Salar Zar subdivision, in the Bajaur agency of the North West Frontier Province."
+    },
+    {
+      "source": "text_85_node_3",
+      "target": "text_85_node_2",
+      "relation": "before",
+      "support_text": "Earlier Friday in the nearby district of North Waziristan, a suspected U.S. drone attack killed four people, a Pakistani intelligence official said."
+    },
+    {
+      "source": "text_85_node_8",
+      "target": "text_85_node_9",
+      "relation": "before",
+      "support_text": "根据temporal_order 1→2建立时序关系"
+    },
+    {
+      "source": "text_85_node_10",
+      "target": "text_85_node_2",
+      "relation": "before",
+      "support_text": "根据temporal_order 2→3建立时序关系"
+    },
+    {
+      "source": "text_85_node_11",
+      "target": "text_85_node_2",
+      "relation": "before",
+      "support_text": "根据temporal_order 3→3建立时序关系"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_69_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2015年12月21日，Bagram发生自杀式袭击，一名载有爆炸物的自杀式袭击者冲撞北约-阿富汗联合巡逻队，造成6名北约士兵死亡（含2名美国人）、2名美国人及1名阿富汗人受伤",
+      "support_text": "On December 21, 2015 in Bagram, a suicide bomber blew himself up, killing six NATO service members.",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "同日，塔利班发言人Zabiullah Mujahid通过Twitter和电子邮件宣称对袭击负责",
+      "support_text": "Zabiullah Mujahid, the spokesperson for the Taliban, claimed they were responsible for the attack via Twitter and e-mail.",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "同日，美国国防部及白宫发表声明，谴责袭击并慰问受害者家属，承诺继续支持阿富汗反恐与重建",
+      "support_text": "U.S. Secretary of Defense Ash Carter responded to the bombing... White House Office of the Press Secretary issued a statement...",
+      "source_text": "text_69"
+    },
+    {
+      "id": "text_69_new_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年12月21日，Bagram发生自杀式袭击，一名载有爆炸物的自杀式袭击者骑乘摩托车冲撞北约-阿富汗联合巡逻队",
+      "support_text": "语义描述：自杀式炸弹袭击者骑乘摩托车",
+      "source_text": "text_69"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_69_node_1",
+      "target": "text_69_node_2",
+      "relation": "before",
+      "support_text": "Zabiullah Mujahid, the spokesperson for the Taliban, claimed they were responsible for the attack via Twitter and e-mail."
+    },
+    {
+      "source": "text_69_node_1",
+      "target": "text_69_node_3",
+      "relation": "before",
+      "support_text": "U.S. Secretary of Defense Ash Carter responded to the bombing, stating..."
+    },
+    {
+      "source": "text_69_node_1",
+      "target": "text_69_new_node_4",
+      "relation": "before",
+      "support_text": "语义描述中明确提到骑乘摩托车的动作发生在袭击发生时"
+    }
+  ]
+}

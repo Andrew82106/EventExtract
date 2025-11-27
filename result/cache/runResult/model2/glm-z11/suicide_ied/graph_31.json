@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "text_31_node_1",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Wanganui Computer Centre于1976年开放，存储国家执法数据库",
+      "support_text": "The Wanganui Computer Centre, opened in 1976, held the National Law Enforcement Data Base.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "民主自由主义者担忧计算机记录公民个人信息可能带来的危险",
+      "support_text": "The computer's ability to record the personal information of citizens was seen as potentially dangerous by civil libertarians.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "1981年南非橄榄球赛期间，公众舆论因反对政府政策而极化",
+      "support_text": "These concerns grew with the polarisation of public opinion during the Springbok rugby tour of 1981 and subsequent protests against the policies of the government of Prime Minister Robert Muldoon.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Neil Roberts作为长期参与抗议活动的22岁无政府主义者身份被提及",
+      "support_text": "Neil Roberts, a 22-year-old anarchist who had long been involved in the protest movement",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1982年11月18日，Roberts在计算机中心进行炸弹袭击并自杀",
+      "support_text": "Neil Roberts... blew himself up in a bomb attack on the computer centre.",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击被解释为反对政府权威的象征性行动",
+      "support_text": "The action appears to have been as much a symbolic blow against what Roberts saw as an authoritarian state...",
+      "source_text": "text_31"
+    },
+    {
+      "id": "text_31_node_7",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Damage",
+      "description": "照片展示了Wanganui计算机中心受到的损害",
+      "support_text": "This photograph shows the damage sustained by the Wanganui Computer Centre",
+      "source_text": "text_31"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_31_node_1",
+      "target": "text_31_node_2",
+      "relation": "before",
+      "support_text": "The computer's ability to record the personal information of citizens was seen as potentially dangerous by civil libertarians."
+    },
+    {
+      "source": "text_31_node_2",
+      "target": "text_31_node_3",
+      "relation": "before",
+      "support_text": "These concerns grew with the polarisation of public opinion during the Springbok rugby tour of 1981 and subsequent protests..."
+    },
+    {
+      "source": "text_31_node_3",
+      "target": "text_31_node_4",
+      "relation": "before",
+      "support_text": "Neil Roberts, a 22-year-old anarchist who had long been involved in the protest movement"
+    },
+    {
+      "source": "text_31_node_4",
+      "target": "text_31_node_5",
+      "relation": "before",
+      "support_text": "Neil Roberts... blew himself up in a bomb attack on the computer centre."
+    },
+    {
+      "source": "text_31_node_5",
+      "target": "text_31_node_6",
+      "relation": "before",
+      "support_text": "The action appears to have been as much a symbolic blow against what Roberts saw as an authoritarian state..."
+    },
+    {
+      "source": "text_31_node_5",
+      "target": "text_31_node_7",
+      "relation": "after",
+      "support_text": "炸弹袭击后，照片记录了计算机中心受损情况"
+    }
+  ]
+}

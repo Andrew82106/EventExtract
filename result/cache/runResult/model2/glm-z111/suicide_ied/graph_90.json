@@ -1,0 +1,396 @@
+{
+  "nodes": [
+    {
+      "id": "text_90_node_1",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "2002年巴厘岛爆炸案导致230人死亡，包括外国游客",
+      "support_text": "The return of murderous nihilism to Bali... Jemaah Islamiyah, which almost ruined Indonesia’s economy by its filthy attack three years ago by its filthy attack three years ago",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年8月19日巴格达联合国总部遭高军事规格炸弹袭击，巴西外交官Sergio Vieira de Mello遇害",
+      "support_text": "On Aug. 19, 2003, a gigantic explosion leveled the Canal Hotel in Baghdad... Sergio Vieira de Mello, the dashing Brazilian who had been sent by Kofi Annan to reanimate the U.N. presence in Iraq",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_3",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "印尼司法系统对巴厘岛爆炸案凶手进行公开审判，引发社会对恐怖主义本质的反思",
+      "support_text": "The trial of the perpetrators would expose them to popular contempt—which indeed it did",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_4",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "印尼政府因反恐政策与澳大利亚加强军事合作，后者曾支持东帝汶独立",
+      "support_text": "A neighboring country that assists the self-determination of an Indonesian Christian minority must expect to have the lives of its holidaymakers taken",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "东帝汶独立运动被恐怖组织视为对伊斯兰土地的侵犯，成为报复借口",
+      "support_text": "Do not forget that Australia sent troops to help safeguard the independence of East Timor",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_6",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "印尼经济因恐怖袭击陷入衰退，政府依赖旅游业支撑民生",
+      "support_text": "Indonesia is a mainly Muslim society... Its people, who are astonishingly hospitable to all foreigners, depend in millions of cases on tourism to make the difference between indigence and the minimum wage",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_7",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "凶残的虚无主义返回巴厘岛",
+      "support_text": "return",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "展示伊斯兰极端分子不知如何停止",
+      "support_text": "展示伊斯兰极端分子不知如何停止",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "展示伊斯兰极端分子从未学习",
+      "support_text": "展示伊斯兰极端分子从未学习",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰阵线试图重犯同一罪行",
+      "support_text": "伊斯兰阵线试图重犯同一罪行",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "游览马尼拉 Marriott 酒店的残骸",
+      "support_text": "我之前游览了马尼拉 Marriott 酒店的残骸",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_12",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "寡妇呼吁对罪犯进行拷打",
+      "support_text": "寡妇呼吁对罪犯进行拷打",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_13",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "罪犯被拷打",
+      "support_text": "罪犯被拷打",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_14",
+      "event_type": "GenericCrime",
+      "event_subtype": "GenericCrime",
+      "event_sub_subtype": "GenericCrime",
+      "description": "罪犯被处决",
+      "support_text": "罪犯被处决",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "JI主动孤立自身",
+      "support_text": "JI主动孤立自身",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "JI对巴厘岛娱乐场所发动袭击",
+      "support_text": "JI对巴厘岛娱乐场所发动袭击",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府对伊拉克和阿富汗战争采取强硬立场",
+      "support_text": "政府对伊拉克和阿富汗战争采取强硬立场",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "狂热分子观察巴厘岛人口和外国游客",
+      "support_text": "狂热分子观察巴厘岛人口和外国游客",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_19",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "狂热分子看到印度教徒销售饮料",
+      "support_text": "狂热分子看到印度教徒销售饮料",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_20",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度教徒向基督徒销售饮料",
+      "support_text": "印度教徒向基督徒销售饮料",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "当地穆斯林遵循合流和宽容的伊斯兰形式",
+      "support_text": "当地穆斯林遵循合流和宽容的伊斯兰形式",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "狂热分子渴望救赎当地穆斯林",
+      "support_text": "狂热分子渴望救赎当地穆斯林",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_23",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "狂热分子试图救赎当地穆斯林",
+      "support_text": "狂热分子试图救赎当地穆斯林",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_24",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "狂热分子试图说服当地穆斯林接受纯沙漠真理",
+      "support_text": "狂热分子试图说服当地穆斯林接受纯沙漠真理",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "澳大利亚保护东帝汶及其选举",
+      "support_text": "澳大利亚保护东帝汶及其选举",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "选举紧随保护行动之后",
+      "support_text": "选举紧随保护行动之后",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_27",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "材料被用于爆炸袭击",
+      "support_text": "材料被用于爆炸",
+      "source_text": "text_90"
+    },
+    {
+      "id": "text_90_node_28",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "材料来自 fallen regime的库存",
+      "support_text": "材料来自 fallen regime的库存",
+      "source_text": "text_90"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_90_node_1",
+      "target": "text_90_node_2",
+      "relation": "before",
+      "support_text": "How can Jemaah Islamiyah, which almost ruined Indonesia’s economy by its filthy attack three years ago, possibly have tried to repeat the same crime in the same place?"
+    },
+    {
+      "source": "text_90_node_1",
+      "target": "text_90_node_3",
+      "relation": "before",
+      "support_text": "The trial of the perpetrators would expose them to popular contempt—which indeed it did"
+    },
+    {
+      "source": "text_90_node_1",
+      "target": "text_90_node_4",
+      "relation": "before",
+      "support_text": "Its elections feature Muslim political parties, many of them quite austere in their propaganda"
+    },
+    {
+      "source": "text_90_node_1",
+      "target": "text_90_node_6",
+      "relation": "before",
+      "support_text": "Indonesia is a mainly Muslim society... Its people depend on tourism"
+    },
+    {
+      "source": "text_90_node_2",
+      "target": "text_90_node_27",
+      "relation": "before",
+      "support_text": "根据temporal_order 1→2的时序要求"
+    },
+    {
+      "source": "text_90_node_3",
+      "target": "text_90_node_16",
+      "relation": "before",
+      "support_text": "根据temporal_order 2→3的时序要求"
+    },
+    {
+      "source": "text_90_node_4",
+      "target": "text_90_node_5",
+      "relation": "before",
+      "support_text": "Do not forget that Australia sent troops to help safeguard the independence of East Timor"
+    },
+    {
+      "source": "text_90_node_4",
+      "target": "text_90_node_6",
+      "relation": "before",
+      "support_text": "根据temporal_order 2→3的时序要求"
+    },
+    {
+      "source": "text_90_node_5",
+      "target": "text_90_node_2",
+      "relation": "before",
+      "support_text": "A communiqué from al-Qaida gloated over the end of ‘the personal representative of America’s criminal slave, Kofi Annan’"
+    },
+    {
+      "source": "text_90_node_5",
+      "target": "text_90_node_26",
+      "relation": "before",
+      "support_text": "选举紧随保护行动之后"
+    },
+    {
+      "source": "text_90_node_7",
+      "target": "text_90_node_2",
+      "relation": "before",
+      "support_text": "Jemaah Islamiyah, which almost ruined Indonesia’s economy by its filthy attack three years ago, possibly have tried to repeat the same crime in the same place"
+    },
+    {
+      "source": "text_90_node_8",
+      "target": "text_90_node_2",
+      "relation": "before",
+      "support_text": "It shows that the fanatics of Islamism don’t know how to stop"
+    },
+    {
+      "source": "text_90_node_9",
+      "target": "text_90_node_2",
+      "relation": "before",
+      "support_text": "It shows that they never learn"
+    },
+    {
+      "source": "text_90_node_10",
+      "target": "text_90_node_2",
+      "relation": "before",
+      "support_text": "Jemaah Islamiyah tried to repeat the same crime"
+    },
+    {
+      "source": "text_90_node_15",
+      "target": "text_90_node_3",
+      "relation": "before",
+      "support_text": "根据temporal_order 1→2的时序要求"
+    },
+    {
+      "source": "text_90_node_17",
+      "target": "text_90_node_4",
+      "relation": "before",
+      "support_text": "根据temporal_order 1→2的时序要求"
+    },
+    {
+      "source": "text_90_node_18",
+      "target": "text_90_node_19",
+      "relation": "before",
+      "support_text": "根据temporal_order 1→2的时序要求"
+    },
+    {
+      "source": "text_90_node_19",
+      "target": "text_90_node_20",
+      "relation": "before",
+      "support_text": "根据temporal_order 2→3的时序要求"
+    },
+    {
+      "source": "text_90_node_20",
+      "target": "text_90_node_21",
+      "relation": "before",
+      "support_text": "根据temporal_order 3→4的时序要求"
+    },
+    {
+      "source": "text_90_node_21",
+      "target": "text_90_node_22",
+      "relation": "before",
+      "support_text": "根据temporal_order 4→5的时序要求"
+    },
+    {
+      "source": "text_90_node_22",
+      "target": "text_90_node_23",
+      "relation": "before",
+      "support_text": "根据temporal_order 5→6的时序要求"
+    },
+    {
+      "source": "text_90_node_23",
+      "target": "text_90_node_24",
+      "relation": "before",
+      "support_text": "根据temporal_order 6→7的时序要求"
+    },
+    {
+      "source": "text_90_node_27",
+      "target": "text_90_node_28",
+      "relation": "before",
+      "support_text": "根据temporal_order 2→3的时序要求"
+    }
+  ]
+}

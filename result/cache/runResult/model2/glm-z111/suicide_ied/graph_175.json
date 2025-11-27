@@ -1,0 +1,357 @@
+{
+  "nodes": [
+    {
+      "id": "text_175_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1983年10月23日，241名美军人员在贝鲁特和平keeping任务中遭自杀式爆炸袭击，造成重大伤亡",
+      "support_text": "October 23, 1983 at approximately 6:20 a.m., 241 Marines, sailors and soldiers were killed, and hundreds of others were wounded or disabled.",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_2",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "1993年9月14日，退伍军人Chuck Hall等人携2万签名向美国邮政总局提交邮票发行请求",
+      "support_text": "1993年9月14日，Hall等人携2万签名到华盛顿提交请求",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年1月31日，国会通过H. Res. 45决议支持发行贝鲁特纪念邮票，但需50名联名议员未达成",
+      "support_text": "It remains in a congressional committee, said Lanier Swann, a Jones spokeswoman. \"They haven't given it serious consideration and right now it's at a standstill in committee.\"",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "2003年10月23日，美国邮政在杰克逊维尔邮局实施特别纪念邮戳日，但被退伍军人认为象征性不足",
+      "support_text": "It's a nice gesture, but it falls short, Hall said. \"It's a slap in the face of our comrades.\"",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年10月20日，《杰克逊维尔每日新闻》报道邮政总局持续拒绝贝鲁特纪念邮票请求",
+      "support_text": "October 20,2003 ERIC STEINKOPFF JACKSONVILLE DAILY NEWS STAFF After almost 20 years and despite more than 20,000 signatures in hand, the U.S. Postal Service is still denying requests for a stamp honoring troops killed in the 1983 terrorist bombing in Beirut.",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "2003年1月，Chuck Hall与北卡罗来纳州议员Walter B. Jones会面推动国会立法",
+      "support_text": "Last year Hall traveled to Washington, D.C. and met with U.S. Rep. Walter B. Jones, R-N.C., who put congressional action in motion to support the move for a stamp.",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "1993年邮政总局公民邮票咨询委员会以'缺乏历史意义'为由拒绝贝鲁特邮票提案",
+      "support_text": "Some of the comments made at that time for denying the request were 'We try to honor positive things.' 'People want pretty non-controversial stamps.' 'Beirut lacked significance in American history and not enough people were killed.'",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "2003年10月20日，Charles Hall通过《读者文摘》致信呼吁关注贝鲁特纪念邮票缺失问题",
+      "support_text": "Charles Hall通过《读者文摘》致信呼吁关注贝鲁特纪念邮票缺失问题",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "志愿小组秘密开会",
+      "support_text": "志愿小组秘密开会",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "志愿小组陈述 stamps 批准原因",
+      "support_text": "志愿小组陈述 stamps 批准原因",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "stamps 被批准或否决",
+      "support_text": "stamps 被批准或否决",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "志愿小组拒绝被联系",
+      "support_text": "志愿小组拒绝被联系",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Liz 准备 stamps 委员会会议信息",
+      "support_text": "Liz 准备 stamps 委员会会议信息",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "志愿小组拒绝提供解释",
+      "support_text": "志愿小组拒绝提供解释",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "讨论记录受信息自由法保护",
+      "support_text": "讨论记录受信息自由法保护",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_16",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "邮局认可社区活动",
+      "support_text": "邮局认可社区活动",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "空白邮票覆盖所有恐怖袭击受害者",
+      "support_text": "空白邮票覆盖所有恐怖袭击受害者",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "邮政官员不想单独突出任何单一事件",
+      "support_text": "邮政官员不想单独突出任何单一事件",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "关于空白邮票的讨论使贝鲁特退伍军人感到愤怒",
+      "support_text": "关于空白邮票的讨论使贝鲁特退伍军人感到愤怒",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_20",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "贝鲁特幸存者Nash表示从未得到应有的尊重",
+      "support_text": "贝鲁特幸存者Nash表示从未得到应有的尊重",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_21",
+      "event_type": "Personnel",
+      "event_subtype": "StartPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "Nash被分配到2nd Force Service Support Group",
+      "support_text": "Nash被分配到2nd Force Service Support Group",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "比较苹果与橙子及其战争、冲突和战役的异同",
+      "support_text": "我们比较苹果和橙子以及不同战争、冲突和战役",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_23",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Unspecified",
+      "description": "个人对军事行动的荣誉主张",
+      "support_text": "我相信所有美国军事行动应被尊荣",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_24",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "系统性军事行动荣誉化努力",
+      "support_text": "所有美国军事行动应被尊荣",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "PMG和CSAC投掷骰子决定发行时间",
+      "support_text": "任何城镇或个人投掷骰子以决定时间",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "PMG和CSAC调查空白邮票发行",
+      "support_text": "PMG和CSAC正在调查发行空白邮票",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_27",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "PMG和CSAC发行空白邮票",
+      "support_text": "PMG和CSAC发行空白邮票",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_28",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "PMG和CSAC单独挑选特定恐怖袭击事件",
+      "support_text": "PMG和CSAC希望单独挑选特定恐怖袭击事件",
+      "source_text": "text_175"
+    },
+    {
+      "id": "text_175_node_29",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "USPS发行被记录",
+      "support_text": "USPS的发行被记录",
+      "source_text": "text_175"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_175_node_1",
+      "target": "text_175_node_7",
+      "relation": "before",
+      "support_text": "1983年10月23日事件发生，1993年邮政总局拒绝提案"
+    },
+    {
+      "source": "text_175_node_1",
+      "target": "text_175_node_17",
+      "relation": "before",
+      "support_text": "1983年事件后空白邮票覆盖受害者"
+    },
+    {
+      "source": "text_175_node_2",
+      "target": "text_175_node_7",
+      "relation": "before",
+      "support_text": "1993年9月14日提交请求，1993年邮政总局拒绝提案"
+    },
+    {
+      "source": "text_175_node_3",
+      "target": "text_175_node_4",
+      "relation": "before",
+      "support_text": "2003年1月国会决议，2003年10月23日纪念活动"
+    },
+    {
+      "source": "text_175_node_4",
+      "target": "text_175_node_16",
+      "relation": "before",
+      "support_text": "2003年10月23日纪念邮戳日实施后，邮局认可社区活动"
+    },
+    {
+      "source": "text_175_node_4",
+      "target": "text_175_node_19",
+      "relation": "before",
+      "support_text": "2003年纪念活动后讨论引发愤怒"
+    },
+    {
+      "source": "text_175_node_4",
+      "target": "text_175_node_29",
+      "relation": "before",
+      "support_text": "纪念邮票发行后记录"
+    },
+    {
+      "source": "text_175_node_5",
+      "target": "text_175_node_4",
+      "relation": "before",
+      "support_text": "2003年10月20日媒体报道，2003年10月23日纪念活动"
+    },
+    {
+      "source": "text_175_node_5",
+      "target": "text_175_node_20",
+      "relation": "before",
+      "support_text": "2003年媒体报道后Nash表态"
+    },
+    {
+      "source": "text_175_node_6",
+      "target": "text_175_node_3",
+      "relation": "before",
+      "support_text": "2003年1月会面推动立法，2003年1月31日国会通过决议"
+    },
+    {
+      "source": "text_175_node_7",
+      "target": "text_175_node_18",
+      "relation": "before",
+      "support_text": "1993年提案被拒后邮政官员态度"
+    },
+    {
+      "source": "text_175_node_8",
+      "target": "text_175_node_5",
+      "relation": "before",
+      "support_text": "2003年10月20日写信，2003年10月20日媒体报道"
+    },
+    {
+      "source": "text_175_node_20",
+      "target": "text_175_node_21",
+      "relation": "before",
+      "support_text": "Nash表态后获得岗位分配"
+    },
+    {
+      "source": "text_175_node_26",
+      "target": "text_175_node_27",
+      "relation": "before",
+      "support_text": "调查完成后发行"
+    },
+    {
+      "source": "text_175_node_28",
+      "target": "text_175_node_27",
+      "relation": "before",
+      "support_text": "挑选事件后发行"
+    }
+  ]
+}

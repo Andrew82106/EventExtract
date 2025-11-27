@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "text_11_node_1",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "玻利维亚政府通过信函将Ahmad Vahidi的邀请事件定性为'重大事件'",
+      "support_text": "The letter described the invitation to Vahidi as a 'grave incident'",
+      "source_text": "text_11"
+    },
+    {
+      "id": "text_11_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "玻利维亚政府宣布已采取必要措施确保Ahmad Vahidi立即离境",
+      "support_text": "the government of Bolivia has taken the corresponding provisions to see to it that Ahmad Vahidi immediately leaves Bolivian territory.",
+      "source_text": "text_11"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_11_node_1",
+      "target": "text_11_node_2",
+      "relation": "before",
+      "support_text": "and promised that"
+    }
+  ]
+}

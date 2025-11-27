@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_13_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2023年2月13日，巴基斯坦籍自杀式袭击者在伊朗俾路支斯坦省用载满炸药的车辆冲撞运输IRGC士兵的巴士，造成27人死亡",
+      "support_text": "The suicide bomber drove an explosives-laden vehicle into a bus that was transporting IRGC troops in Sistan-Baluchistan Province",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_2",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年2月18日，伊朗宣布逮捕3名涉嫌策划袭击的成员，其中2名伊朗籍",
+      "support_text": "The guards on February 18 announced three arrests in the case",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年2月19日，IRGC证实袭击者名为Hafez Mohammad-Ali，并指出另一名巴基斯坦籍策划者",
+      "support_text": "Brigadier General Mohammad Pakpour... said on February 19 that another alleged member... was also Pakistani",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "2023年2月19日，巴基斯坦外长Qureshi宣布已移交伊朗嫌疑人，承诺加强双边合作",
+      "support_text": "Pakistani Foreign Minister Shah Mehmood Qureshi said on February 19 that his country had handed over Iranian suspects",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jaish al Adl组织声称对袭击负责，宣称旨在争取俾路支族权益",
+      "support_text": "Jaish al Adl (Army of Justice)... claimed responsibility for the bombing",
+      "source_text": "text_13"
+    },
+    {
+      "id": "text_13_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗指责巴基斯坦和沙特 respectively庇护和煽动极端分子",
+      "support_text": "Iran has repeatedly said that militant groups operate from safe havens in Pakistan and called on the neighboring country to crack down on them",
+      "source_text": "text_13"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_13_node_1",
+      "target": "text_13_node_2",
+      "relation": "before",
+      "support_text": "With reporting by AP and AFP"
+    },
+    {
+      "source": "text_13_node_2",
+      "target": "text_13_node_3",
+      "relation": "before",
+      "support_text": "According to the force's Sepah news agency"
+    },
+    {
+      "source": "text_13_node_3",
+      "target": "text_13_node_4",
+      "relation": "before",
+      "support_text": "Qureshi told state-run television"
+    },
+    {
+      "source": "text_13_node_3",
+      "target": "text_13_node_5",
+      "relation": "before",
+      "support_text": "The Sunni group Jaish al Adl... claimed responsibility"
+    },
+    {
+      "source": "text_13_node_5",
+      "target": "text_13_node_6",
+      "relation": "before",
+      "support_text": "Tehran has also accused Saudi Arabia of inciting members"
+    }
+  ]
+}

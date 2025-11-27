@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "text_3_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国（IS）声称对东部Nangarhar省警察指挥官葬礼上的袭击负责",
+      "support_text": "The Islamic State (IS) group said it was behind the attack on a police commander's funeral in Nangarhar, in the east of the country.",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "医院遭遇袭击，但执行者身份尚未明确",
+      "support_text": "It is still not clear who carried out the attack on the hospital",
+      "source_text": "text_3"
+    },
+    {
+      "id": "text_3_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "塔利班否认参与医院袭击",
+      "support_text": "the Taliban have denied any involvement",
+      "source_text": "text_3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_3_node_2",
+      "target": "text_3_node_3",
+      "relation": "before",
+      "support_text": "the Taliban have denied any involvement"
+    }
+  ]
+}

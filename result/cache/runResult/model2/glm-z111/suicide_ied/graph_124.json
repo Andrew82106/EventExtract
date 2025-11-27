@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "text_124_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "圣彼得堡地铁发生爆炸事件，造成至少9人死亡、20人受伤，涉事列车在Sennaya Ploshchad与Tekhnologichesky Institut站之间",
+      "support_text": "Explosions in two train carriages at metro stations in St. Petersburg Reuters",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "俄罗斯总统普京启动调查，初步判定爆炸可能为恐怖袭击",
+      "support_text": "Russian President Vladimir Putin said investigators are looking into whether the explosion was a terror attack",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "英国外交大臣鲍里斯·约翰逊表示震惊，并向受害者及家属致哀",
+      "support_text": "Leading the tributes, British Foreign Secretary Boris Johnson said he was 'horrified' by the explosion",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "德国外长西格玛·加布里埃尔称事件为针对无辜者的卑劣袭击，表达哀悼",
+      "support_text": "His German counterpart, Sigmar Gabriel, said he felt 'deep sorrow' when he learned of the attack",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_5",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "法国外长让-马克·艾吕雅尔宣布与俄罗斯站在一起",
+      "support_text": "French Foreign Minister Jean-Marc Ayrault said his country stood in solidarity with Russia",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "马耳他总理约瑟夫·穆斯卡特对事件表示哀悼",
+      "support_text": "Prime Minister of Malta Joseph Muscat said he felt 'deep sorrow' when he learned of the attack",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_7",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "意大利外长安吉洛·阿尔法诺呼吁国际社会团结打击恐怖主义",
+      "support_text": "Italian Foreign Minister Angelino Alfano said the world had to continue 'to unite to fight against terror'",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_8",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "奥地利外长塞巴斯蒂安·库尔茨重申需团结应对恐怖主义",
+      "support_text": "Austria's Foreign Minister Sebastian Kurz said 'we must close ranks in countering terrorism'",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "欧盟委员会副主席费德丽卡·莫盖里尼通过社交媒体向俄罗斯民众致哀",
+      "support_text": "Federica Mogherini tweeted: 'Our thoughts are with all people of #Russia'",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "北约秘书长延斯·斯托尔滕贝格向事件受害者及俄民众表达深切哀悼",
+      "support_text": "Secretary General of NATO Jens Stolenberg said 'Deepest sympathy to those affected by the #StPetersburg metro explosion'",
+      "source_text": "text_124"
+    },
+    {
+      "id": "text_124_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "比利时副首相兼外长迪迪埃·雷伊ндерс向受害者家属致歉",
+      "support_text": "Belgium’s Deputy Prime Minister Didier Reynders tweeted: 'My sincere condolences to the families of the victims'",
+      "source_text": "text_124"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_124_node_1",
+      "target": "text_124_node_2",
+      "relation": "before",
+      "support_text": "Russian President Vladimir Putin said investigators are looking into whether the explosion was a terror attack"
+    },
+    {
+      "source": "text_124_node_2",
+      "target": "text_124_node_3",
+      "relation": "before",
+      "support_text": "Leading the tributes, British Foreign Secretary Boris Johnson said he was 'horrified' by the explosion"
+    },
+    {
+      "source": "text_124_node_3",
+      "target": "text_124_node_4",
+      "relation": "before",
+      "support_text": "His German counterpart, Sigmar Gabriel, said he felt 'deep sorrow' when he learned of the attack"
+    },
+    {
+      "source": "text_124_node_4",
+      "target": "text_124_node_5",
+      "relation": "before",
+      "support_text": "French Foreign Minister Jean-Marc Ayrault said his country stood in solidarity with Russia"
+    },
+    {
+      "source": "text_124_node_5",
+      "target": "text_124_node_6",
+      "relation": "before",
+      "support_text": "Prime Minister of Malta Joseph Muscat said he felt 'deep sorrow' when he learned of the attack"
+    },
+    {
+      "source": "text_124_node_6",
+      "target": "text_124_node_7",
+      "relation": "before",
+      "support_text": "Italian Foreign Minister Angelino Alfano said the world had to continue 'to unite to fight against terror'"
+    },
+    {
+      "source": "text_124_node_7",
+      "target": "text_124_node_8",
+      "relation": "before",
+      "support_text": "Austria's Foreign Minister Sebastian Kurz said 'we must close ranks in countering terrorism'"
+    },
+    {
+      "source": "text_124_node_8",
+      "target": "text_124_node_9",
+      "relation": "before",
+      "support_text": "Federica Mogherini tweeted: 'Our thoughts are with all people of #Russia'"
+    },
+    {
+      "source": "text_124_node_9",
+      "target": "text_124_node_10",
+      "relation": "before",
+      "support_text": "Secretary General of NATO Jens Stolenberg said 'Deepest sympathy to those affected by the #StPetersburg metro explosion'"
+    },
+    {
+      "source": "text_124_node_10",
+      "target": "text_124_node_11",
+      "relation": "before",
+      "support_text": "Belgium’s Deputy Prime Minister Didier Reynders tweeted: 'My sincere condolences to the families of the victims'"
+    }
+  ]
+}

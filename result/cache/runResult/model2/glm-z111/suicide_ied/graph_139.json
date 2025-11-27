@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    {
+      "id": "text_139_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "自杀式爆炸发生在医院后门，吸引安保注意力",
+      "support_text": "The six-hour attack on the Sardar Daud Khan hospital on Wednesday began when a suicide bomber blew himself up at the back entrance",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "伪装成医生的外部武装分子进入医院",
+      "support_text": "paving the way for gunmen disguised as doctors",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "医院内部人员（包括熟悉环境的实习生）参与袭击",
+      "support_text": "attackers already positioned inside the facility –- some of them familiar staff –- launched a killing spree",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者使用枪支、手榴弹和匕首对多个病房发动屠杀",
+      "support_text": "launched a killing spree with guns, grenades and knives",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击者针对VIP病房和军衔较高的目标实施精准攻击",
+      "support_text": "the gunmen... raided nearly every floor, spared two wards... sought out an army general and the relative of a former minister",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击造成大量伤亡，包括刺杀病患和近距离枪击",
+      "support_text": "the savagery of the assault was characterised by how the assailants stabbed bed-ridden patients, threw grenades into crowded wards and shot people from pointblank range",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "ISIS宣称对袭击负责，但被阿富汗官员质疑",
+      "support_text": "The Islamic State group claimed it was behind the attack via its propaganda agency Amaq",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "哈卡尼网络被指为实际策划方，因熟悉医院布局",
+      "support_text": "the (Taliban-allied) Haqqani network was behind it",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_9",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Meet",
+      "description": "袭击者与遥控指挥者保持联系，宣称消灭异教徒",
+      "support_text": "Some of them were in phone contact with handlers whom they addressed as Mullah Sahib. 'We are killing all the non-believers,' they said",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "阿富汗政府承认存在内部人员协助，启动调查",
+      "support_text": "This could not have been possible without the help of people inside",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_11",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "幸存者陈述同步屠杀事件",
+      "support_text": "幸存者陈述同步屠杀事件",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "幸存者证词揭露袭击者内线部署",
+      "support_text": "幸存者证词揭露袭击者内线部署",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "医院官员将实习生纳入救援统计",
+      "support_text": "医院官员将实习生纳入救援统计",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "医院官员引导特种部队执行救援",
+      "support_text": "医院官员引导特种部队执行救援",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "国防部坚称仅有30人死于五名袭击者",
+      "support_text": "The defence ministry insists only 30 people died at the hands of five attackers",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_16",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "死亡人数超过100",
+      "support_text": "死亡人数超过100",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_17",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "医护人员向法新社透露细节",
+      "support_text": "医护人员向法新社透露细节",
+      "source_text": "text_139"
+    },
+    {
+      "id": "text_139_node_18",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "烧伤中包括怀抱孩子的母亲",
+      "support_text": "烧伤中包括怀抱孩子的母亲",
+      "source_text": "text_139"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_139_node_1",
+      "target": "text_139_node_2",
+      "relation": "before",
+      "support_text": "began when a suicide bomber blew himself up at the back entrance, paving the way for gunmen"
+    },
+    {
+      "source": "text_139_node_1",
+      "target": "text_139_node_11",
+      "relation": "before",
+      "support_text": "自杀式爆炸发生在医院后门，吸引安保注意力 → 幸存者陈述同步屠杀事件"
+    },
+    {
+      "source": "text_139_node_2",
+      "target": "text_139_node_3",
+      "relation": "before",
+      "support_text": "attackers already positioned inside the facility –- some of them familiar staff –- launched a killing spree"
+    },
+    {
+      "source": "text_139_node_3",
+      "target": "text_139_node_4",
+      "relation": "before",
+      "support_text": "launched a killing spree with guns, grenades and knives"
+    },
+    {
+      "source": "text_139_node_4",
+      "target": "text_139_node_5",
+      "relation": "before",
+      "support_text": "raided nearly every floor, spared two wards... sought out an army general"
+    },
+    {
+      "source": "text_139_node_5",
+      "target": "text_139_node_6",
+      "relation": "before",
+      "support_text": "the savagery of the assault was characterised by how the assailants stabbed bed-ridden patients"
+    },
+    {
+      "source": "text_139_node_6",
+      "target": "text_139_node_7",
+      "relation": "before",
+      "support_text": "The Islamic State group claimed it was behind the attack via its propaganda agency Amaq"
+    },
+    {
+      "source": "text_139_node_6",
+      "target": "text_139_node_17",
+      "relation": "before",
+      "support_text": "袭击造成大量伤亡 → 医护人员向法新社透露细节"
+    },
+    {
+      "source": "text_139_node_7",
+      "target": "text_139_node_8",
+      "relation": "before",
+      "support_text": "the Taliban-allied Haqqani network was behind it"
+    },
+    {
+      "source": "text_139_node_7",
+      "target": "text_139_node_15",
+      "relation": "before",
+      "support_text": "ISIS宣称对袭击负责 → 国防部坚称仅有30人死于五名袭击者"
+    },
+    {
+      "source": "text_139_node_8",
+      "target": "text_139_node_9",
+      "relation": "before",
+      "support_text": "Some of them were in phone contact with handlers whom they addressed as Mullah Sahib"
+    },
+    {
+      "source": "text_139_node_9",
+      "target": "text_139_node_10",
+      "relation": "before",
+      "support_text": "This could not have been possible without the help of people inside"
+    },
+    {
+      "source": "text_139_node_10",
+      "target": "text_139_node_16",
+      "relation": "before",
+      "support_text": "阿富汗政府承认存在内部人员协助 → 死亡人数超过100"
+    },
+    {
+      "source": "text_139_node_11",
+      "target": "text_139_node_12",
+      "relation": "before",
+      "support_text": "幸存者陈述同步屠杀事件 → 幸存者证词揭露袭击者内线部署"
+    },
+    {
+      "source": "text_139_node_12",
+      "target": "text_139_node_13",
+      "relation": "before",
+      "support_text": "幸存者证词揭露袭击者内线部署 → 医院官员将实习生纳入救援统计"
+    },
+    {
+      "source": "text_139_node_13",
+      "target": "text_139_node_14",
+      "relation": "before",
+      "support_text": "医院官员将实习生纳入救援统计 → 医院官员引导特种部队执行救援"
+    },
+    {
+      "source": "text_139_node_18",
+      "target": "text_139_node_13",
+      "relation": "before",
+      "support_text": "烧伤中包括怀抱孩子的母亲 → 医院官员将实习生纳入救援统计"
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "nodes": [
+    {
+      "id": "text_93_node_1",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "GrantAllowPassage",
+      "description": "1982年夏天，美国应黎巴嫩政府请求派驻维和部队",
+      "support_text": "Beirut Memorial In the summer of 1982, at the request of the Lebanese government, the United States agreed to establish a U.S. Military presence in that country to serve as a peacekeeping force in the conflict between warring Muslim and Christian factions.",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_2",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "1983年3月24日，第24海军陆战队两栖单位进驻贝鲁特",
+      "support_text": "On March 24, 1983, the 24th Marine Amphibious Unit, stationed at Camp Lejeune, North Carolina, received orders to Beirut, Lebanon in support of that commitment.",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1983年10月23日，美军总部遭卡车炸弹袭击致241人遇难",
+      "support_text": "In the early morning of October 23, 1983, the First Battalion, 8th Marines Headquarters building was destroyed by a non-Lebanese, terrorist-driven truck, laden with compressed gas-enhanced explosives.",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "1983年10月当天，杰克逊维尔委员会启动纪念树种植计划",
+      "support_text": "On the afternoon of this tragic bombing, the Commission met and decided to seek permission to plant memorial trees on Lejeune Boulevard, the main traffic artery joining Jacksonville and Camp Lejeune, to honor our fallen neighbors.",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1984年3月24日，纪念树项目正式落成",
+      "support_text": "The completed tree project was dedicated on March 24, 1984.",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_6",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "1986年5月，纪念广场建设启动并获4.5英亩土地",
+      "support_text": "Camp Lejeune offered the Commission 4.5 acres of highly visible and publicly accessible land at the corner of Lejeune Boulevard and Montford Landing Road. This gift expanded the Commission's vision of the final form of the Memorial and serious fund raising was launched.",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1986年10月23日，纪念广场完成并举行 dedication 仪式",
+      "support_text": "The completed Memorial was dedicated on October 23, 1986 with approximately 2000 people in attendance.",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_8",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1988年10月22日，青铜雕塑正式揭幕",
+      "support_text": "The statue was dedicated on October 22, 1988, some five years after that tragic day in Beirut, Lebanon.",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_9",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "1991年添加《The Other Wall》诗碑和 Grenada阵亡者姓名",
+      "support_text": "In 1991, the Beirut families added the poem, The Other Wall, written by Robert A. Gannon of Derry, New Hampshire. The poem was cast in bronze and dedicated at a 1991 observance ceremony.",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "TeachingTrainingLearning",
+      "event_sub_subtype": "Unspecified",
+      "description": "持续开展年度纪念活动强化军民融合",
+      "support_text": "Annually, an observance is held that includes the families of the deceased, military personnel and the civilian community, further cementing that relationship.",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军及法意部队提供稳定",
+      "support_text": "美军及法意部队提供稳定",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_12",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "外交努力未能达成协议基础",
+      "support_text": "外交努力未能达成协议基础",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_13",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "外交努力尝试达成持久解决方案基础",
+      "support_text": "外交努力尝试达成持久解决方案基础",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_14",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "穆斯林派系来到",
+      "support_text": "穆斯林派系来到",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_15",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "穆斯林派系将海军陆战队视为敌人",
+      "support_text": "穆斯林派系将海军陆战队视为敌人",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_16",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "局势导致炮火攻击",
+      "support_text": "局势导致炮火攻击",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_17",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "炮火攻击海军陆战队位置",
+      "support_text": "炮火攻击海军陆战队位置",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "采取适当回应打击目标",
+      "support_text": "采取适当回应打击目标",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_19",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "1983年10月23日卡车炸弹袭击后，该卡车成为贝鲁特机场的常见历史象征",
+      "support_text": "这辆卡车 previously 成为在机场常见的景象",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_20",
+      "event_type": "Personnel",
+      "event_subtype": "EndPosition",
+      "event_sub_subtype": "Unspecified",
+      "description": "1983年10月23日卡车炸弹袭击导致美军总部241人遇难后，社区因失去优秀男士震惊",
+      "support_text": "社区因失去这些优秀男士而震惊",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "委员会计划在Lejeune Boulevard种植纪念树",
+      "support_text": "On the afternoon of this tragic bombing, the Commission met and decided to seek permission to plant memorial trees on Lejeune Boulevard, the main traffic artery joining Jacksonville and Camp Lejeune, to honor our fallen neighbors.",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "设计学院研究生参与纪念广场设计竞赛",
+      "support_text": "设计学院研究生参与设计竞赛",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "委员会同意选择Abbé Godwin作为雕塑家",
+      "support_text": "委员会同意选择Abbé Godwin作为雕塑家",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_24",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "Abbé同意与委员会会面",
+      "support_text": "Abbé同意与委员会会面",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_25",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abbé坚持会面前提前参观纪念地",
+      "support_text": "Abbé坚持会面前提前参观纪念地",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_26",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "提前参观纪念地",
+      "support_text": "提前参观纪念地",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_27",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abbé向委员会表达创作雕塑的强烈愿望",
+      "support_text": "Abbé向委员会表达创作雕塑的强烈愿望",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_28",
+      "event_type": "Transaction",
+      "event_subtype": "ExchangeBuySell",
+      "event_sub_subtype": "Unspecified",
+      "description": "Abbé同意按60,000美元预算执行工作",
+      "support_text": "Abbé同意按60,000美元预算执行工作",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_29",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "最终阶段将纪念堂总成本提升至271,000美元",
+      "support_text": "最终阶段将纪念堂总成本提升至271,000美元",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_30",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "ManufactureAssemble",
+      "event_sub_subtype": "Unspecified",
+      "description": "1986年5月纪念广场建设启动后，在4.5英亩土地上铭刻'他们以和平到来'的青铜铭文",
+      "support_text": "纪念墙上的文字'THEY CAME IN PEACE'被刻上青铜材质",
+      "source_text": "text_93"
+    },
+    {
+      "id": "text_93_node_31",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "格林纳达冲突中三名海军飞行员牺牲事件",
+      "support_text": "社区的三名海军飞行员在格林纳达被杀害",
+      "source_text": "text_93"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_93_node_1",
+      "target": "text_93_node_2",
+      "relation": "before",
+      "support_text": "at the request of the Lebanese government, the United States agreed to establish a U.S. Military presence"
+    },
+    {
+      "source": "text_93_node_1",
+      "target": "text_93_node_11",
+      "relation": "before",
+      "support_text": "美军及法意部队提供稳定"
+    },
+    {
+      "source": "text_93_node_2",
+      "target": "text_93_node_3",
+      "relation": "before",
+      "support_text": "In the early morning of October 23, 1983, the First Battalion, 8th Marines Headquarters building was destroyed"
+    },
+    {
+      "source": "text_93_node_3",
+      "target": "text_93_node_4",
+      "relation": "before",
+      "support_text": "On the afternoon of this tragic bombing, the Commission met and decided to seek permission"
+    },
+    {
+      "source": "text_93_node_3",
+      "target": "text_93_node_19",
+      "relation": "before",
+      "support_text": "卡车炸弹袭击导致该卡车成为历史象征"
+    },
+    {
+      "source": "text_93_node_3",
+      "target": "text_93_node_20",
+      "relation": "before",
+      "support_text": "卡车炸弹袭击导致241人遇难后社区震惊"
+    },
+    {
+      "source": "text_93_node_4",
+      "target": "text_93_node_5",
+      "relation": "before",
+      "support_text": "The completed tree project was dedicated on March 24, 1984"
+    },
+    {
+      "source": "text_93_node_4",
+      "target": "text_93_node_21",
+      "relation": "before",
+      "support_text": "委员会启动纪念树种植计划后立即规划种植"
+    },
+    {
+      "source": "text_93_node_5",
+      "target": "text_93_node_6",
+      "relation": "before",
+      "support_text": "This gift expanded the Commission's vision of the final form of the Memorial and serious fund raising was launched"
+    },
+    {
+      "source": "text_93_node_6",
+      "target": "text_93_node_7",
+      "relation": "before",
+      "support_text": "The completed Memorial was dedicated on October 23, 1986"
+    },
+    {
+      "source": "text_93_node_6",
+      "target": "text_93_node_22",
+      "relation": "before",
+      "support_text": "捐赠行为扩展了委员会的纪念堂设计愿景"
+    },
+    {
+      "source": "text_93_node_6",
+      "target": "text_93_node_30",
+      "relation": "before",
+      "support_text": "纪念广场建设启动后实施铭文雕刻"
+    },
+    {
+      "source": "text_93_node_7",
+      "target": "text_93_node_8",
+      "relation": "before",
+      "support_text": "The statue was dedicated on October 22, 1988, some five years after that tragic day"
+    },
+    {
+      "source": "text_93_node_8",
+      "target": "text_93_node_9",
+      "relation": "before",
+      "support_text": "In 1991, the Beirut families added the poem"
+    },
+    {
+      "source": "text_93_node_9",
+      "target": "text_93_node_10",
+      "relation": "before",
+      "support_text": "Annually, an observance is held that includes the families of the deceased"
+    },
+    {
+      "source": "text_93_node_11",
+      "target": "text_93_node_12",
+      "relation": "before",
+      "support_text": "外交努力未能达成协议基础"
+    },
+    {
+      "source": "text_93_node_12",
+      "target": "text_93_node_13",
+      "relation": "before",
+      "support_text": "外交努力尝试达成持久解决方案基础"
+    },
+    {
+      "source": "text_93_node_13",
+      "target": "text_93_node_14",
+      "relation": "before",
+      "support_text": "穆斯林派系来到"
+    },
+    {
+      "source": "text_93_node_14",
+      "target": "text_93_node_15",
+      "relation": "before",
+      "support_text": "穆斯林派系将海军陆战队视为敌人"
+    },
+    {
+      "source": "text_93_node_15",
+      "target": "text_93_node_16",
+      "relation": "before",
+      "support_text": "局势导致炮火攻击"
+    },
+    {
+      "source": "text_93_node_16",
+      "target": "text_93_node_17",
+      "relation": "before",
+      "support_text": "炮火攻击海军陆战队位置"
+    },
+    {
+      "source": "text_93_node_16",
+      "target": "text_93_node_31",
+      "relation": "before",
+      "support_text": "穆斯林派系与海军陆战队冲突导致后续伤亡"
+    },
+    {
+      "source": "text_93_node_17",
+      "target": "text_93_node_18",
+      "relation": "before",
+      "support_text": "采取适当回应打击目标"
+    },
+    {
+      "source": "text_93_node_23",
+      "target": "text_93_node_24",
+      "relation": "before",
+      "support_text": "委员会决策后Abbé同意会面"
+    },
+    {
+      "source": "text_93_node_24",
+      "target": "text_93_node_25",
+      "relation": "before",
+      "support_text": "会面前Abbé要求参观纪念地"
+    },
+    {
+      "source": "text_93_node_25",
+      "target": "text_93_node_26",
+      "relation": "before",
+      "support_text": "参观后进入正式工作阶段"
+    },
+    {
+      "source": "text_93_node_26",
+      "target": "text_93_node_27",
+      "relation": "before",
+      "support_text": "实地考察后提出创作意愿"
+    },
+    {
+      "source": "text_93_node_27",
+      "target": "text_93_node_28",
+      "relation": "before",
+      "support_text": "表达意愿后签订预算协议"
+    },
+    {
+      "source": "text_93_node_28",
+      "target": "text_93_node_29",
+      "relation": "before",
+      "support_text": "预算执行后成本调整"
+    }
+  ]
+}

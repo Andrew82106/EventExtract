@@ -1,0 +1,474 @@
+{
+  "nodes": [
+    {
+      "id": "text_97_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年3月27日巴基斯坦拉合尔Gulshan-e-Iqbal公园发生自杀式爆炸，造成70余人死亡",
+      "support_text": "More than 70 have been reported killed in Lahore in a suicide bombing. More than 70 have been reported killed in Lahore, Pakistan, after an alleged suicide-bomb attack.",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_2",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致29名儿童死亡，受害者包括穆斯林和基督徒",
+      "support_text": "authorities counted 29 children among those killed by an Easter suicide bombing in an amusement park",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦宣布进入三天全国哀悼期，关闭学校和市场",
+      "support_text": "the country started a three-day mourning period. schools and markets closed",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_4",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "军方在旁遮普省五座城市展开突袭，逮捕恐怖分子并缴获大量武器",
+      "support_text": "Security forces arrested a 'number of terrorist suspects and facilitators' in at least five separate raids",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "梵蒂冈教皇谴责爆炸事件，呼吁保护少数族裔",
+      "support_text": "Pope Francis on Monday decried the Easter bombing as 'vile and abominable' and called for Pakistan's religious minorities to be protected",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "总理纳瓦兹·谢里夫取消华盛顿核峰会行程，前往拉合尔慰问伤者",
+      "support_text": "Prime Minister Nawaz Sharif arrived in Lahore... to visit the wounded",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_7",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织Jamaat ul-Ahrar宣称对爆炸负责，称目标为庆祝复活节的基督徒",
+      "support_text": "Jamaat ul-Ahrar claimed responsibility for the attack, saying, 'It was our people who attacked the Christians in Lahore, celebrating Easter'",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰教徒抗议活动在伊斯兰教节日后爆发，导致红区建筑受损",
+      "support_text": "伊斯兰教徒抗议活动在伊斯兰教节日后爆发，导致红区建筑受损",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府承认穆斯林伤亡人数超过基督徒，引发社会对反恐政策质疑",
+      "support_text": "官员们声称穆斯林伤亡人数超过基督徒",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦开始安葬遇难者",
+      "support_text": "语义描述：巴基斯坦开始安葬遇难者；事件类型：Movement；子类型：Transportation",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖袭击加剧了民众对极端主义的恐惧",
+      "support_text": "语义描述：恐怖袭击加剧了民众对极端主义的恐惧；事件类型：Cognitive；子类型：IdentifyCategorize",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_12",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "受惊的巴基斯坦人再次质问政府",
+      "support_text": "语义描述：受惊的巴基斯坦人再次质问政府；事件类型：Contact；子类型：RequestCommand",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府试图保护民众免受极端暴力",
+      "support_text": "语义描述：政府试图保护民众免受极端暴力；事件类型：Control；子类型：ImpedeInterfereWith",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_14",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "震惊导致2015年意外和平",
+      "support_text": "语义描述：震惊导致2015年意外和平；事件类型：Cognitive；子类型：IdentifyCategorize",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "官员发誓追捕伊斯兰极端分子",
+      "support_text": "语义描述：官员发誓追捕伊斯兰极端分子；事件类型：Control；子类型：ImpedeInterfereWith",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击事件成为全球关注焦点",
+      "support_text": "语义描述：袭击事件成为全球关注焦点；事件类型：Cognitive；子类型：IdentifyCategorize",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "办公室宣布取消华盛顿行程",
+      "support_text": "语义描述：办公室宣布取消华盛顿行程；事件类型：Control；子类型：ImpedeInterfereWith",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "巴基斯坦长期遭受教派暴力和伊斯兰极端主义困扰",
+      "support_text": "语义描述：巴基斯坦长期遭受教派暴力和伊斯兰极端主义困扰；事件类型：Control；子类型：ImpedeInterfereWith",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_19",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "恐怖袭击使普通巴基斯坦人陷入恐慌",
+      "support_text": "语义描述：恐怖袭击使普通巴基斯坦人陷入恐慌；事件类型：Control；子类型：ImpedeInterfereWith",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_20",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "拉尼·法尔赞德发表对儿童伤亡的质问",
+      "support_text": "语义描述：拉尼·法尔赞德发表对儿童伤亡的质问；事件类型：Contact；子类型：Contact；子子类型：Broadcast",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_21",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "公园内恐怖袭击造成的破坏痕迹基本消失",
+      "support_text": "语义描述：公园内恐怖袭击造成的破坏痕迹基本消失；事件类型：Control；子类型：ImpedeInterfereWith",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_22",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方封锁了公园内爆炸现场",
+      "support_text": "语义描述：警方封锁了公园内爆炸现场；事件类型：Control；子类型：ImpedeInterfereWith",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_23",
+      "event_type": "ArtifactExistence",
+      "event_subtype": "DamageDestroyDisableDismantle",
+      "event_sub_subtype": "Destroy",
+      "description": "爆炸后遗留下儿童游乐用品残骸",
+      "support_text": "语义描述：爆炸后遗留下儿童游乐用品残骸；事件类型：ArtifactExistence；子类型：DamageDestroyDisableDismantle；子子类型：Destroy",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_24",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "伤者被医院接收",
+      "support_text": "伤者被医院接收",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_25",
+      "event_type": "Medical",
+      "event_subtype": "Intervention",
+      "event_sub_subtype": "Unspecified",
+      "description": "67人住院治疗",
+      "support_text": "67人住院治疗",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_26",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "政客和主持人穿梭于病床",
+      "support_text": "政客和主持人穿梭于病床",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_27",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伤者被标记为爆炸受害者",
+      "support_text": "伤者被标记为爆炸受害者",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_28",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "儿童床标有'未知'标志",
+      "support_text": "儿童床标有'未知'标志",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_29",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "家庭在爆炸中死亡",
+      "support_text": "家庭在爆炸中死亡",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_30",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "泽希安腿部受伤",
+      "support_text": "泽希安腿部受伤",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_31",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "泽希安试图适应所见",
+      "support_text": "泽希安试图适应所见",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_32",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "泽希安描述所见",
+      "support_text": "泽希安描述所见",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_33",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "朋友试图安慰泽希安",
+      "support_text": "朋友试图安慰泽希安",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_34",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "朋友包扎泽希安伤口",
+      "support_text": "朋友包扎泽希安伤口",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_35",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "塔斯莱姆叙述带儿童经历",
+      "support_text": "塔斯莱姆叙述带儿童经历",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_36",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "带八个孩子去游乐园",
+      "support_text": "带八个孩子去游乐园",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_37",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "发现游乐园拥挤",
+      "support_text": "发现游乐园拥挤",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_38",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "扎因纳布穿上红色连衣裙",
+      "support_text": "扎因纳布穿上红色连衣裙",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_39",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "扎因纳布戴上花形发夹",
+      "support_text": "扎因纳布戴上花形发夹",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_40",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "扎因纳布骑大象",
+      "support_text": "扎因纳布骑大象",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_41",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸力将她们分开",
+      "support_text": "爆炸力将她们分开",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_42",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "父亲找到Zainab",
+      "support_text": "父亲找到Zainab",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_43",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "贾姆沙伊哭泣",
+      "support_text": "贾姆沙伊哭泣",
+      "source_text": "text_97"
+    },
+    {
+      "id": "text_97_node_44",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "腿部被切断",
+      "support_text": "腿部被切断",
+      "source_text": "text_97"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_97_node_1",
+      "target": "text_97_node_2",
+      "relation": "before",
+      "support_text": "authorities counted 29 children among those killed by an Easter suicide bombing in an amusement park"
+    },
+    {
+      "source": "text_97_node_1",
+      "target": "text_97_node_3",
+      "relation": "before",
+      "support_text": "the country started a three-day mourning period"
+    },
+    {
+      "source": "text_97_node_1",
+      "target": "text_97_node_5",
+      "relation": "before",
+      "support_text": "Pope Francis on Monday decried the Easter bombing"
+    },
+    {
+      "source": "text_97_node_1",
+      "target": "text_97_node_6",
+      "relation": "before",
+      "support_text": "Prime Minister Nawaz Sharif arrived in Lahore"
+    },
+    {
+      "source": "text_97_node_1",
+      "target": "text_97_node_7",
+      "relation": "before",
+      "support_text": "Jamaat ul-Ahrar claimed responsibility for the attack"
+    },
+    {
+      "source": "text_97_node_1",
+      "target": "text_97_node_14",
+      "relation": "before",
+      "support_text": "震惊导致2015年意外和平事件与爆炸事件存在因果关联"
+    },
+    {
+      "source": "text_97_node_1",
+      "target": "text_97_node_17",
+      "relation": "before",
+      "support_text": "语义描述：办公室宣布取消华盛顿行程，与爆炸事件存在因果关联"
+    },
+    {
+      "source": "text_97_node_2",
+      "target": "text_97_node_9",
+      "relation": "before",
+      "support_text": "官员们声称穆斯林伤亡人数超过基督徒"
+    },
+    {
+      "source": "text_97_node_3",
+      "target": "text_97_node_4",
+      "relation": "before",
+      "support_text": "Security forces arrested... during the three-day mourning period"
+    },
+    {
+      "source": "text_97_node_5",
+      "target": "text_97_node_6",
+      "relation": "before",
+      "support_text": "Pope Francis called for security measures... Prime Minister canceled trip"
+    },
+    {
+      "source": "text_97_node_14",
+      "target": "text_97_node_15",
+      "relation": "before",
+      "support_text": "震惊事件引发官员追捕极端分子的决策"
+    },
+    {
+      "source": "text_97_node_15",
+      "target": "text_97_node_16",
+      "relation": "before",
+      "support_text": "追捕行动导致袭击事件成为全球焦点"
+    }
+  ]
+}

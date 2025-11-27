@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_26_node_1",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "布什总统最初报告Zinni和谈取得进展",
+      "support_text": "Secretary of State Colin Powell said that the US envoy, General Anthony Zinni would remain in the region ready for further talks.",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "Netanya发生炸弹袭击事件",
+      "support_text": "By Paul Reynolds BBC Washington correspondent US President George W Bush has condemned the bomb attack in Netanya",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_3",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Broadcast",
+      "description": "布什强烈谴责袭击并要求阿拉法特制止",
+      "support_text": "I condemn it in the most strongest of terms. I call upon Mr Arafat and the Palestinian Authority to do everything in their power to stop the terrorist killing",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "鲍威尔建议阿拉法特向民众传达反恐信息",
+      "support_text": "Mr Arafat should broadcast to his people, he said, and tell them they were destroying their own vision for a Palestinian state living side by side with Israel",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国担忧袭击导致和平进程停滞",
+      "support_text": "The American fear is that the bombing will derail what is left of the Zinni mission and drive Israel towards a policy of reoccupying the Palestinian territories",
+      "source_text": "text_26"
+    },
+    {
+      "id": "text_26_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "布什对局势恶化表示绝望，原计划受挫",
+      "support_text": "Washington's plans of recent days are in tatters and it is scrambling to put something back together",
+      "source_text": "text_26"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_26_node_1",
+      "target": "text_26_node_4",
+      "relation": "before",
+      "support_text": "Secretary of State Colin Powell said that the US envoy, General Anthony Zinni would remain in the region ready for further talks"
+    },
+    {
+      "source": "text_26_node_2",
+      "target": "text_26_node_3",
+      "relation": "before",
+      "support_text": "By Paul Reynolds BBC Washington correspondent US President George W Bush has condemned the bomb attack in Netanya"
+    },
+    {
+      "source": "text_26_node_3",
+      "target": "text_26_node_1",
+      "relation": "before",
+      "support_text": "I condemn it in the most strongest of terms. I call upon Mr Arafat and the Palestinian Authority to do everything in their power to stop the terrorist killing"
+    },
+    {
+      "source": "text_26_node_4",
+      "target": "text_26_node_5",
+      "relation": "before",
+      "support_text": "Mr Arafat should broadcast to his people, he said, and tell them they were destroying their own vision for a Palestinian state living side by side with Israel"
+    },
+    {
+      "source": "text_26_node_5",
+      "target": "text_26_node_6",
+      "relation": "before",
+      "support_text": "Washington's plans of recent days are in tatters and it is scrambling to put something back together"
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "nodes": [
+    {
+      "id": "text_64_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1995年11月13日，利雅得发生汽车炸弹袭击，美军在科巴布塔楼提升威胁等级",
+      "support_text": "Days after the attack, military commanders briefed soldiers and airmen at Khobar that the U.S. had received anonymous communications from an organization claiming to have carried out the Riyadh attack.",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1996年6月25日，科巴布塔楼Building #131遭卡车炸弹袭击，造成19名美军及1名沙特人员死亡",
+      "support_text": "The truck bomb was detonated adjacent to Building #131, an eight-story structure housing members of the United States Air Force's 4404th Wing (Provisional), primarily from a deployed rescue squadron and deployed fighter squadron.",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1996年调查发现袭击者从黎巴嫩走私炸药，使用改装污水罐车实施爆炸",
+      "support_text": "The attackers were reported to have smuggled explosives into Saudi Arabia from Lebanon.",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "2003年美国起诉伊朗和黎巴嫩真主党成员，沙特拒绝引渡涉案人员",
+      "support_text": "In 2006, a U.S. court found Iran and Hezbollah guilty of orchestrating the attack.",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_5",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "2001年美国法院缺席判决伊朗和真主党为袭击主谋，但伊朗未出庭应诉",
+      "support_text": "The official June 25, 1996, statement by the United States named members of Hezbollah Al-Hejaz as responsible.",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年9/11委员会报告指出本拉登曾对袭击表示祝贺，并涉及爆炸物运输计划",
+      "support_text": "The force of the explosion was enormous. The size of the explosion created an intense dust storm as the forces of the high pressure blast wave and the subsequent vacuum forces caused considerable damage in their own right.",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_7",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "2006年美国法院再次确认伊朗和真主党直接责任，依据 captured Hezbollah成员证词",
+      "support_text": "a U.S. court found Iran and Hezbollah guilty of orchestrating the attack.",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "2015年外媒报道真主党成员Ahmed Al-Mughassil在贝鲁特被捕移交沙特",
+      "support_text": "Al-Mughassil, Al-Houri, Al-Sayegh, Al-Qassab, and the unidentified Lebanese man bought a large latrine service tanker truck in early June 1996 in Saudi Arabia.",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_9",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "1996年后美军撤离科巴布，转移至Prince Sultan空军基地",
+      "support_text": "After the blast, the residents of the complex evacuated severely injured U.S. military personnel from the area.",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "2003年法国部队撤离沙特，美英部队转至卡塔尔Al Udeid空军基地",
+      "support_text": "The explosion heavily damaged or destroyed six high rise apartment buildings in the complex. Windows were shattered in virtually every other building in the compound and in surrounding buildings up to a mile (1.6 km) away.",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_11",
+      "event_type": "Life",
+      "event_subtype": "Injure",
+      "event_sub_subtype": "Unspecified",
+      "description": "498名来自多种国籍的人员被受伤",
+      "support_text": "语义描述：498名来自多种国籍的人员被受伤",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_12",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗和Hezbollah策划了1996年6月25日的科巴布塔楼卡车炸弹袭击",
+      "support_text": "伊朗和Hezbollah策划了袭击",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "攻击者准备在卡塔尔塔伊夫地下藏匿爆炸物和定时装置",
+      "support_text": "攻击者准备在卡塔尔塔伊夫地下藏匿爆炸物和定时装置",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "攻击者将爆炸物和定时装置藏于颜料罐和袋中",
+      "support_text": "攻击者将爆炸物和定时装置藏于颜料罐和袋中",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_15",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "1996年6月25日卡车炸弹袭击前，攻击者试图进入科巴布塔楼主检查点",
+      "support_text": "攻击者试图进入主检查点",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_16",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "1996年6月25日袭击后，美军拒绝攻击者进入科巴布塔楼",
+      "support_text": "美军拒绝攻击者进入",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_17",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "1996年6月25日袭击中，攻击者驾驶多辆改装车辆前往停车场",
+      "support_text": "攻击者驾驶多辆车前往停车场",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_18",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "警员目击男子",
+      "support_text": "警员目击男子",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警员识别车辆为威胁",
+      "support_text": "警员识别车辆为威胁",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_20",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "警员向安保报告",
+      "support_text": "警员向安保报告",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_21",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "警员开始逐层疏散",
+      "support_text": "警员开始逐层疏散",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "克林顿官员承认收到针对美国人和设施的威胁",
+      "support_text": "语义描述：克林顿政府官员承认收到针对美国人和设施的威胁",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_23",
+      "event_type": "Contact",
+      "event_subtype": "ThreatenCoerce",
+      "event_sub_subtype": "Unspecified",
+      "description": "克林顿官员收到针对沙特美国人和设施的威胁浪潮",
+      "support_text": "语义描述：克林顿官员收到针对沙特美国人和设施的威胁浪潮",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_24",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "克林顿官员未能充分准备应对导致19名军人死亡的炸弹",
+      "support_text": "语义描述：克林顿官员未能充分准备应对导致19名军人死亡的炸弹",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_25",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "沙特淡化针对美国的威胁",
+      "support_text": "语义描述：沙特淡化针对美国的威胁",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_26",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "沙特国防部长将1995年伊斯兰极端分子行为描述为幼稚",
+      "support_text": "语义描述：沙特国防部长将1995年伊斯兰极端分子行为描述为幼稚",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_27",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "沙特国防部长声明王国不受威胁影响",
+      "support_text": "语义描述：沙特国防部长声明王国不受威胁影响",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_28",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "参议员在委员会会议上就情报失误发表评论",
+      "support_text": "语义描述：参议员在委员会会议上就情报失误发表评论",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_30",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "CIA被指控误判沙特极端组织的炸弹制造能力",
+      "support_text": "CIA被指控误判沙特极端组织的炸弹制造能力",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_31",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "CIA误判沙特极端组织的炸弹制造能力",
+      "support_text": "CIA误判沙特极端组织的炸弹制造能力",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_32",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "CIA任意决定炸弹尺寸限制（不超过1995年利雅得爆炸物）",
+      "support_text": "CIA任意决定炸弹尺寸限制（不超过1995年利雅得爆炸物）",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_33",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "Khobar炸弹称重达5000磅",
+      "support_text": "Khobar炸弹称重达5000磅",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_34",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "美军指挥官未能实施涂塑料窗的防护建议",
+      "support_text": "美军指挥官未能实施涂塑料窗的防护建议",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_35",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "建议对Khobar公寓窗户涂塑料",
+      "support_text": "建议对Khobar公寓窗户涂塑料",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_36",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "五角大楼和Khobar报告建议贝鲁特级炸弹在300英尺外仍能造成重大损害",
+      "support_text": "五角大楼和Khobar报告建议贝鲁特级炸弹在300英尺外仍能造成重大损害",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_37",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "FBI通过three-year investigation得出结论",
+      "support_text": "three-year investigation导致FBI认定伊朗参与袭击",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_38",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Khatami拒绝启动调查",
+      "support_text": "Khatami拒绝启动调查",
+      "source_text": "text_64"
+    },
+    {
+      "id": "text_64_node_39",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国法院起诉8名沙特籍嫌疑人",
+      "support_text": "美国法院正式起诉8名沙特籍等嫌疑人",
+      "source_text": "text_64"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_64_node_1",
+      "target": "text_64_node_2",
+      "relation": "before",
+      "support_text": "At that time, Khobar Towers was being used as living quarters for coalition forces who were assigned to Operation Southern Watch, a no-fly zone operation in southern Iraq, as part of the Iraqi no-fly zones."
+    },
+    {
+      "source": "text_64_node_2",
+      "target": "text_64_node_3",
+      "relation": "before",
+      "support_text": "The attackers claimed their goal was to get the United States Armed Forces to leave the country, and that Khobar Towers would be attacked next if troop withdrawal did not begin immediately."
+    },
+    {
+      "source": "text_64_node_2",
+      "target": "text_64_node_9",
+      "relation": "before",
+      "support_text": "After the blast, the residents of the complex evacuated severely injured U.S. military personnel from the area."
+    },
+    {
+      "source": "text_64_node_2",
+      "target": "text_64_node_11",
+      "relation": "before",
+      "support_text": "1996年6月25日，科巴布塔楼Building #131遭卡车炸弹袭击，造成19名美军及1名沙特人员死亡（事件触发后续受伤）"
+    },
+    {
+      "source": "text_64_node_2",
+      "target": "text_64_node_15",
+      "relation": "before",
+      "support_text": "卡车炸弹袭击前攻击者试图进入检查点"
+    },
+    {
+      "source": "text_64_node_2",
+      "target": "text_64_node_18",
+      "relation": "before",
+      "support_text": "警员目击男子（事件触发后续行动）"
+    },
+    {
+      "source": "text_64_node_3",
+      "target": "text_64_node_4",
+      "relation": "before",
+      "support_text": "In 2006, a U.S. court found Iran and Hezbollah guilty of orchestrating the attack."
+    },
+    {
+      "source": "text_64_node_5",
+      "target": "text_64_node_7",
+      "relation": "before",
+      "support_text": "The official June 25, 1996, statement by the United States named members of Hezbollah Al-Hejaz as responsible."
+    },
+    {
+      "source": "text_64_node_5",
+      "target": "text_64_node_12",
+      "relation": "before",
+      "support_text": "1996年6月25日的声明为后续指控提供了依据"
+    },
+    {
+      "source": "text_64_node_7",
+      "target": "text_64_node_8",
+      "relation": "before",
+      "support_text": "The explosion heavily damaged or destroyed six high rise apartment buildings in the complex. Windows were shattered in virtually every other building in the compound and in surrounding buildings up to a mile (1.6 km) away."
+    },
+    {
+      "source": "text_64_node_9",
+      "target": "text_64_node_10",
+      "relation": "before",
+      "support_text": "The blast was so powerful that it was felt away in the Persian Gulf state of Bahrain."
+    },
+    {
+      "source": "text_64_node_15",
+      "target": "text_64_node_16",
+      "relation": "before",
+      "support_text": "试图进入后美军拒绝进入"
+    },
+    {
+      "source": "text_64_node_16",
+      "target": "text_64_node_17",
+      "relation": "before",
+      "support_text": "拒绝进入后实施驾驶运输"
+    },
+    {
+      "source": "text_64_node_18",
+      "target": "text_64_node_19",
+      "relation": "before",
+      "support_text": "目击后识别车辆"
+    },
+    {
+      "source": "text_64_node_19",
+      "target": "text_64_node_20",
+      "relation": "before",
+      "support_text": "识别后报告"
+    },
+    {
+      "source": "text_64_node_20",
+      "target": "text_64_node_21",
+      "relation": "before",
+      "support_text": "报告后开始疏散"
+    },
+    {
+      "source": "text_64_node_37",
+      "target": "text_64_node_38",
+      "relation": "before",
+      "support_text": "调查导致结论后Khatami拒绝启动"
+    }
+  ]
+}

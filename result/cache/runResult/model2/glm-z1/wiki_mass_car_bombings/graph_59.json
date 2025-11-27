@@ -1,0 +1,309 @@
+{
+  "nodes": [
+    {
+      "id": "text_59_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "McArdle作为IRA成员于1996年2月参与策划并实施伦敦南码头卡车炸弹袭击",
+      "support_text": "James McArdle, 29, was part of an IRA team responsible for detonating a massive lorry bomb in February 1996",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "爆炸造成2人死亡、150人受伤及1500万英镑经济损失，导致IRA停火协议破裂",
+      "support_text": "which killed two, injured 150 and spectacularly brought an end to their 18-month ceasefire",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "McArdle两次驾驶改装卡车：首次至Carlisle进行伪装采购，二次携带1吨自制炸药",
+      "support_text": "McArdle twice drove the converted car transporter used in the attack from Belfast to the mainland. On the first 'dummy run'... Three weeks later McArdle was behind the wheel once more",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "袭击后IRA成员在Barking河岸丢弃证据并逃离现场",
+      "support_text": "once there they stopped off at waste ground in River Road, Barking, Essex, where the trailer... was abandoned and incriminating evidence dumped",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "目击者Arthur Ward于爆炸后第199通电话报警，协助警方锁定目标车辆",
+      "support_text": "An intensive police hotline following the blast received 850 calls. The 199th call came from Arthur Ward... who had spotted the bomb lorry",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方通过指纹证据和车辆追踪还原袭击全过程",
+      "support_text": "Crucially they managed to find three of McArdle's thumb prints",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "McArdle被正式起诉并接受两轮谋杀指控（含未指认同伙保护家人）",
+      "support_text": "McArdle was finally brought to trial following a meticulous investigation",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_8",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "Woolwich Crown Court陪审团于庭审后首次达成爆炸阴谋罪的有罪裁决",
+      "support_text": "the jury at London's Woolwich Crown Court convicted him of one charge of conspiring",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_9",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "陪审团继续 deliberations，需最终裁决两起谋杀指控",
+      "support_text": "The jury was sent home last night to continue deliberating",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_10",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "IRA恐怖分子协助安放炸弹",
+      "support_text": "IRA恐怖分子协助安放炸弹",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_11",
+      "event_type": "Justice",
+      "event_subtype": "Convict",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院向公众披露案件细节",
+      "support_text": "法院向公众披露案件细节",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_12",
+      "event_type": "Justice",
+      "event_subtype": "ChargeIndict",
+      "event_sub_subtype": "Unspecified",
+      "description": "McArdle被正式起诉并接受两轮谋杀指控（含未指同居伙保护家人）",
+      "support_text": "McArdle was finally brought to trial following a meticulous investigation",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_13",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "McArdle否认指控",
+      "support_text": "语义描述：McArdle否认指控",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_14",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "法官告知陪审团接受多数裁决",
+      "support_text": "语义描述：法官告知陪审团接受多数裁决",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_15",
+      "event_type": "Justice",
+      "event_subtype": "TrialHearing",
+      "event_sub_subtype": "Unspecified",
+      "description": "法庭听取控方主张",
+      "support_text": "语义描述：法庭听取控方主张",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "控方坚持McArdle在恐袭中起关键作用",
+      "support_text": "语义描述：控方坚持McArdle在恐袭中起关键作用",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_17",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "McArdle停放卡车炸弹",
+      "support_text": "语义描述：McArdle停放卡车炸弹",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_18",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "IRA停火始于1994年8月（过去完成时）",
+      "support_text": "语义描述：IRA停火始于1994年8月（过去完成时）",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_19",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方调查使侦探能够拼凑车辆历史",
+      "support_text": "警方调查使侦探能够拼凑车辆历史",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_20",
+      "event_type": "Cognitive",
+      "event_subtype": "Inspection",
+      "event_sub_subtype": "SensoryObserve",
+      "description": "侦探重构爆炸行程",
+      "support_text": "侦探重构爆炸行程",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_21",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "McArdle承认驾驶卡车",
+      "support_text": "McArdle承认驾驶卡车",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_22",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "McArdle声称自己是无辜的棋子",
+      "support_text": "McArdle声称自己是无辜的棋子",
+      "source_text": "text_59"
+    },
+    {
+      "id": "text_59_node_23",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "McArdle拒绝指认'老板'身份",
+      "support_text": "McArdle拒绝指认'老板'身份",
+      "source_text": "text_59"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_59_node_1",
+      "target": "text_59_node_2",
+      "relation": "before",
+      "support_text": "which killed two, injured 150 and spectacularly brought an end to their 18-month ceasefire"
+    },
+    {
+      "source": "text_59_node_1",
+      "target": "text_59_node_3",
+      "relation": "before",
+      "support_text": "James McArdle, 29, was part of an IRA team responsible for detonating a massive lorry bomb in February 1996"
+    },
+    {
+      "source": "text_59_node_1",
+      "target": "text_59_node_19",
+      "relation": "before",
+      "support_text": "警方调查使侦探能够拼凑车辆历史"
+    },
+    {
+      "source": "text_59_node_2",
+      "target": "text_59_node_5",
+      "relation": "before",
+      "support_text": "An intensive police hotline following the blast received 850 calls"
+    },
+    {
+      "source": "text_59_node_3",
+      "target": "text_59_node_4",
+      "relation": "before",
+      "support_text": "once there they stopped off at waste ground in River Road, Barking, Essex"
+    },
+    {
+      "source": "text_59_node_5",
+      "target": "text_59_node_6",
+      "relation": "before",
+      "support_text": "Crucially they managed to find three of McArdle's thumb prints"
+    },
+    {
+      "source": "text_59_node_6",
+      "target": "text_59_node_7",
+      "relation": "before",
+      "support_text": "McArdle was finally brought to trial following a meticulous investigation"
+    },
+    {
+      "source": "text_59_node_7",
+      "target": "text_59_node_8",
+      "relation": "before",
+      "support_text": "the jury at London's Woolwich Crown Court convicted him"
+    },
+    {
+      "source": "text_59_node_8",
+      "target": "text_59_node_9",
+      "relation": "before",
+      "support_text": "The jury was sent home last night to continue deliberating"
+    },
+    {
+      "source": "text_59_node_8",
+      "target": "text_59_node_14",
+      "relation": "before",
+      "support_text": "庭审后法官告知陪审团多数裁决"
+    },
+    {
+      "source": "text_59_node_10",
+      "target": "text_59_node_1",
+      "relation": "before",
+      "support_text": "IRA恐怖分子协助安放炸弹发生在1996年2月卡车炸弹袭击前"
+    },
+    {
+      "source": "text_59_node_11",
+      "target": "text_59_node_7",
+      "relation": "before",
+      "support_text": "法院披露案件细节发生在McArdle被正式起诉后"
+    },
+    {
+      "source": "text_59_node_19",
+      "target": "text_59_node_20",
+      "relation": "before",
+      "support_text": "侦探重构爆炸行程"
+    },
+    {
+      "source": "text_59_node_20",
+      "target": "text_59_node_21",
+      "relation": "before",
+      "support_text": "McArdle承认驾驶卡车"
+    },
+    {
+      "source": "text_59_node_21",
+      "target": "text_59_node_22",
+      "relation": "before",
+      "support_text": "McArdle声称自己是无辜的棋子"
+    },
+    {
+      "source": "text_59_node_22",
+      "target": "text_59_node_23",
+      "relation": "before",
+      "support_text": "McArdle拒绝指认'老板'身份"
+    }
+  ]
+}

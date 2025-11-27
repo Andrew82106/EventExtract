@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_15_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2018年7月7日，Al-Shabaab袭击摩加迪沙的 interior 和 security ministries 的 compound",
+      "support_text": "The July 2018 Mogadishu bombings took place on July 7, 2018 when fighters of the Somali group Al-Shabaab attacked the compound of Somalia's interior and security ministries in the center of Mogadishu.",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "恐怖分子在 interior 部门大楼的主要入口处引爆了两辆汽车炸弹",
+      "support_text": "fighters detonated two car bombs outside the main gate of the interior ministry building",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_3",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "三名激进分子随后冲入大楼",
+      "support_text": "three militants stormed it",
+      "source_text": "text_15"
+    },
+    {
+      "id": "text_15_node_4",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "安全部队击毙了所有三名枪手，造成至少20人死亡，多人受伤",
+      "support_text": "all three gunmen were killed by the security forces",
+      "source_text": "text_15"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_15_node_1",
+      "target": "text_15_node_2",
+      "relation": "before",
+      "support_text": "when fighters of the Somali group Al-Shabaab attacked the compound"
+    },
+    {
+      "source": "text_15_node_2",
+      "target": "text_15_node_3",
+      "relation": "before",
+      "support_text": "before three militants stormed it"
+    },
+    {
+      "source": "text_15_node_3",
+      "target": "text_15_node_4",
+      "relation": "before",
+      "support_text": "and all three gunmen were killed by the security forces"
+    }
+  ]
+}

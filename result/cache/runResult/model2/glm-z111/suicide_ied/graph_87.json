@@ -1,0 +1,249 @@
+{
+  "nodes": [
+    {
+      "id": "text_87_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "JMB自杀小队对Udichi区办公室发动炸弹袭击，导致文化组织官员Khwaja Haidar Hossain死亡",
+      "support_text": "Netrakona bomb attacks condemned The suicide squad of banned Jama'atul Mujahideen Bangladesh (JMB) carried out the brutal attacks in front of the district office of Udichi (a leading cultural body). Khwaja Haidar Hossain, assistant general secretary of district udichi, was killed.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "Udichi宣布全国范围为期两天的抗议活动，包括集会、游行、饥饿罢工和降半旗",
+      "support_text": "Udichi also announced a two-day programmes including rallies, processions, token hunger strikes, and black flag hoisting across the country",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "工人党领袖Rashed Khan Menon谴责政府必须解除JMB联盟关系",
+      "support_text": "Workers' Party President Rashed Khan Menon and General Secretary Bimal Biswas, in a statement, said no government initiative would be effective unless Jamaat is removed from the alliance-government.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_4",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "社会民主同盟领袖Hasanul Haque Inu指控政府双重标准助长Militants气焰",
+      "support_text": "Jatiya Samajtantrik Dal President Hasanul Haque Inu and General Secretary Syed Jafar Sajjad said the militants are now desperate to carry out the brutal bomb attacks across the country as the government has resorted to a double standard policy to prevent the militancy.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "共产党领袖Manzurul Ahsan Khan号召效仿1971年全民抵抗",
+      "support_text": "Communist Party of Bangladesh (CPB) President Manzurul Ahsan Khan and General Secretary Mujahidul Islam Selim said the nation will have to rise once again like 1971 to prevent the militants and communal forces.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "五党联合声明暗示政府与袭击者勾结",
+      "support_text": "Left-leaning Five-Party in a statement said the latest bomb blasts substantiate the popular claim that the government is involved with the attackers.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_7",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "BDB要求政府清除涉恐内阁成员",
+      "support_text": "Joint Secretary General of Bikalpa Dhara Bangladesh (BDB) Firoj M Hasan urged the government to remove those involved in militants' activities to prove its willingness to stop the bomb attacks.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_8",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "部分政党要求 home minister辞职",
+      "support_text": "Leaders of Bangladesher Samajtantrik Dal at a protest rally yesterday demanded resignation of the home minister for his failure to stop the bomb attacks.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_9",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "超过20个组织加入谴责，要求严惩凶手",
+      "support_text": "The other organisations that condemned the bomb blasts and demanded exemplary punishment to the culprits included...",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "Netrakona当地单位和政界联合游行，指控政府庇护共犯",
+      "support_text": "Local units of Udichi and political leaders yesterday took out a joint procession and held a rally at Gonockpara Crossing to protest the suicide bomb attacks in Netrokona.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_11",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "Jamaat被排除在联盟政府之外",
+      "support_text": "Workers' Party President Rashed Khan Menon and General Secretary Bimal Biswas, in a statement, said no government initiative would be effective unless Jamaat is removed from the alliance-government.",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_12",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "武装分子在部长家乡发动自杀式袭击",
+      "support_text": "武装分子在部长家乡发动自杀式袭击",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_13",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府防止军事活动",
+      "support_text": "the government prevent the militancy",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_14",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "民众不依赖政府和行政",
+      "support_text": "the general people do not depend on the government and administration",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_15",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "政府/行政机构移除参与军事活动的反自由主义元素",
+      "support_text": "政府/行政机构移除参与军事活动的反自由主义元素",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_16",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "CPB领导人声明：除非移除参与军事活动的反自由主义元素，否则暴力爆炸袭击不会停止",
+      "support_text": "CPB领导人声明：除非移除参与军事活动的反自由主义元素，否则暴力爆炸袭击不会停止",
+      "source_text": "text_87"
+    },
+    {
+      "id": "text_87_node_17",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "左翼五党证实民众对政府与袭击者勾结的说法",
+      "support_text": "左翼五党在声明中表示最新炸弹爆炸证实了民众对政府与袭击者勾结的说法",
+      "source_text": "text_87"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_87_node_1",
+      "target": "text_87_node_2",
+      "relation": "before",
+      "support_text": "Leaders and workers of the organisations also brought out processions just after the spread of the news of the blasts."
+    },
+    {
+      "source": "text_87_node_1",
+      "target": "text_87_node_9",
+      "relation": "before",
+      "support_text": "炸弹袭击发生后，超过20个组织加入谴责"
+    },
+    {
+      "source": "text_87_node_2",
+      "target": "text_87_node_3",
+      "relation": "before",
+      "support_text": "Workers' Party President Rashed Khan Menon and General Secretary Bimal Biswas, in a statement, said..."
+    },
+    {
+      "source": "text_87_node_2",
+      "target": "text_87_node_4",
+      "relation": "before",
+      "support_text": "Jatiya Samajtantrik Dal President Hasanul Haque Inu and General Secretary Syed Jafar Sajjad said..."
+    },
+    {
+      "source": "text_87_node_2",
+      "target": "text_87_node_5",
+      "relation": "before",
+      "support_text": "Communist Party of Bangladesh (CPB) President Manzurul Ahsan Khan and General Secretary Mujahidul Islam Selim said..."
+    },
+    {
+      "source": "text_87_node_2",
+      "target": "text_87_node_6",
+      "relation": "before",
+      "support_text": "Left-leaning Five-Party in a statement said..."
+    },
+    {
+      "source": "text_87_node_2",
+      "target": "text_87_node_7",
+      "relation": "before",
+      "support_text": "Joint Secretary General of Bikalpa Dhara Bangladesh (BDB) Firoj M Hasan urged..."
+    },
+    {
+      "source": "text_87_node_2",
+      "target": "text_87_node_8",
+      "relation": "before",
+      "support_text": "Leaders of Bangladesher Samajtantrik Dal at a protest rally yesterday demanded..."
+    },
+    {
+      "source": "text_87_node_2",
+      "target": "text_87_node_9",
+      "relation": "before",
+      "support_text": "The other organisations that condemned the bomb blasts and demanded exemplary punishment to the culprits included..."
+    },
+    {
+      "source": "text_87_node_3",
+      "target": "text_87_node_11",
+      "relation": "before",
+      "support_text": "工党声明触发政府排除Jamaat行动"
+    },
+    {
+      "source": "text_87_node_5",
+      "target": "text_87_node_16",
+      "relation": "before",
+      "support_text": "在node_5的声明之后，CPB进一步强调移除反自由主义元素"
+    },
+    {
+      "source": "text_87_node_9",
+      "target": "text_87_node_10",
+      "relation": "before",
+      "support_text": "Our RU Correspondent adds: Local units of Udichi and political leaders yesterday took out a joint procession..."
+    },
+    {
+      "source": "text_87_node_12",
+      "target": "text_87_node_9",
+      "relation": "before",
+      "support_text": "部长家乡袭击引发多组织谴责"
+    },
+    {
+      "source": "text_87_node_13",
+      "target": "text_87_node_14",
+      "relation": "before",
+      "support_text": "根据temporal_order 1和3建立顺序关系"
+    },
+    {
+      "source": "text_87_node_16",
+      "target": "text_87_node_15",
+      "relation": "before",
+      "support_text": "在声明之后，政府/行政机构需要实施移除行动"
+    }
+  ]
+}

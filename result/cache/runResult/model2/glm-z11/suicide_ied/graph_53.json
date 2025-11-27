@@ -1,0 +1,14 @@
+{
+  "nodes": [
+    {
+      "id": "text_53_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2005年7月7日伦敦发生恐怖袭击，造成52人死亡。",
+      "support_text": "52 people who lost their lives in the London bombings of 7 July 2005",
+      "source_text": "text_53"
+    }
+  ],
+  "edges": []
+}

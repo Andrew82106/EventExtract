@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_62_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "2016年2月2日 Daallo Airlines航班D3 159在 Mogadishu机场起飞15分钟后于12000英尺高度发生爆炸，右侧机身出现大洞，致1死2伤后安全返航",
+      "support_text": "An Airbus A321-111, operating Daallo Airlines flight D3 159, suffered an in-flight explosion about 15 minutes after takeoff from Mogadishu Airport, Somalia when the aircraft was at about 12,000 feet. A large hole was blown in the fuselage and one passenger fell out of the aircraft and was killed. Two other passengers were injured.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸乘客原预订的土耳其航空TK689航班（Mogadishu-Djibouti）在事故当天10:25原定起飞时间被取消",
+      "support_text": "Flight TK689 is scheduled to depart Mogadishu at 10:25 hours local time with a two-hour flying time to Djibouti. Flight D3159 departed about 11:30 hours. On February 1 and 2 Turkish Airlines cancelled the return leg between Djibouti to Mogadishu.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_3",
+      "event_type": "Life",
+      "event_subtype": "Die",
+      "event_sub_subtype": "Unspecified",
+      "description": "Somali情报部门披露机场工作人员曾接触含炸弹的笔记本电脑，该设备被交给爆炸身亡的乘客",
+      "support_text": "Somali intelligence officials say two airport workers handled a laptop believed to have contained a bomb that later exploded in a passenger plane. They handed over the laptop to the passenger that was killed.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "原计划执行TK689返程航班的A320-232 TC-JBI飞机于2016年8月9日从Jeddah低空转运至Amman储存",
+      "support_text": "Airbus A320-232 TC-JBI was the aircraft that was scheduled to operate the February 2 flight. The aircraft was ferried to Amman via Jeddah at low altitude (max FL120) on August 9, 2016 and stored there.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_node_5",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2016年5月Somali军事法庭对涉案的10名爆炸相关人员作出判决",
+      "support_text": "In May 2016 a military court in Somalia sentence ten people involved in the bombing.",
+      "source_text": "text_62"
+    },
+    {
+      "id": "text_62_new_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "空客A320-232 TC-JBI被安排执飞2月2日的航班",
+      "support_text": "空客A320-232 TC-JBI被安排执飞2月2日的航班",
+      "source_text": "text_62"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_62_node_1",
+      "target": "text_62_node_5",
+      "relation": "before",
+      "support_text": "In May 2016 a military court in Somalia sentence ten people involved in the bombing."
+    },
+    {
+      "source": "text_62_node_2",
+      "target": "text_62_node_1",
+      "relation": "before",
+      "support_text": "On February 1 and 2 Turkish Airlines cancelled the return leg between Djibouti to Mogadishu."
+    },
+    {
+      "source": "text_62_node_3",
+      "target": "text_62_node_1",
+      "relation": "before",
+      "support_text": "Somali intelligence officials say two airport workers handled a laptop believed to have contained a bomb that later exploded in a passenger plane."
+    },
+    {
+      "source": "text_62_node_5",
+      "target": "text_62_node_4",
+      "relation": "before",
+      "support_text": "The aircraft was ferried to Amman via Jeddah at low altitude (max FL120) on August 9, 2016"
+    },
+    {
+      "source": "text_62_new_node_6",
+      "target": "text_62_node_1",
+      "relation": "before",
+      "support_text": "原计划执行TK689返程航班的A320-232 TC-JBI飞机于2016年8月9日从Jeddah低空转运至Amman储存"
+    }
+  ]
+}

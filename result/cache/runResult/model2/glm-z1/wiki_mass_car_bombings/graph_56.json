@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "text_56_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "奥斯陆政府总部附近发生大规模炸弹袭击",
+      "support_text": "A huge bomb has caused large-scale devastation close to government headquarters",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "奥斯陆郊外劳工党青年营地发生枪击案致10人死亡",
+      "support_text": "At least 10 people are killed in a shooting at a Labour Party youth camp outside Oslo",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "32岁挪威籍嫌疑人被逮捕，涉嫌策划两起袭击",
+      "support_text": "A 32-year-old Norwegian has been arrested and is thought to be behind both attacks",
+      "source_text": "text_56"
+    },
+    {
+      "id": "text_56_node_4",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "首相延斯·斯托尔滕贝格表示不会因恐袭屈服",
+      "support_text": "PM Jens Stoltenberg says: 'No-one will bomb us to silence'",
+      "source_text": "text_56"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_56_node_1",
+      "target": "text_56_node_2",
+      "relation": "before",
+      "support_text": "close to government headquarters in Oslo Norwegian police say at least seven people have been killed and two are badly wounded"
+    },
+    {
+      "source": "text_56_node_2",
+      "target": "text_56_node_3",
+      "relation": "before",
+      "support_text": "A 32-year-old Norwegian has been arrested and is thought to be behind both attacks"
+    },
+    {
+      "source": "text_56_node_3",
+      "target": "text_56_node_4",
+      "relation": "before",
+      "support_text": "PM Jens Stoltenberg says: 'No-one will bomb us to silence'"
+    }
+  ]
+}

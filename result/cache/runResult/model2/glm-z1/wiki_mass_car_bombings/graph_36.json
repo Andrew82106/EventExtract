@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "text_36_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "1999年莫斯科和伏尔加格勒公寓爆炸案造成240人死亡，数百人受伤",
+      "support_text": "apartment blasts that killed about 240 people and aimed hundred others in Moscow and Volgodonsk in southern Russia in 1999",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "调查确认Adam Dekkushev和Yusuf Crymshamhalov为爆炸案主犯，属Achemez Gochiyaev团伙",
+      "support_text": "According to investigation results both were members of Achemez Gochiyaev’s gang, which was responsible for the blast, according to the court order.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_3",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Dekkushev于2002年4月14日通过俄格联合引渡程序被引渡至俄罗斯",
+      "support_text": "Dekkushev was extradited to Russia on April 14, 2002, while Crymshamhalov on Dec. 7 following a special military operation in the Pankisi Gorge.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_4",
+      "event_type": "Justice",
+      "event_subtype": "ArrestJailDetain",
+      "event_sub_subtype": "Unspecified",
+      "description": "Crymshamhalov于2002年12月7日在格鲁吉亚潘基斯峡谷遭俄军特种行动逮捕",
+      "support_text": "Crymshamhalov on Dec. 7 following a special military operation in the Pankisi Gorge.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "法院于2003年10月启动封闭审理，两被告仅部分认罪",
+      "support_text": "The court hearing, which started last October, was closed to public.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_6",
+      "event_type": "Justice",
+      "event_subtype": "Sentence",
+      "event_sub_subtype": "Unspecified",
+      "description": "2004年1月11日法院判处两人终身监禁并强制赔偿受害者",
+      "support_text": "have been sentenced to life term each in a special-regime colony. They will also have to pay compensations for material and moral damages.",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Dekkushev和Crymshamhalov实施酷刑杀人",
+      "support_text": "Dekkushev and Crymshamhalov carried out torture and killing",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Dekkushev和Crymshamhalov运输爆炸物",
+      "support_text": "Dekkushev and Crymshamhalov transported explosives",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_9",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "Dekkushev和Crymshamhalov储存爆炸物",
+      "support_text": "Dekkushev and Crymshamhalov stored explosives",
+      "source_text": "text_36"
+    },
+    {
+      "id": "text_36_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "IllegalTransportation",
+      "description": "Dekkushev和Crymshamhalov非法越境",
+      "support_text": "Dekkushev and Crymshamhalov illegally crossed borders",
+      "source_text": "text_36"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_36_node_1",
+      "target": "text_36_node_2",
+      "relation": "before",
+      "support_text": "apartment blasts that killed about 240 people and aimed hundred others in Moscow and Volgodonsk in southern Russia in 1999"
+    },
+    {
+      "source": "text_36_node_2",
+      "target": "text_36_node_3",
+      "relation": "before",
+      "support_text": "According to investigation results both were members of Achemez Gochiyaev’s gang, which was responsible for the blast, according to the court order."
+    },
+    {
+      "source": "text_36_node_2",
+      "target": "text_36_node_4",
+      "relation": "before",
+      "support_text": "According to investigation results both were members of Achemez Gochiyaev’s gang, which was responsible for the blast, according to the court order."
+    },
+    {
+      "source": "text_36_node_2",
+      "target": "text_36_node_5",
+      "relation": "before",
+      "support_text": "According to investigation results both were members of Achemez Gochiyaev’s gang, which was responsible for the blast, according to the court order."
+    },
+    {
+      "source": "text_36_node_3",
+      "target": "text_36_node_4",
+      "relation": "before",
+      "support_text": "Dekkushev was extradited to Russia on April 14, 2002, while Crymshamhalov on Dec. 7 following a special military operation in the Pankisi Gorge."
+    },
+    {
+      "source": "text_36_node_5",
+      "target": "text_36_node_6",
+      "relation": "before",
+      "support_text": "The court hearing, which started last October, was closed to public."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "text_55_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "周四在伊拉克希尔拉市加油站发生自杀式卡车炸弹袭击，造成约100人死亡，多为返伊朗的什叶派朝圣者",
+      "support_text": "A suicide truck bomb killed about 100 people, most of them Iranian Shi’ite pilgrims, at a petrol station in the city of Hilla 100 km (62 miles) south of Baghdad on Thursday, police and medical sources said.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织伊斯兰国通过在线声明宣称对袭击负责",
+      "support_text": "Islamic State... claimed responsibility the attack in an online statement.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "爆炸导致5辆朝圣者巴士和加油站餐厅被毁",
+      "support_text": "Five pilgrim buses were set afire by the blast from the explosives-laden truck, a police official said.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_4",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "爆炸发生前朝圣者正从伊拉克什叶派圣地克尔巴拉返回伊朗途中",
+      "support_text": "The pilgrims were en route back to Iran from the Iraqi Shi’ite holy city of Kerbala...",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_5",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊朗外交部谴责袭击但未公布伤亡数字，重申支持伊拉克反恐",
+      "support_text": "Iran’s Foreign Ministry condemned the attack without giving a casualty toll.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_6",
+      "event_type": "Transaction",
+      "event_subtype": "AidBetweenGovernments",
+      "event_sub_subtype": "Unspecified",
+      "description": "美国国家安全委员会谴责袭击，称将深化与伊拉克合作打击极端组织",
+      "support_text": "The United States remains steadfast in its partnership with the Iraqi people and government...",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_7",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "美国国务院表示正与伊拉克当局保持密切协调",
+      "support_text": "The U.S. State Department is in close contact with Iraqi authorities...",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊斯兰国近期在摩苏尔周边发动多起袭击，旨在削弱10月17日开始的收复摩苏尔作战",
+      "support_text": "Islamic State has intensified attacks in areas out of its control in efforts to weaken the offensive launched on Oct. 17 to retake Mosul...",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "警方和医疗部门确认了袭击事件",
+      "support_text": "police and medical sources said.",
+      "source_text": "text_55"
+    },
+    {
+      "id": "text_55_node_10",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Broadcast",
+      "description": "医疗来源报道朝圣者返回伊朗的行程",
+      "support_text": "医疗来源报道朝圣者返回伊朗的行程",
+      "source_text": "text_55"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_3",
+      "relation": "before",
+      "support_text": "Five pilgrim buses were set afire by the blast from the explosives-laden truck, a police official said."
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_2",
+      "relation": "before",
+      "support_text": "Islamic State... claimed responsibility the attack in an online statement."
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_5",
+      "relation": "before",
+      "support_text": "Iran’s Foreign Ministry condemned the attack without giving a casualty toll."
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_6",
+      "relation": "before",
+      "support_text": "The United States remains steadfast in its partnership with the Iraqi people and government..."
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_7",
+      "relation": "before",
+      "support_text": "The U.S. State Department is in close contact with Iraqi authorities..."
+    },
+    {
+      "source": "text_55_node_1",
+      "target": "text_55_node_9",
+      "relation": "before",
+      "support_text": "警方和医疗部门确认了袭击事件发生在node_1之后"
+    },
+    {
+      "source": "text_55_node_4",
+      "target": "text_55_node_1",
+      "relation": "before",
+      "support_text": "The pilgrims were en route back to Iran from the Iraqi Shi’ite holy city of Kerbala, where they had commemorated Arbaeen..."
+    },
+    {
+      "source": "text_55_node_8",
+      "target": "text_55_node_1",
+      "relation": "before",
+      "support_text": "Islamic State has intensified attacks in areas out of its control in efforts to weaken the offensive launched on Oct. 17 to retake Mosul..."
+    },
+    {
+      "source": "text_55_node_10",
+      "target": "text_55_node_1",
+      "relation": "before",
+      "support_text": "医疗来源报道朝圣者返回伊朗的行程"
+    }
+  ]
+}

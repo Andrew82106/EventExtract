@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "text_49_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周四（前一日）发生爆炸袭击：一名克什米尔武装分子驾驶装满炸药的卡车冲撞印军巴士，造成至少40名士兵死亡",
+      "support_text": "Another soldier was wounded in the gunbattle, which came after a local Kashmiri militant rammed an explosive-laden van into a paramilitary bus on Thursday, killing at least 40 soldiers in the worst attack against Indian government forces in Kashmir’s history.",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "周一（当天）印军包围南 pulwama 地区村庄，与武装分子交火致4人死亡（2名士兵、2名武装分子、1名平民）",
+      "support_text": "Fighting erupted early Monday after government forces surrounded a village in the southern Pulwama area on a tip that militants were hiding there, security officials said.",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_3",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "交火中印军使用爆炸摧毁1座平民房屋，并造成平民在交火中死亡",
+      "support_text": "Local residents said troops destroyed one civilian house by explosives during the fighting.",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Demonstrate",
+      "event_sub_subtype": "Unspecified",
+      "description": "交火引发当地居民抗议，青年与印军发生石块冲突，政府使用催泪瓦斯镇压",
+      "support_text": "The fighting triggered anti-India protests and clashes in the village, with local residents, mainly youths, trying to march to the site of the gunbattle in solidarity with the rebels. Government forces fired tear gas at stone-throwing protesters.",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "印度指控巴基斯坦支持此次袭击，承诺强硬回应；巴基斯坦否认指控",
+      "support_text": "India blamed Pakistan, promising a “jaw breaking response.” Pakistan warned India not to link it to the attack without an investigation.",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "双方互相指责克什米尔问题：印度强调安全威胁，巴基斯坦指责印度转移国际关注克什米尔人权问题",
+      "support_text": "Pakistan warned India not to link it to the attack without an investigation, saying that it was part of New Delhi’s “known rhetoric and tactics” to divert global attention from human rights violations in Kashmir.",
+      "source_text": "text_49"
+    },
+    {
+      "id": "text_49_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "当前局势：2016年著名武装领袖遇袭后抗议升级，印度加强反恐行动导致更多冲突",
+      "support_text": "The anti-India unrest grew especially after a popular rebel leader was killed in 2016. The Indian government responded with stepped-up anti-rebel operations, leading to more protests.",
+      "source_text": "text_49"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_49_node_1",
+      "target": "text_49_node_2",
+      "relation": "before",
+      "support_text": "which came after a local Kashmiri militant rammed an explosive-laden van into a paramilitary bus on Thursday"
+    },
+    {
+      "source": "text_49_node_2",
+      "target": "text_49_node_3",
+      "relation": "before",
+      "support_text": "during the fighting"
+    },
+    {
+      "source": "text_49_node_2",
+      "target": "text_49_node_4",
+      "relation": "before",
+      "support_text": "The fighting triggered anti-India protests and clashes in the village"
+    },
+    {
+      "source": "text_49_node_2",
+      "target": "text_49_node_5",
+      "relation": "before",
+      "support_text": "India blamed Pakistan, promising a “jaw breaking response.”"
+    },
+    {
+      "source": "text_49_node_5",
+      "target": "text_49_node_6",
+      "relation": "before",
+      "support_text": "Pakistan warned India not to link it to the attack without an investigation"
+    },
+    {
+      "source": "text_49_node_7",
+      "target": "text_49_node_1",
+      "relation": "before",
+      "support_text": "The anti-India unrest grew especially after a popular rebel leader was killed in 2016."
+    },
+    {
+      "source": "text_49_node_7",
+      "target": "text_49_node_2",
+      "relation": "before",
+      "support_text": "The Indian government responded with stepped-up anti-rebel operations, leading to more protests."
+    }
+  ]
+}

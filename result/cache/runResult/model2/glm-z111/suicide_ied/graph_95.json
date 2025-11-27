@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "text_95_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1983年Mughniyeh策划黎巴嫩美军军营卡车炸弹袭击，造成241名美军和58名法军死亡",
+      "support_text": "Mughniyeh is believed to have masterminded a suicide truck bombing attack in 1983 that targeted the barracks in Lebanon housing U.S. Marines.",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1983年Mughniyeh主导美国驻贝鲁特使馆首次爆炸，导致72人死亡包括CIA中东专家",
+      "support_text": "Mughniyeh is also believed to have been responsible for the bombings of the U.S. Embassy in Beirut, first in 1983 and then again in 1984, in which 72 people were killed, including the CIA's top Middle East expert.",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_3",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "1984年Mughniyeh再次策划美国驻贝鲁特使馆爆炸",
+      "support_text": "Mughniyeh is also believed to have been responsible for the bombings of the U.S. Embassy in Beirut, first in 1983 and then again in 1984, in which 72 people were killed, including the CIA's top Middle East expert.",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1985年Mughniyeh组织TWA客机劫持事件，导致1名美军士兵死亡",
+      "support_text": "In 1985, Mughniyeh is believed to have organized the hijacking of a TWA airliner, in which a U.S. Navy serviceman was killed.",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_5",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "1992年Mughniyeh策划以色列驻布宜诺斯艾利斯使馆爆炸，1994年实施犹太文化中心爆炸，共致115人死亡",
+      "support_text": "The Israelis believe Mughniyeh planned the bombing of the Israeli Embassy in Buenos Aires in 1992 and another bombing of a Jewish cultural center there two years later.",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_6",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Mughniyeh被指控策划绑架并杀害CIA驻黎巴嫩站长威廉·布克利",
+      "support_text": "Mughniyeh is suspected of orchestrating the kidnapping and murder of the CIA's station chief in Lebanon, William Buckley, as well as dozens of other hostages.",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "2008年Mughniyeh在叙利亚大马士革被汽车炸弹暗杀，伊朗学校及叙利亚情报局附近发生爆炸",
+      "support_text": "The bomb that killed Mughniyeh was placed under his parked car in an upscale neighborhood of Damascus.",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列否认暗杀但公开肯定行动，称其策划了多起针对以色列的恐怖袭击",
+      "support_text": "Israel denied it had killed Mughniyeh, but current and former Israeli officials made no effort Wednesday to hide their approval of the killing.",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_9",
+      "event_type": "Contact",
+      "event_subtype": "Prevarication",
+      "event_sub_subtype": "Meet",
+      "description": "美国国务院发表声明称Mughniyeh之死使世界更安全",
+      "support_text": "\"The world is a better place without this man in it,\" a State Department spokesman said Wednesday.",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_10",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "真主党电视台Al-Manar宣布Mughniyeh死亡",
+      "support_text": "真主党电视台Al-Manar首先宣布他的死亡",
+      "source_text": "text_95"
+    },
+    {
+      "id": "text_95_node_11",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "伊玛德·穆格尼耶被归类为圣战殉道者",
+      "support_text": "伊玛德·穆格尼耶成为圣战殉道者之一",
+      "source_text": "text_95"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_95_node_1",
+      "target": "text_95_node_2",
+      "relation": "before",
+      "support_text": "Mughniyeh is believed to have masterminded a suicide truck bombing attack in 1983 that targeted the barracks in Lebanon housing U.S. Marines."
+    },
+    {
+      "source": "text_95_node_1",
+      "target": "text_95_node_7",
+      "relation": "before",
+      "support_text": "1983年Mughniyeh策划黎巴嫩美军军营卡车炸弹袭击（含58名法军死亡）早于2008年Mughniyeh被暗杀"
+    },
+    {
+      "source": "text_95_node_2",
+      "target": "text_95_node_3",
+      "relation": "before",
+      "support_text": "first in 1983 and then again in 1984"
+    },
+    {
+      "source": "text_95_node_3",
+      "target": "text_95_node_4",
+      "relation": "before",
+      "support_text": "In 1985, Mughniyeh is believed to have organized the hijacking of a TWA airliner"
+    },
+    {
+      "source": "text_95_node_4",
+      "target": "text_95_node_5",
+      "relation": "before",
+      "support_text": "The Israelis believe Mughniyeh planned the bombing of the Israeli Embassy in Buenos Aires in 1992"
+    },
+    {
+      "source": "text_95_node_5",
+      "target": "text_95_node_7",
+      "relation": "before",
+      "support_text": "The bomb that killed Mughniyeh was placed under his parked car in an upscale neighborhood of Damascus"
+    },
+    {
+      "source": "text_95_node_6",
+      "target": "text_95_node_7",
+      "relation": "before",
+      "support_text": "Mughniyeh is suspected of orchestrating the kidnapping and murder of the CIA's station chief in Lebanon"
+    },
+    {
+      "source": "text_95_node_7",
+      "target": "text_95_node_8",
+      "relation": "before",
+      "support_text": "Israel denied it had killed Mughniyeh, but current and former Israeli officials made no effort Wednesday to hide their approval of the killing"
+    },
+    {
+      "source": "text_95_node_7",
+      "target": "text_95_node_9",
+      "relation": "before",
+      "support_text": "\"The world is a better place without this man in it,** a State Department spokesman said Wednesday"
+    },
+    {
+      "source": "text_95_node_7",
+      "target": "text_95_node_10",
+      "relation": "before",
+      "support_text": "Mughniyeh在2008年被暗杀后，Al-Manar立即宣布其死亡"
+    },
+    {
+      "source": "text_95_node_8",
+      "target": "text_95_node_9",
+      "relation": "before",
+      "support_text": "\"The world is a better place without this man in it,** a State Department spokesman said Wednesday"
+    },
+    {
+      "source": "text_95_node_10",
+      "target": "text_95_node_11",
+      "relation": "before",
+      "support_text": "Al-Manar宣布死亡后，其身份被重新归类"
+    },
+    {
+      "source": "text_95_node_11",
+      "target": "text_95_node_8",
+      "relation": "before",
+      "support_text": "身份归类后，以色列官方开始公开认可"
+    }
+  ]
+}

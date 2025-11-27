@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "text_83_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "巴勒斯坦自杀式爆炸袭击以色列酒店餐厅，造成20人死亡、130余人受伤",
+      "support_text": "following the Palestinian suicide bombing that killed 20 diners in a hotel restaurant. More than 130 others were injured during a Passover Seder",
+      "source_text": "text_83"
+    },
+    {
+      "id": "text_83_node_2",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列军方指挥官与国防部长就袭击事件举行紧急会议",
+      "support_text": "army commanders met Israel's defence minister this morning",
+      "source_text": "text_83"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_83_node_1",
+      "target": "text_83_node_2",
+      "relation": "before",
+      "support_text": "following the Palestinian suicide bombing that killed 20 diners in a hotel restaurant"
+    }
+  ]
+}

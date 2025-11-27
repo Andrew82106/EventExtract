@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "text_141_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "肯尼亚帕拉迪斯酒店遭自杀式爆炸袭击，导致9名员工死亡，酒店完全损毁",
+      "support_text": "Former staff at Kenya's Paradise Hotel, which was blown up last week, complain that they have not been paid. Nine of their colleagues were killed in the suicide attack on the Israeli-owned hotel near the coastal resort of Mombasa.",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "受袭击影响的酒店员工抗议未获拖欠薪资，部分员工称仅获2000肯尼亚先令/年工资",
+      "support_text": "We depended on tips from the guests which was not enough Josephine Mbuli Hairdresser The hotel was completely destroyed by the attack, leaving the staff jobless.",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "以色列籍经理约书亚·萨拉米承诺尽快支付拖欠薪资，但遭员工嘘声反对",
+      "support_text": "Israeli manager Yehuda Sulami said he was not sure if the hotel would be rebuilt because \"terrorist\" attacks were not covered in the insurance policy. He tried to calm tempers during a demonstration and promised they would be paid soon. : Mombasa voices Kenyans react to terror attacks",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_4",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "员工回忆酒店长期拖欠工资，管理层多次承诺但未兑现，如发型师约瑟芬·姆布利案例",
+      "support_text": "Some claimed they had received just 2,000 Kenyan shillings ($25) for a year's work at the Paradise. They say the managers repeatedly promised to pay them, but the promises were never kept.",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_5",
+      "event_type": "Transaction",
+      "event_subtype": "Donation",
+      "event_sub_subtype": "Unspecified",
+      "description": "酒店人力资源经理确认11月薪资未支付，部分需补发9月欠薪，承诺尽快解决",
+      "support_text": "There's no question that November salaries have not been paid,\" Mr Sulami told reporters. \"Some we also have to pay for September. But there's no question their salaries will be paid as soon as possible.",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_6",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "酒店管理层为员工支付医疗费用，并安排部分伤员赴以色列治疗",
+      "support_text": "The hotel management was paying for the medical treatment for staff and had even taken some to hospitals in Israel.",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_7",
+      "event_type": "Justice",
+      "event_subtype": "Acquit",
+      "event_sub_subtype": "Unspecified",
+      "description": "13名嫌疑人因袭击事件被逮捕，美国布什总统将事件归咎于基地组织",
+      "support_text": "Thirteen people have been arrested in connection with the attacks, which US President George Bush has blamed on the al-Qaeda network.",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击后导弹险些击中以色列客机，英联邦驻内罗毕总领馆因威胁疏散工作人员",
+      "support_text": "Shortly after the attack on the hotel, missiles narrowly missed an Israeli passenger plane as it took off from Mombasa airport. In Nairobi, the British High Commission in Kenya has evacuated its staff from its building in Nairobi after a threat was received.",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_9",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "Gray Phombeah声称巴勒斯坦酒店是马赛港地区唯一以色列拥有的酒店",
+      "support_text": "Gray Phombeah声称巴勒斯坦酒店是马赛港地区唯一以色列拥有的酒店",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_10",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "以色列客机起飞",
+      "support_text": "Shortly after the attack on the hotel, missiles narrowly missed an Israeli passenger plane as it took off from Mombasa airport.",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_11",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "威胁到达英国高专馆",
+      "support_text": "In Nairobi, the British High Commission in Kenya has evacuated its staff from its building in Nairobi after a threat was received.",
+      "source_text": "text_141"
+    },
+    {
+      "id": "text_141_node_12",
+      "event_type": "Movement",
+      "event_subtype": "Transportation",
+      "event_sub_subtype": "Evacuation",
+      "description": "英国高专馆从尼罗河的建筑物中撤离员工",
+      "support_text": "The hotel management was paying for the medical treatment for staff and had even taken some to hospitals in Israel.",
+      "source_text": "text_141"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_141_node_1",
+      "target": "text_141_node_2",
+      "relation": "before",
+      "support_text": "Former staff at Kenya's Paradise Hotel...Nine of their colleagues were killed...hotel was completely destroyed by the attack, leaving the staff jobless."
+    },
+    {
+      "source": "text_141_node_1",
+      "target": "text_141_node_7",
+      "relation": "before",
+      "support_text": "Thirteen people have been arrested...al-Qaeda network."
+    },
+    {
+      "source": "text_141_node_1",
+      "target": "text_141_node_8",
+      "relation": "before",
+      "support_text": "Shortly after the attack...threat was received."
+    },
+    {
+      "source": "text_141_node_1",
+      "target": "text_141_node_9",
+      "relation": "before",
+      "support_text": "Gray Phombeah声称巴勒斯坦酒店是马赛港地区唯一以色列拥有的酒店"
+    },
+    {
+      "source": "text_141_node_2",
+      "target": "text_141_node_3",
+      "relation": "before",
+      "support_text": "He tried to calm tempers during a demonstration and promised they would be paid soon."
+    },
+    {
+      "source": "text_141_node_3",
+      "target": "text_141_node_4",
+      "relation": "before",
+      "support_text": "Some claimed they had received just 2,000 Kenyan shillings...promises were never kept."
+    },
+    {
+      "source": "text_141_node_4",
+      "target": "text_141_node_5",
+      "relation": "before",
+      "support_text": "There's no question that November salaries have not been paid,...promises will be paid as soon as possible."
+    },
+    {
+      "source": "text_141_node_5",
+      "target": "text_141_node_6",
+      "relation": "before",
+      "support_text": "The hotel management was paying for the medical treatment...taken some to hospitals in Israel."
+    },
+    {
+      "source": "text_141_node_8",
+      "target": "text_141_node_10",
+      "relation": "before",
+      "support_text": "Shortly after the attack on the hotel, missiles narrowly missed an Israeli passenger plane as it took off from Mombasa airport."
+    },
+    {
+      "source": "text_141_node_11",
+      "target": "text_141_node_12",
+      "relation": "before",
+      "support_text": "In Nairobi, the British High Commission in Kenya has evacuated its staff from its building in Nairobi after a threat was received."
+    }
+  ]
+}

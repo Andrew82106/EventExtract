@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": "text_88_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "Unspecified",
+      "description": "疑似自杀式炸弹袭击发生在巴基斯坦拉基玛瓦特附近村庄的排球比赛现场，造成88人死亡、42人受伤",
+      "support_text": "Local police have said 42 people were wounded. It is understood some people were trapped under rubble after a house collapsed.",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_2",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击发生时，目击者目睹炸弹袭击者驾驶车辆冲入比赛场地并引爆",
+      "support_text": "Eye witnesses say they saw the bomber drive a vehicle onto the playing field and blow himself up.",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_3",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击当天正值巴基斯坦全国抗议暴力活动日，卡拉奇等城市发起罢工",
+      "support_text": "Pakistan's commercial capital Karachi nearly shut down as religious and political leaders called for a strike to denounce bloodshed after a suicide bomber killed 43 people at a religious procession this week.",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_4",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "本周早前宗教游行发生43人死亡的自杀式爆炸事件，成为罢工导火索",
+      "support_text": "An attack on a sporting event is highly unusual, although militants have recently started bombing crowded civilians areas like markets to inflict mass casualties, spreading fear and chaos.",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "Research",
+      "event_sub_subtype": "Unspecified",
+      "description": "内政部长马利克在卡拉奇访问时谴责极端组织为巴基斯坦和伊斯兰的敌人",
+      "support_text": "Interior Minister Rehman Malik said militant groups were harming Pakistan. ‘They are hired assassins. They are enemies of Pakistan. They are enemies of Islam,’ he told reporters.",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_6",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "激进分子加剧暴力行为，包括公开鞭打和处决违反其教义者",
+      "support_text": "Militants have become increasingly brazen in their bid to topple the government and impose their brand of Islam, including public floggings and executions for anyone who disobeys them.",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_7",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "极端组织势力范围扩展至城市，包括军事总部附近的清真寺袭击事件",
+      "support_text": "Karachi's streets were nearly empty today. The stock exchange, which normally operates on the first day of the year, was closed.",
+      "source_text": "text_88"
+    },
+    {
+      "id": "text_88_node_8",
+      "event_type": "Conflict",
+      "event_subtype": "Defeat",
+      "event_sub_subtype": "Unspecified",
+      "description": "袭击导致卡拉奇街道空荡，证券交易所因罢工关闭",
+      "support_text": "An attack on a sporting event is highly unusual, although militants have recently started bombing crowded civilians areas like markets to inflict mass casualties, spreading fear and chaos.",
+      "source_text": "text_88"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_88_node_3",
+      "target": "text_88_node_8",
+      "relation": "before",
+      "support_text": "证券交易所因罢工关闭"
+    },
+    {
+      "source": "text_88_node_4",
+      "target": "text_88_node_3",
+      "relation": "before",
+      "support_text": "巴基斯坦的卡拉奇等城市发起罢工...after a suicide bomber killed 43 people at a religious procession this week."
+    },
+    {
+      "source": "text_88_node_4",
+      "target": "text_88_node_6",
+      "relation": "before",
+      "support_text": "militants have recently started bombing crowded civilians areas like markets to inflict mass casualties"
+    },
+    {
+      "source": "text_88_node_6",
+      "target": "text_88_node_7",
+      "relation": "before",
+      "support_text": "Militants have become increasingly brazen in their bid to topple the government..."
+    }
+  ]
+}

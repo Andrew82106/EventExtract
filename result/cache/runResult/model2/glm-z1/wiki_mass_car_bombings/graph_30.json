@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "text_30_node_1",
+      "event_type": "Conflict",
+      "event_subtype": "Attack",
+      "event_sub_subtype": "DetonateExplode",
+      "description": "伊拉克多地今日发生针对什叶派朝圣者的爆炸袭击",
+      "support_text": "the bombings across Iraq today which mainly targeted Shia pilgrims in Baghdad and elsewhere.",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_2",
+      "event_type": "Control",
+      "event_subtype": "ImpedeInterfereWith",
+      "event_sub_subtype": "Unspecified",
+      "description": "中东事务部长对袭击表示震惊并强烈谴责",
+      "support_text": "I was appalled to hear of the bombings across Iraq today",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_3",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "部长向遇难者家属致以深切慰问",
+      "support_text": "offer my deepest condolences to the families of those who lost their lives and those who were injured",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_4",
+      "event_type": "Contact",
+      "event_subtype": "RequestCommand",
+      "event_sub_subtype": "Meet",
+      "description": "部长呼吁伊拉克各政治派别合作保障国家安全",
+      "support_text": "I urge all political blocs in Iraq to work together and focus on bringing security and stability to all of Iraq",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_5",
+      "event_type": "Cognitive",
+      "event_subtype": "IdentifyCategorize",
+      "event_sub_subtype": "Unspecified",
+      "description": "中东部长听到针对什叶派朝圣者的轰炸事件",
+      "support_text": "I was appalled to hear of the bombings across Iraq today",
+      "source_text": "text_30"
+    },
+    {
+      "id": "text_30_node_6",
+      "event_type": "Contact",
+      "event_subtype": "Contact",
+      "event_sub_subtype": "Meet",
+      "description": "中东部长就轰炸事件发表声明",
+      "support_text": "I strongly condemn these cowardly attacks and offer my deepest condolences",
+      "source_text": "text_30"
+    }
+  ],
+  "edges": [
+    {
+      "source": "text_30_node_1",
+      "target": "text_30_node_2",
+      "relation": "before",
+      "support_text": "Reacting to the reports the Minister for the Middle East said"
+    },
+    {
+      "source": "text_30_node_1",
+      "target": "text_30_node_5",
+      "relation": "before",
+      "support_text": "Reacting to the reports the Minister for the Middle East said"
+    },
+    {
+      "source": "text_30_node_2",
+      "target": "text_30_node_3",
+      "relation": "before",
+      "support_text": "I strongly condemn these cowardly attacks and offer my deepest condolences"
+    },
+    {
+      "source": "text_30_node_3",
+      "target": "text_30_node_4",
+      "relation": "before",
+      "support_text": "I urge all political blocs in Iraq to work together"
+    },
+    {
+      "source": "text_30_node_5",
+      "target": "text_30_node_6",
+      "relation": "before",
+      "support_text": "I urge all political blocs in Iraq to work together"
+    }
+  ]
+}
